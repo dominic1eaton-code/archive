@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\bfdefault}{b}
+\usepackage[scaled]{helvet}
+\renewcommand{\ttdefault}{pcr}
+\linespread{1.05}
+\normalfont % in case the EC fonts aren't available
+ 
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}   
+\usepackage{lipsum}
+%\documentclass{amsart}
+
+
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+\title{Vehicle Crowds}
+\author{eatondo}
+
+\begin{document}  
+\maketitle
+
+\tableofcontents{}
+
+\part{Introduction}
+
+\part{Representation}
+
+model/problem representation
+
+\part{Learning}
+learning for single agents \\
+learning for multiple agents \\
+learning multiple tasks \\
+
+** Sharing ** \\
+
+\part{Planning}
+
+learning to learn \\
+meta / hierarchical RL \\
+
+\part{Communication}
+
+**Sharing**
+
+\chapter{Physical Network System}
+Networks - Cloud/Fog/Edge physical layer networks \\ 
+Edge Networking \\ 
+
+\chapter{Distributed BC System}
+
+\chapter{Distributed Learning System}
+
+\part{Privacy and Security}
+*Private by design 
+
+\part{Applications}
+
+\end{document}

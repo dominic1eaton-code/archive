@@ -1,0 +1,32 @@
+/**
+ * @brief inventory, stores, material, stock management system
+ */
+
+
+new
+
+
+create
+create inventory
+create store
+create material
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

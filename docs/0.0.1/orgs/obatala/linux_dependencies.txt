@@ -1,0 +1,11 @@
+
+sudo apt install libx11-dev
+sudo apt install x11-apps -y
+sudo apt install python3
+sudo apt install cmake
+sudo apt install gcc
+sudo apt install valgrind
+sudo apt install cppcheck
+sudo apt install gradle
+
+

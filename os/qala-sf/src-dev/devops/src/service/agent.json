@@ -1,0 +1,5 @@
+{
+  "controller": "controller.mydomain.com",
+  "labels": "linux-x86_64",
+  "token": "AGENT_ABC_123_456"
+}

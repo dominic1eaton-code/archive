@@ -1,0 +1,499 @@
+/**
+ * @brief portal view
+ */
+
+shirika
+organization kernel system
+
+    pumzi
+    organization portal
+
+    moyo
+    organization kernel management system
+
+    pamoja
+    organization management and administration tool
+
+    tandao
+    social network platform
+
+    zima
+    organization service tool
+    
+    eti
+    HR, HRM, employee management system
+        
+    fata
+    contact management system
+
+    uso
+    digital workspace, intranet, employee portal ("google drive")
+
+        milango
+        application tracking, talent acquisition, recruitment/staffing management system
+
+        ajiri
+        employee service tool
+
+        shiriki
+        media, file, document sharing system
+
+        wakati
+        schedule, time management tool
+
+        tukio
+        event management tool
+
+yeusi
+enterpise management, administration, integration portal
+
+    singi
+    MVE, enterprise kernel management system
+
+    panga
+    studio factory management, adminsitration, control system
+
+    kito
+    studio service, registration, management tool
+
+    iroko
+    enterpise architecture, design, blueprint, management system
+
+    enterprise infrastructure, integration, CMMI management system
+
+    olumo
+    enterpise application development system
+
+oshun
+business management system portal
+    
+    MVB, business kernel management system
+
+    agemu
+    business planning, business case management system
+
+    gongo
+    firm, business function management tool
+
+    gia
+    business intelligence platform
+
+    ferese
+    portal management system
+    
+    brief management system
+
+    business management system
+
+nigozi
+entity portal
+
+    oluko
+    entity kernel, "evo-devo toolkit" development, management, administration system
+
+    jeni
+    entity blueprint registration, control, administration and management
+
+    umoya
+    identity management system, domain controller
+
+    ireti
+    backup and recovery system
+
+    tumbo
+    master data, information flow, "metabolism", "homeostasis", MVData management
+
+    dongosolo
+    business process, workflow, orchestration, coordination system
+
+    midomo
+    entity "allostatis", synchronization, coordination, orchestration|workflow|process, socialization, integration management
+
+    chombo
+    entity, legal, compliance management, administration system
+
+kichwa
+executive portal
+
+    bodi
+    board management, administration system
+
+    tambua
+    executive management, administration system
+
+    ipinnu
+    strategic management tool
+
+    eneo
+    scenario management system
+
+    egbe
+    team management system, portal
+
+miteja
+Client, Customer portal
+
+    hutumuia
+    client, customer portfolio management system
+
+    mikono
+    CRM system
+
+    jade
+    publishment, publication, distribution management system
+
+chumi
+marketing portal
+
+    soko
+    marketing management system
+
+programu
+"app store" package portal
+
+    icala
+    package manager
+    
+    tool manager
+    
+    solutions manager
+    
+    directory management tool
+
+umba
+solution, product, service, app, system portal
+
+    hamu
+    solution, product, service, app, system portfolio management system
+
+    kiri
+    solution, product, service, app, system lifecycle management
+
+    haja
+    solution, product, service, app, system requirements management system
+    
+    yai
+    solution, product, service, app, system bootstrapping tool
+
+    wimbi
+    solution, product, service, app, system design tool
+
+    usoro
+    solution, product, service, app, system development tool
+    
+    jaribio
+    solution, product, service, app, system validation, QA, test platform
+
+    isi
+    web, mobile, device, desktop, software app development platform
+
+bongbo
+computing environment configuration portal
+
+    ile
+    computing environment configuration, deployment and management tool
+
+qala
+SDE tool
+
+    qala kernel
+    core DevSecOps platform
+    
+    qala build
+    build enviornment system
+
+    qala dev
+    sandbox management, development, container tool
+
+    qala CI
+    continuous integration tool
+
+    qala CD
+    continuous delivery and deployment tool
+
+    qala CM
+    configuration management tool
+
+    qala UI
+    SDE UI
+
+    wiwo
+    IDE tool
+
+    kumbuka
+    software packaging utility, installer creator tool
+
+    iranti
+    logging library
+
+sebenzi
+office management and administration portal
+
+    wajibu
+    office management and administration system portal
+
+    hodi
+    document template, management and control system
+
+    bopha
+    contract management system
+
+kubatana
+network system development, network analysis, server platform
+
+    mawazo
+    file server, file management system
+
+    wamba
+    database system, server
+
+    izwi
+    communications platform
+
+        shosha
+        chat platform
+
+        barua
+        email platform
+        
+chapa
+design platform portal
+
+    choraji
+    design system
+
+    muhuri
+    brand management system
+
+ukubusa
+governance (rules,audit,access,procedures,standards) management system
+
+    kanna
+    standards management system
+
+    daju
+    audit system
+
+sisan
+operations, work mangement portal
+
+    moto
+    agile OPM tool
+    
+    agbara
+    job design, role;responsibility;work actor;work force management, work management system
+
+    kusi
+    purchasing, sales, order management system
+
+    kiungo
+    supply chain management system
+
+    hifadi
+    inventory, stores, material, stock management system
+    
+    hewa
+    transaction processing system
+
+kupokea
+data management portal
+
+    kupewa
+    data management system
+
+    yip
+    version, revision control tool
+
+    akili
+    knowledge, wiki management system
+
+    umbo
+    data serialization, compression library
+
+    milima
+    IT, IS management and maintenance tool
+
+    sawari
+    content management system
+
+    veza
+    analytics platform
+
+    azana
+    data visualization platform
+
+nakala
+simulation management portal
+
+    omi
+    simulation platform
+
+    ina
+    procedural generation platform
+
+    mifano
+    3d printing modelling software
+
+    ogun
+    graphics abstraction api library
+
+    hesabu
+    hardware, device abstraction api library
+        
+    ossain
+    video game development platform
+
+    maono
+    UI library
+
+    oru
+    game engine
+
+        oju
+        render engine
+
+        jiwe
+        physics library, engine
+
+        samaha
+        statistcal mechanics, statistics, stochastics, noise library
+
+        dilula
+        mathematics and computation library, engine
+
+        kikundi
+        federation, RTI, DSAC, HLA platform
+
+        sauti
+        audio engine
+
+        wakala
+        entity engine
+
+        iziko
+        distributed systems, device communications, device network library
+
+kiwanda
+autonomous production, fabrication, manufacturing, factory portal
+
+    dala
+    autonomous production system
+
+    imewe
+    3d fabrication, autonomous manufacturing system
+    
+    umuvi
+    autonomous factory platform
+
+oya
+mobility platform portal
+
+    migu
+    mobility platform 
+
+    kuzwa
+    sensor design, development, management platform
+
+    nandi
+    AV system platform
+
+    nizuki
+    AV platoon, fleet platform
+
+    amaya
+    V2V, A2A communications platform
+
+    hoja
+    autonomous transportation platform
+
+ashe
+autonomous infrastructure platform portal
+
+    farada
+    environment sustainability platform
+
+    amandla
+    autonomous energy platform
+
+    amanzi
+    autonomous power platform
+
+    hanya
+    autonomous control platform
+
+    onile
+    real estate management system
+
+    cheneo
+    space resuse and management platform
+
+    yemaya
+    horticulture, agriculture platform portal
+
+        osisi
+        autonomous plant propogation system
+
+        ahun
+        autonomous test kitchen platform
+
+asili
+media production portal
+
+    ukungu
+    content factory, media production platform
+
+    lumai
+    language studio platform
+
+    amahoro
+    music production platform
+
+    kesa
+    writing studio platform
+
+vuke
+SecOps, Security, Privacy portal
+
+    iketango
+    DLT platform
+
+    shango
+    risk management system
+
+    data encryption library
+        
+    intuba
+    access control system
+
+damu
+finance, investment, accounting portal
+
+    maji
+    finance management, administration tool
+
+    leja
+    accounting management tool
+
+    ujasiri
+    investment, portfolio, equity management system
+
+    kutenga
+    resource budgeting, allocation, management, administration system
+
+nafsi
+health portal
+
+    lafiya
+    biometrics platform
+
+kufikia
+education portal
+
+    fundisa
+    training platform
+
+
+estate management portal
+    estate management system
+
+VC studio (entity) management portal

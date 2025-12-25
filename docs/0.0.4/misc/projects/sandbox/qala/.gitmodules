@@ -1,0 +1,24 @@
+[submodule "qala-configuration-manager"]
+	path = qala-configuration-manager
+	url = ./qala-configuration-manager/
+[submodule "qala-package-manager"]
+	path = qala-package-manager
+	url = ./qala-package-manager/
+[submodule "qala-sde"]
+	path = qala-sde
+	url = ./qala-sde/
+[submodule "qala-testbed"]
+	path = qala-testbed
+	url = ./qala-testbed/
+[submodule "qala-system"]
+	path = qala-system
+	url = ./qala-system
+[submodule "qala-workspace"]
+	path = qala-workspace
+	url = ./qala-workspace/
+[submodule "qala-host"]
+	path = qala-host
+	url = ./qala-host/
+[submodule "qala-client"]
+	path = qala-client
+	url = ./qala-client/

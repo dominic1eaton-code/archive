@@ -1,0 +1,81 @@
+
+<non direct ownership of business entity by group>
+group The Batwa Investments Group
+	company<holding> The MeChoro Corporation
+		entity Patent
+			sub-entity 
+				project
+		entity Financial
+			sub-entity Trust
+				project
+		entity Affilliate
+			sub-entity 
+				project
+		entity Charity
+			sub-entity 
+				project Heritage
+		entity Foundation
+			sub-entity 
+				project Forestation
+
+	subsidiary<sector Manufacturing and Design> Meputa Manufacturing and Design
+		field 3D Printing Services
+			focus Vehicular
+				portfolio<item > 
+					program
+						project
+		field Factory Automation
+			focus Vehicular
+				portfolio<item > 
+					program
+						project
+	subsidiary<sector technology> Oniru Technologies
+		field Mobility
+			focus Vehicular
+				portfolio<item > 
+					program
+						project
+			focus Vehicular Networks
+				portfolio<item > 
+					program
+						project
+		field Simulation
+			focus Media
+				portfolio<item gaming> Oru Platform
+					program Oru Simulator
+						project Oru Network and Communications Simulator
+						project Oru Vehicle Simulator
+						project Oru Multi Agent Simulator
+					program Oru Engine
+						project Oru Game Engine
+						project Oru Renderer and Designer (3D Modeller Software, connects to Imewe 3D printer System) --> project The Imewe System
+			focus Multi-Agent Simulations
+				portfolio<item > 
+					program
+						project
+	subsidiary<sector agriculture> Obgin Automation Cultivation Services
+		field 
+			focus 
+				portfolio<item plant propogation system> The Osisi System
+					program
+						project
+				portfolio<automated horticulture and agricultural services>
+					program
+						project
+	subsidiary<sector Food>
+		field 
+			focus 
+				portfolio<item > Test Kitchens
+ 					program Kitchen Skill Incubator
+						project Test Kitchen
+	subsidiary<sector >
+		field 
+			focus 
+				portfolio<item > 
+					program
+						project
+			
+			
+			
+			
+			

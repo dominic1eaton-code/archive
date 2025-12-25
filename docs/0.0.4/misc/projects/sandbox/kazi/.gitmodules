@@ -1,0 +1,30 @@
+[submodule "dagba-client"]
+	path = dagba-client
+	url = ./dagba-client/
+[submodule "dagba-community"]
+	path = dagba-community
+	url = ./dagba-community/
+[submodule "dagba-finance"]
+	path = dagba-finance
+	url = ./dagba-finance/
+[submodule "dagba-marketplace"]
+	path = dagba-marketplace
+	url = ./dagba-marketplace/
+[submodule "dagba-portfolio"]
+	path = dagba-portfolio
+	url = ./dagba-portfolio/
+[submodule "dagba-search"]
+	path = dagba-search
+	url = ./dagba-search/
+[submodule "dagba-host"]
+	path = dagba-host
+	url = ./dagba-host/
+[submodule "dagba-workspace"]
+	path = dagba-workspace
+	url = ./dagba-workspace/
+[submodule "dagba-work"]
+	path = dagba-work
+	url = ./dagba-work/
+[submodule "dagba-space"]
+	path = dagba-space
+	url = ./dagba-space/

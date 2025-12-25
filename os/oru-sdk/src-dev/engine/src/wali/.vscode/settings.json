@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "SConstruct": "python",
+        "SConscript": "python",
+        "vector": "cpp"
+    }
+}

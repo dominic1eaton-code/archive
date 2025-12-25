@@ -1,0 +1,14 @@
+[Unit]
+Description=Mini-CD Controller
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/mini-cd-controller start
+Restart=always
+User=mini-cd
+Group=mini-cd
+WorkingDirectory=/var/lib/mini-cd
+Environment=RUST_BACKTRACE=1
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,63 @@
+https://www.youtube.com/watch?v=sRyZ-XwmgnE
+entropy - maintina complex systems, consume enrgy to maintina order
+- AI biodomes
+- RL - observe, action, reward
+- gradual benchmark satisfaction (cirriculum learning)
+- intrinsic vs extrincis reward
+- attention (and gaze points)
+
+--- personal notes 
+- self-reward correction (maybe based on affect)
+
+
+---
+perhaps agents should recognize not only that their actions have physical consequences in the "real world" for the individual agent but also that these physical consequences could also be extended to other, seperate entities that the agent affects as well (and that the actions of other entities could affect the individual agent). - Theory of mind, understanding of consqeunces, actions (desires, beliefs, etc...) of others, and how they affect the agent (and that those are seperate from the individual agent) ...
+
+
+AgentSIm Workflow and Apps
+
+AgentSim Feature 
+---
+Core 
+- Math Lib 
+- Physics Lib
+- Networked Computing Lib 
+- game theory Lib 
+
+
+DES 
+- communications
+	- basic VANET V2V/V2M(mobile) communications
+	- edge/fog network/computing platform
+	- middleware deveopment platform
+	- DLT overlay network development platform
+
+GE 
+- procedural generation
+	- PWG - static element automated generation
+	- PAI - dynamic element automated generation
+	- physics+rendering engine
+
+AI Platform
+- ML Platform
+	- sensors and perception networks  
+		- computer vision apps
+	- learning and controls
+		- RL agent development platform
+		- HRL agent development platform 
+
+
+Device Platform
+- sensor integration
+	- camera sensors
+	- LiDar Sensors
+	- radar sensor
+	- sonar sensor
+
+
+Application Module
+- AV extension module
+	- platoon App
+	- rideshare App (incentive mechanism design)
+	- vehicle formation crowd controller app
+	- vehicle privacy app[s]

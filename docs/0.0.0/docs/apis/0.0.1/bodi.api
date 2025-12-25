@@ -1,0 +1,42 @@
+/**
+ * @brief board management system
+ */
+
+new
+
+create
+create board member
+create board chair
+create resolution
+create audit
+create council
+
+create committee
+create taskforce
+create summit
+create conference
+create assembly
+create meeting
+
+create minutes
+create meeting
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

@@ -1,0 +1,164 @@
+/**
+ * @copyright
+ * @header
+ * @brief organization kernel management system
+ * @note
+ */
+
+[create]
+create organization
+    create unit
+    create team
+    create group
+    create member
+    create collective
+    create crowd
+
+
+
+    create structure
+
+
+
+    create role
+        create permission
+        create membership
+        create responsibility
+        register user
+        register group[]
+        register account
+    create identity
+    create position
+    create job
+    create user
+    create account
+    create group
+
+    create network
+        create graph
+
+    create business
+        create board
+        create firm
+        create enterprise
+            create firm A
+            create firm B
+            create firm C
+    create fund
+        create trust
+        create equity
+        create VC
+    create foundation
+        add council
+        add assembly
+        add assembly general
+    create estate
+        add board
+
+    create portfolio
+        create program
+            create project
+                create solution
+                    create epic
+                    create story
+                        create capability
+                        create feature
+                        create enabler
+                        create blocker
+                        create enhancement
+                        create bug
+                        create defect
+                        create issue
+                        create case
+                        create requirement
+
+    create board
+        create chair
+        create member<role><membership><account ...>
+    create team [function]
+        create member
+    create team management
+        create manager
+    create team executive
+        create chief
+        create chief officer strategy
+        create chief officer technology
+        create chief officer finance
+        create chief officer marketing
+    create team development
+        create member
+        create lead
+        create manager
+        create directory
+        create employee
+
+
+create organization app
+    create ui|portal
+    create app
+    create system|domain
+    create infrastructure
+
+[add]
+add kernel
+
+[connection]
+chapter
+guild
+tribe
+alliance
+line
+domain
+
+[level]
+create member<role|employee|actor>
+create team
+create squad
+create platoon
+create company
+create battalion
+create regiment
+create division
+create corps
+create army
+
+[attributes]
+goal ...
+structure ...
+category
+
+[metric]
+autonomy
+entitativity
+coherence
+unity
+maturity
+orientation
+
+influence
+power
+span of control|control
+force
+energy
+conformity
+cohesion
+dissonance
+
+synomorphy
+
+[interaction]
+create
+isolate
+organize
+sustain
+disband
+regroup
+
+forming
+storming|conflict
+norming|flocking
+adjourning|disband
+performing|sustain
+
+converging
+diverging

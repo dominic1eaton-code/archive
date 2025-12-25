@@ -1,0 +1,15 @@
+[submodule "nandi-bus"]
+	path = nandi-bus
+	url = ./nandi-bus/
+[submodule "nandi-os"]
+	path = nandi-os
+	url = ./nandi-os/
+[submodule "nandi-sedan"]
+	path = nandi-sedan
+	url = ./nandi-sedan/
+[submodule "nandi-truck"]
+	path = nandi-truck
+	url = ./nandi-truck/
+[submodule "nandi-van"]
+	path = nandi-van
+	url = ./nandi-van/

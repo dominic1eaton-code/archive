@@ -1,0 +1,74 @@
+/**
+ * @brief contact management system
+ */
+
+
+new
+
+
+create
+create contact
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add resume
+add cover_letter
+add website
+add brief
+    add profile
+add contact
+    add contact emergency
+    add contact work
+    
+    add info
+        add name [first] [second] [third] [...] [last]
+            add title
+            add alias
+            add honorific
+
+    add address
+    add address[] home
+    add address[] work
+    add address[] email
+    add number
+    add number phone
+    add number cell
+    add number personal
+    add number work
+    add number home
+    add number fax
+    add account message slack
+    add account message discord
+    add account message whatsapp
+    add account media meetup
+    add account media twitter
+    add account media facebook
+    add account media snapchat
+    add account developer gitlab
+    add account developer github
+    add account developer bitbucket
+add contact list
+add contact directory
+
+
+search|query
+search contact [name|ID]
+search contact [name|ID] list [name|ID]
+
+
+filter
+filter contact [name|ID|code|info|title|honorific]
+
+connect
+

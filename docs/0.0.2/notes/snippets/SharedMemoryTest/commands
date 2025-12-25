@@ -1,0 +1,12 @@
+g++ testSM.cc SharedMemory.cc -lpthread -o sm
+g++ testSM.cc SharedMemory.cc -lpthread -lrt -o sm
+g++ testSM.cc SharedMemory.cc SharedMemoryException.cc -lpthread -lrt -o sm
+g++ testSM_2.cc SharedMemory.cc SharedMemoryException.cc -lpthread -lrt -o sm2
+g++ testsm.cc SharedMemory.cc SharedMemoryException.cc -lpthread -lrt -o testsm
+g++ testsm.cc  -lpthread -lrt -o testsm
+g++ testSM_2.cc SharedMemory.cc SharedMemoryException.cc -lpthread -lrt -o testsm_2
+sudo ./testsm_2
+
+g++ smboost.cc -lpthread -lrt -o smboost
+
+

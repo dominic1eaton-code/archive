@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "name": "auth-service",
+      "kind": "service",
+      "interfaces": ["login", "register"]
+    },
+    {
+      "name": "user-db",
+      "kind": "database",
+      "interfaces": []
+    },
+    {
+      "name": "frontend",
+      "kind": "ui",
+      "interfaces": ["http"]
+    }
+  ],
+  "dependencies": [
+    {"from": "frontend", "to": "auth-service", "kind": "http"},
+    {"from": "auth-service", "to": "user-db", "kind": "sql"}
+  ]
+}

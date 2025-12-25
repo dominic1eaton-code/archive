@@ -1,0 +1,819 @@
+    // master doc series A 
+// @doc-master (A.0)  Master Plan A.0 Document v0.0.0
+
+/** 
+ *  @copyright 
+ *
+ *      COPYRIGHT INFORMATION 
+ *
+ *
+ *  @liscence 
+ *
+ *      LISCENCING INFROMATION 
+ *
+ *
+ *  @version    
+ *
+ *      VERSION INFORMATION 
+ *
+ */
+
+/**
+ *  @meta-annotations
+ *  @file       : Gentilis (other names tentative) ?
+ *  @author     : eatondo
+ *  @date       :
+ *  @description: (statically typed ?) pure agent oriented progamming language (poapl)
+ *  @note       : 
+ *  @milestones : 
+ *  @tasks      : 
+ *  @progress   : 
+ *  @version    :
+ *  @TODO       :
+ * 
+ */
+
+ /**
+  * // Internal documentation structuration
+  * @meta-annotations doc types
+  * @doc
+  * @doc-master series-number "name and info"
+  * @doc-development    ?
+  * @doc-testing
+  * @doc-build
+  * @doc-container      ?
+  * @doc-task           ?
+  * @doc-info       
+  * @doc-pipeline       ?
+  * @doc-technical      ?
+  * @doc-specification
+  */
+
+/**
+ * // specification documents
+ * @spec  
+ * @spec-language 
+ * @spec-grammar
+ * @spec-system 
+ * @spec-pipeline
+ * @spec-job
+ */
+
+/*
+HIGH LEVEL NOTES
+    - thermodyanmics / statistical mechanics connections ??
+    - the physisicts view
+    - the mathematical description
+    - an engineered design / solution
+    - the simulation/control of any automata ([autonomous] agent) ~ theorem
+        - abstract idea about how these automata operate
+        - how these automata can *consistently* perform desired tasks / emulate desired behavior 
+        - the consistency principle 
+        - control automata of *unbounded [capability] to perform tasks within bounded constraint
+        
+    agents
+    - The computational machine (and von neumann architecture / theory of computations)
+    - complex automata
+    - the theory of agents 
+    - languages / descriptions of control
+    - 	
+    
+    attributes
+    - limitations on computablility --> limitations on control(lability) ?
+    - the controllability bounds 
+    - (computational) control theory 
+    - impact, influence, accessibility, desire, expectation 
+    - (iso)synchronicity
+    - deviancy and the aesthetic (preservation, appeal)
+    - equilibrium ([of] state, power and control, homo/heterogeneity, etc...)
+    - the unexposurement of the internal system[s] of an agent 
+    
+    processes
+    - the processes of the elimination of ambiguity (and logics, appelation)
+    - why does this process occur ?, is this process necessary ?, can an [any] agent 
+      replicate this process ?	
+    
+    toward [computational] trust
+    - internal model produced by an agent about the expected output [model] of another agent
+      matches (directly) to the output [model] produced by that (other) agent, and correlatability
+      between two outputs (of agent internal model of other agent, and other agent output 
+      model) exists (is possible [bounds/existence of correlatability...]) 
+    - consistent abidence / unmodification from the expectation (of [output, behavioral] model)
+    - abstract notion of the generation of trust, based on the consistent unmodification 
+      (absence of deviancy) of behavior from expectation (of output) 
+      vs
+    - preconcieved [practiced?] notion of trust, based on (historocity) and capability to achieve expectation
+      (of output model)
+
+*/
+
+/*
+    
+    PALCYA
+
+    ---
+    PalchyaX
+        -
+
+    [[Syllogibrum]] ? Synebrum - formerly AVCB Project
+        - The [[Syllogibrum]] Synebrum project 
+
+    Agentas     
+        - AgentasX 
+        - 
+
+*/
+
+/*
+    Requirements, Objectives and Analysis
+    - *toward the study and improvement of [human?] mobility...         
+    - a tool to study complex Systems (research and production)
+        - standardization comlpex system development
+         - theoretical vs emperical study of complex systems (via simulation)
+    - a tool to study complex autonomous systems (e.g. autonmous vehicles [ground, air, etc...]) (research and production)
+    - a platform for software and hardware [streamlined] sdevelopment of AVCB technologies 
+        - simulation [simulator (autonomous vehicular agent, principally)] research, development and production platform / ecosystem 
+        - hardware [controller (multi distributed autonomous agent, principally)] research, development and production platform / ecosystem
+        - infrastructure design and development
+    - "master simulation" tools and ecosystems 
+    - simulation standard revision and development 
+        - FAA simuation standards
+        - autonomous agent simulation standards
+        - AV simulation standards 
+        - complex system (engineering) simuation standards 
+    - product lifecycle management (PLM)
+    -
+
+*/
+
+
+
+ /* 
+    general notes: 
+        - agent systems / knowledge is to be compacted:
+            - self folding [systems]  
+            - [molecular] self assembly systems 
+            - com-"plicare"
+        - on the recording of knowledge [systems]
+        - documentation models 
+        - "tendency to remember interrupted tasks" effect 
+    - DOORS 
+        - requirements management models
+    - IDD, ICD, SDD, SCD, ...
+    - GEARS actuation 
+        - big lever logic
+    - System *Creator
+        - Software + HLL (High level [development] language)
+    - YMLx
+        - Data model file
+    - HLA / DSAC
+    - Diagrammatic / architectual based system design
+    - Model based system design/emgineering (MBSE?)
+    - Testing Environment
+ */     
+
+
+/*
+    HAEs (Heterogeneaous Agent Ecosystems)
+    PAEs (Pure Agent Ecosystems)
+    AEs  (Agent Ecosystems)
+
+    Agentas - 
+        An ecosystem for complex autonomous systems ... 
+
+    AgentasX - 
+        An ecosystem for complex systems ... 
+*/
+
+
+ /*   
+    TODO: 
+        language / software:
+        - functions / implementations that operate across different agent scales, 
+        - multi-agent operators 
+        - language extensions / organization, packages, plugins, modules, reuse,  etc...
+        -
+ */
+
+
+ /*
+    Company / Organization (DCAO ...?, sub-DCAOs, pseudo-DCAOs, interacting DCAOs, ...)
+        - the Divisions [sectors?] (Research-Innovation, Engineering, Business/Finance, Management, Operations, Legal, IT,  etc...) 
+            - OpenSource / Community Division[s] (name: TBD) (Research, Agentas/AgentaSim, ...) ...
+            - Enteprise Division[s]
+            - The Private Division[s] ...
+            - ... Government Division[s] ...
+            - External Division[s] 
+            -
+        - ***THE GOODS... [product / service provided...]
+        - customer / consumer base + marketing / markets
+        - ...     
+
+    Business (Enteprise):
+        - business model 
+            - bootstrapping [meta] data (vision, objectives, milestones, etc...) ...
+            - business architecture 
+            - business logic / rules
+            - view model[s]...
+            - business designs, documentation
+        - business analytics 
+        - *system analytics ...
+        - risks 
+        - objectives / outcomes 
+        - *[new] employee handbook (-under works)
+        - business functions    
+            - finance, marketing, operations management
+            - accounting, purchasing, human resources, engineering
+        - externals
+            - investments, fund, 
+            - charity, scholarships, grants,  
+
+    Project
+        - project management 
+            - workflow management
+            - task management 
+            - scheduling, PERT, ...
+            - project portfolio management (PPM)
+            - operations management
+                - inputs -> *trasnformation process -> finished goods+services...
+                - resoure orchestration 
+                -
+        - startup / bootstrapping ...
+        - scope
+        - administration / technical 
+        - boundaries / constraints
+        - workflow management, control, versioning, etc...
+        - dependency [tracking], relationship diagrams
+        - *project portfolio
+        - view model (Logical view, Process View, Physical System view, Development View, ...)
+
+    Administration:
+        - Business Plan(ing)
+        - Research Statement / Plan of Research 
+        - Workflow documentation 
+        - Team administration 
+            - onboarding process
+            - contribution / collaboration process
+        - Project outline[s]
+        - 
+
+    Management:
+        - Information systems
+        - Perspectus...
+        - management software...
+
+
+    Finances:
+        - funding 
+        - budgets
+        - assets 
+        - product / charges 
+        - sponsors
+
+    Scheduling:
+     - planning 
+     - timelines 
+     - schedules / events / calenders 
+
+    Teams and Collaboration 
+        - team facilities / resources
+        - team management / organization 
+        - team communication infrastructure
+        - offices / organization hierarchy 
+        - Agile methodology / resources / development ...
+        - support team 
+
+    workflow and management (as well as business logic apps...) (ugh...much to do here...):
+        (Software) Agile Development Methodology:
+
+        Information Systems (Business, Management):
+
+        Planning/Management Systems software:
+
+        facilities: 
+            production: 
+                factories 
+
+            management: 
+                office
+
+            virtual:
+                Github - GitLab 
+                code repositories
+                document drives
+
+            infrastructure:
+                Web 
+                - web hosting ... 
+                - email hosting 
+                - domain name / info 
+                - palchya.com, palchya.io, palchya.support, palchya.site
+                    - .dev .site 
+
+                Internal
+                    software/hardware
+                    - servers 
+                    - internal support
+                        - support team / facilities 
+                        - techinical support 
+                        - troublshooting 
+                        - setup, maintainence, management team / facilities / resources ...
+                    - internal communication / chat system 
+                    - wiki ("quick") pages; content management system[s]; wiki server(wiki hosting site[s]), wiki web page program (WikiMedia?), wiki markup languages
+
+        SECURITY:
+            - 
+
+
+ */
+
+
+ /*
+    Technical:
+        General 
+        - model of computation (distributed computational engine)
+        - cognition architecture
+        - agent definition / architecture 
+        - multi agent (system) programming language (MAPL / MASPL) - MASPL ??
+        - agent oriented programming language (AOPL)
+        - agent data description language (an agent json ?)
+        - [distributed] computational engine / system
+        - quality assurance (QA)
+        - *orchestration system[s]
+        - *[fully] redundant system...
+        - **zero tolerance machining**
+        - simulation compliance...
+        - (root) certificate chain+system setup for nodes / VMs
+        - process
+            - develop
+            - build
+            - verify 
+            - test 
+            - deploy 
+            - check 
+
+        The Projects
+        - *Palchya - The Augmentation [Autonomous] Entity Project... [the "self referential" project...]
+            - The Master Projects...
+                - The Master Simulations ...
+                - The Master Controllers ...
+                - *The Master Works ... 
+                - ...
+        - The Synebrum project -> Collective Intelligence [Comtroller[s]]
+        - The [Sustainable] Mobility Project[s] -> Complex Autonomous Systems [of Mobility]
+        - The Terraformation Project[s] ... -> ... Plantery/Astronomical Complex System Science (cf. Earth System Science)
+        - On Procedural Generation, Optimization and Control 
+        - Complex autonomus mobility systems
+            - Ground vehicle mobility project --> space mobility project --> augmentative mobility project[s]
+            - procedural generation project[s] --> augmentative mobility project[s] --> terraformation project[s] --> XXXXX
+            - 
+        -
+
+        applications...
+        - [simulation] demonstrations, showcases, etc. ...
+        - [simulation] trainers 
+        - develpoment environment (reseach, production, etc...) apps 
+        - Dapps...
+        - [hardware] deployments
+        - 
+
+        *documentation ([knowledge] record) system:
+        - content / knowledge management system
+        -
+
+        language / computational models, grammars:
+            agent definition / behavior / interaction compiled language
+                agent architecture / system modelling language 
+                agent architecture (hardware, device) description language
+            agent simulation scripting language
+
+        software, platforms:
+            Agentas Platform
+                Agentas Platform - agent simulation platform[s]
+                AgentasX         - agent ecosystem 
+                *AgentaVM        - agent system virtual machine 
+                Agenta           - agent language compilers / interpreters 
+                AgesMidi         - agent middleware
+                AgentaSim        - agent simulation engine (formerly AgentSim, .agasim) (Simulation Engine)
+                AgentaOS         - agent OS
+
+            Engines
+                Moteri (Mosche) - core simulation engine
+                
+            Agentas simulation containers [components] (and general appellations list):
+            CORE
+                Agent[a]Sim  - Core agent simulator 
+                Cercanum     - Core environment simulator (Simulator bridge ["simulation enclosure"] [simulation middleware ?])
+                Apocrypha    - the unknown... (simulation platform extender / connecter / manager ?)
+
+            TOOLS, LIBRARIES, APIs
+                **Celene     - principle assistant software...
+                Cadelice     - System Designer+Visualizer
+                Grimoire     - An agent oriented book of spells system platform... (internal documentation system/organizer, meta-annotation language/organizer/processor, works publisher/manager, etc...)
+                ShenZhen     - Hardware (design) tool... (ShinGin)
+                Comote       - main system / software design tool (and system diagram generation tool / compiler [?])
+                Analiku      - analysis tool / platform (AnalykEE)
+                Yzmen ?      - testing, verification environment / tool (EEzman)
+                Oxylis       - (internal) documentation / annotation (and units management) tool  
+                             - main automation delivery / orchestration, coordination software ? (Jenkins (or Gitlab runner) interactivity...)
+                             - Testing tool / environment 
+                             - product / requirements management + Software configuration management system/tool 
+                             - Work management tool (VersionOne)
+
+                ProcGerux    - procedural generation tool + library (API) (ProcJeeruchs)
+                             - AgentaSim computational (mathematics, physics, etc...) libraries, tools, plugins, 
+                             - internal scripting tool + library
+                             - [internal, general] accounting (technological, product, resource, finance?) software
+                Genyx?       - The Energy simulation series (Wergen / Ergon)
+                             - 
+
+            SIMULATION FOCUSES (FOCI?) AND SERIES
+                MOBILITY SIMULATION (SERIES)
+                Pleuse       - Flight simulator 
+                Motilus      - Core mobility simulator 
+                MotilusAV    - [Ground] AV mobility simulator (formerly AVSIM)
+                Mobiltica    - Core Mobility Simulator / Simulation Platform
+                
+                AGENT SIMULATION 
+                Percepticet  - Sensor and Perception simulator (Perceptet)
+                Wergen       - Energy simulation 
+                Netskit      - Network Simulation 
+                             - blockchain / decentralized, distributed system simulator 
+
+                INFRASRUCTURE SIMULATION
+                Urboxiti     - UrbanCity Simulator 
+                Consilio     - planning and logistics simulator 
+
+                    SPECIALIZED INFRASTRUCTURE [/ APPLCATION] SIMULATION 
+                    TRAINING SIMULATION SERIES (autonomous trainers ?)
+                        MEDICAL [Trainers]  
+                        Davalya      - medical (building / system) simulation
+
+                        MOBILITY {Trainers}
+                        Full Flight Simulation [Trainers] (FFS)
+                                     - ... ?
+                                     -
+                            Space Simulation
+                                     - 
+                                     -
+
+                        Marine Simulation 
+                                     -
+
+                        Ground Vehicle Simulation 
+                                     - 
+                            
+                ENVIRONMENTAL SIMULATION 
+                TerraniaX    - Earth System Science simulator X
+                Terrania     - earth system science simulation tool 
+                Meteorca     - meterology simulation tool 
+                Climitat     - climatology simulation tool 
+                
+                TERRAFORMATA SIMULATION 
+                             - Terraformata baseline simulator 
+                             - Terraformata Martia Simulation 
+                             - Terraformata Veneria Simulation 
+                             - Terraformata Terra Simulation 
+                             - Terraformata X
+
+            (Formal) Languages and Grammars:
+                Description, Transcription, etc... processes
+                             - functional (logic) specification languages
+                             - architectural specification languages
+                             - system specification languages
+                             - scripting (library) languages
+                             - data processing languages 
+                             - modelling languages...
+                Magemeta     - *meta-annotation processing language ([Magimita])
+                             -
+
+                APLs (Agent Programming Languages)
+                    ASPL         - age  nt systems programming language
+                    MASPL        - multi agent system programming language
+
+                SDLs (System Description Languages)
+                    ASDL         - agent system description language
+                    CSDL         - complex system description language
+
+                SMLs (System modelling languages)
+                                 - 
+
+                ADLs (architecture (agent) description languages)
+                                 - 
+
+                AMLs (Agent Modelling languages)
+                                 -
+
+                Tooling Languages
+                    MeAPL        - meta-annotation processing langauge
+                                 -
+            Protocols: 
+                Specifications
+                    - Agent language, grammar specifications 
+                    - 
+
+                Protocol Stacks
+                    - AVCB protocol stack (name: TBD) 
+                    - 
+
+
+        hardware (components ?? - refactor name ?):
+            - AVCB controller (name: TBD)
+            - AVCB system device[s] (name[s]: TBD)
+            - AVCB peripheral devices / sensors (name[s]: TBD)
+            -
+
+            AVCB agent [physical / logical] systems (forming the larger complex agent/autonomous system, CAS):   
+                agent systems (general)
+                - physical systems
+                - logical systems 
+                - hardware systems 
+                - software systems
+                - distrbuted systems 
+                - 
+
+                agent systems (high level)
+                - mechanical systems
+                - electrical systems 
+                - cognition (cognital ?) systems
+                -
+
+                agent systems (low level)
+                - information system 
+                - interaction systems
+                    - communication systems 
+                    - organization systems
+                - perception systems
+                    - [internal] transport systems 
+                - planning systems  
+                - control systems 
+                    - behavioral systems 
+                    - affectation systems
+                    - regulation (regulatory) systems
+                - memory systems 
+                - energy systems 
+                - 
+
+        file extensions:
+            .palchya    - main docs 
+            .agentas    - platform / product / project docs (Agentas related)
+
+            .apl        - general (core) agent descrption language
+            .maspl      - multi-agent system programming language .ag exentsion language
+            .as         - agent systems archiecture / modelling language 
+            .ds         - agent data description language (an agent JSON-like language)
+            .assl       - agentSim (internal) scripting language 
+            .ags        - agentSim [simulation] container files
+
+            .agilis
+
+            .aopl
+
+            .agenta 
+            .agentax
+
+            .cadel
+
+            .ags ?
+            .cercum
+            .pleuse
+            .terrax
+            .urboxi
+            .percet
+            .mobilit
+            .mobilta
+            .apochry
+
+            .terrani ?
+            .meteorc
+            .climit
+
+            .procgex
+
+            .grim 
+            .oxylis 
+
+            .procgee
+ */
+
+ /*
+    Portfolio / Initiatives
+        - Colonization
+        - Terraformation
+        - Automation
+        - Mobilization
+        - Optimization
+        - Controls + Sustainability
+        
+        - Synebrum
+        - CAMS
+        - Terraformata
+        - AgentX
+        - 
+        
+    Theories:
+        general field theory
+        pattern theory (form theory, morphogenesis)
+        intelligence theory
+            theory of cognition 
+            learning theory 
+        noise theory 
+        agent theory 
+            complex agent theory
+        complex systems theory 
+            complex autonomous systems theory 
+        information thermodynamics + derivatives (cognitive thermodynamics... ?, name: TBD)
+            - information statistical mechanics
+            - information relativity...
+            - *thermodynamic vs information vs general entropy...
+            - the thermodynamics of information systems
+            - the thermodyanmics of cognitive systems (-under c ognitive system theory)
+                - the thermodynamics of biological (and chemical) systems
+                -   
+            -
+        complex cognition theory 
+            - *to cognite ~ to "think" / perform the act of advance computation (cognition), th ability to cognite vs compute...
+            - cognital ? cortical ? (vs mechanical, electrical, etc...) 
+            - *complexation as a form fo the general "augmentation" ?
+            - 
+        -
+
+    Practice:
+        The Challenges of ATs / CSE:
+        Application Challenges
+        
+            -  
+        - The Automata Challenges
+            - The Challenge[s] of Search...                                     --> Automata Quaere
+                -
+                -
+            - The Mass Colonization Challenge
+                - The Terraformation Challenge                                  --> Automata Terra
+                - The Urban Automata Challenge[s]                               --> Automata Civiles
+                - The Complex Autonomous System Design and Control Challenge    --> Automata Imperium 
+            - 
+                -
+                -
+            -
+        -
+        -
+
+        Agent Challenges
+        - The Mobility-Motility Challenge[s]
+        - The Communication Challenge 
+        - The Cognition Challenge
+        - The Organization Challenge[s]
+             - Distributed / Multi Automata Design and Control Challenge[s]
+        - The Economics Challenge   
+        - The Security Challenge
+        - The Sustainability Challenge
+        - 
+
+        ENGINEERING (division, sector?)
+        - product lifecycle - engineering
+        - complex systems engineering                       CSE
+            - complex autonomous systems                    CAS
+            - complex adaptive systems                      CAdS
+            - mobility devices                              MDs
+        - autonomous mobility technologies                  AMTs     
+        - personal mobility technologies                    PMTs      
+        - autononomous technologies                         ATs
+        - autonomus automation technologies                 AATs
+        - autonomous systems                                ASs                       
+        - autonomous mobility systems                       AMSs
+            - autonomous mobility vehicles                  AMVs
+                - autononomous ground mobility vehicles     AGMVs
+                - autonomous marine mobility vehicles       AMMVs 
+                - autonomous aerial mobility vehicles       AAMVs
+                - 
+        - simulation engines                                SEs
+            - simulation containers                         SCs
+            - simuation orchestrators                       SOs
+            -
+        -
+
+        RESEARCH (division)
+            - The [[Syllogibrum]] Synebrum project (Ground AV collective brain, formerly AVCB)
+                - collective intelligence research project[s] ...
+                - development of distributed collective ground [mainly commercial] AV cognitive controller technoglogy 
+                - **SIMULATION TESTBED
+                - 
+            - The Complex Autonomous [Mobility] Systems Research Project (name: TBD, [formerly] CAMS?)
+                - [more general] study, analysis and development of complex autonomuos systems of the mobility type 
+                -
+            - Complex Systems Engineering (research project[s])
+                - research into "productionizing" results of Synebrum and [CAMS] research projects ...
+                - autonomous system architecture design, analysis and deployment projects...
+                - communication channel [for learning, interaction, etc...] design, analysis, etc...
+                    - channel state estimation...
+                    - 
+                -
+            - The Terraformata Project 
+            - The 'AgentX' Project
+
+        BUSINESS / ENTERPRISE (division)
+            - product lifecycle - enteprise
+            - Palchya 
+                sectors of operation (names tentative)
+                - Palchya-X     Private [development] Sector
+                - Palchya-G     Government Sector
+                - Palchya-O[SC] OpenSource Community Sector
+                - Palchya-C[I]  Commercial / Industry Sector
+                - Palchya-A     Autonomous Sector* - developmemts for interacting with pure autonomous systems... (DAOs, DCAOS, IoT Systems, etc...)
+                - Palchya-E     External Sectors
+            - Agentas
+                - AgentaSim
+                -
+            -
+
+        FINANCE division 
+                -
+
+        LEGAL division 
+                - 
+
+        IT / SUPPORT / MAINTAINENCE division 
+                - 
+
+        [SYSTEM?] RESOURCES division (name: TBD)
+                - human resources 
+                    - personnel trainng and onboarding
+                        - sensitivity, harrasament, discrimination, etc... TRAINING
+                        - company policy training
+                        - technical training[s]
+                        - 
+                - autonomous resources ? 
+                -
+
+ */
+ 
+ /*
+    Works:
+        Technical 
+        Theory
+        - the master docs...
+        - the book of agents
+            - the symmetries of agents (the unmutable principles)
+        - Terraformata
+        - Control 
+        
+        Application
+        - *the terraformation of Mars ... (Terraformata Martia)
+        - Terraformata Veneria
+        - The Manuals Series...  
+        - "Complex Automata"        magnum opus literary
+        - "The Agentas Ecosystem"   magnum opus technical  (Agentas Complexio ?)
+        - federated / distributed simulation 
+
+        - the procedural generation of worlds 
+
+        Business
+        - handbooks...
+        - 
+
+ */
+
+ /*
+    base agent types: 
+        agent
+        simulation 
+        economic 
+        network 
+        sociological 
+        pyschological
+        philosophic 
+        linguistic
+        memetic 
+        grammar 
+        complex
+        computational
+        gametheoretic   
+        proceduralgeneration
+        thermodynamic
+        environmental
+        (building) construction 
+        mobility
+        management
+        planning
+        observation 
+        regulation 
+        maintainence
+        monitor
+        learning
+        intelligence
+        biological 
+        chemical
+        mechanical 
+        electrical 
+        cognitive
+        complex (autonomous, adaptive)
+        infrastructure
+        structural
+        virtual 
+        interface
+        hardware
+        software
+        *host-guest 
+        legal
+        abstract
+ */

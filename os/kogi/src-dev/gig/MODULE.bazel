@@ -1,0 +1,6 @@
+# @license
+# @brief
+module(
+    name = "gig",
+    version = "0.0.0"
+)

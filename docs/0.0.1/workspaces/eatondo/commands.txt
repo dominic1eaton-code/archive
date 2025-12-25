@@ -1,0 +1,21 @@
+#
+
+cd .\archive\archive_docs
+git add .; git commit -am "update docs";git push origin main
+
+
+
+net statistics Workstation
+
+
+netstat
+
+
+
+wsl -l -v
+
+
+[Environment]::SetEnvironmentVariable("JAVA_HOME", "C:\Program Files\Java\jdk-22", "User")      
+
+
+bazel build

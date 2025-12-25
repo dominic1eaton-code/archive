@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt]{book}
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\bfdefault}{b}
+\usepackage[scaled]{helvet}
+\renewcommand{\ttdefault}{pcr}
+\linespread{1.05}
+\normalfont % in case the EC fonts aren't available
+\usepackage[T1]{fontenc}
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\title{The theory of Agent \\
+\noindent\rule{10cm}{0.4pt}}
+\author{eatondo}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+\tableofcontents{}
+\pagebreak
+
+\part{Preliminaries}
+
+\end{document}

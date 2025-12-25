@@ -1,0 +1,13 @@
+[Unit]
+Description=Mini-CD Agent
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/mini-cd-agent start
+Restart=always
+User=mini-cd
+Group=mini-cd
+WorkingDirectory=/var/lib/mini-cd-agent
+
+[Install]
+WantedBy=multi-user.target

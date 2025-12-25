@@ -1,0 +1,3 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription
+182179579,2025-12-20T17:00:13.994Z,kenhuangus@gmail.com,newsletter,everyone,true
+182179579,2025-12-20T17:00:14.974Z,eatondo000@gmail.com,newsletter,everyone,false

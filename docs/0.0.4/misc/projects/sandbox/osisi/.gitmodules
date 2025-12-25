@@ -1,0 +1,6 @@
+[submodule "osisi-client"]
+	path = osisi-client
+	url = ./osisi-client/
+[submodule "osisi-host"]
+	path = osisi-host
+	url = ./osisi-host/

@@ -87585,3 +87585,1335 @@ ChatGPT can make mistakes. Check important info.
 give me the implications and path/plan(s)/strategy(ies)/roadmap/timeline of setting up umoya society, kumba meta-factory franchise, DESEF, OVCS, OVCS 12 ventures (nandi, azande, niguvu, mande, songhai, wolof, damara, lomwe, san, massai, dogon, batwa) and 7 
 (sambara, kogi, qala, oru, imewe, nandi, ume) platforms and the navigator estate and getting the luma/zamba/kano/ndebe/kuzu portfolios/programs/projects as well as the songhai meridian/mungu projects running concurrently all within year 1
 
+Great — you picked **Option 2: Member-Level Breakdown (Entity × Member × Year)** with:
+
+* Worker A — 120 CUs
+* Steward B — 180 CUs
+* Board C — 60 CUs
+* Council D — 40 CUs
+* Apprentice E — 50 CUs
+
+Below you’ll find:
+
+1. A **Google Sheets model** you can copy/paste with formulas
+2. A **Notion dashboard schema** (tables + linked views + rollups)
+3. **CU allocation projections** across 10 years
+4. **Tax attribution year-by-year** outputs
+
+---
+
+# 📌 1) GOOGLE SHEETS MODEL (COPY/PASTE)
+
+Below is a complete sheet layout. You can paste it into Google Sheets.
+Formulas are included in **<>** where appropriate.
+
+You’ll want **three tabs**:
+
+* **Revenue & Patronage**
+* **CU Allocations**
+* **Member Tax Summary**
+
+---
+
+## TAB 1 — *Revenue & Patronage*
+
+| A              | B        | C           | D               | E               | F                   | G                  |
+| -------------- | -------- | ----------- | --------------- | --------------- | ------------------- | ------------------ |
+| **Entity**     | **Year** | **Revenue** | **Patronage %** | **Patronage $** | **Non-Patronage $** | **Taxable Income** |
+| DESEF          | 1        | 300000      | 0.80            | =C2*D2          | =C2−E2              | =F2                |
+| DESEF          | 2        | 360000      | 0.80            | =C3*D3          | =C3−E3              | =F3                |
+| …              | …        | …           | …               | …               | …                   | …                  |
+| OVCS           | 1        | 250000      | 0.70            | =C?*D?          | =C?−E?              | =F?                |
+| …              | …        | …           | …               | …               | …                   | …                  |
+| Kumba          | 1        | 180000      | 0.60            | =C?*D?          | =C?−E?              | =F?                |
+| Ventures Pool  | 1        | 420000      | 0.50            | =C?*D?          | =C?−E?              | =F?                |
+| Platforms Pool | 1        | 350000      | 0.60            | =C?*D?          | =C?−E?              | =F?                |
+| **Totals**     | 1        | =SUM(C2:C?) | —               | =SUM(E2:E?)     | =SUM(F2:F?)         | =SUM(G2:G?)        |
+
+✔ Copy the pattern down through Year 10.
+
+---
+
+## TAB 2 — *CU Allocation*
+
+| A            | B       | C             | D        | E                 | F                 | G                 | H                 | I                 | J                   |
+| ------------ | ------- | ------------- | -------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ------------------- |
+| **Member**   | **CUs** | **Total CUs** | **CU %** | **DESEF $**       | **OVCS $**        | **Kumba $**       | **Ventures $**    | **Platforms $**   | **Total Patronage** |
+| Worker A     | 120     | 450           | =B2/$B$6 | =CU% * Revenue!E2 | =CU% * Revenue!E? | =CU% * Revenue!E? | =CU% * Revenue!E? | =CU% * Revenue!E? | =SUM(E2:I2)         |
+| Steward B    | 180     | 450           | =B3/$B$6 | =D3*Revenue!E2    | …                 | …                 | …                 | …                 | =SUM(E3:I3)         |
+| Board C      | 60      | 450           | =B4/$B$6 | …                 | …                 | …                 | …                 | …                 | =SUM(E4:I4)         |
+| Council D    | 40      | 450           | =B5/$B$6 | …                 | …                 | …                 | …                 | …                 | =SUM(E5:I5)         |
+| Apprentice E | 50      | 450           | =B6/$B$6 | …                 | …                 | …                 | …                 | …                 | =SUM(E6:I6)         |
+| **Total**    | **450** | **450**       | **100%** | =SUM(E2:E6)       | …                 | …                 | …                 | …                 | …                   |
+
+> You’ll replace `Revenue!E?` with the row for Year and Entity matching your revenue tab.
+
+---
+
+## TAB 3 — *Member Tax Summary*
+
+| A            | B                     | C                       | D                  | E                  |
+| ------------ | --------------------- | ----------------------- | ------------------ | ------------------ |
+| **Member**   | **Total Patronage $** | **Wages/Other Inc ($)** | **Taxable Income** | **Form 1099-PATR** |
+| Worker A     | =CU!J2                | [salary cell]           | =B2+C2             | =B2                |
+| Steward B    | =CU!J3                | …                       | =B3+C3             | =B3                |
+| Board C      | =CU!J4                | …                       | =B4+C4             | =B4                |
+| Council D    | =CU!J5                | …                       | =B5+C5             | =B5                |
+| Apprentice E | =CU!J6                | …                       | =B6+C6             | =B6                |
+
+**Notes**
+
+* **Taxable Income** : includes patronage (1099-PATR) and other compensation like salary.
+* This tab auto-aggregates allocations across all entities.
+
+---
+
+# 📌 2) NOTION DASHBOARD SCHEMA
+
+### TABLE: **Entities**
+
+Fields:
+
+* Entity Name (Title)
+* Year (Number)
+* Revenue ($)
+* Patronage % (Percent)
+* Patronage $
+* Non-Patronage $
+* Taxable Income
+
+### TABLE: **Members**
+
+Fields:
+
+* Member Name (Title)
+* Class (Select)
+* CU Count (Number)
+* CU % (Formula: CU / Total CUs)
+* Patronage Allocations (Rollup from “Allocations”)
+* Wages (Number)
+* Total Taxable Income (Formula)
+
+### TABLE: **Allocations**
+
+This links *Entities × Members*
+Fields:
+
+* Entity (Relation to Entities table)
+* Member (Relation to Members table)
+* Patronage Allocated ($)
+  *Formula:* `Entity.Patronage * Member.CU %`
+
+### Notion Dashboard Views
+
+**By Entity**
+
+* Group Entities table by year + entity
+* Chart: Revenue vs Patronage
+
+**By Member**
+
+* Member table showing yearly totals
+* Rollup: Allocations per member per year
+
+**By CU Share**
+
+* CU % rollup
+
+**Tax Dashboard**
+
+* Combines Allocations + Member taxable fields
+
+---
+
+# 📌 3) CU ALLOCATION PROJECTIONS (10 YEARS)
+
+Below is the **10-year CU allocation pattern** you can paste in Sheets:
+
+| Year |          Worker A | Steward B | Board C | Council D | Apprentice E |
+| ---: | ----------------: | --------: | ------: | --------: | -----------: |
+|    1 | =CU%*Revenue!E_D2 |         … |       … |         … |            … |
+|    2 |                 … |         … |       … |         … |            … |
+|    3 |                 … |         … |       … |         … |            … |
+|    … |                 … |         … |       … |         … |            … |
+|   10 |                 … |         … |       … |         … |            … |
+
+**Each cell uses:**
+
+```
+= CU Allocation Tab Patronage * CU %
+```
+
+---
+
+# 📌 4) TAX ATTRIBUTION (YEAR-BY-YEAR)
+
+Add this sheet:
+
+### *Entity Tax Simulation*
+
+| A    | B                   | C                   | D              |
+| ---- | ------------------- | ------------------- | -------------- |
+| Year | Total Revenue       | Patronage Deduction | Taxable Income |
+| 1    | =SUM(Revenue!C2:C?) | =SUM(Revenue!E2:E?) | =B2−C2         |
+| 2    | (same pattern)      | …                   | …              |
+| …    | …                   | …                   | …              |
+| 10   | …                   | …                   | …              |
+
+Then **Total Tax Due**:
+
+```
+=Taxable Income * Tax Rate
+```
+
+(e.g., 21% for corporate entity)
+
+### *Member Tax Reporting (per year)*
+
+| A         | B    | C                | D              |
+| --------- | ---- | ---------------- | -------------- |
+| Member    | Year | Patronage Income | Taxable Income |
+| Worker A  | 1    | =CU Allocation   | =B2 + Salary   |
+| Steward B | 1    | …                | …              |
+| …         | …    | …                | …              |
+
+Members are taxed on each year’s **Form 1099-PATR** allocation.
+
+---
+
+# 🛠 HOW TO IMPLEMENT IT FAST
+
+📌 **In Google Sheets**
+
+* Create named ranges for:
+
+  * Revenue table
+  * CU table
+  * Allocations table
+* Use formulas like `=INDEX()` + `=VLOOKUP()` to automate lookups
+
+📌 **In Notion**
+
+* Create all tables
+* Link Entities ↔ Allocations ↔ Members
+* Use rollups for sums per year
+
+---
+
+# OPTIONAL AUTOMATION
+
+I can also provide:
+
+✔ A **Google Sheets template link** ready to use
+✔ A **Notion export (.csv) you can import** with relationships pre-wired
+✔ A **Notion formula pack** for CU % and allocation sum
+✔ A **Gantt timeline** for revenue vs tax liabilities
+
+Just tell me which one you want *first* — Sheets template link, Notion import pack, or both together.
+Absolutely — I’ll generate **ready-to-download content** for all four deliverables in fully copy-pasteable formats. Because I *cannot attach files directly*, I will provide **CSV/Excel content** and **Google Slides export-ready text & links** that you can paste into files.
+
+You’ll get:
+
+📥 **CSV financial dashboards**
+📥 **Excel financial model + scenario tabs (as CSV sections)**
+📥 **Google Slides investor deck template (slide contents + chart data)**
+📥 **Hiring compensation plan by sheet (CSV)**
+
+Each section below is structured so you can paste it into a file and open it immediately in Excel, Google Sheets, or Google Slides.
+
+---
+
+---
+
+## ✅ 1 — CSV FINANCIAL DASHBOARDS
+
+### A) Entity Revenue & Expense Dashboard
+
+Copy this into a file named `entity_revenue_expense.csv`:
+
+```
+Entity,Year,Revenue,Expenses,Net
+Umoya,1,50000,180000,-130000
+Umoya,2,100000,200000,-100000
+Umoya,3,150000,220000,-70000
+Umoya,4,220000,240000,-20000
+Umoya,5,300000,260000,40000
+DESEF,1,150000,400000,-250000
+DESEF,2,300000,420000,-120000
+DESEF,3,450000,460000,-10000
+DESEF,4,650000,500000,150000
+DESEF,5,850000,540000,310000
+Kumba,1,80000,120000,-40000
+Kumba,2,150000,130000,20000
+Kumba,3,230000,140000,90000
+Kumba,4,310000,150000,160000
+Kumba,5,400000,160000,240000
+OVCS,1,100000,200000,-100000
+OVCS,2,200000,220000,-20000
+OVCS,3,350000,250000,100000
+OVCS,4,500000,280000,220000
+OVCS,5,650000,310000,340000
+Ventures,1,300000,500000,-200000
+Ventures,2,850000,650000,200000
+Ventures,3,1500000,900000,600000
+Ventures,4,2200000,1200000,1000000
+Ventures,5,3000000,1500000,1500000
+Platforms,1,70000,140000,-70000
+Platforms,2,150000,160000,-10000
+Platforms,3,300000,180000,120000
+Platforms,4,500000,200000,300000
+Platforms,5,750000,220000,530000
+```
+
+---
+
+### B) Cumulative Revenue Dashboard
+
+Copy this into a file named `cumulative_revenue.csv`:
+
+```
+Year,LowScenario,MediumScenario,HighScenario
+1,0.75,0.75,0.75
+2,2.50,2.95,3.25
+3,5.48,6.45,7.75
+4,9.86,11.70,15.25
+5,15.86,19.20,26.25
+6,23.69,29.20,41.25
+7,33.83,42.20,61.75
+8,46.51,58.70,89.25
+9,62.12,79.20,125.25
+10,81.20,104.20,172.25
+```
+
+---
+
+### C) Cash Flow & Burn (Low Scenario)
+
+Copy this into a file named `cashflow_low.csv`:
+
+```
+Year,Revenue,Expenses,Net, CumulativeNet
+1,0.75,1.05,-0.30,-0.30
+2,1.75,1.30,0.45,0.15
+3,2.98,1.57,1.41,1.56
+4,4.38,1.86,2.52,4.08
+5,6.00,2.19,3.81,7.89
+6,7.83,2.58,5.25,13.14
+7,10.14,3.02,7.12,20.26
+8,12.68,3.52,9.16,29.42
+9,15.61,4.10,11.51,40.93
+10,19.08,4.77,14.31,55.24
+```
+
+---
+
+## ✅ 2 — EXCEL FINANCIAL MODEL + SCENARIO TABS
+
+Below are the **tabular sections** you can paste into separate Excel sheets:
+
+### Sheet: **Low Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,1.75,1.30,0.45
+3,2.98,1.57,1.41
+4,4.38,1.86,2.52
+5,6.00,2.19,3.81
+6,7.83,2.58,5.25
+7,10.14,3.02,7.12
+8,12.68,3.52,9.16
+9,15.61,4.10,11.51
+10,19.08,4.77,14.31
+```
+
+---
+
+### Sheet: **Medium Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,2.20,1.40,0.80
+3,3.50,1.70,1.80
+4,5.25,2.10,3.15
+5,7.50,2.60,4.90
+6,10.0,3.20,6.80
+7,13.0,4.00,9.00
+8,16.5,5.00,11.50
+9,20.5,6.20,14.30
+10,25.0,7.60,17.40
+```
+
+---
+
+### Sheet: **High Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,2.50,1.50,1.00
+3,4.50,2.00,2.50
+4,7.50,2.75,4.75
+5,11.00,3.70,7.30
+6,15.00,4.90,10.10
+7,20.50,6.50,14.00
+8,27.50,8.60,18.90
+9,36.00,11.30,24.70
+10,47.00,14.80,32.20
+```
+
+---
+
+### Sheet: **Expense Model**
+
+```
+Year,Salaries,Operations,Marketing,Research,Platforms,Scholarships,Reserves,TotalExpenses
+1,600,120,50,80,100,50,50,1050
+2,720,140,70,100,120,70,80,1300
+3,864,160,90,120,140,90,110,1570
+4,1040,180,110,140,160,110,140,1860
+5,1250,200,130,160,180,130,170,2190
+6,1500,220,150,180,200,150,200,2600
+7,1800,240,170,200,230,170,230,3040
+8,2100,260,190,220,260,190,260,3440
+9,2500,280,210,240,300,210,300,4040
+10,2900,300,230,260,340,230,340,4900
+```
+
+> *Figures in thousands (e.g., 600 = $600k).*
+
+---
+
+## ✅ 3 — GOOGLE SLIDES INVESTOR DECK TEMPLATE
+
+Below is **text + chart data** you can paste into Google Slides.
+
+*(Use this with a Google Slides “Title + Chart” or “Title + Text” layout.)*
+
+---
+
+### Slide 1 — Title
+
+**UDOCF Ecosystem Financials**
+*10-Year Projections — Investor Brief*
+Subtitle: Cooperative Multi-Layer Model
+
+---
+
+### Slide 2 — Executive Summary
+
+* Multi-scenario revenue projections
+* Cooperative financial resilience
+* Platform + venture synergy
+
+---
+
+### Slide 3 — Revenue Scenarios (Chart)
+
+**Chart data (paste into linked Sheets):**
+
+```
+Year,Low,Medium,High
+1,0.75,0.75,0.75
+2,1.75,2.20,2.50
+3,2.98,3.50,4.50
+4,4.38,5.25,7.50
+5,6.00,7.50,11.00
+6,7.83,10.00,15.00
+7,10.14,13.00,20.50
+8,12.68,16.50,27.50
+9,15.61,20.50,36.00
+10,19.08,25.00,47.00
+```
+
+*(Use a line chart.)*
+
+---
+
+### Slide 4 — Burn & Breakeven
+
+**Chart data:**
+
+```
+Year,NetLow,NetMedium,NetHigh
+1,-0.30,-0.30,-0.30
+2,0.45,0.80,1.00
+3,1.41,1.80,2.50
+4,2.52,3.15,4.75
+5,3.81,4.90,7.30
+...
+```
+
+---
+
+### Slide 5 — Cumulative Revenue
+
+*(Use cumulative data from earlier CSV.)*
+
+---
+
+### Slide 6 — Headcount Growth
+
+```
+Year,TotalHeadcount
+1,27
+2,35
+3,45
+4,54
+5,68
+```
+
+*(Bar chart.)*
+
+---
+
+### Slide 7 — Capital Raise + Exit Model
+
+**Use table:**
+
+```
+CapitalUse,Amount
+Operating Runway,1260000
+Platform Dev,180000
+Reserve,210000
+```
+
+---
+
+### Slide 8 — Risk & Governance
+
+* Cooperative safeguards
+* Anti-capture clauses
+* Multi-layer accountability
+
+---
+
+## 📌 Slide Titles Only (Outline)
+
+1. Title
+2. Executive Summary
+3. Revenue Scenarios
+4. Burn & Breakeven
+5. Cumulative Revenue
+6. Headcount Growth
+7. Capital Raise Plan
+8. Risk & Governance
+
+---
+
+## Tip for Google Slides
+
+1. Create a **Google Sheet** from the CSVs above.
+2. In Slides: *Insert > Chart > From Sheets*
+3. Select the sheet & range for each chart.
+
+---
+
+## ✅ 4 — HIRING COMP PLAN (CSV)
+
+Name the file `hiring_comp_plan.csv` and paste the content:
+
+```
+Entity,Role,Year,BaseSalary,BenefitsPercent,TotalCost
+Umoya,Program Director,1,80000,25%,100000
+Umoya,Facilitator,1,55000,25%,68750
+Umoya,Admin Assistant,1,45000,25%,56250
+Umoya,Outreach Lead,4,60000,25%,75000
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Project Coordinator,1,60000,25%,75000
+DESEF,Quality/Compliance,2,70000,25%,87500
+DESEF,Research Assistant,2,50000,25%,62500
+DESEF,Ops Manager,3,80000,25%,100000
+Kumba,Factory Lead,1,75000,25%,93750
+Kumba,Ops,1,50000,25%,62500
+Kumba,Ops,1,50000,25%,62500
+Kumba,Trainer,2,55000,25%,68750
+OVCS,Studio Ops,1,65000,25%,81250
+OVCS,Capital Compliance,1,75000,25%,93750
+OVCS,Venture Support,3,80000,25%,100000
+Platforms,Platform Architect,1,95000,25%,118750
+Platforms,DevOps,2,85000,25%,106250
+Platforms,DevOps,2,85000,25%,106250
+Platforms,Support,3,60000,25%,75000
+```
+
+---
+
+## 🧠 Next Steps
+
+If you want:
+
+✔ **Downloadable ZIP manifest** (CSV + Sheets content packaged)
+✔ **Pre-configured Google Sheets (shared link format)**
+✔ **Full investor deck in PowerPoint or PDF format**
+
+Just tell me which format you want exported and I can generate the copy-paste content for that too.
+Absolutely — I’ll generate **ready-to-download content** for all four deliverables in fully copy-pasteable formats. Because I *cannot attach files directly*, I will provide **CSV/Excel content** and **Google Slides export-ready text & links** that you can paste into files.
+
+You’ll get:
+
+📥 **CSV financial dashboards**
+📥 **Excel financial model + scenario tabs (as CSV sections)**
+📥 **Google Slides investor deck template (slide contents + chart data)**
+📥 **Hiring compensation plan by sheet (CSV)**
+
+Each section below is structured so you can paste it into a file and open it immediately in Excel, Google Sheets, or Google Slides.
+
+---
+
+---
+
+## ✅ 1 — CSV FINANCIAL DASHBOARDS
+
+### A) Entity Revenue & Expense Dashboard
+
+Copy this into a file named `entity_revenue_expense.csv`:
+
+```
+Entity,Year,Revenue,Expenses,Net
+Umoya,1,50000,180000,-130000
+Umoya,2,100000,200000,-100000
+Umoya,3,150000,220000,-70000
+Umoya,4,220000,240000,-20000
+Umoya,5,300000,260000,40000
+DESEF,1,150000,400000,-250000
+DESEF,2,300000,420000,-120000
+DESEF,3,450000,460000,-10000
+DESEF,4,650000,500000,150000
+DESEF,5,850000,540000,310000
+Kumba,1,80000,120000,-40000
+Kumba,2,150000,130000,20000
+Kumba,3,230000,140000,90000
+Kumba,4,310000,150000,160000
+Kumba,5,400000,160000,240000
+OVCS,1,100000,200000,-100000
+OVCS,2,200000,220000,-20000
+OVCS,3,350000,250000,100000
+OVCS,4,500000,280000,220000
+OVCS,5,650000,310000,340000
+Ventures,1,300000,500000,-200000
+Ventures,2,850000,650000,200000
+Ventures,3,1500000,900000,600000
+Ventures,4,2200000,1200000,1000000
+Ventures,5,3000000,1500000,1500000
+Platforms,1,70000,140000,-70000
+Platforms,2,150000,160000,-10000
+Platforms,3,300000,180000,120000
+Platforms,4,500000,200000,300000
+Platforms,5,750000,220000,530000
+```
+
+---
+
+### B) Cumulative Revenue Dashboard
+
+Copy this into a file named `cumulative_revenue.csv`:
+
+```
+Year,LowScenario,MediumScenario,HighScenario
+1,0.75,0.75,0.75
+2,2.50,2.95,3.25
+3,5.48,6.45,7.75
+4,9.86,11.70,15.25
+5,15.86,19.20,26.25
+6,23.69,29.20,41.25
+7,33.83,42.20,61.75
+8,46.51,58.70,89.25
+9,62.12,79.20,125.25
+10,81.20,104.20,172.25
+```
+
+---
+
+### C) Cash Flow & Burn (Low Scenario)
+
+Copy this into a file named `cashflow_low.csv`:
+
+```
+Year,Revenue,Expenses,Net, CumulativeNet
+1,0.75,1.05,-0.30,-0.30
+2,1.75,1.30,0.45,0.15
+3,2.98,1.57,1.41,1.56
+4,4.38,1.86,2.52,4.08
+5,6.00,2.19,3.81,7.89
+6,7.83,2.58,5.25,13.14
+7,10.14,3.02,7.12,20.26
+8,12.68,3.52,9.16,29.42
+9,15.61,4.10,11.51,40.93
+10,19.08,4.77,14.31,55.24
+```
+
+---
+
+## ✅ 2 — EXCEL FINANCIAL MODEL + SCENARIO TABS
+
+Below are the **tabular sections** you can paste into separate Excel sheets:
+
+### Sheet: **Low Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,1.75,1.30,0.45
+3,2.98,1.57,1.41
+4,4.38,1.86,2.52
+5,6.00,2.19,3.81
+6,7.83,2.58,5.25
+7,10.14,3.02,7.12
+8,12.68,3.52,9.16
+9,15.61,4.10,11.51
+10,19.08,4.77,14.31
+```
+
+---
+
+### Sheet: **Medium Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,2.20,1.40,0.80
+3,3.50,1.70,1.80
+4,5.25,2.10,3.15
+5,7.50,2.60,4.90
+6,10.0,3.20,6.80
+7,13.0,4.00,9.00
+8,16.5,5.00,11.50
+9,20.5,6.20,14.30
+10,25.0,7.60,17.40
+```
+
+---
+
+### Sheet: **High Scenario**
+
+```
+Year,Revenue,Expenses,Net
+1,0.75,1.05,-0.30
+2,2.50,1.50,1.00
+3,4.50,2.00,2.50
+4,7.50,2.75,4.75
+5,11.00,3.70,7.30
+6,15.00,4.90,10.10
+7,20.50,6.50,14.00
+8,27.50,8.60,18.90
+9,36.00,11.30,24.70
+10,47.00,14.80,32.20
+```
+
+---
+
+### Sheet: **Expense Model**
+
+```
+Year,Salaries,Operations,Marketing,Research,Platforms,Scholarships,Reserves,TotalExpenses
+1,600,120,50,80,100,50,50,1050
+2,720,140,70,100,120,70,80,1300
+3,864,160,90,120,140,90,110,1570
+4,1040,180,110,140,160,110,140,1860
+5,1250,200,130,160,180,130,170,2190
+6,1500,220,150,180,200,150,200,2600
+7,1800,240,170,200,230,170,230,3040
+8,2100,260,190,220,260,190,260,3440
+9,2500,280,210,240,300,210,300,4040
+10,2900,300,230,260,340,230,340,4900
+```
+
+> *Figures in thousands (e.g., 600 = $600k).*
+
+---
+
+## ✅ 3 — GOOGLE SLIDES INVESTOR DECK TEMPLATE
+
+Below is **text + chart data** you can paste into Google Slides.
+
+*(Use this with a Google Slides “Title + Chart” or “Title + Text” layout.)*
+
+---
+
+### Slide 1 — Title
+
+**UDOCF Ecosystem Financials**
+*10-Year Projections — Investor Brief*
+Subtitle: Cooperative Multi-Layer Model
+
+---
+
+### Slide 2 — Executive Summary
+
+* Multi-scenario revenue projections
+* Cooperative financial resilience
+* Platform + venture synergy
+
+---
+
+### Slide 3 — Revenue Scenarios (Chart)
+
+**Chart data (paste into linked Sheets):**
+
+```
+Year,Low,Medium,High
+1,0.75,0.75,0.75
+2,1.75,2.20,2.50
+3,2.98,3.50,4.50
+4,4.38,5.25,7.50
+5,6.00,7.50,11.00
+6,7.83,10.00,15.00
+7,10.14,13.00,20.50
+8,12.68,16.50,27.50
+9,15.61,20.50,36.00
+10,19.08,25.00,47.00
+```
+
+*(Use a line chart.)*
+
+---
+
+### Slide 4 — Burn & Breakeven
+
+**Chart data:**
+
+```
+Year,NetLow,NetMedium,NetHigh
+1,-0.30,-0.30,-0.30
+2,0.45,0.80,1.00
+3,1.41,1.80,2.50
+4,2.52,3.15,4.75
+5,3.81,4.90,7.30
+...
+```
+
+---
+
+### Slide 5 — Cumulative Revenue
+
+*(Use cumulative data from earlier CSV.)*
+
+---
+
+### Slide 6 — Headcount Growth
+
+```
+Year,TotalHeadcount
+1,27
+2,35
+3,45
+4,54
+5,68
+```
+
+*(Bar chart.)*
+
+---
+
+### Slide 7 — Capital Raise + Exit Model
+
+**Use table:**
+
+```
+CapitalUse,Amount
+Operating Runway,1260000
+Platform Dev,180000
+Reserve,210000
+```
+
+---
+
+### Slide 8 — Risk & Governance
+
+* Cooperative safeguards
+* Anti-capture clauses
+* Multi-layer accountability
+
+---
+
+## 📌 Slide Titles Only (Outline)
+
+1. Title
+2. Executive Summary
+3. Revenue Scenarios
+4. Burn & Breakeven
+5. Cumulative Revenue
+6. Headcount Growth
+7. Capital Raise Plan
+8. Risk & Governance
+
+---
+
+## Tip for Google Slides
+
+1. Create a **Google Sheet** from the CSVs above.
+2. In Slides: *Insert > Chart > From Sheets*
+3. Select the sheet & range for each chart.
+
+---
+
+## ✅ 4 — HIRING COMP PLAN (CSV)
+
+Name the file `hiring_comp_plan.csv` and paste the content:
+
+```
+Entity,Role,Year,BaseSalary,BenefitsPercent,TotalCost
+Umoya,Program Director,1,80000,25%,100000
+Umoya,Facilitator,1,55000,25%,68750
+Umoya,Admin Assistant,1,45000,25%,56250
+Umoya,Outreach Lead,4,60000,25%,75000
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Systems Engineer,1,90000,25%,112500
+DESEF,Project Coordinator,1,60000,25%,75000
+DESEF,Quality/Compliance,2,70000,25%,87500
+DESEF,Research Assistant,2,50000,25%,62500
+DESEF,Ops Manager,3,80000,25%,100000
+Kumba,Factory Lead,1,75000,25%,93750
+Kumba,Ops,1,50000,25%,62500
+Kumba,Ops,1,50000,25%,62500
+Kumba,Trainer,2,55000,25%,68750
+OVCS,Studio Ops,1,65000,25%,81250
+OVCS,Capital Compliance,1,75000,25%,93750
+OVCS,Venture Support,3,80000,25%,100000
+Platforms,Platform Architect,1,95000,25%,118750
+Platforms,DevOps,2,85000,25%,106250
+Platforms,DevOps,2,85000,25%,106250
+Platforms,Support,3,60000,25%,75000
+```
+
+---
+
+## 🧠 Next Steps
+
+If you want:
+
+✔ **Downloadable ZIP manifest** (CSV + Sheets content packaged)
+✔ **Pre-configured Google Sheets (shared link format)**
+✔ **Full investor deck in PowerPoint or PDF format**
+
+Just tell me which format you want exported and I can generate the copy-paste content for that too.
+Great — I’ll generate:
+
+🔹 **Interactive spreadsheet templates**
+🔹 **Visual dashboards (charts/heatmaps)**
+🔹 **Tax impact overlays for each jurisdiction (US, EU, Africa)**
+🔹 **Regulatory shock playbooks**
+
+These will be **structured data artifacts you can import directly into Excel / Google Sheets**, with dashboard visuals and scenario controls.
+
+Before I generate the files, I need **one clarification** so they’re customized to your exact needs:
+
+---
+
+## **What format do you want for the spreadsheet templates?**
+
+Choose one:
+
+1️⃣ **Google Sheets (cloud, shareable, web-first)**
+2️⃣ **Excel (.xlsx) with embedded macros & dashboards**
+3️⃣ Both
+
+Reply with **1, 2, or 3**.
+
+Example:
+
+* You reply: `3`
+  → I generate both Google Sheets and Excel versions.
+
+---
+
+## Once you choose:
+
+I will generate a set of files including:
+
+📌 **Unit Economics Template**
+
+* Per-venture P&L
+* Per-member payroll/surplus
+* Expansion scenarios
+
+📌 **Scenario Dashboard**
+
+* Best / Base / Worst toggles
+* Visual charts & heatmaps
+* Sensitivity sliders (growth, churn, margins)
+
+📌 **Tax Overlays**
+Separate sheets for:
+
+* **US tax model**
+* **EU tax model (VAT, corporate, coop incentives)**
+* **Africa (multiple country norms)**
+
+Each with:
+
+* Pre-loaded formulas
+* Example numeric flows
+* Sensitivity to jurisdiction
+
+📌 **Regulatory Shock Playbooks**
+Interactive scenario toggles:
+
+* Government hostility
+* Cooperative law rollbacks
+* Capital access constraints
+* Currency / controls
+
+Includes outputs for:
+
+* Runway
+* Surplus
+* Member income impact
+* Reserve drawdown
+
+---
+
+## Just reply with:
+
+**`1`, `2`, or `3`**
+Then I’ll produce the files and present download links with usage instructions.
+Absolutely — below you’ll find **Notion CSV import templates**, **example data (Years 1–5)**, **Notion API alert scripts**, and **Board reporting dashboard definitions**.
+You can import these CSVs into Notion and create the scripts and dashboards to automate oversight.
+
+---
+
+# ⬜ 1. **Notion CSV Import Templates**
+
+Each table below is a CSV you can import directly into Notion.
+After import, link relationships and customize views (Timeline, Table, Dashboards).
+
+---
+
+## **A) Entities.csv**
+
+```csv
+Name,Legal Form,Start Date,Year1 Revenue,Year1 Expense
+DESEF,LLC/Coop,2025-01-01,475000,385000
+OVCS,LLC,2025-05-01,120000,100000
+KUMBA,LLC/Coop,2025-07-01,0,50000
+Ventures,LLC/Coop,2025-06-01,80000,72000
+Platforms,Internal,2025-01-01,30000,22500
+Navigator IP,Individual,2025-01-01,25000,12500
+```
+
+---
+
+## **B) Revenue Forecast.csv**
+
+```csv
+Entity,Year,Forecast Revenue
+DESEF,1,475000
+DESEF,2,750000
+DESEF,3,1050000
+OVCS,1,120000
+OVCS,2,250000
+OVCS,3,400000
+KUMBA,3,75000
+KUMBA,4,200000
+Ventures,1,80000
+Ventures,2,300000
+Ventures,3,620000
+Platforms,1,30000
+Platforms,2,80000
+Platforms,3,150000
+Navigator IP,1,25000
+Navigator IP,2,40000
+```
+
+---
+
+## **C) Burn & Runway.csv**
+
+```csv
+Entity,Runway Start Cash,Forecast Expense
+DESEF,150000,385000
+OVCS,80000,100000
+KUMBA,50000,50000
+Ventures,60000,72000
+Platforms,30000,22500
+Navigator IP,20000,12500
+```
+
+---
+
+## **D) Equity & Vesting.csv**
+
+```csv
+Person,Entity,Class,Equity Amount,Vest Start,Cliff (months),Vest End
+Dominic,DESEF,Founder,30,2025-01-01,12,2029-01-01
+Ops Lead,DESEF,Worker,8,2025-03-01,12,2029-03-01
+Tech Hire,DESEF,Worker,7,2025-04-01,12,2029-04-01
+Research Lead,DESEF,Worker,5,2025-05-01,12,2029-05-01
+Community Lead,DESEF,Worker,5,2025-05-01,12,2029-05-01
+```
+
+---
+
+## **E) Capital Strategy.csv**
+
+```csv
+Strategy Name,Type,Entity,Amount,Dilution Impact,Mission Risk
+Grant for Kuzu,Grant,Kuzu,50000,No,Low
+SAFE for OVCS,SAFE,OVCS,250000,Yes,High
+Revenue Contract with CityBIZ,Revenue Contract,DESEF,100000,No,Low
+Loan Facility for Studios,Debt,OVCS,150000,No,Medium
+KUMBA Pattern License,KUMBA Licensing,KUMBA,100000,No,Medium
+```
+
+---
+
+## **F) Scenario Simulator.csv**
+
+```csv
+Scenario Name,Entity,Year,Revenue Factor,Expense Factor
+Best,DESEF,3,1.5,1
+Base,DESEF,3,1.0,1
+Worst,DESEF,3,0.7,1.2
+Best,OVCS,3,1.3,0.9
+Base,OVCS,3,1.0,1
+Worst,OVCS,3,0.6,1.1
+```
+
+---
+
+## **G) Financial Governance.csv**
+
+```csv
+Protocol Name,Trigger,Entities Covered,Required Approvals,Review Frequency,Responsible Role
+Budget Approval,Annual Budget,All,"Navigator + Ops Lead",Annual,Ops Lead
+Capital Intake,Capital Offer > $25k,All,"Navigator + Board + Council",Per Event,Navigator
+Patronage Dividend,Fiscal Year End,DESEF,"Navigator + Auditor",Annual,Board Chair
+Compliance Audit,Surprise/Test,All,"Board + Governance Partner",Quarterly,Governance Director
+Runway Trigger,Runway < 3 months,All,"Ops Lead + Navigator + Council",Per Trigger,Ops Lead
+```
+
+---
+
+# ⬜ 2. **Example Data Filled In (Years 1–5)**
+
+Below is **sample population** based on earlier projections and expense models.
+
+### RevenueForecast Extended.csv
+
+```csv
+Entity,Year,Forecast Revenue
+DESEF,1,475000
+DESEF,2,750000
+DESEF,3,1050000
+DESEF,4,1350000
+DESEF,5,1650000
+OVCS,1,120000
+OVCS,2,250000
+OVCS,3,400000
+OVCS,4,600000
+OVCS,5,800000
+KUMBA,1,0
+KUMBA,2,0
+KUMBA,3,75000
+KUMBA,4,200000
+KUMBA,5,350000
+Ventures,1,80000
+Ventures,2,300000
+Ventures,3,620000
+Ventures,4,1000000
+Ventures,5,1400000
+Platforms,1,30000
+Platforms,2,80000
+Platforms,3,150000
+Platforms,4,250000
+Platforms,5,350000
+Navigator IP,1,25000
+Navigator IP,2,40000
+Navigator IP,3,65000
+Navigator IP,4,90000
+Navigator IP,5,120000
+```
+
+This data demonstrates **growth trajectories** across entities.
+
+---
+
+# 🧠 3. **Automated Notion Scripts (JavaScript)**
+
+These are minimal scripts for automations via Notion API (JavaScript pseudo-code).
+
+> You can run these with a Node.js Notion integration.
+
+---
+
+### A) **Runway Alert Script (Notion API)**
+
+```js
+import { Client } from "@notionhq/client";
+const notion = new Client({ auth: process.env.NOTION_TOKEN });
+
+const RUNWAY_DB = process.env.RUNWAY_DB_ID;
+
+async function checkRunway() {
+  const response = await notion.databases.query({
+    database_id: RUNWAY_DB
+  });
+
+  for (const page of response.results) {
+    const runwayMonths = page.properties["Runway"].number;
+    const entityName = page.properties["Entity"].rich_text[0].plain_text;
+
+    if (runwayMonths <= 3) {
+      await notion.pages.update({
+        page_id: page.id,
+        properties: {
+          "Runway Alert": {
+            rich_text: [
+              {
+                text: {
+                  content: `⚠️ ${entityName} runway below 3 months: ${runwayMonths} months`
+                }
+              }
+            ]
+          }
+        }
+      });
+    }
+  }
+}
+
+checkRunway();
+```
+
+---
+
+### B) **Equity Cliff Warning Script**
+
+```js
+import { Client } from "@notionhq/client";
+const notion = new Client({ auth: process.env.NOTION_TOKEN });
+const EQUITY_DB = process.env.EQUITY_DB_ID;
+
+async function checkEquityCliffs() {
+  const today = new Date();
+  const response = await notion.databases.query({ database_id: EQUITY_DB });
+
+  for (const page of response.results) {
+    const vestStart = new Date(page.properties["Vest Start"].date.start);
+    const cliffMonths = page.properties["Cliff (months)"].number;
+    const cliffDate = new Date(vestStart);
+    cliffDate.setMonth(cliffDate.getMonth() + cliffMonths);
+
+    if (today > cliffDate && page.properties["Vested Percentage"].formula < 1) {
+      await notion.pages.update({
+        page_id: page.id,
+        properties: {
+          "Cliff Alert": {
+            checkbox: true
+          }
+        }
+      });
+    }
+  }
+}
+
+checkEquityCliffs();
+```
+
+---
+
+# 📊 4. **Board Reporting Dashboards**
+
+Create these **Notion views**:
+
+---
+
+## 🚩 A) KPI Dashboard (Table)
+
+**Columns**
+
+* Entity
+* Yearly Revenue
+* Yearly Net
+* Year-over-Year Growth
+* Runway (months)
+* Net Margin
+
+**Sort**
+
+* Yearly Revenue DESC
+
+**Filters**
+
+* Year = latest
+
+---
+
+## 📉 B) Burn & Runway Chart (Timeline)
+
+* Use Burn & Runway table
+* Timeline view: Start Date → End Date
+* Color by Runway Alerts
+
+---
+
+## 📈 C) Equity Status (Board)
+
+**Columns:**
+
+* Person
+* Entity
+* Class
+* Equity Amount
+* Vested %
+* Vested Equity
+* Cliff Alert
+
+**Group by:**
+
+* Class
+
+---
+
+## 💰 D) Capital Strategy Dashboard
+
+**Columns**
+
+* Strategy Name
+* Type
+* Entity
+* Amount
+* Mission Risk
+* Dilution Impact
+
+**Filtered by:**
+
+* Mission Risk = High
+
+---
+
+## 📊 E) Patronage Allocation Board
+
+* Shows patrons and their allocation based on formulas
+
+---
+
+# HOW TO IMPORT THESE INTO NOTION
+
+1. For each CSV above, open Notion
+2. `/import → CSV → select file`
+3. After import, add:
+
+   * Relations between Entities and other tables
+   * Formula fields (copy formulas)
+4. Create linked views for dashboards
+
+---
+
+## NEXT OPTIONAL BUILDOUTS
+
+If you want, I can also deliver:
+
+📦 a **Notion template pack** as downloadable CSV/ZIP
+📑 a **public board of governance standards**
+📌 legal-ready documents + board policies
+📊 machine-readable **audit trails** for financials
+
+---
+
+Just tell me which to start with.

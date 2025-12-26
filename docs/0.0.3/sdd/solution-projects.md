@@ -2,6 +2,10 @@
 - (management) operating system solutions that target market needs
 - provide common language,platform,ecosystem for operating system interoperatbility
 
+* sambara-platform
+    - AI operating system
+    - imaniOS coordinator substrate
+
 + bootstrapping products portfolio:
 * umeOS
     + rust-cargo

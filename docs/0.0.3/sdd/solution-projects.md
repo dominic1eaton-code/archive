@@ -2410,14 +2410,11 @@
             - video game production
             - board game production
 
-    * Olappa CPG company
-        - CPG conglomerate
-
+    * CPG company/conglomerate
         * cosmetics SBU
-        
         * fashion SBU
-
         * homegoods SBU
+        * food desert restoration grocery stores
 
     * The Eaton Estate family office(s)
         - family office(s) network

@@ -99,3 +99,6 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
 
 
 
+https://open.substack.com/pub/obatalastudios/p/obatala-vc-studios-organization?utm_campaign=post-expanded-share&utm_medium=web
+https://open.substack.com/pub/obatalastudios/p/obatala-studios-charter-and-analysis?utm_campaign=post-expanded-share&utm_medium=web
+

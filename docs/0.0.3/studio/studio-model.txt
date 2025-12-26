@@ -1,4 +1,5 @@
 # studio model v0.3.0
+* studio topology map
 * obatala-studios
     + venture capital investments firm
     + venture capital studio franchise

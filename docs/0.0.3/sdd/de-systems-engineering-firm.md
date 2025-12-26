@@ -1,21 +1,21 @@
-Below is a **fully-specified, canonical, UME-compatible organizational model** for a software engineering consulting + contracting firm, with the alias:
+Below is a **fully-specified, canonical, UME-compatible organizational model** for a systems engineering consulting + contracting firm, with the alias:
 
-**`de-software-firm-model`**
+**`de-systems-firm-model`**
 
 This model is written so it can be **plugged directly into the UME-platform** as a programmable organizational model. It adheres to all principles you’ve established across the project: canonical theory-of-agent structure, coherence with UME organizational semantics, and compatibility with nandi-platform doctrine.
 
 ---
 
-# **`de-software-firm-model`**
+# **`de-systems-firm-model`**
 
-### **UME-Programmable Organizational Model for a Software Engineering Consulting & Contracting Firm**
+### **UME-Programmable Organizational Model for a systems Engineering Consulting & Contracting Firm**
 
 ```
-model: de-software-firm-model
+model: de-systems-firm-model
 version: 1.0.0
 kind: ume.org/OrganizationalModel
 description: >
-  A software engineering consulting and contracting firm represented as
+  A systems engineering consulting and contracting firm represented as
   a programmable organizational model within the UME-platform. Defines
   agents, roles, workflows, authority, responsibilities, assets,
   ledgers, contracting structures, client engagements, and deliverable
@@ -23,8 +23,8 @@ description: >
   theory of agent.
 
 metadata:
-  domain: software-consulting-and-contracting
-  tags: [software, consulting, contracting, engineering, services, teams]
+  domain: systems-consulting-and-contracting
+  tags: [systems, consulting, contracting, engineering, services, teams]
   ume-compatibility: ">= 1.0"
   doctrine:
     - nandi-platform foundational principles
@@ -33,7 +33,7 @@ metadata:
 
 org:
   identity:
-    org_type: "software_consulting_firm"
+    org_type: "systems_consulting_firm"
     legal_structure: "LLC_or_equivalent"
     operating_mode: "consulting + contracting"
     value_proposition:
@@ -249,7 +249,7 @@ org:
 
 # **Summary (Human-Friendly)**
 
-The **`de-software-firm-model`** defines a complete organizational model for a software engineering consulting and contracting firm:
+The **`de-systems-firm-model`** defines a complete organizational model for a systems engineering consulting and contracting firm:
 
 * **Roles:** Principal Engineer, Senior Engineer, Engineer, Delivery Manager, Client Agent
 * **Workflows:** Intake, Delivery, Staffing

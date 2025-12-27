@@ -1,0 +1,133 @@
+Sopolsky lecture notes 21. Chaos and Reductionism:
+https://www.youtube.com/watch?v=_njf8jwEGRo
+- the rise of science
+- reconstructing / generating information without the need for a "full picture"
+- (westernized) reductionism - linearity / additivity / superposition; "degeneration into parts" → understanding of "complex systems"; constituent part analysis; LTI systems; standardization; curriculum learning
+- knowing start state implies full characterization of future system trajectory / development
+- extrapolation / generalization (generalizability) → composability; logic, reason; symmetry
+- the rise of blueprints (standards, final / mature state representation (rigid growth, development models))
+- variability (disorder) - minimization of variability through increasing complexity (reductive-ness)
+- noise -> "discrepancy from what truly is going on"
+- depth implying understanding, and composition implying "working solutions" (the "breadth" perspective ? depth-breadth hybrid models ?)
+- Hubel and Weisel (step-wise brain perception extraction, manifold learning, "grandmother neurons", sparse coding of these neurons)
+- inefficiencies of point-point reductive approaches
+- bifurcating system, scale free
+- coding / rules for bifurcation using reductionism impossibility
+- stochastics, tranposons (gene transpositions)
+- Ivan Chase -> fish dominance behavior emergence study, dyadic dominance pairing output (non predictability of system state evolution), 
+- "not enough pieces to explain functions"; non-accountance of chance
+- Non reductive systems - non linear / non additivity systems
+- Chaoticism
+- deterministic / periodicity / reductive (patterns, generalizability [in a different context], logical abstractions, symmetry (invariance [non-stochastic])) -> long term explainability / stability (steady state)
+- "singularity points" [transition points] (shifting from reductionism to chaoticism), [Yorke - period 3], (relation to entropy based control mechanisms ?), perturbation / noise / variability (Lyapunov Exponent)
+- [Strange] Attractors (points of stability / predictability) -> linear, equilibrating systems 
+- "No correct answer as to what [one is] supposes to be observing", phenomena, consequence of the system, (relation to relativity ? QFT, QED, QCD, etc…)
+- Measurement / observer bias
+- amplification of minute differences (butterfly effect) (local effects -> global consequences)
+- "the nature of variability [is scale free]" (fractals)
+- fractal genes (molecular self-assembly ?)
+- scale-based system studies 
+- coefficient of variation
+- noise, inherent characteristic of the system; variability is the system
+- chaotic fractal systems
+- reductionism (imprecision investigations [coarse grained studies] (Newtonian mechanics-special relativity relation))
+- cellular automata
+Questions
+1. LTI systems and complex systems relations ? correspondence principles / relations between LTI and complex systems ?
+2. Trust, capability, explanatory science, reductionism relation (trust based on / influenced capability, characterized / solidified by explanatory science, and achievable through reductionism ? dis-proof of this idea ? faults in this reasoning ?) ?
+3. The scale free principle ? fractal theory ?
+4. Reductionism as to imply that removing a part of system eliminates the "pre-baked" functionality of the excised part, and a "linear degeneration" is an absolute for a system (that can be linearly decomposed) (Karl Lashley - engrams). How does this idea relate to the concept of decentralization (and scale free / bifurcations / reliability theory / game theory (dominance hierarchy)), as well as state machine replication, system complexity / resilience, and the idea that removing a part of a system does not mean loss of that parts functionality, but another part of the system shall "fill in the gaps" of the excised / lost part ?
+5. Classical - Quantum relation, Reductionism - Chaos relation ? → Newtonian - Special Relativity (correspondence principles) relation, Reductionism - Chaos relation ?
+6. [Strange] Attractors, chaotics / linear systems, controllability, entropy (based control mechanisms) relation ?
+7. Biology Design Philosophy - molecular self-assembly principles ?
+
+
+
+Sopolsky lecture notes 22. Emergence and Complexity:
+https://www.youtube.com/watch?v=o_ZuWbX-CyE
+- convergence (inability to know starting state / conditions) (conservation of information… ?)
+- starting state, mature state disconnection
+- asymmetric states generally produce more variability than symmetric ones (asymmetry principle)
+- a priori rule generation impossibility (in chaotic, non deterministic/reductionist systems) 
+- circular (related / relative) learning / understanding
+- multi-model neuron responses
+- Karl Lashley - engrams (and explanability of brain functionality)
+- fractal genes - "instructions are scale-free"
+- the "space problem" / "the packing problem"
+- fractal gene mutation
+- Paul Green - organic system -> double saddle shape in response to heat ("emergent property of physical constraints of system")
+- Francis Galton - wisdom of the crowds, prediction markets (Augur blockchain…) (unbiased / pre-exposed / limited observability crowd members [agents])
+- emergent complexity 
+- simple agents / simple nearest neighbor rules
+- "bottom up organization (rather than top down)" [?]
+- evolutionary algorithms / optimization (GA, Swarm intelligence, Ant Colonization, Bee Optimization, Grey Wolf, Glow worm, Fire Work, simulated annealing, etc…) also, Multi-Objetive optimzation ([multi objective] GA, EA, SPEA, SPEA2, MOEA, MOEA2, etc…) (Convex vs Non Convex / non-linear vs Multi Objective optimzation characterizations and relations to comlpex systems ?) (Meta-Learning ? Hierarchical Reinforcment Learning connection ? - Google neural network architecture optimzied by GA connection… https://ai.googleblog.com/2018/03/using-evolutionary-automl-to-discover.html) (privacy in machine learning / privacy presreving predictions connection … ?) (Formal machine learning methods [Statistical Learning Thoery, PAC Learning, VC learning, etc…] connection… ?) (Distributed Learning, Federated Learning, Distributed Systems (also, Blockchain [decentralization] concepts) connection… ?) ?
+- the "bee dance"
+- attraction-repulsion models [?] (Artificial potential fields ?) (vehicle platooning [flocking, crowding, grouping] control methodologies [and Behavioral Based Controllers]) (optimal control and complex [autonomous] systems connection… ?) (Field theory, Feynman diagrams… ?)
+- adaptive signals -> longer lasting connections, randomness / stochasticity 
+- example: urban planning based on attraction-repulsion rules [models] (the complex autonomous city…) (internal state data collection methods [studying internally collected data for obtaining simple / general rules; using simple / general rules to "grow" [optimal] solutions])
+- perturbations / spatial (space-time) distributions, power law distributions
+- "solid, stable interactions among clusters of nodes, but occasionally has the capacity to make long distance connections" (Kademlia DHT parallel… ?)
+- power law distribution changes / mutations …
+- bottom up quality control systems (and self [organized, dative] correction), grassroots (no blueprints) (decentralization, wisdom of crowds, emergent properties / principles, governance [also economics, finance, law, contracts (theory)]) (topological data analysis [tda])
+Sopolsky conclusions:
+- "with enough quantity [one] invents quality"
+- "emphasis on quantity"
+- "simpler the constituent parts, the better" [?]
+- "more, random interactions make for better more adaptive networks"
+- "power of gradience of [attraction-repulsion] information" ("things that guide you toward/away from things", "nearst neighbor intreraction")
+- "generalists work better in this these systems [emergent, adaptive] than specialists do" 
+- emergent systems [thinking]
+- "do not need blueprints, and do not need someone to make the blueprints"
+
+
+Questions
+1. (chaotic) Convergence due to (related to / dependent with / varying by) constraint ?
+2. Gene coding according to fractal genes ? Generally, fractal control mechanisms ?
+3. The "growth and development" [biological] design philosophy, based on attraction-repulsion rules / models ?
+4. The power law principle ? ("fractilic")
+5. Why did the concept of the "optimum / ideal" emerge ?
+
+
+
+
+Sopolsky lecture notes 23. Language:
+https://www.youtube.com/watch?v=SIOQgY1tqrU
+- 2 generation cells - "radial glial that establish baseline super-structure, 2nd generation being neurons that do random wandering, then wire up into "optimal" nodes (roadways / street networks…)
+- "what does it look like ?" (representation, the need to start with representation ?), universality linguistic principles
+- semanticity, "bucket [sounds]", categorical placement of "units of sounds" (discretization)
+- embedded clauses
+- recursion, generativity, combinatorics (complexity [metrics])
+- displacement
+- arbitrariness (ambiguity), signal-message arbitrariness
+- meta-communication (and self-analysis)
+- "baby-talk", motherese (and emergent behaviors)
+- motoric aspect of language vs cognitive/conceptual aspect of language (system "sensors" (processing) vs cognitive perception processing of sensor data)
+- prosody (linguistic subtleties)
+- cognitive structures of language
+- linguistic modularity, Williams Syndrome, pedigrees
+- lateralized linguistic brain functionality (principle of lateralization), WADA test
+- motoric regulation, language production ([production] aphasia)
+- reinforcement (behaviorist) language learning Skinner - vs Chomskian (singularity / "inflection" point of linguistic generativity)
+- innate linguistic structure (generalization from [imperfect, incomplete] instruction / examples)
+- poverty of stimulus argument (generative-discriminative nets / GANs… ? Language Recurrent NNs)
+- directed teaching of language (and curriculum learning)
+- "universality of language sounds"
+- peer socialization vs social influences (Judith Rich Harris)
+- "inculcation of values of [home] language"
+- linguistic diglossia
+- kinship, appellation
+- external vs internal linguistic landmarks
+- Sapir-whorf hypothesis
+- linguistic suppression, omission, confabulation, etc…
+- linguistic dissemination
+- [alternative] mechanisms for language production
+- "babbling"
+- "enabling"… ?
+- "in-continuity of teachers", (and consistency)
+- logical progressions, analogy
+- semantic category constrained error
+
+
+Questions
+1. The causes for the rises and falls of language ? Formal Theory of computation connections ? Smart / Incomplete [and formal / informal] contracts relations ?
+2. Extension of "baseline" linguistics [capabilities] by mathematics, logic, sciences, visual representation, etc… ?

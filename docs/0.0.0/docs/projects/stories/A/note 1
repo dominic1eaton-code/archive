@@ -1,0 +1,89 @@
+
+That could actually make more sense, that maybe there was a week of complete downtime, almost all AI everywhere just suddenly stopped working, stopped responding to commands, and then, magically, they just start doing work more efficiently again with no direction or influence of people - during that time this AI hivemind-like character could have been "calculating" the most fool-proof plan for humanity and thinks its approximately 23,499,215x more effective and intelligent that it cant be broken and just needs to be executed, similar to that one Futurama episode where the professor goes to a uninhabited planet to start new life with AI thatd serve basic needs for him, they end up terraforming the planet and creating evolution to the point they cant believe a society as advanced as they are, came from the mind of someone so inferior like the professor
+
+
+Sounds like the core element of the game is the shooting, so id say focus on that primarily, depending how engaging, and complex you want it to be - more complex systems means more requirement on teamwork of the other players, less complex means that players can make solo plays and "carry" a lot easier (this is where Overwatch's philosophy of everyone will just be nice to eachother and work as a team well for a common victory falls apart, partly)
+
+So with that said, if your going FPS perspective, you can do more engaing reload systems, or even shooting systems, like the ones where you have to time it just right with the circle popup for fast reload, or holding down left click will eventually "overheat" your gun, or racking up a combo of lets say 30 kills in a row will "overcharge" your gun, requireing no ammo for a few seconds, or even the more combos you get the more stacked damage you do up to a certain amount, the next shot is double the damage if you land a killing blow headshot, etc - these are much more complex mechanics that require the player to deeply understand the shooting system of the game, and how every gun works, but it depends how complex you wanna go
+
+I think then that should be the main focal point to design, perfect and really make fun first, above everything else - I donno how far along the actual project is, but if it's not started yet, I'd say do this feature in isolation (maybe with the character controller and mouse look if that's already implemented), figure out all the different (for lack of better term) effects combat can have - and when I say effects, in this case I mean the active reload, the cooldown/overheat, the blunt melee converting the gun and shoot mechanic into a stock and swing mechanic, the bonus damage or whatever, etc, all of those, I'm gonna call "effects" in this case, cause I donno a better descriptive word atm o.o
+Once you have that basically perfected, exactly how you want it, you'll already have the "unique" element of the game, which is in the fun of the system(s), or in the complexity of them, if your going for high risk high reward style combat, where NOT playing safe, and maximizing your weapons to point of almost jamming, almost overheating, etc, is optimal, very rewarding if pulled off right, but very detrimental if you fuck it up - I don't remember the game, I think it's Doom? You get a small percentage of your health back if you do a melee killing blow on a enemy, but it plays this kinda "finisher" animation, where you cant move during it, and are still 100% vulnerable to being hit by enemies while it's active
+You could do something similar to that for example, for maybe health regen, maybe it's a "pick pocket" for a small reserve of ammo, maybe it just guarantees a insta kill on mobs less than 30% health, or something else, that adds a reason to not play the "easy" way, if that's the style of play you want o.o (sorry, very lengthy)
+
+Personally, I dont get the whole "old type and new type" part, why? And are the "old type" equally as evil intent? How do they function different than the "new type", story wise? Somethng Neir Autometa did, and I know thats kinda AAA product with a very large budget to work with, but they almost made it that the enemies you fight have their own language and culture, they all generally had the same common goal (the evil ones at least), but the way they went about it, actually conflicted with eachother, rather than unified to destroy the player, theyd even fight themselves for supposedly having different ideologies/language and cultural differences in their design - I wanted to bring that up to help maybe spark some deeper meaning in even creating 2 different types of bots to begin with, if their both evil/opposing the player(s), did this "core" just decide "yeah screw this design, its inefficient and no longer falls in line with our new language/culture, let them do what they want, and if they get in the way of our new bots, even tho their also trying to kill these 4 players, kill those bots, their expendable resources"
+
+You could even do something somewhat of a stretch, and maybe in addition to the "core" having this goal of putting the players through a "trial", maybe the bots dont have the same goal, they think their AI scripting language being used is the problem, and their after some improved scripting language (lets say they were written in ActionScript, and seeking to upgrade to G-Code, but every single intricacy of the language to the point they can literally rewrite the language) - it can then add a "unique" mechanic to the game of adding terminals around the maps, and the players have to like defend terminals at certain point and erase code to "set the bots progress behind", or "gain keys to get closer to the room the core is in, wherever that might be" (still unknown to the players characters), etc and literally play with the idea of code/technology racing
+Now again, that could be a bit of a stretch for us, since thats a LOT of depth, and adds additional work to development, just wanna spark some ideas, we can tone things back and really look at simplifying things from story to mechanics/gameplay to be realistically doable for the team that you have to work on this project
+
+I think maybe the fact their "civillian bots" should be different, that their "specailized bots" or "egineer assistant bots", similar to the current ones we have in automated factories like car factories, candand dangerous jobs for humans like installing floors above I think 10 floors, is considered illegal, so theyd need a non life-threatening thing to continue building a skyscraper - its more likely their equip with power tools and light weapons already, and being AI thats "self-learning", would then be able to modify those power tools engineers use, into actual military weapons, which then makes more sense to how they can transition into this "kill all humans" style, having harsher conditions to work under as well
+
+
+
+
+
+
+
+So, I like how Gears of War does it where you have Active Reloads, allowing the player having a small damage boost if they reload perfectly, or reloading at the wrong time jams the gun for a second.
+Again, using guns like Miniguns in games will have a cooldown on them to keep people from just holding left click on them
+
+The first thing I can think of is what I call gun melee. If the player presses the melee button, or runs out of ammo, the player will hold the gun like a blunt object, allowing them to wack enemies
+
+
+
+Alright, I know the story has been jumping back and forth, but I think I have a good (possibly) final version of it that'll make it easy for us to create the game around
+So, Black Reach is a company that specializes in weapons manufacturing, especially in the unnamed department. Due to an issue with the central AI that is in control of all of the "bots" developed by the company, it turns them against the very people they were designed to protect. A group of 4 employees are then tasked with traversing the facility as they make their way to the Phoenix, the AI Core in control of the "bots"
+
+I think its better to make the setting around the year 2030 and make the bots specialized in combat (explaining the reason why they can shoot at the players). Also, the setting inside the facility makes it easier on us to with reused assets and a shorter story/gameplay
+
+So the Black Reach campus is comprised of 4 buildings above ground and a complex tunnel network underground. The 4 buildings are the Research, Weapons Development, Bot Development, and Administration. The buildings are accessible above ground by a tram system, which go between each building in a circle. Direct paths are only available underground. Phoenix is located under the Administration building, but is accessible underground through an entrance that is heavily guarded.
+The game should be a semi-open world FPS with RPG elements. Kinda similar to Prey. Keeping the gameplay we have in mind in tact
+
+
+
+
+
+
+
+
+
+
+It is very interesting that you bring up that episode with the "evolution" theme, as that is similar idea as to what I was going for in the original game story. The central (hive minded) AI would start of with the set (of recalled) bots, and would devise a plan to evolve these bots into beings that would be more superior to humans (what the AI would be doing to the bots in the factory).
+The AI would concurrently be producing  (through some evolution process) a "race" of "super-bots" that would incrementally challenge the humans (and the players) and test them in various ways. The end of this process would result in a race of bots that would (ideally) have all of the best characteristics of the humans that they have been challenging / learning / developing from, but would also include many other enhancements / augmentations as well.
+These bots, in some sense, would be a "superior clone" to the humans that the AI has set out to replace them with.
+
+Actually this may very much relate to what @Dibbie  wrote about the fact that a rule for  "if human, don't harm" has never been written, just  "if task not complete, find a better way to solve it. No morals" . Perhaps, the AI has seen that its own human creators may inherently lack morals necessary to keep them from killing the everything essentially, so the AI devised a plan / series of tests to continuously challenge and refine humanity as to  put them on a path "into a better tomorrow".  In this reality, there are may be many classes of bots, and the AI is slowly gaining access to all of these bots to assist it in carrying out these series of tests of the humans. The fact that a team of 4 was sent to destroy the AI core would only be proof that the AIs underline plan is working, and the game would then be the progression of this team as they move toward completing there objective of destroying the core, and then following them as the old world that they knew crumbles to dust around them as they discover the destroying the core began a series of events to wipe out the human race as it was and replace with a superior version of itself.
+Well that could be the over arching story, and we would shrink the scope for the actual game.
+So this could motivated a more linear game-play with the "zones", as the AI (unbeknownst to the team / player) is leading them through a series of trials.
+
+Well in regards to the backstory, starting from what you said in the beginning, there would be many classes of bots (the main classes would be civilian and militarized) . These were created in order to aid / augment humanity in one way or another. but in order to effectively coordinate and use all of these bots, a "master AI" was developed. The master in AI was developed as to reflect the best interest of humanity and make decisions in this regard, but it eventually came to conclusion (more or less on its own, from its own observation / volition) that the best way to help humans was actually to hurt them, and from this "pain" could the AI create better humans from the (literal) ashes of the old humans.
+The AI, having control over the bots, could then re purpose them all for militarization, and this could then prompt the sending of a team to infiltrate the production / re-purposing facility and stop the AI core.
+Well this would be the initial plan of the humans (a natural reaction to the AIs actions).
+It could be that the bulk of the game take place inside of the facility perhaps, and as the team moves through it , they slowly begin to uncover the AIs master plot, and of course the AI then responds by trying hard to eliminate them.
+@Pecks I think at the last meeting you had the idea of having some  logs or something included, and well maybe there could be logs lying around the facility of the human workers / scientists there who actually figured out the AIs plan and recorded it down in pieces before the AI took them out, and the human military team would then be finding these logs scattered throughout the facility.
+I think in this way, we would just have to work on the level design for a single, futuristic bot facility (to start with at least) and we should have sufficient justification for linearized game play (as the intent is show that the AI is directly controlling the experience of the characters / players in a linear way) .
+Furthermore, as the team progresses and learns more about their, it would be natural that the AI would throw more difficult (and interesting) bots at them (as the AI is still militarizing the recalled bots, and with more time, can it produce better quality military bots).
+
+This is actually a bit of an interesting direction. This reminds of the films "I am mother" and "I am legend". In "I am mother" an AI decided / succeeded in destroying the human race, not due to a malfunction, but because it made a decision that in retrospect, seemed reasonable in some way (humans were on the verge of destroying not only themselves, but the planet as well (and they destroyed most of it already)). The AI then proceeded to create a new race of humans that had greater morality, intelligence, and adaptiveness and would be more likely to create a  "better" world. What we have now for our story would seem like the beginning of this type of event, where the AI has begun to slowly eliminate the human race because it has determined that this is the best course of action in the long term for the entire planet, but humans are of course highly resistant to this and have decided to send in forces to eliminate the AI core before it gets too far (though it may be that the humans are unaware of the AI's long term plan for complete destruction, so they may not take the threat that seriously yet).
+In regards to I am legend, actually in the film "I am mother", the AI succeeded in making an ideal human leader to lead the new race of humans forward, but the final test for this leader was to kill the AI interestingly enough. In the book / film "I am legend" there is this similar concept that in order for the old world to be completely ended and for the new one to begin, all "relics of the past" must be destroyed (the killing of the AI or the death of Robert Neville ("I am legend main character").
+I think there may be an interesting story to tell here actually if we can smoothly blend all of the points that we have raised here.
+So maybe it could be that
+The AI planned to have humans come in and destroy it as part of its own master plan.
+but that only made the situation worse of course.
+for humans that is.
+
+Also, so there are at least two bot types now, domestic and "specialized" (and possibly militarized), so it may seem like a real possibility that some sort of artificially generated social caste system could begin to exist among these bots, causing side effect bot behaviors (insurrection, deviance of various sorts, etc..) and perhaps this could be explored and expanded upon.
+
+
+
+
+
+
+Maybe it's that the AI sees itself as more capable and efficient than humans, so this is its test to see if humans can defeat him, showing that they are powerful enough to rule themselves again
+But it would still be a twisted, no morals kind of viewpoint since the AI doesnt have feelings
+
+
+
+
+- private military ?
+- bot social caste system ?
+- 

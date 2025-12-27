@@ -1,0 +1,18 @@
+from linkden:
+
+What is LL DL - Life Long #DeepLearning ?
+
+Just like human learning, life-long ML should also follow the following principles:
+
+(a) continuous learning process,
+(b) knowledge accumulation and maintenance in the KB,
+(c) the ability to use the accumulated past knowledge to help future learning,
+(d) the ability to discover new tasks, and
+(e) the ability to learn while working or to learn on the job.
+
+Remember these are more advanced than the popular transfer learning and even MTL (multi-task learning) which doesn't go far.
+
+Here's how a typical reference architecture of LLML/ LLDL looks like
+
+Without these capabilities, a DL system will not be able to learn in a dynamic "open environment" by itself, and will never be truly intelligent. A typical open environment, we mean that the application environment may contain novel objects and scenarios that have not been learned before, just like humans, but we adapt and this is where the next generation #AI models will evolve into.
+

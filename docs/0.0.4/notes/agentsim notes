@@ -1,0 +1,13 @@
+DES component
+- organizes a scene
+- generates a scenario
+- facilitates creation / destruction of [discrete] events
+
+
+...
+
+spatio-temporal hierarchy
+operational - time steps : V2V local interactions 
+tactical - multiple time steps / epochs : Platoon to Platoon (P2P) internal interactions
+strategic - multiple epochs / lifetimes : multiple Platoon interactions + coordination + management 
+

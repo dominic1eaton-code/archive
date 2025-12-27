@@ -1,0 +1,73 @@
+
+# Files Overview 
+
+  ## docs
+    supporting documentation 
+
+  ## examples
+    code usage examples
+
+  ## license 
+    licensing informatino
+
+  ## src
+    source code
+
+    ### API 
+      package API
+
+      #### bindings 
+        language bindings 
+
+        ##### Python
+        ##### Java
+
+      #### ports 
+        software ports
+        
+    ### Apps
+      applications
+      
+      #### APP
+        game theory utility (functions) library
+        
+        ##### API
+          internal library API
+          
+        ##### docs
+          internal library supporting documentation
+          
+        ##### examples
+          internal library exapmles
+          
+        ##### src
+          internal library src API
+          
+          
+    ### Libs
+      libraries
+      
+      #### LIB
+        game theory utility (functions) library
+        
+        ##### API
+          internal library API
+          
+        ##### docs
+          internal library supporting documentation
+          
+        ##### examples
+          internal library exapmles
+          
+        ##### src
+          internal library src code
+        
+        ##### test
+          internal library tests
+         
+  ## tests
+    test code
+    
+  ## version 
+    versioning documentation
+    versioning revision lists 

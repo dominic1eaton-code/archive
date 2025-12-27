@@ -1,0 +1,28 @@
+basic resources abstracted to physical money
+physical money abstracted to digital coin 
+digital coin translated into automated rules and organizations
+
+The Bureaocrat
+The Decision Makers 
+The Predictors 
+
+
+The Incomplete Contract - Oliver Hart 
+
+
+Bureaoctrats and Distributed Governance - Leslie Lamport (Paxos)
+- Somewhat is the beauty of Leslie Lamport's paper "Paxos" visible, through a veil of a seemingly complex and intricate story. Of the many interesting and perhaps very relevant ideas presented in this work, the idea bureaocracy stands out as a key issue. Important considerations of course include ensuring liveliness, consistency, ordering, monotonicity, consistent/(psuedo)synchronous timing and agreement among all actors, as well as dealing with enforcement the decrees made as a result of performing the distributed protocol. Beyond these conditions however, still persisted the need for enforcement and ensuring that created laws were actually carried out. From this, did the idea of beuracracy perhaps arise, this outsourcing of "work on the ledger", for which agents were assigned duties pertaining to maintaining the sancitity and validity of the ledger. The ledger was far from perfect, actors made mistakes, people perhaps did not always follow the law, and at time adversaries were present whose sole intention was to cause harm to the system.
+
+
+
+who is in charge when things go wrong ?
+
+- Fault, blame, and enforcement of the law. Should the people be held accountable for the faults of the organization ? should the leaders ? One might imagine that in holding the poeple accountable, an organization may be more robust to failures, as the majority of people would have to fail, in order for the organization as a whole to fail. In the case of centralized leadership, if the leaders do not enforce the lob (failing to do thier jobs effectively) the organization is prone to failure. One must question that nature of these two structures however. Once was it suggested that a heirarchal architecture allowed for abstractions, and by extension, simplifications to occur, allowing for more effecient and easily functioning organizations. Shifting emphasis and power to the people, may perhaps eliminiate the benefits of heirarchal structure, and reintroduce the complexity, which was sought to be rid of in the first place. At first glance, this is thought to be the case, yet of course further analysis is needed to prove the veracity of this idea. One must wonder why centralized arose in the first place, and why there are those who seek to "give power to the people", while still perserving all of the ideas the made centralization work to begin with. This is not to say that either centralized powers, or decentralized are "better" or "worse", but perhaps the question of asking which one is better than the other is not the question to ask. The resource of power and even liberty, are in some sense limited, as it is difficult to imagine that everyone can be in control of everyone else, and that in some people have rights and freedoms to realize their volitions, others may lose some of their rights in order to accomodate. 
+	Perhaps an interesting occurence one may see with the uses for distributed ledger technologies in the future, is the creation of a globalized neural network like (or brain like) networked system, for components of the system are mobile, are nodes (neurons) are equal, yet the heirarchal or abstracted masses that are formed on top of them (via smart contracts / DAOs) act in a similar fashion as brain components (such as temporal, periatel lobe, cortical regions, etc...). These systems work in close connection with one another, and are inextricably connected, yet still maintain some sense of seperation, as certain regions perform certain, specific functions and tasks, yet these funtions and tasks are not limited to beint performed in only one region of the entire networked system. This implies some notion of robustness exists for this system, and that failures are, in some ways, not so easily accomplished. This idea, of course, is unpolished and coarse, and it is not fully understood yet how this system would actually operate, and how it would effect the current world state. 
+
+- the organization is represented through its constitution and the members are merely extensions of this ideal. It is the constitution that shall (ideally) outlast any constituent component and the idea that has the capacity to be carried for, transferred, evolve or change as it comes into interaction with new actors and agents. As said once by Darwin: it is not the strongest, nor even the smartest that survive, but those most reponsive to change. Clarity and consensus on goals, building sufficient anticipation of goals, flexibility and agility contain within them the means for which a constitution might stand the test of time. 
+
+The abstraction method
+- From nature, it is clear that rising abstraction, and operating on a simplified (high level) space, appears to be the most effective method for dealing with complex data. Hierarchy exists in many forms and can be formulated in many ways to solve a myriad of problems.
+
+- The generative, discriminative approach to problem solving, may perhaps be a very intuitive and natural approach. Having two parties diretly compete in this zero sum game, where one party attempts to propose a solution, and the countering party seeks to disprove such a solution, may perhaps produce better answers, especially if these two parties are able to cooperate cohesively and in sync to concurrently improve their corresponding models. 

@@ -1,0 +1,24 @@
+- bistate stability (ising model, boltzmann machines, percolation theory, chaos theory, 1/2 spin (spinor) states [Lorentz Transformations], etc...)
+- nstate stability
+- modes of quanitification (measurement, metric, etc...)
+- *a general field theory ? (social fields, \control fields, lifetime fields, etc...)
+- fields of composition (composition fields) 
+- field interactions
+
+Lecture Notes
+General Relativity Topic 2: Relativity and Symmetry
+- inertial reference frames
+
+symmetry
+- isotropy of space (spatial rotational invariance)
+- homogeneity of space (spatial translational invariance)
+- homogeniety of time (temporal translational invariance)
+-- action invariances (lagrangians)
+
+
+- morphological preservance / invariance
+- action invariance (covariance of equations of motion)
+- static symmetries (spatial / temporal tranform invariances)
+- dynamical symmetries (action, lagrangian, functions, morphisms, etc..., transform invariances)
+- [mathematical] theory of transformations -> mathematical theory of invariance
+- transformations that form groups (and representations)

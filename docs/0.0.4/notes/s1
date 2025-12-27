@@ -1,0 +1,82 @@
+---
+
+Toward the Creation of Networks of Autonomous Vehicle Systems: A story (part I)
+
+
+---
+
+A Preliminary
+Shall I now come to imagine a system, consisting of autonomous and independent  agents, which may perhaps bring great relief to the plethora of problems that challenge human mobility in the current era. It has not been long since the question of enhancing human mobility through technological means has come to light, beginning with the motorized vehicle and now leading with the vast emergence of autonomous vehicle development. One cannot help but wonder about the consequences for humanity that autonomous vehicular technology, and furthermore, intelligent transportation systems in general would bring, both from a philosophical and from a technical perspective. Delving into the more technical aspect of these ideas, do I now come to imagine, explore and develop a proposition of what possibilities may exist if such systems, or network of systems, were to emerge en masse in our modern society. To forewarn, the following is all merely conjecture, a thought experiment as to the explore the nature and potential of networks autonomous vehicle systems, so as to begin to open the possibilities and come to an understanding of the impact that these ideas may have. As such, this story and the ideas surrounding it have very much yet to reach full maturity, and so, are these thoughts are to be taken with "a grain of salt", as they say.
+
+
+---
+
+A Story
+Introduction
+Perhaps what may be of great use to humanity, as a means to improve our mobility, and our physical reach in this world of ours, is a system of independent, intelligent, and autonomous agents, who are capable of quickly and efficiently traversing uncertain, erratic, and even treacherous environments. Concurrently do these agents have the capacity to see to  that no damage comes to the precious resources of which they may carry, and that the desires of their patrons are met to full satisfaction. A day may come to where I shall awaken, perform a usual morning ritual, and then proceed into entering such an agent, who forms a larger connected network of agents, that meet my desires of having fast and efficient mobility with ease, all the while protecting the sanctity of my corporeal form and human life. Furthermore, shall I know not the difficulties in performing this task. Essentially, the agent must keep me alive and well, without giving the slightest indication of the great burdens of which this task may impose. All the while, must this agent manage still to get me to my destination as quickly, and more importantly, as comfortably as possible. Here, one might imagine three broad systems at play, as one considers the designing of such a system, namely, the local agent, the larger global network for which the agent actively participates, and the overall environment for which all of the agents (and humans) exist and interact. 
+The Journey
+The Autonomous Agent
+Upon entering this agent, do I become its central focus and a key influence in the directives for the agent's highest level behaviors. The agent, in a sense, is an outer shell reflecting and realizing the desired actions and volition in the physical world, of the individual within, similar to what a body is in relation to a brain. Seven key functionalities shall the agent be endowed with, namely Prediction, Learning, Simulation, Interaction, Regulation, Perception and Organization. From these seven capabilities, of course, stem many more functionalities, but at the highest level of the operation, do I imagine these seven abilities to be the fundamental properties that any autonomous agent shall require in order to meet the objectives that I mentioned previously. 
+Further Characteristics 
+Responsiveness (to dynamic, or static, environments), Adaptation, Transference (self governed information and knowledge transfer), Growth and Development (the capacity for change and (self)improvement), Metabolism (self energy management), Homeostasis (the point of internal equilibrium), Allostasis (the process of self regulation), Socialization (the ability to learn from others) … 
+As now do I begin my journey inside of this mobile agent, will I construct a piece by piece … of compounding capabilities, that ensures the agent meets the required objectives. At the end of each section are key terms that will be useful for further inspection into each subtopic (in later posts). 
+Prediction
+Has it been suggested that it is the anticipation of reward, and not the reward itself that facilitates enduring goal directed behavior¹. A predictive element exists here, as an agent who has a desire, beyond just reward, to exist in some ideal state, will now anticipate what such state will look like, and direct its behavior accordingly. This is to say, if an intelligent agents have a tendency to predict and anticipate events and future states of the world around them, and perhaps this may have a significant on the contribution on the capacity for that agent to sustain long term goal directed behaviors. 
+So I as begin the first the leg of my journey, is the agent immediately and continuously predicting the state of the surrounding world. Prediction, combined with aspects of planning, forecasting, and very importantly, reasoning, shall allow the agent to not only anticipate future world states, but shall allow the agent to ensure consistency between current and future states of the world as well.
+key terms: prediction, planning, forecasting, reasoning
+Learning
+An expensive, yet important process of the agent, does the agent have the capacity to acquire new skills and understandings of the world during the journey. Learning is of particular interest in gauging the effectiveness of the agents ability to traverse complex environments, and even more so interesting is the idea of "learning to learn" or meta-learning (which also has ties to "active learning" where the agent takes charge of its own learning experience).
+key terms: experience (a priori information [see Kant]), knowledge acquisition, exploration, explotation, play, operant conditioning, associative learning, habituation, active learning, meta-learning, anti-patterns
+Simulation
+Within the "mind" of an autonomous, intelligent agent, does an internal representation, a model, of the current world state, and possible variations of this state, exist. An intelligent agent with the capacity to simulate possible world configurations, have a basis or foundation for which they are able to make decisions, construct new information, learn, and generally perform a host of actions. Even more so, can a collection of agents precipitate some form of coordination, if they are all running similar internal simulations, essentially, everyone has a common and agreed upon point of view of the world around them . and so …
+
+
+key terms: internal modelling, representational thought,
+Interaction
+An agent with the capability to effect the environment around it is an agent who has the means to … This can, of course, be done through interaction…
+key terms: language, socialization, communication, 
+Regulation
+An important mechanism for maintaining the consistency of the internal processes of the agent, the process of (self) regulation …
+key terms: allostasis, homeostasis,
+Perception
+And so how is the agent to gain any information about the world for which it persists ? Perception is the key processing allowing for agents to perform the important function of gathering data. Data, is at the heart of …
+key terms:
+Organization
+The capability to organize, whether organize agents in system of agents, organize/sort information, etc … 
+key terms: hierarchy, cooperation, coordination, consensus, collective intelligence, social evolution
+The Network 
+As the agent traverses the environment, having the goal of ensuring the conditions of well-fare and desired objectives are met by its host contained within, shall the agent form constituent part of a larger network.
+The Environment
+Well am I on my way to reaching my destination. The autonomous agent, which makes my trip possible is operating … this agent is concurrently interacting with every other autonomous agent around it, and they cooperatively… One more component of this "concept" might yet to be considered… That is the environment… As the environment has affected and molded all life on earth, so to does it affect the autonomous agents [responsible for my mobility] … 
+*The Body
+To take a brief sidestep, An interesting suggestion given by [2], is that to have a successful control mechanism, the controlling mechanism must have something to control in the first place. This is to say, if one so desires the design a "brain" or an agent with the capacity for artificial general intelligence, must one give the agent a "body" for with which to control. From my perspective, this seems tantamount to providing an objective function or a control law, for say, an optimal controller. The controller requires a model of some kind, in order to provide such optimizations, and as suggested in [2], does this similar reasoning apply to the creation of agents of general artificial intelligence. The body, being the physical system or the "equation" to optimize, has an instantiation in the brain. By this I mean that the agent, who has a running internal simulation (or simulation of simulations) also keeps a model of the physical system for which it controls as part of its simulation. This appears reasonable and key design element for the creation of such intelligent agents, and  …
+The Destination
+Finally, do I now arrive at my destination, quietly preparing myself mentally for the rest of the day ahead. I exit the agent, who so artfully ensured the … of my journey, and …
+
+
+---
+
+A Conclusion
+What I have presented is by no means a complete picture, but it is more of a first step of attempting to write the story networked autonomous agents, and their impacts on human mobility. … 
+
+
+---
+
+References
+Sopolsky, Robert. Robert Sapolsky: Are Humans Just Another Primate?, YouTube, 2 Mar. 2011, www.youtube.com/watch?v=YWZAL64E0DI.
+Barrett, Lisa Feldman, Fridman, Lex. MIT AGI: How the brain creates emotions (Lisa Feldman Barrett), YouTube, 24 Feb. 2018, www.youtube.com/watch?v=qwsft6tmvBA&t=6s.
+Feist, Gregory J. The Psychology of Science and the Origins of the Scientific Mind. Yale University Press, 2008.
+Cohen, Jonathan D et al. "Should I stay or should I go? How the human brain manages the trade-off between exploitation and exploration" Philosophical transactions of the Royal Society of London. Series B, Biological sciences vol. 362,1481 (2007): 933–42. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2430007/
+Liu, Shaoshan, et al. Creating Autonomous Vehicle Systems. Morgan Et Claypool, 2018.
+Waitzkin, Josh. The Art of Learning: a Journey in the Pursuit of Excellence. Free Spirit, 2008.
+McEwen, Bruce S.. "Stress, adaptation, and disease. Allostasis and allostatic load." Annals of the New York Academy of Sciences 840 (1998): 33–44 .
+
+
+
+More References
+Urban Mobility System Upgrade: How shared self-driving cars could change city traffic. https://www.itf-oecd.org/sites/default/files/docs/15cpb_self-drivingcars.pdf: International Transport Forum's Corporate Partnership Board. 2015.
+Morteza Taiebat, Austin L. Brown, Hannah R. Safford, Shen Qu, and Ming Xu, A Review on Energy, Environmental, and Sustainability Implications of Connected and Automated Vehicles, Environmental Science & Technology, 2018 52 (20), 11449–11465, DOI: 10.1021/acs.est.8b00127, https://pubs.acs.org/doi/abs/10.1021/acs.est.8b00127
+
+Further Reading
+A. M. TURING; I. - COMPUTING MACHINERY AND INTELLIGENCE, Mind, Volume LIX, Issue 236, 1 October 1950, Pages 433–460, https://doi.org/10.1093/mind/LIX.236.433
+Kant, Immanuel, et al. The Critique of Pure Reason. Pantianos Classics, 2018.

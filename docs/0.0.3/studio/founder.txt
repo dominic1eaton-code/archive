@@ -89107,3 +89107,383 @@ Just tell me which you’d like.
 
 If any of the Google Sheets links prompt “Not Found” or “Request Access,” tell me and I will regenerate a fresh shareable version instantly.
 
+
+✔ Weekly syncs (Studio + Artifact + Kuzu)
+✔ Bi-weekly OVCS reviews
+✔ Monthly DEFES audits
+✔ Quarterly Meta-Regime reflections
+✔ Human Systems dashboards
+✔ Artifact feedback
+✔ Human systems retrospectives
+✔ DEFES vigilance reports
+✔ OVCS risk recalibrations
+✔ Meta-Regime scorecard updates
+✔ Rule Catalog Template
+✔ Artifact Tagging Schema
+✔ Governance Escalation Flow
+✔ Onboarding Checklists
+✔ Timeline Contribution Matrix
+✔ RACI Matrix
+
+
+
+I. COOP FORM — WHAT THIS IS
+Name (working)
+
+Umoya–DESEF–OVCS Cooperative Federation (UDOCF)
+
+Type
+
+A Federated, Multi-Stakeholder, Role-Bound Cooperative
+
+Key properties:
+
+Membership ≠ control
+
+Equity ≠ authority
+
+Capital ≠ governance
+
+Exit ≠ punishment
+
+This coop does not optimize for equality.
+It optimizes for role fidelity and system survival.
+
+II. MEMBERSHIP CLASSES (NOW + FUTURE)
+
+Membership is functional, not honorary.
+
+Class A — Founding Steward Members
+
+(You + early constitutional partners)
+
+Custodians of the constitution
+
+No unilateral authority
+
+Highest refusal burden
+
+Can: amend constitution (supermajority)
+Cannot: override layers, appoint themselves executors
+
+Class B — Worker-Operators
+
+(Hires, staff, builders)
+
+Members by labor contribution
+
+Role-bound voting only
+
+No cross-layer authority
+
+Can: vote on working conditions, process integrity
+Cannot: vote on capital, doctrine, venture selection
+
+Class C — Domain Stewards / Partners
+
+(P1–P5 and successors)
+
+Members by stewardship, not hours
+
+Veto rights in domain only
+
+Zero executive power
+
+Can: halt contamination
+Cannot: accelerate execution
+
+Class D — Board / Fiduciary Members
+
+Members by fiduciary duty
+
+No labor or capital interest
+
+Sunset-bound terms
+
+Can: pause system
+Cannot: run anything
+
+Class E — Council / Community Members
+
+Members by legitimacy representation
+
+No ownership claim
+
+No operational authority
+
+Can: trigger review
+Cannot: decide outcomes
+
+Class F — Capital Participants (Non-Member)
+
+(OVCS LPs, external capital)
+
+Explicitly not members
+
+No votes
+
+No pathways to membership
+
+Capital is guests only.
+
+Class G — Future Members (Default)
+
+All future members enter as:
+
+Class B (Worker-Operator)
+unless explicitly elevated by two layers above them.
+
+No fast tracks.
+
+
+Class A — Founding Steward Members
+
+Ownership:
+
+Steward equity in DESEF
+
+Symbolic roles in Navigator Estate
+Compensation:
+
+Honoraria (Estate), profit share (DESEF only)
+Restrictions:
+
+Cannot control ventures or capital
+
+Class B — Worker-Operators (Hires)
+
+Ownership:
+
+Worker equity in DESEF or relevant coop
+
+Worker equity in ventures they join
+Compensation:
+
+Salary + profit share
+Restrictions:
+
+No veto or domain authority beyond role
+
+Class C — Domain Stewards / Partners
+
+Ownership:
+
+Steward equity (non-voting or oversight)
+
+No venture equity unless also a worker
+Compensation:
+
+Stipends/honoraria for service
+Restrictions:
+
+Cannot accumulate governance equity beyond stewardship
+
+Class D — Board / Fiduciary Members
+
+Ownership:
+
+None financially
+Compensation:
+
+Stipend/honorarium
+Restrictions:
+
+No equity, no profit share
+
+Class E — Council / Community
+
+Ownership:
+
+None financially
+Compensation:
+
+Honoraria for participation
+Restrictions:
+
+No equity, no vote
+
+Class F — Capital Participants (OVCS LPs, external)
+
+Ownership:
+
+Non-voting capped financial units
+Compensation:
+
+Returns up to cap
+
+No governance beyond rights agreements
+
+MEMBERSHIP CLASSES (ALL PEOPLE FIT HERE)
+
+Every human enters through one and only one class at a time.
+
+Class A — Worker-Members (Hires)
+
+Who: All H1–H5 and future operators
+Purpose: Execution and delivery
+Voting:
+
+Internal operational matters only
+
+No governance or strategy votes
+
+Equity:
+
+Internal capital account (non-transferable)
+
+Accrues surplus based on contribution units
+
+Exit:
+
+Capital account paid out over time
+
+No residual control
+
+Class B — Steward-Members (Partners)
+
+Who: P1–P5 and equivalents
+Purpose: Domain accountability
+Voting:
+
+Domain-specific governance
+
+No board appointment power
+
+Equity:
+
+Larger capital account
+
+Vesting tied to role adherence
+
+Exit:
+
+Mandatory step-down from authority before payout
+
+Buyback formula enforced
+
+Class C — Guardian-Members (Board)
+
+Who: B1–B5
+Purpose: Oversight, veto, risk containment
+Voting:
+
+Governance only
+
+No operational votes
+
+Equity:
+
+Symbolic or capped
+
+Cannot accumulate economic dominance
+
+Exit:
+
+Immediate on conflict or boundary violation
+
+Class D — Sensemaking Members (Council)
+
+Who: C1–C5
+Purpose: Pattern detection and coherence
+Voting:
+
+None on binding matters
+
+Can force review, not decisions
+
+Equity:
+
+Minimal, time-bound
+
+No compounding rights
+
+Exit:
+
+Instant, no payout delay
+
+Class E — Future Members (Apprentices / Fellows / Fellows-in-Exit)
+
+Who: Kuzu participants, fellows, future entrants
+Purpose: Formation and learning
+Voting:
+
+None
+
+Equity:
+
+None until class transition
+Exit:
+
+Expected
+4. ROLES & RESPONSIBILITIES (CROSS-CUT)
+Workers (Class A)
+
+Build
+
+Operate
+
+Share profits
+
+No system-level authority
+
+Stewards (Class B)
+
+Watch drift
+
+Block capture
+
+No execution
+
+Board (Class C)
+
+Freeze / pause
+
+Legal / solvency only
+
+Council (Class D)
+
+Reflect
+
+Publish concerns
+
+No action power
+
+Founder (Class E)
+
+Kill authority
+
+Sunset clause
+
+III. MEMBERSHIP CLASSES (FIXED, EXHAUSTIVE)
+
+Every human belongs to exactly one primary class at a time.
+
+Class A — Worker-Members (Hires, Operators)
+
+Labor contributors
+
+Venture workers
+
+Platform builders
+
+Class B — Steward-Members (Partners)
+
+Systems, platform, civil, material stewards
+
+Class C — Governance-Members (Board)
+
+Boundary and continuity only
+
+Class D — Commons-Members (Council)
+
+Reflection, voice, impact sensing
+
+Class E — Founder-Member (Navigator)
+
+Kill authority only (time-bound)
+
+Class F — Future Members
+
+Any new role must map to A–D
+
+No new class may be created without unanimous cross-class consent

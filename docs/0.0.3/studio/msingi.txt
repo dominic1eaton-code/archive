@@ -33780,3 +33780,171 @@ If you want, I can now turn these projections into:
 📋 **RACI-style financial operations maps**
 
 Just tell me the format and level of detail you want!
+
+📋 RACI-style financial operations maps
+
+
+
+Absolutely — here’s a **RACI-style Financial Operations Map** tailored to your Pamoja Federation ecosystem. It covers **who is Responsible, Accountable, Consulted, and Informed** for core financial processes across the Federation, Ventures, Platforms, Eaton Family Estate (EFO), and Navigator Personal Office (NPO).
+
+You can adapt this into **Notion tables, Sheets, or org docs** for governance, budgeting, and audit workflows.
+
+---
+
+# 📋 **RACI-Style Financial Operations Map**
+
+## LEGEND
+
+| R | Responsible | Does the work |
+| A | Accountable | Final decision authority |
+| C | Consulted | Provides input/expertise |
+| I | Informed | Kept up to date |
+
+---
+
+## 🧾 FINANCIAL PROCESS AREAS COVERED
+
+**1) Annual Budgeting & Approval**
+**2) Operating Expense Management**
+**3) Capital Allocation & Investment Approvals**
+**4) Audit & Compliance Reporting**
+**5) Grants & Philanthropy Flows**
+**6) Revenue Recognition & Reporting**
+**7) Expense Reconciliation & Cash Management**
+
+---
+
+## 1️⃣ **Annual Budgeting & Approval**
+
+| Process / Task      | Federation Board | OVCS | Councils | EFO (Family Office) | NPO | Ventures     | Platforms    | Finance Team |
+| ------------------- | ---------------- | ---- | -------- | ------------------- | --- | ------------ | ------------ | ------------ |
+| Draft annual budget | R                | C    | C        | C                   | C   | R (own unit) | R (own unit) | R            |
+| Review & revise     | C                | C    | C        | C                   | I   | C            | C            | R            |
+| Final approval      | A                | C    | C        | C                   | I   | I            | I            | R            |
+| Publish budget      | I                | I    | I        | I                   | I   | I            | I            | R            |
+
+---
+
+## 2️⃣ **Operating Expense Management**
+
+| Process / Task     | Federation Board | OVCS | Councils | EFO | NPO | Ventures    | Platforms    | Finance Team |
+| ------------------ | ---------------- | ---- | -------- | --- | --- | ----------- | ------------ | ------------ |
+| Expense submission | I                | I    | I        | I   | I   | R           | R            | C            |
+| Expense validation | I                | I    | I        | I   | I   | C           | C            | R            |
+| Payment execution  | I                | I    | I        | I   | I   | A (venture) | A (platform) | R            |
+| Monthly reporting  | I                | I    | I        | I   | I   | R           | R            | A            |
+
+---
+
+## 3️⃣ **Capital Allocation & Investment Approval**
+
+| Process / Task              | Federation Board | OVCS | Councils | EFO | NPO | Ventures | Platforms | Finance Team |
+| --------------------------- | ---------------- | ---- | -------- | --- | --- | -------- | --------- | ------------ |
+| Allocate capital pool       | A                | C    | C        | R   | I   | I        | I         | R            |
+| Strategic investment review | C                | C    | C        | R   | I   | I        | I         | C            |
+| Final approval              | C                | C    | C        | A   | I   | I        | I         | C            |
+| Disbursement execution      | I                | I    | I        | R   | I   | I        | I         | R            |
+
+---
+
+## 4️⃣ **Audit & Compliance Reporting**
+
+| Process / Task      | Federation Board | OVCS | Councils | EFO | NPO | Ventures | Platforms | Finance Team |
+| ------------------- | ---------------- | ---- | -------- | --- | --- | -------- | --------- | ------------ |
+| Internal audit plan | I                | A    | C        | I   | I   | C        | C         | R            |
+| Conduct audit       | I                | R    | C        | I   | I   | R        | R         | C            |
+| Report findings     | I                | A    | C        | I   | I   | I        | I         | R            |
+| Remediation plans   | C                | R    | C        | I   | I   | R        | R         | C            |
+
+---
+
+## 5️⃣ **Grants & Philanthropy Flows**
+
+| Process / Task           | Federation Board | OVCS | Councils | EFO | NPO | Ventures | Platforms | Finance Team |
+| ------------------------ | ---------------- | ---- | -------- | --- | --- | -------- | --------- | ------------ |
+| Define grant criteria    | C                | C    | C        | R   | I   | I        | I         | C            |
+| Grant application review | C                | C    | C        | R   | I   | R        | R         | C            |
+| Approval of grants       | C                | C    | C        | A   | I   | I        | I         | R            |
+| Grant disbursement       | I                | I    | I        | R   | I   | I        | I         | C            |
+| Impact reporting         | I                | I    | I        | R   | I   | R        | R         | C            |
+
+---
+
+## 6️⃣ **Revenue Recognition & Reporting**
+
+| Process / Task            | Federation Board | OVCS | Councils | EFO | NPO | Ventures | Platforms | Finance Team |
+| ------------------------- | ---------------- | ---- | -------- | --- | --- | -------- | --------- | ------------ |
+| Record revenue            | I                | I    | I        | I   | I   | R        | R         | C            |
+| Validate revenue streams  | I                | C    | C        | I   | I   | R        | R         | A            |
+| Quarterly revenue report  | A                | C    | C        | I   | I   | R        | R         | C            |
+| Publish public dashboards | I                | C    | C        | I   | I   | I        | I         | R            |
+
+---
+
+## 7️⃣ **Expense Reconciliation & Cash Flow Management**
+
+| Process / Task         | Federation Board | OVCS | Councils | EFO | NPO | Ventures | Platforms | Finance Team |
+| ---------------------- | ---------------- | ---- | -------- | --- | --- | -------- | --------- | ------------ |
+| Monthly reconciliation | I                | I    | I        | I   | I   | R        | R         | A            |
+| Cash flow forecasting  | C                | C    | C        | R   | I   | C        | C         | R            |
+| Fund transfers         | I                | I    | I        | R   | I   | I        | I         | A            |
+| Variance analysis      | I                | C    | C        | I   | I   | R        | R         | A            |
+
+---
+
+# 📌 SPECIAL RACI NOTES
+
+### **▶ OVCS**
+
+* **Accountable** for financial compliance *reporting that intersects constraint enforcement.*
+* **Consulted** for financial risk models and exceptions.
+
+### **▶ Federation Board**
+
+* **Accountable** for high-level budget, finance policies, and big strategic capital allocations.
+* **Informed** on operational finances monthly.
+
+### **▶ Councils**
+
+* **Consulted** on financial decisions impacting their remit (e.g., Human Viability budget, Meaning & Ethics funding allocations).
+
+### **▶ Ventures & Platforms**
+
+* **Responsible** for day-to-day financial submissions and internal revenue/expense cycles.
+* **Accountable** for their own operational ROI and spend compliance.
+
+### **▶ EFO (Estate / Family Office)**
+
+* **Responsible** for estate investment portfolios, grant funding flows, and strategic capital disbursements — especially when supporting federation programs.
+
+### **▶ NPO (Navigator Personal Office)**
+
+* **Informed** on federation financial state and reporting; manages personal financial strategy separate from federation budgets.
+
+### **▶ Finance Team**
+
+* **Responsible / Accountable** for execution across most operational processes; central to reconciliation, reporting, and documentation.
+
+---
+
+# 🛠 HOW TO USE THIS MAP
+
+Use this RACI map to:
+
+✅ **Build Notion tables** where each process is a page/record
+✅ **Create calendar reminders** for approval cycles (budget, audit, grant disbursements)
+✅ **Integrate with HR plans** so you know who holds each R, A, C, I
+✅ **Audit financial roles** before each quarterly close
+
+---
+
+# 📊 NEXT STEPS (If you want)
+
+I can transform this RACI map into:
+
+📌 **Notion database templates** (ready for federation org)
+📌 **CSV/Excel matrix for teams**
+📌 **Workflow diagrams (Mermaid/Visio)**
+📌 **Budget owners + SLA definitions**
+
+Just tell me what format you want next!

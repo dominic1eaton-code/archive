@@ -46666,3 +46666,337 @@ If you want, I can turn this into:
 Just say what format you want next!
 
 
+Absolutely — below is a **comprehensive RACI Hiring Responsibility Matrix** for onboarding all Year-1 roles across the Pamoja Federation ecosystem.
+It shows who is *Responsible*, *Accountable*, *Consulted*, and *Informed* for hiring decisions and onboarding actions — tied to the major hiring phases and organizational domains.
+
+---
+
+# 📊 RACI Hiring Responsibility Matrix — Year 1
+
+## 🧠 RACI Legend
+
+| **R** | Responsible (executes/hired by) |
+| **A** | Accountable (ultimate sign-off) |
+| **C** | Consulted (input/advice) |
+| **I** | Informed (status updates) |
+
+---
+
+## 🏛 NPO Core Team (Foundational Roles)
+
+| Role                               | Responsible | Accountable | Consulted             | Informed                      |
+| ---------------------------------- | ----------- | ----------- | --------------------- | ----------------------------- |
+| Navigator                          | Navigator   | Navigator   | CoS                   | Steering**                    |
+| Chief of Staff                     | CoS         | Navigator   | Program Sequencer     | External Partnerships Lead    |
+| Program Sequencer                  | CoS         | Navigator   | Constraint Squad      | Sequencing Council            |
+| Studio & Venture Liaison           | CoS         | Navigator   | OVCS Steward          | Venture Authorization Council |
+| External Partnerships Lead         | CoS         | Navigator   | Bahari Anchor         | Moyo/Umoya Leads              |
+| Family Systems Lead                | CoS         | Navigator   | Family Estate Steward | Eaton Estate                  |
+| Navigator Operations Administrator | CoS         | Navigator   | —                     | All NPO                       |
+
+---
+
+## ⚙️ Foundation & Governance Anchors
+
+| Role                        | Responsible       | Accountable                   | Consulted            | Informed            |
+| --------------------------- | ----------------- | ----------------------------- | -------------------- | ------------------- |
+| Governance Architect        | CoS               | Navigator                     | Legal Counsel        | Governance Council  |
+| Constraint Squad Core       | Program Sequencer | Sequencing Council            | Systems Auditor      | Core Team           |
+| Sequencing Squad Core       | Program Sequencer | Sequencing Council            | OS Platform Stewards | Constraint Council  |
+| OS Platform Stewards (7)    | Navigator         | Federation Governance Council | CoS                  | Council Secretariat |
+| Legal Counsel               | Navigator         | Federation Governance Council | Governance Architect | All Hires           |
+| Capital Containment Advisor | OVCS Steward      | OVCS Governance Council       | Mande IG             | Governance Council  |
+| Systems Auditor             | DEFES             | Federation Governance Council | Sequencing Council   | All Hiring Leads    |
+
+---
+
+## 🧪 Msingi Program Teams
+
+| Program Team          | Responsible       | Accountable        | Consulted                | Informed           |
+| --------------------- | ----------------- | ------------------ | ------------------------ | ------------------ |
+| Luma Team             | Program Sequencer | Navigator          | Bahari/Moyo Leads        | Sequencing Council |
+| Ndebe Team            | Program Sequencer | Sequencing Council | Songhai Institute        | Councils           |
+| Kano Origination Team | Program Sequencer | Sequencing Council | Studio & Venture Liaison | OVCS               |
+| Zamba Systems Framers | Program Sequencer | Sequencing Council | OS Platform Stewards     | CoS                |
+| Kuzu Readiness        | Program Sequencer | Sequencing Council | Family Systems Lead      | Councils           |
+
+---
+
+## 📜 Councils & Governance Hiring
+
+| Role                          | Responsible           | Accountable                   | Consulted            | Informed       |
+| ----------------------------- | --------------------- | ----------------------------- | -------------------- | -------------- |
+| Governance Council Members    | Governance Architect  | Federation Governance Council | Navigator            | All Teams      |
+| Constraint Council Members    | Constraint Squad Lead | Sequencing Council            | DEFES                | All Teams      |
+| Sequencing & Quality Council  | Sequencing Squad Lead | Sequencing Council            | OS Platform Stewards | All Teams      |
+| Venture Authorization Council | OVCS Steward          | Federation Governance Council | Family Systems Lead  | Studio Liaison |
+
+---
+
+## 🧱 OVCS Studios & Venture Teams
+
+| Group                         | Responsible                | Accountable                   | Consulted            | Informed  |
+| ----------------------------- | -------------------------- | ----------------------------- | -------------------- | --------- |
+| Studio Directors              | Studio & Venture Liaison   | OVCS Steward                  | OS Platform Stewards | Councils  |
+| Studio Ops Leads              | Studio Directors           | Studio Directors              | UME-OS Support       | CoS       |
+| UME-OS Engineers              | Studio Ops Leads           | Studio Directors              | Platform Leads       | Councils  |
+| Venture Core Teams (12)       | Studio Directors           | Venture Authorization Council | Platform Liaisons    | CoS       |
+| Platform Integration Liaisons | External Partnerships Lead | Federation Governance Council | OS Platform Stewards | Navigator |
+
+---
+
+## 🌐 Networks & Ecosystem Roles
+
+| Initiative                      | Responsible                | Accountable                   | Consulted       | Informed       |
+| ------------------------------- | -------------------------- | ----------------------------- | --------------- | -------------- |
+| Bahari Network Engagement Leads | External Partnerships Lead | Navigator                     | Bahari Steering | Councils       |
+| Moyo Collective Facilitators    | Moyo Collective Anchor     | Federation Governance Council | Umoya Society   | Bahari Network |
+| Umoya Society Coordinators      | Umoya Society Lead         | Federation Governance Council | Moyo Collective | Councils       |
+
+---
+
+## 💰 Capital, Finance & Family Systems
+
+| Role                         | Responsible                 | Accountable       | Consulted                | Informed              |
+| ---------------------------- | --------------------------- | ----------------- | ------------------------ | --------------------- |
+| Mande Investment Group Hires | Capital Containment Advisor | Mande IG Council  | Legal Counsel            | Federation Governance |
+| Family Office Directors      | Family Systems Lead         | Eaton Estate Coop | Legal Counsel            | Navigator             |
+| Family Estate Studio Teams   | Family Systems Lead         | Family Office     | Studio & Venture Liaison | Councils              |
+
+---
+
+## 🧠 Deep Projects (Meridian & Mungu)
+
+| Project                   | Responsible            | Accountable           | Consulted            | Informed  |
+| ------------------------- | ---------------------- | --------------------- | -------------------- | --------- |
+| Meridian Core Team        | Meridian Lead          | Federation Governance | OS Platform Stewards | All Hires |
+| LLM + Human Integration   | Meridian Lead          | Federation Governance | Systems Auditor      | Councils  |
+| Mungu Project Researchers | Songhai Institute Lead | Federation Governance | Ndebe Team           | Councils  |
+
+---
+
+## 🛠 Platform Support & Scaling Teams
+
+| Platform            | Responsible   | Accountable           | Consulted         | Informed   |
+| ------------------- | ------------- | --------------------- | ----------------- | ---------- |
+| QALA Team           | Platform Lead | Federation Governance | Studio Liaison    | OS Council |
+| SAMBARA Team        | Platform Lead | Federation Governance | Mande IG          | Councils   |
+| IMEWË Team          | Platform Lead | Federation Governance | Songhai Institute | Councils   |
+| ORU Team            | Platform Lead | Federation Governance | Bahari Lead       | Councils   |
+| NANDI Team          | Platform Lead | Federation Governance | Family Systems    | Councils   |
+| KOGI Team           | Platform Lead | Federation Governance | Moyo/Umoya Leads  | Councils   |
+| UME Runtime Support | Platform Lead | Federation Governance | Studio Directors  | Councils   |
+
+---
+
+## 📈 Reporting & Transparency Teams
+
+| Role                  | Responsible           | Accountable           | Consulted             | Informed  |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------- |
+| Dashboard Analysts    | Reporting Lead        | Federation Governance | DEFES                 | Councils  |
+| Public Portal Writers | Reporting Lead        | Federation Governance | External Partnerships | All       |
+| Metrics Engineers     | Reporting Lead        | Federation Governance | Sequencing Squad      | Councils  |
+| Retrospective Council | Federation Governance | Federation Governance | Sequencing Council    | All Hires |
+
+---
+
+# 📌 Notes on RACI Conventions
+
+1. **Responsible (R)** is the *executor* or the team that actually conducts the hiring process and onboarding.
+2. **Accountable (A)** is the *approver* — the role that must sign off decisions.
+3. **Consulted (C)** are the advisors whose input matters before decisions.
+4. **Informed (I)** are stakeholders who are updated after decisions.
+
+---
+
+# 🧠 RACI PRINCIPLES FOR YOUR CONTEXT
+
+✔ **No role is left without clarity** — every hire has both a *performer* and a *decision owner*.
+
+✔ **Steward roles** (Class B) often *consult*, not direct hire — they shape job profiles and criteria.
+
+✔ **Governance bodies** are created *early* and then *consulted* throughout hiring.
+
+✔ **Direction comes from Navigator → NPO → Councils** — not top-down, but *structured*.
+
+✔ **Many hires scale from R → A over their lifecycle** (e.g., Studio Ops start responsible, later accountable for venture hiring within their studios).
+
+---
+
+## Want Visual or Export Versions?
+
+I can generate this in:
+
+✅ **CSV / Excel**
+✅ **Notion Table**
+✅ **Mermaid Org Chart with RACI annotations**
+✅ **Jira Import w/ RACI custom fields**
+
+Just tell me the format you want next!
+Absolutely — below is a **comprehensive RACI Hiring Responsibility Matrix** for onboarding all Year-1 roles across the Pamoja Federation ecosystem.
+It shows who is *Responsible*, *Accountable*, *Consulted*, and *Informed* for hiring decisions and onboarding actions — tied to the major hiring phases and organizational domains.
+
+---
+
+# 📊 RACI Hiring Responsibility Matrix — Year 1
+
+## 🧠 RACI Legend
+
+| **R** | Responsible (executes/hired by) |
+| **A** | Accountable (ultimate sign-off) |
+| **C** | Consulted (input/advice) |
+| **I** | Informed (status updates) |
+
+---
+
+## 🏛 NPO Core Team (Foundational Roles)
+
+| Role                               | Responsible | Accountable | Consulted             | Informed                      |
+| ---------------------------------- | ----------- | ----------- | --------------------- | ----------------------------- |
+| Navigator                          | Navigator   | Navigator   | CoS                   | Steering**                    |
+| Chief of Staff                     | CoS         | Navigator   | Program Sequencer     | External Partnerships Lead    |
+| Program Sequencer                  | CoS         | Navigator   | Constraint Squad      | Sequencing Council            |
+| Studio & Venture Liaison           | CoS         | Navigator   | OVCS Steward          | Venture Authorization Council |
+| External Partnerships Lead         | CoS         | Navigator   | Bahari Anchor         | Moyo/Umoya Leads              |
+| Family Systems Lead                | CoS         | Navigator   | Family Estate Steward | Eaton Estate                  |
+| Navigator Operations Administrator | CoS         | Navigator   | —                     | All NPO                       |
+
+---
+
+## ⚙️ Foundation & Governance Anchors
+
+| Role                        | Responsible       | Accountable                   | Consulted            | Informed            |
+| --------------------------- | ----------------- | ----------------------------- | -------------------- | ------------------- |
+| Governance Architect        | CoS               | Navigator                     | Legal Counsel        | Governance Council  |
+| Constraint Squad Core       | Program Sequencer | Sequencing Council            | Systems Auditor      | Core Team           |
+| Sequencing Squad Core       | Program Sequencer | Sequencing Council            | OS Platform Stewards | Constraint Council  |
+| OS Platform Stewards (7)    | Navigator         | Federation Governance Council | CoS                  | Council Secretariat |
+| Legal Counsel               | Navigator         | Federation Governance Council | Governance Architect | All Hires           |
+| Capital Containment Advisor | OVCS Steward      | OVCS Governance Council       | Mande IG             | Governance Council  |
+| Systems Auditor             | DEFES             | Federation Governance Council | Sequencing Council   | All Hiring Leads    |
+
+---
+
+## 🧪 Msingi Program Teams
+
+| Program Team          | Responsible       | Accountable        | Consulted                | Informed           |
+| --------------------- | ----------------- | ------------------ | ------------------------ | ------------------ |
+| Luma Team             | Program Sequencer | Navigator          | Bahari/Moyo Leads        | Sequencing Council |
+| Ndebe Team            | Program Sequencer | Sequencing Council | Songhai Institute        | Councils           |
+| Kano Origination Team | Program Sequencer | Sequencing Council | Studio & Venture Liaison | OVCS               |
+| Zamba Systems Framers | Program Sequencer | Sequencing Council | OS Platform Stewards     | CoS                |
+| Kuzu Readiness        | Program Sequencer | Sequencing Council | Family Systems Lead      | Councils           |
+
+---
+
+## 📜 Councils & Governance Hiring
+
+| Role                          | Responsible           | Accountable                   | Consulted            | Informed       |
+| ----------------------------- | --------------------- | ----------------------------- | -------------------- | -------------- |
+| Governance Council Members    | Governance Architect  | Federation Governance Council | Navigator            | All Teams      |
+| Constraint Council Members    | Constraint Squad Lead | Sequencing Council            | DEFES                | All Teams      |
+| Sequencing & Quality Council  | Sequencing Squad Lead | Sequencing Council            | OS Platform Stewards | All Teams      |
+| Venture Authorization Council | OVCS Steward          | Federation Governance Council | Family Systems Lead  | Studio Liaison |
+
+---
+
+## 🧱 OVCS Studios & Venture Teams
+
+| Group                         | Responsible                | Accountable                   | Consulted            | Informed  |
+| ----------------------------- | -------------------------- | ----------------------------- | -------------------- | --------- |
+| Studio Directors              | Studio & Venture Liaison   | OVCS Steward                  | OS Platform Stewards | Councils  |
+| Studio Ops Leads              | Studio Directors           | Studio Directors              | UME-OS Support       | CoS       |
+| UME-OS Engineers              | Studio Ops Leads           | Studio Directors              | Platform Leads       | Councils  |
+| Venture Core Teams (12)       | Studio Directors           | Venture Authorization Council | Platform Liaisons    | CoS       |
+| Platform Integration Liaisons | External Partnerships Lead | Federation Governance Council | OS Platform Stewards | Navigator |
+
+---
+
+## 🌐 Networks & Ecosystem Roles
+
+| Initiative                      | Responsible                | Accountable                   | Consulted       | Informed       |
+| ------------------------------- | -------------------------- | ----------------------------- | --------------- | -------------- |
+| Bahari Network Engagement Leads | External Partnerships Lead | Navigator                     | Bahari Steering | Councils       |
+| Moyo Collective Facilitators    | Moyo Collective Anchor     | Federation Governance Council | Umoya Society   | Bahari Network |
+| Umoya Society Coordinators      | Umoya Society Lead         | Federation Governance Council | Moyo Collective | Councils       |
+
+---
+
+## 💰 Capital, Finance & Family Systems
+
+| Role                         | Responsible                 | Accountable       | Consulted                | Informed              |
+| ---------------------------- | --------------------------- | ----------------- | ------------------------ | --------------------- |
+| Mande Investment Group Hires | Capital Containment Advisor | Mande IG Council  | Legal Counsel            | Federation Governance |
+| Family Office Directors      | Family Systems Lead         | Eaton Estate Coop | Legal Counsel            | Navigator             |
+| Family Estate Studio Teams   | Family Systems Lead         | Family Office     | Studio & Venture Liaison | Councils              |
+
+---
+
+## 🧠 Deep Projects (Meridian & Mungu)
+
+| Project                   | Responsible            | Accountable           | Consulted            | Informed  |
+| ------------------------- | ---------------------- | --------------------- | -------------------- | --------- |
+| Meridian Core Team        | Meridian Lead          | Federation Governance | OS Platform Stewards | All Hires |
+| LLM + Human Integration   | Meridian Lead          | Federation Governance | Systems Auditor      | Councils  |
+| Mungu Project Researchers | Songhai Institute Lead | Federation Governance | Ndebe Team           | Councils  |
+
+---
+
+## 🛠 Platform Support & Scaling Teams
+
+| Platform            | Responsible   | Accountable           | Consulted         | Informed   |
+| ------------------- | ------------- | --------------------- | ----------------- | ---------- |
+| QALA Team           | Platform Lead | Federation Governance | Studio Liaison    | OS Council |
+| SAMBARA Team        | Platform Lead | Federation Governance | Mande IG          | Councils   |
+| IMEWË Team          | Platform Lead | Federation Governance | Songhai Institute | Councils   |
+| ORU Team            | Platform Lead | Federation Governance | Bahari Lead       | Councils   |
+| NANDI Team          | Platform Lead | Federation Governance | Family Systems    | Councils   |
+| KOGI Team           | Platform Lead | Federation Governance | Moyo/Umoya Leads  | Councils   |
+| UME Runtime Support | Platform Lead | Federation Governance | Studio Directors  | Councils   |
+
+---
+
+## 📈 Reporting & Transparency Teams
+
+| Role                  | Responsible           | Accountable           | Consulted             | Informed  |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------- |
+| Dashboard Analysts    | Reporting Lead        | Federation Governance | DEFES                 | Councils  |
+| Public Portal Writers | Reporting Lead        | Federation Governance | External Partnerships | All       |
+| Metrics Engineers     | Reporting Lead        | Federation Governance | Sequencing Squad      | Councils  |
+| Retrospective Council | Federation Governance | Federation Governance | Sequencing Council    | All Hires |
+
+---
+
+# 📌 Notes on RACI Conventions
+
+1. **Responsible (R)** is the *executor* or the team that actually conducts the hiring process and onboarding.
+2. **Accountable (A)** is the *approver* — the role that must sign off decisions.
+3. **Consulted (C)** are the advisors whose input matters before decisions.
+4. **Informed (I)** are stakeholders who are updated after decisions.
+
+---
+
+# 🧠 RACI PRINCIPLES FOR YOUR CONTEXT
+
+✔ **No role is left without clarity** — every hire has both a *performer* and a *decision owner*.
+
+✔ **Steward roles** (Class B) often *consult*, not direct hire — they shape job profiles and criteria.
+
+✔ **Governance bodies** are created *early* and then *consulted* throughout hiring.
+
+✔ **Direction comes from Navigator → NPO → Councils** — not top-down, but *structured*.
+
+✔ **Many hires scale from R → A over their lifecycle** (e.g., Studio Ops start responsible, later accountable for venture hiring within their studios).
+
+---
+
+## Want Visual or Export Versions?
+
+I can generate this in:
+
+✅ **CSV / Excel**
+✅ **Notion Table**
+✅ **Mermaid Org Chart with RACI annotations**
+✅ **Jira Import w/ RACI custom fields**
+
+Just tell me the format you want next!

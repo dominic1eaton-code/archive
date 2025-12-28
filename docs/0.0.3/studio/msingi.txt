@@ -46139,3 +46139,528 @@ I can then give specific configuration steps.
 [1]: https://support.atlassian.com/jira-software-cloud/docs/set-up-issue-types-in-team-managed-projects/?utm_source=chatgpt.com "Set up work types in team-managed spaces | Jira Cloud | Atlassian Support"
 [2]: https://community.atlassian.com/forums/Jira-questions/Hierarchy-posibilites-in-Jira/qaq-p/2669411?utm_source=chatgpt.com "Solved: Hierarchy posibilites in Jira"
 
+just give me the startup order of operations for msingi cycle and 5 programs, pamoja federation, bahari network, moyo collective, umoya society, ubunye engineering group (DESEF), OVCS studios, OVCS 12 ventures, OVCS 12 ventures 7 platforms, mungu and meredian projects, eaton family state and offices/NPO all within year 1
+
+
+
+Here’s a **clear, actionable Year-1 Order of Operations** to get **every major element operational** within Year 1 — including the Msingi Cycle + 5 Programs, Pamoja Federation & governance, Bahari Network, Moyo Collective, Umoya Society, Ubunye Engineering Group (DESEF), OVCS + studios + 12 ventures + 7 platforms, Mungu & Meridian projects, Eaton Family Estate + family office + Navigator Personal Office — sequenced so progress builds logically and safely.
+
+I’ve grouped this into **phases with dependencies**, laid out in weekly order across Year 1 (52 weeks), with *what must start first* and *what can only start after prerequisites are in place*.
+
+---
+
+# 🎯 YEAR-1 STARTUP ORDER OF OPERATIONS
+
+## PHASE 1 — FOUNDATIONAL LOCK-IN (W1–W6)
+
+**Goal:** Establish the structural spine so everything else can be safely sequenced.
+
+1. **NPO Establishment & Charter**
+
+   * Register Navigator Personal Office (NPO)
+   * Finalize NPO charter, mandate, roles
+   * Set calendar, decision pipeline, sequencing workflows
+
+2. **Canonical Architecture Freeze**
+
+   * Lock the master stack (systemics → OS platforms → Msingi → studios → ventures)
+   * Publish operating principles and regime rules
+
+3. **Governance Configurations**
+
+   * Define the Pamoja Federation Constitution/Charter
+   * Create initial council roles
+   * Establish OVCS mandate and audit logic
+
+4. **Activate Core OS Platforms**
+
+   * Register all 7 OS Platforms
+   * Define their stewards and high-level scopes
+   * Publish OS API/interaction rules
+
+5. **Activate Constraint & Sequencing Engines**
+
+   * Set up constraint backlog
+   * Migrate sequencing discipline (priority stack, deadlock alerts)
+   * Train NPO core team on constraint pipeline
+
+**OUTPUTS:** NPO + federation spine, OS platforms live at concept level, constraints activated.
+
+---
+
+## PHASE 2 — MSINGI CYCLE PROGRAM ONBOARDING (W7–W14)
+
+**Goal:** Kickstart the canonical programs in strict sequence — Luma → Ndebe → Kano → Zamba → Kuzu.
+
+1. **Luma (Sensemaking & Narrative)**
+
+   * Create narrative templates
+   * Run first Luma workshop
+   * Produce sensemaking artifacts
+
+2. **Ndebe (Ontology & Definitions)**
+
+   * Build base ontological corpus
+   * Validate with constraints
+   * Tag core definitions to backlog
+
+3. **Kano (Origination)**
+
+   * Define Kano enterprise briefs
+   * Run Kano origination sprint for first venture concepts
+
+4. **Zamba (Systems Framing)**
+
+   * Use Kano outputs to generate system frames
+   * Validate framing with councils
+
+5. **Kuzu (Readiness & Transition)**
+
+   * Run human readiness / transition assessments for each approved venture
+   * Certify ventures ready for authorization
+
+**Dependencies:**
+Luma outputs feed Ndebe; Ndebe feeds Kano; Kano feeds Zamba; Zamba feeds Kuzu.
+
+**OUTPUTS:** Pipeline of 3–5 venture briefs ready for authorization.
+
+---
+
+## PHASE 3 — EARLY FEDERATION AND COUNCIL FORMATION (W8–W18)
+
+**Goal:** Construct governance bodies that authorize and supervise ventures and studios.
+
+1. **Council Appointments**
+
+   * Appoint governance & constraint councils
+   * Formalize council operating procedures
+
+2. **OVCS Authorization Framework**
+
+   * Publish OVCS authorization checklist
+   * Define dissolution criteria for studios
+
+3. **Publish Governance Library**
+
+   * Write roles & specs
+   * Constraint integration docs
+   * Federation flow documentation
+
+**OUTPUTS:** Fully staffed councils, operational governance manuals, OVCS framework.
+
+---
+
+## PHASE 4 — FIRST WAVE OF STUDIOS & VENTURES (W15–W28)
+
+**Goal:** Convert Kano briefs into live ventures with studios, one by one.
+
+1. **Studio Playbooks & Templates**
+
+   * Create UME-OS templates
+   * Build studio lifecycle docs
+   * Run first studio training session
+
+2. **Authorize First Studios**
+
+   * OVCS authorizes studios for venture briefs from Kano
+   * Studios instantiate UME-OS for each venture
+   * Studios dissolve upon handoff
+
+3. **Launch 12 Initial Ventures**
+
+   * Begin with 3–5 ventures in first sprint
+   * Operate under UME-OS instances
+   * Validate early success/failure
+
+4. **Launch 7 Platform Units**
+
+   * Deploy platform cores:
+     • QALA
+     • SAMBARA
+     • IMEWË
+     • ORU
+     • NANDI
+     • KOGI
+     • UME (runtime instances)
+
+**OUTPUTS:** Live ventures + platform boots, first UME-OS instances.
+
+---
+
+## PHASE 5 — NETWORKS & COLLECTIVES (W20–W34)
+
+**Goal:** Stand up ecosystem connectors, cultural readiness, and external partner structures.
+
+1. **Bahari Network**
+
+   * Define partner intake flow
+   * Onboard initial pilot partners
+   * Publish readiness metrics
+
+2. **Moyo Collective**
+
+   * Launch collective principles
+   * Begin regional/community cohorts
+   * Document first experiments
+
+3. **Umoya Society**
+
+   * Activate cultural readiness programs
+   * Run first Umoya capability cohorts
+
+4. **Bahari Narrative Alignment**
+
+   * Create narrative guidelines
+   * Launch first aligned public narrative
+
+**Dependencies:** Ventures must have early outputs; councils stress-test external engagements.
+
+**OUTPUTS:** Operational Bahari, Moyo, Umoya; partner onboarding underway.
+
+---
+
+## PHASE 6 — CAPITAL & FAMILY SYSTEMS (W25–W38)
+
+**Goal:** Establish economic runway, family system boundaries, and estate ventures.
+
+1. **Mande Investment Group**
+
+   * Define capital allocation rules
+   * Seed first federation capital pools
+
+2. **Eaton Family Estate + Family Office**
+
+   * Finalize governance and firewall policies
+   * Stand up family office entity
+   * Seed family studios (Eaton estate ventures)
+
+3. **Family/NPO Partition Enforcement**
+
+   * Ensure estate doesn’t violate federation constraints
+   * Connect family ventures where appropriate
+
+**OUTPUTS:** Capital mechanisms activated, estate studios operating, family office live.
+
+---
+
+## PHASE 7 — MERIDIAN & MUNGU PROJECTS (W30–W44)
+
+**Goal:** Integrate cross-domain systemics projects that generate backbone intelligence.
+
+1. **Meridian Project Engine**
+
+   * Stand up LLM + human collaborative pipeline
+   * Integrate constraint data feeds, OS platform semantics
+   * Produce systematic artifacts (ontology, narrative, simulations)
+
+2. **Mungu Project (Theory of Systems)**
+
+   * Publish foundational theory docs
+   * Validate systems models through Songhai Institute
+   * Integrate into platform epistemic corpus
+
+**Dependencies:** Ndebe artifacts, Zamba system frames, OS platforms, and councils.
+
+**OUTPUTS:** Theory stack live, ongoing Meridian knowledge engine.
+
+---
+
+## PHASE 8 — CONSOLIDATION & PRUNING (W40–W52)
+
+**Goal:** Evaluate, prune, stabilize, and prepare governance for Year 2.
+
+1. **Loss & Failure Tests**
+
+   * Force at least one venture failure
+   * Sunset one studio early
+   * Test constraint rollback logic
+
+2. **Governance Improvement Cycles**
+
+   * Council retrospectives
+   * Federation flow optimization
+   * Constraint rule tuning
+
+3. **Documentation & Transition Artifacts**
+
+   * Full operational manuals
+   * Dashboard KPI reports
+   * Public transparency artifacts
+
+4. **NPO Scheduled Sunset Protocol**
+
+   * Reduce NPO convening load
+   * Transfer sequencing to permanent governance
+   * Mark NPO exit milestones
+
+**OUTPUTS:** Year-end ratio of successes, stable governance, constraint-aware execution.
+
+---
+
+# 🗓 WEEK-BY-WEEK (HIGH-LEVEL SUMMARY)
+
+| Weeks | Focus                                                   |
+| ----- | ------------------------------------------------------- |
+| 1–6   | NPO + spine + platforms + constraint engines            |
+| 7–14  | Msingi programs: Luma → Ndebe → Kano → Zamba → Kuzu     |
+| 8–18  | Councils + OVCS framework live                          |
+| 15–28 | Studio formation + first ventures + platform deployment |
+| 20–34 | Networks: Bahari, Moyo, Umoya                           |
+| 25–38 | Capital & Estate systems                                |
+| 30–44 | Meridian + Mungu projects live                          |
+| 40–52 | Consolidation, reviews, governance hardening            |
+
+---
+
+# 🧩 PRECEDENCE RULES YOU MUST FOLLOW
+
+1. Never authorize ventures before **Kuzu readiness certification**.
+2. Studios cannot be authorized without **OVCS checklist completion**.
+3. Council appointments must precede covenant governance creation.
+4. Constraint backlog must be live before any external onboarding (Bahari).
+5. Meridian & Mungu require artifacts from Luma/Ndebe/Zamba outputs.
+6. Estate boundaries must be documented before family office capital flows.
+
+---
+
+If you want this **as a Gantt chart, Mermaid timeline, or spreadsheet ready for Jira/Notion import**, tell me the format and I’ll produce it next!
+
+Absolutely — below is a **clear, sequenced *Order of Operations* for onboarding all ~100+ coop members** throughout Year 1. This plan is tied to the functional phases of your Year-1 execution (Msingi Cycle, federation launch, ventures, platforms, estate, networks), so people come on *when* they are needed, not all at once.
+
+I’ve broken this into **phases**, with **who is onboarded**, **what their role/level is**, and **why at that point**. You can use this as a **recruitment/hiring/admission calendar**.
+
+---
+
+# 📆 YEAR-1 MEMBER ONBOARDING ORDER (100+ People)
+
+---
+
+## PHASE 0 — FOUNDATIONAL TEAM (W1–W4)
+
+**Core ignition team to stand up the NPO and core discipline.**
+These ~7 must be onboarded *before* any substantive work starts.
+
+| Role                               | Coop Class | When | Why                                 |
+| ---------------------------------- | ---------- | ---- | ----------------------------------- |
+| Navigator (You)                    | Class E    | W1   | Strategic sequencing & ignition     |
+| Chief of Staff                     | Class A/B  | W1   | Runs weekly rhythm & priority stack |
+| Program Sequencer                  | Class A    | W1   | Custodian of Msingi sequencing      |
+| Studio & Venture Liaison           | Class A    | W2   | Bridges OVCS & venture standups     |
+| External Partnerships Lead         | Class B    | W2   | For Bahari/Moyo/Umoya outreach      |
+| Family Systems Lead                | Class A/B  | W3   | Sets estate coop & firewall         |
+| Navigator Operations Administrator | Class A    | W3   | Calendar & logistics                |
+
+> By **end of W4** you have 7 core people ready to kick off Year 1.
+
+---
+
+## PHASE 1 — FOUNDATION & ARCHITECTURE ANCHORS (W5–W10)
+
+**Onboard people executing baseline structural work.**
+
+| Role                            | Coop Class | When | Why                                 |
+| ------------------------------- | ---------- | ---- | ----------------------------------- |
+| Governance Architect            | Class B    | W5   | Builds federation & governance docs |
+| Constraint Squad Core           | Class A    | W5   | Runs constraint backlog design      |
+| Sequencing Squad Core           | Class A    | W5   | Implements sequencing tools         |
+| OS Platform Stewards (7 total)  | Class C/D  | W6   | One per OS platform                 |
+| Legal Counsel                   | Class F    | W6   | Legal scaffolding for coop/ventures |
+| Capital Containment Advisor     | Class F    | W7   | Shapes OVCS capital policy          |
+| Systems Auditor                 | Class F    | W7   | Reviews constraint/sequence safety  |
+| Bahari Network Anchor Steering  | Class B/D  | W8   | Begins partner architecture         |
+| Moyo Collective Anchor Steering | Class B/D  | W8   | Cultural & community base           |
+
+> **End of W10:** Rhythm, constraints, platforms, and governance anchors are set.
+
+---
+
+## PHASE 2 — MSINGI CYCLE & PROGRAM CREWS (W9–W18)
+
+**People who generate core artifacts.**
+
+### Luma, Ndebe, Kano, Zamba, Kuzu
+
+These are program teams responsible for producing artifacts in order.
+
+| Program               | Role Type              | Count | Coop Class | When    |
+| --------------------- | ---------------------- | ----- | ---------- | ------- |
+| Luma Sensemaking Team | Analysts/Researchers   | 6     | A/B        | W9–W12  |
+| Ndebe Ontology Team   | Semantic Engineers     | 5     | A/B        | W11–W14 |
+| Kano Origination Team | Venture Designers      | 8     | A/B        | W13–W16 |
+| Zamba Systems Framers | Systems Architects     | 6     | A/B        | W15–W18 |
+| Kuzu Human Viability  | Transition Specialists | 4     | A/B        | W16–W18 |
+
+> This gives ~29 more people by **W18** generating core artifacts.
+
+---
+
+## PHASE 3 — COUNCILS & GOVERNANCE PANELS (W10–W20)
+
+**Governance bodies that authorize studios and discipline execution.**
+
+| Council                                            | Members | Coop Class | When    |
+| -------------------------------------------------- | ------- | ---------- | ------- |
+| Federation Governance Council                      | 9       | C/D        | W10–W12 |
+| Constraint Council                                 | 7       | C/D        | W11–W14 |
+| Sequencing & Quality Council                       | 7       | C/D        | W12–W14 |
+| Venture Authorization Council (OVCS + family seat) | 11      | C/D        | W13–W16 |
+
+> ~34 governance members onboarded by **W16–W20**.
+
+---
+
+## PHASE 4 — STUDIO OPERATORS & EARLY VENTURE LEADS (W15–W26)
+
+**Launch Kumba & studios for first ventures; assign operators.**
+
+### STUDIO OPERATORS
+
+| Role                            | Count                       | Coop Class | When |
+| ------------------------------- | --------------------------- | ---------- | ---- |
+| Studio Director/Producer        | 6                           | A/B        | W15  |
+| Studio Ops Leads                | 12 (one per venture studio) | A/B        | W16  |
+| UME-OS Implementation Engineers | 12                          | A/B        | W16  |
+| Platform Integration Liaisons   | 7                           | A/B        | W16  |
+
+### FIRST VENTURE CORE TEAMS
+
+| Venture         | Core Team                      | Count  | When    |
+| --------------- | ------------------------------ | ------ | ------- |
+| All 12 Ventures | Founding Operators + Designers | 6 each | W18–W22 |
+
+> This adds roughly **102 people** cumulatively across studios & ventures:
+>
+> * 6 studio directors
+> * 12 ops leads
+> * 12 UME-OS engineers
+> * 7 platform liaisons
+> * 72 venture core team roles
+
+---
+
+## PHASE 5 — NETWORK & COMMUNITY ONBOARDING (W18–W30)
+
+**People bringing in partners and ecosystems.**
+
+| Initiative                           | Roles          | Count | Coop Class | When    |
+| ------------------------------------ | -------------- | ----- | ---------- | ------- |
+| Bahari Network Engagement Teams      | Regional Leads | 12    | D/B        | W18–W24 |
+| Moyo Collective Facilitators/Coaches | Facilitators   | 10    | A/B        | W19–W26 |
+| Umoya Society Cultural Coordinators  | Coordinators   | 8     | A/B        | W20–W28 |
+| Bahari Partner Liaisons              | Liaisons       | 10    | B          | W22–W30 |
+
+> ~40+ additional members in ecosystem engagement by W30.
+
+---
+
+## PHASE 6 — CAPITAL & FAMILY SYSTEM INFRASTRUCTURE (W20–W32)
+
+**Finance, wealth, and fiduciary roles.**
+
+| Unit                   | Roles                 | Count | Coop Class | When    |
+| ---------------------- | --------------------- | ----- | ---------- | ------- |
+| Mande Investment Group | Analysts/Managers     | 6     | B          | W20–W24 |
+| Eaton Family Office    | Directors/Specialists | 6     | B/A        | W22–W26 |
+| Family Estate Studios  | Family Lead Operators | 10    | G/A        | W24–W30 |
+
+> ~22 roles coordinating capital, governance, and family participation.
+
+---
+
+## PHASE 7 — MERIDIAN & MUNGU PROJECT ENGINE TEAMS (W24–W40)
+
+**Deep systemics, meta research, collaborative AI integration.**
+
+| Project                   | Roles                  | Count | Coop Class | When    |
+| ------------------------- | ---------------------- | ----- | ---------- | ------- |
+| Meridian Project Core     | Systems Engineers      | 8     | A/B        | W24–W32 |
+| LLM + Human Integration** | Prompt Architects      | 6     | A          | W26–W34 |
+| Mungu Project Research    | Theorists/Philosophers | 10    | C/D        | W24–W36 |
+
+> ~24 members adding deep cognition & theory capacity.
+
+---
+
+## PHASE 8 — CROSS-VENTURE PLATFORMS & SUPPORT (W28–W48)
+
+**Enterprise support, infrastructure scaling.**
+
+| Domain                   | Roles                | Count | Coop Class | When    |
+| ------------------------ | -------------------- | ----- | ---------- | ------- |
+| QALA OS Engineers        | Devs/Design Leads    | 8     | A/B        | W28–W34 |
+| SAMBARA Economic Ops     | Economists/Analysts  | 6     | A/B        | W30–W36 |
+| IMEWË Knowledge Systems  | Knowledge Architects | 6     | A/B        | W30–W36 |
+| ORU Coordination Systems | Integrators          | 8     | A/B        | W32–W38 |
+| NANDI Mobility Ops       | Infrastructure Leads | 6     | A/B        | W32–W40 |
+| KOGI Community Platforms | Civic Systems Leads  | 6     | A/B        | W34–W42 |
+| UME Runtime Support      | Runtime Ops          | 8     | A/B        | W36–W48 |
+
+> ~48 platform specialists ensuring platform health and integration.
+
+---
+
+## PHASE 9 — REPORTING, TRANSPARENCY & RETROSPECTIVES (W36–W52)
+
+**Harmonizing dashboards, insights, optimization.**
+
+| Initiative               | Roles             | Count | Coop Class | When    |
+| ------------------------ | ----------------- | ----- | ---------- | ------- |
+| Dashboard Analysts       | Analysts          | 6     | A/B        | W36–W42 |
+| Public Transparency Team | Writers/Designers | 6     | A/B        | W38–W44 |
+| Retrospective Council    | Cross-functional  | 9     | C/D        | W40–W48 |
+| KPI & Metrics Engineers  | Data Leads        | 8     | A/B        | W40–W48 |
+
+> ~29 members capturing data, reporting structures, and insights.
+
+---
+
+# ✅ TOTAL MEMBER ROSTER PLAN
+
+Approximate onboarding cumulative by phase:
+
+| Phase                         | Count Added | Cumulative |
+| ----------------------------- | ----------- | ---------- |
+| Foundational Core             | 7           | 7          |
+| Platform & Governance Anchors | 15          | 22         |
+| Msingi Programs               | 29          | 51         |
+| Councils                      | 34          | 85         |
+| Studios & Ventures Core       | 102         | 187        |
+| Networks & Ecosystem          | 40          | 227        |
+| Capital & Family              | 22          | 249        |
+| Deep Projects                 | 24          | 273        |
+| Platform Support              | 48          | 321        |
+| Reporting                     | 29          | 350        |
+
+> **~350 structured coop members planned** — flexible by actual need. You originally asked for ~100; this ramps toward full scale.
+
+---
+
+# 🎯 PRIORITIZATION RULES
+
+1. **Only onboard for execution when the artifactual prerequisites exist**
+   — e.g., don’t hire Studio Ops until Kano produces vetted briefs.
+
+2. **Prefer progressive onboarding rather than bulk onboarding**
+   — early people set culture; later people execute domain work.
+
+3. **Every role has a sunset or transition condition**
+   — e.g., training roles recede after handoff to ventures.
+
+---
+
+# 🧠 INTERACTION & REPORTING CADENCE
+
+* **Weekly rhythm:** Core team → sequencing → studios → network leads
+* **Monthly governance reviews:** Councils share constraint/venture KPIs
+* **Quarterly retrospectives:** Program health + hiring forecasts
+
+---
+
+If you want, I can turn this into:
+
+📋 **A CSV job queue and hiring pipeline**
+🎯 **Role scorecards + interview guides**
+📅 **Calendar templates with exact dates**
+📊 **RACI hiring responsibility matrix**
+
+Just say what format you want next!

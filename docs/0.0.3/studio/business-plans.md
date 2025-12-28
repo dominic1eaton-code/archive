@@ -11141,7 +11141,7 @@ If you want next:
 
 
 
-produce an end to end business plan for the san environmental and civilization engineering firm, and the sambara AI OS solution platform. deliver in 6 messages, followed by a 7th message where this is converted into an OVCS investment memo
+produce an end to end business plan for the san environmental and civilization engineering firm. deliver in 6 messages, followed by a 7th message where this is converted into an OVCS investment memo
 
 
 

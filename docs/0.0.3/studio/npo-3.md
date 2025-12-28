@@ -8918,3 +8918,2160 @@ transformState(StudioCo1, “venture falter”) → [software_dev, renovator]
 🔹 **Contract templates per class**
 
 Just say the one you want next.
+
+Absolutely — here’s a **general-purpose ASCII architecture diagram** representing **one MetaFactory** inside your OVCS + Kumba ecosystem, showing all the key legal entities, studios, and ventures. This pattern supports **N of each** (studios and ventures) and is ready to scale and be instantiated for any industry or thematic factory.
+
+---
+
+# 📌 MetaFactory General Architecture (ASCII)
+
+```
+                                 [ Eaton Family Estate ]
+                                             |
+                                             v
+                                       [ OVCS Authority ]
+                                             |
+                                      (Authorizes the Factory)
+                                             |
+                                             v
+                              +---------------------------------+
+                              |        MetaFactory LLC         |
+                              |  (Non-operational HQ umbrella) |
+                              +---------------------------------+
+                                             |
+                                             |
+           +---------------------------------+--------------------------------------+
+           |                                 |                                      |
+           v                                 v                                      v
++-----------------------+      +-------------------------------+       +---------------------------+
+|  Meta HoldCo LLC      |      |  Meta IPCo LLC                |       |  Meta IncentiveCo LLC     |
+|  (Equity custodian)   |      |  (Shared IP commons)          |       |  (Shared incentive pool)  |
++-----------------------+      +-------------------------------+       +---------------------------+
+                                         |                                      |
+                                         v                                      v
+                              +---------------------------------+       +---------------------------+
+                              |        Shared OpCo LLC          |       |   Shared ManCo LLC        |
+                              | (Shared execution & teams)      |       | (Shared services)         |
+                              +---------------------------------+       +---------------------------+
+                                             |
+                                             |
+                                        (Resourcing)
+                                             |
+                                             v
+                             +----------------------------------+
+                             |             Factory             |
+                             |         (Industry/Domain)        |
+                             +----------------------------------+
+                                             |
+           +---------------------------------+------------------------------------------+
+           |                                 |                                         |
+           v                                 v                                         v
++-----------------------+      +-------------------------------+       +---------------------------+
+| Factory HoldCo LLC    |      | Factory IPCo LLC              |       | Factory IncentiveCo LLC    |
+| (Equity in Ventures)  |      | (IP specific to Factory)      |       | (Incentives for Factory)   |
++-----------------------+      +-------------------------------+       +---------------------------+
+           |                                 |                                         |
+           v                                 v                                         v
++-----------------------+      +-------------------------------+       +---------------------------+
+| Factory OpCo(s) LLC   |      | Factory ManCo LLC              |       | Venture IncentiveCos (⋯)   |
+| (Execution teams)     |      | (Factory support services)     |       | (for each portfolio)       |
++-----------------------+      +-------------------------------+       +---------------------------+
+           |                                                                                |
+           v                                                                                v
+      +---------------------------------+                                            +-------------------------+
+      |        PortfolioCos A           |                                            |    PortfolioCos Z       |
+      +---------------------------------+                                            +-------------------------+
+           |                     |                     ...                                   |             ...
+           v                     v                                                           v             v
++----------------+       +----------------+                                       +----------------+ +----------------+
+| IPCo A1 LLC    |       | IPCo A2 LLC    |                                       | IPCo Z1 LLC    | | IPCo Z2 LLC    |
++----------------+       +----------------+                                       +----------------+ +----------------+
+| IncentiveCo A1 |       | IncentiveCo A2 |                                       | IncentiveCo Z1 | | IncentiveCo Z2 |
++----------------+       +----------------+                                       +----------------+ +----------------+
+       |                          |                                                     |                          |
+       v                          v                                                     v                          v
++-------------+           +-------------+                                         +-------------+           +-------------+
+| Venture A1  |           | Venture A2  |                                         | Venture Z1  |           | Venture Z2  |
++-------------+           +-------------+                                         +-------------+           +-------------+
+| OpCo A1 LLC |           | OpCo A2 LLC |                                         | OpCo Z1 LLC |           | OpCo Z2 LLC |
++-------------+           +-------------+                                         +-------------+           +-------------+
+
+```
+
+---
+
+## 📌 COMPONENT LEGAL ENTITIES EXPLAINED
+
+### **MetaFactory HQ (Non-operational umbrella)**
+
+* **MetaFactory LLC** — top-level franchise holding entity
+
+  * Does *not* operate product or execution — governs factory norms
+
+### **Shared Commons (HQ scope)**
+
+* **Meta HoldCo LLC** — holds equity allocations across portfolios at the HQ level
+* **Meta IPCo LLC** — holds shared IP playbooks, core technologies
+* **Meta IncentiveCo LLC** — holds global incentive units for cross-factory teams
+* **Shared OpCo LLC** — execution pool of talent assignable to studios/ventures
+* **Shared ManCo LLC** — shared service entity (HR, Legal, Finance)
+
+### **Factory Scope**
+
+A MetaFactory may host **one or more factories** — here we show one factory stack:
+
+* **Factory HoldCo LLC** — holds equity in ventures created within this factory
+* **Factory IPCo LLC** — holds IP specific to this factory’s domain
+* **Factory IncentiveCo LLC** — holds incentives specific to this factory
+* **Factory OpCo(s) LLC** — execution teams dedicated to this factory
+* **Factory ManCo LLC** — service entity for this factory’s studios
+
+### **Portfolio & Venture Layers**
+
+Each factory organizes ventures into one or many **PortfolioCos**:
+
+* **PortfolioCos** — group related ventures (e.g., by sub-domain)
+
+  * Paired with **IPCo(s)** and **IncentiveCo(s)** for that portfolio
+  * Independent governance instruments tied to OVCS Authorization
+* **VentureCos** — each venture is a legal entity
+
+  * Each has an **OpCo (execution LLC)** beneath it
+  * Has its paired **IPCo** (for venture-specific IP)
+  * Has its paired **IncentiveCo** (for co-op incentive units)
+
+---
+
+## 📌 KEY FEATURES OF THIS DIAGRAM
+
+### 1. **N-Scaled Structure**
+
+* The architecture supports *N factories*, *N portfolio groups*, and *N ventures per portfolio*.
+* Replace `A1, A2, … Z1, Z2…` with actual names in your model (e.g., Nandi, Azande, etc.)
+
+### 2. **Legal Boundary Integrity**
+
+* Studios are **opcos** that deliver work — they are not capital/ownership entities.
+* All equity stays in **HoldCo(s)**.
+* All IP resides in **IPCo(s)**, licensed to VentureCos and studios under contractual terms.
+
+### 3. **Incentive Unit Alignment**
+
+* IncentiveCos issue unit classes define co-op roles and vest schedules for shared and venture teams.
+* Factory and portfolio incentiveCo(s) feed into Central Meta IncentiveCo for long-term talent alignment.
+
+### 4. **Shared Resource Layer**
+
+* Shared OpCo and Shared ManCo let you standardize delivery and scale teams across factories.
+* This reduces duplication and enables resource reuse.
+
+---
+
+## 🧠 HOW TO USE THIS DIAGRAM
+
+### 🟡 To **instantiate a new factory**
+
+1. Create **FactoryHoldCo**, **FactoryIPCo**, **FactoryOpCo(s)**, **FactoryManCo**, **FactoryIncentiveCo**.
+2. Register with **MetaFactory LLC**.
+3. Form one or more **PortfolioCos** under the factory.
+4. Pair each PortfolioCo with its own **IPCo** and **IncentiveCo**.
+5. Spin up **VentureCos** under each portfolio with their own OpCo.
+
+### 🟡 To **assign studios**
+
+Studios live within OpCo shells and are associated with functional capabilities, though they do not appear directly in the capital ownership chain. Studios contract with VentureCos and PortfolioCos to *deliver work* but *do not hold equity*.
+
+---
+
+## 📌 EXTRA NOTES
+
+✔ Capital flows from *FundCos (outside this diagram)* → *PortfolioCos* → *VentureCos*.
+✔ Studios operate on *service contracts* backed by revenue streams, not equity.
+✔ OVCS governance constraints (Kano envelopes, phase gates) apply at every stage prior to capital deployment.
+✔ Meta IncentiveCo and Factory IncentiveCo support multi-venture incentive strategies.
+
+---
+
+If you want, I can next produce **Mermaid diagram syntax** for this architecture (great for visualization), or a **narrative walk-through of entity interactions during a venture lifecycle** in this architecture. Just tell me which you want!
+
+Absolutely — here’s a **narrative walk-through of entity interactions during a venture lifecycle** in your OVCS + Kumba Metafactory system, told as a story of one venture (e.g., *Nandi VentureCo*), from idea through legacy. This shows **who talks to whom, when, and why**, including legal entities, governance gates, studios, capital vehicles, and incentive units.
+
+---
+
+# 📖 Narrative: The Life of *Nandi VentureCo*
+
+---
+
+## 🌱 1. **Idea Emergence (Luma Phase)**
+
+**Actors:**
+
+* Central Shared OpCo (talent scouts)
+* Kumba Studio (idea lab)
+* Community / domain experts
+
+**Story:**
+A team at the *Mobility & Systems Studio* (within the flagship MetaFactory) discovers a recurring challenge in regional sustainable transport. They document:
+
+* Problem space
+* Initial hypotheses
+* Potential solution pathways
+
+At this stage:
+
+* **No legal entity exists yet.**
+* No capital can be deployed.
+* This is *discovery*, not commitment.
+
+The team packages this as a “venture concept.”
+
+---
+
+## 📐 2. **Structural Authorization (Ndebe Phase)**
+
+**Trigger:** Luma exploration output looks promising.
+
+**Actors:**
+
+* OVCS Authority
+* StudioCo
+* Legal formation teams
+
+**Actions:**
+The team creates a formal entity scaffold:
+
+```
+Nandi VentureCo LLC (entity not yet funded)
+```
+
+OVCS reviews the concept and issues a **Ndebe Authorization Certificate**, which allows:
+
+* Entity formation
+* Charter drafting
+* IP and studio resource alignment
+* VentureCore roles assigned
+
+Important rules:
+
+* Still *no capital* from FundCos.
+* The entity exists legally but not operationally.
+
+---
+
+## 💼 3. **Capital Authorization (Kano Phase)**
+
+**Trigger:** Ndebe authorization + readiness signals
+
+**Actors:**
+
+* OVCS Authority
+* Zawadi FundCo LP / Ziko GPCo (capital managers)
+* Nandi PortfolioCo (via legal channels)
+
+**Actions:**
+OVCS issues a **Kano Authorization Certificate** specifically for *Nandi VentureCo*. This defines:
+
+* Capital envelope
+* Allowed instruments
+* Kill triggers
+* Offer boundaries
+* Reporting obligations
+
+These constraints get embedded into:
+
+* FundCo’s Limited Partnership Agreement
+* Manager (GPCo) mandate
+* PortfolioCo’s governance documents
+
+Now **capital can flow legally**.
+
+---
+
+## 💰 4. **Capital Deployment**
+
+**Actors:**
+
+* Ziko GPCo (GP entity)
+* Zawadi FundCo LP (capital)
+* Nandi PortfolioCo
+
+**Actions:**
+Capital flows like this:
+
+```
+Zawadi FundCo LP → PortfolioCo (Nandi) → Nandi VentureCo
+```
+
+Deployment is tranche-based:
+
+* First tranche on authorization
+* Subsequent tranches on milestone certification
+* All tied to OVCS-defined metrics
+
+No studio gets equity — only service contracts.
+
+---
+
+## 🧠 5. **Studio Engagement**
+
+**Actors:**
+
+* Mobility & Systems StudioCo (lead)
+* Software Dev StudioCo
+* Marketing Engine StudioCo
+
+**Actions:**
+Studios provide:
+
+* Strategic direction
+* Prototyping and lab support
+* MVP build
+* Go-to-market playbooks
+
+Contracts are:
+
+```
+VentureCo ↔ StudioCo (Studio Support Agreement)
+```
+
+These define:
+
+* Deliverables
+* Service terms
+* IP usage
+* Paid via operational budgets, not equity
+
+---
+
+## 🧾 6. **Execution Phase (Kuzu Phase)**
+
+**Actors:**
+
+* Nandi VentureCo
+* StudioCos (as contractors)
+* Central Shared OpCo (human resources)
+* Factory ManCo (services support)
+* OVCS Compliance
+
+**Actions:**
+Execution includes:
+
+* Team hiring through shared OpCo resources
+* Product development
+* Customer tests
+* Market rollout
+
+Capital tranches continue to flow only as OVCS phase gates are passed.
+
+**Reporting** is periodic:
+
+* Finance
+* Impact / harm metrics
+* Regeneration metrics
+* Phase advancement reports
+
+---
+
+## 🧩 7. **Incentive Vesting & Co-op Roles**
+
+**Actors:**
+
+* Nandi IncentiveCo
+* Meta / Factory IncentiveCos
+* StudioCo contributors
+
+**Actions:**
+When milestones hit, **incentive units vest** according to schedule:
+
+```
+Kano Authorization → 20%
+First revenue → 25%
+Regeneration threshold → 25%
+Sustainability milestone → 30%
+```
+
+Units are allocated to co-op classes:
+
+* Worker Engineers
+* Lead Designers
+* Core Contributors
+* Strategic Facilitators
+
+These units are not shares but *co-op incentive rights* tied to performance milestones.
+
+---
+
+## 📊 8. **Mid-Cycle Review & Pivot**
+
+**Actors:**
+
+* OVCS
+* Nandi PortfolioCo
+* GPCo / Manager
+* StudioCos
+
+**Actions:**
+OVCS conducts governance checkpoint:
+
+* Are metrics on track?
+* Any harms detected?
+* Are resources efficient?
+* Should the envelope be extended or paused?
+
+If *yes* → proceed.
+If *no* → remediation actions (Zamba triggers).
+
+---
+
+## 📈 9. **Scaling**
+
+**Actors:**
+
+* Nandi VentureCo
+* Additional StudioCos
+* PortfolioCo governance teams
+
+**Actions:**
+Scalability work includes:
+
+* Partnerships
+* Talent reinforcement
+* SOP refinement
+* New market branches
+
+This must always respect:
+
+* OVCS capital envelopes
+* Co-op roles and incentives
+* Reporting cadence
+
+---
+
+## 🛑 10. **Exit / Harvest**
+
+**Actors:**
+
+* PortfolioCo
+* GPCo
+* Zawadi FundCo LP
+* OVCS Authority
+
+**Actions:**
+A typical exit flow:
+
+```
+Revenue / IP monetization → PortfolioCo → FundCo → LP distributions
+```
+
+No external sale alters:
+
+* OVCS constraints
+* Incentive vesting rights
+
+Returns delivered per waterfall:
+
+1. Return of capital
+2. Contractual revenue shares
+3. Incentive unit carry equivalents
+
+---
+
+## 🔁 11. **Remediation (Zamba) — If Necessary**
+
+**Triggers:**
+
+* Harm metrics breached
+* Regeneration not met
+* Governance violation
+
+**Actors:**
+
+* OVCS
+* StudioCos
+* PortfolioCo
+* IncentiveCos
+* Legal compliance
+
+**Actions:**
+
+* Halt capital
+* Readjust roles
+* Reassign assets
+* Wind down VentureCo
+* IP reverts to IPCo
+* Incentives partially vest/cancel
+
+---
+
+## 🏛 12. **Legacy & Stewardship (Zalendo Phase)**
+
+If successful and sustainable:
+
+**Actors:**
+
+* OVCS
+* Meta HoldCo
+* Meta IPCo
+* Meta IncentiveCo
+
+**Actions:**
+
+* IP may become part of shared infrastructure
+* Long-term stewardship reporting
+* Knowledge archived
+* Metrics preserved for future ventures
+
+---
+
+## 📌 ENTITY INTERACTIONS — ROLE MAP (SUMMARIZED)
+
+```
+ESE → OVCS Authority (governance)
+           ↓
+      FundCo (capital vehicle)
+           ↓
+      PortfolioCo (venture grouping)
+           ↓
+      VentureCo (execution entity)
+           ↑
+      StudioCos (service providers)
+           ↑
+   Shared OpCo / ManCo (resource services)
+           ↑
+      IPCos (IP ownership/licensing)
+           ↑
+   IncentiveCos (incentive unit issuance)
+```
+
+---
+
+## 🧠 KEY RULES YOU MUST ENFORCE
+
+### 📍 Capital Only After Kano
+
+No funds before OVCS Kano step.
+
+### 📍 Studios Do Not Own Equity
+
+Studios provide services under contract.
+
+### 📍 Incentives Are Milestone-Based
+
+No upfront shares; vesting is disciplined and phased.
+
+### 📍 IP Is Licensed, Not Assigned
+
+IP ownership remains with IPCos.
+
+### 📍 Kill and Remediation Are Built In
+
+Zamba triggers are pre-embedded in documents.
+
+---
+
+## 🧩 FINAL TAKEAWAYS
+
+* **Studios are transformation agents**, not capital entities.
+* **VentureCos are execution vehicles** with legal capital and reporting.
+* **PortfolioCos group ventures and steward capital.**
+* **OVCS is the ultimate governor** of phases, capital, and risk.
+* **Incentives align people with outcomes.**
+
+---
+
+If you want, I can now produce:
+
+👉 A **Mermaid sequence diagram** of this lifecycle
+👉 A **checklist for each milestone step**
+👉 A **ready-to-sign legal readiness evaluation** document
+
+Just tell me which next!
+
+Absolutely — here’s a **continuous, detailed narrative** that ties *everything* together in your ecosystem:
+
+🟢 **from idea/concept → execution → scaling → exit → legacy → cycling**,
+🟢 **including capital + resources + distributions + roles/jobs**,
+🟢 **covering VentureCo platforms/solutions/services/products/applications/systems**,
+🟢 all under **OVCS governance + Kumba Metafactory + co-op member roles**.
+
+This is a *story-map* and *system interaction narrative* — so you can see not just what happens but *who does what, when, and why*.
+
+---
+
+# 📖 FULL LIFECYCLE NARRATIVE
+
+We follow one venture as a representative example: **Nandi VentureCo**, embedded in the **Mobility Factory** of the **Kumba Metafactory**.
+
+---
+
+## 🌱 PHASE 1 — **Ideation & Discovery (LUMA)**
+
+**The Spark**
+A group of engineers and community designers in the **Mobility Core StudioCo** start exploring patterns in sustainable transport challenges across rural regions.
+
+**Activities**
+
+* Problem deep dive
+* User interviews
+* Competitive and ecosystem mapping
+* Preliminary prototyping in labs (software + hardware)
+
+**Resources**
+
+* Shared OpCo talent
+* Studio lab tooling (e.g., 3D printers, simulation rigs)
+* Community data partners
+
+**Roles Activated**
+
+* *Research Lead*
+* *Mobility Systems Designer*
+* *Rapid Prototype Engineer*
+* *Community Liaison*
+
+**Product/Output**
+
+* Concept sketch
+* Early hypothesis
+* Emergent platform/service idea
+
+No legal entity. No funding yet. Mostly covered by studio ops budget and program pools.
+
+---
+
+## 🧩 PHASE 2 — **Structural Preparation (NDEBE)**
+
+Triggered when the concept shows promise.
+
+**Entity Actions**
+
+* Legal scaffolding begins:
+
+  * *Nandi VentureCo LLC*
+  * Charter drafted
+  * Co-op roles mapped
+
+**Governance**
+
+* Team files for **OVCS Ndebe Authorization**
+* StudioCo compiles structural docs
+
+**Outputs**
+
+* Operating Agreement (entity foundational doc)
+* Role definitions (workers/members)
+* Capability and initial resource plan
+
+**Capital**
+
+* Only **Program Pool seeding** (recoverable PRI or non-dilutive), if necessary
+
+**IPO (Intellectual Property)**
+
+* Concept crystallized into draft modules stored in **Factory IPCo**
+
+---
+
+## 💼 PHASE 3 — **Authorizing Capital (KANO)**
+
+This is *the first moment* capital can be deployed legally.
+
+**OVCS Review**
+
+* Enterprise readiness
+* Risk framework
+* Harm/regeneration plan
+
+**Experiment Framework**
+
+* Define MVP (minimum viable product/system)
+* Define key metrics (revenue, impact, regeneration)
+
+**Authorization Terms**
+OVCS issues a *Kano Authorization Certificate* which includes:
+
+* Capital envelope (e.g., $2M)
+* Allowed use cases
+* Kill trigger conditions
+* Reporting cadence
+* Phase gates
+
+**Roles**
+
+* *Chief Operating Member*
+* *Finance Lead*
+* *Compliance Coordinator*
+
+**Capital**
+
+* **FundCos** (e.g., *Zawadi FundCo LP*) commit capital:
+
+  ```
+  Zawadi FundCo LP → Nandi PortfolioCo → Nandi VentureCo
+  ```
+
+Money is tiered by tranche.
+
+---
+
+## 🚀 PHASE 4 — **Execution & Build (KUZU)**
+
+Nandi VentureCo transitions from planning to real execution.
+
+### 🔹 Solutions Stack
+
+**Products / Platforms / Services**
+
+* Mobile & web app for ride coordination
+* Low-energy IoT tracking hardware
+* Data analytics backend (system)
+* Operator marketplace
+* Subscription and usage service
+
+Each is a *deliverable* module.
+
+---
+
+## 💼 CAPITAL FLOW DURING EXECUTION
+
+**Capital Deployment**
+
+* Initial tranche → team hiring & tooling
+* Next tranches released by OVCS upon milestone validation:
+
+  * MVP delivered
+  * First revenue
+  * Regeneration signal
+
+**Accounting**
+
+* All capital logged under Nandi VentureCo books
+* Operational expenses under OpCo
+* License fees paid to **Factory IPCo / Meta IPCo** as relevant
+
+---
+
+## 👥 RESOURCE & JOB ASSIGNMENT
+
+Team expands in waves:
+
+| Role               | Hired From              | Class       | Assignment             |
+| ------------------ | ----------------------- | ----------- | ---------------------- |
+| Product Manager    | Shared OpCo             | Worker      | Oversees MVP delivery  |
+| Software Engineers | Software Dev Studio     | Worker      | Build backend/frontend |
+| Hardware Engineers | Hardware Fab Studio     | Worker      | Build IoT hardware     |
+| UX Designer        | Mobility Studio         | Worker      | Experience design      |
+| Growth Lead        | Marketing Engine Studio | Lead        | GTM strategy           |
+| Compliance Analyst | Shared ManCo            | Contributor | OVCS reporting         |
+
+People are onboarded with:
+
+* Role definitions
+* Co-op incentive units
+* Participation in team functions
+
+---
+
+## 🧠 MID-EXECUTION GOVERNANCE
+
+Nandi reports to OVCS:
+
+* Financials (quarterly)
+* Harm metrics (bi-phase)
+* Regeneration metrics (impact outcomes)
+* KPI stacks
+
+OVCS watchdogs:
+
+* Capital adherence
+* Phase gate transparency
+* ROI / impact potential
+* No governance capture
+
+---
+
+## 🔁 INCENTIVE FLOW
+
+Incentive units vest based on schedule:
+
+| Trigger                | % Vest |
+| ---------------------- | ------ |
+| Kano Authorization     | 20%    |
+| First Verified Revenue | 25%    |
+| Regeneration Milestone | 25%    |
+| Sustained Scalability  | 30%    |
+
+Units allocate to co-op classes:
+
+* Worker engineers
+* Lead designers
+* Product ops
+* Growth/market
+* Community facilitators
+
+Units live in:
+
+```
+Nandi IncentiveCo → individual allocations
+```
+
+Incentive units *don’t confer control* — only *rights per co-op agreement.*
+
+---
+
+## 📊 SCALING & SYSTEM GROWTH
+
+As Nandi VentureCo matures:
+
+* New product modules spin offline
+* Sub-ventures form under same entity
+* Platforms expand into adjacent markets
+
+This spawns:
+
+```
+Micro-studios:
+- ServiceOps unit
+- Data Engineering arm
+- Community Onboarding lab
+```
+
+Each is still a *delivery construct* not a legal capital entity.
+
+---
+
+## 📈 HARVEST & DISTRIBUTIONS (EXIT)
+
+When Nandi achieves sustained revenue, it may:
+
+### **Harvest**
+
+```
+Revenue flows:
+  Nandi VentureCo → Nandi PortfolioCo → FundCo → LPs
+```
+
+LP distributions follow:
+
+* Return of capital
+* Preferred yields
+* Revenue share
+* Regeneration share
+
+**Co-op incentives**
+Units may be converted / paid out under agreed legal terms:
+
+* Cash bonus
+* Equity-linked payout
+* Long term sharing pool
+
+OVCS validates:
+
+* Fair calculations
+* No extraction beyond agreed envelopes
+* Impact alignment
+
+---
+
+## ⚠️ REMEDIATION (ZAMBA)
+
+If Nandi fails:
+
+* Harm triggers activate
+* OVCS issues a **Zamba Directive**
+* Partial wind-down follows:
+
+  * IP reverts to Factory IPCo/Meta IPCo
+  * Incentive units cancel or partially vest
+  * People are reassigned
+  * Accounts settle
+  * Legal dissolutions follow
+
+---
+
+## 🕊 LEGACY CYCLE (ZALENDO)
+
+Successful tech / impact systems may enter *legacy stewardship*:
+
+* IP moves to Meta IPCo commons
+* Playbooks get re-licensed to other ventures/studios
+* Knowledge packs in Meta HoldCo knowledge vault
+* Community governance units keep engagement data
+* Long-term preservation under ESE stewardship
+
+---
+
+## 🧠 PLATFORM/SOLUTION/PRODUCT CONTEXT
+
+At Nandi’s maturity:
+
+* Data analytics platform → independent SaaS
+* Hardware firmware → licensed by others
+* Growth channels → published playbooks
+
+When these modules hit *platform level*, they may be:
+
+```
+- Released as platform offerings (e.g., via Platform IPCo stack)
+- Shared with other ventures under license
+```
+
+This spreads impact within the MetaFactory ecosystem.
+
+---
+
+# 📍 ENTITY INTERACTION RECAP
+
+Here’s how entities interact over time:
+
+```
+ESE + FundCo + OVCS → authorize → VentureCo
+        ↕
+      StudioCos → deliver work → VentureCo
+        ↕            ↕                ↕
+    Shared OpCo   Shared ManCo   IPCos
+        ↕            ↕                ↕
+ IncentiveCos → allocate units → individuals
+        ↕
+  People (workers/members)
+        ↕
+   Contracts (SSA, services)
+```
+
+---
+
+# 🏁 SUMMARY: ENTERPRISE JOURNEY
+
+| Stage          | Capital            | Resources         | Roles                      | Product         |
+| -------------- | ------------------ | ----------------- | -------------------------- | --------------- |
+| Ideation       | none               | Studio talent     | Designers, Scouts          | Concept         |
+| Formation      | none               | Studio/OpCo       | Leads, Architects          | Entity scaffold |
+| Authorization  | none yet           | Compliance        | Compliance roles           | Charter files   |
+| Capitalization | FundCo             | Shared OpCo staff | Product/Dev roles          | MVP             |
+| Execution      | tranche capital    | Labs + Ops        | Dev + Growth + Ops         | Products        |
+| Scaling        | additional capital | team ramp         | Marketing + Business roles | Platform        |
+| Harvest/Exit   | distribution       | sustain           | Financial roles            | Full system     |
+| Legacy         | reinvest           | transfer          | Co-op governance           | Commons IP      |
+
+---
+
+# 🧠 WHY THIS WORKS
+
+✔ **Capital flows only after OVCS gates**
+✔ **Studios deliver work but don’t own equity**
+✔ **People have co-op classifications**
+✔ **IP migration rules are clear**
+✔ **Incentives tied to impact + performance**
+✔ **Platforms/services scale outside of single executions**
+✔ **Failures are systemic but non-traumatic**
+
+---
+
+If you want the **Mermaid sequence diagram** of this narrative, or **checklist templates** for execution teams and governance, just say so.
+
+Absolutely — here’s the **continued lifecycle narrative** that now weaves in the broader ecosystem:
+
+**OVCS**, **Kumba Metafactory**, **Ubunye Engineering Group (DESEF)**, **Umoya Society**, **Bahari Network**, **Moyo Collective**, and the **Pamoja Federation’s co-op models and co-op classes** — all interacting with **Nandi VentureCo** and its journey.
+
+This is a **comprehensive story** of *who enters, when, why, and how*, cutting across governance, capital, resources, identities, incentives, and community impact — from idea to legacy and beyond.
+
+---
+
+# 📖 PART TWO: THE ECOSYSTEM LIFECYCLE NARRATIVE
+
+We pick up from **Nandi VentureCo’s execution phase** and expand outward into **shared governance, social networks, engineering commons, and community collectives**.
+
+---
+
+## 🧩 STAGE 5b — EMBEDDING IN THE PAMOJA FEDERATION
+
+### **Who Shows Up?**
+
+* **OVCS Authority** — continues overseeing authorization and compliance.
+* **Kumba Metafactory** — provides operational frameworks and studio support.
+* **Ubunye Engineering Group (DESEF)** — brings deep engineering systems capacity.
+* **Umoya Society** — provides ethical stewardship, narrative framing, and values alignment.
+* **Bahari Network** — connects Nandi into broader commons infrastructure.
+* **Moyo Collective** — embeds Nandi into cultural, social impact, and regenerative feedback loops.
+
+These organizations do *not* operate as capital owners. Rather, they act as **systemic stewards, facilitators, and enablers**.
+
+---
+
+## 🌍 WHY THESE ENTITIES MATTER IN THE NARRATIVE
+
+### **OVCS Authority**
+
+* **Why:** Ensures venture stays within federation rules.
+* **How:** Holds the power of authorization and kill triggers.
+* **When:** At every phase transition, reporting checkpoint, and capital tranche.
+* **What:** Governance, constraints, harm/regeneration metrics, legal scaffolding.
+* **Who interacts:** VentureCo leadership, PortfolioCo governance, FundCos.
+
+> OVCS is like the **constitution** that defines permissible action.
+
+---
+
+### **Kumba Metafactory (Flagship + Factories + Studios)**
+
+* **Why:** Studios provide practical execution capability.
+* **How:** StudioCo teams and shared OpCo resources deliver design, build, launch, and sustain functions.
+* **When:** Continuously, especially during execution & scaling phases.
+* **What:** Studio classes (software, mobility, marketing, prototyping labs) that serve venture needs.
+* **Who interacts:** StudioCo leads, shared OpCo workers, venture teams.
+
+> Kumba is the **factory system** that operationalizes ventures.
+
+---
+
+### **Ubunye Engineering Group (DESEF)**
+
+* **Why:** Brings integrative engineering excellence across hardware + software + systems.
+* **How:** Provides:
+  • Detailed system design
+  • Hard engineering tooling & labs
+  • Complex prototyping pipelines
+  • Safety + performance curves
+* **When:** Particularly in MVP → scaling → complex product phases.
+* **What:** Engineering commons, deep toolkit libraries, reusable modules.
+* **Who interacts:**
+  • VentureCo engineering teams
+  • StudioCo hardware labs
+  • Shared OpCo talent
+
+> Ubunye is the **engineering spine** across many Studio classes.
+
+---
+
+### **Umoya Society**
+
+* **Why:** Ensures ethical, social, and cultural coherence.
+* **How:**
+  • Narrative and framing alignment
+  • Ethical impact assessments
+  • Community-led value definitions
+* **When:** At concept, ongoing checks, and legacy stages.
+* **What:** Social impact scaffolding, ethical reviews, mythos, cultural contextualization.
+* **Who interacts:** VentureCo leadership, community teams, OVCS compliance.
+
+> Umoya is the **ethical conscience** of execution.
+
+---
+
+### **Bahari Network**
+
+* **Why:** Provides shared infrastructure — data, tooling, standards.
+* **How:** Offers networked commons such as:
+  • Shared identity systems
+  • Data fabric and integration layers
+  • Inter-op standards
+  • Commons economic interfaces
+* **When:** Throughout venture execution and scaling.
+* **What:** Technical commons — APIs, registries, simulation models.
+* **Who interacts:**
+  • Tech platform teams
+  • StudioCo DevOps units
+  • VentureCo system architects
+
+> Bahari is the **commons infrastructure layer**.
+
+---
+
+### **Moyo Collective**
+
+* **Why:** Ties ventures to regenerative community outcomes.
+* **How:** Community-centered feedback loops, cultural impact metrics, redistribution systems.
+* **When:** Measurement cycles, scaling, legacy transitions.
+* **What:** Cultural capital, regenerative economic flows, knowledge commons.
+* **Who interacts:** Community architects, Umoya facilitators, venture impact officers.
+
+> Moyo is the **heart & cultural ecosystem** of the venture.
+
+---
+
+## 🧠 SYSTEM INTEGRATION: HOW THEY WORK TOGETHER
+
+---
+
+### 🔄 THE 360° INTERACTION LOOP
+
+```
+                                                          +---------------------------+
+                                                          |        ESE + FOs         |
+                                                          +---------------------------+
+                                                                      |
+                                                                      v
+                                        +-----------------------------OVCS Authority------------------------------+
+                                        |                              (Governance, Phases, Killing)           |
+                                        +-----------------------------------------------------------------------+
+                                                                  |
+                                                                  v
+                        +--------------------------------MetaFactory (HQ + Factories)--------------------------------+
+                        |                                                                                           |
+                        |                                                                                           |
+                       Kumba                                                                                      Ubunye
+          (Studio System, Execution Capacity)                                                         (Engineering System)
+                        |                                                                                           |
+                        v                                                                                           v
+                +-----------------+                                                               +--------------------+
+                |  StudioCos      |                                                               |  Engineering Labs  |
+                +-----------------+                                                               +--------------------+
+                        |                                                                                           |
+                        v                                                                                           |
+                +-----------------+                                                                   +------------------+
+                |  VentureCo      |<-------------------------------Bahari Network------------------->|  Commons Modules |
+                +-----------------+                                                                   +------------------+
+                   |        |                                                                                   |
+                   v        v                                                                                   |
+   +------------------+     +----------------------+                                            +------------------------+
+   | IncentiveCo(s)   |     |  OpCo Execution Team |                                            |  Umoya Society (Ethics)|
+   +------------------+     +----------------------+                                            +------------------------+
+                   ↑                 ↑                                                                 |
+                   |                 |                                                                 |
+                   +-----------------+-----------------------------------------------------------------+
+                                     |
+                                     v
+                            +---------------------+
+                            |   Moyo Collective   |
+                            +---------------------+
+```
+
+---
+
+## 📌 THE DYNAMIC FLOW (NARRATIVE)
+
+Here’s how the interaction unfolds as the enterprise evolves:
+
+---
+
+### 🌀 **Phase: Luma → Ndebe**
+
+**OVCS:** Confirms concept viability → issues structural gates
+**Kumba:** Affirms design pathways → assigns studio support
+**Umoya:** Contextualizes ethical impact early
+**Bahari:** Prepares data/technical scaffolding
+**Moyo:** Maps community/regenerative expectations
+
+**Outcome:** Entity scaffolds + capability readiness
+
+---
+
+### 🌀 **Phase: Kano**
+
+**OVCS:** Issues capital envelope + constraints
+**Kumba:** Assembles execution teams
+**Ubunye:** Lays engineering pipelines
+**Bahari:** Provides shared standards
+**Umoya:** Defines cultural impact metrics
+**Moyo:** Aligns reinvestment triggers
+
+**Outcome:** Capital flows, legal entity operational
+
+---
+
+### 🌀 **Phase: Kuzu Execution**
+
+**StudioCos:** Deliver work (software, hardware, marketing, strategy)
+**VentureCo:** Ships products, services, platforms
+**OpCo Execution Team:** Brings people from shared pools
+**IncentiveCo:** Vests units on milestones
+**Bahari:** Handles data & shared services interfaces
+**Umoya:** Conducts mid-cycle ethical checks
+**Moyo:** Monitors community impact loops
+
+---
+
+### 🌀 **Capital Tranches & Compliance**
+
+At each milestone:
+
+* **OVCS** verifies KPIs, impacts, harm avoidance
+* **GPCo / FundCo** releases next tranche
+* **VentureCo** applies capital to operations
+* **IncentiveCo** vests units
+* **StudioCos/Ubunye/Bahari** allocate resources accordingly
+* **Moyo / Umoya** validate regenerative outcomes
+
+---
+
+### 🌀 **Towards Scale & Legacy**
+
+Once Nandi VentureCo:
+
+* Reaches revenue stability
+* Demonstrates regenerative impact
+* Aligns with socio-ethical matrices
+
+Then:
+
+* **Bahari** integrates platform as shared service
+* **Umoya** cements narrative + ethical guidelines
+* **Moyo** channels community gains
+* **OVCS** declares *phase advancement*
+* **Meta HoldCo/IPCo** inherits long-term IP
+* **IncentiveCo** pays out final vesting
+* **Studios** get redeployed
+
+---
+
+## 🧩 ROLE MAP ACROSS ENTITIES
+
+| Entity            | Provides                   | Interacts With             | Purpose                    |
+| ----------------- | -------------------------- | -------------------------- | -------------------------- |
+| OVCS              | Authorization + Compliance | FundCo, VentureCo, Studios | Governance                 |
+| Kumba Metafactory | Studios + Ops              | VentureCos                 | Execution engine           |
+| Ubunye (DESEF)    | Engineering modules        | Studios, VentureCos        | Technical excellence       |
+| Bahari Network    | Data + standards           | OpCo, Engineering Labs     | Commons infra              |
+| Umoya Society     | Ethics + culture           | All teams                  | Alignment of values        |
+| Moyo Collective   | Community impact           | VentureCos, Users          | Regeneration               |
+| StudioCos         | Delivery teams             | VentureCos                 | Build and support          |
+| VentureCos        | Solutions + products       | Users, PortfolioCos        | Operational value creation |
+
+---
+
+## 📍 CO-OP MODEL AND CO-OP CLASSES
+
+Throughout this process:
+
+### 🎓 Co-Op Classes
+
+Individuals earn *co-op roles* and *incentive units* that are conditional on:
+
+* Class contribution patterns (worker, lead, contributor)
+* Observable impact metrics
+* Phase gate achievements
+
+Roles persist across:
+
+* OVCS compliance reviews
+* Studio engagements
+* Venture execution cycles
+
+---
+
+# 🧠 FINAL SYSTEM INSIGHT
+
+This narrative demonstrates that your entire ecosystem is not *just a series of entities* — it is a **multi-layered socio-technical organism** where:
+
+* **OVCS** is the *constitutional regulator*
+* **Kumba** is the *execution engine*
+* **Ubunye** is the *engineering brain*
+* **Bahari** is the *commons nervous system*
+* **Umoya** is the *ethical compass*
+* **Moyo** is the *regenerative heartbeat*
+* **Co-op Classes** are the *social contract*
+* **VentureCos** are the *action units*
+
+Every milestone is anchored to:
+✔ Legal constraints
+✔ Capital governance
+✔ Impact outcomes
+✔ Community renewal
+
+---
+
+If you want next, I can:
+🔹 Turn this into a **Mermaid sequence diagram**
+🔹 Produce **entity-specific contract templates**
+🔹 Output **checklists for each phase + actor**
+🔹 Generate **role descriptions + compensation rules**
+
+Just tell me which one you want!
+
+Absolutely — here’s the **next narrative continuity** in the journey of **Nandi VentureCo**, now showing how **Nandi interacts with the other 11 core/kernel ventures and 6 core/kernel platforms** within your **OVCS + Kumba Metafactory + Co-op model** ecosystem.
+
+This narrative illustrates *cross-venture collaboration, shared platforms, knowledge flows, multi-venture dynamics, risk management, joint resource negotiation, common infrastructure utilization, and co-op class interactions* — all living within the governance structure you’ve built.
+
+---
+
+# 📖 Interconnected Odyssey: Nandi and the Kernel Ventures
+
+## 🌍 BACKDROP — THE PAMOJA ECOSYSTEM
+
+By the time Nandi has passed its Kuzu milestones and begun scaling, it no longer exists in isolation.
+Within this ecosystem, all kernel ventures are **mutually aware**, **resource-interoperable**, and **collaborative** — facilitated by:
+
+### Core “Kernel” Ventures
+
+1. **Nandi Mobility Company**
+2. **Azande Software Agency**
+3. **Damara Enterprise Engineering Firm**
+4. **Niguvu Corporation**
+5. **Mande Investment Group**
+6. **Songhai Institute of Systemics and Systemology**
+7. **Wolof.io Independent Worker Economy Platform**
+8. **Lomwe Systems Engineering Firm**
+9. **San Enterprise & Civilization Engineering**
+10. **Massai Media Group**
+11. **Dogon Manufacturing Company**
+12. **Batwa Foundation (Urban Community Development)**
+
+### Core Platforms (OS & Infrastructure)
+
+* **Qala Software Factory OS**
+* **Kogi Independent Worker Economy OS**
+* **Imewe Digital Fabrication OS**
+* **Sambara AI OS**
+* **Oru Simulation Development Kit OS**
+* **Ume General Purpose Enterprise OS**
+
+---
+
+## 🧠 CONTEXT — THE COLLECTIVE CANVAS
+
+In this phase of maturity, Nandi and the other ventures are all:
+
+* **Active participants in OVCS governance checkpoints**
+* Recipients of **phase-gate capital tranches**
+* Contributors to **shared IP commons (via IPCos)**
+* Participants in **co-op class incentive regimes**
+* Users and providers of **shared platforms**
+* Members of the **Bahari Network** for cross-venture infrastructure
+* Tied into community & ethical frameworks via **Umoya Society** and **Moyo Collective**
+* Grounded in engineering excellence through **Ubunye Engineering Group (DESEF)**
+
+---
+
+## 🔄 NETWORKED COLLABORATION NARRATIVE
+
+### 🔹 1) Shared Platform Integration — “Common Ground”
+
+As Nandi scales its user interface and backend logistics for mobility services, it realizes that Azande Software Agency has a **modular fulfillment engine** hosted on **Qala Software Factory OS** that can reduce development overhead by 40%. Both ventures agree to:
+
+* **Integrate each other’s APIs via Qala OS standard interfaces**
+* Share a **common data schema authenticated via Bahari Network identity infrastructure**
+* Co-author a **service library licensed through shared IPCo(s)**
+
+The integration yields:
+
+* Reduced dev time for Nandi
+* A new revenue channel for Azande
+* A jointly maintained registry on **Bahari Network Data Fabric**
+
+This kind of **cross-venture software composability** is typical across ventures using Qala, Sambara, and Oru.
+
+---
+
+### 🔹 2) Co-operative Resource Exchange — “Ops Symbiosis”
+
+Nandi’s hardware procurement workflow (for IoT mobility trackers) integrates tightly with **Dogon Manufacturing Company**:
+
+* Dogon produces industrial-grade housing and mechanical parts
+* Nandi sources hardware orders via **Imewe Digital Fabrication OS** routing and CNC scheduling
+* A custom **vendor contract** is formalized via **Shared ManCo services** and standard templates
+
+Result:
+
+* Lower BOM (Bill of Materials) costs for Nandi
+* Predictable revenue pipeline for Dogon
+* Commission terms aligned with co-op class incentive schedules
+
+Shared design IP is co-hosted under IPCo(s).
+
+---
+
+### 🔹 3) Strategic Analytics / AI Optimization — “Intelligent Motion”
+
+As Nandi’s fleet usage data grows, it engages **Sambara AI OS**:
+
+* Nandi exports anonymized telemetry to a **Sambara model pipeline**
+* **Songhai Institute of Systemics** consults on holistic pattern models (regenerative + operational)
+* Predictive scheduling optimizations emerge
+* Decision support integrates via **Oru Simulation Development Kit**
+
+Insights:
+
+* Reduced idle fleet times
+* Lower CO2 footprint
+* Shared metrics flowing to BAHARI’s impact ledger
+
+Sambara becomes a co-venture partner; Samba and Oru functions deliver *cross-venture predictive analytics*.
+
+---
+
+### 🔹 4) Venture-to-Venture Investment — “Mande Catalyst”
+
+Mande Investment Group serves as internal strategic capital matchmaker. Via its **PortfolioCo structures**:
+
+* Mande issues secondary tranches to Nandi upon meeting a *network-impact vector* involving:
+
+  * Mobility usage
+  * Community benefit (via Batwa Foundation)
+  * Worker economy participation (via Wolof.io)
+
+Capital is **not retail, not convertible equity** but *co-op-aligned performance funding* structured through OVCS constraints.
+
+---
+
+### 🔹 5) Community Nexus — “Batwa & Wolof.io Engagement”
+
+Nandi’s community rollout in urban districts is enriched by:
+
+* **Wolof.io’s Independent Worker Economy OS** — enabling rideshare drivers to participate as co-op members
+* **Batwa Foundation’s community programs** — ecosystem integration into urban mobility plans
+
+The effects:
+
+* Real-world regeneration metrics increase
+* New classes of co-op contributors emerge
+* Social impact metrics feed back into Moyo Collective trackers
+
+---
+
+### 🔹 6) Engineering Confluence — “Ubunye and Systems Excellence”
+
+For hardware reliability and cross-venture systems integration:
+
+* **Ubunye Engineering Group (DESEF)** provides deep design reviews
+* They run **systems integration sprints** across Nandi & Lomwe hardware/software stacks
+* Formal design packs are contributed to **Factory IPCo** for reuse by future ventures
+
+This further lowers technical risk and aligns standards between mobility, manufacturing, and enterprise engineering (Damara, San, Lomwe).
+
+---
+
+### 🔹 7) Narrative “Meaning” — Umoya Society
+
+All of this must remain *contextually ethical*:
+
+* Umoya reviews cross-venture data sharing
+* Ensures privacy-preserving governance
+* Certifies impact narratives
+
+Umoya frames **public narrative artifacts** that circulate back to:
+
+* OVCS compliance documentation
+* Media tellers (Massai Media Group)
+* Cultural legitimacy contexts
+
+---
+
+## 🧠 CO-OP MODEL + CO-OP CLASSES DYNAMICS IN ACTION
+
+Throughout these interactions:
+
+### **Person/Worker Interactions**
+
+* Worker Class (engineering, design, strategy) participate via **shared OpCo assignments**
+* Lead Class roles take governance seats or decision sync functions
+* Contributor Class roles align with cross-venture projects
+
+Incentive units vest in Nandi members *and* in cross-venture contributors (via mapped incentive frameworks). Units are mediated by:
+
+```
+Venture IncentiveCos ↔ Factory IncentiveCos ↔ Meta IncentiveCo
+```
+
+The vesting triggers follow not just revenue but **cross-venture impact milestones** established by OVCS.
+
+---
+
+## ⚙️ PLATFORM LEVERAGE ACROSS VENTURES
+
+| Platform          | Typical Use Case                | Ventures Involved                |
+| ----------------- | ------------------------------- | -------------------------------- |
+| **Qala OS**       | Modular software ecosystems     | Nandi, Azande, Wolof.io, Songhai |
+| **Kogi OS**       | Co-op member economy frameworks | Wolof.io, Mande, Batwa           |
+| **Imewe OS**      | Digital fabrication workflows   | Nandi, Dogon, Damara             |
+| **Sambara AI OS** | Predictive analytics & systems  | Nandi, Songhai, Massai Media     |
+| **Oru SDK**       | Simulation and digital twinning | Nandi, San, Lomwe                |
+| **Ume OS**        | Business operating systems      | All ventures                     |
+
+All of these are licensed out of **shared IPCos** and are operationalized through StudioCos and shared OpCo/ManCo services, *but neither studios nor platforms ever own equity in ventures*.
+
+---
+
+## 🧩 CROSS-VENTURE OUTCOMES BY PHASE
+
+### ✔ **Execution Phase**
+
+* Studios deliver cross-venture implementations (software, hardware, marketing)
+* Shared OP/ManCo teams scale operations
+
+### ✔ **Emergence of Shared IP**
+
+* New modules added to **Factory IPCos**
+* Licensed back into ventures
+
+### ✔ **Incentive Union**
+
+* “Network Impact” cliffs added to vest schedules
+
+### ✔ **Governance Checkpoints**
+
+* All ventures report to OVCS at aligned cadence
+* Cross-venture metrics feed OVCS dashboards
+
+### ✔ **Harvest / Legacy**
+
+* Shared platforms ascend to **Meta IPCo commons**
+* Community impact enters **Moyo Collective legacy metrics**
+
+---
+
+## 🔚 SYSTEM SYNTHESIS (IN NARRATIVE FORM)
+
+At its heart, Nandi doesn’t just build a mobility firm; it *actively contributes to and leverages a dynamic web of:
+
+* software capabilities (via Qala, Azande)
+* workforce economy scaffolding (via Wolof.io)
+* engineering rigor (via Ubunye + Damara + Lomwe + San)
+* community engagement (via Batwa + Moyo)
+* narrative coherence (via Umoya + Massai Media)
+* capital amplification (via Mande Investment Group)
+
+All of these flows are orchestrated via:
+
+```
+OVCS Authority → governance & capital phases  
+Kumba Metafactory → studios + execution frameworks  
+Bahari Network → shared data & integration endpoints
+```
+
+The result is *not merely one venture but an emergent mesh of co-ventures* that collectively advance *capital + impact + community + technology*.
+
+---
+
+## 🧠 KEY SYSTEM TAKEAWAYS
+
+1. **Inter-venture collaboration is normative** — not ad hoc.
+2. **Platforms act as cross-venture enablers, not owners.**
+3. **Co-op classes guide human incentives.**
+4. **Capital deployment is phase gated and governance bound.**
+5. **Shared infrastructure transcends individual firms.**
+6. **Legacy is collective, not singular.**
+
+---
+
+## NEXT POSSIBLE DELIVERABLES (YOU CAN ASK FOR):
+
+📌 **Mermaid Sequence Diagram** of this ecosystem narrative
+📌 **Interaction Map** showing capital, resource, and IP flows
+📌 **Role/Competency Ontology** for co-op classes
+📌 **Governance Matrix** for OVCS, ventures, and platforms
+
+Just say which you want next!
+
+Below is a **continuous, integrated narrative** describing how **Nandi Mobility Company** — one of your kernel ventures — *creates, ideates, conceptualizes, funds, staffs, develops, maintains, deploys, distributes, and lifecycle-manages* its **Nandi Mobility + Intelligent Transportation/Infrastructure OS Solution Platform** within your **OVCS → Kumba Metafactory → Bahari Network → co-op ecosystem**.
+
+This traces the platform from **first spark through maturity and legacy**, *with explicit actors, entities, processes, capital flows, roles, and governance touchpoints* — all consistent with the multi-venture, co-op governed structure we’ve built so far.
+
+---
+
+# 🚀 Nandi Mobility OS — Full Lifecycle Narrative
+
+---
+
+## **1) SPARK & CONTEXT — Where the Idea Emerges**
+
+**Context:**
+Urban and rural mobility systems today are fragmented, inefficient, and costly. Multiple partners struggle to coordinate logistics, transit demand modeling, real-time dispatch, and infrastructure feedback loops.
+
+**Actors at Play:**
+
+* Central Kumba Mobility StudioCo
+* Shared OpCo & ManCo resources
+* Community intelligence via **Moyo Collective + Umoya Society**
+* Strategic insight from **Songhai Institute of Systemics**
+* Market patterns logged in **Bahari Network data fabric**
+
+**Trigger:**
+StudioCo hosts an IDEALAB sprint where domain researchers, systems engineers, and community voices identify:
+
+* multi-modal gaps
+* congestion harm loops
+* regenerative transit opportunities
+
+**Output:**
+A structured **Mobility OS concept** — a coherent platform blueprint that includes:
+
+* real-time routing engine
+* distributed transit scheduling
+* infrastructure feedback integration
+* energy & emissions optimization
+* equity & accessibility modeling
+* co-op member economy integrations
+
+At this stage, *no legal entity exists yet; it is pure ideation*.
+
+---
+
+## **2) STRUCTURAL BACKSTOP — NDEBE PHASE**
+
+**What Happens:**
+The conceptual blueprint gets translated into legal scaffolding:
+
+* a dedicated **Infrastructure OS Project within Nandi VentureCo**
+* initial technical architecture boarded with **Bahari Network**
+* co-op role definitions drafted
+
+**Governance Touchpoint:**
+OVCS issues **Ndebe Authorization** for entity setup, structural doc filings, and compliance annex preparation.
+
+**Artifacts Created:**
+
+* **Legal proposal for the Nandi Mobility OS**
+* **Draft charter** (aligned to co-op classes & impact goals)
+* **Impact forecasts** (submitted to OVCS)
+* **Technical dependency maps** (shared to Bahari Network commons)
+
+No capital yet.
+
+---
+
+## **3) FUNDING AUTHORIZATION — KANO PHASE**
+
+**Actor:**
+
+* **OVCS Authority**
+* **Zawadi FundCo LP** (via *Ziko GPCo*)
+* **Nandi PortfolioCo** (holds Nandi equity rights)
+
+**OVCS Review Focus:**
+
+* Does the mobility platform meet harm/regeneration thresholds?
+* Is the technical road map solid?
+* Can the co-op classes be supported?
+* Are studio capacities adequate?
+
+After review, **OVCS issues a Kano Authorization Certificate** that:
+
+📌 Defines capital envelope (e.g., $4M initial)
+📌 Specifies allowed instruments (milestone tranches)
+📌 Imposes constraints & kill triggers
+📌 Sets reporting cadence
+
+**Capital Flow Start:**
+
+```
+Zawadi FundCo LP → Nandi PortfolioCo → Nandi VentureCo
+```
+
+Tranches release only as milestones are verified by OVCS.
+
+---
+
+## **4) PLATFORM TEAM FORMATION — Staffing & Roles**
+
+**Core Roles Hired / Assigned**
+
+| Role                        | Source                | Responsibilities                          | Co-op Class |
+| --------------------------- | --------------------- | ----------------------------------------- | ----------- |
+| Mobility Systems Architect  | Shared OpCo           | System boundaries & interface design      | Lead        |
+| Platform Engineers          | Software Dev StudioCo | Platform core services                    | Worker      |
+| UI/UX Designers             | StudioCo              | Human-centered design                     | Worker      |
+| Infrastructure Engineers    | Ubunye/Shared OpCo    | Distributed infrastructure + edge systems | Worker      |
+| Data Scientists             | Songhai Institute     | Predictive analytics pipelines            | Contributor |
+| AI/ML Modelers              | Sambara OS Layers     | Routing optimization                      | Contributor |
+| Community UX Lead           | Moyo Collective       | Equity & accessibility loops              | Lead        |
+| Gov + Policy Liaison        | Umoya Society         | Social compliance alignment               | Contributor |
+| Compliance & OVCS Reporting | Shared ManCo          | CTR reporting, metrics                    | Contributor |
+
+**Onboarding Process** is co-op class aware:
+
+* Legal docs signed
+* Incentive unit allocations recorded
+* Phase milestones embedded in vesting schedules
+
+---
+
+## **5) MVP DEVELOPMENT — BUILD PHASE**
+
+Nandi Mobility OS begins incremental build:
+
+### Core Subsystems
+
+1. **Routing & Scheduling Core**
+
+   * Standardized APIs
+   * Real-time dispatch heuristics
+   * Oru simulation integration for “what-if” planning
+
+2. **Co-op Member Economy Integrations**
+
+   * **Kogi OS** mediates co-op participation
+   * Wolof.io platform SDK for driver/worker engagement
+
+3. **Infrastructure Feedback Loop**
+
+   * Data from City partners + Batwa Foundation user nodes
+   * Emissions and traffic flow sensors
+
+4. **Mobile + Web UX**
+
+   * Azande Agency builds front-end layers
+   * UI integrates accessibility standards
+
+**Shared Platform Reuse**
+
+* Core services registered on **Qala OS**
+* Interop models logged in **Bahari Network**
+* AI enhancements via **Sambara AI OS**
+
+**Funding Tranche 1 Uses**
+
+* payroll
+* cloud infrastructure costs
+* data engineering
+* regulatory & compliance
+
+---
+
+## **6) IMPACT TRACKING & GOVERNANCE CHECKPOINTS**
+
+At defined intervals:
+
+* **OVCS Compliance** receives:
+
+  * Traffic efficiency KPIs
+  * Regenerative indicator vectors
+  * Harm detection logs
+  * Social equity outcomes
+  * Environmental footprint scores
+
+Reporting adheres to:
+
+```
+OVCS → Phase Gate → Kuzu Milestone Acceptance → Next Tranche
+```
+
+Failure to meet conditions triggers:
+
+* remediation (Zamba)
+* adjusted milestones
+* co-op incentive reallocations
+
+---
+
+## **7) PLATFORM COMPONENTS — SERVICES & SYSTEMS**
+
+As the OS grows, **modules** include:
+
+### a. **Dynamic Fleet Orchestration**
+
+* Elastic routing
+* predictive dispatch
+* multi-modal optimization
+* real-time congestion management
+
+### b. **Co-op Member Dashboards**
+
+* earnings
+* scheduling
+* impact transparency
+* performance metrics
+
+### c. **Urban Integration API**
+
+* signals from infra sensors
+* city transit maps
+* energy grid coupling
+* safety alerts
+
+### d. **Analytics & Simulation**
+
+* **Oru SDK runs simulation twins**
+* AI scenario planners
+* Lifecycle impact curves
+
+---
+
+## **8) CROSS-VENTURE PLUGINS — PLATFORM EXTENSIONS**
+
+Within the ecosystem:
+
+**Nandi OS + Dogon Manufacturing**
+
+* Hardware sensor standards co-designed
+* Common interface modules on Imewe OS
+
+**Nandi OS + Wolof.io**
+
+* Payment + co-op payouts
+* Shared economy modules
+
+**Nandi OS + Sambara AI**
+
+* predictive route flows
+* pattern detection trains
+
+**Nandi OS + San Enterprise**
+
+* civilization & infrastructure modeling
+* national-scale deployment planning
+
+**Nandi OS + Massai Media**
+
+* outreach impact campaigns
+* usage narratives
+
+**Nandi OS + Mande Investment Group**
+
+* Milestone focused funding pushes
+* Impact-based capital curves
+
+---
+
+## **9) OPERATIONS & MAINTENANCE**
+
+### Resource Allocation
+
+* Shared OpCo talent pooled
+* StudioCo specialists rotate in/ out
+* Coordination via **Studio ERP**
+
+### Platform Upkeep
+
+* Module versioning in **Factory IPCo**
+* Contributors earn co-op units post-milestone
+* Security audits mandated by OVCS
+
+### Support Services
+
+* Shared ManCo handles:
+
+  * legal admin
+  * finance
+  * billing
+  * compliance data
+
+Platform grows in iterative cycles:
+
+```
+Sprint → Integration → OVCS Report → Next Tranche
+```
+
+---
+
+## **10) DISTRIBUTION & MARKET ENTRY**
+
+Distribution strategy:
+
+* direct B2C rider app
+* partnerships with city transit
+* enterprise contracts with logistics co-ops
+
+Go-to-market built in partnership with:
+
+* **Massai Media Group** (campaigns + narratives)
+* **Umoya Society** (ethical framing + community acceptance)
+* **Bahari Network nodes** (data routing + federation standards)
+
+Revenue flows back into:
+
+```
+Nandi VentureCo → PortfolioCo → Zawadi FundCo LP → LP distributions
+```
+
+Outcome is *regulated, benefit-aligned*, not extraction.
+
+---
+
+## **11) SCALE & NETWORK EFFECTS**
+
+Key outcomes:
+
+* adoption across districts → city wide
+* predictive expansions → edge hubs
+* new services (shared bikes, micro-transit)
+* model licenses on Qala OS for other ventures
+
+---
+
+## **12) POSITIONING FOR HARVEST / EXIT**
+
+Exit doesn’t mean dissolution — because:
+
+* Nandi OS is *shared-value infrastructure*
+* IP modules integrate into **Factory IPCo**
+* Modules get re-licensed across ventures
+* Communities benefit indefinitely
+
+Harvest streams:
+
+```
+usage fees → VentureCo → PortfolioCo → FundCo → LPs
+impact dividends → Moyo Collective redistributions
+platform-service licenses → Bahari Network
+```
+
+Co-op unit final vesting at:
+
+* sustainability plateau
+* impact target achievement
+
+---
+
+## **13) LEGACY & RECYCLING INTO SYSTEMIC REUSE**
+
+As Nandi OS matures:
+
+* patterns contribute to **Meta IPCo commons**
+* shared playbooks help *future factories*
+* co-op role frameworks evolve
+* community impact archives feed **Umoya Society** curricula
+* ethical backflows shape future OVCS policy
+
+Finally:
+
+```
+Nandi OS contributes to a 
+multi-venture, co-op governed, federated system
+of impact tech, resilient infrastructure, and shared services
+```
+
+---
+
+# 🧠 HOW THIS FITS YOUR ECOSYSTEM RULES
+
+**Governance:** OVCS phase gates every capital + impact pivot
+**Execution:** Kumba studios + Ubunye engineering deliver capabilities
+**Commons:** Bahari Network + shared IPCos license interoperable modules
+**Ethics & Culture:** Umoya & Moyo Collective anchor human values
+**Capital:** FundCos deploy phased tranches governed by OVCS
+**Roles:** co-op classes assign purpose, rights, incentives
+
+---
+
+If you want next, I can produce:
+
+✅ A **Mermaid sequence diagram** of Nandi OS lifecycle
+✅ A **roles & responsibilities matrix** for core contributors
+✅ A **capital flow ledger template** for platform builds
+
+Just tell me which one you want!
+Absolutely — here are **two artifacts** tailored to your ecosystem:
+
+✅ **A Roles & Responsibilities Matrix** for core contributors to the *Nandi Mobility + Intelligent Transportation/Infrastructure OS Platform*
+✅ **A Capital Flow Ledger Template** specifically for platform builds (structured for auditor-ready tracking)
+
+Both are designed to be **plugged into your governance docs, entity handbooks, and accounting systems**.
+
+---
+
+# 📌 1) ROLES & RESPONSIBILITIES MATRIX
+
+This matrix maps **role titles** → **functional responsibilities** → **OVCS/Kumba interactions** → **Co-op class implications** → **primary outputs**.
+
+```
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                            ROLES & RESPONSIBILITIES MATRIX —  NANDI MOBILITY OS PLATFORM                                  │
+├───────────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Role                          │ Responsibilities / Interactions / Outputs                                      │
+│                               │                                                                                  │
+│                               │ OVCS Compliance | Kumba Studio | Bahari | Moyo/Umoya | Co-op classes        │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Chief Platform Architect      │ Define platform vision, OS architecture, cross-venture interfaces                │
+│                               │ — Ensure OVCS phase gating for architectural commitments                         │
+│                               │ — Lead Ubunye + Songhai co-design sessions                                        │
+│                               │ — Produce architecture artifacts for Bahari Network                              │
+│                               │ Co-op classes: Lead, Systems Designer                                             │
+│                               │ Outputs: Platform blueprint, interface spec, governance compliance artifacts     │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Product Manager               │ Oversee product lifecycle, feature prioritization                                │
+│                               │ — Coordinate studio teams (software + UX)                                         │
+│                               │ — Report product milestones to OVCS                                               │
+│                               │ — Track impact metrics with Moyo Collective                                       │
+│                               │ Co-op classes: Lead, Contributor                                                  │
+│                               │ Outputs: Product roadmaps, OVCS reports, user impact dashboards                  │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Lead Engineer (Software)      │ Implement core code modules                                                       │
+│                               │ — Engage Azande / Software Dev StudioCos                                          │
+│                               │ — Track code quality with Bahari Network standards                                │
+│                               │ Co-op classes: Worker, Contributor                                                │
+│                               │ Outputs: OSS modules, microservices, API endpoints                                │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Lead Engineer (Infrastructure)│ Build infrastructure foundations                                                  │
+│                               │ — Deploy on Bahari federation infra                                               │
+│                               │ — Coordinate with Shared OpCo + Ubunye                                            │
+│                               │ Co-op classes: Worker, Systems Engineer                                           │
+│                               │ Outputs: Deployment pipelines, CI/CD, infra configurations                        │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ UX / CX Lead                  │ Design user experiences                                                           │
+│                               │ — Ensure accessibility + ethical design                                           │
+│                               │ — Integrate community insights via Batwa + Umoya Society                          │
+│                               │ Co-op classes: Contributor, Designer                                               │
+│                               │ Outputs: UX prototypes, usability metrics reports                                 │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Data Scientist                │ Build analytics + prediction models                                               │
+│                               │ — Ingest telemetry into Sambara AI OS pipelines                                   │
+│                               │ — Validate patterns with Oru simulations                                          │
+│                               │ Co-op classes: Contributor                                                        │
+│                               │ Outputs: Forecasting models, AI insights                                           │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Compliance & Reporting Lead   │ Create OVCS compliance packages                                                   │
+│                               │ — Compile financial & impact reports                                              │
+│                               │ — Verify harm/regeneration metrics with Moyo Collective                            │
+│                               │ Co-op classes: Contributor                                                        │
+│                               │ Outputs: OVCS reports, audit binders                                               │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Community Engagement Lead     │ Facilitate community integrations                                                │
+│                               │ — Liaise with Batwa Foundation                                                    │
+│                               │ — Maintain impact loops via Wolof.io                                               │
+│                               │ Co-op classes: Contributor, Facilitator                                           │
+│                               │ Outputs: Community board reports, UX feedback loops                                │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Growth & GTM Lead             │ Market readiness + outreach                                                       │
+│                               │ — Coordinate with Massai Media group                                              │
+│                               │ — Drive pilot program adoption                                                    │
+│                               │ Co-op classes: Contributor, Lead                                                  │
+│                               │ Outputs: GTM campaigns, adoption metrics                                           │
+├───────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Legal & IP Steward            │ Protect OS components legally                                                    │
+│                               │ — Draft licensing covenants via IPCo(s)                                           │
+│                               │ — Manage reversion conditions                                                     │
+│                               │ Co-op classes: Contributor                                                        │
+│                               │ Outputs: IP registers, licensing docs                                              │
+└───────────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### HOW THIS MATRIX IS USED
+
+➡ **OVCS Compliance:** Responsibilities tied to reporting, harm tracking, and phase gateways
+➡ **Kumba Studio Coordination:** Shared resource alignment, sprints, studios-of-record
+➡ **Bahari Network Interop:** Data standards & service registry conformance
+➡ **Moyo / Umoya:** Ethical & impact lens on outputs
+➡ **Co-op Classes:** Clarify worker vs contributor vs lead roles in incentive vesting + governance
+
+---
+
+# 📌 2) CAPITAL FLOW LEDGER TEMPLATE
+
+(This is auditor-ready and structured around your platform builds)
+
+Use this as your **journal entry schema** for tracking capital from commitment → deployment → tranche releases → expenses → allocations → returns.
+
+---
+
+## 🧾 NANDA MOBILITY OS PLATFORM — CAPITAL FLOW LEDGER
+
+```
+==============================================================================  
+| Date       | Account                         | DR            | CR          | Notes |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Cash – Capital Contributions    | 10,000,000    |             | Initial capital commitment from Zawadi FundCo LP |
+| YYYY-MM-DD | Capital Commitments – FundCo    |               | 10,000,000  | Record fund commitment |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | PortfolioCo Escrow Account       | 3,000,000     |             | First tranche release (Kano) |
+| YYYY-MM-DD | Cash – Capital Contributions     |               | 3,000,000   | Transfer from FundCo |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Nandi OS Build – OpEx            | 1,200,000     |             | Staff + studio costs |
+| YYYY-MM-DD | Cash – Operating Account         |               | 1,200,000   | Payment to Shared OpCo / StudioCo |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Nandi OS Build – IP Dev          | 400,000       |             | Hardware + software modules |
+| YYYY-MM-DD | Cash – Operating Account         |               | 400,000     | Expense to vendor / labs |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Deferred Revenue (platform pre-sales) |          | 250,000     | Advance from early adopters |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Capital Release – Tranche 2      | 2,000,000     |             | Milestone passed (OVCS) |
+| YYYY-MM-DD | PortfolioCo Escrow Account       |               | 2,000,000   | Release second tranche |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Deployment – API Infrastructure  | 500,000       |             | AWS / Bahari net infra costs |
+| YYYY-MM-DD | Cash – Operating Account         |               | 500,000     | Infra payment |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | IncentiveAccrual – IncentiveCo    | 250,000       |             | Platform milestone vesting |
+| YYYY-MM-DD | Platform Expense (Incentives)    |               | 250,000     | Incentive accrual entry |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Tranche 2 Carryforward           | 1,250,000     |             | Remaining balance |
+| YYYY-MM-DD | PortfolioCo Escrow Account       |               | 1,250,000   | Unspent tranche balance |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Revenue – Licensing Agreements   | 500,000       |             | License income from partners |
+| YYYY-MM-DD | Accounts Receivable              |               | 500,000     | Invoice issued |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Accounts Receivable – Cash       | 500,000       |             | Payment collected |
+| YYYY-MM-DD | Accounts Receivable              |               | 500,000     | |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Distribution – LP                |               | 600,000     | LP share of distributed revenue |
+| YYYY-MM-DD | Retained Earnings – VentureCo    | 600,000       |             | Earnings retained |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Platform Sunset / Zamba Trigger  | 2,000,000     |             | Write-off on kill event |
+| YYYY-MM-DD | Accumulated Capital Write-Down   |               | 2,000,000   | Capital impairment |
+------------------------------------------------------------------------------
+| YYYY-MM-DD | Closure   Allocation to IPCo(s)  | 300,000       |             | Legal IP reversion credit |
+| YYYY-MM-DD | Retained Earnings – VentureCo    |               | 300,000     | IP reversion allocation |
+------------------------------------------------------------------------------
+==============================================================================  
+```
+
+---
+
+## 💡 LEGEND
+
+| Column      | Meaning                                |
+| ----------- | -------------------------------------- |
+| **Date**    | Transaction date                       |
+| **Account** | Ledger account                         |
+| **DR / CR** | Debit / Credit amounts                 |
+| **Notes**   | Explanation / OVCS milestone reference |
+
+---
+
+## 📊 ACCOUNT CATEGORIES — WHAT THEY MEAN
+
+| Category                  | Example Accounts                     | Purpose                  |
+| ------------------------- | ------------------------------------ | ------------------------ |
+| **Capital Contributions** | Capital Commitments, Escrow Accounts | Money from funds         |
+| **Platform Expenses**     | Operating, Infra, IncentiveAccrual   | Where capital is spent   |
+| **Revenue**               | License Income, Services Income      | Inflows from operations  |
+| **Distributions**         | LP, Co-op incentives                 | Outflows to stakeholders |
+| **Write-offs**            | Impairments, Zamba events            | Loss recognition         |
+| **IP Reversion**          | IPCo credits                         | Reassigned legal assets  |
+
+---
+
+## 🧠 HOW TO USE THIS TEMPLATE
+
+### **Step 1 — Capital Authorization**
+
+Record commitments and first tranche *only after OVCS Kano*.
+
+### **Step 2 — Expense Capture**
+
+Log expenses by project subcategory (e.g., OpEx, IP, Infra).
+
+### **Step 3 — Tranche Controls**
+
+Capitalize records at each authorized release point, with references to:
+
+```
+OVCS Milestone Certificate ID
+```
+
+### **Step 4 — Incentive Accruals**
+
+Accrue incentive vesting costs as units vest — do not book as cash until paid.
+
+### **Step 5 — Revenue Recognition**
+
+Recognize only when performance obligations are met.
+
+### **Step 6 — Distributions**
+
+Follow waterfall rules — LPs first (per LPA), then co-op incentives, then retained earnings.
+
+### **Step 7 — Kill / Write-down**
+
+Use a *Zamba event* line for impairment; then finalize IP reversion credits.
+
+---
+
+## 🧠 AUDIT & COMPLIANCE READY
+
+This template is crafted to satisfy:
+
+* OVCS reporting requirements
+* StudioCo operational expense tracking
+* IP/IPCo reversion schedules
+* IncentiveCo accruals
+* FundCo/PortfolioCo reconciliation
+
+It aligns transactional events with:
+✔ Phase gates
+✔ Capital envelopes
+✔ Governance checkpoints
+✔ Loss recognition policies
+✔ Co-op incentive vesting
+
+---
+
+If you want, I can generate **Excel/CSV templates** for both the roles matrix and the capital ledger, or convert the ledger into **accounting software import manifests** (e.g., for QuickBooks / Xero / ERP integration). Just tell me which format you want!

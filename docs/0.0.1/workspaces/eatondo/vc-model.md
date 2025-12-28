@@ -1,4 +1,4 @@
-# vc model
+# vc/studio model
 * VC studio program
     * VC accelerator program
     * VC incubator program

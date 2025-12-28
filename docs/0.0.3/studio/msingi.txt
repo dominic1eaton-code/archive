@@ -45709,3 +45709,97 @@ I can now generate:
 ✅ **PDF / PNG visual roadmap**
 
 Just tell me what format you’d like!
+Here are the **Jira fields** that correspond to the columns you used in your CSV import — with clear definitions of where each maps in Jira’s **import field mapping UI**:
+
+---
+
+## ✅ Field Mappings for Jira CSV Import
+
+### 📌 `Issue Key`
+
+* **Maps to:** **Issue Key** (System field)
+* **Purpose:** Uniquely identifies the issue in Jira.
+* When importing, this must match the **Project Key + number format** (e.g., `PROJ-123` or a new key you establish).
+* Jira uses this to **assign the issue’s identity**, especially if linking dependencies. ([Atlassian Support][1])
+
+---
+
+### 📌 `Epic Link`
+
+* **Maps to:** **Epic Link** (Jira Software field)
+* **Purpose:** Links a **Story/Task** to its **Epic container**.
+* Note: Jira Cloud is evolving this into the **Parent** field (where Epic acts as the parent) — some instances will show *Parent* instead of *Epic Link* in newer imports. ([Atlassian Support][2])
+* Make sure this field is available in the CSV import **map-fields step**.
+
+---
+
+### 📌 `Issue Links: “Blocks”`
+
+and **`Issue Links: “Is Blocked By”`**
+
+* **Maps to:** **Issue Links**
+  (when you map these in the CSV import wizard, you choose a *link type* such as “blocks”, “is blocked by”, “relates to”, etc.) ([Atlassian Support][3])
+* **Purpose:** Defines *dependency relationships* between issues:
+
+  * **Blocks** → this issue blocks another issue
+  * **Is Blocked By** → this issue is waiting on another issue
+* During import, you **manually select the correct link type mapping** to ensure Jira creates these relationships properly. ([Atlassian Support][1])
+* These do **not automatically map** unless the **Issue Links** field is present on the *Create screen* for the issue types you import into. If not present, ask your Jira admin to add it to the screens. ([Atlassian Support][2])
+
+---
+
+## 📌 Example Mapping During Import
+
+In the **CSV field mapping screen**, Jira will let you map:
+
+| CSV Column                     | Jira Field                                              |
+| ------------------------------ | ------------------------------------------------------- |
+| `Issue Key`                    | Issue Key                                               |
+| `Summary`                      | Summary                                                 |
+| `Issue Type`                   | Issue Type                                              |
+| `Description`                  | Description                                             |
+| `Epic Link`                    | Epic Link (or *Parent*, depending on your Jira version) |
+| `Issue Links: “Blocks”`        | Issue Links (Blocks)                                    |
+| `Issue Links: “Is Blocked By”` | Issue Links (Is Blocked By)                             |
+| `Labels`                       | Labels                                                  |
+
+You will choose the **link type** (Blocks / Is blocked by) in the **Map fields step** while importing. ([Atlassian Support][3])
+
+---
+
+## 🧠 Notes & Gotchas
+
+### ✴ *Epic Link vs. Parent Field*
+
+* Jira is replacing **Epic Link** with the **Parent** field for hierarchy in some Cloud configurations. If your Jira instance shows **Parent** instead of Epic Link at import time, map your `Epic Link` CSV column to **Parent** instead. ([Atlassian Support][2])
+* This doesn’t change the logic — it just changes the internal field used by Jira.
+
+---
+
+### ✴ *Issue Links Field May Be Hidden*
+
+* If Jira doesn’t show **Issue Links** in the import dropdown, it could be because:
+
+  * That field is **not on the Create screen** for those issue types
+  * Or Jira version/platform has limitations (Team-managed vs Company-managed) ([Atlassian Support][2])
+
+In that case, work with your Jira admin to **add Issue Links to the Create screen** before importing. ([Atlassian Support][2])
+
+---
+
+## ✅ Summary of Mappings
+
+| CSV Field                    | Jira Field                                |
+| ---------------------------- | ----------------------------------------- |
+| Issue Key                    | Issue Key (system)                        |
+| Epic Link                    | Epic Link (or Parent field in newer Jira) |
+| Issue Links: “Blocks”        | Issue Links (Blocks link type)            |
+| Issue Links: “Is Blocked By” | Issue Links (Is Blocked By link type)     |
+
+---
+
+If you want, I can generate a **step-by-step field mapping guide with screenshots** for your Jira import. Just let me know whether you’re using **Jira Cloud** or **Jira Server/Data Center**!
+
+[1]: https://support.atlassian.com/jira/kb/how-to-import-issue-links-from-a-csv-file-in-jira/?utm_source=chatgpt.com "How to import issue links from a CSV file in Jira | Jira and Jira Service Management | Atlassian Support"
+[2]: https://support.atlassian.com/jira/kb/keep-issue-parent-child-mapping-during-csv-import-to-jira-cloud/?utm_source=chatgpt.com "Keep work parent-child relationships during CSV import to Jira Cloud | Jira and Jira Service Management | Atlassian Support"
+[3]: https://support.atlassian.com/jira-software-cloud/docs/mapping-csv-data-to-jira-fields/?utm_source=chatgpt.com "Map CSV data to Jira fields | Jira Cloud | Atlassian Support"

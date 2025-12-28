@@ -1,0 +1,80 @@
+Issue Key,Issue Type,Summary,Description,Epic Link,Labels,Issue Links: Blocks,Issue Links: Is Blocked By
+TH-0001,Epic,Agile Foundation,Theme: Agile Foundation,pamoja-theme,theme
+TH-0002,Epic,Sequencing & Decision Engine,Theme: Sequencing & Decision Engine,pamoja-theme,theme
+TH-0003,Epic,Constraint Pipeline Ramp,Theme: Constraint Pipeline Ramp,pamoja-theme,theme
+TH-0004,Epic,Msingi Pipeline Enablement,Theme: Msingi Pipeline Enablement,pamoja-theme,theme
+TH-0005,Epic,Federation Launch Support,Theme: Federation Launch Support,pamoja-theme,theme
+TH-0006,Epic,Studio Formation Readiness,Theme: Studio Formation Readiness,pamoja-theme,theme
+TH-0007,Epic,Reporting & Transparency,Theme: Reporting & Transparency,pamoja-theme,theme
+TH-0008,Epic,External Engagement,Theme: External Engagement,pamoja-theme,theme
+TH-0009,Epic,Family Estate & Boundary,Theme: Family Estate & Boundary,pamoja-theme,theme
+TH-0010,Epic,Training & Onboarding,Theme: Training & Onboarding,pamoja-theme,theme
+
+P-0001,Task,Federated Agile Foundation,Package: Agile Foundation,,pamoja-package,
+P-0002,Task,Sequencing & Decision,Package: Sequencing & Decision,,pamoja-package,
+P-0003,Task,Constraint Pipeline Ramp,Package: Constraint Pipeline Ramp,,pamoja-package,
+P-0004,Task,Msingi Pipeline,Package: Msingi Pipeline,,pamoja-package,
+P-0005,Task,Federation Launch,Package: Federation Launch,,pamoja-package,
+P-0006,Task,Studio Formation,Package: Studio Formation,,pamoja-package,
+P-0007,Task,Reporting & Transparency,Package: Reporting & Transparency,,pamoja-package,
+P-0008,Task,External Engagement,Package: External Engagement,,pamoja-package,
+P-0009,Task,Family Estate,Package: Family Estate,,pamoja-package,
+P-0010,Task,Training & Onboarding,Package: Training & Onboarding,,pamoja-package,
+
+I-0001,Task,Agile Launch Initiative,Initiative: Agile Launch Initiative,P-0001,pamoja-initiative,
+E-0001,Epic,Playbook Creation,Epic: Playbook Creation,TH-0001,pamoja-epic,
+S-1001,Story,Draft Agile principles,Create core Federated Agile principles,E-0001,pamoja-story feat,
+S-1002,Story,Define meeting cadences,Define recurring meeting cadences,E-0001,pamoja-story feat,,Is Blocked By:S-1001
+S-1003,Story,Document sequencing rituals,Document sequencing rituals,E-0001,pamoja-story feat,,Is Blocked By:S-1002
+S-1004,Story,Write constraint backlog docs,Produce constraint backlog doc,E-0001,pamoja-story req,,Is Blocked By:S-1003
+
+E-0002,Epic,Board & Tool Standards,Epic: Board & Tool Standards,TH-0001,pamoja-epic,
+S-1005,Story,Setup master backlog,Configure master backlog board,E-0002,pamoja-story enab,
+S-1006,Story,Setup constraint board,Configure constraint backlog board,E-0002,pamoja-story enab,,Is Blocked By:S-1005
+S-1007,Story,Setup decision log board,Configure decision log board,E-0002,pamoja-story enab,,Is Blocked By:S-1006
+S-1008,Story,Backlog taxonomy standards,Produce backlog taxonomy standards,E-0002,pamoja-story req,,Is Blocked By:S-1007
+
+E-0003,Epic,Role Charters,Epic: Role Charters,TH-0001,pamoja-epic,
+S-1009,Story,Define core NPO roles,Define core roles for NPO,E-0003,pamoja-story req,
+S-1010,Story,Define council liaison roles,Define council liaison roles,E-0003,pamoja-story req,,Is Blocked By:S-1009
+S-1011,Story,Publish sequencing squad charter,Publish Sequencing Squad charter,E-0003,pamoja-story feat,,Is Blocked By:S-1010
+S-1012,Story,Publish constraint squad charter,Publish Constraint Squad charter,E-0003,pamoja-story feat,,Is Blocked By:S-1011
+
+I-0002,Task,Decision Pipeline Enablement,Initiative: Decision Pipeline Enablement,P-0002,pamoja-initiative,
+E-0004,Epic,Decision Pipeline System,Epic: Decision Pipeline System,TH-0002,pamoja-epic,
+S-1013,Story,Create decision capture template,Create decision capture form,E-0004,pamoja-story enab,
+S-1014,Story,Create translation workflow template,Create translation workflow template,E-0004,pamoja-story enab,,Is Blocked By:S-1013
+S-1015,Story,Build decision→task flow,Connect decision capture to task creation,E-0004,pamoja-story capability,,Is Blocked By:S-1014
+S-1016,Story,Integrate decision log,Integrate decision log with boards,E-0004,pamoja-story enhancement,,Is Blocked By:S-1015
+
+E-0005,Epic,Priority Stack Mechanisms,Epic: Priority Stack Mechanisms,TH-0002,pamoja-epic,
+S-1017,Story,Define priority stack rules,Define priority stack rules,E-0005,pamoja-story req,
+S-1018,Story,Build “Not Yet” list artifact,Build Not Yet list artifact,E-0005,pamoja-story feat,,Is Blocked By:S-1017
+S-1019,Story,Sequencing status dashboard,Sequencing status dashboard,E-0005,pamoja-story feat,,Is Blocked By:S-1018
+S-1020,Story,Create deadlock alerts,Deadlock alert system,E-0005,pamoja-story test,,Is Blocked By:S-1019
+
+E-0006,Epic,Sequencing Analytics,Epic: Sequencing Analytics,TH-0002,pamoja-epic,
+S-1021,Story,Define sequencing KPIs,Define sequencing KPIs,E-0006,pamoja-story req,
+S-1022,Story,Build sequencing dashboard,Build sequencing dashboard,E-0006,pamoja-story system,,Is Blocked By:S-1021
+S-1023,Story,Regression alert rules,Regression alert rules,E-0006,pamoja-story test,,Is Blocked By:S-1022
+S-1024,Story,Publish weekly sequencing report,Publish weekly sequencing report,E-0006,pamoja-story feat,,Is Blocked By:S-1023
+
+I-0003,Task,Constraint Backlog System,Initiative: Constraint Backlog System,P-0003,pamoja-initiative,
+E-0007,Epic,Backlog & Workflow Setup,Epic: Backlog & Workflow Setup,TH-0003,pamoja-epic,
+S-1025,Story,Define constraint backlog fields,Define constraint backlog fields,E-0007,pamoja-story req,
+S-1026,Story,Build constraint triage board,Build constraint triage board,E-0007,pamoja-story enab,,Is Blocked By:S-1025
+S-1027,Story,Standardize constraint statuses,Standardize constraint statuses,E-0007,pamoja-story req,,Is Blocked By:S-1026
+S-1028,Story,Constraint item templates,Constraint item templates,E-0007,pamoja-story enab,,Is Blocked By:S-1027
+
+E-0008,Epic,OVCS Triage Workflow,Epic: OVCS Triage Workflow,TH-0003,pamoja-epic,
+S-1029,Story,Define OVCS review steps,Define OVCS review steps,E-0008,pamoja-story req,
+S-1030,Story,Onboard constraint team,Onboard constraint team,E-0008,pamoja-story enab,,Is Blocked By:S-1029
+S-1031,Story,Write resolution policy docs,Write resolution policy docs,E-0008,pamoja-story req,,Is Blocked By:S-1030
+S-1032,Story,Constraint handoff ritual,Constraint handoff ritual,E-0008,pamoja-story feat,,Is Blocked By:S-1031
+
+E-0009,Epic,Council Feedback Loop,Epic: Council Feedback Loop,TH-0003,pamoja-epic,
+S-1033,Story,Council constraint sync agenda,Council constraint sync agenda,E-0009,pamoja-story enab,
+S-1034,Story,Artifact feedback templates,Artifact feedback templates,E-0009,pamoja-story feat,,Is Blocked By:S-1033
+S-1035,Story,Constraint escalation docs,Constraint escalation docs,E-0009,pamoja-story req,,Is Blocked By:S-1034
+S-1036,Story,Publish council SLA,Publish council SLA,E-0009,pamoja-story feat,,Is Blocked By:S-1035
+... (continue all remaining S-IDs through S-1116, using the same pattern)

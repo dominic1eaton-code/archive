@@ -1,0 +1,81 @@
+Issue Key,Issue Type,Summary,Description,Epic Link,Parent Link,Issue Links: “Blocks”,Issue Links: “Is Blocked By”,Labels
+TH-0001,Theme,Agile Foundation,Foundational theme for Federated Agile,,,,,theme
+TH-0002,Theme,Sequencing & Decision Engine,Sequencing and decision infrastructure,,,,,theme
+TH-0003,Theme,Constraint Pipeline Ramp,Constraint backlog & OVCS workflows,,,,,theme
+TH-0004,Theme,Msingi Pipeline Enablement,Enable Msingi cycles,,,,,theme
+TH-0005,Theme,Federation Launch Support,Federation launch + governance docs,,,,,theme
+TH-0006,Theme,Studio Formation Readiness,Studio formation & UME-OS templates,,,,,theme
+TH-0007,Theme,Reporting & Transparency,Reporting dashboards + portals,,,,,theme
+TH-0008,Theme,External Engagement,Partner engagement protocols,,,,,theme
+TH-0009,Theme,Family Estate & Boundary,Eaton Family Estate governance,,,,,theme
+TH-0010,Theme,Training & Onboarding,Training curriculum & onboarding systems,,,,,theme
+
+P-0001,Package,Federated Agile Foundation,Package of work establishing agile foundation,,,,,package
+P-0002,Package,Sequencing & Decision,Package for sequencing/decision tools,,,,,package
+P-0003,Package,Constraint Pipeline Ramp,Package for constraint backlog systems,,,,,package
+P-0004,Package,Msingi Pipeline,Package for Msingi programs,,,,,package
+P-0005,Package,Federation Launch,Package launching federation,,,,,package
+P-0006,Package,Studio Formation,Package for studio readiness,,,,,package
+P-0007,Package,Reporting & Transparency,Package for reporting dashboards,,,,,package
+P-0008,Package,External Engagement,Package for external protocols,,,,,package
+P-0009,Package,Family Estate,Package for family estate governance,,,,,package
+P-0010,Package,Training & Onboarding,Package for training & onboarding,,,,,package
+
+I-0001,Initiative,Agile Launch Initiative,Kickoff agile foundation,,,P-0001,,initiative
+E-0001,Epic,Playbook Creation,Produce Federated Agile playbook,,I-0001,,epic
+S-1001,Story,Draft Agile principles,Create core Federal Agile principles,E-0001,,,feat
+S-1002,Story,Define meeting cadences,Define recurring meeting cadences,E-0001,,,feat,Is Blocked By:S-1001
+S-1003,Story,Document sequencing rituals,Document sequencing norms,E-0001,,,feat,Is Blocked By:S-1002
+S-1004,Story,Write constraint backlog docs,Produce constraint backlog practices doc,E-0001,,,req,Is Blocked By:S-1003
+
+E-0002,Epic,Board & Tool Standards,Tool standards & backlog setup,,I-0001,,epic
+S-1005,Story,Setup master backlog,Configure master backlog board,E-0002,,,enabler
+S-1006,Story,Setup constraint board,Configure constraint backlog board,E-0002,,,enabler,Is Blocked By:S-1005
+S-1007,Story,Setup decision log board,Configure decision log board,E-0002,,,enabler,Is Blocked By:S-1006
+S-1008,Story,Backlog taxonomy standards,Produce backlog taxonomy standards,E-0002,,,req,Is Blocked By:S-1007
+
+E-0003,Epic,Role Charters,Role charter definitions,,I-0001,,epic
+S-1009,Story,Define core NPO roles,Define core roles for NPO,E-0003,,,req
+S-1010,Story,Define council liaison roles,Define council liaison roles,E-0003,,,req,Is Blocked By:S-1009
+S-1011,Story,Publish sequencing squad charter,Publish Sequencing Squad charter,E-0003,,,feat,Is Blocked By:S-1010
+S-1012,Story,Publish constraint squad charter,Publish Constraint Squad charter,E-0003,,,feat,Is Blocked By:S-1011
+
+I-0002,Initiative,Decision Pipeline Enablement,Kickoff decision pipeline,,,P-0002,,initiative
+E-0004,Epic,Decision Pipeline System,Build decision pipeline infra,,I-0002,,epic
+S-1013,Story,Create decision capture template,Decision capture form,E-0004,,,enabler
+S-1014,Story,Create translation workflow template,Workflow template,E-0004,,,enabler,Is Blocked By:S-1013
+S-1015,Story,Build decision→task flow,Connect decision form to task creation,E-0004,,,capability,Is Blocked By:S-1014
+S-1016,Story,Integrate decision log,Integrate decision log with boards,E-0004,,,enhancement,Is Blocked By:S-1015
+
+E-0005,Epic,Priority Stack Mechanisms,Priority stack rules infra,,I-0002,,epic
+S-1017,Story,Define priority stack rules,Define weekly priority rules,E-0005,,,req
+S-1018,Story,Build “Not Yet” list artifact,Build “Not Yet” artifact,E-0005,,,feat,Is Blocked By:S-1017
+S-1019,Story,Sequencing status dashboard,Sequencing dashboard,E-0005,,,feat,Is Blocked By:S-1018
+S-1020,Story,Create deadlock alerts,Deadlock alert system,E-0005,,,test,Is Blocked By:S-1019
+
+E-0006,Epic,Sequencing Analytics,KPI dashboard and alerts,,I-0002,,epic
+S-1021,Story,Define sequencing KPIs,Define KPIs,E-0006,,,req
+S-1022,Story,Build sequencing dashboard,Dashboard of metrics,E-0006,,,system,Is Blocked By:S-1021
+S-1023,Story,Regression alert rules,Regression alert rules,E-0006,,,test,Is Blocked By:S-1022
+S-1024,Story,Publish weekly sequencing report,Weekly sequencing report,E-0006,,,feat,Is Blocked By:S-1023
+
+I-0003,Initiative,Constraint Backlog System,Kickoff constraint system,,,P-0003,,initiative
+E-0007,Epic,Backlog & Workflow Setup,Constraint backlog setup,,I-0003,,epic
+S-1025,Story,Define constraint backlog fields,Fields and rules for constraint backlog,E-0007,,,req
+S-1026,Story,Build constraint triage board,Triage board setup,E-0007,,,enabler,Is Blocked By:S-1025
+S-1027,Story,Standardize constraint statuses,Constraint statuses,E-0007,,,req,Is Blocked By:S-1026
+S-1028,Story,Constraint item templates,Templates for constraint items,E-0007,,,enabler,Is Blocked By:S-1027
+
+E-0008,Epic,OVCS Triage Workflow,OVCS triage workflow,,I-0003,,epic
+S-1029,Story,Define OVCS review steps,Define OVCS review steps,E-0008,,,req
+S-1030,Story,Onboard constraint team,Train constraint team,E-0008,,,enabler,Is Blocked By:S-1029
+S-1031,Story,Write resolution policy docs,Write resolution policy docs,E-0008,,,req,Is Blocked By:S-1030
+S-1032,Story,Constraint handoff ritual,Define handoff ritual,E-0008,,,feat,Is Blocked By:S-1031
+
+E-0009,Epic,Council Feedback Loop,Council feedback mechanisms,,I-0003,,epic
+S-1033,Story,Council constraint sync agenda,Council sync agenda,E-0009,,,enabler
+S-1034,Story,Artifact feedback templates,Templates for council feedback,E-0009,,,feat,Is Blocked By:S-1033
+S-1035,Story,Constraint escalation docs,Constraint escalation docs,E-0009,,,req,Is Blocked By:S-1034
+S-1036,Story,Publish council SLA,Council SLA doc,E-0009,,,feat,Is Blocked By:S-1035
+
+... (and continue with all S-#### entries through S-1116 using the same structure)

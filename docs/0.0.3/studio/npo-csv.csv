@@ -1,0 +1,79 @@
+Issue ID,Issue Type,Summary,Description,Epic Link,Parent Link,Depends On,Labels
+TH-0001,Theme,Agile Foundation,Establish foundational agile constructs,,,,theme
+TH-0002,Theme,Sequencing & Decision Engine,Build sequencing & decision infrastructure,,,,theme
+TH-0003,Theme,Constraint Pipeline Ramp,Design and implement constraint backlog & OVCS workflows,,,,theme
+TH-0004,Theme,Msingi Pipeline Enablement,Enable Luma/Ndebe/Kano cycles,,,,theme
+TH-0005,Theme,Federation Launch Support,Produce federation launch artifacts & governance,,,,theme
+TH-0006,Theme,Studio Formation Readiness,Prepare studios & UME-OS templates,,,,theme
+TH-0007,Theme,Reporting & Transparency,Build transparency dashboards & portals,,,,theme
+TH-0008,Theme,External Engagement,Define external engagement & partner protocols,,,,theme
+TH-0009,Theme,Family Estate & Boundary,Eaton Family Estate governance & firewall,,,,theme
+TH-0010,Theme,Training & Onboarding,Training & onboarding materials,,,,theme
+
+P-0001,Package,Federated Agile Foundation,Package: Agile Foundation,,,,package
+P-0002,Package,Sequencing & Decision,Package: Sequencing and Decision,,,,package
+P-0003,Package,Constraint Pipeline Ramp,Package: Constraint pipeline,,,,package
+P-0004,Package,Msingi Pipeline,Package: Msingi artifact cycles,,,,package
+P-0005,Package,Federation Launch,Package: Federation launch docs,,,,package
+P-0006,Package,Studio Formation,Package: Studios & UME-OS readiness,,,,package
+P-0007,Package,Reporting & Transparency,Package: transparency dashboards,,,,package
+P-0008,Package,External Engagement,Package: external protocols,,,,package
+P-0009,Package,Family Estate,Package: Eaton Family Estate,,,,package
+P-0010,Package,Training & Onboarding,Package: Training materials,,,,package
+
+I-0001,Initiative,Agile Launch Initiative,Kickoff agile foundation,,,,initiative,P-0001
+E-0001,Epic,Playbook Creation,Produce federated agile playbook,E-0001,I-0001,,epic,P-0001
+S-1001,Story,Draft Agile principles,Create foundational principles for CAAD,E-0001,,,"feat"
+S-1002,Story,Define meeting cadences,Define all recurring cadences,E-0001,S-1001, "feat"
+S-1003,Story,Document sequencing rituals,Sequence definition doc,E-0001,S-1002,"feat"
+S-1004,Story,Write constraint backlog docs,Constraint practices doc,E-0001,S-1003,"req"
+
+E-0002,Epic,Board & Tool Standards,Standardize backlog & tools,E-0002,I-0001,,epic,P-0001
+S-1005,Story,Setup master backlog,Configure master backlog board,E-0002,, "enab"
+S-1006,Story,Setup constraint board,Configure constraint backlog board,E-0002,S-1005,"enab"
+S-1007,Story,Setup decision log board,Create decision log board,E-0002,S-1006,"enab"
+S-1008,Story,Backlog taxonomy standards,Publish backlog taxonomy doc,E-0002,S-1007,"req"
+
+E-0003,Epic,Role Charters,Define NPO roles & councils,E-0003,I-0001,,epic,P-0001
+S-1009,Story,Define core NPO roles,Core role definitions,E-0003,, "req"
+S-1010,Story,Define council roles,Council liaison roles,E-0003,S-1009,"req"
+S-1011,Story,Publish sequencing squad charter,Sequencing Squad charter,E-0003,S-1010,"feat"
+S-1012,Story,Publish constraint squad charter,Constraint Squad charter,E-0003,S-1011,"feat"
+
+I-0002,Initiative,Decision Pipeline Enablement,Kickoff decision pipeline,,,,initiative,P-0002
+E-0004,Epic,Decision Pipeline System,Build decision capture & translation,E-0004,I-0002,,epic,P-0002
+S-1013,Story,Create decision capture template,Decision capture form,E-0004,, "enab"
+S-1014,Story,Create translation workflow,Translate decision→task E-0004,S-1013,"enab"
+S-1015,Story,Build decision→task flow,Decision→task infra,E-0004,S-1014,"cap"
+S-1016,Story,Integrate decision log,Link decision log with boards,E-0004,S-1015,"enh"
+
+E-0005,Epic,Priority Stack Mechanisms,Define priority stack rules,E-0005,I-0002,,epic,P-0002
+S-1017,Story,Define priority stack rules,Rules for weekly stack,E-0005,, "req"
+S-1018,Story,Build “Not Yet” list,Deferred work list artifact,E-0005,S-1017,"feat"
+S-1019,Story,Sequencing status dashboard,Sequencing dashboard,E-0005,S-1018,"feat"
+S-1020,Story,Create deadlock alerts,Deadlock alerts tool,E-0005,S-1019,"test"
+
+E-0006,Epic,Sequencing Analytics,Define sequencing KPIs & dashboards,E-0006,I-0002,,epic,P-0002
+S-1021,Story,Define sequencing KPIs,KPIs for sequencing,E-0006,, "req"
+S-1022,Story,Build sequencing dashboard,Dashboard of metrics,E-0006,S-1021,"sys"
+S-1023,Story,Regression alert rules,Regs alert test,E-0006,S-1022,"test"
+S-1024,Story,Publish weekly sequencing report,Weekly report template,E-0006,S-1023,"feat"
+
+I-0003,Initiative,Constraint Backlog System,Kickoff constraint system,,,,initiative,P-0003
+E-0007,Epic,Backlog & Workflow Setup,Implement constraint backlog,E-0007,I-0003,,epic,P-0003
+S-1025,Story,Define constraint backlog fields,Constraint backlog fields,E-0007,, "req"
+S-1026,Story,Build constraint triage board,Triaged board setup,E-0007,S-1025,"enab"
+S-1027,Story,Standardize constraint statuses,Statuses for constraints,E-0007,S-1026,"req"
+S-1028,Story,Constraint item templates,Templates for constraint items,E-0007,S-1027,"enab"
+
+E-0008,Epic,OVCS Triage Workflow,Implement OVCS constraint review,E-0008,I-0003,,epic,P-0003
+S-1029,Story,Define OVCS review steps,OVCS constraint review steps,E-0008,, "req"
+S-1030,Story,Onboard constraint team,Train constraint team,E-0008,S-1029,"enab"
+S-1031,Story,Write resolution policy docs,Resolution policy docs,E-0008,S-1030,"req"
+S-1032,Story,Constraint handoff ritual,Handoff ritual docs,E-0008,S-1031,"feat"
+
+E-0009,Epic,Council Feedback Loop,Implement council feedback loops,E-0009,I-0003,,epic,P-0003
+S-1033,Story,Council constraint sync agenda,Agenda for council sync,E-0009,, "enab"
+S-1034,Story,Artifact feedback templates,Feedback forms for councils,E-0009,S-1033,"feat"
+S-1035,Story,Constraint escalation docs,Escalation docs,E-0009,S-1034,"req"
+S-1036,Story,Publish council SLA,Council SLA,E-0009,S-1035,"feat"

@@ -46138,3 +46138,4 @@ I can then give specific configuration steps.
 
 [1]: https://support.atlassian.com/jira-software-cloud/docs/set-up-issue-types-in-team-managed-projects/?utm_source=chatgpt.com "Set up work types in team-managed spaces | Jira Cloud | Atlassian Support"
 [2]: https://community.atlassian.com/forums/Jira-questions/Hierarchy-posibilites-in-Jira/qaq-p/2669411?utm_source=chatgpt.com "Solved: Hierarchy posibilites in Jira"
+

@@ -37000,3 +37000,806 @@ I can:
 
 Tell me which one you want next.
 
+Absolutely — below is a **comprehensive RACI Hiring Responsibility Matrix** for onboarding all Year-1 roles across the Pamoja Federation ecosystem.
+It shows who is *Responsible*, *Accountable*, *Consulted*, and *Informed* for hiring decisions and onboarding actions — tied to the major hiring phases and organizational domains.
+
+---
+
+# 📊 RACI Hiring Responsibility Matrix — Year 1
+
+## 🧠 RACI Legend
+
+| **R** | Responsible (executes/hired by) |
+| **A** | Accountable (ultimate sign-off) |
+| **C** | Consulted (input/advice) |
+| **I** | Informed (status updates) |
+
+---
+
+## 🏛 NPO Core Team (Foundational Roles)
+
+| Role                               | Responsible | Accountable | Consulted             | Informed                      |
+| ---------------------------------- | ----------- | ----------- | --------------------- | ----------------------------- |
+| Navigator                          | Navigator   | Navigator   | CoS                   | Steering**                    |
+| Chief of Staff                     | CoS         | Navigator   | Program Sequencer     | External Partnerships Lead    |
+| Program Sequencer                  | CoS         | Navigator   | Constraint Squad      | Sequencing Council            |
+| Studio & Venture Liaison           | CoS         | Navigator   | OVCS Steward          | Venture Authorization Council |
+| External Partnerships Lead         | CoS         | Navigator   | Bahari Anchor         | Moyo/Umoya Leads              |
+| Family Systems Lead                | CoS         | Navigator   | Family Estate Steward | Eaton Estate                  |
+| Navigator Operations Administrator | CoS         | Navigator   | —                     | All NPO                       |
+
+---
+
+## ⚙️ Foundation & Governance Anchors
+
+| Role                        | Responsible       | Accountable                   | Consulted            | Informed            |
+| --------------------------- | ----------------- | ----------------------------- | -------------------- | ------------------- |
+| Governance Architect        | CoS               | Navigator                     | Legal Counsel        | Governance Council  |
+| Constraint Squad Core       | Program Sequencer | Sequencing Council            | Systems Auditor      | Core Team           |
+| Sequencing Squad Core       | Program Sequencer | Sequencing Council            | OS Platform Stewards | Constraint Council  |
+| OS Platform Stewards (7)    | Navigator         | Federation Governance Council | CoS                  | Council Secretariat |
+| Legal Counsel               | Navigator         | Federation Governance Council | Governance Architect | All Hires           |
+| Capital Containment Advisor | OVCS Steward      | OVCS Governance Council       | Mande IG             | Governance Council  |
+| Systems Auditor             | DEFES             | Federation Governance Council | Sequencing Council   | All Hiring Leads    |
+
+---
+
+## 🧪 Msingi Program Teams
+
+| Program Team          | Responsible       | Accountable        | Consulted                | Informed           |
+| --------------------- | ----------------- | ------------------ | ------------------------ | ------------------ |
+| Luma Team             | Program Sequencer | Navigator          | Bahari/Moyo Leads        | Sequencing Council |
+| Ndebe Team            | Program Sequencer | Sequencing Council | Songhai Institute        | Councils           |
+| Kano Origination Team | Program Sequencer | Sequencing Council | Studio & Venture Liaison | OVCS               |
+| Zamba Systems Framers | Program Sequencer | Sequencing Council | OS Platform Stewards     | CoS                |
+| Kuzu Readiness        | Program Sequencer | Sequencing Council | Family Systems Lead      | Councils           |
+
+---
+
+## 📜 Councils & Governance Hiring
+
+| Role                          | Responsible           | Accountable                   | Consulted            | Informed       |
+| ----------------------------- | --------------------- | ----------------------------- | -------------------- | -------------- |
+| Governance Council Members    | Governance Architect  | Federation Governance Council | Navigator            | All Teams      |
+| Constraint Council Members    | Constraint Squad Lead | Sequencing Council            | DEFES                | All Teams      |
+| Sequencing & Quality Council  | Sequencing Squad Lead | Sequencing Council            | OS Platform Stewards | All Teams      |
+| Venture Authorization Council | OVCS Steward          | Federation Governance Council | Family Systems Lead  | Studio Liaison |
+
+---
+
+## 🧱 OVCS Studios & Venture Teams
+
+| Group                         | Responsible                | Accountable                   | Consulted            | Informed  |
+| ----------------------------- | -------------------------- | ----------------------------- | -------------------- | --------- |
+| Studio Directors              | Studio & Venture Liaison   | OVCS Steward                  | OS Platform Stewards | Councils  |
+| Studio Ops Leads              | Studio Directors           | Studio Directors              | UME-OS Support       | CoS       |
+| UME-OS Engineers              | Studio Ops Leads           | Studio Directors              | Platform Leads       | Councils  |
+| Venture Core Teams (12)       | Studio Directors           | Venture Authorization Council | Platform Liaisons    | CoS       |
+| Platform Integration Liaisons | External Partnerships Lead | Federation Governance Council | OS Platform Stewards | Navigator |
+
+---
+
+## 🌐 Networks & Ecosystem Roles
+
+| Initiative                      | Responsible                | Accountable                   | Consulted       | Informed       |
+| ------------------------------- | -------------------------- | ----------------------------- | --------------- | -------------- |
+| Bahari Network Engagement Leads | External Partnerships Lead | Navigator                     | Bahari Steering | Councils       |
+| Moyo Collective Facilitators    | Moyo Collective Anchor     | Federation Governance Council | Umoya Society   | Bahari Network |
+| Umoya Society Coordinators      | Umoya Society Lead         | Federation Governance Council | Moyo Collective | Councils       |
+
+---
+
+## 💰 Capital, Finance & Family Systems
+
+| Role                         | Responsible                 | Accountable       | Consulted                | Informed              |
+| ---------------------------- | --------------------------- | ----------------- | ------------------------ | --------------------- |
+| Mande Investment Group Hires | Capital Containment Advisor | Mande IG Council  | Legal Counsel            | Federation Governance |
+| Family Office Directors      | Family Systems Lead         | Eaton Estate Coop | Legal Counsel            | Navigator             |
+| Family Estate Studio Teams   | Family Systems Lead         | Family Office     | Studio & Venture Liaison | Councils              |
+
+---
+
+## 🧠 Deep Projects (Meridian & Mungu)
+
+| Project                   | Responsible            | Accountable           | Consulted            | Informed  |
+| ------------------------- | ---------------------- | --------------------- | -------------------- | --------- |
+| Meridian Core Team        | Meridian Lead          | Federation Governance | OS Platform Stewards | All Hires |
+| LLM + Human Integration   | Meridian Lead          | Federation Governance | Systems Auditor      | Councils  |
+| Mungu Project Researchers | Songhai Institute Lead | Federation Governance | Ndebe Team           | Councils  |
+
+---
+
+## 🛠 Platform Support & Scaling Teams
+
+| Platform            | Responsible   | Accountable           | Consulted         | Informed   |
+| ------------------- | ------------- | --------------------- | ----------------- | ---------- |
+| QALA Team           | Platform Lead | Federation Governance | Studio Liaison    | OS Council |
+| SAMBARA Team        | Platform Lead | Federation Governance | Mande IG          | Councils   |
+| IMEWË Team          | Platform Lead | Federation Governance | Songhai Institute | Councils   |
+| ORU Team            | Platform Lead | Federation Governance | Bahari Lead       | Councils   |
+| NANDI Team          | Platform Lead | Federation Governance | Family Systems    | Councils   |
+| KOGI Team           | Platform Lead | Federation Governance | Moyo/Umoya Leads  | Councils   |
+| UME Runtime Support | Platform Lead | Federation Governance | Studio Directors  | Councils   |
+
+---
+
+## 📈 Reporting & Transparency Teams
+
+| Role                  | Responsible           | Accountable           | Consulted             | Informed  |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------- |
+| Dashboard Analysts    | Reporting Lead        | Federation Governance | DEFES                 | Councils  |
+| Public Portal Writers | Reporting Lead        | Federation Governance | External Partnerships | All       |
+| Metrics Engineers     | Reporting Lead        | Federation Governance | Sequencing Squad      | Councils  |
+| Retrospective Council | Federation Governance | Federation Governance | Sequencing Council    | All Hires |
+
+---
+
+# 📌 Notes on RACI Conventions
+
+1. **Responsible (R)** is the *executor* or the team that actually conducts the hiring process and onboarding.
+2. **Accountable (A)** is the *approver* — the role that must sign off decisions.
+3. **Consulted (C)** are the advisors whose input matters before decisions.
+4. **Informed (I)** are stakeholders who are updated after decisions.
+
+---
+
+# 🧠 RACI PRINCIPLES FOR YOUR CONTEXT
+
+✔ **No role is left without clarity** — every hire has both a *performer* and a *decision owner*.
+
+✔ **Steward roles** (Class B) often *consult*, not direct hire — they shape job profiles and criteria.
+
+✔ **Governance bodies** are created *early* and then *consulted* throughout hiring.
+
+✔ **Direction comes from Navigator → NPO → Councils** — not top-down, but *structured*.
+
+✔ **Many hires scale from R → A over their lifecycle** (e.g., Studio Ops start responsible, later accountable for venture hiring within their studios).
+
+---
+
+## Want Visual or Export Versions?
+
+I can generate this in:
+
+✅ **CSV / Excel**
+✅ **Notion Table**
+✅ **Mermaid Org Chart with RACI annotations**
+✅ **Jira Import w/ RACI custom fields**
+
+Just tell me the format you want next!
+
+What you’re really asking is:
+
+> **“What is the capital anatomy of this ecosystem, how does it move over time, and how do legal entities behave without collapsing governance, ethics, or regeneration?”**
+
+Below is a **canonical capital + entity operating model** that fits **OVCS, Msingi, ZALENDO, Studios, Ventures, and the Federation** without creating loopholes or hidden extraction paths.
+
+This is **not VC cosplay**. It is a **regulated capital metabolism**.
+
+---
+
+# I. FIRST PRINCIPLE (THIS OVERRIDES EVERYTHING)
+
+> **Capital is a participant, not the driver.**
+
+In this ecosystem:
+
+* Capital **does not set direction**
+* Capital **does not override OVCS**
+* Capital **does not bypass ZALENDO**
+* Capital **does not outrank human viability**
+
+Capital moves **through** the Msingi Cycle, not around it.
+
+---
+
+# II. THE THREE DISTINCT LIFECYCLES (DO NOT CONFUSE THEM)
+
+There are **three parallel but coupled cycles**:
+
+```
+1. Initiative / Venture Lifecycle (Msingi)
+2. Capital Lifecycle (Funds, Deals, Offers)
+3. Governance Lifecycle (OVCS, ZALENDO)
+```
+
+None is allowed to shortcut the others.
+
+---
+
+# III. CAPITAL OBJECTS (WHAT EXISTS)
+
+### Capital is represented as **objects**, not blobs of money.
+
+| Object         | Meaning                              |
+| -------------- | ------------------------------------ |
+| **Offer**      | A proposal to deploy capital         |
+| **Deal**       | A structured, conditional commitment |
+| **Fund**       | A pooled, governed capital vehicle   |
+| **Portfolio**  | A collection of active exposures     |
+| **Allocation** | Capital bound to a specific entity   |
+| **Return**     | Value exiting back into circulation  |
+
+Each object has a **cycle**.
+
+---
+
+# IV. OFFER → DEAL → CAPITAL FLOW (DEAL CYCLE)
+
+## 1️⃣ OFFER CYCLE (BEFORE MONEY MOVES)
+
+An **Offer** is a *request*, not permission.
+
+**Offer stages**
+
+1. Draft Offer
+2. OVCS Review (non-economic)
+3. ZALENDO Compatibility Check
+4. Conditional Acceptance
+5. Deal Formation
+
+**Key rule**
+
+> No offer can reference returns without referencing regeneration.
+
+---
+
+## 2️⃣ DEAL CYCLE (WHEN MONEY COMMITS)
+
+A **Deal** is a *contractual metabolism*.
+
+### Deal stages
+
+```
+Offer → Structured Deal → Conditional Activation
+→ Tranche Release → Monitoring → Resolution
+```
+
+**Every deal includes**
+
+* Tranche-based release
+* OVCS pause authority
+* ZALENDO clawback / recycle clauses
+* Authority decay terms
+
+Deals **expire**. They do not linger indefinitely.
+
+---
+
+## 3️⃣ FUND CYCLE (LONGER-RUN CAPITAL)
+
+Funds are **slow, conservative organs**, not hunting machines.
+
+### Fund lifecycle
+
+```
+Fund Formation
+→ Capital Raise
+→ Allocation Windows
+→ Portfolio Monitoring
+→ Recycling / Reallocation
+→ Wind-down
+```
+
+**Important**
+
+* Funds are **finite**
+* Funds have **sunset clauses**
+* Funds must pass **ZALENDO at wind-down**
+
+---
+
+# V. PORTFOLIO & INVESTMENT CYCLES (HOW THINGS AGGREGATE)
+
+## Investment Portfolio Cycle
+
+A **Portfolio** is not just assets — it is **risk + obligation**.
+
+### Portfolio phases
+
+1. Intake (exposure added)
+2. Active Oversight (OVCS + metrics)
+3. Stress / Shock
+4. Pruning (exit, shutdown, salvage)
+5. Renewal (reinvestment or dissolution)
+
+**Portfolio health is governed**, not optimized blindly.
+
+---
+
+## Portfolio Failure Rule
+
+> A portfolio that grows faster than its ability to regenerate is frozen.
+
+---
+
+# VI. HOW OVCS FITS INTO CAPITAL FLOWS
+
+OVCS does **not manage money**.
+
+OVCS manages:
+
+* **permission**
+* **continuity**
+* **shutdown**
+* **regeneration**
+
+### OVCS touchpoints in capital lifecycle
+
+| Stage     | OVCS Role                  |
+| --------- | -------------------------- |
+| Offer     | Authorization              |
+| Deal      | Constraint enforcement     |
+| Tranche   | Release / pause            |
+| Execution | Live monitoring            |
+| Exit      | Regeneration certification |
+| Wind-down | Asset reversion            |
+
+OVCS can:
+
+* block deals
+* freeze tranches
+* force recycling
+* trigger dissolution
+
+OVCS **cannot**:
+
+* demand returns
+* select winners
+* extract value
+
+---
+
+# VII. ENTITY TYPES (THIS IS CRITICAL)
+
+Different “Cos” exist to **separate risk, power, and function**.
+
+Below is the **canonical entity taxonomy** and how each behaves.
+
+---
+
+## 1️⃣ HoldCo (Holding Company)
+
+**Purpose**
+
+* Owns long-lived equity
+* Anchors family / federation continuity
+
+**Rules**
+
+* No operations
+* No hiring
+* No product decisions
+
+Subject to ZALENDO.
+
+---
+
+## 2️⃣ ParentCo
+
+**Purpose**
+
+* Strategic oversight
+* Charter enforcement
+
+**Rules**
+
+* Cannot bypass OVCS
+* Authority decays over time
+
+---
+
+## 3️⃣ OpCo (Operating Company)
+
+**Purpose**
+
+* Day-to-day execution
+* People, payroll, production
+
+**Rules**
+
+* Subject to full Msingi cycle
+* Highest human viability scrutiny
+
+---
+
+## 4️⃣ IPCo (IP Company)
+
+**Purpose**
+
+* Holds IP, licenses it
+* Prevents capture or extraction
+
+**Rules**
+
+* IP reverts on failure
+* Licensed under regeneration terms
+
+---
+
+## 5️⃣ FundCo
+
+**Purpose**
+
+* Capital pooling
+* Deal execution
+
+**Rules**
+
+* No operational control
+* Cannot override OVCS
+
+---
+
+## 6️⃣ ManCo (Management Company)
+
+**Purpose**
+
+* Operates funds or portfolios
+
+**Rules**
+
+* Paid via capped fees
+* Performance ≠ extraction
+
+---
+
+## 7️⃣ PortfolioCo
+
+**Purpose**
+
+* Groups related ventures
+* Enables shared services
+
+**Rules**
+
+* Must pass ZALENDO as a unit
+* Cannot hide failing ventures
+
+---
+
+## 8️⃣ SubsidiaryCo
+
+**Purpose**
+
+* Isolate risk
+* Experiment safely
+
+**Rules**
+
+* Disposable by design
+* Assets salvageable
+
+---
+
+## 9️⃣ IncentiveCo
+
+**Purpose**
+
+* Equity pools
+* Long-term alignment
+
+**Rules**
+
+* Equity decays without contribution
+* Non-transferable without OVCS approval
+
+---
+
+## 🔟 TrustCo / EstateCo
+
+**Purpose**
+
+* Long-term stewardship
+* Intergenerational continuity
+
+**Rules**
+
+* No operational control
+* Regeneration obligation persists
+
+---
+
+# VIII. HOW THIS ALL INTERLOCKS (SINGLE VIEW)
+
+```
+[ Capital Offer ]
+      ↓
+[ Deal Structure ]
+      ↓
+[ FundCo / Allocation ]
+      ↓
+[ Studio ]
+      ↓
+[ Venture OpCo ]
+      ↓
+[ IPCo / Platform ]
+      ↓
+[ Returns / Learnings / Assets ]
+      ↓
+[ ZALENDO ]
+      ↓
+[ Reinvestment or Dissolution ]
+```
+
+OVCS sits **above and across**, not inside.
+
+---
+
+# IX. WHY THIS DOESN’T COLLAPSE
+
+Because:
+
+* Power is separated
+* Authority decays
+* Capital is slow
+* Humans are protected
+* Failure is expected
+* Regeneration is mandatory
+
+This is how you run **many ventures, many funds, many cycles** without:
+
+* founder tyranny
+* capital capture
+* moral rot
+* silent collapse
+
+---
+
+# X. THE HARD TRUTH
+
+This model:
+
+* will repel fast money
+* will confuse traditional VCs
+* will look “inefficient”
+
+But it **compounds trust**, which is the only scarce asset at scale.
+
+---
+
+## NEXT (IF YOU WANT)
+
+I can:
+
+* Draw a **capital + entity system diagram**
+* Create **sample legal stacks per venture**
+* Simulate **a fund over 15 years**
+* Draft **deal templates aligned to OVCS**
+* Show **how Eaton Family Office fits cleanly**
+
+Say the next cut.
+
+Below is a **clean, canonical ASCII system diagram** that shows:
+
+* **Capital flow**
+* **Entity taxonomy (HoldCo, OpCo, FundCo, etc.)**
+* **OVCS governance overlay**
+* **Studios & Ventures**
+* **Where the Eaton Family Office(s) and your NPO sit — without capture**
+
+I’ll give you **three stacked diagrams**, from macro → operational → control logic.
+
+---
+
+# 1️⃣ MACRO VIEW — CAPITAL × GOVERNANCE × PRODUCTION
+
+```
+                         ┌──────────────────────────┐
+                         │        OVCS AUTHORITY    │
+                         │  (Authorization + Kill) │
+                         │  Msingi I–VI + ZALENDO  │
+                         └───────────┬─────────────┘
+                                     │
+         ┌───────────────────────────┼───────────────────────────┐
+         │                           │                           │
+         ▼                           ▼                           ▼
+
+ ┌───────────────┐           ┌───────────────┐           ┌───────────────┐
+ │  Eaton Family │           │   Fund Layer  │           │  Federation   │
+ │  Estate /    │           │ (FundCos)     │           │ (Pamoja)      │
+ │  TrustCos    │           │               │           │               │
+ └──────┬────────┘           └──────┬────────┘           └──────┬────────┘
+        │                             │                             │
+        ▼                             ▼                             ▼
+
+ ┌───────────────┐           ┌───────────────┐           ┌───────────────┐
+ │   HoldCo /    │           │    ManCo      │           │ Shared Commons│
+ │   ParentCo   │           │ (Fee-Capped)  │           │ Talent / IP   │
+ └──────┬────────┘           └──────┬────────┘           └──────┬────────┘
+        │                             │                             │
+        └──────────────┬──────────────┴──────────────┬──────────────┘
+                       ▼                               ▼
+
+                ┌──────────────────────────┐
+                │        KUMBA             │
+                │   MetaFactory (Studios) │
+                └───────────┬─────────────┘
+                            │
+                            ▼
+
+                ┌──────────────────────────┐
+                │        STUDIOS            │
+                │ (Authorized by OVCS)     │
+                └───────────┬─────────────┘
+                            │
+                            ▼
+
+                ┌──────────────────────────┐
+                │        VENTURES           │
+                │ OpCo / IPCo / Platform   │
+                └───────────┬─────────────┘
+                            │
+                            ▼
+
+                ┌──────────────────────────┐
+                │    ZALENDO RECYCLING      │
+                │ Assets • People • Capital│
+                └───────────┬─────────────┘
+                            │
+                            └──────────► back to intake (LUMA)
+```
+
+**Key insight:**
+Capital, production, and governance are **separate verticals**, coupled only through **OVCS authorization** and **ZALENDO regeneration**.
+
+---
+
+# 2️⃣ ENTITY STACK — HOW DIFFERENT “COS” INTERACT
+
+```
+        ┌────────────────────────────────────────┐
+        │            TrustCo / EstateCo          │
+        │   (Long-term stewardship, no ops)     │
+        └───────────────┬────────────────────────┘
+                        │ owns
+        ┌───────────────▼────────────────────────┐
+        │               HoldCo                   │
+        │ (Equity holder, no execution power)   │
+        └───────────────┬────────────────────────┘
+                        │ charters
+        ┌───────────────▼────────────────────────┐
+        │              ParentCo                  │
+        │ (Strategy + boundary enforcement)     │
+        └───────────────┬────────────────────────┘
+                        │
+     ┌──────────────────┼──────────────────┐
+     ▼                  ▼                  ▼
+
+┌───────────────┐ ┌───────────────┐ ┌───────────────┐
+│   FundCo      │ │   PortfolioCo │ │   IncentiveCo │
+│ (Capital pool)│ │ (Grouped ops) │ │ (Alignment)   │
+└──────┬────────┘ └──────┬────────┘ └──────┬────────┘
+       │ allocations     │ shared services  │ equity pools
+       ▼                  ▼                  ▼
+
+┌───────────────┐ ┌───────────────┐ ┌───────────────┐
+│    Studio     │ │    OpCo       │ │    IPCo       │
+│ (Factory)     │ │ (Execution)   │ │ (IP holding)  │
+└──────┬────────┘ └──────┬────────┘ └──────┬────────┘
+       │                 │                 │
+       ▼                 ▼                 ▼
+
+┌──────────────────────────────────────────────┐
+│              SubsidiaryCos                   │
+│ (Risk isolation, disposable by design)      │
+└──────────────────────────────────────────────┘
+```
+
+**Rules enforced by OVCS:**
+
+* No upward control flow from OpCo → HoldCo
+* No capital coercion from FundCo → Studio
+* IPCo licenses, never dominates
+* Subsidiaries die cleanly
+
+---
+
+# 3️⃣ WHERE **NPO (NAVIGATOR PERSONAL OFFICE)** FITS
+
+This is crucial: **your office must not become a shadow government**.
+
+```
+                  ┌─────────────────────────┐
+                  │     OVCS (External)     │
+                  │  Can stop the Navigator│
+                  └───────────┬─────────────┘
+                              │
+                              ▼
+
+        ┌────────────────────────────────────────┐
+        │      NAVIGATOR PERSONAL OFFICE (NPO)   │
+        │  Coordination • Sensemaking • Routing │
+        │  NO unilateral authority              │
+        └───────────┬─────────────┬─────────────┘
+                    │             │
+        informs      │             │ interfaces
+                    ▼             ▼
+
+┌─────────────────────────┐  ┌─────────────────────────┐
+│ Eaton Family Office(s)  │  │    KUMBA / Studios       │
+│ (Capital stewardship)  │  │ (Execution factories)   │
+└───────────┬─────────────┘  └───────────┬─────────────┘
+            │ allocations                  │ venture build
+            ▼                              ▼
+
+       ┌───────────────┐            ┌───────────────┐
+       │   FundCos     │            │   Ventures    │
+       └───────────────┘            └───────────────┘
+```
+
+### 🔒 HARD CONSTRAINTS ON NPO
+
+* NPO **cannot authorize**
+* NPO **cannot allocate capital**
+* NPO **cannot override OVCS**
+* NPO **cannot force studios or ventures**
+
+### ✅ WHAT NPO *CAN* DO
+
+* Coordinate across entities
+* Maintain global schedules
+* Surface contradictions
+* Trigger OVCS reviews
+* Route capital *requests* (not approvals)
+* Act as human integration layer
+
+> **NPO is the nervous system — not the brain, not the muscle, not the immune system.**
+
+---
+
+# 4️⃣ CLEAN CAPITAL FLOW WITH FAMILY OFFICE INCLUDED
+
+```
+Eaton Trust / Estate
+        ↓
+   Family HoldCo
+        ↓
+   Family FundCo
+        ↓        (via OVCS-approved Offers & Deals)
+   Allocation Tranches
+        ↓
+      Studios
+        ↓
+      Ventures (OpCo / IPCo)
+        ↓
+ Returns / Assets / Learnings
+        ↓
+     ZALENDO
+        ↓
+ Reinvestment OR Wind-down
+```
+
+At no point does:
+
+* the family office dictate venture ops
+* the founder dictate capital
+* capital dictate governance
+
+---
+
+# 5️⃣ WHY THIS HOLDS TOGETHER
+
+Because:
+
+* **Authority is vertical**
+* **Capital is conditional**
+* **Operations are isolated**
+* **Failure is composted**
+* **You are structurally stoppable**
+
+That is the rare property here.
+
+---
+
+## NEXT (IF YOU WANT)
+
+I can:
+
+* Produce **legal entity diagrams per venture**
+* Draft **Family Office investment policy aligned to OVCS**
+* Show **multi-family office federation compatibility**
+* Simulate **capital shock scenarios**
+* Generate **regulator-facing explanations**
+
+Say the next layer.

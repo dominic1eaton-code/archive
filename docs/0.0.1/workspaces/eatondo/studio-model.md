@@ -1391,7 +1391,7 @@
                 - new studio formation from existing studios
             - liquidator studio
                 - studio dissolution
-        - studio sustainability, maintainability, reliability, scalability, availability, dependencies, (ease of, pain of) adoption, friction(lesness) + simplicity + turnkey solutions + stickyness
+        - studio sustainability, maintainability, reliability, scalability, sustainability, renewability, reliability, availability, dependencies, (ease of, pain of) adoption, friction(lesness) + simplicity + turnkey solutions + stickyness
             - studio rapid design, prototyping, mockups
             - studio buyer, builder, broker model
             - studio model economies of scale

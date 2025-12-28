@@ -30799,6 +30799,10 @@ Just tell me the next move.
 
 
 
+
+
+
+
 nandi
 niguvu
 dogon
@@ -30813,7 +30817,7 @@ san
 batwa
 
 
-give me a complete narrative now for the kumba metafactory franchise, HQ, franchise factories/instatations/entites and associated studios/ventures/platforms+solutions+etc.... please deliver in a series of 5 messages, covering how it creates/ideates/conceptualizes/designs/funds/resources/staffs/develops/maintains/deploys/distributes/lifecycle manages/etc. its core enterprise within your OVCS + Kumba + Pamoja Federation ecosystem, bahari network, umoya society, moyo collective, ubunye engineering group (DESEF), msingi cycle and 6 programs, Eaton Family Estate ESE and offices, my, navigator personal office NPO, and interactions with other 11 ventures and all the 7 platforms and how the OS solution platforms are lifecycled managed and implemented, and include the studio, Cos, studio types+classes, coop models and classes, legal entites, interactions with studio program[s|ming] (accelerator program, incubator program, rehab program, renovation program, liquidation program, etc...) and studio spaces (studio office(s), lab/creator-space, makerspace, fablab, techshop, IDEA lab, hackerspace, etc...), Produce entity diagrams, Generate SBU-level P&L logic, Map staffing & headcount, coop equity/finance/revenue/costs breakdowns, nation scale adoption, sustanability-renewability-reusability-recycling-ESG-CSR
+give me a complete narrative now for the ubunye engineering group (formally DESEF dominic eaton systems engineering firm). please deliver in a series of 5 messages, covering how it creates/ideates/conceptualizes/designs/funds/resources/staffs/develops/maintains/deploys/distributes/lifecycle manages/etc. its core enterprise within your OVCS + Kumba + Pamoja Federation ecosystem, bahari network, umoya society, moyo collective, ubunye engineering group (DESEF), msingi cycle and 6 programs, Eaton Family Estate ESE and offices, my, navigator personal office NPO, and interactions with other 11 ventures and all the 7 platforms and how the OS solution platforms are lifecycled managed and implemented, and include the studio, Cos, studio types+classes, coop models and classes, legal entites, interactions with studio program[s|ming] (accelerator program, incubator program, rehab program, renovation program, liquidation program, etc...) and studio spaces (studio office(s), lab/creator-space, makerspace, fablab, techshop, IDEA lab, hackerspace, etc...), Produce entity diagrams, Generate SBU-level P&L logic, Map staffing & headcount, coop equity/finance/revenue/costs breakdowns, nation scale adoption, sustanability-renewability-reusability-recycling-ESG-CSR
 
 
 

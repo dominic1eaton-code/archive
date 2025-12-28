@@ -45803,3 +45803,338 @@ If you want, I can generate a **step-by-step field mapping guide with screenshot
 [1]: https://support.atlassian.com/jira/kb/how-to-import-issue-links-from-a-csv-file-in-jira/?utm_source=chatgpt.com "How to import issue links from a CSV file in Jira | Jira and Jira Service Management | Atlassian Support"
 [2]: https://support.atlassian.com/jira/kb/keep-issue-parent-child-mapping-during-csv-import-to-jira-cloud/?utm_source=chatgpt.com "Keep work parent-child relationships during CSV import to Jira Cloud | Jira and Jira Service Management | Atlassian Support"
 [3]: https://support.atlassian.com/jira-software-cloud/docs/mapping-csv-data-to-jira-fields/?utm_source=chatgpt.com "Map CSV data to Jira fields | Jira Cloud | Atlassian Support"
+Here’s the precise explanation of **why you *can’t* map both “Blocks” and “Is Blocked By” directly in Jira CSV import** — and what alternatives you can use to solve it cleanly.
+
+---
+
+## 📌 Why You Can’t Map Both “Blocks” and “Is Blocked By”
+
+When importing issue dependencies via CSV into Jira:
+
+### 🔹 Jira **only supports a single *outward link description*** on import
+
+* It does **not let you map both directions** („Blocks“ *and* „Is Blocked By“) simultaneously.
+* The importer treats link values as **outward descriptions only**, and you pick one link type during the mapping step in the wizard.
+* This limitation applies to **Jira Cloud and Server**; it’s a known limitation with requests to improve it still open. ([Atlassian Support][1])
+
+In other words:
+**Jira’s CSV importer cannot interpret two separate dependency fields at the same time** — it only uses one outward dependency relation per import field.
+
+---
+
+## ✅ What This Means in Practice
+
+You *cannot* have both:
+
+```
+Issue Links: “Blocks”
+Issue Links: “Is Blocked By”
+```
+
+in the same CSV and map them separately.
+
+Even if the importer shows both names, it **must choose one outward relationship to create**. ([Atlassian Support][2])
+
+---
+
+## 🛠 Practical Options & Workarounds
+
+### ✔ **Use a Single Direction Field**
+
+Choose just one outward relation to import, e.g.:
+
+```
+Issue Links: Blocks
+```
+
+Then define all dependencies uniformly in that direction.
+For example, if Task B is blocked by Task A, in your CSV row for A you write:
+
+```
+Issue Links: Blocks = B
+```
+
+This creates:
+
+* A → blocks → B
+* Automatically implies (in Jira UI) that B is “blocked by” A.
+
+So *both sides* will exist logically even though only one field was mapped. ([Atlassian Support][1])
+
+---
+
+### ✔ **Multiple Linked Issues in One Column**
+
+If one issue blocks multiple others, you can list multiple IDs in one column — Jira will create multiple links for the same outward type. ([Atlassian Support][1])
+
+Example:
+
+```
+Issue Links: Blocks
+A-100, B-200; C-300
+```
+
+This results in:
+
+* A-100 → blocks → B-200
+* A-100 → blocks → C-300
+
+---
+
+### ✔ **Import First, Then Use Automation**
+
+If you *really need both inward and outward expressions* explicitly:
+
+1. Import with outward links only (Blocks)
+2. Use **Jira Automation rules** or **Bulk Link creation** later to reflect reverse links (`Is Blocked By`) manually
+   (e.g., when a “blocks” link exists, automatically create a corresponding “is blocked by” link or set a custom field/label)
+
+Automation example:
+
+```
+WHEN Issue Linked, Link Type = Blocks
+THEN Create Linked Issue with Link Type = Is Blocked By
+```
+
+This fully reflects bidirectional dependencies.
+
+---
+
+### ✔ **Add a Custom Field for Dependency Reference**
+
+If you *must* record both concepts in the imported data itself — e.g., for reporting — use a **custom text or user picker field** like:
+
+```
+Blocked By
+Dependency IDs
+```
+
+This won’t create Jira *issue links*, but will preserve the upstream blocker references for later automation processing.
+
+---
+
+### ✔ **Two-Step Import (Advanced)**
+
+For Data Center or with admin access:
+
+1. **Import issues first** (no links)
+2. **Run a second CSV import** that only imports issue links, mapping one outward field (e.g., Blocks)
+   *This applies only if you can import issue links separately.* ([Atlassian Support][1])
+
+---
+
+## 📌 Summary of Correct Practice
+
+| Desired Dependency                | How to Import                                     |
+| --------------------------------- | ------------------------------------------------- |
+| Issue A **blocks** Issue B        | `Issue Links: Blocks` = B                         |
+| Issue B **is blocked by** Issue A | Still use `Issue Links: Blocks` on A’s row        |
+| Multiple blockers                 | List multiple issue keys in **one Blocks column** |
+| Bidirectional *explicit* links    | Use Jira Automation after import                  |
+
+---
+
+## 🧠 Why This Matters
+
+Mapping both fields directly *doesn’t work* because Jira’s importer uses **only one outward link type** during an import session. ([Atlassian Community][3])
+
+But with the approaches above, you *still capture the logic* and your Jira board will reflect true blockages correctly.
+
+---
+
+## 🛠 Recommendations for Your CSV Import
+
+✔ Drop the `Issue Links: Is Blocked By` column
+✔ Keep only:
+
+```
+Issue Links: Blocks
+```
+
+✔ In your CSV, for each story that is blocked by another issue, list that blocking issue’s ID in the *Blocks* column of the blocking issue’s row
+
+Example row:
+
+```
+S-1046,Story,...,Blocks = S-1045
+```
+
+Then Jira creates the link and automatically shows the inverse in the UI.
+
+---
+
+If you want, I can revise your **entire Jira CSV** to only use one link field (`Blocks`) and reflect all your dependency logic correctly. Just say:
+✅ *“Regenerate the Jira CSV with only Blocks links”*
+
+[1]: https://support.atlassian.com/jira/kb/how-to-import-issue-links-from-a-csv-file-in-jira/?utm_source=chatgpt.com "How to import issue links from a CSV file in Jira | Jira and Jira Service Management | Atlassian Support"
+[2]: https://support.atlassian.com/jira-software-cloud/docs/mapping-csv-data-to-jira-fields/?utm_source=chatgpt.com "Map CSV data to Jira fields | Jira Cloud | Atlassian Support"
+[3]: https://community.atlassian.com/forums/Jira-questions/Jira-Issues-Import-Blocks-is-the-same-as-Blocked-By/qaq-p/2431876?utm_source=chatgpt.com "Solved: Jira Issues Import Blocks is the same as Blocked B..."
+
+Got it — you’re seeing that **“Epic”, “Story”, and “Task” aren’t being accepted as work item types in your Jira**. That’s almost always because you’re in a **Team-Managed (formerly “Next-Gen”) project** and the project’s ***Work Types*** are different from Jira’s default issue types. ([Atlassian Support][1])
+
+Here’s what’s going on and how to fix it.
+
+---
+
+# 🧩 What “Work Types” Are in Jira
+
+In **Team-Managed software projects**, Jira uses a simplified concept called **Work Types** instead of the traditional issue types. These define the *work categories your board understands*. ([Atlassian Support][1])
+
+By default, a Team-Managed project may only include a limited set of work types (for example):
+
+* **Story** (in Scrum template)
+* **Task** (in Kanban template)
+
+This means:
+
+❌ If your CSV has **Epic** but the Jira project doesn’t have the **Epic** work type defined — Jira rejects it.
+❌ Same for other custom issue names too.
+
+**You must make sure your project’s Work Types include the types you intend to import.** ([Atlassian Support][1])
+
+---
+
+# 🛠 How to Fix It
+
+## ✅ Option A — Add the Missing Work Types to Your Team-Managed Space
+
+1. In your Jira project sidebar, click **⋯ (More options)**
+2. Choose **Space settings** (or *Project settings* in older UI)
+3. Go to **Work types**
+4. Use **+ Add work type**
+5. Add these *suggested* types:
+
+✔ **Epic**
+✔ **Story**
+✔ **Task**
+✔ **Sub-task** (optional)
+✔ **Bug** (optional)
+
+Now your CSV import will have valid work types to map to. ([Atlassian Support][1])
+
+📌 You can add up to **30 work types** in team-managed projects. ([Atlassian Support][1])
+
+---
+
+## ✅ Option B — Use the Existing Work Types Only
+
+If you prefer **not to add types**, you must map *your import CSV to exactly the work types that exist* in that project.
+
+For example, if your Work Types currently are:
+
+```
+Story
+Task
+Sub-task
+```
+
+Then your CSV must use only those values right in the **Issue Type** column.
+
+That means:
+
+| Original Term     | Must Replace With          |
+| ----------------- | -------------------------- |
+| Theme             | Story or Task (choose one) |
+| Package           | Story or Task              |
+| Initiative        | Story or Task              |
+| Epic (as concept) | Story or Task              |
+| Story             | Story                      |
+| Sub-task          | Sub-task (if enabled)      |
+
+⚠️ You *lose the structural hierarchy* in import, but it becomes valid. Then you can use **Labels** and **Custom Fields** to preserve semantic type, e.g., `type=theme`, `type=initiative`, etc. — and then use those for filtering and board swimlanes.
+
+---
+
+# 📌 Why This Happens
+
+### **Team-Managed Projects do not include all default Jira issue types**
+
+Unlike Company-Managed projects (formerly “Classic projects”), Team-Managed lets you customize Work Types per space. If the type isn’t present, Jira simply says *it’s invalid*. ([Atlassian Support][1])
+
+For example:
+
+> By default, team-managed software spaces come with only **Epic / Bug / Story / Task / Sub-task** work types … but your board might have been created with **only a subset** of these. ([Atlassian Support][1])
+
+In *some templates* (like a Board created with Scrum), the defaults might be just **Epic + Story**. In others (like Kanban) it might be just **Task**. You can fix that by adding the missing types.
+
+---
+
+# 🧠 Hierarchy in Jira Work Types
+
+Even when imported correctly, Jira **only supports one hierarchy out-of-the-box**:
+
+```
+Epic
+  ↳ Story / Task / Bug
+     ↳ Sub-task
+```
+
+You can’t get multi-level nesting like “Initiative → Epic → Story → Subtask” natively without **Advanced Roadmaps / Hierarchy plugins**. ([Atlassian Community][2])
+
+---
+
+# 🧩 Work Types Summary
+
+Here’s what Jira *expects*:
+
+### Software Projects (default)
+
+| Work Type    | Role                        |
+| ------------ | --------------------------- |
+| **Epic**     | High-level container        |
+| **Story**    | Feature/development work    |
+| **Task**     | Generic work item           |
+| **Bug**      | Defect fix work             |
+| **Sub-task** | Child work under Story/Task |
+
+These are valid **out of the box** in most Software team-managed projects *if they have been added to the Work Types list*. ([Atlassian Support][1])
+
+---
+
+## 🧠 Practical import mapping for you
+
+Since you want to import a roadmap with mapping like:
+
+* Themes
+* Packages
+* Initiatives
+* Epics
+* Stories
+
+You might want to map:
+
+| Original Concept     | Jira Work Type        | Label for semantic clarity |
+| -------------------- | --------------------- | -------------------------- |
+| Theme                | **Epic**              | `meta-theme`               |
+| Package              | **Story**             | `meta-package`             |
+| Initiative           | **Story** or **Task** | `meta-initiative`          |
+| Epic (roadmap level) | **Epic** (if added)   | `meta-epic`                |
+| Story (work item)    | **Story**             | `meta-story`               |
+
+Then use **Labels** or a **custom select field** to store its original meaning.
+
+---
+
+## 🧠 How to Add Work Types (Visual)
+
+1. Open your Team-Managed project
+2. Click **•••** (More) in the sidebar
+3. Choose **Space settings**
+4. Click **Work types**
+5. Press **+ Add work type**
+6. Choose the work type you need
+7. Save — now it’s available for import and boards
+
+*(This matches the guidance for team-managed projects from Atlassian Support.)* ([Atlassian Support][1])
+
+---
+
+If you want, tell me:
+
+📌 Are you using **Team-Managed** or **Company-Managed** Jira?
+📌 Do you want to customize a **hierarchy beyond the default** (e.g., Initiative above Epic)?
+
+I can then give specific configuration steps.
+
+[1]: https://support.atlassian.com/jira-software-cloud/docs/set-up-issue-types-in-team-managed-projects/?utm_source=chatgpt.com "Set up work types in team-managed spaces | Jira Cloud | Atlassian Support"
+[2]: https://community.atlassian.com/forums/Jira-questions/Hierarchy-posibilites-in-Jira/qaq-p/2669411?utm_source=chatgpt.com "Solved: Hierarchy posibilites in Jira"

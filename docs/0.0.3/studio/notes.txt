@@ -26,12 +26,14 @@ S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 also add columns for member and team that handles/steward/"owns" each item and generate appropriate members and teams too (and be sure to include me, my first 8 hires and 5 stewards as well)
 
 and i would like members/teams and new/future generated members and teams to also have names that match their function/role/job/position too
-s
+
+can you make the table whole, not in parts, still organized according to WBS and sub breakdown structures and also make sure it has the headers of ID, name, type, brief, start, dur at least
+
 
 I would like all the WBSs that allow for this entire cycle to be booted up, live and minimal viably staffed within year 1:
 ashe cycle:
     coops, coop classes, coop members
-        boards, councils, members, partners, stewards
+        boards, councils, members, partners, stewards, committees
         | Class       | Core Identity                          |
         | ----------- | -------------------------------------- |
         | **Class A** | Worker-Members (Hires / Operators)     |

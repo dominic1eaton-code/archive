@@ -7518,3 +7518,1511 @@ This is the **minimum viable institutional nervous system**.
 4. **Federation + first-venture pre-seed WBS**
 
 Tell me which one is **Message 2**, and I’ll generate it whole, clean, and consistent with this table.
+
+Perfect — this is the final tightening that turns this from a *plan* into a **living institution**.
+
+Below is a **re-issued, canonical Year-1 NPO WBS table** where:
+
+* ✅ **Every Member has a functional name** (role-encoded, human-assignable)
+* ✅ **Every Team has a named container** that matches its purpose
+* ✅ Future hires are **pre-named roles**, not placeholders
+* ✅ Naming is consistent, extensible, and legible in legal, PM, and HR systems
+* ✅ You (Founder / Navigator), 5 Stewards, and 8 Hires are explicitly represented
+
+I’ll first define the **naming system**, then give you the **full table**.
+
+---
+
+## 1. MEMBER & TEAM NAMING SYSTEM (CANONICAL)
+
+### Member Naming Convention
+
+```
+[Role Name] — [Authority Class]
+```
+
+Examples:
+
+* **Navigator / Founder — Class E**
+* **OVCS Constraint Guardian — Class C**
+* **Program Sequencer (Msingi Officer) — Class A**
+
+This allows:
+
+* assignment before hiring
+* clean substitution
+* legal clarity
+
+---
+
+### Team Naming Convention
+
+```
+[Function] + [Structural Type]
+```
+
+Examples:
+
+* **Founder Line**
+* **Governance Design Domain**
+* **Operations Execution Squad**
+* **System Integrity Guild**
+* **Conceptual Red Team (Tiger)**
+* **Office Core Tribe**
+
+---
+
+## 2. CANONICAL MEMBERS (YEAR 1)
+
+### Founder
+
+* **Navigator / Founder — Class E** (you)
+
+### Stewards (5)
+
+1. **OVCS Constraint Guardian — Class C**
+2. **Systemics Co-Thinker — Class B**
+3. **Human Viability Guardian — Class D**
+4. **Governance & Legal Architect — Class B**
+5. **Operations Realist — Class A**
+
+### First 8 Hires (Class A)
+
+1. **Chief of Staff**
+2. **Program Sequencer (Msingi Officer)**
+3. **Operations & Administration Lead**
+4. **Financial Controller**
+5. **Technical Architect / Platform Steward**
+6. **OVCS Liaison / Governance Secretary**
+7. **Communications & External Interface Lead**
+8. **Executive Assistant**
+
+---
+
+## 3. YEAR-1 NPO WBS — SINGLE TABLE
+
+### (WITH FUNCTIONAL MEMBER + TEAM NAMES)
+
+> **Entity:** Dominic Eaton Software Engineering Firm (NPO)
+
+| ID         | Name                            | Type          | Brief                                         | Start    | Dur  | **Member (Named Role)**          | **Team (Named Container)**  |
+| ---------- | ------------------------------- | ------------- | --------------------------------------------- | -------- | ---- | -------------------------------- | --------------------------- |
+| **W-1000** | Personal Office Bootstrap       | strategy      | Establish bounded, governable personal office | Y1-Q1    | 12mo | **Navigator / Founder — E**      | **Office Core Tribe**       |
+| P-1100     | Legal & Structural Formation    | plan          | Create legal existence & boundaries           | Y1-Q1-W1 | 3w   | Navigator / Founder — E          | Founder Line                |
+| TH-1110    | Legal Identity & Boundary       | tactic        | Separate person, office, estate               | Y1-Q1-W1 | 3w   | Governance & Legal Architect — B | Governance Design Domain    |
+| I-1111     | Entity Formation                | milestone     | Incorporate NPO                               | Y1-Q1-W1 | 1w   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| E-11111    | Incorporation & Compliance      | milestone     | File and validate entity                      | Y1-Q1-W1 | 1w   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| S-111111   | Select jurisdiction & form      | requirement   | Choose entity type                            | Y1-Q1-W1 | 1d   | Navigator / Founder — E          | Founder Line                |
+| S-111112   | Draft operating agreement       | documentation | Encode purpose & limits                       | Y1-Q1-W1 | 3d   | Governance & Legal Architect — B | Governance Design Domain    |
+| S-111113   | File incorporation              | case          | Legal filing                                  | Y1-Q1-W1 | 1d   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| S-111114   | Obtain EIN / tax IDs            | requirement   | Enable operations                             | Y1-Q1-W1 | 1d   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| S-111115   | Verify legal existence          | test          | Confirm standing                              | Y1-Q1-W1 | 1d   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| I-1112     | Banking & Insurance             | milestone     | Financial backbone                            | Y1-Q1-W2 | 1w   | Financial Controller — A         | Financial Controls Chapter  |
+| S-111211   | Open bank account               | requirement   | Operating funds                               | Y1-Q1-W2 | 1d   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| S-111212   | Setup accounting system         | capability    | Track burn                                    | Y1-Q1-W2 | 2d   | Financial Controller — A         | Financial Controls Chapter  |
+| S-111213   | Setup payroll                   | requirement   | Pay founder                                   | Y1-Q1-W2 | 1d   | Financial Controller — A         | Financial Controls Chapter  |
+| S-111214   | Acquire insurance               | risk          | Liability protection                          | Y1-Q1-W2 | 2d   | Operations & Admin Lead — A      | Operations Execution Squad  |
+| S-111215   | Payroll dry run                 | test          | Verify flow                                   | Y1-Q1-W2 | 1d   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| P-1200     | Authority & Constraint Encoding | plan          | System can stop founder                       | Y1-Q1-W2 | 4w   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| TH-1210    | Founder Boundary Layer          | tactic        | Encode limits                                 | Y1-Q1-W2 | 2w   | Governance & Legal Architect — B | Governance Design Domain    |
+| I-1211     | NPO Charter                     | milestone     | Purpose & prohibitions                        | Y1-Q1-W2 | 1w   | Governance & Legal Architect — B | Governance Design Domain    |
+| S-121111   | Draft charter text              | documentation | Scope & authority                             | Y1-Q1-W2 | 3d   | Governance & Legal Architect — B | Governance Design Domain    |
+| S-121112   | Encode prohibitions             | requirement   | No capital, no governance                     | Y1-Q1-W2 | 2d   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| S-121113   | Conceptual critique             | assessment    | Find blind spots                              | Y1-Q1-W3 | 1d   | Systemics Co-Thinker — B         | Conceptual Red Team (Tiger) |
+| S-121114   | Ratify charter                  | release       | Lock document                                 | Y1-Q1-W3 | 1d   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| I-1212     | Conflict & Firewall Policy      | milestone     | Prevent contamination                         | Y1-Q1-W3 | 1w   | Governance & Legal Architect — B | Governance Design Domain    |
+| S-121213   | Overreach simulation            | assessment    | Stress test harm                              | Y1-Q1-W3 | 2d   | Human Viability Guardian — D     | Human Safety Guild          |
+| P-1300     | Steward Nucleus Activation      | plan          | Install independent brakes                    | Y1-Q1-W4 | 4w   | Navigator / Founder — E          | Office Core Tribe           |
+| I-1311     | OVCS Anchor Installed           | milestone     | Governance brake                              | Y1-Q1-W4 | 3d   | OVCS Constraint Guardian — C     | System Integrity Guild      |
+| I-1312     | Systemics Steward Installed     | milestone     | Conceptual integrity                          | Y1-Q1-W5 | 3d   | Systemics Co-Thinker — B         | Conceptual Red Team (Tiger) |
+| I-1313     | Human Viability Steward         | milestone     | Prevent hidden harm                           | Y1-Q1-W6 | 3d   | Human Viability Guardian — D     | Human Safety Guild          |
+| I-1314     | Governance Architect Installed  | milestone     | Rules that bite                               | Y1-Q1-W7 | 4d   | Governance & Legal Architect — B | Governance Design Domain    |
+| I-1315     | Operations Realist Installed    | milestone     | Ground truth                                  | Y1-Q1-W8 | 4d   | Operations Realist — A           | Operations Execution Squad  |
+| P-1400     | Core Staff Spine                | plan          | Make office operable                          | Y1-Q2    | 6mo  | Chief of Staff — A               | Office Operations Line      |
+| I-1411     | Chief of Staff                  | milestone     | Integrator & shield                           | Y1-Q2-M1 | 1mo  | Chief of Staff — A               | Office Operations Line      |
+| I-1412     | Program Sequencer               | milestone     | Enforce Msingi                                | Y1-Q2-M2 | 1mo  | Program Sequencer — A            | Msingi Sequencing Domain    |
+| I-1413     | Ops/Admin Lead                  | milestone     | Daily operations                              | Y1-Q2-M3 | 1mo  | Operations & Admin Lead — A      | Operations Execution Squad  |
+| I-1414     | Financial Controller            | milestone     | Burn discipline                               | Y1-Q2-M3 | 1mo  | Financial Controller — A         | Financial Controls Chapter  |
+| I-1415     | Technical Architect             | milestone     | Platform coherence                            | Y1-Q3-M1 | 1mo  | Technical Architect — A          | Platform Integrity Guild    |
+| I-1416     | OVCS Liaison                    | milestone     | Authority interface                           | Y1-Q3-M2 | 1mo  | OVCS Liaison — A                 | Governance Interface Domain |
+| I-1417     | Communications Lead             | milestone     | Narrative firewall                            | Y1-Q3-M3 | 1mo  | Communications Lead — A          | External Interface Squad    |
+| I-1418     | Executive Assistant             | milestone     | Cognitive protection                          | Y1-Q4-M1 | 1mo  | Executive Assistant — A          | Founder Support Line        |
+
+---
+
+## 4. WHY THIS VERSION IS “FINAL-FORM READY”
+
+* You can now:
+
+  * assign **real names later without changing structure**
+  * register teams in HR / legal docs
+  * mirror this in Jira / Linear / Notion
+* Authority is visible **without org charts**
+* No role exists without a **container**
+* No container exists without a **purpose**
+
+---
+
+### Next (continuing the 10-message series)
+
+For **Message 2 of 10**, I recommend one of these (in the *same table format*):
+
+1. **Full Msingi Cycle WBS (Kano–Luma)**
+2. **Ubuntuwa Commons Year-1 minimal viable activation**
+3. **OVCS + Studio authorization pipeline**
+4. **Federation + first venture pre-seed boot**
+
+Tell me which one is next, and I’ll generate it whole and consistent with this system.
+
+Excellent.
+Below is **Message 2 of 10**.
+
+This is the **FULL, CANONICAL YEAR-1 WBS FOR THE MSINGI CYCLE (Kano → Luma)**, expressed **as a single, unified table**, fully compatible with:
+
+* your **NPO (Dominic Eaton Software Engineering Firm)**
+* OVCS constraint logic
+* Ubuntuwa / Federation activation later
+* real-world PM, legal, and audit systems
+
+This WBS assumes:
+
+* **The NPO does not build ventures**
+* It **sequences, authorizes, evaluates, and exits**
+* Msingi is a **temporal + epistemic engine**, not an incubator
+
+---
+
+# MSINGI CYCLE — YEAR 1 WBS (AUTHORITATIVE)
+
+> **Entity:** Dominic Eaton Software Engineering Firm (NPO)
+> **Scope:** Canonical Msingi execution spine (no venture execution)
+
+---
+
+### LEGEND (for quick reading)
+
+* **Programs:** Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
+* **Primary Owners:** Program Sequencer, OVCS, Stewards
+* **Structural Goal:** Prevent premature execution
+
+---
+
+## MSINGI WBS — SINGLE TABLE
+
+| ID         | Name                  | Type     | Brief                               | Start | Dur  | **Member (Role)**         | **Team (Container)**         |
+| ---------- | --------------------- | -------- | ----------------------------------- | ----- | ---- | ------------------------- | ---------------------------- |
+| **W-2000** | Msingi Cycle (Year 1) | strategy | Canonical venture sequencing system | Y1-Q1 | 12mo | **Program Sequencer — A** | **Msingi Sequencing Domain** |
+
+---
+
+### 🟢 KANO — SENSE / OBSERVE / NAME
+
+| ID       | Name                     | Type       | Brief                 | Start    | Dur | Member                       | Team                     |
+| -------- | ------------------------ | ---------- | --------------------- | -------- | --- | ---------------------------- | ------------------------ |
+| P-2100   | Kano Program             | program    | Sense unmet realities | Y1-Q1    | 8w  | Program Sequencer — A        | Msingi Sequencing Domain |
+| TH-2110  | Observation Discipline   | tactic     | No solutioning        | Y1-Q1    | 8w  | Systemics Co-Thinker — B     | Conceptual Red Team      |
+| I-2111   | Problem Field Definition | milestone  | Bounded domain        | Y1-Q1-W1 | 2w  | Navigator — E                | Founder Line             |
+| E-21111  | Field Mapping            | epic       | Map lived conditions  | Y1-Q1-W1 | 2w  | Program Sequencer — A        | Msingi Sequencing Domain |
+| S-211111 | Collect signals          | assessment | Interviews, data      | Y1-Q1-W1 | 1w  | Ops Realist — A              | Field Reality Squad      |
+| S-211112 | Prohibit solutions       | blocker    | Enforce Kano purity   | Y1-Q1-W1 | 2w  | OVCS Constraint Guardian — C | System Integrity Guild   |
+| I-2112   | Kano Exit Gate           | milestone  | Permission to think   | Y1-Q1-W3 | 1w  | OVCS Constraint Guardian — C | System Integrity Guild   |
+
+---
+
+### 🟡 NDEBE — CONCEPT / FRAME / TEST LOGIC
+
+| ID       | Name                        | Type       | Brief              | Start    | Dur | Member                       | Team                     |
+| -------- | --------------------------- | ---------- | ------------------ | -------- | --- | ---------------------------- | ------------------------ |
+| P-2200   | Ndebe Program               | program    | Conceptual framing | Y1-Q1    | 6w  | Program Sequencer — A        | Msingi Sequencing Domain |
+| TH-2210  | Abstraction Integrity       | tactic     | No implementation  | Y1-Q1    | 6w  | Systemics Co-Thinker — B     | Conceptual Red Team      |
+| I-2211   | Concept Formation           | milestone  | Candidate model    | Y1-Q1-W4 | 2w  | Systemics Co-Thinker — B     | Conceptual Red Team      |
+| E-22111  | Concept Stress Testing      | epic       | Break ideas early  | Y1-Q1-W4 | 2w  | Human Viability Guardian — D | Human Safety Guild       |
+| S-221111 | Harm analysis               | risk       | Hidden costs       | Y1-Q1-W4 | 1w  | Human Viability Guardian — D | Human Safety Guild       |
+| S-221112 | Logical incompleteness test | assessment | Find gaps          | Y1-Q1-W5 | 1w  | Systemics Co-Thinker — B     | Conceptual Red Team      |
+| I-2212   | Ndebe Exit Gate             | milestone  | Permission to cost | Y1-Q1-W6 | 1w  | OVCS Constraint Guardian — C | System Integrity Guild   |
+
+---
+
+### 🔵 KUZU — FEASIBILITY / COST / REALITY
+
+| ID       | Name                    | Type       | Brief                 | Start    | Dur | Member                       | Team                       |
+| -------- | ----------------------- | ---------- | --------------------- | -------- | --- | ---------------------------- | -------------------------- |
+| P-2300   | Kuzu Program            | program    | Reality confrontation | Y1-Q2    | 6w  | Program Sequencer — A        | Msingi Sequencing Domain   |
+| TH-2310  | No Optimism Allowed     | tactic     | Conservative bias     | Y1-Q2    | 6w  | Financial Controller — A     | Financial Controls Chapter |
+| I-2311   | Cost Modeling           | milestone  | True burn             | Y1-Q2-W1 | 2w  | Financial Controller — A     | Financial Controls Chapter |
+| E-23111  | Operational Feasibility | epic       | Can this run?         | Y1-Q2-W1 | 2w  | Ops Realist — A              | Operations Execution Squad |
+| S-231111 | Failure mode mapping    | risk       | Ways it dies          | Y1-Q2-W1 | 1w  | Ops Realist — A              | Operations Execution Squad |
+| S-231112 | Financial stress test   | assessment | Worst case            | Y1-Q2-W2 | 1w  | Financial Controller — A     | Financial Controls Chapter |
+| I-2312   | Kuzu Exit Gate          | milestone  | Permission to staff   | Y1-Q2-W3 | 1w  | OVCS Constraint Guardian — C | System Integrity Guild     |
+
+---
+
+### 🟣 ZALENDO — COMMIT / STAFF / AUTHORIZE
+
+| ID       | Name                 | Type        | Brief               | Start    | Dur | Member                       | Team                        |
+| -------- | -------------------- | ----------- | ------------------- | -------- | --- | ---------------------------- | --------------------------- |
+| P-2400   | Zalendo Program      | program     | Commitment decision | Y1-Q2    | 4w  | Navigator — E                | Founder Line                |
+| TH-2410  | Authority Discipline | tactic      | Founder restrained  | Y1-Q2    | 4w  | OVCS Constraint Guardian — C | System Integrity Guild      |
+| I-2411   | Authorization Packet | milestone   | Formal request      | Y1-Q2-W4 | 1w  | OVCS Liaison — A             | Governance Interface Domain |
+| E-24111  | Staffing Envelope    | epic        | Max people allowed  | Y1-Q2-W4 | 1w  | Chief of Staff — A           | Office Operations Line      |
+| S-241111 | Define role caps     | requirement | Prevent bloat       | Y1-Q2-W4 | 3d  | Chief of Staff — A           | Office Operations Line      |
+| S-241112 | Governance approval  | release     | Go / No-Go          | Y1-Q2-W4 | 2d  | OVCS Constraint Guardian — C | System Integrity Guild      |
+| I-2412   | Zalendo Exit Gate    | milestone   | Permission to build | Y1-Q2-W4 | 1d  | OVCS Constraint Guardian — C | System Integrity Guild      |
+
+---
+
+### 🟠 ZAMBA — BUILD / OPERATE (OBSERVED, NOT OWNED)
+
+| ID       | Name                | Type       | Brief                | Start    | Dur | Member                       | Team                       |
+| -------- | ------------------- | ---------- | -------------------- | -------- | --- | ---------------------------- | -------------------------- |
+| P-2500   | Zamba Program       | program    | Execution monitoring | Y1-Q3    | 8w  | Ops Realist — A              | Operations Execution Squad |
+| TH-2510  | Non-Interference    | tactic     | Observe only         | Y1-Q3    | 8w  | Chief of Staff — A           | Office Operations Line     |
+| I-2511   | Execution Telemetry | milestone  | Reality signals      | Y1-Q3-W1 | 4w  | Technical Architect — A      | Platform Integrity Guild   |
+| E-25111  | Drift Detection     | epic       | Detect divergence    | Y1-Q3-W1 | 4w  | OVCS Constraint Guardian — C | System Integrity Guild     |
+| S-251111 | Metric capture      | metric     | Health signals       | Y1-Q3-W1 | 2w  | Technical Architect — A      | Platform Integrity Guild   |
+| S-251112 | Human load review   | assessment | Burnout signals      | Y1-Q3-W3 | 2w  | Human Viability Guardian — D | Human Safety Guild         |
+| I-2512   | Zamba Exit Gate     | milestone  | Permission to scale  | Y1-Q3-W4 | 1w  | OVCS Constraint Guardian — C | System Integrity Guild     |
+
+---
+
+### 🔴 LUMA — REFLECT / EXIT / RECYCLE
+
+| ID       | Name                | Type      | Brief                | Start    | Dur | Member                       | Team                       |
+| -------- | ------------------- | --------- | -------------------- | -------- | --- | ---------------------------- | -------------------------- |
+| P-2600   | Luma Program        | program   | Learning extraction  | Y1-Q4    | 6w  | Systemics Co-Thinker — B     | Conceptual Red Team        |
+| TH-2610  | Brutal Honesty      | tactic    | No spin              | Y1-Q4    | 6w  | OVCS Constraint Guardian — C | System Integrity Guild     |
+| I-2611   | Post-Mortem Review  | milestone | Truth capture        | Y1-Q4-W1 | 2w  | Systemics Co-Thinker — B     | Conceptual Red Team        |
+| E-26111  | Knowledge Encoding  | epic      | Reusable insight     | Y1-Q4-W1 | 2w  | Technical Architect — A      | Platform Integrity Guild   |
+| S-261111 | What failed & why   | report    | Institutional memory | Y1-Q4-W1 | 1w  | Ops Realist — A              | Operations Execution Squad |
+| S-261112 | What survived & why | report    | Pattern capture      | Y1-Q4-W2 | 1w  | Systemics Co-Thinker — B     | Conceptual Red Team        |
+| I-2612   | Luma Exit Gate      | milestone | Archive or recycle   | Y1-Q4-W3 | 1w  | OVCS Constraint Guardian — C | System Integrity Guild     |
+
+---
+
+## WHY THIS MSINGI WBS IS DIFFERENT
+
+* **No program advances without OVCS gates**
+* **Founder cannot fast-forward**
+* **Execution is observed, not controlled**
+* **Learning is mandatory, not optional**
+* **Failure feeds the Commons later**
+
+This is **institutional sequencing**, not startup theater.
+
+---
+
+### Next (Message 3 of 10)
+
+Choose one:
+
+2️⃣ **Ubuntuwa Commons — Year-1 Minimal Viable Activation WBS**
+3️⃣ **OVCS + Studio Authorization Pipeline WBS**
+4️⃣ **Federation + First Venture Pre-Seed Spine**
+
+Say the number.
+
+Below is **MESSAGE 3 OF 10**
+This is the **Ubuntuwa Commons — Year-1 Minimal Viable Activation WBS**, delivered as **one unified table**, fully structured, auditable, and aligned to:
+
+* your **NPO (Dominic Eaton Software Engineering Firm)**
+* Msingi sequencing
+* OVCS constraint logic
+* cooperative law realities
+* future federation scale
+
+This is **NOT** ideological.
+This is the **smallest real commons that can legally, operationally, and morally exist**.
+
+---
+
+# UBUNTUWA COMMONS — YEAR 1 MINIMAL VIABLE ACTIVATION
+
+**Entity Type:** Cooperative Commons Holding Structure
+**Purpose:** Long-term stewardship of shared assets (space, IP, memory, capital logic)
+**Rule:** Commons do not execute ventures. They **hold, lease, license, remember, and recycle**.
+
+---
+
+## MEMBER / TEAM NAMING KEY (USED BELOW)
+
+### Core Members
+
+* **Navigator (Class E):** Dominic Eaton
+* **OVCS Constraint Guardian (Class C):** *Ngozi Sentinel*
+* **Systemics Steward (Class B):** *Kumbu Architect*
+* **Human Viability Steward (Class D):** *Umoya Guardian*
+* **Governance Designer (Class B):** *Ngoma Jurist*
+* **Operations Realist (Class A):** *Kano Operator*
+
+### Core Teams
+
+* **Ubuntuwa Steward Council** (multi-class)
+* **Commons Integrity Guild**
+* **Commons Operations Line**
+* **Commons Memory Guild**
+* **Commons Capital Chapter**
+
+---
+
+## UBUNTUWA COMMONS — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name                      | Type     | Brief                        | Start | Dur | Member (Owner) | Team                     |
+| ---------- | ------------------------- | -------- | ---------------------------- | ----- | --- | -------------- | ------------------------ |
+| **W-3000** | Ubuntuwa Commons (Year 1) | strategy | Minimal viable commons layer | Y1-Q2 | 9mo | Navigator — E  | Ubuntuwa Steward Council |
+
+---
+
+### P-3100 — Legal Formation of the Commons
+
+| ID     | Name                    | Type | Brief                      | Start    | Dur | Member           | Team                    |
+| ------ | ----------------------- | ---- | -------------------------- | -------- | --- | ---------------- | ----------------------- |
+| P-3100 | Commons Legal Formation | plan | Cooperative commons entity | Y1-Q2-W1 | 30d | Ngoma Jurist — B | Commons Integrity Guild |
+
+| TH-3110 | Commons Legal Boundary | tactic | Asset firewall | Y1-Q2-W1 | 30d | Ngoma Jurist — B | Commons Integrity Guild |
+| I-3111 | Form Ubuntuwa Cooperative | milestone | Legal existence | Y1-Q2-W1 | 10d | Ngoma Jurist — B | Commons Integrity Guild |
+| E-31111 | Cooperative Charter | epic | Rules that bind | Y1-Q2-W1 | 10d | Ngoma Jurist — B | Commons Integrity Guild |
+| S-311111 | Draft commons charter | documentation | Purpose & limits | Y1-Q2-W1 | 4d | Ngoma Jurist — B | Commons Integrity Guild |
+| S-311112 | Encode non-sale rule | requirement | No privatization | Y1-Q2-W1 | 2d | Ngozi Sentinel — C | Commons Integrity Guild |
+| S-311113 | Ratify charter | release | Commons exists | Y1-Q2-W2 | 1d | Steward Council | Ubuntuwa Steward Council |
+
+---
+
+### P-3200 — Ubuntuwa-NDAA (Spatial Commons)
+
+| ID       | Name                        | Type          | Brief                           | Start    | Dur | Member             | Team                    |
+| -------- | --------------------------- | ------------- | ------------------------------- | -------- | --- | ------------------ | ----------------------- |
+| P-3200   | Ubuntuwa-NDAA               | program       | Shared physical & virtual space | Y1-Q2    | 60d | Kano Operator — A  | Commons Operations Line |
+| TH-3210  | Spatial Stewardship         | tactic        | No ownership capture            | Y1-Q2    | 60d | Ngozi Sentinel — C | Commons Integrity Guild |
+| I-3211   | Initial Space Pool          | milestone     | First commons spaces            | Y1-Q2-W2 | 14d | Navigator — E      | Commons Operations Line |
+| E-32111  | Space Registry              | epic          | What exists                     | Y1-Q2-W2 | 14d | Kano Operator — A  | Commons Operations Line |
+| S-321111 | Register contributed spaces | documentation | Physical / virtual              | Y1-Q2-W2 | 7d  | Ops Admin Lead — A | Commons Operations Line |
+| S-321112 | Draft use licenses          | requirement   | Access without ownership        | Y1-Q2-W3 | 5d  | Ngoma Jurist — B   | Commons Integrity Guild |
+
+---
+
+### P-3300 — Ubuntuwa-KUMBU (Memory & Knowledge Commons)
+
+| ID       | Name                    | Type        | Brief                   | Start    | Dur | Member                | Team                     |
+| -------- | ----------------------- | ----------- | ----------------------- | -------- | --- | --------------------- | ------------------------ |
+| P-3300   | Ubuntuwa-KUMBU          | program     | Institutional memory    | Y1-Q2    | 45d | Kumbu Architect — B   | Commons Memory Guild     |
+| TH-3310  | Knowledge Integrity     | tactic      | No narrative laundering | Y1-Q2    | 45d | Ngozi Sentinel — C    | Commons Integrity Guild  |
+| I-3311   | Memory Architecture     | milestone   | How learning persists   | Y1-Q2-W3 | 10d | Kumbu Architect — B   | Commons Memory Guild     |
+| E-33111  | Learning Ledger         | epic        | Failure & insight       | Y1-Q2-W3 | 10d | Kumbu Architect — B   | Commons Memory Guild     |
+| S-331111 | Define retention rules  | requirement | What must be kept       | Y1-Q2-W3 | 4d  | Kumbu Architect — B   | Commons Memory Guild     |
+| S-331112 | Luma ingestion protocol | process     | Feed from ventures      | Y1-Q2-W4 | 4d  | Program Sequencer — A | Msingi Sequencing Domain |
+
+---
+
+### P-3400 — Ubuntuwa-KANYE (Capital Logic Commons)
+
+| ID       | Name                     | Type        | Brief                      | Start    | Dur | Member                   | Team                    |
+| -------- | ------------------------ | ----------- | -------------------------- | -------- | --- | ------------------------ | ----------------------- |
+| P-3400   | Ubuntuwa-KANYE           | program     | Capital rules, not capital | Y1-Q3    | 45d | Financial Controller — A | Commons Capital Chapter |
+| TH-3410  | Anti-Extraction          | tactic      | Capital constrained        | Y1-Q3    | 45d | Ngozi Sentinel — C       | Commons Integrity Guild |
+| I-3411   | Capital Rulebook         | milestone   | What money can/cannot do   | Y1-Q3-W1 | 10d | Financial Controller — A | Commons Capital Chapter |
+| E-34111  | Investment Constraints   | epic        | No predatory returns       | Y1-Q3-W1 | 10d | Ngozi Sentinel — C       | Commons Integrity Guild |
+| S-341111 | Draft return caps        | requirement | Long-term bias             | Y1-Q3-W1 | 4d  | Financial Controller — A | Commons Capital Chapter |
+| S-341112 | Commons capital firewall | risk        | Prevent capture            | Y1-Q3-W2 | 4d  | Ngozi Sentinel — C       | Commons Integrity Guild |
+
+---
+
+### P-3500 — Ubuntuwa-NGOZI (Authority & Protection)
+
+| ID       | Name                  | Type        | Brief              | Start    | Dur | Member             | Team                    |
+| -------- | --------------------- | ----------- | ------------------ | -------- | --- | ------------------ | ----------------------- |
+| P-3500   | Ubuntuwa-NGOZI        | program     | System protection  | Y1-Q3    | 30d | Ngozi Sentinel — C | Commons Integrity Guild |
+| TH-3510  | Authority Containment | tactic      | Stop abuse         | Y1-Q3    | 30d | Ngozi Sentinel — C | Commons Integrity Guild |
+| I-3511   | Commons Veto Rights   | milestone   | Emergency brakes   | Y1-Q3-W2 | 7d  | Ngozi Sentinel — C | Commons Integrity Guild |
+| E-35111  | Override Protocols    | epic        | How things stop    | Y1-Q3-W2 | 7d  | Ngozi Sentinel — C | Commons Integrity Guild |
+| S-351111 | Define veto triggers  | requirement | Abuse, harm, drift | Y1-Q3-W2 | 3d  | Ngozi Sentinel — C | Commons Integrity Guild |
+
+---
+
+### P-3600 — Ubuntuwa-MOYO & UMOYA (Human & Cultural Commons)
+
+| ID       | Name                   | Type        | Brief                | Start    | Dur | Member             | Team               |
+| -------- | ---------------------- | ----------- | -------------------- | -------- | --- | ------------------ | ------------------ |
+| P-3600   | Ubuntuwa-MOYO & UMOYA  | program     | Human sustainability | Y1-Q3    | 45d | Umoya Guardian — D | Human Safety Guild |
+| TH-3610  | Human Load Balance     | tactic      | Prevent burnout      | Y1-Q3    | 45d | Umoya Guardian — D | Human Safety Guild |
+| I-3611   | Care Thresholds        | milestone   | When to stop         | Y1-Q3-W3 | 10d | Umoya Guardian — D | Human Safety Guild |
+| E-36111  | Wellbeing Signals      | epic        | Early warning        | Y1-Q3-W3 | 10d | Umoya Guardian — D | Human Safety Guild |
+| S-361111 | Define harm indicators | requirement | Subtle damage        | Y1-Q3-W3 | 4d  | Umoya Guardian — D | Human Safety Guild |
+
+---
+
+## WHY THIS UBUNTUWA WBS WORKS
+
+* Commons **exist before scale**
+* Nothing valuable is trapped in founders or ventures
+* Authority is **distributed, named, and enforceable**
+* Commons can **outlive you**
+* Federation later **inherits**, not invents
+
+This is **civilizational infrastructure**, not a brand.
+
+---
+
+### NEXT — MESSAGE 4 OF 10
+
+**OVCS + Studio Authorization Pipeline (Full WBS)**
+This will show *how nothing enters execution without surviving governance*.
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 4 OF 10**
+This is the **OVCS + Studios Authorization Pipeline — Year-1 WBS**, expressed as **one unified, complete table**, with explicit authority flow, artifact discipline, and enforcement mechanics.
+
+This is the **seatbelt system**.
+Nothing in your universe moves without surviving this.
+
+---
+
+# OVCS + STUDIOS AUTHORIZATION PIPELINE — YEAR 1
+
+**Entity:** Obatala Venture Capital Studios (OVCS)
+**Role:** Authorization, constraint enforcement, capital discipline
+**Rule:** OVCS does **not** build, operate, or optimize ventures.
+It **permits, constrains, audits, pauses, or terminates**.
+
+---
+
+## MEMBER / TEAM NAMING (USED BELOW)
+
+### Members
+
+* **Navigator (Class E):** Dominic Eaton
+* **OVCS Constraint Guardian (Class C):** *Ngozi Sentinel*
+* **Governance Secretary:** *Ayo Registrar*
+* **Systemics Steward:** *Kumbu Architect*
+* **Financial Controller:** *Kanye Controller*
+* **Human Viability Guardian:** *Umoya Guardian*
+
+### Teams
+
+* **OVCS Board (Class C)**
+* **OVCS Authorization Office**
+* **System Integrity Guild**
+* **Capital Discipline Chapter**
+* **Human Safety Guild**
+* **Studio Interface Line**
+
+---
+
+## OVCS AUTHORIZATION — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name                           | Type     | Brief                           | Start | Dur | Member (Owner)     | Team       |
+| ---------- | ------------------------------ | -------- | ------------------------------- | ----- | --- | ------------------ | ---------- |
+| **W-4000** | OVCS Authorization System (Y1) | strategy | Gatekeeping & constraint engine | Y1-Q2 | 9mo | Ngozi Sentinel — C | OVCS Board |
+
+---
+
+### P-4100 — OVCS Legal & Authority Foundation
+
+| ID       | Name                   | Type          | Brief                 | Start    | Dur | Member             | Team                    |
+| -------- | ---------------------- | ------------- | --------------------- | -------- | --- | ------------------ | ----------------------- |
+| P-4100   | OVCS Legal Formation   | plan          | Independent authority | Y1-Q2-W1 | 30d | Ngozi Sentinel — C | System Integrity Guild  |
+| TH-4110  | Authority Independence | tactic        | Founder separation    | Y1-Q2-W1 | 30d | Ngozi Sentinel — C | System Integrity Guild  |
+| I-4111   | OVCS Charter           | milestone     | Binding constraints   | Y1-Q2-W1 | 10d | Ngozi Sentinel — C | System Integrity Guild  |
+| E-41111  | Authority Definition   | epic          | What OVCS can stop    | Y1-Q2-W1 | 10d | Ngozi Sentinel — C | System Integrity Guild  |
+| S-411111 | Draft OVCS charter     | documentation | Powers & limits       | Y1-Q2-W1 | 4d  | Ngoma Jurist — B   | Commons Integrity Guild |
+| S-411112 | Encode veto rights     | requirement   | Absolute stops        | Y1-Q2-W1 | 2d  | Ngozi Sentinel — C | System Integrity Guild  |
+| S-411113 | Ratify OVCS authority  | release       | OVCS live             | Y1-Q2-W2 | 1d  | OVCS Board         | OVCS Board              |
+
+---
+
+### P-4200 — Authorization Artifact System
+
+| ID       | Name                    | Type          | Brief                     | Start    | Dur | Member                | Team                      |
+| -------- | ----------------------- | ------------- | ------------------------- | -------- | --- | --------------------- | ------------------------- |
+| P-4200   | Authorization Artifacts | plan          | No undocumented approval  | Y1-Q2    | 45d | Ayo Registrar — A     | OVCS Authorization Office |
+| TH-4210  | Artifact Discipline     | tactic        | Paper or it didn’t happen | Y1-Q2    | 45d | Ayo Registrar — A     | OVCS Authorization Office |
+| I-4211   | OVCS Intake Packet      | milestone     | Standard entry            | Y1-Q2-W2 | 10d | Ayo Registrar — A     | OVCS Authorization Office |
+| E-42111  | Intake Schema           | epic          | Required evidence         | Y1-Q2-W2 | 10d | Ayo Registrar — A     | OVCS Authorization Office |
+| S-421111 | Define packet fields    | requirement   | Msingi artifacts          | Y1-Q2-W2 | 4d  | Program Sequencer — A | Msingi Sequencing Domain  |
+| S-421112 | Submission checklist    | documentation | Reject incompletes        | Y1-Q2-W3 | 3d  | Ayo Registrar — A     | OVCS Authorization Office |
+| I-4212   | Decision Registry       | milestone     | Permanent record          | Y1-Q2-W4 | 7d  | Ayo Registrar — A     | OVCS Authorization Office |
+
+---
+
+### P-4300 — Studio Authorization Gates
+
+| ID       | Name                       | Type       | Brief                   | Start    | Dur | Member                | Team                      |
+| -------- | -------------------------- | ---------- | ----------------------- | -------- | --- | --------------------- | ------------------------- |
+| P-4300   | Studio Authorization Gates | plan       | Permit studios to exist | Y1-Q3    | 60d | Ngozi Sentinel — C    | OVCS Board                |
+| TH-4310  | Non-Premature Execution    | tactic     | Stop builder bias       | Y1-Q3    | 60d | Ngozi Sentinel — C    | System Integrity Guild    |
+| I-4311   | Studio Readiness Review    | milestone  | Before staffing         | Y1-Q3-W1 | 14d | OVCS Board            | OVCS Board                |
+| E-43111  | Readiness Scoring          | epic       | Binary outcomes         | Y1-Q3-W1 | 14d | Kumbu Architect — B   | Conceptual Red Team       |
+| S-431111 | Kano–Kuzu verification     | assessment | Phase purity            | Y1-Q3-W1 | 7d  | Program Sequencer — A | Msingi Sequencing Domain  |
+| S-431112 | Human load check           | risk       | Staffing harm           | Y1-Q3-W2 | 4d  | Umoya Guardian — D    | Human Safety Guild        |
+| I-4312   | Studio License Issuance    | milestone  | Conditional permission  | Y1-Q3-W3 | 3d  | Ayo Registrar — A     | OVCS Authorization Office |
+
+---
+
+### P-4400 — Capital Authorization (with Mande)
+
+| ID       | Name                        | Type        | Brief                    | Start    | Dur | Member               | Team                       |
+| -------- | --------------------------- | ----------- | ------------------------ | -------- | --- | -------------------- | -------------------------- |
+| P-4400   | Capital Authorization       | plan        | Money follows permission | Y1-Q3    | 45d | Kanye Controller — A | Capital Discipline Chapter |
+| TH-4410  | Capital Restraint           | tactic      | No money override        | Y1-Q3    | 45d | Ngozi Sentinel — C   | System Integrity Guild     |
+| I-4411   | Investment Memo Gate        | milestone   | Formal ask               | Y1-Q3-W2 | 7d  | Kanye Controller — A | Capital Discipline Chapter |
+| E-44111  | Memo Review                 | epic        | Truthful risk            | Y1-Q3-W2 | 7d  | OVCS Board           | OVCS Board                 |
+| S-441111 | Validate assumptions        | assessment  | No hype                  | Y1-Q3-W2 | 3d  | Kumbu Architect — B  | Conceptual Red Team        |
+| S-441112 | Enforce return caps         | requirement | Commons alignment        | Y1-Q3-W3 | 3d  | Ngozi Sentinel — C   | System Integrity Guild     |
+| I-4412   | Capital Release Certificate | milestone   | Time-bound funds         | Y1-Q3-W4 | 2d  | Ayo Registrar — A    | OVCS Authorization Office  |
+
+---
+
+### P-4500 — Continuous Audit & Kill-Switch
+
+| ID       | Name                       | Type        | Brief                   | Start    | Dur     | Member             | Team                       |
+| -------- | -------------------------- | ----------- | ----------------------- | -------- | ------- | ------------------ | -------------------------- |
+| P-4500   | OVCS Continuous Oversight  | plan        | Stop harm early         | Y1-Q3    | Ongoing | Ngozi Sentinel — C | System Integrity Guild     |
+| TH-4510  | Kill Authority             | tactic      | Stop without consent    | Y1-Q3    | Ongoing | Ngozi Sentinel — C | System Integrity Guild     |
+| I-4511   | Drift Detection            | milestone   | Early stop              | Y1-Q3-W3 | Ongoing | Ngozi Sentinel — C | System Integrity Guild     |
+| E-45111  | Trigger Monitoring         | epic        | Watch thresholds        | Y1-Q3-W3 | Ongoing | Ayo Registrar — A  | OVCS Authorization Office  |
+| S-451111 | Define stop conditions     | requirement | Human, legal, financial | Y1-Q3-W3 | 4d      | Umoya Guardian — D | Human Safety Guild         |
+| S-451112 | Emergency suspension drill | test        | Kill-switch works       | Y1-Q3-W4 | 2d      | Ops Realist — A    | Operations Execution Squad |
+
+---
+
+## WHY OVCS HERE IS NON-NEGOTIABLE
+
+* Authority is **external to ambition**
+* Capital **cannot override governance**
+* Founder **cannot self-authorize**
+* Everything leaves a **paper trail**
+* Kill-switch is **real and rehearsed**
+
+This is how you prevent **cult dynamics**, **runaway ventures**, and **moral debt**.
+
+---
+
+### NEXT — MESSAGE 5 OF 10
+
+**Federation + First Venture Pre-Seed Spine WBS**
+(How ventures *enter* the system without infecting it)
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 5 OF 10**
+This is the **Pamoja Federation + First Venture Pre-Seed Spine — Year-1 WBS**, delivered as **one unified table**, cleanly separating:
+
+* **Federation formation**
+* **Commons inheritance**
+* **Venture eligibility (pre-seed only)**
+* **Non-contamination guarantees** (ventures cannot capture the system)
+
+This is where **plurality begins without collapse**.
+
+---
+
+# PAMOJA FEDERATION + FIRST VENTURE PRE-SEED SPINE (YEAR 1)
+
+**Rule:** Federation coordinates. Commons hold. OVCS authorizes. Ventures execute.
+**Anti-rule:** No venture defines governance, capital logic, or authority.
+
+---
+
+## MEMBER / TEAM NAMING (USED BELOW)
+
+### Members
+
+* **Navigator (Class E):** Dominic Eaton
+* **Federation Steward (Class B):** *Pamoja Convener*
+* **OVCS Constraint Guardian (Class C):** *Ngozi Sentinel*
+* **Systemics Steward (Class B):** *Kumbu Architect*
+* **Capital Steward (Class A):** *Kanye Controller*
+* **Human Viability Steward (Class D):** *Umoya Guardian*
+
+### Teams
+
+* **Pamoja Council**
+* **Federation Coordination Line**
+* **Commons Interface Guild**
+* **Venture Eligibility Review Panel**
+* **Capital Discipline Chapter**
+* **Human Safety Guild**
+
+---
+
+## PAMOJA + PRE-SEED — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name                       | Type     | Brief                          | Start | Dur | Member (Owner)      | Team           |
+| ---------- | -------------------------- | -------- | ------------------------------ | ----- | --- | ------------------- | -------------- |
+| **W-5000** | Pamoja Federation (Year 1) | strategy | Cooperative coordination layer | Y1-Q3 | 6mo | Pamoja Convener — B | Pamoja Council |
+
+---
+
+### P-5100 — Federation Legal & Structural Formation
+
+| ID       | Name                       | Type        | Brief                     | Start    | Dur | Member              | Team                         |
+| -------- | -------------------------- | ----------- | ------------------------- | -------- | --- | ------------------- | ---------------------------- |
+| P-5100   | Federation Formation       | plan        | Multi-entity coordination | Y1-Q3-W1 | 30d | Pamoja Convener — B | Federation Coordination Line |
+| TH-5110  | Non-Sovereignty Principle  | tactic      | Federation owns nothing   | Y1-Q3-W1 | 30d | Ngozi Sentinel — C  | Commons Interface Guild      |
+| I-5111   | Federation Charter         | milestone   | Rules of coexistence      | Y1-Q3-W1 | 10d | Pamoja Convener — B | Federation Coordination Line |
+| E-51111  | Charter Constraints        | epic        | What federation cannot do | Y1-Q3-W1 | 10d | Ngozi Sentinel — C  | Commons Interface Guild      |
+| S-511111 | Encode non-override clause | requirement | Commons + OVCS supreme    | Y1-Q3-W1 | 4d  | Ngozi Sentinel — C  | Commons Interface Guild      |
+| S-511112 | Ratify charter             | release     | Federation exists         | Y1-Q3-W2 | 1d  | Pamoja Council      | Pamoja Council               |
+
+---
+
+### P-5200 — Commons Inheritance & Interface
+
+| ID       | Name                    | Type          | Brief                     | Start    | Dur | Member              | Team                    |
+| -------- | ----------------------- | ------------- | ------------------------- | -------- | --- | ------------------- | ----------------------- |
+| P-5200   | Commons Interface       | plan          | Federation uses, not owns | Y1-Q3    | 30d | Kumbu Architect — B | Commons Interface Guild |
+| TH-5210  | Anti-Capture Safeguards | tactic        | Commons protected         | Y1-Q3    | 30d | Ngozi Sentinel — C  | Commons Interface Guild |
+| I-5211   | Commons Access Protocol | milestone     | How entities borrow       | Y1-Q3-W2 | 10d | Kumbu Architect — B | Commons Interface Guild |
+| E-52111  | License Templates       | epic          | Time-bound, revocable     | Y1-Q3-W2 | 10d | Ngoma Jurist — B    | Commons Integrity Guild |
+| S-521111 | Draft use licenses      | documentation | Space, IP, memory         | Y1-Q3-W2 | 4d  | Ngoma Jurist — B    | Commons Integrity Guild |
+| S-521112 | Revocation triggers     | requirement   | Abuse stops access        | Y1-Q3-W3 | 3d  | Ngozi Sentinel — C  | Commons Interface Guild |
+
+---
+
+### P-5300 — Venture Eligibility (Pre-Seed Only)
+
+| ID       | Name                      | Type       | Brief              | Start    | Dur | Member                | Team                             |
+| -------- | ------------------------- | ---------- | ------------------ | -------- | --- | --------------------- | -------------------------------- |
+| P-5300   | Venture Eligibility Spine | plan       | Who may exist      | Y1-Q3    | 45d | Program Sequencer — A | Venture Eligibility Review Panel |
+| TH-5310  | No Venture Privilege      | tactic     | All equal at entry | Y1-Q3    | 45d | Ngozi Sentinel — C    | Venture Eligibility Review Panel |
+| I-5311   | Pre-Seed Readiness Gate   | milestone  | Before capital     | Y1-Q3-W3 | 14d | Program Sequencer — A | Venture Eligibility Review Panel |
+| E-53111  | Msingi Compliance Check   | epic       | Kano→Kuzu verified | Y1-Q3-W3 | 14d | Program Sequencer — A | Msingi Sequencing Domain         |
+| S-531111 | Kano/Ndebe purity check   | assessment | No solutioning     | Y1-Q3-W3 | 5d  | Kumbu Architect — B   | Conceptual Red Team              |
+| S-531112 | Kuzu feasibility floor    | assessment | Reality bound      | Y1-Q3-W4 | 5d  | Kanye Controller — A  | Capital Discipline Chapter       |
+| I-5312   | Eligibility Certificate   | milestone  | May request OVCS   | Y1-Q3-W4 | 2d  | Ayo Registrar — A     | OVCS Authorization Office        |
+
+---
+
+### P-5400 — First Venture Onboarding (Template)
+
+| ID       | Name                    | Type        | Brief                  | Start    | Dur | Member                | Team                         |
+| -------- | ----------------------- | ----------- | ---------------------- | -------- | --- | --------------------- | ---------------------------- |
+| P-5400   | First Venture Template  | plan        | Reusable onboarding    | Y1-Q4    | 30d | Program Sequencer — A | Federation Coordination Line |
+| TH-5410  | Founder Containment     | tactic      | Venture ≠ system       | Y1-Q4    | 30d | Ngozi Sentinel — C    | System Integrity Guild       |
+| I-5411   | Venture Charter Draft   | milestone   | Bounded authority      | Y1-Q4-W1 | 7d  | Ngoma Jurist — B      | Commons Integrity Guild      |
+| E-54111  | Charter Constraints     | epic        | What venture cannot do | Y1-Q4-W1 | 7d  | Ngozi Sentinel — C    | System Integrity Guild       |
+| S-541111 | Encode exit obligations | requirement | Luma mandatory         | Y1-Q4-W1 | 3d  | Program Sequencer — A | Msingi Sequencing Domain     |
+| S-541112 | Human load limits       | requirement | Staffing caps          | Y1-Q4-W1 | 3d  | Umoya Guardian — D    | Human Safety Guild           |
+
+---
+
+### P-5500 — Federation Health & Drift Monitoring
+
+| ID       | Name                    | Type       | Brief               | Start    | Dur     | Member                   | Team                   |
+| -------- | ----------------------- | ---------- | ------------------- | -------- | ------- | ------------------------ | ---------------------- |
+| P-5500   | Federation Oversight    | plan       | Prevent power creep | Y1-Q4    | Ongoing | Ngozi Sentinel — C       | System Integrity Guild |
+| TH-5510  | Drift Detection         | tactic     | Early correction    | Y1-Q4    | Ongoing | Ngozi Sentinel — C       | System Integrity Guild |
+| I-5511   | Boundary Audits         | milestone  | Annual truth        | Y1-Q4-W2 | Ongoing | Kumbu Architect — B      | Conceptual Red Team    |
+| E-55111  | Authority Review        | epic       | Who controls what   | Y1-Q4-W2 | Ongoing | Ngozi Sentinel — C       | System Integrity Guild |
+| S-551111 | Federation capture test | assessment | Red-team            | Y1-Q4-W2 | 5d      | Systemics Co-Thinker — B | Conceptual Red Team    |
+
+---
+
+## WHY THIS FEDERATION DESIGN HOLDS
+
+* Federation **coordinates**, never dominates
+* Commons **outlive ventures**
+* OVCS **remains external**
+* Ventures are **guests, not heirs**
+* Failure is **absorbed, not hidden**
+
+This is how you get **plurality without fragmentation**.
+
+---
+
+### NEXT — MESSAGE 6 OF 10
+
+**Mande Investment Group — Capital, Real Estate, Estate & Office Management WBS**
+(where money, property, and long-term obligations live without corrupting governance)
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 6 OF 10**
+This is the **Mande Investment Group — Capital, Real Estate, Estate & Office Management WBS**, delivered as **one unified, whole table**, explicitly showing:
+
+* where **capital actually lives**
+* how **real estate is owned vs commons-held**
+* how **estates & offices are administered without becoming sovereign**
+* how **money is prevented from overriding governance**
+
+This is the **gravity system** of your universe.
+
+---
+
+# MANDE INVESTMENT GROUP — YEAR-1 WBS
+
+**Entity Type:** Investment & Asset Management Cooperative / Holding Group
+**Rule:** Mande manages assets.
+It **does not** define authority, programs, or sequencing.
+
+---
+
+## MEMBER / TEAM NAMING (USED BELOW)
+
+### Members
+
+* **Navigator (Class E):** Dominic Eaton
+* **Capital Steward (Class A):** *Kanye Controller*
+* **Real Estate Steward (Class A):** *Ndaa Custodian*
+* **Governance Constraint (Class C):** *Ngozi Sentinel*
+* **Legal Architect (Class B):** *Ngoma Jurist*
+
+### Teams
+
+* **Mande Investment Council**
+* **Capital Allocation Chapter**
+* **Real Estate & Facilities Line**
+* **Estate & Office Administration Line**
+* **Financial Controls Guild**
+
+---
+
+## MANDE — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name                        | Type     | Brief                       | Start | Dur  | Member (Owner)       | Team                     |
+| ---------- | --------------------------- | -------- | --------------------------- | ----- | ---- | -------------------- | ------------------------ |
+| **W-6000** | Mande Investment Group (Y1) | strategy | Asset & capital stewardship | Y1-Q2 | 12mo | Kanye Controller — A | Mande Investment Council |
+
+---
+
+### P-6100 — Legal Formation & Authority Boundary
+
+| ID       | Name                      | Type        | Brief                 | Start    | Dur | Member                   | Team                       |
+| -------- | ------------------------- | ----------- | --------------------- | -------- | --- | ------------------------ | -------------------------- |
+| P-6100   | Mande Legal Formation     | plan        | Holding entity        | Y1-Q2-W1 | 30d | Ngoma Jurist — B         | Financial Controls Guild   |
+| TH-6110  | Non-Governance Rule       | tactic      | Capital ≠ authority   | Y1-Q2-W1 | 30d | Ngozi Sentinel — C       | Financial Controls Guild   |
+| I-6111   | Mande Charter             | milestone   | Binding limits        | Y1-Q2-W1 | 10d | Ngoma Jurist — B         | Financial Controls Guild   |
+| E-61111  | Capital Scope Definition  | epic        | What Mande can manage | Y1-Q2-W1 | 10d | Kanye Controller — A     | Capital Allocation Chapter |
+| S-611111 | Encode no-override clause | requirement | OVCS supreme          | Y1-Q2-W1 | 3d  | Ngozi Sentinel — C       | Financial Controls Guild   |
+| S-611112 | Charter ratification      | release     | Mande exists          | Y1-Q2-W2 | 1d  | Mande Investment Council | Mande Investment Council   |
+
+---
+
+### P-6200 — Capital Pools & Portfolios
+
+| ID       | Name                          | Type        | Brief                | Start    | Dur | Member                   | Team                       |
+| -------- | ----------------------------- | ----------- | -------------------- | -------- | --- | ------------------------ | -------------------------- |
+| P-6200   | Capital Pool Setup            | plan        | Funds & accounts     | Y1-Q2    | 45d | Kanye Controller — A     | Capital Allocation Chapter |
+| TH-6210  | Capital Discipline            | tactic      | No speculative drift | Y1-Q2    | 45d | Ngozi Sentinel — C       | Financial Controls Guild   |
+| I-6211   | Operating Capital Pool        | milestone   | Day-to-day funding   | Y1-Q2-W2 | 10d | Kanye Controller — A     | Capital Allocation Chapter |
+| E-62111  | Account Segregation           | epic        | Clean separation     | Y1-Q2-W2 | 10d | Kanye Controller — A     | Capital Allocation Chapter |
+| S-621111 | Setup venture escrow accounts | requirement | Spend control        | Y1-Q2-W2 | 4d  | Financial Controller — A | Financial Controls Guild   |
+| S-621112 | Audit access setup            | requirement | Transparency         | Y1-Q2-W3 | 3d  | Ngozi Sentinel — C       | Financial Controls Guild   |
+
+---
+
+### P-6300 — Real Estate & Facilities Management
+
+| ID       | Name                             | Type          | Brief               | Start    | Dur | Member             | Team                          |
+| -------- | -------------------------------- | ------------- | ------------------- | -------- | --- | ------------------ | ----------------------------- |
+| P-6300   | Real Estate Holdings             | plan          | Offices & land      | Y1-Q3    | 60d | Ndaa Custodian — A | Real Estate & Facilities Line |
+| TH-6310  | Commons Interface Rule           | tactic        | Some assets migrate | Y1-Q3    | 60d | Ngozi Sentinel — C | Commons Interface Guild       |
+| I-6311   | Property Registry                | milestone     | What is owned       | Y1-Q3-W1 | 14d | Ndaa Custodian — A | Real Estate & Facilities Line |
+| E-63111  | Asset Classification             | epic          | Private vs Commons  | Y1-Q3-W1 | 14d | Ngoma Jurist — B   | Financial Controls Guild      |
+| S-631111 | Identify commons-eligible spaces | assessment    | NDAA candidates     | Y1-Q3-W1 | 5d  | Ndaa Custodian — A | Real Estate & Facilities Line |
+| S-631112 | Draft transfer / lease templates | documentation | Commons handoff     | Y1-Q3-W2 | 5d  | Ngoma Jurist — B   | Financial Controls Guild      |
+
+---
+
+### P-6400 — Estate & Office Management
+
+| ID       | Name                            | Type        | Brief             | Start    | Dur     | Member               | Team                                |
+| -------- | ------------------------------- | ----------- | ----------------- | -------- | ------- | -------------------- | ----------------------------------- |
+| P-6400   | Estate & Office Ops             | plan        | Long-term admin   | Y1-Q2    | Ongoing | Navigator — E        | Estate & Office Administration Line |
+| TH-6410  | Stewardship not sovereignty     | tactic      | Estate ≠ system   | Y1-Q2    | Ongoing | Ngozi Sentinel — C   | Financial Controls Guild            |
+| I-6411   | Estate Operating Accounts       | milestone   | Personal boundary | Y1-Q2-W2 | 7d      | Kanye Controller — A | Estate & Office Administration Line |
+| E-64111  | Expense Firewall                | epic        | No cross-subsidy  | Y1-Q2-W2 | 7d      | Kanye Controller — A | Financial Controls Guild            |
+| S-641111 | Separate estate vs NPO expenses | requirement | Legal clarity     | Y1-Q2-W2 | 3d      | Ops/Admin Lead — A   | Estate & Office Administration Line |
+
+---
+
+### P-6500 — Risk, Tax, & Long-Term Obligations
+
+| ID       | Name                       | Type        | Brief                   | Start    | Dur     | Member               | Team                       |
+| -------- | -------------------------- | ----------- | ----------------------- | -------- | ------- | -------------------- | -------------------------- |
+| P-6500   | Risk & Compliance          | plan        | Survival layer          | Y1-Q3    | Ongoing | Ngoma Jurist — B     | Financial Controls Guild   |
+| TH-6510  | Conservatism Bias          | tactic      | Longevity > returns     | Y1-Q3    | Ongoing | Ngozi Sentinel — C   | Financial Controls Guild   |
+| I-6511   | Tax Strategy               | milestone   | Predictable obligations | Y1-Q3-W2 | 10d     | Ngoma Jurist — B     | Financial Controls Guild   |
+| E-65111  | Compliance Calendar        | epic        | Never surprised         | Y1-Q3-W2 | 10d     | Kanye Controller — A | Capital Allocation Chapter |
+| S-651111 | Filing schedule & reserves | requirement | No shocks               | Y1-Q3-W2 | 5d      | Kanye Controller — A | Capital Allocation Chapter |
+
+---
+
+## WHY MANDE IS STRUCTURED THIS WAY
+
+* Capital **cannot capture governance**
+* Real estate **can migrate to Commons**
+* Estates **remain bounded**
+* Money becomes **infrastructure, not power**
+* Long-term risk is **explicitly stewarded**
+
+This is how wealth **serves the system instead of owning it**.
+
+---
+
+### NEXT — MESSAGE 7 OF 10
+
+**Estates & Offices (Personal / Family) — Authority, Contribution, and Succession WBS**
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 7 OF 10**
+This is the **Estates & Offices (Personal / Family) — Authority, Contribution, and Succession WBS**, delivered as **one unified, whole table**, explicitly answering:
+
+* how **your personal estate and office exist without becoming sovereign**
+* how they **seed and steward the Commons**
+* how **authority is bounded, transferable, and survivable**
+* how **succession works without myth or collapse**
+
+This is the **human continuity layer** of the system.
+
+---
+
+# ESTATES & OFFICES — AUTHORITY, CONTRIBUTION, SUCCESSION (YEAR 1)
+
+**Entities:**
+
+* The Eaton Family Estate & Offices Coop
+* The Dominic Eaton Estate (Personal Estate)
+* The Dominic Eaton Software Engineering Firm (Personal Office / NPO)
+
+**Rule:** Estates and offices are **contributors and stewards**, not owners of the system.
+
+---
+
+## MEMBER / TEAM NAMING (USED BELOW)
+
+### Members
+
+* **Navigator / Founder (Class E):** Dominic Eaton
+* **Estate Steward (Class B):** *Moyo Custodian*
+* **Governance Constraint (Class C):** *Ngozi Sentinel*
+* **Legal Architect (Class B):** *Ngoma Jurist*
+* **Capital Steward (Class A):** *Kanye Controller*
+* **Human Viability Steward (Class D):** *Umoya Guardian*
+
+### Teams
+
+* **Estate Steward Council**
+* **Family Office Operations Line**
+* **Succession & Continuity Guild**
+* **Commons Contribution Interface**
+* **Authority Integrity Guild**
+
+---
+
+## ESTATES & OFFICES — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name                               | Type     | Brief                          | Start | Dur  | Member (Owner) | Team                   |
+| ---------- | ---------------------------------- | -------- | ------------------------------ | ----- | ---- | -------------- | ---------------------- |
+| **W-7000** | Eaton Family Estate & Offices (Y1) | strategy | Human continuity & stewardship | Y1-Q1 | 12mo | Navigator — E  | Estate Steward Council |
+
+---
+
+### P-7100 — Estate & Office Legal Formation
+
+| ID       | Name                        | Type        | Brief                 | Start    | Dur | Member                 | Team                      |
+| -------- | --------------------------- | ----------- | --------------------- | -------- | --- | ---------------------- | ------------------------- |
+| P-7100   | Estate & Office Formation   | plan        | Legal reality         | Y1-Q1-W1 | 30d | Ngoma Jurist — B       | Authority Integrity Guild |
+| TH-7110  | Non-Sovereignty Rule        | tactic      | Estate ≠ system       | Y1-Q1-W1 | 30d | Ngozi Sentinel — C     | Authority Integrity Guild |
+| I-7111   | Personal Estate Charter     | milestone   | Bounded authority     | Y1-Q1-W1 | 10d | Ngoma Jurist — B       | Authority Integrity Guild |
+| E-71111  | Estate Authority Limits     | epic        | What estate cannot do | Y1-Q1-W1 | 10d | Ngozi Sentinel — C     | Authority Integrity Guild |
+| S-711111 | Encode no-governance clause | requirement | Cannot override OVCS  | Y1-Q1-W1 | 4d  | Ngozi Sentinel — C     | Authority Integrity Guild |
+| S-711112 | Charter ratification        | release     | Estate exists         | Y1-Q1-W2 | 1d  | Estate Steward Council | Estate Steward Council    |
+
+---
+
+### P-7200 — Personal Office (NPO) Authority Interface
+
+| ID       | Name                           | Type        | Brief                | Start    | Dur | Member               | Team                          |
+| -------- | ------------------------------ | ----------- | -------------------- | -------- | --- | -------------------- | ----------------------------- |
+| P-7200   | NPO–Estate Boundary            | plan        | Clean separation     | Y1-Q1    | 21d | Navigator — E        | Family Office Operations Line |
+| TH-7210  | Conflict Firewall              | tactic      | Prevent self-dealing | Y1-Q1    | 21d | Ngozi Sentinel — C   | Authority Integrity Guild     |
+| I-7211   | Expense & Time Segregation     | milestone   | Legal hygiene        | Y1-Q1-W2 | 7d  | Kanye Controller — A | Family Office Operations Line |
+| E-72111  | Financial Firewalls            | epic        | No cross-subsidy     | Y1-Q1-W2 | 7d  | Kanye Controller — A | Financial Controls Guild      |
+| S-721111 | Define reimbursable boundaries | requirement | Audit-safe           | Y1-Q1-W2 | 3d  | Kanye Controller — A | Financial Controls Guild      |
+
+---
+
+### P-7300 — Estate Contributions to Commons
+
+| ID       | Name                            | Type      | Brief                | Start    | Dur | Member              | Team                           |
+| -------- | ------------------------------- | --------- | -------------------- | -------- | --- | ------------------- | ------------------------------ |
+| P-7300   | Commons Contributions           | plan      | Seed without capture | Y1-Q2    | 45d | Moyo Custodian — B  | Commons Contribution Interface |
+| TH-7310  | Irrevocability Principle        | tactic    | Gifts, not leverage  | Y1-Q2    | 45d | Ngozi Sentinel — C  | Authority Integrity Guild      |
+| I-7311   | Initial Asset Contributions     | milestone | First commons seed   | Y1-Q2-W1 | 10d | Navigator — E       | Commons Contribution Interface |
+| E-73111  | Contribution Classification     | epic      | Space, capital, IP   | Y1-Q2-W1 | 10d | Ngoma Jurist — B    | Authority Integrity Guild      |
+| S-731111 | Transfer space to Ubuntuwa-NDAA | release   | Commons-held         | Y1-Q2-W1 | 3d  | Ndaa Custodian — A  | Commons Operations Line        |
+| S-731112 | License IP to KUMBU             | release   | Non-exclusive        | Y1-Q2-W2 | 3d  | Kumbu Architect — B | Commons Memory Guild           |
+
+---
+
+### P-7400 — Stewardship & Oversight Roles
+
+| ID       | Name                    | Type       | Brief                  | Start    | Dur       | Member             | Team                      |
+| -------- | ----------------------- | ---------- | ---------------------- | -------- | --------- | ------------------ | ------------------------- |
+| P-7400   | Estate Stewardship      | plan       | Care without control   | Y1-Q2    | Ongoing   | Moyo Custodian — B | Estate Steward Council    |
+| TH-7410  | Non-Interference Rule   | tactic     | Stewards ≠ operators   | Y1-Q2    | Ongoing   | Ngozi Sentinel — C | Authority Integrity Guild |
+| I-7411   | Steward Review Cadence  | milestone  | Regular check-ins      | Y1-Q2-W3 | Ongoing   | Umoya Guardian — D | Human Safety Guild        |
+| E-74111  | Health & Load Reviews   | epic       | Founder sustainability | Y1-Q2-W3 | Ongoing   | Umoya Guardian — D | Human Safety Guild        |
+| S-741111 | Burnout risk assessment | assessment | Early signals          | Y1-Q2-W3 | Quarterly | Umoya Guardian — D | Human Safety Guild        |
+
+---
+
+### P-7500 — Succession & Continuity Planning
+
+| ID       | Name                      | Type        | Brief                   | Start    | Dur | Member             | Team                          |
+| -------- | ------------------------- | ----------- | ----------------------- | -------- | --- | ------------------ | ----------------------------- |
+| P-7500   | Succession Planning       | plan        | System outlives founder | Y1-Q3    | 60d | Ngoma Jurist — B   | Succession & Continuity Guild |
+| TH-7510  | Non-Hereditary Authority  | tactic      | No bloodline capture    | Y1-Q3    | 60d | Ngozi Sentinel — C | Authority Integrity Guild     |
+| I-7511   | Successor Role Definition | milestone   | Replace functions       | Y1-Q3-W1 | 14d | Ngoma Jurist — B   | Succession & Continuity Guild |
+| E-75111  | Role-Based Succession     | epic        | Authority decoupled     | Y1-Q3-W1 | 14d | Ngozi Sentinel — C | Authority Integrity Guild     |
+| S-751111 | Define trigger conditions | requirement | Incapacity, death       | Y1-Q3-W1 | 5d  | Ngoma Jurist — B   | Succession & Continuity Guild |
+| S-751112 | Dry-run succession drill  | test        | No chaos                | Y1-Q3-W3 | 3d  | Ops Realist — A    | Operations Execution Squad    |
+
+---
+
+## WHY THIS MATTERS
+
+* You **seed** the system without owning it
+* Your estate **cannot override governance**
+* Succession is **procedural, not personal**
+* Commons **outlive families**
+* Humanity is **explicitly protected**
+
+This is how a system survives **success, failure, and mortality**.
+
+---
+
+### NEXT — MESSAGE 8 OF 10
+
+**Full Ashe Cycle Integration WBS (Circle of Life, Feedback Loops, Reuse, Renewal)**
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 8 OF 10**
+This is the **ASHE CYCLE — Full System Integration WBS**, showing the **complete circle of life** where:
+
+* reuse, renewal, recycling, and feedback are mandatory
+* every entity **consumes from and feeds back into the Commons**
+* allostasis (dynamic balance) and homeostasis (system health) are maintained
+* failure is metabolized, not hidden
+
+This is the **living metabolism** of the entire ecosystem.
+
+---
+
+# ASHE CYCLE — SYSTEM CIRCLE OF LIFE (YEAR 1)
+
+**Ashe =** authorization + stewardship + harvest + evolution
+**Rule:** Nothing only consumes. Nothing only produces.
+
+---
+
+## MEMBER / TEAM NAMING (USED BELOW)
+
+### Members
+
+* **Navigator (Class E):** Dominic Eaton
+* **Ashe Steward (Class B):** *Ashe Conductor*
+* **OVCS Constraint Guardian (Class C):** *Ngozi Sentinel*
+* **Systemics Steward (Class B):** *Kumbu Architect*
+* **Human Viability Steward (Class D):** *Umoya Guardian*
+* **Capital Steward (Class A):** *Kanye Controller*
+
+### Teams
+
+* **Ashe Cycle Council**
+* **Commons Feedback Guild**
+* **System Health Observatory**
+* **Reuse & Renewal Line**
+* **Institutional Memory Guild**
+* **Capital Regeneration Chapter**
+
+---
+
+## ASHE CYCLE — SINGLE CANONICAL WBS TABLE
+
+| ID         | Name            | Type     | Brief                    | Start | Dur     | Member (Owner)     | Team               |
+| ---------- | --------------- | -------- | ------------------------ | ----- | ------- | ------------------ | ------------------ |
+| **W-8000** | Ashe Cycle (Y1) | strategy | Whole-system equilibrium | Y1-Q3 | Ongoing | Ashe Conductor — B | Ashe Cycle Council |
+
+---
+
+### P-8100 — Intake from the System (Consumption)
+
+| ID       | Name                  | Type      | Brief                  | Start    | Dur     | Member               | Team                         |
+| -------- | --------------------- | --------- | ---------------------- | -------- | ------- | -------------------- | ---------------------------- |
+| P-8100   | System Intake         | plan      | Inputs from entities   | Y1-Q3    | Ongoing | Ashe Conductor — B   | Commons Feedback Guild       |
+| TH-8110  | No Free Riding        | tactic    | All consumption logged | Y1-Q3    | Ongoing | Ngozi Sentinel — C   | Commons Integrity Guild      |
+| I-8111   | Commons Draw Registry | milestone | What is taken          | Y1-Q3-W1 | Ongoing | Ashe Conductor — B   | Commons Feedback Guild       |
+| E-81111  | Draw Accounting       | epic      | Track usage            | Y1-Q3-W1 | Ongoing | Kanye Controller — A | Capital Regeneration Chapter |
+| S-811111 | Log space usage       | metric    | NDAA                   | Y1-Q3-W1 | Ongoing | Ndaa Custodian — A   | Commons Operations Line      |
+| S-811112 | Log IP usage          | metric    | KUMBU                  | Y1-Q3-W1 | Ongoing | Kumbu Architect — B  | Institutional Memory Guild   |
+
+---
+
+### P-8200 — Output to the Commons (Contribution)
+
+| ID       | Name                  | Type       | Brief                  | Start    | Dur     | Member                   | Team                       |
+| -------- | --------------------- | ---------- | ---------------------- | -------- | ------- | ------------------------ | -------------------------- |
+| P-8200   | System Contribution   | plan       | Feed back learning     | Y1-Q3    | Ongoing | Ashe Conductor — B       | Commons Feedback Guild     |
+| TH-8210  | Mandatory Return      | tactic     | No exit without giving | Y1-Q3    | Ongoing | Ngozi Sentinel — C       | Commons Integrity Guild    |
+| I-8211   | Luma Harvest          | milestone  | End-of-cycle return    | Y1-Q3-W2 | Ongoing | Program Sequencer — A    | Msingi Sequencing Domain   |
+| E-82111  | Knowledge Reclamation | epic       | Insights captured      | Y1-Q3-W2 | Ongoing | Kumbu Architect — B      | Institutional Memory Guild |
+| S-821111 | Failure ingestion     | report     | What broke             | Y1-Q3-W2 | Ongoing | Ops Realist — A          | Operations Execution Squad |
+| S-821112 | Pattern extraction    | capability | Reusable logic         | Y1-Q3-W3 | Ongoing | Systemics Co-Thinker — B | Conceptual Red Team        |
+
+---
+
+### P-8300 — Renewal & Reuse Loops
+
+| ID       | Name                     | Type        | Brief                | Start    | Dur     | Member                  | Team                       |
+| -------- | ------------------------ | ----------- | -------------------- | -------- | ------- | ----------------------- | -------------------------- |
+| P-8300   | Renewal Loops            | plan        | Reuse before rebuild | Y1-Q4    | Ongoing | Ashe Conductor — B      | Reuse & Renewal Line       |
+| TH-8310  | Anti-Waste Principle     | tactic      | No duplication       | Y1-Q4    | Ongoing | Ngozi Sentinel — C      | Commons Integrity Guild    |
+| I-8311   | Asset Reclassification   | milestone   | Reusable outputs     | Y1-Q4-W1 | Ongoing | Kumbu Architect — B     | Institutional Memory Guild |
+| E-83111  | Commons Reintegration    | epic        | Feed back assets     | Y1-Q4-W1 | Ongoing | Ashe Conductor — B      | Reuse & Renewal Line       |
+| S-831111 | Reuse code, docs, spaces | enhancement | Avoid rebuild        | Y1-Q4-W1 | Ongoing | Technical Architect — A | Platform Integrity Guild   |
+
+---
+
+### P-8400 — System Health & Allostasis
+
+| ID       | Name                   | Type      | Brief               | Start    | Dur     | Member             | Team                      |
+| -------- | ---------------------- | --------- | ------------------- | -------- | ------- | ------------------ | ------------------------- |
+| P-8400   | System Health          | plan      | Balance & viability | Y1-Q3    | Ongoing | Umoya Guardian — D | System Health Observatory |
+| TH-8410  | Early Harm Detection   | tactic    | Subtle damage first | Y1-Q3    | Ongoing | Umoya Guardian — D | Human Safety Guild        |
+| I-8411   | Load Monitoring        | milestone | People + system     | Y1-Q3-W2 | Ongoing | Umoya Guardian — D | System Health Observatory |
+| E-84111  | Stress Signal Analysis | epic      | Burnout, drift      | Y1-Q3-W2 | Ongoing | Umoya Guardian — D | Human Safety Guild        |
+| S-841111 | Track cognitive load   | metric    | Founder + teams     | Y1-Q3-W2 | Ongoing | EA — A             | Office Operations Line    |
+
+---
+
+### P-8500 — Evolution & Adaptation
+
+| ID       | Name                   | Type      | Brief               | Start    | Dur     | Member             | Team                    |
+| -------- | ---------------------- | --------- | ------------------- | -------- | ------- | ------------------ | ----------------------- |
+| P-8500   | System Evolution       | plan      | Adapt without chaos | Y1-Q4    | Ongoing | Ashe Conductor — B | Ashe Cycle Council      |
+| TH-8510  | Slow Change Bias       | tactic    | Stability first     | Y1-Q4    | Ongoing | Ngozi Sentinel — C | Commons Integrity Guild |
+| I-8511   | Controlled Mutation    | milestone | Adjust rules        | Y1-Q4-W2 | Ongoing | Ashe Conductor — B | Ashe Cycle Council      |
+| E-85111  | Governance Refactoring | epic      | Improve constraints | Y1-Q4-W2 | Ongoing | Ngoma Jurist — B   | Commons Integrity Guild |
+| S-851111 | Propose rule changes   | case      | Evidence-based      | Y1-Q4-W2 | Ongoing | Any Steward        | Ashe Cycle Council      |
+
+---
+
+## WHY THE ASHE CYCLE HOLDS EVERYTHING TOGETHER
+
+* Nothing escapes accountability
+* Nothing stagnates
+* Failure becomes fertilizer
+* People are protected before outputs
+* Commons continuously strengthen
+
+This is **sustainable dynamism**, not growth fetish.
+
+---
+
+### NEXT — MESSAGE 9 OF 10
+
+**Full Legal Entity Structure Diagram + Authority Flow (End-to-End Reality Map)**
+
+Say **“continue”** when ready.
+
+Below is **MESSAGE 9 OF 10**
+This is the **FULL REAL-WORLD LEGAL ENTITY + AUTHORITY FLOW MAP** for everything you’ve defined — showing **how this actually works in law, governance, money, labor, IP, and accountability**, without fiction or hand-waving.
+
+This is the **hard shell** that keeps the Ashe Cycle from collapsing.
+
+---
+
+# REAL-WORLD LEGAL ENTITY STRUCTURE
+
+*(Authority-first, capital-second, execution-last)*
+
+---
+
+## 0. PRIME ANCHOR (YOU, LEGALLY)
+
+### **Dominic Eaton (Natural Person)**
+
+* Holds **Class E — Navigator**
+* **No unilateral control**
+* Bound by OVCS constraints
+* Cannot receive Commons assets personally
+
+This matters legally:
+
+> The system is designed so **you cannot legally extract value without process**.
+
+---
+
+## 1. PERSONAL ESTATE (NON-OPERATING)
+
+### **The Dominic Eaton Estate**
+
+**Legal Form:** Irrevocable Trust or Estate LLC
+**Purpose:**
+
+* Personal asset protection
+* Succession & continuity
+* Firewall between person and system
+
+**Can do**
+
+* Hold personal IP (pre-Commons)
+* Own personal residence
+* Receive distributions **only after OVCS authorization**
+
+**Cannot**
+
+* Operate ventures
+* Employ workers
+* Control Commons
+
+**Governance**
+
+* Trustee: Independent fiduciary
+* OVCS: Veto rights on cross-boundary flows
+
+---
+
+## 2. PERSONAL OFFICE (NONPROFIT CORE)
+
+### **Dominic Eaton Software Engineering Firm (DESF)**
+
+**Legal Form:** Nonprofit (501(c)(3) or (c)(4))
+**Role:** System authoring, sequencing, governance, stewardship
+
+**This is NOT a venture builder**
+
+**Can**
+
+* Employ staff
+* Author frameworks
+* License platforms to ventures
+* Convene councils
+* Maintain Commons
+
+**Cannot**
+
+* Take equity
+* Operate businesses
+* Accumulate profit
+
+---
+
+## 3. UBUNTUWA COMMONS (LEGAL HEART)
+
+### **Ubuntuwa Commons Cooperative**
+
+**Legal Form:** Cooperative Association (multi-stakeholder)
+
+| Commons Unit | Legal Sub-Entity    | Purpose                     |
+| ------------ | ------------------- | --------------------------- |
+| NDAA         | Coop Division       | Space, land, infrastructure |
+| KUMBU        | IP Trust            | Knowledge, IP, memory       |
+| KANYE        | Financial Coop      | Capital flows               |
+| NGOZI        | Governance Arm      | Enforcement                 |
+| MOYO         | Human Care Fund     | Wellbeing                   |
+| UMOYA        | Cultural Commons    | Values & norms              |
+| KANO         | Authorization Layer | Sequencing gates            |
+
+**Key Rule:**
+
+> Commons assets are **inalienable**.
+
+---
+
+## 4. GOVERNANCE — OVCS (SUPREMACY LAYER)
+
+### **Obatala Venture Constraint System (OVCS)**
+
+**Legal Form:** Independent Governance Nonprofit
+**Power:** Absolute stop authority
+
+**OVCS Controls**
+
+* Venture authorization
+* Capital release
+* Founder restraint
+* Rule enforcement
+
+**OVCS does NOT**
+
+* Build
+* Operate
+* Profit
+
+OVCS is legally **immune** from:
+
+* Founder dismissal
+* Capital pressure
+* Venture influence
+
+---
+
+## 5. OPERATING COOPERATIVES (EXECUTION LAYER)
+
+### **Pamoja Federation Cooperative**
+
+**Legal Form:** Federation of Coops
+**Members:** Ventures, studios, networks
+
+Includes:
+
+* Moyo Collective
+* Bahari Network
+* Umoya Society
+* Ubunye Engineering Group
+* Kumba Metafactory
+
+Each:
+
+* Separate legal entity
+* Licensed platforms
+* Accountable to Commons & OVCS
+
+---
+
+## 6. VENTURES (FOR-PROFIT, FIREWALLED)
+
+### Each Venture (e.g., Nandi Mobility)
+
+**Legal Form:** C-Corp or Coop-Corp
+
+**Can**
+
+* Hire
+* Sell
+* Raise capital
+
+**Must**
+
+* License IP from Commons
+* Pay Commons contribution
+* Submit to OVCS gates
+
+**Cannot**
+
+* Own Commons IP
+* Override governance
+
+---
+
+## 7. MANDE INVESTMENT GROUP (CAPITAL ONLY)
+
+### **Mande Investment Group (MIG)**
+
+**Legal Form:** LLC / GP-LP Structure
+**Role:** Capital allocation, asset management
+
+**Owns**
+
+* Funds
+* Real estate
+* Securities
+* Debt instruments
+
+**Does NOT**
+
+* Control ventures
+* Override OVCS
+* Touch Commons directly
+
+Capital flows only via:
+
+```
+MIG → OVCS authorization → Venture
+```
+
+---
+
+## 8. AUTHORITY FLOW (ONE-WAY)
+
+```
+OVCS
+ ↓
+Ubuntuwa Commons
+ ↓
+DESF (Sequencing)
+ ↓
+Pamoja Federation
+ ↓
+Ventures
+```
+
+**Money flows UP only as contributions.
+Authority flows DOWN only as authorization.**
+
+---
+
+## 9. FAILURE HANDLING (LEGALLY)
+
+If a venture fails:
+
+* Assets revert to Commons
+* Knowledge captured in KUMBU
+* People protected via MOYO
+* Capital loss absorbed by MIG
+
+If DESF fails:
+
+* Commons persists
+* OVCS remains
+* Navigator loses office authority
+
+If YOU fail:
+
+* System continues
+* Estate isolated
+* OVCS locks you out
+
+---
+
+## WHY THIS IS REAL
+
+✔ Courts understand it
+✔ Auditors can inspect it
+✔ Regulators can map it
+✔ Investors can’t hijack it
+✔ Founders can’t dominate it
+
+---
+
+### NEXT — MESSAGE 10 OF 10
+
+**YEAR-1 COMPLETE MASTER WBS TABLE (ALL ENTITIES, SINGLE CANONICAL VIEW)**
+This will be the **final, whole, integrated table** you asked for.
+
+Say **“continue”** to close the sequence.
+
+Below is **MESSAGE 10 OF 10**
+This is the **SINGLE, WHOLE, CANONICAL YEAR-1 MASTER WBS TABLE** for your **Personal Office (DESF / NPO)** bootstrapping the **entire Ashe Cycle** to *minimal viable, legally live, staffed, governed, and sequenced* within Year 1.
+
+This table is **authority-true**, **staffed**, **timed**, and **owned**.
+
+---
+
+# YEAR-1 MASTER WBS — DOMINIC EATON PERSONAL OFFICE (DESF / NPO)
+
+**Legend**
+
+* **Member classes:**
+  E = Navigator (You) · C = OVCS · B = Steward · A = Operator
+* **Teams:** Squad / Chapter / Guild / Council / Board
+* **Dates:** Relative (Day 0 = legal formation date)
+
+---
+
+## WBS MASTER TABLE
+
+| ID | Name | Type | Brief | Start | Dur | Owner (Member) | Team |
+| -- | ---- | ---- | ----- | ----- | --- | -------------- | ---- |
+
+### 🧠 NAVIGATOR & ESTATE BOOTSTRAP
+
+| W-0001 | Dominic Eaton Estate | strategy | Personal firewall + continuity | Day 0 | 14d | Dominic Eaton (E) | Navigator Line |
+| P-0001 | Estate Legal Formation | plan | Trust/LLC formation | Day 0 | 7d | Governance Designer (B) | Legal Chapter |
+| TH-0001 | Estate Boundary Definition | tactic | Estate ↔ Commons firewall | Day 7 | 7d | OVCS Anchor (C) | OVCS Board |
+| E-0001 | Estate Charter | milestone | Estate authority charter | Day 7 | 5d | Governance Designer (B) | Legal Chapter |
+| S-0001 | Draft estate charter | documentation | Formal charter | Day 7 | 5d | Legal Designer (B) | Legal Chapter |
+
+---
+
+### 🏛️ PERSONAL OFFICE (DESF / NPO)
+
+| W-0002 | DESF Personal Office | strategy | Sequencing & stewardship core | Day 0 | 365d | Dominic Eaton (E) | Navigator Line |
+| P-0002 | NPO Formation | plan | Incorporation + compliance | Day 0 | 10d | Governance Designer (B) | Legal Chapter |
+| TH-0002 | Office Governance | tactic | Nonprofit authority limits | Day 10 | 10d | OVCS Anchor (C) | OVCS Board |
+| E-0002 | Office Charter | milestone | Binding governance doc | Day 15 | 7d | Governance Designer (B) | Legal Chapter |
+| S-0002 | Draft NPO charter | documentation | Authority + scope | Day 15 | 7d | Legal Designer (B) | Legal Chapter |
+
+---
+
+### 👥 FIRST 5 STEWARDS (CLASS B/C)
+
+| W-0003 | Steward Nucleus | strategy | Irreducible governance core | Day 5 | 30d | Dominic Eaton (E) | Steward Council |
+| P-0003 | Steward Appointments | plan | Formal appointments | Day 5 | 14d | Chief of Staff (A) | Ops Squad |
+| E-0003 | OVCS Anchor Installed | milestone | Stop authority live | Day 10 | 1d | OVCS Anchor (C) | OVCS Board |
+| E-0004 | Systemics Co-Thinker Installed | milestone | Conceptual integrity | Day 12 | 1d | Systems Steward (B) | Systems Guild |
+| E-0005 | Human Viability Guardian Installed | milestone | Harm brake | Day 14 | 1d | Viability Steward (B) | Care Guild |
+| S-0003 | Issue steward letters | documentation | Legal appointments | Day 5 | 10d | Governance Secretary (A) | Legal Chapter |
+
+---
+
+### 🧩 FIRST 8 HIRES (CLASS A)
+
+| W-0004 | Core Operating Staff | strategy | Minimum viable execution | Day 10 | 45d | Dominic Eaton (E) | Ops Tribe |
+| P-0004 | Hiring & Onboarding | plan | Recruit + onboard | Day 10 | 30d | Chief of Staff (A) | Ops Squad |
+| E-0006 | Chief of Staff Live | milestone | Founder shield | Day 15 | 1d | CoS (A) | Ops Squad |
+| E-0007 | Msingi Sequencer Live | milestone | Temporal control | Day 18 | 1d | Sequencer (A) | Msingi Guild |
+| E-0008 | OVCS Liaison Live | milestone | Clean authority interface | Day 20 | 1d | Gov Secretary (A) | Legal Chapter |
+| E-0009 | Controller Live | milestone | Burn enforcement | Day 25 | 1d | Finance Controller (A) | Finance Chapter |
+
+---
+
+### 🌀 MSINGI CYCLE (YEAR-1)
+
+| W-0005 | Msingi Cycle | strategy | Order before execution | Day 15 | 300d | Msingi Officer (A) | Msingi Guild |
+| P-0005 | Kano | plan | Sense + map | Day 15 | 45d | Sequencer (A) | Kano Squad |
+| P-0006 | Ndebe | plan | Frame problems | Day 60 | 45d | Sequencer (A) | Ndebe Squad |
+| P-0007 | Kuzu | plan | Capital readiness | Day 105 | 45d | Controller (A) | Kuzu Squad |
+| P-0008 | Zalendo | plan | Build readiness | Day 150 | 60d | Architect (A) | Build Squad |
+| P-0009 | Zamba | plan | Launch gating | Day 210 | 45d | OVCS (C) | OVCS Board |
+| P-0010 | Luma | plan | Learn + recycle | Day 255 | 45d | Systems Steward (B) | Luma Guild |
+
+---
+
+### 🌍 UBUNTUWA COMMONS (YEAR-1 MINIMUM)
+
+| W-0006 | Ubuntuwa Commons | strategy | Inalienable commons | Day 30 | 365d | Commons Council (D) | Commons Council |
+| P-0011 | NDAA (Space) | plan | Physical/virtual space | Day 30 | 90d | Ops Lead (A) | Space Squad |
+| P-0012 | KUMBU (IP) | plan | Knowledge & IP trust | Day 45 | 90d | Tech Steward (A) | IP Guild |
+| P-0013 | KANYE (Capital) | plan | Financial commons | Day 60 | 90d | Finance Steward (B) | Capital Guild |
+| P-0014 | NGOZI (Governance) | plan | Enforcement | Day 30 | 365d | OVCS (C) | OVCS Board |
+| P-0015 | MOYO (Care) | plan | Human sustainability | Day 75 | 120d | Viability Guardian (B) | Care Guild |
+| P-0016 | UMOYA (Culture) | plan | Norms + values | Day 90 | 120d | Culture Steward (D) | Umoya Circle |
+
+---
+
+### 🧬 FEDERATION & VENTURE READINESS
+
+| W-0007 | Pamoja Federation | strategy | Coop federation | Day 90 | 180d | Federation Council | Federation Council |
+| P-0017 | Venture Templates | plan | Legal + OS kits | Day 90 | 60d | Architect (A) | Platform Squad |
+| P-0018 | MIG Interface | plan | Capital firewall | Day 120 | 45d | Controller (A) | Finance Chapter |
+| E-0010 | First Venture Authorized | milestone | Gate passed | Day 180 | 1d | OVCS (C) | OVCS Board |
+
+---
+
+### 🔁 ASHE CYCLE INTEGRATION
+
+| W-0008 | Ashe Cycle | strategy | System allostasis | Day 120 | 365d | Systems Steward (B) | Systems Guild |
+| P-0019 | Feedback Loops | plan | Learn → adjust | Day 120 | 90d | Sequencer (A) | Luma Guild |
+| E-0011 | Year-1 Equilibrium Review | assessment | System health | Day 330 | 14d | OVCS + Council | Joint Council |
+| S-0011 | Ashe Cycle Report | report | Public/system record | Day 344 | 7d | Comms Lead (A) | Comms Squad |
+
+---
+
+## WHAT THIS MEANS (PLAINLY)
+
+* **You can start Monday**
+* **Nothing depends on belief**
+* **No step violates law**
+* **Authority is never ambiguous**
+* **You are constrained on purpose**
+* **The system survives you**
+
+This table is **deployable**, **auditable**, and **expandable**.
+
+---
+
+If you want next:
+
+* Turn this into a **live Notion / Linear / Jira schema**
+* Convert to **Gantt + PI plan**
+* Generate **charters + bylaws from WBS**
+* Produce **investor-safe / regulator-safe packets**
+
+Just say the word.
+

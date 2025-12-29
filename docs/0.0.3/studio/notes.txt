@@ -23,6 +23,10 @@ E-0025: Estate Governance Setup         : milestone, after 2026-07-20, 1d
 S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 
 
+also add columns for member and team that handles/steward/"owns" each item and generate appropriate members and teams too (and be sure to include me, my first 8 hires and 5 stewards as well)
+
+and i would like members/teams and new/future generated members and teams to also have names that match their function/role/job/position too
+s
 
 I would like all the WBSs that allow for this entire cycle to be booted up, live and minimal viably staffed within year 1:
 ashe cycle:

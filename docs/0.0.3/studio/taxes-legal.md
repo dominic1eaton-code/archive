@@ -16385,3 +16385,594 @@ If you want, I can generate:
 📋 **Notion / Airtable Import Template**
 
 Just tell me your preferred format!
+
+Below is a **minimal-viable Squad-Prog model** — designed so your program delivery teams:
+
+✅ **Cover all 6 Msingi programs**
+✅ **Share resources where possible**
+✅ **Avoid overload**
+✅ **Reuse specialists across squads**
+✅ **Stay lean but functional**
+
+This model assumes a *matrixed squad structure* where squads can operate independently but share key roles (e.g., Sequencing, QA, Support).
+
+---
+
+# 🧠 What “Minimal Viable Squad-Prog” Means
+
+Instead of 6 full squads (one per program), you get **3 lean cross-program squads** that can *execute all 6 programs* through rotation, shared specialists, and clear sequencing discipline.
+
+**Why this works:**
+
+* Many program tasks are similar (OS build, modules, QA)
+* Sequencing and readiness gates unify workflows
+* Shared roles reduce redundancy
+* Work is time-boxed and prioritized per program cycle
+
+---
+
+# 📋 **Minimal Viable Squad-Prog Teams (3 Squads)**
+
+| **Squad ID**    | **Squad Name** | **Coverage**   | **Primary Focus**               |
+| --------------- | -------------- | -------------- | ------------------------------- |
+| **Prog-Core A** | Prog-Core A    | Kano + Ndebe   | Program deliveries & iterations |
+| **Prog-Core B** | Prog-Core B    | Kuzu + Zalendo | Program deliveries & iterations |
+| **Prog-Core C** | Prog-Core C    | Zamba + Luma   | Program deliveries & iterations |
+
+Each squad alternates focus between two programs, enabling “pipeline delivery” without duplication.
+
+---
+
+## 🧠 Shared Functional Roles (Across All Prog Squads)
+
+These roles **do not live inside each squad** but are **shared/floated** as capacity demands:
+
+| **Shared Role**                  | **Function**                                 |
+| -------------------------------- | -------------------------------------------- |
+| **Program Sequencer (PS / CPO)** | Coordinates gated releases across all squads |
+| **QA Guild(s)**                  | Provides quality assurance across squads     |
+| **Support Analyst(s)**           | Business/ops support across squads           |
+| **DevOps / Infra Specialist**    | Shared deployment/CI/CD/monitoring support   |
+
+These roles reduce duplication and keep squads lean.
+
+---
+
+# 📊 Squad Structure (Minimal Viable)
+
+### **Squad-Prog: Prog-Core A**
+
+**Programs:** Kano, Ndebe
+**Members:**
+
+| **Role**                 | **Position**     | **Primary Responsibility**            |
+| ------------------------ | ---------------- | ------------------------------------- |
+| Squad Lead               | Prog-Core A Lead | Lead deliveries for assigned programs |
+| Program Engineer 1       | Full Stack Eng   | Program core feature dev              |
+| Program Engineer 2       | Integrations Eng | Integrations & API work               |
+| QA Specialist            | QA Guild         | Testing for Prog-A tasks              |
+| Support Analyst          | Shared Support   | Requirements + backlog refinement     |
+| *Sequencing Coordinator* | PS / Shared      | Gate readiness (shared)               |
+
+---
+
+### **Squad-Prog: Prog-Core B**
+
+**Programs:** Kuzu, Zalendo
+**Members:**
+
+| **Role**                 | **Position**         | **Primary Responsibility**            |
+| ------------------------ | -------------------- | ------------------------------------- |
+| Squad Lead               | Prog-Core B Lead     | Lead deliveries for assigned programs |
+| Program Engineer 1       | Full Stack Eng       | Program core feature dev              |
+| Program Engineer 2       | Backend/Workflow Eng | Business logic & workflows            |
+| QA Specialist            | QA Guild             | Testing for Prog-B tasks              |
+| Support Analyst          | Shared Support       | Requirements + backlog refinement     |
+| *Sequencing Coordinator* | PS / Shared          | Gate readiness (shared)               |
+
+---
+
+### **Squad-Prog: Prog-Core C**
+
+**Programs:** Zamba, Luma
+**Members:**
+
+| **Role**                 | **Position**     | **Primary Responsibility**            |
+| ------------------------ | ---------------- | ------------------------------------- |
+| Squad Lead               | Prog-Core C Lead | Lead deliveries for assigned programs |
+| Program Engineer 1       | Full Stack Eng   | Program core feature dev              |
+| Program Engineer 2       | Platform Eng     | Platform interfaces & services        |
+| QA Specialist            | QA Guild         | Testing for Prog-C tasks              |
+| Support Analyst          | Shared Support   | Requirements + backlog refinement     |
+| *Sequencing Coordinator* | PS / Shared      | Gate readiness (shared)               |
+
+---
+
+# 🧠 How Work Rotates Across Squads
+
+Each squad cycles between its two programs using **time-boxed sprints** and a shared **sequencing/cadence model**:
+
+| **Sprint** | **Primary Focus (Example)**            |
+| ---------- | -------------------------------------- |
+| Sprint 1   | Kano (Prog-Core A)                     |
+| Sprint 2   | Kano QA + Ndebe start (Prog-Core A)    |
+| Sprint 3   | Ndebe primary (Prog-Core A)            |
+| Sprint 4   | Ndebe QA + Kuzu start (Prog-Core B)    |
+| Sprint 5   | Kuzu primary (Prog-Core B)             |
+| Sprint 6   | Zalendo start (Prog-Core B)            |
+| Sprint 7   | Zalendo primary (Prog-Core B)          |
+| Sprint 8   | Zalendo QA + Zamba start (Prog-Core C) |
+| Sprint 9   | Zamba primary (Prog-Core C)            |
+| Sprint 10  | Luma start (Prog-Core C)               |
+| Sprint 11  | Luma primary (Prog-Core C)             |
+| Sprint 12  | Luma QA + Year-end wrap                |
+
+This phased hand-off model ensures squads don’t get overloaded — they always have a *current focus* plus *preparation for next*.
+
+---
+
+# 📌 Shared Roles and How They Support
+
+### **Program Sequencer (PS / CPO)**
+
+* Owns *master program cadence*
+* Verifies readiness before gates
+* Coordinates cross-squad dependencies
+* Works with QA and Leads to prioritize items
+
+---
+
+### **QA Guild (Shared)**
+
+A guild model, not a static position per squad:
+
+| **QA Specialist** | **Focus**                        |
+| ----------------- | -------------------------------- |
+| QA Guild Member 1 | Prog-Core A + cross verification |
+| QA Guild Member 2 | Prog-Core B + regression cycles  |
+| QA Guild Member 3 | Prog-Core C + integration tests  |
+
+They **float** to wherever QA work is highest.
+
+---
+
+### **Support Analysts (Shared)**
+
+These analysts refine requirements, help squads with:
+
+* Clarifying stories
+* Creating acceptance criteria
+* Preparing documentation
+* Data coordination
+
+---
+
+### **DevOps / Infra Specialist**
+
+Supports:
+
+* CI/CD pipelines
+* Environment provisioning
+* Monitoring & alerts
+* Incident response
+* Release automation
+
+---
+
+# 🤝 Squad-Coordination Rules
+
+**Sequencer + Squad Leads** hold:
+✔ Weekly cross-squad sync
+✔ Sprint planning & demo alignment
+✔ Gate readiness checklist meets before go-live
+
+**Shared Roles** embed into squads as needed during:
+
+* Hardening phases
+* Regression cycles
+* Integration testing
+* Pre-release verification
+
+---
+
+# 📏 Why This Is Efficient
+
+### ✔ **Minimal Roles, Maximum Coverage**
+
+* 3 squads instead of 6 reduce overhead
+* Shared roles eliminate redundant positions
+* Specialists focus where needed, not duplicated
+
+### ✔ **Rotational Delivery Model**
+
+* Programs get **dedicated bursts of focus**
+* Sequencer ensures no overlap chaos
+* Clear hand-offs between program cycles
+
+### ✔ **Avoids Overload**
+
+* Engineering staff focus on two programs max
+* QA is coordinated Guild style
+* Support analysts help reduce engineering context switching
+
+### ✔ **Reusable Workflows**
+
+* You only build the sequencing, quality, and release templates once
+* All squads follow the same cadence
+
+---
+
+# 📅 Example Allocation of Teams
+
+While the underlying members stay the same, you **rotate program assignments per sprint**. The squads understand the *program timeline pipeline* and work in roll-forward fashion.
+
+---
+
+# 🧠 Optional Extensions
+
+If you want, I can generate:
+
+📊 **Squad-Prog resource usage dashboard**
+📆 **Sprint calendar & sequencing map**
+📁 **Notion / Sheets template for Squad-Prog tasks**
+📋 **RACI matrix mapping support roles to squads**
+
+Just tell me which format you want!
+Absolutely — here’s your **updated tabular teams table** including:
+
+✅ **Squad-Exec** (core executives + EA)
+✅ **Squad-Core** (all shared functional roles)
+✅ **Ops Squads A–E**
+✅ **Minimal Viable Squad-Prog** (3 shared program squads)
+✅ **Governance Squad**
+
+You can paste this into **Google Sheets / Notion / Airtable** directly.
+
+---
+
+## 📋 **Teams Table — Updated with Minimal Viable Prog Squads**
+
+| **Team** | **Role / Member** | **Title / Position** | **Primary Focus** | **Domain / Coverage** |
+| -------- | ----------------- | -------------------- | ----------------- | --------------------- |
+
+### 🟦 **Squad-Exec (Executive Leadership)**
+
+| Squad-Exec | Dominic | CEO — Chief Executive Officer | Vision, ecosystem strategy | Executive |
+| Squad-Exec | Chief of Staff (CoS) | CSO — Chief of Staff | Strategic execution coordination | Executive |
+| Squad-Exec | Operations & Growth Lead | COO — Chief Operating Officer | Business ops, HR, Marketing, Sales, Growth | Executive |
+| Squad-Exec | Financial Controller | CFO — Chief Financial Officer | Multi-entity financial controls | Executive |
+| Squad-Exec | Technical Architect | CTO — Chief Technology Officer | Platform architecture & standards | Executive |
+| Squad-Exec | Legal & Entity Steward | CLO — Chief Legal Officer | Legal / entity compliance & risk | Executive |
+| Squad-Exec | Communications & Evangelism Lead | CCO — Chief Communications Officer | PR, blogs, social, podcasts, interviews | Executive |
+| Squad-Exec | Program Sequencer | CPO — Chief Planning Officer | Sequencing, phase gating, master timeline | Executive |
+| Squad-Exec | OVCS Liaison / Governance Sec | CGO — Chief Governance Officer | Governance pipelines & compliance | Executive |
+| Squad-Exec | Executive Assistant (EA) | Executive Assistant | Calendar, triage, operational support | Executive |
+
+---
+
+### 🟩 **Squad-Core (Shared Functional Resources)**
+
+| Squad-Core | QA-Guild Lead | QA Lead | QA strategy, test governance | Shared / Quality |
+| Squad-Core | QA-Engineer A | QA Specialist | Quality assurance | Shared / Quality |
+| Squad-Core | QA-Engineer B | QA Specialist | Quality assurance | Shared / Quality |
+| Squad-Core | SupportAnalyst A | Support Analyst | Backlog prep + ops support | Shared / Support |
+| Squad-Core | SupportAnalyst B | Support Analyst | Backlog prep + ops support | Shared / Support |
+| Squad-Core | SupportAnalyst C | Support Analyst | Backlog prep + ops support | Shared / Support |
+| Squad-Core | DevOps Engineer | DevOps Specialist | CI/CD + environment automation | Shared / Infra |
+
+---
+
+### 🟨 **Squad-Gov (Governance Delivery)**
+
+| Squad-Gov | GovDevLead | Governance Systems Lead | Governance OS delivery | Governance |
+| Squad-Gov | Squad-Gov Dev | Governance Engineer | Governance tech build | Governance |
+| Squad-Gov | Technical Architect (advisor) | CTO — Technical Advisor | Architecture guidance | Governance |
+| Squad-Gov | OVCS Liaison | CGO — Chief Governance Officer | Governance documentation compliance | Governance |
+
+---
+
+### 🔵 **Squad-Ops A — Ops for Wolof.io / Massai / Bahari / Moyo**
+
+| Squad-Ops A | Squad-Ops A Lead | Ops Squad Lead | Lead for Wolof/Massai/Bahari/Moyo | Ops A |
+| Squad-Ops A | BackendDev A1 | Backend Developer | Core backend dev | Ops A |
+| Squad-Ops A | FrontendDev A2 | Frontend/Integration Dev | UI & service integrations | Ops A |
+| Squad-Ops A | QA-Engineer A | QA Specialist | Testing & QA | Ops A |
+| Squad-Ops A | SupportAnalyst A | Support Analyst | Requirements & ops support | Ops A |
+
+---
+
+### 🟦 **Squad-Ops B — Ops for Nandi / Ubunye / Umoya**
+
+| Squad-Ops B | Squad-Ops B Lead | Ops Squad Lead | Lead for Nandi/Ubunye/Umoya | Ops B |
+| Squad-Ops B | BackendDev B1 | Backend Developer | Core backend dev | Ops B |
+| Squad-Ops B | FrontendDev B2 | Frontend/Integration Dev | UI & integration | Ops B |
+| Squad-Ops B | QA-Engineer B | QA Specialist | Testing & QA | Ops B |
+| Squad-Ops B | SupportAnalyst A | Support Analyst | Requirements & ops support | Ops B |
+
+---
+
+### 🟧 **Squad-Ops C — Ops for Dogon / Azande / Damara**
+
+| Squad-Ops C | Squad-Ops C Lead | Ops Squad Lead | Lead for Dogon/Azande/Damara | Ops C |
+| Squad-Ops C | BackendDev C1 | Backend Developer | Core backend dev | Ops C |
+| Squad-Ops C | FrontendDev C2 | Frontend/Integration Dev | UI & integration | Ops C |
+| Squad-Ops C | QA-Engineer B | QA Specialist | Testing & QA | Ops C |
+| Squad-Ops C | SupportAnalyst B | Support Analyst | Requirements & ops support | Ops C |
+
+---
+
+### 🟫 **Squad-Ops D — Ops for Lomwe / Niguvu / San Env**
+
+| Squad-Ops D | Squad-Ops D Lead | Ops Squad Lead | Lead for Lomwe/Niguvu/San-Env | Ops D |
+| Squad-Ops D | BackendDev D1 | Backend Developer | Core backend dev | Ops D |
+| Squad-Ops D | AIEng D2 | AI Specialist Dev | AI / advanced modules | Ops D |
+| Squad-Ops D | QA-Engineer B | QA Specialist | Testing & QA | Ops D |
+| Squad-Ops D | SupportAnalyst B | Support Analyst | Requirements & ops support | Ops D |
+
+---
+
+### 🟨 **Squad-Ops E — Ops for Mande IG / Batwa**
+
+| Squad-Ops E | Squad-Ops E Lead | Ops Squad Lead | Lead for Mande IG/Batwa | Ops E |
+| Squad-Ops E | BackendDev E1 | Backend Developer | Core backend dev | Ops E |
+| Squad-Ops E | FrontendDev E2 | Frontend/Integration Dev | UI & integration | Ops E |
+| Squad-Ops E | QA-Engineer B | QA Specialist | Testing & QA | Ops E |
+| Squad-Ops E | SupportAnalyst C | Support Analyst | Requirements & ops support | Ops E |
+
+---
+
+### 🔷 **Minimal Viable Squad-Prog Teams**
+
+#### **Prog-Core A — Kano + Ndebe**
+
+| Prog-Core A | Prog-Core A Lead | Program Squad Lead | Lead Kano & Ndebe program deliveries | Prog A |
+| Prog-Core A | ProgEngineer A1 | Program Engineer | Core feature development | Prog A |
+| Prog-Core A | ProgEngineer A2 | Integration Engineer | Integrations & workflows | Prog A |
+| Prog-Core A | QA-Guild Member | QA Specialist | Quality testing | Prog A |
+| Prog-Core A | SupportAnalyst C | Support Analyst | Backlog + ops support | Prog A |
+| Prog-Core A | Program Sequencer | CPO — Chief Planning Officer | Sequencing oversight | Prog A |
+
+#### **Prog-Core B — Kuzu + Zalendo**
+
+| Prog-Core B | Prog-Core B Lead | Program Squad Lead | Lead Kuzu & Zalendo deliveries | Prog B |
+| Prog-Core B | ProgEngineer B1 | Program Engineer | Core feature development | Prog B |
+| Prog-Core B | ProgEngineer B2 | Workflow Engineer | Service & workflow integrations | Prog B |
+| Prog-Core B | QA-Guild Member | QA Specialist | Quality testing | Prog B |
+| Prog-Core B | SupportAnalyst C | Support Analyst | Backlog + ops support | Prog B |
+| Prog-Core B | Program Sequencer | CPO — Chief Planning Officer | Sequencing oversight | Prog B |
+
+#### **Prog-Core C — Zamba + Luma**
+
+| Prog-Core C | Prog-Core C Lead | Program Squad Lead | Lead Zamba & Luma deliveries | Prog C |
+| Prog-Core C | ProgEngineer C1 | Program Engineer | Core feature development | Prog C |
+| Prog-Core C | ProgEngineer C2 | Platform Engineer | Platform interfaces | Prog C |
+| Prog-Core C | QA-Guild Member | QA Specialist | Quality testing | Prog C |
+| Prog-Core C | SupportAnalyst C | Support Analyst | Backlog + ops support | Prog C |
+| Prog-Core C | Program Sequencer | CPO — Chief Planning Officer | Sequencing oversight | Prog C |
+
+---
+
+## 📌 Notes & Usage Tips
+
+✔ **Squad-Exec** = Leadership & strategic execution
+✔ **Squad-Core** = Shared support roles used across squads
+✔ **Ops Squads A–E** = Venture operations delivery
+✔ **Prog-Core A–C** = Lean squads covering all programs
+✔ **QA Guild Members** float where testing is needed most
+✔ **Support Analysts** help reduce context switches
+
+---
+
+## 📁 Suggested Next Steps
+
+If you want, I can now generate:
+
+📊 **CSV exports** of this table
+📌 **Notion database template**
+📈 **Org chart visuals (PNG/SVG)**
+📆 **Team allocation vs sprint calendar**
+
+Just tell me what format you want!
+
+Absolutely — here is **one singular continuous table** that includes *every team member* across your entire organizational structure:
+
+✅ **Squad-Exec** (all executives + EA)
+✅ **Squad-Core** (all shared roles)
+✅ **Squad-Gov** (Governance)
+✅ **Squad-Ops A–E** (Ops delivery)
+✅ **Minimal Viable Squad-Prog** (Prog-Core A–C)
+
+This is formatted as a **single continuous table** with headers you can paste directly into a spreadsheet, Notion/Airtable, or project tool.
+
+---
+
+## 📋 **Full Unified Teams Table**
+
+| **Team**    | **Role / Member**                | **Title / Position**               | **Primary Focus**                          | **Domain / Coverage** |
+| ----------- | -------------------------------- | ---------------------------------- | ------------------------------------------ | --------------------- |
+| Squad-Exec  | Dominic                          | CEO — Chief Executive Officer      | Vision, ecosystem strategy                 | Executive             |
+| Squad-Exec  | Chief of Staff (CoS)             | CSO — Chief of Staff               | Strategic execution coordination           | Executive             |
+| Squad-Exec  | Operations & Growth Lead         | COO — Chief Operating Officer      | Business Ops, Marketing, Sales, HR, Growth | Executive             |
+| Squad-Exec  | Financial Controller             | CFO — Chief Financial Officer      | Multi-entity financial controls            | Executive             |
+| Squad-Exec  | Technical Architect              | CTO — Chief Technology Officer     | Platform architecture & standards          | Executive             |
+| Squad-Exec  | Legal & Entity Steward           | CLO — Chief Legal Officer          | Legal / entity compliance & risk           | Executive             |
+| Squad-Exec  | Communications & Evangelism Lead | CCO — Chief Communications Officer | PR, blogs, social, podcasts, interviews    | Executive             |
+| Squad-Exec  | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing, phase gating, master timeline  | Executive             |
+| Squad-Exec  | OVCS Liaison / Governance Sec    | CGO — Chief Governance Officer     | Governance pipelines & compliance          | Executive             |
+| Squad-Exec  | Executive Assistant (EA)         | Executive Assistant                | Calendar, triage, operational support      | Executive             |
+| Squad-Core  | QA-Guild Lead                    | QA Lead                            | QA strategy, test governance               | Shared / Quality      |
+| Squad-Core  | QA-Engineer A                    | QA Specialist                      | Quality assurance                          | Shared / Quality      |
+| Squad-Core  | QA-Engineer B                    | QA Specialist                      | Quality assurance                          | Shared / Quality      |
+| Squad-Core  | SupportAnalyst A                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core  | SupportAnalyst B                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core  | SupportAnalyst C                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core  | DevOps Engineer                  | DevOps Specialist                  | CI/CD + environment automation             | Shared / Infra        |
+| Squad-Gov   | GovDevLead                       | Governance Systems Lead            | Governance OS delivery                     | Governance            |
+| Squad-Gov   | Squad-Gov Dev                    | Governance Engineer                | Governance tech build                      | Governance            |
+| Squad-Gov   | Technical Architect (advisor)    | CTO — Technical Advisor            | Architecture guidance                      | Governance            |
+| Squad-Gov   | OVCS Liaison                     | CGO — Chief Governance Officer     | Governance documentation                   | Governance            |
+| Squad-Ops A | Squad-Ops A Lead                 | Ops Squad Lead                     | Lead for Wolof.io / Massai / Bahari / Moyo | Ops A                 |
+| Squad-Ops A | BackendDev A1                    | Backend Developer                  | Core backend dev                           | Ops A                 |
+| Squad-Ops A | FrontendDev A2                   | Frontend/Integration Dev           | UI & integration                           | Ops A                 |
+| Squad-Ops A | QA-Engineer A                    | QA Specialist                      | Testing & QA                               | Ops A                 |
+| Squad-Ops A | SupportAnalyst A                 | Support Analyst                    | Requirements & ops support                 | Ops A                 |
+| Squad-Ops B | Squad-Ops B Lead                 | Ops Squad Lead                     | Lead for Nandi / Ubunye / Umoya            | Ops B                 |
+| Squad-Ops B | BackendDev B1                    | Backend Developer                  | Core backend dev                           | Ops B                 |
+| Squad-Ops B | FrontendDev B2                   | Frontend/Integration Dev           | UI & integration                           | Ops B                 |
+| Squad-Ops B | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops B                 |
+| Squad-Ops B | SupportAnalyst A                 | Support Analyst                    | Requirements & ops support                 | Ops B                 |
+| Squad-Ops C | Squad-Ops C Lead                 | Ops Squad Lead                     | Lead for Dogon / Azande / Damara           | Ops C                 |
+| Squad-Ops C | BackendDev C1                    | Backend Developer                  | Core backend dev                           | Ops C                 |
+| Squad-Ops C | FrontendDev C2                   | Frontend/Integration Dev           | UI & integration                           | Ops C                 |
+| Squad-Ops C | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops C                 |
+| Squad-Ops C | SupportAnalyst B                 | Support Analyst                    | Requirements & ops support                 | Ops C                 |
+| Squad-Ops D | Squad-Ops D Lead                 | Ops Squad Lead                     | Lead for Lomwe / Niguvu / San-Env          | Ops D                 |
+| Squad-Ops D | BackendDev D1                    | Backend Developer                  | Core backend dev                           | Ops D                 |
+| Squad-Ops D | AIEng D2                         | AI Specialist Developer            | AI / advanced modules                      | Ops D                 |
+| Squad-Ops D | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops D                 |
+| Squad-Ops D | SupportAnalyst B                 | Support Analyst                    | Requirements & ops support                 | Ops D                 |
+| Squad-Ops E | Squad-Ops E Lead                 | Ops Squad Lead                     | Lead for Mande IG / Batwa                  | Ops E                 |
+| Squad-Ops E | BackendDev E1                    | Backend Developer                  | Core backend dev                           | Ops E                 |
+| Squad-Ops E | FrontendDev E2                   | Frontend/Integration Dev           | UI & integration                           | Ops E                 |
+| Squad-Ops E | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops E                 |
+| Squad-Ops E | SupportAnalyst C                 | Support Analyst                    | Requirements & ops support                 | Ops E                 |
+| Prog-Core A | Prog-Core A Lead                 | Program Squad Lead                 | Lead Kano + Ndebe program deliveries       | Prog A                |
+| Prog-Core A | ProgEngineer A1                  | Program Engineer                   | Program core feature dev                   | Prog A                |
+| Prog-Core A | ProgEngineer A2                  | Integration Engineer               | Integrations & workflows                   | Prog A                |
+| Prog-Core A | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog A                |
+| Prog-Core A | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog A                |
+| Prog-Core A | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog A                |
+| Prog-Core B | Prog-Core B Lead                 | Program Squad Lead                 | Lead Kuzu + Zalendo program deliveries     | Prog B                |
+| Prog-Core B | ProgEngineer B1                  | Program Engineer                   | Program core feature dev                   | Prog B                |
+| Prog-Core B | ProgEngineer B2                  | Workflow Engineer                  | Services & workflow integration            | Prog B                |
+| Prog-Core B | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog B                |
+| Prog-Core B | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog B                |
+| Prog-Core B | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog B                |
+| Prog-Core C | Prog-Core C Lead                 | Program Squad Lead                 | Lead Zamba + Luma program deliveries       | Prog C                |
+| Prog-Core C | ProgEngineer C1                  | Program Engineer                   | Program core feature dev                   | Prog C                |
+| Prog-Core C | ProgEngineer C2                  | Platform Engineer                  | Platform interfaces                        | Prog C                |
+| Prog-Core C | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog C                |
+| Prog-Core C | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog C                |
+| Prog-Core C | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog C                |
+
+---
+
+## 🧠 Quick Tips for Using the Table
+
+**Sorting / Filtering:**
+🔹 Filter by **Team** to see squad breakdowns
+🔹 Filter by **Title / Position** for org hierarchy
+🔹 Add columns (Email, Hire Date, Status) as needed
+
+**Importing:**
+➡️ Works great as CSV for **Notion / Airtable / Sheets**
+➡️ Use “Domain / Coverage” to build team views by function
+
+---
+
+## 📌 Want This in a Specific Format?
+
+I can generate:
+
+📄 **CSV export**
+📊 **Google Sheets template**
+📌 **Notion database template**
+📈 **Org chart visual (PNG / SVG)**
+
+Just tell me which one you want!
+
+Absolutely — here’s your updated **single continuous teams table** with **program squads using the `Squad-X` naming convention** instead of *Prog-Core X* (where X = A, B, C). Everything else stays the same, but now the **program teams follow the consistent naming pattern across the org**.
+
+You can paste this into **Google Sheets / Excel / Notion / Airtable** as a unified roster.
+
+---
+
+## 📋 **Full Unified Teams Table (With Squad-X for Program Squads)**
+
+| **Team**         | **Role / Member**                | **Title / Position**               | **Primary Focus**                          | **Domain / Coverage** |
+| ---------------- | -------------------------------- | ---------------------------------- | ------------------------------------------ | --------------------- |
+| **Squad-Exec**   | Dominic                          | CEO — Chief Executive Officer      | Vision, ecosystem strategy                 | Executive             |
+| Squad-Exec       | Chief of Staff (CoS)             | CSO — Chief of Staff               | Strategic execution coordination           | Executive             |
+| Squad-Exec       | Operations & Growth Lead         | COO — Chief Operating Officer      | Business Ops, Marketing, Sales, HR, Growth | Executive             |
+| Squad-Exec       | Financial Controller             | CFO — Chief Financial Officer      | Multi-entity financial controls            | Executive             |
+| Squad-Exec       | Technical Architect              | CTO — Chief Technology Officer     | Platform architecture & standards          | Executive             |
+| Squad-Exec       | Legal & Entity Steward           | CLO — Chief Legal Officer          | Legal / entity compliance & risk           | Executive             |
+| Squad-Exec       | Communications & Evangelism Lead | CCO — Chief Communications Officer | PR, blogs, social, podcasts, interviews    | Executive             |
+| Squad-Exec       | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing, phase gating, master timeline  | Executive             |
+| Squad-Exec       | OVCS Liaison / Governance Sec    | CGO — Chief Governance Officer     | Governance pipelines & compliance          | Executive             |
+| Squad-Exec       | Executive Assistant (EA)         | Executive Assistant                | Calendar, triage, operational support      | Executive             |
+| **Squad-Core**   | QA-Guild Lead                    | QA Lead                            | QA strategy, test governance               | Shared / Quality      |
+| Squad-Core       | QA-Engineer A                    | QA Specialist                      | Quality assurance                          | Shared / Quality      |
+| Squad-Core       | QA-Engineer B                    | QA Specialist                      | Quality assurance                          | Shared / Quality      |
+| Squad-Core       | SupportAnalyst A                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core       | SupportAnalyst B                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core       | SupportAnalyst C                 | Support Analyst                    | Backlog prep + ops support                 | Shared / Support      |
+| Squad-Core       | DevOps Engineer                  | DevOps Specialist                  | CI/CD + environment automation             | Shared / Infra        |
+| **Squad-Gov**    | GovDevLead                       | Governance Systems Lead            | Governance OS delivery                     | Governance            |
+| Squad-Gov        | Squad-Gov Dev                    | Governance Engineer                | Governance tech build                      | Governance            |
+| Squad-Gov        | Technical Architect (advisor)    | CTO — Technical Advisor            | Architecture guidance                      | Governance            |
+| Squad-Gov        | OVCS Liaison                     | CGO — Chief Governance Officer     | Governance documentation                   | Governance            |
+| **Squad-Ops A**  | Squad-Ops A Lead                 | Ops Squad Lead                     | Lead for Wolof.io / Massai / Bahari / Moyo | Ops A                 |
+| Squad-Ops A      | BackendDev A1                    | Backend Developer                  | Core backend dev                           | Ops A                 |
+| Squad-Ops A      | FrontendDev A2                   | Frontend/Integration Dev           | UI & integration                           | Ops A                 |
+| Squad-Ops A      | QA-Engineer A                    | QA Specialist                      | Testing & QA                               | Ops A                 |
+| Squad-Ops A      | SupportAnalyst A                 | Support Analyst                    | Requirements & ops support                 | Ops A                 |
+| **Squad-Ops B**  | Squad-Ops B Lead                 | Ops Squad Lead                     | Lead for Nandi / Ubunye / Umoya            | Ops B                 |
+| Squad-Ops B      | BackendDev B1                    | Backend Developer                  | Core backend dev                           | Ops B                 |
+| Squad-Ops B      | FrontendDev B2                   | Frontend/Integration Dev           | UI & integration                           | Ops B                 |
+| Squad-Ops B      | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops B                 |
+| Squad-Ops B      | SupportAnalyst A                 | Support Analyst                    | Requirements & ops support                 | Ops B                 |
+| **Squad-Ops C**  | Squad-Ops C Lead                 | Ops Squad Lead                     | Lead for Dogon / Azande / Damara           | Ops C                 |
+| Squad-Ops C      | BackendDev C1                    | Backend Developer                  | Core backend dev                           | Ops C                 |
+| Squad-Ops C      | FrontendDev C2                   | Frontend/Integration Dev           | UI & integration                           | Ops C                 |
+| Squad-Ops C      | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops C                 |
+| Squad-Ops C      | SupportAnalyst B                 | Support Analyst                    | Requirements & ops support                 | Ops C                 |
+| **Squad-Ops D**  | Squad-Ops D Lead                 | Ops Squad Lead                     | Lead for Lomwe / Niguvu / San-Env          | Ops D                 |
+| Squad-Ops D      | BackendDev D1                    | Backend Developer                  | Core backend dev                           | Ops D                 |
+| Squad-Ops D      | AIEng D2                         | AI Specialist Developer            | AI / advanced modules                      | Ops D                 |
+| Squad-Ops D      | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops D                 |
+| Squad-Ops D      | SupportAnalyst B                 | Support Analyst                    | Requirements & ops support                 | Ops D                 |
+| **Squad-Ops E**  | Squad-Ops E Lead                 | Ops Squad Lead                     | Lead for Mande IG / Batwa                  | Ops E                 |
+| Squad-Ops E      | BackendDev E1                    | Backend Developer                  | Core backend dev                           | Ops E                 |
+| Squad-Ops E      | FrontendDev E2                   | Frontend/Integration Dev           | UI & integration                           | Ops E                 |
+| Squad-Ops E      | QA-Engineer B                    | QA Specialist                      | Testing & QA                               | Ops E                 |
+| Squad-Ops E      | SupportAnalyst C                 | Support Analyst                    | Requirements & ops support                 | Ops E                 |
+| **Squad-Prog A** | Squad-Prog A Lead                | Program Squad Lead                 | Lead Kano + Ndebe program deliveries       | Prog A                |
+| Squad-Prog A     | ProgEngineer A1                  | Program Engineer                   | Core feature dev                           | Prog A                |
+| Squad-Prog A     | ProgEngineer A2                  | Integration Engineer               | Integrations & workflows                   | Prog A                |
+| Squad-Prog A     | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog A                |
+| Squad-Prog A     | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog A                |
+| Squad-Prog A     | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog A                |
+| **Squad-Prog B** | Squad-Prog B Lead                | Program Squad Lead                 | Lead Kuzu + Zalendo program deliveries     | Prog B                |
+| Squad-Prog B     | ProgEngineer B1                  | Program Engineer                   | Core feature dev                           | Prog B                |
+| Squad-Prog B     | ProgEngineer B2                  | Workflow Engineer                  | Services & workflow integration            | Prog B                |
+| Squad-Prog B     | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog B                |
+| Squad-Prog B     | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog B                |
+| Squad-Prog B     | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog B                |
+| **Squad-Prog C** | Squad-Prog C Lead                | Program Squad Lead                 | Lead Zamba + Luma program deliveries       | Prog C                |
+| Squad-Prog C     | ProgEngineer C1                  | Program Engineer                   | Core feature dev                           | Prog C                |
+| Squad-Prog C     | ProgEngineer C2                  | Platform Engineer                  | Platform interfaces                        | Prog C                |
+| Squad-Prog C     | QA-Guild Member                  | QA Specialist                      | Quality testing                            | Prog C                |
+| Squad-Prog C     | SupportAnalyst C                 | Support Analyst                    | Backlog + ops support                      | Prog C                |
+| Squad-Prog C     | Program Sequencer                | CPO — Chief Planning Officer       | Sequencing oversight                       | Prog C                |
+
+---
+
+## 🧠 Notes
+
+✔ **Program squads** now consistently use **Squad-Prog X**
+✔ Program sequencing roles are included within each Squad-Prog for clarity, but you may choose to indicate them as *shared* if preferred
+✔ This table remains *one continuous set* — perfect for spreadsheets and database tables
+
+---
+
+## 📌 Want This in a Specific Format?
+
+I can generate:
+
+📂 **CSV export**
+📊 **Google Sheet template**
+📌 **Notion / Airtable import layout**
+📈 **Org chart visuals (PNG/SVG)**
+
+Just tell me your preferred format and I’ll generate it!

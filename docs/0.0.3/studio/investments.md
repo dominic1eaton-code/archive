@@ -12571,3 +12571,1916 @@ I can generate:
 ➡ A **visual ledger schema + sample ledger entries**
 
 Just tell me which one to produce.
+
+Below is a **comprehensive, systems-aligned ruleset** for how your **personal office (Dominic Eaton Software Engineering Firm — DESF)** handles:
+
+✅ Members
+✅ Hires / Employees
+✅ Partners
+✅ Stewards
+✅ Lifecycles (joining → onboarding → role evolution → exit)
+
+This covers both **governance and operational implementation** in the context of your Ashe/Msingi/OVCS/Commons ecosystem.
+
+---
+
+# 🧭 PRIMARY PRINCIPLE
+
+> **Roles and participation are defined by *function + constraints*, not by ownership or capricious title.**
+> Your personal office does *not* accumulate authority via people. It *structures pathways* for them.
+
+This is **institution-first personnel design**, not personality-first.
+
+---
+
+# 1️⃣ ROLE ARCHITECTURE (WHO EXISTS)
+
+We define **five categories**:
+
+| Category              | Purpose                                    | Authority Class               |
+| --------------------- | ------------------------------------------ | ----------------------------- |
+| **Members**           | Core participants in DESF                  | Class A (hire) or B (steward) |
+| **Employees / Hires** | Operational implementers                   | Class A                       |
+| **Partners**          | External collaborators, standard contracts | Class F                       |
+| **Stewards**          | Long-term oversight and constraint         | Class B / C / D               |
+| **Governance Bodies** | Collective decision nodes                  | Class C                       |
+
+Each group has **distinct rights, access, and lifecycle events.**
+
+---
+
+## 1.1 MEMBERS
+
+**Definition**
+
+Individuals formally associated with DESF for governance, capacity, or workflow roles.
+
+**Categories**
+
+* **Class A Members** — Operating staff
+* **Class B Members** — Strategic stewards
+* **Class C Members** — Independent constraint authorities
+* **Class D Members** — Commons / human viability stewards
+* **Class E Member** — Founder (Navigator)
+* **Class F Members** — External partners
+
+**Rights**
+
+* Defined by role; never absolute
+* Always bound by charter + OVCS
+* No uncontrolled equity or claim
+
+**Governance**
+
+* Memberships exist in a **registry**
+* Each record has:
+
+  * ID
+  * Role class
+  * Start/end dates
+  * Authority constraints
+  * OVCS audit status
+
+---
+
+## 1.2 HIRES / EMPLOYEES
+
+These are **operational roles** — staff in DESF.
+
+**Examples**
+
+* Chief of Staff
+* Program Sequencer
+* Ops & Admin Lead
+* Finance Controller
+* Technical Architect
+* OVCS Liaison
+* Communications Lead
+* Executive Assistant
+
+**Employment Lifecycle**
+
+1. **Recruit**
+2. **Contract**
+3. **Onboard**
+4. **Operate**
+5. **Review**
+6. **Offboard**
+
+**Key Rules**
+
+* Contracts specify **authority, scope, sunset, deliverables**
+* Must comply with DESF firewall policies
+* Performance reviews align with Ashe + Msingi artifact cycles
+* No employee can become a steward without charter process
+
+---
+
+## 1.3 PARTNERS
+
+External collaborators
+(Class F participants without membership units)
+
+**Examples**
+
+* External auditors
+* Law firms
+* Domain experts (contract)
+* Research partners
+
+**Partner Lifecycle**
+
+* Engagement agreement
+* Defined deliverables + exit
+* No membership units
+* Asset / IP rights defined in contract
+* No governance authority
+
+---
+
+## 1.4 STEWARDS
+
+Independent oversight roles
+(Class B / C / D)
+
+**Steward Types**
+
+* **Strategic Steward (Class B)** — Long-term system design, conceptual guardrails
+* **Constraint Guardian (Class C)** — Authority veto, structural braking
+* **Human Viability Steward (Class D)** — Psychological/ethical safety
+
+**Steward Lifecycle**
+
+1. **Nomination**
+2. **Appointment**
+3. **Oath + Charter acceptance**
+4. **Active stewardship**
+5. **Rotation or Exit**
+6. **Succession transition**
+
+**Steward Authorities**
+
+* Not operational owners
+* Decision rights arise from charter
+* Independent of being paid or unpaid
+* Subject to OVCS enforceable scope
+
+---
+
+## 1.5 GOVERNANCE BODIES
+
+These include:
+
+* DESF Governance Council
+* OVCS Board / Constraint Council
+* Commons Stewardship Assemblies
+
+**Governance Lifecycle**
+
+* Charter formation
+* Standing committees
+* Quorum rules
+* Ratification & veto mechanisms
+* Sunset/rotation defined
+
+---
+
+# 2️⃣ GENERAL LIFECYCLES
+
+Below are standard lifecycle templates used across roles:
+
+---
+
+## 2.1 MEMBER LIFECYCLE
+
+```
+Nomination → Vetting → Appointment → Role Tenure → Review → Exit / Rotation
+```
+
+**Nomination**
+
+* By existing stewards, council
+* Documented with criteria
+
+**Vetting**
+
+* Conflict of interest check
+* Authority compatibility
+* Human viability review
+
+**Appointment**
+
+* Official letter + charter reference
+* OVCS awareness if overlapping with federation functions
+
+**Role Tenure**
+
+* Time-boxed terms
+* Renewal via governance process
+
+**Review**
+
+* Mid-term review
+* Artifact-based performance (using Msingi/Ashe logs where relevant)
+
+**Exit / Rotation**
+
+* Sunset clause automatically triggers exit if term ends
+* Mechanism for replacement cleanly defined
+
+---
+
+## 2.2 HIRE / EMPLOYEE LIFECYCLE
+
+```
+Recruit → Onboard → Execute → Review → Offboard → Alumni Path
+```
+
+* **Recruitment** — open posting or invite, defined skill grids
+* **Onboarding** — charter education, firewall rules, OVCS norms
+* **Execution** — defined deliverables, KPI, artifact capture
+* **Review** — quarterly + annual with Ashe metrics
+* **Offboard** — knowledge handoff, access revocation
+* **Alumni** — may become partners or stewards (via chartered path)
+
+---
+
+## 2.3 PARTNER LIFECYCLE
+
+```
+Proposal → Contract → Engagement → Metrics / Deliverables → Close
+```
+
+* No membership entitlements
+* Contract specifies rights/limits
+* No governance voting rights
+
+---
+
+## 2.4 STEWARD LIFECYCLE
+
+```
+Nominate → Charter Oath → Authority Activation → Oversight → Rotation/Exit
+```
+
+**Charter Oath**
+
+* Affirm constraints
+* Acknowledge OVCS authority
+* Accept rotation rules
+
+**Activation**
+
+* Receive steward unit (non-ownership, governance role)
+* Access to audit + veto channels
+
+**Rotation**
+
+* Terms limited
+* Independent review for renewal
+
+---
+
+# 3️⃣ WHO HANDLES WHAT
+
+| Role                | Owns Org | Operates | Oversees | Audited By        |
+| ------------------- | -------- | -------- | -------- | ----------------- |
+| DESF Staff          | ❌        | ✔        | ❌        | OVCS + Governance |
+| Stewards            | ❌        | ❌        | ✔        | OVCS              |
+| Governance Council  | ❌        | ✔        | ✔        | OVCS              |
+| Partners            | ❌        | ✔        | ❌        | Contract + Audits |
+| OVCS Board          | ❌        | ❌        | ✔        | Public + Stewards |
+| Federation Entities | ❌        | ✔        | ✔        | OVCS + Commons    |
+
+**Key:** **Ownership is never operational authority.**
+
+---
+
+# 4️⃣ LINKING PEOPLE TO SYSTEM CYCLES
+
+## 🌀 MSINGI CYCLE
+
+* **Program Sequencer** leads phase transitions
+* **Stewards** provide conceptual integrity review
+* **Employees** produce artifacts
+* **OVCS** verifies eligibility for next phase
+
+Artifacts are captured on the **Immutable Ledger**.
+
+## 🔁 ASHE CYCLE
+
+* **Stewards + Sequencer** evaluate feedback loops
+* **Human Viability** monitors impact
+* **Commons** receives deliverables
+* **Governance Council** adopts learnings
+
+---
+
+# 5️⃣ OFFBOARDING & SUCCESSION (BUILT IN)
+
+### For Employees
+
+* Knowledge transfer
+* Access removal
+* Transition notes archived
+* Office alumni directory
+
+### For Stewards
+
+* Handover meeting
+* Artifact signoff
+* Replacement steward appointed
+
+### For Members
+
+* Exit certificates
+* Rights revocation per charter
+* Data removal from boards
+
+---
+
+# 6️⃣ DOCUMENTS THAT RUN THESE LIFECYCLES
+
+You should have:
+
+✔ **Role Definition Pack** — job scopes
+✔ **Charter Annexes** — role powers
+✔ **Onboarding Template** — legal + operational
+✔ **Offboarding Checklist** — entitlement removal
+✔ **Rotation Rules** — steward term logic
+✔ **Conflict of Interest Policy** — transparency
+✔ **Immutable Audit Log** — automatic capture
+
+---
+
+# 7️⃣ SYSTEM SAFETY RULES
+
+These are **non-negotiable constraints:**
+
+### A. Authority Cannot Be Inherited
+
+* No steward → operator pipeline can bypass governance
+
+### B. Staff Cannot Become Stewards Without Charter Path
+
+* Prevents self-promotion capture
+
+### C. Partners Cannot Vote
+
+* Secure governance purity
+
+### D. All People Events Emit Artifacts
+
+* Onboard, review, exit → all logged
+
+---
+
+# 8️⃣ VISUAL LIFECYCLE MAP
+
+```
+ MEMBER
+   |
+ Nominated → Vetting → Appointed → Term → Review → Exit
+   |                                                ^
+ STEWARD────────────────────────────────────────────|
+   |                                                |
+ HIRES/EMPLOYEES                                         PARTNERS
+   |                                                |
+Recruit → Onboard → Execute → Review → Offboard → Re-engage?
+```
+
+---
+
+# 9️⃣ Example Role Vignettes
+
+### A. Program Sequencer
+
+* Class: A
+* Lifecycle: Hire → Onboard → Execute → Review → Exit/Rotation
+* Governance Path: No voting rights, artifact authority only
+* Audited by OVCS
+
+### B. OVCS Constraint Guardian
+
+* Class: C
+* Lifecycle: Nominate → Charter Oath → Oversight → Rotation/Exit
+* Authority: Veto + blueprint enforcement
+
+### C. Human Viability Guardian
+
+* Class: D
+* Lifecycle: Nominate → Evaluate impact → Pause authority if harm detected
+
+---
+
+# 🔚 SUMMARY
+
+Your personal office handles people by:
+
+🔹 **Defining clear roles** that are structurally meaningful but not ownership-capturing
+🔹 **Separating operational execution from governance oversight**
+🔹 **Embedding lifecycle governance (join → operate → exit)**
+🔹 **Ensuring OVCS and charters validate transitions**
+🔹 **Logging every change as an artifact in the immutable registry**
+
+This way your entire ecosystem stays:
+✔ Legally robust
+✔ Morally sound
+✔ Audit-friendly
+✔ Survivor-proof
+
+---
+
+If you want next, I can produce:
+
+📌 A **Notion/Linear/Jira role schema**
+📌 A **lifecycle automation script** (Python/JSON schema)
+📌 A **template onboarding + offboarding pack**
+
+Just tell me which one you want.
+
+Here’s a **name + description** for the top-level bootstrap document you asked for — one that serves as the **initial artifact container and canonical source of truth for any entity** (including your personal office, estates, cooperatives, and federation components).
+
+---
+
+## **Name:**
+
+**Entity Genesis Framework (EGF)**
+
+---
+
+## **Description:**
+
+The **Entity Genesis Framework (EGF)** is the **root artifact and canonical founding document** for any organizational entity created within your system of governance (e.g., personal office, estate coop, federation coop, venture entity). The EGF functions as the *origin point* in the artifact library, and it launches the entity into existence with full institutional clarity, authority grounding, and lifecycle support.
+
+### **Purpose**
+
+The EGF formalizes both **intention and structure** for an entity, ensuring it is:
+
+* **Legally grounded**
+* **Governance-complete**
+* **Sequence-tied to Msingi & Ashe cycles**
+* **Audit-ready for OVCS oversight**
+* **Interoperable with federation and commons protocols**
+* **Versioned and immutable in the artifact registry**
+
+### **Core Roles**
+
+The EGF acts as:
+
+* **Charter container** — Holds the charter or articles defining the entity’s purpose, powers, and limits.
+* **Business blueprint** — Includes business plans, financial frameworks, and sustainability models.
+* **Roadmap anchor** — Embeds sequence and milestone plans tied to Msingi phases.
+* **Constitutional record** — Contains foundational governance rules and constraints.
+* **Design library head** — Serves as the root index for all future documents: ideas, concepts, designs, reports, briefs, and evaluations.
+
+### **Artifact Categories Typically Included**
+
+1. **Charters / Constitutions**
+2. **Business Plans & Models**
+3. **Roadmaps / PI Plans / Sprint Maps**
+4. **Governance Manuals & Constraint Policies**
+5. **Stewardship & Authority Agreements**
+6. **Immutable Verification Signatures**
+7. **Msingi / Ashe Lifecycle Artifacts**
+8. **Risk & Compliance Documentation**
+9. **Insurance, Tax & Financial Frameworks**
+10. **Contracts & Licenses**
+
+### **Format & Structure**
+
+The EGF is structured as a *container artifact* in your immutable ledger with fields such as:
+
+* **Entity ID**
+* **Entity Type**
+* **Founding Timestamp**
+* **Founders + Initial Stewards**
+* **Charter Reference**
+* **Artifact Pointers (hashes)**
+* **Governance Ruleset Pointer**
+* **Initial Roadmap**
+* **Msingi Phase Assignments**
+* **Constraints & Sunset Conditions**
+
+### **Lifecycle Role**
+
+Every entity’s EGF is:
+
+* **Created at inception**
+* **Immutable once published**
+* **Referenced by governance processes**
+* **Updated only via formal amendment artifacts**
+* **Audited on every Msingi phase transition**
+
+It serves as the **genetic record** for the entity’s institutional identity.
+
+---
+
+## **Why “Entity Genesis Framework”?**
+
+* **Entity** — Applies universally to any organizational form
+* **Genesis** — Marks the *origin and identity*
+* **Framework** — Not just a document; a living scaffold for evolution
+
+---
+
+## **Example Use Cases**
+
+⚙️ *Dominic Eaton Software Engineering Firm*
+→ EGF contains charter, business plan, onboarding roadmap, constraint policies.
+
+🏛️ *Ubuntuwa Commons (NDAA, KUMBU, etc.)*
+→ EGF per commons subcoop with asset protocols and license constraints.
+
+🌐 *Pamoja Federation Coop*
+→ Meta-EGF tying together federation charter, member classes, boundary rules, and shared artifacts.
+
+🏙️ *Family Estate Coop*
+→ EGF defining shared estate assets, office spawn rules, firewall policies, stewardship rotation.
+
+📌 *First Venture Coop*
+→ EGF includes governance, capital notes, exit conditions, Msingi profile.
+
+---
+
+If you want, I can generate a **full template version of the Entity Genesis Framework** (fillable and tailorable to any of your legal entities) in a real document format, complete with:
+
+* Metadata schema
+* Charter boilerplate
+* Roadmap sections
+* Authority bindings
+  Just tell me which entity to tailor it for first.
+
+Great question — you’ve defined **EGF (Entity Genesis Framework)** as the framework, and now you’re asking:
+
+> **What is the *first document* that starts the EGF — the primal artifact that ignites the identity and life of an entity?**
+
+The answer is conceptually important because it defines **the moment an entity is *born institutionally***.
+
+---
+
+## 🧬 **The First Document of the EGF**
+
+### **Official Name**
+
+**Founding Manifesto & Intent Declaration (FMID)**
+
+Other acceptable synonyms you might see in organizational design include:
+
+* **Founding Statement**
+* **Inception Manifesto**
+* **Genesis Declaration**
+* **Entity Intent Charter**
+
+But in your system — rooted in authority constraints, sequencing, and artifact truth — the canonical first document is the:
+
+> 🏛️ **Founding Manifesto & Intent Declaration (FMID)**
+
+---
+
+## 🟡 **What the FMID Is**
+
+The FMID is:
+
+### ✔ The initial *intent artifact*
+
+It expresses *why* the entity exists — **before anything else is defined**.
+
+### ✔ A contract with reality
+
+Not just a vision — it captures:
+
+* Purpose
+* Boundaries
+* Non-goals
+* Authority scope
+* High-level metrics of success/failure
+
+### ✔ The true “genetic marker”
+
+It is the first artifact stored in the EGF and the seed precedent for all subsequent charters, plans, policies, and governance docs.
+
+---
+
+## 🧱 How the FMID Fits in the Lifecycle
+
+```
+[FMID] → [Charter / Constitution] → [Roadmap] → [Business Plan] → [Governance Rules] → [Operational Artifacts]
+```
+
+So the FMID is the **actual first artifact** of the EGF. Everything else flows from it and references it.
+
+---
+
+## 📜 **What the FMID Contains**
+
+Below are the *required fields and sections* of an FMID:
+
+### **1) Entity Name**
+
+* Formal name (even if provisional)
+* Legal form pending incorporation
+
+### **2) Founding Timestamp**
+
+* Exact date/time of declaration
+* Jurisdiction reference if relevant
+
+### **3) Purpose Statement (Why Now?)**
+
+* Clearly articulated mission (1–2 paragraphs)
+* Short, medium, long-term intent
+* Non-overlapping against existing entities
+
+### **4) Non-Goals**
+
+* What the entity *will not do*
+* What it explicitly rejects
+* Alignment to governance limits
+
+### **5) Operational Sphere**
+
+* Domain of action, problem space
+* Boundaries of authority
+* Initial scope without details
+
+### **6) Authority Dependencies**
+
+* Which constraint authorities it defers to (e.g., OVCS, Estate firewall)
+* Which potential stewards are relevant
+
+### **7) Initial Stakeholders**
+
+* Navigator / Founder
+* Initial Stewards
+* Known collaborators
+
+### **8) Minimum Viability Criteria**
+
+* What must be true for this intent to be considered “born”
+* Usually a checklist that scaffolds the next artifact (the charter)
+
+### **9) Risks & Failure Conditions**
+
+* What counts as termination or non-viability
+* Red lines the entity must not cross
+
+### **10) Artifact Lineage Pointer**
+
+* A unique artifact identifier (hash, UUID)
+* Placeholder for future linkage
+
+---
+
+## 📥 The FMID in a Sample Template Form
+
+Here’s a **brief template** you can use to create one for *any* entity:
+
+```
+FOUNDING MANIFESTO & INTENT DECLARATION (FMID)
+
+1) ENTITY NAME:
+   - [e.g., “Dominic Eaton Software Engineering Firm”]
+
+2) FOUNDING DATE:
+   - [YYYY-MM-DD HH:MM:SS UTC]
+
+3) PURPOSE:
+   - [High-level mission]
+
+4) NON-GOALS:
+   - [Explicit exclusions]
+
+5) OPERATIONAL SPHERE:
+   - [Scope boundaries]
+
+6) AUTHORITY DEPENDENCIES:
+   - [List OVCS, Estate, Commons, Laws]
+
+7) INITIAL STAKEHOLDERS:
+   - Founder: [Name]
+   - Initial Stewards: [Names + roles]
+   - Partners: [Optional]
+
+8) MINIMUM VIABILITY CRITERIA:
+   - [Conditions that must be true for the entity to proceed]
+
+9) RISKS & FAILURE CONDITIONS:
+   - [Short list of intolerable outcomes]
+
+10) ARTIFACT LINEAGE:
+   - FMID-ID: [UUID or Hash]
+   - Next expected artifact (Charter reference placeholder)
+```
+
+---
+
+## 🧠 Why FMID Comes *Before* the Charter
+
+* The **FMID declares intent** but does *not* yet give legal powers.
+* The **Charter** formalizes authority *after* the intent is established.
+
+This is similar to:
+
+* **Kano → Ndebe → Charter** in the Msingi cycle
+* Intent → Concept → Formal authority
+
+In other words:
+
+> **Intent precedes Authority.**
+
+---
+
+## 🛡 FMID as an Artifact
+
+As with all artifacts in your ecosystem:
+
+* It gets a **ledger entry**
+* It has a cryptographic **hash**
+* It has an artifact ID
+* It is referenced by later artifacts
+* It can be audited by OVCS
+
+FMID is the **root of the artifact chain**.
+
+---
+
+## ⚡ Example (Literal Tiny FMID for DESF)
+
+```
+FMID-20260101-DESEF
+Entity: “Dominic Eaton Software Engineering Firm”
+Founded: 2026-01-01T12:00:00Z
+Purpose: Sequencing, governance design, institutional architecture
+Non-Goals: Does not own equity, does not hold federation authority
+Operational Sphere: Institution design, sequencing, standard creation
+Authority Dependencies: OVCS, Estate Firewall, Commons Constraints
+Stakeholders: Navigator — Dominic Eaton; Steward — OVCS Anchor; Systemics — Kumbu Architect
+Minimum Viability:
+  - Legal incorporation proof
+  - Charter drafted
+  - Authority gate defined
+Risks:
+  - Conflicts of interest not resolved
+  - Equities held without sunset
+FMID-ID: <hash>
+Next Artifact: Charter-REF
+```
+
+---
+
+## 🧩 Summary
+
+**The first document of the EGF is the …**
+
+✨ **Founding Manifesto & Intent Declaration (FMID)**
+
+It is the **seed artifact** that:
+
+* Declares the entity’s intention
+* Defines boundaries and authority dependencies
+* Prepares for chartering
+* Becomes the first item in the artifact library
+
+---
+
+If you want, I can:
+✅ Generate a **fillable FMID template** for any specific entity
+✅ Add it to your **artifact ledger schema**
+✅ Provide a **fillable digital form** (Notion/JSON/Jira)
+— just tell me which entity you want to start with.
+
+Absolutely — below is a **formalized structure** that expands the **Entity Genesis Framework (EGF)** to include two key foundational documents:
+
+1. A **General-Purpose Investment Memo** — *not limited to OVCS engagement*
+   (for use in strategy, capital raises, partnership proposals, stakeholder engagement, etc.)
+
+2. A **Formal Founding Manifesto & Intent Declaration (FMID)**
+   — turned into a precise, templated institutional artifact suitable as the **first artifact** in *any* EGF.
+
+These are written in **professional, legal/strategic document style** so they can be used directly for real-world governance, legal filings, partnerships, federation integrations, or capital engagement with any aligned party (e.g., MIG, foundations, aligned institutions, public partners).
+
+---
+
+# **1) ENTITY GENESIS FRAMEWORK (EGF) — GENERAL-PURPOSE INVESTMENT MEMO**
+
+## **Entity Genesis Investment Memo (EGIM)**
+
+**Document Type:** Strategic Investment Memorandum
+**Purpose:** Present a structured narrative, risk/benefit analysis, and operational plan for an entity founded under the EGF, for consumption by prospectives (stakeholders, partners, capital allocators), while preserving the governance/constraint model (e.g., OVCS, Commons, federation standards).
+
+---
+
+### **EGIM — TEMPLATE**
+
+#### **Cover Page**
+
+* **Entity Name:**
+* **Entity Genesis Framework ID:**
+* **Document Version:**
+* **Date:**
+* **Prepared By:**
+* **Approved By:**
+* **Contact:**
+
+---
+
+## **1. EXECUTIVE SUMMARY**
+
+**Purpose.**
+A 3–5 paragraph summary of:
+
+* Why the entity exists
+* What problem space it addresses
+* How it integrates with the Ashe/Msingi/Commons/cooperative ecosystem
+* Who the key originators are
+* What form of engagement is requested from the recipient
+
+---
+
+## **2. CONTEXT & BACKGROUND**
+
+**Ecosystem Context.**
+
+* How this entity relates to OCVC, Pamoja Federation, Ubuntuwa Commons, etc.
+* Pertinent historical sequences (Msingi outputs or unmet needs)
+
+**Predecessor Artifacts.**
+
+* FMID reference
+* EGF origin metadata (artifact ID, timestamps)
+
+---
+
+## **3. ENTITY DESCRIPTION & SCOPE**
+
+**Mission & Vision.**
+
+* 1–3 sentences (mission)
+* 1–2 paragraphs (longer outcome context)
+
+**Scope Boundaries.**
+
+* What’s included
+* What’s explicitly excluded
+
+**Authority Dependencies.**
+
+* Which constraint or sequencing authorities this entity defers to (OVCS, Estate Coop, Commons rules)
+
+---
+
+## **4. OPERATIONAL MODEL**
+
+**Governance.**
+
+* Charter summary
+* Steward roles
+* Rotation, veto, and exit policies
+
+**Execution Structure.**
+
+* Staff roles
+* Key committees
+* Artifact flow (Msingi/Ashe)
+
+**Asset Interaction.**
+
+* Cash handling
+* Custodial assets, if any
+* Capital interactions via Mande Investment Group (MIG)
+
+---
+
+## **5. MARKET / ECOSYSTEM ANALYSIS**
+
+**Problem Space.**
+
+* Who suffers the problem?
+* How exists at scale?
+* Why traditional entities have failed
+
+**Target Beneficiaries / Users.**
+
+* Internal
+* Partners
+* Clients
+* Public impact
+
+---
+
+## **6. RISK & MITIGATION**
+
+* Strategic risk
+* Operational risk
+* Authority capture risk
+* Financial risk
+* Human viability
+* Commons collision risks
+
+Each paired with mitigation.
+
+---
+
+## **7. ROADMAP / MILESTONES**
+
+**High-Level Timeline**
+
+| Phase            | Outcome              | Start | End   |
+| ---------------- | -------------------- | ----- | ----- |
+| FMID             | Intent declared      | D0    | D0    |
+| Charter          | Governance defined   | D1    | +30d  |
+| Msingi Kano      | Sensemaking          | +30d  | +60d  |
+| Ndebe            | Frame                | +60d  | +90d  |
+| Kuzu             | Feasibility          | +90d  | +120d |
+| Zambe            | Authorization gating | +120d | +180d |
+| Ashe Integration | Feedback loop        | +180d | +365d |
+
+---
+
+## **8. FINANCIAL & RESOURCE SUMMARY**
+
+* Budget outline (year 1)
+* Staff costs
+* Operational expenses
+* Capital requirements
+* Funding sources
+* Capital participation frameworks (MIG and safeguards)
+
+> **Important:** This memo must explicitly state that no entity under EGF holds governing equity or capital claims directly — only permitted through legal cooperatives or capital conduits like MIG.
+
+---
+
+## **9. LEGAL & COMPLIANCE STRUCTURE**
+
+* Jurisdiction details
+* Legal form
+* Expected filings
+* Contractual obligations
+* Firewall policies (estate, federation, commons)
+
+---
+
+## **10. CONCLUSION & CALL TO ACTION**
+
+* Summary of ask
+* Next steps
+* Contact and governance signoff
+
+---
+
+### **EGIM — MANDATORY METADATA BLOCK (Top of Document)**
+
+```
+EGF Artifact ID: <UUID / Ledger Hash>
+FMID Reference: <Linked Artifact ID>
+Entity Name:
+Document Version:
+Approval Authority:
+Artifact Storage Reference (ledger block):
+```
+
+---
+
+# **2) FORMAL FOUNDING MANIFESTO & INTENT DECLARATION (FMID)**
+
+The FMID is your **primal identity artifact** — the *first* document in the EGF that *defines an entity’s existence before legal formality*.
+
+Below is a fully formalized FMID template.
+
+---
+
+## **Founding Manifesto & Intent Declaration (FMID)**
+
+**Version:** 1.0
+**Artifact ID:** `<UUID / Hash>`
+**Entity Name:** `<Provisional Legal Name>`
+**Date:** `<YYYY-MM-DD HH:MM:SS UTC>`
+
+---
+
+### **1. DECLARATION OF INTENT**
+
+We, the undersigned, hereby declare the intentional genesis of the entity known provisionally as:
+
+> **“<Entity Name>”**
+
+to fulfill the purpose, within the constraints, and in service of the ecosystem described herein, and under governance frameworks recognized by relevant authorities (e.g., OVCS, Ubuntuwa Commons, Estate Coop frameworks).
+
+---
+
+### **2. PURPOSE STATEMENT**
+
+**Primary Purpose:**
+[Concise statement of functional intent]
+
+**Secondary Purposes (Supportive):**
+
+* [List up to 3 supporting objectives]
+
+---
+
+### **3. NON-GOALS & BOUNDARIES**
+
+This entity shall **not**:
+
+* [Itemize explicit exclusions]
+* e.g., “Hold equity in federation entities”
+* e.g., “Accrue governing control through capital”
+
+---
+
+### **4. AUTHORITY CONTEXT**
+
+This FMID asserts the entity’s deference to sequencing/constraint authorities:
+
+* **Constraint Authority:** OVCS
+* **Commons Authority:** Ubuntuwa Commons
+* **Sequencing Authority:** DESF + Msingi processes
+
+---
+
+### **5. OPERATIONAL SPHERE**
+
+**Domain:**
+[Operational boundary — the specific functional domain]
+
+**Scope:**
+[What activities are in scope]
+
+**Out of Scope:**
+[Activities explicitly excluded]
+
+---
+
+### **6. STAKEHOLDERS AT INCEPTION**
+
+* **Founder/Navigator:** `<Name>`
+* **Initial Stewards:** `<List with Classes>`
+* **Initial Partners:** `<If any>`
+* **Legal Counsel:** `<Name>`
+* **OVCS Liaison:** `<Name>` (if engaged)
+
+---
+
+### **7. MINIMUM VIABILITY CRITERIA**
+
+The entity will only be considered operationally instantiated (*) when all of the following are achieved:
+
+1. Legal identity filed in applicable jurisdiction
+2. Charter drafted and ratified
+3. Governance roles defined
+4. Msingi sequencing board configured
+5. OVCS constraint path acknowledged
+6. Initial roadmap approved
+
+---
+
+### **8. RISK CONDITIONS & FAILURE TRIGGERS**
+
+**Failure Triggers:**
+
+* Loss of authority alignment
+* Breach of no-ownership policy
+* Harm to human viability benchmarks
+
+**Termination Conditions:**
+
+* Sunset without execution
+* Theft of asset mandates
+* OVCS enforcement order
+
+---
+
+### **9. OPEN REFERENCE LINKS**
+
+```
+EGF Artifact ID: <hash>
+Charter Placeholder: <artifact reference>
+Initial X Roadmap: <artifact reference>
+Governance Template: <artifact reference>
+```
+
+---
+
+### **10. SIGNATORIES**
+
+| Role                        | Name   | Signature | Date   |
+| --------------------------- | ------ | --------- | ------ |
+| Founder / Navigator         | <Name> | <Sig>     | <Date> |
+| Initial Steward (OVCS)      | <Name> | <Sig>     | <Date> |
+| Initial Steward (Systemics) | <Name> | <Sig>     | <Date> |
+
+---
+
+## 📌 HOW THESE FIT INTO YOUR SYSTEM
+
+* **FMID** is the *first artifact* in the EGF — it *declares existence*.
+* **EGIM** is the *investment/engagement artifact* used for external engagement.
+* Both are stored in the **immutable artifact ledger** with verifiable IDs and hash pointers.
+* Future artifacts (charter, plans) *reference them* as parents in the artifact lineage.
+
+---
+
+## 📍 NEXT YOU CAN GENERATE
+
+If you want, I can now produce:
+
+📄 **A filled-in FMID + EGIM for a specific entity** (e.g., your personal office)
+📦 **A JSON/Notion template** for both artifacts
+⚙️ **A schema + UI spec** for the artifact capture system
+
+Just tell me which one to generate next.
+
+
+Absolutely — here is the **Entity Genesis Framework (EGF)** instantiated as a *fully completed artifact* for your **personal office**, i.e., the **Dominic Eaton Software Engineering Firm (DESF)**.
+
+This document is intended to be the **official, first artifact** in the EGF artifact library for DESF. It is structured as a *Founding Manifesto & Intent Declaration (FMID)* combined with references to the next planned artifacts (charter, roadmap, governance artifacts, etc.). It is designed to be **immutable, verifiable, and machine-readable**, while also suitable for legal and governance use.
+
+Below you’ll find:
+
+1. The **FMID artifacts**
+2. EGF metadata and artifact references
+3. Fragments of next planned artifacts (charter pointers, initial roadmap)
+4. Optional JSON metadata suitable for the artifact ledger
+
+---
+
+# 🧬 ENTITY GENESIS FRAMEWORK (EGF)
+
+## 🔹 Founding Manifesto & Intent Declaration (FMID)
+
+### **Dominic Eaton Software Engineering Firm (DESF)**
+
+---
+
+### **1. MASTER METADATA**
+
+```
+Entity Name: Dominic Eaton Software Engineering Firm
+EGF Artifact ID: EGF-DESF-20260101-001
+FMID Artifact ID: FMID-DESF-20260101-001
+Entity Type: Nonprofit Institutional Design & Sequencing Organization
+Legal Form: 501(c)(3) / Nonprofit Organization (or equivalent jurisdiction)
+Founding Date: 2026-01-01T12:00:00Z
+Primary Entity Identifier: DESF-2026
+Artifact Ledger Reference: <immutable_ledger_hash_…>
+Primary Contact: dominic@desf.org
+```
+
+---
+
+### **2. DECLARATION OF INTENT**
+
+**2.1 Purpose**
+The purpose of the *Dominic Eaton Software Engineering Firm* (hereafter “DESF” or “the Office”) is to serve as an independent **institutional design, sequencing, governance engineering, and constraint authority enablement organization**. DESF constructs, sequences, and authorizes entities (cooperatives, platforms, commons, federated institutions) using structured methods, including the Msingi and Ashe cycles. DESF provides governance architecture, sequencing artifacts, and constraint frameworks without capturing operational or capital ownership of the entities it helps establish.
+
+**2.2 Long-Term Vision**
+DESF exists to catalyze resilient, self-governing institutions, minimizing founder dependency while maximizing systemic coherence. DESF’s engagements are time-bounded, traceable, and audited by external governance constraints (e.g., OVCS) to guarantee alignment with institutional independence and ethical stewardship.
+
+---
+
+### **3. NON-GOALS (BOUNDARIES)**
+
+The following are explicitly *not* objectives of DESF:
+
+* DESF **shall not hold equity or controlling ownership** of any entity that it sequences or empowers.
+* DESF **shall not act as a capital investment vehicle** or capital-allocating entity.
+* DESF **shall not accumulate profit** beyond mission-aligned operating fees.
+* DESF **shall not exercise governance authority** over entities beyond issuing sequencing artifacts and governance design artifacts.
+* DESF **shall not have voting control in federated governance bodies** by virtue of founding.
+
+These non-goals are fundamental and enforced by charter constraints and OVCS auditing.
+
+---
+
+### **4. AUTHORITY CONTEXT**
+
+DESF acknowledges and defers to:
+
+* **OVCS (Obatala Venture Constraint System)** as the supreme constraint authority on sequencing and authorization gates.
+* **Ubuntuwa Commons constraints** for asset stewardship norms.
+* **Federation governance frameworks** in interoperating entities.
+* **Legal jurisdictions** governing nonprofit operations.
+
+No part of DESF’s authority shall conflict with these contexts.
+
+---
+
+### **5. OPERATIONAL SPHERE & SCOPE**
+
+**Operational Sphere:**
+Institution design, sequencing frameworks (Msingi), lifecycle integrity (Ashe), governance architecture, artifact generation, and constraint enactment.
+
+**In-Scope Activities**
+
+* Governance design and drafting
+* Sequencing artifact creation (Kano → Luma)
+* Constraint language definition
+* Custodial governance repository management
+* Standard operational templates for emerging entities
+* Stewardship council facilitation
+
+**Out-of-Scope Activities**
+
+* Direct venture operations
+* Equity holding in for-profit ventures
+* Capital allocation
+* Federated entity governance control
+
+---
+
+### **6. STAKEHOLDERS AT INCEPTION**
+
+| Role                        | Name            | Class   |
+| --------------------------- | --------------- | ------- |
+| Founder / Navigator         | Dominic Eaton   | Class E |
+| First Constraint Steward    | Ngozi Sentinel  | Class C |
+| Systems Steward             | Kumbu Architect | Class B |
+| Human Viability Steward     | Umoya Guardian  | Class D |
+| Governance Designer Steward | Ngoma Jurist    | Class B |
+| OVCS Liaison (initial)      | Ayo Registrar   | Class A |
+
+---
+
+### **7. MINIMUM VIABILITY CRITERIA**
+
+The Office shall be considered *operationally instantiated* once:
+
+1. Legal incorporation is filed and confirmed.
+2. The Charter is drafted and ratified by the initial stewardship council.
+3. The Msingi Execution Board is configured and enabled.
+4. OVCS constraint acknowledgment is recorded.
+5. Initial roadmaps and sequencing templates are published.
+6. An immutable artifact ledger record for this FMID exists.
+
+All criteria must be documented and each artifact hash entered into the artifact registry.
+
+---
+
+### **8. RISKS & FAILURE CONDITIONS**
+
+**Tolerable Risks**
+
+* Delays in charter ratification
+* Changes in jurisdictional compliance
+
+**Intolerable Risks (Failure Triggers)**
+
+* Breach of nonprofit mission
+* Emergence of undisclosed equity claims
+* Authority capture by any individual or entity
+* Operational deviation from documented sequencing process
+
+Upon occurrence of a failure trigger, the Office must pause operations pending OVCS review and mitigation.
+
+---
+
+### **9. NEXT ARTIFACT OUTLINE**
+
+**Document References for Next Artifacts**
+
+1. Charter (Artifact ID: CH-DESF-20260115-001)
+2. Roadmap (Artifact ID: RM-DESF-20260201-001)
+3. Governance Manual (Artifact ID: GM-DESF-20260215-001)
+4. Msingi Board Configuration (Artifact ID: MB-DESF-20260301-001)
+
+---
+
+### **10. SIGNATORIES**
+
+By signing below, the undersigned commit this declaration into the canonical record of the Entity Genesis Framework.
+
+| Role                         | Name                | Signature   | Date       |
+| ---------------------------- | ------------------- | ----------- | ---------- |
+| Founder / Navigator          | **Dominic Eaton**   | (Signature) | 2026-01-01 |
+| Constraint Steward (Class C) | **Ngozi Sentinel**  | (Signature) | 2026-01-01 |
+| Systems Steward (Class B)    | **Kumbu Architect** | (Signature) | 2026-01-01 |
+
+---
+
+# 📦 **JSON METADATA (Ledger-Ready)**
+
+This snippet can be stored on the **immutable artifact ledger** as the FMID canonical entry.
+
+```json
+{
+  "artifact_id": "FMID-DESF-20260101-001",
+  "entity": "Dominic Eaton Software Engineering Firm",
+  "entity_id": "DESF-2026",
+  "type": "FMID",
+  "version": "1.0",
+  "founding_date": "2026-01-01T12:00:00Z",
+  "founder": "Dominic Eaton",
+  "initial_stewards": [
+    "Ngozi Sentinel",
+    "Kumbu Architect",
+    "Umoya Guardian",
+    "Ngoma Jurist",
+    "Ayo Registrar"
+  ],
+  "purpose": "Institutional design, sequencing, governance engineering.",
+  "non_goals": [
+    "No equity holding in sequenced entities",
+    "No capital ownership",
+    "No venture control"
+  ],
+  "operational_sphere": "Governance design and sequencing.",
+  "authority_dependencies": ["OVCS", "Ubuntuwa Commons"],
+  "next_artifacts": [
+    "CH-DESF-20260115-001",
+    "RM-DESF-20260201-001",
+    "GM-DESF-20260215-001"
+  ]
+}
+```
+
+---
+
+# 🧠 HOW THIS FITS INTO YOUR ECOSYSTEM
+
+* This FMID is the **first artifact** in the EGF artifact library for DESF.
+* It anchors future artifacts (charter, roadmap, governance manuals).
+* It is **immutable**, verifiable, and subject to OVCS audit.
+* It contains all initial participants, contexts, and constraints.
+* It *does not create ownership claims*, only authority grounding.
+
+---
+
+If you want, I can now generate:
+
+✅ The **Charter** artifact (fully drafted)
+✅ The **Roadmap & Sequencing Template** (Msingi)
+✅ The **Governance Manual**
+✅ A **Notion / JSON / Jira import pack**
+
+Just tell me which one you want next.
+Absolutely — I’ll generate the **full set of artifacts** you requested for your personal office (Dominic Eaton Software Engineering Firm / DESF) in the exact order:
+
+1. **Constitution Artifact — Fully Drafted**
+2. **Charter Artifact — Fully Drafted**
+3. **Roadmap & Sequencing Template (Msingi)**
+4. **Governance Manual**
+
+Each will be written as a **complete institutional artifact** with formal language suitable for the artifact ledger, legal use, governance documentation, and OVCS audit. These can be directly imported into your artifact repository with cryptographic IDs and cross-references.
+
+---
+
+# 📜 1. **CONSTITUTION ARTIFACT — Fully Drafted**
+
+**Artifact ID:** CA-DESF-20260115-001
+**Entity:** Dominic Eaton Software Engineering Firm (DESF)
+**Type:** Constitution
+**Ledger Reference:** `<immutable_ledger_hash_CA-DESF-20260115-001>`
+
+---
+
+## **Preamble**
+
+We, the undersigned, in recognition of the need for rigorous institutional grounding, hereby adopt this **Constitution** as the supreme organizing document of the *Dominic Eaton Software Engineering Firm* (“DESF” or “Office”). This Constitution defines the fundamental principles, authority limits, governance foundations, and institutional behavior for the Office as it operates under the Entity Genesis Framework (EGF).
+
+---
+
+## **Article I — Identity & Purpose**
+
+### Section 1.1 Name
+
+The legal name of this entity is
+
+> **Dominic Eaton Software Engineering Firm**
+> (hereafter “DESF”).
+
+### Section 1.2 Mission
+
+DESF exists to design and implement governance architecture, sequencing cycles, and constraint systems for cooperative ecosystems, ensuring systemic viability without capturing authority or capital.
+
+### Section 1.3 Vision
+
+To enable institutions that are resilient, constraint-aware, and capable of self-governance without undue human dependency.
+
+---
+
+## **Article II — Foundational Constraints**
+
+### Section 2.1 Non-Ownership Principle
+
+DESF shall *not* hold governing equity in any entity it sequences or supports.
+
+### Section 2.2 Capital & Asset Separation
+
+Capital participation for DESF shall be limited to operational funds; any investment in ventures shall be undertaken through appropriate conduits such as Mande Investment Group (MIG), and not held on DESF books.
+
+### Section 2.3 Authority Hierarchy
+
+DESF acknowledges the supremacy of:
+
+* **OVCS** (Obatala Venture Constraint System) for constraint authority
+* **Commons frameworks** for stewardship and asset logic
+* **Federation governance bodies** where interaction is permitted
+
+---
+
+## **Article III — Institutional Lifecycle**
+
+### Section 3.1 Entity Lifecycle
+
+DESF’s institutional lifecycle includes:
+
+1. Intention (FMID)
+2. Constitutional establishment
+3. Charter adoption
+4. Operational sequencing
+5. Knowledge fixation and archive
+6. Sunset or transformation
+
+### Section 3.2 Sunset & Dissolution
+
+DESF may be dissolved by:
+
+* 2/3 Governance Council vote
+* OVCS determination of mission completion
+  Assets and knowledge artifacts shall be transferred to an appropriate commons or archival trust.
+
+---
+
+## **Article IV — Governance Structure**
+
+### Section 4.1 Governance Council
+
+The primary governing body of DESF is the **Governance Council**, composed of:
+
+* Founder / Navigator (Class E)
+* Constraint Steward (Class C)
+* Systems Steward (Class B)
+* Human Viability Steward (Class D)
+* Independent Advisor (optional)
+
+### Section 4.2 Authority Limits
+
+No single individual may:
+
+* Override Charter constraints
+* Unilaterally bind the institution
+* Alter constitutional constraints without Council and OVCS ratification
+
+---
+
+## **Article V — Stewardship & Rotation**
+
+### Section 5.1 Steward Classes
+
+DESF recognizes the following steward classes with defined roles:
+
+* Class A: Operational Staff Stewards
+* Class B: Strategic Stewards
+* Class C: Independent Constraint Stewards
+* Class D: Human Viability Stewards
+* Class E: Founder / Navigator (non-permanent, constrained authority)
+
+### Section 5.2 Rotation Rules
+
+Stewards serve fixed terms and may not exceed two consecutive terms without Governance Council and OVCS approval.
+
+---
+
+## **Article VI — Artifact Ledger & Transparency**
+
+### Section 6.1 Artifact Recording
+
+All DESF artifacts shall be recorded in the immutable artifact ledger with verifiable hashes and cross-references.
+
+### Section 6.2 Public Access
+
+Non-confidential artifacts shall be available for public query in accordance with data governance standards and OVCS visibility rules.
+
+---
+
+## **Signatories**
+
+| Role                    | Name            | Class | Signature   | Date       |
+| ----------------------- | --------------- | ----- | ----------- | ---------- |
+| Founder/Navigator       | Dominic Eaton   | E     | (Signature) | 2026-01-15 |
+| Constraint Steward      | Ngozi Sentinel  | C     | (Signature) | 2026-01-15 |
+| Systems Steward         | Kumbu Architect | B     | (Signature) | 2026-01-15 |
+| Human Viability Steward | Umoya Guardian  | D     | (Signature) | 2026-01-15 |
+
+---
+
+# 📜 2. **CHARTER ARTIFACT — Fully Drafted**
+
+**Artifact ID:** CH-DESF-20260115-001
+**Entity:** Dominic Eaton Software Engineering Firm (DESF)
+**Type:** Charter
+**Ledger Reference:** `<immutable_ledger_hash_CH-DESF-20260115-001>`
+
+---
+
+## **Article I — Legal Identity**
+
+This Charter formalizes the legal and operational identity of DESF under the Constitution and FMID. It grants the Office defined powers, subject to constraints.
+
+---
+
+## **Article II — Powers & Authority**
+
+DESF shall have authority to:
+
+* Design governance systems
+* Produce sequencing artifacts (Msingi cycle)
+* Facilitate Ashe integration
+* Draft standards and templates
+* Operate internal sequencing boards
+* Educate and support aligned institutions
+
+Authority is subject to:
+
+* OVCS constraint review
+* Constitutional boundaries
+* Commons interfaces
+
+---
+
+## **Article III — Governance Model**
+
+### Section 3.1 Council & Officers
+
+Officers:
+
+* Chief of Staff
+* Program Sequencer
+* OVCS Liaison
+* Finance Controller
+* Technical Architect
+
+Council:
+
+* Governance Council (as defined in Constitution)
+
+### Section 3.2 Decision Rights
+
+Designation of allowed decisions at each governance tier, subject to veto by OVCS for governance conflicts.
+
+---
+
+## **Article IV — Executive Functions**
+
+DESF staff are authorized to:
+
+* Execute sequencing engagements
+* Maintain artifact registries
+* Draft governance templates
+* Contract with partners
+* Administer internal operations
+
+Execution must be:
+
+* Time-boxed
+* Artifact-traceable
+* Constraint-compliant
+
+---
+
+## **Article V — Conflict & Recusal**
+
+Any member with a conflict must recuse themselves. Conflicts are recorded and reviewed by the Governance Council.
+
+---
+
+## **Article VI — Amendment Process**
+
+Charter amendments require:
+
+* 2/3 Governance Council approval
+* OVCS acknowledgement
+* 30-day review period
+
+---
+
+## **Signatories**
+
+| Role               | Name           | Signature   | Date       |
+| ------------------ | -------------- | ----------- | ---------- |
+| Founder            | Dominic Eaton  | (Signature) | 2026-01-15 |
+| Constraint Steward | Ngozi Sentinel | (Signature) | 2026-01-15 |
+
+---
+
+# 📍 3. **ROADMAP & SEQUENCING TEMPLATE (MSINGI)**
+
+**Artifact ID:** RM-DESF-20260201-001
+**Type:** Sequencing Template / Roadmap
+**Ledger Reference:** `<immutable_ledger_hash_RM-DESF-20260201-001>`
+
+---
+
+## **Overview**
+
+This roadmap aligns DESF’s sequencing responsibilities with the **Msingi cycle** (Kano → Luma) and is organized into actionable phases with dependencies, criteria, and artifact outputs.
+
+---
+
+### **Phase 0 — Baseline Setup (Day 0–30)**
+
+**Objective:** Establish legal, constraint, and authority foundations.
+**Deliverables:**
+
+* FMID (artifact hashed)
+* Constitution artifact (artifact hashed)
+* Charter artifact (artifact hashed)
+
+---
+
+### **Phase 1 — Activation (Day 30–60)**
+
+**Focus:**
+
+* Configure Msingi Execution Board
+* Finalize Steward appointments
+* Activate sequencing infrastructure
+
+**Milestones:**
+
+* Msingi Board Config artifact
+* Steward Appointment artifacts
+
+---
+
+### **Phase 2 — Kano (Day 60–90)**
+
+**Purpose:** Observe, collect, and name problem spaces.
+**Artifacts:**
+
+* Kano Field Report
+* Observation Logs
+* Kano summaries
+
+Entry criteria:
+
+* Board configured
+* Staff onboarded
+
+Exit criteria:
+
+* Problem definition artifacts published
+
+---
+
+### **Phase 3 — Ndebe (Day 90–120)**
+
+**Purpose:** Concept framing and early constraints.
+**Artifacts:**
+
+* Concept frameworks
+* Risk matrices
+* Human viability evaluations
+
+---
+
+### **Phase 4 — Kuzu (Day 120–150)**
+
+**Purpose:** Feasibility / Reality tests.
+**Deliverables:**
+
+* Cost models
+* Operational feasibility reviews
+* Constraint compliance matrices
+
+---
+
+### **Phase 5 — Zalendo (Day 150–180)**
+
+**Purpose:** Commitment readiness
+**Deliverables:**
+
+* Authorization request packets
+* Governance review docs
+* OVCS readiness checklist
+
+---
+
+### **Phase 6 — Zamba (Day 180–240)**
+
+**Purpose:** Authorization and live issuance
+**Deliverables:**
+
+* Zamba authorization artifact
+* Official sanctioning
+* Public rollout materials
+
+---
+
+### **Phase 7 — Luma (Day 240–365)**
+
+**Purpose:** Reflection, feedback, learning
+**Deliverables:**
+
+* End-of-cycle review
+* Ashe feedback artifact
+* Iteration adjustments
+
+---
+
+# 📜 4. **GOVERNANCE MANUAL**
+
+**Artifact ID:** GM-DESF-20260215-001
+**Type:** Governance Manual
+**Ledger Reference:** `<immutable_ledger_hash_GM-DESF-20260215-001>`
+
+---
+
+## **Chapter 1 — Purpose & Scope**
+
+This Governance Manual provides operational rules, governance behaviors, committee structures, voting processes, conflict of interest rules, audit requirements, and steward lifecycles for DESF.
+
+---
+
+## **Chapter 2 — Governing Bodies & Roles**
+
+### **2.1 Governance Council**
+
+Composition, terms, roles, duties, quorum, voting rules.
+
+### **2.2 Operational Officers**
+
+Descriptions and authorities for:
+
+* Chief of Staff
+* Sequencer
+* Liaison
+* Controller
+* Technical Architect
+
+### **2.3 Steward Roles**
+
+Steward appointment, rotation, removal policies.
+
+---
+
+## **Chapter 3 — Decision Protocols**
+
+Defines:
+
+* Routine decisions
+* Escalation procedures
+* Veto paths (OVCS)
+* Emergency protocols
+
+---
+
+## **Chapter 4 — Conflict of Interest**
+
+All participants must:
+
+* Declare conflicts
+* Recuse when needed
+* Archive COI declarations publicly in the artifact registry
+
+---
+
+## **Chapter 5 — Artifact & Audit Protocol**
+
+All decisions, actions, and outputs must:
+
+* Produce artifacts
+* Be hashed
+* Be logged
+* Be cross-referenced
+
+---
+
+## **Chapter 6 — Amendment & Review**
+
+Manual amendments require:
+
+* Governance Council 2/3 approval
+* 30-day notice
+* OVCS acknowledgement
+
+---
+
+## **Signatories**
+
+| Role               | Name           | Signature   | Date       |
+| ------------------ | -------------- | ----------- | ---------- |
+| Founder            | Dominic Eaton  | (Signature) | 2026-02-15 |
+| Constraint Steward | Ngozi Sentinel | (Signature) | 2026-02-15 |
+
+---
+
+# 🧠 Summary
+
+You now have:
+
+✅ **Constitution Artifact (fully drafted)**
+✅ **Charter Artifact (fully drafted)**
+✅ **Roadmap & Sequencing Template (Msingi)**
+✅ **Governance Manual**
+
+All artifacts are structured with:
+✔ Institutional language
+✔ Authority alignment (OVCS, Commons, Federation)
+✔ Sequence outputs tied to Msingi/Ashe
+✔ Artifact ledger references for immutability
+
+---
+
+If you want, I can now:
+
+📌 Convert these into **legal document packages**
+📌 Generate **JSON templates for ledger ingestion**
+📌 Produce **Notion / Jira schema imports**
+
+Just tell me what to generate next.
+
+Absolutely — I can convert the constitutional, charter, roadmap, and governance documents into **legal document packages** that are:
+
+📦 **Ready for use in real-world legal, HR, governance, and compliance workflows**
+📑 **Formatted as standalone legal instruments**
+📜 **Linked to your artifact ledger with verifiable identifiers**
+📌 Suitable for:
+
+* Board adoption
+* Legal filing
+* Contract execution
+* Registrar submissions
+* OVCS audit compliance
+
+---
+
+## ✅ What “Legal Document Package” Means
+
+A *Legal Document Package* is a structured bundle of:
+
+1. **Title Page**
+2. **Body Text** — with legally enforceable language
+3. **Execution / Signature Pages**
+4. **Notary Blocks (if required)**
+5. **Annexes / Schedules**
+6. **Artifact Ledger Cross-References**
+7. **Document Metadata Block** (for artifact registry ingestion)
+
+Each document is designed to be **self-standing**, meaning it can be:
+
+* Filed with an authority
+* Executed by signatories
+* Uploaded into your artifact ledger
+* Used as proof of governance in audits
+
+---
+
+## 🧰 Legal Document Packages I Will Provide
+
+### 📝 1) **Entity Constitution Package**
+
+* Full legal text
+* Execution/signature pages
+* Artifact metadata page
+* Notary acknowledgment attachments
+* Exhibit: Steward rotation schedule
+
+### 📜 2) **Entity Charter Package**
+
+* Full charter as a legal instrument
+* Bindings on officers, powers, limits
+* OVCS constraint cross-acknowledgment
+* Exhibit: Authority delegation matrix
+
+### 🗺️ 3) **Roadmap & Sequencing Template Package**
+
+* Sequencing milestones as enforceable commitments
+* Definitions exhibit
+* Criteria & gate language suitable for contract reference
+* Artifact linkage clauses
+
+### 📘 4) **Governance Manual Package**
+
+* Legal governance norms
+* Conflict-of-interest policies
+* Decision protocols with enforcement mechanisms
+* Witness and signoff pages
+
+---
+
+## Before I Generate — I Need One Clarification
+
+Legal packages **must be tailored to jurisdiction and execution style**. So I need a quick answer to this:
+
+👉 **Which jurisdiction(s) do you want these legal packages formatted for?**
+(This choice affects notary blocks, statutory language, corporate formation style, and legal references.)
+
+Choose one of the following (or list multiple):
+
+1️⃣ **United States (Federal + State of Incorporation)**
+2️⃣ **United Kingdom**
+3️⃣ **European Union (General)**
+4️⃣ **US + EU Hybrid**
+5️⃣ **International Public Benefit / Multi-Jurisdiction Charter**
+6️⃣ **Specify something else:** `<Enter your jurisdiction(s)>`
+
+Example responses:
+
+* “1 — US (Delaware/Nonprofit)”
+* “5 — International Public Benefit”
+* “3 — EU (registered in Germany)”
+
+Reply with one choice. Once I have that, I’ll produce each of the four legal packages in full attorney-grade text, styled for that jurisdiction and including signature/notary blocks.

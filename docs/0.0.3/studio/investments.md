@@ -6221,3 +6221,1081 @@ If you want next, I can:
 * design onboarding for stewards and ventures
 
 Just say the word.
+
+Below is a **clean, kernel-level bootstrap sequence** for **only** two things coming into existence first:
+
+1. **The Dominic Eaton Estate (Personal Estate / Navigator)**
+2. **The Dominic Eaton Software Engineering Firm (Personal Office)**
+
+Everything else is downstream.
+No federation. No commons. No ventures. No OVCS scale.
+
+This is the **irreducible initialization order** that keeps you safe, legible, and non-mythical.
+
+---
+
+# I. BOOTSTRAP PHILOSOPHY (READ THIS ONCE)
+
+You are not “founding an organization.”
+
+You are:
+
+* separating *self* from *system*
+* creating containers that can say **no** to you
+* ensuring continuity without heroics
+
+So the rule is:
+
+> **Nothing external is authorized until the estate and office can restrain you.**
+
+---
+
+# II. KERNEL OBJECTS (WHAT EXISTS FIRST)
+
+Only these two entities exist at T₀:
+
+### 1️⃣ The Dominic Eaton Estate
+
+**Function:**
+Continuity, protection, succession, contribution
+
+**Is NOT:**
+
+* an operating company
+* a governance body
+* a venture allocator
+
+**Is:**
+
+* asset holder
+* long-term steward
+* contributor of last resort
+
+---
+
+### 2️⃣ The Dominic Eaton Software Engineering Firm
+
+**Function:**
+Your **personal operating office**, not a venture
+
+**Is NOT:**
+
+* OVCS
+* a studio
+* a platform company
+
+**Is:**
+
+* your legal employer
+* your billing entity
+* your execution sandbox
+* your cognitive buffer
+
+> This firm lets you *work* without turning everything into a movement.
+
+---
+
+# III. BOOTSTRAP SEQUENCE (STRICT ORDER)
+
+## PHASE 0 — YOU ALONE (WEEK 0)
+
+**Artifacts you personally draft (no hires yet):**
+
+* One-page personal mandate
+* One-page non-goals list
+* Personal burn ceiling (monthly)
+* Time allocation cap (weekly)
+
+These are not public.
+They are *constraints you accept before power exists*.
+
+---
+
+## PHASE 1 — ESTATE INITIALIZATION (WEEKS 1–2)
+
+### Legal Actions
+
+* Form **The Dominic Eaton Estate** (trust / estate LLC / holding structure depending on jurisdiction)
+* Open **estate accounts**
+* Transfer *only*:
+
+  * long-term assets
+  * IP you will not personally operate
+  * safety reserves
+
+### Explicit Exclusions
+
+* No operating revenue
+* No venture equity
+* No discretionary spending authority
+
+### Estate Charter (Minimum)
+
+* Purpose: continuity + contribution
+* Prohibition on day-to-day control
+* Mandatory delegation clauses
+* Automatic authority decay
+
+> The estate must be powerful **and boring**.
+
+---
+
+## PHASE 2 — PERSONAL OFFICE INITIALIZATION (WEEKS 2–3)
+
+### Legal Actions
+
+* Form **The Dominic Eaton Software Engineering Firm**
+* This firm:
+
+  * employs you
+  * pays you
+  * insures you
+  * contracts your labor
+
+### Capabilities Enabled
+
+* Software development
+* Research
+* Prototyping
+* Advisory services
+
+### Hard Limits
+
+* No capital allocation
+* No governance authority
+* No asset holding beyond tools
+
+> This firm exists so *you can act without contaminating the system*.
+
+---
+
+# IV. FIRST 5 STEWARDS — ACTIVATION SEQUENCE
+
+These are **not employees**.
+They are **constraints with names**.
+
+They are onboarded **before staff**.
+
+---
+
+## 1️⃣ OVCS ANCHOR — Constraint Guardian (Class C)
+
+**When:** Immediately after estate + office exist
+**Why:** This creates an external brake before momentum builds
+
+**Authority Granted**
+
+* Veto over structural decisions
+* Audit access
+* Red-flag escalation power
+
+**They do NOT**
+
+* run anything
+* optimize anything
+* build anything
+
+> This person is your constitutional court.
+
+---
+
+## 2️⃣ SYSTEMICS CO-THINKER — Conceptual Stress Tester (Class B)
+
+**When:** After constraint exists
+**Why:** Prevents self-referential closure
+
+**Authority Granted**
+
+* Formal critique rights
+* Requirement to review doctrine
+* Ability to pause conceptual expansion
+
+> Their job is not to help — it is to *break models safely*.
+
+---
+
+## 3️⃣ HUMAN VIABILITY GUARDIAN — Moral Brake (Class B/D)
+
+**When:** Before people are hired
+**Why:** Human harm shows up last but costs the most
+
+**Authority Granted**
+
+* Human-impact veto
+* Mandatory pause triggers
+* Independent reporting channel
+
+> This role exists to stop “necessary damage.”
+
+---
+
+## 4️⃣ GOVERNANCE / LEGAL DESIGNER — Constraint Translator (Class B)
+
+**When:** After philosophy is stress-tested
+**Why:** Ideas must harden into enforceable shape
+
+**Authority Granted**
+
+* Draft binding rules
+* Encode revocation
+* Design non-trust-based processes
+
+> They turn ideals into *bite*.
+
+---
+
+## 5️⃣ OPERATIONS REALIST — Ground Truth (Class A)
+
+**When:** Last steward
+**Why:** Prevents abstraction drift
+
+**Authority Granted**
+
+* Operational feasibility veto
+* Cost realism enforcement
+* Field failure reporting
+
+> This is where theory meets gravity.
+
+---
+
+# V. ONLY AFTER THIS — STAFF HIRING BEGINS
+
+Your **First 8 Hires** are correct and sequenced properly.
+
+But they only activate **after**:
+
+✔ Estate exists
+✔ Office exists
+✔ 5 stewards are seated
+✔ Authority boundaries are written
+✔ You are structurally constrainable
+
+At that point:
+
+* Chief of Staff becomes your **execution firewall**
+* Sequencer enforces Msingi
+* OVCS Liaison formalizes authority
+* Ops, Finance, Tech, Comms, EA stabilize load
+
+> Staff run operations.
+> Stewards protect the system.
+> You navigate — you do not govern alone.
+
+---
+
+# VI. WHY THIS WORKS (AND WHY IT’S RARE)
+
+Most founders:
+
+* hire before constraining themselves
+* build before separating roles
+* confuse vision with authority
+
+You are doing the opposite.
+
+This sequence ensures:
+
+* no founder myth
+* no hidden power
+* no premature federation
+* no irreversible commitments
+
+---
+
+# VII. THE SIMPLE TEST
+
+Before anything else exists, ask:
+
+> “If I became irrational, tired, or wrong — could this system stop me?”
+
+If the answer is **yes**, proceed.
+If not, pause.
+
+---
+
+If you want next, I can:
+
+* turn this into a **90-day calendar**
+* draft **estate + office charters**
+* write **steward appointment letters**
+* or simulate **failure at each phase**
+
+Just say where to go next.
+
+Below is a **complete, execution-ready package** broken into three parts, exactly as requested:
+
+1. **90-Day Calendar (week-by-week, irreversible order)**
+2. **Draft Charters**
+
+   * Dominic Eaton Estate
+   * Dominic Eaton Software Engineering Firm
+3. **Steward Appointment Letters (formal, copy-paste ready)**
+
+This is written so you can **act immediately** without reinterpretation.
+
+---
+
+# PART I — 90-DAY BOOTSTRAP CALENDAR
+
+**Rule:** Nothing advances early. Skipping steps breaks safety.
+
+---
+
+## DAYS 1–14 — PERSONAL & LEGAL KERNEL
+
+### **Week 1 (Days 1–7): Internal Constraint Lock**
+
+**You only. No hires. No advisors.**
+
+**Artifacts (written by you):**
+
+* Personal Mandate (1 page)
+* Explicit Non-Goals (1 page)
+* Monthly burn ceiling
+* Weekly time ceiling
+* Authority you explicitly renounce
+
+**Outcomes**
+
+* You are *self-bounded before others exist*
+
+---
+
+### **Week 2 (Days 8–14): Estate Formation**
+
+**Entity:** The Dominic Eaton Estate
+
+**Actions**
+
+* Form estate entity (trust / estate LLC / holding structure)
+* Open estate bank + custody accounts
+* Draft Estate Charter (see Part II)
+* Transfer:
+
+  * long-term assets
+  * non-operational IP
+  * safety reserves only
+
+**Prohibitions**
+
+* No operating revenue
+* No venture equity
+* No discretionary spending authority
+
+**Outcome**
+
+* A non-operating continuity container exists
+
+---
+
+## DAYS 15–30 — PERSONAL OFFICE & FIREBREAK
+
+### **Week 3 (Days 15–21): Personal Office Formation**
+
+**Entity:** Dominic Eaton Software Engineering Firm
+
+**Actions**
+
+* Form operating entity
+* Open operating bank account
+* Set payroll (you as employee)
+* Obtain insurance
+* Draft Office Charter (see Part II)
+
+**Capabilities Enabled**
+
+* Research
+* Software development
+* Prototyping
+* Advisory work
+
+**Hard Limits**
+
+* No capital allocation
+* No governance authority
+
+---
+
+### **Week 4 (Days 22–30): Separation Hardening**
+
+**Actions**
+
+* Formal service agreement between:
+
+  * You (individual)
+  * Office
+  * Estate
+* Conflict-of-interest policy
+* Explicit firewall documentation
+
+**Outcome**
+
+* You can work without contaminating the system
+
+---
+
+## DAYS 31–60 — STEWARD NUCLEUS ACTIVATION
+
+### **Week 5 (Days 31–37): Steward #1**
+
+**OVCS Anchor — Constraint Guardian**
+
+**Actions**
+
+* Formal appointment letter
+* Grant veto + audit authority
+* Schedule standing monthly review
+
+**Outcome**
+
+* External brake exists
+
+---
+
+### **Week 6 (Days 38–44): Steward #2**
+
+**Systemics Co-Thinker**
+
+**Actions**
+
+* Appointment letter
+* Doctrine critique mandate
+* Red-team review cadence set
+
+---
+
+### **Week 7 (Days 45–51): Steward #3**
+
+**Human Viability Guardian**
+
+**Actions**
+
+* Appointment letter
+* Human harm escalation protocol
+* Mandatory pause triggers defined
+
+---
+
+### **Week 8 (Days 52–60): Stewards #4 & #5**
+
+**Governance Designer + Operations Realist**
+
+**Actions**
+
+* Appointment letters
+* Governance translation begins
+* Operational feasibility stress-tests
+
+**Outcome**
+
+* The system can now say “no” in five different ways
+
+---
+
+## DAYS 61–90 — STAFFING & OPERABILITY
+
+### **Week 9 (Days 61–67): Chief of Staff**
+
+* Hire CoS
+* Transfer calendar + operational control
+* Founder access throttled
+
+---
+
+### **Week 10 (Days 68–74): Program Sequencer**
+
+* Msingi enforcement begins
+* Timeline discipline activated
+
+---
+
+### **Week 11 (Days 75–81): Governance + Ops Spine**
+
+* OVCS Liaison
+* Ops & Admin Lead
+
+---
+
+### **Week 12 (Days 82–90): Financial + Technical Backbone**
+
+* Financial Controller
+* Technical Architect
+* EA + Comms Lead (as load requires)
+
+**End of Day 90 Outcome**
+
+* You are no longer a single point of failure
+* Federation may now *legally* begin
+
+---
+
+# PART II — DRAFT CHARTERS (FOUNDATIONAL)
+
+---
+
+## A. THE DOMINIC EATON ESTATE — CHARTER (DRAFT)
+
+**Purpose**
+To preserve continuity of assets, intent, and contribution across time independent of the founder’s capacity, preferences, or presence.
+
+**Powers**
+
+* Hold long-term assets
+* Contribute assets to aligned commons
+* Act as steward of last resort
+
+**Explicit Prohibitions**
+
+* No operational control
+* No venture management
+* No day-to-day spending authority
+
+**Governance**
+
+* Independent oversight required
+* Automatic authority decay clauses
+* Mandatory delegation beyond founder
+
+**Succession**
+
+* Founder influence diminishes structurally
+* Estate continuity supersedes individual intent
+
+---
+
+## B. DOMINIC EATON SOFTWARE ENGINEERING FIRM — CHARTER (DRAFT)
+
+**Purpose**
+To serve as the founder’s personal execution and research vehicle without holding systemic power.
+
+**Authorized Activities**
+
+* Software development
+* Research & prototyping
+* Advisory services
+
+**Explicit Prohibitions**
+
+* No capital allocation
+* No governance authority
+* No asset custody beyond tools
+
+**Relationship to Estate**
+
+* May receive compensation
+* Cannot direct estate assets
+
+**Dissolution**
+
+* Clean shutdown without system impact
+
+---
+
+# PART III — STEWARD APPOINTMENT LETTERS
+
+Each letter is **deliberately sober**. No hype.
+
+---
+
+## 1️⃣ OVCS ANCHOR — APPOINTMENT LETTER
+
+**Subject:** Appointment as OVCS Constraint Guardian
+
+> I am appointing you as an independent constraint authority.
+>
+> Your role is to stop this system — including me — when it becomes unsafe, illegible, or self-justifying.
+>
+> You hold veto power over structural decisions and audit access across relevant entities.
+>
+> You are not here to help me succeed.
+> You are here to prevent irreversible harm.
+>
+> If at any point you feel unable to say “no” to me, this appointment has failed.
+
+---
+
+## 2️⃣ SYSTEMICS CO-THINKER — APPOINTMENT LETTER
+
+> I am asking you to serve as a formal critic of this system.
+>
+> Your role is to identify conceptual collapse, hidden assumptions, and boundary failures.
+>
+> Optimization is not your job.
+> Critique is.
+>
+> You are authorized to pause expansion when coherence degrades.
+
+---
+
+## 3️⃣ HUMAN VIABILITY GUARDIAN — APPOINTMENT LETTER
+
+> This system will affect people deeply and subtly.
+>
+> Your authority exists to stop harm before it becomes justified.
+>
+> You may pause or escalate any activity that extracts too much from humans, regardless of outcomes.
+>
+> Your judgment overrides performance metrics.
+
+---
+
+## 4️⃣ GOVERNANCE / LEGAL DESIGNER — APPOINTMENT LETTER
+
+> I am appointing you to translate intent into enforceable structure.
+>
+> Your mandate is to design systems that do not require trust — especially in me.
+>
+> Revocation, decay, and restraint must be explicit and binding.
+
+---
+
+## 5️⃣ OPERATIONS REALIST — APPOINTMENT LETTER
+
+> Your role is to tell me where this breaks in the real world.
+>
+> You are authorized to block designs that cannot survive contact with operations.
+>
+> Elegance without survivability is failure.
+
+---
+
+# FINAL CHECKPOINT
+
+Before Day 91, you should be able to answer **yes** to all:
+
+* Can the estate refuse you?
+* Can the office be shut down without collapse?
+* Can five independent people stop you?
+* Are you no longer the execution bottleneck?
+
+If yes → proceed to federation.
+If no → extend the bootstrap.
+
+If you want next, I can:
+
+* convert this into **legal-grade documents**
+* build a **living Msingi execution board**
+* or draft the **Ubuntuwa founding contribution instruments**
+
+Just say where to focus.
+
+# MSINGI LIVING EXECUTION BOARD
+
+> **Purpose:** This board is the single source of truth for sequencing, authority, and readiness across the Msingi cycle. Nothing advances without satisfying its gates. The board is *alive*: updated weekly, audited monthly, and enforced procedurally.
+
+---
+
+## HOW TO USE THIS BOARD
+
+* Each **Program** is a column of readiness
+* Each **Phase** is a gated row
+* Advancement requires **artifacts + sign‑offs**, not intent
+* The Program Sequencer owns updates
+* OVCS Anchor audits integrity
+
+Status codes:
+
+* 🟥 Blocked
+* 🟨 In Progress
+* 🟩 Cleared
+
+---
+
+## MSINGI PROGRAMS (COLUMNS)
+
+| Code    | Program        | Function                             |
+| ------- | -------------- | ------------------------------------ |
+| KANO    | Authority      | Mandate, governance, revocation      |
+| NDEBE   | Identity       | Naming, narrative, legitimacy        |
+| KUZU    | Capital        | Financial readiness, burn discipline |
+| ZALENDO | Execution      | Operations, delivery, staffing       |
+| ZAMBA   | Infrastructure | Platforms, tooling, systems          |
+| LUMA    | Continuity     | Succession, lifecycle, exit          |
+
+---
+
+## PHASE 0 — CONCEPTION (WHY SHOULD THIS EXIST?)
+
+| Program | Required Artifacts             | Authority            |
+| ------- | ------------------------------ | -------------------- |
+| KANO    | Mandate draft, authority scope | OVCS Anchor          |
+| NDEBE   | Problem statement, non‑goals   | Systemics Co‑Thinker |
+| KUZU    | Rough order‑of‑magnitude cost  | Financial Controller |
+| ZALENDO | Explicit *no execution* pledge | Program Sequencer    |
+| ZAMBA   | Dependency map (no builds)     | Technical Architect  |
+| LUMA    | Sunset hypothesis              | Governance Designer  |
+
+**Exit Gate:** Coherence without commitment
+
+---
+
+## PHASE 1 — DESIGN (CAN THIS EXIST SAFELY?)
+
+| Program | Required Artifacts              | Authority                |
+| ------- | ------------------------------- | ------------------------ |
+| KANO    | Draft charter, revocation logic | Governance Designer      |
+| NDEBE   | Naming + legitimacy review      | Comms Lead               |
+| KUZU    | 12‑month burn model             | Financial Controller     |
+| ZALENDO | Staffing envelope only          | CoS                      |
+| ZAMBA   | Architecture sketch             | Technical Architect      |
+| LUMA    | Failure scenarios               | Human Viability Guardian |
+
+**Exit Gate:** Safe on paper
+
+---
+
+## PHASE 2 — AUTHORIZATION (ARE WE ALLOWED?)
+
+| Program | Required Artifacts           | Authority          |
+| ------- | ---------------------------- | ------------------ |
+| KANO    | Formal authorization packet  | OVCS Anchor        |
+| NDEBE   | External narrative freeze    | Comms Lead         |
+| KUZU    | Funding source locked        | Controller + Mande |
+| ZALENDO | Ops readiness checklist      | Operations Realist |
+| ZAMBA   | Security & compliance review | Tech Architect     |
+| LUMA    | Human impact approval        | Human Guardian     |
+
+**Exit Gate:** Authority granted
+
+---
+
+## PHASE 3 — EXECUTION (DO THE WORK)
+
+| Program | Required Artifacts        | Authority      |
+| ------- | ------------------------- | -------------- |
+| KANO    | Authority monitoring log  | OVCS Anchor    |
+| NDEBE   | Messaging discipline      | Comms Lead     |
+| KUZU    | Monthly burn report       | Controller     |
+| ZALENDO | Delivery milestones       | Ops Lead       |
+| ZAMBA   | Platform integrity checks | Tech Architect |
+| LUMA    | Burnout / risk monitoring | Human Guardian |
+
+**Exit Gate:** Work performed without drift
+
+---
+
+## PHASE 4 — REVIEW (SHOULD THIS CONTINUE?)
+
+| Program | Required Artifacts         | Authority           |
+| ------- | -------------------------- | ------------------- |
+| KANO    | Authority decay assessment | Governance Designer |
+| NDEBE   | Legitimacy review          | Moyo / Comms        |
+| KUZU    | ROI vs survivability       | Mande / Controller  |
+| ZALENDO | Ops post‑mortem            | Operations Realist  |
+| ZAMBA   | Technical debt report      | Tech Architect      |
+| LUMA    | Human cost review          | Human Guardian      |
+
+**Exit Gate:** Continue / pause / exit
+
+---
+
+## PHASE 5 — EXIT OR INTEGRATION (WHAT HAPPENS NOW?)
+
+| Program | Required Artifacts              | Authority        |
+| ------- | ------------------------------- | ---------------- |
+| KANO    | Authority revocation or renewal | OVCS Anchor      |
+| NDEBE   | Narrative closure               | Comms Lead       |
+| KUZU    | Capital recycling plan          | KANYE            |
+| ZALENDO | Wind‑down or handoff            | CoS              |
+| ZAMBA   | Asset reuse mapping             | Platform Steward |
+| LUMA    | Knowledge + people retention    | UMOYA            |
+
+**Exit Gate:** Nothing orphaned
+
+---
+
+## WEEKLY OPERATING RHYTHM
+
+* **Monday:** Sequencer updates board
+* **Wednesday:** Steward spot‑checks
+* **Friday:** Founder review (non‑binding)
+
+No meeting may override board state.
+
+---
+
+## ABSOLUTE RULES
+
+1. Green requires artifacts, not confidence
+2. Any steward may force 🟥
+3. Founder cannot self‑advance phases
+4. Skipped phases invalidate authority
+5. Exit is success when appropriate
+
+---
+
+## BOARD MANTRA
+
+> *Order before action. Authority before execution. Continuity before ambition.*
+
+---
+
+**This board is the system.**
+If it is ignored, the system is already failing.
+
+I’ve built the **Living Msingi Execution Board** as a persistent canvas document.
+
+This board is now:
+
+* ✅ **Authoritative** (nothing advances without it)
+* ✅ **Procedural** (artifacts + sign-offs, not intent)
+* ✅ **Auditable** (OVCS Anchor can inspect at any time)
+* ✅ **Founder-safe** (you cannot self-advance phases)
+* ✅ **Reusable** (applies to estate actions, office actions, ventures, platforms, commons)
+
+### How you should use it immediately
+
+**Week 1–2 (right now):**
+
+* Treat **only PHASE 0 + PHASE 1** as active
+* Everything else is locked 🟥 by default
+* Populate artifacts for:
+
+  * Estate actions
+  * Personal office actions
+  * Steward onboarding
+
+**Standing rule:**
+If something isn’t on the board, it doesn’t exist.
+
+### What this board replaces
+
+* Ad-hoc planning
+* Founder intuition as authority
+* Parallel execution
+* “We’ll figure it out later”
+
+### What this board enables later
+
+* OVCS authorization packets
+* Ubuntuwa Commons gating
+* Venture lifecycle management
+* Clean exits without institutional damage
+
+---
+
+### Next logical steps (pick one)
+
+1. **Bind this board to legal authority** (charter language that makes it enforceable)
+2. **Instantiate this board for the Estate + Office only** (pre-federation version)
+3. **Create a lightweight digital implementation** (Notion / Linear / Git-backed)
+4. **Run a simulated failure through the board** (stress test)
+
+Tell me which one you want next, and I’ll take it to completion.
+
+Understood. This is large, so I will **deliver this exactly as requested in 10 discrete messages**, each internally complete, cumulative, and numerically consistent.
+
+I will proceed with **Message 1 of 10** now.
+
+---
+
+# MESSAGE 1 OF 10
+
+## YEAR-1 BOOTSTRAP WBS — **PERSONAL OFFICE CORE (NPO KERNEL)**
+
+**Entity:** Dominic Eaton Software Engineering Firm
+**Scope:** You + 5 Stewards + First 8 Hires
+**Goal:** Make the NPO *real, bounded, governable, and non-mythical* before federation exists.
+
+This message covers **only the irreducible kernel**:
+
+* Legal existence
+* Authority separation
+* Staffing spine
+* Msingi enforcement capability
+
+No Ubuntuwa. No federation. No ventures.
+
+---
+
+## W-1000 — PERSONAL OFFICE BOOTSTRAP (NPO KERNEL)
+
+| WBS ID     | Name                                          | Roadmap Type | Start | Duration |
+| ---------- | --------------------------------------------- | ------------ | ----- | -------- |
+| **W-1000** | Dominic Eaton Software Engineering Firm (NPO) | strategy     | Y1-Q1 | 90d      |
+
+---
+
+### P-1100 — NPO Legal + Structural Formation
+
+| ID         | Name                             | Type | Start    | Dur |
+| ---------- | -------------------------------- | ---- | -------- | --- |
+| **P-1100** | NPO Legal & Structural Formation | plan | Y1-Q1-W1 | 21d |
+
+#### TH-1110 — Legal Existence & Boundary
+
+| ID          | Name                      | Type   | Start    | Dur |
+| ----------- | ------------------------- | ------ | -------- | --- |
+| **TH-1110** | Legal Identity & Boundary | tactic | Y1-Q1-W1 | 21d |
+
+##### I-1111 — Entity Formation
+
+| ID         | Name                  | Type      | Start    | Dur |
+| ---------- | --------------------- | --------- | -------- | --- |
+| **I-1111** | Form NPO Legal Entity | milestone | Y1-Q1-W1 | 7d  |
+
+###### E-11111 — Legal Setup
+
+| ID          | Name                       | Type      | Start    | Dur |
+| ----------- | -------------------------- | --------- | -------- | --- |
+| **E-11111** | Incorporation & Compliance | milestone | Y1-Q1-W1 | 7d  |
+
+| Story ID | Type          | Description                          | Dur |
+| -------- | ------------- | ------------------------------------ | --- |
+| S-111111 | requirement   | Select jurisdiction & entity form    | 1d  |
+| S-111112 | documentation | Draft articles / operating agreement | 3d  |
+| S-111113 | case          | File incorporation                   | 1d  |
+| S-111114 | requirement   | Obtain EIN / tax IDs                 | 1d  |
+| S-111115 | test          | Verify legal existence               | 1d  |
+
+---
+
+##### I-1112 — Banking, Insurance, Payroll
+
+| ID         | Name                   | Type      | Start    | Dur |
+| ---------- | ---------------------- | --------- | -------- | --- |
+| **I-1112** | Financial & Risk Setup | milestone | Y1-Q1-W2 | 7d  |
+
+###### E-11121 — Finance Backbone
+
+| Story ID | Type        | Description                       | Dur |
+| -------- | ----------- | --------------------------------- | --- |
+| S-111211 | requirement | Open operating bank account       | 1d  |
+| S-111212 | requirement | Setup accounting system           | 2d  |
+| S-111213 | requirement | Setup payroll (founder)           | 1d  |
+| S-111214 | risk        | Acquire liability & E&O insurance | 2d  |
+| S-111215 | test        | Dry-run payroll & expense flow    | 1d  |
+
+---
+
+### P-1200 — Authority & Constraint Encoding
+
+| ID         | Name                            | Type | Start    | Dur |
+| ---------- | ------------------------------- | ---- | -------- | --- |
+| **P-1200** | Authority & Constraint Encoding | plan | Y1-Q1-W2 | 30d |
+
+#### TH-1210 — Founder Constraint Layer
+
+| ID          | Name                         | Type   | Start    | Dur |
+| ----------- | ---------------------------- | ------ | -------- | --- |
+| **TH-1210** | Founder Authority Boundaries | tactic | Y1-Q1-W2 | 14d |
+
+##### I-1211 — Office Charter
+
+| ID         | Name                       | Type      | Start    | Dur |
+| ---------- | -------------------------- | --------- | -------- | --- |
+| **I-1211** | Draft & Ratify NPO Charter | milestone | Y1-Q1-W2 | 7d  |
+
+###### E-12111 — Charter Authoring
+
+| Story ID | Type          | Description                  | Dur |
+| -------- | ------------- | ---------------------------- | --- |
+| S-121111 | documentation | Draft NPO charter            | 3d  |
+| S-121112 | requirement   | Encode explicit prohibitions | 2d  |
+| S-121113 | review        | Steward review (OVCS Anchor) | 1d  |
+| S-121114 | release       | Charter ratification         | 1d  |
+
+---
+
+##### I-1212 — Conflict of Interest & Firewall
+
+| ID         | Name                      | Type      | Start    | Dur |
+| ---------- | ------------------------- | --------- | -------- | --- |
+| **I-1212** | Founder / System Firewall | milestone | Y1-Q1-W3 | 7d  |
+
+| Story ID | Type          | Description                       | Dur |
+| -------- | ------------- | --------------------------------- | --- |
+| S-121211 | requirement   | Define conflict-of-interest rules | 2d  |
+| S-121212 | documentation | Draft firewall policy             | 2d  |
+| S-121213 | assessment    | Simulate founder overreach        | 2d  |
+| S-121214 | release       | Policy adoption                   | 1d  |
+
+---
+
+### P-1300 — Steward Nucleus Activation
+
+| ID         | Name                          | Type | Start    | Dur |
+| ---------- | ----------------------------- | ---- | -------- | --- |
+| **P-1300** | Initial 5 Stewards Activation | plan | Y1-Q1-W4 | 30d |
+
+#### TH-1310 — Steward Onboarding
+
+| ID          | Name                    | Type   | Start    | Dur |
+| ----------- | ----------------------- | ------ | -------- | --- |
+| **TH-1310** | Steward Authority Layer | tactic | Y1-Q1-W4 | 30d |
+
+##### I-1311 — OVCS Anchor
+
+| Story ID | Type          | Description                         | Dur |
+| -------- | ------------- | ----------------------------------- | --- |
+| S-131111 | requirement   | Finalize constraint authority scope | 1d  |
+| S-131112 | documentation | Appointment letter issued           | 1d  |
+| S-131113 | case          | First constraint review session     | 1d  |
+
+##### I-1312 — Systemics Co-Thinker
+
+| Story ID | Type          | Description                | Dur |
+| -------- | ------------- | -------------------------- | --- |
+| S-131211 | documentation | Appointment letter         | 1d  |
+| S-131212 | assessment    | Conceptual red-team review | 2d  |
+
+##### I-1313 — Human Viability Guardian
+
+| Story ID | Type          | Description                | Dur |
+| -------- | ------------- | -------------------------- | --- |
+| S-131311 | documentation | Appointment letter         | 1d  |
+| S-131312 | risk          | Define human harm triggers | 2d  |
+
+##### I-1314 — Governance / Legal Designer
+
+| Story ID | Type          | Description                     | Dur |
+| -------- | ------------- | ------------------------------- | --- |
+| S-131411 | documentation | Appointment letter              | 1d  |
+| S-131412 | capability    | Governance translation workshop | 3d  |
+
+##### I-1315 — Operations Realist
+
+| Story ID | Type          | Description                      | Dur |
+| -------- | ------------- | -------------------------------- | --- |
+| S-131511 | documentation | Appointment letter               | 1d  |
+| S-131512 | assessment    | Operational feasibility critique | 3d  |
+
+---
+
+### P-1400 — Core Staff Spine (First 4 of 8)
+
+| ID         | Name             | Type | Start    | Dur |
+| ---------- | ---------------- | ---- | -------- | --- |
+| **P-1400** | Core Staff Spine | plan | Y1-Q2-W1 | 45d |
+
+#### TH-1410 — Execution Backbone
+
+| Role                 | Team Type |
+| -------------------- | --------- |
+| Chief of Staff       | line      |
+| Program Sequencer    | domain    |
+| Ops/Admin Lead       | squad     |
+| Financial Controller | chapter   |
+
+(Individual WBS trees for each role follow in Message 2.)
+
+---
+
+## END OF MESSAGE 1
+
+### What we have now
+
+* A **real NPO kernel**
+* Authority encoded before hiring
+* Stewards installed before execution
+* Clean handoff point to Msingi enforcement
+
+---
+
+### NEXT — MESSAGE 2 OF 10
+
+**Deep WBS for the First 8 Hires**
+(each role fully decomposed into epics + stories, mapped to Msingi programs and team types)
+
+Reply **“continue”** to proceed.

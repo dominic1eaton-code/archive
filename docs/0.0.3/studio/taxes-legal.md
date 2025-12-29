@@ -13862,3 +13862,2526 @@ You can use this table as:
 ✔ A **CSV** for Jira/Linear board assignments
 
 If you’d like, I can **produce this as an export (CSV / Sheets URL / Notion template)** — just tell me your preferred format!
+
+Absolutely — here is **Quarter 1 of Year 1 WBS (Work Breakdown Structure)** for your firm’s core Year 1 delivery plan. This is part **1 of 4** messages that together form one long **continuous table** covering all clients: coops, ventures, networks, and programs. Each quarter covers the tasks needed to get all clients **started, bootstrapped, live, and running**.
+
+Each row contains:
+
+* **ID** (W, P, TH, I, E, S)
+* **Name**
+* **Type**
+* **Brief**
+* **Start**
+* **Dur** (days or sprint units)
+* **Owner** (member or team)
+
+**Quarter 1: Jan–Mar 2025**
+*(Covers foundational setup, onboarding of core team, governance infrastructure, intake systems, and first wave of client go-lives.)*
+
+---
+
+## 📋 Year 1 WBS — **Quarter 1 (Part 1 of 4)**
+
+| **ID**                   | **Name**                           | **Type**      | **Brief**                                | **Start**  | **Dur** | **Owner**           |
+| ------------------------ | ---------------------------------- | ------------- | ---------------------------------------- | ---------- | ------: | ------------------- |
+| **W-Q1**                 | Year 1 Q1 Delivery                 | strategy      | Q1 focused delivery plan                 | 2025-01-01 |     65d | Dominic             |
+| **P-Q1-01**              | Foundational Enablement            | plan          | Build core internal foundations          | 2025-01-01 |     25d | CoS                 |
+| **TH-Q1-01**             | Staff Onboarding & Setup           | tactic        | Recruit + onboard core staff             | 2025-01-01 |     15d | CoS                 |
+| **I-Q1-01**              | Core Team Onboarded                | milestone     | First 9 hires onboard                    | 2025-01-16 |      1d | CoS                 |
+| **E-Q1-01**              | Team Induction                     | epic          | Orientation & systems access             | 2025-01-01 |     10d | CoS                 |
+| **S-Q1-01 (doc)**        | Onboarding Docs                    | documentation | HR & ops packet                          | 2025-01-01 |      4d | Ops Lead            |
+| **S-Q1-02 (feature)**    | Tools & Accounts Setup             | feature       | Email, access, platforms                 | 2025-01-05 |      6d | Ops Lead            |
+| **S-Q1-03 (test)**       | Access Validation                  | test          | Verify systems access                    | 2025-01-11 |      2d | TechArch            |
+| **TH-Q1-02**             | Internal Ops & Compliance          | tactic        | Build admin/legal baseline               | 2025-01-10 |     25d | Ops Lead            |
+| **I-Q1-02**              | Legal & Compliance Setup           | milestone     | Firm legal readiness                     | 2025-02-04 |      1d | LegalStew           |
+| **E-Q1-02**              | Contracts & Templates Baseline     | epic          | Draft legal templates                    | 2025-01-10 |     15d | LegalStew           |
+| **S-Q1-04 (doc)**        | Draft MSA & Addenda                | documentation | Legal contract templates                 | 2025-01-10 |      7d | LegalStew           |
+| **S-Q1-05 (doc)**        | Billing Policy Document            | documentation | Deferred/billing rules                   | 2025-01-18 |      5d | FinCtrl             |
+| **S-Q1-06 (feature)**    | Accounting Setup                   | feature       | Finance tools config                     | 2025-01-23 |      8d | FinCtrl             |
+| **TH-Q1-03**             | Master Planning & Sequencing       | tactic        | Build firm timeline                      | 2025-01-07 |     20d | PS                  |
+| **I-Q1-03**              | Master Timeline Created            | milestone     | Q1 Year 1 schedule                       | 2025-01-15 |      1d | PS                  |
+| **E-Q1-03**              | Sequencing Logic Build             | epic          | Sequencing tools & logic                 | 2025-01-07 |     12d | PS                  |
+| **S-Q1-07 (req)**        | Define Phase Gates                 | requirement   | Gate criteria document                   | 2025-01-07 |      7d | PS                  |
+| **S-Q1-08 (feature)**    | Sequencing Tracker                 | feature       | Year roadmap tracker                     | 2025-01-15 |      7d | PS                  |
+| **S-Q1-09 (assessment)** | Timeline Validation                | assessment    | Validate plan logic                      | 2025-01-24 |      4d | PS                  |
+| **TH-Q1-04**             | Governance Systems Setup           | tactic        | Build OVCS & governance pipeline         | 2025-01-10 |     35d | OVCS Sec            |
+| **I-Q1-04**              | OVCS Registry Live                 | milestone     | Legal registrations ready                | 2025-02-14 |      1d | OVCS Sec            |
+| **E-Q1-04**              | OVCS Packets Framework             | epic          | Governance submission templates          | 2025-01-10 |     18d | OVCS Sec            |
+| **S-Q1-10 (doc)**        | Draft OVCS Packet Templates        | documentation | Standard forms                           | 2025-01-10 |      7d | OVCS Sec            |
+| **S-Q1-11 (feature)**    | Registry Sync Setup                | feature       | Sync registry w/ internal DB             | 2025-01-18 |     10d | TechArch            |
+| **S-Q1-12 (test)**       | OVCS Workflow Test                 | test          | Simulate governance pipelines            | 2025-01-28 |      3d | QA-Guild Lead       |
+| **TH-Q1-05**             | Platform Baseline Standards        | tactic        | Establish baseline platform architecture | 2025-01-15 |     30d | TechArch            |
+| **I-Q1-05**              | OS Baseline Defined                | milestone     | Core platform standards live             | 2025-02-14 |      1d | TechArch            |
+| **E-Q1-05**              | Platform Standards Implementation  | epic          | Implement OS baseline                    | 2025-01-15 |     18d | TechArch            |
+| **S-Q1-13 (req)**        | Platform Requirements Spec         | requirement   | Requirements doc                         | 2025-01-15 |      7d | TechArch            |
+| **S-Q1-14 (feature)**    | Build Core OS Modules              | feature       | Platform foundations                     | 2025-01-23 |     10d | Squad-Gov Dev Lead  |
+| **S-Q1-15 (test)**       | OS Compliance Test                 | test          | Verify baseline                          | 2025-02-02 |      5d | QA-Guild Lead       |
+| **P-Q1-02**              | Client Intake & Onboarding Systems | plan          | Build client intake flow                 | 2025-01-15 |     20d | Client Success Lead |
+| **TH-Q1-06**             | Standard Intake Process            | tactic        | Intake templates & workflows             | 2025-01-15 |     14d | Client Success Lead |
+| **I-Q1-06**              | Intake System Live                 | milestone     | Intake process launched                  | 2025-01-29 |      1d | Client Success Lead |
+| **E-Q1-06**              | Intake Tech Implementation         | epic          | Build intake workflows                   | 2025-01-15 |     14d | Squad-Ops A Lead    |
+| **S-Q1-16 (doc)**        | Intake Form Template               | documentation | For all clients                          | 2025-01-15 |      4d | Client Success Lead |
+| **S-Q1-17 (feature)**    | CRM Intake Integration             | feature       | Hook intake system                       | 2025-01-19 |      6d | Ops Lead            |
+| **S-Q1-18 (test)**       | Intake QA                          | test          | Validate intake flow                     | 2025-01-25 |      2d | QA-Guild Lead       |
+| **P-Q1-03**              | Batch 1 Client Launch              | plan          | Onboard first wave                       | 2025-02-01 |     45d | Delivery Lead       |
+| **TH-Q1-07**             | Governance Client Onboarding       | tactic        | Launch governance clients                | 2025-02-01 |     45d | Squad-Gov           |
+| **I-Q1-07**              | Launch Pamoja Federation           | milestone     | Pamoja live governance                   | 2025-02-21 |      1d | Squad-Gov           |
+| **E-Q1-07**              | Pamoja Implementation              | epic          | Deploy Pamoja OS                         | 2025-02-01 |     18d | Squad-Gov Dev Lead  |
+| **S-Q1-19 (req)**        | Pamoja Config Spec                 | requirement   | Pamoja config requirements               | 2025-02-01 |      5d | TechArch            |
+| **S-Q1-20 (feature)**    | Gov Integration                    | feature       | Integrate governance nodes               | 2025-02-06 |     10d | Squad-Gov Dev Lead  |
+| **S-Q1-21 (test)**       | Pamoja Go-Live QA                  | test          | Validate Pamoja launch                   | 2025-02-16 |      5d | QA-Guild Lead       |
+
+---
+
+⚠️ **Important:** This table continues in **Parts 2–4** with Months **Apr–Jun (Q2)**, **Jul–Sep (Q3)**, and **Oct–Dec (Q4)**.
+
+Reply **“continue Q2”** and I’ll deliver the next block exactly as long and continuous.
+
+Great — here is **Part 2 of 4** of your Year 1 Work Breakdown Structure (WBS) table, continuing **Quarter 2 (Apr–Jun 2025)** for *The Dominic Eaton Software Engineering Firm*. This continues seamlessly from where Part 1 left off and is part of the **one long, continuous table**.
+
+Each row contains:
+
+* **ID**
+* **Name**
+* **Type**
+* **Brief**
+* **Start**
+* **Dur** (duration in days)
+* **Owner**
+
+This quarter focuses on **a major wave of client onboarding**, getting **venture operations live**, and continuing broader platform evolution.
+
+---
+
+## 📋 Year 1 WBS — **Quarter 2 (Part 2 of 4)**
+
+| **ID**                | **Name**                                 | **Type**    | **Brief**                                | **Start**  | **Dur** | **Owner**          |
+| --------------------- | ---------------------------------------- | ----------- | ---------------------------------------- | ---------- | ------: | ------------------ |
+| **S-Q1-21** cont.     | Pamoja Go-Live QA                        | test        | Validate Pamoja launch                   | 2025-02-16 |      5d | QA-Guild Lead      |
+| **I-Q1-08**           | Launch Ubuntuwa Commons                  | milestone   | Ubuntuwa Commons live                    | 2025-03-01 |      1d | Squad-Gov          |
+| **E-Q1-08**           | Ubuntuwa Commons Implementation          | epic        | Governance + ops setup                   | 2025-02-21 |     18d | Squad-Gov Dev Lead |
+| **S-Q1-22 (req)**     | Commons Config Spec                      | requirement | Define Ubuntuwa needs                    | 2025-02-21 |      5d | TechArch           |
+| **S-Q1-23 (feature)** | Commons Integration Tasks                | feature     | Integrate Ubuntuwa modules               | 2025-02-26 |     10d | Squad-Gov Dev Lead |
+| **S-Q1-24 (test)**    | Ubuntuwa QA                              | test        | Validate integrations                    | 2025-03-08 |      5d | QA-Guild Lead      |
+| **W-Q2**              | Year 1 Q2 Delivery                       | strategy    | Q2 focused delivery plan                 | 2025-04-01 |     65d | Dominic            |
+| **P-Q2-01**           | Venture Launch Wave 1                    | plan        | Onboard core ventures                    | 2025-04-01 |     60d | Delivery Lead      |
+| **TH-Q2-01**          | Wolof.io + Massai Media                  | tactic      | Launch two ventures                      | 2025-04-01 |     25d | Squad-Ops A        |
+| **I-Q2-01A**          | Wolof.io Go-Live                         | milestone   | Wolof launch                             | 2025-04-21 |      1d | Squad-Ops A        |
+| **E-Q2-01A**          | Wolof.io OS Implementation               | epic        | Worker economy platform                  | 2025-04-01 |     20d | Squad-Ops A        |
+| **S-Q2-01 (req)**     | Wolof Requirements                       | requirement | Requirement definition                   | 2025-04-01 |      7d | PS                 |
+| **S-Q2-02 (feature)** | Wolof Feature Build                      | feature     | Core module dev                          | 2025-04-08 |     10d | Squad-Ops A        |
+| **S-Q2-03 (test)**    | Wolof QA                                 | test        | End-to-end QA                            | 2025-04-18 |      5d | QA-Guild           |
+| **I-Q2-01B**          | Massai Media Go-Live                     | milestone   | Massai launch                            | 2025-04-22 |      1d | Squad-Ops A        |
+| **E-Q2-01B**          | Massai Media OS Implementation           | epic        | Media & content platform                 | 2025-04-02 |     20d | Squad-Ops A        |
+| **S-Q2-04 (req)**     | Media OS Requirements                    | requirement | Spec capture                             | 2025-04-02 |      7d | TechArch           |
+| **S-Q2-05 (feature)** | Media Feature Build                      | feature     | Media modules                            | 2025-04-09 |     10d | Squad-Ops A        |
+| **S-Q2-06 (test)**    | Media QA                                 | test        | QA & validation                          | 2025-04-19 |      5d | QA-Guild           |
+| **TH-Q2-02**          | Nandi Mobility + Batwa Foundation Launch | tactic      | Launch critical ventures                 | 2025-04-16 |     30d | Squad-Ops B        |
+| **I-Q2-02A**          | Nandi Mobility Go-Live                   | milestone   | Nandi launch                             | 2025-05-06 |      1d | Squad-Ops B        |
+| **E-Q2-02A**          | Nandi OS Implementation                  | epic        | Mobility platform                        | 2025-04-16 |     20d | Squad-Ops B        |
+| **S-Q2-07 (req)**     | Mobility Requirements                    | requirement | Requirements doc                         | 2025-04-16 |      7d | PS                 |
+| **S-Q2-08 (feature)** | Mobility Build                           | feature     | Core features                            | 2025-04-23 |     10d | Squad-Ops B        |
+| **S-Q2-09 (test)**    | Mobility QA                              | test        | Validations                              | 2025-05-03 |      5d | QA-Guild           |
+| **I-Q2-02B**          | Batwa Foundation Go-Live                 | milestone   | Batwa franchise launch                   | 2025-05-10 |      1d | Squad-Ops B        |
+| **E-Q2-02B**          | Batwa OS Implementation                  | epic        | Urban community OS                       | 2025-04-20 |     15d | Squad-Ops B        |
+| **S-Q2-10 (req)**     | Batwa Requirements                       | requirement | Franchise spec                           | 2025-04-20 |      7d | PS                 |
+| **S-Q2-11 (feature)** | Batwa Feature Build                      | feature     | Core modules                             | 2025-04-27 |      8d | Squad-Ops B        |
+| **S-Q2-12 (test)**    | Batwa QA                                 | test        | QA & validation                          | 2025-05-05 |      5d | QA-Guild           |
+| **TH-Q2-03**          | Dogon Manufacturing + Azande Software    | tactic      | Launch manufacturing & software ventures | 2025-05-01 |     30d | Squad-Ops C        |
+| **I-Q2-03A**          | Dogon Manufacturing Go-Live              | milestone   | Dogon fab launch                         | 2025-05-21 |      1d | Squad-Ops C        |
+| **E-Q2-03A**          | Dogon OS Implementation                  | epic        | Fab system & ops                         | 2025-05-01 |     20d | Squad-Ops C        |
+| **S-Q2-13 (req)**     | Fab OS Requirements                      | requirement | Capture requirements                     | 2025-05-01 |      7d | PS                 |
+| **S-Q2-14 (feature)** | Fab Modules Build                        | feature     | Feature dev                              | 2025-05-08 |     10d | Squad-Ops C        |
+| **S-Q2-15 (test)**    | Dogon QA                                 | test        | QA & validation                          | 2025-05-18 |      5d | QA-Guild           |
+| **I-Q2-03B**          | Azande Software Go-Live                  | milestone   | Azande launch                            | 2025-05-26 |      1d | Squad-Ops C        |
+| **E-Q2-03B**          | Azande OS Implementation                 | epic        | Software agency platform                 | 2025-05-06 |     18d | Squad-Ops C        |
+| **S-Q2-16 (req)**     | Azande Requirements                      | requirement | Dev requirements                         | 2025-05-06 |      7d | TechArch           |
+| **S-Q2-17 (feature)** | Azande Build                             | feature     | Core dev tasks                           | 2025-05-13 |     10d | Squad-Ops C        |
+| **S-Q2-18 (test)**    | Azande QA                                | test        | Validate delivery                        | 2025-05-23 |      5d | QA-Guild           |
+| **TH-Q2-04**          | Ops D — Engineering Ventures             | tactic      | Launch engineering & AI ventures         | 2025-05-15 |     30d | Squad-Ops D        |
+| **I-Q2-04A**          | Lomwe Systems Go-Live                    | milestone   | Launch engineering OS                    | 2025-06-04 |      1d | Squad-Ops D        |
+| **E-Q2-04A**          | Lomwe OS Implementation                  | epic        | Simulation & engineering                 | 2025-05-15 |     20d | Squad-Ops D        |
+| **S-Q2-19 (req)**     | Lomwe Requirements                       | requirement | Spec document                            | 2025-05-15 |      7d | PS                 |
+| **S-Q2-20 (feature)** | Lomwe Build                              | feature     | Modules development                      | 2025-05-22 |     10d | Squad-Ops D        |
+| **S-Q2-21 (test)**    | Lomwe QA                                 | test        | Validate OS                              | 2025-06-01 |      5d | QA-Guild           |
+| **I-Q2-04B**          | Damara Enterprise Go-Live                | milestone   | Enterprise launch                        | 2025-06-09 |      1d | Squad-Ops D        |
+| **E-Q2-04B**          | Damara OS Implementation                 | epic        | Enterprise OS rollout                    | 2025-05-25 |     15d | Squad-Ops D        |
+| **S-Q2-22 (req)**     | Enterprise Requirements                  | requirement | Capture requirements                     | 2025-05-25 |      7d | TechArch           |
+
+---
+
+Reply **“continue Q2 part 2”** and I’ll send the rest of Q2 and then continue with Q3 and Q4!
+
+
+Got it — you’re indicating **“continue”**. Here is the **rest of **Quarter 2** WBS (continuing from where we left off in Part 2)** of your Year 1 Work Breakdown Structure. This is still one long, continuous table.
+
+---
+
+## 📋 Year 1 WBS — **Quarter 2 (continuation of Part 2 of 4)**
+
+| **ID**                    | **Name**                            | **Type**    | **Brief**                          | **Start**  | **Dur** | **Owner**          |
+| ------------------------- | ----------------------------------- | ----------- | ---------------------------------- | ---------- | ------: | ------------------ |
+| **S-Q2-22 (req)**         | Enterprise Requirements             | requirement | Capture requirements               | 2025-05-25 |      7d | TechArch           |
+| **S-Q2-23 (feature)**     | Enterprise Build                    | feature     | Feature dev                        | 2025-06-01 |     10d | Squad-Ops D        |
+| **S-Q2-24 (test)**        | Enterprise QA                       | test        | Validate OS                        | 2025-06-11 |      5d | QA-Guild           |
+| **TH-Q2-05**              | Squad-Ops E — Capital & Franchise   | tactic      | Launch finance + franchise clients | 2025-06-01 |     30d | Squad-Ops E        |
+| **I-Q2-05A**              | Mande Investment Group Go-Live      | milestone   | Investment platform live           | 2025-06-21 |      1d | Squad-Ops E        |
+| **E-Q2-05A**              | Mande Capital OS Implementation     | epic        | Capital, portfolio systems         | 2025-06-01 |     15d | Squad-Ops E        |
+| **S-Q2-25 (req)**         | Capital OS Requirements             | requirement | Requirements capture               | 2025-06-01 |      7d | FinCtrl            |
+| **S-Q2-26 (feature)**     | Capital OS Build                    | feature     | Core capital modules               | 2025-06-08 |     10d | Squad-Ops E        |
+| **S-Q2-27 (test)**        | Capital QA                          | test        | Validate capital OS                | 2025-06-18 |      5d | QA-Guild           |
+| **I-Q2-05B**              | Batwa Franchise Support             | milestone   | Franchise support ops              | 2025-06-25 |      1d | Squad-Ops E        |
+| **E-Q2-05B**              | Batwa Franchise Implementation      | epic        | Franchise OS & tooling             | 2025-06-05 |     15d | Squad-Ops E        |
+| **S-Q2-28 (req)**         | Franchise Requirements              | requirement | Franchise spec                     | 2025-06-05 |      7d | PS                 |
+| **S-Q2-29 (feature)**     | Franchise Build                     | feature     | Core franchise tooling             | 2025-06-12 |     10d | Squad-Ops E        |
+| **S-Q2-30 (test)**        | Franchise QA                        | test        | Franchise platform QA              | 2025-06-22 |      5d | QA-Guild           |
+| **P-Q2-02**               | Mid-Quarter Governance Review       | plan        | Review governance implementations  | 2025-05-15 |     10d | OVCS Sec           |
+| **TH-Q2-06**              | Governance Compliance Check         | tactic      | Governance reviews and fixes       | 2025-05-15 |     10d | OVCS Sec           |
+| **I-Q2-06**               | Governance Review Complete          | milestone   | All coop governance checks done    | 2025-05-25 |      1d | OVCS Sec           |
+| **E-Q2-06**               | Review Governance Docs              | epic        | Review and remediation             | 2025-05-15 |      8d | OVCS Sec           |
+| **S-Q2-31 (assessment)**  | Governance Gap Assessment           | assessment  | Find gaps per coop                 | 2025-05-15 |      5d | OVCS Sec           |
+| **S-Q2-32 (enhancement)** | Governance Fix Tasks                | enhancement | Fix any gaps                       | 2025-05-20 |      5d | Squad-Gov Dev Lead |
+| **P-Q2-03**               | Platform & Infrastructure Evolution | plan        | Upgrade baseline for Q3            | 2025-06-15 |     20d | TechArch           |
+| **TH-Q2-07**              | Performance & Scale Prep            | tactic      | Prepare platform for scale         | 2025-06-15 |     20d | TechArch           |
+| **I-Q2-07**               | Scale Readiness Milestone           | milestone   | Platform ready for Q3              | 2025-07-05 |      1d | TechArch           |
+| **E-Q2-07**               | Infrastructure Upgrade              | epic        | Improve platform resilience        | 2025-06-15 |     12d | TechArch           |
+| **S-Q2-33 (feature)**     | Monitoring & Alerts                 | feature     | Add health monitoring              | 2025-06-15 |      7d | Squad-Ops A        |
+| **S-Q2-34 (feature)**     | Scaling Automation                  | feature     | Auto provisioning                  | 2025-06-22 |      7d | Squad-Ops B        |
+| **S-Q2-35 (test)**        | Performance QA                      | test        | Load test platform                 | 2025-06-29 |      3d | QA-Guild           |
+
+---
+
+✅ **Quarter 2 complete.**
+This covers all major venture launches, governance reviews, franchise and capital platform go-lives, and foundational platform scaling tasks.
+
+---
+
+If you’re ready, reply **“continue Q3”** and I’ll deliver **Part 3 (Quarter 3 July–Sept 2025)** with the next stretch of your Year 1 plan.
+
+Absolutely — here is **Part 3 of 4** of your Year 1 Work Breakdown Structure (WBS) table, covering **Quarter 3 (Jul–Sep 2025)**, continuing directly from where Quarter 2 ended. This continues the *single continuous table format* you requested, with all required fields.
+
+Each row includes:
+
+* **ID**
+* **Name**
+* **Type**
+* **Brief**
+* **Start**
+* **Dur** (duration, typically in days)
+* **Owner**
+
+Quarter 3 focuses on **deeper client enablement, program launches (Msingi), platform optimization, governance iteration, and cross-client integrations**.
+
+---
+
+## 📋 Year 1 WBS — **Quarter 3 (Part 3 of 4)**
+
+| **ID**                    | **Name**                             | **Type**    | **Brief**                                     | **Start**  | **Dur** | **Owner**     |
+| ------------------------- | ------------------------------------ | ----------- | --------------------------------------------- | ---------- | ------: | ------------- |
+| **W-Q3**                  | Year 1 Q3 Delivery                   | strategy    | Q3 focused deliverables & client scaling      | 2025-07-01 |     92d | Dominic       |
+| **P-Q3-01**               | Msingi Program Layer Start           | plan        | Begin program implementation and launches     | 2025-07-01 |     90d | Delivery Lead |
+| **TH-Q3-01**              | Kano Program Implementation          | tactic      | Build & launch Kano program OS                | 2025-07-01 |     20d | Squad-Prog 1  |
+| **I-Q3-01**               | Kano Go-Live                         | milestone   | Kano program operational                      | 2025-07-21 |      1d | Squad-Prog 1  |
+| **E-Q3-01**               | Kano OS Build                        | epic        | Build core Kano program tech                  | 2025-07-01 |     15d | Squad-Prog 1  |
+| **S-Q3-01 (feature)**     | Kano Core Modules                    | feature     | Develop Kano modules                          | 2025-07-01 |     10d | Squad-Prog 1  |
+| **S-Q3-02 (test)**        | Kano QA                              | test        | Validate Kano tech                            | 2025-07-16 |      3d | QA-Guild      |
+| **TH-Q3-02**              | Ndebe Program Implementation         | tactic      | Build & launch Ndebe OS                       | 2025-07-22 |     20d | Squad-Prog 2  |
+| **I-Q3-02**               | Ndebe Go-Live                        | milestone   | Ndebe OS operational                          | 2025-08-11 |      1d | Squad-Prog 2  |
+| **E-Q3-02**               | Ndebe OS Build                       | epic        | Develop Ndebe program tech                    | 2025-07-22 |     15d | Squad-Prog 2  |
+| **S-Q3-03 (feature)**     | Ndebe Core Modules                   | feature     | Build Ndebe modules                           | 2025-07-22 |     10d | Squad-Prog 2  |
+| **S-Q3-04 (test)**        | Ndebe QA                             | test        | Validate Ndebe OS                             | 2025-08-01 |      3d | QA-Guild      |
+| **TH-Q3-03**              | Kuzu Program Implementation          | tactic      | Build & launch Kuzu OS                        | 2025-08-12 |     20d | Squad-Prog 3  |
+| **I-Q3-03**               | Kuzu Go-Live                         | milestone   | Kuzu OS operational                           | 2025-09-01 |      1d | Squad-Prog 3  |
+| **E-Q3-03**               | Kuzu OS Build                        | epic        | Build Kuzu program tech                       | 2025-08-12 |     15d | Squad-Prog 3  |
+| **S-Q3-05 (feature)**     | Kuzu Modules                         | feature     | Dev Kuzu modules                              | 2025-08-12 |     10d | Squad-Prog 3  |
+| **S-Q3-06 (test)**        | Kuzu QA                              | test        | Validate Kuzu                                 | 2025-08-26 |      3d | QA-Guild      |
+| **P-Q3-02**               | Program Enablement Support           | plan        | Support squad-prog teams                      | 2025-07-01 |     90d | PS            |
+| **TH-Q3-04**              | Sequencing Monitoring & Optimization | tactic      | Ensure phase gating for programs              | 2025-07-01 |     90d | PS            |
+| **I-Q3-04**               | Program Readiness Reviews            | milestone   | Readiness checkpoints                         | 2025-08-01 |      1d | PS            |
+| **E-Q3-04**               | Sequencing Feedback Loop             | epic        | Adjust sequencing logic                       | 2025-07-01 |     20d | PS            |
+| **S-Q3-07 (enhancement)** | Improve Sequencing Dashboard         | enhancement | Make sequencing tools more visual             | 2025-07-15 |      8d | PS            |
+| **S-Q3-08 (case)**        | Phase Gate Case Studies              | case        | Document readiness examples                   | 2025-08-05 |     10d | PS            |
+| **P-Q3-03**               | Ops Delivery Continuity              | plan        | Continue venture support & backlog refinement | 2025-07-01 |     90d | Delivery Lead |
+| **TH-Q3-05**              | Ops A Continued Enhancements         | tactic      | Ops tasks for Wolof/Massai/Bahari/Moyo        | 2025-07-01 |     45d | Squad-Ops A   |
+| **I-Q3-05A**              | Wolof Feature Iterations             | milestone   | Post-launch improvements                      | 2025-07-15 |      1d | Squad-Ops A   |
+| **E-Q3-05A**              | Wolof Enhancements                   | epic        | Feature improvements based on feedback        | 2025-07-01 |     14d | Squad-Ops A   |
+| **S-Q3-09 (feature)**     | Wolof Enhancements                   | feature     | UX & performance updates                      | 2025-07-01 |     10d | Squad-Ops A   |
+| **S-Q3-10 (test)**        | Wolof Re-QA                          | test        | Regression test suite                         | 2025-07-11 |      5d | QA-Guild      |
+| **I-Q3-05B**              | Massai Media Feature Growth          | milestone   | Massai pipeline growth tasks                  | 2025-08-01 |      1d | Squad-Ops A   |
+| **E-Q3-05B**              | Media Enhancements                   | epic        | Broadcast & content platform build            | 2025-07-15 |     14d | Squad-Ops A   |
+| **S-Q3-11 (feature)**     | Massai Feature Build                 | feature     | Added media features                          | 2025-07-15 |     10d | Squad-Ops A   |
+| **S-Q3-12 (test)**        | Media QA                             | test        | Regression QA                                 | 2025-07-25 |      5d | QA-Guild      |
+| **TH-Q3-06**              | Ops B Continued Enhancements         | tactic      | Nandi/Ubunye/Umoya refinements                | 2025-07-01 |     45d | Squad-Ops B   |
+| **I-Q3-06A**              | Nandi Mobility Enhancements          | milestone   | Mobility ops tasks                            | 2025-07-15 |      1d | Squad-Ops B   |
+| **E-Q3-06A**              | Mobility Enhancements                | epic        | Feature expansions                            | 2025-07-01 |     14d | Squad-Ops B   |
+| **S-Q3-13 (feature)**     | Mobility Treasury & Billing          | feature     | Add finance integrations                      | 2025-07-01 |     10d | Squad-Ops B   |
+| **S-Q3-14 (test)**        | Mobility Re-QA                       | test        | Post-enhancement QA                           | 2025-07-11 |      5d | QA-Guild      |
+| **I-Q3-06B**              | Ubunye System Enhancements           | milestone   | Strategic refinements                         | 2025-08-01 |      1d | Squad-Ops B   |
+| **E-Q3-06B**              | Ubunye Feature Build                 | epic        | Advanced engineering tasks                    | 2025-07-15 |     14d | Squad-Ops B   |
+| **S-Q3-15 (feature)**     | Ubunye Modules Build                 | feature     | Engineering platform tasks                    | 2025-07-15 |     10d | Squad-Ops B   |
+| **S-Q3-16 (test)**        | Ubunye QA                            | test        | QA                                            | 2025-07-25 |      5d | QA-Guild      |
+| **TH-Q3-07**              | Ops C Continued Enhancements         | tactic      | Dogon/Azande/Damara refinements               | 2025-07-01 |     45d | Squad-Ops C   |
+| **I-Q3-07A**              | Dogon Feature Growth                 | milestone   | Expand fab features                           | 2025-07-15 |      1d | Squad-Ops C   |
+| **E-Q3-07A**              | Dogon Enhancement Build              | epic        | Additional modules                            | 2025-07-01 |     14d | Squad-Ops C   |
+| **S-Q3-17 (feature)**     | Dogon Feature Build                  | feature     | Extra fab features                            | 2025-07-01 |     10d | Squad-Ops C   |
+| **S-Q3-18 (test)**        | Dogon Regression QA                  | test        | QA for updates                                | 2025-07-11 |      5d | QA-Guild      |
+| **I-Q3-07B**              | Azande Software Enhancements         | milestone   | Expand software features                      | 2025-08-01 |      1d | Squad-Ops C   |
+| **E-Q3-07B**              | Azande Enhancement Build             | epic        | Feature enhancements                          | 2025-07-15 |     14d | Squad-Ops C   |
+| **S-Q3-19 (feature)**     | Azande Feature Build                 | feature     | Expand feature set                            | 2025-07-15 |     10d | Squad-Ops C   |
+| **S-Q3-20 (test)**        | Azande Regression QA                 | test        | QA                                            | 2025-07-25 |      5d | QA-Guild      |
+
+---
+
+Reply **“continue Q4”** and I’ll send **Part 4 (Quarter 4)** to complete the full Year 1 WBS.
+
+Absolutely — here is **Part 4 of 4** of your Year 1 **continuous WBS table**, covering **Quarter 4 (Oct–Dec 2025)**. This completes your full Year 1 plan to get all your clients **started, bootstrapped, live, and running**.
+
+As before, each row includes:
+
+* **ID**
+* **Name**
+* **Type**
+* **Brief**
+* **Start**
+* **Dur** (duration)
+* **Owner**
+
+Let’s continue from where **Quarter 3** left off:
+
+---
+
+## 📋 Year 1 WBS — **Quarter 4 (Part 4 of 4)**
+
+| **ID**                    | **Name**                          | **Type**    | **Brief**                                | **Start**  | **Dur** | **Owner**                 |
+| ------------------------- | --------------------------------- | ----------- | ---------------------------------------- | ---------- | ------: | ------------------------- |
+| **W-Q4**                  | Year 1 Q4 Delivery                | strategy    | Q4: Stabilize, optimize, close           | 2025-10-01 |     92d | Dominic                   |
+| **P-Q4-01**               | Luma Program Implementation       | plan        | Build & launch Luma program OS           | 2025-10-01 |     30d | Squad-Prog 6              |
+| **TH-Q4-01**              | Luma Program Build                | tactic      | Build Luma modules & QA                  | 2025-10-01 |     30d | Squad-Prog 6              |
+| **I-Q4-01**               | Luma Go-Live                      | milestone   | Luma operational                         | 2025-10-21 |      1d | Squad-Prog 6              |
+| **E-Q4-01**               | Luma OS Tech Build                | epic        | Implement Luma tech                      | 2025-10-01 |     15d | Squad-Prog 6              |
+| **S-Q4-01 (feature)**     | Luma Core Modules                 | feature     | Dev tasks                                | 2025-10-01 |     10d | Squad-Prog 6              |
+| **S-Q4-02 (test)**        | Luma QA                           | test        | Validate Luma OS                         | 2025-10-16 |      3d | QA-Guild                  |
+| **P-Q4-02**               | All-Clients Stabilization         | plan        | System stability + QA across all clients | 2025-10-01 |     60d | Delivery Lead             |
+| **TH-Q4-02**              | Regression & Bugfix Wave          | tactic      | Fix backlog bugs and improvements        | 2025-10-01 |     30d | All Squad Leads           |
+| **I-Q4-02A**              | Wolof Regression Fixes            | milestone   | Regression tasks complete                | 2025-10-15 |      1d | Squad-Ops A               |
+| **S-Q4-03 (bug)**         | Wolof Fix Bug Batch 1             | bug         | Critical bug fixes                       | 2025-10-01 |      7d | Squad-Ops A               |
+| **S-Q4-04 (bug)**         | Wolof Fix Bug Batch 2             | bug         | Non-critical bugs                        | 2025-10-08 |      7d | Squad-Ops A               |
+| **I-Q4-02B**              | Nandi Regression Fixes            | milestone   | Nandi fixes complete                     | 2025-10-20 |      1d | Squad-Ops B               |
+| **S-Q4-05 (bug)**         | Nandi Fix Bug Batch 1             | bug         | Critical bug fixes                       | 2025-10-01 |      7d | Squad-Ops B               |
+| **S-Q4-06 (bug)**         | Nandi Fix Bug Batch 2             | bug         | Non-critical bugs                        | 2025-10-08 |      7d | Squad-Ops B               |
+| **TH-Q4-03**              | Enterprise & Capital Enhancements | tactic      | Grow enterprise & capital platforms      | 2025-10-15 |     40d | Squad-Ops D + Squad-Ops E |
+| **I-Q4-03A**              | Enterprise OS Enhancements        | milestone   | Enterprise tech upgrades                 | 2025-11-05 |      1d | Squad-Ops D               |
+| **S-Q4-07 (feature)**     | Enterprise Feature Refactor       | feature     | Enhance functionality                    | 2025-10-15 |     10d | Squad-Ops D               |
+| **S-Q4-08 (test)**        | Enterprise QA                     | test        | Validate upgrades                        | 2025-10-29 |      5d | QA-Guild                  |
+| **I-Q4-03B**              | Capital OS Optimizations          | milestone   | Capital + Batwa refinements              | 2025-11-10 |      1d | Squad-Ops E               |
+| **S-Q4-09 (feature)**     | Capital Feature Build             | feature     | Improvements & tools                     | 2025-10-15 |     15d | Squad-Ops E               |
+| **S-Q4-10 (test)**        | Capital QA                        | test        | Validate capital features                | 2025-10-30 |      5d | QA-Guild                  |
+| **P-Q4-03**               | Governance & Legal End-of-Year    | plan        | Governance / legal reviews and filings   | 2025-10-01 |     45d | OVCS Sec + LegalStew      |
+| **TH-Q4-04**              | Legal Entity Compliance Audit     | tactic      | Review legal artifacts                   | 2025-10-01 |     20d | LegalStew                 |
+| **I-Q4-04**               | Compliance Audit Complete         | milestone   | All legal records audited                | 2025-10-21 |      1d | LegalStew                 |
+| **E-Q4-04**               | Contract Risk Review              | epic        | Review executed contracts                | 2025-10-01 |     15d | LegalStew                 |
+| **S-Q4-11 (assessment)**  | Legal Compliance Report           | report      | Year-end legal report                    | 2025-10-15 |      5d | LegalStew                 |
+| **S-Q4-12 (assessment)**  | Entity Filings Review             | assessment  | Confirm filings                          | 2025-10-20 |      5d | LegalStew                 |
+| **P-Q4-04**               | Billing & Finance Year-End        | plan        | Year-end billing settlement              | 2025-11-01 |     40d | FinCtrl                   |
+| **TH-Q4-05**              | Billing Cleanup & Reconciliation  | tactic      | Cleanup invoices + credits               | 2025-11-01 |     20d | FinCtrl                   |
+| **I-Q4-05**               | Billing Reconciled                | milestone   | Year-end billing done                    | 2025-11-21 |      1d | FinCtrl                   |
+| **E-Q4-05**               | Billing Report & Audit            | epic        | Generate billing report                  | 2025-11-01 |     10d | FinCtrl                   |
+| **S-Q4-13 (report)**      | Billing KPI Report                | report      | Yearly billing KPIs                      | 2025-11-06 |      5d | FinCtrl                   |
+| **S-Q4-14 (assessment)**  | Billing Audit Assessment          | assessment  | Billing audit                            | 2025-11-11 |      5d | FinCtrl                   |
+| **P-Q4-05**               | Delivery Quality Evaluation       | plan        | Evaluate delivery outcomes               | 2025-11-10 |     40d | Delivery Lead             |
+| **TH-Q4-06**              | Retrospective & Lessons Learned   | tactic      | Retrospectives + improvements            | 2025-11-10 |     20d | Delivery Lead             |
+| **I-Q4-06**               | Delivery #1 KPI Completion        | milestone   | Delivery KPIs assessed                   | 2025-11-30 |      1d | Delivery Lead             |
+| **E-Q4-06**               | Delivery Retrospective            | epic        | Deep dive into Year-1                    | 2025-11-10 |     15d | Delivery Lead             |
+| **S-Q4-15 (report)**      | Delivery KPI Report               | report      | Compile delivery metrics                 | 2025-11-15 |      5d | Delivery Lead             |
+| **S-Q4-16 (enhancement)** | Delivery Playbook Updates         | enhancement | Update playbooks                         | 2025-11-21 |      5d | Delivery Lead             |
+| **TH-Q4-07**              | Year-2 Readiness                  | tactic      | Prep for Year 2 & scaling                | 2025-12-01 |     30d | Dominic                   |
+| **I-Q4-07**               | Year-2 Planning Complete          | milestone   | Plan ready for Year 2                    | 2025-12-21 |      1d | Dominic                   |
+| **E-Q4-07**               | Year-2 Roadmap                    | epic        | Roadmap & strategy                       | 2025-12-01 |     15d | Dominic                   |
+| **S-Q4-17 (plan)**        | Year-2 Goals                      | plan        | Set goals & strategy                     | 2025-12-01 |      7d | Dominic                   |
+| **S-Q4-18 (report)**      | Year-1 Review Brief               | brief       | Executive review of Year 1               | 2025-12-08 |      7d | Dominic                   |
+
+---
+
+🎉 **This completes your Year 1 Work Breakdown Structure** across all four quarters, capturing:
+
+✔ Core firm enablement
+✔ Governance & legal setup
+✔ Client intake & onboarding
+✔ Multi-venture operations
+✔ Program layer launches
+✔ Stabilization, enhancements, QA
+✔ Billing, finance, legal audits
+✔ Delivery retrospectives
+✔ Year-2 planning
+
+---
+
+## 📌 Next Available Outputs (just ask!)
+
+If you want any of these, I can generate:
+
+* 📊 **Gantt Chart (Excel/Sheets)**
+* 📆 **Sprint / PI schedule view**
+* 📈 **Dashboards (Billing vs Milestones vs Credits)**
+* 📁 **Exportable CSV/Sheets/Notion format**
+* 🧭 **Dependency diagrams and critical path**
+
+Just tell me what format you want!
+
+Absolutely — we’ll update the **Communications & External Interface Lead** role so that it also includes ownership of your **blogs and all external communications** (e.g., public announcements, blog posts, social content, newsletters, documentation releases, press releases, and external channels).
+
+Here’s the updated **role description** and how it fits into your org, squads, and Year 1 deliverables:
+
+---
+
+# 📣 **Updated Role: Communications & External Interface Lead**
+
+### **Title**
+
+**Communications & External Interface Lead**
+(*Primary “Voice of the Firm” + Brand & Narrative Owner*)
+
+---
+
+## 🧠 **Role Summary**
+
+The **Communications & External Interface Lead** manages all outward-facing communication for *The Dominic Eaton Software Engineering Firm* and its ecosystem. This includes maintaining all blogs, public announcements, newsletters, documentation releases, community updates, and external narratives — ensuring consistency, clarity, and alignment with your mission and operational progress.
+
+This role protects your internal execution flows from external noise while actively driving strategic communication that supports partnership, community engagement, and brand positioning.
+
+---
+
+## 🎯 **Core Responsibilities**
+
+### **1. External Communications Strategy**
+
+* Develop and maintain a communications strategy aligned with organizational goals.
+* Own messaging frameworks for key milestones, products, and governance announcements.
+* Coordinate with Dominic and executive leadership on timing and approval.
+
+### **2. Blog & Content Ownership**
+
+* Maintain and curate all official blogs and long-form content.
+* Publish:
+
+  * Product/venture launch posts
+  * Governance updates
+  * Program progress (e.g., Msingi updates)
+  * Community announcements
+  * Thought leadership pieces
+
+### **3. Public Channels & Publishing**
+
+* Oversee content on:
+
+  * Corporate blog
+  * Social platforms
+  * Newsletter distributions
+  * Documentation portal (for public docs)
+* Ensure scheduled cadence of posts and consistent voice.
+
+### **4. Press & Media Relations**
+
+* Draft press releases for major go-lives, partnerships, flagship launches.
+* Coordinate media engagement and brief spokespeople.
+* Shield internal teams from ad hoc external pressure.
+
+### **5. Partner & Community Messaging**
+
+* Align messaging with cooperatives, networks, and venture partners.
+* Support narrative for federation entities like Pamoja and Ubuntuwa Commons.
+* Create community-focused releases for open ecosystem updates.
+
+### **6. Squad Liaison**
+
+* Work closely with:
+
+  * **Delivery Lead** (to time external announcements around delivery milestones)
+  * **Legal & Entity Steward** (to ensure compliance in communication)
+  * **Tech Architect & Product Leads** (to get accurate technical content)
+
+### **7. Crisis Communication**
+
+* Lead external communication during outages, legal issues, messaging crises.
+* Prepare reactive messaging templates.
+
+---
+
+## 💼 **Skills & Competencies**
+
+| Category                           | Competencies                                |
+| ---------------------------------- | ------------------------------------------- |
+| **Writing & Editing**              | Strong command of narrative, clarity, style |
+| **Strategic Messaging**            | Align content with mission and outcomes     |
+| **Content Planning**               | Editorial calendars, cadence management     |
+| **Media & Community Relations**    | Press, blog audience engagement             |
+| **Cross-Functional Collaboration** | Works with executives, product, legal       |
+| **Audience Understanding**         | Tailors messaging to ecosystem stakeholders |
+| **Brand Stewardship**              | Consistent voice across channels            |
+
+---
+
+## 🧩 **Position in Org Chart**
+
+```
+                      Dominic (CEO / Founder)
+                                  │
+    ┌───────────────────────────────┼───────────────────────────────┐
+    │                               │                               │
+   CoS                           Ops Lead                      Communications & External Interface Lead
+    │                                                         (now with blogs + external comms)
+    │                                                                  │
+    │                                                                  ├─ Blog Writing & Editing
+    │                                                                  ├─ Public Content Calendar
+    │                                                                  ├─ Press & Announcements
+    │                                                                  └─ Media / Community Relations
+```
+
+**Reports To:** Dominic (CEO)
+**Collaborates With:** LegalStew, Delivery Lead, TechArch, FinCtrl, Squad Leads
+
+---
+
+## 📆 **Responsibilities Across Deliverables**
+
+### 🗓 **Quarterly Example Cadence**
+
+| **Deliverable**             | **Activity**                        | **Owner**  |
+| --------------------------- | ----------------------------------- | ---------- |
+| Q1 Launches                 | Announce Pamoja + Ubuntuwa launches | Comms Lead |
+| Wolof.io & Massai Launch    | Publish launch blog + newsletter    | Comms Lead |
+| Nandi & Batwa Launch        | External press releases             | Comms Lead |
+| Program Launch (Kano, etc.) | Program introduction articles       | Comms Lead |
+| Mid-Year Governance Update  | Federation governance brief         | Comms Lead |
+| Year-End Retrospective      | Year-in-review blog + metrics       | Comms Lead |
+
+---
+
+## 🧠 Integration With Squads
+
+The Comms Lead:
+
+✔ Works with **Squad-Gov** for governance messaging
+✔ Works with **Squad-Ops A–E** for venture go-live announcements
+✔ Works with **Squad-Prog 1–6** for program update releases
+✔ Coordinates with **LegalStew** to ensure compliance
+✔ Works with **FinCtrl** for investor/financial communications
+
+---
+
+## 🔧 **Updated Team Table Entry**
+
+| **Team / Squad Name**               | **Member / Role** | **Role / Responsibilities**                                              |
+| ----------------------------------- | ----------------- | ------------------------------------------------------------------------ |
+| Communications & External Interface | Comms Lead        | External narrative, blogs, press, social, newsletters, partner messaging |
+
+---
+
+## 📣 Example Blog & External Content Types
+
+📌 **Launch Blogs**
+
+* “Introducing Pamoja Federation OS — Governance for a New Era”
+* “Wolof.io Now Live — Independent Worker Economy in Motion”
+
+📌 **Program Updates**
+
+* “Kano Program: First Milestones Achieved”
+* “Ndebe OS Launch — Scaling Program Impact”
+
+📌 **Governance Briefs**
+
+* “Ubuntuwa Commons: Governance Milestone Summary”
+* “Year-End Governance Report”
+
+📌 **Community Newsletters**
+
+* Monthly digest of all venture, coop, and program activity
+
+---
+
+## 📊 Key Metrics for Comms Lead Success
+
+| Metric                      | Example KPI                            |
+| --------------------------- | -------------------------------------- |
+| Blog Cadence                | 2–4 posts per month                    |
+| Engagement                  | Social interactions / newsletter opens |
+| Launch Impact               | Media pickups + linkbacks              |
+| External Sentiment          | PR sentiment score                     |
+| Partner Messaging Alignment | Cross-entity message consistency       |
+
+---
+
+If you’d like, I can now generate:
+
+📌 **Content calendar template** (Google Sheets / Notion)
+📌 **Blog editorial calendar** (with suggested titles & dates)
+📌 **Press release templates**
+📌 **Audience persona briefs** for blogs
+
+Just tell me what you want!
+
+Absolutely — we’ll update the **Communications & External Interface Lead** role to include **public relations (PR), podcasts, interviews, evangelism, spokesperson duties, and community engagement** in addition to maintaining blogs and all external communications.
+
+Below is the **enhanced role description**, integration into your org/team structures, key responsibilities, deliverables, and performance indicators — all aligned with your ecosystem.
+
+---
+
+# 📣 **Updated Role: Communications & Evangelism Lead**
+
+*(formerly Communications & External Interface Lead)*
+**Alias:** Comms & Evangelism Lead, Public Relations & Narrative Steward
+
+**Reports to:** Dominic (CEO / Founder / Navigator)
+**Collaborates with:** Ops Lead, Legal & Entity Steward, Delivery Lead, Squad Leads, FinCtrl, TechArch
+
+---
+
+## ⭐ **Role Summary**
+
+The **Communications & Evangelism Lead** is your firm’s *primary external voice* and *storyteller*, responsible for:
+
+✔ External communications and public narrative
+✔ Public relations, press, media, interviews
+✔ Thought leadership, evangelism, storytelling
+✔ Blog publishing and editorial strategy
+✔ Podcast coordination and guest appearances
+✔ Community engagement and partner messaging
+✔ Spokesperson for key announcements
+
+This role embodies your firm’s message outward — bridging internal execution with external understanding, influence, and reputation.
+
+---
+
+## 🔑 **Core Responsibilities**
+
+### **1) Narrative Strategy & Positioning**
+
+* Define the firm’s external storytelling framework.
+* Craft messaging that reflects mission, milestones, and values.
+* Align narrative with strategic goals (ventures, coops, programs).
+
+**Deliverables**
+
+* Narrative strategy document
+* Message maps for key audiences
+* Branding guidelines for external communications
+
+---
+
+### **2) Public Relations (PR) & Media**
+
+* Build and maintain media lists (journalists, publications, influencers).
+* Craft and distribute press releases for launches, milestones, partnerships.
+* Manage interview requests, media briefings, and press kits.
+* Act as liaison with journalists and media outlets.
+
+**Deliverables**
+
+* Press releases
+* Media briefing documents
+* Interview talking points
+
+---
+
+### **3) Evangelism & Thought Leadership**
+
+* Speak on behalf of the firm and ecosystem at relevant events.
+* Host or guest on podcasts, panels, webinars.
+* Represent your vision publicly and authentically.
+
+**Deliverables**
+
+* Speaking engagement calendar
+* Podcast episodes or guest appearances
+* Keynote and presentation decks
+
+---
+
+### **4) Blogs, Content & External Channels**
+
+* Maintain and curate your **corporate blog**.
+* Publish articles on venture launches, coop milestones, program progress.
+* Coordinate content cadence across platforms:
+
+  * Blog
+  * Newsletter
+  * Social channels
+  * Documentation site (public docs)
+  * Partner platforms
+
+**Deliverables**
+
+* Blog editorial calendar
+* Monthly newsletter
+* Social media content plan
+
+---
+
+### **5) Community & Partnership Messaging**
+
+* Develop communications for:
+
+  * Cooperative partners
+  * Developer/community audiences
+  * Venture stakeholders
+  * Program participants
+* Release regular ecosystem updates.
+
+**Deliverables**
+
+* Community news updates
+* Partnership messaging briefs
+* Event announcements
+
+---
+
+### **6) Internal Communications Alignment**
+
+* Work with CoS, Ops, and Squad Leads to time external messages with product milestones.
+* Coordinate with Legal & Entity Steward to ensure messaging compliance.
+* Provide communication guidance to delivery teams.
+
+**Deliverables**
+
+* Internal messaging guidelines
+* Announcement readiness checklists
+
+---
+
+## 🎯 **Key Skills & Competencies**
+
+| **Category**                   | **Expertise Required**                    |
+| ------------------------------ | ----------------------------------------- |
+| Strategic Messaging            | Thought leadership, external positioning  |
+| Writing & Storytelling         | Articles, press releases, keynote content |
+| Public Relations               | Media outreach, press management          |
+| Presentation & Speaking        | Public speaking, interviews, webinars     |
+| Community Engagement           | Partner communication, ecosystem updates  |
+| Content Strategy               | Editorial planning, cadence, quality      |
+| Cross-Functional Collaboration | Work with execs, legal, delivery, ops     |
+
+---
+
+## 🤝 **Team Integration**
+
+This role works closely with:
+
+* **Dominic (CEO)** — final approval of public messaging and spokesperson duties
+* **Legal & Entity Steward** — compliance review for public/legal messaging
+* **CoS & Ops Lead** — timing, coordination, and execution alignment
+* **Delivery Lead & Squad Leads** — capturing delivery outcomes for public announcements
+* **FinCtrl** — coordinating financial / investor communication alignment
+* **TechArch** — technical accuracy for product messaging
+
+Org-chart snippet:
+
+```
+Dominic (CEO)
+     │
+     ├── Communications & Evangelism Lead
+     │       ├── Content/Blog Manager (future)
+     │       ├── PR Coordinator (future)
+     │       └── Social/Community Specialist (future)
+     │
+     ├── CoS
+     └── … other core roles …
+```
+
+---
+
+## 🗓 **Sample Annual Communication Flow**
+
+| **Quarter** | **Focus**               | **Example External Activities**                                    |
+| ----------- | ----------------------- | ------------------------------------------------------------------ |
+| **Q1**      | Foundation & Governance | Announce firm launch, core team intro, coop governance OS blog     |
+| **Q2**      | Venture Launches        | Press releases + thought pieces for Wolof.io, Nandi Mobility, etc. |
+| **Q3**      | Program Layer           | Podcast series on Kano + Ndebe insights                            |
+| **Q4**      | Reflections & Scaling   | Year-end state announcement + roadmap for next year                |
+
+---
+
+## 📈 **Performance Metrics**
+
+| **Metric Category**              | **KPIs / Examples**                             |
+| -------------------------------- | ----------------------------------------------- |
+| **Content Output**               | ≥2 blog posts / month                           |
+| **Engagement**                   | Newsletter open rate, social engagement metrics |
+| **PR Impact**                    | Number of articles / outlets covering news      |
+| **Speaking Presence**            | ≥2 public speaking slots / quarter              |
+| **Podcasted Thought Leadership** | Guest appearances / produced episodes           |
+| **Media Coverage Quality**       | Tier-1 media mentions                           |
+
+---
+
+## 🛠 **Deliverables & Templates You Can Request Next**
+
+If you want, I can generate **ready-to-use templates** for:
+
+📌 **Blog Editorial Calendar (Google Sheets / Notion)**
+📌 **Press Release Templates**
+📌 **Podcast Outreach & Prep Kit**
+📌 **Interview Talking Points Deck Template**
+📌 **Content Strategy Framework**
+📌 **Media Contact CRM Template**
+
+Just tell me which one you’d like to start with!
+
+Absolutely — your **Comms & Evangelism Lead** role now also includes **ownership of all social media platforms** for your firm and ecosystem. That means managing content, engagement, audience growth, analytics, and alignment across platforms such as LinkedIn, Twitter/X, Instagram, Threads, YouTube, TikTok, Medium, and any other relevant public channels.
+
+Below is the **enhanced portion of the role description** and how social media responsibilities integrate into your communications strategy.
+
+---
+
+# 📣 **Updated: Communications & Evangelism Lead**
+
+### Expanded to Include **Social Media Strategy & Management**
+
+**Reports to:** Dominic (CEO / Founder / Navigator)
+**Collaborates with:** Legal & Entity Steward, CoS, Delivery Lead, Squad Leads, FinCtrl, TechArch
+
+---
+
+## 📌 **Social Media Ownership — Core Responsibilities**
+
+### **1) Social Strategy & Channel Planning**
+
+* Define **social media strategy** aligned with:
+
+  * Brand identity
+  * Venture launches
+  * Program updates
+  * Cooperative governance milestones
+  * Thought leadership and evangelism goals
+* Select target channels based on audience, e.g.:
+
+  * LinkedIn — professional announcements & thought leadership
+  * Twitter/X — real-time updates and conversation
+  * Instagram — visual storytelling
+  * YouTube / TikTok — long/short form video content
+  * Medium — long-form posts & narratives
+
+**Deliverables**
+
+* Annual social media strategy plan
+* Channel content calendars
+* Audience personas and targeting framework
+
+---
+
+### **2) Content Creation & Curation**
+
+* Craft platform-specific content:
+
+  * Short posts
+  * Threads
+  * Image carousels
+  * Reels/short videos
+  * Long-form narratives
+* Repurpose blog content into social snippets
+* Coordinate with product, delivery, and program teams for timely content
+
+**Deliverables**
+
+* Weekly social media posts
+* Repurposed blog/social content bundles
+* Visual templates for socials
+
+---
+
+### **3) Engagement & Community Building**
+
+* Respond to comments and mentions (tone aligned with brand)
+* Engage with partners, media, and community discussions
+* Grow network organically through consistent presence
+* Tag partners and collaborators in narrative announcements
+
+**Deliverables**
+
+* Weekly engagement report
+* Audience growth metrics
+* Community interaction highlights
+
+---
+
+### **4) Social Analytics & Optimization**
+
+* Track key KPIs for each channel:
+
+  * Impressions
+  * Engagement (likes, shares, comments)
+  * Follower growth
+  * Click-throughs to blogs, press releases, resources
+* Use data to guide strategy shifts
+
+**Deliverables**
+
+* Monthly social media analytics dashboard
+* Quarterly optimization plan
+
+---
+
+### **5) Crisis & Response Messaging**
+
+* Serve as the first responder for social messaging during:
+
+  * Outages
+  * Legal updates
+  * Community issues
+  * Miscommunication or misinformation events
+
+**Deliverables**
+
+* Crisis communication templates
+* Rapid response playbooks
+
+---
+
+## 🧠 **How This Integrated with Other Responsibilities**
+
+Your **Comms & Evangelism Lead** now owns the following ecosystem outputs:
+
+| Function                          | Role Responsibilities                                   |
+| --------------------------------- | ------------------------------------------------------- |
+| **External Narratives**           | Blogs, press releases, interviews, product storytelling |
+| **Public Relations & Media**      | Press outreach, media briefings, spokesmanship          |
+| **Podcasts & Speaking**           | Guest appearances, event talks, webinars                |
+| **Social Media Management**       | All platforms, engagement, analytics                    |
+| **Partner & Community Messaging** | Ecosystem communication & cross-promotion               |
+
+---
+
+## 📆 **Social Media in the Annual Calendar**
+
+| **Quarter** | **Social Focus**                                             |
+| ----------- | ------------------------------------------------------------ |
+| **Q1**      | Firm launch, governance updates, team intros                 |
+| **Q2**      | Venture launches, user growth stories                        |
+| **Q3**      | Program rollout highlights, behind-the-scenes                |
+| **Q4**      | Year-in-review, community thank-yous, Year-2 roadmap teasers |
+
+---
+
+## 📊 **Example Social Media KPIs**
+
+| **Metric**           | **Target Example** |
+| -------------------- | ------------------ |
+| LinkedIn Followers   | +25%/Quarter       |
+| Twitter/X Engagement | +40%/Quarter       |
+| Post Frequency       | 3–5 posts/week     |
+| Video Views          | +50%/Quarter       |
+| Newsletter CTR       | ≥12%               |
+
+---
+
+## 🔗 **Team & Workflow Integration**
+
+**Weekly Workflow**
+
+* Monday: Calendar review + content planning
+* Tuesday: Draft & schedule blog → social snippets
+* Wednesday: Engagement + community replies
+* Thursday: Metrics check + optimize next posts
+* Friday: Highlight week + partner shoutouts
+
+**Tool Stack Suggestions**
+
+* **Scheduling:** Buffer, Hootsuite, Sprout Social
+* **Analytics:** Brandwatch / Social dashboards
+* **Design:** Canva / Figma templates
+* **Content review:** Notion editorial workflow
+
+---
+
+## 🔧 **Updated Role Entry in Team Roster**
+
+| **Team**                    | **Member**              | **Role**                                                        | **Added Responsibilities**                                       |
+| --------------------------- | ----------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Communications & Evangelism | Comms & Evangelism Lead | Narrative, Media, PR, Podcasts, Interviews, Blogs, Social Media | Social channel management, audience engagement, social analytics |
+
+---
+
+## 🧩 **Social Content Examples You Might Publish**
+
+### Launch Day
+
+“🚀 We just took Pamoja Federation live! Here’s what this means for cooperative governance…”
+
+### Venture Highlight
+
+“👟 Nandi Mobility is reimagining transportation. Here’s how they’re doing it…”
+
+### Program Update
+
+“✨ Kano program just hit its first milestone. Dive into the system here…”
+
+### Thought Leadership
+
+“🔍 Why hybrid cooperative ecosystems are the future of equitable tech platforms…”
+
+---
+
+## 📌 Next Templates Available
+
+Tell me which of the following you want next:
+
+📌 **Social Media Editorial Calendar**
+📌 **Post Templates (text + visuals)**
+📌 **Press Release Template**
+📌 **Podcasts & Interview Toolkit**
+📌 **Social Analytics Dashboard (Sheets/Notion)**
+
+Just pick one and I’ll generate it!
+
+Absolutely — we’ll update the **Operations & Admin Lead** role (your **COO** — Chief Operating Officer) so it *explicitly owns* the broader business functions you mentioned: **business strategy, marketing, sales, HR, administration, growth, and business development**.
+
+Below is the **enhanced role description**, responsibilities, team integration, key deliverables, and success metrics — all aligned with your Year 1 firm and ecosystem.
+
+---
+
+# 📊 **Updated Role: Operations & Growth Lead (COO)**
+
+*(formerly Operations & Admin Lead)*
+**Also referred to as:** COO, Business Operations Lead
+
+**Reports to:** Dominic (CEO / Founder / Navigator)
+**Collaborates with:** CoS, Comms & Evangelism Lead, Legal & Entity Steward, Delivery Lead, FinCtrl, Squad Leads
+
+---
+
+## 📌 **Role Summary**
+
+The **Operations & Growth Lead (COO)** is responsible for **driving the business engine** of your firm — leading strategy execution and core operational functions that span:
+
+✔ Business strategy & growth
+✔ Marketing & brand activation
+✔ Sales & client acquisition
+✔ Human Resources & talent development
+✔ Administration & process excellence
+✔ Business development & partnerships
+
+This role ensures your firm not only runs efficiently but also *scales in revenue, reach, and impact* across coops, ventures, and programs.
+
+---
+
+## 🚀 **Core Responsibilities**
+
+### **1) Business Strategy & Execution**
+
+* Translate CEO vision into operational strategy
+* Develop quarterly and annual business plans
+* Track operational KPIs and progress
+
+**Deliverables**
+
+* Annual and quarterly business plans
+* Operational dashboards (KPIs, burn, efficiency)
+* Strategy execution trackers
+
+---
+
+### **2) Marketing & Brand Activation**
+
+* Own marketing strategy and campaign execution
+* Ensure consistent brand voice (aligned with Comms Lead)
+* Develop go-to-market plans for services, offerings, and platforms
+
+**Deliverables**
+
+* Marketing strategy framework
+* Campaign calendars (performance, launches, narratives)
+* Collateral and messaging guidelines
+
+---
+
+### **3) Sales & Client Acquisition**
+
+* Build and lead sales processes and pipelines
+* Define pricing, packaging, and proposals for services
+* Enable sales support for onboarding new clients
+
+**Deliverables**
+
+* Sales playbooks
+* CRM implementation & pipelines
+* Proposals & client acquisition metrics
+
+---
+
+### **4) Human Resources & Talent Development**
+
+* Lead recruitment, onboarding, and performance frameworks
+* Build HR policies and benefits structures
+* Design career pathing and retention strategies
+
+**Deliverables**
+
+* Hiring scorecards and evaluation rubrics
+* Onboarding & offboarding workflows
+* Performance review frameworks
+
+---
+
+### **5) Administration & Shared Services**
+
+* Oversee administrative systems (tools, contracts, accounts)
+* Ensure office outputs and compliance
+* Manage vendors and operational vendors
+
+**Deliverables**
+
+* Administrative playbooks
+* Vendor management systems
+* Operational checklists
+
+---
+
+### **6) Business Growth & Development**
+
+* Identify growth opportunities (new markets, services, partnerships)
+* Manage business partnerships and strategic engagements
+* Support pilots and new revenue streams
+
+**Deliverables**
+
+* Growth opportunity briefs
+* Partnership frameworks
+* ROI and impact reports
+
+---
+
+### **7) Cross-Functional Coordination**
+
+Work with key leads to align operational strategy with:
+
+* **Comms & Evangelism Lead** (external market presence)
+* **Tech Architect** (platform direction)
+* **Legal & Entity Steward** (risk-adjusted growth)
+* **FinCtrl** (financial viability and pricing)
+* **Delivery Lead** (client delivery alignment)
+
+---
+
+## 📈 **Key Metrics of Success**
+
+| **Category**               | **KPI / Metric**                                   |
+| -------------------------- | -------------------------------------------------- |
+| **Revenue & Growth**       | New clients, revenue growth, contract expansion    |
+| **Operational Efficiency** | Time to onboard, release cadence, support backlog  |
+| **Sales Pipeline**         | Lead conversion rate, proposal acceptance          |
+| **Talent & HR**            | Time to hire, retention rate, performance outcomes |
+| **Marketing Impact**       | Lead quality, campaign ROI, brand reach            |
+| **Strategic Delivery**     | Quarterly milestone attainment                     |
+
+---
+
+## 🧠 **Role in Org Chart**
+
+```
+                       Dominic (CEO / Founder)
+                                   │
+        ┌──────────────────────────┼───────────────────────────┐
+        │                          │                           │
+   CoS / COO                 Comms & Evangelism Lead        Legal & Entity Steward
+ (Operations & Growth)          (PR, blogs, social)          (Legal compliance)
+        │                          │                           │
+        │                          │                     OVCS Sec (Governance)
+        │                          │
+        │          ┌──────────────────────────────────┐
+        │          │          Go-to-Market & Sales      │
+        │          └──────────────────────────────────┘
+        ├─ Marketing & Brand       │
+        ├─ Sales Pipelines         │
+        ├─ Partnerships            │
+        ├─ HR / Talent Strategy    │
+        └─ Operations / Admin      │
+                                   │
+               Comms Lead + COO collaborate on external activation
+```
+
+---
+
+## 🧩 **Key Deliverables by Function**
+
+### **Business Strategy**
+
+✔ Quarterly growth plans
+✔ Strategy alignment workshops
+✔ Operational KPI dashboard
+
+### **Marketing**
+
+✔ Campaign calendars
+✔ Brand positioning documents
+✔ Performance reports
+
+### **Sales**
+
+✔ CRM implementation
+✔ Sales playbooks
+✔ Proposal templates
+
+### **HR & Talent**
+
+✔ Hiring frameworks
+✔ Onboarding playbooks
+✔ Performance review cycles
+
+### **Administration**
+
+✔ Operational manuals
+✔ Vendor & contract management
+✔ Policy documents
+
+### **Business Growth**
+
+✔ Opportunity briefs
+✔ Partnership proposals
+✔ Market expansion metrics
+
+---
+
+## 📆 **Sample COO Quarterly Focus**
+
+### **Q1**
+
+* Setup admin infrastructure
+* Build baseline HR functions
+* Define sales & pipeline framework
+
+### **Q2**
+
+* Market messaging + campaigns (matched to launches)
+* CRM rollout
+* Growth strategy reviews
+
+### **Q3**
+
+* Partner outreach (ecosystem scaling)
+* Sales acceleration
+* Onboarding improvements
+
+### **Q4**
+
+* Operational retrospectives
+* Key performance optimization
+* Annual business planning for Year 2
+
+---
+
+## 🧠 **Operational Playbooks to Request Next**
+
+We can generate fillable templates for:
+
+📌 **Sales Playbook + CRM Pipeline Template**
+📌 **Marketing Strategy & Campaign Calendar**
+📌 **HR Policy & Performance Review Framework**
+📌 **Operational Dashboard & KPI Template**
+📌 **Vendor Management System Template**
+
+Just ask for whichever one you want!
+
+Here’s a clear **tabular list of your first 9 core hires** (your initial leadership team), including role descriptions and primary responsibilities — formatted so you can copy it into a spreadsheet, Notion table, Airtable base, or HR tracker.
+
+---
+
+## 📋 **First 9 Core Hires — Member Roster Table**
+
+| **#** | **Role Title**                             | **Primary Focus**                             | **Key Responsibilities**                                                                                                           | **Reports To**  |
+| ----- | ------------------------------------------ | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 1     | **Chief of Staff (CoS)**                   | Operational Integrator & Shield               | Coordinates execution, filters noise, ensures decisions translate into action, interfaces with Delivery Lead and COO for alignment | Dominic         |
+| 2     | **Program Sequencer (Msingi Officer)**     | Temporal / Sequencing Architect               | Manages master timeline, enforces phase gates and readiness criteria, blocks premature execution                                   | CoS / Dominic   |
+| 3     | **OVCS Liaison / Governance Secretary**    | Governance Process Lead                       | Manages OVCS registry, governance documentation, board packet submissions, certifies governance artifacts                          | CoS / LegalStew |
+| 4     | **Operations & Growth Lead (COO)**         | Business Ops, Marketing, Sales, HR, Admin, BD | Business strategy, marketing & brand activation, sales pipeline, HR/talent, administration, growth initiatives                     | Dominic         |
+| 5     | **Financial Controller**                   | Finance & Compliance                          | Tracks multi-entity finances, prepares financial reports, ensures compliance, flags unsustainable trajectories                     | COO / Dominic   |
+| 6     | **Technical Architect / Platform Steward** | Platform & Tech Standards                     | Defines platform OS standards, prevents technical divergence, advises squads on architecture                                       | COO / Dominic   |
+| 7     | **Communications & Evangelism Lead**       | External Narrative / PR / Social / Blogs      | Manages all public communications: press, blogs, social media, podcasts, interviews, evangelism                                    | COO / Dominic   |
+| 8     | **Executive Assistant (EA)**               | Cognitive Load & Office Support               | Manages calendar, schedules, meeting prep, follow-ups, information triage, operational support for leadership                      | COO / Dominic   |
+| 9     | **Legal & Entity Steward**                 | Legal & Entity Governance                     | Legal entity management, contract risk, compliance, coop & multi-entity legal frameworks                                           | COO / Dominic   |
+
+---
+
+## 🧠 **Notes & Clarifications**
+
+### **Hierarchy / Reporting Structure**
+
+* **Dominic (CEO / Founder)** sits at the top and is the final approver for strategy and external positioning.
+* The **COO (Operations & Growth Lead)** is your day-to-day operational leader and line manager for most hires.
+* **Legal & Entity Steward** collaborates closely with the COO and Dominic, with dotted-line relationships into governance and delivery teams.
+
+---
+
+## 🧩 **Role Summary at a Glance**
+
+| Role                                 | Core Superpowers                     |
+| ------------------------------------ | ------------------------------------ |
+| **Chief of Staff**                   | Execution discipline & cohesion      |
+| **Program Sequencer**                | Timing & phase control               |
+| **OVCS Liaison / Governance Sec**    | Governance pipeline enablement       |
+| **Operations & Growth Lead (COO)**   | Business engine & growth strategy    |
+| **Financial Controller**             | Burn control & financial integrity   |
+| **Technical Architect**              | Platform continuity & standards      |
+| **Communications & Evangelism Lead** | Public narrative & engagement        |
+| **Executive Assistant**              | Cognitive support & operational flow |
+| **Legal & Entity Steward**           | Legal compliance & entity governance |
+
+---
+
+## 📌 How to Use This Table
+
+✔ **HR tracking** — Set up in Notion/Airtable/Sheets
+✔ **Org chart** — Plot reporting relationships visually
+✔ **Role accreditation** — Attach competencies, scorecards, KPIs
+✔ **Hiring roadmap** — Tie each role to hiring timelines & budgets
+
+---
+
+## 📈 Optional Add-Ons
+
+If you want, I can also prepare:
+
+📌 **Role competence matrices**
+📌 **Hiring scorecards & interview guides**
+📌 **Onboarding checklists for each role**
+📌 **Org chart visuals (PNG / SVG)**
+
+Just tell me which one you’d like next!
+
+Here’s a clear **tabular list of your first 9 core hires** (your initial leadership team), including role descriptions and primary responsibilities — formatted so you can copy it into a spreadsheet, Notion table, Airtable base, or HR tracker.
+
+---
+
+## 📋 **First 9 Core Hires — Member Roster Table**
+
+| **#** | **Role Title**                             | **Primary Focus**                             | **Key Responsibilities**                                                                                                           | **Reports To**  |
+| ----- | ------------------------------------------ | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| 1     | **Chief of Staff (CoS)**                   | Operational Integrator & Shield               | Coordinates execution, filters noise, ensures decisions translate into action, interfaces with Delivery Lead and COO for alignment | Dominic         |
+| 2     | **Program Sequencer (Msingi Officer)**     | Temporal / Sequencing Architect               | Manages master timeline, enforces phase gates and readiness criteria, blocks premature execution                                   | CoS / Dominic   |
+| 3     | **OVCS Liaison / Governance Secretary**    | Governance Process Lead                       | Manages OVCS registry, governance documentation, board packet submissions, certifies governance artifacts                          | CoS / LegalStew |
+| 4     | **Operations & Growth Lead (COO)**         | Business Ops, Marketing, Sales, HR, Admin, BD | Business strategy, marketing & brand activation, sales pipeline, HR/talent, administration, growth initiatives                     | Dominic         |
+| 5     | **Financial Controller**                   | Finance & Compliance                          | Tracks multi-entity finances, prepares financial reports, ensures compliance, flags unsustainable trajectories                     | COO / Dominic   |
+| 6     | **Technical Architect / Platform Steward** | Platform & Tech Standards                     | Defines platform OS standards, prevents technical divergence, advises squads on architecture                                       | COO / Dominic   |
+| 7     | **Communications & Evangelism Lead**       | External Narrative / PR / Social / Blogs      | Manages all public communications: press, blogs, social media, podcasts, interviews, evangelism                                    | COO / Dominic   |
+| 8     | **Executive Assistant (EA)**               | Cognitive Load & Office Support               | Manages calendar, schedules, meeting prep, follow-ups, information triage, operational support for leadership                      | COO / Dominic   |
+| 9     | **Legal & Entity Steward**                 | Legal & Entity Governance                     | Legal entity management, contract risk, compliance, coop & multi-entity legal frameworks                                           | COO / Dominic   |
+
+---
+
+## 🧠 **Notes & Clarifications**
+
+### **Hierarchy / Reporting Structure**
+
+* **Dominic (CEO / Founder)** sits at the top and is the final approver for strategy and external positioning.
+* The **COO (Operations & Growth Lead)** is your day-to-day operational leader and line manager for most hires.
+* **Legal & Entity Steward** collaborates closely with the COO and Dominic, with dotted-line relationships into governance and delivery teams.
+
+---
+
+## 🧩 **Role Summary at a Glance**
+
+| Role                                 | Core Superpowers                     |
+| ------------------------------------ | ------------------------------------ |
+| **Chief of Staff**                   | Execution discipline & cohesion      |
+| **Program Sequencer**                | Timing & phase control               |
+| **OVCS Liaison / Governance Sec**    | Governance pipeline enablement       |
+| **Operations & Growth Lead (COO)**   | Business engine & growth strategy    |
+| **Financial Controller**             | Burn control & financial integrity   |
+| **Technical Architect**              | Platform continuity & standards      |
+| **Communications & Evangelism Lead** | Public narrative & engagement        |
+| **Executive Assistant**              | Cognitive support & operational flow |
+| **Legal & Entity Steward**           | Legal compliance & entity governance |
+
+---
+
+## 📌 How to Use This Table
+
+✔ **HR tracking** — Set up in Notion/Airtable/Sheets
+✔ **Org chart** — Plot reporting relationships visually
+✔ **Role accreditation** — Attach competencies, scorecards, KPIs
+✔ **Hiring roadmap** — Tie each role to hiring timelines & budgets
+
+---
+
+## 📈 Optional Add-Ons
+
+If you want, I can also prepare:
+
+📌 **Role competence matrices**
+📌 **Hiring scorecards & interview guides**
+📌 **Onboarding checklists for each role**
+📌 **Org chart visuals (PNG / SVG)**
+
+Just tell me which one you’d like next!
+
+Absolutely — we’ll keep **Chief of Staff** as a *distinct, standalone C-Suite or C-Suite-adjacent role* (not conflated with COO). That aligns well with your governance-plus-execution ethos and gives necessary separation between **operational execution** and **strategic coordination**.
+
+Here’s the **updated C-Suite roster** with *Chief of Staff as its own distinct seat* and refined titles for Year 1:
+
+---
+
+## 📌 **Updated C-Suite Titles (First Core Hires)**
+
+| **C-Suite Title**                                                      | **Assigned To**                     | **Core Domain / Scope**                                                           |
+| ---------------------------------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------- |
+| **CEO — Chief Executive Officer**                                      | Dominic                             | Overall strategy, mission, partnership, ecosystem vision                          |
+| **COO — Chief Operating Officer**                                      | Operations & Growth Lead            | Business operations, growth, sales, marketing, HR, partnerships                   |
+| **CFO — Chief Financial Officer**                                      | Financial Controller                | Multi-entity finance, budgeting, reporting, compliance                            |
+| **CTO — Chief Technology Officer**                                     | Technical Architect                 | Platform standards, technology strategy, architectural integrity                  |
+| **CLO — Chief Legal Officer**                                          | Legal & Entity Steward              | Legal entity management, contracts, compliance, risk oversight                    |
+| **CCO — Chief Communications Officer** *(or Chief Evangelism Officer)* | Communications & Evangelism Lead    | External narrative, PR, blogs, social media, podcasts, interviews                 |
+| **CPO — Chief Planning Officer**                                       | Program Sequencer                   | Master sequencing, readiness, gating, program rollout                             |
+| **CGO — Chief Governance Officer**                                     | OVCS Liaison / Governance Secretary | Governance lifecycles, board coordination, OVCS pipelines                         |
+| **CSO — Chief of Staff**                                               | Chief of Staff                      | Strategic execution coordination, cross-functional integrator, operational shield |
+
+---
+
+## 🧠 **Why “Chief of Staff” Stays Distinct**
+
+The **Chief of Staff (CSO)** in your ecosystem is not purely operational (that’s COO), and not purely strategic (that’s CEO). Instead, the CSO has a *unique synthesis role*:
+
+### **CSO Core Focus**
+
+* Translate CEO vision into actionable execution plans
+* Align squads, remove blockers, enforce comms discipline
+* Act as an integrator across teams and functions
+* Shield the CEO/leadership from noise
+* Elevate cross-organization coherence
+
+### **CSO Distinct from COO**
+
+* **COO** drives *business and operational execution* (sales, HR, marketing, growth)
+* **CSO** ensures *strategic alignment and execution integrity* across the entire firm
+
+This separation is particularly powerful in complex, multi-entity ecosystems where execution can otherwise fragment.
+
+---
+
+## 📈 Updated C-Suite Org Chart
+
+```
+                           +----------------------------+
+                           |        CEO / Founder       |
+                           |        (Dominic)           |
+                           +----------------------------+
+                                        │
+       ┌────────────────────────────────┼─────────────────────────────────┐
+       │                                │                                 │
++------+-------+                +-------+-------+                 +--------+--------+
+|  CSO — Chief |                |  COO — Chief  |                 |   CCO — Chief   |
+|  of Staff    |                | Operating Officer|             |   Communications│
+| (Strategic   |                | (Ops, Growth,  |                 |   & Evangelism  |
+|  Integrator) |                |  HR, Sales)    |                 |                 |
++--------------+                +----------------+                 +-----------------+
+       │                               │                                │
+       │                               │                                │
++------+-------+            +----------+----------+    +----------------+----------------+
+|  CPO — Chief  |           |  CFO — Chief         |    |   CTO — Chief Technology Officer |
+|  Planning     |           |  Financial Officer   |    |                                   |
++-------------- +           +----------------------    +-----------------------------------+
+       │
+       │
++------+---------+
+| CGO — Chief    |
+| Governance     |
+| Officer        |
++----------------+
+       │
++------+---------+
+| CLO — Chief    |
+| Legal Officer  |
++----------------+
+```
+
+---
+
+## 🔍 Role Scope Summaries
+
+| **Title** | **Primary Domain**                                       |
+| --------- | -------------------------------------------------------- |
+| **CEO**   | Vision, mission, partnerships, ultimate accountability   |
+| **CSO**   | Strategic coordination, execution alignment, integrator  |
+| **COO**   | Business operations, growth, sales, marketing, HR        |
+| **CFO**   | Financial planning, compliance, capital oversight        |
+| **CTO**   | Technology architecture, standards, product health       |
+| **CLO**   | Legal entities, contracts, regulatory compliance         |
+| **CCO**   | Communications, PR, narrative, social platforms          |
+| **CPO**   | Sequencing, timeline discipline, master planning         |
+| **CGO**   | Governance pipelines, OVCS coordination, board workflows |
+
+---
+
+## 🧠 Why This Works for Your Ecosystem
+
+### 🌀 **Separation of Strategic vs Operational Execution**
+
+* **CSO** preserves strategic coherence across squads and quarters
+* **COO** executes the *business engine* and growth levers
+
+### 📌 **Clear External vs Internal Roles**
+
+* **CCO** handles outbound voice, evangelism, and brand
+* **CFO / CLO / CTO** each handle compliance and technical stability
+
+### 🛡 **Governance + Sequencing Emphasis**
+
+* **CGO** and **CPO** roles are uniquely tailored to coop governance and phased rollout
+
+This structure is optimized for a **multi-entity federated coop ecosystem** — not a typical corporate hierarchy.
+
+---
+
+## 📌 Next Options You Can Ask For
+
+If you want, I can generate:
+
+📌 **C-Suite role scorecards & KPIs**
+📌 **C-Suite OKRs (quarterly)**
+📌 **C-Suite reporting dashboard template**
+📌 **Executive onboarding plans**
+
+Just tell me which one you want!
+
+Absolutely — here are **professional C-Suite Role Scorecards & KPIs** and **Quarterly OKRs** tailored for your Year 1 executive team.
+
+You can implement these in a spreadsheet, Notion database, performance review system, or executive dashboard.
+
+---
+
+# 📌 **C-Suite Role Scorecards & KPIs**
+
+Each scorecard aligns **Core Responsibilities → Measurable KPIs → Reporting Rhythm**.
+
+---
+
+## **1) CEO — Chief Executive Officer (Dominic)**
+
+**Core Responsibilities**
+
+* Vision & Strategy
+* Strategic partnerships
+* Ecosystem stewardship
+* Executive decisions & governance alignment
+
+**KPIs**
+
+| KPI                                  | Target                 | Frequency |
+| ------------------------------------ | ---------------------- | --------- |
+| Strategic milestone completion       | 90% on time            | Quarterly |
+| Partnership conversion (LOIs → live) | ≥ 3 major partners     | Quarterly |
+| Overall ecosystem growth             | monthly trend ↑        | Monthly   |
+| Board & governance cycle readiness   | 100% governance passes | Quarterly |
+| Executive stakeholder satisfaction   | ≥ 4/5                  | Quarterly |
+
+---
+
+## **2) COO — Chief Operating Officer (Operations & Growth Lead)**
+
+**Core Responsibilities**
+
+* Business ops & execution
+* Marketing, sales, client acquisition
+* HR/People operations
+* Growth & business development
+
+**KPIs**
+
+| KPI                                     | Target                | Frequency |
+| --------------------------------------- | --------------------- | --------- |
+| New clients acquired                    | ≥ 8 in Year 1         | Quarterly |
+| Sales pipeline velocity                 | ≥ 20% growth qoq      | Quarterly |
+| HR hiring goals met                     | 100% within timelines | Quarterly |
+| Operational efficiency (onboarding SLA) | ≤ 7 days              | Monthly   |
+| Brand campaign ROI                      | ≥ 3:1                 | Quarterly |
+
+---
+
+## **3) CFO — Chief Financial Officer**
+
+**Core Responsibilities**
+
+* Financial controls
+* Budgeting & planning
+* Multi-entity accounting
+* Forecasting & reporting
+
+**KPIs**
+
+| KPI                                | Target         | Frequency |
+| ---------------------------------- | -------------- | --------- |
+| Timely financial reports           | 100%           | Monthly   |
+| Expense variance vs plan           | ≤ 5%           | Monthly   |
+| Forecast accuracy                  | ≤ 10% variance | Quarterly |
+| Cash runway coverage               | ≥ 18 months    | Quarterly |
+| Revenue realization vs projections | ≥ 75% of plan  | Quarterly |
+
+---
+
+## **4) CTO — Chief Technology Officer**
+
+**Core Responsibilities**
+
+* Platform architecture
+* Tech standards & quality
+* Engineering coherence
+
+**KPIs**
+
+| KPI                             | Target          | Frequency |
+| ------------------------------- | --------------- | --------- |
+| Platform stability (incidents)  | ≤ 2 per quarter | Quarterly |
+| Tech debt ratio                 | ≤ 10%           | Quarterly |
+| Standards adoption              | 95% of squads   | Quarterly |
+| Architecture compliance         | 100%            | Quarterly |
+| Feature delivery predictability | ≥ 85%           | Quarterly |
+
+---
+
+## **5) CLO — Chief Legal Officer**
+
+**Core Responsibilities**
+
+* Legal entity management
+* Contract risk
+* Regulatory compliance
+
+**KPIs**
+
+| KPI                                 | Target            | Frequency |
+| ----------------------------------- | ----------------- | --------- |
+| Legal compliance audit completeness | 100%              | Quarterly |
+| Contract risk exceptions            | ≤ 5%              | Quarterly |
+| Entity filings on time              | 100%              | Quarterly |
+| External counsel cost variance      | ≤ 10%             | Quarterly |
+| Contract review turnaround          | ≤ 5 business days | Monthly   |
+
+---
+
+## **6) CCO — Chief Communications Officer (Evangelism)**
+
+**Core Responsibilities**
+
+* External narrative
+* PR, media, podcasts
+* Blogs & social
+
+**KPIs**
+
+| KPI                      | Target    | Frequency |
+| ------------------------ | --------- | --------- |
+| Blog cadence             | ≥ 2/month | Monthly   |
+| Social engagement growth | ≥ 15% qoq | Quarterly |
+| Press mentions           | ≥ 6/year  | Quarterly |
+| Podcast appearances      | ≥ 4/year  | Quarterly |
+| Newsletter open rate     | ≥ 20%     | Monthly   |
+
+---
+
+## **7) CPO — Chief Planning Officer (Program Sequencer)**
+
+**Core Responsibilities**
+
+* Master timeline
+* Phase gating readiness
+* Program sequencing
+
+**KPIs**
+
+| KPI                        | Target         | Frequency     |
+| -------------------------- | -------------- | ------------- |
+| Phase gate compliance      | 100%           | Per milestone |
+| Timeline adherence index   | ≥ 90% accuracy | Monthly       |
+| Readiness review pass rate | ≥ 95%          | Quarterly     |
+| Program cadence adherence  | ≥ 90%          | Monthly       |
+
+---
+
+## **8) CGO — Chief Governance Officer (OVCS Sec)**
+
+**Core Responsibilities**
+
+* Governance pipelines
+* Board/council documentation
+* Coop compliance
+
+**KPIs**
+
+| KPI                               | Target   | Frequency |
+| --------------------------------- | -------- | --------- |
+| Governance docs completed on time | 100%     | Quarterly |
+| OVCS filing accuracy              | 100%     | Quarterly |
+| Coop compliance passes            | 100%     | Quarterly |
+| Governance backlog age            | ≤ 7 days | Monthly   |
+| Governance QA pass rates          | 95%      | Monthly   |
+
+---
+
+## **9) CSO — Chief of Staff**
+
+**Core Responsibilities**
+
+* Execution integrity
+* Squad coordination
+* Operational shield
+
+**KPIs**
+
+| KPI                            | Target                  | Frequency |
+| ------------------------------ | ----------------------- | --------- |
+| Cross-squad blockers resolved  | ≥ 90% on time           | Monthly   |
+| Decision follow-through        | ≥ 95% execution closure | Quarterly |
+| Execution deliverables met     | ≥ 90%                   | Quarterly |
+| Prioritization alignment score | ≥ 4/5                   | Quarterly |
+| Operational sync accuracy      | ≥ 95%                   | Monthly   |
+
+---
+
+# 📌 **C-Suite OKRs (Quarterly)**
+
+Here are **example OKRs** for Year 1 (Q1–Q4). Customize per quarter based on where your firm is operationally.
+
+---
+
+## **Q1 OKRs**
+
+### **CEO**
+
+* **O:** Align Year 1 strategy across the firm
+
+  * KR1: Finalize Year 1 roadmap & priorities
+  * KR2: Secure 2 strategic partnerships
+  * KR3: Establish governance baseline for Pamoja + Ubuntuwa
+
+### **COO**
+
+* **O:** Build operational foundation
+
+  * KR1: Hire all 9 core executives
+  * KR2: Launch core HR, CRM, and sales playbooks
+  * KR3: Establish performance dashboards
+
+### **CFO**
+
+* **O:** Stabilize financial footing
+
+  * KR1: Complete Year 1 budget & forecast
+  * KR2: Implement accounting system & workflows
+  * KR3: Establish burn tracking dashboards
+
+### **CTO**
+
+* **O:** Define platform baseline standards
+
+  * KR1: Publish technical standards doc
+  * KR2: Complete OS baseline implementation
+  * KR3: Achieve first compliance QA pass
+
+### **CLO**
+
+* **O:** Lock down legal foundation
+
+  * KR1: Complete legal templates
+  * KR2: All entity formations compliant
+  * KR3: Contract review SLA defined
+
+### **CCO**
+
+* **O:** Establish external presence
+
+  * KR1: Launch corporate blog
+  * KR2: Publish 2 thought leadership posts
+  * KR3: Achieve first media mentions
+
+### **CPO**
+
+* **O:** Set sequencing infrastructure
+
+  * KR1: Complete master timeline
+  * KR2: Define all phase gates
+  * KR3: Launch sequencing dashboard
+
+### **CGO**
+
+* **O:** Validate governance pipelines
+
+  * KR1: Completed OVCS registry
+  * KR2: All governance docs templated
+  * KR3: Governance QA process defined
+
+### **CSO**
+
+* **O:** Operational alignment across squads
+
+  * KR1: Cross-squad dependencies documented
+  * KR2: Execution sync rituals established
+  * KR3: Squad execution blockers resolved ≤ 48 hrs
+
+---
+
+## **Q2 OKRs**
+
+### **CEO**
+
+* **O:** Expand strategic footprint
+
+  * KR1: Sign 3 new ecosystem partnerships
+  * KR2: Publish Year 1 mid-year review
+  * KR3: Increase media engagement
+
+### **COO**
+
+* **O:** Drive client acquisitions
+
+  * KR1: Secure onboarding of 6 new clients
+  * KR2: Achieve 85% CRM pipeline conversion rate
+  * KR3: Implement marketing cadence
+
+(...OKRs continued in similar format if you’d like full per-quarter sets.)
+
+---
+
+## 📌 How to Use These OKRs
+
+✔ Track weekly/monthly against KRs
+✔ Assign OKR owners & collaborators
+✔ Align all squad goals with executive OKRs
+✔ Report at end of each quarter
+
+---
+
+## 🎯 Next Templates Available
+
+Want these in:
+
+📌 **Google Sheets / Excel templates**
+📌 **Notion OKR database**
+📌 **Airtable OkR system**
+📌 **Dashboard UI (Google Looker / Metabase)**
+
+Just tell me the format you want!
+
+Here’s a clear, honest assessment of whether your Year 1 **C-Suite** is *bloated*, *appropriately sized*, or *lean*, **and why** — specifically in the context of your multi-entity cooperative / venture ecosystem.
+
+---
+
+# 📌 Quick Answer
+
+**Your C-Suite is *lean to moderately sized*, not bloated — given the complexity of your ecosystem.**
+But it **feels larger than a typical early-stage startup** because you’re not running a normal startup — you’re running a **multi-entity federation, multiple ventures, governance systems, and regulated compliance structures**.
+
+So the question isn’t “bloated or not” in generic terms — it’s “*fit-for-purpose*”.
+
+---
+
+# 📈 Why It *Feels Like a Larger C-Suite*
+
+### 1. **Multiplicity of Domains**
+
+Unlike a typical startup where one or two executives wear many hats, your ecosystem spans:
+
+✔ Business operations
+✔ Finance across multiple legal entities
+✔ Legal & entity governance
+✔ Governance & OVCS compliance workflows
+✔ Platform technology across ventures
+✔ External communications / PR / evangelism
+✔ Sequencing and program management
+✔ Cooperative governance and council interfaces
+
+Each of these areas has **real operational risk**, which is why you’ve projected a C-level for each.
+
+---
+
+### 2. **Scale & Scope of Work**
+
+In Year 1 alone, you are:
+
+🔹 Launching/coordinating 12 ventures
+🔹 Operating + federating multiple coop entities
+🔹 Running 6 Msingi programs
+🔹 Building governance systems
+🔹 Managing legal complexity (multi-entity, multi-jurisdiction)
+🔹 Running external narrative & ecosystem engagement
+
+All those are *enterprise-grade deliverables*, not simple startup functions.
+
+---
+
+### 3. **Required Depth of Expertise**
+
+In early-stage single product companies, a **founder + COO + CTO + CFO + one support role** is often enough.
+But your system requires **domain specialization** that cannot safely be collapsed into too few roles without significant risk:
+
+* Legal risk → **CLO required**
+* Governance risk → **CGO required**
+* Sequencing risk → **CPO required**
+* External influence impact → **CCO required**
+* Strategic execution coherence → **CSO required**
+
+If you consolidated these into 3–4 roles, you’d likely overload leaders and create execution gaps, compliance gaps, or strategic misalignment — especially in a cooperative ecosystem with governance obligations.
+
+---
+
+# 🧠 Why It’s *Not* Bloated (Given Your Context)
+
+Here’s what justifies your C-Suite size:
+
+### ⚖️ 1. **Risk Profile**
+
+* Legal & entity risk is high — warrants a **CLO**
+* Cooperative governance (OVCS) compliance — warrants a **CGO**
+* Complex sequencing across ventures & programs — warrants a **CPO**
+
+These are *not luxury roles* — they *mitigate real governance and compliance risk* that could otherwise create legal, financial, or structural failure.
+
+### ⚙️ 2. **Distributed Operational Responsibility**
+
+Each role owns a non-overlapping domain that requires continuous attention:
+
+| Domain                          | Reason C-Suite Makes Sense                           |
+| ------------------------------- | ---------------------------------------------------- |
+| Strategy & governance execution | Strategic coherence is a full-time concern           |
+| Operations & growth             | Sales, HR, marketing, BD require leadership capacity |
+| Finance                         | Multi-entity finance can’t be ad-hoc                 |
+| Tech                            | Platform standards must not degrade                  |
+| Legal                           | Multi-jurisdiction compliance is a high-risk domain  |
+| Communications                  | Ecosystem narrative affects adoption                 |
+| Sequencing                      | To enforce disciplined phased rollouts               |
+| Governance                      | Specialized governance work is operationalized       |
+
+### 📐 3. **Comparative in Complex Organizations**
+
+For reference:
+
+* A *small nonprofit board-centric org* often has 4–6 exec roles (ED, CFO, CDO, CMO)
+* A *multi-brand cooperative with distributed ventures* often has ~8–12 executives
+* A *federated system with independent entities* generally requires distributed executive domains
+
+Your model is closer to the **second or third category**.
+
+---
+
+# 🧠 Where You *Could* Consolidate (Safely)
+
+If you need to **reduce headcount** for budget or speed, here are *safe consolidation moves* — without creating critical gaps:
+
+### 🔹 Merge CGO (Chief Governance Officer) into CLO (Chief Legal Officer)
+
+* Reason: Governance pipelines are predominantly legal/compliance work.
+* Risk: CLO will need additional governance workload buffer.
+
+**Resulting C-Suite:**
+CLO absorbs board governance documentation and OVCS workflows.
+
+---
+
+### 🔹 Merge CPO (Chief Planning Officer) into COO or CSO
+
+* Reason: Program sequencing could align with operations planning or strategic execution.
+* Risk: Could reduce scheduling discipline if not explicitly monitored.
+
+**Resulting C-Suite:**
+Operations / Strategy Owners carry sequencing as part of their remit.
+
+---
+
+### 🔹 Merge CSO (Chief of Staff) into COO (as Head of Execution)
+
+* Reason: In a smaller team, COO may serve as the integrator.
+* Risk: Might slow cross-squad coordination and de-facto “air traffic control”.
+
+**However:** You specifically designed your model to *keep CSO distinct* — and there’s strong rationale for that given the complexity.
+
+---
+
+# 🔍 A Lightweight C-Suite Alternative (If You Must)
+
+If you wanted a **leaner executive team (6–7 roles)** while still covering key domains, a possible compressed roster could be:
+
+| Role | Covered Domains                              |                     |
+| ---- | -------------------------------------------- | ------------------- |
+| CEO  | Vision / oversight                           |                     |
+| COO  | Business ops, strategy, marketing, HR, sales |                     |
+| CFO  | Finance & budgeting                          |                     |
+| CTO  | Technology & product                         |                     |
+| CLO  | Legal + Governance (merged)                  |                     |
+| CCO  | Communications & evangelism                  |                     |
+| CPO  | Sequencing & planning **OR** CSO             | Execution alignment |
+
+This reduces redundancy while preserving core accountability.
+
+---
+
+## ✏️ Conclusion
+
+### **Your C-Suite is not bloated — it is functional and risk-justified.**
+
+It appears larger than a typical startup because you are building:
+
+✔ A federated governance system
+✔ Multi-venture operational layer
+✔ Multi-entity legal / compliance system
+✔ Program sequencing frameworks
+✔ Public narrative and ecosystem evangelism
+
+These are *enterprise-grade responsibilities* — and you’ve explicitly assigned them to owners so nothing slips through the cracks.
+
+---
+
+## 💡 Next Step (Optional)
+
+If you want, I can now generate:
+
+🔹 **A compressed C-Suite design (6 roles) with responsibilities and risk mitigations**
+🔹 **A role & workload balance analysis (time / % allocation)**
+🔹 **An executive budget model for Year 1**
+
+Just tell me which one you want!
+
+Here’s a **comprehensive Risk Profile** for *The Dominic Eaton Software Engineering Firm* — tailored to your **multi-entity cooperative ecosystem**, Year 1 operating model, C-Suite, and strategic execution plan.
+
+I’ve broken it down by **Risk Domain**, **What Could Go Wrong**, **Likelihood**, **Impact**, and **Mitigation Strategies**, so you can both *understand risk* and *manage it proactively*.
+
+---
+
+# 📊 Firm Risk Profile (Year 1)
+
+| **Risk Domain**                         | **Risk Description**                                                                             | **Likelihood** | **Impact** | **Mitigation / Controls**                                                                         |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------- | ---------- | ------------------------------------------------------------------------------------------------- |
+| **Legal & Compliance**                  | Entity formation errors, regulatory non-compliance (multi-jurisdiction coop + ventures)          | Medium–High    | High       | - Legal & Entity Steward role<br>- External counsel partnerships<br>- Compliance calendar + audit |
+| **Governance / OVCS**                   | Improper governance filings or OVCS compliance failures                                          | Medium         | High       | - Chief Governance Officer<br>- Standard governance templates<br>- QA & sign-off processes        |
+| **Tax / Financial**                     | Incorrect multi-entity tax reporting, misclassification of deferred compensation, audit exposure | Medium         | High       | - CFO controls<br>- Patronage/coop tax planning model<br>- Regular reconciliations                |
+| **Strategic Execution**                 | Misalignment between strategy and execution across many squads                                   | Medium         | High       | - CoS coordination<br>- Quarterly OKRs<br>- Sequencing discipline                                 |
+| **Operational Load**                    | Staff burnout or bottleneck due to high complexity and multiple concurrent ops                   | High           | Medium     | - Formal queue/prioritization<br>- Hiring plan aligned to WBS<br>- Support analysts               |
+| **Technology / Platform Stability**     | Tech divergence, architectural misalignment, platform reliability issues                         | Medium         | High       | - CTO oversight<br>- Engineering standards<br>- QA Guild and automated testing                    |
+| **Security & Data Privacy**             | Vulnerabilities in systems, data breaches, non-compliance with privacy laws                      | Medium         | High       | - Secure dev lifecycles<br>- Code reviews<br>- Security testing (S-Q* items)                      |
+| **Sales & Revenue**                     | Underperformance in client acquisition, cash flow shortfalls                                     | Medium         | Medium     | - COO business development<br>- CRM / pipeline tracking<br>- Cash runway monitoring               |
+| **Market / Adoption**                   | Slow adoption of coop OS or venture products                                                     | Medium         | Medium     | - CCO evangelism & PR<br>- Community feedback loops<br>- Beta programs                            |
+| **External Communications**             | Miscommunication, brand misalignment, negative PR                                                | Medium         | Medium     | - CCO strategy<br>- Message review workflow with Legal                                            |
+| **Program Delivery**                    | Delays or failures in Msingi program launches                                                    | Medium         | Medium     | - Program Sequencer gating<br>- Sequencing dashboard<br>- OKR alignment                           |
+| **Dependency Risk**                     | Too much reliance on key individuals (founder, core hires)                                       | High           | High       | - Documentation & redundancy<br>- Knowledge sharing<br>- Succession planning                      |
+| **Liquidity & Burn**                    | Running out of funds before revenue stabilization                                                | Medium         | High       | - CFO controls<br>- Burn monitoring<br>- Scenario planning                                        |
+| **Innovation / IP Capture**             | Loss of IP or unclear ownership across coop + venture deliverables                               | Medium         | Medium     | - Legal IP strategy<br>- Standard IP clauses in contracts                                         |
+| **Reputation / Stakeholder Confidence** | Community, partner, member trust erosion                                                         | Medium         | Medium     | - Transparent comms<br>- Community engagement plans                                               |
+| **Regulatory / Policy Changes**         | Cooperative, tech, or tax policy shifts affecting model                                          | Low–Medium     | Medium     | - Legal horizon scanning<br>- Policy response framework                                           |
+
+---
+
+## 🧠 Risk Summary by Category
+
+### **High-Priority Risks (Must Act Immediately)**
+
+1. **Entity & Legal Compliance** — multi-entity complexity is a real legal hazard without proactive controls.
+2. **Financial & Tax** — multi-entity accounting + noncash compensation models are tricky.
+3. **Dependency on Core Staff** — too much knowledge in too few heads early on.
+4. **Operational Load** — risk of overload as you onboard 20+ clients/ventures before Year 1 ends.
+
+**Top Mitigations**
+
+* Strengthen documentation & SOPs.
+* Hire early or contract for redundancy.
+* Run frequent internal audits (legal + finance + ops).
+
+---
+
+### **Moderate-Risk Areas (Plan & Monitor)**
+
+* Platform stability and technical debt
+* Sales & adoption risk
+* Brand/reputation risk
+* Program delivery schedule
+
+**Mitigations**
+
+* Strong QA and sequencing disciplines
+* CCO + CTO coordination on messaging and tech narratives
+* Squad retrospectives + root cause analyses
+
+---
+
+### **Lower-Risk but Non-Negligible**
+
+* External policy changes (hard to control, monitor instead)
+* Market conditions (macro risk, adjust narrative/positioning)
+
+---
+
+# 📍 Risk Ratings (Heatmap View)
+
+```
++--------------------+--------------------+--------------------+
+| High Impact / High | High Impact / Med  | High Impact / Low  |
+| Likelihood         | Likelihood         | Likelihood         |
++--------------------+--------------------+--------------------+
+| Legal & Compliance | Operations Load    | Regulatory Shift   |
+| Financial / Tax    | Tech Stability     |                    |
+| Staff Dependency   | Adoption Risk      |                    |
++--------------------+--------------------+--------------------+
+
++--------------------+--------------------+--------------------+
+| MedIMPACT / High   | MedIMPACT / Med    | MedIMPACT / Low    |
+| Likelihood         | Likelihood         | Likelihood         |
++--------------------+--------------------+--------------------+
+| External Comms     | Governance Risks   |                    |
+| Program Delivery   | Reputation         |                    |
+|                    |                    |                    |
++--------------------+--------------------+--------------------+
+```
+
+---
+
+## 🏁 Top 5 Risk Mitigation Actions (Year 1)
+
+### **1) Formalize Controls**
+
+* SOPs, dashboards, audit cycles, acceptance criteria
+* Pre-launch checklists for legal, finance, compliance, and ops
+
+### **2) Redundancy & Cross-Training**
+
+* Avoid single points of failure
+* Staff overlap on critical functions (legal + governance, finance + ops)
+
+### **3) Continuous Monitoring**
+
+* Build live dashboards for risk metrics:
+
+  * Burn rate
+  * Compliance deadlines
+  * Release quality
+  * External sentiment
+  * Pod/campaign performance
+
+### **4) Engagement Cadence**
+
+* Weekly risk reviews by CSO + COO + CFO + CLO
+* Monthly executive risk forum
+* Quarterly all-hands risk reviews
+
+### **5) Scenario & Stress Testing**
+
+* Finance stress test (slow ramp + high expenses)
+* Legal audit simulation (constructive audit)
+* Platform stress testing (load + security)
+
+---
+
+## 📌 How This Connects to Your C-Suite
+
+Each executive should own **risks aligned to their domain**:
+
+| **Role** | **Risk Domain Ownership**                    |
+| -------- | -------------------------------------------- |
+| CEO      | Strategic, reputation, external partnerships |
+| COO      | Sales, marketing, operations load            |
+| CFO      | Financial & tax risk                         |
+| CTO      | Platform & technical risk                    |
+| CLO      | Legal & entity risk                          |
+| CCO      | External comms & reputation risk             |
+| CPO      | Sequencing & delivery risk                   |
+| CGO      | Governance compliance risk                   |
+| CSO      | Cross-domain orchestration + alignment       |
+
+---
+
+## 🧩 Risk Scoring (Optional)
+
+If you want, I can convert this into:
+
+📊 **Risk register spreadsheet (with scoring & dashboards)**
+📆 **Risk mitigation plan by quarter**
+📈 **Automated risk monitoring templates**
+
+Just tell me the format you’d like!
+
+Great — here are the **two deliverables you asked for**, ready for use in a spreadsheet or project management tool:
+
+📊 **1) Risk Register (with scoring & dashboard structure)**
+📆 **2) Risk Mitigation Plan by Quarter**
+
+You can copy each section into **Google Sheets / Excel / Notion / Airtable** and build dashboards or views from them.
+
+---
+
+## 📊 **1) Risk Register Spreadsheet (with Scoring & Dashboards)**
+
+### **Sheet: Risk Register**
+
+| **Risk ID** | **Risk Domain**      | **Risk Description**                    | **Likelihood (1–5)** | **Impact (1–5)** | **Risk Score (L×I)** | **Owner** | **Mitigation Status** | **Next Action Due** | **Quarter** |
+| ----------- | -------------------- | --------------------------------------- | -------------------: | ---------------: | -------------------: | --------- | --------------------- | ------------------- | ----------- |
+| R001        | Legal & Compliance   | Entity formation errors, non-compliance |                    4 |                5 |                   20 | CLO       | Active                | 2025-03-15          | Q1          |
+| R002        | Governance           | OVCS/gov filing errors                  |                    3 |                5 |                   15 | CGO       | Active                | 2025-02-28          | Q1          |
+| R003        | Financial/Tax        | Tax misfiling or audit exposure         |                    3 |                5 |                   15 | CFO       | Active                | 2025-04-10          | Q2          |
+| R004        | Operational Load     | Staff overload / burnout                |                    4 |                4 |                   16 | COO + CSO | Active                | 2025-01-31          | Q1          |
+| R005        | Tech Stability       | Platform reliability issues             |                    3 |                4 |                   12 | CTO       | Active                | 2025-02-20          | Q1          |
+| R006        | Security & Data      | Security breach / privacy violation     |                    3 |                5 |                   15 | CTO       | Monitoring            | 2025-03-10          | Q1          |
+| R007        | Sales/Revenue        | Client acquisition shortfall            |                    3 |                3 |                    9 | COO       | Monitoring            | 2025-04-01          | Q2          |
+| R008        | Market Adoption      | Slow adoption of coop OS                |                    3 |                3 |                    9 | CCO       | Plan                  | 2025-05-01          | Q2          |
+| R009        | External Comms       | Miscommunication / PR crisis            |                    2 |                3 |                    6 | CCO       | Monitoring            | 2025-03-15          | Q1          |
+| R010        | Program Delivery     | Program rollout delays                  |                    3 |                4 |                   12 | CPO       | Active                | 2025-07-05          | Q3          |
+| R011        | Dependency Risk      | Too much reliance on individuals        |                    4 |                5 |                   20 | CSO       | Active                | 2025-01-20          | Q1          |
+| R012        | Liquidity & Burn     | Runway shortfall                        |                    3 |                4 |                   12 | CFO       | Active                | 2025-03-01          | Q1          |
+| R013        | IP / Innovation Risk | IP loss or unclear rights               |                    2 |                3 |                    6 | CLO       | Plan                  | 2025-04-15          | Q2          |
+| R014        | Regulatory Change    | Policy shifts affecting coops           |                    2 |                3 |                    6 | CLO       | Plan                  | 2025-06-01          | Q2          |
+
+### **Legend for Likelihood & Impact**
+
+* **1 – Low**
+* **2 – Slight**
+* **3 – Moderate**
+* **4 – High**
+* **5 – Very High**
+
+### **Sheet: Risk Dashboard (Pivot / Summary)**
+
+You can build pivot charts from the sheet above:
+
+#### Risk Score Distribution
+
+* Bars or heatmap grouping by **Risk Score buckets** (Low: 1–6, Med: 7–15, High: 16–25)
+
+#### Risks by Domain
+
+| **Domain**         | **# of Risks** | **Avg Score** |
+| ------------------ | -------------: | ------------: |
+| Legal & Compliance |              1 |            20 |
+| Governance         |              1 |            15 |
+| Financial/Tax      |              1 |            15 |
+| Operational Load   |              1 |            16 |
+| Tech               |              1 |            12 |
+| Security/Data      |              1 |            15 |
+| Sales/Revenue      |              1 |             9 |
+| Market Adoption    |              1 |             9 |
+| External Comms     |              1 |             6 |
+| Program Delivery   |              1 |            12 |
+| Dependency         |              1 |            20 |
+| Liquidity/Burn     |              1 |            12 |
+| IP/Innovation      |              1 |             6 |
+| Regulatory Change  |              1 |             6 |
+
+#### Owner Heatmap
+
+| **Owner** | **Avg Risk Score** | **High Risks (# ≥15)** |
+| --------- | -----------------: | ---------------------: |
+| CLO       |              13.67 |                      1 |
+| CGO       |                 15 |                      1 |
+| CFO       |               13.5 |                      1 |
+| CTO       |               13.5 |                      1 |
+| COO       |               12.5 |                      1 |
+| CCO       |                7.5 |                      0 |
+| CPO       |                 12 |                      1 |
+| CSO       |                 20 |                      1 |
+
+---
+
+## 📆 **2) Risk Mitigation Plan — by Quarter**
+
+This template aligns key risks with mitigation actions, owners, and timelines.
+
+### **Quarter 1 (Jan–Mar 2025)**
+
+| **Risk ID** | **Goal**                       | **Mitigation Action**                                          | **Owner** | **Due Date** | **Status** |
+| ----------- | ------------------------------ | -------------------------------------------------------------- | --------- | ------------ | ---------- |
+| R001        | Ensure entity legal compliance | Complete entity formation checklists + external counsel review | CLO       | 2025-01-15   | Complete   |
+| R002        | Gov ops readiness              | Finalize all governance templates + OVCS pipeline tests        | CGO       | 2025-02-28   | Active     |
+| R003        | Prepare tax model              | Draft tax compliance plan + chart of accounts                  | CFO       | 2025-03-10   | Active     |
+| R004        | Reduce operational overload    | Prioritize WBS milestones and hire support analysts            | COO + CSO | 2025-01-31   | Active     |
+| R005        | Platform baseline stability    | OS baseline QA passes + regression suites                      | CTO       | 2025-02-10   | Active     |
+| R006        | Early security posture         | Conduct basic security audit & patching                        | CTO       | 2025-03-10   | Plan       |
+| R009        | External comms alignment       | Create comms governance process (approve workflows)            | CCO       | 2025-03-15   | Active     |
+| R011        | Key person dependency          | Document critical workflows + cross-train                      | CSO       | 2025-01-20   | Active     |
+| R012        | Finance runway planning        | Scenario planning + burn dashboard                             | CFO       | 2025-03-01   | Active     |
+
+---
+
+### **Quarter 2 (Apr–Jun 2025)**
+
+| **Risk ID** | **Goal**                      | **Mitigation Action**                    | **Owner** | **Due Date** | **Status** |
+| ----------- | ----------------------------- | ---------------------------------------- | --------- | ------------ | ---------- |
+| R003        | Tax & multi-entity compliance | Run mock tax filings + accountant review | CFO       | 2025-05-01   | Plan       |
+| R007        | Sales pipeline growth         | Implement CRM & sales playbooks          | COO       | 2025-04-01   | Active     |
+| R008        | Market adoption               | Launch social campaigns + PR push        | CCO       | 2025-05-15   | Active     |
+| R013        | IP clarity                    | Standardize IP clauses in all contracts  | CLO       | 2025-04-15   | Plan       |
+| R014        | Regulatory horizon scanning   | Setup policy watch + alert system        | CLO       | 2025-06-01   | Plan       |
+
+---
+
+### **Quarter 3 (Jul–Sep 2025)**
+
+| **Risk ID** | **Goal**                    | **Mitigation Action**                        | **Owner** | **Due Date** | **Status** |
+| ----------- | --------------------------- | -------------------------------------------- | --------- | ------------ | ---------- |
+| R010        | Program delivery confidence | Sequencing & readiness gates quarterly audit | CPO       | 2025-07-15   | Active     |
+| R005        | Ongoing platform stability  | Scale testing + performance dashboards       | CTO       | 2025-08-01   | Plan       |
+| R006        | Security posture deepening  | Penetration test + fixes                     | CTO       | 2025-09-01   | Plan       |
+| R007        | Revenue traction            | Measure qoq pipeline growth with pivot plans | COO       | 2025-09-15   | Plan       |
+
+---
+
+### **Quarter 4 (Oct–Dec 2025)**
+
+| **Risk ID** | **Goal**               | **Mitigation Action**                             | **Owner** | **Due Date** | **Status** |
+| ----------- | ---------------------- | ------------------------------------------------- | --------- | ------------ | ---------- |
+| R008        | Adoption momentum      | Year-end ecosystem BR (blog/PR) + event presence  | CCO       | 2025-12-10   | Plan       |
+| R001        | Compliance H2 audit    | Legal entity & contract audit                     | CLO       | 2025-11-20   | Plan       |
+| R002        | Governance compliance  | Governance documentation and retro review         | CGO       | 2025-12-01   | Plan       |
+| R012        | Burn/runway tightening | Year-end cash forecast + adjust budget for Year 2 | CFO       | 2025-11-01   | Plan       |
+| R011        | Succession planning    | Deputy roles defined for key positions            | CSO       | 2025-12-01   | Plan       |
+
+---
+
+## 🧠 **How to Build Dashboards from This**
+
+### Dashboard Ideas
+
+📊 **Risk Heatmap**
+
+* X-axis: Likelihood
+* Y-axis: Impact
+* Color: Risk Score
+
+📈 **Risk Trends by Quarter**
+
+* Count of Active vs Mitigated risks
+* Completed vs Open action counts
+
+📣 **Owner Accountability Dashboard**
+
+* Risks by owner
+* % of actions completed on time
+
+📆 **Quarterly Risk Scoreboard**
+
+* Average risk score by quarter
+* New risks, mitigated risks, escalating risks
+
+---
+
+## 📌 Next Outputs Available
+
+If you want:
+
+🔹 **Google Sheets template** (pre-formatted with formulas)
+🔹 **Dashboard in Looker / Data Studio / Notion**
+🔹 **Automated risk tracking system** (CSV / Airtable integrations)
+
+Just tell me which one you want!
+
+Here’s your **tabular list of your Core Team + All Operational Squads**, organized so you can paste it into a spreadsheet, Notion database, Airtable base, or any team management system.
+
+I’ve grouped it into:
+
+✅ **Core Executive Team (your first 9 hires)**
+✅ **Shared Roles** (QA, Support Analysts, DevOps, etc.)
+✅ **Ops Squads** (A–E)
+✅ **Program Squads** (Prog 1–6)
+✅ **Governance Squad**
+
+Each row includes:
+
+* **Team**
+* **Role / Member**
+* **Functional Title**
+* **Primary Responsibilities**
+* **Squad / Domain**
+
+---
+
+## 📋 **Team + Roles Table**
+
+| **Team**             | **Role / Member**                   | **Title / Position**               | **Primary Focus**                          | **Domain / Coverage**        |
+| -------------------- | ----------------------------------- | ---------------------------------- | ------------------------------------------ | ---------------------------- |
+| **Core Executive**   | Dominic                             | CEO — Chief Executive Officer      | Vision, ecosystem strategy                 | Core Leadership              |
+| **Core Executive**   | Chief of Staff (CoS)                | CSO — Chief of Staff               | Strategic execution coordination           | Core Leadership              |
+| **Core Executive**   | Operations & Growth Lead            | COO — Chief Operating Officer      | Business ops, HR, marketing, sales, growth | Core Leadership              |
+| **Core Executive**   | Financial Controller                | CFO — Chief Financial Officer      | Multi-entity financial controls            | Core Leadership              |
+| **Core Executive**   | Technical Architect                 | CTO — Chief Technology Officer     | Platform architecture & standards          | Core Leadership              |
+| **Core Executive**   | Legal & Entity Steward              | CLO — Chief Legal Officer          | Legal / entity compliance & risk           | Core Leadership              |
+| **Core Executive**   | Communications & Evangelism Lead    | CCO — Chief Communications Officer | PR, blogs, social, podcasts                | Core Leadership              |
+| **Core Executive**   | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing, phase gating                   | Core Leadership              |
+| **Core Executive**   | OVCS Liaison / Governance Secretary | CGO — Chief Governance Officer     | Governance pipelines & compliance          | Core Leadership              |
+| **Shared / Guild**   | QA-Guild Lead                       | QA Lead                            | QA strategy, testing standards             | Quality / All squads         |
+| **Shared / Guild**   | QA-Engineer A                       | QA Specialist                      | Quality assurance                          | Quality / Ops A, Prog squads |
+| **Shared / Guild**   | QA-Engineer B                       | QA Specialist                      | Quality assurance                          | Quality / Ops B–E            |
+| **Shared / Support** | SupportAnalyst A                    | Support Analyst                    | Requirements & ops support                 | Ops A & B                    |
+| **Shared / Support** | SupportAnalyst B                    | Support Analyst                    | Requirements & ops support                 | Ops C & D                    |
+| **Shared / Support** | SupportAnalyst C                    | Support Analyst                    | Requirements & ops support                 | Ops E & Prog                 |
+| **Shared / Infra**   | DevOps Engineer                     | DevOps Specialist                  | CICD / infrastructure automation           | Shared (Ops & Prog)          |
+| **Squad-Gov**        | GovDevLead                          | Governance Systems Lead            | Governance OS delivery                     | Governance                   |
+| **Squad-Gov**        | Squad-Gov Dev                       | Dev / Engineer                     | Implements governance modules              | Governance                   |
+| **Squad-Gov**        | TechArch (advisor)                  | Technical Architect                | Architecture guidance                      | Governance                   |
+| **Squad-Gov**        | OVCS Sec                            | CGO — Chief Governance Officer     | Governance documentation                   | Governance                   |
+| **Squad-Ops A**      | Squad-Ops A Lead                    | Ops Squad Lead                     | Lead for Wolof.io / Massai / Bahari / Moyo | Ops A                        |
+| **Squad-Ops A**      | BackendDev A1                       | Backend Developer                  | Core backend dev                           | Ops A                        |
+| **Squad-Ops A**      | FrontendDev A2                      | Frontend/Integration Dev           | UI & integration                           | Ops A                        |
+| **Squad-Ops A**      | QA-Engineer A                       | QA Specialist                      | Testing & QA                               | Ops A                        |
+| **Squad-Ops A**      | SupportAnalyst A                    | Support Analyst                    | Requirements & ops                         | Ops A                        |
+| **Squad-Ops B**      | Squad-Ops B Lead                    | Ops Squad Lead                     | Lead for Nandi / Ubunye / Umoya            | Ops B                        |
+| **Squad-Ops B**      | BackendDev B1                       | Backend Developer                  | Core backend dev                           | Ops B                        |
+| **Squad-Ops B**      | FrontendDev B2                      | Frontend/Integration Dev           | UI & integration                           | Ops B                        |
+| **Squad-Ops B**      | QA-Engineer B                       | QA Specialist                      | Testing & QA                               | Ops B                        |
+| **Squad-Ops B**      | SupportAnalyst A                    | Support Analyst                    | Requirements & ops                         | Ops B                        |
+| **Squad-Ops C**      | Squad-Ops C Lead                    | Ops Squad Lead                     | Lead for Dogon / Azande / Damara           | Ops C                        |
+| **Squad-Ops C**      | BackendDev C1                       | Backend Developer                  | Core backend dev                           | Ops C                        |
+| **Squad-Ops C**      | FrontendDev C2                      | Frontend/Integration Dev           | UI & integration                           | Ops C                        |
+| **Squad-Ops C**      | QA-Engineer B                       | QA Specialist                      | Testing & QA                               | Ops C                        |
+| **Squad-Ops C**      | SupportAnalyst B                    | Support Analyst                    | Requirements & ops                         | Ops C                        |
+| **Squad-Ops D**      | Squad-Ops D Lead                    | Ops Squad Lead                     | Lead for Lomwe / Niguvu / San Env          | Ops D                        |
+| **Squad-Ops D**      | BackendDev D1                       | Backend Developer                  | Core backend dev                           | Ops D                        |
+| **Squad-Ops D**      | AIEng D2                            | AI Specialist Developer            | AI / data features                         | Ops D                        |
+| **Squad-Ops D**      | QA-Engineer B                       | QA Specialist                      | Testing & QA                               | Ops D                        |
+| **Squad-Ops D**      | SupportAnalyst B                    | Support Analyst                    | Requirements & ops                         | Ops D                        |
+| **Squad-Ops E**      | Squad-Ops E Lead                    | Ops Squad Lead                     | Lead for Mande IG / Batwa                  | Ops E                        |
+| **Squad-Ops E**      | BackendDev E1                       | Backend Developer                  | Core backend dev                           | Ops E                        |
+| **Squad-Ops E**      | FrontendDev E2                      | Frontend/Integration Dev           | UI & integration                           | Ops E                        |
+| **Squad-Ops E**      | QA-Engineer B                       | QA Specialist                      | Testing & QA                               | Ops E                        |
+| **Squad-Ops E**      | SupportAnalyst C                    | Support Analyst                    | Requirements & ops                         | Ops E                        |
+| **Squad-Prog 1**     | Prog1Lead                           | Program Squad Lead                 | Kano program delivery                      | Prog 1                       |
+| **Squad-Prog 1**     | ProgEngineer1A                      | Program Engineer                   | Program build                              | Prog 1                       |
+| **Squad-Prog 1**     | QA-Engineer A                       | QA Specialist                      | QA                                         | Prog 1                       |
+| **Squad-Prog 1**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 1                       |
+| **Squad-Prog 1**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 1                       |
+| **Squad-Prog 2**     | Prog2Lead                           | Program Squad Lead                 | Ndebe program delivery                     | Prog 2                       |
+| **Squad-Prog 2**     | ProgEngineer2A                      | Program Engineer                   | Program build                              | Prog 2                       |
+| **Squad-Prog 2**     | QA-Engineer A/B                     | QA Specialist                      | QA                                         | Prog 2                       |
+| **Squad-Prog 2**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 2                       |
+| **Squad-Prog 2**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 2                       |
+| **Squad-Prog 3**     | Prog3Lead                           | Program Squad Lead                 | Kuzu program delivery                      | Prog 3                       |
+| **Squad-Prog 3**     | ProgEngineer3A                      | Program Engineer                   | Program build                              | Prog 3                       |
+| **Squad-Prog 3**     | QA-Engineer A/B                     | QA Specialist                      | QA                                         | Prog 3                       |
+| **Squad-Prog 3**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 3                       |
+| **Squad-Prog 3**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 3                       |
+| **Squad-Prog 4**     | Prog4Lead                           | Program Squad Lead                 | Zalendo program delivery                   | Prog 4                       |
+| **Squad-Prog 4**     | ProgEngineer4A                      | Program Engineer                   | Program build                              | Prog 4                       |
+| **Squad-Prog 4**     | QA-Engineer A/B                     | QA Specialist                      | QA                                         | Prog 4                       |
+| **Squad-Prog 4**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 4                       |
+| **Squad-Prog 4**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 4                       |
+| **Squad-Prog 5**     | Prog5Lead                           | Program Squad Lead                 | Zamba program delivery                     | Prog 5                       |
+| **Squad-Prog 5**     | ProgEngineer5A                      | Program Engineer                   | Program build                              | Prog 5                       |
+| **Squad-Prog 5**     | QA-Engineer A/B                     | QA Specialist                      | QA                                         | Prog 5                       |
+| **Squad-Prog 5**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 5                       |
+| **Squad-Prog 5**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 5                       |
+| **Squad-Prog 6**     | Prog6Lead                           | Program Squad Lead                 | Luma program delivery                      | Prog 6                       |
+| **Squad-Prog 6**     | ProgEngineer6A                      | Program Engineer                   | Program build                              | Prog 6                       |
+| **Squad-Prog 6**     | QA-Engineer A/B                     | QA Specialist                      | QA                                         | Prog 6                       |
+| **Squad-Prog 6**     | SupportAnalyst C                    | Support Analyst                    | Program ops support                        | Prog 6                       |
+| **Squad-Prog 6**     | PS                                  | Program Sequencer                  | Sequencing oversight                       | Prog 6                       |
+
+---
+
+## 🧠 Tips for Use
+
+✔ **Filter by Team** — See who’s on which squad
+✔ **Sort by Domain** — Core Leadership vs Execution
+✔ **Add Columns** — Email, Hire Date, Status, Contact, etc.
+✔ **Link to WBS** — Attach WBS IDs for assignment tracking
+
+If you want this exported as a **CSV, Notion database template, Airtable base, or Google Sheet**, just tell me the format!
+
+Absolutely — here’s your **updated team roster table** reflecting your request:
+
+✅ **Executive Squad (“squad-exec”)** now includes **all executives + your Executive Assistant**
+✅ **Core Team / Shared Squad (“squad-core”)** includes all **shared roles** (Guild, Support, Infra, etc.)
+
+This is formatted as a **single continuous table** you can paste into Sheets / Notion / Airtable.
+
+---
+
+## 📋 **Teams Table — Core Team + Squads**
+
+| **Team**         | **Role / Member**                   | **Title / Position**               | **Primary Focus**                             | **Domain / Coverage** |
+| ---------------- | ----------------------------------- | ---------------------------------- | --------------------------------------------- | --------------------- |
+| **Squad-Exec**   | Dominic                             | CEO — Chief Executive Officer      | Vision, ecosystem strategy                    | Executive             |
+| **Squad-Exec**   | Chief of Staff (CoS)                | CSO — Chief of Staff               | Strategic execution coordination              | Executive             |
+| **Squad-Exec**   | Operations & Growth Lead            | COO — Chief Operating Officer      | Business ops, HR, marketing, sales, growth    | Executive             |
+| **Squad-Exec**   | Financial Controller                | CFO — Chief Financial Officer      | Multi-entity financial controls               | Executive             |
+| **Squad-Exec**   | Technical Architect                 | CTO — Chief Technology Officer     | Platform architecture & standards             | Executive             |
+| **Squad-Exec**   | Legal & Entity Steward              | CLO — Chief Legal Officer          | Legal / entity compliance & risk              | Executive             |
+| **Squad-Exec**   | Communications & Evangelism Lead    | CCO — Chief Communications Officer | PR, blogs, social, podcasts                   | Executive             |
+| **Squad-Exec**   | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing, phase gating                      | Executive             |
+| **Squad-Exec**   | OVCS Liaison / Governance Secretary | CGO — Chief Governance Officer     | Governance pipelines & compliance             | Executive             |
+| **Squad-Exec**   | Executive Assistant (EA)            | Executive Assistant                | Calendar, meeting triage, operational support | Executive             |
+| **Squad-Core**   | QA-Guild Lead                       | QA Lead                            | QA strategy, testing standards                | Shared / Quality      |
+| **Squad-Core**   | QA-Engineer A                       | QA Specialist                      | Quality assurance                             | Shared / Quality      |
+| **Squad-Core**   | QA-Engineer B                       | QA Specialist                      | Quality assurance                             | Shared / Quality      |
+| **Squad-Core**   | SupportAnalyst A                    | Support Analyst                    | Requirements & ops support                    | Shared / Support      |
+| **Squad-Core**   | SupportAnalyst B                    | Support Analyst                    | Requirements & ops support                    | Shared / Support      |
+| **Squad-Core**   | SupportAnalyst C                    | Support Analyst                    | Requirements & ops support                    | Shared / Support      |
+| **Squad-Core**   | DevOps Engineer                     | DevOps Specialist                  | CICD / infrastructure automation              | Shared / Infra        |
+| **Squad-Gov**    | GovDevLead                          | Governance Systems Lead            | Governance OS delivery                        | Governance            |
+| **Squad-Gov**    | Squad-Gov Dev                       | Dev / Engineer                     | Implements governance modules                 | Governance            |
+| **Squad-Gov**    | Technical Architect (advisor)       | CTO — Technical Advisor            | Architecture guidance                         | Governance            |
+| **Squad-Gov**    | OVCS Sec                            | CGO — Chief Governance Officer     | Governance documentation                      | Governance            |
+| **Squad-Ops A**  | Squad-Ops A Lead                    | Ops Squad Lead                     | Lead for Wolof.io / Massai / Bahari / Moyo    | Ops A                 |
+| **Squad-Ops A**  | BackendDev A1                       | Backend Developer                  | Core backend dev                              | Ops A                 |
+| **Squad-Ops A**  | FrontendDev A2                      | Frontend/Integration Dev           | UI & integration                              | Ops A                 |
+| **Squad-Ops A**  | QA-Engineer A                       | QA Specialist                      | Testing & QA                                  | Ops A                 |
+| **Squad-Ops A**  | SupportAnalyst A                    | Support Analyst                    | Requirements & ops                            | Ops A                 |
+| **Squad-Ops B**  | Squad-Ops B Lead                    | Ops Squad Lead                     | Lead for Nandi / Ubunye / Umoya               | Ops B                 |
+| **Squad-Ops B**  | BackendDev B1                       | Backend Developer                  | Core backend dev                              | Ops B                 |
+| **Squad-Ops B**  | FrontendDev B2                      | Frontend/Integration Dev           | UI & integration                              | Ops B                 |
+| **Squad-Ops B**  | QA-Engineer B                       | QA Specialist                      | Testing & QA                                  | Ops B                 |
+| **Squad-Ops B**  | SupportAnalyst A                    | Support Analyst                    | Requirements & ops                            | Ops B                 |
+| **Squad-Ops C**  | Squad-Ops C Lead                    | Ops Squad Lead                     | Lead for Dogon / Azande / Damara              | Ops C                 |
+| **Squad-Ops C**  | BackendDev C1                       | Backend Developer                  | Core backend dev                              | Ops C                 |
+| **Squad-Ops C**  | FrontendDev C2                      | Frontend/Integration Dev           | UI & integration                              | Ops C                 |
+| **Squad-Ops C**  | QA-Engineer B                       | QA Specialist                      | Testing & QA                                  | Ops C                 |
+| **Squad-Ops C**  | SupportAnalyst B                    | Support Analyst                    | Requirements & ops                            | Ops C                 |
+| **Squad-Ops D**  | Squad-Ops D Lead                    | Ops Squad Lead                     | Lead for Lomwe / Niguvu / San Env             | Ops D                 |
+| **Squad-Ops D**  | BackendDev D1                       | Backend Developer                  | Core backend dev                              | Ops D                 |
+| **Squad-Ops D**  | AIEng D2                            | AI Specialist Developer            | AI / data features                            | Ops D                 |
+| **Squad-Ops D**  | QA-Engineer B                       | QA Specialist                      | Testing & QA                                  | Ops D                 |
+| **Squad-Ops D**  | SupportAnalyst B                    | Support Analyst                    | Requirements & ops                            | Ops D                 |
+| **Squad-Ops E**  | Squad-Ops E Lead                    | Ops Squad Lead                     | Lead for Mande IG / Batwa                     | Ops E                 |
+| **Squad-Ops E**  | BackendDev E1                       | Backend Developer                  | Core backend dev                              | Ops E                 |
+| **Squad-Ops E**  | FrontendDev E2                      | Frontend/Integration Dev           | UI & integration                              | Ops E                 |
+| **Squad-Ops E**  | QA-Engineer B                       | QA Specialist                      | Testing & QA                                  | Ops E                 |
+| **Squad-Ops E**  | SupportAnalyst C                    | Support Analyst                    | Requirements & ops                            | Ops E                 |
+| **Squad-Prog 1** | Prog1Lead                           | Program Squad Lead                 | Kano program delivery                         | Prog 1                |
+| **Squad-Prog 1** | ProgEngineer1A                      | Program Engineer                   | Program build                                 | Prog 1                |
+| **Squad-Prog 1** | QA-Engineer A                       | QA Specialist                      | QA                                            | Prog 1                |
+| **Squad-Prog 1** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 1                |
+| **Squad-Prog 1** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 1                |
+| **Squad-Prog 2** | Prog2Lead                           | Program Squad Lead                 | Ndebe program delivery                        | Prog 2                |
+| **Squad-Prog 2** | ProgEngineer2A                      | Program Engineer                   | Program build                                 | Prog 2                |
+| **Squad-Prog 2** | QA-Engineer A/B                     | QA Specialist                      | QA                                            | Prog 2                |
+| **Squad-Prog 2** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 2                |
+| **Squad-Prog 2** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 2                |
+| **Squad-Prog 3** | Prog3Lead                           | Program Squad Lead                 | Kuzu program delivery                         | Prog 3                |
+| **Squad-Prog 3** | ProgEngineer3A                      | Program Engineer                   | Program build                                 | Prog 3                |
+| **Squad-Prog 3** | QA-Engineer A/B                     | QA Specialist                      | QA                                            | Prog 3                |
+| **Squad-Prog 3** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 3                |
+| **Squad-Prog 3** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 3                |
+| **Squad-Prog 4** | Prog4Lead                           | Program Squad Lead                 | Zalendo program delivery                      | Prog 4                |
+| **Squad-Prog 4** | ProgEngineer4A                      | Program Engineer                   | Program build                                 | Prog 4                |
+| **Squad-Prog 4** | QA-Engineer A/B                     | QA Specialist                      | QA                                            | Prog 4                |
+| **Squad-Prog 4** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 4                |
+| **Squad-Prog 4** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 4                |
+| **Squad-Prog 5** | Prog5Lead                           | Program Squad Lead                 | Zamba program delivery                        | Prog 5                |
+| **Squad-Prog 5** | ProgEngineer5A                      | Program Engineer                   | Program build                                 | Prog 5                |
+| **Squad-Prog 5** | QA-Engineer A/B                     | QA Specialist                      | QA                                            | Prog 5                |
+| **Squad-Prog 5** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 5                |
+| **Squad-Prog 5** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 5                |
+| **Squad-Prog 6** | Prog6Lead                           | Program Squad Lead                 | Luma program delivery                         | Prog 6                |
+| **Squad-Prog 6** | ProgEngineer6A                      | Program Engineer                   | Program build                                 | Prog 6                |
+| **Squad-Prog 6** | QA-Engineer A/B                     | QA Specialist                      | QA                                            | Prog 6                |
+| **Squad-Prog 6** | SupportAnalyst C                    | Support Analyst                    | Program ops support                           | Prog 6                |
+| **Squad-Prog 6** | Program Sequencer                   | CPO — Chief Planning Officer       | Sequencing oversight                          | Prog 6                |
+
+---
+
+## 🧠 Notes
+
+✔ **Squad-Exec** is now your true executive team — all core execs *plus EA*.
+✔ **Squad-Core** hosts all shared functional members that support delivery, quality, and infrastructure.
+✔ Shared roles show up in Ops & Prog squads as floating support — but are *listed once centrally* in **Squad-Core** to emphasize their shared nature.
+
+---
+
+## 📌 Next Step
+
+If you want, I can generate:
+
+📊 **Org Chart Visual** (PNG / SVG)
+📆 **Team Roster with Contact Columns**
+📋 **Notion / Airtable Import Template**
+
+Just tell me your preferred format!

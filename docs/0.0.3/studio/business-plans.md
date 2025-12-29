@@ -1,3 +1,5 @@
+# BUSINESS PLANS ARTIFACTS LIBRARY
+
 Understood. I have read **all uploads end-to-end** and I will treat **Nandi Mobility Company** as an **internal-first, regime-compliant venture** that must cleanly fit inside your **Msingi → OVCS → DEFES → Studio → Venture** architecture without violating exit-by-design, non-capture, or authority constraints.
 
 I will deliver this as **an end-to-end business plan in 6 messages**, each message representing a **layer-complete section**.
@@ -32654,8 +32656,694 @@ If you want next, I can now generate:
 
 Just say the word.
 
+Below are **foundational execution artifacts** for the **Navigator Personal Office (NPO)**, designed to be **compatible with OVCS, EFEO, and the Pamoja Federation**, and reusable across your broader system.
 
+I’m keeping these **formal, schematic, and portable** so they can be lifted directly into operating docs, legal briefs, or platform schemas.
 
+---
+
+# 1. Capital & Account Schemas
+
+*(NPO × EFEO × OVCS compatible)*
+
+## 1.1 Account Hierarchy (Conceptual)
+
+```
+Dominic Eaton (Person)
+   │
+   ├─ Eaton Family Estate & Offices (EFEO)
+   │     ├─ Estate Capital Pool
+   │     ├─ Shared Services Account
+   │     └─ Member Office Allocations
+   │            └─ NPO Allocation (Optional, Bounded)
+   │
+   └─ Navigator Personal Office (NPO)
+         ├─ Operating Account
+         ├─ IP & Royalty Account
+         ├─ Research & Tooling Reserve
+         ├─ Spin-out / Venture Receivables
+         └─ Personal Draw Account
+```
+
+---
+
+## 1.2 NPO Internal Account Schema
+
+### A. **Operating Account**
+
+Purpose:
+
+* Day-to-day expenses
+* Tools, services, contractors
+* Legal and accounting
+
+Rules:
+
+* No commingling with personal funds
+* No automatic EFEO transfers
+
+---
+
+### B. **IP & Royalty Account**
+
+Purpose:
+
+* Licensing income
+* Royalties from OVCS ventures
+* Long-tail IP revenue
+
+Rules:
+
+* Separated from operating cash
+* Supports long-term sustainability
+* May capitalize future research
+
+---
+
+### C. **Research & Tooling Reserve**
+
+Purpose:
+
+* Compute
+* Simulation environments
+* Knowledge systems
+* Long-horizon experiments
+
+Rules:
+
+* Non-distributable
+* Replenished via surplus or EFEO allocation
+* Doctrine-protected
+
+---
+
+### D. **Spin-Out / Venture Receivables**
+
+Purpose:
+
+* Deferred fees
+* Equity conversion tracking
+* IP licensing obligations
+
+Rules:
+
+* Converts to equity, royalties, or forgiveness
+* Never silently written off
+
+---
+
+### E. **Personal Draw Account**
+
+Purpose:
+
+* Compensation to Dominic Eaton (Person)
+
+Rules:
+
+* Explicit draws only
+* No implicit labor extraction
+* No obligation to maximize
+
+---
+
+## 1.3 EFEO ↔ NPO Capital Flow Rules
+
+```
+EFEO → NPO
+   - Allocation (Optional)
+   - Service payments (If used)
+   - Research grants (Bounded)
+
+NPO → EFEO
+   - None by default
+   - No upstream profit sweep
+```
+
+EFEO provides **stability**, not control.
+
+---
+
+## 1.4 OVCS ↔ NPO Capital Interface
+
+```
+NPO → OVCS
+   - Startup kernels
+   - IP licenses
+   - Architecture services
+
+OVCS → NPO
+   - Strategic support allocation
+   - Kernel retainers
+   - IP royalty flows
+```
+
+No forced equity. No labor assumption.
+
+---
+
+# 2. Legal Entity Diagrams
+
+## 2.1 Macro Legal Structure
+
+```
+Dominic Eaton (Natural Person)
+        │
+        ├───────────────┐
+        │               │
+Eaton Family Estate   Navigator Personal Office
+& Offices (EFEO)      (NPO)
+        │               │
+        │               ├─ IP Assets
+        │               ├─ Operating Contracts
+        │               └─ Startup Kernels
+        │
+        └─────────── Shared Services (Opt-in)
+                            │
+                            ▼
+                     Accounting / Legal / Admin
+```
+
+---
+
+## 2.2 Federation Context
+
+```
+NPO (Upstream Kernel)
+        │
+        ▼
+OVCS Studios
+        │
+        ├─ Venture SPV A
+        ├─ Venture SPV B
+        ├─ Platform OS Co
+        └─ Research Institute
+```
+
+NPO **licenses into** these entities but is not owned by them.
+
+---
+
+## 2.3 Authority Boundaries
+
+```
+Person (Sovereign)
+   │
+NPO (Operational Authority)
+   │
+Kernels / Projects
+   │
+Spin-outs (Independent Authority)
+```
+
+No reverse authority flows.
+
+---
+
+# 3. IP Licensing Templates (Canonical Forms)
+
+Below are **three core templates** you’ll reuse everywhere.
+
+---
+
+## 3.1 NPO → OVCS Venture
+
+**Kernel IP License (Foundational)**
+
+**Grant**
+
+* Non-exclusive or exclusive (specified)
+* Field-limited
+* Perpetual, revocable on breach
+
+**Rights**
+
+* Use, modify, and commercialize within scope
+* No sub-licensing without consent
+
+**Retention**
+
+* NPO retains core IP ownership
+* Improvements may be jointly owned or licensed back
+
+**Compensation**
+
+* Equity
+* Royalty
+* Deferred fee conversion
+* Hybrid
+
+**Governance Clause**
+
+> License does not confer control, employment, or obligation.
+
+---
+
+## 3.2 NPO → Federation Entity
+
+**Architecture & Doctrine License**
+
+**Grant**
+
+* Non-exclusive
+* Non-transferable
+* Doctrine-bound
+
+**Restrictions**
+
+* No extraction into external entities
+* No closed-source capture if designated open-core
+
+**Termination**
+
+* Automatic on doctrine breach
+* Clean IP reversion
+
+---
+
+## 3.3 Personal → NPO
+
+**Personal Work Contribution License**
+
+Used when personal creative or research work is brought into NPO.
+
+**Grant**
+
+* Exclusive or non-exclusive
+* Revocable
+* Purpose-limited
+
+**Purpose**
+
+* Commercialization
+* Protection
+* Stewardship
+
+**Reversion**
+
+* Automatic upon dissolution of NPO
+* No permanent alienation of personal work
+
+---
+
+## 3.4 Universal Protective Clauses
+
+All NPO licenses include:
+
+* **No implied labor**
+* **No exclusivity without compensation**
+* **No assignment without consent**
+* **Explicit scope and field definitions**
+* **Clear termination and reversion**
+
+---
+
+# 4. How This Scales Across Your Ecosystem
+
+These schemas and templates:
+
+* Reuse cleanly across OVCS ventures
+* Mirror EFEO member office patterns
+* Align with Kumba / Federation OS logic
+* Prevent silent value leakage
+* Preserve personal sovereignty
+
+They are **infrastructure**, not paperwork.
+
+---
+
+## Next Available Artifacts (if you want)
+
+* Double-entry accounting mappings
+* Trust & estate chart-of-accounts
+* Deal / offer / portfolio schemas
+* Cross-OS authority maps
+* Legal language for EFEO member offices
+* OVCS internal policy docs
+
+Just tell me what layer you want next.
+
+Below are **four execution-grade artifacts**, written to be **internally consistent across NPO, EFEO, OVCS, and the full Pamoja Federation**.
+They are schematic, auditable, and directly implementable in accounting systems, deal rooms, or OS schemas.
+
+---
+
+# 1. Double-Entry Accounting Mappings
+
+*(NPO × EFEO × OVCS compliant)*
+
+## 1.1 Core Accounting Principle
+
+> **Every cognitive, creative, or capital contribution must have a symmetric accounting representation.**
+
+No invisible labor. No orphaned value.
+
+---
+
+## 1.2 NPO Core Double-Entry Map
+
+### A. Operating Expense
+
+| Debit             | Credit                   |
+| ----------------- | ------------------------ |
+| Operating Expense | Cash – Operating Account |
+
+Used for:
+
+* Tools
+* Legal
+* Contractors
+* Services
+
+---
+
+### B. Personal Draw
+
+| Debit                      | Credit                   |
+| -------------------------- | ------------------------ |
+| Owner Compensation Expense | Cash – Operating Account |
+
+No implicit labor capitalization.
+
+---
+
+### C. IP Licensing Revenue (Royalty)
+
+| Debit                          | Credit               |
+| ------------------------------ | -------------------- |
+| Accounts Receivable – Licensee | IP Licensing Revenue |
+
+On receipt:
+
+| Debit                     | Credit              |
+| ------------------------- | ------------------- |
+| Cash – IP/Royalty Account | Accounts Receivable |
+
+---
+
+### D. Kernel Contribution → OVCS Venture (Deferred)
+
+| Debit                      | Credit                      |
+| -------------------------- | --------------------------- |
+| Venture Receivable (Asset) | Kernel Contribution Revenue |
+
+Later conversion:
+
+* **To Equity**
+
+  ```
+  Dr Equity Investment
+  Cr Venture Receivable
+  ```
+
+* **To Forgiven Contribution**
+
+  ```
+  Dr Strategic Contribution Expense
+  Cr Venture Receivable
+  ```
+
+---
+
+### E. EFEO Allocation (If Used)
+
+| Debit                   | Credit                 |
+| ----------------------- | ---------------------- |
+| Cash – Research Reserve | EFEO Allocation Equity |
+
+Not income. No repayment obligation.
+
+---
+
+## 1.3 OVCS ↔ NPO Accounting Interface
+
+### OVCS Receives Kernel
+
+| Debit                        | Credit                           |
+| ---------------------------- | -------------------------------- |
+| Intangible Asset – Kernel IP | AP / Equity / Royalty Obligation |
+
+### OVCS Pays Retainer
+
+| Debit                         | Credit |
+| ----------------------------- | ------ |
+| Professional Services Expense | Cash   |
+
+---
+
+# 2. Trust & Estate Chart of Accounts (EFEO)
+
+## 2.1 EFEO Master COA (Simplified)
+
+### Assets
+
+* Estate Cash
+* Long-Term Investments
+* Operating Subsidiaries
+* Shared Infrastructure Assets
+* Member Office Allocations (Contra-Asset)
+
+### Liabilities
+
+* Payables
+* Trust Obligations
+* Tax Reserves
+
+### Equity
+
+* Estate Principal
+* Retained Earnings
+* Restricted Trust Capital
+
+---
+
+## 2.2 Member Office (NPO) Allocation Accounts
+
+```
+EFEO Books:
+  Asset: Member Office Allocation – NPO
+  Equity: Restricted Capital – NPO
+```
+
+```
+NPO Books:
+  Asset: Research & Tooling Reserve
+  Equity: EFEO Allocation Capital
+```
+
+No revenue recognition.
+No control rights.
+
+---
+
+## 2.3 Trust Segmentation
+
+```
+EFEO Trust Layer
+   ├─ Principal (Non-Spendable)
+   ├─ Income (Distributable)
+   └─ Restricted Purpose Pools
+         ├─ Education
+         ├─ Research
+         └─ Infrastructure
+```
+
+NPO may only touch **explicitly allocated pools**.
+
+---
+
+# 3. Deal / Offer / Portfolio Schemas
+
+## 3.1 Offer Schema (Atomic Unit)
+
+```
+Offer {
+  Offer_ID
+  Issuer_Entity
+  Recipient_Entity
+  Instrument_Type (Equity | License | Note | Grant)
+  Scope
+  Consideration
+  Expiration
+  Conditions
+}
+```
+
+---
+
+## 3.2 Deal Schema (Lifecycle Container)
+
+```
+Deal {
+  Deal_ID
+  Parties[]
+  Offers[]
+  Authority_Map
+  State
+  Capital_Committed
+  IP_Terms
+  Exit_Conditions
+}
+```
+
+---
+
+## 3.3 Deal Lifecycle State Machine
+
+```
+Draft
+  ↓
+Proposed
+  ↓
+Negotiated
+  ↓
+Approved
+  ↓
+Executed
+  ↓
+Active
+  ↓
+  ├─ Modified
+  ├─ Converted
+  ├─ Completed
+  └─ Terminated
+```
+
+Every transition requires:
+
+* Authority check
+* Accounting entry
+* IP confirmation
+
+---
+
+## 3.4 Portfolio Schema (OVCS / EFEO)
+
+```
+Portfolio {
+  Portfolio_ID
+  Owner_Entity
+  Holdings[]
+  Risk_Band
+  Time_Horizon
+  Authority_Limits
+}
+```
+
+Holdings may include:
+
+* Equity
+* IP licenses
+* Notes
+* Revenue shares
+* Strategic kernels
+
+---
+
+# 4. Cross-OS Authority Maps
+
+*(Critical — prevents silent capture)*
+
+## 4.1 Macro Authority Stack
+
+```
+Person (Sovereign)
+   │
+Personal Office (NPO)
+   │
+Federation OS Layer
+   │
+Platform / Venture OS
+   │
+Operational Teams
+```
+
+Authority only flows **downward**.
+
+---
+
+## 4.2 OS-Level Authority Domains
+
+| Domain              | Authority Holder   |
+| ------------------- | ------------------ |
+| Personal Time       | Person             |
+| IP Origination      | NPO                |
+| Kernel Definition   | NPO                |
+| Capital Allocation  | OVCS / EFEO        |
+| Venture Operations  | Venture Co         |
+| Federation Doctrine | Federation Council |
+| OS Evolution        | Platform Steward   |
+
+---
+
+## 4.3 NPO ↔ OVCS Authority Boundary
+
+```
+NPO:
+  - Architecture
+  - Kernel scope
+  - IP licensing terms
+
+OVCS:
+  - Capital deployment
+  - Scaling strategy
+  - Portfolio construction
+```
+
+No mutual override.
+
+---
+
+## 4.4 EFEO ↔ Member Office Authority
+
+```
+EFEO:
+  - Capital boundaries
+  - Fiduciary compliance
+
+Member Office (NPO):
+  - Use of funds
+  - Operational decisions
+  - IP ownership
+```
+
+EFEO **cannot direct work**.
+
+---
+
+## 4.5 Authority Violation Triggers (Auto-Fail)
+
+Any of the following trigger immediate review:
+
+* Implied labor without contract
+* IP use outside licensed scope
+* Capital control without governance right
+* Emergency overrides becoming permanent
+
+---
+
+# 5. Why This Matters
+
+This structure ensures:
+
+* No invisible subsidies
+* No authority inversion
+* No IP leakage
+* No cognitive exploitation
+* No accounting ambiguity
+
+It is **anti-fragile institutional design**.
+
+---
+
+## If you want next, I can generate:
+
+* Capital risk heatmaps across all entities
+* Instrument-specific deal state machines (equity, license, royalty, note)
+* Full OVCS fund admin & accounting mappings
+* Machine-readable schemas (JSON / YAML)
+* Legal language versions of all authority rules
+
+Just tell me the next layer.
 
 ---
 
@@ -32683,8 +33371,6 @@ mande
 batwa
 
 ---
-
-
 
 
 We’ve reached **completion** of the full requested sequence:

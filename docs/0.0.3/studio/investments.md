@@ -22822,3 +22822,4 @@ Each artifact should be:
 ---
 
 If you want, I can **generate fully-drafted templates** for any or all of these artifacts — just specify which ones and I’ll produce them.
+

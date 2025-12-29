@@ -48,7 +48,7 @@ ashe cycle:
         6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
 
     pamoja federation coop(s):
-        ubuntuwa Commons
+        ubuntuwa Commons coops
             - Ubuntuwa-NDAA
             - Ubuntuwa-KUMBU
             - Ubuntuwa-KANYE
@@ -56,39 +56,56 @@ ashe cycle:
             - Ubuntuwa-MOYO
             - Ubuntuwa-UMOYA
             - Ubuntuwa-KANO
-        moyo collective
-        bahari network
-        ubunye engineering group (DESEF dominic eaton systems engineering firm)
-        umoya society
-        obatala venture capital studios OVCS+studios
-        kumba metafactory franchise
-        12 ventures + 7 platforms + projects:
-            nandi mobility company
+        moyo collective coop
+        bahari network coop
+        ubunye engineering group cop (a.k.a. DESEF dominic eaton systems engineering firm)
+        umoya society coop
+        obatala venture capital studios coop OVCS+studios
+        kumba metafactory franchise coop
+        12 ventures coops + 7 platforms + projects:
+            nandi mobility company coop
                 nandi mobility+intelligent transportation/infrastructure OS solution platform
-            wolof.io independent worker economy management firm
+            wolof.io independent worker economy management firm coop
                 kogi independent worker economy OS solution platform
-            dogon manufacturing company
+            dogon manufacturing company coop
                 imewe digital fabrication system OS solution platform
-            azande software agency
+            azande software agency coop
                 qala software factory OS solution platform
-            lomwe systems engineering firm
+            lomwe systems engineering firm coop
                 oru simulation development kit OS solution platform
-            damara enterprise engineering firm
+            damara enterprise engineering firm coop
                 ume general purpose organization/business/enterprise/entity OS solution platform
-            niguvu corporation
+            niguvu corporation coop
                 sambara AI OS solution platform
-            san environmental and civilization engineering firm
-            massai media group
-            mande investment group
+            san environmental and civilization engineering firm coop
+            massai media group coop
+            mande investment group coop
+                venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
                 investment funds+portfolios
-                real estate
+                real estate, easements
                 stocks/equity/bonds/debts/assets/capital
-                estate+wealth+offices management
-            batwa foundation urban community development centers franchise
-            songhai institue of systemics and systemology
+                estate+wealth+offices+portfolio+investment management
+            batwa foundation urban community development centers franchise coop
+                Maafa Reparations Fund (Restricted Trust)
+                Takiya Fund (Victims & Families Trust)
+                Freedman’s credit union Federation (Member-Owned)
+                Batwa urban Community Development Trust
+                Community Land Trust (CLT)
+                Cooperative Holding Co-op
+                Program NPOs
+                    Nama network of communes, collective/communal housing franhise program
+                    Aka greenspaces and mass subboreal forestation and repair program
+                    Zulu financial literacy program
+                    khoi urban community education, training and work program
+                    ndebele maafa and BLM memorials program
+                    shona urban community development governance program
+                    mizizi urban platform OS co-op program
+            songhai institue of systemics and systemology coop
                 the mungu project
                 the meridian project
                 systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
+                programming and research: complex systems, systems theory, complex adaptive/autonomous systems
+                research labs, training facilities, centers/academics/schools/colleges
 
     estates and offices:
         The Eaton Family Estate and Offices coop:

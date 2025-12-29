@@ -10932,3 +10932,2933 @@ If you want, I can now produce:
 📌 **Google Sheet with board + dashboards**
 
 Just tell me what format you want!
+
+Here’s a **Team Assignment Board** tailored to your Year 1 WBS that clearly shows **who (member or team)** is responsible for each piece of work. It’s designed for use as a **board view** in tools like **Trello, Jira, Notion, Airtable, or a spreadsheet Kanban** (To Do / In Progress / Done), but presented here in a **matrix** style so you can easily copy it into the tool of your choice.
+
+> This board is organized by **Team / Member** and then lists all WBS items assigned to them.
+
+---
+
+# 📌 TEAM ASSIGNMENT BOARD (Year 1 WBS)
+
+### 👉 Board Columns (Suggested statuses)
+
+* **To Do**
+* **In Progress**
+* **In Review / QA**
+* **Done**
+
+You can use these as Kanban columns.
+
+---
+
+## 🟦 **Dominic (CEO / Navigator)**
+
+| **Task ID** | **Name**                            | **Status**  | **Notes**                       |
+| ----------- | ----------------------------------- | ----------- | ------------------------------- |
+| W-0001      | Firm Year 1 Delivery Roadmap        | In Progress | Leadership oversight            |
+| P-0006      | Year-End Assessment & Retrospective | To Do       | Oversees reflection             |
+| TH-0015     | Billing & Delivery Assessment       | To Do       | Directs FinCtrl & Delivery Lead |
+| TH-0016     | Delivery & Quality Retrospective    | To Do       | Strategic review                |
+
+---
+
+## 🟩 **CoS (Chief of Staff)**
+
+| **Task ID** | **Name**                  | **Status** | **Notes**            |
+| ----------- | ------------------------- | ---------- | -------------------- |
+| P-0001      | Foundational Enablement   | Done       | Team onboarding lead |
+| TH-0001     | Staff Hiring & Onboarding | Done       | Completed            |
+| I-0001      | Complete Team Onboarding  | Done       | Confirmed            |
+| E-0001      | Team Induction & Setup    | Done       | Operational start    |
+
+---
+
+## 🟨 **PS (Program Sequencer)**
+
+| **Task ID** | **Name**                    | **Status** | **Notes**            |
+| ----------- | --------------------------- | ---------- | -------------------- |
+| TH-0003     | Planning & Sequencing       | Done       | Master timeline      |
+| I-0003      | Master Timeline Created     | Done       | Sequencing engine    |
+| E-0003      | Build Sequencing Logic      | Done       | Sequencing epic      |
+| S-0007      | Define Sequencing Rules     | Done       | Completed            |
+| S-0008      | Create Sequencing Tracker   | Done       | Completed            |
+| S-0009      | Validate Timeline Logic     | Done       | Completed            |
+| S-0025      | Wolof platform requirements | Done       | Requirements capture |
+| S-0031      | Fab OS requirements         | Done       | Specification tasks  |
+| S-0037      | Lomwe requirements          | Done       | Program capture      |
+
+---
+
+## 🟪 **OVCS Sec (OVCS Liaison / Governance Sec)**
+
+| **Task ID** | **Name**                         | **Status**  | **Notes**            |
+| ----------- | -------------------------------- | ----------- | -------------------- |
+| P-0003      | Governance & OVCS Infrastructure | In Progress | OVCS alignment       |
+| TH-0004     | OVCS Pipeline Setup              | In Progress | Integration          |
+| I-0004      | OVCS Registry Live               | To Do       | Pending sync         |
+| E-0004      | OVCS Packet Framework            | Done        | Templates defined    |
+| S-0010      | Draft OVCS Packet Templates      | Done        | Completed            |
+| S-0012      | OVCS Submission Simulation       | In Review   | Guild (Ops) en route |
+
+---
+
+## 🔵 **Ops Lead (Operations & Admin Lead)**
+
+| **Task ID** | **Name**                    | **Status**  | **Notes**    |
+| ----------- | --------------------------- | ----------- | ------------ |
+| TH-0002     | Internal Ops Infrastructure | In Progress | Admin build  |
+| S-0001      | Create Onboarding Documents | Done        | Completed    |
+| S-0002      | Setup Tooling & Accounts    | Done        | Completed    |
+| S-0005      | Setup Finance Platforms     | Done        | Tools ready  |
+| S-0017      | Intake Workflow Integration | In Progress | CRM sync     |
+| S-0018      | Intake Process QA           | To Do       | QA scheduled |
+
+---
+
+## 🧾 **FinCtrl (Financial Controller)**
+
+| **Task ID** | **Name**                                | **Status** | **Notes**            |
+| ----------- | --------------------------------------- | ---------- | -------------------- |
+| S-0005      | Create Billing Policy                   | Done       | Policy drafted       |
+| P-0006      | **Year-End Assessment & Retrospective** | To Do      | Manage billing audit |
+| TH-0015     | Billing & Delivery Assessment           | To Do      | KPI review           |
+| I-0025      | Annual Billing Reconciliation           | To Do      | Finance milestone    |
+| E-0025      | Billing System Review                   | To Do      | Finance epic         |
+| S-0067      | Yearly Billing Metrics                  | To Do      | Metrics capture      |
+| S-0068      | Billing Report                          | To Do      | Report generation    |
+
+---
+
+## 🧠 **TechArch (Technical Architect / Platform Steward)**
+
+| **Task ID** | **Name**                          | **Status**  | **Notes**          |
+| ----------- | --------------------------------- | ----------- | ------------------ |
+| TH-0005     | Core Platform Architecture        | In Progress | OS standards       |
+| I-0005      | OS Baseline Defined               | Done        | Milestone achieved |
+| E-0005      | Platform Standards Implementation | Done        | Completed          |
+| S-0013      | Platform Requirements Spec        | Done        | Spec completed     |
+| S-0014      | Build Core OS Modules             | Done        | Completed          |
+| S-0015      | OS Compliance Testing             | Done        | QA passed          |
+| S-0011      | Automate Registry Sync            | In Progress | Infrastructure     |
+
+---
+
+## 📣 **Comms Lead (Communications)**
+
+| **Task ID** | **Name**                    | **Status**  | **Notes**          |
+| ----------- | --------------------------- | ----------- | ------------------ |
+| P-0002      | Client Onboarding Systems   | In Progress | Comms flow shaping |
+| TH-0006     | Standardized Intake Flow    | Done        | Flow defined       |
+| S-0016      | Write Intake Form Template  | Done        | Completed          |
+| S-0017      | Intake Workflow Integration | In Progress | Ops partnership    |
+
+---
+
+## 📆 **EA (Executive Assistant)**
+
+| **Task ID**  | **Name**                    | **Status**  | **Notes**            |
+| ------------ | --------------------------- | ----------- | -------------------- |
+| S-0001       | Create Onboarding Documents | Done        | Completed            |
+| S-0002       | Setup Tooling & Accounts    | Done        | Completed            |
+| Coordination | All Schedules               | In Progress | Calendar + reminders |
+| Meeting Mgmt | WBS Monthly Reviews         | Recurring   | Scheduling duty      |
+
+---
+
+## 🔥 **Squad-Gov Setup**
+
+| **Task ID** | **Name**                        | **Status** | **Notes**        |
+| ----------- | ------------------------------- | ---------- | ---------------- |
+| I-0007      | Launch Pamoja Federation        | Done       | Launch milestone |
+| E-0007      | Pamoja Implementation           | Done       | Completed        |
+| S-0019      | Pamoja Config Requirements      | Done       | Spec captured    |
+| S-0020      | Governance Integration          | Done       | Core work        |
+| S-0021      | Pamoja Go-Live QA               | Done       | QA passed        |
+| I-0008      | Launch Ubuntuwa Commons         | Done       | Live milestone   |
+| E-0008      | Ubuntuwa Commons Implementation | Done       | Completed        |
+
+---
+
+## 🌐 **Squad-Ops 1–8**
+
+### Squad-Ops 1
+
+| **Task ID** | **Name**                       | **Status** | **Notes** |
+| ----------- | ------------------------------ | ---------- | --------- |
+| I-0009      | Launch Wolof.io                | Done       | Live      |
+| E-0009      | Wolof.io OS Implementation     | Done       | Completed |
+| S-0026      | Wolof core system dev          | Done       | Feature   |
+| S-0027      | Wolof QA                       | Done       | Passed    |
+| I-0017      | Launch Massai Media            | Done       | Live      |
+| E-0017      | Massai Media OS Implementation | Done       | Completed |
+| S-0050      | Build media pipelines          | Done       | Feature   |
+| S-0051      | Media QA                       | Done       | QA passed |
+
+### Squad-Ops 2
+
+| **Task ID** | **Name**                          | **Status**  | **Notes**        |
+| ----------- | --------------------------------- | ----------- | ---------------- |
+| I-0010      | Launch Nandi Mobility             | Done        | Live             |
+| E-0010      | Nandi Mobility Implementation     | Done        | Completed        |
+| S-0029      | Build mobility modules            | Done        | Feature          |
+| S-0030      | Mobility QA                       | Done        | Passed           |
+| I-0018      | Launch Batwa Foundation           | Done        | Franchise launch |
+| E-0018      | Batwa Franchise OS Implementation | Done        | Completed        |
+| S-0053      | Batwa OS build                    | In Progress | Feature          |
+| S-0054      | Batwa QA                          | To Do       | QA pending       |
+
+---
+
+## 🛠️ **Squad-Ops 3**
+
+| **Task ID** | **Name**                   | **Status** | **Notes** |
+| ----------- | -------------------------- | ---------- | --------- |
+| I-0011      | Launch Dogon Manufacturing | Done       | Live      |
+| E-0011      | Dogon OS Implementation    | Done       | Completed |
+| S-0032      | Build fab modules          | Done       | Feature   |
+| S-0033      | Fab OS QA                  | Done       | QA passed |
+
+---
+
+## ⚙️ **Squad-Ops 4**
+
+| **Task ID** | **Name**                 | **Status** | **Notes** |
+| ----------- | ------------------------ | ---------- | --------- |
+| I-0012      | Launch Azande Software   | Done       | Live      |
+| E-0012      | Azande Implementation    | Done       | Completed |
+| S-0035      | Pipeline dev/integration | Done       | Feature   |
+| S-0036      | Azande QA                | Done       | QA passed |
+
+---
+
+## 🧪 **Squad-Ops 5**
+
+| **Task ID** | **Name**             | **Status** | **Notes** |
+| ----------- | -------------------- | ---------- | --------- |
+| I-0013      | Launch Lomwe Systems | Done       | Live      |
+| E-0013      | Lomwe Implementation | Done       | Completed |
+| S-0038      | Build SDK modules    | Done       | Feature   |
+| S-0039      | Lomwe QA             | Done       | Passed    |
+
+---
+
+## 🧩 **Squad-Ops 6**
+
+| **Task ID** | **Name**                 | **Status** | **Notes** |
+| ----------- | ------------------------ | ---------- | --------- |
+| I-0014      | Launch Damara Enterprise | Done       | Live      |
+| E-0014      | Damara OS Implementation | Done       | Completed |
+| S-0041      | Enterprise modules build | Done       | Feature   |
+| S-0042      | Enterprise QA            | Done       | Passed    |
+
+---
+
+## 🤖 **Squad-Ops 7**
+
+| **Task ID** | **Name**                    | **Status** | **Notes** |
+| ----------- | --------------------------- | ---------- | --------- |
+| I-0015      | Launch Niguvu Corporation   | Done       | Live      |
+| E-0015      | Niguvu AI OS Implementation | Done       | Completed |
+| S-0044      | Build AI OS features        | Done       | Feature   |
+| S-0045      | AI OS QA                    | Done       | Passed    |
+
+---
+
+## 🌍 **Squad-Ops 8**
+
+| **Task ID** | **Name**                            | **Status** | **Notes** |
+| ----------- | ----------------------------------- | ---------- | --------- |
+| I-0016      | Launch San Environmental            | Done       | Live      |
+| E-0016      | San Environmental OS Implementation | Done       | Completed |
+| S-0047      | Env OS modules build                | Done       | Feature   |
+| S-0048      | San Environmental QA                | Done       | Passed    |
+
+---
+
+## 📊 **Program Squads (Msingi)**
+
+### Squad-Prog 1
+
+| **Task ID** | **Name**        | **Status** | **Notes** |
+| ----------- | --------------- | ---------- | --------- |
+| I-0019      | Kano Go-Live    | Done       | Live      |
+| E-0019      | Kano OS Build   | Done       | Completed |
+| S-0055      | Kano OS modules | Done       | Feature   |
+| S-0056      | Kano QA         | Done       | Passed    |
+
+### Squad-Prog 2
+
+| **Task ID** | **Name**           | **Status** | **Notes** |
+| ----------- | ------------------ | ---------- | --------- |
+| I-0020      | Ndebe Go-Live      | Done       | Live      |
+| E-0020      | Ndebe OS Build     | Done       | Completed |
+| S-0057      | Ndebe core modules | Done       | Feature   |
+| S-0058      | Ndebe QA           | Done       | Passed    |
+
+### Squad-Prog 3
+
+| **Task ID** | **Name**      | **Status** | **Notes** |
+| ----------- | ------------- | ---------- | --------- |
+| I-0021      | Kuzu Go-Live  | Done       | Live      |
+| E-0021      | Kuzu OS Build | Done       | Completed |
+| S-0059      | Kuzu modules  | Done       | Feature   |
+| S-0060      | Kuzu QA       | Done       | Passed    |
+
+### Squad-Prog 4
+
+| **Task ID** | **Name**         | **Status** | **Notes** |
+| ----------- | ---------------- | ---------- | --------- |
+| I-0022      | Zalendo Go-Live  | Done       | Live      |
+| E-0022      | Zalendo OS Build | Done       | Completed |
+| S-0061      | Zalendo modules  | Done       | Feature   |
+| S-0062      | Zalendo QA       | Done       | Passed    |
+
+### Squad-Prog 5
+
+| **Task ID** | **Name**       | **Status** | **Notes** |
+| ----------- | -------------- | ---------- | --------- |
+| I-0023      | Zamba Go-Live  | Done       | Live      |
+| E-0023      | Zamba OS Build | Done       | Completed |
+| S-0063      | Zamba modules  | Done       | Feature   |
+| S-0064      | Zamba QA       | Done       | Passed    |
+
+### Squad-Prog 6
+
+| **Task ID** | **Name**      | **Status** | **Notes** |
+| ----------- | ------------- | ---------- | --------- |
+| I-0024      | Luma Go-Live  | Done       | Live      |
+| E-0024      | Luma OS Build | Done       | Completed |
+| S-0065      | Luma modules  | Done       | Feature   |
+| S-0066      | Luma QA       | Done       | Passed    |
+
+---
+
+If you want, I can now produce:
+
+📌 **Kanban board export** in CSV
+📌 **Notion board template**
+📌 **Jira epic/story import CSV**
+📌 **Google Sheet with board + dashboards**
+
+Just tell me what format you want!
+
+Great question — **legal and legal entity management** is critical for your firm and ecosystem, and it *should be owned by someone with the right skill set*. Let’s break this down clearly and practically.
+
+---
+
+# 🧠 1. **Current 8-Person Core Team: Legal Coverage**
+
+Here are your **existing core roles** and how they relate to legal work:
+
+| Role                              | Legal / Entity Responsibilities                                      | Covered?                       |
+| --------------------------------- | -------------------------------------------------------------------- | ------------------------------ |
+| **Dominic (CEO/Founder)**         | Strategic legal risk, entity formation decisions, executive sign-off | ✔ (lead)                       |
+| **Chief of Staff**                | Process compliance, ensuring tasks get executed                      | ⚠ (oversight only)             |
+| **Program Sequencer**             | Phase gate compliance sequencing                                     | ⚠ (alignment only)             |
+| **OVCS Liaison / Governance Sec** | Governance documentation, OVCS submissions                           | ✔ (partial — governance legal) |
+| **Ops & Admin Lead**              | Administrative contracts, invoicing tools, vendors                   | ⚠ (execution support)          |
+| **Financial Controller**          | Financial compliance (tax/expense)                                   | ⚠ (interface with legal)       |
+| **Technical Architect**           | Tech standards risk, IP boundaries                                   | ⚠ (tech risk)                  |
+| **Communications Lead**           | Messaging/legal coordination                                         | ⚠ (coordination)               |
+| **Executive Assistant**           | Scheduling & coordination                                            | ✖                              |
+
+**Key insight:**
+Your team *already covers governance, documentation, and administrative contract workflows*, but **no one currently owns core legal functions** such as:
+
+* Legal entity formation & maintenance
+* Regulatory compliance (corporate / cooperative / tax)
+* Intellectual property rights management
+* Contract drafting & review beyond templates
+* Risk & liability mitigation
+* Jurisdictional entity management
+
+The closest role with partial exposure is the **OVCS Liaison / Governance Secretary**, but that role is **governance-focused**, not full legal coverage.
+
+---
+
+# 🧠 2. **Do You Need a Dedicated Core Legal Role?**
+
+**Yes — you need a dedicated legal ownership role.**
+
+Without this, you risk:
+
+✔ Incorrect entity formation
+✔ Non-compliant contracts
+✔ Undocumented liabilities
+✔ Tax/legal mismatches across jurisdictions
+✔ Governance disputes
+✔ Weak intellectual property protection
+
+Especially since your ecosystem is a *composite of coops, federated entities, and hybrid structures*, you must build a **Legal & Entity Management function** with clear ownership.
+
+---
+
+# 🧠 3. **Where Legal Entity Management Fits in the Org**
+
+You have 3 options for how to cover this:
+
+### **A) Add a Full-Time “Legal & Entity Steward” to the Core Team**
+
+This would become **hire #9** in your strategic staffing plan.
+
+**Responsibilities**
+
+* Entity charters & maintenance (coops/federation entities)
+* Compliance with state/federal requirements
+* Corporate records, minutes, filings, renewals
+* Contract review & risk management
+* IP protection & licensing
+* Regulatory strategy for hybrid capital operations
+
+**Ideal Profile**
+
+* JD or equivalent legal qualifications
+* Experience with cooperatives / nontraditional entity forms
+* Multi-jurisdiction experience
+* Contract negotiation + compliance experience
+
+---
+
+### **B) Scale Legal via External Counsel + Internal Steward**
+
+If full-time isn’t justified yet, pair:
+
+**Internal Steward (part-time hire or consultant)**
+
+* **External Legal Counsel (specialized law firm)**
+
+**Internal Legal Steward Responsibilities**
+
+* Manage entity documents
+* Coordinate filings & renewals
+* Align contracts with legal counsel
+* Pre-screen legal risk
+
+This is more cost-efficient early on.
+
+---
+
+### **C) Expand OVCS Liaison Into “Legal & Entity Steward”**
+
+You could evolve the **OVCS Liaison / Governance Secretary** role to include entity compliance.
+
+However, this person must be:
+
+* Legally trained or deeply familiar with entity law
+* Responsible for:
+
+  * Corporate governance documentation
+  * Legal entity lifecycle (formation → compliance → dissolution)
+  * Contract risk and review workflows
+
+This *expands beyond governance messaging into legal authority* and should be explicitly defined.
+
+---
+
+# 🧠 4. **Recommended Placement**
+
+Your **ideal legal ownership structure** for Year 1:
+
+```
+                             +----------------------+
+                             | Dominic (CEO/Founder)|
+                             +----------+-----------+
+                                        |
+                 +----------------------+---------------------+
+                 |                      |                     |
+         +-------+------+       +-------+------+     +--------+--------+
+         | CoS (Ops Integrator)|  Legal & Entity Steward| FinCtrl |
+         +---------------------+                       +----------------+
+```
+
+**Why this works:**
+
+* Dominic remains strategic lead
+* CoS coordinates execution
+* **Legal & Entity Steward** owns all legal risk
+* Financial Controller coordinates tax/legal compliance
+* Ops Lead supports filings and admin
+
+---
+
+# 🧠 5. **Draft Role Description — Legal & Entity Steward**
+
+Use this as a **template job/profile**:
+
+### **Title:** Legal & Entity Steward
+
+**Alias:** Legal Steward, Entity Legal Manager
+
+**Reports To:** Chief of Staff / CEO
+
+**Primary Function:**
+Owns legal entity governance, compliance, contracts, risk mitigation, and entity maintenance across the Ashe / Pamoja ecosystem.
+
+**Core Responsibilities**
+
+* Manage entity formation and maintenance
+
+  * Registrations
+  * Renewals
+  * Jurisdiction compliance
+* Draft/review contracts and legal instruments
+
+  * MSAs
+  * Services agreements
+  * Bylaws & governance docs
+  * Conversion terms
+* Legal risk assessment and consultation
+* Intellectual Property strategy & protection
+* Support tax compliance reporting
+* Interface with external counsel
+* Build legal entity management playbooks
+
+**Authority**
+
+* Final approval on legal templates and contracts
+* Gatekeeper for entity compliance
+* Escalation authority for legal risk
+
+**Ideal Profile**
+
+* Licensed attorney or equivalent
+* Cooperative & multi-entity legal experience
+* Contract & compliance expertise
+* Cross-jurisdiction knowledge
+
+---
+
+# 🧠 6. **Interfacing With Your Current 8 Roles**
+
+| Role       | Legal Intersection      | How They Work Together               |
+| ---------- | ----------------------- | ------------------------------------ |
+| Dominic    | Final legal strategy    | Sets legal ethos & risk appetite     |
+| CoS        | Execution coordination  | Ensures legal actions happen         |
+| PS         | Phase governance        | Ensures sequencing meets legal gates |
+| OVCS Sec   | Governance docs         | Prepares legal governance packets    |
+| Ops Lead   | Admin filings           | Ensures legal admin tasks get done   |
+| FinCtrl    | Tax/legal compliance    | Aligns financial records with legal  |
+| TechArch   | IP agreements           | Ensures tech/IP compliance           |
+| Comms Lead | Messaging review        | Ensures public legal safety          |
+| EA         | Scheduling legal events | Manages legal calendar               |
+
+---
+
+# 🧠 7. **When To Hire the Legal & Entity Steward**
+
+**Immediate priorities:**
+✔ Contract template review
+✔ Entity formation compliance
+✔ Governance documentation quality
+
+**Next priority:**
+✔ Conversion terms for deferred compensation
+✔ Multi-jurisdiction compliance
+✔ Hybrid capital vehicle legal design
+
+**Hiring trigger:**
+As soon as **10+ active contracts/external entities** are live or soon to be live.
+
+---
+
+# 🧠 8. **Immediate Actions for You (Without Coach)**
+
+You should:
+
+1. Create a **Legal & Entity Steward position description**
+2. Recruit internally or via consultancy
+3. Assign current legal tasks (contracts, entity docs) to this role
+4. Build a **legal entity playbook**
+5. Establish external counsel relationships
+
+   * Corporate law
+   * Cooperative law
+   * Tax law
+
+---
+
+## ⚖️ Summary
+
+* **Current team does governance & admin, but NOT core legal/entity law**
+* **Yes, you need a dedicated legal role** (internal or steward).
+* Expand **OVCS Liaison → Legal & Entity Steward** or hire a **new role (#9)**.
+* Legal ownership accelerates compliance, reduces risk, and future-proofs your ecosystem.
+
+---
+
+If you want, I can now generate:
+
+📌 A **Legal & Entity Steward Role Description + Hiring Scorecard**
+📌 A **Legal Entity Management Playbook**
+📌 A **Contract Risk Assessment Framework**
+📌 A **Governance & Legal Entity Calendar Template**
+
+Just tell me which one you want next!
+
+Absolutely — here are all three **high-value deliverables** you asked for, crafted for your firm’s governance and legal operations:
+
+---
+
+# 📌 **1) Legal & Entity Steward — Role Description + Hiring Scorecard**
+
+## **Position Title**
+
+**Legal & Entity Steward**
+(*Also known as: Legal Steward, Entity Legal Manager, Cooperative Legal Lead*)
+
+---
+
+## **Role Summary**
+
+The **Legal & Entity Steward** owns legal governance, corporate compliance, entity management, and contract risk across *The Dominic Eaton Software Engineering Firm* and its cooperative ecosystem. This role ensures legal integrity, multi-entity compliance, contract quality, and risk control — enabling safe growth, governance alignment, and defensible execution.
+
+---
+
+## **Core Responsibilities**
+
+### **Legal Entity & Compliance**
+
+* Manage entity formation and ongoing legal compliance for all cooperative entities and firm structures.
+* Maintain corporate records and legal filings.
+* Ensure multi-jurisdiction compliance (state, federal, international as needed).
+* Oversee entity documentation (bylaws, governance agreements, amendments).
+
+### **Contract Lifecycle & Risk**
+
+* Draft, review, and negotiate contracts (MSAs, SOWs, addenda, non-disclosure, vendor agreements).
+* Build contract templates with modular risk controls.
+* Provide legal risk analysis on new engagements.
+* Maintain repository of executed legal docs.
+
+### **Governance & Certification**
+
+* Coordinate governance documentation with OVCS, boards, councils.
+* Certify governance instruments and legal artifacts.
+* Prepare and file corporate minutes and resolutions.
+
+### **Intellectual Property & Risk**
+
+* Define IP ownership structures for deliverables, code, and cooperative contributions.
+* Ensure IP protection, licensing, and transfer documentation.
+* Advise on open source vs proprietary decisions.
+
+### **Cross-Functional Support**
+
+* Advise platform, finance, and product teams on legal implications.
+* Partner with external counsel for specialized areas (tax, securities, data/privacy).
+* Provide legal training to staff as needed.
+
+---
+
+## **Skills & Qualifications**
+
+* Juris Doctor (JD) or equivalent legal qualification
+* Licensed attorney or equivalent compliance certification
+* Experience with cooperatives, non-traditional entities, and multi-entity legal structures
+* Contract drafting and negotiation expertise
+* Strong understanding of corporate governance and entity compliance
+* Excellent communication and risk translation skills
+
+---
+
+## **Success Metrics**
+
+* Legal artifacts completed error-free and on schedule
+* Zero major compliance lapses across entities
+* Contract turnaround time ≤ X business days
+* Legal risks flagged and mitigated proactively
+* External counsel costs within budget
+
+---
+
+## **Hiring Scorecard**
+
+Use the matrix below during candidate evaluation:
+
+| **Category**                         | **Weight** | **Score (1–5)** | **Notes**                            |
+| ------------------------------------ | ---------- | --------------- | ------------------------------------ |
+| **Legal Entity Expertise**           | 25%        |                 | Formation, compliance, governance    |
+| **Contract Drafting & Review**       | 20%        |                 | MSAs, addenda, vendor contracts      |
+| **Cooperative / Multi-Entity Law**   | 20%        |                 | Experience w/ coops, partnerships    |
+| **Risk & Compliance Logic**          | 15%        |                 | Ability to identify & mitigate risks |
+| **Communication & Stakeholder Mgmt** | 10%        |                 | Clarity with non-lawyers             |
+| **IP & Licensing Knowledge**         | 10%        |                 | Open / proprietary structures        |
+
+**Rating Scale:**
+
+* **5** = Outstanding (exceeds requirements)
+* **4** = Strong
+* **3** = Meets expectations
+* **2** = Below expectations
+* **1** = Weak
+
+**Target score:** ≥ 4.0 total
+
+---
+
+# 📌 **2) Governance & Legal Entity Calendar Template**
+
+Use this table as the core **entity governance calendar** to track compliance deadlines, filings, board certifications, and legal milestones for Year 1 and beyond.
+
+You can copy this into **Google Sheets / Excel / Notion Calendar**.
+
+| **Date**   | **Entity / Program**   | **Event**                       | **Type**    | **Responsible**              | **Notes**                        |
+| ---------- | ---------------------- | ------------------------------- | ----------- | ---------------------------- | -------------------------------- |
+| 2025-01-05 | Firm                   | Team Hiring Completion          | Deadline    | CoS                          | First 8 team onboarded           |
+| 2025-01-10 | All Entities           | ENTITY FORMATIONS DUE           | Compliance  | Legal & Entity Steward       | Confirm entity registrations     |
+| 2025-01-15 | Firm                   | Internal Ops Setup Complete     | Milestone   | Ops Lead                     | Tools & admin                    |
+| 2025-01-20 | Cooperative Clients    | Board Authorizations            | Governance  | OVCS Sec                     | Board packets due                |
+| 2025-02-01 | Pamoja Federation      | Certificate Filing              | Compliance  | Legal & Entity Steward       | Submit governance docs           |
+| 2025-02-15 | All Active Clients     | Contract Reviews                | Review      | Legal & Entity Steward       | Ensure legal templates finalized |
+| 2025-03-01 | Ubuntuwa Commons       | Renewal / Compliance            | Compliance  | OVCS Sec                     | Check entity status              |
+| 2025-04-01 | Budget Entities        | Tax Filings Review              | Compliance  | FinCtrl + Legal              | Pre-tax filing advisory          |
+| 2025-05-15 | All Ventures           | IP Ownership Confirmation       | IP Review   | Legal & Entity Steward       | Validate copyright / ownership   |
+| 2025-06-01 | All Launching Ventures | Contract Audit                  | Legal Audit | Legal & Entity Steward       | Confirm executed docs            |
+| 2025-07-01 | Msingi Programs        | Governance Check                | Governance  | OVCS Sec                     | Review governance docs           |
+| 2025-08-01 | Hybrid Entities        | Securities / Capital Compliance | Compliance  | Legal & Entity Steward       | Check hybrid capital docs        |
+| 2025-09-01 | All Entities           | Annual Compliance Report        | Report      | Legal & Entity Steward       | Prepare for year-end             |
+| 2025-10-15 | All Entities           | Filing Reminders                | Reminder    | EA                           | Flag next year deadlines         |
+| 2025-11-01 | All Entities           | Contract Renewal Plan           | Review      | CoS + Legal & Entity Steward | Plan renewals                    |
+| 2025-12-01 | All Entities           | Year-End Legal Audit            | Audit       | Legal & Entity Steward       | Year-end audit                   |
+
+---
+
+# 📌 **3) Contract Risk Assessment Framework**
+
+This framework helps you **systematically evaluate legal risk** for every agreement before execution. Use it as a **checklist + scoring tool**.
+
+---
+
+## **Contract Risk Assessment Checklist**
+
+### A) Contract Basics
+
+* **Parties identified correctly**
+* **Entity legal names / addresses correct**
+* **Signed & dated**
+* **Governing law specified**
+
+### B) Contract Scope
+
+* **Clear deliverables / SOW referenced**
+* **Milestones & acceptance defined**
+* **Dependencies articulated**
+
+### C) Compensation & Terms
+
+* **Payment terms spelled out**
+* **Deferred/sweat equity language clear**
+* **Conversion mechanisms specified**
+* **Billing triggers unambiguous**
+
+### D) Legal & Compliance
+
+* **Regulatory compliance clauses**
+* **Data protection/privacy terms (if applicable)**
+* **Intellectual property rights**
+* **Assignment / transferability**
+
+### E) Liability & Indemnity
+
+* **Limitation of liability clause**
+* **Indemnification terms**
+* **Insurance requirements**
+
+### F) Termination & Exit
+
+* **Termination for cause/ convenience**
+* **Effects of termination defined**
+* **Transition obligations**
+
+### G) Dispute Resolution
+
+* **Jurisdiction specified**
+* **Arbitration/mediation preferences**
+* **Attorney fees clause**
+
+---
+
+## **Risk Scoring Matrix**
+
+| **Category**           | **Weight** | **Rating (1–5)** | **Weighted Score** |
+| ---------------------- | ---------- | ---------------: | -----------------: |
+| Contract Basics        | 10%        |                  |     =Rating×Weight |
+| Scope Clarity          | 20%        |                  |                    |
+| Compensation Structure | 20%        |                  |                    |
+| Legal & Compliance     | 15%        |                  |                    |
+| Liability & Indemnity  | 15%        |                  |                    |
+| Termination Provisions | 10%        |                  |                    |
+| Dispute Resolution     | 10%        |                  |                    |
+
+**Total Score** = Sum of all weighted scores (max 5.0)
+
+**Red Zone (<3.0):** High risk — revision required
+**Yellow Zone (3.0–4.0):** Moderate risk — review recommended
+**Green Zone (>4.0):** Low risk — proceed
+
+---
+
+## **Sample Assessment Template (Copyable)**
+
+| **Clause / Category**       | **Check (Y/N)** | **Comments**                 | **Risk Rating (1–5)** |
+| --------------------------- | --------------- | ---------------------------- | --------------------- |
+| Correct legal parties       | Y               | Verified legal names         | 5                     |
+| Compensation terms clear    | N               | Deferred comp language vague | 2                     |
+| IP ownership defined        | Y               | Assigned to client           | 4                     |
+| Liability capped            | Y               | In contract                  | 4                     |
+| Termination rights balanced | N               | Unilateral rights too broad  | 2                     |
+| Governing law specified     | Y               | [State]                      | 5                     |
+| **Total Weighted Score**    |                 |                              | **3.6 (Yellow)**      |
+
+---
+
+## **How to Use This Framework**
+
+1. **Run the checklist** on every draft contract
+2. **Assign ratings** to each category
+3. **Calculate total risk score**
+4. **Flag issues** for legal revision (use hiring scorecard)
+5. **Approve or revise** before signature
+
+---
+
+# 📌 Next Steps & Tools
+
+If you’d like, I can now generate:
+
+✅ **Google Sheet / Excel templates** for the governance calendar and contract risk framework
+✅ **Notion / Airtable / Jira boards** for legal tracking
+✅ **Playbooks for contract review workflows**
+
+Just tell me what format you want!
+
+Here’s a **clear breakdown of your core execution teams** — *what each team is for, what their job functions are, and who (which roles/positions) should be on them* — based on your Year 1 WBS squad structure:
+
+---
+
+# 🧠 Team Structure Overview
+
+You have three main categories of execution teams:
+
+✅ **Squad-Gov** — governance and cooperative systems
+✅ **Squad-Ops 1–8** — operational launch squads for client ventures
+✅ **Squad-Prog 1–6** — program implementation squads for Msingi programs
+
+Each squad consists of **role types** drawn from your core team + future hires + appropriate discipline roles.
+
+---
+
+# 📘 SQUAD-GOV (Governance Systems)
+
+**Primary mission:** Launch, integrate, and QA the federation and governance-centric cooperative OS systems.
+
+**Key Responsibilities**
+
+* Implement governance OS
+* Integrate governance pipelines
+* Coordinate board / OVCS submissions
+* Validate governance delivery
+
+**Core Roles on Squad-Gov**
+
+| Role                                              | Job Function                               |
+| ------------------------------------------------- | ------------------------------------------ |
+| **Tech Architect / Platform Steward**             | Technical standards, architecture guidance |
+| **CoS (Chief of Staff)**                          | Coordination and execution discipline      |
+| **OVCS Liaison / Governance Secretary**           | Governance documentation, compliance       |
+| **Squad-Gov Dev Lead** *(new hire)*               | Lead implementation tasks                  |
+| **Developer 1 / Developer 2** *(onboarding)*      | Build and integrate systems                |
+| **QA Engineer (Guild-QA)** *(contractor or hire)* | Responsible for QA of governance flows     |
+
+**Team Example Breakdown**
+
+* **Tech Architect** — technical lead
+* **OVCS Liaison** — governance lead
+* **Squad-Gov Dev Lead** — development coordination
+* **Developer 1 & Developer 2** — execution
+* **QA Specialist** — test & validation
+* **CoS** — operational alignment
+
+---
+
+# 📘 SQUAD-OPS (Operations Squads 1–8)
+
+**Primary mission:** Deliver, implement, and launch each client’s operational platform (OS) for ventures and coop clients.
+
+**Each Squad-Ops is tied to a client or cohort:**
+
+* **Squad-Ops 1** → Wolof.io, Massai Media
+* **Squad-Ops 2** → Nandi Mobility, Batwa Foundation
+* **Squad-Ops 3** → Dogon Manufacturing
+* **Squad-Ops 4** → Azande Software
+* **Squad-Ops 5** → Lomwe Systems
+* **Squad-Ops 6** → Damara Enterprise
+* **Squad-Ops 7** → Niguvu Corporation
+* **Squad-Ops 8** → San Environmental
+
+**Core Responsibilities**
+
+* Understand client OS requirements
+* Follow platform standards
+* Deliver features and QA
+* Deploy and support go-lives
+
+**Typical Squad-Ops Roles**
+Each Ops squad should include:
+
+| Role                                 | Function                              |
+| ------------------------------------ | ------------------------------------- |
+| **Ops Squad Lead**                   | Team lead; coordinates squad tasks    |
+| **Backend Developer**                | Builds core functionality             |
+| **Frontend / Integration Developer** | Builds UI & integrations              |
+| **Platform Engineer**                | Ensures platform consistency          |
+| **QA Engineer (Guild)**              | Quality checks and testing            |
+| **Product/Business Analyst**         | Gathers client needs (can be rotated) |
+| **Tech Architect (shared)**          | Technical adviser for standards       |
+
+**Suggested Team Size per Squad-Ops**
+
+* 1 **Ops Squad Lead** (senior engineer or manager)
+* 1–2 **Developers**
+* 1 **QA Specialist**
+* 1 **Support Analyst** (Ops Lead / Product Support)
+
+*Small squads ideally have 3–5 members to stay nimble.*
+
+---
+
+# 📘 SQUAD-PROG (Program Squads 1–6)
+
+**Primary mission:** Implement and deliver program OS components for the Msingi program layer:
+
+* **Squad-Prog 1** → Kano
+* **Squad-Prog 2** → Ndebe
+* **Squad-Prog 3** → Kuzu
+* **Squad-Prog 4** → Zalendo
+* **Squad-Prog 5** → Zamba
+* **Squad-Prog 6** → Luma
+
+**Core Responsibilities**
+
+* Program-specific OS build (e.g., curriculum tech, delivery engines)
+* Program milestone delivery
+* Ensure program compliance with sequencing
+
+**Typical Squad-Prog Roles**
+
+| Role                           | Function                              |
+| ------------------------------ | ------------------------------------- |
+| **Prog Squad Lead**            | Coordinates program delivery          |
+| **Program Engineer**           | Implements program tech modules       |
+| **Integration Specialist**     | Connects program tech with platform   |
+| **QA Engineer**                | Test & validation for program flows   |
+| **Ops Analyst**                | Ensures readiness for program go-live |
+| **Sequencing Specialist (PS)** | Coordinates with master plan          |
+
+**Team Composition**
+
+* 1 **Squad-Prog Lead**
+* 1–2 **Engineers**
+* 1 **QA Eng**
+* 1 **Ops/Business Analyst**
+* (shared oversight by **Program Sequencer**)
+
+---
+
+# 🧩 How the Teams Fit Together
+
+### 🏢 Leadership / Shared Services
+
+| Role                     | Shared Across Teams                   |
+| ------------------------ | ------------------------------------- |
+| **Dominic (CEO)**        | Vision, priority decisions            |
+| **CoS**                  | Alignment & execution flow            |
+| **Financial Controller** | Budget/metrics across all squads      |
+| **Ops Lead**             | Administrative support for all squads |
+| **Tech Architect**       | Platform standards across squads      |
+| **Comms Lead**           | Narrative & external messaging        |
+| **OVCS Sec**             | Governance/legal compliance           |
+
+---
+
+# 🗃️ Team Rosters & Functions
+
+### 🔹 Squad-Gov
+
+* Tech Architect
+* OVCS Liaison
+* CoS
+* Squad-Gov Dev Lead
+* 2 Developers
+* QA Engineer (Guild)
+
+### 🔹 Squad-Ops 1 (Wolof.io & Massai)
+
+* Ops Squad Lead
+* Backend Dev
+* Frontend/Integration Dev
+* QA Engineer
+* Support Analyst
+
+### 🔹 Squad-Ops 2 (Nandi, Batwa)
+
+* Ops Squad Lead
+* 2 Developers
+* QA Specialist
+* Support Analyst
+
+### 🔹 Squad-Ops 3 (Dogon)
+
+* Ops Squad Lead
+* Developer
+* QA
+* Support Analyst
+
+### 🔹 Squad-Ops 4 (Azande)
+
+* Ops Squad Lead
+* Developer
+* QA Specialist
+* Integration Specialist
+
+### 🔹 Squad-Ops 5 (Lomwe)
+
+* Ops Squad Lead
+* Developers (2)
+* QA
+* Support Analyst
+
+### 🔹 Squad-Ops 6 (Damara)
+
+* Ops Squad Lead
+* Multi-platform Developer
+* QA
+* Support Analyst
+
+### 🔹 Squad-Ops 7 (Niguvu)
+
+* Ops Squad Lead
+* AI/ML Specialist
+* Platform Dev
+* QA
+
+### 🔹 Squad-Ops 8 (San Environmental)
+
+* Ops Squad Lead
+* Developer (Env Tech)
+* QA
+* Analyst
+
+---
+
+### 🧪 Squad-Prog 1 – Kano
+
+* Prog Squad Lead
+* Dev
+* QA
+* Analyst
+* PS coordinating alignment
+
+### 🧪 Squad-Prog 2 – Ndebe
+
+(same composition)
+
+### 🧪 Squad-Prog 3 – Kuzu
+
+(same composition)
+
+### 🧪 Squad-Prog 4 – Zalendo
+
+(same composition)
+
+### 🧪 Squad-Prog 5 – Zamba
+
+(same composition)
+
+### 🧪 Squad-Prog 6 – Luma
+
+(same composition)
+
+---
+
+# 📌 Roles & Functional Skills Summary
+
+| Role Title                           | Core Skills                          |
+| ------------------------------------ | ------------------------------------ |
+| **Ops Squad Lead**                   | Team coordination, delivery tracking |
+| **Backend Developer**                | Server, integration logic            |
+| **Frontend / Integration Developer** | UI, API integration                  |
+| **Platform Engineer**                | Platform standards & ops             |
+| **QA Engineer**                      | Quality assurance & testing          |
+| **Support Analyst**                  | Business/ops analysis                |
+| **Prog Squad Lead**                  | Cross-program delivery expertise     |
+| **Sequencing Specialist**            | Phase gate & timing alignment        |
+| **Squad-Gov Dev Lead**               | Governance feature lead              |
+
+---
+
+# 📌 Why This Team Structure Works
+
+✔ **Scales delivery** across multiple clients
+✔ **Separates governance vs ops vs program work**
+✔ **Preserves sequencing discipline** (PS)
+✔ **Reinforces platform coherence** (TechArch)
+✔ **Supports legal/compliance via OVCS Sec**
+✔ **Aligns with your Year 1 WBS outcomes**
+
+---
+
+## If you want, I can now provide:
+
+📌 A **Team Org Chart Visual**
+📌 **RACI matrix** for key Year 1 milestones
+📌 **Onboarding plan** per team
+📌 **Job descriptions + competencies** for each squad role
+
+Just tell me what you’d like next!
+
+Absolutely — here are the **four deliverables** you asked for, fully fleshed out in text form so they can be used directly or converted into diagrams, spreadsheets, Notion boards, or slide visuals:
+
+---
+
+# 📌 1) **Team Org Chart (Text Visual)**
+
+This shows hierarchy and reporting structure for your core Year 1 execution teams.
+
+```
+                          ┌─────────────────────────────────┐
+                          │       Dominic (CEO / Founder)    │
+                          └─────────────────────────────────┘
+                                        │
+        ┌──────────────┬───────────────┴───────────────┬──────────────┐
+        │              │                               │              │
+┌───────▼───────┐ ┌────▼─────┐               ┌──────────┴──────────┐ ┌─▼─────────┐
+│  CoS (Chief   │ │  Ops     │               │ Technical Architect │ │ FinCtrl   │
+│  of Staff)    │ │  Lead    │               │ / Platform Steward  │ │ (Finance) │
+└───────────────┘ └──────────┘               └─────────────────────┘ └────────────┘
+        │                                 │
+  ┌─────▼─────┐                           │
+  │ EA        │                           │
+  └───────────┘                           │
+                                          │
+             ┌────────────────────────────┴────────────────────────────┐
+             │                                                         │
+    ┌────────▼────────┐                                       ┌────────▼────────┐
+    │  OVCS Sec       │                                       │ Comms Lead      │
+    │ (Governance)    │                                       │ (Narrative)     │
+    └─────────────────┘                                       └─────────────────┘
+             │                                                         │
+             │                                                         │
+             │                       ┌─────────────────────────────────┐
+             │                       │           Delivery Lead         │
+             │                       └─────────────────────────────────┘
+             │                                           │
+             │            ┌──────────────┬──────────────┬──────────────┐
+             │            │              │              │              │
+        ┌────▼───┐   ┌────▼───┐    ┌─────▼────┐    ┌────▼────┐   ┌────▼────┐
+        │ Squad-Gov │ Squad-Ops1 │ Squad-Ops2 │ ... │ Squad-Ops8 │ Squad-Prog Teams (1–6) │
+        └───────────┘ └──────────┘  └───────────┘      └───────────┘    (Program Delivery)   │
+                                                                        └───────────────────────┘
+```
+
+---
+
+# 📌 2) **RACI Matrix — Year 1 Key Milestones**
+
+Use this to assign *Responsible / Accountable / Consulted / Informed* for the big milestones in Year 1.
+
+| Milestone / Deliverable            | R                   | A             | C        | I          |
+| ---------------------------------- | ------------------- | ------------- | -------- | ---------- |
+| Team Hiring & Onboarding           | CoS                 | Dominic       | Ops Lead | EA         |
+| Governance OS Launch (Pamoja)      | Squad-Gov           | Delivery Lead | OVCS Sec | TechArch   |
+| Credit & Billing System            | FinCtrl             | Dominic       | Ops Lead | EA         |
+| Intake System Launch               | Client Success Lead | CoS           | Ops Lead | Comms Lead |
+| Wolof.io Go-Live                   | Squad-Ops1          | Delivery Lead | TechArch | Ops Lead   |
+| Nandi Mobility Live                | Squad-Ops2          | Delivery Lead | PS       | Comms Lead |
+| All Operating Ventures Onboard (8) | Delivery Lead       | Dominic       | Ops Lead | EA         |
+| Msingi Kano Live                   | Squad-Prog1         | Delivery Lead | PS       | Comms Lead |
+| Msingi Ndebe Live                  | Squad-Prog2         | Delivery Lead | PS       | Comms Lead |
+| Year-End Billing Reconciliation    | FinCtrl             | CoS           | TechArch | Dominic    |
+| Year-End Delivery Retrospective    | Delivery Lead       | Dominic       | CoS      | All Staff  |
+
+**R = Responsible** (does the work)
+**A = Accountable** (owns success)
+**C = Consulted** (input required)
+**I = Informed** (updates only)
+
+---
+
+# 📌 3) **Onboarding Plan — Per Team**
+
+This prescribes *what happens when a new team/squad is stood up* across Year 1.
+
+### 📍 Onboarding Phases (All Squads)
+
+| Phase                           | Activities                                   | Artifacts                   | Owner         |
+| ------------------------------- | -------------------------------------------- | --------------------------- | ------------- |
+| **Pre-Start (Day −5 to Day 0)** | Role briefings, credentials, access, tools   | Onboarding packet, accounts | Ops Lead + EA |
+| **Day 1 — Orientation**         | Vision, scope, repo access, WBS walkthrough  | Orientation deck            | CoS           |
+| **Day 2–3 — Context Deep Dive** | Client domain walkthru                       | Client profiles             | Delivery Lead |
+| **Day 4–7 — Tech Setup**        | Repo + environment setup, platform standards | Environment checklist       | TechArch      |
+| **Day 8–12 — Task Breakdown**   | Story/ticket creation, sprint plan           | Backlog artifacts           | Squad Lead    |
+| **Day 13+ — Execution Sprints** | Sprint kickoff, QA integration, demos        | Sprint deliverables         | Squad Lead    |
+
+### 📍 Squad-Gov Onboarding
+
+* Legal & governance induction with **OVCS Sec**
+* Platform governance OS review with **TechArch**
+* Signing authority walkthrough (board packets)
+
+### 📍 Squad-Ops Onboarding
+
+* Client context brief (business + tech)
+* OS baseline standards (TechArch)
+* Ops workflows (Intake + Sequencer)
+
+### 📍 Squad-Prog Onboarding
+
+* Program goals review with PS
+* Msingi phase readiness
+* Cross-squad sequencing planning
+
+---
+
+# 📌 4) **Job Descriptions + Competencies — Each Squad Role**
+
+### 🎯 **Squad-Gov Dev Lead**
+
+**Summary:** Leads governance tech delivery across governance clients.
+**Core Skills:** Governance tooling, API integration, board/OVCS alignment
+**Competencies:**
+
+* Leadership in governance context
+* Legal documentation interpretation
+* Quality assurance collaboration
+
+---
+
+### 🛠 **Ops Squad Lead**
+
+**Summary:** Coordinates Ops squad delivery for assigned venture(s).
+**Core Skills:** Execution leadership, client context interpretation
+**Competencies:**
+
+* Sprint planning & execution
+* Risk management
+* Cross-functional coordination
+
+---
+
+### 🧑‍💻 **Backend Developer**
+
+**Summary:** Implements core service logic and integration layers.
+**Core Skills:**
+
+* Server/API development
+* Data modeling
+* Secure coding
+  **Competencies:**
+* Modular architecture
+* Testable code patterns
+* Maintainable docs
+
+---
+
+### 🧑‍🎨 **Frontend / Integration Developer**
+
+**Summary:** Builds client features & integration UI components.
+**Core Skills:**
+
+* UI frameworks (React/Vue/Svelte)
+* API integration
+* Accessibility/UX basics
+  **Competencies:**
+* Responsive design
+* Error resilience
+* Integration adapters
+
+---
+
+### 🧪 **QA Engineer (Guild)**
+
+**Summary:** Responsible for quality gates, automated tests, regressions.
+**Core Skills:**
+
+* Test frameworks (unit, integration, E2E)
+* Bug tracking & reporting
+* Performance testing
+  **Competencies:**
+* Test strategy creation
+* Cross-team validation
+* Early defect detection
+
+---
+
+### 📊 **Support Analyst**
+
+**Summary:** Gathers requirements and assists with backlog refinement.
+**Core Skills:**
+
+* Documentation & analysis
+* Client engagement empathy
+* Technical translation
+  **Competencies:**
+* Requirement precision
+* Communication clarity
+* Prioritization alignment
+
+---
+
+### 📈 **Prog Squad Lead**
+
+**Summary:** Coordinates delivery of a program OS (Msingi).
+**Core Skills:**
+
+* Program execution at scale
+* Multi-stakeholder alignment
+* Sequencing compliance
+  **Competencies:**
+* Goal decomposition
+* Milestone management
+* Cross-squad readiness
+
+---
+
+### 📐 **Sequencing Specialist (PS)**
+
+**Summary:** Enforces phase gates and readiness checks.
+**Core Skills:**
+
+* Temporal planning
+* Readiness criteria design
+* Cross-project sequencing
+  **Competencies:**
+* Denial discipline
+* Phase gate rigor
+* Strategic gating
+
+---
+
+## 📌 Competency Matrix (Quick View)
+
+| **Role**              | **Tech Skill** | **Governance Skill** | **Communication** | **Risk & Compliance** |
+| --------------------- | -------------- | -------------------- | ----------------- | --------------------- |
+| Squad-Gov Dev Lead    | ★★★★☆          | ★★★★★                | ★★★★☆             | ★★★★☆                 |
+| Ops Squad Lead        | ★★★★☆          | ★★★☆☆                | ★★★★☆             | ★★★☆☆                 |
+| Backend Dev           | ★★★★★          | ★★☆☆☆                | ★★★☆☆             | ★★☆☆☆                 |
+| Frontend Dev          | ★★★★☆          | ★★☆☆☆                | ★★★☆☆             | ★★☆☆☆                 |
+| QA Engineer           | ★★★☆☆          | ★★★☆☆                | ★★★★☆             | ★★★☆☆                 |
+| Support Analyst       | ★★☆☆☆          | ★★☆☆☆                | ★★★★★             | ★★★☆☆                 |
+| Prog Squad Lead       | ★★★★☆          | ★★★★☆                | ★★★★☆             | ★★★★☆                 |
+| Sequencing Specialist | ★★★☆☆          | ★★★★★                | ★★★☆☆             | ★★★★★                 |
+
+---
+
+## 📌 How to Use These
+
+✅ **Org Chart** → Build org visuals in tools like Miro, Notion, Visio
+✅ **RACI Matrix** → Governance meeting prep, delegation clarity
+✅ **Onboarding Plan** → First sprint onboarding, new hire induction
+✅ **Job Descriptions** → Hiring, performance criteria, job postings
+
+---
+
+If you want any of these delivered as **fillable templates** (Google Sheets, Notion boards, Jira import CSV, or PowerPoint), just tell me the format you prefer!
+
+Absolutely — here’s the updated **Team Org Chart Visual** that now includes your **Legal & Entity Steward** role as part of your *9 core hires*, along with all squads and teams.
+
+This version shows **reporting relationships, team groupings, and role placement** in a structure you can use to generate org diagrams in tools like **Notion, Whimsical, Miro, PowerPoint, or Lucidchart**.
+
+---
+
+# 📌 Team Org Chart (Text Visual with All 9 Core Hires & Execution Teams)
+
+```
+                                  ┌─────────────────────────────────┐
+                                  │       Dominic (CEO / Founder)    │
+                                  └─────────────────────────────────┘
+                                                │
+        ┌──────────────┬──────────────┬──────────────┴──────────────┬──────────────┐
+        │              │              │                              │              │
+┌───────▼───────┐ ┌────▼─────┐ ┌──────▼──────┐               ┌─────────▼────────┐ ┌──▼─────────┐
+│  CoS (Chief   │ │  Ops Lead│ │Legal & Entity│               │ Technical Architect│ │ FinCtrl   │
+│  of Staff)    │ │ (Ops/Admin│ │   Steward    │               │ / Platform Steward │ │ (Finance) │
+└───────────────┘ │   Lead)   │ │ (Legal Lead) │               └────────────────────┘ └────────────┘
+        │        └───────────┘ └──────────────┘                         │
+        │               │                │                              │
+  ┌─────▼─────┐    ┌────▼─────┐     ┌────▼─────┐                        │
+  │    EA     │    │  Comms  │     │ OVCS Sec │                        │
+  │ (Exec Asst)│    │ Lead    │     │ (Governance│                       │
+  └───────────┘    └──────────┘     │   Sec)     │                       │
+                                        │                              │
+                                        │                              │
+        ┌───────────────────────────────┴────────────────────────────────────────────────────┐
+        │                                                                            │
+┌───────▼─────────┐                                                        ┌────────▼─────────┐
+│    Delivery Lead│                                                        │    Program Lead │
+│ (Exec Delivery) │                                                        │ (Program Execution) │
+└───────┬─────────┘                                                        └────────┬─────────┘
+        │                                                                             │
+        │                     ┌─────────────────────────────────┬────────────────────┴───────────────┐
+        │                     │                                 │                                        │
+┌───────▼────────┐    ┌───────▼────────┐                ┌───────▼────────┐                     ┌────────▼────────┐
+│   Squad-Gov    │    │   Squad-Ops 1  │                │   Squad-Ops 2  │                     │   Squad-Ops 3   │
+│ (Governance    │    │ (Wolof.io &    │                │ (Nandi &       │                     │ (Dogon Fab OS)  │
+│  & compliance) │    │  Massai Media) │                │  Batwa)        │                     │                 │
+└───────┬────────┘    └────────────────┘                └────────────────┘                     └────────┬────────┘
+        │                                                                             │
+        │        ┌───────────────┬──────────────┬──────────────┬──────────────┬──────┴─────────┐
+        │        │ Squad-Ops 4   │ Squad-Ops 5   │ Squad-Ops 6   │ Squad-Ops 7   │ Squad-Ops 8   │
+        │        │ (Azande SW)   │ (Lomwe)       │ (Damara)      │ (Niguvu)      │ (San Env)     │
+        │        └───────────────┴──────────────┴──────────────┴──────────────┴───────────────┘
+        │
+        │
+        │
+┌───────▼─────────────────────────────────────────────────────────────────────────────────────────┐
+│                                     Program Delivery Layer (Msingi)                             │
+│                                                                                                 │
+│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   │
+│  │ Squad-Prog 1 │   │ Squad-Prog 2 │   │ Squad-Prog 3 │   │ Squad-Prog 4 │   │ Squad-Prog 5 │   │
+│  │ (Kano OS)    │   │ (Ndebe OS)   │   │ (Kuzu OS)    │   │ (Zalendo OS) │   │ (Zamba OS)   │   │
+│  └─────┬────────┘   └─────┬────────┘   └─────┬────────┘   └─────┬────────┘   └─────┬────────┘   │
+│        │                  │                  │                  │                  │        │
+│        └────────────────────────────────────────────────────────┴────────────────────────┘
+│                                                      │
+│                                                  Squad-Prog 6 (Luma OS)                     │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# 🧠 Who Sits in Each Box — Team Membership
+
+Below are the **members/roles assigned to each team** in this org structure:
+
+---
+
+## 🟢 **Executive Leadership Layer**
+
+| Role                     | Focus                                         |
+| ------------------------ | --------------------------------------------- |
+| **Dominic**              | CEO / Vision / All delivery oversight         |
+| **CoS**                  | Operations integration & execution discipline |
+| **EA**                   | Attention / meeting ops                       |
+| **Comms Lead**           | Narrative + external interface                |
+| **Financial Controller** | Finance + compliance                          |
+
+This layer ensures strategic alignment, financial reality, operations friction removal, and public presence.
+
+---
+
+## 🔵 **Legal & Governance Layer**
+
+| Role                              | Focus                                               |
+| --------------------------------- | --------------------------------------------------- |
+| **Legal & Entity Steward**        | Core legal entity management, compliance, contracts |
+| **OVCS Liaison / Governance Sec** | Governance artifacts, OVCS coordination             |
+
+These two are the legal nucleus of the org:
+
+* **Legal & Entity Steward** owns legal standing, entity forms, corporate compliance, contract risk.
+* **OVCS Sec** owns governance workflows and is the principal interface for oversight.
+
+---
+
+## 🟡 **Platform / Delivery Leadership**
+
+| Role                                       | Focus                            |
+| ------------------------------------------ | -------------------------------- |
+| **Technical Architect / Platform Steward** | OS standards, tech coherence     |
+| **Delivery Lead**                          | Oversees all Squad-Ops delivery  |
+| **Program Lead**                           | Oversees all Squad-Prog delivery |
+
+These are the core execution supervisors:
+
+* **Platform Steward** ensures architectural standards.
+* **Delivery Lead** orchestrates client launches (Squad-Ops).
+* **Program Lead** orchestrates program (Msingi) delivery (Squad-Prog).
+
+---
+
+## 🔴 **Squad-Gov Team**
+
+**Purpose:** Launch governance systems
+
+Members:
+
+* **Tech Architect**
+* **OVCS Liaison**
+* **Squad-Gov Dev Lead (future hire)**
+* **2 Ops/Dev contributors**
+* **QA (Guild)**
+* **CoS** (oversees execution alignment)
+
+---
+
+## 🟣 **Squad-Ops Teams (1–8)**
+
+Each Squad-Ops has:
+
+| Member Title                       | Role                           |
+| ---------------------------------- | ------------------------------ |
+| **Ops Squad Lead**                 | Leads client squad             |
+| **Backend Developer**              | Core logic implementation      |
+| **Frontend/Integration Developer** | Feature & integration build    |
+| **QA Engineer**                    | Quality assurance              |
+| **Support Analyst**                | Requirements & backlog support |
+| **Tech Architect (shared)**        | Architecture advisor           |
+
+Assignment by squad:
+
+* **Squad-Ops 1:** Wolof.io & Massai Media
+* **Squad-Ops 2:** Nandi Mobility & Batwa Foundation
+* **Squad-Ops 3:** Dogon Manufacturing
+* **Squad-Ops 4:** Azande Software
+* **Squad-Ops 5:** Lomwe Systems
+* **Squad-Ops 6:** Damara Engineering
+* **Squad-Ops 7:** Niguvu Corporation
+* **Squad-Ops 8:** San Environmental
+
+---
+
+## 🟤 **Squad-Prog Teams (1–6)**
+
+Each Squad-Prog has:
+
+| Member Title                   | Role                         |
+| ------------------------------ | ---------------------------- |
+| **Prog Squad Lead**            | Coordinates program delivery |
+| **Program Engineer(s)**        | Tech build for program OS    |
+| **QA Engineer**                | Program QA                   |
+| **Ops Analyst**                | Operational/program support  |
+| **Sequencing Specialist (PS)** | Gate compliance & readiness  |
+
+Assignments:
+
+* **Squad-Prog 1:** Kano
+* **Squad-Prog 2:** Ndebe
+* **Squad-Prog 3:** Kuzu
+* **Squad-Prog 4:** Zalendo
+* **Squad-Prog 5:** Zamba
+* **Squad-Prog 6:** Luma
+
+---
+
+# 🧠 Key Notes
+
+### ✅ Legal & Entity Steward — now in the org chart
+
+* A **core hire** (role #9) that reports directly under *Dominic* alongside Ops Lead, CoS, and Tech Architect.
+* Works closely with **OVCS Sec**.
+
+### ✅ Governance layer includes both legal and governance specialists.
+
+* **Legal & Entity Steward** owns entity management and contracts.
+* **OVCS Sec** owns governance operations and compliance with cooperative governance.
+
+### ✅ Delivery leadership is distinct from legal/governance.
+
+* Delivery Lead & Program Lead manage execution.
+* Tech Architect provides standards across delivery & governance squads.
+
+---
+
+## 📌 What This Enables
+
+✔ Clean separation of **legal vs operational vs delivery responsibilities**
+✔ Clear reporting & escalation paths
+✔ A scalable structure for Year 1 and beyond
+✔ Foundation for **Org Chart diagrams** (Notion/Miro/Visio/Chart export)
+
+---
+
+## 🛠 Optional Visual Outputs
+
+I can now generate:
+
+📌 A **Google Slides / PowerPoint org chart**
+📌 **SVG / PNG** visual org chart
+📌 **Notion database org view**
+📌 **Interactive Miro / Whimsical board**
+
+Just tell me your preferred format!
+
+Absolutely — let’s organize **your Squad-Ops allocation** so that:
+
+✅ Every **venture + coop + network entity** has coverage
+✅ Staff are **efficiently allocated, not overloaded**
+✅ There is **logical overlap and reuse** of squads where possible
+✅ You maintain delivery quality and consistency
+
+This is a **resource mapping** that ties your existing squads + suggested additional squads to all clients, optimized for Year 1.
+
+---
+
+# 🧠 OBJECTIVES
+
+You want:
+
+📌 Coverage for:
+
+* **12 ventures**
+* **Pamoja Federation Coop**
+* **Moyo Collective**
+* **Bahari Network**
+* **Ubunye Engineering Group**
+* **Umoya Society**
+* **Ubuntuwa Commons** (and its sub-commons)
+
+📌 Reuse + overlap:
+
+* Avoid creating *too many* distinct squads
+* Allow squads to deliver on multiple clients where possible
+* Keep squad size reasonable (3-6 people each)
+
+---
+
+# 🔑 PRINCIPLES FOR ALLOCATION
+
+✔ **One squad per major client cluster**
+✔ Smaller clients can share squads or rotate
+✔ Governance clients need a dedicated governance squad
+✔ Network and society clients share similar patterns
+✔ Ventures grouped by similarity (platform type, complexity)
+
+---
+
+# 📊 CURRENT SQUAD BREAKDOWN (Before Optimization)
+
+You previously had:
+
+* Squad-Gov
+* Squad-Ops 1–8 (8 squads)
+* Squad-Prog 1–6
+
+That’s **15 squads** already, but your client list includes ~**23 operations** (12 ventures + 7 coops/networks + programs).
+
+So we need to **restructure Squad-Ops** into a coverage model that *efficiently uses staff without overload*.
+
+---
+
+# 📈 OPTIMIZED SQUAD-OPS ALLOCATION MODEL
+
+### 💡 Aggregation Strategy
+
+* Group **similar ventures** under shared squads if their work patterns and timelines align.
+* Allow cross-client reuse where technical similarity is high.
+* Squad-Ops will be **multi-client capable** — not one squad per client.
+
+---
+
+## 🧩 Squad-Gov (Governance Specialist)
+
+**Covers:**
+
+* *Pamoja Federation Coop*
+* *Ubuntuwa Commons* + sub-commons
+* *OVCS pipeline governance* for all clients
+
+**Team Composition**
+
+* Squad-Gov Lead
+* Governance Engineer
+* QA Engineer
+* OVCS Sec (liaison)
+* TechArchitect (advisor)
+
+**Key Focus**
+
+* Policies, governance OS integration
+* Board packet automation
+* Compliance
+
+---
+
+## 🧩 Core Operations Squads (Ops A–E)
+
+We convert the “Ops 1–8” into **5 multi-client squads**, each with **reusable capacity**.
+
+| **Squad**       | **Primary Clients**                      | **Secondary Support**         |
+| --------------- | ---------------------------------------- | ----------------------------- |
+| **Squad-Ops A** | Wolof.io, Massai Media, Bahari Network   | Moyo Collective               |
+| **Squad-Ops B** | Nandi Mobility, Ubunye Engineering Group | Umoya Society                 |
+| **Squad-Ops C** | Dogon Manufacturing, Azande Software     | Damara Enterprise             |
+| **Squad-Ops D** | Lomwe Systems, Niguvu Corporation        | San Environmental             |
+| **Squad-Ops E** | Mande Investment Group, Batwa Foundation | Additional support / overflow |
+
+### Purpose
+
+* Each squad **owns multiple clients**
+* Reuse of delivery practice, standards, and tooling
+* Load balanced across ~2 primary clients per squad
+
+That’s **5 Ops squads** instead of 8, with cross-squad support for overflow.
+
+---
+
+## 🧩 Squad-Program (Prog 1–6)
+
+These remain **program delivery squads** focused on the **Msingi programs** — they are separate from core Ops because they run **programmatic builds** with different lifecycle patterns.
+
+| Squad  | Program Focus |
+| ------ | ------------- |
+| Prog-1 | Kano          |
+| Prog-2 | Ndebe         |
+| Prog-3 | Kuzu          |
+| Prog-4 | Zalendo       |
+| Prog-5 | Zamba         |
+| Prog-6 | Luma          |
+
+These squads can scale with consultants if needed.
+
+---
+
+# 📋 TEAM ASSIGNMENTS & ROLES
+
+Here’s **who is on each squad**, drawn from your core hires + additional future positions:
+
+---
+
+## 🟣 **Squad-Gov (Governance)**
+
+| Role     | Position                            |
+| -------- | ----------------------------------- |
+| Lead     | Governance & Compliance Lead (Core) |
+| Engineer | Governance Systems Engineer         |
+| QA       | QA Specialist (Guild)               |
+| Liaison  | OVCS Sec                            |
+| Advisor  | TechArchitect                       |
+
+---
+
+## 🔵 **Squad-Ops A — Ops for Wolof.io, Massai Media, Bahari Network, Moyo Collective**
+
+| Role                 | Position               |
+| -------------------- | ---------------------- |
+| Lead                 | Squad-Ops A Lead       |
+| Backend              | Developer A1           |
+| Frontend/Integration | Developer A2           |
+| QA                   | QA Specialist          |
+| Analyst              | Support Analyst        |
+| Advisor              | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops B — Ops for Nandi Mobility, Ubunye Engineering Group, Umoya Society**
+
+| Role        | Position               |
+| ----------- | ---------------------- |
+| Lead        | Squad-Ops B Lead       |
+| Backend     | Developer B1           |
+| Integration | Developer B2           |
+| QA          | QA Specialist          |
+| Analyst     | Support Analyst        |
+| Advisor     | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops C — Ops for Dogon Manufacturing, Azande Software, Damara Enterprise**
+
+| Role     | Position               |
+| -------- | ---------------------- |
+| Lead     | Squad-Ops C Lead       |
+| Backend  | Developer C1           |
+| Frontend | Developer C2           |
+| QA       | QA Specialist          |
+| Analyst  | Support Analyst        |
+| Advisor  | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops D — Ops for Lomwe Systems, Niguvu Corporation, San Environmental**
+
+| Role     | Position                   |
+| -------- | -------------------------- |
+| Lead     | Squad-Ops D Lead           |
+| Platform | Developer D1               |
+| AI/ML    | Specialist D2 (for Niguvu) |
+| QA       | QA Specialist              |
+| Analyst  | Support Analyst            |
+| Advisor  | TechArchitect (shared)     |
+
+---
+
+## 🔵 **Squad-Ops E — Ops for Mande Investment Group & Batwa Foundation + Overflow**
+
+| Role     | Position               |
+| -------- | ---------------------- |
+| Lead     | Squad-Ops E Lead       |
+| Backend  | Developer E1           |
+| Frontend | Developer E2           |
+| QA       | QA Specialist          |
+| Analyst  | Support Analyst        |
+| Advisor  | TechArchitect (shared) |
+
+---
+
+## 🟡 **Squad-Prog 1–6 — Program Delivery Teams**
+
+Each Squad-Prog follows a similar structure:
+
+| Role        | Position                   |
+| ----------- | -------------------------- |
+| Lead        | Prog Squad Lead            |
+| Engineer(s) | Program Engineers          |
+| QA          | QA Specialist              |
+| Analyst     | Ops/Business Analyst       |
+| Coordinator | Sequencing Specialist (PS) |
+
+---
+
+# 🧠 UTILIZATION & LOAD BALANCING
+
+### Squad Size (Ops A–E)
+
+* **5–6 people per Ops squad**
+* Shared TechArchitect across all Ops as advisor
+* QA and Support Analysts float across squads where needed
+
+### Reuse & Overlap
+
+* **TechArchitect** is shared — ensures platform consistency
+* **QA Specialists** are grouped into a **QA Guild** and can be allocated where needed
+* **Support Analysts** help backlog refinement, cross-squad
+
+---
+
+# 📅 SPRINT / CALENDAR LAYOUT
+
+### Ops Squads Sprint Cadence
+
+* **2 week sprints**
+* Synchronize program launches so squads can share QA and architects
+* Use common “ops toolkit” so kits are reusable across ventures
+
+---
+
+# 🧠 WHY THIS IS OPTIMAL
+
+### ✔ Efficiency
+
+* Fewer total squads (5 instead of 8) covering more ground
+* Reuse of roles reduces overhead
+
+### ✔ Flexibility
+
+* Overflow capacity via Support Analysts and shared TechArchitect
+* Cross-squad QA Guild provides quality at scale
+
+### ✔ Scalability
+
+* New clients can be added to existing squads as capacity grows
+* Future squads can be spawned when needed
+
+### ✔ Clear Ownership
+
+* Each client has a *named* squad responsible
+* Overlap ensures no single point of failure
+
+---
+
+# 📌 NEXT STEPS
+
+If you want, I can now generate:
+
+📌 A **visual squad assignment board** (CSV / Kanban / Notion layout)
+📌 A **skills matrix** for each squad role
+📌 A **work assignment calendar** mapping squads to dates
+
+Just tell me which one you want next!
+
+Absolutely — let’s organize **your Squad-Ops allocation** so that:
+
+✅ Every **venture + coop + network entity** has coverage
+✅ Staff are **efficiently allocated, not overloaded**
+✅ There is **logical overlap and reuse** of squads where possible
+✅ You maintain delivery quality and consistency
+
+This is a **resource mapping** that ties your existing squads + suggested additional squads to all clients, optimized for Year 1.
+
+---
+
+# 🧠 OBJECTIVES
+
+You want:
+
+📌 Coverage for:
+
+* **12 ventures**
+* **Pamoja Federation Coop**
+* **Moyo Collective**
+* **Bahari Network**
+* **Ubunye Engineering Group**
+* **Umoya Society**
+* **Ubuntuwa Commons** (and its sub-commons)
+
+📌 Reuse + overlap:
+
+* Avoid creating *too many* distinct squads
+* Allow squads to deliver on multiple clients where possible
+* Keep squad size reasonable (3-6 people each)
+
+---
+
+# 🔑 PRINCIPLES FOR ALLOCATION
+
+✔ **One squad per major client cluster**
+✔ Smaller clients can share squads or rotate
+✔ Governance clients need a dedicated governance squad
+✔ Network and society clients share similar patterns
+✔ Ventures grouped by similarity (platform type, complexity)
+
+---
+
+# 📊 CURRENT SQUAD BREAKDOWN (Before Optimization)
+
+You previously had:
+
+* Squad-Gov
+* Squad-Ops 1–8 (8 squads)
+* Squad-Prog 1–6
+
+That’s **15 squads** already, but your client list includes ~**23 operations** (12 ventures + 7 coops/networks + programs).
+
+So we need to **restructure Squad-Ops** into a coverage model that *efficiently uses staff without overload*.
+
+---
+
+# 📈 OPTIMIZED SQUAD-OPS ALLOCATION MODEL
+
+### 💡 Aggregation Strategy
+
+* Group **similar ventures** under shared squads if their work patterns and timelines align.
+* Allow cross-client reuse where technical similarity is high.
+* Squad-Ops will be **multi-client capable** — not one squad per client.
+
+---
+
+## 🧩 Squad-Gov (Governance Specialist)
+
+**Covers:**
+
+* *Pamoja Federation Coop*
+* *Ubuntuwa Commons* + sub-commons
+* *OVCS pipeline governance* for all clients
+
+**Team Composition**
+
+* Squad-Gov Lead
+* Governance Engineer
+* QA Engineer
+* OVCS Sec (liaison)
+* TechArchitect (advisor)
+
+**Key Focus**
+
+* Policies, governance OS integration
+* Board packet automation
+* Compliance
+
+---
+
+## 🧩 Core Operations Squads (Ops A–E)
+
+We convert the “Ops 1–8” into **5 multi-client squads**, each with **reusable capacity**.
+
+| **Squad**       | **Primary Clients**                      | **Secondary Support**         |
+| --------------- | ---------------------------------------- | ----------------------------- |
+| **Squad-Ops A** | Wolof.io, Massai Media, Bahari Network   | Moyo Collective               |
+| **Squad-Ops B** | Nandi Mobility, Ubunye Engineering Group | Umoya Society                 |
+| **Squad-Ops C** | Dogon Manufacturing, Azande Software     | Damara Enterprise             |
+| **Squad-Ops D** | Lomwe Systems, Niguvu Corporation        | San Environmental             |
+| **Squad-Ops E** | Mande Investment Group, Batwa Foundation | Additional support / overflow |
+
+### Purpose
+
+* Each squad **owns multiple clients**
+* Reuse of delivery practice, standards, and tooling
+* Load balanced across ~2 primary clients per squad
+
+That’s **5 Ops squads** instead of 8, with cross-squad support for overflow.
+
+---
+
+## 🧩 Squad-Program (Prog 1–6)
+
+These remain **program delivery squads** focused on the **Msingi programs** — they are separate from core Ops because they run **programmatic builds** with different lifecycle patterns.
+
+| Squad  | Program Focus |
+| ------ | ------------- |
+| Prog-1 | Kano          |
+| Prog-2 | Ndebe         |
+| Prog-3 | Kuzu          |
+| Prog-4 | Zalendo       |
+| Prog-5 | Zamba         |
+| Prog-6 | Luma          |
+
+These squads can scale with consultants if needed.
+
+---
+
+# 📋 TEAM ASSIGNMENTS & ROLES
+
+Here’s **who is on each squad**, drawn from your core hires + additional future positions:
+
+---
+
+## 🟣 **Squad-Gov (Governance)**
+
+| Role     | Position                            |
+| -------- | ----------------------------------- |
+| Lead     | Governance & Compliance Lead (Core) |
+| Engineer | Governance Systems Engineer         |
+| QA       | QA Specialist (Guild)               |
+| Liaison  | OVCS Sec                            |
+| Advisor  | TechArchitect                       |
+
+---
+
+## 🔵 **Squad-Ops A — Ops for Wolof.io, Massai Media, Bahari Network, Moyo Collective**
+
+| Role                 | Position               |
+| -------------------- | ---------------------- |
+| Lead                 | Squad-Ops A Lead       |
+| Backend              | Developer A1           |
+| Frontend/Integration | Developer A2           |
+| QA                   | QA Specialist          |
+| Analyst              | Support Analyst        |
+| Advisor              | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops B — Ops for Nandi Mobility, Ubunye Engineering Group, Umoya Society**
+
+| Role        | Position               |
+| ----------- | ---------------------- |
+| Lead        | Squad-Ops B Lead       |
+| Backend     | Developer B1           |
+| Integration | Developer B2           |
+| QA          | QA Specialist          |
+| Analyst     | Support Analyst        |
+| Advisor     | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops C — Ops for Dogon Manufacturing, Azande Software, Damara Enterprise**
+
+| Role     | Position               |
+| -------- | ---------------------- |
+| Lead     | Squad-Ops C Lead       |
+| Backend  | Developer C1           |
+| Frontend | Developer C2           |
+| QA       | QA Specialist          |
+| Analyst  | Support Analyst        |
+| Advisor  | TechArchitect (shared) |
+
+---
+
+## 🔵 **Squad-Ops D — Ops for Lomwe Systems, Niguvu Corporation, San Environmental**
+
+| Role     | Position                   |
+| -------- | -------------------------- |
+| Lead     | Squad-Ops D Lead           |
+| Platform | Developer D1               |
+| AI/ML    | Specialist D2 (for Niguvu) |
+| QA       | QA Specialist              |
+| Analyst  | Support Analyst            |
+| Advisor  | TechArchitect (shared)     |
+
+---
+
+## 🔵 **Squad-Ops E — Ops for Mande Investment Group & Batwa Foundation + Overflow**
+
+| Role     | Position               |
+| -------- | ---------------------- |
+| Lead     | Squad-Ops E Lead       |
+| Backend  | Developer E1           |
+| Frontend | Developer E2           |
+| QA       | QA Specialist          |
+| Analyst  | Support Analyst        |
+| Advisor  | TechArchitect (shared) |
+
+---
+
+## 🟡 **Squad-Prog 1–6 — Program Delivery Teams**
+
+Each Squad-Prog follows a similar structure:
+
+| Role        | Position                   |
+| ----------- | -------------------------- |
+| Lead        | Prog Squad Lead            |
+| Engineer(s) | Program Engineers          |
+| QA          | QA Specialist              |
+| Analyst     | Ops/Business Analyst       |
+| Coordinator | Sequencing Specialist (PS) |
+
+---
+
+# 🧠 UTILIZATION & LOAD BALANCING
+
+### Squad Size (Ops A–E)
+
+* **5–6 people per Ops squad**
+* Shared TechArchitect across all Ops as advisor
+* QA and Support Analysts float across squads where needed
+
+### Reuse & Overlap
+
+* **TechArchitect** is shared — ensures platform consistency
+* **QA Specialists** are grouped into a **QA Guild** and can be allocated where needed
+* **Support Analysts** help backlog refinement, cross-squad
+
+---
+
+# 📅 SPRINT / CALENDAR LAYOUT
+
+### Ops Squads Sprint Cadence
+
+* **2 week sprints**
+* Synchronize program launches so squads can share QA and architects
+* Use common “ops toolkit” so kits are reusable across ventures
+
+---
+
+# 🧠 WHY THIS IS OPTIMAL
+
+### ✔ Efficiency
+
+* Fewer total squads (5 instead of 8) covering more ground
+* Reuse of roles reduces overhead
+
+### ✔ Flexibility
+
+* Overflow capacity via Support Analysts and shared TechArchitect
+* Cross-squad QA Guild provides quality at scale
+
+### ✔ Scalability
+
+* New clients can be added to existing squads as capacity grows
+* Future squads can be spawned when needed
+
+### ✔ Clear Ownership
+
+* Each client has a *named* squad responsible
+* Overlap ensures no single point of failure
+
+---
+
+# 📌 NEXT STEPS
+
+If you want, I can now generate:
+
+📌 A **visual squad assignment board** (CSV / Kanban / Notion layout)
+📌 A **skills matrix** for each squad role
+📌 A **work assignment calendar** mapping squads to dates
+
+Just tell me which one you want next!
+
+Absolutely — let’s expand the **Squad-Ops allocation** to *include every client in your ecosystem*, including:
+
+✅ **12 Ventures**
+✅ **Pamoja Federation Coop**
+✅ **Moyo Collective**
+✅ **Bahari Network**
+✅ **Ubunye Engineering Group**
+✅ **Umoya Society**
+✅ **Ubuntuwa Commons + sub-commons**
+✅ **Kumba Metafactory Franchise**
+✅ **OVCS (Obatala Venture Capital Studios)**
+
+and do it in a way that:
+
+✔ Uses a **minimal number of squads**,
+✔ Prevents **overload**,
+✔ Allows **overlap and role reuse**,
+✔ Is consistent with your **Year 1 WBS** and staffing model.
+
+---
+
+# 🚀 SUMMARY OF ALL CLIENTS TO COVER
+
+Here’s your full client roster:
+
+### **Cooperative / Federation Entities**
+
+* Pamoja Federation Coop
+* Ubuntuwa Commons (umbrella) and sub-coops:
+
+  * Ubuntuwa-NDAA
+  * Ubuntuwa-KUMBU
+  * Ubuntuwa-KANYE
+  * Ubuntuwa-NGOZI
+  * Ubuntuwa-MOYO
+  * Ubuntuwa-UMOYA
+  * Ubuntuwa-KANO
+* Moyo Collective
+* Bahari Network
+* Ubunye Engineering Group
+* Umoya Society
+* OVCS (Obatala Venture Capital Studios)
+* Kumba Metafactory Franchise Coop
+
+### **12 Ventures + Programs**
+
+* Nandi Mobility Company
+* Wolof.io
+* Dogon Manufacturing Company
+* Azande Software Agency
+* Lomwe Systems Engineering Firm
+* Damara Enterprise Engineering Firm
+* Niguvu Corporation
+* San Environmental & Civilization Engineering Firm
+* Massai Media Group
+* Mande Investment Group
+* Batwa Foundation Urban Community Development Centers
+* Songhai Institute of Systemics
+
+  * Mungu Project
+  * Meridian Project
+* *Plus the 6 Msingi Programs (Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma)*
+
+---
+
+# 🧠 GOAL: Efficient Squad-Ops Coverage
+
+We will cover them with **5 Ops Squads + 1 Governance Squad**, each responsible for *clusters* of clients with similar execution patterns, complexity levels, and tech overlap.
+
+This model ensures:
+
+* Balanced workloads
+* Transferable knowledge across clients
+* Reuse of core delivery practices
+* Shared leadership and QA
+
+---
+
+## 🔵 **Squad-Gov (Governance & Compliance)**
+
+**Covers:**
+
+* Pamoja Federation Coop
+* Ubuntuwa Commons + sub-commons
+* OVCS (governance pipeline & compliance)
+* All cooperative governance needs
+
+**Team Composition**
+
+* **Governance Lead**
+* **Tech Architect** (advisor)
+* **OVCS Liaison / Governance Secretary**
+* **Dev & QA engineers**
+* **CoS** (coordination)
+* **Legal & Entity Steward** (overlay)
+
+**Focus**
+
+* Governance OS
+* Board integrations
+* OVCS submission automation
+* Compliance tracking
+
+---
+
+## 🔵 **Squad-Ops A — Platform & Shared Services**
+
+**Covers:**
+
+* Moyo Collective
+* Bahari Network
+* Ubunye Engineering Group
+* Umoya Society
+
+**Team Composition**
+
+* **Squad Lead**
+* 2 Developers (full stack)
+* QA Specialist
+* Support Analyst
+* Tech Architect (shared advisor)
+
+**Rationale**
+These clients share *infrastructure and network service demands*, so a single squad can efficiently handle them.
+
+---
+
+## 🔵 **Squad-Ops B — Infrastructure & Franchise**
+
+**Covers:**
+
+* Kumba Metafactory Franchise Coop
+* Mande Investment Group
+* Batwa Foundation Urban Community Centers
+
+**Team Composition**
+
+* **Squad Lead**
+* 2 Developers (backend + frontend)
+* QA Specialist
+* Business / Ops Analyst
+* Tech Architect (shared advisor)
+
+**Rationale**
+These clients involve *complex operational workflows, franchise systems, and financial integrations*, requiring a dedicated but multitasking squad.
+
+---
+
+## 🔵 **Squad-Ops C — Venture OS Core Group 1**
+
+**Covers:**
+
+* Wolof.io Independent Worker Economy
+* Dogon Manufacturing Company
+* Azande Software Agency
+
+**Team Composition**
+
+* **Squad Lead**
+* 2 Developers (specialized per venture stack)
+* QA Specialist
+* Support Analyst
+
+**Rationale**
+All three involve *platform builds with strong product delivery requirements*, and share core architectural patterns.
+
+---
+
+## 🔵 **Squad-Ops D — Venture OS Core Group 2**
+
+**Covers:**
+
+* Nandi Mobility Company
+* Lomwe Systems Engineering
+* Damara Enterprise Engineering
+
+**Team Composition**
+
+* **Squad Lead**
+* 2 Developers (domain specialists)
+* QA Specialist
+* Support Analyst
+
+**Rationale**
+These ventures focus on *engineering platforms and domain-specific OS systems*. One squad can drive similar engineering workflows.
+
+---
+
+## 🔵 **Squad-Ops E — AI, Media & Environmental**
+
+**Covers:**
+
+* Niguvu Corporation (AI OS)
+* San Environmental & Civilization Engineering
+* Massai Media Group
+
+**Team Composition**
+
+* **Squad Lead**
+* 2 Developers (one with AI / data focus)
+* QA Specialist
+* Domain Analyst
+
+**Rationale**
+These clients require *specialized domain knowledge*, but their work still fits well within a shared squad.
+
+---
+
+## 🟡 **Squad-Prog 1–6 — Msingi Program Layer (dedicated)**
+
+Each program gets its own *program delivery squad*:
+
+| Squad-Prog   | Program |
+| ------------ | ------- |
+| Squad-Prog 1 | Kano    |
+| Squad-Prog 2 | Ndebe   |
+| Squad-Prog 3 | Kuzu    |
+| Squad-Prog 4 | Zalendo |
+| Squad-Prog 5 | Zamba   |
+| Squad-Prog 6 | Luma    |
+
+**Team Composition** (each)
+
+* Prog Squad Lead
+* Program Engineer(s)
+* QA Specialist
+* Ops/Business Analyst
+* Sequencing Specialist (PS)
+
+---
+
+# 🧠 TEAM COMPOSITION SUMMARY
+
+Here’s how your **staff pool** supports these squads:
+
+### 🟦 Core Staff (you + first 8 hires)
+
+| Role                       | Likely Squad Alignment                     |
+| -------------------------- | ------------------------------------------ |
+| **Dominic (CEO)**          | Exec oversight + cross-squad               |
+| **Chief of Staff (CoS)**   | Squad coordination & delivery ops          |
+| **Program Sequencer (PS)** | Sequencing Specialist across squads        |
+| **OVCS Sec**               | Governance pipeline & Gov Squad            |
+| **Operations Lead**        | Ops support in all squads                  |
+| **Financial Controller**   | Financial compliance across squads         |
+| **Tech Architect**         | Shared technical advisor for all squads    |
+| **Comms Lead**             | Narrative + external • per squad alignment |
+| **Executive Assistant**    | Administrative support                     |
+
+### 🟦 Shared Roles Across Squads
+
+* **QA Specialists (Guild)** — float across squads
+* **Support Analysts** — shared support to multiple squads
+* **Sequencing Specialist** — program cadence alignment
+
+### 🟦 Future Role Additions (Year 1)
+
+As squads scale operationally, future hires can be:
+
+* Additional Backend / Frontend Developers
+* AI / Specialized Engineers
+* Specialized Compliance / Data Privacy Specialist
+* UX / Product Designers
+
+---
+
+# 💡 WHY THIS IS EFFICIENT
+
+### 🔄 **Reusability**
+
+* Each Ops squad covers **~2–3 clients**, sharing workload
+* Avoids creating one squad per client
+
+### 🔁 **Overlap**
+
+* Shared QA and platform advisory (TechArchitect) reduces redundancy
+* Support Analysts can shift between squads depending on need
+
+### 🧩 **Balanced Load**
+
+* Ventures grouped by similarity
+* Governance clients get dedicated focus (with Legal support)
+
+### 👤 **Staff Not Overloaded**
+
+* Core staff act as advisors and squad leads, not overloaded solo contributors
+* Shared roles allow context switching without overload
+
+---
+
+## 🧠 NEXT VISUALS (Optional Outputs)
+
+I can now generate:
+
+📌 **Ops Squad Allocation Board (spreadsheet)**
+📌 **Heatmap of resource utilization by quarter**
+📌 **Team competency matrix**
+📌 **Jira / Notion import CSVs for all squads**
+
+Just tell me which one you want first!
+
+Absolutely — here’s your updated **Core Staff roster** including **you + your first 9 core hires** with the *Legal & Entity Steward* included. This list shows each position, their primary mission, key responsibilities, and how they function together in your Year 1 operations.
+
+---
+
+# 🚀 **Core Staff: You + First 9 Hires**
+
+These are the *canonical core team members* for Year 1, covering execution, governance, legal compliance, sequencing, operations, finance, technology, and communication.
+
+---
+
+## 🧠 **1) Dominic — Founder / CEO / Navigator**
+
+**Primary Mission:**
+Vision, strategy, decision authority, final escalation point.
+
+**Core Responsibilities**
+
+* Sets organizational direction
+* Makes strategy decisions
+* Approves hires, budgets, and primary contracts
+* Oversees squad performance and resource flow
+
+**Key Skills**
+Strategic synthesis, decision leadership, cross-domain context.
+
+---
+
+## 🧠 **2) Chief of Staff (CoS) — Integrator & Shield**
+
+**Primary Mission:**
+Execution accountability, noise filtering, operational discipline.
+
+**Core Responsibilities**
+
+* Coordinates plans, aligns squads
+* Handles cross-squad escalation & friction
+* Enforces execution timelines
+* Interfaces with Delivery Lead and EA
+
+**Key Skills**
+Operational execution, high trust, synthesis.
+
+---
+
+## 🧠 **3) Program Sequencer (Msingi Officer) — Temporal Architect**
+
+**Primary Mission:**
+Time and phase discipline across WBS and squads.
+
+**Core Responsibilities**
+
+* Maintains master timeline and phase gates
+* Flags premature execution
+* Prepares readiness for gate reviews
+* Works with delivery leads and squad leads
+
+**Key Skills**
+Temporal sequencing, denial discipline, readiness logic.
+
+---
+
+## 🧠 **4) OVCS Liaison / Governance Secretary — Authority Interface**
+
+**Primary Mission:**
+Governance legal mechanics and compliance documents.
+
+**Core Responsibilities**
+
+* Maintains OVCS registry & documentation
+* Prepares governance authorization packets
+* Records decisions and certificates
+* Ensures clean governance workflows
+
+**Key Skills**
+Governance documentation, neutral compliance posture.
+
+---
+
+## 🧠 **5) Operations & Admin Lead — Execution Backbone**
+
+**Primary Mission:**
+Keep the operational engine oiled.
+
+**Core Responsibilities**
+
+* Office logistics & admin
+* Contacts, invoicing, tools
+* Vendor coordination
+* Supports squad onboarding and tooling
+
+**Key Skills**
+Hyper-organized, calm execution.
+
+---
+
+## 🧠 **6) Financial Controller — Burn & Reality Enforcer**
+
+**Primary Mission:**
+Ensure financial integrity, prevent fantasy economics.
+
+**Core Responsibilities**
+
+* Tracks burn across entities
+* Prepares financial readiness for programs
+* Cross-entity financial compliance
+* FInance reporting and KPI tracking
+
+**Key Skills**
+Financial discipline, multi-entity accounting lens.
+
+---
+
+## 🧠 **7) Technical Architect / Platform Steward — Systems Continuity**
+
+**Primary Mission:**
+Ensure technical cohesion across all delivery.
+
+**Core Responsibilities**
+
+* Owns baseline platform architecture
+* Ensures compliance with OS standards
+* Advises squad leads on technical design
+* Prevents tech divergence
+
+**Key Skills**
+Low-ego architectural leadership, platform-first mindset.
+
+---
+
+## 🧠 **8) Communications & External Interface Lead — Narrative Firewall**
+
+**Primary Mission:**
+Control external narrative, filter inbound pressure.
+
+**Core Responsibilities**
+
+* Official messaging + positioning
+* Handles inbound requests
+* Coordinates external comms across squads
+* Shields core team from distraction
+
+**Key Skills**
+Clear communication, strategic restraint.
+
+---
+
+## 🧠 **9) Executive Assistant (EA) — Cognitive Load Manager**
+
+**Primary Mission:**
+Protects your attention and manages the calendar.
+
+**Core Responsibilities**
+
+* Calendar & flow management
+* Meeting prep and follow-ups
+* Triage inbound information
+* Operational support for leadership
+
+**Key Skills**
+High trust, anticipatory thinking.
+
+---
+
+## 🧠 **10) Legal & Entity Steward — Legal & Compliance Owner**
+
+*(Your added core hire)*
+
+**Primary Mission:**
+Own all legal entity management, compliance, and contract risk.
+
+**Core Responsibilities**
+
+1. **Entity Law & Governance**
+
+   * Entity formation, filings, and compliance
+   * Corporate records + governance processes
+   * Multi-jurisdiction awareness
+
+2. **Contract Drafting & Risk**
+
+   * Draft/review/standardize MSAs, addenda, SOWs
+   * Run contract risk assessments
+   * Coordinate with external counsel when needed
+
+3. **Regulatory & IP**
+
+   * Reg compliance (coop, tax, data, securities)
+   * IP ownership, licensing, risk
+
+4. **Advisory & Mitigation**
+
+   * Legal review cycles for delivery
+   * Risk mitigation planning
+   * SLA / indemnity / liability review
+
+**Key Skills**
+Legal qualification (JD or equivalent), coop/multi-entity experience
+
+---
+
+# 🧪 How These Roles Interlock
+
+Your Year 1 core staff functions like a matrix:
+
+```
+                         Dominic
+                             │
+     ┌────────────┬──────────┴───────────┬─────────────┐
+     │            │                              │     │
+   CoS       Program Sequencer                Legal & Entity Steward
+     │            │                              │     │
+Operations Lead │                  Financial Ctrl │ Technical Architect
+     │            │                              │     │
+Executive Assistant      OVCS Sec           Comms Lead
+```
+
+* **Dominic** sets strategy + risk profile
+* **CoS** drives execution discipline
+* **Program Sequencer** ensures correct timing
+* **Legal & Entity Steward** owns all legal risk & compliance
+* **Ops Lead / EA** handle operational support
+* **Financial Controller** ensures financial reality
+* **Tech Architect** ensures tech consistency
+* **OVCS Sec + Comms Lead** cover governance and external narrative
+
+---
+
+# 📊 Integration With Squads
+
+| Team Type            | Core Roles Involved                              | Additional Roles                     |
+| -------------------- | ------------------------------------------------ | ------------------------------------ |
+| **Squad-Gov**        | Tech Architect, OVCS Sec, Legal & Entity Steward | CoS, QA Guild                        |
+| **Squad-Ops A–E**    | Delivery Lead, Squad Leads, Tech Architect       | Ops Lead, Support Analysts, QA Guild |
+| **Squad-Prog**       | Prog Squad Leads, PS, Sequencing Specialist      | QA Guild, Analysts                   |
+| **Cross-Functional** | Financial Controller, Legal & Entity Steward     | Comms Lead, EA                       |
+
+---
+
+# 🎯 Key Role Overlaps (Shared Functions)
+
+### **Legal & Entity Steward + OVCS Sec**
+
+* Legal & Entity Steward owns contract/legal risk
+* OVCS Sec owns governance instrument flow
+* They co-lead governance compliance
+
+### **Tech Architect + All Squad Leads**
+
+* Standards
+* Platform enforcement
+* Technical risk reviews
+
+### **Financial Controller + Ops Lead**
+
+* Billing & accounting
+* Expense tracking
+* Compliance reporting
+
+### **CoS + EA**
+
+* Execution cadence
+* Scheduling and operational traffic management
+
+### **Comms Lead + All External Touchpoints**
+
+* Narrative
+* Public or partner communications
+* Shielding the CTO/CEO and squads from noise
+
+---
+
+# 🧩 Quick Hiring Priorities
+
+| Role                   | Priority   | Reason                       |
+| ---------------------- | ---------- | ---------------------------- |
+| Legal & Entity Steward | **High**   | Legal risk + coop compliance |
+| Ops Lead               | **High**   | Foundation of execution      |
+| Financial Controller   | **High**   | Multi-entity finance         |
+| Tech Architect         | **High**   | Platform continuity          |
+| Program Sequencer      | **High**   | Prevents chaotic execution   |
+| CoS                    | **High**   | Execution discipline         |
+| Comms Lead             | **Medium** | External narrative control   |
+| OVCS Sec               | **Medium** | Governance pipelines         |
+| EA                     | **Medium** | Operational support          |
+
+---
+
+If you want, I can now generate:
+
+🔹 A **visual org chart file** (PDF/PNG)
+🔹 A **notion/airtable database** version of this org structure
+🔹 A **Jira role hierarchy** for permission schemes
+
+Just tell me which format you want!
+
+Below is your **full member roster table** for *The Dominic Eaton Software Engineering Firm* — including you and your **first 9 core hires** (including the Legal & Entity Steward), plus the **shared roles** that show up in squads or shared functions (e.g., QA Guild, Support Analysts). This is formatted as a continuous table you can drop into a spreadsheet or org system.
+
+---
+
+## 📋 **Full Member Roster — Your Firm**
+
+| **Member Name / Role ID** | **Role / Title**                         | **Primary Responsibilities**                   | **Assigned Squads / Teams**                    | **Notes**                    |
+| ------------------------- | ---------------------------------------- | ---------------------------------------------- | ---------------------------------------------- | ---------------------------- |
+| **Dominic**               | CEO / Founder / Navigator                | Vision, strategy, final approvals              | All squads (exec oversight)                    | Top-level leader             |
+| **CoS**                   | Chief of Staff                           | Execution coordination, cross-team alignment   | Exec layer, supports all squads                | Operational integrator       |
+| **PS**                    | Program Sequencer (Msingi Officer)       | Maintains master timeline, phase gating        | Squad-Prog alignment, Sequencing across squads | Temporal architect           |
+| **OVCS Sec**              | OVCS Liaison / Governance Secretary      | Governance compliance, OVCS packets            | Governance Squad & coop clients                | Governance specialist        |
+| **Ops Lead**              | Operations & Admin Lead                  | Admin systems, tooling, vendor ops             | Shared support                                 | Backbone operations          |
+| **FinCtrl**               | Financial Controller                     | Burn control, finance compliance, reporting    | Shared finance layer                           | Money & compliance           |
+| **TechArch**              | Technical Architect / Platform Steward   | Technical standards, OS coherence              | Adviser to all squads                          | Platform continuity          |
+| **Comms Lead**            | Communications & External Interface Lead | External messaging, narrative control          | Shared comms support                           | Narrative firewall           |
+| **EA**                    | Executive Assistant                      | Calendar, meeting prep, triage                 | Exec support                                   | Cognitive load manager       |
+| **LegalStew**             | Legal & Entity Steward                   | Legal entity management, compliance, contracts | Shared legal across squads                     | Legal & entity owner         |
+| **QA-Guild Lead**         | QA Guild Lead                            | QA governance, test standards                  | QA across squads                               | Shared QA governance         |
+| **QA-Engineer A**         | QA Engineer                              | Automated and manual testing                   | Squad-Gov, Squad-Ops A                         | QA specialist                |
+| **QA-Engineer B**         | QA Engineer                              | Automated and manual testing                   | Squad-Ops B, Squad-Ops C                       | QA specialist                |
+| **SupportAnalyst A**      | Support Analyst                          | Business & ops analysis                        | Squad-Ops A, Squad-Ops B                       | Requirements + squad support |
+| **SupportAnalyst B**      | Support Analyst                          | Business & ops analysis                        | Squad-Ops C, Squad-Ops D                       | Requirements + squad support |
+| **SupportAnalyst C**      | Support Analyst                          | Business & ops analysis                        | Squad-Ops E                                    | Overflow support             |
+| **GovDevLead**            | Squad-Gov Dev Lead                       | Governance systems delivery                    | Squad-Gov                                      | Lead governance build        |
+| **OpsALead**              | Squad-Ops A Lead                         | Lead for Ops A cluster                         | Wolof.io, Massai, etc.                         | Squad lead                   |
+| **OpsBLead**              | Squad-Ops B Lead                         | Lead for Ops B cluster                         | Nandi, Ubunye, etc.                            | Squad lead                   |
+| **OpsCLead**              | Squad-Ops C Lead                         | Lead for Ops C cluster                         | Dogon, Azande, etc.                            | Squad lead                   |
+| **OpsDLead**              | Squad-Ops D Lead                         | Lead for Ops D cluster                         | Lomwe, Niguvu, etc.                            | Squad lead                   |
+| **OpsELead**              | Squad-Ops E Lead                         | Lead for Ops E cluster                         | Mande IG, Batwa                                | Squad lead                   |
+| **Prog1Lead**             | Prog Squad 1 Lead                        | Kano program delivery                          | Squad-Prog 1                                   | Program lead                 |
+| **Prog2Lead**             | Prog Squad 2 Lead                        | Ndebe program delivery                         | Squad-Prog 2                                   | Program lead                 |
+| **Prog3Lead**             | Prog Squad 3 Lead                        | Kuzu program delivery                          | Squad-Prog 3                                   | Program lead                 |
+| **Prog4Lead**             | Prog Squad 4 Lead                        | Zalendo program delivery                       | Squad-Prog 4                                   | Program lead                 |
+| **Prog5Lead**             | Prog Squad 5 Lead                        | Zamba program delivery                         | Squad-Prog 5                                   | Program lead                 |
+| **Prog6Lead**             | Prog Squad 6 Lead                        | Luma program delivery                          | Squad-Prog 6                                   | Program lead                 |
+| **BackendDev A1**         | Backend Developer                        | Core backend delivery                          | Squad-Ops A                                    | Developer                    |
+| **FrontendDev A2**        | Frontend / Integration Developer         | UI & integration                               | Squad-Ops A                                    | Developer                    |
+| **BackendDev B1**         | Backend Developer                        | Core backend delivery                          | Squad-Ops B                                    | Developer                    |
+| **FrontendDev B2**        | Frontend / Integration Developer         | UI & integration                               | Squad-Ops B                                    | Developer                    |
+| **BackendDev C1**         | Backend Developer                        | Core backend delivery                          | Squad-Ops C                                    | Developer                    |
+| **FrontendDev C2**        | Frontend / Integration Developer         | UI & integration                               | Squad-Ops C                                    | Developer                    |
+| **BackendDev D1**         | Backend Developer                        | Core backend delivery                          | Squad-Ops D                                    | Developer                    |
+| **AIEng D2**              | AI Specialist Developer                  | AI & data features                             | Squad-Ops D                                    | Developer (Niguvu focus)     |
+| **BackendDev E1**         | Backend Developer                        | Core backend delivery                          | Squad-Ops E                                    | Developer                    |
+| **FrontendDev E2**        | Frontend / Integration Developer         | UI & integration                               | Squad-Ops E                                    | Developer                    |
+| **ProgEngineer1A**        | Program Engineer                         | Program tech build                             | Squad-Prog 1                                   | Engineer                     |
+| **ProgEngineer2A**        | Program Engineer                         | Program tech build                             | Squad-Prog 2                                   | Engineer                     |
+| **ProgEngineer3A**        | Program Engineer                         | Program tech build                             | Squad-Prog 3                                   | Engineer                     |
+| **ProgEngineer4A**        | Program Engineer                         | Program tech build                             | Squad-Prog 4                                   | Engineer                     |
+| **ProgEngineer5A**        | Program Engineer                         | Program tech build                             | Squad-Prog 5                                   | Engineer                     |
+| **ProgEngineer6A**        | Program Engineer                         | Program tech build                             | Squad-Prog 6                                   | Engineer                     |
+| **Sequencing Spec**       | Sequencing Specialist                    | Enforces phase gates                           | All Prog Squads                                | Master calendar compliance   |
+| **DevOps Engineer**       | DevOps Engineer                          | Build/deploy pipelines                         | Shared                                         | Platform & CI/CD             |
+
+---
+
+## 🧠 What This Table Represents
+
+✔ **All core hires:**
+You + the first 9 (including *Legal & Entity Steward*)
+
+✔ **Shared functional roles:**
+Engineering, QA, support, program engineers, sequencing specialist
+
+✔ **Assigned squads:**
+Ops A–E, Prog 1–6, Gov
+
+✔ **Role diversity:**
+Legal, governance, platform, finance, operations, QA, dev
+
+---
+
+## 📌 How to Use This Table
+
+You can easily paste this into:
+
+📁 **Google Sheets / Excel** — to sort/filter by team, owner, role, or responsibilities
+📌 **Notion** — as a database with views by Squad, by Role, by Client Coverage
+📊 **Airtable** — for roadmap + resource planning
+📅 **Project management tools** — Jira/Linear/ClickUp with assignments
+
+---
+
+## 🧠 Optional Expanded Profiles
+
+If you want, I can generate **expanded person profiles** (1–2 page each) for:
+
+✅ Dominic
+✅ Core hires
+✅ Shared roles (QA, Support, Program Engineers)
+
+…including **competencies, hiring criteria, responsibilities, KPIs, and escalation rules**.
+
+Just say which ones you want (e.g., *“Profiles for Ops Leads and Tech Architect”*).
+
+Here’s your **Teams Table** — a clean, single roster of all your internal teams, their members (from core staff + shared roles), and their primary purpose/coverage areas. This lets you see *who is on what team*, *what they do*, and helps you quickly sort or import into Sheets/Notion/Airtable.
+
+---
+
+## 📋 **Teams & Members Table — Your Firm**
+
+| **Team / Squad Name**      | **Member Name / Role** | **Role / Position**                      | **Primary Responsibilities**             | **Clients / Scope Covered**    |
+| -------------------------- | ---------------------- | ---------------------------------------- | ---------------------------------------- | ------------------------------ |
+| **Executive Leadership**   | Dominic                | CEO / Founder / Navigator                | Vision, strategy, priorities             | All squads / all clients       |
+|                            | CoS                    | Chief of Staff                           | Exec coordination                        | All squads                     |
+|                            | EA                     | Executive Assistant                      | Calendar, meeting triage                 | Exec support                   |
+|                            | Comms Lead             | Communications & External Interface Lead | External messaging                       | All squads                     |
+|                            | FinCtrl                | Financial Controller                     | Financial planning & compliance          | All squads                     |
+| **Legal & Governance**     | LegalStew              | Legal & Entity Steward                   | Legal entity mgmt, contracts, compliance | All squads                     |
+|                            | OVCS Sec               | OVCS Liaison / Governance Secretary      | Governance docs & OVCS pipeline          | Coop clients                   |
+| **Squad-Gov (Governance)** | GovDevLead             | Squad-Gov Dev Lead                       | Governance system delivery               | Pamoja, Ubuntuwa, OVCS         |
+|                            | QA-Engineer A          | QA Specialist                            | Quality assurance                        | Governance workflows           |
+|                            | TechArch               | Technical Architect / Platform Steward   | Tech standards advisor                   | All squads                     |
+|                            | CoS                    | Chief of Staff                           | Execution support                        | Squad-Gov                      |
+| **Squad-Ops A**            | OpsALead               | Squad-Ops A Lead                         | Squad leadership                         | Wolof.io, Massai, Bahari, Moyo |
+|                            | BackendDev A1          | Backend Developer                        | Core platform dev                        | Ops A                          |
+|                            | FrontendDev A2         | Frontend/Integration Dev                 | UI & integration                         | Ops A                          |
+|                            | QA-Engineer A          | QA Specialist                            | Testing & QA                             | Ops A                          |
+|                            | SupportAnalyst A       | Support Analyst                          | Requirements & ops                       | Ops A                          |
+|                            | TechArch               | Technical Architect                      | Standards guidance                       | Ops A                          |
+| **Squad-Ops B**            | OpsBLead               | Squad-Ops B Lead                         | Squad leadership                         | Nandi, Ubunye, Umoya           |
+|                            | BackendDev B1          | Backend Developer                        | Core platform dev                        | Ops B                          |
+|                            | FrontendDev B2         | Frontend/Integration Dev                 | UI & integration                         | Ops B                          |
+|                            | QA-Engineer B          | QA Specialist                            | Testing & QA                             | Ops B                          |
+|                            | SupportAnalyst A       | Support Analyst                          | Ops & requirements                       | Ops B                          |
+|                            | TechArch               | Technical Architect                      | Standards guidance                       | Ops B                          |
+| **Squad-Ops C**            | OpsCLead               | Squad-Ops C Lead                         | Squad leadership                         | Dogon, Azande, Damara          |
+|                            | BackendDev C1          | Backend Developer                        | Core platform dev                        | Ops C                          |
+|                            | FrontendDev C2         | Frontend/Integration Dev                 | UI & integration                         | Ops C                          |
+|                            | QA-Engineer B          | QA Specialist                            | Testing & QA                             | Ops C                          |
+|                            | SupportAnalyst B       | Support Analyst                          | Ops & requirements                       | Ops C                          |
+|                            | TechArch               | Technical Architect                      | Standards guidance                       | Ops C                          |
+| **Squad-Ops D**            | OpsDLead               | Squad-Ops D Lead                         | Squad leadership                         | Lomwe, Niguvu, San Env         |
+|                            | BackendDev D1          | Backend Developer                        | Core platform dev                        | Ops D                          |
+|                            | AIEng D2               | AI Specialist Dev                        | AI/Data work                             | Ops D (Niguvu)                 |
+|                            | QA-Engineer B          | QA Specialist                            | Testing & QA                             | Ops D                          |
+|                            | SupportAnalyst B       | Support Analyst                          | Ops & requirements                       | Ops D                          |
+|                            | TechArch               | Technical Architect                      | Standards guidance                       | Ops D                          |
+| **Squad-Ops E**            | OpsELead               | Squad-Ops E Lead                         | Squad leadership                         | Mande IG, Batwa                |
+|                            | BackendDev E1          | Backend Developer                        | Core platform dev                        | Ops E                          |
+|                            | FrontendDev E2         | Frontend/Integration Dev                 | UI & integration                         | Ops E                          |
+|                            | QA-Engineer B          | QA Specialist                            | Testing & QA                             | Ops E                          |
+|                            | SupportAnalyst C       | Support Analyst                          | Ops & requirements                       | Ops E                          |
+|                            | TechArch               | Technical Architect                      | Standards guidance                       | Ops E                          |
+| **Squad-Prog 1 (Kano)**    | Prog1Lead              | Prog Squad 1 Lead                        | Program delivery leadership              | Kano                           |
+|                            | ProgEngineer1A         | Program Engineer                         | Program tech build                       | Kano                           |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Kano                           |
+|                            | SupportAnalyst C       | Support Analyst                          | Program ops support                      | Kano                           |
+|                            | PS                     | Program Sequencer                        | Phase and gate compliance                | Kano                           |
+| **Squad-Prog 2 (Ndebe)**   | Prog2Lead              | Prog Squad 2 Lead                        | Program delivery                         | Ndebe                          |
+|                            | ProgEngineer2A         | Program Engineer                         | Program tech build                       | Ndebe                          |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Ndebe                          |
+|                            | SupportAnalyst C       | Support Analyst                          | Program support                          | Ndebe                          |
+|                            | PS                     | Sequencer                                | Phase gate compliance                    | Ndebe                          |
+| **Squad-Prog 3 (Kuzu)**    | Prog3Lead              | Prog Squad 3 Lead                        | Program delivery                         | Kuzu                           |
+|                            | ProgEngineer3A         | Program Engineer                         | Program tech build                       | Kuzu                           |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Kuzu                           |
+|                            | SupportAnalyst C       | Support Analyst                          | Program support                          | Kuzu                           |
+|                            | PS                     | Sequencer                                | Phase gate compliance                    | Kuzu                           |
+| **Squad-Prog 4 (Zalendo)** | Prog4Lead              | Prog Squad 4 Lead                        | Program delivery                         | Zalendo                        |
+|                            | ProgEngineer4A         | Program Engineer                         | Program tech build                       | Zalendo                        |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Zalendo                        |
+|                            | SupportAnalyst C       | Support Analyst                          | Program support                          | Zalendo                        |
+|                            | PS                     | Sequencer                                | Phase gate compliance                    | Zalendo                        |
+| **Squad-Prog 5 (Zamba)**   | Prog5Lead              | Prog Squad 5 Lead                        | Program delivery                         | Zamba                          |
+|                            | ProgEngineer5A         | Program Engineer                         | Program tech build                       | Zamba                          |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Zamba                          |
+|                            | SupportAnalyst C       | Support Analyst                          | Program support                          | Zamba                          |
+|                            | PS                     | Sequencer                                | Phase gate compliance                    | Zamba                          |
+| **Squad-Prog 6 (Luma)**    | Prog6Lead              | Prog Squad 6 Lead                        | Program delivery                         | Luma                           |
+|                            | ProgEngineer6A         | Program Engineer                         | Program tech build                       | Luma                           |
+|                            | QA-Engineer A/B        | QA Specialist                            | Program QA                               | Luma                           |
+|                            | SupportAnalyst C       | Support Analyst                          | Program support                          | Luma                           |
+|                            | PS                     | Sequencer                                | Phase gate compliance                    | Luma                           |
+
+---
+
+## 🧠 Notes & Tips
+
+### 🟦 Shared Roles
+
+* **TechArchitect** is shared across *all squads* as an advisor.
+* **QA-Engineers** operate as a *QA Guild*, floating to where tests are needed.
+* **SupportAnalysts** flex across squads depending on demand.
+
+### 🟨 Core Staff in Multiple Teams
+
+* **CoS** supports squad coordination across the entire roster.
+* **FinCtrl** provides financial compliance across all squads.
+* **LegalStew + OVCS Sec** provide legal + governance coverage across coop clients.
+* **PS** (Program Sequencer) supports *all* Squad-Prog teams.
+
+### 🟩 Squad Leads
+
+Each Ops/Prog squad lead ensures backlog planning, sprint rhythm, and delivery.
+
+---
+
+## 📌 How to Import This Table
+
+You can use this table as:
+✔ A **Google Sheet** (pivot by team, role, client)
+✔ A **Notion database** (with views by Squad, Responsibilities)
+✔ An **Airtable base** (Team / Role / Coverage)
+✔ A **CSV** for Jira/Linear board assignments
+
+If you’d like, I can **produce this as an export (CSV / Sheets URL / Notion template)** — just tell me your preferred format!

@@ -3217,3 +3217,3037 @@ If you want next, the most natural follow-ons are:
 * **Risk register template**
 
 Say the next command.
+
+Below are the **four remaining Year-1 operational artifacts**, delivered as **plain text, executable documents**.
+No canvases. No abstraction. These are meant to be **run**.
+
+---
+
+# 1. Q1 WEEK-BY-WEEK EXECUTION PLAN
+
+*(Weeks 1–13: Foundation & Survivability)*
+
+## WEEK 1 — EXISTENCE & CONTROL
+
+**Focus:** Establish authority and stop drift
+
+* Ratify Core Identity, Intent, Constraints
+* Confirm OVCS membership and veto authority
+* Freeze provisional strategies
+* Start decision log (mandatory)
+* Founder cancels all non-essential meetings
+
+**Exit Criteria**
+
+* Authority is unambiguous
+* Decision capture is live
+
+---
+
+## WEEK 2 — LEGAL & CAPITAL SAFETY
+
+**Focus:** Protect the system from preventable failure
+
+* Form/validate all required legal entities
+* Open segregated bank accounts
+* Establish accounting & tax calendar
+* Create preliminary risk register
+* Insurance coverage confirmed
+
+**Exit Criteria**
+
+* Audit-ready posture
+* Cash visibility > 90 days
+
+---
+
+## WEEK 3 — ARCHIVE OS (MINIMUM VIABLE MEMORY)
+
+**Focus:** Make memory institutional
+
+* Deploy archive taxonomy
+* Define object lifecycle (capture → canon)
+* Enforce decision traceability
+* Train core users (30 min max)
+
+**Exit Criteria**
+
+* No undocumented decisions
+* Canon separated from drafts
+
+---
+
+## WEEK 4 — STRATEGY LOCK-IN
+
+**Focus:** Stop re-deciding
+
+* Freeze Strategy Book v1.0
+* Mark strategies Canon / Active / Provisional
+* Publish authority map
+* Kill conflicting initiatives
+
+**Exit Criteria**
+
+* Strategy contradictions resolved
+
+---
+
+## WEEK 5 — OPERATING MODEL DRAFT
+
+**Focus:** Prepare for delegation
+
+* Draft squad definitions
+* Draft studio lifecycle rules
+* Identify founder execution tasks to shed
+* Assign provisional owners
+
+**Exit Criteria**
+
+* No work without an owner
+
+---
+
+## WEEK 6 — SQUAD PILOT
+
+**Focus:** Test execution without founder
+
+* Stand up 1–2 pilot squads
+* Founder does not execute
+* Run weekly cadence fully
+
+**Exit Criteria**
+
+* Work progresses without founder push
+
+---
+
+## WEEK 7 — REVENUE PATHS
+
+**Focus:** Survival income without distortion
+
+* Activate first revenue stream(s)
+* Enforce client concentration limits
+* Archive revenue decisions
+
+**Exit Criteria**
+
+* Revenue exists, intent intact
+
+---
+
+## WEEK 8 — RISK & ETHICS HARDENING
+
+**Focus:** Prevent silent failure
+
+* OVCS risk review
+* Ethics scenario walk-through
+* Failure containment drill
+
+**Exit Criteria**
+
+* Risks visible before impact
+
+---
+
+## WEEK 9 — FOUNDER LOAD AUDIT
+
+**Focus:** Protect the system’s keystone
+
+* Measure founder execution %
+* Delegate or kill excess load
+* Adjust squad authority
+
+**Exit Criteria**
+
+* Founder execution ≤ 30%
+
+---
+
+## WEEK 10 — PROGRAM READINESS
+
+**Focus:** Prepare Msingi / Ashe activation
+
+* Finalize program charters
+* Define entry/exit rules
+* Assign program leads
+
+**Exit Criteria**
+
+* Programs can start and stop cleanly
+
+---
+
+## WEEK 11 — SYSTEM COHERENCE CHECK
+
+**Focus:** Detect drift early
+
+* Doctrine consistency review
+* Archive completeness audit
+* Kill parallel narratives
+
+**Exit Criteria**
+
+* One source of truth
+
+---
+
+## WEEK 12 — Q1 CLOSURE
+
+**Focus:** Lock learning
+
+* Q1 retrospective
+* Strategy annotations
+* Risk register update
+
+**Exit Criteria**
+
+* Learning documented and applied
+
+---
+
+## WEEK 13 — Q2 READINESS
+
+**Focus:** Controlled transition
+
+* Confirm Q2 OKRs
+* Confirm squad ownership
+* No new initiatives allowed
+
+**Exit Criteria**
+
+* Q2 starts clean
+
+---
+
+# 2. FOUNDER CALENDAR & ATTENTION BUDGET
+
+## WEEKLY ATTENTION BUDGET (MAX)
+
+| Category                | % Time  | Notes            |
+| ----------------------- | ------- | ---------------- |
+| Strategy & Sequencing   | 30%     | Highest leverage |
+| Decisions & Arbitration | 20%     | Authority work   |
+| External / Signal       | 15%     | Controlled       |
+| Review & Learning       | 15%     | Archive-driven   |
+| Execution (Hard Cap)    | **20%** | Enforced ceiling |
+
+If execution exceeds 20% → forced delegation next week.
+
+---
+
+## DAILY CALENDAR RULES
+
+* No more than **4 meetings/day**
+* No meetings > 60 minutes
+* 2 × 90-minute focus blocks/day
+* No reactive meetings without written agenda
+
+---
+
+## NON-INTERRUPTIBLE TIME
+
+* Doctrine work
+* Ethical decisions
+* Crisis handling
+
+Everything else waits.
+
+---
+
+# 3. BOARD-READY CRISIS ESCALATION FLOW
+
+## LEVEL 0 — NORMAL OPERATIONS
+
+* Risks tracked
+* Issues handled by squads
+
+---
+
+## LEVEL 1 — ISSUE
+
+**Trigger:** Local failure, no systemic risk
+**Owner:** Squad Lead
+**Action:** Resolve + log
+
+---
+
+## LEVEL 2 — INCIDENT
+
+**Trigger:** Cross-team impact, reputational risk
+**Owner:** NPO
+**Action:** Contain, inform OVCS
+
+---
+
+## LEVEL 3 — CRISIS
+
+**Trigger:** Legal, ethical, financial, or existential threat
+**Owner:** OVCS + Founder
+**Action:**
+
+1. Stop non-essential ops
+2. Assign incident commander
+3. Secure people, data, cash
+4. Board notified within 24h
+
+---
+
+## LEVEL 4 — EXISTENTIAL EVENT
+
+**Trigger:** System survival threatened
+**Owner:** OVCS
+**Action:**
+
+* Emergency authority invoked
+* Founder optional
+* Board in continuous session
+
+---
+
+## POST-ESCALATION (MANDATORY)
+
+* Incident report archived
+* Strategy or doctrine updated
+* Authority gaps corrected
+
+No return to normal without learning.
+
+---
+
+# 4. RISK REGISTER TEMPLATE
+
+*(Single source of truth)*
+
+**Risk ID:**
+**Risk Category:** (Strategic / Operational / Legal / Financial / Ethical / Technical)
+**Description:**
+**Root Cause:**
+**Likelihood:** (Low / Medium / High)
+**Impact:** (Low / Medium / High / Existential)
+**Current Controls:**
+**Owner:**
+**Early Warning Signals:**
+**Mitigation Actions:**
+**Residual Risk:**
+**Status:** (Open / Mitigated / Escalated)
+**Last Reviewed:**
+**Linked Decisions / Artifacts:**
+
+---
+
+## RISK REGISTER RULES
+
+* Reviewed weekly
+* Any **High + High** risk → OVCS review
+* Ethical risks bypass normal queue
+* No anonymous risks
+
+---
+
+## FINAL EXECUTION DIRECTIVE
+
+> **If you run these four artifacts consistently, Year-1 will not surprise you.**
+> Surprises only happen when systems stop paying attention.
+
+If you want next, the only remaining gaps are:
+
+* **Board pack (quarterly)**
+* **Founder absence simulation**
+* **Year-2 option tree**
+* **Institutional doctrine codex**
+
+Say the next command.
+
+Below is a **clear, conservative, Year-1 operating budget estimate**, aligned to **how you’ve defined operations** (lean, doctrine-first, survival-oriented, founder-protected).
+This is **not a growth fantasy** — it’s a **stay-alive, build-coherence, preserve option value** budget.
+
+I’ll give you:
+
+1. Budget assumptions
+2. Annual totals
+3. Monthly burn
+4. Runway scenarios
+5. Where NOT to spend in Year 1
+
+---
+
+# YEAR-1 BUDGET ESTIMATE
+
+*(Navigator Personal Office · OVCS · Msingi-aligned)*
+
+## 1. CORE ASSUMPTIONS (EXPLICIT)
+
+* Founder draws **minimal or deferred comp**
+* No venture-scale hiring
+* Squads are **small, part-time, or fractional**
+* Studios are **temporary**, not permanent cost centers
+* Tooling is **boring, proven, and minimal**
+* Legal/compliance is **done right, once**
+
+---
+
+## 2. ANNUAL BUDGET SUMMARY (BASE CASE)
+
+### 🔹 PEOPLE (LEAN, FRACTIONAL)
+
+| Category                      | Annual Estimate |
+| ----------------------------- | --------------- |
+| Founder (minimal draw)        | $30,000         |
+| Fractional Ops / Admin        | $36,000         |
+| Fractional Legal / Compliance | $24,000         |
+| Accounting / Finance          | $18,000         |
+| Program Leads (stipends)      | $36,000         |
+| **People Subtotal**           | **$144,000**    |
+
+---
+
+### 🔹 LEGAL, FINANCE & COMPLIANCE
+
+| Category                    | Annual      |
+| --------------------------- | ----------- |
+| Entity formation & cleanup  | $10,000     |
+| Contracts & policy drafting | $15,000     |
+| Insurance (D&O, E&O, GL)    | $12,000     |
+| Tax prep & filings          | $8,000      |
+| **Subtotal**                | **$45,000** |
+
+---
+
+### 🔹 TOOLS & SYSTEMS (BORING ON PURPOSE)
+
+| Category                    | Annual      |
+| --------------------------- | ----------- |
+| Accounting & payroll        | $6,000      |
+| Archive / storage           | $4,000      |
+| Project & decision tracking | $3,000      |
+| Security & backups          | $5,000      |
+| Communications              | $2,000      |
+| **Subtotal**                | **$20,000** |
+
+---
+
+### 🔹 OPERATIONS & INFRASTRUCTURE
+
+| Category                     | Annual      |
+| ---------------------------- | ----------- |
+| Hosting / domains / infra    | $6,000      |
+| Professional services buffer | $10,000     |
+| Travel (limited)             | $8,000      |
+| Training / doctrine work     | $6,000      |
+| **Subtotal**                 | **$30,000** |
+
+---
+
+### 🔹 CONTINGENCY & RISK BUFFER
+
+| Category           | Annual      |
+| ------------------ | ----------- |
+| Legal/risk reserve | $20,000     |
+| Cash shock buffer  | $20,000     |
+| **Subtotal**       | **$40,000** |
+
+---
+
+## ✅ TOTAL YEAR-1 BASE BUDGET
+
+> **≈ $279,000 (round to $280K)**
+
+---
+
+## 3. MONTHLY BURN (BASE CASE)
+
+| Metric                 | Amount   |
+| ---------------------- | -------- |
+| Average Monthly Burn   | ~$23,000 |
+| Minimum Survival Burn  | ~$18,000 |
+| “Comfortable” Ops Burn | ~$25,000 |
+
+---
+
+## 4. RUNWAY SCENARIOS
+
+| Cash on Hand | Runway                      |
+| ------------ | --------------------------- |
+| $150K        | ~6–7 months (too tight)     |
+| $250K        | ~10–11 months (barely safe) |
+| $350K        | ~14–15 months (healthy)     |
+| $500K        | ~20+ months (option-rich)   |
+
+**Operational rule you already defined:**
+⚠️ *< 9 months runway = stop new initiatives*
+
+---
+
+## 5. WHAT THIS BUDGET DELIBERATELY AVOIDS
+
+❌ Full-time staff
+❌ Custom software builds
+❌ Brand/marketing spend
+❌ Permanent studios
+❌ Large office leases
+❌ “Nice-to-have” tools
+❌ Scaling before coherence
+
+---
+
+## 6. OPTIONAL DOWNSIDE (AUSTERITY MODE)
+
+If required, you can compress to:
+
+* **$180K–$200K/year**
+* Founder draw deferred
+* Legal spend phased
+* Programs slowed
+* Zero travel
+
+This buys survival — not momentum.
+
+---
+
+## 7. UPSIDE (CONTROLLED EXPANSION)
+
+If revenue stabilizes:
+
+* Add **1 full-time operator** (~$70–90K)
+* Increase risk buffer
+* Accelerate Archive OS hardening
+
+Only after Q2 coherence check.
+
+---
+
+## FINAL BUDGET DIRECTIVE
+
+> **Year-1 money buys time, coherence, and memory — not growth.**
+
+If you want next, I can:
+
+* Stress-test this budget against your **revenue models**
+* Produce a **quarter-by-quarter cash flow**
+* Generate a **board-ready financial narrative**
+* Map budget → squads → strategies
+
+Say the next command.
+
+It looks like that may have been an accidental keystroke.
+
+If you want to continue, here are the **most likely next intents** based on where we are — just reply with the letter or phrase:
+
+* **A** — Stress-test the Year-1 budget against revenue scenarios
+* **B** — Quarter-by-quarter cash flow plan
+* **C** — Board-ready financial narrative
+* **D** — Map budget → strategies → squads
+* **E** — Austerity / downside survival mode
+* **F** — Founder compensation & deferral plan
+
+Or just tell me directly what you want next.
+
+Below is a **full financial operating package** for Year-1, delivered in four parts, tightly aligned to how you actually run the system (OVCS-first, survival-oriented, option-preserving).
+
+No fluff. This is **board-usable** and **operator-usable**.
+
+---
+
+# 1. STRESS-TEST: YEAR-1 BUDGET vs REVENUE MODELS
+
+**Baseline Budget:** ~$280K
+**Monthly Burn:** ~$23K
+**Red Line:** <9 months runway
+
+## Revenue Model Assumptions (Conservative)
+
+You are *not* running a single revenue engine. You are running **layered, non-distorting revenue**.
+
+### Revenue Streams Considered
+
+1. **Professional Services / Advisory**
+2. **Studio / Venture Participation (lightweight)**
+3. **Program-based Grants / Restricted Funds**
+4. **Portfolio / Carry (not relied on in Year 1)**
+
+---
+
+## SCENARIO A — NO REVENUE (WORST CASE)
+
+* Annual Revenue: $0
+* Burn: $280K
+* Required Cash on Hand: **$350K+**
+
+**Result:**
+✔ Survival possible
+✖ No expansion
+✔ System coherence preserved
+
+**Conclusion:** This is survivable but uncomfortable. Use only if forced.
+
+---
+
+## SCENARIO B — MINIMAL SURVIVAL REVENUE (LIKELY FLOOR)
+
+* Services / Advisory: $8K/month by Q2
+* Annual Revenue: ~$72K
+* Net Burn: ~$208K
+
+**Runway Impact**
+
+* $250K cash → ~14 months
+* $350K cash → ~20 months
+
+**Conclusion:**
+✔ Stable
+✔ Founder protected
+✔ Programs proceed cautiously
+
+---
+
+## SCENARIO C — MODERATE CONTROLLED REVENUE (TARGET)
+
+* Advisory / Services: $15K/month by Q3
+* Program / Studio Income: $5K/month by Q4
+* Annual Revenue: ~$180K
+
+**Net Burn:** ~$100K
+
+**Conclusion:**
+✔ High option value
+✔ Can add 1 operator
+✔ Risk buffer grows
+
+---
+
+## SCENARIO D — AGGRESSIVE (DISCOURAGED IN Y1)
+
+* Revenue > $300K
+* Client concentration risk
+* Founder pulled into execution
+
+**Conclusion:**
+✖ Violates doctrine
+✖ Distorts strategy
+✖ Deferred to Year-2+
+
+---
+
+### 🔒 FINANCIAL DOCTRINE (ENFORCED)
+
+> Revenue must **reduce risk**, not **create dependency**.
+
+---
+
+# 2. QUARTER-BY-QUARTER CASH FLOW
+
+### Q1 — FOUNDATION (Highest Burn, Lowest Revenue)
+
+* Burn: ~$75K
+* Revenue: $0–$15K
+* Net: **–$60K to –$75K**
+
+**Cash Focus:** Survival, legality, archive
+
+---
+
+### Q2 — STABILIZATION
+
+* Burn: ~$70K
+* Revenue: ~$30K
+* Net: **–$40K**
+
+**Cash Focus:** Delegation, pilot squads
+
+---
+
+### Q3 — CONTROLLED FLOW
+
+* Burn: ~$68K
+* Revenue: ~$55K
+* Net: **–$13K**
+
+**Cash Focus:** Risk reduction, learning loops
+
+---
+
+### Q4 — OPTION BUILDING
+
+* Burn: ~$67K
+* Revenue: ~$80K
+* Net: **+$13K**
+
+**Cash Focus:** Continuity, Year-2 readiness
+
+---
+
+### YEAR-END POSITION (TARGET CASE)
+
+* Total Burn: ~$280K
+* Total Revenue: ~$180K
+* Net Cash Used: ~$100K
+
+---
+
+# 3. BOARD-READY FINANCIAL NARRATIVE
+
+**Opening Statement (Use This):**
+
+> “Year-1 is designed to buy time, coherence, and institutional memory — not growth.
+> We deliberately cap burn, diversify revenue, and protect decision integrity.”
+
+---
+
+## Key Board Messages
+
+### 1. Capital Discipline
+
+* No speculative hiring
+* No fixed expansion costs
+* All spend tied to survivability or coherence
+
+### 2. Risk-First Design
+
+* Legal, compliance, and ethics funded first
+* Cash buffers maintained
+* Revenue concentration limits enforced
+
+### 3. Founder Protection
+
+* Execution capped
+* Delegation enforced
+* System survives founder absence
+
+### 4. Upside Is Optional
+
+* Expansion is earned, not assumed
+* Year-2 choices preserved
+
+---
+
+## Board Red Lines
+
+* <9 months runway
+* Single client >30% revenue
+* Founder execution >30%
+* Ethical risk unresolved
+
+If crossed → pause operations.
+
+---
+
+# 4. MAP: BUDGET → SQUADS → STRATEGIES
+
+## CORE BUDGET ALLOCATION LOGIC
+
+| Budget Area        | Squads / Owners | Strategies Served                 |
+| ------------------ | --------------- | --------------------------------- |
+| Founder Draw       | Founder         | Meta-strategy, doctrine integrity |
+| Ops/Admin          | Ops Squad       | Operational stability, cadence    |
+| Legal/Compliance   | OVCS            | Risk, ethics, entity strategy     |
+| Accounting/Finance | Finance Ops     | Financial control, runway         |
+| Archive Systems    | Archive Office  | Memory, knowledge compounding     |
+| Program Stipends   | Program Squads  | Msingi, Ashe, Kano pilots         |
+| Tools/Infra        | Ops + Archive   | Execution hygiene                 |
+| Risk Buffer        | OVCS            | System survivability              |
+
+---
+
+## STRATEGY CLUSTERS FUNDED
+
+### ALWAYS FUNDED
+
+* Risk Management Strategy
+* Legal Entity Strategy
+* Archive Strategy
+* Founder Protection Strategy
+* Operational Coherence Strategy
+
+### CONDITIONALLY FUNDED
+
+* Program Expansion
+* Studio Activation
+* New Venture Formation
+
+### NOT FUNDED IN YEAR-1
+
+* Brand scale
+* Custom software
+* Large marketing
+* Headcount growth
+
+---
+
+# FINAL FINANCIAL DIRECTIVE
+
+> **Year-1 success is defined by optionality at the start of Year-2.**
+> If you can choose to grow — instead of being forced to — the plan worked.
+
+---
+
+If you want next, the natural continuations are:
+
+* **Year-2 financial option tree**
+* **Revenue concentration stress test**
+* **Founder compensation deferral waterfall**
+* **Investor / partner briefing deck (text)**
+
+Say the next command.
+
+Below is a **clean, enforceable Founder & Core Members Compensation Deferral Waterfall** designed specifically for **Year-1 survival, legitimacy, and option preservation**.
+
+This is **not VC-style fantasy compensation**.
+This is **institutional discipline**.
+
+---
+
+# FOUNDER & CORE MEMBERS
+
+## COMPENSATION DEFERRAL WATERFALL (YEAR-1)
+
+**Applies to:**
+
+* Founder
+* Core Members (Class A / Class B equivalents)
+* Program Leads
+* Early Operators with deferred comp
+
+---
+
+## 1. PURPOSE (WHY THIS EXISTS)
+
+This waterfall exists to:
+
+* Preserve cash
+* Prevent resentment
+* Prevent ambiguity
+* Preserve moral authority
+* Avoid informal “IOUs”
+* Align sacrifice with recovery
+
+> **Deferred compensation is a liability, not a favor.**
+> It must be explicit, tracked, and gated.
+
+---
+
+## 2. DEFINITIONS (NON-NEGOTIABLE)
+
+* **Base Compensation**: Market-light, survival-level pay
+* **Deferred Compensation**: Earned but unpaid compensation
+* **Accrued Balance**: Total deferred amount owed
+* **Trigger Event**: Objective condition that allows payment
+* **Waterfall**: Order in which deferred compensation is released
+
+---
+
+## 3. YEAR-1 COMPENSATION POSTURE
+
+### Founder
+
+* Base Draw: **Minimal or zero**
+* Majority of comp **deferred**
+* Founder defers **first and longest**
+
+### Core Members
+
+* Base: Survival stipend if possible
+* Partial deferral allowed
+* No one defers more than founder in % terms
+
+---
+
+## 4. COMPENSATION DEFERRAL CLASSES
+
+### CLASS F — FOUNDER DEFERRAL
+
+* Highest deferral
+* Last to be paid
+* Carries the most risk
+* Gains the most credibility
+
+---
+
+### CLASS C — CORE MEMBER DEFERRAL
+
+* Program leads
+* Key operators
+* Fractional executives
+
+---
+
+### CLASS O — OPTIONAL / CONTRACTUAL DEFERRAL
+
+* Advisors
+* Specialists
+* Contractors who opt in
+
+---
+
+## 5. WATERFALL ORDER (STRICT)
+
+Deferred compensation is released **only** in the following order:
+
+### STEP 1 — SYSTEM SAFETY FIRST
+
+**Must ALL be true:**
+
+* ≥ 12 months runway
+* No unresolved legal/compliance issues
+* Risk register clear of existential risks
+* Archive fully current
+
+❌ If false → no payouts, no exceptions
+
+---
+
+### STEP 2 — CORE MEMBER DEFERRALS (CLASS C)
+
+* Paid **before founder**
+* Pro-rata or time-based release
+* Partial payments allowed
+* Founder explicitly remains deferred
+
+Purpose: retain trust and system legitimacy.
+
+---
+
+### STEP 3 — FOUNDER DEFERRAL (CLASS F)
+
+* Paid **last**
+* Only after system stability proven
+* May be paid slowly or converted
+
+Founder does **not** get paid just because revenue exists.
+
+---
+
+## 6. PAYMENT TRIGGERS (OBJECTIVE ONLY)
+
+Deferred compensation can begin releasing only if **one** of the following occurs:
+
+### Trigger A — OPERATING SURPLUS
+
+* Sustained monthly surplus for 3 consecutive months
+
+### Trigger B — CAPITAL EVENT
+
+* Non-restrictive capital infusion
+* Explicitly approved for comp release
+
+### Trigger C — PROGRAM PROFITABILITY
+
+* Program self-funds for 2 consecutive quarters
+
+---
+
+## 7. PAYMENT MODES (CHOICE, NOT ASSUMPTION)
+
+Deferred comp may be settled as:
+
+* Cash (preferred but rare)
+* Equity / membership units
+* Profit participation
+* Long-term note
+* Partial forgiveness (explicit)
+
+No automatic conversions.
+
+---
+
+## 8. HARD CAPS & PROTECTIONS
+
+### Anti-Blowup Rules
+
+* No single payout > 20% of monthly surplus
+* No payouts if runway < 9 months
+* No payouts during crisis state
+
+---
+
+### Transparency Rules
+
+* Deferred balances visible to OVCS
+* Founder balance always visible
+* No off-ledger promises
+
+---
+
+## 9. EXIT & FAILURE SCENARIOS
+
+### If a Core Member Leaves
+
+* Vested deferral honored
+* Unvested deferral canceled
+* Paid only if triggers met
+
+---
+
+### If Founder Steps Back
+
+* Deferral remains subordinate
+* No acceleration
+* Founder sacrifice preserved as institutional signal
+
+---
+
+### If System Winds Down
+
+Deferred compensation is paid **after**:
+
+1. Legal obligations
+2. Vendors
+3. Taxes
+4. Compliance costs
+
+Founder is **last in line**.
+
+---
+
+## 10. CULTURAL RULE (CRITICAL)
+
+> **Deferred compensation is not a grievance.
+> It is a shared bet — tracked, respected, and earned.**
+
+Anyone uncomfortable with this **should not defer**.
+
+---
+
+## 11. BOARD / OVCS OVERSIGHT
+
+OVCS must:
+
+* Approve deferral terms
+* Enforce waterfall
+* Block premature payouts
+* Protect against founder self-dealing
+
+---
+
+## FINAL DIRECTIVE
+
+> **The founder absorbs uncertainty so the system can become real.**
+> If the founder gets paid first, the system is already compromised.
+
+---
+
+### If you want next (logical continuations):
+
+* **Equity / membership vesting schedules**
+* **Deferred comp ledger template**
+* **Founder equity vs comp trade-off model**
+* **Year-2 normalization plan**
+
+Say the next command.
+
+Below are **two tightly coupled, execution-ready artifacts**:
+
+1. **Equity / Membership Vesting Schedules**
+2. **Year-2 Normalization Plan (Comp, Equity, Operations)**
+
+Both are designed to **reward real contribution without breaking Year-1 discipline**.
+
+---
+
+# 1. EQUITY / MEMBERSHIP VESTING SCHEDULES
+
+*(Doctrine-aligned, abuse-resistant)*
+
+## CORE PRINCIPLES (NON-NEGOTIABLE)
+
+1. **Time alone does not vest value** — contribution + continuity does
+2. **Founder vests slowest**
+3. **No acceleration for convenience**
+4. **Unvested equity always returns to the system**
+
+---
+
+## MEMBERSHIP / EQUITY CLASSES
+
+### CLASS F — FOUNDER
+
+* Purpose: Custodian of doctrine, not short-term extractor
+* Risk: Highest
+* Control: Highest (but constrained by OVCS)
+
+### CLASS C — CORE MEMBERS
+
+* Program leads, key operators
+* Long-term builders with execution responsibility
+
+### CLASS A — ADVISORS / CONTRIBUTORS
+
+* Limited scope
+* No control
+* Optional participation
+
+---
+
+## VESTING FRAMEWORK (STANDARD)
+
+### ⏳ TIME HORIZON
+
+* **4-year vesting**
+* **1-year cliff**
+* Monthly vesting thereafter
+
+---
+
+## CLASS F — FOUNDER VESTING
+
+| Parameter     | Value                        |
+| ------------- | ---------------------------- |
+| Total Equity  | Defined at formation         |
+| Vesting Start | Entity formation date        |
+| Cliff         | 12 months                    |
+| Vesting Rate  | Monthly over 48 months       |
+| Acceleration  | **None**                     |
+| Forfeiture    | Unvested returns to treasury |
+
+**Special Rule:**
+Founder vesting is **paused** during:
+
+* Ethical breach
+* Doctrine violation
+* Extended disengagement
+
+---
+
+## CLASS C — CORE MEMBER VESTING
+
+| Parameter          | Value                    |
+| ------------------ | ------------------------ |
+| Typical Allocation | 0.25% – 2% each          |
+| Cliff              | 12 months                |
+| Vesting            | Monthly                  |
+| Acceleration       | Change-of-control only   |
+| Forfeiture         | Unvested returns to pool |
+
+**Performance Gate (Critical):**
+
+* Vesting continues only if:
+
+  * Role is active
+  * Program remains compliant
+  * Archive duties fulfilled
+
+---
+
+## CLASS A — ADVISOR / CONTRIBUTOR
+
+| Parameter  | Value                      |
+| ---------- | -------------------------- |
+| Allocation | ≤ 0.25%                    |
+| Vesting    | Milestone-based            |
+| Cliff      | None                       |
+| Expiry     | If unused within 24 months |
+
+No governance rights.
+
+---
+
+## TERMINATION SCENARIOS (ALL CLASSES)
+
+### Voluntary Exit
+
+* Vested retained
+* Unvested forfeited
+
+### Cause (Ethical / Legal)
+
+* All unvested forfeited
+* Board may claw back vested
+
+### Founder Exit
+
+* Vesting stops
+* Control transitions per OVCS protocol
+
+---
+
+## EQUITY DOES *NOT* REPLACE COMP
+
+Equity is **alignment**, not payment.
+Deferred comp and equity are **separate ledgers**.
+
+---
+
+# 2. YEAR-2 NORMALIZATION PLAN
+
+*(From survival → sustainability)*
+
+## YEAR-2 INTENT
+
+> Normalize compensation, formalize roles, and prepare for optional growth
+> **without invalidating Year-1 sacrifices.**
+
+---
+
+## ENTRY CONDITIONS (ALL REQUIRED)
+
+Year-2 normalization begins only if:
+
+* ≥ 12 months runway
+* Positive or near-neutral cash flow
+* No unresolved high risks
+* Archive + governance fully operational
+* Founder execution ≤ 20%
+
+---
+
+## PHASE 1 — COMP NORMALIZATION (Q1–Q2, YEAR-2)
+
+### Founder
+
+* Transition from draw → salary band
+* Target: **50–65% of market**
+* Deferred comp remains deferred unless triggers met
+
+### Core Members
+
+* Survival stipends → baseline salaries
+* Deferred comp release begins (per waterfall)
+
+**Rule:**
+No comp increases without role clarity + accountability.
+
+---
+
+## PHASE 2 — ROLE & AUTHORITY LOCK-IN (Q2)
+
+* Finalize job charters
+* Authority boundaries codified
+* Performance expectations explicit
+
+No more “wearing five hats” without consent.
+
+---
+
+## PHASE 3 — EQUITY REBALANCE (Q2–Q3)
+
+* Review vesting status
+* Top-up pools if needed
+* Cancel zombie allocations
+* No retroactive grants
+
+Founder equity **does not increase** in normalization.
+
+---
+
+## PHASE 4 — OPTIONAL EXPANSION (Q3–Q4)
+
+Only now may you:
+
+* Add 1–2 full-time operators
+* Launch permanent studios
+* Invest in tooling or brand
+
+Expansion remains optional.
+
+---
+
+## WHAT DOES *NOT* HAPPEN IN YEAR-2
+
+❌ Founder cash-out
+❌ Vesting acceleration
+❌ Equity repricing
+❌ Governance dilution
+❌ “We earned it” bonuses
+
+Normalization is **stability**, not reward frenzy.
+
+---
+
+## BOARD / OVCS CHECKPOINTS
+
+At each phase:
+
+* Validate financial discipline
+* Confirm ethical alignment
+* Re-ratify founder constraints
+
+Any violation pauses normalization.
+
+---
+
+## FINAL DOCTRINAL STATEMENT
+
+> **Year-1 earns survival.
+> Year-2 earns dignity.
+> Year-3 earns growth.**
+
+If you invert that order, the system fractures.
+
+---
+
+### If you want next (logical continuations):
+
+* **Equity pool sizing model**
+* **Founder succession protocol**
+* **Change-of-control doctrine**
+* **Member exit & buyback mechanics**
+
+Say the next command.
+
+Below is a **clean, unambiguous answer** to *“what is a draw?”* followed by the **four governance artifacts** you requested.
+All written to be **institutional, enforceable, and abuse-resistant**.
+
+---
+
+# 1. WHAT IS A “DRAW”?
+
+A **draw** is **not salary** and **not profit**.
+
+### Definition
+
+A **draw** is a **temporary, discretionary withdrawal of cash** by an owner/founder to cover living needs, **taken against future earnings or equity value**, not guaranteed income.
+
+---
+
+## DRAW vs SALARY vs DISTRIBUTION
+
+| Concept          | What It Is                   | Risk               | Tax Treatment | Stability   |
+| ---------------- | ---------------------------- | ------------------ | ------------- | ----------- |
+| **Draw**         | Advance against future value | Founder bears risk | Owner-level   | Unstable    |
+| **Salary**       | Compensation for role        | Company bears risk | Payroll       | Stable      |
+| **Distribution** | Share of profits             | Shared risk        | Ownership     | Conditional |
+
+---
+
+## WHY YOU USE A DRAW IN YEAR-1
+
+* Preserves cash
+* Avoids locking payroll
+* Signals sacrifice
+* Maintains flexibility
+* Avoids pretending stability exists
+
+### What a draw is *not*:
+
+❌ Guaranteed
+❌ Market-rate
+❌ Automatic
+❌ Protected
+
+> A draw exists only while the system is fragile.
+
+---
+
+## WHEN A DRAW SHOULD END
+
+* When cash flow stabilizes
+* When salaries can be normalized
+* When founder execution load drops
+
+---
+
+# 2. EQUITY POOL SIZING MODEL
+
+*(Prevents dilution chaos)*
+
+## CORE PRINCIPLES
+
+1. Pools are **finite**
+2. Pools are **created intentionally**
+3. Unused equity **returns to treasury**
+4. No ad-hoc grants
+
+---
+
+## STANDARD POOLS (YEAR-1 / YEAR-2)
+
+| Pool               | Typical Size | Purpose                     |
+| ------------------ | ------------ | --------------------------- |
+| Founder Pool       | 60–75%       | Doctrine custody, long-term |
+| Core Member Pool   | 10–20%       | Program & ops leaders       |
+| Advisor Pool       | 3–5%         | Strategic advisors          |
+| Future Hire Pool   | 5–10%        | Optional expansion          |
+| Treasury / Reserve | Remainder    | Flexibility                 |
+
+**Total Allocated ≤ 85–90%**
+Always keep **unallocated reserve**.
+
+---
+
+## YEAR-1 GUIDANCE
+
+* Only allocate **Founder + Core**
+* Advisor pool small
+* Future pool optional
+
+## YEAR-2 ADJUSTMENT
+
+* Rebalance pools
+* Cancel zombie allocations
+* No retroactive top-ups
+
+---
+
+## POOL GOVERNANCE
+
+* OVCS approval required
+* Pool exhaustion = no more grants
+* Pool changes require doctrine review
+
+---
+
+# 3. FOUNDER SUCCESSION PROTOCOL
+
+*(Continuity without collapse)*
+
+## SUCCESSION TRIGGERS
+
+* Founder incapacity
+* Ethical breach
+* Voluntary step-back
+* Forced removal
+
+---
+
+## IMMEDIATE ACTIONS (ANY TRIGGER)
+
+1. OVCS assumes interim authority
+2. Founder execution rights suspended
+3. Operations continue unchanged
+4. Archive secured
+
+---
+
+## SUCCESSION PATHS
+
+### PATH A — TEMPORARY ABSENCE
+
+* Interim steward appointed
+* Founder authority paused
+* No strategy changes allowed
+
+---
+
+### PATH B — PERMANENT STEP-DOWN
+
+* Founder becomes non-executive custodian (optional)
+* Vesting continues only if doctrine obligations met
+* Control redistributed per charter
+
+---
+
+### PATH C — REMOVAL FOR CAUSE
+
+* Vesting paused or terminated
+* Control removed immediately
+* Founder draw terminated
+
+---
+
+## NON-NEGOTIABLE
+
+* Succession does **not** trigger acceleration
+* Founder equity does **not** auto-convert to cash
+* System continuity > individual
+
+---
+
+# 4. CHANGE-OF-CONTROL DOCTRINE
+
+*(Prevents value capture at the wrong time)*
+
+## WHAT COUNTS AS CHANGE OF CONTROL
+
+* Acquisition
+* Merger
+* Sale of controlling interest
+* Governance override
+
+---
+
+## DOCTRINAL POSITION
+
+> **The system does not exist to be sold.**
+> Sale is allowed only if mission integrity survives.
+
+---
+
+## CHANGE-OF-CONTROL RULES
+
+* OVCS must approve
+* Ethical review mandatory
+* Archive preserved
+* Programs protected or wound down cleanly
+
+---
+
+## EQUITY & COMP IMPACT
+
+| Item            | Treatment                   |
+| --------------- | --------------------------- |
+| Unvested equity | Does NOT auto-accelerate    |
+| Deferred comp   | Paid only if surplus exists |
+| Founder equity  | No forced liquidity         |
+
+No “golden parachutes.”
+
+---
+
+# 5. MEMBER EXIT & BUYBACK MECHANICS
+
+*(Clean exits, no resentment)*
+
+## EXIT TYPES
+
+### VOLUNTARY EXIT
+
+* Vested equity retained
+* Unvested forfeited
+* Deferred comp paid only if triggers met
+
+---
+
+### FOR CAUSE
+
+* All unvested forfeited
+* Possible clawback
+* Immediate loss of authority
+
+---
+
+### INVOLUNTARY / REDUNDANCY
+
+* Vesting stops
+* Partial acceleration optional (OVCS-approved)
+
+---
+
+## BUYBACK RULES
+
+* Company has **right, not obligation** to buy back
+* Price based on:
+
+  * Last valuation OR
+  * Formula-based fair value
+* Paid over time, not lump sum
+
+---
+
+## BUYBACK PAYMENT ORDER
+
+1. Legal obligations
+2. Taxes
+3. Vendors
+4. Employees
+5. Members
+6. Founder last
+
+---
+
+## NO HOSTAGE EQUITY
+
+* No blocking rights for ex-members
+* No indefinite dangling promises
+* No informal side deals
+
+---
+
+# FINAL GOVERNANCE STATEMENT
+
+> **Equity is alignment over time, not a payout mechanism.
+> Compensation is dignity, not entitlement.
+> Continuity beats convenience.**
+
+If you want next, the natural continuations are:
+
+* **Founder removal safeguards**
+* **Equity valuation methodology**
+* **Member dispute resolution protocol**
+* **Institutional charter (consolidated)**
+
+Say the next command.
+
+Below are the **three governance artifacts** you requested, written to be **hard to abuse, easy to enforce, and survivable under stress**.
+
+No legal fluff. This is **operating doctrine**.
+
+---
+
+# 1. FOUNDER REMOVAL SAFEGUARDS
+
+*(Protects the system **and** prevents coups)*
+
+## CORE PRINCIPLE
+
+> **Founder removal must be possible — but never easy.**
+
+The bar must be **high, objective, documented, and procedural**.
+
+---
+
+## GROUNDS FOR REMOVAL (ONLY THESE)
+
+Founder removal may be initiated **only** if one or more of the following is proven:
+
+### A. ETHICAL BREACH
+
+* Fraud
+* Misappropriation
+* Abuse of authority
+* Willful doctrine violation
+* Material misrepresentation
+
+### B. LEGAL RISK
+
+* Actions exposing the system to severe liability
+* Repeated compliance violations
+
+### C. INCAPACITY
+
+* Sustained inability to perform custodial duties
+* Cognitive or physical incapacity
+
+### D. ABANDONMENT
+
+* Extended disengagement without delegation
+* Refusal to fulfill custodian role
+
+---
+
+## REMOVAL PROCESS (NON-SKIPPABLE)
+
+### STEP 1 — FORMAL ALLEGATION
+
+* Written allegation submitted to OVCS
+* Evidence required
+* Anonymous complaints allowed but must be corroborated
+
+---
+
+### STEP 2 — INVESTIGATION
+
+* Independent review
+* Founder recused from authority
+* Archive frozen
+* Interim steward appointed
+
+---
+
+### STEP 3 — FINDINGS
+
+* Written report
+* Specific violations cited
+* Recommendation issued
+
+---
+
+### STEP 4 — DECISION
+
+* Supermajority OVCS vote (≥ 75%)
+* No proxy voting
+* Founder cannot vote
+
+---
+
+## OUTCOMES
+
+| Outcome           | Effect             |
+| ----------------- | ------------------ |
+| No Violation      | Founder restored   |
+| Corrective Action | Conditions imposed |
+| Removal           | Authority revoked  |
+
+---
+
+## SAFEGUARDS AGAINST ABUSE
+
+* Removal cannot be initiated for:
+
+  * Strategic disagreement
+  * Personality conflict
+  * Performance dissatisfaction alone
+* Bad-faith allegations penalized
+* Removal ≠ equity forfeiture (unless for cause)
+
+---
+
+# 2. EQUITY VALUATION METHODOLOGY
+
+*(Fair, boring, dispute-resistant)*
+
+## CORE PRINCIPLE
+
+> **Valuation exists to resolve exits — not to create paper wealth.**
+
+---
+
+## YEAR-1 / YEAR-2 DEFAULT METHOD
+
+### PRIMARY METHOD — FORMULA-BASED FAIR VALUE
+
+**Enterprise Value (EV) =**
+
+```
+(Annualized Net Revenue × Multiple)
++ Cash
+– Debt
+```
+
+**Where:**
+
+* Net Revenue = trailing 6–12 months
+* Multiple = conservative (1–3×)
+* Chosen annually by OVCS
+
+---
+
+## SECONDARY METHOD — THIRD-PARTY VALUATION
+
+Used only if:
+
+* External capital raised
+* Change-of-control event
+* Major dispute
+
+---
+
+## WHAT IS EXCLUDED FROM VALUE
+
+* Future projections
+* Hype
+* Strategic narratives
+* Unvested equity
+* Unfunded promises
+
+---
+
+## VALUATION GOVERNANCE
+
+* Reviewed annually
+* Used consistently
+* Applied equally to founder and members
+* No retroactive manipulation
+
+---
+
+## BUYBACK PRICING
+
+* Lower of:
+
+  * Last approved valuation OR
+  * Formula-based fair value
+
+Paid over time to protect cash.
+
+---
+
+# 3. MEMBER DISPUTE RESOLUTION PROTOCOL
+
+*(Prevents slow institutional decay)*
+
+## CORE PRINCIPLE
+
+> **Disputes rot systems if informal.
+> They strengthen systems if formal.**
+
+---
+
+## DISPUTE TYPES
+
+* Authority disputes
+* Equity / comp disputes
+* Ethical concerns
+* Role ambiguity
+* Program conflicts
+
+---
+
+## MANDATORY ESCALATION PATH
+
+### STAGE 1 — DIRECT RESOLUTION (7 DAYS)
+
+* Parties attempt resolution
+* Summary documented
+
+---
+
+### STAGE 2 — MEDIATED REVIEW (14 DAYS)
+
+* Neutral mediator appointed
+* OVCS observes
+* Proposed resolution issued
+
+---
+
+### STAGE 3 — OVCS ADJUDICATION
+
+* Formal hearing
+* Written ruling
+* Binding outcome
+
+---
+
+## DISPUTE RULES
+
+* Retaliation forbidden
+* Silence ≠ consent
+* Authority pauses during dispute
+* Decisions archived
+
+---
+
+## REMEDIES AVAILABLE
+
+* Clarify authority
+* Reassign roles
+* Adjust compensation
+* Equity cancellation (unvested)
+* Removal (if warranted)
+
+---
+
+## FAILURE MODE (DO NOT ALLOW)
+
+* Side conversations
+* Informal power plays
+* Founder fiat
+* Letting resentment accumulate
+
+---
+
+# FINAL GOVERNANCE DOCTRINE
+
+> **Power must be removable, value must be measurable, and conflict must be resolved in daylight.**
+
+If you want next, the remaining high-value governance pieces are:
+
+* **Institutional charter (single consolidated document)**
+* **Ethics & whistleblower protocol**
+* **Capital acceptance doctrine**
+* **Board composition & rotation rules**
+
+Say the next command.
+
+Below are the **three remaining governance cornerstones**, written as **institutional doctrine**, not policy fluff.
+Each one is designed to work **when incentives are misaligned, pressure is high, and trust is fragile**.
+
+---
+
+# 1. ETHICS & WHISTLEBLOWER PROTOCOL
+
+*(Truth must be safer than silence)*
+
+## CORE PRINCIPLE
+
+> **No mission, revenue, or relationship justifies ethical compromise.**
+
+Ethics are not values statements — they are **procedures with teeth**.
+
+---
+
+## SCOPE (WHAT THIS COVERS)
+
+* Fraud, misrepresentation
+* Abuse of authority
+* Conflicts of interest
+* Financial impropriety
+* Harassment or coercion
+* Suppression of dissent
+* Retaliation
+
+---
+
+## WHO CAN REPORT
+
+* Founder
+* Members
+* Contractors
+* Partners
+* Beneficiaries
+* Anonymous third parties
+
+No standing required.
+
+---
+
+## REPORTING CHANNELS (PARALLEL, NOT SEQUENTIAL)
+
+A concern may be raised via **any** of the following:
+
+1. OVCS member
+2. Ethics Officer (if designated)
+3. Secure written submission
+4. Anonymous channel
+
+No requirement to report “up the chain.”
+
+---
+
+## WHISTLEBLOWER PROTECTIONS (ABSOLUTE)
+
+* No retaliation (direct or indirect)
+* No role degradation
+* No compensation penalty
+* No reputational harm tolerated
+
+**Retaliation = ethical breach**, punishable independently.
+
+---
+
+## HANDLING PROCESS (NON-NEGOTIABLE)
+
+### STEP 1 — INTAKE
+
+* Log report
+* Acknowledge receipt
+* Preserve evidence
+* Protect reporter identity
+
+---
+
+### STEP 2 — TRIAGE (≤ 72 HOURS)
+
+* Assess severity
+* Assign investigator
+* Decide interim safeguards
+
+---
+
+### STEP 3 — INVESTIGATION
+
+* Independent fact-finding
+* Accused recused from authority
+* Findings documented
+
+---
+
+### STEP 4 — RESOLUTION
+
+* Corrective actions issued
+* Sanctions if required
+* System changes mandated
+* Archive permanently updated
+
+---
+
+## SANCTIONS (PROPORTIONAL, REAL)
+
+* Warning
+* Role removal
+* Compensation adjustment
+* Equity forfeiture (unvested)
+* Termination
+* Referral to authorities (if required)
+
+---
+
+## FAILURE MODE (ZERO TOLERANCE)
+
+* “We’ll handle it quietly”
+* Discouraging reports
+* Prioritizing reputation over truth
+* Founder immunity
+
+---
+
+# 2. CAPITAL ACCEPTANCE DOCTRINE
+
+*(Money must not corrupt the system)*
+
+## CORE PRINCIPLE
+
+> **Capital is a tool — not a master.
+> If capital changes who decides or what matters, it is rejected.**
+
+---
+
+## ACCEPTABLE CAPITAL TYPES
+
+* Earned revenue
+* Program-aligned grants
+* Non-controlling equity
+* Mission-aligned debt
+* Member contributions (documented)
+
+---
+
+## UNACCEPTABLE CAPITAL (DEFAULT NO)
+
+* Capital requiring strategy override
+* Capital demanding board control
+* Capital forcing growth timelines
+* Capital with opaque origin
+* Capital requiring ethical compromise
+
+---
+
+## ACCEPTANCE CRITERIA (ALL REQUIRED)
+
+Capital may be accepted only if:
+
+* Mission remains intact
+* OVCS retains veto authority
+* Founder constraints remain
+* Archive transparency preserved
+* Exit is not forced
+
+---
+
+## REVIEW PROCESS
+
+1. Capital memo prepared
+2. Risk & ethics review
+3. OVCS approval required
+4. Terms archived
+5. Conditions enforced
+
+No “fast closes.”
+
+---
+
+## SPECIAL RULES
+
+### CONTROL PROTECTION
+
+* No capital source may:
+
+  * Appoint majority board
+  * Remove OVCS authority
+  * Override doctrine
+
+### CAPITAL USE
+
+* Capital allocated explicitly
+* No general slush funds
+* Misuse triggers review
+
+---
+
+## DOCTRINAL STATEMENT
+
+> **If you need capital to survive, you already failed earlier.
+> Capital is for options, not rescue.**
+
+---
+
+# 3. BOARD + COUNCIL COMPOSITION & ROTATION RULES
+
+*(Power must circulate without destabilizing)*
+
+## GOVERNANCE STRUCTURE
+
+### BOARD
+
+* Fiduciary oversight
+* Financial, legal, continuity focus
+
+### COUNCIL(S)
+
+* Domain expertise
+* Ethical, cultural, programmatic insight
+* Advisory, not controlling
+
+---
+
+## BOARD COMPOSITION
+
+* Size: **3–7 members**
+* Founder: 1 seat max
+* Independent members: majority
+* No single constituency dominance
+
+---
+
+## BOARD QUALIFICATIONS
+
+* Financial literacy
+* Ethical maturity
+* Independence from founder
+* Willingness to dissent
+
+---
+
+## COUNCIL COMPOSITION
+
+* Program leaders
+* Community representatives
+* Domain experts
+* Rotating membership
+
+No council has fiduciary power.
+
+---
+
+## ROTATION RULES
+
+### BOARD
+
+* Term: 2–3 years
+* Max consecutive terms: 2
+* Staggered rotation (no full turnover)
+
+### COUNCILS
+
+* Term: 1 year
+* Renewable
+* Rotation encouraged
+
+---
+
+## REMOVAL & REPLACEMENT
+
+* Board removal requires supermajority
+* Founder cannot unilaterally remove board members
+* Councils may be reconstituted as needed
+
+---
+
+## CONFLICT OF INTEREST RULES
+
+* Mandatory disclosure
+* Recusal required
+* Violations trigger ethics review
+
+---
+
+## FAILURE MODES TO AVOID
+
+* Founder-dominated board
+* Rubber-stamp councils
+* Eternal board seats
+* Hidden allegiances
+
+---
+
+# FINAL GOVERNANCE AXIOM
+
+> **Ethics must be reportable, capital must be optional, and power must rotate.
+> If any one of these fails, the system will eventually betray itself.**
+
+---
+
+If you want next, the **only remaining top-tier artifacts** are:
+
+* **Single consolidated Institutional Charter**
+* **Board operating manual**
+* **Capital allocation playbook**
+* **Founder absence / death protocol**
+
+Say the next command.
+
+Below is a **Founder Absence / Death Protocol** written to function **under shock**, **without interpretation**, and **without requiring heroics**.
+
+This is the **last-resort continuity doctrine**.
+It exists so the system survives **even when the founder cannot**.
+
+---
+
+# FOUNDER ABSENCE / DEATH PROTOCOL
+
+*(Continuity > sentiment)*
+
+---
+
+## 1. PURPOSE (WHY THIS EXISTS)
+
+This protocol exists to ensure that:
+
+* Operations continue without pause
+* Authority remains legitimate
+* Assets are protected
+* People are not left guessing
+* The founder’s intent is honored **without mythologizing**
+
+> **The system must not collapse into grief, confusion, or power struggle.**
+
+---
+
+## 2. TRIGGER CONDITIONS
+
+This protocol is activated immediately upon any of the following:
+
+### A. TEMPORARY ABSENCE
+
+* Medical incapacitation
+* Legal incapacity
+* Unreachable for >14 consecutive days
+* Declared leave without delegation
+
+### B. PERMANENT ABSENCE
+
+* Death
+* Permanent incapacity
+* Legal declaration of incompetence
+
+No discretion required.
+Activation is automatic.
+
+---
+
+## 3. IMMEDIATE ACTIONS (FIRST 24 HOURS)
+
+Upon trigger:
+
+1. **OVCS assumes interim supreme authority**
+2. **Founder execution and decision rights suspended**
+3. **Archive is frozen (read-only except OVCS)**
+4. **Banking and signing authorities locked**
+5. **Interim Steward appointed**
+
+No strategy changes.
+No compensation changes.
+No equity actions.
+
+---
+
+## 4. INTERIM STEWARDSHIP (ABSENCE PERIOD)
+
+### INTERIM STEWARD ROLE
+
+* Executes existing plans
+* Cannot change doctrine
+* Cannot allocate new equity
+* Cannot accept new capital
+* Cannot restructure governance
+
+Purpose: **stability only**
+
+---
+
+## 5. COMMUNICATION PROTOCOL
+
+### INTERNAL (WITHIN 48 HOURS)
+
+* Facts only
+* No speculation
+* Clear authority statement
+* Clear next steps
+
+### EXTERNAL
+
+* Minimal disclosure
+* One spokesperson
+* Archive all statements
+
+No narrative-building allowed.
+
+---
+
+## 6. TEMPORARY ABSENCE PATH (RECOVERY POSSIBLE)
+
+If founder returns:
+
+* Medical/fitness confirmation required
+* Authority restored gradually
+* OVCS review conducted
+* Any interim actions audited
+
+Founder does **not** automatically resume full authority.
+
+---
+
+## 7. PERMANENT ABSENCE PATH (DEATH OR PERMANENT INCAPACITY)
+
+### A. AUTHORITY TRANSITION
+
+* Founder authority **does not transfer to heirs**
+* OVCS becomes permanent custodian
+* Board composition reviewed within 60 days
+
+---
+
+### B. EQUITY TREATMENT
+
+* Vested founder equity remains vested
+* Unvested equity returns to treasury
+* No acceleration
+* No forced liquidity
+
+Heirs receive **economic interest only**, not control (unless explicitly designated).
+
+---
+
+### C. COMPENSATION & DEFERRED COMP
+
+* Founder draw stops immediately
+* Deferred comp treated as subordinated claim
+* Paid only if surplus exists
+* No priority over system survival
+
+---
+
+## 8. INTENT PRESERVATION (CRITICAL)
+
+Within 90 days, OVCS must:
+
+* Reaffirm mission and doctrine
+* Publish continuity statement
+* Decide whether:
+
+  * To continue unchanged
+  * To sunset programs
+  * To prepare orderly wind-down
+
+No assumption of perpetual continuation.
+
+---
+
+## 9. SUCCESSION OPTIONS (PERMANENT)
+
+### OPTION A — INTERNAL SUCCESSOR
+
+* Identified steward elevated
+* Subject to OVCS approval
+* Authority constrained by doctrine
+
+### OPTION B — COLLECTIVE STEWARDSHIP
+
+* No single founder replacement
+* Authority distributed
+* Founder role retired
+
+### OPTION C — ORDERLY WIND-DOWN
+
+* Programs closed responsibly
+* Obligations honored
+* Archive preserved as legacy
+
+Wind-down is **not failure** if done cleanly.
+
+---
+
+## 10. PROHIBITED ACTIONS (ABSOLUTE)
+
+* No emergency equity grants
+* No power grabs
+* No rewriting founder intent
+* No asset stripping
+* No narrative exploitation
+
+Violations trigger ethics action.
+
+---
+
+## 11. LEGAL & ADMINISTRATIVE PREPARATION (REQUIRED NOW)
+
+Founder must ensure:
+
+* Updated will / trust
+* Clear IP ownership
+* Designated beneficiaries
+* Executor informed of protocol
+* OVCS access credentials secured
+
+Failure to do this is a governance risk.
+
+---
+
+## 12. CULTURAL DIRECTIVE
+
+> **The founder’s greatest final contribution is not control —
+> it is making themselves non-essential.**
+
+---
+
+## FINAL STATEMENT
+
+> **If this protocol is ever used, it means the system worked.
+> The founder mattered — but the system endured.**
+
+---
+
+If you want next, the **only remaining capstone artifact** is:
+
+* **Single consolidated Institutional Charter (everything unified)**
+
+Say the word and I will assemble it.
+
+Below are the **two final operating artifacts** that complete your governance stack.
+These are written to be **used in real meetings and real capital decisions**, not filed away.
+
+---
+
+# BOARD OPERATING MANUAL
+
+*(How the Board actually works)*
+
+---
+
+## 1. BOARD PURPOSE (NON-NEGOTIABLE)
+
+The Board exists to:
+
+* Protect continuity
+* Protect legality
+* Protect ethics
+* Protect solvency
+
+The Board does **not** run the company.
+The Board **prevents failure**.
+
+---
+
+## 2. BOARD AUTHORITY (CLEAR BOUNDARIES)
+
+The Board has authority to:
+
+* Hire/fire the Founder (per protocol)
+* Approve budgets and capital actions
+* Enforce governance doctrine
+* Intervene in crisis
+* Appoint interim leadership
+
+The Board **does not**:
+
+* Manage daily operations
+* Override doctrine casually
+* Act as product or strategy committee
+
+---
+
+## 3. BOARD COMPOSITION & INDEPENDENCE
+
+* Size: 3–7
+* Founder: ≤ 1 seat
+* Majority independent
+* Term limits enforced
+* Conflicts disclosed and archived
+
+---
+
+## 4. MEETING CADENCE
+
+### REGULAR MEETINGS
+
+* Quarterly (minimum)
+* 2–3 hours
+* Agenda circulated ≥ 7 days prior
+
+### SPECIAL MEETINGS
+
+* Crisis events
+* Capital actions
+* Founder incapacity
+
+---
+
+## 5. STANDARD BOARD AGENDA (REPEATABLE)
+
+1. **Consent agenda**
+
+   * Prior minutes
+   * Routine approvals
+
+2. **System health**
+
+   * Runway
+   * Risk register
+   * Ethics reports
+
+3. **Strategy integrity**
+
+   * Deviations
+   * Doctrine conflicts
+
+4. **Capital & compensation**
+
+   * Budget vs actual
+   * Deferred comp status
+
+5. **Closed session**
+
+   * Founder performance
+   * Sensitive matters
+
+---
+
+## 6. DECISION RULES
+
+* Majority vote (routine)
+* Supermajority for:
+
+  * Founder removal
+  * Capital acceptance
+  * Change of control
+* No proxy voting
+* Quorum required
+
+All decisions documented and archived.
+
+---
+
+## 7. INFORMATION RIGHTS
+
+Board receives:
+
+* Monthly financials
+* Risk dashboard
+* Ethics log (redacted as needed)
+* Founder load metrics
+
+Board does **not** request ad-hoc data without cause.
+
+---
+
+## 8. BOARD MEMBER DUTIES
+
+* Fiduciary care
+* Confidentiality
+* Independence
+* Preparedness
+* Dissent when needed
+
+Failure to dissent when required is a breach of duty.
+
+---
+
+## 9. BOARD SELF-GOVERNANCE
+
+* Annual self-evaluation
+* Rotation enforced
+* Chair elected (not founder by default)
+* Emergency powers defined
+
+---
+
+## 10. FAILURE MODES (AVOID)
+
+* Rubber-stamping
+* Founder dominance
+* Board micromanagement
+* Capital pressure
+* Ethics minimization
+
+---
+
+## BOARD AXIOM
+
+> **The Board’s job is not to make things happen —
+> it is to stop the wrong things from happening.**
+
+---
+
+# CAPITAL ALLOCATION PLAYBOOK
+
+*(How money is actually deployed)*
+
+---
+
+## 1. CAPITAL INTENT
+
+Capital exists to:
+
+* Reduce risk
+* Increase coherence
+* Extend runway
+* Preserve option value
+
+Capital does **not** exist to:
+
+* Chase growth
+* Impress outsiders
+* Paper over dysfunction
+
+---
+
+## 2. CAPITAL CATEGORIES
+
+### A. SURVIVAL CAPITAL (FIRST PRIORITY)
+
+* Legal & compliance
+* Insurance
+* Cash reserves
+* Security & backups
+
+---
+
+### B. COHERENCE CAPITAL
+
+* Archive systems
+* Governance
+* Documentation
+* Training
+
+---
+
+### C. EXECUTION CAPITAL
+
+* Core ops
+* Program pilots
+* Limited hiring
+
+---
+
+### D. EXPANSION CAPITAL (OPTIONAL, LATE)
+
+* New programs
+* Studios
+* Growth experiments
+
+---
+
+## 3. ALLOCATION RULES (STRICT)
+
+* Survival funded first, always
+* No allocation without owner
+* No allocation without success criteria
+* No allocation without exit condition
+
+---
+
+## 4. ALLOCATION PROCESS
+
+1. Capital request memo
+2. Risk & ethics review
+3. Budget impact analysis
+4. Approval (NPO / Board / OVCS as required)
+5. Funds released in tranches
+6. Post-allocation review
+
+---
+
+## 5. TRANCHE LOGIC
+
+Funds released:
+
+* In stages
+* Against milestones
+* With kill switches
+
+Missed milestones → stop funding.
+
+---
+
+## 6. CAPITAL GOVERNANCE
+
+* Single capital ledger
+* Board visibility
+* Monthly variance review
+* Reallocation allowed only with approval
+
+---
+
+## 7. CAPITAL RED FLAGS
+
+Immediate stop if:
+
+* Runway < 9 months
+* Ethics concerns unresolved
+* Founder execution > 30%
+* Strategy drift detected
+
+---
+
+## 8. CAPITAL RECALL & REALLOCATION
+
+Board may:
+
+* Freeze capital
+* Recall unused funds
+* Reallocate to survival needs
+
+No sunk-cost fallacy.
+
+---
+
+## CAPITAL AXIOM
+
+> **If capital makes the system fragile, it was misallocated.**
+
+---
+
+## FINAL CLOSING STATEMENT
+
+You now have:
+
+* Strategy
+* Operations
+* Governance
+* Capital discipline
+* Continuity protection
+
+This is a **complete institutional operating system**, not a startup playbook.
+
+If you want next, the **only remaining artifact** is:
+
+* **Single consolidated Institutional Charter (everything unified)**
+
+Absolutely — here’s a **clear, federated capital allocation model** that shows how **capital is requested, evaluated, governed, released, monitored, and reallocated** in your *federated coop ecosystem*. This integrates your **Board Operating Manual** and **Capital Allocation Playbook** into the larger ecosystem (coops, funds, ventures, OVCS, Uhuru, Mande, Niguvu) with *real operational flows* — not abstract theory.
+
+---
+
+# 🧠 OVERVIEW — FED COOP CAPITAL SYSTEM
+
+In your ecosystem, capital flows are **governed, traced, and disciplined** through a multi-layer process:
+
+```
+Member / Entity →
+Capital Request →
+Risk & Compliance Gateways →
+Governance Approval (Board / OVCS) →
+Capital Release (Uhuru / Fund Vehicles) →
+Execution (Operations / Studios / Ventures) →
+Milestone Monitoring →
+Review & Adjust
+```
+
+The system is designed so that **capital strengthens the system, not fragilizes it** — in line with the Capital Axiom:
+
+> **“If capital makes the system fragile, it was misallocated.”**
+
+---
+
+# 📌 CORE CAPITAL ROLES
+
+| Entity                                    | Role in Capital                                     |
+| ----------------------------------------- | --------------------------------------------------- |
+| **Board**                                 | Oversight, approval authority, crisis power         |
+| **OVCS**                                  | Governance certification constraints & compliance   |
+| **Uhuru Credit Union Coop**               | Custody + ledger + fund disbursement                |
+| **Mande Investment Group Coop**           | Strategic investment planning & portfolio oversight |
+| **Niguvu Adjudication**                   | Dispute resolution + reconciliation                 |
+| **Entity Operational Units**              | Execution of capital in ventures and studios        |
+| **Studios (IDEA Lab, Hackerspace, etc.)** | Use capital to generate outputs for entities        |
+
+---
+
+# 🧱 CAPITAL CATEGORIES (Your Definitions, Applied)
+
+Your categories map to ecosystem layers:
+
+### **1) Survival Capital**
+
+Core to solvency:
+
+* Legal & compliance reserves
+* Insurance
+* Cash runway
+* Security & backups
+
+**Where**: UCUC cash pools + reserves
+**Governance**: Board minimum runway guardrails
+
+### **2) Coherence Capital**
+
+Builds institutional foundations:
+
+* Archive systems
+* Governance OS
+* Documentation/learning
+* Training
+
+**Where**: Commons Trust / Shared Services
+**Governance**: OVCS certification + Board review
+
+### **3) Execution Capital**
+
+Operational budget:
+
+* Core operations
+* Pilots / proof of concept
+* Critical hires
+
+**Where**: Direct entity budgets (coops, ventures)
+**Governance**: Board + entity council + OVCS coordination
+
+### **4) Expansion Capital**
+
+Optional growth:
+
+* New programs/studios
+* Scale experiments
+* Market entry
+
+**Where**: FundCos, SPVs, strategic allocations
+**Governance**: Supermajority + risk metrics
+
+---
+
+# 🧠 CAPITAL ALLOCATION RULES (Ecosystem Edition)
+
+These rules extend your playbook across federated coops:
+
+🚩 **Rule 1:** *Survival capital always supersedes all other allocations.*
+🚩 **Rule 2:** *No allocation without a capital request owner.*
+🚩 **Rule 3:** *No allocation without success criteria and exit conditions.*
+🚩 **Rule 4:** *Funds are released only in tranches tied to milestones.*
+🚩 **Rule 5:** *All allocations must clear AML/KYC and OVCS compliance checks.*
+🚩 **Rule 6:** *Board or delegated council approval is required according to capital size and risk category.*
+🚩 **Rule 7:** *Capital resets to survival needs upon risk red flags.*
+
+---
+
+# 🧩 CAPITAL REQUEST TO APPROVAL PROCESS (OPERATIONAL)
+
+### **Step 1 — Capital Request Memo (Originates at entity)**
+
+The owning unit (cooperative, venture, studio) drafts a **Capital Request Memo** that includes:
+
+* *Owner / Domain Lead*
+* *Category (survival, coherence, execution, expansion)*
+* *Amount requested*
+* *Success metrics*
+* *Exit / rollback conditions*
+* *Risk & ethics assessment*
+
+📌 This document enters the **Governance Queue**.
+
+---
+
+### **Step 2 — Initial Compliance & Risk Check**
+
+Before human review:
+✔ AML / KYC (UCUC)
+✔ Risk thresholds (Analytics OS)
+✔ Ethical alignment (Ethics & Safety Guild)
+✔ Legal risk (Legal Guild)
+
+If any fail → **Rework required**.
+
+---
+
+### **Step 3 — Governance Review**
+
+Depending on size/type:
+
+| Request Type      | Approval Required          |
+| ----------------- | -------------------------- |
+| Survival          | Board (rapid review)       |
+| Coherence         | Board + OVCS               |
+| Execution (small) | Entity Council + OVCS      |
+| Execution (large) | Board + OVCS               |
+| Expansion         | Supermajority Board + OVCS |
+
+Governance OS logs:
+
+* Votes
+* Quorum
+* OVCS cert tags
+* Document references
+
+Decision becomes **recorded policy-linked authorization**.
+
+---
+
+### **Step 4 — Treated by UCUC for Disbursement**
+
+Upon approval:
+
+1. **UCUC posts capital commitment entry**
+2. Protects funds in a **capital reserve pool**
+3. Reconciles against ecosystem cash flow and runway metrics
+4. Tranches are created with *condition triggers*
+
+---
+
+# 📈 CAPITAL RELEASE (TRANCHE LOGIC)
+
+Capital is **not released in one lump sum**. Tranches follow:
+
+| Tranche | Release Condition    | Guardrails                    |
+| ------- | -------------------- | ----------------------------- |
+| T1      | Governance signoff   | Must not exceed safety buffer |
+| T2      | Milestone 1 achieved | Must pass compliance check    |
+| T3      | Milestone 2 achieved | Reconciliation clean slate    |
+| Final   | Success check        | Documentation complete        |
+
+If a milestone **fails** → Capital Hold + Niguvu audit.
+
+---
+
+# 🚨 RISK RED FLAGS (Automated + Governance)
+
+The ecosystem defines triggers that **halt capital flows** immediately:
+
+✔ Runway < 9 months → **System survival priority**
+✔ Unresolved ethics violation → **Compliance hold**
+✔ Founder execution > 30% of capacity → **Governance review**
+✔ Strategy drift → **Reallocation request**
+✔ Violations of policy constraints → **Capital freeze**
+
+If a red flag appears:
+
+1. UCUC *holds all further disbursements*
+2. Niguvu issues a *reconciliation report*
+3. Board / Council reviews capital strategy
+
+---
+
+# 🏛 CAPITAL GOVERNANCE STRUCTURE
+
+Your governance stack coordinates:
+
+```
+                       +--------------------------+
+                       | OVCS Authority (Governance OS) |
+                       +-------------+------------+
+                                     |
+         +---------------------------+-----------------------------+
+         |                           |                             |
+   Board of Directors       Entity Councils                Federation Councils
+         |                           |                             |
+   Capital Approval   ←   Capital Input/Requests   →  Strategic Capital Policies
+         |
+  UCUC (Capital Custodian & Ledger)
+         |
+   Execution Entities (coops, ventures, studios)
+```
+
+**OVCS** ensures that:
+
+* approvals are doctrine-compliant
+* policy versions align with allocation
+* audit trails are consistent
+
+**Board** ensures:
+
+* solvency
+* ethical capital deployment
+* risk barriers
+
+**Entity Councils** ensure:
+
+* intent meets operational reality
+* success metrics are feasible
+
+---
+
+# 💰 CAPITAL ACCOUNTING (UHURU LEDGER)
+
+All capital activity — from requests to releases to spending — is tracked in **UCUC’s single capital ledger**, which holds:
+
+| Field            | Description                                  |
+| ---------------- | -------------------------------------------- |
+| Authorization ID | Gov OS + Board vote + OVCS Tag               |
+| Request Owner    | Entity / Studio lead                         |
+| Category         | Survival / Coherence / Execution / Expansion |
+| Allocated Amount | Total approved                               |
+| Tranche Schedule | Conditions & amounts                         |
+| Spent Amount     | Actual paid out                              |
+| Variance         | Deviation from plan                          |
+| Milestone Status | Passed / Failed / In Review                  |
+| Risk Flags       | Active safeguards                            |
+| Audit Trail      | Immutable entries                            |
+
+---
+
+# 📊 VARIANCE & REVIEW CYCLES
+
+Once disbursements begin:
+
+**Monthly Capital Finance Review (Required):**
+
+* Budget vs actual
+* Runway trend
+* Tranche compliance
+* Risk signals
+* Niguvu reconciliation exceptions
+
+**Quarterly Governance Capital Review:**
+
+* Allocation decisions
+* Policy updates
+* Adjustment of future capital plans
+
+**Annual Audit (External/Internal):**
+
+* Full trace of capital decisions
+* Compliance assessment
+* Doctrine integrity check
+
+---
+
+# 🧩 STRATEGIC ROLE OF MANDE & UCUC
+
+### **Mande (Strategic Investment)**
+
+* Allocates expansion capital to portfolios and fund vehicles
+* Works with analytics OS to determine risk/return
+* Recommends strategic caps and portfolio realignment
+
+**Mande Input** flows into Capital Requests when ventures need *market investments, portfolio buys, or treasury actions*.*
+
+### **UCUC (Custodian & Execution)**
+
+* Only UCUC *executes disbursement* after governance approval
+* UCUC *tracks all compliance tags*
+* UCUC *enforces tranche conditions*
+
+---
+
+# 🧠 STRATEGIC CAPITAL DISCIPLINE
+
+This governs **how capital decisions are weighed**:
+
+| Strategic Question               | Capital Discipline Response    |
+| -------------------------------- | ------------------------------ |
+| Is this keeping us solvent?      | Must be survival priority      |
+| Does this build coherence?       | Required for execution capital |
+| Does this improve runway?        | Yes → prioritize               |
+| Does this add risk > tolerances? | No → reject or modify          |
+| Does this have clear milestones? | Required for tranche release   |
+| Is this aligned with doctrine?   | Must be OVCS certified         |
+
+---
+
+# 📌 EXAMPLE FLOW — CAPITAL ALLOCATION
+
+**Scenario:** Azande Software Agency needs $200K to scale the Qala Platform.
+
+1. Studio Lead submits *Capital Request Memo* with:
+
+   * Success metrics (MVP completion, first 50 paying customers)
+   * Milestones (Tech build, launch, user growth)
+   * Exit conditions (burn threshold, pivot decision)
+
+2. Compliance check:
+
+   * AML/KYC pass
+   * Governance OS validates policy version
+
+3. Approval:
+
+   * Entity Council signs
+   * Board approves Execution Capital
+   * OVCS certifies doctrinal alignment
+
+4. UCUC:
+
+   * Creates capital reserve
+   * Posts Tranche Schedule
+
+5. Disbursements:
+
+   * T1 released for early dev
+   * Milestone achieved → T2 released
+
+6. Review:
+
+   * Monthly variance report
+   * Niguvu sees no exceptions
+
+7. Completion:
+
+   * Capital fully deployed → performance metrics reported
+
+---
+
+# 📌 SUMMARY — FED COOP CAPITAL ALLOCATION
+
+**Capital exists to:**
+✔ Protect continuity
+✔ Ensure solvency
+✔ Build coherence
+✔ Enable execution
+
+**Capital flows through:**
+
+1. **Clear request → 2) Compliance gates → 3) Governance approval →
+2. UCUC custody → 5) Tranche releases → 6) Monitoring & review**
+
+**Capital is never released without:**
+✔ an owner
+✔ success criteria
+✔ exit/rollback conditions
+✔ documented governance approval
+
+**Red flags halt flows immediately.**
+
+---
+
+If you want, I can now produce:
+
+📌 **Mermaid/ASCII flow diagrams** for this capital model
+📌 **Checklist templates** for each stage (Request, Approval, Monitoring)
+📌 **UCUC ledger schema extensions** for capital governance
+
+Just tell me which one you want!

@@ -2869,3 +2869,1034 @@ If you want next, I can deliver:
 📈 **Example credit issuance logs with sample data**
 
 Just tell me what you want next!
+
+Absolutely — here’s a **Month-by-Month To-Do List for Year 1** tailored to your **UCGP rollout, estate and office formation, client creation & activation, staffing, tooling, and ecosystem operations**.
+
+This is a **practical checklist of key outcomes**, not just tasks, sequenced over 12 months so you can execute confidently with your team and the Ashe Cycle community.
+
+---
+
+# 📅 **MONTH-BY-MONTH YEAR 1 TO-DO LIST**
+
+Each month lists **key focus areas**, **top priorities**, and **what success looks like**.
+
+---
+
+## **MONTH 1 — January — Foundation & Initial Team**
+
+**Focus:** Establish core identity + hire initial team
+**Priority Outcomes**
+
+1. Establish *The Dominic Eaton Estate* & *Dominic Eaton Software Engineering Firm*
+2. Hire first 8 core team members
+3. Onboard 5 Squad-Stewards
+4. Draft Ubuntuwa Commons Charter & OVCS Authority charter
+5. Stand up deferred compensation/credits ledger system
+6. Launch brand + initial narrative & website
+
+✔ **Success:** Team in place; legal documents drafted; deferred compensation model defined.
+
+---
+
+## **MONTH 2 — February — Legal Filings & Governance Tooling**
+
+**Focus:** Legal entity filings + tooling foundation
+**Priority Outcomes**
+
+1. File Ubuntuwa Commons Coop & OVCS Authority with jurisdiction
+2. Prepare FundCo LP legal templates
+3. Build first version of Governance OS dashboards
+4. Design client intake templates + readiness assessment
+5. Start hiring specialists (engineers, governance build, onboarding)
+
+✔ **Success:** Legal entities submitted; governance tooling in early beta; client readiness tools drafted.
+
+---
+
+## **MONTH 3 — March — Registrations & First Client Onboarding**
+
+**Focus:** Legal registrations complete + client onboarding kickoff
+**Priority Outcomes**
+
+1. Register Ubuntuwa Commons & OVCS Authority officially
+2. Register FundCo LPs & GP Managers
+3. Onboard first wave of Ashe Cycle clients into UCGP framework
+4. Populate client governance roster (Class A–G)
+5. Prep Kano & Ndebe program curriculums
+6. Onboard new specialists
+
+✔ **Success:** Legal entities live; first clients added to system; basic programs ready.
+
+---
+
+## **MONTH 4 — April — Capital Activation & Program Launch**
+
+**Focus:** Capital activation + program delivery
+**Priority Outcomes**
+
+1. Activate FundCo LP bank accounts + compliance setups
+2. Execute first capital calls
+3. Client SOP execution + governance access setup
+4. Deliver Kano & Ndebe programs to clients
+5. Prepare next Msingi programs (Kuzu, Zalendo, etc.)
+
+✔ **Success:** Capital pipeline live; clients in governance tooling; two programs delivered.
+
+---
+
+## **MONTH 5 — May — Full Program Rollout & Training**
+
+**Focus:** Program delivery + client maturity uplift
+**Priority Outcomes**
+
+1. Deliver Kuzu, Zalendo & Zamba programs
+2. Train clients on governance & platform usage
+3. Begin client maturity coaching sessions
+4. Implement governance tooling enhancements
+5. Roll out team training & cross-squad certifications
+
+✔ **Success:** Programs successfully delivered; clients progressing in maturity.
+
+---
+
+## **MONTH 6 — June — Performance Insights & Scalability**
+
+**Focus:** Analyze outcomes & scale infrastructure
+**Priority Outcomes**
+
+1. Analyze program KPI trends + deliver optimization sprints
+2. Execute first capital deployments into ventures
+3. Publish platform architecture blueprint
+4. Conduct client adoption reviews
+5. Cross-train squads with updated materials
+
+✔ **Success:** Data-driven adjustments in place; capital flowing; teams upskilled.
+
+---
+
+## **MONTH 7 — July — Platform MVPs & Commercial Launch Support**
+
+**Focus:** MVP platform deliveries + venture support
+**Priority Outcomes**
+
+1. Deliver Wolof.io & Kogi MVP platforms
+2. Support ventures into go-live mode (Nandi, Dogon, Azande)
+3. Define sustainable pricing & revenue share models
+4. Enhance governance tooling features + reporting
+5. Launch mentorship program internally
+
+✔ **Success:** MVP platforms live; ventures operational; pricing strategy field-tested.
+
+---
+
+## **MONTH 8 — August — GA Platform Releases & Retention**
+
+**Focus:** Full platform releases + engagement incentives
+**Priority Outcomes**
+
+1. General Availability releases for Wolof.io & Kogi
+2. Launch client retention incentive programs
+3. Publish co-investment policies + revenue share tooling
+4. Enhance analytics for governance forecasts
+5. Expand knowledge portal with tutorials
+
+✔ **Success:** Platforms at GA; retention incentived; analytics deeper.
+
+---
+
+## **MONTH 9 — September — Adoption & Equity Tools**
+
+**Focus:** Adoption acceleration + equity issuance tooling
+**Priority Outcomes**
+
+1. Run adoption masterclasses and campaign series
+2. Improve revenue share tools + forecasting
+3. Automate governance enforcement policies
+4. Publish member equity vesting tools
+5. Optimize platform performance
+
+✔ **Success:** Adoption increasing; equity and governance automation advancing.
+
+---
+
+## **MONTH 10 — October — Premium Features & Community Summit**
+
+**Focus:** Premium analytics + community activation
+**Priority Outcomes**
+
+1. Deliver advanced analytics (anomaly detection, forecasting)
+2. Host inaugural UCGP Summit
+3. Define governance accreditation tiers + Toolkit
+4. Publish LP financial dashboards + projections
+5. Deploy internal automation (RPA) for ops
+
+✔ **Success:** Summit executed; premium features live; ops more automated.
+
+---
+
+## **MONTH 11 — November — Retention & Final Audits**
+
+**Focus:** Year-end retention + compliance closure
+**Priority Outcomes**
+
+1. Run renewal campaigns to retain clients
+2. Final governance compliance audits + remediation
+3. Publish retrospective reporting (year-to-date metrics)
+4. Host annual community meetup
+5. Engage LPs for Year-2 planning
+
+✔ **Success:** High client retention; compliance closed; community engaged.
+
+---
+
+## **MONTH 12 — December — Year-End Close & Handoffs**
+
+**Focus:** Close Year 1 + prepare Year 2
+**Priority Outcomes**
+
+1. Close books and publish financial annual statements
+2. Publish governance wrap reports + dashboards
+3. Build client sustainability roadmaps for Year 2
+4. Produce year-end communications (newsletter, videos, blogs)
+5. Internal team reflections + retention planning
+
+✔ **Success:** Year 1 closed; clients have sustainability plans; Year 2 strategy ready.
+
+---
+
+# 🗂 **KEY NOTES & GUIDING PRINCIPLES**
+
+### 🔹 **Parallel Tracks**
+
+Some tasks run simultaneously:
+
+* Entity formation (Estate, Office, Commons)
+* Governance tooling
+* Client onboarding & programs
+* Capital & funding mechanisms
+* Deferred compensation and credits workflows
+
+You can sequence these in parallel because the model supports iterative governance and phased rollouts.
+
+---
+
+# 🧠 **WHAT SUCCESS LOOKS LIKE AT YEAR END**
+
+| Category   | End-of-Year Goal                                     |
+| ---------- | ---------------------------------------------------- |
+| Entities   | Estate + Office + Commons + OVCS + FundCos launched  |
+| Clients    | Ashe Cycle coop clients onboarded + operational      |
+| Staffing   | Core squads + specialists staffed + certified        |
+| Programs   | All Msingi programs delivered at least once          |
+| Platforms  | MVPs live + GA releases delivered                    |
+| Capital    | First deployments + revenue share tooling live       |
+| Governance | Accredited + automated governance tooling            |
+| Community  | Summit & events executed; retention strong           |
+| Credits    | Deferred compensation earned and vesting in progress |
+
+---
+
+## 🧾 **WANT THIS AS A CHECKLIST OR CALENDAR?**
+
+I can generate:
+
+📅 12-month **calendar planner**
+📋 Detailed **checklist-style PDF**
+📊 **Gantt chart with dependencies**
+📌 **Team assignments matrix**
+⚙ Automation plan for your tooling
+
+Just tell me which one you want!
+
+Got it — you want your **Year-1 roadmap** to reflect that your **first 9 hires** are:
+
+➡️ **8 C-Suite roles**
+➡️ **1 Executive Assistant (EA)**
+
+I’ll **update the earlier plan** to reflect that accurately and deliver a clear list of those hires with their titles and sequencing relative to getting UCGP established and your ecosystem live.
+
+Here’s the **confirmed Year-1 Hiring Roadmap** for those 9 strategic positions, plus guidance on when they should be recruited in your timeline — aligned with your monthly milestones and real execution order.
+
+---
+
+# 🚀 First 9 Strategic Hires (Core Team)
+
+| # | Role / Title                                | Function                                   | Priority    | Start Window |
+| - | ------------------------------------------- | ------------------------------------------ | ----------- | ------------ |
+| 1 | **Chief Executive Officer (CEO)** — Dominic | Vision / governance / ecosystem leadership | 👑 Critical | Month 1      |
+| 2 | **Chief of Staff (CoS)**                    | Execution coordination & strategy delivery | 🥇 High     | Month 1      |
+| 3 | **Chief Operating Officer (COO)**           | Process, delivery, client enablement       | 🥇 High     | Month 1      |
+| 4 | **Chief Financial Officer (CFO)**           | Capital vehicles, funding, accounting      | 📊 High     | Month 1      |
+| 5 | **Chief Legal Officer (CLO)**               | Legal structure, compliance, coop laws     | ⚖️ High     | Month 1      |
+| 6 | **Chief Governance Officer (CGO)**          | Governance design, OVCS Authority build    | 🧠 High     | Month 1      |
+| 7 | **Chief Technology Officer (CTO)**          | Platform, tooling, architecture            | 🔧 High     | Month 2      |
+| 8 | **Chief Communications Officer (CCO)**      | Narrative, community, evangelism           | 📣 High     | Month 2      |
+| 9 | **Executive Assistant (EA)**                | Support CEO + exec coordination            | 💼 Support  | Month 1      |
+
+**Notes:**
+
+* All 9 hires are strategic “C-Level + EA” and should be brought in early to help bootstrap governance, legal, capital, tooling, and narrative.
+* The **EA** supports you directly and helps with scheduling, coordination, and cadence of strategy delivery/planning.
+* CTO & CCO can be slightly later — once legal/governance/capital foundations are already underway.
+
+---
+
+# 🗓 Recommended Hiring Sequence (Month by Month)
+
+### **Month 1 — Core Strategic Team**
+
+Focus on hiring **8 of the 9 core team** so UCGP’s foundation gets built quickly.
+
+New Hires:
+
+* CEO (you, Dominic) — already assumed
+* CoS
+* COO
+* CFO
+* CLO
+* CGO
+* EA
+
+**Why now?**
+These are essential to launch:
+
+* Estate & office setup
+* Commons charter & legal filings
+* Governance authority design
+* Deferred comp / credits model
+* Performance baseline
+* Early recruitment & coordination
+
+---
+
+### **Month 2 — Technical & Narrative Team**
+
+New Hires:
+
+* **CTO** — Tech stack & platform foundation
+* **CCO** — Messaging, brand, narrative, public presence
+
+**Why now?**
+After legal and governance groundwork, you need:
+
+* Platform architecture & toolchain
+* Storytelling & community messaging to onboard clients
+
+---
+
+# 🎯 Hiring Impact by Month
+
+| Month          | Key Hiring Impact                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Month 1**    | UCGP governance authority setup, legal filings, estate & office setup, early systems, strategy cadence, core execution       |
+| **Month 2**    | Tech blueprint, governance tooling begin, public narrative + website + community identity                                    |
+| **Months 3–4** | These hires should support onboarding first clients and enable capital vehicles, deferred comp systems, and program launches |
+
+---
+
+# 🎖 Role Definitions (Concise)
+
+### 🔹 **Chief Executive Officer (CEO) — Dominic**
+
+* Owns vision, governance alignment, executive decision making
+* Chairs Commons Steering, directs OVCS Authority
+* Drives capital strategy & ecosystem strategy
+
+---
+
+### 🔹 **Chief of Staff (CoS)**
+
+* Coordinates execution cadence
+* Drives monthly strategy delivery & planning cycles
+* Ensures squad alignment & dependencies
+
+---
+
+### 🔹 **Chief Operating Officer (COO)**
+
+* Builds operational processes (client onboarding, SOPs, support)
+* Owns program delivery enablers, client readiness, escalation paths
+
+---
+
+### 🔹 **Chief Financial Officer (CFO)**
+
+* Designs FundCo LP formation
+* Manages capital deployment & reporting
+* Oversees incentive and deferred compensation ledgers
+
+---
+
+### 🔹 **Chief Legal Officer (CLO)**
+
+* Drafts and files estate + office + cooperative legal entities
+* Designs charters and compliance architecture
+* Manages legal risk across all entities
+
+---
+
+### 🔹 **Chief Governance Officer (CGO)**
+
+* Builds OVCS Authority and governance tooling
+* Designs member class matrices (A–G) into tool workflows
+* Oversees compliance scoring & council tooling
+
+---
+
+### 🔹 **Chief Technology Officer (CTO)**
+
+* Designs platform stack, member tooling, API layers
+* Leads governance OS, intake tooling, deferred comp systems
+* Coordinates development squads
+
+---
+
+### 🔹 **Chief Communications Officer (CCO)**
+
+* Crafts public narrative + brand identity
+* Leads community events (summits, webinars)
+* Drives content (tutorials, blogs, newsletters)
+
+---
+
+### 🔹 **Executive Assistant (EA)**
+
+* Supports CEO and exec team
+* Manages calendars, strategy cadences, stakeholder coordination
+* Tracks OKRs and strategic alignment artifacts
+
+---
+
+# 🧠 How Hiring Enables Your Roadmap
+
+These 9 strategic hires form the **backbone of your first year** and directly support the following:
+
+📌 Estate & Office setup
+📌 Ubuntuwa Commons Coop formation
+📌 OVCS Authority launch
+📌 Capital vehicles & incentive frameworks
+📌 Deferred compensation + credits ledger system
+📌 Client intake + program delivery
+📌 Platform tooling + governance OS
+📌 Year-end reporting & governance maturity
+
+Every major monthly milestone in Year 1 becomes feasible once these roles are in place.
+
+---
+
+# 🛠 Practical Hiring Plan Checklist
+
+For each hire:
+
+1. **Draft role description** aligned with UCGP activities
+2. **Publish job posting** (LinkedIn, niche coop communities, internal referrals)
+3. **Screen candidates against functional + cultural alignment**
+4. **Issue deferred compensation + credits offer letters**
+5. **Host panel interviews (CoS + CEO + CLO)**
+6. **Extend offers with clear onboarding pathways**
+7. **Assign squad & initial 90-day goals**
+8. **Track progress & milestones in Governance OS**
+
+---
+
+# 📌 Final Hiring Planning Tip
+
+**Incorporate your EA into every executive strategy meeting and planning session.**
+They will become your *operational backbone* — tracking deliverables, dependencies, governance cycles, and coordination across squads.
+
+---
+
+If you’d like, I can now **generate job descriptions** for each of these 9 strategic roles, formatted for your careers page or hiring docs. Just say *“generate job descriptions.”*
+
+Below is your **Initial Entity Genesis Framework (EFG) Documents List** — a comprehensive set of documents you need to *create, organize, and launch* all the foundational legal, governance, operational, and tooling components of your UCGP ecosystem. This is based on **reading all your uploaded content end-to-end** and synthesizing it with your entity designs, cooperative classes, governance layers (Commons → OVCS → FundCos → Clients), and staffing model.
+
+---
+
+# 🧬 ENTITY GENESIS FRAMEWORK (EFG)
+
+**Purpose:** A complete set of documents required to legally form, govern, operationalize, and scale your foundational entities — including your personal estate/office, Commons, OVCS, capital vehicles, and first clients.
+
+The EFG documents are grouped by **Entity Tier** and **Functional Purpose**.
+
+---
+
+## 🏡 1. **Personal & Family Entities**
+
+### **1.1 The Dominic Eaton Estate**
+
+| Doc ID      | Title                       | Purpose                                                  |
+| ----------- | --------------------------- | -------------------------------------------------------- |
+| EFG-PFE-001 | Dominion Estate Charter     | Governing rules, purpose, membership, decision rights    |
+| EFG-PFE-002 | Estate Operating Agreement  | Legal obligations, fiduciary duties, asset custodianship |
+| EFG-PFE-003 | Tax & Compliance Filings    | ERISA/IRS/treasury filings, EIN, tax status              |
+| EFG-PFE-004 | Asset & Investment Register | All estate assets (cash, IP, agreements, notes)          |
+| EFG-PFE-005 | Governance Council Charter  | Internal governance body structure                       |
+
+### **1.2 Dominic Eaton Software Engineering Firm**
+
+| Doc ID     | Title                                        | Purpose                           |
+| ---------- | -------------------------------------------- | --------------------------------- |
+| EFG-OE-001 | Operating Entity Articles of Incorporation   | Legal registration documents      |
+| EFG-OE-002 | Bylaws / Operating Agreement                 | Workflows, roles, decision rights |
+| EFG-OE-003 | Deferred Compensation Plan                   | Credits & sweat equity rules      |
+| EFG-OE-004 | Employee Handbook                            | Policies for staff, contractors   |
+| EFG-OE-005 | Service Terms & Client Onboarding Agreements | Standard engagement docs          |
+
+---
+
+## 🏛 2. **Security & Governance Layer (Commons + OVCS)**
+
+### **2.1 Ubuntuwa Commons Coop**
+
+| Doc ID      | Title                                                  | Purpose                                 |
+| ----------- | ------------------------------------------------------ | --------------------------------------- |
+| EFG-COM-001 | Ubuntuwa Commons Cooperative Charter                   | Core governance, membership classes A–G |
+| EFG-COM-002 | Cooperative Bylaws                                     | Voting, councils, dispute resolution    |
+| EFG-COM-003 | Membership Rules + Rights Matrix                       | Member classes, rights, quotas          |
+| EFG-COM-004 | Council Charters (Governance / Standards / Compliance) | Role & process docs                     |
+| EFG-COM-005 | Commons Code of Ethics & Values                        | Cultural foundation                     |
+| EFG-COM-006 | Commons Amendment & Revision Procedures                | How the charter evolves                 |
+| EFG-COM-007 | Risk & Asset Protection Policy                         | Liability, indemnity, compliance        |
+
+### **2.2 OVCS Authority**
+
+| Doc ID      | Title                                  | Purpose                               |
+| ----------- | -------------------------------------- | ------------------------------------- |
+| EFG-OVC-001 | OVCS Delegated Authority Charter       | Roles & limits delegated from Commons |
+| EFG-OVC-002 | Compliance Protocols & Audit Standards | How compliance is measured/enforced   |
+| EFG-OVC-003 | Certification Standards                | What is certified & how               |
+| EFG-OVC-004 | OVCS Operating Procedures              | Daily ops, escalation paths           |
+| EFG-OVC-005 | Risk & Compliance Matrix               | System risk controls                  |
+
+---
+
+## 💰 3. **Capital & Incentive Entities**
+
+### **3.1 FundCo LPs & GPCos**
+
+| Doc ID      | Title                                  | Purpose                                 |
+| ----------- | -------------------------------------- | --------------------------------------- |
+| EFG-CAP-001 | Zawadi FundCo LP Agreement             | LP terms, profit share, governance      |
+| EFG-CAP-002 | Mbali FundCo LP Agreement              | Same for second Fund                    |
+| EFG-CAP-003 | GP Manager (GPCo) Operating Agreements | Roles, rights, obligations              |
+| EFG-CAP-004 | Capital Deployment Policy              | Rules for deploying capital to entities |
+| EFG-CAP-005 | Investor Rights & Reporting Policy     | LP communications & reporting           |
+| EFG-CAP-006 | Deferred Capital Credit Framework      | How capital credits convert over time   |
+
+### **3.2 IncentiveCos & Credits**
+
+| Doc ID      | Title                                  | Purpose                             |
+| ----------- | -------------------------------------- | ----------------------------------- |
+| EFG-INC-001 | IncentiveCo Formation Docs             | Legal formation + purpose           |
+| EFG-INC-002 | Deferred Compensation + Credits Policy | Full ruleset for credits & DC Units |
+| EFG-INC-003 | Incentive Vesting Schedules            | Templates for roles/members         |
+| EFG-INC-004 | Credit Account Operating Manual        | How credits are tracked & used      |
+| EFG-INC-005 | Incentive Distribution Agreement       | How incentives convert to rights    |
+
+---
+
+## 🧠 4. **Technology & Systems Documents**
+
+### **4.1 Governance OS & Tooling**
+
+| Doc ID      | Title                              | Purpose                    |
+| ----------- | ---------------------------------- | -------------------------- |
+| EFG-SYS-001 | Governance OS Requirements Spec    | UX/UI + functional spec    |
+| EFG-SYS-002 | Data Schema + Identity Models      | Platform models            |
+| EFG-SYS-003 | Compliance & Audit Automation Spec | How compliance is enforced |
+| EFG-SYS-004 | API Access Policy                  | Who/what can call APIs     |
+| EFG-SYS-005 | Security & Access Control Policy   | IAM, RBAC definitions      |
+
+### **4.2 Client Intake & Management**
+
+| Doc ID      | Title                            | Purpose                     |
+| ----------- | -------------------------------- | --------------------------- |
+| EFG-INT-001 | Client Intake Form & Scorecard   | Standardized intake process |
+| EFG-INT-002 | Onboarding SOP for New Coops     | How to onboard clients      |
+| EFG-INT-003 | Membership Profile Template      | Member metadata collection  |
+| EFG-INT-004 | Client Governance Setup Playbook | Setup steps & roles         |
+| EFG-INT-005 | Client Data Protection Policy    | Compliance for client info  |
+
+---
+
+## 🧩 5. **Client Coop Formation Documents**
+
+*(Each new coop client will require a tailored set based on this template.)*
+
+### **5.1 Entity Stack Docs**
+
+| Doc ID      | Title                          | Purpose                         |
+| ----------- | ------------------------------ | ------------------------------- |
+| EFG-CLI-001 | Coop Articles of Formation     | Legal creation of client entity |
+| EFG-CLI-002 | Coop Bylaws                    | Definitions of governance       |
+| EFG-CLI-003 | Governance Member Class Matrix | Assign A–G roles                |
+| EFG-CLI-004 | OpCo Operating Agreement       | Operational entity creation     |
+| EFG-CLI-005 | IPCo IP Holding Agreement      | IP ownership & licensing        |
+
+### **5.2 Client Incentive & Vesting**
+
+| Doc ID      | Title                           | Purpose                       |
+| ----------- | ------------------------------- | ----------------------------- |
+| EFG-CLI-006 | Client IncentiveCo Docs         | Legal formation for DC Units  |
+| EFG-CLI-007 | Client Vesting Schedules        | For coop roles                |
+| EFG-CLI-008 | Incentive Conversion Agreements | How credits convert to rights |
+
+### **5.3 Client SOP & Delivery Guides**
+
+| Doc ID      | Title                        | Purpose                      |
+| ----------- | ---------------------------- | ---------------------------- |
+| EFG-CLI-009 | Client Onboarding SOP        | Step-by-step onboarding      |
+| EFG-CLI-010 | Client Support Playbooks     | Support workflows            |
+| EFG-CLI-011 | Governance Calendar Template | Council/board rhythms        |
+| EFG-CLI-012 | Program Delivery SOPs        | Kano → Luma prog step guides |
+
+---
+
+## 🧪 6. **Program (Msingi) Documents**
+
+| Doc ID      | Title                      | Purpose                      |
+| ----------- | -------------------------- | ---------------------------- |
+| EFG-PRG-001 | Kano Program Charter       | Design, curriculum, outcomes |
+| EFG-PRG-002 | Ndebe Program Charter      | Compliance + workflows       |
+| EFG-PRG-003 | Kuzu Program Charter       | OS enablement & adoption     |
+| EFG-PRG-004 | Zalendo Program Charter    | Growth & market strategy     |
+| EFG-PRG-005 | Zamba Program Charter      | Product delivery             |
+| EFG-PRG-006 | Luma Program Charter       | Scale + sustainability       |
+| EFG-PRG-007 | Msingi Program KPI Metrics | Scorecards + measurement     |
+
+---
+
+## 📈 7. **Legal & Compliance Policies**
+
+| Doc ID      | Title                            | Purpose                             |
+| ----------- | -------------------------------- | ----------------------------------- |
+| EFG-LGL-001 | Global Compliance Framework      | Regulatory environment norms        |
+| EFG-LGL-002 | Intellectual Property Policy     | Handles IP across Commons & clients |
+| EFG-LGL-003 | Data Protection & Privacy Policy | COPPA/GDPR/CCPA compatibility       |
+| EFG-LGL-004 | Anti-Fraud & Risk Control Policy | Key internal controls               |
+| EFG-LGL-005 | Conflict of Interest Policy      | Governance integrity                |
+
+---
+
+## 📊 8. **Reporting, Metrics & Dashboards**
+
+| Doc ID      | Title                               | Purpose                  |
+| ----------- | ----------------------------------- | ------------------------ |
+| EFG-RPT-001 | Governance KPI Dashboard Spec       | What metrics to track    |
+| EFG-RPT-002 | Compliance Scorecard                | Monthly compliance views |
+| EFG-RPT-003 | Capital Deployment & Return Reports | LP & partner reporting   |
+| EFG-RPT-004 | Program Impact Dashboards           | Adoption & maturity      |
+| EFG-RPT-005 | Client Health Metrics               | Usage & performance      |
+
+---
+
+## 📌 9. **Misc & Support Templates**
+
+| Doc ID      | Title                          | Purpose                   |
+| ----------- | ------------------------------ | ------------------------- |
+| EFG-TMP-001 | Template Contracts (Legal)     | Reusable legal docs       |
+| EFG-TMP-002 | Template SOPs                  | Reusable SOP boilerplates |
+| EFG-TMP-003 | Communications Templates       | Emails, notices           |
+| EFG-TMP-004 | Onboarding Kits                | Printable onboarding docs |
+| EFG-TMP-005 | Branding & Identity Guidelines | Style & usage             |
+
+---
+
+# 🧾 NEXT STEPS (How to Use This List)
+
+**1) Prioritize by Entity Tier**
+Start with:
+
+* Personal + Office
+* Commons + OVCS
+* Capital vehicles
+* Deferred compensation
+* Client Coop templates
+
+**2) Sequence Legal Filings**
+Your legal team should work on charters, bylaws, coop formations early.
+
+**3) Load into Governance OS**
+Add these docs into your knowledge repo with:
+
+* Version control
+* Linked policy tags
+* Approver workflows
+
+**4) Tie issuance to tooling**
+Credits & Incentive issuance logic should reference these documents directly.
+
+---
+
+If you want, I can now generate:
+
+✔ **A folder structure outline** for storing these docs
+✔ **Mermaid diagrams** linking all entity flows
+✔ **A prioritized creation schedule (month-by-month)**
+✔ **Legal policy skeletons for key charters**
+
+Just tell me which one to build next!
+Absolutely — below are your **first two foundational documents** for your ecosystem. These are the **FMID (Founding Manifesto & Intent Declaration)** and an **Initial Business Plan** that *plans and generates everything else* in your Year-1 roadmap and entity formation.
+
+You can use these to:
+
+* Legally orient entities
+* Onboard your first hires & stewards
+* Convince early partners / legal counsel
+* Seed your governance and capital strategy
+
+---
+
+# 📄 FMID — **Founding Manifesto & Intent Declaration**
+
+## **UBUNTUWA COMMONS — Founding Manifesto & Intent Declaration (FMID)**
+
+### **1. Name & Identity**
+
+We, the undersigned and future associates of the Ubuntuwa Commons Cooperative (“the Commons”), declare our intent to form and sustain a *human-centered, cooperative-first civil-economic substrate* designed to enable equitable participation, shared governance, and community sovereignty across multi-entity ecosystems.
+
+Ubuntuwa Commons is a federated cooperative that:
+
+* Elevates *collective stewardship* over extractive gain
+* Embeds *distributed authority* via delegated governance
+* Advances *shared economic infrastructure* for co-operating enterprises
+
+---
+
+### **2. Foundational Principles**
+
+#### ✦ **Human-Centered Purpose**
+
+Ubuntuwa Commons believes in *Ubuntu* — “I am because we are.” All governance, capital, technology, and enterprise architecture must serve human viability, dignity, and flourishing.
+
+#### ✦ **Cooperative Sovereignty**
+
+Every entity within the ecosystem (from client coops to capital pools) shall derive authority from *cooperative consent*, not fiat. Membership classes (A–G) formalize distributed decision rights.
+
+#### ✦ **Commons-First Over Capital-First**
+
+The Commons structures the substrate (law, standards, platforms) before capital allocation. Capital is deployed to *enable participation*, not to extract rent.
+
+#### ✦ **Transparency & Accountability**
+
+Records, decisions, and shared infrastructure must be *auditable, open by design*, and subject to decentralized accountability.
+
+---
+
+### **3. Intent of Formation**
+
+We intend to:
+
+1. Form the **Ubuntuwa Commons Cooperative** under applicable cooperative law
+2. Delegate governance authorities to an **OVCS Authority** with chartered constraints
+3. Deploy **capital vehicles (FundCos)** aligned to Commons standards
+4. Build **shared infrastructure (Kumba MetaFactory)** for venture creation
+5. Onboard and enable **client cooperatives** (Ashe Cycle, Msingi programs)
+6. Anchor participation via **Credit + Deferred Compensation frameworks**
+7. Track contribution equitably with **Credits and DC Units** that vest into rights
+8. Publish governance and operational tooling as open, versioned systems
+
+---
+
+### **4. Membership Classes (A–G)**
+
+We affirm the following foundational member classes:
+
+| Class | Identity             |
+| ----- | -------------------- |
+| **A** | Worker-Members       |
+| **B** | Steward-Members      |
+| **C** | Governance-Members   |
+| **D** | Commons-Members      |
+| **E** | Founder-Members      |
+| **F** | Capital Participants |
+| **G** | Future Members       |
+
+These classes reflect *role-based participation* and must be embedded into every governance document and digital system.
+
+---
+
+### **5. Scope of Intent**
+
+This Manifesto declares our intent to coordinate:
+
+* Legal entity formation
+* Governance standards & compliance
+* Capital formation & deployment
+* Digital platforms and operational tooling
+* Client onboarding and venture support
+* Program curricula (Kano → Luma)
+
+Our commitment is *to operationalize*, not merely ideate.
+
+---
+
+### **6. Commitment & Accountability**
+
+By signing this document (physically or digitally), the founding parties commit to:
+
+* Upholding shared governance
+* Respecting member rights per charter
+* Participating in decision councils
+* Remaining open to audit and review
+
+---
+
+### **7. Signatories (Founders)**
+
+This Founding Manifesto is open for signature by:
+
+* **Dominic Eaton — Founder & Navigator**
+* Future members of the Commons Council
+* Stewards, Partners, and Sponsors
+
+---
+
+# 📊 Initial Business Plan
+
+## **UBUNTUWA COMMONS & UCGP INITIAL BUSINESS PLAN**
+
+### **Executive Summary**
+
+Ubuntuwa Commons is a federated cooperative ecosystem that catalyzes equitable participation and shared prosperity. Through a structured governance model (UCGP), it enables individuals, cooperatives, and federated systems to:
+
+* Co-govern complex enterprises
+* Co-create knowledge, tooling, and platforms
+* Co-finance sustainable projects
+
+This business plan covers the first 12 months of operations, entity formation, client generation, staffing, capital deployment, and ecosystem governance.
+
+---
+
+## **1. Vision & Mission**
+
+### **Vision**
+
+A global network of cooperatives interlinked by shared governance, unified standards, and equitable economic participation.
+
+### **Mission**
+
+To systematically build, govern, and scale cooperative ventures using transparent systems, modern infrastructure, and community accountability.
+
+---
+
+## **2. Market & Opportunity**
+
+### **Target Segments**
+
+* Early-stage cooperatives without formal governance
+* Digital platforms seeking equitable governance scaffolds
+* Family estates and organizational sponsors
+* Worker collectives desiring shared ownership frameworks
+
+### **Problem**
+
+Existing cooperative ecosystems lack:
+
+* Scalable governance tooling
+* Capital deployment frameworks
+* Transparent incentive alignment
+* Unified lifecycle process from formation → scale
+
+Ubuntuwa Commons solves this with:
+
+* UCGP governance model
+* Credits + DC Units infrastructure
+* Capital vehicles with compliance frameworks
+* Shared tooling and knowledge systems
+
+---
+
+## **3. Value Proposition**
+
+For stakeholders, we deliver:
+
+* Legally compliant governance infrastructure
+* Flexible cooperative formation frameworks
+* Shared platform toolchains for operations
+* Deferred compensation systems that reward early contributions
+* Lifecycle support from inception to growth
+
+---
+
+## **4. Strategic Priorities (Year 1)**
+
+| Quarter | Focus                                                                             |
+| ------- | --------------------------------------------------------------------------------- |
+| **Q1**  | Legal & entity formation; core team onboarding; deferred comp model               |
+| **Q2**  | Governance tooling; client intake & first onboarding; capital vehicle preparation |
+| **Q3**  | Program execution; platform MVP delivery; early capital deployment                |
+| **Q4**  | Scaling operations; community events; retention incentives; year-end reporting    |
+
+---
+
+## **5. Organizational Design**
+
+### **Core Roles (First 9 Hires)**
+
+* CEO (Dominic Eaton)
+* CoS, COO, CFO, CLO, CGO, CTO, CCO
+* Executive Assistant
+
+These roles form the executive foundation required to orchestrate legal, governance, operational, financial, and technical execution.
+
+### **Governance Bodies**
+
+* Commons Council
+* OVCS Authority
+* Program Steering Committee
+* Capital Oversight Board
+
+---
+
+## **6. Value Creation & Incentive Systems**
+
+### **Credits + DC Units**
+
+All ecosystem contributors earn *Credits* for delivered value. Credits convert to *DC Units* which confer:
+
+* Voting strength
+* Revenue share
+* Participation rights
+
+The model tracks work, governance, and capital contributions equitably.
+
+---
+
+## **7. Capital & Funding Strategy**
+
+### **FundCos**
+
+* **Zawadi FundCo LP**
+* **Mbali FundCo LP**
+
+These capital envelopes fund:
+
+* Client ventures
+* Platform development
+* Coop scaling activities
+
+### **Investment Guidelines**
+
+Capital is deployed only against:
+
+* Verified governance compliance
+* Project readiness
+* Strategic alignment with Commons priorities
+
+---
+
+## **8. Go-to-Market Strategy**
+
+### **Client Generation Process**
+
+1. Pre-intake engagement
+2. Readiness assessment
+3. Workspace & governance tooling setup
+4. Membership class mapping
+5. Deferred comp setup
+
+### **Channels**
+
+* Coop networks
+* Sponsorship referrals
+* Community platforms
+* Strategic partnerships
+
+---
+
+## **9. Operations Plan**
+
+### **Governance OS**
+
+Unified tooling for:
+
+* Member roles & permissions
+* Council sessions & resolutions
+* Compliance tracking
+* Deferred comp ledger
+
+### **Client Playbooks**
+
+Standard SOPs for:
+
+* Onboarding
+* Program delivery
+* Support & escalations
+* Community engagement
+
+---
+
+## **10. Financial Plan**
+
+### **Year 1 Budget Categories**
+
+* Legal & entity costs
+* Platform tool development
+* Labor costs (Deferred comp weighting)
+* Community events
+* Capital vehicle maintenance
+
+> *Revenue sources (deferred until early monetization phases):*
+>
+> * Membership contributions
+> * Revenue share agreements
+> * Co-investment arrangements
+
+---
+
+## **11. Risk & Compliance**
+
+### **Top Risks**
+
+* Legal misalignment
+* Compliance drift
+* Tooling adoption shortfall
+* Capital misallocation
+
+### **Mitigations**
+
+* OVCS audit requirements
+* Compliance dashboards
+* Governance charter enforcement
+* Legal review cycles
+
+---
+
+## **12. Metrics & Milestones**
+
+| Objective             | Q1 | Q2 | Q3 | Q4 |
+| --------------------- | -- | -- | -- | -- |
+| Entity Formation      | ✔  | —  | —  | —  |
+| Governance Tools Live | ✔  | ✔  | —  | —  |
+| Client Onboarding     | —  | ✔  | ✔  | —  |
+| Program Delivery      | —  | ✔  | ✔  | ✔  |
+| Capital Deployment    | —  | ✔  | ✔  | ✔  |
+| Platform MVP          | —  | —  | ✔  | ✔  |
+| Retention Metrics     | —  | —  | —  | ✔  |
+
+---
+
+## **13. Appendices**
+
+### Glossary
+
+* UCGP, OVCS, DC Units, Credits
+
+### Member Class Definitions
+
+* Classes A–G with specific rights
+
+### SOP Framework Index
+
+* Templates for client onboarding, governance sessions, compliance workflows, dispute escalation
+
+---
+
+If you want, I can now generate:
+
+✅ A **Mermaid / org diagram** for the ecosystem
+✅ A **slide deck outline** based on this business plan
+✅ A **one-page executive summary** for investors/partners
+
+Just tell me the format you want next!

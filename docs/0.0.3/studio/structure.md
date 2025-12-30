@@ -10251,3 +10251,297 @@ If you want, I can now generate:
 📌 **Executive Dashboard (OKRs + Metrics)**
 
 Just tell me which one you want!
+Absolutely — here’s your **Year-1 Annual Calendar Gantt (ASCII)** for the **Navigator Personal Estate (NPE)** operations (2026). This high-level Gantt visual shows major workstreams across months — great for planning, boards, docs, and presentations.
+
+---
+
+## 📅 **Year-1 Annual Calendar Gantt (ASCII)**
+
+**Legend:**
+
+* `████` = Primary activity span
+* `────` = Supporting / extended work span
+* Months: **J F M A M J J A S O N D**
+
+```
+YEAR-1 ANNUAL CALENDAR GANTT — Navigator Personal Estate (2026)
+
+Workstreams / Months       J   F   M   A   M   J   J   A   S   O   N   D
+──────────────────────────────────────────────────────────────────────
+Estate Charter & OGD Start ████ ████ ████                               
+                             ─────────────────────────────────────────
+Archive & Artifact Registry ████ ████ ████ ─────────────────────────────
+                             ─────────────────────────────────────────
+Hiring + Stewards Setup     ████ ████ ████ ─────────────────────────────
+                             ─────────────────────────────────────────
+
+Legal Entity Filings
+  NPE & Personal Office      ████ ████                                  
+  Family Estate + Commons      ████ ████ ███                              
+  OVCS Authority               ████ ████                                  
+  FundCos & GPCos               ████ ████                                
+
+Deferred Compensation + DC
+                             ───────────────── ████ ████               
+                             ─────────────────────────────────────────
+Governance OS & Tooling                           ████ ████ ████         
+                             ─────────────────────────────────────────
+Client Coop Templates                             ████ ████ ███          
+Client Coop Filings                                            ████ ███  
+
+Client Onboarding                                               ████ ███  
+Client Support + Helpdesk                                        ████ ███  
+
+Adoption Workshops & Analytics                                                   ████ ████
+Equity Tooling                                                             ████ ████ ███
+
+Premium Features + Summit                                                     ████ ████    
+                              ─────────────────────────────────────────
+Revenue & Capital Policy                                                        ████ ███
+
+Compliance Audits                                                               ████ ████  
+Risk Assessment                                                                    ███ ███
+
+Annual Financial & Governance Reports                                               ████ ███
+OGD v1.0 Release                                                                ████         
+
+Year-2 Roadmap + Team Calibration                                                  ████ ███
+```
+
+---
+
+## 📌 **What This Gantt Shows**
+
+This diagram maps **major workstreams & milestones** against **calendar months**:
+
+### **Q1 — Foundation & Launch (Jan–Mar)**
+
+* Estate charter & Organizational Genesis Document (OGD) initiation
+* Archive taxonomy & artifact registry build
+* Hiring systems + Stewards screening
+* Foundational legal entity filings (NPE, DESEF)
+
+### **Q2 — Legal Formation + Capital + Tooling (Apr–Jun)**
+
+* Filings for Family Estate, Ubuntuwa Commons, OVCS
+* FundCo & GP entity formations
+* Deferred compensation policy
+* Governance OS requirements → early prototypes
+* Client coop templates & SOP foundation
+
+### **Q3 — Client Activation + Adoption (Jul–Sep)**
+
+* Client legal filings
+* Governance OS beta & adoption workshops
+* Client onboarding + support tooling
+* Analytics dashboards
+* Equity issuance tooling
+
+### **Q4 — Premium + Summit + Close (Oct–Dec)**
+
+* Premium governance OS feature delivery
+* Ubuntuwa Commons Summit execution
+* Revenue & Capital policy refinement
+* Compliance audits + retention planning
+* Annual financial & governance reports
+* OGD v1.0 release
+* Year-2 roadmap and team calibration
+
+---
+
+## 📌 **How to Use This**
+
+✔ **Strategy Meetings / Weekly Syncs** — keep this as a reference timeline
+✔ **Presentations** — include this in decks for partners/stewards
+✔ **Notion / Spreadsheet Import** — you can transpose into columns for tracking
+✔ **Planning Workshops** — align sprint calendars against this annual cadence
+
+---
+
+If you’d like this rendered in **Mermaid Gantt code**, **Notion table**, or a **PDF/PNG visual**, just tell me which format you want!
+Absolutely — here’s your **📌 Executive Dashboard** for Year-1 of the **Navigator Personal Estate (NPE)** and Ashe Cycle ecosystem. This dashboard is designed for **executive-level oversight** (CEO / CLO / CFO / CTO / CoS / CCO) and aligns with your **OKRs + metrics** across strategic themes, with clear success indicators you can track monthly/quarterly.
+
+You can use this for **board presentations, OKR check-ins, all-hands, retrospective reviews, and progress reporting**.
+
+---
+
+# 📊 **EXECUTIVE DASHBOARD — YEAR-1 OKRs + METRICS**
+
+---
+
+## 🎯 **OKR 1 — Foundation & Governance Activation**
+
+**Objective:** Establish legal, operational, and governance foundations for all estate vehicles, OVCS, and core systems.
+
+| **Key Result**                          | **Metric**            | **Target**   | **Status Indicator** |
+| --------------------------------------- | --------------------- | ------------ | -------------------- |
+| Legal entities filed (NPE, DESEF)       | ✔ Filed + Certified   | 100% filed   | 🟢 Completed (Feb)   |
+| Family Estate & Ubuntuwa Commons filed  | ✔ Filed + Certified   | 2/2          | 🟢 Completed (Apr)   |
+| OVCS Authority live                     | ✔ Filed + Operational | Yes          | 🟢 Completed (Apr)   |
+| Deferred Comp Policy legal              | ✔ Approved            | Yes          | 🟢 Completed (May)   |
+| Archive taxonomy & OGD sections started | # Sections            | ≥50% of core | 🟡 In Progress       |
+| Governance OS Spec delivered            | ✔ Published Spec      | Yes          | 🟡 In Progress       |
+
+**Executive Notes**
+
+* Legal formation success metrics track entity filings and registrations.
+* OGD (Organizational Genesis Document) foundational sections are being integrated.
+* Governance tooling specs are being shaped into a prototype acceptance plan.
+
+---
+
+## 📈 **OKR 2 — Capital & Financial Controls**
+
+**Objective:** Establish capital vehicles and financial systems that enable fiscal operations across all estates and cooperatives.
+
+| **Key Result**                          | **Metric**         | **Target** | **Status Indicator** |
+| --------------------------------------- | ------------------ | ---------- | -------------------- |
+| FundCo LPs formed (Zawadi & Mbali)      | ✔ Registered       | Yes        | 🟢 Completed (May)   |
+| General Partner Entities formed         | ✔ Registered       | Yes        | 🟢 Completed (May)   |
+| Deferred Compensation → DC Units Policy | ✔ Approved Legal   | Yes        | 🟢 Completed (May)   |
+| Capital Allocation Rules Defined        | Policy Completed   | Target     | 🟡 In Progress       |
+| Annual Financial Close                  | ✔ Report Published | Yes        | 🟡 Pending (Dec)     |
+| Budget vs Actual (Estate)               | % Variance         | ≤10%       | 🟡 Tracking          |
+
+**Executive Notes**
+
+* FundCo formations established the capital layer foundational for coop ventures.
+* Deferred compensation policy sets up DC Units issuance and equity conversion frameworks.
+* Capital allocation and financial reporting visualization dashboards are underway.
+
+---
+
+## 🛠 **OKR 3 — Governance OS & Platform Enablement**
+
+**Objective:** Build and deploy governance tooling to support cooperative identity, councils, compliance, workflows, and analytics.
+
+| **Key Result**               | **Metric**                 | **Target**     | **Status Indicator** |
+| ---------------------------- | -------------------------- | -------------- | -------------------- |
+| Governance OS Alpha Released | ✔ Release                  | Yes            | 🟢 Completed (Jun)   |
+| Governance OS Beta Released  | ✔ Release                  | Yes            | 🟢 Completed (Jul)   |
+| Premium Feature Deliveries   | ✔ Workflow Autonomy + RBAC | Yes            | 🟡 In Progress       |
+| Adoption by First Clients    | Active Users               | ≥3 Pilot Coops | 🟢 In Progress       |
+| Analytics Dashboards         | ✔ Published                | Yes            | 🟢 Completed (Sep)   |
+| Client Health Dashboard      | Live Metrics               | Yes            | 🟡 In Progress       |
+
+**Executive Notes**
+
+* Governance OS has progressed through prototype → beta with pilot governance integrations.
+* Analytics dashboards for adoption and capital flows are active.
+* Premium features and automation tooling continues with Oct–Dec focus.
+
+---
+
+## 🤝 **OKR 4 — Cooperative Ecosystem Launch**
+
+**Objective:** Bring first cohort of cooperative clients live with governance, onboarding, and operational support.
+
+| **Key Result**             | **Metric**       | **Target** | **Status Indicator** |
+| -------------------------- | ---------------- | ---------- | -------------------- |
+| Client Coops Filed         | ✔ Registrations  | ≥3         | 🟢 Completed (Aug)   |
+| Client Onboarding Sessions | # Completed      | ≥3         | 🟢 Completed (Aug)   |
+| Support Channels Live      | ✔ Helpdesk       | Yes        | 🟢 Completed (Aug)   |
+| Client Satisfaction Score  | % Satisfied      | ≥85%       | 🟡 In Progress       |
+| Retention Engagement       | Retained Clients | ≥3         | 🟡 In Progress       |
+
+**Executive Notes**
+
+* Nandi, Wolof.io, Dogon legal filings completed successfully.
+* Support channels and onboarding processes are live and onboarding.
+* Satisfaction and retention metrics will be key Q4–Y2 early indicators.
+
+---
+
+## 📊 **OKR 5 — Narrative, Outreach & Community**
+
+**Objective:** Build narrative authority, community engagement, and external partnerships for research + ecosystem credibility.
+
+| **Key Result**            | **Metric**         | **Target**   | **Status Indicator** |
+| ------------------------- | ------------------ | ------------ | -------------------- |
+| Mungu + Meridian Blogs    | # Published        | 12 (Monthly) | 🟢 On Track          |
+| Partner Webinars / Events | # Hosted           | ≥4           | 🟡 In Progress       |
+| Research Pipeline Growth  | # Partners Engaged | ≥10          | 🟡 In Progress       |
+| Community AMA Panels      | # Completed        | ≥2           | 🟢 Completed         |
+
+**Executive Notes**
+
+* Narrative cadence (monthly blogs) is hitting targets.
+* Partner webinar planning is underway; community engagement continues.
+* Sustained narrative strategy is foundational to ecosystem evangelism.
+
+---
+
+## 🧠 **OKR 6 — Compliance & Risk Readiness**
+
+**Objective:** Ensure legal and governance compliance across all entities and manage risk proactively.
+
+| **Key Result**            | **Metric**  | **Target** | **Status Indicator** |
+| ------------------------- | ----------- | ---------- | -------------------- |
+| Annual Compliance Audit   | ✔ Completed | Yes        | 🟡 In Progress       |
+| Audit Remediation Plan    | ✔ Published | Yes        | 🟡 In Progress       |
+| Risk Vulnerability Report | ✔ Published | Yes        | 🟡 In Progress       |
+| Compliance Certification  | ✔ Delivered | Yes        | 🟡 Pending (Dec)     |
+
+**Executive Notes**
+
+* Legal compliance audits are underway with remediation planning.
+* Risk assessments completed; tracking & mitigation dashboards to be finalized.
+
+---
+
+# 📌 **Key Executive Metrics Snapshot**
+
+| **Category** | **Metric**                   | **Target** | **Current** | **Status** |
+| ------------ | ---------------------------- | ---------- | ----------- | ---------- |
+| Legal        | Total Entities Filed         | ≥7         | 7           | 🟢         |
+| Finance      | Budget Variance              | ≤10%       | TBD         | 🟡         |
+| Platform     | OS Alpha/Beta Delivered      | 2/2        | 🟢          |            |
+| Adoption     | Governance Clients Active    | ≥3         | 3           | 🟢         |
+| Outreach     | Blogs Published              | 12         | 9           | 🟡         |
+| Support      | Client Onboarding Completion | ≥3         | 3           | 🟢         |
+| Risk         | Risk Report Published        | Yes        | Draft       | 🟡         |
+
+---
+
+# 🧾 **Dashboard Views (Suggested)**
+
+### ✅ **Month View**
+
+* OKR completion % by month
+* Entity filings progress
+* Narrative cadence
+* Governance OS adoption
+
+### 📆 **Quarter View**
+
+* Q1–Q4 OKR achievements
+* Sprint velocity + delivery milestones
+* Client onboarding metrics
+
+### 📊 **Cross-Team Metrics**
+
+* Hiring velocity
+* Steward engagement score
+* Support ticket resolution
+* Compliance audit passes
+
+---
+
+## 📌 **Executive Actions & Alerts**
+
+✔ **Q4 Focus:** Finalize compliance reports + publish OGD v1.0 by Dec
+✔ **Client Satisfaction:** Begin surveys & retention metrics
+✔ **Capital Policy:** Finalize revenue & capital frameworks
+✔ **Narrative Partnerships:** Convert partner interest into pilots
+
+---
+
+If you want, I can also generate:
+
+📌 **Automated Executive Dashboard Template** (Notion / Airtable / Excel)
+
+📌 **Mermaid diagrams with KPI visualizations**
+
+📌 **Quarterly board reports (PDF outline)**
+
+Just tell me your preferred format!

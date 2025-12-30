@@ -66,9 +66,10 @@ ashe cycle:
             - Ubuntuwa-MOYO
             - Ubuntuwa-UMOYA
             - Ubuntuwa-KANO
+        uhuru credit union coop
         moyo collective coop
         bahari network coop
-        ubunye engineering group cop (a.k.a. DESEF dominic eaton systems engineering firm)
+        ubunye engineering group coop (a.k.a. DESEF dominic eaton systems engineering firm)
         umoya society coop
         obatala venture capital studios coop OVCS+studios
             studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator

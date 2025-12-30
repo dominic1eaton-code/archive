@@ -9686,3 +9686,1328 @@ Just tell me:
 2. **Whether you want me to generate sample / mock values** for Year 1 baseline
 
 and I’ll produce it!
+
+Below are **clean, regulator-ready, board-usable TEMPLATE FINANCIAL STATEMENTS** you can apply **across all entities** in your ecosystem, with **controlled variation by entity type**.
+
+These are **templates**, not numbers.
+They are designed to:
+
+* Survive audits
+* Avoid commingling
+* Preserve federation firewalls
+* Plug directly into your Archive OS
+
+---
+
+# GLOBAL RULES (APPLY TO ALL ENTITIES)
+
+**Every entity maintains:**
+
+1. Its own books
+2. Its own bank accounts
+3. Its own statements
+4. Its own audit trail
+
+**No consolidated statements unless explicitly required** (and then only as *read-only informational*).
+
+---
+
+# 1. UNIVERSAL STATEMENT SET (ALL ENTITIES)
+
+Every entity, regardless of type, produces **four core statements**:
+
+1. **Statement of Financial Position** (Balance Sheet)
+2. **Statement of Activities** (P&L / Income Statement)
+3. **Statement of Cash Flows**
+4. **Statement of Changes in Net Assets / Equity**
+
+---
+
+# 2. TEMPLATE — STATEMENT OF FINANCIAL POSITION
+
+*(Balance Sheet)*
+
+```
+ENTITY NAME
+Statement of Financial Position
+As of [Date]
+
+ASSETS
+Current Assets
+  Cash and Cash Equivalents
+  Operating Accounts
+  Restricted Cash
+  Accounts Receivable
+  Prepaid Expenses
+Total Current Assets
+
+Long-Term Assets
+  Property & Equipment
+  Accumulated Depreciation
+  Intangible Assets (IP)
+  Long-Term Investments
+Total Long-Term Assets
+
+TOTAL ASSETS
+
+
+LIABILITIES
+Current Liabilities
+  Accounts Payable
+  Accrued Expenses
+  Deferred Revenue
+  Short-Term Debt
+Total Current Liabilities
+
+Long-Term Liabilities
+  Long-Term Debt
+  Lease Obligations
+Total Long-Term Liabilities
+
+TOTAL LIABILITIES
+
+
+NET ASSETS / EQUITY
+  Without Donor Restrictions / Member Equity
+  With Donor Restrictions / Restricted Capital
+  Retained Earnings / Accumulated Deficit
+
+TOTAL NET ASSETS / EQUITY
+
+TOTAL LIABILITIES & NET ASSETS
+```
+
+---
+
+# 3. TEMPLATE — STATEMENT OF ACTIVITIES
+
+*(Income Statement)*
+
+### A. FOR OPERATING COOPS / STUDIOS / FIRMS
+
+```
+ENTITY NAME
+Statement of Activities
+For the Period Ending [Date]
+
+REVENUE
+  Program Revenue
+  Service Revenue
+  Product Revenue
+  Membership Dues
+Total Revenue
+
+EXPENSES
+  Personnel & Member Compensation
+  Program Costs
+  Facilities & Operations
+  Technology & Tools
+  Professional Fees
+  Insurance & Compliance
+  Depreciation
+Total Expenses
+
+OPERATING SURPLUS / (DEFICIT)
+
+NON-OPERATING
+  Grants
+  Investment Income
+  Interest Expense
+
+NET CHANGE IN NET ASSETS
+```
+
+---
+
+### B. FOR INVESTMENT / CAPITAL ENTITIES
+
+```
+REVENUE
+  Investment Income
+  Unrealized Gains/Losses
+  Realized Gains/Losses
+  Interest & Dividends
+
+EXPENSES
+  Management Fees
+  Professional Services
+  Custodial Fees
+  Compliance & Audit
+
+NET INCOME / (LOSS)
+```
+
+---
+
+### C. FOR TRUSTS / NPOs / RESTRICTED FUNDS
+
+```
+SUPPORT & REVENUE
+  Contributions
+  Grants
+  Program Service Revenue
+
+EXPENSES
+  Program Services
+  Management & General
+  Fundraising
+
+CHANGE IN NET ASSETS
+  With Restrictions
+  Without Restrictions
+```
+
+---
+
+# 4. TEMPLATE — STATEMENT OF CASH FLOWS
+
+*(MANDATORY FOR SHOCK TESTING)*
+
+```
+ENTITY NAME
+Statement of Cash Flows
+For the Period Ending [Date]
+
+CASH FLOWS FROM OPERATING ACTIVITIES
+  Net Surplus / (Deficit)
+  Adjustments (Depreciation, Accruals)
+  Changes in Working Capital
+Net Cash from Operations
+
+CASH FLOWS FROM INVESTING ACTIVITIES
+  Asset Purchases
+  Asset Sales
+  Investments Made / Returned
+Net Cash from Investing
+
+CASH FLOWS FROM FINANCING ACTIVITIES
+  Capital Contributions
+  Debt Issued / Repaid
+  Member Distributions
+Net Cash from Financing
+
+NET CHANGE IN CASH
+Beginning Cash Balance
+Ending Cash Balance
+```
+
+---
+
+# 5. TEMPLATE — STATEMENT OF CHANGES IN NET ASSETS / EQUITY
+
+### A. COOPERATIVES
+
+```
+Beginning Member Equity
++ Member Contributions
++ Net Surplus / (Deficit)
+- Member Distributions
+- Buybacks / Redemptions
+Ending Member Equity
+```
+
+---
+
+### B. INVESTMENT / HOLDING ENTITIES
+
+```
+Beginning Capital
++ Capital Contributions
++ Net Investment Income
+- Distributions
+Ending Capital
+```
+
+---
+
+### C. TRUSTS / NPOs
+
+```
+Net Assets Without Restrictions
+Net Assets With Restrictions
+Beginning Balances
++ Contributions
+- Program Spending
+Ending Balances
+```
+
+---
+
+# 6. REQUIRED NOTES (CRITICAL FOR REGULATORS)
+
+Every statement set includes **Notes to Financial Statements**:
+
+```
+NOTE 1 — Organization & Purpose
+NOTE 2 — Basis of Accounting
+NOTE 3 — Revenue Recognition
+NOTE 4 — Capital Structure
+NOTE 5 — Restrictions on Assets
+NOTE 6 — Related Party Transactions
+NOTE 7 — Risk & Uncertainty
+NOTE 8 — Subsequent Events
+```
+
+**Golden rule:**
+
+> If it could raise a question, it belongs in the notes.
+
+---
+
+# 7. ENTITY-TYPE MAPPING (WHAT EACH ENTITY USES)
+
+| Entity Type              | Statement Variant     | Key Emphasis        |
+| ------------------------ | --------------------- | ------------------- |
+| Worker / Operating Coops | Operating P&L         | Labor, compliance   |
+| Venture Studios          | Operating + IP notes  | Asset lifecycle     |
+| Manufacturing Coops      | Operating + Inventory | OSHA, capex         |
+| Software Coops           | Operating + IP        | Revenue recognition |
+| Investment Coops         | Investment P&L        | Capital segregation |
+| Credit Union             | Regulated format      | Liquidity ratios    |
+| Trusts / CLTs            | Restricted net assets | Fiduciary duty      |
+| Foundations / NPOs       | Functional expenses   | Donor compliance    |
+| Estate / Personal Office | Holding statements    | Firewall clarity    |
+
+---
+
+# 8. ARCHIVE OS INTEGRATION (MANDATORY)
+
+Each statement links to:
+
+* Entity object
+* Period object
+* Capital allocation objects
+* Risk register
+* Incident history (if applicable)
+
+```
+Financial Statement
+ ├── Entity ID
+ ├── Period
+ ├── Authority Sign-off
+ ├── Archive Hash
+ └── Immutable Record
+```
+
+---
+
+# FINAL FINANCIAL LAW
+
+> **Transparency is not for trust.
+> It is for survival.
+> Separate books are separate lives.
+> Consolidation is optional.
+> Clarity is mandatory.**
+
+---
+
+## If you want next (natural continuations):
+
+* **Chart of accounts per entity type**
+* **Inter-entity transaction rules**
+* **Audit readiness checklist**
+* **Financial shock dashboard (what to watch)**
+
+Below is a **complete, regulator-grade financial control layer** for your ecosystem.
+This is **execution doctrine**, not accounting theory.
+
+I’ve broken it into the four artifacts you asked for, each **cleanly separable**, but designed to work together.
+
+---
+
+# I. CHART OF ACCOUNTS (COA) — BY ENTITY TYPE
+
+## A. UNIVERSAL ACCOUNT GROUPS (ALL ENTITIES)
+
+```
+1000 ASSETS
+2000 LIABILITIES
+3000 NET ASSETS / EQUITY
+4000 REVENUE / SUPPORT
+5000 COST OF SERVICES
+6000 OPERATING EXPENSES
+7000 NON-OPERATING
+8000 TRANSFERS (RESTRICTED USE)
+9000 CONTROLS & MEMO ACCOUNTS
+```
+
+**Rule:**
+
+> No entity may invent new account *groups*.
+> Only sub-accounts.
+
+---
+
+## B. OPERATING COOPS / FIRMS / STUDIOS
+
+```
+1000 ASSETS
+  1010 Operating Cash
+  1020 Restricted Cash
+  1100 Accounts Receivable
+  1300 Equipment
+  1350 Accumulated Depreciation
+  1500 Intangible Assets (IP)
+
+2000 LIABILITIES
+  2010 Accounts Payable
+  2020 Accrued Payroll
+  2100 Deferred Revenue
+
+3000 MEMBER EQUITY
+  3010 Member Capital
+  3020 Retained Surplus
+
+4000 REVENUE
+  4010 Services Revenue
+  4020 Product Revenue
+  4030 Membership Dues
+
+5000 COST OF SERVICES
+  5010 Direct Labor
+  5020 Materials
+
+6000 OPERATING EXPENSES
+  6010 Facilities
+  6020 Software & Tools
+  6030 Insurance & Compliance
+  6040 Professional Fees
+
+8000 TRANSFERS
+  8010 Inter-Entity Services (OUT)
+  8020 Inter-Entity Services (IN)
+```
+
+---
+
+## C. INVESTMENT / HOLDING COOPS
+
+```
+1000 ASSETS
+  1010 Cash
+  1200 Investments at Cost
+  1210 Unrealized Gains/Losses
+
+2000 LIABILITIES
+  2200 Accrued Expenses
+
+3000 CAPITAL
+  3100 Member Capital
+  3200 Capital Reserves
+
+4000 INVESTMENT INCOME
+  4100 Dividends
+  4200 Interest
+  4300 Realized Gains/Losses
+
+6000 EXPENSES
+  6100 Management Fees
+  6110 Custodial Fees
+  6120 Legal & Audit
+```
+
+---
+
+## D. TRUSTS / NPOs / CLTs
+
+```
+1000 ASSETS
+  1010 Operating Cash
+  1020 Restricted Cash
+  1400 Land & Property
+
+2000 LIABILITIES
+  2100 Deferred Grant Revenue
+
+3000 NET ASSETS
+  3310 Without Restrictions
+  3320 With Restrictions
+
+4000 SUPPORT
+  4010 Contributions
+  4020 Grants
+
+5000 PROGRAM EXPENSES
+  5010 Direct Program Costs
+
+6000 MANAGEMENT
+  6010 Admin
+  6020 Compliance
+```
+
+---
+
+## E. CREDIT UNION / REGULATED FINANCIAL ENTITIES
+
+* Use regulator-mandated COA
+* Maintain **shadow mapping** to federation groups
+* No customization without counsel
+
+---
+
+# II. INTER-ENTITY TRANSACTION RULES
+
+*(This is where most systems fail)*
+
+## A. HARD PROHIBITIONS
+
+❌ No undocumented transfers
+❌ No netting balances across entities
+❌ No “temporary” loans
+❌ No shared payroll
+❌ No shared bank accounts
+
+---
+
+## B. ALLOWED INTER-ENTITY TRANSACTIONS
+
+| Type                  | Allowed? | Conditions             |
+| --------------------- | -------- | ---------------------- |
+| Service Fees          | ✅        | Arm’s-length, invoiced |
+| Rent / Lease          | ✅        | Written agreement      |
+| IP License            | ✅        | Valuation documented   |
+| Grants                | ✅        | Restricted & tracked   |
+| Capital Contributions | ✅        | Proper authority       |
+| Loans                 | ⚠️       | Only via formal note   |
+
+---
+
+## C. REQUIRED DOCUMENTS (ALL INTER-ENTITY)
+
+Each transaction must have:
+
+1. Contract or MOU
+2. Invoice or transfer memo
+3. Board / OVCS approval (if applicable)
+4. Matching ledger entries
+5. Archive reference
+
+**Rule:**
+
+> If one side records it, the other must mirror it.
+
+---
+
+## D. TRANSFER ACCOUNT USAGE
+
+```
+8000 SERIES = PASS-THROUGH ONLY
+Balances must clear monthly.
+Any residual = audit finding.
+```
+
+---
+
+# III. AUDIT READINESS CHECKLIST
+
+*(If this is always green, audits are boring)*
+
+## A. GOVERNANCE
+
+* [ ] Entity charter current
+* [ ] Board minutes complete
+* [ ] Authority delegations documented
+* [ ] Conflict-of-interest disclosures signed
+
+---
+
+## B. FINANCIAL RECORDS
+
+* [ ] Bank reconciliations current
+* [ ] Separate accounts per entity
+* [ ] COA consistent with policy
+* [ ] Inter-entity balances zeroed
+
+---
+
+## C. CAPITAL & RESTRICTIONS
+
+* [ ] Restricted funds tracked
+* [ ] No commingling
+* [ ] Capital participants segregated
+* [ ] Distribution rules followed
+
+---
+
+## D. PAYROLL & LABOR
+
+* [ ] Role classifications documented
+* [ ] Member vs employee distinction clear
+* [ ] Contractor agreements current
+* [ ] Payroll tax filings complete
+
+---
+
+## E. ASSETS & IP
+
+* [ ] Asset register current
+* [ ] Depreciation schedules correct
+* [ ] IP ownership documented
+* [ ] Licenses recorded
+
+---
+
+## F. ARCHIVE OS
+
+* [ ] Financials archived immutably
+* [ ] Notes to statements complete
+* [ ] Incident disclosures logged
+
+---
+
+## IV. FINANCIAL SHOCK DASHBOARD
+
+*(What to watch — not tools)*
+
+These are **leading indicators**, not lagging reports.
+
+---
+
+## A. RUNWAY & LIQUIDITY
+
+* Months of cash on hand
+* Payroll coverage ratio
+* Restricted vs unrestricted cash
+* Single-bank exposure %
+
+**Trigger:**
+< 6 months runway → freeze discretionary spend
+
+---
+
+## B. CAPITAL RISK
+
+* Capital concentration (top 3 sources)
+* Redemption requests
+* Delayed contributions
+* Bank “risk review” signals
+
+**Trigger:**
+Any capital demanding control → reject or pause
+
+---
+
+## C. INTER-ENTITY STRESS
+
+* Outstanding inter-entity balances
+* Uninvoiced services
+* Repeated “temporary” transfers
+
+**Trigger:**
+Balance persists > 30 days → incident review
+
+---
+
+## D. COST STRUCTURE DRIFT
+
+* Labor % of total spend
+* Fixed vs variable costs
+* Facility utilization
+
+**Trigger:**
+Fixed costs > 60% → restructure
+
+---
+
+## E. GOVERNANCE SIGNALS
+
+* Founder decision frequency
+* Emergency board actions
+* Policy exceptions granted
+
+**Trigger:**
+Exceptions > 2/month → doctrine breach
+
+---
+
+## V. SYSTEM FINANCIAL LAW (READ THIS)
+
+> **Money reveals structure.
+> Audits punish ambiguity.
+> Separation preserves survival.
+> Inter-entity discipline is non-negotiable.
+> If the dashboard looks calm, the system will be calm.**
+
+---
+
+## If you want next (final financial layer options):
+
+* **Entity-specific sample statements**
+* **First-year budget templates**
+* **Monthly close checklist**
+* **Board financial packet format**
+
+Say the word.
+
+Below is the **final, execution-grade financial operating layer**.
+Everything here is **templated, regulator-safe, board-usable, and federation-compatible**.
+
+No canvases. No abstractions. This is what you run.
+
+---
+
+# I. ENTITY-SPECIFIC SAMPLE FINANCIAL STATEMENTS
+
+*(Illustrative format + line items by entity type)*
+
+---
+
+## A. OPERATING COOP / STUDIO / SOFTWARE FIRM
+
+*(e.g., Azande, Lomwe, Nandi Mobility)*
+
+### Statement of Financial Position
+
+```
+ASSETS
+  Cash – Operating
+  Cash – Restricted
+  Accounts Receivable
+  Prepaid Expenses
+  Equipment
+  Accumulated Depreciation
+  Intangible Assets (IP)
+
+LIABILITIES
+  Accounts Payable
+  Accrued Payroll
+  Deferred Revenue
+
+MEMBER EQUITY
+  Member Capital
+  Retained Surplus
+```
+
+### Statement of Activities
+
+```
+REVENUE
+  Services Revenue
+  Product / Platform Revenue
+  Membership Dues
+
+EXPENSES
+  Direct Labor
+  Program Costs
+  Facilities
+  Software & Tools
+  Insurance & Compliance
+  Professional Fees
+  Depreciation
+
+NET SURPLUS / (DEFICIT)
+```
+
+---
+
+## B. MANUFACTURING / MAKERSPACE COOP
+
+*(e.g., Dogon, Kumba nodes)*
+
+**Additions**
+
+* Inventory (Raw / WIP / Finished)
+* Cost of Goods Sold
+* OSHA / Safety compliance costs
+* Equipment utilization notes
+
+---
+
+## C. INVESTMENT / HOLDING COOP
+
+*(e.g., Mande Investment Group)*
+
+### Statement of Financial Position
+
+```
+ASSETS
+  Cash
+  Investments at Cost
+  Unrealized Gains / Losses
+
+LIABILITIES
+  Accrued Expenses
+
+CAPITAL
+  Member Capital
+  Capital Reserves
+```
+
+### Statement of Activities
+
+```
+INVESTMENT INCOME
+  Dividends
+  Interest
+  Realized Gains / Losses
+  Unrealized Gains / Losses
+
+EXPENSES
+  Management Fees
+  Custodial Fees
+  Legal & Audit
+
+NET INCOME
+```
+
+---
+
+## D. TRUST / FOUNDATION / CLT
+
+*(Batwa trusts, CLTs, restricted funds)*
+
+```
+ASSETS
+  Cash – Restricted
+  Land / Property
+
+LIABILITIES
+  Deferred Grant Revenue
+
+NET ASSETS
+  With Restrictions
+  Without Restrictions
+
+PROGRAM EXPENSES
+  Direct Program Services
+  Management & General
+```
+
+---
+
+## E. CREDIT UNION (UHURU CU)
+
+* Use regulator-mandated formats
+* Maintain **shadow mapping** to federation COA
+* Board packet includes liquidity + capital ratios only
+
+---
+
+# II. FIRST-YEAR BUDGET TEMPLATES
+
+*(Annual + quarterly control)*
+
+---
+
+## A. UNIVERSAL BUDGET STRUCTURE
+
+```
+REVENUE
+  Core Revenue
+  Grants / Support
+  Investment Income
+
+EXPENSES
+  Personnel
+  Program / Production
+  Facilities
+  Technology
+  Compliance & Insurance
+  Professional Services
+
+CAPITAL
+  Capital Contributions
+  Capital Reserves
+  Planned Distributions
+
+NET SURPLUS / (DEFICIT)
+```
+
+---
+
+## B. QUARTERLY VIEW (MANDATORY)
+
+| Category    | Q1 | Q2 | Q3 | Q4 | Year |
+| ----------- | -- | -- | -- | -- | ---- |
+| Revenue     |    |    |    |    |      |
+| Expenses    |    |    |    |    |      |
+| Net         |    |    |    |    |      |
+| Cash Ending |    |    |    |    |      |
+
+**Rules**
+
+* Q1 must assume **worst-case revenue**
+* No expense growth without board approval
+* Survival reserve carved out first
+
+---
+
+## C. BUDGET CONTROL LAW
+
+> **Budgets authorize spending.
+> Forecasts do not.**
+
+---
+
+# III. MONTHLY CLOSE CHECKLIST
+
+*(If this is boring, you’re winning)*
+
+---
+
+## A. DAY 1–5: TRANSACTIONS
+
+* [ ] All invoices entered
+* [ ] Payroll posted
+* [ ] Inter-entity invoices issued
+* [ ] Bank feeds synced
+
+---
+
+## B. DAY 6–10: RECONCILIATION
+
+* [ ] Bank reconciliations complete
+* [ ] Credit cards reconciled
+* [ ] Transfer accounts (8000s) zeroed
+* [ ] Restricted funds verified
+
+---
+
+## C. DAY 11–15: REVIEW
+
+* [ ] Variance vs budget explained
+* [ ] Cash runway updated
+* [ ] Capital movements approved
+* [ ] Asset register updated
+
+---
+
+## D. DAY 16–20: FINALIZE
+
+* [ ] Financial statements locked
+* [ ] Notes drafted
+* [ ] Archive entry created
+* [ ] Board packet prepared
+
+**Rule:**
+
+> No retroactive edits after lock.
+
+---
+
+# IV. BOARD FINANCIAL PACKET FORMAT
+
+*(What boards actually need)*
+
+Maximum **10–15 pages**. No data dumps.
+
+---
+
+## 1. EXECUTIVE SUMMARY (1 PAGE)
+
+* Cash on hand
+* Runway (months)
+* Net surplus/deficit
+* Red / Yellow / Green flags
+
+---
+
+## 2. DASHBOARD (1 PAGE)
+
+* Runway trend
+* Revenue vs plan
+* Expense drift
+* Capital concentration
+
+---
+
+## 3. FINANCIAL STATEMENTS (4–6 PAGES)
+
+* Statement of Financial Position
+* Statement of Activities
+* Cash Flow Statement
+* Changes in Equity
+
+---
+
+## 4. VARIANCE ANALYSIS (1–2 PAGES)
+
+* Budget vs actual
+* Explanation of deviations
+* Corrective actions (if any)
+
+---
+
+## 5. CAPITAL & RISK (1–2 PAGES)
+
+* Capital movements
+* Restricted funds status
+* Inter-entity exposure
+* Emerging risks
+
+---
+
+## 6. DECISIONS REQUIRED (OPTIONAL)
+
+* Approvals needed
+* Policy exceptions (rare)
+* Capital allocations
+
+---
+
+## BOARD LAW
+
+> **Boards govern by exception, not inspection.
+> If they are surprised, the system failed.**
+
+---
+
+# V. FINAL FINANCIAL OPERATING LAW
+
+> **Separate books create separate survivability.
+> Monthly discipline beats annual heroics.
+> Cash flow outranks profit.
+> Silence during audits is strength.
+> And boring financials are a sign of a healthy system.**
+
+---
+
+You now have the **complete financial control stack**:
+
+* Templates
+* Rules
+* Cadence
+* Shock readiness
+* Board interface
+
+If you want the *absolute last layer*, it would be:
+
+* **Live Year-1 pro forma (by entity cluster)**
+* **Downside / austerity budgets**
+* **Founder compensation deferral schedules tied to cash triggers**
+
+Below is a **complete, executable Year-1 financial planning layer** that sits cleanly on top of everything you’ve already defined.
+
+This is **not advice, not aspiration, not narrative**.
+It is **control logic + numbers-as-structure**, written so you can **run the system in real time**.
+
+I’ve broken it into the three deliverables you asked for.
+
+---
+
+# I. LIVE YEAR-1 PRO FORMA (BY ENTITY CLUSTER)
+
+This is **clustered**, not per-entity, on purpose:
+
+* Reduces founder cognitive load
+* Preserves federation firewalls
+* Matches how capital and risk are actually managed
+
+You can explode any cluster into entity-level detail later.
+
+---
+
+## CLUSTER A — CORE OPERATING & ENGINEERING COOPS
+
+*(Azande, Lomwe, Damara, Niguvu, Nandi, Dogon, San)*
+
+### Assumptions
+
+* Revenue ramp, not immediate profitability
+* Labor-heavy
+* IP creation ongoing
+* Founder time most exposed here
+
+### Year-1 Pro Forma (Illustrative, Relative)
+
+```
+REVENUE
+  Client / Platform Revenue        1.00x
+  Grants / Program Revenue         0.30x
+TOTAL REVENUE                      1.30x
+
+EXPENSES
+  Labor & Member Compensation      0.85x
+  Program / Production Costs       0.20x
+  Facilities & Ops                 0.15x
+  Compliance & Professional        0.10x
+TOTAL EXPENSES                     1.30x
+
+NET                               ~0.00x (Break-even target)
+```
+
+**Control Rules**
+
+* No net loss beyond Q2
+* Labor growth capped until 3-month revenue visibility
+* Founder compensation deferred by default (see Section III)
+
+---
+
+## CLUSTER B — STUDIOS, MAKERSPACES, KUMBA METAFAB
+
+*(OVCS studios, Kumba, creators, fablabs)*
+
+### Assumptions
+
+* Capital-intensive
+* Lumpy returns
+* High regulatory exposure
+* Sacrificial by design
+
+```
+REVENUE
+  Studio Fees / Services            0.40x
+  Grants / Sponsorships             0.40x
+  IP / Asset Exits                  0.30x
+TOTAL REVENUE                       1.10x
+
+EXPENSES
+  Facilities & Equipment            0.50x
+  Technical Labor                   0.35x
+  Materials                         0.15x
+  Compliance / Insurance            0.10x
+TOTAL EXPENSES                      1.10x
+
+NET                                0.00x
+```
+
+**Doctrine**
+
+> Studios may break even or shut down.
+> They are not allowed to drain the core.
+
+---
+
+## CLUSTER C — INVESTMENT & CAPITAL ENTITIES
+
+*(Mande, funds, portfolios, real estate)*
+
+### Assumptions
+
+* Cash preservation > yield
+* Low operating cost
+* High regulatory scrutiny
+
+```
+INCOME
+  Investment Returns                1.00x
+
+EXPENSES
+  Management & Admin                0.15x
+  Legal / Audit                     0.10x
+
+NET                                 0.75x
+```
+
+**Rule**
+
+* No operating entity depends on this surplus
+* Surplus feeds reserves, not payroll
+
+---
+
+## CLUSTER D — TRUSTS, CLTs, COMMUNITY PROGRAMS
+
+*(Batwa, CLTs, funds)*
+
+```
+SUPPORT
+  Grants / Contributions            1.00x
+
+EXPENSES
+  Program Services                  0.75x
+  Admin / Compliance                0.15x
+
+NET                                 0.10x (Restricted carryforward)
+```
+
+**Hard Rule**
+
+* Never backfill operating losses
+* Restricted funds remain restricted
+
+---
+
+## CLUSTER E — ESTATE & PERSONAL OFFICE
+
+*(Founder office, estate entities)*
+
+```
+INCOME
+  Fees / Distributions              0.30x
+
+EXPENSES
+  Minimal Ops                       0.20x
+
+NET                                 0.10x
+```
+
+**Purpose**
+
+* Firewall personal risk
+* Absorb deferred compensation later
+
+---
+
+# II. DOWNSIDE / AUSTERITY BUDGETS
+
+*(When revenue is late, cut early)*
+
+Three predefined modes. You **do not improvise**.
+
+---
+
+## MODE 1 — CAUTION (Runway < 9 months)
+
+**Triggers**
+
+* Revenue miss > 15%
+* Capital delay
+* Expense drift
+
+**Actions**
+
+* Hiring freeze
+* Founder comp = 0
+* Studios paused
+* Discretionary spend cut 25%
+
+---
+
+## MODE 2 — DEFENSIVE (Runway < 6 months)
+
+**Actions**
+
+* All founder & steward compensation deferred
+* Non-core entities paused or sacrificed
+* Facilities consolidated
+* Program scope reduced
+
+**Rule**
+
+> No new commitments of any kind.
+
+---
+
+## MODE 3 — SURVIVAL (Runway < 3 months)
+
+**Actions**
+
+* Payroll limited to critical operators
+* Founder comp remains 0
+* Immediate entity sacrifice
+* Capital intake suspended (no bad deals)
+
+**Doctrine**
+
+> Survival > growth > pride.
+
+---
+
+# III. FOUNDER COMPENSATION DEFERRAL SCHEDULE
+
+*(Tied strictly to cash reality)*
+
+This is **non-negotiable and automatic**.
+
+---
+
+## BASE PRINCIPLE
+
+> **Founder compensation is a lagging indicator of system health.**
+
+Founder gets paid **last**, not first.
+
+---
+
+## COMPENSATION STATES
+
+### STATE 0 — DEFAULT (Year-1 Start)
+
+* Cash comp: **$0**
+* Accrues as **Deferred Founder Compensation (DFC)**
+* No interest
+* No voting leverage
+
+---
+
+### STATE 1 — STABILITY TRIGGER
+
+**Requirements**
+
+* ≥ 9 months runway
+* 3 consecutive profitable months (cluster A)
+* No outstanding crisis flags
+
+**Action**
+
+* Founder may draw **modest stipend** (e.g. 25–40% market)
+* DFC continues accruing
+
+---
+
+### STATE 2 — NORMALIZATION TRIGGER (Late Year-1 / Year-2)
+
+**Requirements**
+
+* ≥ 12 months runway
+* System profitable or sustainably funded
+* Board + OVCS approval
+
+**Action**
+
+* Founder draws market-adjusted comp
+* DFC begins scheduled payout
+
+---
+
+## DEFERRAL WATERFALL (DFC PAYOUT)
+
+```
+1. Survival Reserves Full
+2. Payroll Fully Funded
+3. Taxes & Compliance Paid
+4. Restricted Funds Intact
+5. Founder DFC Paid (Installments)
+```
+
+If system regresses → payout pauses automatically.
+
+---
+
+## FOUNDER LAW (FINANCIAL)
+
+> **If the founder must be paid for the system to function,
+> the system is already broken.**
+
+---
+
+# IV. HOW THIS ALL OPERATES TOGETHER
+
+```
+PRO FORMA
+   ↓
+MONTHLY ACTUALS
+   ↓
+RUNWAY CALCULATION
+   ↓
+MODE SELECTION (Normal / Caution / Defensive / Survival)
+   ↓
+AUTOMATIC COMP & SPEND RULES
+```
+
+No meetings required.
+No emotions involved.
+No exceptions without OVCS override.
+
+---
+
+# FINAL SYSTEM FINANCIAL LAW (YEAR-1)
+
+> **Cash is oxygen.
+> Runway is life expectancy.
+> Growth is optional.
+> Survival is mandatory.
+> And founders who design systems to outgrow themselves win.**
+
+---
+
+If you want the **absolute final layer**, it would be:
+
+* **Concrete Year-1 numbers filled in (best / base / worst)**
+* **Founder DFC ledger template**
+* **One-page “mode switch” operating card**
+
+Say the word.
+

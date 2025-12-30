@@ -235,7 +235,15 @@ They are onboarded **before staff**.
 
 
 
+## 🛡️ **First 5 Stewards — Squad-Steward Layer (Unified Header Format)**
 
+| **Team**          | **Role / Member**           | **Title / Position**         | **Primary Focus**                                    | **Domain / Coverage**           |
+| ----------------- | --------------------------- | ---------------------------- | ---------------------------------------------------- | ------------------------------- |
+| **Squad-Steward** | OVCS Anchor                 | Constraint Guardian          | Structural veto, audit access, constitutional brake  | OVCS / Cross-Entity Governance  |
+| Squad-Steward     | Systemics Co-Thinker        | Conceptual Stress Tester     | Doctrine critique, model breaking, closure avoidance | Systemics / Doctrine            |
+| Squad-Steward     | Human Viability Guardian    | Moral & Human-Impact Steward | Human harm prevention, pause authority               | Human Systems / Commons         |
+| Squad-Steward     | Governance & Legal Designer | Constraint Translator        | Encode enforceable governance & revocation           | Legal / Governance Architecture |
+| Squad-Steward     | Operations Realist          | Ground-Truth Steward         | Feasibility, cost realism, operational veto          | Operations / Delivery Reality   |
 
 
 ## 📋 **Full Unified Teams Table (With Squad-X for Program Squads)**
@@ -312,10 +320,93 @@ They are onboarded **before staff**.
 
 
 
+| **Team Type**   | **Primary Focus**                       | **Duration**        | **Scope**              | **Typical Use Case**                    |                                |
+| --------------- | --------------------------------------- | ------------------- | ---------------------- | --------------------------------------- | ------------------------------ |
+| **Squad**       | Execution of product/features           | Ongoing             | Product mission        | Rapid delivery teams ([Medium][2])      |                                |
+| **Tribe**       | Coordination of squads                  | Long-term           | Product area           | Cross-functional alignment ([Wrike][1]) |                                |
+| **Chapter**     | Skill/domain expertise                  | Long-term           | Functional consistency | Best practice sharing ([Wrike][1])      |                                |
+| **Guild**       | Cross-organizational interest community | Long-term/voluntary | Broad interests        | Knowledge exchange ([Wrike][1])         |                                |
+| **Tiger Team**  | Critical problem resolution             | Short-term          | Specific target        | High-impact issues ([PM Column][3])     |                                |
+| **Line Team**   | Functional hierarchy                    | Ongoing             | Career & reporting     | People management ([and.digital][6])    |                                |
+| **Domain Team** | Domain accountability                   | Ongoing             | Domain services        | Domain ownership & APIs                 | *conceptual industry practice* |
 
 
 
 
+
+
+
+```
+                               ┌──────────────────────────┐
+                               │  Class E — Founder        │
+                               │  Dominic Eaton            │
+                               │  Navigator / Architect    │
+                               └────────────┬─────────────┘
+                                            │
+                                            ▼
+                               ┌──────────────────────────┐
+                               │  Squad-Steward            │
+                               │  (Authority Constraints)  │
+                               │                            │
+                               │  • OVCS Anchor             │
+                               │  • Systemics Co-Thinker    │
+                               │  • Human Viability Guard   │
+                               │  • Governance Designer     │
+                               │  • Operations Realist      │
+                               └────────────┬─────────────┘
+                                            │
+                        ┌───────────────────┴───────────────────┐
+                        ▼                                       ▼
+            ┌──────────────────────────┐         ┌──────────────────────────┐
+            │      Squad-Exec           │         │       Squad-Gov           │
+            │  (Enterprise Direction)   │         │  (Governance Systems)     │
+            │                            │         │                            │
+            │ • CEO / CoS / COO / CFO    │         │ • Governance OS Lead       │
+            │ • CTO / CLO / CCO / CPO    │         │ • Gov Engineers            │
+            │ • CGO / EA                 │         │ • OVCS Liaison             │
+            └────────────┬─────────────┘         └────────────┬─────────────┘
+                         │                                       │
+                         ▼                                       ▼
+        ┌──────────────────────────┐              ┌──────────────────────────┐
+        │        Line Teams         │              │        Domain Teams       │
+        │  (People & Resources)    │              │  (Long-Term Ownership)   │
+        │                            │              │                            │
+        │ • Engineering Line        │              │ • Platform OS             │
+        │ • QA / Support Line       │              │ • Governance OS           │
+        │ • Ops / Infra Line        │              │ • Financial OS            │
+        └────────────┬─────────────┘              └────────────┬─────────────┘
+                         │                                       │
+                         └──────────────┬────────────────────────┘
+                                        ▼
+                          ┌──────────────────────────┐
+                          │        Squad-Core         │
+                          │  (Shared Capabilities)   │
+                          │                            │
+                          │ • QA Guild Lead           │
+                          │ • QA Engineers            │
+                          │ • Support Analysts        │
+                          │ • DevOps                  │
+                          └────────────┬─────────────┘
+                                        │
+        ┌───────────────────────────────┴───────────────────────────────┐
+        ▼                               ▼                               ▼
+┌──────────────────────┐   ┌──────────────────────┐   ┌──────────────────────┐
+│   Squad-Ops A        │   │   Squad-Ops B        │   │   Squad-Ops C        │
+│ Wolof / Massai etc. │   │ Nandi / Ubunye etc. │   │ Dogon / Azande etc. │
+└─────────┬────────────┘   └─────────┬────────────┘   └─────────┬────────────┘
+          ▼                          ▼                          ▼
+┌──────────────────────┐   ┌──────────────────────┐   ┌──────────────────────┐
+│   Squad-Ops D        │   │   Squad-Ops E        │   │   (Future Ops)       │
+│ Lomwe / Niguvu etc. │   │ Mande IG / Batwa     │   │                       │
+└──────────────────────┘   └──────────────────────┘   └──────────────────────┘
+
+        ┌───────────────────────────────────────────────────────────────┐
+        ▼                                                               ▼
+┌──────────────────────┐   ┌──────────────────────┐   ┌──────────────────────┐
+│  Squad-Prog A        │   │  Squad-Prog B        │   │  Squad-Prog C        │
+│ Kano + Ndebe        │   │ Kuzu + Zalendo       │   │ Zamba + Luma         │
+└──────────────────────┘   └──────────────────────┘   └──────────────────────┘
+```
 
 
 
@@ -1043,3 +1134,505 @@ What you say:
 | **S-0070 (report)**     | Delivery Retrospective              | report      | Write retrospective           | 2025-11-26 |      5d | Delivery Lead |
 
 
+
+
+
+
+
+
+
+                                  [Eaton Family Estate (ESE)]
+                                             |
+                                             v
+                                       +----------------+
+                                       |  OVCS Authority |
+                                       +----------------+
+                                             |
+                 ----------------------------------------------------------------
+                 |              |               |              |               |
+                 v              v               v              v               v
+          (Governance)   (Authorization)  (Compliance)  (Audit/Oversight)   (Reserve Trust)
+           OVCS Trust      OVCS Certs       OVCS Compliance    OVCS Audit      (optional entity)
+                                             |
+                                             v
+                                   +----------------------+
+                                   |   OVCS Manager Entity|
+                                   +----------------------+
+                                             |
+                                 +-----------+----------+
+                                 |                      |
+                                 v                      v
+                        +----------------+     +----------------------+
+                        |  FundCo (LP)*  |     |  FundCo (LP)*       |
+                        +----------------+     +----------------------+
+                                 |                      |
+                                 v                      v
+                         +----------------+    +-----------------+
+                         | GPCo (Manager) |    | GPCo (Manager)  |
+                         +----------------+    +-----------------+
+                                 |                      |
+                                 v                      v
+              +-----------------------------------------------------------------------------------------------------------+
+              |                                         KUMBA METAFACTORY FRANCHISE                                      |
+              +-----------------------------------------------------------------------------------------------------------+
+                                             |
+                 -----------------------------------------------------------------------------------------
+                 |                                                                       |
+                 v                                                                       v
+    [Kumba Metafactory HQ (legal umbrella, non-operational)]                 [Factory #1 (Industry A)]
+       |        (holds HQ governance assets)                                    |
+       |                                                                         |
+       v                                                                         v
++--------------------------+                                 +------------------------------------------+
+| Central HoldCo (HQ)      |                                 |     Factory HoldCo #1                    |
++--------------------------+                                 +------------------------------------------+
+| Central IPCo (HQ)        |                                 | Factory IPCo #1                           |
++--------------------------+                                 +------------------------------------------+
+| Central OpCo (HQ)        |                                 | Factory OpCo #1                           |
++--------------------------+                                 +------------------------------------------+
+| Central ManCo (HQ)       |                                 | Factory ManCo #1                          |
++--------------------------+                                 +------------------------------------------+
+| Central IncentiveCo (HQ) |                                 | Factory IncentiveCo #1                    |
++--------------------------+                                 +------------------------------------------+
+       |                                                         |
+       v                                                         v
++------------------------------+                   +-----------------------------------------+
+| StudioCo A (HQ flagship)     |                   | StudioCo A1 (Factory #1’s Studio)      |
++------------------------------+                   +-----------------------------------------+
+| StudioCo B (HQ flagship)     |                   | StudioCo A2                             |
++------------------------------+                   +-----------------------------------------+
+                ...                                                  |
+                |                                                   v
+                v                                  +----------------------------------------+
++------------------------------+                  | VentureCos (e.g., A, B, C under #1)    |
+| PortfolioCo HQ1              |                  +--------------------+-------------------+
++------------------------------+                  | IPCo #A1           | IncentiveCo #A1 |
+| PortfolioCo HQ2              |                  +--------------------+-------------------+
++------------------------------+                  | VentureCos A1      | VentureCos A2    |
+                ...                                 +--------------------+-------------------+
+
+                                             [Factory #2 (Industry B)]
+                                                         |
+                                      +----------------------------------------+
+                                      |     Factory HoldCo #2                  |
+                                      +----------------------------------------+
+                                      | Factory IPCo #2                        |
+                                      +----------------------------------------+
+                                      | Factory OpCo #2                        |
+                                      +----------------------------------------+
+                                      | Factory ManCo #2                       |
+                                      +----------------------------------------+
+                                      | Factory IncentiveCo #2                 |
+                                      +----------------------------------------+
+                                                         |
+                                                         v
+                                      +----------------------------------------+
+                                      | StudioCo B1 (Factory #2’s Studio)      |
+                                      +----------------------------------------+
+                                      | StudioCo B2                             |
+                                      +----------------------------------------+
+                                                         |
+                                                         v
+                                  +-----------------------------------------------+
+                                  | VentureCos (e.g., X, Y, Z under #2)          |
+                                  +------------------+----------------------------+
+                                  | IPCo #X1         | IncentiveCo #X1             |
+                                  +------------------+----------------------------+
+                                  | VentureCos X1    | VentureCos X2              |
+                                  +-----------------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     +--------------------------------+
+                                     |   Eaton Family Estate (ESE)    |
+                                     |   + Family Offices + Sponsors   |
+                                     +----------------+---------------+
+                                                      |
+                                                      v
+                                            +------------------------+
+                                            |     OVCS Authority      |
+                                            |  (Governance & Certs)   |
+                                            +-------------+----------+
+                                                          |
+                                Authorization + Constraints |
+                                                          v
+                               +--------------------------------+
+                               |     Fund Layer (Capital)        |
+                               +--------------------------------+
+                               |    Zawadi FundCo LP             |
+                               |         +                       |
+                               |    Mbali FundCo LP              |
+                               +---+----------------------------+
+                                   |
+                  +----------------+----------------+
+                  v                                     v
+        +----------------------+           +--------------------------+
+        | Kivuli PortfolioCo    |           | Maua PortfolioCo         |
+        +----------------------+           +--------------------------+
+        | Kivuli IPCo           |           | Maua IPCo                |
+        | Kivuli IncentiveCo    |           | Maua IncentiveCo         |
+        +-----------+----------+           +-------------+------------+
+                    |                                        |
+                    v                                        v
+        +----------------------------+         +---------------------------+
+        | VentureCos Nandi           |         | VentureCos Lomwe          |
+        +----------------------------+         +---------------------------+
+        | OpCo (Execution)           |         | OpCo (Execution)          |
+        +----------------------------+         +---------------------------+
+        | Licenses from IPCo         |         | Licenses from IPCo        |
+        +----------------------------+         +---------------------------+
+                    |                                        |
+                    v                                        v
+        +--------------------------+           +---------------------------+
+        | Platforms Implemented   |           | Platforms Implemented    |
+        | (e.g., Qala Platform)    |           | (e.g., Kogi Platform)     |
+        +--------------------------+           +---------------------------+
+                    |                                        |
+                    v                                        v
+          +--------------------------+        +----------------------------+
+          | Incentive Unit Vesting   |        | Incentive Unit Vesting     |
+          | (via IncentiveCo)        |        | (via IncentiveCo)          |
+          +--------------------------+        +----------------------------+
+                    |                                        |
+                    v                                        v
+       +---------------------------+       +-----------------------------+
+       | Worker/Member Equity Units|       | Worker/Member Equity Units  |
+       +---------------------------+       +-----------------------------+
+                    |
+                    v
+        +--------------------------------+
+        |  Central/Factory Shared Ops    |
+        |  (OpCo + ManCo Support Teams)   |
+        +--------------------------------+
+
+
+
+
+
+
+
+
+
+
+                       [OVCS Authority]
+                                |
+                                v
+                      [Zawadi FundCo LP] ← LP Capital Pool
+                                |
+                                v
+                +---------------PortfolioCo (Flagship)----------------+
+                |                                                         |
+       +--------+--------+                                      +--------+-------+
+       | Kivuli IPCo (IP) |                                      | Kivuli IncentiveCo (Equity Units) |
+       +------------------+                                      +----------------------------------+
+                |                                                               |
+                v                                                               v
+   +------------+-----------+                           +--------------------------+
+   | VentureCos – Nandi     |                           | VentureCos – Azande      |
+   +------------------------+                           +--------------------------+
+            |                                                         |
+            v                                                         v
+       OpCo Nandi                                                OpCo Azande
+            |                                                         |
+            v                                                         v
+         Platforms                                                  Platforms
+
+
+
+
+
+
+                                      [Eaton Family Estate (ESE)]
+                                                  |
+                                                  v
+                                           +---------------+
+                                           |  OVCS Authority|
+                                           +---------------+
+                                                  |
+  +-------------------------------------------------------------------------------------------+
+  |                                        OVCS Governance Layer                                |
+  |                                                                                           |
+  |   +-------------------+  +----------------------+  +------------------------+            |
+  |   |  Ovuko Authority  |  | Uhuru Trust (optional)|  | Lekesa Compliance Co. |            |
+  |   +-------------------+  +----------------------+  +------------------------+            |
+  |                                                                                           |
+  |                       +------------------------+                                         |
+  |                       | Sembeka Audit & Oversight|                                         |
+  |                       +------------------------+                                         |
+  +-------------------------------------------------------------------------------------------+
+                                                  |
+                                                  v
+                                    +-------------------------------+
+                                    |     OVCS Manager Entity       |
+                                    |         (e.g., Ziko GPCo)     |
+                                    +-------------------------------+
+                                                  |
+                         +------------------------+------------------------+
+                         |                                                 |
+                         v                                                 v
+                +----------------------+                         +----------------------+
+                |  Zawadi FundCo LP°   |                         | Mbali FundCo LP°     |
+                +----------------------+                         +----------------------+
+                         |                                                 |
+                         v                                                 v
+                +----------------------+                         +----------------------+
+                |  Ziko GPCo (Manager) |                         | Jelani GPCo (Manager)|
+                +----------------------+                         +----------------------+
+
+                                                  |
+                                                  v
+                                       +--------------------------+
+                                       |  Kumba Metafactory HQ    |
+                                       +--------------------------+
+                                                  |
+                                                  v
+                    +-----------------------------------Shared Commons----------------------------------+
+                    |                                                                              |
+                    v                                                                              v
+            +----------------------+                                                 +------------------------+
+            | Thabiti HoldCo LLC   |                                                 | Kijani IPCo LLC        |
+            +----------------------+                                                 +------------------------+
+            |                      |                                                 |                        |
+            v                      v                                                 v                        v
+    +--------------------+   +--------------------+                        +--------------------+   +--------------------+
+    | Upendo OpCo LLC    |   | Nuru ManCo LLC     |                        | Zuri IncentiveCo LLC|   | (Other Commons Co)* |
+    +--------------------+   +--------------------+                        +--------------------+   +--------------------+
+
+   *(Other Commons Co = future legal entity as needed)*
+
+                                                  |
+                                  +---------------Flagship Factory Stack----------------+
+                                  |                                                     |
+                                  v                                                     v
+                  +-----------------------------------------------+    +-----------------------------------------------+
+                  |            Umoja A Factory HoldCo LLC          |    |            Umoja B Factory HoldCo LLC          |
+                  +-----------------------------------------------+    +-----------------------------------------------+
+                  |                                               |    |                                               |
+                  v                                               v    v                                               v
+      +---------------------+                         +---------------------+                         +---------------------+
+      | Safi A IPCo LLC     |                         | Imani A OpCo LLC    |                         | Amani A ManCo LLC   |
+      +---------------------+                         +---------------------+                         +---------------------+
+      |                     |                         |                     |                         |                     |
+      v                     v                         v                     v                         v                     v
++------------------+   +--------------------+   +---------------------+   +---------------------+   +-------------------+
+| Tumaini A1 IncentiveCo LLC|                    | (Factory #2 Stack)   |   | ... additional factories ... |                 |
++------------------------+   +--------------------+                                                              +-------------------+
+
+   Within each Factory Stack (e.g., A, B, etc.):
+   ------------------------------------------------
+   | PortfolioCos (per cluster of ventures)        |
+   |  e.g., Kivuli PortfolioCo LLC                  |
+   |                                               |
+   | IPCo for that portfolio                         |
+   | IncentiveCo for that portfolio                 |
+   +------------------------------------------------+
+
+                                                  |
+                                                  v
+                 +----------------------------------------------------------------------------------------+
+                 |                                Flagship Ventures Pool                                  |
+                 +----------------------------------------------------------------------------------------+
+                 |          |          |          |         |          |          |          |          |
+                 v          v          v          v         v          v          v          v          v
+        +-------------+ +-------------+ +-------------+ +-------------+ +-------------+ +-------------+
+        | Nandi VentureCo | | Azande VentureCo| | San VentureCo | | Massai VentureCo| | Batwa VentureCo| | Dogon VentureCo|
+        +-------------+ +-------------+ +-------------+ +-------------+ +-------------+ +-------------+
+               |                    |                   |                    |                  |                  |
++----------------------+ +----------------------+ +----------------------+ +----------------------+ +----------------------+
+| Nandi IPCo LLC       | | Azande IPCo LLC     | | San IPCo LLC        | | Massai IPCo LLC     | | Batwa IPCo LLC      |
++----------------------+ +----------------------+ +----------------------+ +----------------------+ +----------------------+
+| Nandi IncentiveCo LLC| | Azande IncentiveCo LLC| | San IncentiveCo LLC| | Massai IncentiveCo LLC| | Batwa IncentiveCo LLC|
++----------------------+ +----------------------+ +----------------------+ +----------------------+ +----------------------+
+               |                    |                      |                      |                       |
+               v                    v                      v                      v                       v
+        +--------------+      +--------------+       +--------------+       +--------------+        +---------------+
+        |  Nandi OpCo   |      | Azande OpCo  |       | San OpCo    |       | Massai OpCo |        | Batwa OpCo    |
+        +--------------+      +--------------+       +--------------+       +--------------+        +---------------+
+
+         +----------------------+ +-----------------------+
+         | Damara VentureCo      | | Nigu VentureCo        |
+         +----------------------+ +-----------------------+
+         | Damara IPCo LLC       | | Nigu IPCo LLC         |
+         | Damara IncentiveCo LLC| | Nigu IncentiveCo LLC  |
+         +----------------------+ +-----------------------+
+         | Damara OpCo LLC       | | Nigu OpCo LLC         |
+         +----------------------+ +-----------------------+
+
+         +----------------------+ +-----------------------+
+         | Mande VentureCo       | | Songhai VentureCo     |
+         +----------------------+ +-----------------------+
+         | Mande IPCo LLC        | | Songhai IPCo LLC      |
+         | Mande IncentiveCo LLC | | Songhai IncentiveCo LLC|
+         +----------------------+ +-----------------------+
+         | Mande OpCo LLC        | | Songhai OpCo LLC      |
+         +----------------------+ +-----------------------+
+
+         +----------------------+
+         | Wolof VentureCo      |
+         +----------------------+
+         | Wolof IPCo LLC       |
+         | Wolof IncentiveCo LLC|
+         +----------------------+
+         | Wolof OpCo LLC       |
+         +----------------------+
+
+---
+
+# 🧠 LEGAL ENTITY EXPLANATION
+
+## 🏛 **OVCS Governance Layer**
+These are *top-level legal entities* that authorize, audit, and enforce governance:
+- **Ovuko Authority** — legal governance body  
+- **Uhuru Trust** — asset/endowment stewardship  
+- **Lekesa Compliance Co.** — compliance enforcement  
+- **Sembeka Audit & Oversight** — external verification  
+
+## 💼 **Capital Vehicles**
+- **Zawadi FundCo LP / Mbali FundCo LP** — LP capital pools  
+- **Ziko GPCo / Jelani GPCo** — manager entities (GPs)
+
+## 🏙 **Kumba Metafactory HQ**
+Shared common entities:
+- **Thabiti HoldCo LLC** — holds equity centrally  
+- **Kijani IPCo LLC** — central IP commons
+- **Upendo OpCo LLC** — shared execution  
+- **Nuru ManCo LLC** — shared services  
+- **Zuri IncentiveCo LLC** — central incentive pool  
+
+## 🏭 **Factory Stacks**
+Each factory (e.g., *Umoja A Factory*) has:
+- Factory-scoped HoldCo, IPCo, OpCo, ManCo, IncentiveCo
+
+## 📦 **PortfolioCos**
+Each cluster of ventures is held under a **PortfolioCo LLC** with its own:
+- IPCo  
+- IncentiveCo  
+
+## 🚀 **VentureCos**
+Each of your 12 ventures is a separate LLC:
+- Nandi, Azande, San, Massai, Batwa, Dogon, Damara, Nigu, Mande, Songhai, Wolof
+
+Each venture has:
+- Its own **VentureCo**  
+- A pair of **IPCo & IncentiveCo**  
+- An **OpCo** for execution  
+
+---
+
+# 📌 ENTITY NAMING RULES USED
+
+✔ All names are **African-phonetic**  
+✔ Suffixes map to legal role (LLC, LP, GPCo)  
+✔ Each layer is distinct (governance vs capital vs execution)  
+✔ Paired IPCos & IncentiveCos under each portfolio/venture
+
+---
+
+If you want next, I can convert this into:
+
+📌 A **Mermaid diagram** version  
+📌 A **PDF / diagram graphic**  
+📌 A **fillable legal reference sheet** with clause links
+
+Just tell me which one you’d like to see!
+
+
+
+                                 [ Eaton Family Estate ]
+                                             |
+                                             v
+                                       [ OVCS Authority ]
+                                             |
+                                      (Authorizes the Factory)
+                                             |
+                                             v
+                              +---------------------------------+
+                              |        MetaFactory LLC         |
+                              |  (Non-operational HQ umbrella) |
+                              +---------------------------------+
+                                             |
+                                             |
+           +---------------------------------+--------------------------------------+
+           |                                 |                                      |
+           v                                 v                                      v
++-----------------------+      +-------------------------------+       +---------------------------+
+|  Meta HoldCo LLC      |      |  Meta IPCo LLC                |       |  Meta IncentiveCo LLC     |
+|  (Equity custodian)   |      |  (Shared IP commons)          |       |  (Shared incentive pool)  |
++-----------------------+      +-------------------------------+       +---------------------------+
+                                         |                                      |
+                                         v                                      v
+                              +---------------------------------+       +---------------------------+
+                              |        Shared OpCo LLC          |       |   Shared ManCo LLC        |
+                              | (Shared execution & teams)      |       | (Shared services)         |
+                              +---------------------------------+       +---------------------------+
+                                             |
+                                             |
+                                        (Resourcing)
+                                             |
+                                             v
+                             +----------------------------------+
+                             |             Factory             |
+                             |         (Industry/Domain)        |
+                             +----------------------------------+
+                                             |
+           +---------------------------------+------------------------------------------+
+           |                                 |                                         |
+           v                                 v                                         v
++-----------------------+      +-------------------------------+       +---------------------------+
+| Factory HoldCo LLC    |      | Factory IPCo LLC              |       | Factory IncentiveCo LLC    |
+| (Equity in Ventures)  |      | (IP specific to Factory)      |       | (Incentives for Factory)   |
++-----------------------+      +-------------------------------+       +---------------------------+
+           |                                 |                                         |
+           v                                 v                                         v
++-----------------------+      +-------------------------------+       +---------------------------+
+| Factory OpCo(s) LLC   |      | Factory ManCo LLC              |       | Venture IncentiveCos (⋯)   |
+| (Execution teams)     |      | (Factory support services)     |       | (for each portfolio)       |
++-----------------------+      +-------------------------------+       +---------------------------+
+           |                                                                                |
+           v                                                                                v
+      +---------------------------------+                                            +-------------------------+
+      |        PortfolioCos A           |                                            |    PortfolioCos Z       |
+      +---------------------------------+                                            +-------------------------+
+           |                     |                     ...                                   |             ...
+           v                     v                                                           v             v
++----------------+       +----------------+                                       +----------------+ +----------------+
+| IPCo A1 LLC    |       | IPCo A2 LLC    |                                       | IPCo Z1 LLC    | | IPCo Z2 LLC    |
++----------------+       +----------------+                                       +----------------+ +----------------+
+| IncentiveCo A1 |       | IncentiveCo A2 |                                       | IncentiveCo Z1 | | IncentiveCo Z2 |
++----------------+       +----------------+                                       +----------------+ +----------------+
+       |                          |                                                     |                          |
+       v                          v                                                     v                          v
++-------------+           +-------------+                                         +-------------+           +-------------+
+| Venture A1  |           | Venture A2  |                                         | Venture Z1  |           | Venture Z2  |
++-------------+           +-------------+                                         +-------------+           +-------------+
+| OpCo A1 LLC |           | OpCo A2 LLC |                                         | OpCo Z1 LLC |           | OpCo Z2 LLC |
++-------------+           +-------------+                                         +-------------+           +-------------+
+
+
+
+ESE → OVCS Authority (governance)
+           ↓
+      FundCo (capital vehicle)
+           ↓
+      PortfolioCo (venture grouping)
+           ↓
+      VentureCo (execution entity)
+           ↑
+      StudioCos (service providers)
+           ↑
+   Shared OpCo / ManCo (resource services)
+           ↑
+      IPCos (IP ownership/licensing)
+           ↑
+   IncentiveCos (incentive unit issuance)

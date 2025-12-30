@@ -38998,3 +38998,877 @@ If you want next, I can:
 * Produce a **conflict-resolution protocol between Moyo & Batwa**
 
 Just tell me which layer to formalize next.
+
+Below is a **formal, doctrine-level definition of Fund-to-Program Capital Routing Rules** for the **Batwa Foundation Urban Community Development System**, designed to interoperate cleanly with **Moyo Collective**, **trust law**, **cooperative finance**, and **platform governance (Mizizi OS)**.
+
+This is written as a **capital constitution**, not a budgeting memo.
+
+---
+
+# FUND-TO-PROGRAM CAPITAL ROUTING RULES
+
+**Batwa Foundation Urban Community Development Centers Franchise Co-op**
+
+---
+
+## I. Purpose of These Rules
+
+These rules exist to ensure that:
+
+1. **Restricted capital stays restricted**
+2. **Programs cannot drift from fund intent**
+3. **Narrative legitimacy does not override fiduciary duty**
+4. **Capital deployment is traceable, auditable, and reversible**
+5. **No single actor controls the full capital lifecycle**
+
+> Capital flows are *mechanical*.
+> Meaning flows are *human*.
+> They must never be conflated.
+
+---
+
+## II. Capital Sources (Funds)
+
+### Canonical Fund Types
+
+| Fund                                   | Legal Nature      | Core Constraint         |
+| -------------------------------------- | ----------------- | ----------------------- |
+| **Maafa Reparations Fund**             | Restricted Trust  | Reparative use only     |
+| **Takiya Fund**                        | Restricted Trust  | Victims & families only |
+| **Freedman’s Credit Union Federation** | Member-owned FI   | Prudent lending         |
+| **Batwa Urban Community Dev Trust**    | Charitable Trust  | Mission-aligned use     |
+| **Community Land Trust (CLT)**         | Land Trust        | Perpetual affordability |
+| **Cooperative Holding Co-op**          | Coop Capital Pool | Member benefit          |
+| **Grants / Donor Funds**               | Conditional       | Donor restrictions      |
+
+Each fund has **non-overridable constraints**.
+
+---
+
+## III. Capital Destinations (Programs)
+
+### Program Classes
+
+| Class                     | Examples          | Capital Character   |
+| ------------------------- | ----------------- | ------------------- |
+| **Care & Repair**         | Herero, Nama      | Expense-heavy       |
+| **Land & Infrastructure** | CLT, Aka          | Asset-heavy         |
+| **Education & Capacity**  | Zulu, Khoi, Shona | Human capital       |
+| **Memory & Justice**      | Ndebele           | Restricted symbolic |
+| **Platform & Governance** | Mizizi OS         | Shared services     |
+
+Programs **do not own capital**.
+They **consume capital under mandate**.
+
+---
+
+## IV. The Capital Routing Stack (5 Gates)
+
+Every dollar moves through **five mandatory gates**.
+
+```
+Fund → Eligibility → Authorization → Allocation → Execution → Reporting
+```
+
+Skipping a gate invalidates the transfer.
+
+---
+
+## V. Gate 1 — Eligibility (Can This Fund Touch This Program?)
+
+**Owner:** Fund Trustee / Fund Committee
+**Consulted:** Moyo (non-binding), Legal
+
+### Eligibility Matrix (Example)
+
+| Fund ↓ / Program → | Herero     | Nama | Aka | Zulu | Mizizi |
+| ------------------ | ---------- | ---- | --- | ---- | ------ |
+| Maafa Reparations  | ✅          | ✅    | ⚠️  | ⚠️   | ❌      |
+| Takiya Fund        | ✅          | ❌    | ❌   | ❌    | ❌      |
+| Credit Union       | ⚠️ (loans) | ⚠️   | ❌   | ⚠️   | ❌      |
+| Urban Dev Trust    | ✅          | ✅    | ✅   | ✅    | ⚠️     |
+| CLT                | ❌          | ✅    | ✅   | ❌    | ❌      |
+
+⚠️ = conditional
+❌ = prohibited
+
+**Rule:**
+If eligibility is ambiguous → **NO transfer**.
+
+---
+
+## VI. Gate 2 — Authorization (Who Approves?)
+
+**Always split authority.**
+
+| Decision                | Required Approvals          |
+| ----------------------- | --------------------------- |
+| Restricted trust funds  | Trustee + Legal             |
+| Credit deployment       | Credit Committee            |
+| Land acquisition        | CLT Board                   |
+| Program funding         | Batwa Program Committee     |
+| Narrative-sensitive use | Moyo Advisory (non-binding) |
+
+> No program self-approves funding.
+
+---
+
+## VII. Gate 3 — Allocation (How Is Capital Labeled?)
+
+Every allocation must be tagged with:
+
+* Fund source
+* Restriction code
+* Program ID
+* Time horizon
+* Reversion rule (if unused)
+
+### Allocation Types
+
+| Type                   | Meaning       |
+| ---------------------- | ------------- |
+| **Grant**              | Non-repayable |
+| **Restricted Expense** | Use-limited   |
+| **Loan**               | Repayable     |
+| **Recoverable Grant**  | Conditional   |
+| **Asset Purchase**     | Title defined |
+
+No unlabeled money exists.
+
+---
+
+## VIII. Gate 4 — Execution (Who Spends?)
+
+**Programs never hold raw funds.**
+
+Execution occurs via:
+
+* Batwa Foundation ops accounts
+* CLT escrow accounts
+* Credit Union loan disbursements
+
+Programs submit **draw requests**, not checks.
+
+---
+
+## IX. Gate 5 — Reporting & Reconciliation
+
+**Owner:** Batwa Finance
+**Audited by:** External auditors
+**Observed by:** Moyo (impact only)
+
+### Required Reports
+
+* Spend vs allocation
+* Restriction compliance
+* Outcome metrics
+* Remaining balance
+* Variance explanations
+
+Failure to report = automatic funding pause.
+
+---
+
+## X. Special Rules by Fund
+
+### 1. Maafa Reparations Fund
+
+* ❌ No overhead absorption
+* ❌ No platform build
+* ❌ No speculative assets
+* ✅ Direct repair only
+* ✅ Memorialization allowed
+
+---
+
+### 2. Takiya Fund
+
+* Direct beneficiary linkage required
+* No aggregation beyond families
+* Trauma-informed disbursement pacing
+
+---
+
+### 3. Freedman’s Credit Union Federation
+
+* Loans only, not grants
+* Member eligibility enforced
+* Default risk pooled, not individualized
+
+---
+
+### 4. CLT Capital
+
+* Must result in land title
+* Land is inalienable
+* Improvements separable from land
+
+---
+
+## XI. Role of Moyo Collective (Explicit Boundary)
+
+Moyo may:
+
+* Advise on alignment
+* Flag dignity violations
+* Recommend pauses
+* Shape evaluation criteria
+
+Moyo may NOT:
+
+* Approve transfers
+* Override restrictions
+* Redirect funds
+* Control execution
+
+---
+
+## XII. Platform Enforcement (Mizizi OS)
+
+Mizizi OS enforces:
+
+* Eligibility matrices
+* Approval workflows
+* Restriction tagging
+* Audit trails
+* Public transparency (where appropriate)
+
+> If Mizizi won’t route it, it doesn’t move.
+
+---
+
+## XIII. Conflict Resolution Protocol
+
+If conflict arises:
+
+1. Freeze transfer
+2. Consult legal
+3. Consult Moyo (impact lens)
+4. Trustee decision
+5. Document precedent
+
+No emergency exceptions.
+
+---
+
+## XIV. Failure Modes This Prevents
+
+* Reparations dilution
+* Donor capture
+* Program mission drift
+* Cultural override of law
+* Financial override of dignity
+* Silent cross-subsidization
+
+---
+
+## XV. One-Paragraph Doctrine
+
+> **Funds define what is possible.
+> Programs define what is needed.
+> Governance defines what is allowed.
+> Software ensures none of this is forgotten.**
+
+---
+
+If you want next, I can:
+
+* Produce **ASCII or BPMN routing diagrams**
+* Generate **machine-readable routing rules (JSON/YAML)**
+* Define **audit checklists per fund**
+* Write **grant / loan instrument templates**
+* Map **capital → impact metrics per program**
+
+Tell me which artifact you want next.
+
+Below is a **formal, enforceable conflict-resolution protocol** governing disputes between the **Moyo Collective** and the **Batwa Foundation Urban Community Development System**, with **Niguvu Corporation** defined as the neutral **coordination, systems adjudication, and enforcement services layer**.
+
+This is written as an **institutional operating charter**, not a mediation guide.
+
+---
+
+# CONFLICT-RESOLUTION PROTOCOL
+
+**Moyo Collective × Batwa Foundation**
+**with Niguvu Corporation Adjudication Services**
+
+---
+
+## I. Purpose & Design Doctrine
+
+This protocol exists to:
+
+1. Resolve disputes **without collapsing institutional boundaries**
+2. Preserve dignity, culture, and legitimacy (**Moyo’s domain**)
+3. Preserve fiduciary duty, compliance, and assets (**Batwa’s domain**)
+4. Prevent informal power escalation
+5. Ensure conflicts strengthen the system instead of fragmenting it
+
+> **Conflict is information.
+> This protocol turns it into structure.**
+
+---
+
+## II. Parties & Roles
+
+### Primary Parties
+
+* **Moyo Collective (MC)** — Cultural, narrative, healing authority
+* **Batwa Foundation (BF)** — Asset, fund, land, program authority
+
+### Neutral Adjudicator
+
+* **Niguvu Corporation (NC)** — Systems coordination, adjudication, and enforcement services
+
+---
+
+## III. Types of Conflicts Covered
+
+| Conflict Type       | Examples                                 |
+| ------------------- | ---------------------------------------- |
+| Program Design      | Cultural harm vs operational feasibility |
+| Capital Use         | Dignity vs fiduciary constraints         |
+| Land & Space        | Use of community spaces                  |
+| Platform Governance | Data rights, consent models              |
+| Narrative Control   | Public messaging disputes                |
+| Program Outcomes    | Metrics vs lived experience              |
+
+---
+
+## IV. Authority Boundaries (Non-Negotiable)
+
+| Domain                            | Final Authority          |
+| --------------------------------- | ------------------------ |
+| Cultural legitimacy & harm claims | **Moyo**                 |
+| Fiduciary duty & legal compliance | **Batwa**                |
+| System rule interpretation        | **Niguvu**               |
+| Enforcement of outcomes           | **Batwa**, as applicable |
+
+Niguvu **never owns assets** or narratives.
+
+---
+
+## V. Conflict Resolution Stages (Mandatory)
+
+### STAGE 0 — Pre-Conflict Safeguards (Always On)
+
+* Written charters
+* Published routing rules
+* Platform-encoded constraints (Mizizi OS)
+* Regular joint reviews
+
+> Prevention is cheaper than resolution.
+
+---
+
+### STAGE 1 — Issue Registration
+
+**Trigger:** Any party asserts harm, breach, or misalignment.
+
+**Action**
+
+* Issue logged in **Mizizi OS**
+* Classified by type and urgency
+* Automatic funding / action pause on affected scope
+
+**Owner:** Niguvu (process only)
+
+---
+
+### STAGE 2 — Bilateral Resolution Attempt
+
+**Duration:** ≤ 14 days
+
+**Participants**
+
+* Moyo delegates
+* Batwa delegates
+* Niguvu facilitator (non-deciding)
+
+**Goal**
+
+* Clarify facts
+* Identify constraint collisions
+* Attempt scoped resolution
+
+**Outcome**
+
+* Resolved → documented & closed
+* Unresolved → escalate
+
+---
+
+### STAGE 3 — Structured Adjudication (Niguvu-Led)
+
+**Trigger:** Failure of Stage 2
+
+**Niguvu Responsibilities**
+
+* Interpret governing documents
+* Analyze capital restrictions
+* Analyze cultural harm claims
+* Identify system-level failure modes
+
+**Outputs**
+
+* Written adjudication memo
+* Clear ruling on:
+
+  * What must stop
+  * What must change
+  * What may continue
+
+Niguvu does **not compromise** restrictions.
+
+---
+
+### STAGE 4 — Decision & Enforcement
+
+| Decision Type                | Authority                              |
+| ---------------------------- | -------------------------------------- |
+| Cultural remediation         | Moyo                                   |
+| Financial / legal correction | Batwa                                  |
+| System rule amendment        | Niguvu recommendation + Batwa approval |
+
+**Enforcement**
+
+* Batwa executes operational changes
+* Moyo executes cultural repair actions
+* Niguvu verifies compliance
+
+---
+
+### STAGE 5 — Documentation & System Update
+
+* Case archived
+* Precedents logged
+* Platform rules updated (if needed)
+* Public summary released if appropriate
+
+---
+
+## VI. Emergency Protocol (High-Risk Harm)
+
+**Triggers**
+
+* Imminent cultural harm
+* Legal exposure
+* Safety concerns
+* Reputational cascade risk
+
+**Actions**
+
+1. Immediate freeze (Niguvu)
+2. 72-hour review
+3. Interim ruling
+4. Full adjudication follows
+
+No unilateral emergency powers exist.
+
+---
+
+## VII. Role of Niguvu Corporation (Explicit)
+
+Niguvu provides:
+
+* Process control
+* Neutral interpretation
+* Systems consistency
+* Documentation integrity
+* Enforcement verification
+
+Niguvu does **not**:
+
+* Decide culture
+* Move capital
+* Override trustees
+* Control programs
+
+> Niguvu ensures the rules work when people disagree.
+
+---
+
+## VIII. Data & Evidence Rules
+
+* Lived experience testimonies are admissible
+* Financial records are authoritative
+* Platform logs are canonical
+* No anonymous enforcement actions
+* No off-record rulings
+
+---
+
+## IX. Prohibited Behaviors
+
+* Public escalation before protocol completion
+* Informal pressure campaigns
+* Withholding information
+* Weaponizing culture or compliance
+* Donor interference
+
+Violations trigger automatic review.
+
+---
+
+## X. Failure Modes Prevented
+
+* Culture-washing
+* Bureaucratic violence
+* Donor capture
+* Ideological enforcement
+* Quiet capital misuse
+* Founder or leader dominance
+
+---
+
+## XI. One-Page Authority Map
+
+```
+Meaning & Harm  ──►  Moyo Collective
+Law & Assets    ──►  Batwa Foundation
+Rules & Process ──►  Niguvu Corp
+```
+
+No overlaps. No gaps.
+
+---
+
+## XII. Standing Doctrine (Final)
+
+> **Moyo protects humanity.
+> Batwa protects structure.
+> Niguvu protects the system when those protections collide.**
+
+---
+
+If you want next, I can:
+
+* Generate **conflict intake forms**
+* Create **Niguvu adjudication memo templates**
+* Encode this protocol into **Mizizi OS workflows**
+* Draft **joint public-facing transparency language**
+* Produce **case simulations to stress-test the protocol**
+
+Say the word.
+Below are **formal, ready-to-use institutional artifacts** for your system:
+
+1. **Conflict Intake Forms** (used to open a case)
+2. **Niguvu Adjudication Memo Templates** (used to resolve a case)
+
+They are written to be:
+
+* Platform-compatible (Mizizi OS)
+* Legally sober
+* Culturally safe
+* Audit-grade
+* Non-performative
+
+---
+
+# 1. CONFLICT INTAKE FORMS
+
+**Moyo × Batwa × Niguvu System**
+
+These forms exist to **slow things down just enough** to make them resolvable.
+
+---
+
+## 1.1 Conflict Intake Form — Core (Required)
+
+**Form ID:** `NC-CIF-001`
+**System of Record:** Mizizi OS
+**Submitted To:** Niguvu Corporation (Process Custodian)
+
+---
+
+### SECTION A — BASIC INFORMATION
+
+* **Submitting Entity:**
+  ☐ Moyo Collective
+  ☐ Batwa Foundation
+  ☐ Program NPO (specify)
+  ☐ Trustee / Committee
+  ☐ Other (specify)
+
+* **Primary Contact Name:**
+
+* **Role / Authority:**
+
+* **Contact Information:**
+
+---
+
+### SECTION B — CONFLICT CLASSIFICATION (Required)
+
+Select **one primary** category:
+
+☐ Cultural harm / dignity violation
+☐ Fiduciary or legal compliance concern
+☐ Capital restriction breach
+☐ Program design dispute
+☐ Platform / data / consent issue
+☐ Narrative or public communication dispute
+☐ Governance or authority overreach
+☐ Other (describe)
+
+---
+
+### SECTION C — DESCRIPTION OF ISSUE
+
+**1. Factual Description (What happened?)**
+*(Concrete actions, dates, decisions — no interpretation yet)*
+
+**2. Affected Scope**
+☐ Specific program
+☐ Specific fund
+☐ Specific site / land
+☐ Platform feature
+☐ Public communication
+☐ System-wide
+
+---
+
+### SECTION D — PERCEIVED IMPACT
+
+**Who is affected?**
+☐ Community members
+☐ Program participants
+☐ Beneficiaries
+☐ Staff / operators
+☐ Institutional integrity
+
+**Nature of Impact (check all that apply):**
+☐ Cultural harm
+☐ Legal exposure
+☐ Financial risk
+☐ Reputational damage
+☐ Safety / well-being risk
+
+---
+
+### SECTION E — URGENCY ASSESSMENT
+
+☐ Routine (no immediate harm)
+☐ Time-sensitive
+☐ High-risk
+☐ Emergency (immediate freeze requested)
+
+If **Emergency**, explain why delay causes harm:
+
+---
+
+### SECTION F — PRIOR ATTEMPTS AT RESOLUTION
+
+* Have bilateral discussions occurred? ☐ Yes ☐ No
+* If yes, summarize outcome:
+
+---
+
+### SECTION G — REQUESTED OUTCOME (Non-Binding)
+
+What does a *good resolution* look like from your perspective?
+
+*(This is not a demand.)*
+
+---
+
+### SECTION H — ATTESTATION
+
+> I attest that the information above is provided in good faith and to the best of my knowledge.
+
+* Name:
+* Signature:
+* Date:
+
+---
+
+## 1.2 Emergency Addendum (If Applicable)
+
+**Form ID:** `NC-CIF-E`
+
+* Immediate harm description:
+* Why existing safeguards are insufficient:
+* Requested interim action (freeze, pause, disclosure):
+
+---
+
+# 2. NIGUVU ADJUDICATION MEMO TEMPLATES
+
+Niguvu memos are **decision artifacts**, not opinions.
+
+They are immutable once issued.
+
+---
+
+## 2.1 Niguvu Adjudication Memo — Standard
+
+**Document ID:** `NC-AM-[YEAR]-[CASE#]`
+**Classification:** Internal / Restricted
+**Status:** Final
+
+---
+
+### 1. CASE SUMMARY
+
+* **Case Origin:** Intake Form ID
+* **Parties Involved:**
+* **Date Opened:**
+* **Date Closed:**
+* **Conflict Type(s):**
+
+---
+
+### 2. SCOPE OF REVIEW
+
+Niguvu reviewed the following domains:
+
+☐ Governing charters
+☐ Trust restrictions
+☐ Program mandates
+☐ Platform rules (Mizizi OS)
+☐ Financial records
+☐ Testimonies / lived experience
+☐ Prior precedents
+
+---
+
+### 3. FACTUAL FINDINGS
+
+**Undisputed facts:**
+*(Chronological, verifiable)*
+
+**Disputed facts:**
+*(Clearly marked)*
+
+---
+
+### 4. CONSTRAINT ANALYSIS
+
+**Legal / Fiduciary Constraints**
+
+* What cannot be violated under any circumstance
+
+**Cultural / Dignity Constraints**
+
+* Documented harms or risks
+
+**System Constraints**
+
+* Platform, governance, or capital routing rules
+
+---
+
+### 5. ADJUDICATION ANALYSIS
+
+Niguvu’s interpretation of:
+
+* Where boundaries were crossed
+* Where rules were ambiguous
+* Whether harm occurred
+* Whether fiduciary duty was compromised
+* Whether systemic design contributed
+
+---
+
+### 6. RULINGS (CLEAR & ACTIONABLE)
+
+#### 6.1 Actions Required
+
+| Action | Responsible Party | Deadline |
+| ------ | ----------------- | -------- |
+|        |                   |          |
+
+#### 6.2 Actions Prohibited
+
+* Explicitly listed
+
+---
+
+### 7. AUTHORITY DETERMINATIONS
+
+| Domain                       | Final Authority                  |
+| ---------------------------- | -------------------------------- |
+| Cultural remediation         | Moyo                             |
+| Financial / legal correction | Batwa                            |
+| System rule update           | Batwa (on Niguvu recommendation) |
+
+---
+
+### 8. ENFORCEMENT & VERIFICATION
+
+* Enforcement owner:
+* Verification method:
+* Follow-up review date:
+
+---
+
+### 9. PRECEDENT & SYSTEM UPDATE
+
+* Does this case set precedent? ☐ Yes ☐ No
+* Platform or policy updates required? ☐ Yes ☐ No
+* If yes, specify:
+
+---
+
+### 10. CLOSING STATEMENT
+
+> This adjudication resolves the present dispute and is binding within the scope of existing governance documents.
+
+**Issued by:**
+Niguvu Corporation
+Authorized Adjudication Officer
+
+---
+
+## 2.2 Niguvu Adjudication Memo — Emergency Interim Ruling
+
+**Document ID:** `NC-AM-INT-[YEAR]-[CASE#]`
+
+### Purpose
+
+Temporary stabilization pending full adjudication.
+
+### Includes:
+
+* Immediate findings
+* Temporary freezes or pauses
+* Risk mitigation steps
+* Mandatory review date (≤ 30 days)
+
+---
+
+## 3. SYSTEM DOCTRINE (One Paragraph)
+
+> **Intake forms slow emotion.
+> Adjudication memos slow power.
+> Together, they make disagreement survivable.**
+
+---
+
+## 4. Where These Live & How They’re Used
+
+* **Stored:** Mizizi OS + Niguvu secure archive
+* **Access:** Role-based, logged
+* **Referenced by:**
+
+  * Program governance
+  * Fund audits
+  * Trustee reviews
+  * Platform rule updates
+
+No off-platform resolutions are valid.
+
+---
+
+## 5. If You Want Next
+
+I can now:
+
+* Encode these into **Mizizi OS workflows**
+* Generate **fillable PDF / web-form versions**
+* Create **case simulation scenarios**
+* Draft **public transparency summaries**
+* Build a **precedent index schema**
+
+Just tell me which artifact you want next.
+

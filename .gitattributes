@@ -14,11 +14,14 @@
 *.doxy eol=lf
 
 # windows
+*.template  eol=crlf
 *.bat       eol=crlf
 *.java      eol=crlf
 *.classpath eol=crlf
 *.sln       eol=crlf
 *.vcproj    eol=crlf
+*.bz1       eol=crlf
+*BUILD      eol=crlf
 
 # binary
 *.tar      binary

@@ -16641,3 +16641,201 @@ If you want next:
 
 Just tell me which one.
 
+Here’s your **Visual Acronym Taxonomy Map**, designed as a **clear, hierarchical ASCII diagram** you can use in docs, presentations, Archive OS, or even as the basis for generating an actual graphic later.
+
+No external web content was needed — this is **fully generated from your ecosystem’s acronyms**.
+
+---
+
+# 📊 **ACRONYM TAXONOMY MAP — FEDERATION ECOSYSTEM**
+
+```
+FEDERATION ACRONYMS
+│
+├── GOVERNANCE & AUTHORITY
+│     ├── OVAC  — Operational & Value-Alignment Council
+│     ├── BoC   — Board of Coop Boards
+│     ├── FCC   — Federation Council of Commons
+│     └── CRC   — Crisis Response Council
+│
+├── WAR-GAMES & RESILIENCE
+│     ├── LUNGARA   — LUNGARA War-Games System
+│     ├── LG-Exec   — LUNGARA Execution Lead
+│     ├── LG-RT     — LUNGARA Red Team Council
+│     └── LG-SIO    — LUNGARA Scoring & Integrity Office
+│
+├── UBUNTUWA COMMONS NODES
+│     ├── U-NDAA
+│     ├── U-KUMBU
+│     ├── U-KANYE
+│     ├── U-NGOZI
+│     ├── U-MOYO
+│     ├── U-UMOYA
+│     ├── U-KANO
+│     └── U-LUNGARA
+│
+├── OPERATIONAL COOPS
+│     ├── AZA   — Azande Software Agency Coop
+│     ├── LOM   — Lomwe Systems Engineering Coop
+│     ├── NAN   — Nandi Mobility Coop
+│     ├── DOG   — Dogon Manufacturing Coop
+│     ├── SAN   — San Environmental & Civ Eng Coop
+│     ├── MAS   — Massai Media Group Coop
+│     ├── WOL   — Wolof.io / Kogi Worker Coop
+│     └── UBU   — Ubunye Engineering Group Coop
+│
+├── CAPITAL & INVESTMENT ENTITIES
+│     ├── MIG   — Mande Investment Group Coop
+│     ├── NIG   — Niguvu Corporation Coop
+│     └── UCU   — Ubuntuwa Credit Union (Uhuru CU)
+│
+├── PROGRAMS & COMMUNITY SERVICES
+│     ├── BAT  — Batwa Urban Community Dev Trust
+│     ├── HER  — Heroro Health Program
+│     ├── NAM  — Nama Urban Reformation
+│     ├── AKA  — Aka Greenspaces Program
+│     ├── ZUL  — Zulu Financial Literacy
+│     ├── KHO  — Khoi Urban Education
+│     ├── SHO  — Shona Urban Dev Governance
+│     └── MIZ  — Mizizi Urban Platform OS
+│
+├── STUDIOS & TOOL COOPS
+│     ├── OVS   — Obatala Venture Studios
+│     └── KMF   — Kumba Metafactory Franchise
+│
+├── SYSTEM & ARCHIVE COMPONENTS
+│     ├── AO       — Archive Office
+│     ├── AR-OBJ   — Archive Object
+│     ├── AR-IDX   — Archive Index
+│     └── AR-HASH  — Archive Hash
+│
+├── FINANCIAL & GOVERNANCE SYSTEMS
+│     ├── COA  — Chart of Accounts
+│     ├── FSD  — Financial Shock Dashboard
+│     ├── MCC  — Monthly Close Checklist
+│     ├── BFP  — Board Financial Packet
+│     ├── Y1PF — Year-1 Pro Forma
+│     └── DPF  — Downside Plan Framework
+│
+├── MEMBERS & ROLES
+│     ├── WM   — Worker Member
+│     ├── SM   — Steward Member
+│     ├── GM   — Governance Member
+│     ├── CM   — Commons Member
+│     ├── FM   — Founder Member
+│     ├── CP   — Capital Participant
+│     ├── AP   — Apprentice Member
+│     └── LDR  — Leader
+│
+├── TEAMS & SQUADS
+│     ├── OPSQ — Operational Squad
+│     ├── STRQ — Strategic Squad
+│     ├── CRSQ — Crisis Response Squad
+│     ├── REDT — Red Team
+│     └── COMT — Communications Team
+│
+├── PROCESSES & WORKFLOWS
+│     ├── WGP   — War-Games Protocol
+│     ├── EMC   — Entity Mode Change
+│     ├── CMA   — Crisis Mode Activation
+│     ├── DFC   — Deferred Founder Compensation
+│     ├── FEZ   — Founder Equity Zone
+│     └── EED   — Entity Exit Decision Tree
+│
+├── ANALYTICS & INDICATORS
+│     ├── W-Score — War-Games Score
+│     ├── SLI     — Social Legitimacy Index
+│     ├── RI      — Runway Index
+│     ├── ESR     — Entity Stress Rating
+│     └── TSI     — Threat Severity Index
+│
+└── AUTHORITY & ESCALATION
+      ├── AOR — Authority Override Rule
+      ├── EAF — Escalation Authority Flag
+      ├── GSF — Governance Sanction Flag
+      └── CRF — Crisis Response Flag
+```
+
+---
+
+# 🧭 HOW TO READ THIS MAP
+
+This taxonomy is structured by **functional layers**:
+
+### 🏛 Governance & Authority
+
+The *rule-setting and enforcement layer* — e.g., OVAC, BoC, CRC.
+
+### 🛡 War-Games & Resilience
+
+The *survivability layer* — execution, scoring, adversarial simulation.
+
+### 🌾 Ubuntuwa Commons Nodes
+
+The *community legitimacy & social impact layer* — including the new permanent war-games node U-LUNGARA.
+
+### 🏭 Operational Coops
+
+Business and production entities that must comply and participate in drills.
+
+### 💰 Capital & Investment
+
+Funds and financial institutions that feed metrics but **do not govern**.
+
+### 📣 Programs & Community Services
+
+Domain-specific service/program nodes feeding risk and impact data.
+
+### 🧰 Studios & Tools
+
+Production and creative studios; execution environment but not governance.
+
+### 🗃 System Components
+
+Archive OS, indexing, immutable logging — the *memory layer*.
+
+### 💼 Financial & Governance Systems
+
+Financial control layer with explicit dashboards and checklists.
+
+### 👥 Members & Roles
+
+Different *classes of people* with defined authority.
+
+### 👥 Teams & Squads
+
+Execution units and teams.
+
+### 🔁 Processes & Workflows
+
+Defined operational flows and decision paths.
+
+### 📊 Analytics & Indicators
+
+Quantitative metrics guiding decisions.
+
+### ⚠️ Authority & Escalation
+
+Internal flags and rules for escalation and overrides.
+
+---
+
+# USAGE
+
+🧾 **Documents** — use full name once, then acronym.
+🧩 **Archive OS** — use acronyms as keys in metadata.
+📊 **Dashboards** — map acronyms to visual widgets.
+🤖 **Code / Policy engines** — treat acronyms as constants.
+
+---
+
+## OPTIONAL NEXT STEPS
+
+If you want, I can also deliver:
+
+📌 A **graph visualization** (e.g., dot/Graphviz format)
+📌 A **Mermaid diagram** (for MD files)
+📌 A **PDF plate** for inclusion in governance docs
+📌 An **interactive dropdown glossary** (JSON)
+
+Just tell me which format you prefer!

@@ -14,7 +14,7 @@ story types: feature, blocker, enabler, capability, test, issue, bug, enhancemen
 
 team types: squad, chapter, guild, tiger, tribe, line, domain
 
-time breakdown structuress: timebox, timeblock, PI, sprint, quarter, day, month, quarter, week
+time breakdown structuress/cadences: timebox, timeblock, PI, sprint, quarter, day, month, quarter, week
 
 roadmap structures: goal, objective, milestone, strategy, plan, outcome, tactic
 

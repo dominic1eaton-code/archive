@@ -8436,3 +8436,1353 @@ If you want, I can now generate:
 📌 **Offer letter templates**
 
 Just tell me which ones you want next!
+
+Absolutely — below are your **Monthly Strategy Playbooks for Year 1**, tailored to your **Navigator Personal Estate (NPE)** as the **Genesis Engine** for the Ashe Cycle ecosystem. These are **actionable, high-impact, repeatable playbooks** that align with your Year-1 roadmap, teams, OKRs, and cadence rhythm. Each playbook is structured with:
+
+🔹 **Objective**
+🔹 **Key Success Metrics (KSFs)**
+🔹 **Core Activities**
+🔹 **Tactics & Checks**
+🔹 **Deliverables**
+🔹 **Team Leads & Contributors**
+
+You can treat each playbook as a **monthly ritual template** used by your Exec Squad and functional teams.
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — JANUARY**
+
+**Theme:** *Estate Kickoff & OGD Foundation*
+
+**Objective**
+Kick off Year 1 with legal plans, archival system, and Organizational Genesis Document (OGD) scaffolding.
+
+**Key Success Metrics**
+✔ Draft Estate Charter
+✔ Archive taxonomy defined & registry started
+✔ Draft FMID & OGD sections launched
+
+**Core Activities**
+
+1. Convene **Estate Strategy Meeting**
+
+   * Review Year-1 roadmap
+   * Confirm legal filing approach & jurisdiction
+2. Establish **Archive Taxonomy**
+
+   * Build artifact registry schema
+   * Tag existing documents for OGD
+3. Run **OGD Deep Dive Workshops**
+
+   * FMID writing sessions
+   * Business plan and glossary outlines
+
+**Tactics & Checks**
+
+* Legal counsel briefing within 7 days
+* Artifact inventory completed by day 12
+* FMID first draft by day 12
+
+**Deliverables**
+
+* Draft Estate Charter
+* Archive taxonomy + registry prototype
+* OGD v0.1 (FMID + business plan + glossary)
+
+**Team Leads**
+
+* CLO, Archive Specialist, Dominic
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — FEBRUARY**
+
+**Theme:** *Legal Formation & Hiring Launch*
+
+**Objective**
+Legally instantiate the NPE and DESEF, and launch your first hiring campaign.
+
+**Key Success Metrics**
+✔ NPE and personal office legally formed
+✔ Hiring intake pipeline active
+
+**Core Activities**
+
+1. File estate & office legal docs
+2. Publish **Role Descriptions**
+3. Launch candidate intake (LinkedIn, network, partner lists)
+4. Run weekly hiring screens + steward assessments
+
+**Tactics & Checks**
+
+* EIN + business licenses confirmed
+* Candidate intake goal: 50+ applicants
+* Steward screening scorecard baseline defined
+
+**Deliverables**
+
+* Legal formation packages submitted
+* Steward + executive job posts
+* Candidate database started
+
+**Team Leads**
+
+* CLO, CoS, HR Guild
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — MARCH**
+
+**Theme:** *Steward Hiring & Charter Drafts*
+
+**Objective**
+Secure your core Steward cohort and progress draft charters for the Family Estate, Commons, and OVCS.
+
+**Key Success Metrics**
+✔ Steward cohort selected
+✔ Family Estate + Ubuntuwa Commons + OVCS drafts ready
+
+**Core Activities**
+
+1. Conduct **Steward Assessment Sessions**
+2. Execute deep charter drafting sprints
+3. Feedback loop with legal counsel
+
+**Tactics & Checks**
+
+* Steward alignment seminars held
+* Charter drafts reviewed by external counsel
+* Internal peer review cycles
+
+**Deliverables**
+
+* Steward onboarding kit
+* Draft charters (Family, Commons, OVCS)
+
+**Team Leads**
+
+* CoS, Governance Squad, CLO
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — APRIL**
+
+**Theme:** *Entity Filings & Team Onboarding*
+
+**Objective**
+File key legal entities and onboard your first hires & Stewards.
+
+**Key Success Metrics**
+✔ Family Estate entity formed
+✔ Ubuntuwa Commons + OVCS legal registration
+✔ Core team onboarding completed
+
+**Core Activities**
+
+1. Submit legal filings
+2. Conduct **Orientation Week**
+
+   * Charter indoctrinations
+   * Governance OS walkthroughs
+3. Kick off cross-team rituals (all-hands, team syncs)
+
+**Tactics & Checks**
+
+* Entity status confirmations within 10 days
+* Onboarding satisfaction survey (≥85%)
+
+**Deliverables**
+
+* Registered entities
+* Team role dashboards
+* First all-hands meeting artifacts
+
+**Team Leads**
+
+* CLO, SupportOps, HR Guild
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — MAY**
+
+**Theme:** *Capital Vehicle Formation & Policy Design*
+
+**Objective**
+Establish FundCos & deferred compensation, and begin governance tooling spec.
+
+**Key Success Metrics**
+✔ FundCo LPs & GP Manager entities filed
+✔ Deferred compensation policy finalized
+
+**Core Activities**
+
+1. File Zawadi and Mbali FundCo legal structures
+2. Run **Policy Workshops**
+
+   * Deferred compensation
+   * Credits issuance
+3. Begin Governance OS functional spec sessions
+
+**Tactics & Checks**
+
+* External counsel review of DC policy
+* Finance model validation
+
+**Deliverables**
+
+* FundCo entity confirmations
+* Deferred compensation legal policy
+
+**Team Leads**
+
+* CFO, CLO, GovDevLead
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — JUNE**
+
+**Theme:** *Governance OS Alpha & Standards*
+
+**Objective**
+Release Governance OS alpha and define cooperative standards.
+
+**Key Success Metrics**
+✔ Alpha release of Governance OS
+✔ Cooperative standards manual published
+
+**Core Activities**
+
+1. Build Governance OS identity + member schemas
+2. Draft coop archetypes (legal, workflow, governance)
+3. Internal playbook & SOP kickoff
+
+**Tactics & Checks**
+
+* User acceptance tests with stewards
+* Feedback integration loops
+
+**Deliverables**
+
+* Governance OS alpha
+* Collaborative standards manual
+
+**Team Leads**
+
+* CTO, Governance Squad, SupportOps
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — JULY**
+
+**Theme:** *Client Launch Preparation & Beta Tools*
+
+**Objective**
+Prepare client coop filings and beta governance tooling.
+
+**Key Success Metrics**
+✔ Client launch readiness
+✔ Governance OS beta
+
+**Core Activities**
+
+1. Package client coop legal filings
+2. Release Governance OS beta to pilot groups
+3. Train client governance users
+
+**Tactics & Checks**
+
+* Pilot feedback cycle
+* Client SOP distribution
+
+**Deliverables**
+
+* Client SOP library
+* Governance OS beta documentation
+
+**Team Leads**
+
+* SupportOps, CTO, Legal Team
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — AUGUST**
+
+**Theme:** *Client Entity Filings & Onboarding*
+
+**Objective**
+File client legal entities and onboard cooperative boards/councils.
+
+**Key Success Metrics**
+✔ Client coops legally recognized
+✔ Onboarding completions
+
+**Core Activities**
+
+1. Submit coop filings (Nandi, Wolof.io, Dogon)
+2. Facilitate onboarding training sessions
+3. Spin up client support channels
+
+**Tactics & Checks**
+
+* Onboarding feedback loops
+* Governance compliance checks
+
+**Deliverables**
+
+* Registered client entities
+* Client onboarding playbooks
+
+**Team Leads**
+
+* Legal Team, SupportOps, Governance Squad
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — SEPTEMBER**
+
+**Theme:** *Adoption & Equity Tooling*
+
+**Objective**
+Drive adoption, deliver equity tooling, and surface analytics.
+
+**Key Success Metrics**
+✔ Adoption workshops held
+✔ Equity conversion tooling delivered
+
+**Core Activities**
+
+1. Run governance adoption workshops
+2. Build DC → equity tool flows
+3. Launch analytics dashboards
+
+**Tactics & Checks**
+
+* Client usage metrics
+* Equity tool validation
+
+**Deliverables**
+
+* Adoption dashboards
+* Equity tooling playbook
+
+**Team Leads**
+
+* Analytics Squad, CTO, Governance Squad
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — OCTOBER**
+
+**Theme:** *Premium Features & Community Summit*
+
+**Objective**
+Evolve tooling, host Ubuntuwa Commons Summit, strengthen policies.
+
+**Key Success Metrics**
+✔ Summit executed
+✔ Premium governance features live
+
+**Core Activities**
+
+1. Deliver governance workflow automation
+2. Plan & execute summit
+3. Draft revenue/share + capital policy packages
+
+**Tactics & Checks**
+
+* Community feedback surveys
+* Tech security reviews
+
+**Deliverables**
+
+* Summit content + recap
+* Premium governance OS release
+
+**Team Leads**
+
+* CCO, CTO, CFO
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — NOVEMBER**
+
+**Theme:** *Compliance, Retention & Risk*
+
+**Objective**
+Audit legal & governance compliance, stabilize client processes, assess risk.
+
+**Key Success Metrics**
+✔ Compliance audits completed
+✔ Risk & vulnerability report published
+
+**Core Activities**
+
+1. Conduct entity compliance reviews
+2. Run client retention check-ins
+3. Lead risk mapping workshops
+
+**Tactics & Checks**
+
+* Audit outcome scorecards
+* Client retention metrics
+
+**Deliverables**
+
+* Compliance dashboard
+* Risk mitigation plan
+
+**Team Leads**
+
+* CLO, Governance Squad, SupportOps
+
+---
+
+## 📘 **MONTHLY PLAYBOOK — DECEMBER**
+
+**Theme:** *Annual Close & Year-2 Readiness*
+
+**Objective**
+Close Year 1 with reports, OGD v1.0 finalization, and Year-2 kickoff.
+
+**Key Success Metrics**
+✔ OGD v1.0 published
+✔ Year-1 financial & governance reports
+
+**Core Activities**
+
+1. Compile annual financials & tax filings
+2. Publish governance & narrative year-end reports
+3. Plan Year-2 legal formation and talent roadmap
+
+**Tactics & Checks**
+
+* Final OGD edits
+* Team calibration for Year-2
+
+**Deliverables**
+
+* OGD v1.0
+* Annual reports
+* Year-2 draft roadmap
+
+**Team Leads**
+
+* Executive Squad, Archive Squad, All functional leads
+
+---
+
+# 🧠 **USAGE TIPS**
+
+✔ Add these playbooks to your **monthly calendars**
+✔ Use them as **meeting agendas** for Exec & Squad reviews
+✔ Turn them into **checklists** in Notion / Jira / Linear
+✔ Pair with your Gantt / OKRs to track progress
+
+---
+
+If you want, I can produce **Notion templates**, **checklist cards**, or **automation sequences** for these playbooks!
+
+Absolutely — below is a **comprehensive *Time Breakdown Structure (TBS) + Cadence Framework*** for you and your teams, aligned to your Year-1 Estate/OGD & Ashe Cycle execution. This covers all recommended time units and how they nest (from *Day → Week → Sprint → PI → Month → Quarter → Year*), along with **how to structure work against these rhythms** for planning, execution, review, and improvement.
+
+---
+
+# 📌 Your Time Breakdown Structures (TBS)
+
+This structure gives consistent labels and units across your entire organization — from strategic planning to tactical execution.
+
+---
+
+## 📅 **1) Day**
+
+**Definition:** A fundamental working unit — 24 hours.
+**Usage:**
+✔ Daily routines
+✔ Standups & blitz sessions
+✔ Focused timeblocks
+
+**Example Activities:**
+
+* Daily standup (15–30 min)
+* Daily deep work timeblocks
+* Daily archive sprint
+
+---
+
+## 📅 **2) Week**
+
+**Definition:** Standard operating period (Monday → Sunday or custom).
+**Usage:**
+✔ Weekly cadences
+✔ Sprint slices
+✔ Activity bursts
+
+**Typical Week Structure (Example)**
+
+| Day | Focus                            |
+| --- | -------------------------------- |
+| Mon | Weekly kickoff & planning        |
+| Tue | Core execution                   |
+| Wed | Blocker resolution & integration |
+| Thu | Sync & refinement                |
+| Fri | Demo/Review & retrospective      |
+| Sat | Overflow / creative time         |
+| Sun | Rest / reset                     |
+
+---
+
+## 🕐 **3) Timeblock**
+
+**Definition:** A contiguous scheduled period for focused work (e.g., 60–180 min).
+**Usage:**
+✔ Deep work blocks
+✔ Dedicated story execution (S-XXXXX)
+✔ Thematic timeboxing (e.g., Legal Block, OGD Draft Block)
+
+**Examples**
+
+* **2-Hour Block:** Governance OS spec writing
+* **3-Hour Block:** Steward screening + interviews
+* **4-Hour Block:** Narrative writing marathon
+
+---
+
+## 🧭 **4) Sprint**
+
+**Definition:** A short, repeatable cycle of execution focused on a set of deliverables.
+**Duration:** 1–2 weeks (recommended 2 weeks)
+**Usage:**
+✔ Focused plan → build → review → retro
+✔ Typically 5–10 stories per sprint
+
+**Sprint Anatomy**
+
+* **Sprint Planning (Day 1)** → select stories
+* **Sprint Execution (Days 2–9)** → build/test/deliver
+* **Sprint Review & Demo (Day 10)** → stakeholders
+* **Retro & Backlog Grooming (Day 10)** → lessons learned
+
+---
+
+## 🧠 **5) PI — Program Increment**
+
+**Definition:** A medium-range execution block typically consisting of **3 sprints**.
+**Duration:** ~6 weeks
+**Usage:**
+✔ Align cross-teams on outcomes
+✔ Consolidate multiple sprint results
+✔ Review continuous delivery improvements
+
+**PI Cadence**
+
+* **PI Planning:** define top outcomes
+* **Sprint 1 → Sprint 2 → Sprint 3**
+* **PI Review:** deliver PI outcomes
+
+---
+
+## 📆 **6) Month**
+
+**Definition:** A calendar month used for planning, delivery, and monthly review.
+**Time Unit:** ~4–5 weeks or 1.0 calendar months
+**Usage:**
+✔ Monthly strategy delivery & planning (your M-EST# events)
+✔ OGD monthly contributions
+✔ Narrative + outreach cadence
+
+---
+
+## 📊 **7) Quarter**
+
+**Definition:** A 3-month block aligning with strategic OKRs and performance cycles.
+**Duration:** ~90 days
+**Usage:**
+✔ Quarterly planning & review
+✔ Multi-PI alignment
+✔ Organizational metrics update
+
+**Quarterly Rhythm**
+
+* **Quarter Planning**
+* **3× Program Increments**
+* **Quarter Review**
+* **Quarterly OKR reset**
+
+---
+
+## 📅 **8) Year**
+
+**Definition:** Full annual cycle of organizational value delivery.
+**Usage:**
+✔ Year-end reporting & compliance
+✔ OGD v1.0 release
+✔ Strategy & roadmap refresh
+
+---
+
+# 📌 **How These Structures Interrelate**
+
+```
+Year
+ └─ Quarter (Q1, Q2, Q3, Q4)
+     └─ Month (Jan … Dec)
+         └─ Program Increment (PI: ~6 weeks)
+             └─ Sprint (~2 weeks)
+                 └─ Week
+                     └─ Day
+                         └─ Timeblock(s)
+```
+
+You can map your **WBS milestones, epics, and stories** into this hierarchy for clarity.
+
+---
+
+# 🧩 **Mapped to Your Estate Year-1 Workflow**
+
+Below is a canonical *cadence blueprint* you can adopt:
+
+### 📅 Monthly
+
+* **Day 1–3** → Monthly strategy delivery + sprint/PI alignment
+* **Week 1** → Sprint 1 of Month plan
+* **Week 2** → Sprint 2
+* **Week 3** → PI wrap or special theme (legal filings, outreach push)
+* **Week 4** → Sprint review → Monthly retro → Monthly planning
+
+---
+
+## 🗓 Example — *January Monthly Breakdown*
+
+| Week       | Activities                                        |
+| ---------- | ------------------------------------------------- |
+| **Week 1** | Estate Legal Strategy Kickoff, Archive Taxonomy   |
+| **Week 2** | OGD FMID + Business Plan blocks                   |
+| **Week 3** | Narrative Outreach Blog Blocks                    |
+| **Week 4** | Hiring Campaign Sprint + Retro & Monthly Planning |
+
+---
+
+## 🧠 Example — *Sprint Planning Format (2-Week Sprint)*
+
+```
+Sprint X: [Dates]
+
+Sprint Goal: (e.g., Legal drafts for Family Estate finalized)
+
+Planned Stories:
+- S-EST001: Create archive schema
+- S-EST002: FMID draft
+- S-EST003: Publish Mungu blog
+- S-EST004: Steward screening kickoff
+
+Done Criteria:
+- Story acceptance documented
+- Demo artifacts uploaded
+- Linked to governance OS or OGD
+
+Retro Focus:
+- What went well
+- Blockers
+- What to improve
+```
+
+---
+
+# 🧩 **Custom Timebox Examples**
+
+| Timebox Type        | Typical Slots                |
+| ------------------- | ---------------------------- |
+| **Daily Standup**   | 15 min                       |
+| **Deep Work Block** | 60/90/120 min                |
+| **Sprint Planning** | 90–120 min                   |
+| **PI Planning**     | Half-Day to Full-Day session |
+| **Monthly Review**  | 2–3 hours                    |
+| **Quarter Review**  | 1–2 days                     |
+
+---
+
+## 🏁 **Suggested Implementation Patterns**
+
+### 📍 **Weekly**
+
+* **Monday:** Kickoff + blockers triage
+* **Tuesday–Thursday:** Execution / reviews
+* **Friday:** Sprint demo & team retro
+
+---
+
+### 📍 **Sprint Cadence**
+
+* **Sprint Start:** Define stories (Day 1)
+* **Mid-Sprint Checkpoint:** Blocker review (Day 6)
+* **Sprint Close:** Demo + Retro (Day 10)
+
+---
+
+### 📍 **PI Cadence**
+
+* **PI Start:** Select 3 sprints (PI Planning)
+* **Mid-PI Assessment:** Metrics / adoption / blockers
+* **PI End:** Review & adjust
+
+---
+
+## 📌 **Sample Time Allocation Table (Weekly)**
+
+| Time Slot  | Typical Focus                |
+| ---------- | ---------------------------- |
+| **Mon AM** | Weekly planning & standup    |
+| **Mon PM** | Legal/Archive work block     |
+| **Tue AM** | Narrative + outreach         |
+| **Tue PM** | Deep OGD drafting            |
+| **Wed**    | Governance OS / tooling sync |
+| **Thu**    | Hiring + steward interviews  |
+| **Fri AM** | Sprint demo & assessment     |
+| **Fri PM** | Retro + backlog grooming     |
+
+---
+
+# 🧠 **How to Use This**
+
+✔ Use in **Notion / Jira / Linear / Asana** — design your sprints with story estimations.
+✔ Map your **WBS milestones to PIs** for stable planning.
+✔ Run **regular “timeblock reviews”** to ensure deep work isn’t fragmented.
+✔ Align your **quarter OKRs to PI outcomes** for measurable progress.
+
+---
+
+If you want, I can now produce **Calendar Templates**, **Sprint Board Templates**, or **Notion/CSV exports** for these time structures. Just tell me which ones you want!
+
+Below is **Month 1 (January)** of your **Year-1 WBS table** — **Navigator Personal Estate (NPE)** as the Genesis Engine — with **Time Breakdown Structures / Cadences** included.
+
+You asked for **12 separate messages**, one per month. Reply “continue” for the next.
+
+---
+
+## 📅 **Month 1 — January 2026**
+
+**Time Cadence Summary for Jan:**
+
+* **Daily**: Standups (15–30 min), Deep Work Blocks (60–120 min)
+* **Weekly**: Planning → Execution → Review → Retro
+* **Sprint**: Two 2-week sprints with planning & retro
+* **Month**: Monthly strategy delivery at start & planning at end
+* **Quarter**: Part of Q1 strategic OKRs
+
+| **ID**        | **Name**                               | **Type**  | **Brief**                            | **Start**  | **Dur** | **Owner / Team**       | **Time Breakdown/Cadence** |
+| ------------- | -------------------------------------- | --------- | ------------------------------------ | ---------- | ------: | ---------------------- | -------------------------- |
+| **M-EST1**    | Monthly Strategy Delivery (Jan)        | event     | Kickoff monthly strategy & alignment | 2026-01-02 |      1d | Dominic / Exec Squad   | Month kickoff              |
+| **W-EST1**    | Estate Year-1 Roadmap                  | strategy  | All Year 1 estate work scope         | 2026-01-01 |     31d | Dominic                | Month span                 |
+| **P-EST001**  | Foundational Enablement                | plan      | Foundations: legal, archive, OGD     | 2026-01-02 |     30d | Exec Squad             | Monthly / Sprint           |
+| **TH-EST001** | Staff Hiring & Onboarding Plan         | tactic    | Define first 9 hires + stewards      | 2026-01-02 |     15d | CoS / HR Guild         | Weekly block, Sprint 1     |
+| **I-EST001**  | Complete Team Onboarding Plan Approved | milestone | Hiring framework approved            | 2026-01-10 |      1d | Exec Squad             | Sprint 1 milestone         |
+| **E-EST001**  | Estate Charter Draft                   | epic      | Draft legal governance charter       | 2026-01-02 |     15d | CLO / Governance Squad | Sprint 1                   |
+| **S-EST001**  | Create Onboarding Docs                 | doc       | HR + Ops materials                   | 2026-01-02 |      5d | SupportAnalyst         | Timeblock                  |
+| **S-EST002**  | Setup Tooling & Accounts               | feature   | Accounts & access setup              | 2026-01-06 |      5d | Ops Lead               | Timeblock                  |
+| **P-EST002**  | Archive Organization                   | plan      | Organize all personal archives       | 2026-01-02 |     20d | Archive Squad          | Sprint 1 + Sprint 2        |
+| **TH-EST002** | Archive Taxonomy & Tagging             | tactic    | Define structure & tags              | 2026-01-02 |      7d | Archive Specialist     | Week blocks                |
+| **E-EST002**  | Asset & Artifact Registry Build        | epic      | Build estate artifact registry       | 2026-01-09 |     15d | SupportOps             | Sprint 2                   |
+| **S-EST003**  | OGD Glossary & Definitions             | doc       | Populate OGD core terms              | 2026-01-10 |      7d | SupportAnalyst         | Timeblock                  |
+| **P-EST003**  | OGD Draft Core Sections                | plan      | Initial content for OGD              | 2026-01-05 |     25d | Executive Squad        | Sprint 1 + 2               |
+| **TH-EST003** | FMID Drafting                          | tactic    | Founding manifesto writing           | 2026-01-05 |     10d | Dominic / CLO          | Sprint 1                   |
+| **TH-EST004** | Business Plan Drafting                 | tactic    | Draft estate business plan           | 2026-01-05 |     10d | CFO / Exec             | Sprint 1                   |
+| **S-EST004**  | Initial Narrative Draft                | doc       | Narrative seed content               | 2026-01-15 |      7d | SupportAnalyst         | Sprint 2                   |
+| **P-EST004**  | Outreach & Narrative                   | plan      | Begin narrative outreach             | 2026-01-03 |     31d | CCO / Outreach Squad   | Month campaign             |
+| **TH-EST005** | Mungu Outreach                         | tactic    | Engage researchers                   | 2026-01-03 |     25d | Outreach Squad         | Weekly cadence             |
+| **S-EST005**  | Publish Mungu Blog #1                  | release   | Blog post #1                         | 2026-01-07 |      1d | CCO                    | Timeblock                  |
+| **S-EST006**  | Publish Meridian Blog #1               | release   | Blog post #1                         | 2026-01-10 |      1d | CCO                    | Timeblock                  |
+| **P-EST005**  | Hiring Campaign Setup                  | plan      | Launch hiring outreach               | 2026-01-10 |     20d | CoS / HR Guild         | Sprint 2                   |
+| **TH-EST006** | Hiring Role Definitions                | tactic    | Define role briefs                   | 2026-01-10 |      7d | CoS                    | Sprint 2                   |
+| **E-EST003**  | Candidate Pipeline Build               | epic      | Candidate intake & tracking          | 2026-01-17 |     15d | HR Guild               | Sprint 2                   |
+| **S-EST007**  | Publish Hiring Announcements           | doc       | Post role announcements              | 2026-01-20 |      3d | CoS / CCO              | Timeblock                  |
+| **M-EST1B**   | Monthly Strategy Planning for Feb      | event     | Plan & prepare next month            | 2026-01-29 |      1d | Dominic / Exec         | Month close review         |
+
+---
+
+### 🧠 **Time Breakdown / Cadence Notes for January**
+
+* **Daily**: Standups (15–30 min), focused **Timeblocks** for drafting/archive tagging/OGD artifacts.
+* **Weekly**:
+
+  * **Week 1**: Strategy delivery & sprint kickoff
+  * **Week 2**: Core execution (charter + hiring prep)
+  * **Week 3**: Narrative outreach + OGD narrative drafting
+  * **Week 4**: Candidate pipeline & outreach refinement
+* **Sprint Structure**:
+
+  * **Sprint 1** (Jan 2–15): Planning, FMID, business plan, archive taxonomy
+  * **Sprint 2** (Jan 16–29): Registry build, candidate pipeline, outreach
+* **Month Events**:
+
+  * **Strategy Delivery** on Jan 2
+  * **Planning Session** on Jan 29
+
+---
+
+Whenever you’re ready, say **“continue”** and I’ll produce **Month 2 (February)** with the same structure and time breakdown integrations.
+
+Absolutely — here is **Month 2 (February 2026)** of your **Year-1 WBS table** for the **Navigator Personal Estate (NPE)** with:
+
+✅ **Time Breakdown Structures (TBS/Cadences)** including
+ • Daily / Week / Sprint / Program Increment (PI) / Month / Quarter
+✅ **Overarching PIs** (each ~6 weeks = 3 sprints)
+✅ **Year-1 Quarters** (Q1–Q4)
+✅ Clear ownership, deliverables, and timing
+
+**Context Reminder (Time Structures)**
+
+* **Sprint:** ~2 weeks
+* **Program Increment (PI):** ~6 weeks / ~3 sprints
+* **Quarter:** 3 months / ~2 PIs
+* **Monthly:** Monthly planning & delivery rhythm
+* **Daily/Weekly/Timeblock:** Tactical execution units
+
+**Year-1 Quarter Breakdown**
+
+```
+Q1: JAN–MAR → PI-1 + PI-2
+Q2: APR–JUN → PI-3 + PI-4
+Q3: JUL–SEP → PI-5 + PI-6
+Q4: OCT–DEC → PI-7 + PI-8
+```
+
+**Overarching Program Increments (PIs) for Year-1**
+
+```
+PI-1 (Jan–Mid-Feb): Foundations, Archive, OGD Start + Hiring Setup  
+PI-2 (Mid-Feb–Mar): Legal Filings Prep + Steward Selections + Charter Drafts  
+PI-3 (Apr–May): Legal Filings + Capital Vehicles + DC Policy  
+PI-4 (Jun–Jul): Governance OS Alpha/Beta + Client SOPs  
+PI-5 (Aug–Sep): Client Filings + Adoption + Equity Tooling  
+PI-6 (Sep–Oct): Analytics + Premium OS Features + Summit  
+PI-7 (Oct–Nov): Summit Execution + Revenue/Capital Policy + Compliance  
+PI-8 (Nov–Dec): Year-End Close + OGD v1.0 + Yr-2 Planning
+```
+
+---
+
+## 📅 **Month 2 — February 2026**
+
+**Time Cadence for February**
+
+* **Daily:** Standups (15 min), deep work timeblocks (60–120 min)
+* **Weekly:** Planning → Execution → Review/Retrospective
+* **Sprints:**
+   • **Sprint 3** (Feb 1–14) — Legal formation execution + OGD legal section
+   • **Sprint 4** (Feb 15–28) — Hiring pipeline launch + outreach
+* **Program Increment:** **PI-1 continuing through Feb 13**, **PI-2 begins on Feb 14**
+* **Quarter:** Q1 (Jan–Mar)
+
+| **ID**        | **Name**                          | **Type**      | **Brief**                             | **Start**  | **Dur** | **Owner / Team**     | **TBS/Cadence**     |
+| ------------- | --------------------------------- | ------------- | ------------------------------------- | ---------- | ------: | -------------------- | ------------------- |
+| **M-EST2**    | **February Strategy Delivery**    | event         | Monthly estate delivery & alignment   | 2026-02-01 |      1d | Dominic / Exec Squad | Month kickoff       |
+| **P-EST006**  | NPE Legal Formation Execution     | plan          | Execute filing of NPE & DESEF         | 2026-02-02 |     20d | CLO / Legal Team     | Sprint 3            |
+| **TH-EST007** | Submit NPE Legal Filing & EIN     | tactic        | Submit articles/trust + tax ID        | 2026-02-02 |      7d | CLO                  | Sprint 3, Timeblock |
+| **I-EST002**  | NPE Legal Status Effective        | milestone     | Confirm estate legal standing         | 2026-02-10 |      1d | CLO                  | Sprint 3 milestone  |
+| **P-EST007**  | Personal Office (DESEF) Formation | plan          | File personal office entity           | 2026-02-02 |     15d | CLO / CFO            | Sprint 3            |
+| **TH-EST008** | File Personal Office Entity       | tactic        | Submit articles & operating agreement | 2026-02-02 |      7d | CLO                  | Sprint 3            |
+| **I-EST003**  | Personal Office Recognized        | milestone     | DESEF legal entity confirmed          | 2026-02-10 |      1d | CFO                  | Sprint 3 milestone  |
+| **P-EST008**  | OGD Legal & Charter Sections      | plan          | Continue legal content in OGD         | 2026-02-02 |     25d | CLO / Governance     | Sprint 3 → Sprint 4 |
+| **TH-EST009** | Estate Charter Revision           | tactic        | Revise charter with counsel           | 2026-02-02 |     12d | CLO                  | Sprint 3            |
+| **TH-EST010** | OGD Constitution Section Draft    | tactic        | Draft constitutional articles         | 2026-02-10 |     10d | Governance Squad     | Sprint 4            |
+| **S-EST010**  | OGD Legal Documentation           | documentation | Document legal sections               | 2026-02-20 |      5d | SupportAnalyst       | Sprint 4            |
+| **P-EST009**  | Outreach & Narrative Continuation | plan          | Continue blogs + research engagement  | 2026-02-01 |     28d | CCO / Outreach       | Monthly cadence     |
+| **TH-EST011** | Mungu Blog #2                     | release       | Publish second Mungu narrative        | 2026-02-05 |      1d | CCO                  | Timeblock           |
+| **TH-EST012** | Meridian Blog #2                  | release       | Publish second Meridian narrative     | 2026-02-10 |      1d | CCO                  | Timeblock           |
+| **TH-EST013** | Outreach to Research Networks     | tactic        | Engage communities                    | 2026-02-05 |     15d | Outreach Squad       | Weekly blocks       |
+| **P-EST010**  | Hiring & Steward Pipeline Launch  | plan          | Open candidate intake + screening     | 2026-02-05 |     25d | CoS / HR Guild       | Sprint 4            |
+| **TH-EST014** | Publish Hiring Notices            | tactic        | Post open roles                       | 2026-02-05 |      5d | CCO / CoS            | Sprint 4            |
+| **TH-EST015** | Candidate Screening Framework     | tactic        | Define criteria & scoring             | 2026-02-10 |      8d | CoS / HR Guild       | Sprint 4            |
+| **E-EST005**  | Candidate Management Pipeline     | epic          | Build candidate tracking              | 2026-02-10 |     18d | HR Guild             | Sprint 4            |
+| **S-EST011**  | Initial Candidate Shortlist       | report        | List of qualified candidates          | 2026-02-25 |      1d | HR Guild             | Sprint 4            |
+| **M-EST2B**   | **February Strategy Planning**    | event         | Plan for March                        | 2026-02-28 |      1d | Dominic / Exec Squad | Month close         |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for February**
+
+**Daily:**
+
+* Standup (15 min)
+* Deep work (OGD sections / legal filings / outreach)
+
+**Weekly:**
+
+* Sprint planning (Mon)
+* Execution blocks (Tue–Thu)
+* Demo/Review (Fri)
+
+**Sprint Structure:**
+
+* **Sprint 3 (Feb 1–14)** → Legal filings + OGD legal + narrative
+* **Sprint 4 (Feb 15–28)** → Hiring pipeline + candidate screening + OGD constitution
+
+**Program Increment Context:**
+
+* **PI-1** concludes mid-Feb (foundation, legal plan execution)
+* **PI-2** begins mid-Feb (hiring pipeline + charter drafts)
+
+**Quarter Context:**
+
+* **Q1** covers January → March; focus on foundation, entity formation, OGD genesis sections, and hiring system launch.
+
+---
+
+### 🧠 **Use This Playbook for**
+
+✔ Weekly sprint planning
+✔ Sprint tasks + story assignment boards
+✔ Daily standups & timeblock calendars
+✔ Monthly strategy delivery + planning rituals
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 3 (March)** with the same rich structure including PIs, quarter context, sprints, cadence, owners, and stories.
+Here is **Month 3 (March 2026)** of your **Year-1 WBS table** for the **Navigator Personal Estate (NPE)** with:
+
+✅ **Time Breakdown Structures (cadences)**
+
+* **Day / Week / Timeblock**
+* **Sprint (2-week)**
+* **Program Increment (PI ~6 weeks)**
+* **Month**
+* **Quarter (Q1 2026)**
+
+✅ **Overarching PIs** (each grouping ~3 sprints)
+
+✅ Clear **owners, durations, and deliverables**
+
+---
+
+## 📅 **Month 3 — March 2026**
+
+**Time Cadence for March**
+
+* **Daily:** Standups (15–30 min), deep work timeblocks (60–120 min)
+* **Weekly:** Weekly planning → execution → review → retro
+* **Sprints:**
+
+  * **Sprint 5** (Mar 1–14) — Charter drafts complete + Steward interview outcomes
+  * **Sprint 6** (Mar 15–28) — Final drafts + Steward onboarding design + OGD narrative
+* **Program Increment:** **PI-2** (mid-Feb → mid-Mar) continues through Sprint 6
+* **Quarter:** **Q1** of Year-1 (Jan–Mar): Foundation → Legal → Hiring → Charter
+
+---
+
+| **ID**        | **Name**                              | **Type**      | **Brief**                                | **Start**  | **Dur** | **Owner / Team**               | **TBS/Cadence**     |
+| ------------- | ------------------------------------- | ------------- | ---------------------------------------- | ---------- | ------: | ------------------------------ | ------------------- |
+| **M-EST3**    | **March Strategy Delivery**           | event         | Monthly estate strategy alignment        | 2026-03-01 |      1d | Dominic / Exec Squad           | Month kickoff       |
+| **P-EST011**  | Family Estate Formation Prep          | plan          | Draft & refine Family Estate legal docs  | 2026-03-02 |     20d | CLO / Legal Team               | Sprint 5 → Sprint 6 |
+| **TH-EST016** | Family Estate Charter Draft           | tactic        | Write governance & ownership rules       | 2026-03-02 |     10d | CLO                            | Sprint 5            |
+| **TH-EST017** | Family Estate Operating Draft         | tactic        | Draft operating & succession docs        | 2026-03-12 |      8d | Legal Team                     | Sprint 6            |
+| **I-EST004**  | Family Estate Docs Ready for Filing   | milestone     | Ready for legal filing next month        | 2026-03-20 |      1d | Estate Council                 | Sprint 6            |
+| **P-EST012**  | Ubuntuwa Commons Legal Draft          | plan          | Draft full Commons charter & bylaws      | 2026-03-02 |     25d | CLO / Governance               | Sprint 5 → Sprint 6 |
+| **TH-EST018** | Commons Member Class Rules            | tactic        | Define coop classes A–G in detail        | 2026-03-02 |     10d | Governance Squad               | Sprint 5            |
+| **TH-EST019** | Commons Governance Structure Draft    | tactic        | Complete organizational design           | 2026-03-12 |     12d | Governance Squad               | Sprint 6            |
+| **S-EST012**  | Draft Ubuntuwa Commons Charter        | documentation | OGD annex & draft                        | 2026-03-22 |      7d | SupportAnalyst                 | Sprint 6            |
+| **P-EST013**  | OVCS Authority Legal Draft            | plan          | Prepare OVCS authority charter           | 2026-03-05 |     20d | CLO / Governance               | Sprint 5 → Sprint 6 |
+| **TH-EST020** | OVCS Authority Scope Definition       | tactic        | Define delegated legal authority         | 2026-03-05 |     10d | Governance Squad               | Sprint 5            |
+| **I-EST005**  | OVCS Authority Draft Complete         | milestone     | Charter ready for review                 | 2026-03-15 |      1d | CLO                            | Sprint 5            |
+| **P-EST014**  | Archive → OGD Integration             | plan          | Integrate indexed artifacts into OGD     | 2026-03-02 |     28d | Archive Squad / SupportAnalyst | Sprint 5 → 6        |
+| **TH-EST021** | Map Archive Artifacts to OGD Sections | tactic        | Tag archival docs to OGD content         | 2026-03-02 |     10d | Archive Specialist             | Sprint 5            |
+| **E-EST006**  | OGD Narrative Build                   | epic          | Build narrative sections of OGD          | 2026-03-12 |     20d | Dominic / SupportAnalyst       | Sprint 6            |
+| **S-EST013**  | OGD Narrative Draft                   | documentation | Draft narrative content for OGD          | 2026-03-12 |     10d | SupportAnalyst                 | Sprint 6            |
+| **P-EST015**  | Outreach & Narrative Continuation     | plan          | Continue narrative + research engagement | 2026-03-01 |     31d | CCO / Outreach                 | Monthly cadence     |
+| **TH-EST022** | Publish Mungu Blog #3                 | release       | Third narrative entry for Mungu          | 2026-03-05 |      1d | CCO                            | Timeblock           |
+| **TH-EST023** | Publish Meridian Blog #3              | release       | Third narrative entry for Meridian       | 2026-03-10 |      1d | CCO                            | Timeblock           |
+| **TH-EST024** | Research Partner Follow-Up            | tactic        | Continued research partner engagement    | 2026-03-05 |     18d | Outreach Squad                 | Weekly blocks       |
+| **P-EST016**  | Hiring & Steward Campaign Progress    | plan          | Conduct interviews + screening           | 2026-03-02 |     30d | CoS / HR Guild                 | Sprint 5 → Sprint 6 |
+| **TH-EST025** | Conduct Candidate Interviews          | tactic        | Interview steward + exec candidates      | 2026-03-07 |     15d | CoS / Domain Leads             | Sprint 5            |
+| **TH-EST026** | Steward Assessment Sessions           | tactic        | Steward aptitude & alignment tests       | 2026-03-15 |     15d | Governance Squad               | Sprint 6            |
+| **I-EST006**  | Steward Selections Confirmed          | milestone     | Steward cohort confirmed                 | 2026-03-27 |      1d | Exec Squad                     | Sprint 6            |
+| **M-EST3B**   | **March Strategy Planning**           | event         | Plan for April                           | 2026-03-29 |      1d | Dominic / Exec Squad           | Month close         |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for March**
+
+**Daily**
+
+* Standups (15–30 min)
+* Deep work blocks for OGD narrative and charter drafting
+
+**Weekly**
+
+* Week 1–2: Sprint 5 execution
+* Week 3–4: Sprint 6 execution
+
+**Sprints**
+
+* **Sprint 5 (Mar 1–14):** Draft core legal charters + interview cycles
+* **Sprint 6 (Mar 15–28):** Complete charters + narrative integration + steward assessments
+
+**Program Increment**
+
+* **PI-2** runs through Sprint 6, culminating in:
+
+  * Legal drafts ready for April filings
+  * Steward cohort selection
+  * Narrative + OGD sections advanced
+
+**Quarter**
+
+* **Q1 2026 (Jan–Mar):**
+  *Focus:* Foundation → Legal formations → Hiring systems → Core governance chartering
+
+---
+
+### 🧠 **Use This Playbook For**
+
+✔ Sprint planning with story estimates
+✔ Daily standup & weekly reviews
+✔ PI-2 alignment workshops
+✔ Narrative + outreach planning
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 4 (April 2026)** with the same detailed structure including your time cadences, PIs, and quarterly mapping.
+
+Absolutely — here is **Month 4 (April 2026)** of your **Year-1 WBS table** for the **Navigator Personal Estate (NPE)**, now including your **Time Breakdown Structures / Cadences**, **Program Increment mapping**, and **Quarter alignment**:
+
+---
+
+## 📅 **Month 4 — April 2026**
+
+**Time Cadence for April**
+
+* **Daily:** Standups (15–30 min); focused deep work blocks (1–2 hours)
+* **Weekly:** Planning → Execution → Review → Retro
+* **Sprints:**
+
+  * **Sprint 7 (Apr 1–14):** File Family Estate + Commons + OVCS, begin onboarding
+  * **Sprint 8 (Apr 15–28):** Onboard hires/Stewards, expand OGD programs
+* **Program Increment:** **PI-3** (Apr–Mid-May) begins in April
+* **Quarter:** **Q2 2026 (Apr–Jun)** — focus on entity filings, onboarding, capital, tooling spec
+
+---
+
+| **ID**        | **Name**                          | **Type**      | **Brief**                                           | **Start**  | **Dur** | **Owner / Team**                  | **TBS / Cadence**      |
+| ------------- | --------------------------------- | ------------- | --------------------------------------------------- | ---------- | ------: | --------------------------------- | ---------------------- |
+| **M-EST4**    | **April Strategy Delivery**       | event         | Monthly estate strategy delivery & alignment        | 2026-04-01 |      1d | Dominic / Exec Squad              | Monthly kickoff        |
+| **P-EST017**  | File Family Estate Entity         | plan          | Submit legal filings for Family Estate              | 2026-04-02 |     15d | CLO / Legal Team                  | Sprint 7               |
+| **TH-EST027** | Family Estate Legal Filing        | tactic        | Submit articles + operating agreement               | 2026-04-02 |      7d | CLO                               | Sprint 7 / Week blocks |
+| **I-EST007**  | Family Estate Registered          | milestone     | Family Estate officially registered                 | 2026-04-10 |      1d | CLO                               | Sprint 7 milestone     |
+| **P-EST018**  | File Ubuntuwa Commons Coop        | plan          | File legal for Ubuntuwa Commons Cooperative         | 2026-04-02 |     18d | CLO / Legal Team                  | Sprint 7               |
+| **TH-EST028** | Commons Articles Filed            | tactic        | Submit coop articles & member class rules           | 2026-04-02 |      7d | Legal Admin                       | Sprint 7               |
+| **TH-EST029** | Commons Bylaws Submission         | tactic        | File cooperative bylaws                             | 2026-04-10 |      8d | Legal Team                        | Sprint 7               |
+| **I-EST008**  | Ubuntuwa Commons Live             | milestone     | Ubuntuwa Commons legally recognized                 | 2026-04-18 |      1d | CLO                               | Sprint 7 milestone     |
+| **P-EST019**  | File OVCS Authority               | plan          | Submit OVCS legal formation                         | 2026-04-05 |     15d | CLO / Governance                  | Sprint 7               |
+| **TH-EST030** | OVCS Authority Filing             | tactic        | Submit governing authority charter                  | 2026-04-05 |      8d | CLO                               | Sprint 7               |
+| **I-EST009**  | OVCS Authority Recognized         | milestone     | OVCS entity live                                    | 2026-04-13 |      1d | CLO                               | Sprint 7 milestone     |
+| **P-EST020**  | OGD Advanced Draft Build          | plan          | Continue core OGD integration of program structures | 2026-04-02 |     30d | Governance Squad / SupportAnalyst | Sprint 7 → Sprint 8    |
+| **E-EST007**  | OGD Program Sections Build        | epic          | Draft sections for foundational programs            | 2026-04-02 |     22d | SupportAnalyst / Dominic          | Sprint 7 → Sprint 8    |
+| **TH-EST031** | Kano Program OGD Draft            | tactic        | Draft content for Kano program                      | 2026-04-02 |      6d | SupportAnalyst                    | Sprint 7               |
+| **TH-EST032** | Ndebe Program OGD Draft           | tactic        | Draft content for Ndebe program                     | 2026-04-10 |      6d | SupportAnalyst                    | Sprint 7 → 8           |
+| **S-EST014**  | OGD Programs Narrative            | documentation | Consolidate programs narrative                      | 2026-04-18 |      5d | SupportAnalyst                    | Sprint 8               |
+| **P-EST021**  | Archive Artifact Deep Mapping     | plan          | Continue mapping archives → OGD                     | 2026-04-02 |     28d | Archive Squad                     | Sprint 7 → Sprint 8    |
+| **TH-EST033** | Tag Cooperative Templates         | tactic        | Tag coop legal templates in registry                | 2026-04-02 |      8d | Archive Specialist                | Sprint 7               |
+| **TH-EST034** | Tag Narrative Artifacts           | tactic        | Tag blogs, research notes to OGD                    | 2026-04-10 |      8d | Archive Squad                     | Sprint 7 → 8           |
+| **P-EST022**  | Outreach & Narrative Continuation | plan          | Continue blog + research engagement                 | 2026-04-01 |     30d | CCO / Outreach                    | Monthly cadence        |
+| **TH-EST035** | Publish Mungu Blog #4             | release       | 4th narrative entry                                 | 2026-04-05 |      1d | CCO                               | Timeblock              |
+| **TH-EST036** | Publish Meridian Blog #4          | release       | 4th narrative entry                                 | 2026-04-10 |      1d | CCO                               | Timeblock              |
+| **TH-EST037** | Research Partner Outreach         | tactic        | Continue partner engagement & tracking              | 2026-04-05 |     18d | Outreach Squad                    | Weekly blocks          |
+| **P-EST023**  | Hiring & Steward Onboarding       | plan          | Onboard first hires + stewards                      | 2026-04-02 |     30d | CoS / HR Guild                    | Sprint 7 → Sprint 8    |
+| **TH-EST038** | Executive Onboarding              | tactic        | Onboard executive hires                             | 2026-04-05 |     10d | CoS                               | Sprint 7               |
+| **TH-EST039** | Steward Orientation               | tactic        | Steward orientation + governance 101                | 2026-04-10 |     10d | Governance Squad                  | Sprint 7 → Sprint 8    |
+| **I-EST010**  | Core Team Onboarded               | milestone     | All first hires + stewards onboarded                | 2026-04-20 |      1d | Exec Squad                        | Sprint 8 milestone     |
+| **M-EST4B**   | **April Strategy Planning**       | event         | Plan priorities for May                             | 2026-04-29 |      1d | Dominic / Exec Squad              | Monthly planning       |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for April**
+
+**Daily**
+
+* Standups: 15–30 minutes
+* Deep Work Blocks: charter filings, OGD narrative
+
+**Weekly**
+
+* Weekly planning, execution, and review plus Friday demo/retro
+
+**Sprints**
+
+* **Sprint 7 (Apr 1–14):** File major entities (Family Estate, Commons, OVCS), onboarding start
+* **Sprint 8 (Apr 15–28):** Complete onboarding, program narrative & OGD sections
+
+**Program Increment**
+
+* **PI-3:** Approved legal formations + onboarding + OGD program build
+
+**Quarter**
+
+* **Q2 (Apr–Jun):** Entity filings, capital vehicles, governance tooling specs
+
+---
+
+### 🧠 **Guidance for Using This Playbook**
+
+✔ **Sprint Planning:** Define stories from WBS items for each sprint
+✔ **Daily Standups:** Track blockers & adjustments
+✔ **Weekly Reviews:** Demo progress & adjust next weekly timeblocks
+✔ **Monthly Rituals:**
+
+* Monthly Delivery (strategy review)
+* Monthly Planning (next month prism)
+  ✔ **PI Syncs:** Facilitate alignment across teams mid-PI and end-PI
+
+---
+
+Whenever you’re ready, say **“continue”** and I’ll provide **Month 5 (May 2026)** with the same detailed structure including your time cadences, PIs, and quarterly mapping.
+Here is **Month 5 (May 2026)** of your **Year-1 WBS table** for the **Navigator Personal Estate (NPE)** — fully integrated with **Time Breakdown Structures (cadence)**, **Program Increment (PI) context**, and **Quarteral mapping**.
+
+---
+
+## 📅 **Month 5 — May 2026**
+
+**Time Cadence for May**
+
+* **Daily:** Standups (15–30 min); Deep Work Blocks (60–120 min)
+* **Weekly:** Plan → Execute → Review → Retro
+* **Sprints:**
+
+  * **Sprint 9 (May 1–14):** FundCo formation + DeferredComp policy
+  * **Sprint 10 (May 15–28):** Governance OS spec, coop templating, legal docs
+* **Program Increment:** **PI-3 continues through Sprint 9**, **PI-4 begins mid-May (Sprint 10)**
+* **Quarter:** **Q2 2026 (Apr–Jun)** — capital formation, deferred compensation, governance tooling specification
+
+---
+
+| **ID**        | **Name**                                           | **Type**      | **Brief**                                    | **Start**  | **Dur** | **Owner / Team**       | **TBS / Cadence**    |
+| ------------- | -------------------------------------------------- | ------------- | -------------------------------------------- | ---------- | ------: | ---------------------- | -------------------- |
+| **M-EST5**    | **May Strategy Delivery**                          | event         | Monthly estate strategy delivery & alignment | 2026-05-01 |      1d | Dominic / Exec Squad   | Month kickoff        |
+| **P-EST024**  | FundCo Capital Vehicle Legal Creation              | plan          | Establish Zawadi & Mbali FundCo LPs + GPCos  | 2026-05-02 |     28d | CFO / CLO              | Sprint 9 → Sprint 10 |
+| **TH-EST040** | Draft Zawadi FundCo LP Docs                        | tactic        | Draft agreements and legal structure         | 2026-05-02 |     10d | Legal Team             | Sprint 9             |
+| **TH-EST041** | Draft Mbali FundCo LP Docs                         | tactic        | Draft legal docs for Mbali Fund              | 2026-05-12 |     10d | Legal Team             | Sprint 9             |
+| **TH-EST042** | Form GP Manager Entities                           | tactic        | File GPCo entities & agreements              | 2026-05-22 |      8d | CLO / CFO              | Sprint 10            |
+| **I-EST011**  | FundCos & GP Entities Filed                        | milestone     | Confirm FundCo + GPCo registrations          | 2026-05-30 |      1d | CFO                    | Sprint 10            |
+| **P-EST025**  | Deferred Compensation + Credits Legal Finalization | plan          | Finalize legal policy for DC Units + Credits | 2026-05-02 |     25d | CLO / Estate Council   | Sprint 9 → Sprint 10 |
+| **TH-EST043** | Legal Review – DeferredComp Policy                 | tactic        | Counsel review & tax analysis                | 2026-05-02 |     10d | CLO / Legal Team       | Sprint 9             |
+| **TH-EST044** | Consolidate DC Model into OGD                      | tactic        | Integrate legal framework into OGD           | 2026-05-12 |     12d | Governance Squad       | Sprint 10            |
+| **S-EST015**  | Signed DC Legal Policy Document                    | documentation | Publish legal deferred compensation policy   | 2026-05-24 |      3d | SupportAnalyst         | Sprint 10            |
+| **P-EST026**  | Governance OS Spec & Initial Tooling               | plan          | Define Governance OS functional requirements | 2026-05-03 |     28d | CTO / GovDevLead       | Sprint 9 → Sprint 10 |
+| **TH-EST045** | Define Governance OS Functional Spec               | tactic        | Capture high-level tool specs + user flows   | 2026-05-03 |     10d | CTO / Governance Squad | Sprint 9             |
+| **TH-EST046** | Identity + Member Class Schema                     | tactic        | Design coop class A–G data model             | 2026-05-13 |     12d | Governance Squad       | Sprint 10            |
+| **S-EST016**  | Governance OS Requirements Document                | documentation | Formal governance tooling spec               | 2026-05-25 |      5d | SupportAnalyst         | Sprint 10            |
+| **P-EST027**  | Cooperative Template Legal Build                   | plan          | Build standard coop formation templates      | 2026-05-05 |     25d | CLO / SupportOps       | Sprint 9 → Sprint 10 |
+| **TH-EST047** | Legal Templates — Articles & Bylaws                | tactic        | Draft generic articles & bylaws templates    | 2026-05-05 |     12d | Legal Team             | Sprint 9             |
+| **TH-EST048** | Standard Operating Agreements                      | tactic        | Draft OpCo/IPCo/IncentiveCo agreements       | 2026-05-17 |     10d | Legal Team             | Sprint 10            |
+| **S-EST017**  | Cooperative Template Library                       | documentation | Publish template library in registry         | 2026-05-27 |      4d | Archive Squad          | Sprint 10            |
+| **P-EST028**  | Outreach & Narrative Continuation                  | plan          | Sustain narrative + research engagement      | 2026-05-01 |     31d | CCO / Outreach         | Monthly cadence      |
+| **TH-EST049** | Publish Mungu Blog #5                              | release       | Fifth narrative entry for Mungu              | 2026-05-05 |      1d | CCO                    | Timeblock            |
+| **TH-EST050** | Publish Meridian Blog #5                           | release       | Fifth narrative entry for Meridian           | 2026-05-10 |      1d | CCO                    | Timeblock            |
+| **TH-EST051** | Research Partner Webinar Planning                  | tactic        | Plan interactive session with partners       | 2026-05-05 |     15d | Outreach Squad         | Weekly blocks        |
+| **P-EST029**  | Hiring & Steward Onboarding Continuation           | plan          | Continue onboarding + role enablement        | 2026-05-02 |     30d | CoS / HR Guild         | Sprint 9 → Sprint 10 |
+| **TH-EST052** | Exec + Steward 90-Day Check-Ins                    | tactic        | Performance & alignment reviews              | 2026-05-10 |     10d | CoS                    | Sprint 9             |
+| **TH-EST053** | Team Role Documentation                            | tactic        | Document roles & SOPs                        | 2026-05-20 |      8d | SupportOps             | Sprint 10            |
+| **I-EST012**  | Team Onboarding Completion Report                  | report        | Summary of onboarding outcomes               | 2026-05-29 |      1d | CoS / HR Guild         | Sprint 10            |
+| **M-EST5B**   | **May Strategy Planning**                          | event         | Plan estate priorities for June              | 2026-05-29 |      1d | Dominic / Exec Squad   | Month close          |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for May**
+
+**Daily**
+✔ Standups (15–30 min)
+✔ Deep Work Blocks (1–2 hours) for legal docs, DC policy, governance specs
+
+**Weekly**
+✔ Weekly planning + execution clusters
+✔ Friday retros & demos
+
+**Sprints**
+
+* **Sprint 9 (May 1–14):** Start capital vehicles + deferred compensation design + governance OS functional requirements
+* **Sprint 10 (May 15–28):** Complete cooperative templates + governance OS specs + finalize DC policy
+
+**Program Increment**
+
+* **PI-3:** Continues through mid-May; focus on legal formations, onboarding, coop docs, DC launch
+* **PI-4:** Begins in Sprint 10 with governance OS specification & tooling design
+
+**Quarter**
+
+* **Q2 (Apr–Jun 2026):** Entity filings → Capital formation → Governance tooling readiness
+
+---
+
+### 🧠 **How to Use This Playbook**
+
+✔ **Sprint Planning:** Pull stories from this table into your sprint boards (Notion / Jira / Linear)
+✔ **Daily Rituals:** Use daily standups + timeblocks for deep work
+✔ **Weekly Reviews:** Sprint demos & retros every 2 weeks
+✔ **Monthly Strategy:** Review metrics + adjust next month’s focus
+✔ **PI Sync:** Run PI check-ins mid-May
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 6 (June 2026)** with the same detailed structure including PIs and cadence.
+
+Here is **Month 6 (June 2026)** of your **Year-1 WBS table** for the **Navigator Personal Estate (NPE)** with **Time Breakdown Structures (cadence)**, **Program Increment mapping**, and **Quarter context**.
+
+---
+
+## 📅 **Month 6 — June 2026**
+
+**Time Cadence for June**
+
+* **Daily:** Standups (15–30 min); deep work blocks (60–120 min)
+* **Weekly:** Weekly planning → execution → review → retro
+* **Sprints:**
+
+  * **Sprint 11 (Jun 1–14):** Governance OS prototype & standards
+  * **Sprint 12 (Jun 15–28):** Client intake & analytics work
+* **Program Increment:** **PI-4** continues (Governance tooling → standards) and **PI-5** begins mid-June (Client readiness + tooling)
+* **Quarter:** **Q2 2026 (Apr–Jun)** — governance tooling, standards, client readiness
+
+---
+
+| **ID**        | **Name**                                    | **Type**      | **Brief**                                           | **Start**  | **Dur** | **Owner / Team**          | **TBS/Cadence**       |
+| ------------- | ------------------------------------------- | ------------- | --------------------------------------------------- | ---------- | ------: | ------------------------- | --------------------- |
+| **M-EST6**    | **June Strategy Delivery**                  | event         | Monthly estate strategy alignment                   | 2026-06-01 |      1d | Dominic / Exec Squad      | Month kickoff         |
+| **P-EST030**  | Governance OS Prototype Build               | plan          | Build governance tooling prototype                  | 2026-06-02 |     30d | CTO / GovDev Team         | Sprint 11 → Sprint 12 |
+| **TH-EST054** | Data Schema Implementation                  | tactic        | Implement identity & membership class schema        | 2026-06-02 |     12d | CTO / Data Squad          | Sprint 11             |
+| **TH-EST055** | Governance Workflow Automation              | tactic        | Automate council & compliance workflows             | 2026-06-14 |     14d | DevOps / Governance Squad | Sprint 12             |
+| **S-EST018**  | Governance OS Alpha Release                 | release       | First release of gov OS prototype                   | 2026-06-28 |      1d | CTO / SupportOps          | Sprint 12             |
+| **P-EST031**  | Cooperative Formation Standards             | plan          | Define standard coop legal & operational design     | 2026-06-02 |     25d | Governance Squad / Legal  | Sprint 11 → Sprint 12 |
+| **TH-EST056** | Standard Coop Entity Archetype              | tactic        | Establish cooperative archetypes & best practices   | 2026-06-02 |     10d | Legal / SupportOps        | Sprint 11             |
+| **TH-EST057** | Elective Governance Modules                 | tactic        | Build flexible governance modular templates         | 2026-06-12 |     12d | Governance Squad          | Sprint 12             |
+| **S-EST019**  | Cooperative Standards Manual                | documentation | Publish standards for coop formation & governance   | 2026-06-24 |      5d | SupportAnalyst            | Sprint 12             |
+| **P-EST032**  | Archive → OGD Deep Completion               | plan          | Finalize integration of archived artifacts into OGD | 2026-06-02 |     28d | Archive Squad             | Sprint 11 → Sprint 12 |
+| **TH-EST058** | Map Legal Templates to OGD                  | tactic        | Connect articles & bylaws templates to OGD          | 2026-06-02 |     10d | Archive Specialist        | Sprint 11             |
+| **TH-EST059** | Tag Research + Narrative Corpus             | tactic        | Tag all narrative + blog artifacts                  | 2026-06-12 |     10d | Archive Squad             | Sprint 12             |
+| **E-EST008**  | OGD Integration Synthesis                   | epic          | Merge all sections into cohesive OGD draft          | 2026-06-12 |     20d | Dominic / SupportAnalyst  | Sprint 12             |
+| **S-EST020**  | Versioned OGD Draft v0.6                    | documentation | Publish mid-year OGD draft                          | 2026-06-28 |      5d | SupportAnalyst            | Sprint 12             |
+| **P-EST033**  | Client Pre-Intake Templates                 | plan          | Design intake templates for client onboarding       | 2026-06-02 |     25d | SupportOps / Governance   | Sprint 11 → Sprint 12 |
+| **TH-EST060** | Client Coops Intake Form                    | tactic        | Build legal & governance intake forms               | 2026-06-02 |      6d | SupportOps                | Sprint 11             |
+| **TH-EST061** | Client Intake SOP Draft                     | tactic        | Draft SOP for intake & readiness assessment         | 2026-06-08 |     10d | SupportAnalyst            | Sprint 11 → Sprint 12 |
+| **S-EST021**  | Client Intake Docs Archive                  | documentation | Publish intake templates to registry                | 2026-06-20 |      4d | Archive Squad             | Sprint 12             |
+| **P-EST034**  | Outreach & Narrative Continuation           | plan          | Continue narrative + partner engagement             | 2026-06-01 |     30d | CCO / Outreach            | Monthly cadence       |
+| **TH-EST062** | Publish Mungu Blog #6                       | release       | Sixth narrative entry                               | 2026-06-05 |      1d | CCO                       | Timeblock             |
+| **TH-EST063** | Publish Meridian Blog #6                    | release       | Sixth narrative entry                               | 2026-06-10 |      1d | CCO                       | Timeblock             |
+| **TH-EST064** | Research Collaboration Follow-Up            | tactic        | Consolidate researcher commitments                  | 2026-06-05 |     20d | Outreach Squad            | Weekly blocks         |
+| **P-EST035**  | Hiring Campaign Evaluation & Prioritization | plan          | Review hiring progress & forecast 2nd wave          | 2026-06-02 |     20d | CoS / HR Guild            | Sprint 11 → Sprint 12 |
+| **TH-EST065** | Candidate Pipeline Review                   | tactic        | Evaluate candidate pool & fit                       | 2026-06-02 |      8d | HR Guild                  | Sprint 11             |
+| **TH-EST066** | Steward Role Refinement                     | tactic        | Update steward role definitions & paths             | 2026-06-12 |     10d | Governance / CoS          | Sprint 12             |
+| **I-EST013**  | Mid-Year Hiring & Steward Evaluation        | milestone     | Report on hiring status & roadmap                   | 2026-06-25 |      1d | CoS / HR Guild            | Sprint 12             |
+| **M-EST6B**   | **June Strategy Planning**                  | event         | Plan estate priorities for July                     | 2026-06-29 |      1d | Dominic / Exec Squad      | Month close           |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for June**
+
+**Daily**
+✔ Standups & timeblocks for deep mode building (OS prototype, OGD synthesis)
+
+**Weekly**
+✔ Weekly planning + Friday sprint demos (Sprints 11/12)
+
+**Sprints**
+
+* **Sprint 11 (Jun 1–14):** Governance OS prototype foundational builds, coop standards start
+* **Sprint 12 (Jun 15–28):** Complete coop standards, OGD synthesis, client intake templates
+
+**Program Increments**
+
+* **PI-4:** Continues through Sprint 12 — governance tooling details → standards finalized
+* **PI-5:** Begins end of June, focused on client readiness & analytics
+
+**Quarter**
+
+* **Q2 2026 (Apr–Jun):**
+  *Focus:* Entity filings (Apr) → Capital + DC policy + Governance tooling (May/Jun)
+
+---
+
+### 🧠 **How to Use This Playbook**
+
+✔ Break each **P-EST / TH-EST / S-EST** into sprint board stories
+✔ Run **sprint planning** at start of each 2-week cycle
+✔ Do **mid-PI syncs** between Sprints 11 and 12
+✔ Align **weekly reviews** to sprint demos & retros
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 7 (July 2026)** with the same detailed table including your cadence structures, PIs, and quarterly alignment.
+
+Here is **Month 7 (July 2026)** of your **Year-1 WBS** for the **Navigator Personal Estate (NPE)** with the full **Time Breakdown Structure (cadence)**, **Program Increment (PI) mapping**, and **Quarter context** included.
+
+---
+
+## 📅 **Month 7 — July 2026**
+
+**Time Cadence for July**
+
+* **Daily:** Standups (15–30 min), deep work blocks (60–120 min)
+* **Weekly:** Plan → Execute → Review → Retro
+* **Sprints:**
+
+  * **Sprint 13 (Jul 1–14):** Beta governance tooling + client coop launch readiness
+  * **Sprint 14 (Jul 15–28):** Client onboarding training + support tooling refinement
+* **Program Increment:**
+
+  * **PI-5** (Jun mid → Jul mid): Client intake readiness + governance tooling adoption
+  * **PI-6** begins mid-July (Analytics + MVP support + outreach acceleration)
+* **Quarter:** **Q3 2026 (Jul–Sep)** — client launches, onboarding, adoption & analytics
+
+---
+
+| **ID**        | **Name**                                | **Type**      | **Brief**                                               | **Start**  | **Dur** | **Owner / Team**              | **TBS / Cadence**     |
+| ------------- | --------------------------------------- | ------------- | ------------------------------------------------------- | ---------- | ------: | ----------------------------- | --------------------- |
+| **M-EST7**    | **July Strategy Delivery**              | event         | Monthly estate strategy delivery & alignment            | 2026-07-01 |      1d | Dominic / Exec Squad          | Month kickoff         |
+| **P-EST036**  | Platform MVP Legal & Governance Support | plan          | Provide legal/governance support for early MVP ventures | 2026-07-02 |     30d | Legal Team / Governance Squad | Sprint 13 → Sprint 14 |
+| **TH-EST067** | Venture IP & Equity Structuring         | tactic        | Draft IP ownership & equity structures for portfolio    | 2026-07-02 |     10d | Legal Team                    | Sprint 13             |
+| **TH-EST068** | Venture Governance Contracts            | tactic        | Put in place governance agreements for early ventures   | 2026-07-12 |     12d | Governance Squad              | Sprint 14             |
+| **I-EST014**  | Platform MVP Legal Readiness Completed  | milestone     | All legal governance for MVP ventures finalized         | 2026-07-24 |      1d | CLO                           | Sprint 14             |
+| **P-EST037**  | Cooperative Client Launch Readiness     | plan          | Prepare cooperative client stacks                       | 2026-07-02 |     28d | SupportOps / Governance       | Sprint 13 → Sprint 14 |
+| **TH-EST069** | Client Coop Legal Filing Prep           | tactic        | Package all client coop filings                         | 2026-07-02 |     10d | Legal Admin                   | Sprint 13             |
+| **TH-EST070** | Client Governance Setup                 | tactic        | Assign councils/boards/stewards per class A–G           | 2026-07-12 |     12d | Governance Squad              | Sprint 14             |
+| **S-EST022**  | Client Launch SOP                       | documentation | Publish comprehensive SOP for client coops              | 2026-07-24 |      5d | SupportAnalyst                | Sprint 14             |
+| **P-EST038**  | Governance OS Beta Iteration            | plan          | Enhance governance tooling with pilot feedback          | 2026-07-03 |     28d | CTO / GovDev Team             | Sprint 13 → Sprint 14 |
+| **TH-EST071** | Feedback Loop & Feature Adjustments     | tactic        | Integrate pilot feedback                                | 2026-07-03 |     12d | DevOps / Governance Squad     | Sprint 13             |
+| **TH-EST072** | Security & Compliance Audit             | tactic        | Tech compliance testing                                 | 2026-07-15 |      8d | DevOps                        | Sprint 14             |
+| **S-EST023**  | Governance OS Beta Release              | release       | Publish beta governance OS to pilot clients             | 2026-07-26 |      1d | CTO / SupportOps              | Sprint 14             |
+| **P-EST039**  | Outreach & Narrative Continuation       | plan          | Sustain narrative + partner engagement                  | 2026-07-01 |     31d | CCO / Outreach                | Monthly cadence       |
+| **TH-EST073** | Publish Mungu Blog #7                   | release       | Seventh narrative entry                                 | 2026-07-05 |      1d | CCO                           | Timeblock             |
+| **TH-EST074** | Publish Meridian Blog #7                | release       | Seventh narrative entry                                 | 2026-07-10 |      1d | CCO                           | Timeblock             |
+| **TH-EST075** | Community Engagement Webinars           | tactic        | Host sessions with early adopters                       | 2026-07-05 |     18d | Outreach Squad                | Weekly blocks         |
+| **P-EST040**  | Hiring & Team Scaling                   | plan          | Prepare second wave hiring & operational staffing       | 2026-07-02 |     28d | CoS / HR Guild                | Sprint 13 → Sprint 14 |
+| **TH-EST076** | Skills & Competency Gap Assessment      | tactic        | Identify domain skill gaps                              | 2026-07-02 |      8d | HR Guild                      | Sprint 13             |
+| **TH-EST077** | Second Wave Role Definitions            | tactic        | Write briefs for new operations roles                   | 2026-07-10 |     10d | CoS                           | Sprint 14             |
+| **I-EST015**  | Second Wave Hiring Plan Finalized       | milestone     | Final roles + recruitment plan approved                 | 2026-07-24 |      1d | CoS                           | Sprint 14             |
+| **M-EST7B**   | **July Strategy Planning**              | event         | Plan estate priorities for August                       | 2026-07-29 |      1d | Dominic / Exec Squad          | Month close           |
+
+---
+
+### 📌 **Time Breakdown / Cadence Notes for July**
+
+**Daily**
+✔ Standups (15–30 min) & Deep Work Blocks (1–2 hours)
+**Weekly**
+✔ Weekly planning + sprint execution + Friday review/retro
+**Sprints**
+
+* **Sprint 13 (Jul 1–14):** Beta governance tooling iteration + client readiness
+* **Sprint 14 (Jul 15–28):** Governance OS beta + client governance setup + SOPs
+  **Program Increments**
+* **PI-5:** Continues through Sprint 13 — focus on tooling adoption & client coop readiness
+* **PI-6:** Begins mid-Jul — analytics, MVP support, and outreach acceleration
+  **Quarter**
+* **Q3 2026 (Jul–Sep):** Client launches, onboarding, adoption acceleration & analytics readiness
+
+---
+
+### 🧠 **How to Use This Playbook**
+
+✔ Break each **P-EST, TH-EST, S-EST** into sprint board stories
+✔ Use daily standups to manage blockers
+✔ Weekly reviews to align cross-team
+✔ Mid-PI sync between Sprint 13 & 14
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 8 (August 2026)** with the same structured delivery (including cadence, PIs, and quarter mapping).

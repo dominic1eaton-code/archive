@@ -14,16 +14,18 @@
 *.doxy eol=lf
 
 # windows
-*.template  eol=crlf
 *.bat       eol=crlf
 *.java      eol=crlf
 *.classpath eol=crlf
 *.sln       eol=crlf
 *.vcproj    eol=crlf
-*.bzl       eol=crlf
-*.bazel     eol=crlf
-*BUILD      eol=crlf
-*WORKSPACE  eol=crlf
+
+# cross platform
+*.template  eol=auto
+*.bzl       eol=auto
+*.bazel     eol=auto
+*BUILD      eol=auto
+*WORKSPACE  eol=auto
 
 # binary
 *.tar      binary

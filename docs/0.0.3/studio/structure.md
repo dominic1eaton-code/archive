@@ -6129,3 +6129,2310 @@ If you’d like, I can generate **legal policy artifacts** for this:
 📌 **Tax & Securities Compliance Checklist**
 
 Just tell me which one to do next!
+
+Absolutely — here are **five fully-drafted, structured legal / operational documents** you can use as templates for your estate, portfolio, and governance systems. You can plug these into your **Organizational Genesis Document (OGD)** and adapt them with your legal counsel as needed.
+
+---
+
+# 📌 1) **Estate Equity Policy & Procedures Document**
+
+````markdown
+# Estate Equity Policy & Procedures
+## Navigator Personal Estate (NPE)
+
+### 1. Purpose
+This policy governs how the Estate holds, manages, transfers, and reports equity in all affiliated entities, ventures, and legal structures.
+
+### 2. Definitions
+- **Equity:** Any ownership interest, membership interest, share, unit, or capital position in a legal entity.
+- **Holder:** The legal entity in which equity is recorded (typically the NPE or a delegated sub-entity).
+- **Beneficial Owner:** The individual or entity with economic rights deriving from equity.
+- **DC Unit:** A Deferred Compensation Unit issued under the Estate’s credits system.
+
+### 3. Scope
+Applies to all equity positions held by the Estate, including:
+- Cooperative memberships
+- FundCo interests
+- Venture and operating entities
+- IncentiveCo holdings
+
+### 4. Principles
+4.1 **Custodianship:**  
+The Estate is the legal custodian of all equity held in the name of the Founder or delegated by governance entities.
+
+4.2 **Transparency:**  
+All equity positions are recorded in the Asset Registry and visible to authorized governance officers.
+
+4.3 **Compliance:**  
+All actions must comply with entity charters, tax law, securities regulation, and governance protocols.
+
+### 5. Procedures
+
+#### 5.1 Acquisition
+1. Document the instrument (stock certificate, membership interest, LLC units) signed by authorized estate officer.  
+2. Record issuance in the Asset Registry.  
+3. Generate equity issuance log with date, source, and legal basis.
+
+#### 5.2 Transfer/Allocation
+1. Submit an **Equity Transfer Authorization Form** (Template 3).  
+2. Review by Estate Council.  
+3. Execute transfer with legal counsel.  
+4. Update Asset Registry and notify affected parties.
+
+#### 5.3 DC Conversion
+1. Validate DC Unit vesting conditions.  
+2. Execute **DC Units → Equity Conversion Agreement** (Template 4).  
+3. Perform compliance checks.  
+4. Update registry.
+
+### 6. Reporting & Audit
+6.1 Quarterly reporting to Estate governance council  
+6.2 Annual external audit of holdings  
+6.3 Record retention according to compliance rules
+
+---
+
+# 📌 2) **Asset Registry Template (Spreadsheet/DB Schema)**
+
+> Use this schema to build a spreadsheet or database table.
+
+| Field Name | Data Type | Description |
+|------------|-----------|-------------|
+| AssetID | UUID | Unique internal ID |
+| AssetType | Text | e.g., Equity, Real Estate, IP, FundCo |
+| EntityName | Text | Issuing entity |
+| Holder | Text | NPE, Family Estate, Delegated Entity |
+| Jurisdiction | Text | Legal jurisdiction |
+| LegalDocRef | Text | Link to charter or filing |
+| Quantity | Number | Shares/membership units |
+| IssueDate | Date | Date equity was received |
+| VestingStatus | Text | Unvested / Partially / Fully |
+| VestingScheduleRef | Text | Link to vesting schedule |
+| FairValue | Decimal | Current valuation |
+| Notes | Text | Comments / audit history |
+
+Example Row:
+`123e4567-e89b-12d3-a456-426614174000 | Equity | Wolof.io LLC | NPE | US-MO | DocRef#WIO-23 | 1000 | 2025-08-12 | Partially | VSched#001 | $120,000 | Issued via DC conversion`
+
+---
+
+# 📌 3) **Equity Transfer Authorization Form**
+
+```markdown
+# Equity Transfer Authorization Form
+## Navigator Personal Estate (NPE)
+
+1. **Request Date:** __________________________
+2. **Requestor Name & Title:** __________________
+3. **Equity Asset ID:** _________________________
+4. **Asset Type:** _____________________________
+5. **Current Holder:** __________________________
+6. **Proposed Recipient:** ______________________
+7. **Proposed Transfer Type:**  
+   ☐ Full Transfer  ☐ Partial Transfer  ☐ Vesting Conversion  ☐ Gift/Legacy  ☐ Sale
+8. **Quantity/Units to Transfer:** ________________
+9. **Legal Basis:** ______________________________
+10. **DC Units Involved (if any):** ______________
+11. **Justification/Business Reason:**  
+    __________________________________________  
+    __________________________________________  
+12. **Approvals Required:**  
+    - Estate Council ☐ Approved ☐ Denied  
+    - Compliance ☐ Approved ☐ Denied  
+    - Legal Review ☐ Approved ☐ Denied
+
+**Signatures**  
+Estate Council Chair: ___________________ Date: ______  
+Compliance Officer: _____________________ Date: ______  
+Legal Officer: ___________________________ Date: ______
+````
+
+---
+
+# 📌 4) **DC Units → Equity Conversion Agreement**
+
+```markdown
+# DC Units to Equity Conversion Agreement
+## Navigator Personal Estate (NPE)
+
+This Agreement is made on _____________________, between:
+
+**Estate:** Navigator Personal Estate (“Estate”)  
+**Holder:** __________________________________ (Person/Entity)
+
+### RECITALS
+A. The Holder holds DC Units per estate ledger ID __________.  
+B. DC Units are convertible to equity in __________ (Entity) under the Estate’s policy.
+
+### TERMS
+
+1. **DC Units to be Converted:** __________ units  
+2. **Conversion Ratio:** __________ (e.g., 1 DC Unit = 1 share)  
+3. **Entity Receiving Equity:** ________________________  
+4. **New Equity Issue:**  
+   - Shares/Units Issued: __________  
+   - Effective Date: __________
+
+### CONDITIONS
+- Vesting complete as confirmed by compliance officer  
+- No pending disputes or obligations
+
+### REPRESENTATIONS
+The Holder affirms:
+a) Understanding of conversion terms  
+b) All conditions precedent have been met
+
+### AUTHORIZATIONS
+Estate Representative: __________________________ Date: ______  
+Holder Signature: _______________________________ Date: ______  
+Legal Counsel Review: ___________________________ Date: ______
+```
+
+---
+
+# 📌 5) **Tax & Securities Compliance Checklist**
+
+```markdown
+# Tax & Securities Compliance Checklist
+## Navigator Personal Estate (NPE)
+
+### ENTITY IDENTIFICATION
+☑ Confirm legal entity name and jurisdiction  
+☑ Check tax ID (EIN/TIN) is current  
+☑ Verify registered agent details
+
+### TAX COMPLIANCE
+☑ Federal tax filings (corporate/trust/estate)  
+☑ State tax registrations & filings  
+☑ Local business tax licenses  
+☑ Withholding tax obligations (if paying individuals)  
+☑ Deferred compensation plan tax treatment review
+
+### EQUITY/SECURITIES
+☑ Equity issuance compliant with entity charter  
+☑ DC Unit conversion reviewed for securities status  
+☑ Confirm exemptions or registrations with securities authorities  
+☑ Form D (or local equivalent) filed if required  
+☑ Sales/use tax impact assessed
+
+### FINANCIAL RECORDS
+☑ Asset Registry reconciled quarterly  
+☑ Valuations updated at least annually  
+☑ Bookkeeping consistent with GAAP or applicable standard  
+☑ Audit trail stored securely
+
+### REPORTING
+☑ Annual report filed with jurisdiction  
+☑ Equity position disclosures (if required)  
+☑ Deferred comp disclosures to beneficiaries
+
+### LEGAL DOCUMENTS
+☑ All agreements signed and dated  
+☑ Originals archived with legal counsel  
+☑ Digital copies in secured governance repository
+
+---
+
+## 📌 How to Use These Templates
+
+✔ **Copy & customize** all templates with your organization’s names, dates, entity IDs, and structural choices  
+✔ **Review with legal counsel** (estate, tax, securities) before formal adoption  
+✔ **Embed in your OGD** and asset management systems  
+✔ **Link legal documents** to the Asset Registry for traceability
+
+If you want, I can now **generate filled-in example versions** of these templates with your specific entity names, dates, and narrative language tailored to your ecosystem (e.g., Ubuntuwa Commons, FundCo, Wolof.io, etc.). Just tell me which one to draft next!
+```
+
+Below is a **clear, operational narrative** describing **how your Navigator Personal Estate (NPE) functions as the *Genesis Engine*** for everything you build in Year 1 — including your personal office, family estate, all legal entities, governance systems, cooperatives, capital vehicles, programs, tooling, and client ecosystem.
+
+This is written in *operational sequence*, describing the **activities, flows, systems, outputs, roles, and dependencies** that make your Estate the central origin point of your entire ecosystem.
+
+---
+
+# 🧠 **Operational Narrative — Year 1 Navigator Personal Estate (NPE)**
+
+## *How Your Estate Functions as the Genesis Engine for Everything Else*
+
+---
+
+## **OVERVIEW**
+
+The **Navigator Personal Estate (NPE)** is the **kernel organization** for your entire ecosystem. It is not simply a holding structure — it is the *origin, custodian, and operating anchor* that produces, manages, governs, and sponsors every downstream entity, governance body, capital vehicle, program, platform, and client engagement.
+
+Throughout Year 1, the NPE performs work in three related dimensions:
+
+1. **Genesis Formation Work** — creating and legalizing core entities and documentation
+2. **Operational Enablement Work** — building systems, policies, and staff workflows
+3. **Deployment & Execution Work** — producing tooling, programs, and client activations
+
+These happen in overlapping sequences, but the Estate always serves as:
+
+✔ The *legal sponsor*
+✔ The *policy and authority oracle*
+✔ The *registry and ledger custodian*
+✔ The *operational backbone* for governance and capital
+✔ The *parent of funded ventures and cooperatives*
+
+---
+
+# 🚀 MONTH-BY-MONTH OPERATIONAL STORY
+
+---
+
+## **January — Foundational Establishment**
+
+### **Objective**
+
+Define why the NPE exists, how it will operate, and build the first **Organizational Genesis Document (OGD)**.
+
+### **Operational Actions**
+
+* Write the **Founding Manifesto & Intent Declaration (FMID)** that encodes the purpose, values, and scope of the Estate.
+* Draft the **Organizational Genesis Document (OGD)** that binds the Estate with all downstream artifact standards.
+* Assemble your **first executive team** — CEO (yourself), CoS, COO, CFO, CLO, CGO, EA.
+* Define legal strategies for entity types and jurisdictions.
+
+### **Result**
+
+A **kernel authority framework** that all subsequent formation and governance work uses as its source of truth.
+
+Status after January:
+📌 OGD drafted
+📌 Legal formation strategy defined
+📌 Core exec team onboarded
+
+---
+
+## **February — Legal Formation Begins**
+
+### **Objective**
+
+Operationalize the Estate and Personal Office as legally recognized entities.
+
+### **Operational Actions**
+
+* File the legal Entity for the **NPE** (estate/trust/LLC as chosen).
+* Form the **Dominic Eaton Software Engineering Firm (Personal Office)** — the operational arm.
+* Establish bank accounts, tax IDs, compliance registrations.
+* Begin codifying internal SOPs (payroll, contracts, finance).
+
+### **Result**
+
+The Estate and Office become legally live, able to hire, contract, own assets, and commission work.
+
+Status after February:
+📌 NPE filed and recognized
+📌 Personal Office established
+📌 Finance & compliance groundwork enacted
+
+---
+
+## **March — Pre-Formation of Key Entities**
+
+### **Objective**
+
+Prepare downstream entity templates and legal frameworks.
+
+### **Operational Actions**
+
+* Draft Family Estate documents, specifying intergenerational holding and governance structures.
+* Draft charters for **Ubuntuwa Commons** and **OVCS Authority**.
+* Create equity & deferred compensation policies that guide all future formation.
+
+### **Result**
+
+Legal templates and policy frameworks are ready, reducing risk and speed for subsequent filings.
+
+Status after March:
+📌 Family Estate drafts ready
+📌 Commons & OVCS templates ready
+📌 Policy frameworks defined
+
+---
+
+## **April — Core Cooperative & Governance Formation**
+
+### **Objective**
+
+Turn drafts into legal entities that anchor the cooperative ecosystem.
+
+### **Operational Actions**
+
+* File the **Family Estate** as a new legal entity.
+* File **Ubuntuwa Commons Cooperative**.
+* File **OVCS Authority** as governance enforcement body.
+
+### **Result**
+
+The cooperative core of your ecosystem is launched, with legal seats, governance structure, and member-class schemas.
+
+Status after April:
+📌 Family Estate legal
+📌 Commons operative
+📌 OVCS operative
+
+---
+
+## **May — Capital Vehicle Formation**
+
+### **Objective**
+
+Launch interoperable capital entities that will fund ventures and cooperatives.
+
+### **Operational Actions**
+
+* File **Zawadi FundCo LP** and **Mbali FundCo LP**.
+* Form GP Manager entities (GPCos) to manage capital vehicles.
+* Establish legal compliance structures for investment and reporting.
+
+### **Result**
+
+Capital entities exist, ready to accept commitments, deploy investments, and underwrite ventures.
+
+Status after May:
+📌 FundCos filed
+📌 GPCos filed
+📌 Investment oversight rules in place
+
+---
+
+## **June — Incentive & Deferred Compensation Legal Enablement**
+
+### **Objective**
+
+Legalize the systems that allow contributions to be rewarded before monetary flows exist.
+
+### **Operational Actions**
+
+* Register **IncentiveCo** entity(ies).
+* Finalize **Deferred Compensation Policy** with legal counsel.
+* Validate tax compliance for DC Unit issuance and vesting structures.
+
+### **Result**
+
+Your estate and governance network now legally supports contributor rewards via Credits and DC Units.
+
+Status after June:
+📌 IncentiveCos filed
+📌 DC/legal policies articulated
+📌 Compliance path confirmed
+
+---
+
+## **July — Cooperative Templates & Client Formation SOPs**
+
+### **Objective**
+
+Prepare and standardize legal templates for client cooperatives.
+
+### **Operational Actions**
+
+* Produce **client coop organization templates** (Articles, Bylaws, Agreements).
+* Validate templates with legal counsel under cooperative law.
+* Define intake-to-formation workflow from client intake to entity filing.
+
+### **Result**
+
+The Estate becomes an *entity factory* ready to spin up client cooperatives with legal precision.
+
+Status after July:
+📌 Client coop templates ready
+📌 SOPs for legal formation ready
+
+---
+
+## **August — Client Cooperative Formation**
+
+### **Objective**
+
+Launch the first wave of client cooperatives.
+
+### **Operational Actions**
+
+* File legal entities for initial clients (e.g., Nandi Mobility Coop, Wolof.io Coop).
+* Register corresponding operating subsidiaries (OpCos, IPCos).
+* Assign member classes, governance bodies, and statutory officers.
+
+### **Result**
+
+Clients go from idea → legal entity → governance-ready organization, using Estate-sponsored templates.
+
+Status after August:
+📌 Client cooperatives live
+📌 Entity registries updated
+
+---
+
+## **September — Entity Lifecycle Management Activation**
+
+### **Objective**
+
+Transition from one-off entity filings to ongoing legal entity management.
+
+### **Operational Actions**
+
+* Establish an **Entity Management Registry** (with calendars, compliance flags).
+* File annual report reminders.
+* Archive charters, bylaws, officer lists.
+
+### **Result**
+
+Your Estate now runs an entity operations center that tracks filings, deadlines, officers, compliance, and audit logs.
+
+Status after September:
+📌 Registry active
+📌 Compliance workflows live
+
+---
+
+## **October — Governance Strengthening & Amendment Filings**
+
+### **Objective**
+
+Refine and strengthen entity governance documents based on live experience.
+
+### **Operational Actions**
+
+* File necessary amendments to charters & bylaws.
+* Formalize governance councils, committees, roles across entities.
+* Provide legal ratifications for actions taken earlier in the year.
+
+### **Result**
+
+Governance is strengthened with real-world experience, reducing risk and clarifying authority.
+
+Status after October:
+📌 Amendments filed
+📌 Council structures formal
+
+---
+
+## **November — Legal Audits & Risk Remediation**
+
+### **Objective**
+
+Confirm all formations, filings, and compliance meet legal expectations.
+
+### **Operational Actions**
+
+* Perform an internal legal audit of all entities.
+* Capture gaps or omissions.
+* Issue remediation directives and legal filings as needed.
+
+### **Result**
+
+Your entire legal ecosystem is verified to be compliant, well-documented, and defensible.
+
+Status after November:
+📌 Audit report delivered
+📌 Remediations executed
+
+---
+
+## **December — Annual Close, Reporting & Next Year Planning**
+
+### **Objective**
+
+Wrap up Year 1 legal work, file required annual reports, and plan Year 2 legal formations.
+
+### **Operational Actions**
+
+* File annual and periodic reports where required.
+* Renew licenses, qualified agent registrations.
+* Produce a Year 2 legal roadmap (client formation, platforms, territories).
+
+### **Result**
+
+Your Estate is legally healthy, compliant, and positioned for Year 2 expansion.
+
+Status after December:
+📌 All annual filings done
+📌 Legal roadmap for next year created
+
+---
+
+# 🧭 ESTATE-LEVEL SYSTEMS THAT DRIVE ALL OF THIS
+
+Your Estate functions not just through legal filings, but via **reusable systems and artifacts**:
+
+📌 **OGD (Organizational Genesis Document)** – your master blueprint
+📌 **Deferred Compensation Model** – contributor reward system
+📌 **Asset Registry** – ledger for equity, IP, and holdings
+📌 **Entity Management Registry** – tracks entities, filings, deadlines
+📌 **Governance OS** – digital tooling for councils, compliance, member classes
+📌 **Legal Templates Library** – reusable templates for all formations
+📌 **Compliance Checklists** – to avoid downstream risk
+
+Each month’s legal work *references these core systems* so nothing is isolated and everything is traceable.
+
+---
+
+# 🛡️ HOW THE ESTATE ENABLES EVERYTHING ELSE
+
+Your Estate operates as the **foundation and launchpad** for:
+
+✔ Personal Office
+✔ Family Estate
+✔ Ubuntuwa Commons & OVCS
+✔ Capital vehicles (FundCos, GPCos)
+✔ IncentiveCos
+✔ Client cooperatives & subsidiaries
+✔ Deferred compensation and governance tooling
+
+Because all downstream work flows from its charter, policies, and legal sponsorship, the Estate acts as the **genesis engine** for your entire ecosystem.
+
+---
+
+If you’d like, I can now generate **visual diagrams (Mermaid)**, **Gantt timelines**, **entity lineage maps**, or **legal filing checklists** to make this operational narrative even more actionable. Just tell me what format you want next!
+
+Absolutely — here’s an **operational narrative** expanded to include your **current core activities** (archive organization, outreach for the *Mungu Project*, blog posting for *Mungu* + *Meridian*, and your first-hires/Stewards search campaign), **embedded into Year 1 Estate operations**.
+
+This narrative shows *how everything you’re doing now* fits into your **Navigator Personal Estate (NPE) as the Genesis Engine**, how each activity advances the Organizational Genesis Document (OGD) and wider ecosystem, and how to sequence your time and milestones.
+
+---
+
+# 🔁 **Operational Narrative — Estate Activities + Current Workflows**
+
+This covers:
+
+1. **Estate artifact organization**
+2. **OGD creation workflow**
+3. **Outreach & story work (Mungu + Meridian)**
+4. **Search campaign for first hires + Stewards**
+5. **How these integrate with the Estate’s legal, governance, and ecosystem setup**
+
+---
+
+## 🧩 **1) Archive Organization — Pre-OGD Preparation (Ongoing + Priority)**
+
+### **Situation**
+
+Your personal archive holds decades of documents, writings, projects, IP, research (Mungu Project, Meridian Project, etc.), and work artifacts.
+Before the OGD can be drafted, these inputs need *structure, taxonomy, and linkage* to the Estate’s artifact model.
+
+### **Estate Operational Role**
+
+The Estate functions as the **primary registry and taxonomy engine** for all archival content.
+Archival organization is crucial because the **OGD references these artifacts as source material** for:
+
+* Identity & FMID
+* Organizational brief
+* Charter foundations
+* Programs (Mungu, Meridian, etc.)
+* IP holdings and asset registers
+
+---
+
+### **Operational Workflow — Archive to OGD**
+
+**Step A — Inventory & Scope**
+
+1. Gather all files and repo sources
+2. Tag by domain (IP, research, program, governance, personalOps)
+3. Capture metadata:
+
+   * Title
+   * Authors
+   * Dates
+   * Category
+   * Source project
+
+**Step B — Folder Taxonomy**
+Create a structure like:
+
+```
+Estate Archive/
+├── Governance/
+│   ├── Charter drafts
+│   └── Meeting notes
+├── Programs/
+│   ├── Mungu Project/
+│   └── Meridian Project/
+├── Writings/
+├── Music & Art/
+├── Software & Code/
+├── Legal/Entity Documents/
+└── PersonalOps/Finances/Taxes/
+```
+
+**Step C — Link to Registry**
+Record each artifact in the Estate’s **Asset / Artifact Registry** with references to its:
+
+* Relevant OGD section (e.g., FMID, programs)
+* Contribution roles
+* Version history
+
+---
+
+## 🧠 **2) OGD Production Workflow — Estate as Genesis Engine**
+
+### Estate Coordinates the OGD Drafting Sprint
+
+This must be scheduled as a **focused cycle of work**:
+
+**Phase 1 — Foundations**
+
+* Write FMID (Founding Manifesto & Intent Declaration)
+* Clarify mission, vision, values
+* Define member classes
+
+**Phase 2 — Asset Titles**
+
+* Profile the Estate (legal, strategic)
+* Tie archive artifacts to OGD sections
+
+**Phase 3 — Charter Skeleton**
+
+* Write Charter / Constitution drafts for Estate
+* Link out to Commons, OVCS, FundCos
+
+**Phase 4 — Policies**
+
+* Include DeferredComp + Credits Policy
+* Equity handling policies
+* Compliance & risk frameworks
+
+**Phase 5 — Appendices**
+
+* Glossaries
+* Entity tree
+* Program models (Mungu, Meridian, etc.)
+
+> The **OGD becomes the master artifact** that all legal formation, governance tooling, and ecosystem artifacts reference.
+
+---
+
+## 🌀 **3) Outreach & Narrative Work — Mungu, Meridian, and Your Public Voice**
+
+Your Estate has a *communication function* — because narrative is not separate from governance or legal formation. This is **story + research infrastructure** that makes the Estate’s mission accessible, attracts collaborators, and seeds the ecosystem’s intellectual lineage.
+
+### **Mungu Project Outreach**
+
+The Mungu Project is *institutional research work* that should be:
+
+* Mapped into Estate taxonomy
+* Linked to OGD program definitions (e.g., Section on Programs)
+* Tagged as a *foundational intellectual artifact*
+* Indexed for reference in governance and educational tooling
+
+**Outreach Workflow**
+
+1. Identify target researcher personas
+2. Publish a clear abstract + invitation email
+3. Leverage communities (academic, systems science, systemology)
+4. Record engagement outcomes in your CRM-like registry
+5. Route qualified conversations to Steward screening pipeline
+
+**Communication Channels**
+✔ Personal blog
+✔ Research communities / listservs
+✔ Social networks (scholarly / professional)
+✔ Conferences + symposiums
+✔ University partnerships
+
+---
+
+### **Blog Posting (Mungu + Meridian)**
+
+This work is dual-purpose:
+
+* Public narrative for ecosystem affinity
+* Source material for Estate’s knowledge base
+
+**Operational Tie-ins**
+
+* Each blog post becomes an artifact in the Estate archive
+* Posts are referenced in the OGD under Programs/Appendices
+* They feed content for community outreach and governance documentation
+
+**Suggested Cadence**
+
+* Mungu Project: weekly or bi-weekly posts
+* Meridian Project (metatheory/structural narratives): 2–4 per month
+
+---
+
+## 🧑‍🤝‍🧑 **4) Search Campaign — First Hires + Stewards**
+
+This is your **talent genesis cycle**, and it must be treated like a project with governance, outreach, screening, and offer flows.
+
+### Estates’ Role in Talent Campaign
+
+The Estate funds, authorizes, and tracks the first hires/Stewards via:
+
+* DeferredComp / Credits promises
+* Steward assignment
+* Role requirements tied to entity formations
+
+**Campaign Workflow (Operational)**
+
+**Step A — Define Role Definitions**
+Use OGD to define job duties, expectations, and compensation schema for:
+
+* CoS
+* COO
+* CFO
+* CLO
+* CGO
+* CTO
+* CCO
+* EA
+* Squad-Stewards
+
+**Step B — Talent Campaign Launch**
+
+1. Publish role briefs on estate website + strategic channels
+2. Outreach to networks (researchers, practitioners)
+3. Use gates:
+
+   * Resume/portfolio
+   * Essay or alignment reflection (ties to FMID)
+   * Reference checks
+   * Steward screening
+
+**Step C — Steward Qualification**
+Stewards must be:
+
+* Culturally aligned with FMID principles
+* Knowledgeable in governance, systems, operational domains
+* Able to contribute to Estate governance/OGD evolution
+
+**Step D — DeferredComp + Credits Offers**
+
+* Use **Deferred Compensation Legal Policy**
+* Issue Credits with schedules
+* Capture acceptance in governance OS
+
+---
+
+## 🔗 **5) How These Current Activities Sync with the Estate Roadmap**
+
+| Activity            | Estate Role                 | OGD Integration            | Milestone                     |
+| ------------------- | --------------------------- | -------------------------- | ----------------------------- |
+| Archive structuring | Source Asset Registry       | Appendix & references      | Structured artifact library   |
+| Mungu outreach      | Program & research feeder   | Program section            | Research contributor pipeline |
+| Blog narratives     | Narrative OS                | Asset Registry links       | Body of canonical content     |
+| Search campaign     | Talent & Steward onboarding | OGD + deferred comp schema | Core governance staffing      |
+
+---
+
+## ⚙️ **Operational Cadence: How to Timebox These Activities**
+
+You can treat your current work as **running quarters** inside Year 1:
+
+### **Quarter A — Foundation (Jan–Mar)**
+
+✔ Archive org → OGD draft begins
+✔ Outreach preps (Mungu, Meridian)
+✔ Talent briefs + campaign planning
+
+### **Quarter B — Formation (Apr–Jun)**
+
+✔ Legal entity formation continues
+✔ Outreach live, blog sprint
+✔ Steward and exec hiring + onboarding
+
+### **Quarter C — Scaling (Jul–Sep)**
+
+✔ System tooling + governance OS deployment
+✔ Client entity templates & formations
+✔ Continued research integration
+
+### **Quarter D — Consolidation (Oct–Dec)**
+
+✔ Compliance audits + refinement
+✔ Narrative consolidation + year-end reflections
+✔ Next year planning
+
+---
+
+## 🔎 **Practical Tools & Systems to Support You Now**
+
+To practically operationalize the above:
+
+📌 **Artifact Registry** — spreadsheet or database of all documents + meta tags
+📌 **Workflow Kanban** — tasks, statuses (Backlog → In Progress → Done)
+📌 **Candidate Tracker** — for hires + Stewards (CRM-like)
+📌 **Publication Calendar** — schedule blog + outreach posts
+📌 **Governance OS** — capture roles, approvals, meetings, artifacts
+
+---
+
+## 🧠 **Estate as Operating System — Essence**
+
+Your Estate is *both*:
+
+### 🛡 Legal shell
+
+* Holds assets
+* Sponsors entities
+* Ensures compliance
+
+### ⚙ Operational kernel
+
+* Houses your archive
+* Drives ecosystem creation
+* Produces canonical narrative artifacts
+* Funds human contribution + governance roles
+* Orchestrates outreach, staffing, client onboarding
+
+Everything you are doing right now — from blog posts and research outreach to person-first campaigns — is **not side work**. It is part of the **Estate’s operational genealogy** for building your ecosystem.
+
+---
+
+## 📌 Next Actionable Outputs (Pick One)
+
+I can now generate:
+
+1. **Talent Campaign Execution Plan** (roles + pipelines)
+2. **Blog Outreach Template + Editorial Calendar**
+3. **Archive Metadata Schema + Import Workflow**
+4. **Steward Qualification & Onboarding Checklist**
+5. **Governance OS Setup Guide**
+
+Just say which one you want next!
+
+Absolutely — here is **Month 1 (January)** of your **Estate-centric Year-1 Work Breakdown Structure (WBS)**. This table brings together *all of the work discussed so far* that makes your **Navigator Personal Estate (NPE)** the **genesis engine** for everything downstream — legal formation, OGD production, archive organization, outreach, hiring, governance scaffolding, and initial ecosystem enablement.
+
+We’ll continue this across 12 messages (one per month). Each item includes an ID, name, type, brief, start date, duration, and owner/team.
+
+---
+
+## 📅 **Month 1 — January** — Estate Setup, OGD Kickoff, Archive & Narrative Foundations
+
+| ID            | Name                                        | Type          | Brief                                                           | Start      | Dur | Owner / Team                |
+| ------------- | ------------------------------------------- | ------------- | --------------------------------------------------------------- | ---------- | --: | --------------------------- |
+| **W-EST1**    | Estate Foundational Roadmap                 | strategy      | All Year-1 estate activities to get operating as genesis engine | 2026-01-01 | 31d | Dominic / Estate Council    |
+| **M-EST1**    | January Strategy Delivery                   | event         | Monthly estate strategy review & alignment                      | 2026-01-02 |  1d | Dominic / Executive Squad   |
+| **P-EST001**  | Legal Formation Planning                    | plan          | Plan legal formation of NPE and estate legal framework          | 2026-01-02 | 10d | CLO / Legal Team            |
+| **TH-EST001** | NPE Jurisdiction & Structure Decision       | tactic        | Decide legal form & jurisdictions for NPE                       | 2026-01-02 |  5d | CLO / CFO                   |
+| **I-EST001**  | NPE Legal Strategy Approved                 | milestone     | Finalize legal plan for estate formation                        | 2026-01-12 |  1d | Estate Council              |
+| **E-EST001**  | Draft Estate Charter                        | epic          | Create draft charter document for NPE                           | 2026-01-02 | 15d | CLO / Governance Squad      |
+| **S-EST001**  | Estate Charter Template Draft               | documentation | Initial charter draft of governance rules                       | 2026-01-02 |  7d | CLO                         |
+| **S-EST002**  | Estate Charter Glossary                     | documentation | Terms & definitions for Charter                                 | 2026-01-10 |  5d | SupportAnalyst              |
+| **P-EST002**  | Archive Organization                        | plan          | Organize personal document archive for OGD sourcing             | 2026-01-02 | 20d | Ops Support / Archive Squad |
+| **TH-EST002** | Archive Taxonomy & Tagging                  | tactic        | Define archive folder structure & metadata                      | 2026-01-02 |  7d | Archive Specialist          |
+| **E-EST002**  | Asset & Artifact Registry Build             | epic          | Build Estate registry for all artifacts (docs/archives)         | 2026-01-09 | 15d | SupportAnalyst / DevOps     |
+| **S-EST003**  | Create Archive Metadata Schema              | documentation | Define schema for registrar (artifact tags, dates, links)       | 2026-01-09 |  5d | Archive Specialist          |
+| **S-EST004**  | Import Initial Documents                    | capability    | Seed registry with initial archival docs                        | 2026-01-16 | 10d | Archive Squad               |
+| **P-EST003**  | Organizational Genesis Document (OGD) Draft | plan          | Kickoff initial OGD core content                                | 2026-01-05 | 25d | Executive Squad / CLO       |
+| **TH-EST003** | FMID Drafting                               | tactic        | Draft Founding Manifesto & Intent Declaration                   | 2026-01-05 | 10d | Dominic / CLO               |
+| **TH-EST004** | Business Plan Drafting                      | tactic        | Draft initial estate business plan for OGD                      | 2026-01-05 | 10d | CFO / Dominic               |
+| **S-EST005**  | OGD Glossary + Definitions                  | documentation | Populate initial terms for OGD                                  | 2026-01-15 |  7d | SupportAnalyst              |
+| **P-EST004**  | Outreach & Narrative Work                   | plan          | Start blog + outreach for Mungu & Meridian                      | 2026-01-03 | 31d | CCO / Dominic               |
+| **TH-EST005** | Mungu Project Outreach                      | tactic        | Outreach to researchers + collaborators                         | 2026-01-03 | 25d | CCO / Outreach Squad        |
+| **S-EST006**  | Publish Mungu Blog Post #1                  | release       | First blog post on Mungu Project                                | 2026-01-07 |  1d | CCO                         |
+| **S-EST007**  | Publish Meridian Blog Post #1               | release       | First blog post on Meridian Project                             | 2026-01-10 |  1d | CCO                         |
+| **P-EST005**  | First Hires & Stewards Campaign Prep        | plan          | Begin search campaign design & role definitions                 | 2026-01-10 | 20d | CoS / HR                    |
+| **TH-EST006** | Define Steward & Exec Role Descriptions     | tactic        | Write briefs for 8 C-Suite + EA + Steward roles                 | 2026-01-10 |  7d | CoS / Dominic               |
+| **E-EST003**  | Hiring Pipeline Setup                       | epic          | Build candidate intake & screening pipeline                     | 2026-01-17 | 15d | HR Guild / SupportOps       |
+| **S-EST008**  | Publish Hiring Announcements                | documentation | Draft & post first outreach for recruits                        | 2026-01-20 |  3d | CoS / CCO                   |
+| **M-EST1B**   | January Strategy Planning                   | event         | Plan & prepare estate priorities for February                   | 2026-01-29 |  1d | Dominic / Executive Squad   |
+
+---
+
+### 📌 **Month 1 Goals**
+
+✔ Estate legal formation plan approved
+✔ Archive taxonomy & registry operational
+✔ Initial OGD content drafted (FMID + business plan + glossary)
+✔ Outreach comms initiated (Mungu + Meridian)
+✔ First hiring campaign seeded
+
+---
+
+When you’re ready, just say **“continue”** and I’ll generate **Month 2 (February)** in the same continuous table format.
+
+Here is **Month 2 (February)** of your **Estate-centric Year-1 WBS** — continuing the same unified table format. This month focuses on progressing legal formation, advancing the Organizational Genesis Document (OGD), continuing blog/outreach work, and launching your hiring campaign — all through the Estate as the **genesis engine** that enables the Ashe Cycle ecosystem, programs, and early organizational structures.
+
+---
+
+## 📅 **Month 2 — February — Legal Formation, OGD Progress, Hiring Launch & Narrative**
+
+| ID            | Name                                      | Type          | Brief                                                 | Start      | Dur | Owner / Team              |
+| ------------- | ----------------------------------------- | ------------- | ----------------------------------------------------- | ---------- | --: | ------------------------- |
+| **M-EST2**    | **February Strategy Delivery**            | event         | Monthly estate strategy review & alignment            | 2026-02-01 |  1d | Dominic / Executive Squad |
+| **P-EST006**  | NPE Legal Formation Execution             | plan          | File estate and establish legal standing + compliance | 2026-02-02 | 20d | CLO / Legal Team          |
+| **TH-EST007** | Submit NPE Legal Filing & EIN             | tactic        | Submit articles/trust formation + tax ID              | 2026-02-02 |  7d | CLO                       |
+| **I-EST002**  | NPE Legal Status Effective                | milestone     | Confirm issuance of estate legal status               | 2026-02-10 |  1d | CLO                       |
+| **E-EST004**  | Legal Document Organization               | epic          | Centralize legal doc set + registration certificates  | 2026-02-02 | 15d | Legal Admin / Ops         |
+| **S-EST009**  | Archive Legal Filings                     | documentation | Store legal docs into Estate Archive                  | 2026-02-02 |  5d | Legal Admin               |
+| **P-EST007**  | Personal Office (DESEF) Formation         | plan          | Establish your personal office entity                 | 2026-02-02 | 15d | CLO / CFO                 |
+| **TH-EST008** | File Personal Office Entity               | tactic        | Submit articles for DESEF & operating agreement       | 2026-02-02 |  7d | CLO                       |
+| **I-EST003**  | Personal Office Legal Recognition         | milestone     | Operating entity confirmed                            | 2026-02-10 |  1d | CFO                       |
+| **P-EST008**  | OGD Content Development — Legal & Charter | plan          | Continue fleshing OGD with legal structure            | 2026-02-02 | 25d | CLO / Governance          |
+| **TH-EST009** | Estate Charter Revision                   | tactic        | Revise charter with counsel feedback                  | 2026-02-02 | 12d | CLO                       |
+| **TH-EST010** | OGD Constitution Section Draft            | tactic        | Draft constitution article in OGD                     | 2026-02-10 | 10d | Governance Squad          |
+| **S-EST010**  | OGD Legal Sections Documentation          | documentation | Document legal sections in OGD                        | 2026-02-20 |  5d | SupportAnalyst            |
+| **P-EST009**  | Outreach & Narrative Continuation         | plan          | Continue blog + outreach for Mungu & Meridian         | 2026-02-01 | 28d | CCO / Outreach            |
+| **TH-EST011** | Mungu Project Blog Post #2                | release       | Second blog post advancing Mungu narrative            | 2026-02-05 |  1d | CCO                       |
+| **TH-EST012** | Meridian Project Blog Post #2             | release       | Second blog post advancing Meridian story             | 2026-02-10 |  1d | CCO                       |
+| **TH-EST013** | Outreach to Research Networks             | tactic        | Engage lists/communities for collaboration            | 2026-02-05 | 15d | Outreach Squad            |
+| **P-EST010**  | Hiring & Steward Pipeline Launch          | plan          | Open candidate intake + screening channels            | 2026-02-05 | 25d | CoS / HR Guild            |
+| **TH-EST014** | Publish Hiring Notices                    | tactic        | Post open roles for C-Suite + Stewards                | 2026-02-05 |  5d | CCO / CoS                 |
+| **TH-EST015** | Candidate Screening Framework             | tactic        | Define screening criteria + processes                 | 2026-02-10 |  8d | CoS / HR                  |
+| **E-EST005**  | Candidate Management Pipeline             | epic          | Build candidate database + tracking                   | 2026-02-10 | 18d | HR Guild                  |
+| **S-EST011**  | Initial Candidate Shortlist               | report        | First list of qualified candidates                    | 2026-02-25 |  1d | HR Guild                  |
+| **M-EST2B**   | **February Strategy Planning**            | event         | Plan estate priorities for March                      | 2026-02-28 |  1d | Dominic / Executive Squad |
+
+---
+
+### 📌 Month 2 Goals
+
+✔ Estate legal entity filed & recognized
+✔ Personal office entity legally established
+✔ Organizational Genesis Document (OGD) expanding with legal + charter content
+✔ Narrative outreach content continues + engagement underway
+✔ Hiring pipeline launched and initial candidates surfaced
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 3 (March)** in the same continuous table format.
+
+
+Here is **Month 3 (March)** of your **Estate-centric Year-1 WBS** — continuing the uninterrupted table format with **Estate operations as the kernel engine**. This month focuses on *completing key drafts, beginning family estate & commons coop legal formation prep, advancing outreach and hiring progress, and integrating archival materials into the OGD*.
+
+---
+
+## 📅 **Month 3 — March — Legal Formation Prep, OGD Buildout, Outreach & Candidate Screening**
+
+| ID            | Name                                     | Type          | Brief                                                | Start      | Dur | Owner / Team                   |
+| ------------- | ---------------------------------------- | ------------- | ---------------------------------------------------- | ---------- | --: | ------------------------------ |
+| **M-EST3**    | **March Strategy Delivery**              | event         | Monthly estate strategy delivery & alignment         | 2026-03-01 |  1d | Dominic / Executive Squad      |
+| **P-EST011**  | Family Estate Formation Prep             | plan          | Draft and prepare legal docs for Family Estate       | 2026-03-02 | 20d | CLO / Legal Team               |
+| **TH-EST016** | Family Estate Charter Draft              | tactic        | Draft governance & ownership rules for Family Estate | 2026-03-02 | 10d | CLO                            |
+| **TH-EST017** | Family Estate Operating Agreement Draft  | tactic        | Draft estate operating & succession docs             | 2026-03-12 |  8d | Legal Team                     |
+| **I-EST004**  | Family Estate Documents Ready for Filing | milestone     | Family Estate legal docs ready                       | 2026-03-20 |  1d | Estate Council                 |
+| **P-EST012**  | Ubuntuwa Commons Legal Framework         | plan          | Draft full charter & bylaws for Commons coop         | 2026-03-02 | 25d | CLO / Governance Squad         |
+| **TH-EST018** | Commons Member Class Rules               | tactic        | Define coop classes A–G in detail                    | 2026-03-02 | 10d | Governance Squad               |
+| **TH-EST019** | Commons Governance Structure Draft       | tactic        | Complete organizational design for Commons           | 2026-03-12 | 12d | Governance Squad               |
+| **S-EST012**  | Draft Ubuntuwa Commons Charter Content   | documentation | OGD Annex & Charter draft                            | 2026-03-22 |  7d | SupportAnalyst                 |
+| **P-EST013**  | OVCS Authority Legal Draft               | plan          | Prepare OVCS Authority charter & docs                | 2026-03-05 | 20d | CLO / Governance               |
+| **TH-EST020** | OVCS Delegated Authority Scope           | tactic        | Define legal authority envelope for OVCS             | 2026-03-05 | 10d | Governance                     |
+| **I-EST005**  | OVCS Authority Draft Complete            | milestone     | OVCS charter ready for review                        | 2026-03-15 |  1d | CLO / Gov Squad                |
+| **P-EST014**  | Archive to OGD Integration               | plan          | Integrate indexed artifacts into OGD                 | 2026-03-02 | 28d | Archive Squad / SupportAnalyst |
+| **TH-EST021** | Map Archive Artifacts to OGD Sections    | tactic        | Tag archival docs to OGD content areas               | 2026-03-02 | 10d | Archive Specialist             |
+| **E-EST006**  | OGD Narrative Build                      | epic          | Build narrative sections of OGD from artifacts       | 2026-03-12 | 20d | Dominic / CCO                  |
+| **S-EST013**  | OGD Narrative Draft                      | documentation | Draft narrative sections of OGD                      | 2026-03-12 | 10d | SupportAnalyst                 |
+| **P-EST015**  | Outreach & Narrative Ongoing             | plan          | Continue outreach + blog + research contact flow     | 2026-03-01 | 31d | CCO / Outreach                 |
+| **TH-EST022** | Publish Mungu Blog Post #3               | release       | Third narrative post on Mungu Project                | 2026-03-05 |  1d | CCO                            |
+| **TH-EST023** | Publish Meridian Blog Post #3            | release       | Third narrative post on Meridian Project             | 2026-03-10 |  1d | CCO                            |
+| **TH-EST024** | Connect with Research Partners           | tactic        | Follow-up engagements from prior outreach            | 2026-03-05 | 18d | Outreach Squad                 |
+| **P-EST016**  | Hiring & Steward Campaign Progress       | plan          | Candidate interviews + steward screening             | 2026-03-02 | 30d | CoS / HR Guild                 |
+| **TH-EST025** | Conduct Candidate Interviews             | tactic        | Interview shortlisted candidates                     | 2026-03-07 | 15d | CoS / Domain Leads             |
+| **TH-EST026** | Steward Assessment Sessions              | tactic        | Assess stewardship aptitude + alignment              | 2026-03-15 | 15d | Governance Squad / CoS         |
+| **I-EST006**  | First Steward Selections Confirmed       | milestone     | Steward cohort selected                              | 2026-03-27 |  1d | Executive Squad                |
+| **M-EST3B**   | **March Strategy Planning**              | event         | Plan estate priorities for April                     | 2026-03-29 |  1d | Dominic / Executive Squad      |
+
+---
+
+### 📌 **Month 3 Goals**
+
+✔ Family Estate documentation draft completed and ready for filing
+✔ Ubuntuwa Commons and OVCS Authority charters drafted for legal review
+✔ Archive artifacts mapped into OGD & narrative sections building
+✔ Outreach continues with follow-ups and blog cadence maintained
+✔ First steward selections confirmed
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 4 (April)** in the same continuous table format.
+Here is **Month 4 (April)** of your **Navigator Personal Estate (NPE) Year-1 WBS** — continuing the unified table with detailed work items. This month focuses on *legal filings of key entities*, *advanced OGD buildout*, *archival integration*, *hiring onboarding progression*, and *continuing narrative/outreach* — all through your Estate acting as the **genesis engine** for the Ashe Cycle ecosystem.
+
+---
+
+## 📅 **Month 4 — April — Legal Filings, Advanced OGD, Hiring Onboarding & Outreach**
+
+| ID            | Name                                | Type          | Brief                                         | Start      | Dur | Owner / Team                 |
+| ------------- | ----------------------------------- | ------------- | --------------------------------------------- | ---------- | --: | ---------------------------- |
+| **M-EST4**    | **April Strategy Delivery**         | event         | Monthly estate strategy delivery & alignment  | 2026-04-01 |  1d | Dominic / Executive Squad    |
+| **P-EST017**  | File Family Estate Entity           | plan          | Submit legal filings for Family Estate        | 2026-04-02 | 15d | CLO / Legal Team             |
+| **TH-EST027** | Family Estate Legal Filing          | tactic        | Submit articles + operating agreement         | 2026-04-02 |  7d | CLO                          |
+| **I-EST007**  | Family Estate Entity Registered     | milestone     | Family Estate officially registered           | 2026-04-10 |  1d | CLO                          |
+| **P-EST018**  | File Ubuntuwa Commons Cooperative   | plan          | Submit legal filings for Commons              | 2026-04-02 | 18d | CLO / Legal Team             |
+| **TH-EST028** | Ubuntuwa Commons Articles Filed     | tactic        | Submit articles and member class rules        | 2026-04-02 |  7d | CLO                          |
+| **TH-EST029** | Commons Bylaws Submission           | tactic        | File cooperative bylaws with authority        | 2026-04-10 |  8d | CLO                          |
+| **I-EST008**  | Ubuntuwa Commons Charter Registered | milestone     | Commons coop live/legal                       | 2026-04-18 |  1d | CLO                          |
+| **P-EST019**  | File OVCS Authority                 | plan          | Submit OVCS legal formation                   | 2026-04-05 | 15d | CLO / Governance             |
+| **TH-EST030** | OVCS Authority Articles Filed       | tactic        | Submit governing authority charter            | 2026-04-05 |  8d | CLO                          |
+| **I-EST009**  | OVCS Authority Legal Recognition    | milestone     | OVCS entity live                              | 2026-04-13 |  1d | CLO                          |
+| **P-EST020**  | OGD Advanced Draft Build            | plan          | Continue integration of narrative + structure | 2026-04-02 | 30d | Governance Squad / Executive |
+| **E-EST007**  | OGD Programs Section Build          | epic          | Build sections for Msingi programs            | 2026-04-02 | 22d | SupportAnalyst / Dominic     |
+| **TH-EST031** | Kano Program OGD Draft              | tactic        | Draft Kano program content                    | 2026-04-02 |  6d | SupportAnalyst               |
+| **TH-EST032** | Ndebe Program OGD Draft             | tactic        | Draft Ndebe program content                   | 2026-04-10 |  6d | SupportAnalyst               |
+| **S-EST014**  | OGD Programs Narrative              | documentation | Consolidated programs narrative               | 2026-04-18 |  5d | SupportAnalyst               |
+| **P-EST021**  | Archive Artifact Deep Mapping       | plan          | Complete mapping of archived docs to OGD      | 2026-04-02 | 28d | Archive Squad                |
+| **TH-EST033** | Tag Cooperative Templates           | tactic        | Tag coop legal + SOP templates in registry    | 2026-04-02 |  8d | Archive Specialist           |
+| **TH-EST034** | Tag Narrative Artifacts             | tactic        | Tag blogs, research notes for OGD links       | 2026-04-10 |  8d | Archive Specialist           |
+| **P-EST022**  | Outreach & Narrative Continuation   | plan          | Continue blog + research engagement           | 2026-04-01 | 30d | CCO / Outreach               |
+| **TH-EST035** | Publish Mungu Blog Post #4          | release       | Fourth Mungu narrative entry                  | 2026-04-05 |  1d | CCO                          |
+| **TH-EST036** | Publish Meridian Blog Post #4       | release       | Fourth Meridian narrative entry               | 2026-04-10 |  1d | CCO                          |
+| **TH-EST037** | Research Partner Outreach Follow-Up | tactic        | Continued outreach & relationship building    | 2026-04-05 | 18d | Outreach Squad               |
+| **P-EST023**  | Hiring & Steward Onboarding         | plan          | Onboard first hires + stewards                | 2026-04-02 | 30d | CoS / HR Guild               |
+| **TH-EST038** | Executive Onboarding Process        | tactic        | Formal onboarding for exec hires              | 2026-04-05 | 10d | CoS                          |
+| **TH-EST039** | Steward Induction & Orientation     | tactic        | Introduce stewards to governance norms        | 2026-04-10 | 10d | Governance Squad             |
+| **I-EST010**  | Core Team Onboarded                 | milestone     | All first hires + stewards onboarded          | 2026-04-20 |  1d | Executive Squad              |
+| **M-EST4B**   | **April Strategy Planning**         | event         | Plan estate priorities for May                | 2026-04-29 |  1d | Dominic / Executive Squad    |
+
+---
+
+### 📌 **Month 4 Goals**
+
+✔ Legal filings completed for Family Estate, Ubuntuwa Commons, and OVCS Authority
+✔ OGD expands with Programs/Msingi sections integrated
+✔ Archive artifacts mapped & linked in OGD
+✔ Narrative outreach (Mungu/Meridian) continues
+✔ First hires + stewards fully onboarded with orientation
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 5 (May)** in the same continuous table format.
+
+Here is **Month 5 (May)** of your **Estate-centric Year-1 WBS**, continuing the unified table with detailed work for your **Navigator Personal Estate (NPE)** as the genesis engine — progressing legal formation, OGD, archive integration, outreach, governance tooling, cooperative templates, and continuing hires & programs.
+
+---
+
+## 📅 **Month 5 — May — Capital Vehicles, Governance Tools & Cooperative Templates**
+
+| **ID**        | **Name**                                          | **Type**      | **Brief**                                            | **Start**  | **Dur** | **Owner / Team**     |
+| ------------- | ------------------------------------------------- | ------------- | ---------------------------------------------------- | ---------- | ------: | -------------------- |
+| **M-EST5**    | **May Strategy Delivery**                         | event         | Monthly estate strategy delivery & alignment         | 2026-05-01 |      1d | Dominic / Exec Squad |
+| **P-EST024**  | FundCo Capital Vehicle Legal Creation             | plan          | Form Zawadi & Mbali FundCo LPs + GP Manager entities | 2026-05-02 |     28d | CFO / CLO            |
+| **TH-EST040** | Draft Zawadi FundCo LP Docs                       | tactic        | Draft legal agreements governing Zawadi Fund         | 2026-05-02 |     10d | Legal Team           |
+| **TH-EST041** | Draft Mbali FundCo LP Docs                        | tactic        | Draft legal agreements governing Mbali Fund          | 2026-05-12 |     10d | Legal Team           |
+| **TH-EST042** | Form GP Manager Entities                          | tactic        | File GPCo entities & operating agreements            | 2026-05-22 |      8d | CLO / CFO            |
+| **I-EST011**  | FundCos & GP Entities Filed                       | milestone     | Confirm filings for FundCos & GPCos                  | 2026-05-30 |      1d | CFO                  |
+| **P-EST025**  | Deferred Compensation + Credit Legal Finalization | plan          | Finalize legal policy for DC Units + issuance        | 2026-05-02 |     25d | CLO / Estate Council |
+| **TH-EST043** | Legal Review – Deferred Compensation Policy       | tactic        | Review policy with tax & securities counsel          | 2026-05-02 |     10d | CLO                  |
+| **TH-EST044** | Consolidate DC + Credit Model into OGD            | tactic        | Integrate legal framework into master OGD            | 2026-05-12 |     12d | Governance Squad     |
+| **S-EST015**  | Signed DC Legal Policy Document                   | documentation | Final legal deferred comp policy                     | 2026-05-24 |      3d | SupportAnalyst       |
+| **P-EST026**  | Governance OS Spec & Initial Tooling              | plan          | Begin governance tooling requirements & design       | 2026-05-03 |     28d | CTO / GovDevLead     |
+| **TH-EST045** | Define Governance OS Functional Spec              | tactic        | Capture high-level platform spec                     | 2026-05-03 |     10d | CTO / Governance     |
+| **TH-EST046** | Identity + Member Class Schema                    | tactic        | Design data model for coop classes A–G               | 2026-05-13 |     12d | Governance Squad     |
+| **S-EST016**  | Governance OS Requirements Document               | documentation | Formal governance tooling spec                       | 2026-05-25 |      5d | SupportAnalyst       |
+| **P-EST027**  | Cooperative Template Legal Build                  | plan          | Build standardized coop formation templates          | 2026-05-05 |     25d | CLO / SupportOps     |
+| **TH-EST047** | Legal Templates — Articles & Bylaws               | tactic        | Draft generic Articles + bylaws templates            | 2026-05-05 |     12d | Legal Team           |
+| **TH-EST048** | Standard Operating Agreements                     | tactic        | Draft OpCo/IPCo/IncentiveCo agreements               | 2026-05-17 |     10d | Legal Team           |
+| **S-EST017**  | Cooperative Template Library                      | documentation | Publish template set in estate archive               | 2026-05-27 |      4d | Archive Squad        |
+| **P-EST028**  | Outreach & Narrative Continuation                 | plan          | Continue blog + research collaborations              | 2026-05-01 |     31d | CCO / Outreach       |
+| **TH-EST049** | Publish Mungu Blog Post #5                        | release       | Fifth narrative entry for Mungu                      | 2026-05-05 |      1d | CCO                  |
+| **TH-EST050** | Publish Meridian Blog Post #5                     | release       | Fifth narrative entry for Meridian                   | 2026-05-10 |      1d | CCO                  |
+| **TH-EST051** | Research Partner Webinar Planning                 | tactic        | Plan interactive session for collaborators           | 2026-05-05 |     15d | Outreach Squad       |
+| **P-EST029**  | Hiring & Steward Onboarding Continuation          | plan          | Ongoing onboarding + role enablement                 | 2026-05-02 |     30d | CoS / HR Guild       |
+| **TH-EST052** | Exec + Steward 90-Day Check-Ins                   | tactic        | Performance & alignment reviews                      | 2026-05-10 |     10d | CoS                  |
+| **TH-EST053** | Team Role Documentation                           | tactic        | Document roles, SOPs, onboarding flows               | 2026-05-20 |      8d | SupportOps           |
+| **I-EST012**  | Team Onboarding Completion Report                 | report        | Summary of onboarding outcomes                       | 2026-05-29 |      1d | CoS / HR Guild       |
+| **M-EST5B**   | **May Strategy Planning**                         | event         | Plan estate priorities for June                      | 2026-05-29 |      1d | Dominic / Exec Squad |
+
+---
+
+### 📌 **Month 5 Goals**
+
+✔ Capital vehicles (FundCo LPs & GPCos) legally formed
+✔ Deferred compensation + credits legal framework finalized & in OGD
+✔ Governance OS requirements initiated with member class schemas
+✔ Coop formation template library built
+✔ Narrative outreach continues with next posts & research webinar planning
+✔ Team onboarding reviewed and documented
+
+---
+
+When you’re ready, say **“continue”** and I’ll generate **Month 6 (June)** in the same continuous table format.
+
+
+Here is **Month 6 (June)** of your **Estate-centric Year-1 WBS**, continuing the single continuous table format with detailed work items tied to your **Navigator Personal Estate (NPE)** as the genesis engine for the Ashe Cycle ecosystem.
+
+This month focuses on **performance insights and scaling legal & governance infrastructure, integration of tooling, client coop design standards, and narrative consolidation**.
+
+---
+
+## 📅 **Month 6 — June — Performance + Legal Resonance, Tooling Expansion, Cooperative Standards**
+
+| **ID**        | **Name**                                    | **Type**      | **Brief**                                                    | **Start**  | **Dur** | **Owner / Team**          |
+| ------------- | ------------------------------------------- | ------------- | ------------------------------------------------------------ | ---------- | ------: | ------------------------- |
+| **M-EST6**    | **June Strategy Delivery**                  | event         | Monthly estate strategy delivery & alignment                 | 2026-06-01 |      1d | Dominic / Exec Squad      |
+| **P-EST030**  | Governance OS Prototype                     | plan          | Begin building first prototype version of governance tooling | 2026-06-02 |     30d | CTO / GovDevLead          |
+| **TH-EST054** | Data Schema Implementation                  | tactic        | Implement identity & membership class schema in tooling      | 2026-06-02 |     12d | CTO / Data Squad          |
+| **TH-EST055** | Governance Workflows Automation             | tactic        | Automate council, compliance, and audit workflows            | 2026-06-14 |     14d | DevOps / Governance Squad |
+| **S-EST018**  | Governance OS Alpha Release                 | release       | First release of governance tooling prototype                | 2026-06-28 |      1d | CTO / SupportOps          |
+| **P-EST031**  | Cooperative Formation Standards             | plan          | Define standard legal & operational coop design patterns     | 2026-06-02 |     25d | Governance Squad / Legal  |
+| **TH-EST056** | Standard Coop Entity Archetype              | tactic        | Establish cooperative archetypes & best practices            | 2026-06-02 |     10d | Legal / SupportOps        |
+| **TH-EST057** | Elective Governance Modules                 | tactic        | Build flexible governance module templates                   | 2026-06-12 |     12d | Governance Squad          |
+| **S-EST019**  | Cooperative Standards Manual                | documentation | Publish standards for coop formation & governance            | 2026-06-24 |      5d | SupportAnalyst            |
+| **P-EST032**  | Archive → OGD Deep Completion               | plan          | Finalize integration of archival artifacts into OGD          | 2026-06-02 |     28d | Archive Squad             |
+| **TH-EST058** | Map Legal Templates to OGD                  | tactic        | Connect Articles, Bylaws templates to OGD sections           | 2026-06-02 |     10d | Archive Specialist        |
+| **TH-EST059** | Tag Research + Narrative Corpus             | tactic        | Ensure all Mungu/Meridian research posts are in OGD          | 2026-06-12 |     10d | Archive Squad             |
+| **E-EST008**  | OGD Integration Synthesis                   | epic          | Merge all sections into a cohesive OGD draft                 | 2026-06-12 |     20d | Dominic / SupportAnalyst  |
+| **S-EST020**  | Versioned OGD Draft v0.6                    | documentation | Publish mid-year OGD draft                                   | 2026-06-28 |      5d | SupportAnalyst            |
+| **P-EST033**  | Client Pre-Intake Templates                 | plan          | Design intake templates for client onboarding                | 2026-06-02 |     25d | SupportOps / Governance   |
+| **TH-EST060** | Client Coops Intake Form                    | tactic        | Build legal & governance intake form                         | 2026-06-02 |      6d | SupportOps                |
+| **TH-EST061** | Client Intake SOP Draft                     | tactic        | Draft SOP for intake + readiness assessment                  | 2026-06-08 |     10d | SupportAnalyst            |
+| **S-EST021**  | Client Intake Docs Archive                  | documentation | Publish intake templates to registry                         | 2026-06-20 |      4d | Archive Squad             |
+| **P-EST034**  | Outreach & Narrative Continuation           | plan          | Continue narrative, research edge engagements                | 2026-06-01 |     30d | CCO / Outreach            |
+| **TH-EST062** | Publish Mungu Blog Post #6                  | release       | Sixth narrative entry for Mungu Project                      | 2026-06-05 |      1d | CCO                       |
+| **TH-EST063** | Publish Meridian Blog Post #6               | release       | Sixth narrative entry for Meridian Project                   | 2026-06-10 |      1d | CCO                       |
+| **TH-EST064** | Research Collaboration Follow-Up            | tactic        | Consolidate any researcher commitments                       | 2026-06-05 |     20d | Outreach Squad            |
+| **P-EST035**  | Hiring Campaign Evaluation & Prioritization | plan          | Review hiring progress, forecast 2nd round                   | 2026-06-02 |     20d | CoS / HR Guild            |
+| **TH-EST065** | Candidate Pipeline Review                   | tactic        | Evaluate candidate pool & fit                                | 2026-06-02 |      8d | HR Guild                  |
+| **TH-EST066** | Steward Role Refinement                     | tactic        | Update steward role definitions & paths                      | 2026-06-12 |     10d | Governance / CoS          |
+| **I-EST013**  | Mid-Year Hiring & Steward Evaluation        | milestone     | Report on hiring status & roadmap                            | 2026-06-25 |      1d | CoS / HR Guild            |
+| **M-EST6B**   | **June Strategy Planning**                  | event         | Plan estate priorities for July                              | 2026-06-29 |      1d | Dominic / Exec Squad      |
+
+---
+
+### 📌 **Month 6 Goals**
+
+✔ **Governance OS prototype launched (alpha)**
+✔ **Standard cooperative legal & governance templates defined**
+✔ **Organizational Genesis Document (OGD) mid-year draft published**
+✔ **Client intake templates & SOPs initiated**
+✔ **Narrative outreach continued + mapping research artifacts**
+✔ **Hiring pipeline evaluated and steward roles refined**
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 7 (July)** in the same continuous table format.
+
+Here is **Month 7 (July)** of your **Estate-centric Year-1 Work Breakdown Structure (WBS)**, continuing the uninterrupted table format with detailed work items linked to your **Navigator Personal Estate (NPE)** as the genesis engine for the Ashe Cycle ecosystem.
+
+**July** focuses on **platform MVP enablement**, **venture support scaffold development**, **legal and governance reinforcement**, **client coop readiness**, **continuing outreach**, and **staff scaling**.
+
+---
+
+## 📅 **Month 7 — July — Platform MVPs, Venture Support, Legal & Governance Reinforcement**
+
+| **ID**        | **Name**                                | **Type**      | **Brief**                                                                           | **Start**  | **Dur** | **Owner / Team**              |
+| ------------- | --------------------------------------- | ------------- | ----------------------------------------------------------------------------------- | ---------- | ------: | ----------------------------- |
+| **M-EST7**    | **July Strategy Delivery**              | event         | Monthly estate strategy delivery & alignment                                        | 2026-07-01 |      1d | Dominic / Exec Squad          |
+| **P-EST036**  | Platform MVP Legal & Governance Support | plan          | Provide legal + governance support for early ventures’ MVPs (e.g., Wolof.io & Kogi) | 2026-07-02 |     30d | Legal Team / Governance Squad |
+| **TH-EST067** | Venture IP & Equity Structuring         | tactic        | Draft and file legal IP and equity structures for venture portfolios                | 2026-07-02 |     10d | Legal Team                    |
+| **TH-EST068** | Venture Governance Contracts            | tactic        | Put in place governance agreements for early ventures                               | 2026-07-12 |     12d | Governance Squad              |
+| **I-EST014**  | Platform MVP Legal Readiness Completed  | milestone     | All legal governance for MVP ventures finalized                                     | 2026-07-24 |      1d | CLO                           |
+| **P-EST037**  | Cooperative Client Launch Readiness     | plan          | Prepare cooperative client operational stacks (Nandi, Wolof.io, Dogon, etc.)        | 2026-07-02 |     28d | SupportOps / Governance       |
+| **TH-EST069** | Client Coop Legal Filing Prep           | tactic        | Package all client coop filings from templates                                      | 2026-07-02 |     10d | Legal Admin                   |
+| **TH-EST070** | Client Governance Setup                 | tactic        | Assign councils, boards, stewards per class (A–G)                                   | 2026-07-12 |     12d | Governance Squad              |
+| **S-EST022**  | Client Launch SOP                       | documentation | Publish comprehensive SOP for launching client coops                                | 2026-07-24 |      5d | SupportAnalyst                |
+| **P-EST038**  | Governance OS Beta Iteration            | plan          | Enhance governance tooling with client onboarding workflows                         | 2026-07-03 |     28d | CTO / GovDev Team             |
+| **TH-EST071** | Feedback Loop & Feature Adjustments     | tactic        | Incorporate pilot feedback into OS                                                  | 2026-07-03 |     12d | DevOps / Governance Squad     |
+| **TH-EST072** | Security & Compliance Audit             | tactic        | Tech compliance testing for governance tooling                                      | 2026-07-15 |      8d | DevOps                        |
+| **S-EST023**  | Governance OS Beta Release              | release       | Publish a beta governance OS to pilot clients                                       | 2026-07-26 |      1d | CTO                           |
+| **P-EST039**  | Outreach & Narrative Continuation       | plan          | Sustain narrative work + community partner engagement                               | 2026-07-01 |     31d | CCO / Outreach                |
+| **TH-EST073** | Publish Mungu Blog #7                   | release       | Seventh narrative entry                                                             | 2026-07-05 |      1d | CCO                           |
+| **TH-EST074** | Publish Meridian Blog #7                | release       | Seventh content deployment                                                          | 2026-07-10 |      1d | CCO                           |
+| **TH-EST075** | Community Engagement Webinars           | tactic        | Host sessions with early adopter communities                                        | 2026-07-05 |     18d | Outreach Squad                |
+| **P-EST040**  | Hiring & Team Scaling                   | plan          | Prepare second wave hiring & support team growth                                    | 2026-07-02 |     28d | CoS / HR Guild                |
+| **TH-EST076** | Skills & Competency Gap Assessment      | tactic        | Identify skills gaps for scale operations                                           | 2026-07-02 |      8d | HR Guild                      |
+| **TH-EST077** | Second Wave Role Definitions            | tactic        | Write briefs for new operations roles                                               | 2026-07-10 |     10d | CoS                           |
+| **I-EST015**  | Second Wave Hiring Plan Finalized       | milestone     | Final roles + recruitment plan approved                                             | 2026-07-24 |      1d | CoS                           |
+| **M-EST7B**   | **July Strategy Planning**              | event         | Plan estate priorities for August                                                   | 2026-07-29 |      1d | Dominic / Exec Squad          |
+
+---
+
+### 📌 **Month 7 Goals**
+
+✔ Legal and governance infrastructure for early platform MVP ventures is completed
+✔ Client cooperative launch stacks ready with governance assignments
+✔ Governance OS beta evolves with pilot feedback and compliant release
+✔ Outreach narrative continues; community engagement strengthens
+✔ Second wave hiring plan created for growing operations
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 8 (August)** in the same table format.
+
+Below is **Month 8 (August)** of your **Estate-centric Year-1 WBS**, continuing your uninterrupted table with detailed work items tied to the **Navigator Personal Estate (NPE)** as the genesis engine for the Ashe Cycle ecosystem.
+
+**August** focuses on **rolling out client cooperative filings, governance tooling stabilization, platform adoption, narrative integration, and ongoing hiring & operations scaling**.
+
+---
+
+## 📅 **Month 8 — August — Client Filings, Governance Adoption & Operational Maturity**
+
+| **ID**        | **Name**                                  | **Type**      | **Brief**                                                 | **Start**  | **Dur** | **Owner / Team**           |
+| ------------- | ----------------------------------------- | ------------- | --------------------------------------------------------- | ---------- | ------: | -------------------------- |
+| **M-EST8**    | **August Strategy Delivery**              | event         | Monthly estate strategy delivery & alignment              | 2026-08-01 |      1d | Dominic / Exec Squad       |
+| **P-EST041**  | Client Cooperative Legal Filings          | plan          | File legal entities for 1st cohort of client cooperatives | 2026-08-02 |     28d | Legal Team                 |
+| **TH-EST078** | File Nandi Coop Articles & Bylaws         | tactic        | Submit docs for Nandi Mobility Coop                       | 2026-08-02 |      7d | Legal Admin                |
+| **TH-EST079** | File Wolof.io Coop Articles & Bylaws      | tactic        | Submit docs for Wolof.io Coop                             | 2026-08-10 |      7d | Legal Admin                |
+| **TH-EST080** | File Dogon Coop Articles & Bylaws         | tactic        | Submit docs for Dogon Manufacturing Coop                  | 2026-08-18 |      7d | Legal Admin                |
+| **I-EST016**  | Client Coop Registrations Completed       | milestone     | Client cooperatives legally recognized                    | 2026-08-26 |      1d | CLO / CFO                  |
+| **P-EST042**  | Governance OS Adoption & Stabilization    | plan          | Support client onboarding & governance tooling adoption   | 2026-08-02 |     30d | CTO / GovDev Team          |
+| **TH-EST081** | Onboard Clients to Governance OS          | tactic        | Configure governance OS for new clients                   | 2026-08-02 |     10d | DevOps / SupportOps        |
+| **TH-EST082** | Integration Testing with Client Workflows | tactic        | Validate governance workflows with real data              | 2026-08-14 |     12d | Quality / Governance Squad |
+| **S-EST024**  | Updated Governance OS Docs                | documentation | Publish updated docs for client use                       | 2026-08-26 |      4d | SupportAnalyst             |
+| **P-EST043**  | Cooperative Operations Enablement         | plan          | Prepare operations support for live client coops          | 2026-08-02 |     28d | SupportOps / COO           |
+| **TH-EST083** | Client Onboarding Training                | tactic        | Train client boards, councils, operators                  | 2026-08-04 |     10d | SupportOps / Governance    |
+| **TH-EST084** | Launch Client Support Channels            | tactic        | Set up help desk, workflows & support reps                | 2026-08-14 |     12d | SupportOps                 |
+| **S-EST025**  | Client Onboarding Playbooks               | documentation | Publish SOPs for client onboarding & ops                  | 2026-08-26 |      4d | SupportAnalyst             |
+| **P-EST044**  | Outreach & Narrative Continuation         | plan          | Sustain narrative + community engagement                  | 2026-08-01 |     31d | CCO / Outreach             |
+| **TH-EST085** | Publish Mungu Blog #8                     | release       | Eighth narrative entry for Mungu Project                  | 2026-08-05 |      1d | CCO                        |
+| **TH-EST086** | Publish Meridian Blog #8                  | release       | Eighth narrative entry for Meridian Project               | 2026-08-10 |      1d | CCO                        |
+| **TH-EST087** | Community Roundtable Events               | tactic        | Webinars & forums with cooperative partners               | 2026-08-05 |     15d | Outreach Squad             |
+| **P-EST045**  | Hiring & Team Expansion                   | plan          | Execute second wave hiring + operational staffing         | 2026-08-02 |     28d | CoS / HR Guild             |
+| **TH-EST088** | Interview Second Wave Candidates          | tactic        | Conduct interviews for expanded roles                     | 2026-08-02 |     10d | HR Guild                   |
+| **TH-EST089** | Onboard New Hires                         | tactic        | Bring new operational hires onboard                       | 2026-08-14 |     10d | HR Guild                   |
+| **I-EST017**  | Second Wave Hires Onboarded               | milestone     | New hires integrated into estate & client support         | 2026-08-26 |      1d | CoS / COO                  |
+| **M-EST8B**   | **August Strategy Planning**              | event         | Plan estate priorities for September                      | 2026-08-29 |      1d | Dominic / Executive Squad  |
+
+---
+
+### 📌 **Month 8 Goals**
+
+✔ Legal filings completed for first client cooperatives (Nandi, Wolof.io, Dogon)
+✔ Governance OS configured and stabilized for client use
+✔ Client onboarding training + ops playbooks delivered
+✔ Ongoing outreach and community dialogues continue
+✔ Second wave of hires interviewed and onboarded
+
+---
+
+When you’re ready, say **“continue”** and I’ll generate **Month 9 (September)** in the same continuous table format.
+Here is **Month 9 (September)** of your **Estate-centric Year-1 WBS**, continuing the uninterrupted table with detailed work for your **Navigator Personal Estate (NPE)** as the genesis engine for the Ashe Cycle ecosystem.
+
+**September** focuses on **adoption acceleration, equity tools, analytics, legal compliance continuation, narrative consolidation, and governance maturity tracking**.
+
+---
+
+## 📅 **Month 9 — September — Adoption & Equity Tools, Compliance, Analytics**
+
+| **ID**        | **Name**                             | **Type**      | **Brief**                                             | **Start**  | **Dur** | **Owner / Team**              |
+| ------------- | ------------------------------------ | ------------- | ----------------------------------------------------- | ---------- | ------: | ----------------------------- |
+| **M-EST9**    | **September Strategy Delivery**      | event         | Monthly estate strategy delivery & alignment          | 2026-09-01 |      1d | Dominic / Exec Squad          |
+| **P-EST046**  | Client Adoption Acceleration         | plan          | Drive deeper adoption of governance OS + coop tooling | 2026-09-02 |     30d | COO / SupportOps              |
+| **TH-EST090** | Governance OS Adoption Workshops     | tactic        | Conduct workshops for client councils & boards        | 2026-09-02 |     12d | SupportOps / Governance Squad |
+| **TH-EST091** | Client Engagement Metrics Dashboards | tactic        | Build dashboards to visualize adoption trends         | 2026-09-14 |     12d | Analytics / DevOps            |
+| **S-EST026**  | Adoption Acceleration Report         | report        | Report on adoption KPIs & next steps                  | 2026-09-28 |      3d | Analytics                     |
+| **P-EST047**  | Equity Issuance & Incentive Tools    | plan          | Roll out DC Units -> equity tooling & policies        | 2026-09-02 |     28d | CFO / CTO / Legal             |
+| **TH-EST092** | DC → Equity Conversion Tools Build   | tactic        | Build tooling for DC Unit conversion workflow         | 2026-09-02 |     15d | CTO / DevOps                  |
+| **TH-EST093** | Equity Rights Assignment Process     | tactic        | Define legal & procedural steps for rights            | 2026-09-17 |     10d | Legal / Governance            |
+| **S-EST027**  | Equity Conversion Playbook           | documentation | Publish playbook for DC Unit conversions              | 2026-09-27 |      3d | SupportAnalyst                |
+| **P-EST048**  | Compliance & Audit Continuation      | plan          | Ongoing legal & governance compliance checks          | 2026-09-02 |     30d | CLO / Governance Squad        |
+| **TH-EST094** | Entity Compliance Reviews            | tactic        | Review all estate & client filings for compliance     | 2026-09-02 |     12d | Legal Team                    |
+| **TH-EST095** | Governance RFC & Audit Reports       | tactic        | Create reports for audit findings & fixes             | 2026-09-15 |     12d | Governance Squad              |
+| **S-EST028**  | Mid-Year Legal Compliance Summary    | report        | Publish legal compliance dashboard                    | 2026-09-28 |      3d | SupportAnalyst                |
+| **P-EST049**  | Analytics & Performance Insights     | plan          | Build analytical dashboards & forecasting             | 2026-09-02 |     30d | Analytics / CTO               |
+| **TH-EST096** | Governance Analytics Build           | tactic        | Build analytics for councils, members, trend          | 2026-09-02 |     15d | Analytics Squad               |
+| **TH-EST097** | Financial & Capital Analytics        | tactic        | Dashboards for capital flows & equity                 | 2026-09-17 |     10d | Analytics                     |
+| **S-EST029**  | Analytics Dashboard Products         | documentation | Publish analytics dashboards                          | 2026-09-28 |      3d | SupportAnalyst                |
+| **P-EST050**  | Outreach & Narrative Continuation    | plan          | Continue narrative + community engagement             | 2026-09-01 |     30d | CCO / Outreach                |
+| **TH-EST098** | Publish Mungu Blog #9                | release       | Ninth narrative entry                                 | 2026-09-05 |      1d | CCO                           |
+| **TH-EST099** | Publish Meridian Blog #9             | release       | Ninth narrative entry                                 | 2026-09-10 |      1d | CCO                           |
+| **TH-EST100** | Community AMA / Panel                | tactic        | Host “Ask Me Anything” event                          | 2026-09-05 |     10d | Outreach Squad                |
+| **P-EST051**  | Hiring & Organizational Maturity     | plan          | Staff evolution and organizational refinement         | 2026-09-02 |     28d | CoS / HR Guild                |
+| **TH-EST101** | Role Efficiency Assessments          | tactic        | Evaluate current roles for scale                      | 2026-09-02 |     10d | HR Guild                      |
+| **TH-EST102** | Team Structures Update               | tactic        | Refresh team responsibilities documentation           | 2026-09-14 |     10d | CoS / SupportOps              |
+| **I-EST018**  | Organizational Health Review Report  | report        | Publish review of team performance                    | 2026-09-28 |      3d | SupportAnalyst                |
+| **M-EST9B**   | **September Strategy Planning**      | event         | Plan estate priorities for October                    | 2026-09-29 |      1d | Dominic / Exec Squad          |
+
+---
+
+### 📌 **Month 9 Goals**
+
+✔ Adoption acceleration workshops & dashboards delivered
+✔ DC → Equity tooling developed & procedural playbooks published
+✔ Legal/compliance audits completed and reported
+✔ Analytics dashboards for governance and capital delivered
+✔ Narrative outreach and community events executed
+✔ Organizational health reviews completed
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 10 (October)** in the same continuous table format.
+Here is **Month 10 (October)** of your **Estate-centric Year 1 WBS**, continuing the ongoing single continuous table with detailed work items tied to your **Navigator Personal Estate (NPE)** as the **genesis engine** for the Ashe Cycle ecosystem.
+
+**October** focuses on **premium features, community summit, revenue/legal policy expansions, deeper analytics, and operational automation** — continuing to build resilience and scale.
+
+---
+
+## 📅 **Month 10 — October — Premium Features & Community Summit, Operational Levers**
+
+| **ID**        | **Name**                                      | **Type**      | **Brief**                                                               | **Start**  | **Dur** | **Owner / Team**     |
+| ------------- | --------------------------------------------- | ------------- | ----------------------------------------------------------------------- | ---------- | ------: | -------------------- |
+| **M-EST10**   | **October Strategy Delivery**                 | event         | Monthly estate strategy delivery & alignment                            | 2026-10-01 |      1d | Dominic / Exec Squad |
+| **P-EST052**  | Governance OS Premium Features                | plan          | Build advanced features (analytics improvements + workflow automations) | 2026-10-02 |     30d | CTO / GovDev Team    |
+| **TH-EST103** | Workflow Auto Actionables                     | tactic        | Implement automation for recurring compliance tasks                     | 2026-10-02 |     12d | DevOps               |
+| **TH-EST104** | Advanced Role/Permission Controls             | tactic        | Add enterprise-grade RBAC & delegation logic                            | 2026-10-16 |     10d | DevOps / Governance  |
+| **S-EST030**  | Release Governance OS v1.1                    | release       | Publish premium tooling updates                                         | 2026-10-29 |      1d | CTO / SupportOps     |
+| **P-EST053**  | **UCGP Summit Planning & Execution**          | plan          | Prepare and host the first Ubuntuwa Commons Summit                      | 2026-10-02 |     30d | CCO / Outreach       |
+| **TH-EST105** | Summit Agenda & Speakers                      | tactic        | Define strategic summit content & participants                          | 2026-10-02 |     10d | CCO                  |
+| **TH-EST106** | Summit Logistics & Tech Ops                   | tactic        | Set up platforms + coordination                                         | 2026-10-12 |     12d | SupportOps           |
+| **I-EST019**  | Ubuntuwa Commons Summit Delivered             | milestone     | Run Summit with partners & clients                                      | 2026-10-26 |      1d | CCO                  |
+| **P-EST054**  | Revenue, Capital, & Legal Policy Enhancements | plan          | Expand legal contracts and revenue path frameworks                      | 2026-10-02 |     28d | CLO / CFO            |
+| **TH-EST107** | Revenue Sharing Policy Draft                  | tactic        | Draft revenue share/legal frameworks                                    | 2026-10-02 |     10d | Legal Team           |
+| **TH-EST108** | Cooperative Capital Allocation Rules          | tactic        | Define legal capital distribution constructs                            | 2026-10-12 |     10d | Legal / Finance      |
+| **S-EST031**  | Publish Revenue & Capital Policies            | documentation | Formalize policies in Estate Archive                                    | 2026-10-24 |      4d | SupportAnalyst       |
+| **P-EST055**  | Cooperative Impact Dashboards                 | plan          | Expand analytics for coop & venture health                              | 2026-10-02 |     28d | Analytics / Tech     |
+| **TH-EST109** | Governance + Capital KPIs                     | tactic        | Identify & implement key performance indicators                         | 2026-10-02 |     10d | Analytics            |
+| **TH-EST110** | Client Health Monitoring                      | tactic        | Build live dashboards for coop metrics                                  | 2026-10-12 |     10d | Analytics            |
+| **S-EST032**  | Publish Impact Dashboards                     | documentation | Release key dashboards to stakeholders                                  | 2026-10-26 |      4d | SupportAnalyst       |
+| **P-EST056**  | Outreach & Narrative Continuation             | plan          | Sustain narrative + community engagement                                | 2026-10-01 |     31d | CCO / Outreach       |
+| **TH-EST111** | Publish Mungu Blog #10                        | release       | Tenth narrative entry for Mungu Project                                 | 2026-10-05 |      1d | CCO                  |
+| **TH-EST112** | Publish Meridian Blog #10                     | release       | Tenth narrative entry for Meridian Project                              | 2026-10-10 |      1d | CCO                  |
+| **TH-EST113** | Summit Recap Content Series                   | tactic        | Publish recap blogs & videos                                            | 2026-10-26 |     10d | CCO                  |
+| **P-EST057**  | Hiring & Ops Automation                       | plan          | Automate onboarding and role transitions                                | 2026-10-02 |     28d | CoS / DevOps         |
+| **TH-EST114** | Onboarding Automation Build                   | tactic        | Build automated workflows for new hires                                 | 2026-10-02 |     12d | DevOps               |
+| **TH-EST115** | Role Lifecycle Automation                     | tactic        | Implement role assignment lifecycle tooling                             | 2026-10-14 |     10d | DevOps / SupportOps  |
+| **I-EST020**  | Automation Tools Live                         | milestone     | Automations deployed for onboarding + roles                             | 2026-10-26 |      1d | CoS / DevOps         |
+| **M-EST10B**  | **October Strategy Planning**                 | event         | Plan estate priorities for November                                     | 2026-10-29 |      1d | Dominic / Exec Squad |
+
+---
+
+### 📌 **Month 10 Goals**
+
+✔ Governance OS premium features delivered
+✔ Ubuntuwa Commons Summit executed with partners & clients
+✔ Revenue & capital legal policies enhanced and published
+✔ Expanded impact dashboards released
+✔ Narrative content continues; Summit recap published
+✔ Team onboarding & role automations deployed
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 11 (November)** in the same continuous table format.
+Here is **Month 11 (November)** of your **Estate-centric Year-1 WBS**, continuing the single continuous table format with detailed work items tied to your **Navigator Personal Estate (NPE)** as the genesis engine for the Ashe Cycle ecosystem.
+
+**November** focuses on **year-end compliance, retention, reflection, risk remediation, and preparation for Year 2 execution**.
+
+---
+
+## 📅 **Month 11 — November — Retention, Legal Compliance & Year-End Wrap**
+
+| **ID**        | **Name**                               | **Type**      | **Brief**                                                  | **Start**  | **Dur** | **Owner / Team**        |
+| ------------- | -------------------------------------- | ------------- | ---------------------------------------------------------- | ---------- | ------: | ----------------------- |
+| **M-EST11**   | **November Strategy Delivery**         | event         | Monthly estate strategy delivery & alignment               | 2026-11-01 |      1d | Dominic / Exec Squad    |
+| **P-EST058**  | Year-End Legal Compliance Review       | plan          | Conduct comprehensive legal & entity compliance audit      | 2026-11-02 |     25d | CLO / Legal Team        |
+| **TH-EST116** | Entity Filings & Status Check          | tactic        | Verify all entity filings, registrations & renewals        | 2026-11-02 |     10d | Legal Admin             |
+| **TH-EST117** | Policy Compliance Verification         | tactic        | Verify published legal/regulatory policies are followed    | 2026-11-14 |     10d | Governance Squad        |
+| **S-EST033**  | Compliance Remediation Summary         | report        | Document issues & remediation outcomes                     | 2026-11-27 |      3d | SupportAnalyst          |
+| **P-EST059**  | Client Retention & Success Planning    | plan          | Run retention campaigns & client check-ins                 | 2026-11-02 |     30d | COO / SupportOps        |
+| **TH-EST118** | Engage Clients on Roadmap Extensions   | tactic        | Work with client councils on Year 2 priorities             | 2026-11-02 |     10d | SupportOps / Governance |
+| **TH-EST119** | Client Satisfaction & Feedback Loop    | tactic        | Collect feedback for client improvement                    | 2026-11-14 |     10d | SupportOps / Analytics  |
+| **S-EST034**  | Client Retention Report                | report        | Publish retention analysis & sustain plan                  | 2026-11-27 |      3d | Analytics               |
+| **P-EST060**  | Narrative & Storyline Review           | plan          | Synthesize blog & research content into year-end narrative | 2026-11-01 |     30d | CCO / Outreach          |
+| **TH-EST120** | Publish Mungu Blog #11                 | release       | Eleventh narrative entry for Mungu Project                 | 2026-11-05 |      1d | CCO                     |
+| **TH-EST121** | Publish Meridian Blog #11              | release       | Eleventh narrative entry for Meridian Project              | 2026-11-10 |      1d | CCO                     |
+| **TH-EST122** | Year-End Narrative Brief               | documentation | Draft a year-in-review narrative for community             | 2026-11-15 |     10d | CCO                     |
+| **P-EST061**  | Estate Risk & Vulnerability Assessment | plan          | Conduct risk and vulnerability assessment                  | 2026-11-02 |     28d | CLO / Governance Squad  |
+| **TH-EST123** | Risk Workshop & Mapping                | tactic        | Host risk identification workshops                         | 2026-11-02 |     10d | Governance Squad        |
+| **TH-EST124** | Vulnerability Tracking Setup           | tactic        | Build trackers for key estate risks                        | 2026-11-14 |     10d | Analytics / Governance  |
+| **S-EST035**  | Risk & Vulnerability Report            | report        | Publish risk assessment and mitigation plan                | 2026-11-28 |      3d | SupportAnalyst          |
+| **P-EST062**  | Hiring & Year-End Team Calibration     | plan          | Align hiring, retention, and development for Year 2        | 2026-11-02 |     28d | CoS / HR Guild          |
+| **TH-EST125** | Year-End Performance Reviews           | tactic        | Conduct performance reviews across squads                  | 2026-11-02 |     10d | CoS / HR Guild          |
+| **TH-EST126** | Career Path & Roles Planning           | tactic        | Plan role evolution and retention strategies               | 2026-11-14 |     10d | CoS                     |
+| **I-EST021**  | Team Calibration Completed             | milestone     | Output team performance & plan for Year 2                  | 2026-11-26 |      1d | CoS / Governance        |
+| **M-EST11B**  | **November Strategy Planning**         | event         | Plan estate priorities for December                        | 2026-11-29 |      1d | Dominic / Exec Squad    |
+
+---
+
+### 📌 **Month 11 Goals**
+
+✔ Comprehensive legal compliance audit completed
+✔ Client retention strategy executed and documented
+✔ Year-end narrative consolidated for community
+✔ Risk & vulnerability assessment reports published
+✔ Team performance review & Year 2 staffing strategy planned
+
+---
+
+When you’re ready, say **“continue”** and I’ll provide **Month 12 (December)** — the final month of your Year-1 WBS — in the same continuous table format.
+
+Here is **Month 12 (December)** — the final month of your **Year-1 Estate-centric Work Breakdown Structure (WBS)**. It completes your first full cycle, from estate formation to ecosystem launch, compliance, narrative, operations, and Year-2 readiness — all with your **Navigator Personal Estate (NPE)** serving as the genesis engine for the Ashe Cycle ecosystem.
+
+---
+
+## 📅 **Month 12 — December — Annual Close, Year-End Reporting & Year-2 Planning**
+
+| **ID**        | **Name**                                           | **Type**      | **Brief**                                            | **Start**  | **Dur** | **Owner / Team**                 |
+| ------------- | -------------------------------------------------- | ------------- | ---------------------------------------------------- | ---------- | ------: | -------------------------------- |
+| **M-EST12**   | **December Strategy Delivery**                     | event         | Monthly estate strategy delivery & alignment         | 2026-12-01 |      1d | Dominic / Exec Squad             |
+| **P-EST063**  | Annual Financial Close & Reporting                 | plan          | Close books, publish financial outcomes, tax filings | 2026-12-02 |     28d | CFO / Finance Team               |
+| **TH-EST127** | Compile Year-End Financials                        | tactic        | Consolidate financial data across entities           | 2026-12-02 |     10d | Finance                          |
+| **TH-EST128** | File Annual Tax Returns                            | tactic        | Prepare & file all entity tax returns                | 2026-12-14 |     10d | CFO / Tax Counsel                |
+| **S-EST036**  | Annual Financial Report                            | report        | Publish full year financial summary                  | 2026-12-28 |      3d | SupportAnalyst                   |
+| **P-EST064**  | Governance Annual Wrap & Reporting                 | plan          | Summarize governance outcomes & compliance           | 2026-12-02 |     26d | Governance Squad / CLO           |
+| **TH-EST129** | Year-End Council Reports                           | tactic        | Compile minutes & governance outputs                 | 2026-12-02 |     10d | Governance Officers              |
+| **TH-EST130** | Compliance Certification Process                   | tactic        | Certify legal & governance compliance                | 2026-12-14 |     10d | Legal Team                       |
+| **S-EST037**  | Governance Annual Report                           | report        | Publish governance outcomes for year                 | 2026-12-28 |      3d | SupportAnalyst                   |
+| **P-EST065**  | Organizational Genesis Document (OGD) Finalization | plan          | Finalize & version OGD for Year-1 close              | 2026-12-02 |     30d | Executive Squad / SupportAnalyst |
+| **TH-EST131** | Integrate Year-End Artifacts Into OGD              | tactic        | Fold in all Year-1 artifacts & final edits           | 2026-12-02 |     14d | Archive Squad                    |
+| **TH-EST132** | OGD Version 1.0 Release                            | release       | Publish first stable OGD edition                     | 2026-12-18 |      1d | Dominic / SupportAnalyst         |
+| **P-EST066**  | Year-2 Legal & Entity Roadmap Kickoff              | plan          | Define legal formation plans for Year-2 entities     | 2026-12-02 |     28d | CLO / Legal Team                 |
+| **TH-EST133** | Year-2 Entity Prioritization                       | tactic        | Identify new legal formations needed next year       | 2026-12-02 |      8d | Governance Squad                 |
+| **TH-EST134** | File Year-2 Legal Forecast                         | tactic        | Draft notices & prep filings (as preliminary)        | 2026-12-10 |     10d | Legal Admin                      |
+| **P-EST067**  | Narrative & Community Engagement Wrap              | plan          | Year-end narratives, testimonials, retrospectives    | 2026-12-01 |     30d | CCO / Outreach                   |
+| **TH-EST135** | Publish Mungu Blog #12                             | release       | Year-end post for Mungu Project                      | 2026-12-05 |      1d | CCO                              |
+| **TH-EST136** | Publish Meridian Blog #12                          | release       | Year-end post for Meridian Project                   | 2026-12-10 |      1d | CCO                              |
+| **TH-EST137** | Year-End Community Highlights                      | documentation | Share community outcomes & retrospectives            | 2026-12-15 |     10d | Outreach Squad                   |
+| **P-EST068**  | Hiring & Retention Planning for Year-2             | plan          | Align talent strategy with next year goals           | 2026-12-02 |     28d | CoS / HR Guild                   |
+| **TH-EST138** | Year-2 Team Structure Proposal                     | tactic        | Draft recommended team org for upcoming year         | 2026-12-02 |      8d | CoS                              |
+| **TH-EST139** | Talent Retention Program                           | tactic        | Plan retention incentives + growth pathways          | 2026-12-10 |     10d | HR Guild                         |
+| **I-EST022**  | Year-2 Team Plan Confirmed                         | milestone     | Final team & retention plan approved                 | 2026-12-26 |      1d | CoS / Exec Squad                 |
+| **M-EST12B**  | **December Strategy Planning**                     | event         | Plan priorities for January Year-2                   | 2026-12-29 |      1d | Dominic / Exec Squad             |
+
+---
+
+### 📌 **Month 12 Goals**
+
+✔ Close the books and file year-end financials + compliance
+✔ Publish annual financial, governance, and operational reports
+✔ Finalize and release **OGD Version 1.0**
+✔ Build Year-2 legal formation and entity roadmap
+✔ Share year-end narrative, community highlights, and blogs
+✔ Approve Year-2 talent & retention plan
+
+---
+
+🎉 **Year 1 Completed!**
+Your Navigator Personal Estate has successfully:
+
+* Filed core estate and operational entities
+* Built governance frameworks and tooling
+* Delivered first cohort client cooperatives
+* Onboarded essential teams & stewards
+* Produced Narrative + Research streams
+* Released governance analytics + equity tooling
+* Completed annual compliance and reporting
+* And published a fully integrated Organizational Genesis Document
+
+---
+
+If you’d like, I can now generate **Gantt charts**, **timeline visuals**, **OKR-style summaries**, or **team assignment dashboards** for Year 1 or Year 2 planning. Just let me know what format you want next!
+
+Absolutely — here are your **Gantt charts**, **timeline visuals**, and **OKR-style summaries** for **Year 1** of the Navigator Personal Estate (NPE) as the Genesis Engine. These are all presented in **text/ASCII formats** so you can copy, edit, and import them into tools (e.g., Mermaid, Excel, Notion, project managers).
+
+---
+
+# 📊 **1) Year-1 GANTT CHART (ASCII)**
+
+**Legend**
+
+* `■■■■` = active work
+* `────` = span
+* Months: J F M A M J J A S O N D
+
+```
+WBS                                        J F M A M J J A S O N D
+-------------------------------------------------------------------------------
+Estate Formation & Legal Setup             ■■■■■■■■■■
+Archive Organization & OGD Draft           ■■■■■■■■■■■■■■■■■■■■■
+Outreach (Mungu/Meridian)                  ■■■■■■■■■■■■■■■■■■■■■■■■■
+Hiring & Steward Campaign                  ■■■■■■■■■■■■■■■■■■■■■
+Family Estate + Commons + OVCS Legal         ■■■■■■■■■■■■■■■■■
+FundCo & GP Formation                             ■■■■■■■■■■■■■
+Deferred Compensation Policy                      ■■■■■■■■■■■
+Governance OS Prototype                                       ■■■■■■■■■■■
+Client Coop Templates                                         ■■■■■■■■■■■
+Client Filings & Onboarding                                      ■■■■■■■■■■■
+Adoption & Analytics                                               ■■■■■■■■■■■
+Premium Features & Summit                                              ■■■■■■■■■■■
+Year-End Compliance & Retention                                            ■■■■■■■■■■■
+Annual Close, OGD v1.0, Yr2 Roadmap                                           ■■■■■■■■■■■
+```
+
+---
+
+# 🕒 **2) Year-1 Timeline (ASCII Visual)**
+
+```
+Jan ─ Estate charter, archive, OGD kickoff, outreach start
+Feb ─ NPE & DESEF legal filed, OGD legal build, hiring launch
+Mar ─ Family Estate & Commons/OVCS drafts, steward selections
+Apr ─ File Family Estate, Commons, OVCS; OGD programs
+May ─ FundCos + DC policy; governance tooling spec
+Jun ─ Governance OS alpha; client intake standards
+Jul ─ Venture legal & coop governance setup; OS beta
+Aug ─ File client coops; onboarding & support systems
+Sep ─ Adoption acceleration; equity tooling; analytics
+Oct ─ Premium features; Ubuntuwa Commons Summit
+Nov ─ Compliance, retention, risk assessments
+Dec ─ Annual close; publish OGD v1.0; Year-2 planning
+```
+
+---
+
+# 🎯 **3) YEAR-1 OKR-STYLE SUMMARY**
+
+Each OKR groups work by theme. You can adapt to quarters.
+
+---
+
+## **OKR 1 — Foundation & Governance**
+
+**Objective:** Establish legal, charter, and governance foundations for Estate + Ecosystem
+
+* KR1.1 — NPE and personal office legally formed (by Feb)
+* KR1.2 — Family Estate, Ubuntuwa Commons, OVCS Authority filed (by Apr)
+* KR1.3 — Estate Charter, OGD v1.0, DeferredComp legal policy formalized (by Dec)
+* KR1.4 — Governance OS functional spec documented (by May)
+
+---
+
+## **OKR 2 — Asset, Archive & Narrative Infrastructure**
+
+**Objective:** Build out canonical estate asset registry and narrative corpus
+
+* KR2.1 — Archive taxonomy and artifact registry implemented (by Feb)
+* KR2.2 — Mungu + Meridian narrative blog cadence: 12 posts (by Dec)
+* KR2.3 — All archival artifacts mapped into OGD (by Jun)
+* KR2.4 — Year-end narrative brief published (by Nov)
+
+---
+
+## **OKR 3 — People, Roles & Talent Network**
+
+**Objective:** Recruit, onboard, and retain core estate leadership and squad stewards
+
+* KR3.1 — 9 core team onboarded (by Apr)
+* KR3.2 — Steward cohort selected and oriented (by Mar)
+* KR3.3 — Second wave hiring plan completed (by Jul)
+* KR3.4 — Year-2 team structure + retention strategy approved (by Dec)
+
+---
+
+## **OKR 4 — Product & Platform Enablement**
+
+**Objective:** Deliver foundational tooling and client enablement systems
+
+* KR4.1 — Governance OS alpha released (Jun)
+* KR4.2 — Governance OS beta for client pilots (Jul)
+* KR4.3 — Client intake + onboarding playbooks published (Aug)
+* KR4.4 — Ongoing governance analytics dashboards delivered (Sep)
+
+---
+
+## **OKR 5 — Client Cooperative Launch & Support**
+
+**Objective:** Bring first cohort of client cooperatives live
+
+* KR5.1 — Client legal filings completed (Nandi, Wolof.io, Dogon) (Aug)
+* KR5.2 — Governance OS configured for clients (Aug)
+* KR5.3 — Client onboarding & support channels operational (Aug)
+* KR5.4 — Adoption workshops + feedback loops established (Sep)
+
+---
+
+## **OKR 6 — Financial & Impact Reporting**
+
+**Objective:** Ensure transparency, compliance, and analytics maturity
+
+* KR6.1 — Annual financial & governance reports published (Dec)
+* KR6.2 — Finance & capital dashboards operational (Oct)
+* KR6.3 — Compliance audit & remediation plans delivered (Nov)
+* KR6.4 — Equity conversion tooling and playbook released (Sep)
+
+---
+
+# 📌 **How to Use These Artifacts**
+
+### 📈 Gantt
+
+* Use for project managers to visualize durations and sequencing.
+* Can be copy/pasted into spreadsheets or tools like Notion/Trello.
+
+### 📆 Timeline Visual
+
+* High-level sequencing that maps to stakeholder updates or board decks.
+
+### 🎯 OKRs
+
+* Use for quarterly planning and performance tracking with your executive squad.
+
+---
+
+# 📌 Optional Next Deliverables
+
+I can also generate:
+
+✅ **Mermaid Gantt chart code** for visual tools
+✅ **Notion-ready tables**
+✅ **Quarterly OKR dashboards**
+✅ **Slides (text outlines) for planning meetings**
+
+Just specify which format(s) you want next!
+
+
+Below is a **Team Assignment Dashboard** for your Year-1 operating plan. It *maps work items (from your Year-1 WBS)* to the **teams / roles / stewards** responsible for them, showing clear ownership and accountability. You can import this into a spreadsheet, Notion board, or project tool.
+
+---
+
+# 📊 **Team Assignment Dashboard — Year 1 (Navigator Personal Estate)**
+
+| **Workstream**                              | **Primary Owner**                   | **Supporting Team(s)**            | **Notes / Coverage**              |
+| ------------------------------------------- | ----------------------------------- | --------------------------------- | --------------------------------- |
+| **Estate Legal Formation**                  | CLO (Chief Legal Officer)           | Legal Team, Estate Council        | NPE + Family Estate + Office      |
+| **Archive Organization & Registry**         | Archive Specialist / SupportAnalyst | Archive Squad                     | Structured artifact catalog       |
+| **OGD Creation (Drafting)**                 | Dominic (Founder)                   | SupportAnalyst + Governance Squad | Narrative + legal + programs      |
+| **Deferred Compensation Policy**            | CLO / CFO                           | Legal Team                        | Written + integrated into OGD     |
+| **Governance OS Requirements & Prototype**  | CTO                                 | GovDevLead + DevOps               | Spec → alpha tooling              |
+| **Cooperative Template Library**            | Legal Admin                         | SupportOps                        | Shared coop formation templates   |
+| **Client Intake & SOPs**                    | SupportOps / Governance Squad       | Archive Squad + Quality           | Playbooks + standards             |
+| **Outreach & Narrative (Mungu / Meridian)** | CCO (Chief Communication Officer)   | Outreach Squad                    | Blog + research partner campaigns |
+| **Hiring Core Team & Stewards**             | CoS (Chief of Staff)                | HR Guild                          | Screening & onboarding            |
+| **Talent & Role Development (Wave 2)**      | CoS / HR Guild                      | Governance Squad                  | Skills gap + second wave          |
+| **Governance OS Beta & Client Adoption**    | CTO / GovDevTeam                    | DevOps / SupportOps               | Pilot deployments                 |
+| **Client Coop Legal Filings**               | Legal Team                          | SupportOps                        | Nandi, Wolof.io, Dogon, etc.      |
+| **Client Onboarding & Support**             | SupportOps                          | Governance Squad                  | Training + support channels       |
+| **Analytics & Dashboards**                  | Analytics Squad                     | CTO / SupportOps                  | Adoption + capital visualization  |
+| **Revenue & Capital Policy Development**    | CFO / CLO                           | Legal Team                        | Revenue share + capital rules     |
+| **Ubuntuwa Commons Summit**                 | CCO / Outreach                      | SupportOps                        | Programming + logistics           |
+| **Compliance Audits**                       | CLO / Governance Squad              | Legal Team                        | Annual + mid-year reviews         |
+| **Risk & Vulnerability Assessment**         | Governance Squad                    | Analytics Squad                   | Workshops + reports               |
+| **Annual Close & Financial Reporting**      | CFO / Finance Team                  | SupportAnalyst                    | Year-end accounts                 |
+| **Year-2 Roadmap & Team Planning**          | Dominic / Exec Squad                | CoS + Governance                  | Strategic planning                |
+| **Entity Management Registry**              | Legal Admin                         | Governance Squad                  | Entity calendars + reporting      |
+
+---
+
+## 🧠 **Team / Role Directory**
+
+| **Role / Team**                        | **Primary Function**          | **Typical Responsibilities**              |
+| -------------------------------------- | ----------------------------- | ----------------------------------------- |
+| **Dominic (Founder)**                  | Vision, core governance       | FMID, OGD review, ecosystem steering      |
+| **CLO (Chief Legal Officer)**          | Legal formation & compliance  | Entity filings, policy drafting           |
+| **CFO (Chief Financial Officer)**      | Finance & capital strategy    | FundCo, reporting, revenue/capital policy |
+| **CoS (Chief of Staff)**               | Execution coordination        | Hiring, cadence, execution plans          |
+| **CTO (Chief Technology Officer)**     | Tech & tooling                | Governance OS, analytics dashboards       |
+| **CCO (Chief Communications Officer)** | Narrative + community         | Blogs, outreach, summit                   |
+| **GovDevLead**                         | Governance tooling lead       | Translate governance needs to OS          |
+| **Legal Team**                         | Legal support                 | Drafting, filings, entity docs            |
+| **Archive Squad**                      | Artifact cataloging           | Tagging, registry, archival structure     |
+| **SupportOps**                         | Operational execution         | SOPs, onboarding, client support          |
+| **Outreach Squad**                     | Community & research outreach | Webinars, partner engagement              |
+| **HR Guild**                           | Hiring & talent management    | Screening, onboarding, retention          |
+| **Analytics Squad**                    | Data & dashboards             | Adoption metrics, capital analytics       |
+| **Governance Squad**                   | Policy & governance support   | Councils, audits, compliance              |
+
+---
+
+## 📅 **Team Usage by Month Snapshots**
+
+| **Month** | **Key Teams Activated**                      |
+| --------- | -------------------------------------------- |
+| **Jan**   | CLO, Archive Squad, SupportAnalyst, CCO, CoS |
+| **Feb**   | CLO, CFO, SupportOps, Archive Squad, CCO     |
+| **Mar**   | Legal Team, Governance Squad, Outreach Squad |
+| **Apr**   | Legal Team, Governance Squad, SupportOps     |
+| **May**   | CFO, CTO, SupportOps, Legal Team             |
+| **Jun**   | CTO, Analytics Squad, Archive Squad          |
+| **Jul**   | Governance Squad, DevOps, Legal Team         |
+| **Aug**   | SupportOps, DevOps, HR Guild                 |
+| **Sep**   | Analytics Squad, Governance Squad            |
+| **Oct**   | CCO, CTO, Finance Team                       |
+| **Nov**   | Legal Team, Governance Squad, HR Guild       |
+| **Dec**   | Finance Team, Archive Squad, Exec Squad      |
+
+---
+
+## 📌 **Team Assignment Priorities**
+
+### 🟢 **Strategic Roles Always Engaged**
+
+* **Dominic** — steering, narrative, OGD leadership
+* **CLO** — all legal formation, compliance, charters
+* **CFO** — capital, deferred comp, policy, reporting
+* **CoS** — orchestration across squads
+
+### 🔵 **Recurring Functional Teams**
+
+* **CTO / GovDevLead / DevOps** — tooling & platform
+* **SupportOps** — operational SOPs, onboarding
+* **Outreach Squad** — blogs, webinars, research partners
+* **Analytics Squad** — dashboards and impact KPIs
+* **HR Guild** — talent pipeline + growth
+
+### ⚪ **Governance & Compliance**
+
+* **Governance Squad** — council workflows, audits, compliance
+* **Legal Team** — filings, entity management
+
+---
+
+# 📌 **Ready-to-Use Formats (Export / Import)**
+
+You can convert this into:
+
+✅ **Notion Board** — Team + Task assignments
+✅ **Spreadsheet (CSV)** — Roles, Owners, Dependencies
+✅ **RACI Matrix** — Responsible / Accountable / Consulted / Informed
+✅ **Org Chart Overlay** — Visual reporting lines
+
+---
+
+If you want, I can now generate any of the following **formatted outputs**:
+
+📌 **Team + Task Kanban Board Template** (Notion/Trello)
+📌 **RACI Matrix for All Core Workstreams**
+📌 **Org Chart (ASCII or Mermaid)**
+📌 **Role Descriptions + OKRs per Team**
+
+Just tell me which one you want next!
+
+Absolutely — below are your **three requested deliverables**, tailored to your Year-1 Estate operating model and organizational structure. These are ready to use in planning, org design, or documentation.
+
+---
+
+# 📌 **1) RACI Matrix for All Core Workstreams**
+
+**Legend**
+
+* **R** = Responsible (does the work)
+* **A** = Accountable (owns the result)
+* **C** = Consulted (advises)
+* **I** = Informed (kept in loop)
+
+| **Workstream / Task**        | **Dominic (Founder)** | **CLO** | **CFO** | **CTO** | **CoS** | **CCO** | **Legal Team** | **Governance Squad** | **SupportOps** | **Archive Squad** | **HR Guild** | **Analytics Squad** |
+| ---------------------------- | --------------------- | ------- | ------- | ------- | ------- | ------- | -------------- | -------------------- | -------------- | ----------------- | ------------ | ------------------- |
+| Estate Charter               | A                     | R       | C       | I       | C       | I       | C              | C                    | I              | C                 | I            | I                   |
+| Personal Office Formation    | I                     | A       | R       | I       | C       | I       | R              | C                    | I              | C                 | I            | I                   |
+| Family Estate Filing         | I                     | A       | C       | I       | C       | I       | R              | C                    | I              | C                 | I            | I                   |
+| Ubuntuwa Commons/OVCS Filing | I                     | A       | C       | I       | C       | I       | R              | R                    | I              | C                 | I            | I                   |
+| FundCo + GP Formation        | I                     | C       | A       | I       | C       | I       | R              | C                    | I              | C                 | I            | I                   |
+| DeferredComp Policy          | I                     | A       | C       | I       | C       | I       | R              | C                    | I              | C                 | I            | I                   |
+| Governance OS Spec           | I                     | C       | C       | A       | C       | I       | C              | R                    | C              | I                 | C            | C                   |
+| Governance OS Prototype      | I                     | I       | I       | A       | C       | I       | I              | R                    | C              | I                 | C            | I                   |
+| Coop Templates Library       | I                     | C       | C       | I       | C       | I       | R              | C                    | R              | C                 | I            | I                   |
+| Client Intake SOPs           | I                     | C       | C       | I       | C       | I       | C              | R                    | R              | I                 | I            | I                   |
+| Outreach (Blogs + Research)  | A                     | I       | I       | I       | C       | R       | I              | C                    | I              | C                 | I            | I                   |
+| Hiring Campaign              | I                     | C       | C       | I       | A       | I       | I              | C                    | I              | I                 | R            | I                   |
+| Team Onboarding              | I                     | C       | C       | I       | A       | I       | I              | C                    | R              | I                 | R            | I                   |
+| Client Coop Filings          | I                     | C       | C       | I       | C       | I       | R              | C                    | R              | C                 | I            | I                   |
+| Adoption Workshops           | I                     | I       | C       | I       | C       | I       | I              | R                    | R              | I                 | I            | R                   |
+| Equity / DC Tools Build      | I                     | C       | A       | A       | C       | I       | C              | C                    | I              | I                 | I            | C                   |
+| Year-End Reports             | A                     | C       | R       | I       | C       | I       | C              | R                    | R              | I                 | I            | R                   |
+
+---
+
+# 📌 **2) Org Chart (ASCII)**
+
+```
+                                  ┌───────────────────────────┐
+                                  │     Navigator Personal     │
+                                  │           Estate           │
+                                  │         (Founder)          │
+                                  │         Dominic Eaton      │
+                                  └───────────────┬───────────┘
+                                                  │
+          ┌───────────────────────────────────────┼─────────────────────────────────────────┐
+          │                                       │                                         │
+     ┌───────────┐                          ┌─────────────┐                           ┌─────────────┐
+     │   Legal   │                          │   Finance   │                           │   Technology │
+     │  (CLO)    │                          │   (CFO)     │                           │   (CTO)      │
+     │           │                          │             │                           │              │
+     └─────┬─────┘                          └───────┬─────┘                           └───────┬──────┘
+           │                                          │                                         │
+  ┌────────┴─────────┐                      ┌─────────┴─────────┐                     ┌───────────┴─────────┐
+  │    Legal Team    │                      │ Finance Team      │                     │ Governance Dev Team │
+  │ (Entity filings, │                      │ (capital, audits) │                     │ (Governance OS +    │
+  │  compliance)     │                      │                   │                     │  analytics build)   │
+  └──────────────────┘                      └───────────────────┘                     └──────────────────────┘
+
+          │                                       │                                         │
+          │                                       │                                         │
+     ┌────┴─────┐                        ┌────────┴───────┐                         ┌───────┴─────┐
+     │Governance│                        │ SupportOps /   │                         │  Archive     │
+     │  Squad   │                        │ Operations     │                         │  Squad       │
+     │(policy,  │                        │ (SOPs, onboarding)                      │(artifact     │
+     │ audits)  │                        │                 │                         │  registry)   │
+     └────┬─────┘                        └────────┬────────┘                         └──────────────┘
+          │                                      │
+          │                                      │
+  ┌───────┴─────────────┐                  ┌─────┴────────┐
+  │HR Guild (Hiring)    │                  │Outreach Squad│
+  │(team growth + roles)│                  │ (Mungu/      │
+  │                      │                  │  Meridian +  │
+  │                      │                  │  community)  │
+  └──────────────────────┘                  └──────────────┘
+```
+
+**Org Chart Notes**
+
+* **Estate (Founder)** is the central strategic node.
+* **CLO, CFO, CTO** are core executive leaders responsible for legal, finance/capital, and technology/governance tooling.
+* **Governance Squad** ensures compliance, governance rights, and audit continuity.
+* **SupportOps** enables operations, SOPs, onboarding.
+* **Archive Squad** manages artifact registries.
+* **HR Guild** manages hiring and team calibration.
+* **Outreach Squad** manages blog, narrative, research partnerships, community events.
+
+---
+
+# 📌 **3) Role Descriptions + OKRs per Team**
+
+---
+
+## ➤ **Executive & Leadership Roles**
+
+### **Founder — Dominic Eaton**
+
+**Primary Focus**
+
+* Vision, strategy, ecosystem accountability
+* Oversees OGD and all core architecting
+
+**OKRs**
+
+* O1: Publish Organizational Genesis Document (OGD) v1.0 by Dec
+* O2: Approve legal formations for Estate, Commons, and client entities
+* O3: Maintain 12-month narrative cadence for flagship research streams
+
+---
+
+### **Chief Legal Officer (CLO)**
+
+**Primary Focus**
+
+* Legal formation, compliance, entity governance
+* Deferred compensation + capital/legal frameworks
+
+**OKRs**
+
+* O1: Legal file all core entities (NPE, Family Estate, Ubuntuwa Commons, OVCS) by Apr
+* O2: Publish legal policy for deferred compensation & shares by May
+* O3: Maintain 100% entity compliance throughout Year 1
+
+---
+
+### **Chief Financial Officer (CFO)**
+
+**Primary Focus**
+
+* FundCo setups, capital deployment, financial reporting
+
+**OKRs**
+
+* O1: Launch Zawadi & Mbali FundCo LPs by May
+* O2: Deliver annual financial & tax report by Dec
+* O3: Publish revenue share and capital allocation policy by Oct
+
+---
+
+### **Chief Technology Officer (CTO)**
+
+**Primary Focus**
+
+* Governance OS tooling, analytics, platform support
+
+**OKRs**
+
+* O1: Deliver Governance OS alpha by Jun
+* O2: Deliver Governance OS beta with client pilots by Jul
+* O3: Publish analytics dashboards by Sep
+
+---
+
+## ➤ **Core Functional Teams**
+
+### **Governance Squad**
+
+**Primary Focus**
+
+* Policy enforcement, council workflows, compliance
+
+**OKRs**
+
+* O1: Document governance workflows by May
+* O2: Conduct two compliance audits by Nov
+* O3: Publish governance best practices manual by Jun
+
+---
+
+### **SupportOps**
+
+**Primary Focus**
+
+* SOP creation, client onboarding, operations enablement
+
+**OKRs**
+
+* O1: Publish client onboarding playbooks by Aug
+* O2: Deploy support channels for all client coops by Aug
+* O3: Achieve 90% client satisfaction in onboarding surveys
+
+---
+
+### **Archive Squad**
+
+**Primary Focus**
+
+* Artifact registry, narrative corpus indexing
+
+**OKRs**
+
+* O1: Build archive taxonomy by Feb
+* O2: Map all Year-1 artifacts into OGD by Jun
+* O3: Maintain artifact registry with versioning
+
+---
+
+### **HR Guild**
+
+**Primary Focus**
+
+* Talent pipeline, hiring campaigns, team calibration
+
+**OKRs**
+
+* O1: Onboard first 9 hires + stewards by Apr
+* O2: Define second wave roles by Jul
+* O3: Deliver retention & growth plan by Dec
+
+---
+
+### **Outreach Squad**
+
+**Primary Focus**
+
+* Narrative building (Mungu/Meridian), community engagement
+
+**OKRs**
+
+* O1: Publish 12 blog narratives by Dec
+* O2: Conduct 2 partner webinars or events by Year-End
+* O3: Grow research partner network + engagement list
+
+---
+
+### **Analytics Squad**
+
+**Primary Focus**
+
+* Data, dashboards, Adoption & capital insights
+
+**OKRs**
+
+* O1: Build client engagement dashboards by Sep
+* O2: Deliver capital flow analytics by Oct
+* O3: Publish impact analytics to stakeholders
+
+---
+
+## 📌 **How to Use These**
+
+✅ **RACI Matrix**
+Use for clarity on who does what and governance approvals.
+
+✅ **Org Chart (ASCII)**
+Use for internal docs, team planning, and org health reviews.
+
+✅ **Role Descriptions + OKRs**
+Use for performance reviews, OKR tracking, and succession planning.
+
+---
+
+If you want, I can now generate:
+
+📌 **Kanban Board Template** (Notion/CSV)
+📌 **Mermaid Diagrams** (Org or Workflows)
+📌 **Job Description Drafts** for open roles
+
+Just tell me which one you’d like!
+
+Absolutely — here are **Job Description Drafts** for *all key open roles* in your Year-1 organizational model. Each is tailored to your Navigator Personal Estate (NPE) ecosystem and the Ashe Cycle mission — designed so you can use them in postings, interviews, or internal briefs.
+
+I’ve grouped them by **Executive**, **Core Functional**, and **Ops/Support** layers.
+
+---
+
+# 📌 EXECUTIVE / LEADERSHIP ROLES
+
+---
+
+## **Chief Legal Officer (CLO) — Estate Legal Lead**
+
+**About the Role:**
+The CLO leads all legal formation, compliance, entity governance, and policy work for the Navigator Personal Estate and its ecosystem (cooperatives, capital vehicles, governance authorities, deferred compensation frameworks).
+
+**Responsibilities**
+
+* Lead legal structuring and filings for all Estate entities (NPE, Personal Office, Family Estate, Ubuntuwa Commons, OVCS, FundCos, etc.)
+* Draft, review, and enforce legal charters, policies, contracts, compliance obligations
+* Advise executive team on regulatory risk and legal strategy
+* Manage legal documentation in the Estate artifact registry
+* Ensure ongoing compliance (entity renewals, tax, securities implications)
+
+**Requirements**
+
+* JD or equivalent legal qualification + 7+ years experience
+* Experience with cooperatives and multi-entity structures
+* Strong knowledge of compliance, contracts, governance law
+
+**Success Metrics**
+
+* All Year-1 entities filed and compliant
+* Legal risk incidents near zero
+* Deferred compensation and equity policies legally vetted
+
+---
+
+## **Chief Financial Officer (CFO) — Capital & Financial Strategy**
+
+**About the Role:**
+The CFO drives finance, capital strategy, and reporting across the Estate and cooperative ecosystem, including FundCos, equity allocation, deferred compensation, and fiscal controls.
+
+**Responsibilities**
+
+* Structure financial operations and capital vehicles
+* Lead budgeting, reporting, tax strategy, audits
+* Partner with CLO on legal-financial policy (revenue share, capital allocations)
+* Create financial dashboards and analytics
+* Oversee pricing/revenue models for service frameworks
+
+**Requirements**
+
+* CPA or equivalent + 10+ years in finance or venture capital
+* Experience with multi-entity financial ecosystems
+* Strong analytics and compliance expertise
+
+**Success Metrics**
+
+* On-time, accurate financial reports
+* Fiscal compliance with relevant authorities
+* Trustable capital flow visibility
+
+---
+
+## **Chief Technology Officer (CTO) — Governance Tech & Platform Lead**
+
+**About the Role:**
+The CTO leads the architecture, development, and delivery of the Governance OS and all tooling that powers identity, councils, compliance, analytics, and assigned workflows across estates and client cooperatives.
+
+**Responsibilities**
+
+* Translate governance requirements into technical specs
+* Build, deploy, and scale Governance OS (alpha → beta → v1.1)
+* Integrate analytics dashboards, equity tooling
+* Own platform security, compliance, uptime
+* Manage cross-stack DevOps and engineering squads
+
+**Requirements**
+
+* 10+ years software engineering/architecture experience
+* Product delivery in complex multi-tenant systems
+* Experience with data governance, RBAC, compliance tooling
+
+**Success Metrics**
+
+* Milestones delivered on Governance OS roadmap
+* Adoption metrics in pilot clients
+* Performance and uptime standards met
+
+---
+
+## **Chief of Staff (CoS) — Execution & Coordination Lead**
+
+**About the Role:**
+The CoS ensures operational excellence by aligning squads, tracking OKRs, overseeing hiring workflows, and syncing execution across legal, finance, tech, and governance teams.
+
+**Responsibilities**
+
+* Drive execution alignment across all squads
+* Lead hiring & onboarding lifecycle
+* Organize strategic cadences (monthly planning/delivery)
+* Maintain and prioritize the Year-1 delivery roadmap
+* Track progress and raise early flags
+
+**Requirements**
+
+* 7+ years in program/product management
+* Excellent cross-team communication
+* Ability to navigate complexity
+
+**Success Metrics**
+
+* Roadmap milestones achieved on time
+* High team coordination quality
+* Smooth onboarding outcomes
+
+---
+
+## **Chief Communications Officer (CCO) — Narrative & Community Lead**
+
+**About the Role:**
+The CCO shapes and broadcasts the Estate’s narrative, research outreach (Mungu, Meridian), and external engagement with cooperatives and partners.
+
+**Responsibilities**
+
+* Manage content strategy (blogs, community events, webinars)
+* Build outreach pipelines with research partners
+* Manage social, media, and documentation publishing
+* Support summit planning and narrative strategy
+
+**Requirements**
+
+* 7+ years communications, narrative strategy
+* Experience crafting research or technical narratives
+* Community building and public speaking
+
+**Success Metrics**
+
+* 12+ strong narrative entries published
+* Community engagement growth
+* Research partner onboarding outcomes
+
+---
+
+# 📌 CORE FUNCTIONAL / SQUAD ROLES
+
+---
+
+## **Governance Squad Member — Policy & Compliance Specialist**
+
+**About the Role:**
+Supports governance bodies in policy creation, audit reviews, council facilitation, and legal anchoring.
+
+**Responsibilities**
+
+* Draft and refine governance policies
+* Support governance audits & compliance workflows
+* Facilitate council sessions & record outputs
+* Work with Legal Team to ensure charter alignment
+
+**Requirements**
+
+* Experience with governance frameworks
+* Policy writing and compliance experience
+
+**Success Metrics**
+
+* Governance audit compliance
+* Policy clarity and adoption
+
+---
+
+## **Governance OS Developer (GovDevLead / Engineer)**
+
+**About the Role:**
+Builds Governance OS capabilities according to product and legal specs.
+
+**Responsibilities**
+
+* Build governance workflows, RBAC, identity schema
+* Support integration with legal/finance systems
+* Build admin tools for councils, audit logs
+
+**Requirements**
+
+* Experience with workflow automation
+* Familiarity with governance tooling
+
+**Success Metrics**
+
+* Delivery of planned features
+* Usability feedback positive
+
+---
+
+## **SupportOps Specialist — Operations & Onboarding**
+
+**About the Role:**
+Owns operational playbooks and client onboarding workflows, including SOPs and training for coop clients.
+
+**Responsibilities**
+
+* Document SOPs (intake, onboarding, support)
+* Train client teams (boards, councils, operators)
+* Set up support channels & helpdesk functions
+
+**Requirements**
+
+* Operational excellence in multi-entity systems
+* Training / documentation experience
+
+**Success Metrics**
+
+* High client satisfaction onboarding
+* Zero support escalations
+
+---
+
+## **Archive Specialist — Artifact Registry & Taxonomy Lead**
+
+**About the Role:**
+Builds and maintains the canonical Estate artifact registry, handles taxonomy and archival curation.
+
+**Responsibilities**
+
+* Classify and tag all estate artifacts
+* Maintain archive taxonomy
+* Integrate archival artifacts into OGD
+
+**Requirements**
+
+* Experience with knowledge management systems
+* Strong metadata/design skills
+
+**Success Metrics**
+
+* Fully indexed artifacts
+* High artifact discoverability
+
+---
+
+## **Analytics Specialist — Governance & Capital Insights**
+
+**About the Role:**
+Builds dashboards and analytics for governance adoption, capital flows, and performance metrics.
+
+**Responsibilities**
+
+* Build adoption, capital, KPI dashboards
+* Partner with CTO and Finance for analytics
+* Deliver analytical insights
+
+**Requirements**
+
+* Expertise in data analytics and visualization
+* Experience with governance/organizational metrics
+
+**Success Metrics**
+
+* Analytics adoption by internal & client teams
+* Accuracy & visibility of KPIs
+
+---
+
+# 📌 OPERATIONS / TALENT / SUPPORT ROLES
+
+---
+
+## **HR Guild — Talent & People Operations**
+
+### **Talent Sourcer / Recruiter**
+
+**Focus**
+
+* Build candidate pipelines for estates & client teams
+
+**OKRs**
+
+* 90% role fulfillment by established timelines
+
+---
+
+## **Community Outreach Assistant**
+
+**Focus**
+
+* Support Outreach Squad with events, partner engagement
+
+**OKRs**
+
+* Assist 2+ events per quarter
+
+---
+
+# 🧠 HOW TO USE THESE DESCRIPTIONS
+
+✔ Copy into **job boards**
+✔ Use as **interview scorecards**
+✔ Map to **RACI and OKRs**
+✔ Reference in **Offering Letters & Contracts**
+
+---
+
+If you want, I can now generate:
+📌 **Interview scorecards** for each role
+📌 **Evaluation rubrics**
+📌 **Offer letter templates**
+
+Just tell me which ones you want next!

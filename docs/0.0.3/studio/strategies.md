@@ -6251,3 +6251,1777 @@ If you want, I can now produce:
 📌 **UCUC ledger schema extensions** for capital governance
 
 Just tell me which one you want!
+
+Below is a clear **“who, what, how”** breakdown of how **members, boards, councils, and entities/ventures** handle the **ecosystem’s capital strategy and capital allocation strategy** in your federated coop model. The structure aligns with your governance stack, operating playbooks, and capital discipline rules.
+
+---
+
+# 🧠 1) WHO — Roles & Capital Responsibility
+
+### **Members**
+
+* **Class A (Worker-Members):**
+
+  * Provide labor, generate DCUs.
+  * Participate in capital decisions via consultations or polling.
+* **Class B (Steward-Members):**
+
+  * Strategic partners influencing allocation priorities.
+  * Serve on councils/boards or advisory bodies.
+* **Class C (Governance-Members / Board):**
+
+  * Approve budgets and major capital decisions.
+  * Ensure capital policies are met.
+* **Class D (Commons-Members):**
+
+  * Represent ecosystem/community interests in capital use (e.g., coherence capital).
+* **Class E (Founder):**
+
+  * Proposes capital strategies; participates but does not unilaterally decide.
+* **Class F (Capital Participants / Investors):**
+
+  * Provide financial capital; have rights/entitlements defined by investment agreements.
+* **Class G (Future Members / Apprentices):**
+
+  * Participate in capital literacy programs; potential future value contributors.
+
+---
+
+### **Board of Directors**
+
+**Primary capital governance authority for entities with boards.**
+
+* Approve entity budgets (operational & strategic).
+* Approve capital acceptance, deployment, recall.
+* Ensure survival capital first.
+* Enforce capital governance playbook.
+* Stop or reallocate funds in crisis situations.
+* Approve tranche releases for major allocations.
+
+Approved actions include:
+✔ Funding requests over policy thresholds
+✔ Expansion, major risk capital
+✔ Reallocation of capital pools
+
+Decisions require:
+
+* Majority vote (routine)
+* Supermajority for major capital, change of control
+
+---
+
+### **Entity Councils**
+
+**For each coop/venture, councils provide contextual capital input.**
+
+* Evaluate entity capital needs (scoping, prioritizing).
+* Review capital request memos.
+* Validate success criteria and exit conditions.
+* Participate in capital prioritization workshops.
+
+Councils *recommend*, boards/OVCS *authorize*.
+
+---
+
+### **OVCS Authority**
+
+Governance OS certification:
+
+* Ensures capital request adheres to doctrine, compliance.
+* Validates milestone criteria and tranche logic.
+* Provides gating for all conversions and major allocations.
+* Anchors policy versions.
+
+---
+
+### **Uhuru Credit Union Coop (UCUC)**
+
+**The execution engine for capital flows.**
+
+* Holds capital in custody.
+* Executes disbursements against approved governance records.
+* Maintains capital ledgers and tranche tracking.
+* Enforces holds/locks based on risk flags.
+
+UCUC does **not choose strategy**, it *executes approval outcomes*.
+
+---
+
+### **Mande Investment Group Coop**
+
+**Strategic investment arm.**
+
+* Crafts capital strategy for portfolio and ecosystem growth.
+* Aligns capital allocation with risk/return tolerance.
+* Works with governance bodies to propose expansion capital allocations.
+
+Coordinates with:
+
+* Boards
+* Entity councils
+* UCUC (custody/settlement)
+* OVCS (certification)
+
+---
+
+### **Niguvu Adjudication Services**
+
+**Dispute & reconciliation arm.**
+
+* Resolves capital allocation disputes.
+* Reconciles discrepancies in ledgers.
+* Issues adjudication reports.
+* Triggers risk/recall where policy is violated.
+
+---
+
+# 📌 2) WHAT — Capital Activities & Decisions
+
+Each role participates in different parts of the capital lifecycle.
+
+### **Capital Strategy**
+
+This is the *intent and direction* for how capital should be used:
+
+* **Survival Capital** — Ensures legal/compliance reserves, cash runway, protections.
+
+  * Members approve safety policies.
+  * Boards require survival capital coverage before other allocations.
+  * Councils identify survival risks.
+
+* **Coherence Capital** — Builds governance, documentation, shared services.
+
+  * OVCS oversees standards and readiness.
+  * Members support commons infrastructure initiatives.
+  * Boards allocate through strategic workshops.
+
+* **Execution Capital** — Funds ongoing ops, pilots, hiring.
+
+  * Councils propose allocations.
+  * Boards approve.
+  * UCUC disburses.
+
+* **Expansion Capital** — Optional growth initiatives, studios, new markets.
+
+  * Mande leads strategy.
+  * Boards + OVCS certify risk/return alignment.
+  * UCUC executes.
+
+---
+
+### **Capital Allocation Lifecycle**
+
+Capital flows through:
+
+1. **Request**
+
+   * Entity/studio writes *Capital Request Memo*.
+   * Define owner, success metrics, exit conditions.
+
+2. **Compliance & Risk Gate**
+
+   * UCUC checks AML/KYC and risk thresholds.
+   * OVCS certifies doctrine alignment.
+
+3. **Governance Evaluation**
+
+   * Council feedback informs board context.
+   * Board reviews request relative to strategy.
+
+4. **Approval**
+
+   * Board grants formal approval (or supermajority for major items).
+
+5. **Execution**
+
+   * UCUC creates reserve, establishes tranche schedule.
+
+6. **Monitoring**
+
+   * Monthly variance reviews.
+   * Niguvu checks for disputes, compliance.
+
+7. **Review & Close**
+
+   * Final assessment upon milestone completion.
+   * Reallocation decisions if necessary.
+
+---
+
+# 🧠 3) HOW — Processes & Delegations
+
+### **A) Decision Authority Matrix**
+
+| Decision                   | Who Decides                | Needed Documents       |
+| -------------------------- | -------------------------- | ---------------------- |
+| Accept external capital    | Board + OVCS               | Capital agreement      |
+| Allocate survival capital  | Board                      | Runway & risk analysis |
+| Allocate coherence capital | Board + Council            | Governance plan        |
+| Execution capital (small)  | Council + OVCS             | Request memo           |
+| Execution capital (large)  | Board + OVCS               | Financial plan         |
+| Expansion capital          | Board Supermajority + OVCS | Investment analysis    |
+| Reallocation/Recall        | Board                      | Variance analysis      |
+| Oversight escalation       | Niguvu + Board             | Reconciliation report  |
+
+---
+
+### **B) Capital Request Workflow**
+
+**1) Draft Request Memo**
+Owner completes:
+
+* Amount
+* Category
+* Metrics
+* Milestones
+* Exit conditions
+
+**2) Automated Pre-Checks**
+
+* UCUC AML/KYC
+* Risk thresholds
+* Ethics & safety scan
+
+**3) Council Review**
+
+* Validates operational context
+* Assesses feasibility
+
+**4) Governance Scorecard**
+
+* Compliance
+* Strategic alignment
+* Risk/severity rating
+
+**5) Board/OVCS Decision**
+
+* Approve / Amend / Reject
+
+**6) UCUC Execution**
+
+* Funds reserved
+* Tranches configured
+
+---
+
+### **C) Tranche Release Mechanism**
+
+Capital is released in defined stages:
+
+| Stage | Conditions         | Accountability            |
+| ----- | ------------------ | ------------------------- |
+| T1    | Governance signoff | UCUC holds executed funds |
+| T2    | Milestone 1 pass   | Council + OVCS            |
+| T3    | Milestone 2 pass   | Board review              |
+| Final | Program completion | Full accounting           |
+
+Failure or deviation triggers:
+
+* Hold
+* Rollback
+* Reallocation → Board + OVCS
+
+---
+
+### **D) Monitoring & Controls**
+
+Entities must produce:
+
+| Report                   | Frequency    | Audience            |
+| ------------------------ | ------------ | ------------------- |
+| Monthly Capital Variance | Monthly      | Board, UCUC         |
+| Risk Dashboard           | Monthly      | Board, OVCS         |
+| Compliance Summary       | Quarterly    | Audit + OVCS        |
+| Capital Impact Report    | Post Tranche | Board, Members      |
+| Annual Audit Report      | Annually     | Members, Regulators |
+
+---
+
+### **E) Dispute & Reconciliation**
+
+When disputes or unexpected results occur:
+
+* Niguvu initiates a review
+* Pulls:
+
+  * Governance actions
+  * UCUC ledger entries
+  * Compliance logs
+* Produces **Resolution Report**
+* Board may adjust allocations or recall capital
+
+---
+
+### **F) Risk Integration**
+
+Capital decisions incorporate near-real risk signals:
+
+* Runway < 9 months → survival priority
+* Unresolved ethics risk → hold
+* Founder overload → governance intervention
+* Strategy drift → capital freeze
+
+---
+
+# 🧠 SUMMARY — Roles in Capital Strategy
+
+### **Members**
+
+* Provide perspective, consent where required
+* Inform councils and board deliberations
+
+### **Boards**
+
+* Approve budgets and capital actions
+* Enforce capital discipline
+* Intervene in crisis
+* Support doctrine fidelity
+
+### **Councils**
+
+* Contextual evaluation
+* Early feasibility and recommendation
+
+### **OVCS Authority**
+
+* Doctrine & compliance certification
+* Policy gating
+
+### **UCUC**
+
+* Custody, execution, tranche control
+* Auditable ledger
+
+### **Mande**
+
+* Strategic investment planning
+* Risk/return analysis
+
+### **Niguvu**
+
+* Dispute resolution
+* Reconciliation and corrective actions
+
+---
+
+If you want, I can now generate any of the following:
+
+✅ **Mermaid/ASCII flow diagrams** showing decision paths
+✅ **Checklists or SOP templates** for each step (request, approval, monitoring)
+✅ **Governance scoring models** for capital proposal evaluation
+
+Just tell me which one you want first!
+
+Below is a **single, unified systems explanation** of **how capital, assets, people, and resources are generated, allocated, consumed, lifecycled, stabilized, and adaptively regulated** across your **entire ecosystem**, expressed in **systems-engineering terms** (not org charts, not finance silos).
+
+This is the **operating physics** of your world.
+
+---
+
+# I. SYSTEM PRIMITIVES (WHAT EVERYTHING REDUCES TO)
+
+Across **Ashe → Msingi → Pamoja Federation**, everything is reducible to **four conserved resource classes**:
+
+| Resource Class         | What It Is              | Examples                       |
+| ---------------------- | ----------------------- | ------------------------------ |
+| **Capital**            | Stored optionality      | Cash, credit, equity, grants   |
+| **Assets**             | Durable structures      | Land, IP, platforms, factories |
+| **Labor / Capability** | Transformative energy   | Members, squads, stewards      |
+| **Commons / Trust**    | Legitimacy & continuity | Governance, community mandate  |
+
+These resources **flow**, **convert**, **decay**, and **accumulate**.
+
+---
+
+# II. CORE CYCLES (THE ENGINE)
+
+You are not running companies.
+You are running **coupled cycles**.
+
+---
+
+## 1. ASHE CYCLE — *Human Energy Regulation*
+
+**Purpose:** Govern **who can act, decide, earn, and steward**
+
+### Membership Classes as Energy States
+
+| Class              | System Role                           |
+| ------------------ | ------------------------------------- |
+| **A — Worker**     | Converts tasks → output               |
+| **B — Steward**    | Converts strategy → coordination      |
+| **C — Governance** | Regulates risk & legitimacy           |
+| **D — Commons**    | Supplies mandate & trust              |
+| **E — Founder**    | Sets initial conditions & constraints |
+| **F — Capital**    | Injects optionality (non-decisional)  |
+| **G — Future**     | Pipeline of capability                |
+
+**Key Property:**
+
+> **No class self-regulates. Each class is regulated by another.**
+
+This prevents capture.
+
+---
+
+## 2. MSINGI CYCLE — *Programmatic Value Creation*
+
+**Purpose:** Convert **capital + labor → durable social/technical value**
+
+Each program is a **value transformer**:
+
+| Program | What It Produces            |
+| ------- | --------------------------- |
+| Kano    | Operational capability      |
+| Ndebe   | Repair / redress            |
+| Kuzu    | Infrastructure              |
+| Zalendo | Civic & governance capacity |
+| Zamba   | Cultural/media capital      |
+| Luma    | Knowledge & continuity      |
+
+Programs **consume capital** but **produce assets + legitimacy**.
+
+They are **time-bound**, not permanent.
+
+---
+
+## 3. PAMOJA FEDERATION — *Asset Multiplexing Layer*
+
+**Purpose:** Hold, specialize, and recombine assets **without collapsing sovereignty**
+
+Each coop is a **node** with:
+
+* Local autonomy
+* Shared doctrine
+* Federated risk controls
+
+No central command.
+Only **protocols**.
+
+---
+
+# III. CAPITAL SYSTEM (FLOW, NOT STOCK)
+
+### Capital is NEVER stored centrally long-term
+
+It is **cycled**.
+
+```
+[Capital Sources]
+   ↓
+[Capital Pools] ── governed by OVCS
+   ↓
+[Allocations] ── tranches, milestones
+   ↓
+[Programs / Studios]
+   ↓
+[Assets + Revenue + Trust]
+   ↓
+[Reinvestment / Reserves]
+```
+
+### Capital Sources
+
+* Revenue (preferred)
+* Grants / trusts (restricted)
+* Member contributions
+* External capital (Class F, non-control)
+
+### Capital Allocation Logic
+
+1. **Survival first** (legal, compliance, reserve)
+2. **Coherence** (archive, governance)
+3. **Execution** (programs, studios)
+4. **Expansion** (optional, late)
+
+---
+
+# IV. STUDIO & FACTORY SYSTEM (ASSET GENERATORS)
+
+Studios are **temporary phase-transition devices**, not companies.
+
+### Studio State Machine
+
+```
+IDEA
+ ↓
+INCUBATOR
+ ↓
+ACCELERATOR
+ ↓
+[ one of: ]
+   → OPERATOR (spin-out coop)
+   → REHABILITATOR (repair)
+   → RESEARCHER (knowledge asset)
+   → LIQUIDATOR (recover value)
+```
+
+Studios:
+
+* **Consume capital + labor**
+* **Produce**:
+
+  * New coops
+  * IP
+  * Platforms
+  * Toolchains
+  * Knowledge
+
+They **must exit**.
+
+---
+
+# V. ASSET LIFECYCLE (COMMON ACROSS ALL ENTITIES)
+
+Every asset (IP, land, platform, coop) follows the same lifecycle:
+
+```
+CREATE
+ ↓
+ACTIVATE
+ ↓
+OPERATE
+ ↓
+MAINTAIN
+ ↓
+ADAPT or SUNSET
+```
+
+Governance **forces sunset** when:
+
+* ROI < threshold
+* Mission drift detected
+* Maintenance > value
+
+This prevents zombie structures.
+
+---
+
+# VI. PEOPLE & LABOR HOMEOSTASIS
+
+Your system regulates **human load** like a biological system.
+
+### Homeostatic Controls (Stability)
+
+* Founder load caps
+* Role clarity
+* Compensation discipline
+* Deferred equity
+
+### Allostatic Controls (Adaptation)
+
+* Apprentices (Class G)
+* Temporary squads
+* Studio rotations
+* Program cycling
+
+> **No role is permanent. Only the system is.**
+
+---
+
+# VII. GOVERNANCE AS A FEEDBACK SYSTEM
+
+Governance is **not hierarchy**.
+It is **negative feedback**.
+
+| Body               | What It Regulates      |
+| ------------------ | ---------------------- |
+| Boards (Class C)   | Financial & legal risk |
+| Councils (Class D) | Social legitimacy      |
+| OVCS               | Systemic integrity     |
+| Archive            | Memory & traceability  |
+
+If **any loop fails**, instability propagates.
+
+---
+
+# VIII. EQUILIBRIUM CONDITIONS (SYSTEM HEALTH)
+
+Your ecosystem is **healthy** when:
+
+### Capital
+
+* Runway ≥ 9–12 months
+* No single dependency
+
+### People
+
+* Founder execution ≤ 30%
+* Succession viable
+
+### Assets
+
+* Maintenance < value
+* Clear ownership
+
+### Governance
+
+* Conflicts surfaced early
+* Decisions traceable
+
+This is **dynamic equilibrium**, not stasis.
+
+---
+
+# IX. FAILURE MODES (WHAT THIS DESIGN PREVENTS)
+
+* Founder capture
+* Capital capture
+* Mission drift
+* Asset rot
+* Community alienation
+* Over-scaling
+
+Most systems die here.
+Yours is explicitly designed not to.
+
+---
+
+# X. SINGLE SENTENCE SUMMARY (THE WHOLE SYSTEM)
+
+> **Capital flows through governed programs to produce assets;
+> assets are held by federated coops;
+> people rotate through regulated roles;
+> governance provides negative feedback;
+> studios create and exit;
+> memory compounds;
+> and nothing is allowed to become permanent except the rules.**
+
+---
+
+If you want next, the **only meaningful extensions** are:
+
+* **Full ASCII system diagrams (capital, people, asset flows)**
+* **Simulation of shock scenarios (capital loss, founder loss, political risk)**
+* **Canonical ontology / schema for Archive OS**
+
+Say which one.
+
+
+Below are **three full ASCII system diagrams** showing **capital flows, people/membership flows, and asset/studio flows** across **Ashe → Msingi → Pamoja Federation → Estates**, using **systems-engineering logic**.
+
+These are **canonical** diagrams you can embed directly into doctrine, charters, or the Archive OS.
+
+---
+
+# 1. CAPITAL FLOW SYSTEM (END-TO-END)
+
+```
+ [External Capital]         [Earned Revenue]         [Grants / Trusts]
+        |                         |                         |
+        v                         v                         v
+ +----------------------------------------------------------------+
+ |                    CAPITAL INTAKE LAYER                        |
+ |        (Screening, Ethics Review, Restrictions Check)          |
+ |                     ── OVCS Authority ──                       |
+ +----------------------------------------------------------------+
+                               |
+                               v
+ +----------------------------------------------------------------+
+ |                     CAPITAL POOLS / LEDGER                     |
+ |  • Survival Reserve        • Program Funds                     |
+ |  • Risk Buffer             • Studio Tranches                   |
+ |  • Restricted Trusts       • Reinvestment Pool                 |
+ +----------------------------------------------------------------+
+                               |
+        -------------------------------------------------------------
+        |                        |                         |
+        v                        v                         v
+ +-------------+        +----------------+        +----------------+
+ | Survival &  |        | Msingi Programs|        | OVCS Studios   |
+ | Compliance  |        | (6 Programs)   |        | (Creator etc.) |
+ +-------------+        +----------------+        +----------------+
+        |                        |                         |
+        |                        |                         |
+        v                        v                         v
+ +-------------+        +----------------+        +----------------+
+ |   Runway    |        | Assets + Trust |        | Spin-out Coops |
+ | Protection |        | + Capability   |        | / IP / Tools   |
+ +-------------+        +----------------+        +----------------+
+        |                        |                         |
+        -------------------------------------------------------------
+                               |
+                               v
+ +----------------------------------------------------------------+
+ |                   REINVESTMENT / REDISTRIBUTION                |
+ |        (Reserves, Maintenance, New Allocations)                |
+ +----------------------------------------------------------------+
+```
+
+**Key property:** capital **never terminates**; it either **stabilizes** or **re-enters circulation**.
+
+---
+
+# 2. PEOPLE / MEMBERSHIP FLOW (ASHE CYCLE)
+
+```
+                [Commons / Community]
+                        |
+                        v
+                +------------------+
+                | Class D          |
+                | Commons Members  |
+                | (Council)        |
+                +------------------+
+                        |
+                        v
++------------------+    |     +------------------+
+| Class G          |----+---->| Class A          |
+| Future Members   |          | Worker Members   |
+| (Apprentices)    |          | (Operators)      |
++------------------+          +------------------+
+                                     |
+                                     v
+                             +------------------+
+                             | Class B          |
+                             | Steward Members  |
+                             | (Strategic)      |
+                             +------------------+
+                                     |
+                                     v
+                             +------------------+
+                             | Class C          |
+                             | Governance       |
+                             | (Board)          |
+                             +------------------+
+                                     ^
+                                     |
+                             +------------------+
+                             | Class E          |
+                             | Founder-Member   |
+                             | (Navigator)      |
+                             +------------------+
+
+ [Class F Capital Participants]
+   ────────────────────────────┐
+   Capital only – no authority  │
+   No governance rights         │
+   Exit-based relationship     │
+                                v
+                         (Capital System Only)
+```
+
+**Key properties:**
+
+* No class governs itself
+* Founder is constrained from above and below
+* Capital never touches authority
+
+---
+
+# 3. ASSET + STUDIO TRANSFORMATION FLOW
+
+```
+            [Ideas / Needs / Research]
+                      |
+                      v
+              +------------------+
+              | OVCS Studio      |
+              | Intake & Review  |
+              +------------------+
+                      |
+                      v
+            +---------------------------+
+            | STUDIO STATE MACHINE      |
+            |                           |
+            |  Incubator                |
+            |     ↓                     |
+            |  Accelerator              |
+            |     ↓                     |
+            |  Creator / Researcher     |
+            |     ↓                     |
+            |  (Exit Required)          |
+            +---------------------------+
+                      |
+        -----------------------------------------------
+        |                    |                       |
+        v                    v                       v
++----------------+   +----------------+   +--------------------+
+| Spin-out Coop  |   | Knowledge/IP   |   | Liquidation / Exit |
+| (New Entity)   |   | (Archive)      |   | (Capital Recovery)|
++----------------+   +----------------+   +--------------------+
+        |                    |                       |
+        v                    v                       v
++----------------+   +----------------+   +--------------------+
+| Federation     |   | Canon /        |   | Reinvestment Pool |
+| Integration   |   | Commons Asset  |   |                   |
++----------------+   +----------------+   +--------------------+
+```
+
+**Rule:**
+
+> **No studio output remains unowned, undocumented, or permanent.**
+
+---
+
+# 4. FEDERATED COOP + ASSET HOLDING STRUCTURE
+
+```
+                 +-----------------------------+
+                 |        PAMOJA DOCTRINE      |
+                 |  (Shared Rules, Autonomy)  |
+                 +-----------------------------+
+                                 |
+     --------------------------------------------------------------------
+     |            |              |               |                     |
+     v            v              v               v                     v
++---------+  +----------+  +-----------+  +-----------+  +----------------+
+| Ubuntuwa|  | Uhuru CU |  | Moyo Coop |  | Bahari    |  | Ubunye / DESEF |
+| Commons |  | Credit   |  |           |  | Network   |  | Engineering    |
++---------+  +----------+  +-----------+  +-----------+  +----------------+
+     |            |              |               |                     |
+     --------------------------------------------------------------------
+                                 |
+                                 v
+                        +------------------+
+                        | Shared Assets    |
+                        | IP, Platforms,  |
+                        | Land, Knowledge |
+                        +------------------+
+```
+
+**Federation rule:** assets are **shared by protocol**, not by ownership collapse.
+
+---
+
+# 5. HOMEOSTASIS & ALLOSTASIS (SYSTEM REGULATION)
+
+```
+            ┌─────────────── HOMEOSTASIS ───────────────┐
+            |                                           |
+            |  • Runway thresholds                      |
+            |  • Founder load caps                      |
+            |  • Role clarity                           |
+            |  • Budget discipline                     |
+            |                                           |
+            └───────────────────────────────────────────┘
+                                   |
+                                   v
+            ┌─────────────── ALLOSTASIS ────────────────┐
+            |                                           |
+            |  • Studios                                |
+            |  • Apprentices                            |
+            |  • Program cycling                        |
+            |  • Coop formation / sunset                |
+            |                                           |
+            └───────────────────────────────────────────┘
+```
+
+Stability **and** adaptation coexist.
+
+---
+
+## ONE-LINE SYSTEM LAW
+
+> **Capital flows, people rotate, assets transform, governance constrains, memory compounds, and nothing escapes lifecycle.**
+
+---
+
+### If you want next, the only meaningful additions are:
+
+* **Shock-event simulations (bank failure, founder loss, regulatory attack)**
+* **Archive OS canonical schema (objects, states, transitions)**
+* **Executable policy tables (who can do what, when)**
+
+Below is a **complete, operational-grade response** to all three requests, delivered as **runbook + schema + executable rules**.
+Nothing abstract. Nothing decorative. This is what you **run when reality hits**.
+
+---
+
+# I. SHOCK-EVENT SIMULATIONS
+
+*(What actually happens when the system is hit)*
+
+Each simulation is written as a **state machine**, not a story.
+
+---
+
+## 1. BANK FAILURE / CAPITAL FREEZE
+
+### TRIGGER CONDITIONS
+
+* Primary bank insolvency
+* Account access frozen > 24 hours
+* Payment rails unavailable
+* Counterparty failure
+
+---
+
+### STATE MACHINE
+
+```
+NORMAL
+  ↓ (Bank access lost)
+CAPITAL SHOCK
+  ↓
+CONTAINMENT
+  ↓
+REDUNDANCY ACTIVATION
+  ↓
+STABILIZATION
+  ↓
+RETURN / REBALANCE
+```
+
+---
+
+### ACTION SEQUENCE
+
+**T+0–24 HOURS (CONTAINMENT)**
+
+* Freeze all non-essential spend
+* Activate secondary banking accounts
+* Lock capital ledger (read-only)
+* OVCS assumes capital authority
+
+**T+24–72 HOURS (REDUNDANCY)**
+
+* Route revenue to backup accounts
+* Draw on survival reserve
+* Delay payroll if legally permitted
+* Notify board (facts only)
+
+**T+3–14 DAYS (STABILIZATION)**
+
+* Replace banking partner
+* Reallocate capital pools
+* Adjust runway models
+* Archive incident report
+
+---
+
+### SYSTEM OUTCOME
+
+* No new programs launched
+* No equity or comp changes
+* Survival preserved
+* Trust maintained
+
+---
+
+## 2. FOUNDER LOSS (INCAPACITY OR DEATH)
+
+*(Summarized here; detailed protocol already defined)*
+
+### STATE MACHINE
+
+```
+NORMAL
+  ↓ (Founder unavailable)
+AUTHORITY SUSPENSION
+  ↓
+INTERIM STEWARDSHIP
+  ↓
+CONTINUITY DECISION
+  ↓
+SUCCESSION / WIND-DOWN
+```
+
+---
+
+### ACTION SEQUENCE (FIRST 72 HOURS)
+
+* OVCS assumes supreme authority
+* Archive frozen
+* Banking & signing authority locked
+* Interim Steward appointed
+* Internal notice issued
+
+---
+
+### DECISION POINT (≤ 90 DAYS)
+
+* Continue as-is
+* Collective stewardship
+* Orderly wind-down
+
+Founder equity **does not accelerate**.
+Heirs receive **economic interest only**.
+
+---
+
+## 3. REGULATORY / LEGAL ATTACK
+
+### TRIGGERS
+
+* Subpoena
+* Regulatory inquiry
+* License suspension
+* Political/legal harassment
+
+---
+
+### STATE MACHINE
+
+```
+NORMAL
+  ↓
+LEGAL SHOCK
+  ↓
+DEFENSIVE MODE
+  ↓
+COMPLIANCE / CONTEST
+  ↓
+RESOLUTION
+```
+
+---
+
+### ACTION SEQUENCE
+
+**IMMEDIATE**
+
+* Halt affected operations
+* Retain counsel
+* Preserve all records
+* Public silence
+
+**MID-TERM**
+
+* Separate affected entity
+* Firewall other coops
+* Shift programs if needed
+
+**RESOLUTION**
+
+* Comply, contest, or exit jurisdiction
+* Update doctrine
+* Archive precedent
+
+---
+
+### SYSTEM RULE
+
+> **The federation survives even if one node is sacrificed.**
+
+---
+
+# II. ARCHIVE OS — CANONICAL SCHEMA
+
+*(Objects, states, transitions)*
+
+This is the **memory engine** of the ecosystem.
+
+---
+
+## CORE OBJECT TYPES
+
+```
+OBJECTS
+├── Decision
+├── Policy
+├── Strategy
+├── Program
+├── Asset
+├── Capital Allocation
+├── Risk
+├── Incident
+├── Role
+├── Authority
+├── Entity
+├── Person
+└── Knowledge Artifact
+```
+
+---
+
+## UNIVERSAL OBJECT STATES
+
+Every object follows the same lifecycle:
+
+```
+DRAFT
+  ↓
+REVIEW
+  ↓
+ACTIVE
+  ↓
+SUPERSEDED or SUNSET
+  ↓
+ARCHIVED (immutable)
+```
+
+---
+
+## KEY OBJECT DEFINITIONS
+
+### DECISION
+
+* Fields: owner, authority, rationale, impact, date
+* Rule: **No decision without authority reference**
+
+### ASSET
+
+* Fields: type, owner, steward, value, maintenance cost
+* Rule: **Unmaintained assets must sunset**
+
+### CAPITAL ALLOCATION
+
+* Fields: source, restrictions, tranche, owner, expiry
+* Rule: **Every allocation has a kill-switch**
+
+### INCIDENT
+
+* Fields: trigger, scope, response, outcome
+* Rule: **Incidents create doctrine**
+
+---
+
+## TRANSITIONS (EXAMPLES)
+
+```
+Decision: DRAFT → ACTIVE
+  Requires: Authority + Archive entry
+
+Asset: ACTIVE → SUNSET
+  Trigger: Cost > Value or Mission Drift
+
+Program: ACTIVE → ARCHIVED
+  Trigger: Time-bound completion or failure
+```
+
+---
+
+## ARCHIVE AXIOM
+
+> **If it is not in the Archive, it did not happen.
+> If it cannot be archived, it must not happen.**
+
+---
+
+# III. EXECUTABLE POLICY TABLES
+
+*(Who can do what, when — no interpretation)*
+
+---
+
+## 1. CAPITAL AUTHORITY MATRIX
+
+| Action           | Class A | Class B | Class C (Board) | OVCS | Founder |
+| ---------------- | ------- | ------- | --------------- | ---- | ------- |
+| Spend <$5k       | ❌       | ✅       | ❌               | ❌    | ❌       |
+| Spend >$5k       | ❌       | ❌       | ❌               | ✅    | ❌       |
+| Allocate Capital | ❌       | ❌       | ✅               | ✅    | ❌       |
+| Accept Capital   | ❌       | ❌       | ❌               | ✅    | ❌       |
+| Freeze Capital   | ❌       | ❌       | ❌               | ✅    | ❌       |
+
+---
+
+## 2. PEOPLE / ROLE AUTHORITY
+
+| Action                 | Worker (A) | Steward (B) | Board (C) | Council (D) | Founder (E)   |
+| ---------------------- | ---------- | ----------- | --------- | ----------- | ------------- |
+| Execute Tasks          | ✅          | ❌           | ❌         | ❌           | ❌             |
+| Assign Tasks           | ❌          | ✅           | ❌         | ❌           | ❌             |
+| Change Strategy        | ❌          | ❌           | ❌         | ❌           | ❌             |
+| Interpret Doctrine     | ❌          | ❌           | ❌         | ❌           | ❌             |
+| Enforce Doctrine       | ❌          | ❌           | ❌         | ❌           | ❌             |
+| **Doctrine Authority** | ❌          | ❌           | ❌         | ❌           | ❌             |
+| **Doctrine Veto**      | ❌          | ❌           | ❌         | ❌           | **OVCS ONLY** |
+
+---
+
+## 3. ASSET LIFECYCLE AUTHORITY
+
+| Action         | Program Lead | Board | OVCS |
+| -------------- | ------------ | ----- | ---- |
+| Create Asset   | ✅            | ❌     | ❌    |
+| Operate Asset  | ✅            | ❌     | ❌    |
+| Modify Asset   | ❌            | ❌     | ❌    |
+| Sunset Asset   | ❌            | ✅     | ✅    |
+| Transfer Asset | ❌            | ❌     | ✅    |
+
+---
+
+## 4. CRISIS AUTHORITY OVERRIDE
+
+| Condition          | Authority |
+| ------------------ | --------- |
+| Financial collapse | OVCS      |
+| Founder loss       | OVCS      |
+| Ethical breach     | OVCS      |
+| Regulatory threat  | OVCS      |
+| Capital freeze     | OVCS      |
+
+No exceptions.
+
+---
+
+# IV. SYSTEM-LEVEL LAW (THE WHOLE THING)
+
+> **People act.
+> Capital flows.
+> Assets transform.
+> Governance constrains.
+> Memory compounds.
+> Shock reveals truth.
+> And only systems that expect disruption survive it.**
+
+---
+
+### If you want next (only logical continuations):
+
+* **Full Archive OS ontology as JSON / YAML**
+* **Simulation walkthroughs with timelines**
+* **Printable governance + crisis wall charts**
+* **Executable policy DSL**
+
+Say which one.
+
+Below is a **defensive doctrine + operating system** for **regulatory and legal attacks**, written the way it must exist in your ecosystem: **pre-emptive, procedural, federated, and survivable**.
+
+This is not “compliance advice.”
+It is **attack-aware systems governance**.
+
+---
+
+# REGULATORY & LEGAL ATTACK DOCTRINE
+
+*(Mitigation, containment, survival, adaptation)*
+
+---
+
+## I. THREAT MODEL (WHAT WE ASSUME IS POSSIBLE)
+
+We assume **good faith regulation** *and* **bad faith attack** are indistinguishable at the outset.
+
+### Attack Vectors
+
+* Licensing / registration challenges
+* Banking and financial controls
+* Employment classification audits
+* Securities / capital-raising inquiries
+* Zoning / land-use / environmental enforcement
+* Tax authority audits
+* Political or reputational lawfare
+* Injunctions to halt operations
+
+**System assumption:**
+
+> Any node can be attacked; the federation must survive loss of nodes.
+
+---
+
+## II. CORE DEFENSE PRINCIPLES (NON-NEGOTIABLE)
+
+1. **Containment before defense**
+2. **Federation over monolith**
+3. **Separation of capital, authority, and labor**
+4. **Jurisdictional optionality**
+5. **Documentation as armor**
+6. **Sacrificial subsidiaries are acceptable**
+
+---
+
+## III. PRE-ATTACK MITIGATION (BUILT-IN IMMUNITY)
+
+### 1. STRUCTURAL MITIGATION (DESIGN-TIME)
+
+```
+[Regulators] ──X──> [Single Coop]
+                     ↓
+             [Federated Coops]
+                     ↓
+           [Autonomous Legal Nodes]
+```
+
+**Mitigation Techniques**
+
+* Each coop is:
+
+  * Separately incorporated
+  * Separately banked
+  * Separately licensed where required
+* No shared payroll across regulated lines
+* No universal operating license
+* Capital participants are non-members (Class F)
+
+**Outcome:**
+
+> An attack on one entity does not propagate.
+
+---
+
+### 2. CAPITAL & FINANCIAL MITIGATION
+
+* Multiple banks (credit union + commercial)
+* Multiple payment rails
+* Survival reserves outside operating accounts
+* Restricted trusts legally insulated
+* No commingling between:
+
+  * Investment capital
+  * Program funds
+  * Operating payroll
+
+**Outcome:**
+
+> Regulators can freeze an account, not the system.
+
+---
+
+### 3. ROLE & EMPLOYMENT MITIGATION
+
+* Clear worker vs steward vs board vs founder roles
+* Contractors where appropriate
+* Apprentices clearly non-employees
+* Written authority boundaries
+* No “shadow management”
+
+**Outcome:**
+
+> Employment audits fail to pierce structure.
+
+---
+
+### 4. DOCUMENTATION MITIGATION (ARCHIVE OS)
+
+Every regulated activity has:
+
+* A policy
+* An authority
+* A record
+* A version history
+
+**Outcome:**
+
+> Discovery favors us.
+
+---
+
+## IV. ACTIVE ATTACK RESPONSE (WHEN IT HITS)
+
+---
+
+## A. UNIVERSAL FIRST 48 HOURS (ALL ATTACK TYPES)
+
+```
+TRIGGER
+  ↓
+LEGAL FREEZE
+  ↓
+AUTHORITY CONSOLIDATION
+  ↓
+COMMUNICATION SILENCE
+```
+
+### Actions
+
+* Halt affected operations immediately
+* Freeze Archive objects (read-only)
+* OVCS assumes authority
+* Retain counsel (jurisdiction-specific)
+* No public statements
+* No internal speculation
+
+---
+
+## B. ATTACK-SPECIFIC PLAYBOOKS
+
+---
+
+### 1. FINANCIAL REGULATORY ATTACK (BANKING, SEC, AML)
+
+**Examples**
+
+* Account freezes
+* Capital questioning
+* Investment structure scrutiny
+
+**Mitigation**
+
+* Shift cash flow to unaffected entities
+* Activate credit union rails
+* Suspend capital intake
+* Demonstrate segregation
+* If needed: spin off or liquidate targeted vehicle
+
+**Doctrine Rule**
+
+> Capital pauses; operations continue.
+
+---
+
+### 2. EMPLOYMENT / LABOR ATTACK
+
+**Examples**
+
+* Worker misclassification claims
+* Wage/hour audits
+
+**Mitigation**
+
+* Produce role charters
+* Produce task logs
+* Demonstrate member-owner distinctions
+* Reassign functions temporarily
+* Exit jurisdictions if necessary
+
+**Doctrine Rule**
+
+> Labor adapts faster than law.
+
+---
+
+### 3. LICENSING / ZONING / ENVIRONMENTAL ATTACK
+
+**Examples**
+
+* Makerspaces, factories, land use
+
+**Mitigation**
+
+* Pause physical operations
+* Shift to research / design
+* Lease or relocate
+* Spin down affected site
+* Preserve IP centrally
+
+**Doctrine Rule**
+
+> Physical nodes are expendable; knowledge is not.
+
+---
+
+### 4. TAX AUTHORITY ATTACK
+
+**Examples**
+
+* Audits, penalties, reclassification
+
+**Mitigation**
+
+* Produce ledgers and doctrine
+* Demonstrate nonprofit vs coop separation
+* Negotiate, settle, or restructure
+* Close and reincorporate if required
+
+**Doctrine Rule**
+
+> Entities are renewable.
+
+---
+
+## V. FEDERATION FIREWALLING (CRITICAL)
+
+```
+[Attacked Entity]
+      |
+      X  (Legal Firewall)
+      |
+[Other Coops Continue]
+```
+
+**Mechanisms**
+
+* No cross-guarantees
+* No shared debt
+* No shared licenses
+* No shared officers where risky
+
+**Outcome:**
+
+> The blast radius is bounded.
+
+---
+
+## VI. STRATEGIC ESCALATION OPTIONS
+
+When an attack is **political or existential**:
+
+1. **Contest** (legal challenge)
+2. **Comply** (temporary)
+3. **Exit** (jurisdiction)
+4. **Sacrifice** (entity)
+5. **Adapt** (structure)
+6. **Narrative shift** (legitimate public response)
+
+These are **not emotional decisions** — they are **system choices**.
+
+---
+
+## VII. POST-ATTACK HARDENING
+
+Every attack produces:
+
+* An Incident object
+* Updated policy
+* Structural change
+* Archive precedent
+
+```
+ATTACK
+  ↓
+SURVIVAL
+  ↓
+ADAPTATION
+  ↓
+SYSTEM STRONGER
+```
+
+---
+
+## VIII. ONE-PAGE REGULATORY LAW
+
+> **We do not seek approval to exist.
+> We design to withstand scrutiny.
+> We compartmentalize risk.
+> We expect pressure.
+> We survive by structure, not argument.**
+
+---
+
+## IX. WHAT THIS GIVES YOU
+
+* No single point of regulatory failure
+* Legal optionality
+* Capital protection
+* Continuity under attack
+* Ability to absorb bad-faith actions
+
+---
+
+### If you want next (high-value):
+
+* **Jurisdictional arbitrage map**
+* **Regulatory risk heat-map per entity**
+* **Regulator-facing narrative templates**
+* **Entity sacrifice decision tree**
+
+Say the word.
+
+Below is the **complete defensive expansion** you asked for, delivered as **maps, matrices, templates, and decision trees** that you can actually use under pressure.
+
+This is written as **system doctrine**, not advice.
+
+---
+
+# I. JURISDICTIONAL ARBITRAGE MAP
+
+*(Where functions live when pressure changes)*
+
+The federation is **jurisdiction-fluid**. Different functions belong in different legal climates.
+
+---
+
+## FUNCTION → JURISDICTION LOGIC
+
+```
++----------------------+-------------------------------+
+| FUNCTION             | OPTIMAL JURISDICTION PROFILE |
++----------------------+-------------------------------+
+| Capital Holding      | Strong trust law, CU-friendly |
+| Investment Vehicles  | Clear fund regulation         |
+| Worker Coops         | Coop-recognizing states       |
+| Studios / Makerspaces| Light zoning & OSHA clarity  |
+| IP Holding           | Strong IP + bankruptcy shield|
+| Research / Education | Academic & nonprofit friendly|
+| Community Trusts     | CLT + charitable law clarity |
++----------------------+-------------------------------+
+```
+
+---
+
+## ARBITRAGE STRATEGY (SIMPLIFIED MAP)
+
+```
+           LOW REGULATION
+               ▲
+               |
+     IP / R&D   |   Community Programs
+               |
+---------------+------------------> ENFORCEMENT
+               |
+   Capital     |   Physical Ops
+   Holding     |
+               |
+           HIGH REGULATION
+```
+
+**Rule:**
+
+> Move *functions*, not people.
+> Spin entities, not arguments.
+
+---
+
+## EXECUTION RULES
+
+* No single jurisdiction hosts:
+
+  * Capital + Labor + Governance
+* Exit plans documented **before** entry
+* Every entity has:
+
+  * Incorporation successor
+  * Bank successor
+  * Operational successor
+
+---
+
+# II. REGULATORY RISK HEAT-MAP (PER ENTITY TYPE)
+
+### RISK LEVELS
+
+🟢 Low 🟡 Medium 🔴 High ⚫ Existential
+
+---
+
+## FEDERATION RISK MATRIX
+
+| Entity Type               | Labor | Capital | Licensing | Tax | Political | Overall |
+| ------------------------- | ----- | ------- | --------- | --- | --------- | ------- |
+| Credit Union Coop         | 🟡    | 🔴      | 🔴        | 🟡  | 🟡        | 🔴      |
+| Venture Studio Coop       | 🟡    | 🟡      | 🟡        | 🟡  | 🟡        | 🟡      |
+| Manufacturing Coop        | 🔴    | 🟡      | 🔴        | 🟡  | 🟡        | 🔴      |
+| Software Coop             | 🟢    | 🟡      | 🟢        | 🟡  | 🟡        | 🟡      |
+| Community Trust / CLT     | 🟢    | 🟢      | 🟡        | 🟡  | 🔴        | 🟡      |
+| Investment Holding Coop   | 🟢    | 🔴      | 🔴        | 🔴  | 🟡        | 🔴      |
+| Education / Research Coop | 🟢    | 🟢      | 🟢        | 🟢  | 🟡        | 🟢      |
+
+---
+
+## INTERPRETATION RULE
+
+* 🔴 = pre-approved sacrifice candidate
+* 🟡 = monitor, modularize
+* 🟢 = anchor entities
+
+---
+
+# III. REGULATOR-FACING NARRATIVE TEMPLATES
+
+*(What we say — and do not say)*
+
+These are **neutral, boring, defensible**.
+
+---
+
+## 1. OPENING STATEMENT (ALL CASES)
+
+> “We take regulatory obligations seriously.
+> Our organization operates as a federation of independent cooperatives, each with distinct governance, finances, and operations.
+> We are prepared to provide documentation relevant to the specific entity and scope under review.”
+
+**Rules**
+
+* Never describe the *whole* system
+* Never volunteer cross-entity detail
+* Never speculate
+
+---
+
+## 2. CAPITAL / SEC-TYPE INQUIRY
+
+> “Capital participants are non-members with no governance authority.
+> Each investment vehicle is separately capitalized, documented, and restricted.
+> Funds are not commingled with operating or payroll accounts.”
+
+---
+
+## 3. LABOR / EMPLOYMENT INQUIRY
+
+> “Members are worker-owners under cooperative law, not employees.
+> Roles, authorities, and compensation are documented.
+> Apprentices and fellows are non-labor educational participants.”
+
+---
+
+## 4. LICENSING / ZONING INQUIRY
+
+> “Physical operations are limited to the licensed entity and location under review.
+> Other activities are research, design, or education and do not require the same authorization.”
+
+---
+
+## 5. WHEN TO STOP TALKING
+
+> “We will respond through counsel with the requested materials.”
+
+Silence is compliance.
+
+---
+
+# IV. ENTITY SACRIFICE DECISION TREE
+
+*(When to save, spin, or kill a node)*
+
+This is **cold logic**.
+
+---
+
+## DECISION TREE
+
+```
+            REGULATORY ATTACK
+                    |
+          +---------+---------+
+          |                   |
+   CORE ASSET?            NON-CORE?
+          |                   |
+        YES                  NO
+          |                   |
+  +-------+-------+       +---+---+
+  |               |       |       |
+ RELOCATABLE?   NOT?    CONTAIN  SACRIFICE
+  |               |       |       |
+ YES             NO      SPIN     LIQUIDATE
+  |               |
+ SPIN             |
+                  |
+           DOES IT THREATEN
+           THE FEDERATION?
+                  |
+              +---+---+
+              |       |
+             YES      NO
+              |       |
+         SACRIFICE   CONTAIN
+```
+
+---
+
+## SACRIFICE CRITERIA (ANY = KILL)
+
+* Threatens other entities
+* Forces commingling
+* Requires governance compromise
+* Drains survival reserves
+* Politically targeted beyond defense
+
+---
+
+## SACRIFICE PROTOCOL
+
+1. Freeze operations
+2. Preserve Archive + IP
+3. Settle or default cleanly
+4. Dissolve entity
+5. Reconstitute function elsewhere
+
+**Doctrine rule:**
+
+> Entities are disposable.
+> Capabilities are not.
+
+---
+
+# V. SYSTEM-LEVEL REGULATORY LAW
+
+> **We do not win by persuasion.
+> We survive by structure.
+> We decentralize risk.
+> We compartmentalize failure.
+> We expect attack.
+> We design for continuity.**
+
+---
+
+## If you want next (this is the final layer):
+
+* **Jurisdiction-specific entity blueprints**
+* **Attack rehearsal simulations (tabletop)**
+* **One-page regulator briefing packs**
+* **Red team adversarial stress tests**
+
+Say the next command.

@@ -20155,3 +20155,915 @@ If you want this as executable artifacts, I can produce:
 🛠 **Federation graph API DSL**
 
 Just tell me which one you need.
+
+Below is a **comprehensive Archive Object Specifications list** for your federation’s **Archive OS**, covering *all major artifact types your systems create or interact with* — including ZULAMBA, Bahari Network, LUNGARA, governance decisions, HR/roles, member network, compliance, audits, policies, incidents, and more.
+
+Each entry defines:
+
+✔ **Object Type**
+✔ **Purpose**
+✔ **Core Fields**
+✔ **Relationships**
+✔ **Retention / Lifecycle Notes**
+
+These are meant to be used as **Archive OS object definitions** for implementation and/or code generation (JSON/SQL schemas) and to support immutable, auditable storage.
+
+---
+
+# 📁 ARCHIVE OBJECT SPECIFICATIONS
+
+---
+
+## 1) **Member Profile Object**
+
+**Type:** `member.profile`
+**Purpose:** Master record of a federation member
+
+**Core Fields**
+
+```json
+{
+  "memberUID": "string",
+  "fullName": "string",
+  "class": "enum[A-G]",
+  "personaTags": ["string"],
+  "competencies": ["string"],
+  "status": "enum[active, suspended, retired]",
+  "profileVersion": "string",
+  "authorityRefs": ["string"],
+  "privacyLevel": "string",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Refers to roles (`roleId`)
+* Refers to compliance status (`complianceId`)
+* Refers to audit objects (`auditIds[]`)
+
+**Lifecycle Notes**
+
+* Versioned on every update
+* Never deleted; only retired
+
+---
+
+## 2) **Role Definition Object**
+
+**Type:** `role.definition`
+**Purpose:** Defines job/role outcomes and authorities
+
+**Core Fields**
+
+```json
+{
+  "roleId": "string",
+  "title": "string",
+  "classAllowed": ["enum[A-G]"],
+  "purpose": "string",
+  "outputs": ["string"],
+  "authorityTableRefs": ["string"],
+  "competencyRefs": ["string"],
+  "status": "enum[draft, active, retired]",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Connected to decision tables
+* Referenced by member profiles
+
+**Lifecycle**
+
+* Versioned
+* Review and retirement tracked
+
+---
+
+## 3) **Decision Table Object**
+
+**Type:** `decision.table`
+**Purpose:** Canonical governance logic statements
+
+**Core Fields**
+
+```json
+{
+  "tableId": "string",
+  "description": "string",
+  "inputs": {"type": "object"},
+  "outputs": {"type": "object"},
+  "rules": ["string"],
+  "approvalChain": ["string"],
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Authority-linked from roles
+* Used by operational engines
+
+---
+
+## 4) **Policy Document Object**
+
+**Type:** `policy.document`
+**Purpose:** Federation-wide or entity-level policy
+
+**Core Fields**
+
+```json
+{
+  "policyId": "string",
+  "title": "string",
+  "scope": "string",
+  "text": "string",
+  "effectiveDate": "date",
+  "status": "enum[proposed, active, archived]",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Referenced in compliance checks
+* Used by ZULAMBA enforcement
+
+---
+
+## 5) **Compliance Status Object**
+
+**Type:** `compliance.status`
+**Purpose:** Snapshot of compliance posture
+
+**Core Fields**
+
+```json
+{
+  "complianceId": "string",
+  "entityId": "string",
+  "memberUID": "string",
+  "policyRefs": ["string"],
+  "status": "enum[pass, fail, warning]",
+  "complianceDetails": ["string"],
+  "checkedAt": "timestamp",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Links to policy objects
+* May trigger audit or incident
+
+---
+
+## 6) **Audit Record Object**
+
+**Type:** `audit.record`
+**Purpose:** Records results of an audit
+
+**Core Fields**
+
+```json
+{
+  "auditId": "string",
+  "auditedEntity": "string",
+  "auditedMember": "string",
+  "auditType": "string",
+  "findings": ["string"],
+  "recommendations": ["string"],
+  "auditDate": "date",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Links to compliance objects
+* Tied to entity or member
+
+---
+
+## 7) **Incident Report Object**
+
+**Type:** `incident.report`
+**Purpose:** Records a safety, security, compliance, or member issue
+
+**Core Fields**
+
+```json
+{
+  "incidentId": "string",
+  "reportedBy": "string",
+  "memberUIDs": ["string"],
+  "incidentType": "string",
+  "severity": "integer",
+  "description": "string",
+  "status": "enum[open, in_review, resolved]",
+  "relatedPolicyRefs": ["string"],
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* May reference member profile(s)
+* May generate compliance objects
+* May generate audit tasks
+
+---
+
+## 8) **War-Games Scenario Object**
+
+**Type:** `war.games.scenario`
+**Purpose:** Definition of a LUNGARA exercise
+
+**Core Fields**
+
+```json
+{
+  "scenarioId": "string",
+  "title": "string",
+  "description": "string",
+  "triggers": ["string"],
+  "expectedOutcomes": ["string"],
+  "injectedRisks": ["string"],
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Tied to LUNGARA execution logs
+* Uses member and entity data
+
+---
+
+## 9) **War-Games Execution Log Object**
+
+**Type:** `war.games.execution.log`
+**Purpose:** Logs a run of a war-game scenario
+
+**Core Fields**
+
+```json
+{
+  "executionId": "string",
+  "scenarioId": "string",
+  "participants": ["string"],
+  "score": "number",
+  "results": ["string"],
+  "timestamp": "timestamp",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* References scenario definitions
+* Contributes to member and role review
+
+---
+
+## 10) **Entity Mode Object**
+
+**Type:** `entity.mode`
+**Purpose:** Current mode or state of an entity (normal, defensive, emergency)
+
+**Core Fields**
+
+```json
+{
+  "entityModeId": "string",
+  "entityId": "string",
+  "mode": "enum[normal, caution, defensive, emergency]",
+  "effectiveFrom": "timestamp",
+  "reason": "string",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Used by decision engines
+* Used in war-games
+
+---
+
+## 11) **Member Network Edge Object**
+
+**Type:** `member.network.edge`
+**Purpose:** Records connections in the member social/professional graph
+
+**Core Fields**
+
+```json
+{
+  "edgeId": "string",
+  "memberA": "string",
+  "memberB": "string",
+  "edgeType": "enum[social, professional, authority]",
+  "createdAt": "timestamp",
+  "metadata": {"type": "object"},
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* References member profiles
+* Used in social/competency graphs
+
+---
+
+## 12) **Skill & Competency Object**
+
+**Type:** `skill.competency`
+**Purpose:** Defines a skill or competency for members
+
+**Core Fields**
+
+```json
+{
+  "skillId": "string",
+  "name": "string",
+  "description": "string",
+  "levelDescriptors": ["string"],
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Linked from member profile
+* Linked to roles
+
+---
+
+## 13) **Decision Table Audit Object**
+
+**Type:** `decision.table.audit`
+**Purpose:** Tracks evaluations of decision logic
+
+**Core Fields**
+
+```json
+{
+  "decisionAuditId": "string",
+  "decisionTableId": "string",
+  "inputs": {"type": "object"},
+  "outputs": {"type": "object"},
+  "evaluatedAt": "timestamp",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Linked from decision tables
+
+---
+
+## 14) **Policy Compliance Exception Object**
+
+**Type:** `policy.compliance.exception`
+**Purpose:** Captures exceptions granted at governance level
+
+**Core Fields**
+
+```json
+{
+  "exceptionId": "string",
+  "policyRef": "string",
+  "memberOrEntityId": "string",
+  "reason": "string",
+  "grantedBy": "string",
+  "grantedAt": "timestamp",
+  "expiresAt": "timestamp",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Linked to affected policy
+* Linked to member/entity
+
+---
+
+## 15) **Member Protection Order Object**
+
+**Type:** `member.protection.order`
+**Purpose:** Formal protection status for member(s)
+
+**Core Fields**
+
+```json
+{
+  "protectionOrderId": "string",
+  "memberUID": "string",
+  "type": "string",
+  "issuedBy": "string",
+  "issuedAt": "timestamp",
+  "expiresAt": "timestamp",
+  "notes": "string",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Can reference incidents
+* Applies conditions for access & events
+
+---
+
+## 16) **Archive Change Event Object**
+
+**Type:** `archive.change.event`
+**Purpose:** Captures metadata for any object change
+
+**Core Fields**
+
+```json
+{
+  "changeId": "string",
+  "objectType": "string",
+  "objectId": "string",
+  "changeType": "enum[create, update, archive, retire]",
+  "changedBy": "string",
+  "changedAt": "timestamp",
+  "previousHash": "string",
+  "newHash": "string"
+}
+```
+
+**Relationships**
+
+* References any archived object
+
+---
+
+## 17) **Governance Vote Object**
+
+**Type:** `governance.vote`
+**Purpose:** Records voting on OVAC decisions
+
+**Core Fields**
+
+```json
+{
+  "voteId": "string",
+  "motion": "string",
+  "voters": ["string"],
+  "results": {"type": "object"},
+  "votedAt": "timestamp",
+  "archiveHash": "string"
+}
+```
+
+**Relationships**
+
+* Tied to policy objects
+
+---
+
+# RETENTION & RETIREMENT NOTES
+
+* Objects are **immutable** once archived; updates create new versions.
+* **Retirement** sets status to `retired` but keeps object in Archive.
+* **Audit trails** always link to previous hashes for integrity.
+
+---
+
+# NEXT STEPS (OPTIONAL)
+
+You can ask for:
+
+📊 **JSON schemas** for these object types
+📈 **Entity–relationship diagram** (text or graphic)
+⚙️ **OpenAPI / API DSL** for Archive object CRUD
+🧠 **Mapping to decision-table triggers**
+
+Just tell me which format or layer you want next!
+
+Below is a **comprehensive mapping of decision-table triggers** to the **Archive object types** and **operational events** in your federation. This shows *which decision tables are triggered by which object changes or workflows* — essential for automation, policy enforcement, war-games, compliance audits, and crisis escalation.
+
+For each mapping, I include:
+
+🔹 **Trigger Condition** — what event or state causes a decision table to be evaluated
+🔹 **Decision Table(s)** — the logic applied
+🔹 **Archive Object(s)** — the archived artifact(s) involved
+🔹 **Outcome Actions** — what happens if table outputs are met
+
+This is structured so it can be turned into **JSON specifications, workflow automation, or code maps**.
+
+---
+
+# 🧠 DECISION-TABLE ↔ ARCHIVE OBJECT TRIGGERS — MASTER MAPPING
+
+---
+
+## 1) **Member Onboarding / Class Assignment**
+
+**Trigger Condition**
+
+* A new `member.profile` object is created
+
+**Decision Table(s)**
+
+* `HR1` — Member Class Eligibility
+* `HR2` — Authority Boundary Mapping
+
+**Archived Objects**
+
+* `member.profile`
+* `archive.change.event`
+
+**Outcomes**
+
+* Assign appropriate authorityRefs
+* Enforce privacy and default permissions
+
+---
+
+## 2) **Role Assignment / Role Change**
+
+**Trigger Condition**
+
+* A member is linked to a new `role.definition`
+* `member.profile` updated with `roleId`
+
+**Decision Table(s)**
+
+* `HR1` — Role Class Eligibility
+* `AUTH1` — Authority Boundary Check
+* `COM1` — Competency Validation
+
+**Archived Objects**
+
+* `member.profile`
+* `role.definition`
+* `archive.change.event`
+
+**Outcomes**
+
+* Update authorityRefs
+* Validate against decision tables before activation
+
+---
+
+## 3) **Authority Boundary Violation Attempt**
+
+**Trigger Condition**
+
+* A role or member attempts an action outside allowed scope
+
+**Decision Table(s)**
+
+* `AUTH2` — Authority Violation Detection
+* `ESC1` — Escalation Condition Table
+
+**Archived Objects**
+
+* `decision.table.audit`
+* `incident.report`
+* `member.profile`
+
+**Outcomes**
+
+* Log incident
+* Temporarily restrict authority
+* Notify OVAC
+
+---
+
+## 4) **Policy Publication / Update**
+
+**Trigger Condition**
+
+* A `policy.document` object changes status to `active`
+
+**Decision Table(s)**
+
+* `POL1` — Policy Compatibility Check
+* `COM2` — Compliance Risk Recalculation
+
+**Archived Objects**
+
+* `policy.document`
+* `archive.change.event`
+
+**Outcomes**
+
+* Push policy through Bahari
+* Trigger federation compliance updates
+
+---
+
+## 5) **Compliance Check / Status Change**
+
+**Trigger Condition**
+
+* A `compliance.status` object update
+* Real-time compliance event via Bahari
+
+**Decision Table(s)**
+
+* `COM1` — Compliance Summary Table
+* `ESC2` — Compliance Escalation Thresholds
+
+**Archived Objects**
+
+* `compliance.status`
+* `archive.change.event`
+
+**Outcomes**
+
+* Mark entity or member as compliant/warning/fail
+* Queue audit tasks
+
+---
+
+## 6) **Audit Findings Released**
+
+**Trigger Condition**
+
+* New `audit.record` created
+
+**Decision Table(s)**
+
+* `AUD1` — Audit Response Table
+* `RISK1` — Risk Increase Check
+
+**Archived Objects**
+
+* `audit.record`
+* `compliance.status`
+* `incident.report`
+
+**Outcomes**
+
+* Update risk dashboards
+* Trigger remediation workflows
+
+---
+
+## 7) **Incident Report Filed**
+
+**Trigger Condition**
+
+* `incident.report` created or updated
+
+**Decision Table(s)**
+
+* `INC1` — Incident Classification
+* `SFTY1` — Safety Severity Table
+* `PRIV1` — Privacy Breach Evaluation
+
+**Archived Objects**
+
+* `incident.report`
+* `member.protection.order`
+
+**Outcomes**
+
+* Trigger member protections
+* Route to appropriate governance body
+
+---
+
+## 8) **War-Games Execution (LUNGARA)**
+
+**Trigger Condition**
+
+* New `war.games.execution.log` is archived
+
+**Decision Table(s)**
+
+* `WG1` — Scenario Outcome Evaluation
+* `WG2` — Resilience Failure Consequence
+
+**Archived Objects**
+
+* `war.games.execution.log`
+* `war.games.scenario`
+* `member.profile`
+
+**Outcomes**
+
+* System passes/conditional/fails
+* Trigger member/role reviews
+
+---
+
+## 9) **Entity Mode Change**
+
+**Trigger Condition**
+
+* `entity.mode` transitions state
+
+**Decision Table(s)**
+
+* `EMC1` — Mode Transition Rules
+* `ESC3` — Entity Escalation Table
+
+**Archived Objects**
+
+* `entity.mode`
+* `archive.change.event`
+
+**Outcomes**
+
+* Adjust operational limits
+* Activate crisis mode
+
+---
+
+## 10) **Member Network Edge Change**
+
+**Trigger Condition**
+
+* New / removed `member.network.edge`
+
+**Decision Table(s)**
+
+* `NET1` — Social Network Influence Table
+* `NET2` — Authority Propagation Check
+
+**Archived Objects**
+
+* `member.network.edge`
+* `member.profile`
+
+**Outcomes**
+
+* Evaluate effect on permissions
+* Influence legitimacy or war-game scoring
+
+---
+
+## 11) **Skill / Competency Change**
+
+**Trigger Condition**
+
+* `skill.competency` updated
+* Member adds/removes competency
+
+**Decision Table(s)**
+
+* `SKL1` — Role Fit Evaluation
+* `PDL1` — Progression Threshold Table
+
+**Archived Objects**
+
+* `skill.competency`
+* `member.profile`
+
+**Outcomes**
+
+* Suggest new roles
+* Trigger training maps
+
+---
+
+## 12) **Governance Vote Logged**
+
+**Trigger Condition**
+
+* New `governance.vote` archived
+
+**Decision Table(s)**
+
+* `GOV1` — Vote Validity Table
+* `GOV2` — Outcome Implementation Table
+
+**Archived Objects**
+
+* `governance.vote`
+* `policy.document`
+
+**Outcomes**
+
+* Activate policy change
+* Notify federation
+
+---
+
+## 13) **Policy Compliance Exception Request**
+
+**Trigger Condition**
+
+* `policy.compliance.exception` created or updated
+
+**Decision Table(s)**
+
+* `PCX1` — Exception Eligibility Table
+* `PCX2` — Risk Assessment for Exceptions
+
+**Archived Objects**
+
+* `policy.compliance.exception`
+* `policy.document`
+* `incident.report`
+
+**Outcomes**
+
+* Approve or deny exception
+* Record exception
+
+---
+
+## 14) **Member Protection Order Issued**
+
+**Trigger Condition**
+
+* New `member.protection.order`
+
+**Decision Table(s)**
+
+* `PROT1` — Protection Eligibility
+* `PROT2` — Access Restriction Rules
+
+**Archived Objects**
+
+* `member.protection.order`
+* `member.profile`
+
+**Outcomes**
+
+* Restrict access
+* Escalate protections
+
+---
+
+## 15) **Archive Change Event Object**
+
+**Trigger Condition**
+
+* Any `archive.change.event` across objects
+
+**Decision Table(s)**
+
+* `ARC1` — Change Validity Table
+* `ARC2` — Triggered Consequence Table
+
+**Archived Objects**
+
+* `archive.change.event`
+* Referenced artifact
+
+**Outcomes**
+
+* Log provenance
+* Evaluate chain reactions
+
+---
+
+# 🧠 DECISION TABLE TYPES LEGEND
+
+| Prefix | Category                |
+| ------ | ----------------------- |
+| `HR`   | Human Resources / Role  |
+| `AUTH` | Authority & Permissions |
+| `COM`  | Compliance              |
+| `POL`  | Policy                  |
+| `AUD`  | Audit                   |
+| `INC`  | Incident                |
+| `WG`   | War-Games               |
+| `EMC`  | Entity Mode Change      |
+| `NET`  | Network / Social Graph  |
+| `SKL`  | Skill / Competency      |
+| `GOV`  | Governance              |
+| `PCX`  | Policy Exception        |
+| `PROT` | Protection              |
+| `ARC`  | Archive                 |
+
+---
+
+# 📈 HOW THIS WORKS IN PRACTICE
+
+The mapping above allows the system to **automatically evaluate decision logic** when:
+
+✔ A new artifact is created
+✔ An existing artifact changes state
+✔ A federation-wide update occurs
+✔ External risk triggers arrive via Bahari Network
+
+Each mapping entry can be used to create:
+
+➡ JSON event→table routing definitions
+➡ Policy engines
+➡ Audit triggers
+➡ War-game automation flows
+➡ Regulatory compliance workflows
+
+---
+
+## NEXT OPTIONAL FORMATS
+
+If you want this in **machine-readable JSON**, **OpenAPI**, or **workflow DSL (e.g., BPMN/Mermaid)**, just tell me which one!

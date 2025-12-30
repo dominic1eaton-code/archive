@@ -11011,3 +11011,1257 @@ If you want the **absolute final layer**, it would be:
 
 Say the word.
 
+Below is a **Founder Deferred Compensation (DFC) Ledger Template** designed to be **auditable, regulator-safe, board-readable, and mechanically enforceable**.
+
+This is not just a table — it is a **control instrument**.
+If this ledger is clean, **founder compensation cannot destabilize the system**.
+
+---
+
+# FOUNDER DEFERRED COMPENSATION (DFC) LEDGER
+
+**Canonical Template**
+
+---
+
+## I. LEDGER PURPOSE & RULES (HEADER SECTION)
+
+```
+Ledger Name: Founder Deferred Compensation Ledger
+Entity: [Founder Office / Estate Entity ONLY]
+Beneficiary: Founder-Member (Class E)
+Authority: OVCS (Sole Interpretive Authority)
+Accounting Basis: Accrual (Non-Interest Bearing)
+Priority: Subordinate to all operating obligations
+```
+
+### Non-Negotiable Rules
+
+* ❌ No DFC recorded on operating entity books
+* ❌ No interest, penalties, or acceleration
+* ❌ No voting, control, or security rights
+* ❌ No retroactive changes
+* ✅ Automatic suspension if runway < threshold
+
+---
+
+## II. DFC LEDGER – CORE TABLE
+
+### A. MONTHLY ACCRUAL RECORD
+
+| Period | Trigger Status    | Market Comp Reference | Accrual % | DFC Accrued (This Period) | Cumulative DFC Balance | Notes         |
+| ------ | ----------------- | --------------------- | --------- | ------------------------- | ---------------------- | ------------- |
+| Jan Y1 | Default (State 0) | $X/month              | 100%      | $X                        | $X                     | Pre-revenue   |
+| Feb Y1 | Default (State 0) | $X/month              | 100%      | $X                        | $2X                    | —             |
+| Mar Y1 | Caution Mode      | $X/month              | 100%      | $X                        | $3X                    | Revenue delay |
+| Apr Y1 | Stability Met? NO | $X/month              | 100%      | $X                        | $4X                    | —             |
+| …      | …                 | …                     | …         | …                         | …                      | …             |
+
+**Key Fields Explained**
+
+* **Trigger Status**: Default / Stability / Normalization
+* **Market Comp Reference**: Documented benchmark (non-binding)
+* **Accrual %**: Usually 100% until normalization
+* **Notes**: Must reference board/OVCS context if relevant
+
+---
+
+### B. RUNWAY & MODE CHECK (AUTOMATED GATE)
+
+This section must be updated **monthly**.
+
+| Month | Cash Runway (Months) | Operating Mode | Accrual Allowed? | Payout Allowed? | OVCS Initial |
+| ----- | -------------------- | -------------- | ---------------- | --------------- | ------------ |
+| Jan   | 7.2                  | Caution        | ✅                | ❌               | ✓            |
+| Feb   | 5.8                  | Defensive      | ✅                | ❌               | ✓            |
+| Mar   | 9.4                  | Normal         | ✅                | ❌               | ✓            |
+| Apr   | 12.1                 | Stable         | ✅                | ⚠️ (Partial)    | ✓            |
+
+**Rule**
+
+> If runway < 6 months → payout = **automatically disabled**
+
+---
+
+## III. PAYOUT LEDGER (WHEN AUTHORIZED)
+
+### A. PAYOUT AUTHORIZATION RECORD
+
+```
+Payout Authorization ID: DFC-PA-YYYY-MM
+Date Approved:
+Authority: OVCS + Board (if required)
+Trigger Met:
+  ☐ ≥ 12 months runway
+  ☐ 3 consecutive profitable months
+  ☐ No active crisis flags
+Payout Type:
+  ☐ Installment
+  ☐ Partial
+  ☐ Catch-up (NOT ALLOWED in Year 1)
+```
+
+---
+
+### B. DFC PAYOUT TABLE
+
+| Payout Date | Beginning DFC Balance | Payout Amount | Ending DFC Balance | Method | Notes |
+|------------|-----------------------|---------------|--------------------|--------|
+| Aug Y2 | $XX,XXX | $X,XXX | $XX,XXX | Cash | Installment 1 |
+| Sep Y2 | $XX,XXX | $X,XXX | $XX,XXX | Cash | Installment 2 |
+
+**Hard Limits**
+
+* Max payout per month: **≤ 10% of cumulative DFC**
+* Payout pauses automatically if triggers fail
+
+---
+
+## IV. ACCOUNTING TREATMENT (CRITICAL)
+
+### On Founder Office / Estate Books
+
+```
+DR  Founder Compensation Expense (Accrual)
+CR  Deferred Founder Compensation (Liability)
+```
+
+### On Operating Entities
+
+```
+NO ENTRY PERMITTED
+```
+
+**DFC is a liability of the founder’s holding entity only.**
+
+---
+
+## V. DISCLOSURE NOTE TEMPLATE
+
+*(For financial statements, if required)*
+
+> “The organization has accrued deferred compensation payable to the Founder-Member.
+> Payment of such amounts is contingent upon liquidity, runway thresholds, and governing authority approval.
+> No amounts are secured, interest-bearing, or guaranteed.”
+
+---
+
+## VI. FAILURE CONDITIONS (AUTOMATIC ACTIONS)
+
+If **any** occur:
+
+* Runway < 6 months
+* Emergency capital accepted
+* Founder intervenes outside authority
+* Regulatory or legal crisis active
+
+**Then**
+
+* Accrual continues
+* Payout freezes
+* Ledger locked (read-only)
+* Incident recorded in Archive
+
+---
+
+## VII. ARCHIVE OS INTEGRATION
+
+Each ledger update links to:
+
+* Monthly financial close
+* Runway calculation
+* Operating mode
+* OVCS sign-off
+* Immutable archive hash
+
+```
+DFC Ledger Entry
+ ├── Period
+ ├── Authority
+ ├── Trigger State
+ ├── Accrual Amount
+ ├── Payout Status
+ └── Archive Reference
+```
+
+---
+
+## VIII. ONE-LINE FOUNDER COMPENSATION LAW
+
+> **Deferred compensation is a reward for systems that survive,
+> not payment for effort expended.**
+
+---
+
+If you want, next logical extensions are:
+
+* **DFC modeled against best/base/worst revenue scenarios**
+* **Founder equity vesting tied to DFC normalization**
+* **Automated mode-switch logic (pseudo-code)**
+
+Below is a **clean, enforceable Founder Equity Vesting Doctrine** that is **explicitly tied to DFC normalization**, liquidity reality, and system health — not time served or effort.
+
+This prevents **founder over-entitlement**, **premature extraction**, and **governance drift**, while still rewarding successful system construction.
+
+---
+
+# FOUNDER EQUITY VESTING DOCTRINE
+
+**(Tied to DFC Normalization & System Health)**
+
+---
+
+## I. CORE PRINCIPLE
+
+> **Founder equity vests only when the system proves it can sustain the founder without needing them.**
+
+Time ≠ Vesting
+Effort ≠ Vesting
+**System stability = Vesting**
+
+---
+
+## II. FOUNDER EQUITY POOL STRUCTURE
+
+### Authorized Founder Equity Pool
+
+* Total Pool: **100% of Founder Allocation** *(defined in charter; e.g., 20–30% of total coop equity / membership units)*
+* Held in **Founder Equity Trust / Holding Entity**
+* **Unvested until released by doctrine**
+
+---
+
+## III. VESTING STATES (CANONICAL)
+
+Founder equity exists in **four states**, not just vested/unvested.
+
+```
+UNISSUED → ISSUED-UNVESTED → VESTED → LIQUID / TRANSFERABLE
+```
+
+* **ISSUED-UNVESTED**: Exists, but no transfer or economic extraction
+* **VESTED**: Governance + economic rights attach
+* **LIQUID**: Transfer or buyback allowed (post-Year-2+)
+
+---
+
+## IV. VESTING TRIGGERS (TIED TO DFC NORMALIZATION)
+
+### STATE 0 — FORMATION (DEFAULT)
+
+* Vesting: **0%**
+* DFC: Accruing
+* Founder Compensation: $0
+* Duration: From inception
+
+---
+
+### STATE 1 — STABILITY ACHIEVED
+
+**Trigger Conditions**
+
+* ≥ **9 months runway**
+* ≥ **3 consecutive profitable months**
+* No active crisis flags
+* DFC accrual ongoing, payout still paused
+
+**Equity Vesting**
+
+* **25% vests**
+* Non-transferable
+* No buyback rights yet
+
+---
+
+### STATE 2 — DFC NORMALIZATION
+
+**Trigger Conditions**
+
+* ≥ **12 months runway**
+* DFC payouts authorized and initiated
+* Board + OVCS approval
+* No emergency capital taken in prior 6 months
+
+**Equity Vesting**
+
+* Additional **35% vests** (Total = 60%)
+* Economic rights attach
+* Governance rights limited by doctrine
+
+---
+
+### STATE 3 — SYSTEM MATURITY (POST-YEAR-2 TARGET)
+
+**Trigger Conditions**
+
+* ≥ **18 months runway**
+* Founder no longer operational bottleneck
+* Founder succession plan tested
+* DFC ≥ 50% paid down
+
+**Equity Vesting**
+
+* Remaining **40% vests**
+* Equity becomes **transfer-eligible** (subject to ROFR & buyback)
+
+---
+
+## V. ANTI-ACCELERATION & CLAWBACK RULES
+
+### NO ACCELERATION FOR:
+
+* Capital raises
+* Valuation events
+* Public narratives
+* Crisis survival
+* Founder effort spikes
+
+---
+
+### AUTOMATIC VESTING PAUSE IF:
+
+* Runway < 6 months
+* DFC payout suspended
+* Governance breach
+* Regulatory / legal crisis
+
+Vesting resumes only after **3 clean months**.
+
+---
+
+### CLAWBACK CONDITIONS (SEVERE)
+
+If founder:
+
+* Violates authority doctrine
+* Forces commingling
+* Undermines OVCS
+* Causes regulatory exposure knowingly
+
+Then:
+
+* Unvested equity forfeited
+* Vested equity subject to **buyback at formula price**
+
+---
+
+## VI. BUYBACK & VALUATION MECHANICS (SUMMARY)
+
+### Buyback Triggers
+
+* Founder exit
+* Founder removal
+* Founder death (economic interest only)
+* Governance breach
+
+### Buyback Pricing (Default)
+
+* **Lower of**:
+
+  * Book value multiple
+  * Independent appraisal
+* **Never market hype**
+
+Payment via:
+
+* Installments
+* Subject to liquidity thresholds
+
+---
+
+## VII. ACCOUNTING & LEDGER INTEGRATION
+
+### Equity Vesting Ledger (Parallel to DFC)
+
+| Period | Vesting State | % Vested | Cumulative % | Trigger Verified | OVCS Sign-off |
+| ------ | ------------- | -------- | ------------ | ---------------- | ------------- |
+| Q2 Y1  | State 0       | 0%       | 0%           | ❌                | ✓             |
+| Q4 Y1  | State 1       | 25%      | 25%          | ✅                | ✓             |
+| Q2 Y2  | State 2       | 35%      | 60%          | ✅                | ✓             |
+| Y3     | State 3       | 40%      | 100%         | ✅                | ✓             |
+
+**Rule**
+
+> Vesting entries are immutable once recorded.
+
+---
+
+## VIII. DISCLOSURE NOTE (IF REQUIRED)
+
+> “Founder equity is subject to performance-based vesting tied to system liquidity, governance health, and deferred compensation normalization.
+> Vesting is not time-based and may pause or reverse under defined conditions.”
+
+---
+
+## IX. ONE-PAGE FOUNDER EQUITY LAW
+
+> **Equity rewards systems that outgrow their creators.
+> Vesting measures independence, not sacrifice.
+> A founder who must extract value early is a founder the system cannot yet afford.**
+
+---
+
+## X. WHAT THIS COMPLETES
+
+You now have:
+
+* Founder comp deferral
+* Founder equity vesting
+* Cash-gated normalization
+* Automatic pauses
+* Governance-safe incentives
+
+This is **institution-grade founder governance**.
+
+If you want the *absolute final layer*, the only remaining options are:
+
+* **Founder exit scenarios (voluntary, involuntary, death) with numbers**
+* **Succession drills tied to vesting states**
+* **One-page Founder Doctrine codex (printable)**
+
+Below is the **final, fully quantified Founder Exit & Succession Doctrine**.
+This closes the loop on **equity, DFC, governance, continuity, and capital safety**.
+
+This is written as something you can **hand to a board, regulator, or hostile counterparty** and it still holds.
+
+---
+
+# FOUNDER EXIT & SUCCESSION DOCTRINE
+
+**(With Quantitative Scenarios & Vesting-State Drills)**
+
+---
+
+## I. BASELINE ASSUMPTIONS (FOR ALL SCENARIOS)
+
+These are **example numbers** — the formulas are what matter.
+
+| Variable                     | Symbol | Example   |
+| ---------------------------- | ------ | --------- |
+| Total Founder Equity Pool    | FE     | 30%       |
+| Total Coop Units Outstanding | TU     | 1,000,000 |
+| Founder Units (Max)          | FU     | 300,000   |
+| Vested % (by state)          | V%     | see below |
+| DFC Balance at Event         | DFC₀   | $240,000  |
+| Monthly Net Cash Flow        | NCF    | $80,000   |
+| Cash Runway at Event         | R      | 14 months |
+
+---
+
+## II. EXIT SCENARIOS (WITH NUMBERS)
+
+---
+
+## SCENARIO A — VOLUNTARY FOUNDER EXIT
+
+*(Healthy, planned transition)*
+
+### Preconditions
+
+* Vesting State ≥ **State 2**
+* Succession successor named
+* No crisis flags
+* Board + OVCS approval
+
+### Equity Treatment
+
+* **Vested Equity Retained**
+* **Unvested Equity Forfeited**
+
+### Example (State 2 — 60% vested)
+
+```
+Founder Units Issued: 300,000
+Vested Units: 180,000
+Unvested Units Forfeited: 120,000
+```
+
+### Buyback Option (Coop)
+
+* Up to **50% of vested units**
+* Price = Lower of:
+
+  * Book value multiple (e.g., 1.2×)
+  * Independent appraisal
+
+### Example Valuation
+
+```
+Book Value / Unit: $4.00
+Buyback Units: 90,000
+Buyback Price: $4.80
+Total Buyback: $432,000
+```
+
+Paid in installments:
+
+* Max 10% of monthly free cash flow
+* Auto-pause if runway < 9 months
+
+### DFC Treatment
+
+* Accrued DFC remains payable
+* Paid **after buyback installments**
+* Same liquidity gates apply
+
+---
+
+## SCENARIO B — INVOLUNTARY REMOVAL
+
+*(Cause, breach, incapacity)*
+
+### Triggers
+
+* Governance breach
+* Regulatory exposure caused
+* Inability to perform role
+* OVCS vote
+
+---
+
+### Equity Treatment
+
+| Vesting State | Outcome                                           |
+| ------------- | ------------------------------------------------- |
+| State 0       | 0% retained                                       |
+| State 1       | Vested retained, unvested forfeited               |
+| State 2       | Vested retained, **subject to mandatory buyback** |
+| State 3       | Buyback optional                                  |
+
+### Example (State 2)
+
+```
+Vested Units: 180,000
+Mandatory Buyback %: 100%
+Buyback Price: Book Value Only ($4.00)
+Total: $720,000
+```
+
+Paid over:
+
+* 36–60 months
+* Subordinate to operations
+* No acceleration
+
+### DFC Treatment
+
+* **Payout frozen**
+* Converted to **subordinated note**
+* May be written down for cause
+
+---
+
+## SCENARIO C — FOUNDER DEATH
+
+*(Continuity over inheritance)*
+
+### Principles
+
+* Governance rights **terminate immediately**
+* Economic rights survive
+* No heirs in governance
+
+---
+
+### Equity Treatment
+
+| Portion         | Treatment                             |
+| --------------- | ------------------------------------- |
+| Vested Equity   | Converts to Non-Voting Economic Units |
+| Unvested Equity | Cancelled                             |
+| Transferability | Subject to coop ROFR                  |
+
+### Example (State 3)
+
+```
+Vested Units: 300,000
+Converted Units: 300,000 (Non-voting)
+```
+
+### Buyback Rights
+
+* Coop may buy back up to **100%**
+* Paid to estate
+* Installment-based
+
+### DFC Treatment
+
+* Becomes estate receivable
+* Paid **last**
+* Subject to liquidity gates
+
+---
+
+## III. SUCCESSION DRILLS BY VESTING STATE
+
+---
+
+## STATE 0 — FOUNDER-DEPENDENT SYSTEM
+
+**Drill Frequency**: Quarterly
+
+**Test**
+
+* Founder disappears for 30 days
+
+**Pass Conditions**
+
+* Payroll runs
+* Capital approvals function
+* No legal default
+
+**Failure Response**
+
+* Freeze vesting
+* Activate founder load-shedding
+* Escalate succession prep
+
+---
+
+## STATE 1 — SHARED CONTROL
+
+**Drill**
+
+* Founder absent 60 days
+
+**Successor**
+
+* Interim Steward (Class B)
+
+**Checks**
+
+* Board functions independently
+* No emergency capital needed
+
+---
+
+## STATE 2 — SYSTEM-LED
+
+**Drill**
+
+* Founder exits operational role
+
+**Successor**
+
+* Named permanent Navigator or Council
+
+**Checks**
+
+* Revenue steady or growing
+* Founder not bottleneck
+
+---
+
+## STATE 3 — POST-FOUNDER SYSTEM
+
+**Drill**
+
+* Founder removed permanently
+
+**System Test**
+
+* 90 days independent operation
+* All authorities validated
+
+**Outcome**
+
+* Founder becomes purely economic participant
+
+---
+
+## IV. SUCCESSION AUTHORITY STACK
+
+```
+OVCS
+ ├── Emergency Authority
+ ├── Succession Trigger Authority
+ └── Final Interpretive Authority
+Board (Class C)
+ ├── Appointment
+ ├── Removal
+ └── Buyback Authorization
+Council (Class D)
+ └── Cultural & Commons Oversight
+```
+
+---
+
+## V. ARCHIVE OS REQUIREMENTS
+
+Each exit scenario generates:
+
+* Authority memo
+* Financial impact model
+* Vesting state snapshot
+* DFC ledger lock
+* Succession drill log
+
+```
+Exit_Event
+ ├── Type
+ ├── Vesting_State
+ ├── Equity_Treatment
+ ├── DFC_Treatment
+ ├── Cash_Impact
+ └── Archive_Hash
+```
+
+---
+
+## VI. FINAL GOVERNANCE LAW
+
+> **A system that cannot survive its founder does not deserve their equity.
+> A founder who plans their exit earns it.**
+
+---
+
+## VII. WHAT YOU NOW HAVE (COMPLETE SET)
+
+You now possess:
+
+* Deferred compensation doctrine
+* Equity vesting mechanics
+* Exit & removal math
+* Succession drills
+* Continuity logic
+* Regulator-safe framing
+
+This is **institutional-grade founder architecture** — very few organizations ever formalize this.
+
+If you want the **last mile**, the only remaining pieces are:
+
+* **One-page printable Founder Codex**
+* **Executable decision tables**
+* **Scenario stress simulations with numbers (10–20 edge cases)**
+
+Below are **executable decision tables** designed to be **mechanically enforceable**, **audit-ready**, and **convertible directly into policy engines, SOPs, or code**.
+
+These are written so that **no discretion is required once inputs are known**.
+
+---
+
+# EXECUTABLE DECISION TABLES
+
+*(Founder, Capital, Equity, DFC, Crisis, Succession)*
+
+---
+
+## 1. OPERATING MODE DECISION TABLE
+
+**(Global system state gate — everything depends on this)**
+
+### Inputs
+
+* Cash Runway (months)
+* Profitability (last 3 months)
+* Crisis Flag (Y/N)
+
+| Runway | Profitable 3mo | Crisis Flag | Operating Mode | Authority Level | Actions                                       |
+| ------ | -------------- | ----------- | -------------- | --------------- | --------------------------------------------- |
+| < 3    | Any            | Any         | **Emergency**  | OVCS Only       | Freeze payouts, halt vesting, capital defense |
+| 3–6    | Any            | Any         | **Defensive**  | OVCS + Board    | No payouts, accrual only                      |
+| 6–9    | No             | No          | **Caution**    | Board           | Accrual allowed, no extraction                |
+| ≥ 9    | Yes            | No          | **Normal**     | Board           | Prep normalization                            |
+| ≥ 12   | Yes            | No          | **Stable**     | Board + OVCS    | Limited payouts allowed                       |
+
+---
+
+## 2. DFC ACCRUAL & PAYOUT DECISION TABLE
+
+### Inputs
+
+* Operating Mode
+* DFC Balance
+* Cash Runway
+
+| Mode      | Accrue DFC? | Payout Allowed? | Max Monthly Payout | Notes         |
+| --------- | ----------- | --------------- | ------------------ | ------------- |
+| Emergency | ✅           | ❌               | $0                 | Ledger locked |
+| Defensive | ✅           | ❌               | $0                 | Accrual only  |
+| Caution   | ✅           | ❌               | $0                 | —             |
+| Normal    | ✅           | ❌               | $0                 | —             |
+| Stable    | ✅           | ⚠️              | ≤10% DFC           | OVCS approval |
+
+---
+
+## 3. FOUNDER EQUITY VESTING DECISION TABLE
+
+### Inputs
+
+* Runway
+* Profitability
+* DFC Status
+* Crisis Flag
+
+| Conditions Met             | Vesting State | Equity Vesting Action |
+| -------------------------- | ------------- | --------------------- |
+| None                       | State 0       | 0% vested             |
+| ≥9 mo + profit             | State 1       | +25%                  |
+| ≥12 mo + DFC payout active | State 2       | +35%                  |
+| ≥18 mo + succession tested | State 3       | +40%                  |
+| Any failure                | Pause         | Vesting frozen        |
+
+---
+
+## 4. FOUNDER EXIT SCENARIO DECISION TABLE
+
+### Inputs
+
+* Exit Type
+* Vesting State
+* Cause Present?
+
+| Exit Type   | Vesting State | Cause? | Equity Outcome            | DFC Outcome           |
+| ----------- | ------------- | ------ | ------------------------- | --------------------- |
+| Voluntary   | ≥ State 2     | No     | Keep vested, forfeit rest | Pay per liquidity     |
+| Voluntary   | < State 2     | No     | Forfeit all               | Accrual only          |
+| Involuntary | Any           | Yes    | Mandatory buyback         | Frozen / written down |
+| Death       | Any           | N/A    | Convert to non-voting     | Estate receivable     |
+
+---
+
+## 5. EQUITY BUYBACK DECISION TABLE
+
+### Inputs
+
+* Trigger Event
+* Liquidity
+* Runway
+
+| Trigger                 | Buyback Required? | Pricing Basis         | Payment Method |
+| ----------------------- | ----------------- | --------------------- | -------------- |
+| Founder removal (cause) | ✅                 | Book value            | Installments   |
+| Voluntary exit          | ⚠️ Optional       | Lower of BV/Appraisal | Installments   |
+| Death                   | ⚠️ Optional       | BV                    | Installments   |
+| Crisis active           | ❌                 | N/A                   | Deferred       |
+
+---
+
+## 6. SUCCESSION ACTIVATION DECISION TABLE
+
+### Inputs
+
+* Founder Availability
+* Vesting State
+* Duration Absent
+
+| Availability | Vesting State | Absence   | Action              |
+| ------------ | ------------- | --------- | ------------------- |
+| Present      | Any           | —         | No action           |
+| Absent       | State 0       | >30 days  | Interim steward     |
+| Absent       | State 1       | >60 days  | Board-led ops       |
+| Absent       | ≥ State 2     | Immediate | Successor activated |
+| Removed      | Any           | Immediate | Succession protocol |
+
+---
+
+## 7. CAPITAL ACCEPTANCE DECISION TABLE
+
+### Inputs
+
+* Operating Mode
+* Runway
+* Capital Type
+
+| Mode      | Capital Type | Allowed? | Conditions             |
+| --------- | ------------ | -------- | ---------------------- |
+| Emergency | Debt         | ✅        | OVCS only              |
+| Emergency | Equity       | ❌        | —                      |
+| Defensive | Grant        | ✅        | No control             |
+| Normal    | Equity       | ⚠️       | No governance dilution |
+| Stable    | Equity       | ✅        | Board + OVCS           |
+
+---
+
+## 8. CRISIS RESPONSE DECISION TABLE
+
+### Inputs
+
+* Crisis Type
+* Severity
+* Regulatory Exposure
+
+| Crisis         | Severity | Response                  |
+| -------------- | -------- | ------------------------- |
+| Liquidity      | High     | Freeze payouts, austerity |
+| Regulatory     | Any      | Legal ring-fence          |
+| Founder        | Any      | Succession trigger        |
+| Media          | Medium   | Narrative protocol        |
+| Capital flight | High     | Lock distributions        |
+
+---
+
+## 9. AUTHORITY OVERRIDE DECISION TABLE
+
+### Inputs
+
+* Decision Type
+* Conflict?
+* Risk Level
+
+| Decision   | Conflict | Risk     | Authority    |
+| ---------- | -------- | -------- | ------------ |
+| Financial  | No       | Low      | Board        |
+| Financial  | Yes      | Medium   | Board + OVCS |
+| Structural | Any      | High     | OVCS         |
+| Survival   | Any      | Critical | OVCS only    |
+
+---
+
+## 10. AUTOMATIC LOCKS TABLE
+
+*(No vote required)*
+
+| Condition         | Locked Items     |
+| ----------------- | ---------------- |
+| Runway < 6        | Payouts, vesting |
+| Crisis flag       | Transfers        |
+| Regulatory action | Capital movement |
+| Founder breach    | Equity vesting   |
+
+---
+
+## 11. MACHINE-READABLE LOGIC (PSEUDO-CODE)
+
+```text
+IF runway < 6 OR crisis = TRUE
+  THEN payouts = 0
+  AND vesting = PAUSED
+  AND authority = OVCS
+```
+
+---
+
+## 12. CANONICAL GOVERNANCE LAW
+
+> **If a decision requires debate, it was not designed deeply enough.
+> These tables remove debate from survival.**
+
+---
+
+## WHAT THIS ENABLES
+
+You can now:
+
+* Encode policies into software
+* Train boards without ambiguity
+* Defend against regulators
+* Survive founder loss
+* Prevent value leakage
+
+If you want next:
+
+* **Edge-case tables (20 black-swan scenarios)**
+* **Full JSON / SQL schema**
+* **Policy engine flowchart**
+* **Regulator-facing decision trace**
+
+Say which layer you want.
+
+Below are **20 BLACK-SWAN EDGE-CASE DECISION TABLES**.
+Each one is **binary, executable, and pre-decided** — no debate, no improvisation.
+
+These are the scenarios that **destroy poorly-designed systems**.
+Yours survives because the response is **already locked**.
+
+---
+
+# BLACK-SWAN EDGE-CASE DECISION TABLES (20)
+
+---
+
+## 1. BANK FAILURE (PRIMARY OPERATING BANK)
+
+| Input        | Value           |
+| ------------ | --------------- |
+| Event        | Bank insolvency |
+| Funds Frozen | >30%            |
+| Time         | Immediate       |
+
+**Action**
+
+* Activate secondary bank
+* Freeze payouts
+* Draw emergency liquidity
+* OVCS authority only
+
+---
+
+## 2. PAYMENT PROCESSOR SHUTDOWN
+
+| Trigger | Stripe/PayPal suspension |
+| Severity | High |
+
+**Action**
+
+* Switch processor
+* Route revenue to holding entity
+* Pause founder comp
+* Legal review
+
+---
+
+## 3. FOUNDER SUDDEN DEATH
+
+| Trigger | Verified |
+| Vesting State | Any |
+
+**Action**
+
+* Governance rights terminated
+* Succession protocol
+* Equity conversion
+* DFC estate lock
+
+---
+
+## 4. FOUNDER INCAPACITATION (MENTAL / MEDICAL)
+
+| Duration | >14 days |
+| Severity | Critical |
+
+**Action**
+
+* Interim steward
+* Freeze founder authority
+* Medical review gate
+
+---
+
+## 5. REGULATOR RAID / SUBPOENA
+
+| Scope | Any |
+| Jurisdiction | Hostile |
+
+**Action**
+
+* Entity ring-fence
+* Capital freeze
+* Counsel activation
+* Narrative protocol
+
+---
+
+## 6. CRIMINAL ALLEGATION AGAINST FOUNDER
+
+| Credibility | Medium+ |
+
+**Action**
+
+* Immediate removal
+* Vesting freeze
+* Mandatory buyback pending
+* Public silence protocol
+
+---
+
+## 7. BOARD COUP ATTEMPT
+
+| Votes | Irregular |
+
+**Action**
+
+* OVCS override
+* Void votes
+* Authority reset
+* Record incident
+
+---
+
+## 8. COORDINATED MEMBER WALKOUT
+
+| Members | >20% |
+| Function | Core ops |
+
+**Action**
+
+* Activate continuity teams
+* Wage stabilization
+* Pause expansions
+
+---
+
+## 9. CAPITAL FLIGHT (>30% WITHDRAWAL)
+
+| Time | <30 days |
+
+**Action**
+
+* Distribution lock
+* Liquidity defense
+* Asset preservation
+
+---
+
+## 10. SUDDEN REVENUE COLLAPSE (>50%)
+
+| Period | <60 days |
+
+**Action**
+
+* Emergency mode
+* Austerity budget
+* Founder comp freeze
+
+---
+
+## 11. DATA BREACH (PII / FINANCIAL)
+
+| Scope | Material |
+
+**Action**
+
+* Legal disclosure
+* System isolation
+* External audit
+
+---
+
+## 12. IP THEFT / PLATFORM CLONE
+
+| Actor | Competitor |
+
+**Action**
+
+* Litigation hold
+* Strategic silence
+* Defensive publication
+
+---
+
+## 13. JURISDICTIONAL BAN
+
+| Region | Material revenue |
+
+**Action**
+
+* Entity sacrifice decision
+* Migrate ops
+* Spin-down
+
+---
+
+## 14. TAX AUTHORITY FREEZE
+
+| Amount | >15% assets |
+
+**Action**
+
+* Cash defense
+* Counsel
+* Payment plan only
+
+---
+
+## 15. CO-FOUNDER / STEWARD FRAUD
+
+| Amount | Material |
+
+**Action**
+
+* Immediate suspension
+* Forensic audit
+* Mandatory buyback
+
+---
+
+## 16. PLATFORM DE-LISTING (APP / CLOUD)
+
+| Dependency | Critical |
+
+**Action**
+
+* Failover infra
+* Service degradation allowed
+* Customer comms
+
+---
+
+## 17. WAR / CIVIL UNREST (OPS REGION)
+
+| Risk | Personnel |
+
+**Action**
+
+* Staff evacuation
+* Remote ops
+* Insurance trigger
+
+---
+
+## 18. MEDIA SMEAR CAMPAIGN
+
+| Coordination | Verified |
+
+**Action**
+
+* Narrative discipline
+* No reactive statements
+* Legal prep
+
+---
+
+## 19. FUNDING FRAUD ALLEGATION
+
+| Investor | Hostile |
+
+**Action**
+
+* Freeze cap table
+* Independent audit
+* Counsel-only comms
+
+---
+
+## 20. SYSTEM-LEVEL FAILURE (ARCHIVE LOSS)
+
+| Data | Critical |
+
+**Action**
+
+* Restore from immutable backup
+* Freeze changes
+* Integrity audit
+
+---
+
+# MASTER EDGE-CASE SUMMARY TABLE
+
+| Category          | Locked Automatically |
+| ----------------- | -------------------- |
+| Liquidity shock   | Payouts, vesting     |
+| Governance breach | Authority            |
+| Founder event     | Succession           |
+| Regulatory attack | Capital              |
+| Media attack      | Narrative            |
+| Data failure      | Writes               |
+
+---
+
+# META-RULE (APPLIES TO ALL 20)
+
+```text
+IF black_swan = TRUE
+THEN discretion = 0
+AND execution = automatic
+AND archive = immutable
+```
+
+---
+
+# FINAL SYSTEM LAW
+
+> **You don’t survive black swans by being smart.
+> You survive by deciding before fear arrives.**
+
+---
+
+If you want the *absolute finalization layer*, the remaining options are:
+
+* **JSON-ready decision schemas**
+* **Board tabletop simulation scripts**
+* **Automated trigger threshold formulas**
+* **Red-team attack trees**
+
+Just name the layer.
+

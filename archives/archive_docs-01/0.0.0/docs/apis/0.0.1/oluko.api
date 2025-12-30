@@ -1,0 +1,88 @@
+/**
+ * @brief entity factory mangement system
+ *        repeatable, well defined workflow to realize [solution.type]
+ */
+
+new
+new kernel
+new entity
+new account
+
+
+create
+create kernel
+create entity
+create account [username] [password|token|pin]
+
+
+create factory [type]
+create factory software
+create factory studio
+create factory business
+create factory enterprise
+create factory content
+
+
+create view [factory.ID|factory.name]
+
+
+create directory [factory.ID|factory.name]
+
+
+create dashboard
+
+
+create tool
+create toolkit
+create toolchain
+
+
+update
+
+
+edit
+
+
+read
+read directory
+read registry
+
+
+remove
+
+
+add
+add blueprint
+
+add account
+add user
+add group
+add solution.type [software|studio|business|enterprise]
+add view
+add dashboard
+add filter
+
+
+add toolkit
+add toolchain
+
+add board
+
+
+view
+view directory
+view registry
+view dashboard
+
+
+register
+register tool --type <type> --config <configuration>
+register toolkit
+register toolchain
+
+
+register organization
+
+
+connect
+

@@ -1,0 +1,14 @@
+bazel_tools,local_jdk,rules_java++toolchains+local_jdk
+bazel_tools,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java+,local_jdk,rules_java++toolchains+local_jdk
+rules_java+,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+local_jdk,local_jdk,rules_java++toolchains+local_jdk
+rules_java++toolchains+local_jdk,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+remote_java_tools,local_jdk,rules_java++toolchains+local_jdk
+rules_java++toolchains+remote_java_tools,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+remote_java_tools_windows,local_jdk,rules_java++toolchains+local_jdk
+rules_java++toolchains+remote_java_tools_windows,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+remotejdk11_win,local_jdk,rules_java++toolchains+local_jdk
+rules_java++toolchains+remotejdk11_win,remote_java_tools,rules_java++toolchains+remote_java_tools
+rules_java++toolchains+remotejdk21_win,local_jdk,rules_java++toolchains+local_jdk
+rules_java++toolchains+remotejdk21_win,remote_java_tools,rules_java++toolchains+remote_java_tools

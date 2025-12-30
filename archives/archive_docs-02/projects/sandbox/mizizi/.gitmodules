@@ -1,0 +1,9 @@
+[submodule "miji-client"]
+	path = miji-client
+	url = ./miji-client/
+[submodule "miji-host"]
+	path = miji-host
+	url = ./miji-host/
+[submodule "miji-space"]
+	path = miji-space
+	url = ./miji-space/

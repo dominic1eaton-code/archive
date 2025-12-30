@@ -1,0 +1,8 @@
+binary_type=Java
+workspace_name=_main
+symlink_runfiles_enabled=0
+java_bin_path=rules_java++toolchains+local_jdk/bin/java.exe
+java_start_class=com.google.testing.junit.runner.BazelTestRunner
+classpath=ExampleTest.jar;../rules_java++toolchains+remote_java_tools/java_tools/Runner_deploy.jar
+jvm_flags=-Djava.security.manager=allow	-ea	-Dbazel.test_suite=com.example.ExampleTest
+jar_bin_path=../rules_java++toolchains+local_jdk/bin/jar.exe

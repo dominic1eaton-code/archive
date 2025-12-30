@@ -1,0 +1,18 @@
+[package]
+name = "supplychain"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "order",
+    "cpq"
+]
+
+[workspace.dependencies]
+order = {version =  "0.0.1", path = "order"}
+cpq = {version =  "0.0.1", path = "cpq"}
+
+[dependencies]
+order = { workspace = true}
+cpq = { workspace = true}

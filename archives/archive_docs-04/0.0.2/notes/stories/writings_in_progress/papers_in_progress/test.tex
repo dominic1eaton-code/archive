@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[british]{babel}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage[singlespacing]{setspace}   % other options: [singlespacing], [onejalfspacing] or [doublespacing]
+\usepackage[a4paper,margin=1in]{geometry}
+
+% Lengths
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+% Formatting
+\newlist{deepenum}{enumerate}{6}
+\setlist[deepenum,1]{label=\arabic*.,  parsep=\baselineskip, leftmargin=2em, labelwidth=*, align=left}
+\setlist[deepenum,2]{label*=\arabic*., parsep=\baselineskip, leftmargin=3em, labelwidth=*, align=left}
+\setlist[deepenum,3]{label*=\arabic*., parsep=\baselineskip, labelwidth=*, align=left} % leftmargin=3em
+\setlist[deepenum,4]{label*=\arabic*., parsep=\baselineskip, labelwidth=*, align=left} % leftmargin=4em
+\setlist[deepenum,5]{label*=\arabic*., parsep=\baselineskip, labelwidth=*, align=left} % leftmargin=5em
+\setlist[deepenum,6]{label*=\arabic*., parsep=\baselineskip, labelwidth=*, align=left} % leftmargin=3em
+
+% Macros
+\NewDocumentCommand\lawtitle{O{\baselineskip} O{\baselineskip} m}{%
+    \begingroup
+        \vspace{#1}
+        \centering \textbf{#3}\par
+        \vspace{#2}
+    \endgroup}
+
+\begin{document} \sffamily
+
+Dear Someone,
+
+\lawtitle[1cm][1cm]{Re: Topic of the letter goes here}
+
+\begin{deepenum}
+    \item Every paragraph has to be numbered. I do this with a set of Word style. Every paragraph has to be numbered. I do this with a set of Word style.
+    \item And so one.
+    \begin{deepenum}
+        \item Here are sub-paragraphs. They are numbered, too.
+        \item As you can see.
+        \begin{deepenum}
+            \item Six levels of numbering.
+            \begin{deepenum}
+                \item Another level.
+                \begin{deepenum}
+                    \item And another level.
+                    \begin{deepenum}
+                        \item The last level.
+                    \end{deepenum}
+                \end{deepenum}
+            \end{deepenum}
+        \end{deepenum}
+    \end{deepenum}
+    {\bfseries \item Only the sicth levels could be a heading. In which case it's bold}
+    \item[] Sometimes the next level under doesn't have a para number (because it's only subparagraph). Sometimes the next level under doesn't have a para number (because it's only subparagraph)
+    \item[] Sometimes else.
+    \item Another regular paragraph.
+\end{deepenum}
+
+\bigskip
+
+And we'll sign off with para with no number
+
+
+\vspace{\fill}  % Moves everything to the bottom
+\begin{singlespace}
+    \RaggedRight%
+    Yours faithfully,\par
+    \textbf{Erza Legal}\par
+    \bigskip    
+    Per:\par
+    (Signature gets inserted here)\par
+    \bigskip
+    \textbf{John Smith},\par
+    Solicitor\par
+    Email:my@email.address.com
+\end{singlespace}
+\end{document}

@@ -1,0 +1,6 @@
+[submodule "imewe-med-filament-printer"]
+	path = imewe-med-filament-printer
+	url = ./imewe-med-filament-printer/
+[submodule "imewe-os"]
+	path = imewe-os
+	url = ./imewe-os/

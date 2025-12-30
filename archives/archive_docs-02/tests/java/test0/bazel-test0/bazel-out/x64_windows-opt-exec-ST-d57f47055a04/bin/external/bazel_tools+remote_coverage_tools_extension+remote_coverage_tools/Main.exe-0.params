@@ -1,0 +1,8 @@
+binary_type=Java
+workspace_name=_main
+symlink_runfiles_enabled=0
+java_bin_path=rules_java++toolchains+remotejdk11_win/bin/java.exe
+java_start_class=com.google.devtools.coverageoutputgenerator.Main
+classpath=../bazel_tools+remote_coverage_tools_extension+remote_coverage_tools/Main.jar;../bazel_tools+remote_coverage_tools_extension+remote_coverage_tools/all_lcov_merger_tools_deploy.jar
+jvm_flags=-XX:ErrorFile=/dev/stderr
+jar_bin_path=../rules_java++toolchains+remotejdk11_win/bin/jar.exe

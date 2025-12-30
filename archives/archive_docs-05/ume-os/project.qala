@@ -1,0 +1,116 @@
+# # @license 
+# @brief
+project(
+    name = "ume-os",
+    brief = "business operating system",
+    version = "0.0.0",
+    author="eatondo",
+    organization="",
+    links=[
+        "/link/to/docs",
+        "/link/to/home-website",
+        "/link/to/resources"]
+)
+
+dependencies =
+[
+    {"dependencyA", "version"},
+    {"dependencyB", "version"},
+    {"dependencyC", "version"},
+]
+
+def init()
+    [qala] new  project
+        qala init
+            git init
+
+def setup()
+    create_file LICENSE
+    create_file VERSION
+    create_file README.md
+    create_file checksum
+    create_folder docs
+        create_file README.md
+    create_folder env
+        create_file manifest.json
+        create_file env.ini
+    create_folder src
+        create_module api
+        create_module apps --language=rust --env=cargo
+            create_module app-store
+            create_module designer
+        create_module modules --language=rust --env=cargo
+            create_module accounting
+            create_module admin
+            create_module analytics
+            create_module board
+            create_module communications
+            create_module crm
+            create_module design
+            create_module engineering
+            create_module entity
+            create_module esg
+            create_module events
+            create_module finance
+            create_module hr
+            create_module it
+            create_module kms
+            create_module learning
+            create_module management
+            create_module marketing
+            create_module mdm
+            create_module office
+            create_module operations
+            create_module organization
+            create_module portal
+            create_module portfolio
+            create_module process
+            create_module product
+            create_module production
+            create_module risk
+            create_module sales
+                create_module order
+                create_module cpq
+            create_module schedule
+            create_module security
+            create_module strategy
+            create_module supplychain
+                create_module inventory
+                create_module logistics
+                create_module procurement
+            create_module team
+            create_module templates
+        create_module system --language=rust --env=cargo
+            create_module device
+            create_module drivers
+            create_module kernel
+            create_module log
+            create_module storage
+            create_module user
+
+def build()
+    targets = 
+    [
+        all
+    ]
+    qbuild targets
+
+def install()
+    targets = 
+    [
+        all
+    ]
+    qinstall targets
+
+def deploy()
+    targets = 
+    [
+        all
+    ]
+    qdeploy targets
+
+def test()
+    targets = 
+    [
+        all
+    ]

@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+ 
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\bfdefault}{b}
+\usepackage[scaled]{helvet}
+\renewcommand{\ttdefault}{pcr}
+\linespread{1.05}
+\normalfont % in case the EC fonts aren't available
+
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{lipsum}
+%\documentclass{amsart}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+\title{Complex Autonomous \\ Mobility Systems \\
+\noindent\rule{10cm}{0.4pt}}
+\author{Dominic Eaton}
+\date
+
+\begin{document}
+    \maketitle  
+    
+    \tableofcontents
+    
+    \part{Preliminaries}
+    
+        \chapter{Introduction}
+        
+        \chapter{The Protocol Stack}
+    
+    \part{The Stack}
+    
+        \chapter{Mobility Layer}
+            
+        \chapter{Communications Layer}
+        
+        \chapter{Data and Information Layer}
+            
+        \chapter{Intelligence Layer}
+        
+        \chapter{Application Layer}
+        
+        \chapter{Management and Organization Layer}
+            
+    
+\end{document}

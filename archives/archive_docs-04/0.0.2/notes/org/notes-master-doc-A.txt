@@ -1,0 +1,43 @@
+NOTEs v0.0.0
+
+group: the insfrastructure working group (the batwa group)
+	parent corporation:
+		entities:
+			central;holding;parent company
+			independent,decentralized companies:
+				patent company
+				trust; financial company
+				investment company
+				affiliate companies
+				foundations;charity
+					heritage projects
+					forestation projects
+
+		subsidiaries:
+			sectors:
+				agriculture
+					- plant propogation system
+				mobility
+					vehicular
+						- single agent development
+							- car manufacture, research, development
+						- agent network development
+							- road/transport/mobility system manufacture, research, development
+				simulation
+					media
+						gaming
+					infrastructural solutions
+						mobility
+				estate
+					- restaurant,lounge
+					- real investments
+				security,privacy
+					- biometrics system(s)
+					- research,development
+						- 
+				*entertainment
+					- music
+					- legalized gaming
+					
+					
+		

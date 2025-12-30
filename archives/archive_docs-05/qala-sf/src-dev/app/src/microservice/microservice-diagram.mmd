@@ -1,0 +1,34 @@
+flowchart TD
+
+    subgraph API_Gateway_Service[API Gateway]
+        REST[REST Endpoints]
+        JWT[JWT Auth]
+        RateLimit[Rate Limiting]
+        Logger[Logging]
+        GRPCClient[gRPC Client]
+    end
+
+    subgraph App_Service[Application Service]
+        GRPCServer[gRPC Server]
+        PostgresDB[(PostgreSQL)]
+        KafkaProducer[Kafka Producer]
+    end
+
+    subgraph Worker_Service[Worker Service]
+        KafkaConsumer[Kafka Consumer]
+        WorkerQueue[Async Worker Queue]
+        WorkerDB[(PostgreSQL)]
+    end
+
+    REST -->|HTTP Request| JWT
+    JWT --> RateLimit
+    RateLimit --> Logger
+    Logger --> GRPCClient
+
+    GRPCClient -->|gRPC Call| GRPCServer
+    GRPCServer --> PostgresDB
+    GRPCServer --> KafkaProducer
+
+    KafkaProducer -->|app.created event| KafkaConsumer
+    KafkaConsumer --> WorkerQueue
+    WorkerQueue --> WorkerDB

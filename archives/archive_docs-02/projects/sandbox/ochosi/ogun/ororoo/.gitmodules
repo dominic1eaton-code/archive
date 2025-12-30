@@ -1,0 +1,6 @@
+[submodule "ororoo-systems-engineering"]
+	path = ororoo-systems-engineering
+	url = ./ororoo-systems-engineering/
+[submodule "ororoo-systems-science"]
+	path = ororoo-systems-science
+	url = ./ororoo-systems-science/

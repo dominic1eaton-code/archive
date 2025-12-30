@@ -1,0 +1,176 @@
+# qala
+# package manager
+# windows
+https://scoop.sh/
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+ 
+$env:SCOOP = "D:\Users\domni\scoop"
+
+[environment]::setEnvironmentVariable('SCOOP', 'D:\Users\domni\scoop', 'User')
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL', 'D:\GlobalScoopApps', 'Machine')
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+net start vmpcompute
+
+scoop bucket add java
+scoop bucket add jetbrains https://github.com/JetBrains/scoop-utils
+scoop bucket add extras
+scoop bucket add versions
+scoop bucket add main
+scoop install git
+scoop install git-lfs
+scoop install erlang
+scoop install elixir
+scoop install python
+scoop install versions/python27
+scoop install ruby
+scoop install zig
+scoop install rust
+scoop install go
+scoop install perl
+scoop install sbt
+scoop install scala
+scoop install kotlin
+scoop install java/temurin-lts-jdk
+scoop install java/temurin21-jdk
+scoop install java/temurin21-jre
+scoop install java/openjdk17
+scoop install java/openjdk
+scoop install latex
+scoop install miktex
+scoop install nodejs
+scoop install cmake
+scoop install bazel
+scoop install gradle
+scoop install ninja
+scoop install vulkan
+scoop install notepadplusplus
+scoop install vscode
+scoop install pycharm
+scoop install rstudio
+scoop install android-studio
+scoop install android-clt
+scoop install extras/eclipse-java
+scoop install extras/vcredist2022
+scoop install docker
+scoop install podman
+scoop install podman-desktop
+scoop install msys2
+scoop install extras/putty
+scoop install curl
+scoop install 7zip
+scoop install google-chrome
+scoop install firefox
+scoop install gitlab-runner
+scoop install jenkins-lts
+scoop install glfw
+scoop install flutter
+scoop install dart
+scoop install anaconda3
+scoop install postgresql
+scoop install mingw
+scoop install ffmpeg
+scoop install doxygen
+scoop install gimp
+scoop install nmap
+scoop install wireshark
+scoop install vagrant
+scoop install blender
+scoop bucket add palindrom615 https://github.com/palindrom615/scoop-bucket
+scoop install sdkman
+scoop install springboot
+scoop install maven
+# scoop install glab 
+# Remove-Item -Path "D:\Users\domni\scoop" -Reccurse
+
+scoop install opam
+opam init -y
+
+C:\Users\domni\AppData\Local\opam\.cygwin\setup-x86_64.exe
+
+
+pacman -Syu
+pacman -S git make
+pacman -S mingw-w64-x86_64-gcc
+
+curl -O https://erlang.mk/erlang.mk
+
+
+make -f erlang.mk bootstrap
+make
+
+/d/Users/domni/scoop/apps/erlang/28.1.1/bin/erl
+export PATH=$PATH:/d/Users/domni/scoop/apps/erlang/28.1.1/bin/
+
+
+D:\Users\domni\scoop\apps\wireshark\current\USBPcapSetup-installer.exe
+D:\Users\domni\scoop\apps\nmap\current\npcap.exe
+
+gdb ./zig-out/bin/testzig
+
+
+sdk install springboot
+
+gem install rails
+
+
+npm install -g yarn
+npm install -g mocha
+npm install -g sass
+npm install -g less
+npm install -g react
+npm install -g angular
+npm install -g typescript
+npm install -g @angular/cli
+npm install -g tailwindcss postcss autoprefixer
+npm install -D tailwindcss postcss autoprefixer 
+npm install mustache --save
+npm install electron --save-dev
+
+
+ridk install
+
+
+
+python3 -m pip install requests
+python3 -m pip install wheel
+python3 -m pip install tensorflow
+python3 -m pip install opencv-python
+python3 -m pip install torch
+python3 -m pip install keras
+python3 -m pip install matplotlib
+python3 -m pip install numpy
+python3 -m pip install python-gitlab
+python3 -m pip install flask
+python3 -m pip install django
+python3 -m pip install kivy
+python3 -m pip install conan
+python3 -m pip install jupytera 
+python3 -m pip install pytest
+python3 -m pip install locust
+
+
+
+set JAVA_HOME=D:\Users\domni\scoop\apps\temurin21-jre\current
+
+
+reg import 'C:\Users\domni\scoop\apps\git\current\install-file-associations.reg'
+reg import "C:\Users\domni\scoop\apps\notepadplusplus\current\install-context.reg"
+
+
+curl -o eigen.zip  https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip
+7z x eigen.zip
+
+
+# notes
+## postgresql
+Run run 'pg_ctl start' or 'pg_ctl stop' to start and stop the database or
+register it as a service by running 'pg_ctl register -N PostgreSQL' from an elevated shell.
+Default superuser login: postgres, password: <blank>
+
+
+scoop install rustup
+rustup toolchain install stable-x86_64-pc-windows-gnu
+rustup default stable-x86_64-pc-windows-gnu

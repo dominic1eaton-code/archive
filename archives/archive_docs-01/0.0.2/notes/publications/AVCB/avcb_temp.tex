@@ -1,0 +1,1117 @@
+\documentclass{article}
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{lipsum}
+%\documentclass{amsart}
+
+
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+\title{\textbf{AVCB:} \\
+The Mobility Challenge 
+\linebreak
+\linebreak
+\textit{Yellow Paper}}
+\author{eatondo}
+
+\begin{document}  
+\maketitle
+
+\pagebreak
+
+
+\tableofcontents
+
+\pagebreak
+
+
+\part{Platoon Framework Introduction}
+
+
+\pagebreak
+
+
+
+\part{Platoon Communication}
+
+
+\pagebreak
+
+
+\section{Abstract}
+
+
+
+\pagebreak
+
+
+
+\section{Introduction}
+
+
+\subsection{Main Objectives}
+
+\section{Related Works}
+
+\section{Platooning Communications Framework}
+
+\section{Methodologies}
+
+
+\section{The Protocols}
+
+\section{Simulation}
+
+
+
+
+\pagebreak
+
+
+\part{Platoon Control}
+
+\pagebreak
+
+
+\section{Abstract}
+
+
+
+\pagebreak
+
+
+
+\section{Introduction}
+
+
+\subsection{Main Objectives}
+
+\begin{itemize}
+\item Create optimal vehicle locality formation strategies 
+\item creation of optimal vehilce platooning strategies for formation of physical layer for a vehicle edge network 
+\end{itemize}
+
+
+\pagebreak
+
+
+
+\section{Related Works}
+
+
+f
+
+\pagebreak
+
+
+
+\section{Background}
+
+
+\pagebreak
+
+
+
+
+\section{Methodologies}
+
+
+\subsection{Problem Definition}
+
+
+\subsection{Metric Formulation}
+
+In this section the mathematical formulation of the key characteristics and metrics involved in the platooning framework are defined. The metrics are formed in a distributed manner, meaning that in a given road network of connected communicating vehicles, every vehicle is collecting data from its surrounding environment and constructs a localized statistical model. Each vehicle measures the platoon characteristics and performs local analyitics from this model, and these results drive the behavior of each vehicles local controller model. Each of the following metrics is, therefore, formulated with respect to some given reference vehicle $v_{n} \in V$ for a given set of vehicle $V$. It is important to note that, in this work, the measurements of a vehicle's mobility characteristics (e.g. it's speed, velocity, etc...) are assume the origin of measurements are from the center of the vehicle. \\
+
+**Measurements of position/velocity/etc... assume origin of measurements at center of vehicle
+
+\subsubsection{Random Variables}
+
+Due to the highly variable nature of the characteristics involved in the formation of optimal vehicle platoons, a stochastic framework was chosen as to give the most accurate mathematical model.
+
+\subsubsection{Speed}
+
+$v_{n}$
+
+\subsubsection{Gap}
+
+The gap between two vehicles is defined as the displacement between two vehicles, a lead vehicle and a follow vehicle. The mathematical formulaion is as follows:
+
+$\Delta l_{n} =  |l_{lead} - l_{follow}|$
+
+\subsubsection{Headway}
+
+The vehicle headway is defined as the displacement between two vehicles, a following and a lead vehicle, divided by the velocity of the following vehicle. The mathematical formulaion is as follows:
+
+$h_{n} = \dfrac{\Delta l_{n}}{v_{follow}}$  
+
+\subsubsection{Platoon Size}
+
+
+
+\subsubsection{Platoon Density}
+
+
+
+\subsubsection{Platoon Lifetime}
+
+
+
+\subsubsection{Platoon Dispersion}
+
+
+
+\subsubsection{Platoon Variability}
+
+
+
+\subsubsection{Platoon Viscosity}
+
+
+
+\subsubsection{Platoon Flow}
+
+
+
+\subsubsection{Platoon Capacity}
+
+
+
+
+\subsubsection{Platoon Ratio}
+
+
+\subsection{System Identification}
+
+\subsection{Distributed Model Predictive Control}
+
+
+\subsection{Longitudinal Control}
+
+\subsubsection{Longitudinal Stabilization}
+
+
+
+\subsection{Lateral Control}
+
+
+\subsection{Maneuver Control}
+
+
+
+
+
+\subsection{Critical Points}
+
+
+\subsubsection{Formation}
+
+
+\subsubsection{Merging}
+
+
+\subsubsection{Splitting}
+
+
+\subsubsection{Regrouping}
+
+
+\subsubsection{Dissolution}
+
+
+
+
+\subsection{Junction Comportment}
+
+\subsubsection{Junction Scheduling}
+
+
+
+\subsection{Crowding}
+
+\subsubsection{Characteristics}
+
+Empirical rules:
+
+\begin{itemize}
+\item \textbf{Flock centering:} agents stay together with/nearby other agents
+\item \textbf{Collision avoidance:} avoid colliding with other agents
+\item \textbf{Velocity matching:} keep similar velocity with other agents 
+\end{itemize}
+
+\subsubsection{Type Models}
+
+\subsubsection{Eulerian Models}
+
+\subsubsection{Lagrangian Models}
+
+\subsubsection{Balance of Forces}
+
+As the vehicles move in the environemnt, a series of "forces" acts upon them, pulling or pushing them in certain directions and controlling their overall behavior. Vehicles take into account these forces by measuring and recording information from their environment through either sensors, or via the communcation network. Upon receiving information from the environment, the vehicle reacts to the "forces" that it detects from the environment.  These forces become the main focus of the controller as through their manipulation, the vehicles will be able to achieve their local objectives and the platoon will be able to achieve its globalized objectives as well.
+
+
+
+\begin{table}[h]
+\caption{Platooning Forces}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{Force} & \textbf{Notation} & \textbf{Type} &\textbf{Description}  \\ \hline
+ 	
+	Crowding &  $F_{crowding}$  & Attractive & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Foci &  $F_{foci}$  & Attractive & Forces which the vehicles desire  \\ \hline
+	
+	Vehicle &  $F_{Vehicle}$  & Repulsive & Forces emmitted from individual vehicles  \\ \hline
+	
+    \hline
+    \end{tabular}
+    
+\end{table}
+
+\pagebreak
+
+
+
+\section{Vehicle Modeling}
+
+
+\subsection{Overview}
+
+
+
+
+\section{Platoon Negotiations}
+
+
+Dealing with misalignment of interests
+
+\subsection{Attitude}
+
+
+\subsubsection{Cooperation}
+
+
+\subsubsection{Non Cooperation}
+
+
+
+
+
+\section{Platooning Controls Framework}
+
+
+\subsection{Overview}
+
+
+\subsection{Data Structures}
+
+
+\subsection{States}
+
+
+\begin{table}[h]
+\caption{Platoon States}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{State} & \textbf{Notation} & \textbf{Value} &\textbf{Description}  \\ \hline
+	Formation &  $s_{formation}$  & 0 & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Dissolution &  $s_{dissolution}$  & 1 & Forces which the vehicles desire  \\ \hline
+	
+	Modification &  $s_{modification}$  & 2 & Forces which the vehicles desire  \\ \hline
+		
+	Disruption &  $s_{disruption}$  & 3 & Forces which the vehicles desire  \\ \hline
+			
+ 	Regroup &  $s_{regroup}$  & 4 & Forces which the vehicles desire  \\ \hline
+						
+	Negotation &  $s_{negotation}$  & 4 & Forces which the vehicles desire  \\ \hline
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+
+
+\subsection{Maneuvers}
+
+\begin{table}[h]
+\caption{Platoon Maneuvers}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{Maneuver} & \textbf{Notation} & \textbf{Value} &\textbf{Description}  \\ \hline
+	Join &  $m_{join}$  & 0 & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Leave &  $m_{leave}$  & 1 & Forces which the vehicles desire  \\ \hline
+	
+	Merge &  $m_{merge}$  & 2 & Forces which the vehicles desire  \\ \hline
+		
+	Split &  $m_{split}$  & 3 & Forces which the vehicles desire  \\ \hline
+			
+ 	Regroup &  $m_{regroup}$  & 4 & Forces which the vehicles desire  \\ \hline
+						
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+\begin{table}[h]
+\caption{Vehicle Maneuvers}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{Maneuver} & \textbf{Notation} & \textbf{Value} &\textbf{Description}  \\ \hline
+	Approach &  $m_{Approach}$  & 0 & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Regress &  $m_{Regress}$  & 1 & Forces which the vehicles desire  \\ \hline
+	
+	Enter &  $m_{enter}$  & 2 & Forces which the vehicles desire  \\ \hline
+		
+	Exit &  $m_{exit}$  & 3 & Forces which the vehicles desire  \\ \hline
+		
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+
+\subsection{Publisher Subscriber Model}
+
+\subsubsection{Overview}
+
+\subsubsection{Model}
+
+
+
+\subsubsection{Messages}
+
+\begin{table}[h]
+\caption{Platoon Messages}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{Message} & \textbf{Notation} & \textbf{Value} &\textbf{Description}  \\ \hline
+	Join &  $m_{join}$  & 0 & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Leave &  $m_{leave}$  & 1 & Forces which the vehicles desire  \\ \hline
+	
+	Merge &  $m_{merge}$  & 2 & Forces which the vehicles desire  \\ \hline
+		
+	Split &  $m_{split}$  & 3 & Forces which the vehicles desire  \\ \hline
+			
+ 	Regroup &  $m_{regroup}$  & 4 & Forces which the vehicles desire  \\ \hline
+						
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+\subsubsection{Strategies}
+
+
+\paragraph{Publisher}
+
+\begin{algorithm}
+\caption{Publish}\label{Publish}
+\begin{algorithmic}[1]
+\Procedure{Publish}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm} 
+
+
+\paragraph{Subscriber}
+
+\begin{algorithm}
+\caption{Subscriber}\label{Subscriber}
+\begin{algorithmic}[1]
+\Procedure{Subscribe}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm} 
+
+
+\paragraph{Forward}
+
+\begin{algorithm}
+\caption{Forward}\label{Forward}
+\begin{algorithmic}[1]
+\Procedure{Forward}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm} 
+
+
+
+\paragraph{Matching}
+
+\begin{algorithm}
+\caption{Matching}\label{Matching}
+\begin{algorithmic}[1]
+\Procedure{Matching}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm} 
+
+
+
+\subsection{Platoon Recognition}
+
+
+\subsubsection{Overview}
+
+Platoon recognition is the process of probabilistically recognizing the formation of platoon. This can be realized through a three step process which includes Identification, Estimation, and Filtering. Platoon identification is the process of identifying the existence of platoons through identifying which, if any, possible candidate vehicles that may belong to a platoon. Platoon estimation involves the estimation of key platoon parameters, which include platoon size, density, viscosity, flow rate, interstatic forces, and lifetime. The final step **of platoon filtering** is the process of finding optimal candidate vehicles which have high likelihood of belonging to a platoon. 
+
+
+
+\subsubsection{Objectives}
+
+Global 
+
+\begin{itemize}
+\item Platoon size     		$L_{platoon}$
+\item Platoon lifetime 		$T_{platoon}$
+\item Platoon density 		$D_{platoon}$
+\item Platoon variability 	$\mathscr{V}_{platoon}$
+\end{itemize}
+
+\begin{equation} 
+\max_{\{parameter\}} L_{platoon}
+\end{equation} 
+
+\begin{equation} 
+\max_{\{parameter\}} T_{platoon}
+\end{equation} 
+
+\begin{equation} 
+\max_{\{parameter\}} D_{platoon}
+\end{equation} 
+
+\begin{equation} 
+\min_{\{parameter\}} \mathscr{V}_{platoon}
+\end{equation} 
+
+\textbf{Local}
+\\ 
+Vehicle
+\begin{itemize}
+\item vehicle force 						$v_{f}$
+\item vehicle communication delay    		$v_{delay}$
+\item vehicle travel time   				$v_{ttime}$
+\item vehicle travel distance    			$v_{tdistance}$
+\end{itemize}
+
+\begin{equation} 
+optimize(v_{f})
+\end{equation} 
+
+\begin{equation} 
+\min_{\{parameter\}} v_{delay}
+\end{equation} 
+
+\begin{equation} 
+\min_{\{parameter\}} v_{ttime}
+\end{equation} 
+
+\begin{equation} 
+\min_{\{parameter\}} v_{tdistance}
+\end{equation} 
+
+
+
+
+\subsubsection{Mathematic Notations}
+
+\begin{itemize}
+\item Junctions    		$j \in \mathscr{J}$
+\item Roads    			$r \in \mathscr{R}$
+\item vehicles    		$v \in \mathscr{V}$
+\end{itemize}
+
+
+
+\subsubsection{Metrics}
+
+Principle Metrics:
+\begin{itemize}
+\item Platoon Lifetime
+\item Platoon Size		
+\item Platoon density
+\item Platoon variability 
+\end{itemize}
+
+Vehicle Metrics:
+\begin{itemize}
+\item Vehicle position
+\item Vehicle velocity		
+\item Vehicle headway
+\item Vehicle gap 
+\end{itemize}
+
+
+
+\subsubsection{Considerations}
+
+Platoons 
+
+\begin{itemize}
+\item Critical Formation decision boundary 
+\item CV Penetration Ratio
+\item Points of formation 
+\item Points of dissolution 
+\item Points of merging
+\item Points of splitting
+\item junction scheduling 
+\item platoon assignment
+\item platoon regrouping (mid-road)
+\end{itemize}
+
+
+Road Network
+
+\begin{itemize}
+\item Road infrastructure 
+\item merging points
+\end{itemize}
+
+
+\subsubsection{Assumptions}
+
+
+\subsubsection{Parameters}
+
+\begin{itemize}
+\item Road Capacity 
+\item Platoon Capacity 
+\item Vehicle Length / Size
+\item inter-platoon distance
+\item intra-platoon distance 
+\end{itemize}
+
+
+\subsubsection{Strategies}
+
+
+
+\paragraph{Grouping}
+
+
+
+\paragraph{States}
+
+
+
+
+
+\begin{table}[h]
+\caption{Vehicle States}  % title name of the table
+    \begin{tabular}{| l | l | l | l |}
+    \hline
+    
+ 	\textbf{State} & \textbf{Notation} & \textbf{Value} &\textbf{Description}  \\ \hline
+	Following &  $S_{follow}$  & 0 & force pulling vehicles in platoon toward one another \\ \hline
+	
+	Free Speed &  $S_{free}$  & 1 & Forces which the vehicles desire  \\ \hline
+	
+		Approaching &  $S_{approach}$  & 2 & Forces which the vehicles desire  \\ \hline
+		
+			Receding &  $S_{receding}$  & 3 & Forces which the vehicles desire  \\ \hline
+    \hline
+    \end{tabular}
+\end{table}
+
+
+
+\paragraph{Estimating the Local Vehicle State}
+
+\begin{algorithm}
+\caption{Vehicle State}\label{EstimateState}
+\begin{algorithmic}[1]
+\Procedure{EstimateState}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm} 
+
+
+\paragraph{Identification}
+
+\begin{algorithm}
+\caption{Platoon Identification}\label{Identification}
+\begin{algorithmic}[1]
+\Procedure{Identify}{$p_{n},v_{n},p_{n}$}	\Comment{The g.c.d. of a and b}
+\State $I_{n} \gets <p_{n},v_{n},p_{n}>$ 	
+\If{$I_{n} \in [T_{min}, T_{max}]$}
+ $a$
+\EndIf 
+
+\State \textbf{record} $I_{n}$
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+
+
+
+\paragraph{Estimation}
+
+\begin{algorithm}
+\caption{Platoon Estimation}\label{Estimation}
+\begin{algorithmic}[1]
+\Procedure{Estimate}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+
+
+
+
+\paragraph{Filtering}
+
+ \begin{algorithm}
+\caption{Platoon Filtering}\label{Filtering}
+\begin{algorithmic}[1]
+\Procedure{Filter}{$p_{n},v_{n},p_{n}$}	
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+
+\paragraph{Complete}
+
+ \begin{algorithm}
+\caption{Platoon Recognition}\label{Recognition}
+\begin{algorithmic}[1]
+\Procedure{Recognize}{$p_{n},v_{n},p_{n}$}
+
+
+\State \textbf{EstimateState}($i$)
+
+\State \textbf{Identify}($i$)
+
+
+\State \textbf{Estimate}($i$)
+
+
+\State \textbf{Filter}($i$)
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+\pagebreak
+
+
+
+\subsection{Platoon Sustainability}
+
+\subsubsection{Objectives}
+
+\begin{itemize}
+\item Platoon Recognition 
+\item Speed Filtering 
+\item Parameter Estimation
+\end{itemize}
+
+\subsubsection{Mathematic Notations}
+
+
+\subsubsection{Metrics}
+
+\subsubsection{Considerations}
+
+\subsubsection{Assumptions}
+
+\subsubsection{Parameters}
+
+\subsubsection{Strategies}
+
+
+
+
+
+ \begin{algorithm}
+\caption{Platoon Sustainment}\label{Sustainment}
+\begin{algorithmic}[1]
+\Procedure{Sustain}{$p_{n},v_{n},p_{n}$}
+
+
+\State \textbf{return} $b$				
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+\pagebreak
+
+
+
+
+
+
+\subsection{Platoon Prediction}
+
+\subsubsection{Objectives}
+
+\begin{itemize}
+\item Predict future platoon states
+\item Cooperative path planning
+\end{itemize}
+
+\subsubsection{Mathematic Notations}
+
+
+\subsubsection{Metrics}
+
+\subsubsection{Considerations}
+
+\subsubsection{Assumptions}
+
+\subsubsection{Parameters}
+
+\subsubsection{Strategies}
+
+
+
+
+
+
+\subsection{Vehicle Controller}
+
+\subsubsection{Overview}
+
+\subsubsection{The Local Control System}
+
+
+%\includegraphics[width=1.2\textwidth]{MPCgeneral(3)(1)}
+
+
+
+%\includegraphics[width=1.2\textwidth]{DMPCcontroller(4)(1)}
+
+
+\subsubsection{Components}
+
+
+Cloud Computing - Paradigms and Technologies
+
+
+\subsection{Platoon Controller}
+
+
+\subsubsection{Overview}
+
+
+\subsubsection{The Distributed MPC System}
+
+
+%\includegraphics[width=1.2\textwidth]{PlatoonController(8)}
+
+
+
+\subsubsection{Components}
+
+
+
+
+
+\subsection{The Complete Controller}
+
+
+\subsubsection{Overview}
+
+
+\subsubsection{The Complete System}
+
+
+\subsubsection{Components}
+rounded
+
+
+
+\pagebreak
+
+
+
+\section{Simulation}
+
+
+\subsection{The Environment}
+
+\subsubsection{Plexe}
+
+\subsubsection{Veins}
+
+\subsubsection{Flow}
+
+\subsubsection{Controls Environment}
+
+\subsubsection{Environment Manager}
+
+\paragraph{Shared Memory}
+
+
+\subsection{Simulation Parameters}
+
+\subsection{Scenarios} 
+
+
+\subsubsection{Overview}
+
+A set of scenarios were designed for the testing and validation of the proposed controller, where each set of scenarios tested a different aspect of the controller performance. Each scenario considers three settings for testing which include the single lane setting, the double lane setting, and the multiple lane setting. The single lane setting focuses on the testing and validation of langitudinal control of the vehicle controller The double lane setting focuses on testing the lateral control of the vehicle controller. The multiple lane setting then focuses on the testing and validation of the generalized control performance of the vehicle controller. \\
+\indent The scenarios include the single ring scenario, the extended ring scenario, the grid scenario, the OSM based scenario and finally the randomly generated scenario. Each scenario type provides a unique road structure as to provide a sufficient challenge to a given aspect of the controller. The single ring scenario merely tests the controller on a homogoneous road structure, a single road. The extended ring structure introduces a single junction and tests junction behavior and responses to such "new road structure". The grid scenario tests controller behavior in the presence of multiple junctions. The OSM scenario uses an imported map of a real world road network and tests the controller in such environments. The procedurally generated scenario creates a completely novel and random road network and tests the controller in this highly generalized setting. 
+
+
+\subsubsection{Single Ring, Single Lane}
+
+-test longitudinal control 
+
+\subsubsection{Single Ring, Double Lane}
+
+-test lateral control 
+
+\subsubsection{Single Ring, Multi Lane}
+
+-test general control 
+
+
+
+\subsubsection{Extended Ring (Junction), Single Lane}
+
+- test junction control with longitudinal control
+
+\subsubsection{Extended Ring (Junction), Double Lane}
+
+- test junction control with lateral control
+
+\subsubsection{Extended Ring (Junction), Multi Lane}
+
+- test junction control with general control
+
+
+
+\subsubsection{Grid, Single Lane}
+
+- baseline longitudinal control
+
+\subsubsection{Grid, Double Lane}
+
+- baseline lateral control
+
+\subsubsection{Grid, Multi Lane}
+
+- baseline general control
+
+
+\subsubsection{OSM, Single Lane}
+
+- baseline longitudinal control
+
+\subsubsection{OSM, Double Lane}
+
+- baseline lateral control
+
+\subsubsection{OSM, Multi Lane}
+
+- baseline general control
+
+
+
+\subsubsection{Random Generated, Single Lane}
+
+- baseline longitudinal control
+
+\subsubsection{Random Generated, Double Lane}
+
+- baseline lateral control
+
+\subsubsection{Random Generated, Multi Lane}
+
+- baseline general control
+
+
+
+\subsection{Measurements}
+
+
+\subsubsection{Overview}
+
+
+
+\subsubsection{Vehicle Speed}
+
+
+\subsubsection{Vehicle Headway}
+
+
+\subsubsection{Vehicle Gap}
+
+
+\subsubsection{Inter Platoon Gap}
+
+
+\subsubsection{Intra Platoon Gap}
+
+
+\subsubsection{Platoon Size}
+
+
+\subsubsection{Platoon Density}
+
+
+\subsubsection{Platoon Lifetime}
+
+
+\subsubsection{Platoon Speed Dispersion}
+
+
+\subsubsection{Platoon Spatial Dispersion}
+
+
+\subsubsection{Inter Platoon Variability}
+
+
+\subsubsection{Platoon Viscosity}
+
+
+\subsubsection{Platoon Flow}
+
+
+\subsubsection{Platoon Capacity}
+
+
+
+\subsection{Validation}
+
+
+
+\pagebreak
+
+
+\section{Analysis and Results}
+
+
+
+
+
+\pagebreak
+
+
+\section{Conclusion}
+
+
+
+\section{Future Work}
+
+
+\pagebreak
+
+\section{References}
+
+
+\pagebreak 
+
+\begin{appendices}
+\section{Metric Derivations}
+
+\subsection{Platoon Size}
+
+
+\subsection{Platoon Density}
+
+
+\subsection{Platoon Lifetime}
+
+
+\subsection{Platoon Viscosity}
+
+
+\subsection{Platoon Flow Rate}
+
+
+\section{Proofs}
+
+\section{Simulation Parameters}
+
+
+\end{appendices}
+
+
+
+\pagebreak
+
+
+
+\part{Platoon Testing and Analysis}
+
+\pagebreak
+
+
+
+
+\part{Platoon Application}
+
+\pagebreak
+
+
+
+\part{Platoon Simulation Environment}
+
+\pagebreak
+
+
+
+
+
+\end{document}

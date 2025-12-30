@@ -1,0 +1,3 @@
+ExampleTest.jar
+../rules_java++toolchains+remote_java_tools/java_tools/Runner_deploy.jar
+../rules_java++toolchains+remote_java_tools/java_tools/JacocoCoverage_jarjar_deploy.jar

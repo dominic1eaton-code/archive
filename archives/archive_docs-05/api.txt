@@ -1,0 +1,16 @@
+
+
+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
+
+
+
+
+curl https://api.openai.com/v1/responses \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "gpt-5-nano",
+    "input": "write a haiku about ai",
+    "store": true
+  }'
+

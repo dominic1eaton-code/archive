@@ -1,0 +1,13 @@
+# @license
+# @brief
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+device = { path = "../device" }
+drivers = { path = "../drivers" }
+log = { path = "../log" }
+network = { path = "../network" }
+storage = { path = "../storage" }

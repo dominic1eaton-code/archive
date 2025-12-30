@@ -1,0 +1,6 @@
+{
+  "allowed_agents": {
+    "agent-01": "AGENT_ABC_123_456",
+    "agent-02": "XYZ_DEF_000"
+  }
+}

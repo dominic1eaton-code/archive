@@ -1,0 +1,38 @@
+/**
+ * @brief contract management system
+ */
+
+new
+
+create
+create contact
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+
+
+[contract.operations]
+negotiate
+
+execute
+
+store
+
+maintain
+
+validate

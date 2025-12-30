@@ -1,0 +1,64 @@
+\documentclass[11pt]{article}
+
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\bfdefault}{b}
+%\usepackage[scaled]{helvet}
+\usepackage[osf]{Baskervaldx} 
+\renewcommand{\ttdefault}{pcr}
+\linespread{1.05}
+\normalfont % in case the EC fonts aren't available
+\usepackage[T1]{fontenc}
+
+
+\title{Global Learning in Private Distributed Systems \\
+\noindent\rule{10cm}{0.4pt}}
+
+
+
+\author{
+    \textbf{Dominic Eaton}  \\
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+\date{}
+
+
+
+\section*{Abstract}
+
+Achieving Globalized learning from a collection of distributed agents, each of whom only have a partial view of the total environmental data, is task that has merited much interest and research. Beyond simply learning some globalized model, there are also expectations of privacy of the data that facilitates learning, adding a layer of complexity to the problem at hand. We propose a novel private learning model, making use of methodologies involving federated learning, ensemble learning, truth discovery, and differential privacy, to build a learning system with the capability of solving global problems from a set of distributed agents. We compare our work to the centralized method of Teacher Student Ensemble Learning as well as various methods of Federated Learning. 
+
+
+\section{Introduction}
+
+At the heart of machine learning is data. Data fuels powerful algorithms and methodologies that solve a host of complex problems. As such, protection and veracity of the data utilized by a particular learning system become paramount. In the real world, often times the data that powers machine learning algorithms can come from a myriad of sources, and it is not very difficult to imagine a case where a learning algorithm, a classifier for instance, may need to learn from a set of distributed agents. These agents may have the capability to collect data and even learn local information about the world around them, yet true power lies in combining many local learning agents to create a powerful global learning system [references to examples of distributed learning applications]. Attacks on such systems are also of real concern, as (sensitive information may be collected by agents) [references to attacks in distributed machine learning]. Ensemble learning while maintaining the sanctity of privacy of diffuse (user) information is a challenging problem, [list reasons]. \\ 
+
+[Example] For example, imagine one is attempting learn a global model of the condition of a roadway system, through training a classifier on data collected from vehicles on the roadway. Each vehicle is equipped with devices capable of sensing and learning local models of the road network, and communicating this information to some global road side unit, who can further process and learn a final predictive model on the entire road network, which can in turn, share this global model with each local device, improving their local view of the road. It may be undesirable for local devices to share their information publicly, and may wish to have their information protected. Furthermore, the aggregate may be vulnerable to data poising attacks, for which it could transfer to all vehicles on the road, so it requires protection as well. 
+
+
+\section{Related Work}
+
+\section{Background and Overview}
+
+\section{Threat Model}
+
+\section{Approach}
+
+\section{Security Analysis}
+
+\section{Privacy Analysis}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Conclusion}
+
+\section{References}
+
+\end{document}

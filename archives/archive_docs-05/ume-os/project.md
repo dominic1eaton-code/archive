@@ -1,0 +1,54 @@
+#
+cargo new kernel --bin
+cargo new device --lib
+cargo new drivers --lib
+cargo new log --lib
+cargo new network --lib
+cargo new storage --lib
+cargo new user --lib
+
+
+cargo new app-store --bin
+cargo new designer --bin
+
+cargo new admin --lib
+cargo new analytics --lib
+cargo new board --lib
+cargo new communications --lib
+cargo new crm --lib
+cargo new custom --lib
+cargo new design --lib
+cargo new engineering --lib
+cargo new entity --lib
+cargo new esg --lib
+cargo new events --lib
+cargo new finance --lib
+    cargo new accounting --lib
+cargo new hr --lib
+cargo new it --lib
+cargo new kms --lib
+cargo new learning --lib
+cargo new management --lib
+cargo new marketing --lib
+cargo new mdm --lib
+cargo new office --lib
+cargo new operations --lib
+cargo new organization --lib
+cargo new portal --lib
+cargo new portfolio --lib
+cargo new process --lib
+cargo new product --lib
+cargo new production --lib
+cargo new risk --lib
+cargo new sales --lib
+    cargo new order --lib
+    cargo new cpq --lib
+cargo new schedule --lib
+cargo new security --lib
+cargo new strategy --lib
+cargo new supplychain --lib
+    cargo new inventory --lib
+    cargo new logistics --lib
+    cargo new procurement --lib
+cargo new team --lib
+cargo new templates --lib

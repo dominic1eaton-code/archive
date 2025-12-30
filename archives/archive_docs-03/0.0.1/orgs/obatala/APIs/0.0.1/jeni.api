@@ -1,0 +1,46 @@
+/**
+ * @brief entity blueprint registration, control, administration and management
+ */
+
+
+new
+
+
+create
+create blueprint
+
+create layer physical
+
+create layout
+create layout physical office
+create layout physical warehouse
+create layout physical datacenter
+create layout physical HQ
+
+create layout network
+
+create layout business
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+
+register
+register blueprint
+
+

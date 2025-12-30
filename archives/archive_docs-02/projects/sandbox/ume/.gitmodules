@@ -1,0 +1,54 @@
+[submodule "akili"]
+	path = akili
+	url = ./akili/
+[submodule "amanzi"]
+	path = amanzi
+	url = ./amanzi/
+[submodule "chombo"]
+	path = chombo
+	url = ./chombo/
+[submodule "erinle"]
+	path = erinle
+	url = ./erinle/
+[submodule "esu"]
+	path = esu
+	url = ./esu/
+[submodule "iso"]
+	path = iso
+	url = ./iso/
+[submodule "jini"]
+	path = jini
+	url = ./jini/
+[submodule "jiwe"]
+	path = jiwe
+	url = ./jiwe/
+[submodule "kujali"]
+	path = kujali
+	url = ./kujali/
+[submodule "mikono"]
+	path = mikono
+	url = ./mikono/
+[submodule "mila"]
+	path = mila
+	url = ./mila/
+[submodule "moto"]
+	path = moto
+	url = ./moto/
+[submodule "olumo"]
+	path = olumo
+	url = ./olumo/
+[submodule "pamoja"]
+	path = pamoja
+	url = ./pamoja/
+[submodule "shango"]
+	path = shango
+	url = ./shango/
+[submodule "taarifa"]
+	path = taarifa
+	url = ./taarifa/
+[submodule "umuthi"]
+	path = umuthi
+	url = ./umuthi/
+[submodule "yemaya"]
+	path = yemaya
+	url = ./yemaya/

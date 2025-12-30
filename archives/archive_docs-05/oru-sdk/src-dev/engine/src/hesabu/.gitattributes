@@ -1,0 +1,45 @@
+# @copyright
+# @brief
+# @note
+
+# linux
+*.h    eol=lf
+*.hpp  eol=lf
+*.c    eol=lf
+*.cpp  eol=lf
+*.cxx  eol=lf
+*.py   eol=lf
+*.pl   eol=lf
+*.sh   eol=lf
+*.doxy eol=lf
+
+# windows
+*.bat       eol=crlf
+*.java      eol=crlf
+*.classpath eol=crlf
+*.sln       eol=crlf
+*.vcproj    eol=crlf
+
+# binary
+*.tar      binary
+*.tar.gz   binary
+*.tgz      binary
+*.rpm      binary
+*.zip      binary
+*.jar      binary
+*.png      binary
+*.svg      binary
+*.jpeg     binary
+*.jpg      binary
+*.ico      binary
+*.xlsx     binary
+*.wav      binary
+*.pdf      binary
+*.lib      binary
+*.dll      binary
+*.exe      binary
+
+# extra
+*.blend  -delta
+*.glb  -delta
+*.spv  -delta

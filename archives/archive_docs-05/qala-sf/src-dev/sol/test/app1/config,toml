@@ -1,0 +1,17 @@
+app_name = "ZigTOMLApp"
+version = "1.1.0"
+debug = true
+ports = [8000, 8001, 8002]
+matrix = [[1,2,3],[4,5,6]]
+values = [1, "two", true, { a = 1, b = "x" }]
+
+[database]
+hosts = ["db1", "db2"]
+ports = [5432, 5433]
+credentials = { user = "admin", password = "secret" }
+
+[database]
+host = "localhost"
+port = 5432
+credentials = { user = "admin", password = "secret" }
+

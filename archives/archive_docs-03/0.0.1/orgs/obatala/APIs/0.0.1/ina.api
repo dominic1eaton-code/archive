@@ -1,0 +1,40 @@
+/**
+ * @brief procedural generation platform
+ */
+
+
+new
+
+
+create
+create terrain
+create parcel
+create infrastructure
+create entity
+create pedestrian
+create traffic
+create world
+create weather
+create environment
+create light
+create sun
+create sky
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

@@ -1,0 +1,28 @@
+job "build" {
+    steps = ["zig build"]
+}
+
+job "test" {
+    needs = ["build"]
+    steps = ["zig build test"]
+}
+
+job "package" {
+    needs = ["build"]
+    steps = ["tar -czf artifact.tgz ./zig-out"]
+}
+
+job "deploy" {
+    needs = ["test", "package"]
+    steps = ["echo Deploying..."]
+}
+
+pipeline {
+    jobs = ["build", "test", "package", "deploy"]
+}
+job "build-aarch64" {
+    target = "aarch64-linux"
+    steps = [
+        "zig build -Dtarget=$ZIG_TARGET"
+    ]
+}   

@@ -1,0 +1,78 @@
+# qala docker module
+#
+#
+
+docker pull almalinux/10-base
+docker pull almalinux/10-base:10.0-20250909
+docker pull rockylinux:9.3.20231119
+
+
+docker exec -it beautiful_bell "/bin/bash"
+
+docker start stupefied_wright
+docker exec -it stupefied_wright "/bin/bash"
+
+docker stop stupefied_wright
+
+docker run -it -v "D:\dev:/testing" almalinux/10-init
+docker run -it -v "D:\dev:/testing" almalinux/10-base
+
+
+cp -R zig-x86_64-linux-0.16.0-dev.732+2f3234c76/ ~/zig
+
+
+
+yum -y install ncurses
+yum -y install rust
+yum -y install epel-release
+yum -y install snapd
+yum -y install xz
+yum -y install gc
+yum -y install cmake
+yum -y install git
+yum -y install valgrind
+yum -y install go
+yum -y install perl
+yum -y install strace
+yum -y install sudo
+yum -y install gdb
+
+
+apk add strace
+
+
+dnf update -y
+dnf install java-11-openjdk-devel -y
+
+
+
+
+echo 'export PATH="/testing/download/zig-x86_64-linux-0.16.0-dev.732+2f3234c76:$PATH"' >> ~/.bashrc
+echo 'export PATH="/root/zig:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+export ZIG_GLOBAL_CACHE_DIR=$PWD
+
+zig
+adduser tuser1
+passwd tuser1
+usermod -aG wheel tuser1
+id tuser1
+su - tuser1
+
+
+strace -f -o zig_trace.log zig build
+
+
+systemctl enable --now snapd.socket
+
+uname -m
+
+
+# pwds
+abcd
+root
+
+
+
+ 

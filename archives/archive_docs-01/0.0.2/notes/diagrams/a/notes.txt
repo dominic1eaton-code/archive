@@ -1,0 +1,185 @@
+NOTEs v0.0.0
+
+STRUCTURE ========================================================================================================
+
+group: the insfrastructure working group (The Batwa Investements Group)
+	parent/holding corporation: [The MeChoro Corporation]
+		entities:
+			central;holding;parent company [The MChoro Corporation]
+			investment firm [Suuru Investments Firm]
+			independent,decentralized companies:
+				patent company
+				trust; financial company
+				affiliate companies
+				foundations;charity
+					heritage projects
+					forestation projects
+
+		subsidiaries:
+			sectors:
+				manufacturing and design [Mepụta Services]:
+					- 3D printing services
+						- 3D Printer System [The Imewe System]
+					- factory automation
+				technology [Oniru Technologies]:
+					mobility [Oniru Mobility Solutions]
+						vehicular [Nandi Mobility Agents]
+							- CAS (complex autonomous agent) single agent development
+								- car manufacture, research, development
+							- CAN (complex autonomous (agent) network) agent network development
+								- road/transport/mobility system manufacture, research, development
+					simulation [Oniru Gaming]
+						- media technologies [Ere]
+							gaming solutions
+								- Oru Engine/Simulator/Platform/Ecosystem
+						- multi agent simulation technologies [Egbe]
+							infrastructural solutions
+								mobility
+						- procedural generation technologies
+							- generation solutions
+								- Environment Procedural Generation
+									- World Procedural Generation 
+									- Agent procedural generation
+				agriculture [Obgin Automation Cultivation Services]
+					- plant propogation system [The Osisi System]
+						- soil composition, mixing
+							- soil conditioning
+								- composting
+								- fertilization
+							- soil metrics collection
+								- Temperature, pH (hydrogen ion interaction), Air Pressure, Air/Water Moisture, 
+								- nutrient measure
+									- calcium, phospohrous, sulphur, potassium, oxygen, 
+					- automated horticulture and agricultural services
+				estate
+					- restaurant,lounge
+						- test kitchen(s)
+					- real investments
+				security,privacy
+					- biometrics system(s)
+					- research,development
+						- 
+				*entertainment [Iworan Media Corporation]
+					- music [Iworan Music]
+						- label, manager, artist
+						- symphony
+					- legalized gaming
+				event [Kwuuru]
+					space
+					organizing
+				beauty
+					- loc salons chain
+				academic
+				regulation+compliance
+				
+Grand Theory: The Theory of Agents
+	Grand Design: The Agent Theory 
+	Grand Design: The Agent Practice
+		Master Portfolio, Porgam, Project: The Automata Project
+		Master Portfolio, Porgam, Project: The Terraformation Project
+		Master Portfolio, Porgam, Project: The Propogation Project
+			The Batwa Investments Group
+			master portfolio --> MChoro Corporation ((infrastructure)propogation technologies)
+				products <sector assignment>
+					Release
+						- investments incubator
+							- entity/company incubator
+								- product incubator
+						- 3D Printer Manufacturing System
+						- Plant Propogation System
+						- Application Generation Game Engine
+						- Procedural Generation and Automation Tool Platform
+						- Automated Mobility Solution
+							- CAN Bus Translation Device
+								- Vehicle OBD <--> Controller Unit (Computer) [Automated Vehicle Controller]
+							- Automated Vehicle Controller
+					Experimental
+						- Infrastructure Services
+						- Theranos Medical Box
+						- Food Incubator Test Kitchen Chain
+							- afro latin cuisine kitchen and lounge
+				assets
+					company<sector investments> MChoro Corporation
+						portfolio
+							products
+								- The MChoro Incubator (investments incubator | Solution)
+					company<sector technology> Oniru Technologies
+						portfolio
+							products
+								- Oru Platform (Application Generation Game Engine | Solution)
+								- Wuli Platform (Procedural Generation and Automation Tool Platform | Solution)
+									- Wuli ProcGen Tool
+									- Wuli Automation
+					company<sector agriculture> Obgin Automation Cultivation Services
+						portfolio
+							products
+								- Osisi System (Plant Propogation System | Solution)
+					company<sector manufacturing and design> Mepụta Services
+						portfolio
+							products
+								- Imewe System (3D Printer Manufacturing System | Solution)
+					company<sector mobility> 
+						portfolio
+							products
+								- The Sadarwa Mobility platform (Automated Mobility Solution | Solution)
+									- Multi Agent Coordination Agent (The Amya Network) (Multi Autonomous Agent Network)
+										- Multi Agent Coordination Agent Controller (Social Coordination, Communication, etc...)
+										- Multi Agent Coordination Agent Simulation
+											- feature: composed of network of connected single autonomous mobility agents
+											- feature: characterized social development, communication, coordination, competition, general agent to agent interaction
+											- feature: decentralized, system composed of independently functioning systems capabble of reproducing more independent systems and autonomous propogation
+												- sub-feature: autonomous/self propogation
+												- sub-feature: decentralized control
+												- sub-feature: baseline social operation parameters for single agent mobility systems
+									- The Nandi Mobility System Agent (Single Autonomous Agent)
+										- The Nandi Mobility System Controller
+										- The Nandi Mobility System Simulation
+											- feature: baseline mobility agent platform
+											- feature: centralized control
+											- entity: mobile entity transport agent
+												- sub-entities: human, goods, roaming services (e.g. roaming wireless services, roaming ridesharing services, etc...)
+									- The Nzuko Mobility System Agentt (Single Autonomous Agent)
+										- The Nzuko Mobility System Controller
+										- The Nzuko Mobility System Simulation
+											- feature: baseline communiucation mobility agent platform (baseline clone [baseline propogated entity])
+											- feature: centralized control
+											- entity: mobile agent network and maintainence infrastructure unit
+												- sub-entities: roaming agent network maintainence services (e.g. roaming repair agent, roaming construction/destruction/recycling agent, etc...)
+									- The Nzube Mobility System Agent (Single Autonomous Agent)
+										- The Nzuko Static Mobility System Controller
+										- The Nzuko Static Mobility System Simulation
+											- feature: baseline planning mobility agent platform (baseline clone [baseline propogated entity])
+											- feature: centralized control
+											- entity: static agent network infrastructure unit
+												- sub-entities: static infrastructural agent unit (e.g. vehicle charging/maintainence station, roadside unit, etc...)
+					company<sector infrastructure> 
+						portfolio
+							products
+								- (Infrastructure Services | Solution)
+					
+					
+			
+			
+		
+		
+PROCESSES ========================================================================================================
+		
+		R&D   Research and Development
+		S&C   Strategy and Control
+
+
+Product Production Process PPP		
+[Betwa] <master portoflio> -->send(master product list) [MChoro Corporation] -->send(potential product list) to R&D [MChoro Incubator (Research and Development)]
+													                         -->send(selected viable product list) S&C [MChoro Strategy and Control]<sort;>        -->send(Selected Product Solution|Application Generation Game Engine Solution)<sector Technology> [Oniru Technologies|Oru Platform]
+																			 
+Initial User            Batwa		MChoro		Oniru,Oru	  End User												 
+idea/concept/sketch --> product --> process --> solution  --> release																	 
+
+
+
+
+
+
+
+
+

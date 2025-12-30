@@ -1,0 +1,23 @@
+CAB HEADER
+    magic = "CAB0"
+    version = 1
+    entry count = N
+
+TABLE OF CONTENTS (TOC)
+    entry[i] = {
+        name: "artifact",
+        offset: u64,
+        size: u64,
+        sha256: [32],
+    }
+    entry[i] = {
+        name: "attestation.json",
+        ...
+    }
+    entry[i] = {
+        name: "attestation.sig",
+        ...
+    }
+
+PAYLOAD
+    concatenated binary blobs

@@ -1,0 +1,16 @@
+job "build" {
+    steps = [
+        "zig build",
+        "zig build test"
+    ]
+}
+
+job "package" {
+    steps = [
+        "tar -czf artifact.tar.gz ./zig-out"
+    ]
+}
+
+pipeline {
+    jobs = ["build", "package"]
+}

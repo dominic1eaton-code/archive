@@ -1,0 +1,9 @@
+[requires]
+glm/1.0.1
+stb/cci.20230920
+vulkan-headers/1.4.313.0
+ccache/4.12.1
+
+[generators]
+CMakeDeps
+CMakeToolchain

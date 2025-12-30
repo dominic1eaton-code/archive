@@ -1,0 +1,254 @@
+/**
+ * @brief moto
+ */
+
+
+new
+
+
+create
+create account
+create account [role]
+create account admin
+create account user
+create account service
+
+create account group
+    add permission
+    add membership
+    add workspace
+
+create workspace
+create workspace [role]
+create workspace admin
+create workspace team
+create workspace user
+create workspace service
+
+create workspace [item]
+create workspace portfolio
+create workspace program
+create workspace project
+
+create workspace [entity]
+create workspace organization
+create workspace studio
+create workspace enterprise
+create workspace firm
+
+
+
+create theme A-000000000
+    create initiative B-000000000
+        create epic C-000000000
+            create story D-000000000
+                create task E-000000000
+
+
+create WBS
+    create package
+        create item
+        create item feature F-000000000
+        create item enhancement G-000000000
+        create item requirement H-000000000
+        create item case I-000000000
+        create item bug J-000000000
+        create item defect K-000000000
+        create item capability L-000000000
+        create item blocker M-000000000
+        create item enabler N-000000000
+        create item issue O-000000000
+        create item risk P-000000000
+        create item test Q-000000000
+
+
+create portfolio
+    create program
+        create project
+
+create solution
+    create application
+        create ui
+        create cli
+        create api
+        create server
+        create database
+        create web
+        create mobile
+        create device
+        create design
+        create enterprise
+    create package
+    create library
+
+create tag
+    create release
+
+create role
+    create admin
+    create team
+    create user
+
+create user
+    create configuration
+    create info
+        create name [first] [last]
+        create email
+        create password
+        create token
+        create key <ssh>
+    add role
+    add contact
+    add organization
+        add team
+    add workspace
+        add profile
+        add dashboard
+            add view
+            add metric
+            add filter
+        add registry
+            add document
+            add repository
+            add [sub]registry
+        add portfolio
+            add program
+                add project
+        add story
+            add task
+
+
+
+create team
+    create member
+
+
+create owner
+create brief
+
+create package
+create app[lication]
+
+create work_package
+create work_item
+
+
+create view
+    view workspace
+    view dashboard
+    view organization|teams
+    view profile
+    view board
+    view schedule
+    view roadmap
+    view WBS
+    view portfolio
+    view search
+    view settings
+    view registry
+        view document
+        view repository
+    view ownership
+        view portfolios
+        view epics
+        view stories
+        view tasks
+
+
+create schedule
+create roadmap
+create plan
+create timeline
+create milestone
+create objective
+create goal
+create PI
+create sprint
+
+create train release|solution
+create stream value|development|operation
+
+create budget
+create expense
+
+create sale
+create purchase
+create order
+
+
+
+create metric
+create kpi
+create analysis
+
+
+
+create registry
+create repository
+create record
+create report
+create document
+
+
+
+create dashboard
+create filter
+create scope
+create dependency
+
+
+
+create role owner product
+create role master scrum
+create role manager product
+create role manager
+create role director
+create role member
+
+create role member team
+create role member chapter
+create role member guild
+create role member tribe
+create role member alliance
+
+
+create role member team
+create role member squad
+create role member platoon
+create role member company
+create role member battalion
+create role member regiment
+create role member division
+create role member corps
+create role member army
+
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add solution
+add product
+add service
+add project
+add program
+add portfolio
+
+add client
+add customer
+
+
+
+connect
+

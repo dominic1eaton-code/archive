@@ -1,0 +1,47 @@
+/**
+ * @brief space resuse and management platform
+ */
+
+
+new
+
+
+create
+create space
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add space
+
+
+connect
+
+
+register space
+
+
+
+
+audit space
+
+
+
+book space (note: financial commitment)
+reserve space (note: no finance, time commitment)
+
+reserve space [segment.ID]
+reserve room
+reserve office
+reserve factory
+reserve warehouse [warehouse.segment.id]

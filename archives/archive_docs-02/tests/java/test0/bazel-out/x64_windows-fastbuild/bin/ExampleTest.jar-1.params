@@ -1,0 +1,4 @@
+--classpath
+bazel-out/x64_windows-fastbuild/bin/external/bazel_tools/tools/jdk/_ijar/TestRunner/rules_java++toolchains+remote_java_tools/java_tools/Runner_deploy-ijar.jar
+--reduce_classpath_mode
+JAVABUILDER_REDUCED

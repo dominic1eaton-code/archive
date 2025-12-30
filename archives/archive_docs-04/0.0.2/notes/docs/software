@@ -1,0 +1,26 @@
+Dependencies: 
+
+- AgentSim 
+	- external 
+		- language 
+			- python - 3.X.X
+			- c/cpp - 
+			- java - 
+			- perl - 
+		- computation 
+			- poco
+			- ace
+			- boost
+			- eigen 
+		- support 
+			- cppcheck 
+			- gcov (linux)
+			- cmake 
+			- scons (TBD)
+			- doxygen 
+		- visual 
+			- glew 
+			- glfw 
+			- glad 
+	- internal 
+	

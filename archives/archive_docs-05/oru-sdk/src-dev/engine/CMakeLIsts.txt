@@ -1,0 +1,26 @@
+# @license
+# @brief
+cmake_minimum_required(VERSION 3.18)
+project(ogun_engine)
+
+# includes
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_HOME_DIRECTORY}/cmake")
+include(project)
+
+# setup environment
+configure_environment()
+
+# installation
+configure_install()
+
+# dependencies
+configure_dependencies()
+
+# source files
+add_subdirectory("PROJECT_SOURCE_PATH")
+
+# tests, sast
+configure_tests()
+
+# post build
+configure_post_build()

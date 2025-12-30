@@ -1,0 +1,96 @@
+gitlab-01
+Goodmath10@
+
+products 
+	- objectives
+		- simulation 
+			- computation
+			- visualization
+			- prediction
+			- 
+			- 
+		- controls
+		- automation
+		- sustainability 
+		
+	- projects
+		- mobility
+		- terraformata
+		- collective automata 
+		- 
+			
+	- hardware
+		- development
+			- ShenZhen
+	- software
+		- dependencies
+			- libraries
+				- supportlib
+					- ballisticsLib
+					- buildLib
+					- controlsLib 
+					- gameLib
+					- guiLib
+					- mathLib
+					- networkLib
+					- physicsLib
+					- procGenLib
+					- setuplib
+					- signalLib
+					- utilityLib
+					- vehicleLib
+			- ots
+				- opengl
+					- freeglut
+					- glad
+					- glfw
+					- glew
+				- eigen
+				- cppcheck
+				- *boost
+				- *catch
+			- packages
+			- tools
+				- analiki
+				- cadelice
+				- grimoire
+				- oxylis
+				- yzmen
+				- *Gentilis (language)
+		- development
+		- management
+			- celene
+		- platforms
+			- agentas
+				- *agenta (language)
+				- agentaOS
+				- agentaSIm
+				- agentasX
+				- agentaVM
+				- agentMidi
+		- simulators 
+			- engines
+				- Moteri
+			- OS
+			- simulation
+				- Agent
+					- Netskit
+					- Perceptet
+					- Wergen
+					- Ergon
+					- Genyx
+				- Environmental 
+					- Climitat
+					- Meteorca
+					- Terrania
+				- Infrastructure
+					- Consilio
+					- Urboxiti
+				- Mobility
+					- Mobilitica
+					- Motilis
+					- MotilisAV
+					- Pleuse
+				- Trainer 
+			- VM
+		

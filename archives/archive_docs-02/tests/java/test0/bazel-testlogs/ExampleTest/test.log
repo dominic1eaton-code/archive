@@ -1,0 +1,5 @@
+Executing tests from //:ExampleTest
+-----------------------------------------------------------------------------
+ERROR(tools/test/windows/tw.cc:1301) ERROR: src/main/native/windows/process.cc(202): CreateProcessW("C:\users\domin\_bazel_domin\ngrifefn\execroot\_main\bazel-out\x64_windows-fastbuild\bin\ExampleTest.exe.runfiles\_main\external\bazel_tools\tools\test\collect_coverage.sh"  ./ExampleTest.exe): The system cannot find the file specified.
+ (error: 2)
+ERROR(tools/test/windows/tw.cc:1478) Failed to start test process (arg: C:\users\domin\_bazel_domin\ngrifefn\execroot\_main\bazel-out\x64_windows-fastbuild\bin\ExampleTest.exe.runfiles\_main\external\bazel_tools\tools\test\collect_coverage.sh)

@@ -1,0 +1,27 @@
+# @license
+# @brief
+cmake_minimum_required(VERSION 3.18)
+project(rendererTest CXX)
+
+list(
+    APPEND _srcs
+    vulkan_renderer_fixture.cpp
+    vulkan_renderer_test.cpp
+)
+
+list(
+    APPEND _headers
+    vulkan_renderer_fixture.h
+)
+
+find_package(glm REQUIRED)
+find_package(Vulkan REQUIRED)
+find_package(stb REQUIRED)
+find_package(renderer REQUIRED)
+
+add_executable(${PROJECT_NAME} ${_srcs} ${_headers})
+
+target_link_libraries(${PROJECT_NAME} glm::glm)
+target_link_libraries(${PROJECT_NAME} stb::stb)
+target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)
+target_link_libraries(${PROJECT_NAME} renderer)

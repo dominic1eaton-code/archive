@@ -1,0 +1,11 @@
+development environment
+	- nodes:
+		- development
+			- dev-01
+			- dev-02
+		- build
+			- build-01
+			- build-02
+		- server 
+			- gitlab-01
+			- jobs-01

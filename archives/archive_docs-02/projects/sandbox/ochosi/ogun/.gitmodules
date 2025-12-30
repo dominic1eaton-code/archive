@@ -1,0 +1,36 @@
+[submodule "dilula"]
+	path = dilula
+	url = ./dilula/
+[submodule "hesabu"]
+	path = hesabu
+	url = ./hesabu/
+[submodule "ibeji"]
+	path = ibeji
+	url = ./ibeji/
+[submodule "kubatana"]
+	path = kubatana
+	url = ./kubatana/
+[submodule "nukta"]
+	path = nukta
+	url = ./nukta/
+[submodule "ogunsdk"]
+	path = ogunsdk
+	url = ./ogunsdk/
+[submodule "ororoo"]
+	path = ororoo
+	url = ./ororoo/
+[submodule "oya"]
+	path = oya
+	url = ./oya/
+[submodule "sema"]
+	path = sema
+	url = ./sema/
+[submodule "sopo"]
+	path = sopo
+	url = ./sopo/
+[submodule "usoro"]
+	path = usoro
+	url = ./usoro/
+[submodule "wimbi"]
+	path = wimbi
+	url = ./wimbi/

@@ -1,0 +1,45 @@
+/**
+ * @brief product, solution, system development tool
+ */
+
+new
+
+
+create
+create application
+create system
+create process
+create component
+create interface import|export|bidirectional
+create data integer|bool|string|varchar|char|double|float
+
+
+
+create application
+    create system
+        create component
+            create interface
+            create interface import
+            create interface export
+                create data
+                    create type
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

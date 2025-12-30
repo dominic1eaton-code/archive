@@ -1,0 +1,39 @@
+{
+  "job": "build",
+  "action_hash": "sha256:...",
+  "steps": [
+    {
+      "command": "zig build",
+      "environment": {
+         "PATH": "...",
+         "ZIG_TARGET": "x86_64-linux"
+      }
+    }
+  ],
+  "toolchain": [
+    {
+      "name": "zig",
+      "version": "0.13.0",
+      "path": ".ci_toolchain/zig-0.13.0",
+      "targets": ["x86_64-linux", "aarch64-linux"]
+    }
+  ],
+  "inputs": {
+    "workspace_hash": "sha256:...",
+    "dependencies": [
+        "artifact:foo.h@sha256:abc"
+    ]
+  },
+  "outputs": [
+    {
+      "file": "zig-out/bin/app",
+      "digest": "sha256:...",
+      "size": 102399
+    }
+  ],
+  "timestamp": 0,
+  "sandbox": {
+    "namespaces": ["pid", "mnt", "ipc", "net"],
+    "chroot": true
+  }
+}

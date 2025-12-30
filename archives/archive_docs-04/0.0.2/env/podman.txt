@@ -1,0 +1,10 @@
+#
+# https://www.redhat.com/en/blog/run-podman-windows
+# https://podman.io/docs
+# https://docs.podman.io/en/v1.6.4/markdown/podman-create.1.html
+# https://docs.podman.io/en/latest/markdown/podman-machine-init.1.html
+podman machine init
+podman machine start
+
+
+

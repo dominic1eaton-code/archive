@@ -1,0 +1,42 @@
+https://www.reddit.com/r/MachineLearning/comments/4bhmqb/decentralized_deep_learning_on_a_blockchain_ai/d19mh4d/
+https://www.quora.com/Can-blockchain-and-machine-learning-be-combined
+https://medium.com/@davekaj/what-you-should-really-learn-to-become-an-expert-in-blockchain-technology-b26c3ca1786c
+https://blockgeeks.com/guides/cryptocurrency-game-theory/
+http://www.selfstabilization.org/~selfstab/birs2004/index.html
+https://docs.dash.org/en/latest/governance/understanding.html
+https://medium.com/nexus-mutual/dao-governance-a-pragmatic-approach-27d529ad0819
+https://people.eng.unimelb.edu.au/winter/proj-isort/
+
+The Origins of Virtue: Human Instincts and the Evolution of Cooperation
+Reinforcement Learning Versus Model Predictive Control: A Comparison on a Power System Problem
+Future Vehicular networks: What control technologies?
+Challenges of Future VANET and Cloud-Based Approaches
+Modeling Dynamic Vehicle Navigation in a Self-Organizing, Peer-to-Peer, Distributed Traffic Information System
+Self-organization in multi-agent-based simulation systems and its application to intelligent transportation systems
+A two-step model for self-organized social network pre-construction
+
+https://en.wikipedia.org/wiki/Self-organizing_map
+https://en.wikipedia.org/wiki/Telemetry
+https://en.wikipedia.org/wiki/Telematics
+http://humannetwork.wikia.com/wiki/Main_Page
+telematics
+Human Network
+Authenticated Algorithms for Byzantine Agreement
+https://int8.io/monte-carlo-tree-search-beginners-guide/
+https://www.quora.com/Does-Deep-Q-learning-use-Monte-Carlo-tree-search
+https://medium.com/@alexandratran/a-cursory-introduction-to-byzantine-fault-tolerance-and-alternative-consensus-1155a5594f18
+https://en.wikipedia.org/wiki/CAP_theorem
+https://en.wikipedia.org/wiki/Canonicalization
+https://blog.0xproject.com/front-running-griefing-and-the-perils-of-virtual-settlement-part-1-8554ab283e97
+https://blog.0xproject.com/front-running-griefing-and-the-perils-of-virtual-settlement-part-1-8554ab283e97?gi=d0dd0de67639
+https://blog.0xproject.com/front-running-griefing-and-the-perils-of-virtual-settlement-part-2-921b00109e21
+https://www.reddit.com/r/ethereum/comments/2d84yv/miners_frontrunning/
+
+
+DLT Governance 
+https://medium.com/@FEhrsam/blockchain-governance-programming-our-future-c3bfe30f2d74
+https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca
+https://blog.aragon.org/thoughts-on-governance-and-network-effects-f40fda3e3f98/
+https://blog.coinfund.io/the-consensus-series-part-i-the-basics-of-collectivity-a11d76ff4d5d
+https://medium.com/statechannels/counterfactual-generalized-state-channels-on-ethereum-d38a36d25fc6
+https://blog.coinfund.io/from-icarus-to-basic-sanity-blockchain-technology-and-the-power-of-not-knowing-459fcaf30ccc

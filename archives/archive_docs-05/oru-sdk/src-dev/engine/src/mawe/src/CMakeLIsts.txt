@@ -1,0 +1,3 @@
+# @license
+# @brief
+add_subdirectory(kernel)

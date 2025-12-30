@@ -1,0 +1,7 @@
+# @license
+# @brief
+module(
+    name = "portfolio",
+    version = "0.0.0",
+    repo_name = "portfolio"
+)

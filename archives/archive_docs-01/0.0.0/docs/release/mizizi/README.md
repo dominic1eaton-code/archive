@@ -1,0 +1,46 @@
+# civic,coop organization management system
+## features
+- deploy to local coop
+- deploy to local community development center,local community
+
+
+- community organization website builder, portal designer
+- community member(ship) management system
+- community case management system
+    - community member client management
+    - portable benefits management
+    - member development management
+    - social services management
+        - client intake,enrollment management
+        - member case planning
+        - member service delivery management
+    - member record management
+- community calendar, agenda management
+- community message,notification,news portal
+- community online forms management
+- community events,labor,digital marketplace,activities,classes
+- community facilities management
+- community management center system
+    - community permits management
+    - community planning
+    - comunnity licensing management
+    - community safety management system
+- community network, communications platform
+    - community social network pages
+    - community messenger channels,chats
+    - community mass notification system
+- community dashboards
+    - community member,staff,manager,administrator dashboards
+- community records management
+    - community records search,request
+    - community records database
+    - community document management
+    - community archives, backups
+    - e-records,digital signatures
+- community event,agenda,meeting management
+    - community calendar
+    - community townhall meetings,schedules
+- community administration automation
+    - administration automation,orchestration workflows,tasks
+- community feedback,request system
+    - community issue management,tracking,monitoring system

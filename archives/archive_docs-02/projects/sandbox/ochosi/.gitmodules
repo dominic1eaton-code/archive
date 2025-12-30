@@ -1,0 +1,39 @@
+[submodule "aroni"]
+	path = aroni
+	url = ./aroni/
+[submodule "biriki"]
+	path = biriki
+	url = ./biriki/
+[submodule "dada"]
+	path = dada
+	url = ./dada/
+[submodule "elegua"]
+	path = elegua
+	url = ./elegua/
+[submodule "eshu"]
+	path = eshu
+	url = ./eshu/
+[submodule "eto"]
+	path = eto
+	url = ./eto/
+[submodule "iroko"]
+	path = iroko
+	url = ./iroko/
+[submodule "nambi"]
+	path = nambi
+	url = ./nambi/
+[submodule "ogun"]
+	path = ogun
+	url = ./ogun/
+[submodule "yewa"]
+	path = yewa
+	url = ./yewa/
+[submodule "yota"]
+	path = yota
+	url = ./yota/
+[submodule "isondo"]
+	path = isondo
+	url = ./isondo/
+[submodule "khungu"]
+	path = khungu
+	url = ./khungu/

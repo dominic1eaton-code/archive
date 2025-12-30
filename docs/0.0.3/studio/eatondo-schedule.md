@@ -3629,3 +3629,108 @@ To plan, sequence, and standardize **Cohorts** (groups of cooperatives or progra
 ---
 
 If you want, I can also generate **fillable digital forms** (Markdown, Airtable schema, Google Doc templates) based on these definitions. Just tell me a format!
+
+
+Here is a **Google Calendar CSV file** you can import for **your Personal Year-1 Operations Schedule**.
+It includes your **monthly strategy deliveries, monthly planning days, narrative publishes, and key milestones** from January 2026 through December 2026.
+
+> ⚠️ *You may modify the dates/times after import to suit your time zone and calendar defaults.*
+> The file below follows common Google Calendar CSV columns.
+
+---
+
+## 📅 **How to Import**
+
+1. Save the contents below as **`year1_schedule.csv`**
+2. Open Google Calendar → Settings → Import → Choose the `.csv`
+3. Select the calendar you want and import
+
+---
+
+## 📌 **CSV CONTENT**
+
+```csv
+Subject,Start Date,Start Time,End Date,End Time,Description,Location
+Monthly Strategy Delivery,01/01/2026,09:00 AM,01/01/2026,10:00 AM,Kickoff monthly delivery and alignment,
+Monthly Strategy Planning,01/29/2026,09:00 AM,01/29/2026,10:00 AM,Plan next month’s priorities,
+Publish Mungu Blog #1,01/16/2026,10:00 AM,01/16/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #1,01/23/2026,10:00 AM,01/23/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,02/01/2026,09:00 AM,02/01/2026,10:00 AM,Kickoff February,
+Monthly Strategy Planning,02/26/2026,09:00 AM,02/26/2026,10:00 AM,Plan March,
+Publish Mungu Blog #2,02/05/2026,10:00 AM,02/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #2,02/13/2026,10:00 AM,02/13/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,03/01/2026,09:00 AM,03/01/2026,10:00 AM,Kickoff March,
+Monthly Strategy Planning,03/29/2026,09:00 AM,03/29/2026,10:00 AM,Plan April,
+Publish Mungu Blog #3,03/06/2026,10:00 AM,03/06/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #3,03/10/2026,10:00 AM,03/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,04/01/2026,09:00 AM,04/01/2026,10:00 AM,Kickoff April,
+Monthly Strategy Planning,04/29/2026,09:00 AM,04/29/2026,10:00 AM,Plan May,
+Publish Mungu Blog #4,04/05/2026,10:00 AM,04/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #4,04/10/2026,10:00 AM,04/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,05/01/2026,09:00 AM,05/01/2026,10:00 AM,Kickoff May,
+Monthly Strategy Planning,05/29/2026,09:00 AM,05/29/2026,10:00 AM,Plan June,
+Publish Mungu Blog #5,05/05/2026,10:00 AM,05/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #5,05/10/2026,10:00 AM,05/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,06/01/2026,09:00 AM,06/01/2026,10:00 AM,Kickoff June,
+Monthly Strategy Planning,06/29/2026,09:00 AM,06/29/2026,10:00 AM,Plan July,
+Publish Mungu Blog #6,06/05/2026,10:00 AM,06/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #6,06/10/2026,10:00 AM,06/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,07/01/2026,09:00 AM,07/01/2026,10:00 AM,Kickoff July,
+Monthly Strategy Planning,07/29/2026,09:00 AM,07/29/2026,10:00 AM,Plan August,
+Publish Mungu Blog #7,07/05/2026,10:00 AM,07/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #7,07/10/2026,10:00 AM,07/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,08/01/2026,09:00 AM,08/01/2026,10:00 AM,Kickoff August,
+Monthly Strategy Planning,08/29/2026,09:00 AM,08/29/2026,10:00 AM,Plan September,
+Publish Mungu Blog #8,08/05/2026,10:00 AM,08/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #8,08/10/2026,10:00 AM,08/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,09/01/2026,09:00 AM,09/01/2026,10:00 AM,Kickoff September,
+Monthly Strategy Planning,09/29/2026,09:00 AM,09/29/2026,10:00 AM,Plan October,
+Publish Mungu Blog #9,09/05/2026,10:00 AM,09/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #9,09/10/2026,10:00 AM,09/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,10/01/2026,09:00 AM,10/01/2026,10:00 AM,Kickoff October,
+Monthly Strategy Planning,10/29/2026,09:00 AM,10/29/2026,10:00 AM,Plan November,
+Publish Mungu Blog #10,10/05/2026,10:00 AM,10/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #10,10/10/2026,10:00 AM,10/10/2026,11:00 AM,Narrative blog publish,
+Ubuntuwa Commons Summit,10/26/2026,09:00 AM,10/26/2026,05:00 PM,Annual summit event,
+Monthly Strategy Delivery,11/01/2026,09:00 AM,11/01/2026,10:00 AM,Kickoff November,
+Monthly Strategy Planning,11/29/2026,09:00 AM,11/29/2026,10:00 AM,Plan December,
+Publish Mungu Blog #11,11/05/2026,10:00 AM,11/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #11,11/10/2026,10:00 AM,11/10/2026,11:00 AM,Narrative blog publish,
+Monthly Strategy Delivery,12/01/2026,09:00 AM,12/01/2026,10:00 AM,Kickoff December,
+Monthly Strategy Planning,12/29/2026,09:00 AM,12/29/2026,10:00 AM,Plan Year-2,
+Publish Mungu Blog #12,12/05/2026,10:00 AM,12/05/2026,11:00 AM,Narrative blog publish,
+Publish Meridian Blog #12,12/10/2026,10:00 AM,12/10/2026,11:00 AM,Narrative blog publish,
+OGD v1.0 Release,12/18/2026,09:00 AM,12/18/2026,10:00 AM,Release Organizational Genesis Document v1.0,
+Annual Financial Report,12/28/2026,09:00 AM,12/28/2026,10:00 AM,Publish Year-End Financial Report
+```
+
+---
+
+## 📌 **What’s Included**
+
+✔ All **monthly strategic deliveries & planning days**
+✔ **Narrative publish dates** for Mungu/Meridian blogs
+✔ **Summit event**
+✔ **Key milestones** (OGD v1.0 release, Annual financial report)
+
+---
+
+## 🛠 Optional Enrichment
+
+If you want, I can generate a **Version 2** of this CSV that also includes:
+✅ All sprint boundaries (start/end dates)
+✅ Personal weekly timeblocks (deep work, reviews)
+✅ Family estate formation dates
+✅ Client cooperative launches & onboarding dates
+
+Just tell me how detailed you want it!
+
+
+
+
+✅ All sprint boundaries (start/end dates)
+✅ Personal weekly timeblocks (deep work, reviews)
+✅ Family estate formation dates
+✅ Client cooperative launches & onboarding dates
+✅ meetings, appointments, events
+

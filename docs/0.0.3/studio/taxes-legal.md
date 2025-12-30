@@ -37362,3 +37362,1383 @@ If you’d like, I can turn these into:
 🔹 **PowerPoint slides for board reporting**
 
 Just tell me which format!
+
+Below is a **clean systems-level interoperability explanation** of how **Moyo Collective** and the **Batwa Foundation Urban Community Development Centers Franchise Co-op** interoperate — structurally, financially, programmatically, and digitally — without collapsing into each other.
+
+This is written as an **institutional operating model**, not a narrative.
+
+---
+
+# I. High-Level Relationship (One Sentence)
+
+> **Moyo Collective is the cultural–creative–social metabolism layer;
+> Batwa Foundation is the place-based civic–economic–infrastructure layer.**
+
+They are **interdependent but non-hierarchical**.
+
+---
+
+# II. Role Separation (Non-Negotiable)
+
+## 1. Moyo Collective (MC)
+
+**Primary Function:**
+Meaning, culture, narrative, healing, identity, coherence
+
+**What Moyo Is**
+
+* A **collective of artists, educators, healers, technologists**
+* A generator of **social legitimacy**
+* A steward of **non-extractive value**
+* A translator between lived experience and systems
+
+**What Moyo Is NOT**
+
+* Not a landholder
+* Not a bank
+* Not a developer
+* Not a regulator
+* Not a service monopoly
+
+---
+
+## 2. Batwa Foundation Urban Community Development Co-op (BF)
+
+**Primary Function:**
+Place-based delivery of services, assets, capital, and governance
+
+**What Batwa Is**
+
+* A **franchise cooperative of urban community centers**
+* A **trust-anchored civic institution**
+* A **delivery vehicle for reparative infrastructure**
+* A **host for multiple funds, programs, and cooperatives**
+
+**What Batwa Is NOT**
+
+* Not a cultural authority
+* Not an artistic director
+* Not a belief system
+* Not a single ideology
+
+---
+
+# III. The Structural Interface
+
+Think of the relationship like this:
+
+```
+Moyo Collective
+  (Sense, Culture, Meaning, Care)
+            │
+            │   ← Program Design, Legitimacy, Narrative
+            │
+Batwa Foundation Urban Centers
+  (Land, Capital, Services, Governance)
+```
+
+Moyo **influences**, Batwa **implements**.
+
+---
+
+# IV. Interoperation by Layer
+
+## 1. Land & Physical Space
+
+### Batwa Controls
+
+* Community Land Trust (CLT)
+* Urban community centers
+* Housing, communes, facilities
+* Physical infrastructure
+
+### Moyo Contributes
+
+* Spatial design philosophy
+* Cultural programming
+* Healing & reconciliation frameworks
+* Rituals, memorials, gatherings
+
+**Rule:**
+Moyo never owns the land.
+Batwa never defines the culture alone.
+
+---
+
+## 2. Capital & Financial Architecture
+
+### Batwa Hosts (Hard Structures)
+
+* **Maafa Reparations Fund** (Restricted Trust)
+* **Takiya Fund** (Victims & Families Trust)
+* **Freedman’s Credit Union Federation**
+* **Batwa Urban Community Development Trust**
+* **Cooperative Holding Co-op**
+
+These entities:
+
+* Hold capital
+* Issue credit
+* Own assets
+* Enforce restrictions
+
+---
+
+### Moyo’s Role in Capital (Soft Power)
+
+* Defines ethical boundaries
+* Sets reparative narratives
+* Advises on non-extractive deployment
+* Provides community legitimacy for capital use
+
+**Moyo never signs checks.
+Batwa never spends without legitimacy.**
+
+---
+
+## 3. Program NPOs (Where They Touch Most)
+
+Each **Program NPO** is structurally under Batwa but **co-designed with Moyo**.
+
+| Program                        | Batwa Role                      | Moyo Role                         |
+| ------------------------------ | ------------------------------- | --------------------------------- |
+| **Herero** (health, rehab)     | Facilities, funding, compliance | Healing models, trauma frameworks |
+| **Nama** (communes & housing)  | Land, construction, ops         | Communal living doctrine          |
+| **Aka** (greenspaces, forests) | Land use, contracts             | Ecological philosophy             |
+| **Zulu** (financial literacy)  | Curriculum delivery             | Cultural translation              |
+| **Khoi** (education & work)    | Training infra                  | Meaningful labor framing          |
+| **Ndebele** (memorials)        | Site ownership                  | Narrative & memory                |
+| **Shona** (governance)         | Civic interfaces                | Political education ethos         |
+| **Mizizi OS Co-op**            | Platform ops                    | Values encoded in system logic    |
+
+---
+
+## 4. Mizizi Urban Platform OS (Critical Interface)
+
+**Mizizi is the digital spine.**
+
+### Batwa Uses Mizizi For
+
+* Member records
+* Property & facility management
+* Program enrollment
+* Fund reporting
+* Cooperative governance
+
+### Moyo Influences Mizizi By
+
+* Encoding dignity-first UX
+* Preventing surveillance logic
+* Defining consent models
+* Ensuring narrative agency
+
+> Mizizi is where **values become software constraints**.
+
+---
+
+# V. Governance Interlock (Without Capture)
+
+## Shared Mechanisms
+
+* Joint advisory councils
+* Program design charrettes
+* Community review assemblies
+* Ethical veto rights (non-binding but powerful)
+
+## Explicit Non-Powers
+
+* Moyo has **no asset seizure power**
+* Batwa has **no cultural censorship power**
+
+This prevents capture in both directions.
+
+---
+
+# VI. Trust & Reparations Alignment
+
+### Maafa Reparations Fund
+
+* **Batwa:** Trustee & administrator
+* **Moyo:** Moral compass, historical framing
+
+### Takiya Fund
+
+* **Batwa:** Fiduciary control
+* **Moyo:** Victim-centered process design
+
+Moyo ensures **reparations are not bureaucratized into harm**.
+Batwa ensures **reparations are not symbolic theater**.
+
+---
+
+# VII. Why This Dual-Institution Model Exists
+
+Without Moyo:
+
+* Batwa becomes technocratic
+* Programs lose soul
+* Communities disengage
+* Capital becomes extractive by default
+
+Without Batwa:
+
+* Moyo becomes symbolic
+* No scale
+* No permanence
+* No material repair
+
+> **Repair requires both meaning and matter.**
+
+---
+
+# VIII. Failure Modes This Design Prevents
+
+* NGO capture
+* Culture-washing
+* Capital extraction disguised as aid
+* Ideological rigidity
+* Leader worship
+* Donor domination
+* Burnout of organizers
+
+---
+
+# IX. One-Line Doctrine
+
+> **Moyo keeps the work human.
+> Batwa makes the work real.**
+
+---
+
+If you want next, I can:
+
+* Draw an **ASCII or formal diagram** of this system
+* Generate **charters for the joint governance interface**
+* Define **fund-to-program capital routing rules**
+* Write **Mizizi OS authority & data-rights schemas**
+* Produce a **conflict-resolution protocol between Moyo & Batwa**
+
+Just tell me which layer to formalize next.
+
+Below is a **clean systems-level interoperability explanation** of how **Moyo Collective** and the **Batwa Foundation Urban Community Development Centers Franchise Co-op** interoperate — structurally, financially, programmatically, and digitally — without collapsing into each other.
+
+This is written as an **institutional operating model**, not a narrative.
+
+---
+
+# I. High-Level Relationship (One Sentence)
+
+> **Moyo Collective is the cultural–creative–social metabolism layer;
+> Batwa Foundation is the place-based civic–economic–infrastructure layer.**
+
+They are **interdependent but non-hierarchical**.
+
+---
+
+# II. Role Separation (Non-Negotiable)
+
+## 1. Moyo Collective (MC)
+
+**Primary Function:**
+Meaning, culture, narrative, healing, identity, coherence
+
+**What Moyo Is**
+
+* A **collective of artists, educators, healers, technologists**
+* A generator of **social legitimacy**
+* A steward of **non-extractive value**
+* A translator between lived experience and systems
+
+**What Moyo Is NOT**
+
+* Not a landholder
+* Not a bank
+* Not a developer
+* Not a regulator
+* Not a service monopoly
+
+---
+
+## 2. Batwa Foundation Urban Community Development Co-op (BF)
+
+**Primary Function:**
+Place-based delivery of services, assets, capital, and governance
+
+**What Batwa Is**
+
+* A **franchise cooperative of urban community centers**
+* A **trust-anchored civic institution**
+* A **delivery vehicle for reparative infrastructure**
+* A **host for multiple funds, programs, and cooperatives**
+
+**What Batwa Is NOT**
+
+* Not a cultural authority
+* Not an artistic director
+* Not a belief system
+* Not a single ideology
+
+---
+
+# III. The Structural Interface
+
+Think of the relationship like this:
+
+```
+Moyo Collective
+  (Sense, Culture, Meaning, Care)
+            │
+            │   ← Program Design, Legitimacy, Narrative
+            │
+Batwa Foundation Urban Centers
+  (Land, Capital, Services, Governance)
+```
+
+Moyo **influences**, Batwa **implements**.
+
+---
+
+# IV. Interoperation by Layer
+
+## 1. Land & Physical Space
+
+### Batwa Controls
+
+* Community Land Trust (CLT)
+* Urban community centers
+* Housing, communes, facilities
+* Physical infrastructure
+
+### Moyo Contributes
+
+* Spatial design philosophy
+* Cultural programming
+* Healing & reconciliation frameworks
+* Rituals, memorials, gatherings
+
+**Rule:**
+Moyo never owns the land.
+Batwa never defines the culture alone.
+
+---
+
+## 2. Capital & Financial Architecture
+
+### Batwa Hosts (Hard Structures)
+
+* **Maafa Reparations Fund** (Restricted Trust)
+* **Takiya Fund** (Victims & Families Trust)
+* **Freedman’s Credit Union Federation**
+* **Batwa Urban Community Development Trust**
+* **Cooperative Holding Co-op**
+
+These entities:
+
+* Hold capital
+* Issue credit
+* Own assets
+* Enforce restrictions
+
+---
+
+### Moyo’s Role in Capital (Soft Power)
+
+* Defines ethical boundaries
+* Sets reparative narratives
+* Advises on non-extractive deployment
+* Provides community legitimacy for capital use
+
+**Moyo never signs checks.
+Batwa never spends without legitimacy.**
+
+---
+
+## 3. Program NPOs (Where They Touch Most)
+
+Each **Program NPO** is structurally under Batwa but **co-designed with Moyo**.
+
+| Program                        | Batwa Role                      | Moyo Role                         |
+| ------------------------------ | ------------------------------- | --------------------------------- |
+| **Herero** (health, rehab)     | Facilities, funding, compliance | Healing models, trauma frameworks |
+| **Nama** (communes & housing)  | Land, construction, ops         | Communal living doctrine          |
+| **Aka** (greenspaces, forests) | Land use, contracts             | Ecological philosophy             |
+| **Zulu** (financial literacy)  | Curriculum delivery             | Cultural translation              |
+| **Khoi** (education & work)    | Training infra                  | Meaningful labor framing          |
+| **Ndebele** (memorials)        | Site ownership                  | Narrative & memory                |
+| **Shona** (governance)         | Civic interfaces                | Political education ethos         |
+| **Mizizi OS Co-op**            | Platform ops                    | Values encoded in system logic    |
+
+---
+
+## 4. Mizizi Urban Platform OS (Critical Interface)
+
+**Mizizi is the digital spine.**
+
+### Batwa Uses Mizizi For
+
+* Member records
+* Property & facility management
+* Program enrollment
+* Fund reporting
+* Cooperative governance
+
+### Moyo Influences Mizizi By
+
+* Encoding dignity-first UX
+* Preventing surveillance logic
+* Defining consent models
+* Ensuring narrative agency
+
+> Mizizi is where **values become software constraints**.
+
+---
+
+# V. Governance Interlock (Without Capture)
+
+## Shared Mechanisms
+
+* Joint advisory councils
+* Program design charrettes
+* Community review assemblies
+* Ethical veto rights (non-binding but powerful)
+
+## Explicit Non-Powers
+
+* Moyo has **no asset seizure power**
+* Batwa has **no cultural censorship power**
+
+This prevents capture in both directions.
+
+---
+
+# VI. Trust & Reparations Alignment
+
+### Maafa Reparations Fund
+
+* **Batwa:** Trustee & administrator
+* **Moyo:** Moral compass, historical framing
+
+### Takiya Fund
+
+* **Batwa:** Fiduciary control
+* **Moyo:** Victim-centered process design
+
+Moyo ensures **reparations are not bureaucratized into harm**.
+Batwa ensures **reparations are not symbolic theater**.
+
+---
+
+# VII. Why This Dual-Institution Model Exists
+
+Without Moyo:
+
+* Batwa becomes technocratic
+* Programs lose soul
+* Communities disengage
+* Capital becomes extractive by default
+
+Without Batwa:
+
+* Moyo becomes symbolic
+* No scale
+* No permanence
+* No material repair
+
+> **Repair requires both meaning and matter.**
+
+---
+
+# VIII. Failure Modes This Design Prevents
+
+* NGO capture
+* Culture-washing
+* Capital extraction disguised as aid
+* Ideological rigidity
+* Leader worship
+* Donor domination
+* Burnout of organizers
+
+---
+
+# IX. One-Line Doctrine
+
+> **Moyo keeps the work human.
+> Batwa makes the work real.**
+
+---
+
+If you want next, I can:
+
+* Draw an **ASCII or formal diagram** of this system
+* Generate **charters for the joint governance interface**
+* Define **fund-to-program capital routing rules**
+* Write **Mizizi OS authority & data-rights schemas**
+* Produce a **conflict-resolution protocol between Moyo & Batwa**
+
+Just tell me which layer to formalize next.
+
+Below is a **ground-truth, day-to-day narrative** of **what Moyo Collective actually does**, written from the inside — not as a brochure, not as ideology, but as **work**.
+
+This is how Moyo functions when it is healthy.
+
+---
+
+# A Day in the Life of the **Moyo Collective**
+
+> **Moyo is not a program.
+> It is not an NGO.
+> It is not a service provider.
+>
+> Moyo is the connective tissue that keeps human systems from turning mechanical.**
+
+---
+
+## Morning: Listening, Sensing, Translating
+
+### 8:00–10:00 — Ground Signal Intake
+
+Moyo starts the day by **listening**.
+
+Not metaphorically. Literally.
+
+Members of Moyo:
+
+* Check in with facilitators embedded in Batwa centers
+* Read field notes from:
+
+  * Health circles
+  * Housing communes
+  * Youth programs
+  * Memorial sites
+* Review anonymized feedback from Mizizi OS:
+
+  * Drop-off rates
+  * Conflict flags
+  * Emotional stress markers (consent-based)
+
+This is **pattern sensing**, not data mining.
+
+> The question is never “what do we want to do?”
+> It is “what is already happening that we need to respond to?”
+
+---
+
+## Late Morning: Meaning Work
+
+### 10:00–12:30 — Interpretation & Framing
+
+Moyo then does something most institutions skip:
+
+It **interprets** what the signals mean.
+
+This includes:
+
+* Naming emerging tensions
+* Identifying cultural mismatches in programs
+* Translating pain into language that systems can hear
+* Distinguishing trauma from resistance
+* Identifying where policy is harming dignity
+
+This work is done in:
+
+* Small circles
+* Interdisciplinary groups (artists + healers + technologists)
+* Slow, intentional dialogue
+
+> Moyo does not rush to solutions.
+> It slows systems down long enough to see people.
+
+---
+
+## Midday: Design Intervention
+
+### 12:30–3:00 — Co-Design & Adjustment
+
+Now Moyo **intervenes**, but indirectly.
+
+Examples:
+
+* Advising Batwa to **change how** a service is delivered
+* Redesigning a community space to feel safe instead of institutional
+* Rewriting onboarding language in Mizizi to remove shame
+* Adjusting memorial program tone from spectacle to reverence
+* Helping a health program shift from compliance to trust
+
+Moyo:
+
+* Writes briefs
+* Facilitates redesign sessions
+* Prototypes rituals, curricula, or flows
+* Tests language before it hardens into policy
+
+> Moyo never says “build this.”
+> Moyo says “this is how it should feel.”
+
+---
+
+## Afternoon: Holding Space (The Hard Part)
+
+### 3:00–5:30 — Presence, Not Productivity
+
+This is where Moyo does its least visible work.
+
+Members:
+
+* Sit with people who are angry, grieving, or exhausted
+* Mediate conflicts without escalating to enforcement
+* Hold circles after traumatic events
+* De-escalate institutional harm before it becomes scandal
+
+Nothing is logged as a “metric” here.
+
+> This is the work that prevents tomorrow’s crisis.
+
+---
+
+## Late Afternoon: Boundary Work
+
+### 5:30–6:30 — Saying No
+
+Moyo protects itself and the system by **refusing things**.
+
+Examples:
+
+* Declining funding that would distort mission
+* Rejecting extractive data practices
+* Saying no to performative optics
+* Pushing back on rushed rollouts
+* Slowing down leaders who want speed over care
+
+This is quiet power.
+
+> Moyo’s job is not to be agreeable.
+> It is to keep the work honest.
+
+---
+
+## Evening: Documentation & Memory
+
+### 6:30–8:00 — Recording Without Freezing
+
+Before the day ends, Moyo:
+
+* Records insights (not gossip)
+* Captures lessons (not blame)
+* Updates living doctrines
+* Feeds wisdom back into Mizizi OS
+* Archives narratives for future generations
+
+This is **institutional memory without bureaucracy**.
+
+---
+
+# What Moyo Produces (Tangibly)
+
+Moyo produces:
+
+* Cultural design briefs
+* Healing frameworks
+* Program language
+* Ethical boundaries
+* Narrative coherence
+* Conflict resolution
+* Community trust
+* Legitimacy for capital deployment
+* Slower, wiser systems
+
+Moyo does **not** produce:
+
+* KPIs for suffering
+* Content farms
+* Brand campaigns
+* Extractive research
+* “Engagement metrics”
+
+---
+
+# How Moyo Interfaces with Batwa (Daily)
+
+Every day:
+
+* Batwa runs facilities, programs, funds
+* Moyo shadows those operations with care
+* Batwa asks: *“Can we do this?”*
+* Moyo asks: *“Should we do this this way?”*
+
+Neither answers alone.
+
+---
+
+# What Happens If Moyo Stops Working
+
+If Moyo disappears:
+
+* Programs continue
+* Buildings remain
+* Money flows
+* Trust evaporates
+* Violence returns quietly
+* People disengage
+
+Moyo prevents **slow institutional violence**.
+
+---
+
+# The Unspoken Truth
+
+> **Moyo is doing work most systems pretend doesn’t exist — until it fails.**
+
+It keeps grief from becoming policy,
+keeps efficiency from becoming cruelty,
+and keeps institutions human.
+
+---
+
+If you want next, I can:
+
+* Write a **weekly operating cadence**
+* Define **roles inside Moyo (not titles, functions)**
+* Describe **how Moyo members avoid burnout**
+* Show **how Moyo intervenes during crisis**
+* Translate this into a **charter or operating doctrine**
+
+Just tell me where to go next.
+Below is a **clear, non-inflated, execution-grade role map** for the **Moyo Collective**.
+
+This is **not a corporate org chart** and **not a nonprofit staff ladder**.
+These are **functional roles that correspond to real work**, emotional labor, design labor, and institutional boundary work.
+
+I’ll give you:
+
+1. **Operating principles for roles**
+2. **Core roles (required)**
+3. **Extended roles (situational / scaling)**
+4. **What Moyo explicitly does NOT hire**
+5. **How people actually work together day to day**
+
+---
+
+# I. Role Design Principles (Critical)
+
+Moyo roles are designed around **functions**, not prestige.
+
+**Rules**
+
+* No role exists to manage other roles by default
+* Authority comes from *trust and competence*, not title
+* Many people hold **2–3 roles part-time**
+* Burnout prevention is a formal job responsibility
+* Emotional labor is recognized as labor
+
+> If a role cannot be explained without jargon, it does not exist.
+
+---
+
+# II. Core Roles (Always Present)
+
+These roles exist in **every healthy Moyo instance**.
+
+---
+
+## 1. **Steward of Sensemaking**
+
+*(Sometimes called: Sense Steward)*
+
+**Function**
+
+* Interprets signals from communities and programs
+* Identifies emerging patterns, tensions, and misalignments
+* Prevents misdiagnosis of human problems as technical failures
+
+**Daily Work**
+
+* Reads field notes
+* Facilitates interpretation circles
+* Writes short framing memos
+* Names what others are avoiding
+
+**Skills**
+
+* Deep listening
+* Systems thinking
+* Emotional intelligence
+* Pattern recognition
+
+**Not**
+
+* Not a strategist
+* Not a data analyst
+* Not a decision-maker
+
+---
+
+## 2. **Cultural Architect**
+
+**Function**
+
+* Designs how spaces, programs, and systems *feel*
+* Translates values into experience
+* Prevents institutional coldness
+
+**Daily Work**
+
+* Reviews program language
+* Advises on spatial design
+* Shapes rituals, gatherings, memorials
+* Works with Mizizi OS UX teams
+
+**Skills**
+
+* Design thinking
+* Anthropology
+* Art / ritual / spatial literacy
+
+**Not**
+
+* Not branding
+* Not marketing
+* Not aesthetics-for-optics
+
+---
+
+## 3. **Healing & Care Facilitator**
+
+**Function**
+
+* Holds emotional and psychological safety
+* Supports trauma-aware practices across programs
+* Prevents harm escalation
+
+**Daily Work**
+
+* Facilitates circles
+* Supports staff after critical incidents
+* Advises programs on trauma-informed delivery
+* Refers (does not replace) clinical services
+
+**Skills**
+
+* Trauma literacy
+* Group facilitation
+* Emotional regulation
+
+**Not**
+
+* Not a therapist-on-demand
+* Not a compliance officer
+
+---
+
+## 4. **Boundary Guardian**
+
+**Function**
+
+* Protects Moyo and communities from extraction, speed, and distortion
+* Says “no” when others can’t
+* Maintains ethical red lines
+
+**Daily Work**
+
+* Reviews funding proposals
+* Pushes back on harmful timelines
+* Flags surveillance or coercive practices
+* Documents boundary violations
+
+**Skills**
+
+* Moral clarity
+* Courage
+* Institutional literacy
+
+**Not**
+
+* Not legal counsel
+* Not an enforcer
+* Not antagonistic by default
+
+---
+
+## 5. **Community Liaison**
+
+**Function**
+
+* Maintains trust between Moyo and lived communities
+* Ensures voices are not filtered through power structures
+
+**Daily Work**
+
+* Regular presence in Batwa centers
+* One-on-one conversations
+* Translating community feedback upward
+* Closing feedback loops
+
+**Skills**
+
+* Relational trust
+* Cultural fluency
+* Humility
+
+**Not**
+
+* Not PR
+* Not spokesperson-for-everything
+
+---
+
+## 6. **Narrative Archivist**
+
+**Function**
+
+* Preserves memory without weaponizing it
+* Documents lessons, stories, and lineage
+
+**Daily Work**
+
+* Records oral histories
+* Curates internal archives
+* Writes reflective summaries
+* Feeds doctrine updates
+
+**Skills**
+
+* Writing
+* Oral history
+* Ethics of memory
+
+**Not**
+
+* Not media production
+* Not content marketing
+
+---
+
+# III. Extended / Situational Roles (Activated as Needed)
+
+These roles appear as Moyo scales or during specific conditions.
+
+---
+
+## 7. **Conflict Mediator**
+
+**Function**
+
+* De-escalates interpersonal or institutional conflict
+* Prevents harm without punishment-first logic
+
+**Activated When**
+
+* Program tensions rise
+* Leadership conflicts emerge
+* Community trust fractures
+
+---
+
+## 8. **Ritual & Memorial Designer**
+
+**Function**
+
+* Designs ceremonies, memorials, transitions
+* Prevents spectacle and retraumatization
+
+**Activated When**
+
+* Loss events
+* Public remembrance
+* Community transitions
+
+---
+
+## 9. **Institutional Translator**
+
+**Function**
+
+* Translates between:
+
+  * Community language ↔ policy
+  * Lived experience ↔ systems logic
+  * Emotion ↔ governance
+
+**Activated When**
+
+* Policies fail socially
+* Systems create unintended harm
+
+---
+
+## 10. **Burnout Watcher**
+
+**Function**
+
+* Explicitly monitors collective health
+* Intervenes before collapse
+
+**Daily Work**
+
+* Checks workload balance
+* Calls rest when needed
+* Normalizes stepping back
+
+**This role exists so collapse doesn’t become “heroic.”**
+
+---
+
+# IV. Titles Moyo Explicitly Does NOT Use
+
+Moyo does **not** hire:
+
+* CEO / Executive Director
+* Program Manager
+* Community Manager
+* Growth Lead
+* Marketing Director
+* Brand Strategist
+* Data Scientist (for people)
+* Engagement Lead
+
+If those appear, Moyo is already drifting.
+
+---
+
+# V. Hiring Profiles (What Moyo Looks For)
+
+Moyo hires people who:
+
+* Can sit with discomfort
+* Do not rush to fix
+* Understand power without craving it
+* Are trusted by communities
+* Have done their own healing work
+* Know when to step back
+
+Moyo avoids:
+
+* Resume-maximizers
+* Savior complexes
+* Performative activists
+* People who need constant validation
+
+---
+
+# VI. How These Roles Work Together (Daily)
+
+Example flow:
+
+* Community Liaison hears tension
+* Sensemaking Steward names pattern
+* Healing Facilitator supports affected people
+* Cultural Architect adjusts program design
+* Boundary Guardian slows rollout
+* Archivist documents lesson
+
+No hierarchy. No hero.
+
+---
+
+# VII. One-Sentence Doctrine
+
+> **Moyo hires people to protect humanity inside systems that would otherwise forget it.**
+
+---
+
+If you want next, I can:
+
+* Convert this into **formal job descriptions**
+* Design a **hiring pipeline & apprenticeship model**
+* Map **roles to Batwa programs**
+* Define **compensation & sustainability doctrine**
+* Create a **Moyo charter or covenant**
+
+Just tell me which layer to formalize.
+
+Below is a **formalized, operational version** of the Moyo Collective design you approved, delivered in four sections exactly as requested. This is written so it can be **used immediately** for hiring, onboarding, governance, and funding alignment—without turning Moyo into an NGO bureaucracy.
+
+---
+
+# I. FORMAL JOB DESCRIPTIONS (EXECUTION-GRADE)
+
+These are **role descriptions**, not corporate ladder jobs. Titles are functional and can be held part-time or in combination.
+
+---
+
+## 1. Steward of Sensemaking
+
+**Role Purpose**
+To interpret lived signals from communities and programs and translate them into clear, humane framing that prevents misdiagnosis and institutional harm.
+
+**Core Responsibilities**
+
+* Review field notes, feedback loops, and qualitative signals
+* Facilitate sensemaking circles
+* Produce short framing briefs for Batwa leadership and program leads
+* Identify emerging tensions, misalignments, and silent failures
+
+**Required Capabilities**
+
+* Systems thinking
+* Deep listening
+* Pattern recognition
+* Emotional intelligence
+* Comfort naming ambiguity
+
+**Explicit Non-Responsibilities**
+
+* No operational decision authority
+* No data surveillance or analytics ownership
+
+---
+
+## 2. Cultural Architect
+
+**Role Purpose**
+To ensure that physical spaces, programs, and platforms embody dignity, safety, and coherence rather than institutional coldness.
+
+**Core Responsibilities**
+
+* Review program language, rituals, and onboarding experiences
+* Advise on spatial and experiential design of Batwa centers
+* Co-design memorials, gatherings, and transitions
+* Collaborate with Mizizi OS UX teams
+
+**Required Capabilities**
+
+* Design literacy (spatial, narrative, ritual)
+* Anthropology or cultural studies grounding
+* Ability to translate values into experience
+
+**Explicit Non-Responsibilities**
+
+* No branding or marketing
+* No optics-driven work
+
+---
+
+## 3. Healing & Care Facilitator
+
+**Role Purpose**
+To embed trauma-aware, dignity-preserving practices into daily operations and support individuals and teams during stress, conflict, or crisis.
+
+**Core Responsibilities**
+
+* Facilitate healing circles and debriefs
+* Support staff and community members after critical incidents
+* Advise programs on trauma-informed delivery
+* Maintain referral pathways to clinical services
+
+**Required Capabilities**
+
+* Trauma literacy
+* Group facilitation
+* Emotional regulation skills
+
+**Explicit Non-Responsibilities**
+
+* Not a replacement for licensed clinical care
+* Not compliance enforcement
+
+---
+
+## 4. Boundary Guardian
+
+**Role Purpose**
+To protect Moyo and Batwa communities from extraction, coercion, speed-driven harm, and mission distortion.
+
+**Core Responsibilities**
+
+* Review funding and partnership proposals
+* Flag ethical, cultural, or dignity risks
+* Slow or halt initiatives that cross red lines
+* Document boundary violations and lessons learned
+
+**Required Capabilities**
+
+* Moral clarity
+* Institutional literacy
+* Courage and discretion
+
+**Explicit Non-Responsibilities**
+
+* No legal enforcement
+* No operational command
+
+---
+
+## 5. Community Liaison
+
+**Role Purpose**
+To maintain trust between Moyo and lived communities and ensure feedback flows unfiltered by power structures.
+
+**Core Responsibilities**
+
+* Maintain regular presence in Batwa centers
+* Conduct listening sessions and one-on-one conversations
+* Translate community feedback upward and close loops downward
+
+**Required Capabilities**
+
+* Cultural fluency
+* Relational trust
+* Humility
+
+**Explicit Non-Responsibilities**
+
+* Not PR
+* Not spokesperson for institutions
+
+---
+
+## 6. Narrative Archivist
+
+**Role Purpose**
+To preserve memory, lessons, and lineage without turning stories into extractive content or institutional weapons.
+
+**Core Responsibilities**
+
+* Record oral histories and reflective accounts
+* Curate internal archives
+* Produce learning summaries for doctrine updates
+* Steward intergenerational memory
+
+**Required Capabilities**
+
+* Writing and documentation
+* Ethics of memory
+* Discretion
+
+**Explicit Non-Responsibilities**
+
+* No marketing content production
+* No public storytelling without consent
+
+---
+
+# II. HIRING PIPELINE & APPRENTICESHIP MODEL
+
+> **Doctrine:** You do not “staff” Moyo. You grow it.
+
+---
+
+## Phase 1 — Invitation & Observation
+
+* Candidates are **invited**, not recruited
+* Short-term participation (3–6 months)
+* Shadowing, listening, and observation
+* No authority, no ownership
+
+**Exit allowed without stigma**
+
+---
+
+## Phase 2 — Apprenticeship
+
+* Assigned a primary mentor
+* Holds limited responsibilities
+* Participates in reflection circles
+* Evaluated on presence, humility, and judgment
+
+**Duration:** 6–12 months
+
+---
+
+## Phase 3 — Stewardship
+
+* Granted role authority
+* Trusted to operate independently
+* Participates in doctrine shaping
+* Expected to mentor others
+
+**Stewardship is revocable by collective consensus**
+
+---
+
+## Phase 4 — Rest / Rotation
+
+* Mandatory stepping back periods
+* Sabbaticals normalized
+* Prevents hero syndrome and burnout
+
+---
+
+# III. ROLE-TO-BATWA PROGRAM MAPPING
+
+| Batwa Program                   | Primary Moyo Roles                          |
+| ------------------------------- | ------------------------------------------- |
+| **Herero (Health & Rehab)**     | Healing Facilitator, Sensemaking Steward    |
+| **Nama (Housing & Communes)**   | Cultural Architect, Community Liaison       |
+| **Aka (Greenspaces & Ecology)** | Cultural Architect, Narrative Archivist     |
+| **Zulu (Financial Literacy)**   | Institutional Translator, Community Liaison |
+| **Khoi (Education & Work)**     | Sensemaking Steward, Cultural Architect     |
+| **Ndebele (Memorials)**         | Ritual Designer, Narrative Archivist        |
+| **Shona (Governance & Civic)**  | Boundary Guardian, Institutional Translator |
+| **Mizizi OS**                   | Cultural Architect, Boundary Guardian       |
+
+> Moyo never “runs” programs.
+> It **shapes how they are run**.
+
+---
+
+# IV. COMPENSATION & SUSTAINABILITY DOCTRINE
+
+This is critical.
+
+---
+
+## 1. Compensation Philosophy
+
+* Compensation reflects **labor, not martyrdom**
+* Emotional labor is paid labor
+* No one is expected to “volunteer trauma”
+
+---
+
+## 2. Compensation Structure
+
+* **Base stipend** (predictable, modest, stable)
+* **Care allowance** (therapy, rest, healing)
+* **Time-off guarantees** (non-negotiable)
+* **No performance bonuses tied to output metrics**
+
+---
+
+## 3. Sustainability Guardrails
+
+* Maximum workload caps
+* Mandatory rest cycles
+* Collective authority to pause work
+* No funding accepted that requires growth pressure
+
+---
+
+## 4. Funding Alignment Rules
+
+Moyo will not accept funding that:
+
+* Requires content production
+* Requires surveillance or data extraction
+* Demands expansion speed
+* Ties compensation to “engagement” metrics
+
+---
+
+## 5. Longevity Doctrine
+
+> **Moyo is designed to last decades, not burn bright for three years.**
+
+Burnout is treated as **system failure**, not personal weakness.
+
+---
+
+# V. FINAL OPERATING PRINCIPLE
+
+> **Moyo hires for wisdom, trains for presence, pays for labor, and protects for longevity.**
+
+---
+
+If you want next, I can:
+
+* Turn this into **offer letters & contracts**
+* Write a **Moyo Collective Charter**
+* Design a **succession & continuity model**
+* Create **burnout early-warning indicators**
+* Map **Moyo authority into Mizizi OS schemas**
+
+Just tell me where to formalize next.

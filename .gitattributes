@@ -1,3 +1,50 @@
+# @copyright
+# @brief
+# @note
+
+# linux
+*.h    eol=lf
+*.hpp  eol=lf
+*.c    eol=lf
+*.cpp  eol=lf
+*.cxx  eol=lf
+*.py   eol=lf
+*.pl   eol=lf
+*.sh   eol=lf
+*.doxy eol=lf
+
+# windows
+*.bat       eol=crlf
+*.java      eol=crlf
+*.classpath eol=crlf
+*.sln       eol=crlf
+*.vcproj    eol=crlf
+
+# binary
+*.tar      binary
+*.tar.gz   binary
+*.tgz      binary
+*.rpm      binary
+*.zip      binary
+*.jar      binary
+*.png      binary
+*.svg      binary
+*.jpeg     binary
+*.jpg      binary
+*.ico      binary
+*.xlsx     binary
+*.wav      binary
+*.pdf      binary
+*.lib      binary
+*.dll      binary
+*.exe      binary
+
+# extra
+*.blend  -delta
+*.glb  -delta
+*.spv  -delta
+
+# git-lfs
 .git/lfs/objects/8b/9d/8b9d1d11322b330e41068098eba32c5cb99210a6698a3c46c0e7045dbfdd2ae9 filter=lfs diff=lfs merge=lfs -text
 .git/lfs/objects/90/99/9099cc35fe32e35cea5ba28d75650dc65aa0c755197d2b1906287caedcd48633 filter=lfs diff=lfs merge=lfs -text
 .git/lfs/objects/e3/32/e332bea49274fc508f9435c6f528273ae6545a67da42a96beba694c60499194e filter=lfs diff=lfs merge=lfs -text

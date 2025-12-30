@@ -69,6 +69,7 @@ ashe cycle:
             - Ubuntuwa-UMOYA
             - Ubuntuwa-KANO
             - Ubuntuwa-LUNGARA
+        ZULAMBA members coop
         uhuru credit union coop
         moyo collective coop
         bahari network coop
@@ -95,51 +96,51 @@ ashe cycle:
             └── IDEA Lab
                 └── Idea → Prototype → MVP
         kumba metafactory franchise coop
-        12 ventures coops + 7 platforms + projects:
-            nandi mobility company coop
-                nandi mobility+intelligent transportation/infrastructure OS solution platform
-            wolof.io independent worker economy management firm coop
-                kogi independent worker economy OS solution platform
-            dogon manufacturing company coop
-                imewe digital fabrication system OS solution platform
-            azande software agency coop
-                qala software factory OS solution platform
-            lomwe systems engineering firm coop
-                oru simulation development kit OS solution platform
-            damara enterprise engineering firm coop
-                ume general purpose organization/business/enterprise/entity OS solution platform
-            niguvu corporation coop
-                sambara AI OS solution platform
-            san environmental and civilization engineering firm coop
-            massai media group coop
-            mande investment group coop
-                venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
-                investment funds+portfolios
-                real estate, easements
-                stocks/equity/bonds/debts/assets/capital
-                estate+wealth+offices+portfolio+investment management
-            batwa foundation urban community development centers franchise coop
-                Maafa Reparations Fund (Restricted Trust)
-                Takiya Fund (Victims & Families Trust)
-                Freedman’s credit union Federation (Member-Owned)
-                Batwa urban Community Development Trust
-                Community Land Trust (CLT)
-                Cooperative Holding Co-op
-                Program NPOs
-                    heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
-                    Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
-                    Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
-                    Zulu financial literacy program
-                    khoi urban community education, training and work program
-                    ndebele maafa and BLM memorials program
-                    shona urban community development governance, civic and political engagement program
-                    mizizi urban platform OS co-op program
-            songhai institue of systemics and systemology coop
-                the mungu project
-                the meridian project
-                systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
-                programming and research: complex systems, systems theory, complex adaptive/autonomous systems
-                research labs, training facilities, centers/academics/schools/colleges
+            12 ventures coops + 7 platforms + projects:
+                nandi mobility company coop
+                    nandi mobility+intelligent transportation/infrastructure OS solution platform
+                wolof.io independent worker economy management firm coop
+                    kogi independent worker economy OS solution platform
+                dogon manufacturing company coop
+                    imewe digital fabrication system OS solution platform
+                azande software agency coop
+                    qala software factory OS solution platform
+                lomwe systems engineering firm coop
+                    oru simulation development kit OS solution platform
+                damara enterprise engineering firm coop
+                    ume general purpose organization/business/enterprise/entity OS solution platform
+                niguvu corporation coop
+                    sambara AI OS solution platform
+                san environmental and civilization engineering firm coop
+                massai media group coop
+                mande investment group coop
+                    venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
+                    investment funds+portfolios
+                    real estate, easements
+                    stocks/equity/bonds/debts/assets/capital
+                    estate+wealth+offices+portfolio+investment management
+                batwa foundation urban community development centers franchise coop
+                    Maafa Reparations Fund (Restricted Trust)
+                    Takiya Fund (Victims & Families Trust)
+                    Freedman’s credit union Federation (Member-Owned)
+                    Batwa urban Community Development Trust
+                    Community Land Trust (CLT)
+                    Cooperative Holding Co-op
+                    Program NPOs
+                        heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
+                        Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
+                        Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
+                        Zulu financial literacy program
+                        khoi urban community education, training and work program
+                        ndebele maafa and BLM memorials program
+                        shona urban community development governance, civic and political engagement program
+                        mizizi urban platform OS co-op program
+                songhai institue of systemics and systemology coop
+                    the mungu project
+                    the meridian project
+                    systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
+                    programming and research: complex systems, systems theory, complex adaptive/autonomous systems
+                    research labs, training facilities, centers/academics/schools/colleges
 
     estates and offices:
         The Eaton Family Estate and Offices coop:

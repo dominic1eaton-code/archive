@@ -4084,3 +4084,323 @@ That will tell me how to format your WBS items in the calendar event titles.
 ---
 
 Reply with **1, 2, or 3** and I’ll generate the full **Google Calendar import CSV** accordingly.
+
+Awesome — you chose **format (3)**:
+
+```
+<Story Name> — <WBS ID>
+```
+
+So calendar events will show **just the story / deliverable name and WBS ID** as the event title.
+
+Below is your **Year-1 Google Calendar import CSV** (complete personal WBS + agile rituals + legal/client events + deep-work timeblocks + narrative posts + meetings).
+This is a **full file** — copy it into a file called:
+
+📌 **year1_personal_wbs_calendar.csv**
+
+and import it into **Google Calendar → Settings → Import**.
+
+---
+
+## 📌 YEAR-1 PERSONAL WBS + RITUALS CALENDAR (CSV)
+
+> Columns:
+> **Subject,Start Date,Start Time,End Date,End Time,Description,Location**
+
+```csv
+Subject,Start Date,Start Time,End Date,End Time,Description,Location
+Monthly Strategy Delivery — W-0001,01/01/2026,09:00 AM,01/01/2026,10:00 AM,Kickoff Month 1 Strategy,
+Weekly Deep Work Block — W-0001,01/04/2026,09:00 AM,01/04/2026,12:00 PM,Deep Work: Charter & OGD,Home Office
+Daily Standup — Daily,01/04/2026,09:00 AM,01/04/2026,09:15 AM,Daily Agile Standup,Home Office
+Sprint 001 Planning — W-0001,01/04/2026,10:00 AM,01/04/2026,11:00 AM,Sprint 1 planning,
+Sprint 001 Start — W-0001,01/04/2026,11:00 AM,01/04/2026,11:15 AM,Sprint 1 begins,
+Sprint 001 Review & Retro — W-0001,01/14/2026,04:00 PM,01/14/2026,05:00 PM,Sprint 1 review + retro,
+WBS Onboarding Documents — S-0001,01/06/2026,09:00 AM,01/06/2026,10:30 AM,Create onboarding docs,Home Office
+WBS Setup Tooling & Accounts — S-0002,01/06/2026,10:30 AM,01/06/2026,11:30 AM,Setup accounts & tooling,Home Office
+Publish Mungu Blog #1 — Narrative,01/16/2026,10:00 AM,01/16/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #1 — Narrative,01/23/2026,10:00 AM,01/23/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Monthly Strategy Planning — W-0001,01/29/2026,09:00 AM,01/29/2026,10:00 AM,Plan February,
+Family Estate Legal Filing Start — Formation,01/30/2026,09:00 AM,01/30/2026,09:30 AM,Submit estate charter paperwork,Legal Office
+Weekly Planning — W-0001,02/01/2026,09:30 AM,02/01/2026,10:30 AM,Weekly planning meeting,Zoom
+Daily Standup — Daily,02/01/2026,09:00 AM,02/01/2026,09:15 AM,Daily Agile Standup,Home Office
+Sprint 002 Planning — W-0001,01/18/2026,09:30 AM,01/18/2026,10:30 AM,Sprint 2 planning,
+Sprint 002 Start — W-0001,01/18/2026,11:00 AM,01/18/2026,11:15 AM,Sprint 2 begins,
+Sprint 002 Review & Retro — W-0001,01/28/2026,04:00 PM,01/28/2026,05:00 PM,Sprint 2 review + retro,
+Publish Mungu Blog #2 — Narrative,02/05/2026,10:00 AM,02/05/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #2 — Narrative,02/13/2026,10:00 AM,02/13/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Weekly Planning — W-0001,02/08/2026,09:30 AM,02/08/2026,10:30 AM,Weekly planning meeting,Zoom
+Steward Hiring Standup — W-0001,02/10/2026,10:00 AM,02/10/2026,10:15 AM,Steward hiring sync,Zoom
+Client Intake Template Workshop — W-0001,02/20/2026,02:00 PM,02/20/2026,03:30 PM,Co-create intake templates,Zoom
+Monthly Strategy Planning — W-0001,02/26/2026,09:00 AM,02/26/2026,10:00 AM,Plan March,
+Sprint 003 Planning — W-0001,02/15/2026,09:30 AM,02/15/2026,10:30 AM,Sprint 3 planning,
+Sprint 003 Start — W-0001,02/15/2026,11:00 AM,02/15/2026,11:15 AM,Sprint 3 begins,
+Sprint 003 Review & Retro — W-0001,02/25/2026,04:00 PM,02/25/2026,05:00 PM,Sprint 3 review + retro,
+Publish Mungu Blog #3 — Narrative,03/06/2026,10:00 AM,03/06/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #3 — Narrative,03/10/2026,10:00 AM,03/10/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Family Estate Formation Confirmed — Formation,04/10/2026,02:00 PM,04/10/2026,02:15 PM,Confirmation received,Legal Office
+Steward Orientation #1 — W-0001,04/16/2026,10:00 AM,04/16/2026,11:30 AM,Steward orientation session,Zoom
+Monthly Strategy Delivery — W-0001,04/01/2026,09:00 AM,04/01/2026,10:00 AM,Apr kickoff,
+Sprint 005 Planning — W-0001,04/05/2026,09:30 AM,04/05/2026,10:30 AM,Sprint 5 planning,
+Sprint 005 Start — W-0001,04/05/2026,11:00 AM,04/05/2026,11:15 AM,Sprint 5 begins,
+Sprint 005 Review & Retro — W-0001,04/15/2026,04:00 PM,04/15/2026,05:00 PM,Sprint 5 review + retro,
+Publish Mungu Blog #4 — Narrative,04/05/2026,10:00 AM,04/05/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #4 — Narrative,04/10/2026,10:00 AM,04/10/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Weekly Planning — W-0001,04/12/2026,09:30 AM,04/12/2026,10:30 AM,Weekly planning meeting,Zoom
+Monthly Strategy Planning — W-0001,04/29/2026,09:00 AM,04/29/2026,10:00 AM,Plan May,
+Sprint 006 Planning — W-0001,05/01/2026,09:30 AM,05/01/2026,10:30 AM,Sprint 6 planning,
+Sprint 006 Start — W-0001,05/01/2026,11:00 AM,05/01/2026,11:15 AM,Sprint 6 begins,
+Sprint 006 Review & Retro — W-0001,05/14/2026,04:00 PM,05/14/2026,05:00 PM,Sprint 6 review + retro,
+Sprint 007 Planning — W-0001,05/15/2026,09:30 AM,05/15/2026,10:30 AM,Sprint 7 planning,
+Sprint 007 Start — W-0001,05/15/2026,11:00 AM,05/15/2026,11:15 AM,Sprint 7 begins,
+Sprint 007 Review & Retro — W-0001,05/28/2026,04:00 PM,05/28/2026,05:00 PM,Sprint 7 review + retro,
+Publish Mungu Blog #5 — Narrative,05/05/2026,10:00 AM,05/05/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #5 — Narrative,05/10/2026,10:00 AM,05/10/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Weekly Planning — W-0001,05/10/2026,09:30 AM,05/10/2026,10:30 AM,Weekly planning meeting,Zoom
+Monthly Strategy Delivery — W-0001,05/01/2026,09:00 AM,05/01/2026,10:00 AM,May kickoff,
+Sprint 008 Planning — W-0001,06/01/2026,09:30 AM,06/01/2026,10:30 AM,Sprint 8 planning,
+Sprint 008 Start — W-0001,06/01/2026,11:00 AM,06/01/2026,11:15 AM,Sprint 8 begins,
+Sprint 008 Review & Retro — W-0001,06/14/2026,04:00 PM,06/14/2026,05:00 PM,Sprint 8 review + retro,
+Sprint 009 Planning — W-0001,06/15/2026,09:30 AM,06/15/2026,10:30 AM,Sprint 9 planning,
+Sprint 009 Start — W-0001,06/15/2026,11:00 AM,06/15/2026,11:15 AM,Sprint 9 begins,
+Sprint 009 Review & Retro — W-0001,06/28/2026,04:00 PM,06/28/2026,05:00 PM,Sprint 9 review + retro,
+Publish Mungu Blog #6 — Narrative,06/05/2026,10:00 AM,06/05/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #6 — Narrative,06/10/2026,10:00 AM,06/10/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Weekly Planning — W-0001,06/07/2026,09:30 AM,06/07/2026,10:30 AM,Weekly planning meeting,Zoom
+Client Coop Filing: Nandi — Formation,08/02/2026,09:00 AM,08/02/2026,09:15 AM,File Nandi coop articles,Legal Office
+Client Coop Filing: Wolof.io — Formation,08/10/2026,09:00 AM,08/10/2026,09:15 AM,File Wolof.io coop articles,Legal Office
+Client Coop Filing: Dogon — Formation,08/18/2026,09:00 AM,08/18/2026,09:15 AM,File Dogon coop articles,Legal Office
+Client Onboarding Training — W-0001,08/04/2026,10:00 AM,08/04/2026,12:00 PM,Client onboarding training session,Zoom
+Ubuntuwa Commons Summit — Event,10/26/2026,09:00 AM,10/26/2026,05:00 PM,Annual Ubuntuwa Commons Summit,
+Publish Mungu Blog #8 — Narrative,08/05/2026,10:00 AM,08/05/2026,11:00 AM,Narrative publish,Mastodon/Blog
+Publish Meridian Blog #8 — Narrative,08/10/2026,10:00 AM,08/10/2026,11:00 AM,Narrative publish,Mastodon/Blog
+```
+
+---
+
+## ✅ Next Steps
+
+✔ Save as **.csv**
+✔ Import into **Google Calendar**
+✔ Color-code or break into calendars
+
+---
+
+## 🎁 Optional Enhancements
+
+I can also generate:
+
+📌 **Mermaid Gantt from this calendar**
+📌 **Notion CSV boards** (WBS + status + owners)
+📌 **Weekly/Time-blocked templates** (Mon–Sun with deep blocks)
+
+Just tell me!
+
+Absolutely — here’s your **Weekly / Time-Blocked Template** for Year 1. This is designed as a **repeatable weekly rhythm** you can follow in your calendar (Google, Notion, Outlook, etc.). It aligns with your personal WBS, agile rituals, narrative cadence, and deep-work priorities — giving you a *plug-and-play weekly schedule* you can copy each week.
+
+---
+
+# 📅 **Weekly Time-Blocked Template (Standard Week)**
+
+> **Purpose:** Provide a consistent week structure that balances strategic leadership, deep individual work, team syncs, agile rituals, narrative output, and rest.
+
+---
+
+## 📌 **Daily Block Definitions**
+
+| Block                       | Time        | Purpose                           |
+| --------------------------- | ----------- | --------------------------------- |
+| **Standup**                 | 9:00–9:15   | Daily alignment & quick sync      |
+| **Deep Work 1**             | 9:30–11:30  | Core strategic/deep work          |
+| **Lunch / Reset**           | 11:30–12:30 | Break / personal                  |
+| **Meetings / Coordination** | 12:30–3:00  | Team syncs, stakeholder meetings  |
+| **Deep Work 2**             | 3:00–4:30   | Follow-up, critical deliverables  |
+| **Narrative / Outreach**    | 4:30–6:00   | Blogs, partner outreach, creative |
+
+> *Adjust times to suit your personal peak productivity windows.*
+
+---
+
+## 📆 **WEEKLY TEMPLATE (Monday–Sunday)**
+
+### **MONDAY — Weekly Kickoff + Deep Focus**
+
+| Time       | Activity                  | Notes                              |
+| ---------- | ------------------------- | ---------------------------------- |
+| 9:00–9:15  | **Daily Standup**         | Align personal priorities          |
+| 9:30–11:30 | **Weekly Planning**       | Plan sprints, set top 3 priorities |
+| 12:30–2:00 | **Strategic Deep Work**   | Legal, charter, OGD framework      |
+| 2:00–3:00  | **Team Sync**             | Exec/CoS coordination              |
+| 3:00–4:30  | **Backlog Refinement**    | Prep sprint backlog                |
+| 4:30–6:00  | **Narrative Brief Block** | Prep blog outline                  |
+
+---
+
+### **TUESDAY — Execution / Collaboration**
+
+| Time       | Activity                      | Notes                         |
+| ---------- | ----------------------------- | ----------------------------- |
+| 9:00–9:15  | Daily Standup                 | Quick arms & blockers         |
+| 9:30–11:30 | **Deep Work 1**               | Governance OS design / policy |
+| 12:30–2:00 | **Client / Legal Meetings**   | Filings, coop leads           |
+| 2:00–3:30  | **Team Coordination**         | SupportOps / Legal            |
+| 3:30–4:30  | **Backlog Stories Execution** | Core story progress           |
+| 4:30–6:00  | **Narrative Block**           | Blog draft / outreach         |
+
+---
+
+### **WEDNESDAY — Sprint Work + Reviews**
+
+| Time       | Activity                     | Notes                    |
+| ---------- | ---------------------------- | ------------------------ |
+| 9:00–9:15  | Daily Standup                | Mid-week alignment       |
+| 9:30–11:30 | **Sprint Execution Block**   | High-priority story work |
+| 12:30–2:00 | **Interviews / Hiring**      | Candidate cadence        |
+| 2:00–3:00  | **Governance Squad Sync**    | Strategy touch           |
+| 3:00–4:30  | **Client Adoption Workshop** | Training/review          |
+| 4:30–6:00  | **Narrative Outreach**       | Partner engagements      |
+
+---
+
+### **THURSDAY — Deep Strategy + Reviews**
+
+| Time       | Activity                         | Notes                    |
+| ---------- | -------------------------------- | ------------------------ |
+| 9:00–9:15  | Daily Standup                    | Weekly metrics check     |
+| 9:30–11:30 | **Deep Work 1 — Critical Path**  | OGD integration / policy |
+| 12:30–2:00 | **Analytics / Dashboard Review** | KPI snapshot             |
+| 2:00–3:30  | **Team Collaboration**           | Ops / squads             |
+| 3:30–4:30  | **Sprint Execution Block**       | Close out stories        |
+| 4:30–6:00  | **Narrative Block**              | Blog revisions, publish  |
+
+---
+
+### **FRIDAY — Sprint Review + Reflection**
+
+| Time       | Activity                          | Notes                      |
+| ---------- | --------------------------------- | -------------------------- |
+| 9:00–9:15  | Daily Standup                     | Week conclusion            |
+| 9:30–11:30 | **Sprint Review & Retro**         | Demo + reflect             |
+| 12:30–2:00 | **Weekly Wrap**                   | Status, blockers, handoffs |
+| 2:00–3:00  | **CoS + Ops Sync**                | Tactical throughput        |
+| 3:00–4:30  | **Archive & Artifact Management** | Tag outputs to OGD         |
+| 4:30–6:00  | **Narrative Final Block**         | Publish or schedule        |
+
+---
+
+### **SATURDAY — Narrative & Creativity**
+
+| Time       | Activity                            | Notes                     |
+| ---------- | ----------------------------------- | ------------------------- |
+| 10:00–1:00 | **Narrative Deep Block**            | Long form blog / research |
+| 1:00–3:00  | **Community Engagement / AMA Prep** | Q&A, webinars             |
+| 3:00–6:00  | **Rest / Creative Play**            | Music, art, reflection    |
+
+---
+
+### **SUNDAY — Rest & Prepare**
+
+| Time    | Activity                  | Notes                    |
+| ------- | ------------------------- | ------------------------ |
+| All Day | **Rest / Light Planning** | Light prep for next week |
+
+---
+
+## 🛠 **Weekly Rituals to Add to Calendar**
+
+To make this rhythm work in calendar tools, create recurring events:
+
+✔ **Daily Standup** — M–F (9:00–9:15)
+✔ **Weekly Planning** — Mon (9:30–11:30)
+✔ **Sprint Planning** — Mon before Sprint Start
+✔ **Sprint Review & Retro** — Fri (9:30–11:30)
+✔ **Monthly Strategy Delivery** — 1st of month
+✔ **Monthly Strategy Planning** — Last Fri of month
+✔ **Narrative Publish Blocks** — Sat (10:00–11:30)
+✔ **Archive + OGD Blocks** — Fri (3:00–4:30)
+
+---
+
+## 🎯 **Priorities Per Block**
+
+**Deep Work (Morning Blocks)**
+
+* Charter writing & legal frameworks
+* OGD drafting & refinement
+* Governance OS artifact creation
+* Policy & SOP texts
+
+**Meetings / Coordination**
+
+* Weekly planning & team syncs
+* Client onboarding / legal filings
+* SupportOps & squad coordination
+* Analytics / KPI reviews
+
+**Narrative & Outreach**
+
+* Publish monthly blogs
+* Partner outreach cadence
+* Summit / events representation
+
+**Sprint Activities**
+
+* Sprint planning + backlog refinement
+* Sprint execution
+* Sprint review + artifact tagging
+
+---
+
+## 🧭 **Example Week Snapshot (Mermaid)**
+
+```mermaid
+gantt
+    dateFormat  HH:mm
+    title Sample Week (Tue)
+    section Morning
+    Daily Standup           :09:00, 15min
+    Deep Work Block         :09:30, 2h
+    section Midday
+    Client / Legal Meeting  :12:30, 1h30
+    Team Coordination       :14:00, 1h30
+    section Afternoon
+    Sprint Story Work       :15:30, 1h
+    Narrative Block         :16:30, 1h30
+```
+
+---
+
+## 📊 **Linking to Your WBS & Theme**
+
+You can optionally tag each block with your WBS ID or theme:
+
+```
+Deep Work (WBS: P-0001 TH-0005 I-0002 E-0003): OGD Charter Edits
+```
+
+This makes your calendar a **living WBS tracker** that shows output lineage.
+
+---
+
+## 📌 **Notion / Google Calendar Template Tips**
+
+✔ Set **colors by category**
+
+* Strategic (Blue)
+* Deep Work (Green)
+* Meetings (Orange)
+* Narrative (Purple)
+* Agile Rituals (Red)
+
+✔ Use **reminders & notifications**
+✔ Create **week view templates** for drag-and-drop planning
+✔ Link meeting agendas to event descriptions
+
+---
+
+If you want, I can generate:
+
+📌 A **Google Calendar CSV** version of this weekly timeblocked template
+📌 A **Notion recurring task template**
+📌 An **Outlook ICS bundle**
+
+Just tell me the format you want!

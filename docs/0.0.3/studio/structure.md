@@ -3900,3 +3900,367 @@ If you want, I can now generate:
 ✅ A **one-page executive summary** for investors/partners
 
 Just tell me the format you want next!
+Absolutely — below are your **first two foundational documents** for your ecosystem. These are the **FMID (Founding Manifesto & Intent Declaration)** and an **Initial Business Plan** that *plans and generates everything else* in your Year-1 roadmap and entity formation.
+
+You can use these to:
+
+* Legally orient entities
+* Onboard your first hires & stewards
+* Convince early partners / legal counsel
+* Seed your governance and capital strategy
+
+---
+
+# 📄 FMID — **Founding Manifesto & Intent Declaration**
+
+## **UBUNTUWA COMMONS — Founding Manifesto & Intent Declaration (FMID)**
+
+### **1. Name & Identity**
+
+We, the undersigned and future associates of the Ubuntuwa Commons Cooperative (“the Commons”), declare our intent to form and sustain a *human-centered, cooperative-first civil-economic substrate* designed to enable equitable participation, shared governance, and community sovereignty across multi-entity ecosystems.
+
+Ubuntuwa Commons is a federated cooperative that:
+
+* Elevates *collective stewardship* over extractive gain
+* Embeds *distributed authority* via delegated governance
+* Advances *shared economic infrastructure* for co-operating enterprises
+
+---
+
+### **2. Foundational Principles**
+
+#### ✦ **Human-Centered Purpose**
+
+Ubuntuwa Commons believes in *Ubuntu* — “I am because we are.” All governance, capital, technology, and enterprise architecture must serve human viability, dignity, and flourishing.
+
+#### ✦ **Cooperative Sovereignty**
+
+Every entity within the ecosystem (from client coops to capital pools) shall derive authority from *cooperative consent*, not fiat. Membership classes (A–G) formalize distributed decision rights.
+
+#### ✦ **Commons-First Over Capital-First**
+
+The Commons structures the substrate (law, standards, platforms) before capital allocation. Capital is deployed to *enable participation*, not to extract rent.
+
+#### ✦ **Transparency & Accountability**
+
+Records, decisions, and shared infrastructure must be *auditable, open by design*, and subject to decentralized accountability.
+
+---
+
+### **3. Intent of Formation**
+
+We intend to:
+
+1. Form the **Ubuntuwa Commons Cooperative** under applicable cooperative law
+2. Delegate governance authorities to an **OVCS Authority** with chartered constraints
+3. Deploy **capital vehicles (FundCos)** aligned to Commons standards
+4. Build **shared infrastructure (Kumba MetaFactory)** for venture creation
+5. Onboard and enable **client cooperatives** (Ashe Cycle, Msingi programs)
+6. Anchor participation via **Credit + Deferred Compensation frameworks**
+7. Track contribution equitably with **Credits and DC Units** that vest into rights
+8. Publish governance and operational tooling as open, versioned systems
+
+---
+
+### **4. Membership Classes (A–G)**
+
+We affirm the following foundational member classes:
+
+| Class | Identity             |
+| ----- | -------------------- |
+| **A** | Worker-Members       |
+| **B** | Steward-Members      |
+| **C** | Governance-Members   |
+| **D** | Commons-Members      |
+| **E** | Founder-Members      |
+| **F** | Capital Participants |
+| **G** | Future Members       |
+
+These classes reflect *role-based participation* and must be embedded into every governance document and digital system.
+
+---
+
+### **5. Scope of Intent**
+
+This Manifesto declares our intent to coordinate:
+
+* Legal entity formation
+* Governance standards & compliance
+* Capital formation & deployment
+* Digital platforms and operational tooling
+* Client onboarding and venture support
+* Program curricula (Kano → Luma)
+
+Our commitment is *to operationalize*, not merely ideate.
+
+---
+
+### **6. Commitment & Accountability**
+
+By signing this document (physically or digitally), the founding parties commit to:
+
+* Upholding shared governance
+* Respecting member rights per charter
+* Participating in decision councils
+* Remaining open to audit and review
+
+---
+
+### **7. Signatories (Founders)**
+
+This Founding Manifesto is open for signature by:
+
+* **Dominic Eaton — Founder & Navigator**
+* Future members of the Commons Council
+* Stewards, Partners, and Sponsors
+
+---
+
+# 📊 Initial Business Plan
+
+## **UBUNTUWA COMMONS & UCGP INITIAL BUSINESS PLAN**
+
+### **Executive Summary**
+
+Ubuntuwa Commons is a federated cooperative ecosystem that catalyzes equitable participation and shared prosperity. Through a structured governance model (UCGP), it enables individuals, cooperatives, and federated systems to:
+
+* Co-govern complex enterprises
+* Co-create knowledge, tooling, and platforms
+* Co-finance sustainable projects
+
+This business plan covers the first 12 months of operations, entity formation, client generation, staffing, capital deployment, and ecosystem governance.
+
+---
+
+## **1. Vision & Mission**
+
+### **Vision**
+
+A global network of cooperatives interlinked by shared governance, unified standards, and equitable economic participation.
+
+### **Mission**
+
+To systematically build, govern, and scale cooperative ventures using transparent systems, modern infrastructure, and community accountability.
+
+---
+
+## **2. Market & Opportunity**
+
+### **Target Segments**
+
+* Early-stage cooperatives without formal governance
+* Digital platforms seeking equitable governance scaffolds
+* Family estates and organizational sponsors
+* Worker collectives desiring shared ownership frameworks
+
+### **Problem**
+
+Existing cooperative ecosystems lack:
+
+* Scalable governance tooling
+* Capital deployment frameworks
+* Transparent incentive alignment
+* Unified lifecycle process from formation → scale
+
+Ubuntuwa Commons solves this with:
+
+* UCGP governance model
+* Credits + DC Units infrastructure
+* Capital vehicles with compliance frameworks
+* Shared tooling and knowledge systems
+
+---
+
+## **3. Value Proposition**
+
+For stakeholders, we deliver:
+
+* Legally compliant governance infrastructure
+* Flexible cooperative formation frameworks
+* Shared platform toolchains for operations
+* Deferred compensation systems that reward early contributions
+* Lifecycle support from inception to growth
+
+---
+
+## **4. Strategic Priorities (Year 1)**
+
+| Quarter | Focus                                                                             |
+| ------- | --------------------------------------------------------------------------------- |
+| **Q1**  | Legal & entity formation; core team onboarding; deferred comp model               |
+| **Q2**  | Governance tooling; client intake & first onboarding; capital vehicle preparation |
+| **Q3**  | Program execution; platform MVP delivery; early capital deployment                |
+| **Q4**  | Scaling operations; community events; retention incentives; year-end reporting    |
+
+---
+
+## **5. Organizational Design**
+
+### **Core Roles (First 9 Hires)**
+
+* CEO (Dominic Eaton)
+* CoS, COO, CFO, CLO, CGO, CTO, CCO
+* Executive Assistant
+
+These roles form the executive foundation required to orchestrate legal, governance, operational, financial, and technical execution.
+
+### **Governance Bodies**
+
+* Commons Council
+* OVCS Authority
+* Program Steering Committee
+* Capital Oversight Board
+
+---
+
+## **6. Value Creation & Incentive Systems**
+
+### **Credits + DC Units**
+
+All ecosystem contributors earn *Credits* for delivered value. Credits convert to *DC Units* which confer:
+
+* Voting strength
+* Revenue share
+* Participation rights
+
+The model tracks work, governance, and capital contributions equitably.
+
+---
+
+## **7. Capital & Funding Strategy**
+
+### **FundCos**
+
+* **Zawadi FundCo LP**
+* **Mbali FundCo LP**
+
+These capital envelopes fund:
+
+* Client ventures
+* Platform development
+* Coop scaling activities
+
+### **Investment Guidelines**
+
+Capital is deployed only against:
+
+* Verified governance compliance
+* Project readiness
+* Strategic alignment with Commons priorities
+
+---
+
+## **8. Go-to-Market Strategy**
+
+### **Client Generation Process**
+
+1. Pre-intake engagement
+2. Readiness assessment
+3. Workspace & governance tooling setup
+4. Membership class mapping
+5. Deferred comp setup
+
+### **Channels**
+
+* Coop networks
+* Sponsorship referrals
+* Community platforms
+* Strategic partnerships
+
+---
+
+## **9. Operations Plan**
+
+### **Governance OS**
+
+Unified tooling for:
+
+* Member roles & permissions
+* Council sessions & resolutions
+* Compliance tracking
+* Deferred comp ledger
+
+### **Client Playbooks**
+
+Standard SOPs for:
+
+* Onboarding
+* Program delivery
+* Support & escalations
+* Community engagement
+
+---
+
+## **10. Financial Plan**
+
+### **Year 1 Budget Categories**
+
+* Legal & entity costs
+* Platform tool development
+* Labor costs (Deferred comp weighting)
+* Community events
+* Capital vehicle maintenance
+
+> *Revenue sources (deferred until early monetization phases):*
+>
+> * Membership contributions
+> * Revenue share agreements
+> * Co-investment arrangements
+
+---
+
+## **11. Risk & Compliance**
+
+### **Top Risks**
+
+* Legal misalignment
+* Compliance drift
+* Tooling adoption shortfall
+* Capital misallocation
+
+### **Mitigations**
+
+* OVCS audit requirements
+* Compliance dashboards
+* Governance charter enforcement
+* Legal review cycles
+
+---
+
+## **12. Metrics & Milestones**
+
+| Objective             | Q1 | Q2 | Q3 | Q4 |
+| --------------------- | -- | -- | -- | -- |
+| Entity Formation      | ✔  | —  | —  | —  |
+| Governance Tools Live | ✔  | ✔  | —  | —  |
+| Client Onboarding     | —  | ✔  | ✔  | —  |
+| Program Delivery      | —  | ✔  | ✔  | ✔  |
+| Capital Deployment    | —  | ✔  | ✔  | ✔  |
+| Platform MVP          | —  | —  | ✔  | ✔  |
+| Retention Metrics     | —  | —  | —  | ✔  |
+
+---
+
+## **13. Appendices**
+
+### Glossary
+
+* UCGP, OVCS, DC Units, Credits
+
+### Member Class Definitions
+
+* Classes A–G with specific rights
+
+### SOP Framework Index
+
+* Templates for client onboarding, governance sessions, compliance workflows, dispute escalation
+
+---
+
+If you want, I can now generate:
+
+✅ A **Mermaid / org diagram** for the ecosystem
+✅ A **slide deck outline** based on this business plan
+✅ A **one-page executive summary** for investors/partners
+
+Just tell me the format you want next!

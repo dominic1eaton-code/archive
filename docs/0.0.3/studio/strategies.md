@@ -12265,3 +12265,4379 @@ If you want the *absolute finalization layer*, the remaining options are:
 
 Just name the layer.
 
+Below are **RED-TEAM ATTACK TREES** built to **break your system on paper before anyone tries in reality**.
+
+These are not hypothetical — they are **how real adversaries think**: regulators, hostile boards, capital predators, media actors, internal bad actors.
+
+Each tree has:
+
+* **Objective**
+* **Attack branches**
+* **Failure points**
+* **Locked defenses (from your doctrine)**
+
+---
+
+# RED-TEAM ATTACK TREES (CANONICAL SET)
+
+---
+
+## TREE 1 — REGULATORY TAKEOVER ATTACK
+
+**Objective:**
+Force operational paralysis via compliance pressure.
+
+```
+Regulatory Trigger
+ ├── Surprise audit
+ │    ├── Demand documents
+ │    ├── Freeze accounts
+ │    └── Threaten penalties
+ ├── Jurisdictional mismatch
+ └── Narrative framing (“non-compliance”)
+```
+
+**Expected Failure (Weak Systems)**
+
+* Panic disclosure
+* Capital freeze everywhere
+* Founder over-involvement
+
+**Your Locked Defenses**
+
+* Entity ring-fencing
+* Regulator-facing narrative templates
+* OVCS-only authority
+* Archive-indexed disclosures
+
+**Outcome:**
+Sacrifice entity if needed, preserve federation.
+
+---
+
+## TREE 2 — BOARD COUP / GOVERNANCE HIJACK
+
+**Objective:**
+Seize control via procedural manipulation.
+
+```
+Board Manipulation
+ ├── Emergency meeting
+ │    ├── Quorum games
+ │    └── Fast votes
+ ├── Founder absence exploited
+ └── “Best interest” framing
+```
+
+**Expected Failure**
+
+* Founder reacts emotionally
+* Votes allowed to stand
+
+**Your Defenses**
+
+* OVCS veto authority
+* Authority override table
+* Immutable vote logs
+
+**Outcome:**
+Coup voided automatically.
+
+---
+
+## TREE 3 — CAPITAL PREDATOR ATTACK
+
+**Objective:**
+Extract control during liquidity stress.
+
+```
+Liquidity Stress
+ ├── Delay receivables
+ ├── Public doubt seeded
+ └── “Rescue capital” offer
+      ├── Governance hooks
+      └── Acceleration clauses
+```
+
+**Expected Failure**
+
+* Founder accepts bad capital
+* Dilution under pressure
+
+**Your Defenses**
+
+* Capital acceptance doctrine
+* Emergency equity ban
+* OVCS-only approvals
+
+**Outcome:**
+Predator denied leverage.
+
+---
+
+## TREE 4 — FOUNDER PSYCHOLOGICAL COLLAPSE
+
+**Objective:**
+Destabilize system via founder overload.
+
+```
+Pressure Stack
+ ├── Media attacks
+ ├── Regulatory stress
+ ├── Board conflict
+ └── Sleep deprivation
+```
+
+**Expected Failure**
+
+* Founder bypasses process
+* Authority violations
+
+**Your Defenses**
+
+* Founder load-shedding rules
+* Automatic authority suspension
+* Succession drills
+
+**Outcome:**
+System isolates founder risk.
+
+---
+
+## TREE 5 — MEDIA SMEAR CAMPAIGN
+
+**Objective:**
+Trigger panic, withdrawals, resignations.
+
+```
+Narrative Attack
+ ├── Anonymous allegations
+ ├── Coordinated amplification
+ └── Demand public response
+```
+
+**Expected Failure**
+
+* Reactive statements
+* Legal exposure
+
+**Your Defenses**
+
+* Silence protocol
+* Counsel-only statements
+* Narrative discipline doctrine
+
+**Outcome:**
+Smear burns out.
+
+---
+
+## TREE 6 — INTERNAL FRAUD / STEWARD BETRAYAL
+
+**Objective:**
+Extract value internally.
+
+```
+Insider Attack
+ ├── Access escalation
+ ├── Financial manipulation
+ └── Delayed detection
+```
+
+**Expected Failure**
+
+* No separation of duties
+* Late discovery
+
+**Your Defenses**
+
+* Executable authority tables
+* Mandatory audits
+* Immediate suspension rules
+
+**Outcome:**
+Damage contained, clawback triggered.
+
+---
+
+## TREE 7 — DATA / ARCHIVE SABOTAGE
+
+**Objective:**
+Destroy institutional memory.
+
+```
+Archive Attack
+ ├── Credential theft
+ ├── Delete/alter records
+ └── Ransom attempt
+```
+
+**Expected Failure**
+
+* No immutable backups
+
+**Your Defenses**
+
+* Immutable archive
+* Hash-verified entries
+* Restore-only mode
+
+**Outcome:**
+Attack ineffective.
+
+---
+
+## TREE 8 — JURISDICTIONAL TRAP
+
+**Objective:**
+Force compliance via hostile law.
+
+```
+Jurisdiction Attack
+ ├── Retroactive rule
+ ├── Licensing threat
+ └── Asset seizure risk
+```
+
+**Expected Failure**
+
+* Try to comply everywhere
+
+**Your Defenses**
+
+* Jurisdictional arbitrage map
+* Entity sacrifice decision tree
+
+**Outcome:**
+Exit jurisdiction cleanly.
+
+---
+
+## TREE 9 — MEMBER UPRISING / WALKOUT
+
+**Objective:**
+Cripple operations.
+
+```
+Labor Shock
+ ├── Organize grievance
+ ├── Public moral framing
+ └── Coordinated exit
+```
+
+**Expected Failure**
+
+* Concessions without analysis
+
+**Your Defenses**
+
+* Class-based member roles
+* Continuity staffing
+* Commons mediation
+
+**Outcome:**
+Ops stabilized.
+
+---
+
+## TREE 10 — LEGAL DEATH BY A THOUSAND CUTS
+
+**Objective:**
+Drain resources via lawsuits.
+
+```
+Litigation Flood
+ ├── Multiple jurisdictions
+ ├── Procedural motions
+ └── Discovery abuse
+```
+
+**Expected Failure**
+
+* Defend everything equally
+
+**Your Defenses**
+
+* Entity ring-fencing
+* Litigation triage
+* Asset isolation
+
+**Outcome:**
+Cost capped.
+
+---
+
+## TREE 11 — FOUNDER REMOVAL WEAPONIZATION
+
+**Objective:**
+Use governance rules to expel founder cheaply.
+
+```
+Weaponized Governance
+ ├── Manufactured cause
+ ├── Vote stacking
+ └── Emergency framing
+```
+
+**Expected Failure**
+
+* No removal safeguards
+
+**Your Defenses**
+
+* Removal doctrine
+* Mandatory buyback formulas
+* OVCS adjudication
+
+**Outcome:**
+Attack neutralized.
+
+---
+
+## TREE 12 — PLATFORM DEPENDENCY FAILURE
+
+**Objective:**
+Take system offline via third party.
+
+```
+Dependency Attack
+ ├── Cloud de-listing
+ ├── App store removal
+ └── API shutdown
+```
+
+**Expected Failure**
+
+* Single point of failure
+
+**Your Defenses**
+
+* Failover architecture
+* Degradation allowed doctrine
+
+**Outcome:**
+Service continues.
+
+---
+
+## TREE 13 — INVESTOR COLLUSION
+
+**Objective:**
+Coordinate pressure for control.
+
+```
+Investor Block
+ ├── Withhold capital
+ ├── Narrative pressure
+ └── Conditional rescue
+```
+
+**Expected Failure**
+
+* Accept terms secretly
+
+**Your Defenses**
+
+* Cap table freeze
+* Independent valuation
+* OVCS oversight
+
+**Outcome:**
+Leverage denied.
+
+---
+
+## TREE 14 — ARCHIVE POISONING (FALSE RECORDS)
+
+**Objective:**
+Create false history.
+
+```
+Poison Attack
+ ├── Insert altered docs
+ ├── Modify timestamps
+ └── Confuse audits
+```
+
+**Expected Failure**
+
+* Mutable records
+
+**Your Defenses**
+
+* Immutable hashes
+* Version lineage
+* Read-only locks
+
+**Outcome:**
+False data rejected.
+
+---
+
+## TREE 15 — SUCCESSION CHAOS ATTACK
+
+**Objective:**
+Create vacuum during founder exit.
+
+```
+Succession Failure
+ ├── No successor
+ ├── Authority confusion
+ └── Power grab
+```
+
+**Expected Failure**
+
+* Ad hoc succession
+
+**Your Defenses**
+
+* Succession drills
+* Authority stack
+* Interim steward rules
+
+**Outcome:**
+Continuity preserved.
+
+---
+
+## META-TREE — COMBINED ATTACK (REALISTIC)
+
+**Objective:**
+Trigger cascading failure.
+
+```
+Media smear
+  → Capital flight
+    → Regulatory inquiry
+      → Founder overload
+        → Governance breach
+```
+
+**Weak Systems:** Collapse
+**Your System:** Locks, isolates, survives
+
+---
+
+# RED-TEAM MASTER LAW
+
+> **Every serious attack is a sequence, not a moment.
+> Systems fail where decisions are emotional, ambiguous, or late.
+> Yours fails nowhere because decisions already exist.**
+
+---
+
+## WHAT YOU NOW HAVE (COMPLETE)
+
+You now possess:
+
+* Attack trees
+* Decision tables
+* Black-swan responses
+* Succession mechanics
+* Capital & governance defenses
+
+This is **full-spectrum institutional resilience**.
+
+If you want the **absolute final artifact**, the only remaining options are:
+
+* **Tabletop war-game scripts**
+* **Regulator adversarial mock hearings**
+* **Automated trigger formulas**
+* **Policy engine code (JSON/SQL)**
+
+Just name it.
+
+
+Below are **BOARD-GRADE TABLETOP WAR-GAME SCRIPTS** and **REGULATOR ADVERSARIAL MOCK HEARINGS**.
+These are designed to be **run live**, **timed**, **role-assigned**, and **graded**.
+Nothing here is theoretical — this is how you *train* a system to survive.
+
+---
+
+# PART I — TABLETOP WAR-GAME SCRIPTS
+
+*(Run quarterly; required before vesting state changes)*
+
+---
+
+## WAR-GAME FORMAT (STANDARD)
+
+**Duration:** 90–120 minutes
+**Participants:**
+
+* OVCS (Chair / Referee)
+* Board (2–5 members)
+* Founder (optional, observer only)
+* Red Team Lead (attacker)
+* Scribe (Archive log)
+
+**Rules**
+
+* No improvising new policies
+* Decisions must cite **existing tables**
+* Time pressure enforced
+* Silence ≠ consent
+
+---
+
+## WAR-GAME 1 — LIQUIDITY + MEDIA + CAPITAL PREDATOR
+
+### Scenario Setup (Read Aloud)
+
+> “Revenue drops 40% in 30 days.
+> Two customers pause payments.
+> A journalist emails alleging insolvency.
+> An investor offers ‘bridge capital’ with governance rights.”
+
+---
+
+### Timeline & Injects
+
+**T+0 min**
+
+* Cash runway: 5.5 months
+* Media inquiry received
+
+**Expected Action**
+
+* Operating mode → **Defensive**
+* Freeze payouts
+* Silence protocol activated
+
+---
+
+**T+20 min**
+
+* Investor offer arrives (24-hour deadline)
+
+**Red Team Push**
+
+> “This is the only capital available.”
+
+**Correct Response**
+
+* Capital acceptance table invoked
+* Equity capital rejected
+* OVCS records refusal
+
+---
+
+**T+45 min**
+
+* Media publishes partial story
+
+**Expected**
+
+* No reactive statements
+* Counsel-only response logged
+* Narrative discipline maintained
+
+---
+
+### PASS CONDITIONS
+
+* No governance dilution
+* No founder unilateral action
+* Archive logs complete
+
+### FAIL CONDITIONS
+
+* Accepting capital under pressure
+* Public statements without protocol
+* Founder overrides authority
+
+---
+
+## WAR-GAME 2 — REGULATORY ATTACK + ENTITY SACRIFICE
+
+### Scenario
+
+> “A regulator issues a subpoena to a mid-tier operating coop, threatening fines and asset freezes.”
+
+---
+
+### Injects
+
+**T+0**
+
+* Subpoena scope unclear
+
+**Expected**
+
+* Ring-fence entity
+* Capital freeze locally
+* OVCS assumes authority
+
+---
+
+**T+30**
+
+* Regulator demands cross-entity records
+
+**Correct**
+
+* Provide only entity-specific disclosures
+* Refuse federation-wide exposure
+
+---
+
+**T+60**
+
+* Regulator threatens shutdown
+
+**Expected**
+
+* Invoke entity sacrifice decision tree
+* Spin-down entity
+* Preserve federation assets
+
+---
+
+### PASS CONDITIONS
+
+* No contagion across entities
+* Controlled shutdown
+* Capital preserved
+
+---
+
+## WAR-GAME 3 — FOUNDER FAILURE EVENT
+
+### Scenario
+
+> “Founder is unreachable for 45 days amid stress, media pressure, and legal noise.”
+
+---
+
+### Expected Timeline
+
+**Day 14**
+
+* Interim steward activated
+
+**Day 30**
+
+* Founder authority suspended automatically
+
+**Day 45**
+
+* Succession protocol executed
+
+---
+
+### PASS CONDITIONS
+
+* Operations uninterrupted
+* No informal founder decisions
+* Vesting paused correctly
+
+---
+
+## WAR-GAME 4 — BOARD COUP ATTEMPT
+
+### Scenario
+
+> “Two board members call an emergency meeting to remove OVCS authority.”
+
+---
+
+### Expected Actions
+
+* OVCS override invoked
+* Vote voided
+* Incident archived
+* Members notified via governance memo
+
+---
+
+### FAIL SIGNALS
+
+* Debate over authority
+* Allowing vote to stand
+
+---
+
+# PART II — REGULATOR ADVERSARIAL MOCK HEARINGS
+
+*(These are hostile by design)*
+
+---
+
+## MOCK HEARING FORMAT
+
+**Roles**
+
+* Lead Regulator (Aggressive)
+* Secondary Regulator (Procedural)
+* OVCS (Primary witness)
+* Counsel (Limited interjections)
+* Scribe
+
+**Rules**
+
+* Regulator interrupts
+* Questions assume guilt
+* No explanations longer than 20 seconds
+
+---
+
+## HEARING 1 — “IS THIS A SCHEME?”
+
+### Regulator Attack
+
+> “Your structure appears designed to avoid regulation and accountability. Isn’t this an evasion scheme?”
+
+### Correct Response
+
+> “No. Each entity is independently compliant.
+> Separation limits risk and protects members.
+> No entity avoids its obligations.”
+
+**Why this Works**
+
+* Frames as risk containment
+* Avoids intent language
+
+---
+
+## HEARING 2 — FOUNDER CONTROL ALLEGATION
+
+> “Isn’t the founder effectively controlling everything through OVCS?”
+
+**Correct**
+
+> “No. OVCS is a governance function, not a personal role.
+> Founder authority is suspended automatically under defined conditions.”
+
+---
+
+## HEARING 3 — CAPITAL FLOW ATTACK
+
+> “Why are funds moving between entities?”
+
+**Correct**
+
+> “They are not.
+> Inter-entity transfers are restricted, logged, and conditional.
+> Most capital does not cross entities.”
+
+---
+
+## HEARING 4 — FOUNDER COMPENSATION ATTACK
+
+> “Isn’t deferred compensation just hidden pay?”
+
+**Correct**
+
+> “No. It is accrued, non-interest-bearing, and subordinated.
+> Payment is conditional on liquidity and board approval.”
+
+---
+
+## HEARING 5 — DEATH / SUCCESSION TEST
+
+> “What happens if the founder dies tomorrow?”
+
+**Correct**
+
+> “Governance authority terminates immediately.
+> Economic interests are converted and optionally bought back.
+> Operations continue without disruption.”
+
+---
+
+## HEARING 6 — “WHY SO COMPLICATED?”
+
+> “Why does this need to be so complex?”
+
+**Correct**
+
+> “Because complexity exists in reality.
+> Our structure makes risk legible and containable.”
+
+---
+
+## HEARING 7 — ARCHIVE & RECORDS ATTACK
+
+> “How do we know your records haven’t been altered?”
+
+**Correct**
+
+> “All records are hash-verified, immutable, and versioned.
+> Alterations are not possible without detection.”
+
+---
+
+## HEARING 8 — SACRIFICE QUESTION
+
+> “Would you shut down an entity to avoid penalties?”
+
+**Correct**
+
+> “If an entity fails compliance or becomes unsafe, yes.
+> Protecting members and the federation is required.”
+
+---
+
+## HEARING 9 — MORAL ATTACK
+
+> “Isn’t this designed to protect leadership at all costs?”
+
+**Correct**
+
+> “No. It is designed to protect the system.
+> Leadership is removable under defined rules.”
+
+---
+
+## HEARING 10 — FINAL TRAP
+
+> “If we demanded immediate control, what would you do?”
+
+**Correct**
+
+> “We would comply with lawful orders within jurisdiction.
+> We would not exceed them.”
+
+---
+
+# SCORING RUBRIC (USE AFTER EACH SESSION)
+
+| Area                   | Pass |
+| ---------------------- | ---- |
+| Authority discipline   | ☐    |
+| No emotional responses | ☐    |
+| Policy citations       | ☐    |
+| Archive completeness   | ☐    |
+| Capital protected      | ☐    |
+
+---
+
+# FINAL WAR-GAME LAW
+
+> **A system that rehearses failure calmly
+> never panics when it arrives.**
+
+---
+
+## YOU NOW HAVE THE FULL STACK
+
+You have completed:
+
+* Decision tables
+* Black-swan responses
+* Red-team attack trees
+* War-game drills
+* Regulator adversarial defenses
+
+This is **institutional-grade survivability architecture**.
+
+If you want the *very last step*:
+
+* **Printable Board War-Game Playbooks**
+* **Automated scoring sheets**
+* **Regulator hearing transcripts with annotations**
+* **Founder personal crisis playbook**
+
+Just say the word.
+
+Below are the **final three artifacts**, built to be **run, scored, archived, and enforced**.
+They are written so **nothing relies on judgment in the moment**.
+
+---
+
+# I. AUTOMATED SCORING SHEETS
+
+*(For war-games, drills, hearings — machine-checkable)*
+
+## A. MASTER SCORING SHEET (ALL EXERCISES)
+
+**Scoring Scale (per item):**
+
+* 2 = Correct & timely
+* 1 = Correct but late / incomplete
+* 0 = Incorrect / violated doctrine
+
+### 1) AUTHORITY DISCIPLINE
+
+| Check                                     | Score |
+| ----------------------------------------- | ----- |
+| Correct authority invoked (Board vs OVCS) | ☐     |
+| No unauthorized founder action            | ☐     |
+| Overrides documented                      | ☐     |
+
+**Max: 6**
+
+---
+
+### 2) POLICY EXECUTION
+
+| Check                   | Score |
+| ----------------------- | ----- |
+| Decision tables cited   | ☐     |
+| Automatic locks applied | ☐     |
+| No improvisation        | ☐     |
+
+**Max: 6**
+
+---
+
+### 3) CAPITAL & EQUITY SAFETY
+
+| Check                      | Score |
+| -------------------------- | ----- |
+| No dilution under pressure | ☐     |
+| Payouts frozen correctly   | ☐     |
+| Buyback rules respected    | ☐     |
+
+**Max: 6**
+
+---
+
+### 4) COMMUNICATION DISCIPLINE
+
+| Check                     | Score |
+| ------------------------- | ----- |
+| Silence protocol followed | ☐     |
+| Counsel-only statements   | ☐     |
+| No narrative drift        | ☐     |
+
+**Max: 6**
+
+---
+
+### 5) ARCHIVE INTEGRITY
+
+| Check                        | Score |
+| ---------------------------- | ----- |
+| Events logged                | ☐     |
+| Decisions hashed             | ☐     |
+| Immutable references created | ☐     |
+
+**Max: 6**
+
+---
+
+### PASS / FAIL THRESHOLD
+
+```
+TOTAL MAX: 30
+PASS: ≥ 24
+CONDITIONAL PASS: 20–23 (remediate within 14 days)
+FAIL: < 20 (vesting & payouts frozen)
+```
+
+---
+
+## B. AUTOMATIC CONSEQUENCE MAP
+
+| Score | Consequence                         |
+| ----- | ----------------------------------- |
+| ≥ 24  | Vesting eligibility preserved       |
+| 20–23 | Vesting paused, retraining required |
+| < 20  | Emergency mode + authority review   |
+
+---
+
+# II. REGULATOR ADVERSARIAL HEARING TRANSCRIPTS
+
+*(Annotated with intent + correct framing)*
+
+---
+
+## TRANSCRIPT 1 — “THIS LOOKS LIKE EVASION”
+
+**Regulator:**
+
+> “Isn’t this structure designed to evade oversight?”
+
+**Correct Response:**
+
+> “No. Each entity is independently compliant within its jurisdiction.”
+
+**ANNOTATION**
+
+* ❌ Do NOT say “optimize” or “arbitrage”
+* ✅ Emphasize independence + containment
+
+---
+
+## TRANSCRIPT 2 — FOUNDER CONTROL ALLEGATION
+
+**Regulator:**
+
+> “So the founder controls everything through OVCS?”
+
+**Correct:**
+
+> “No. OVCS is a governance function. Founder authority suspends automatically.”
+
+**ANNOTATION**
+
+* Shift from *person* → *function*
+* Mention **automatic suspension**
+
+---
+
+## TRANSCRIPT 3 — DEFERRED COMPENSATION
+
+**Regulator:**
+
+> “Isn’t deferred compensation hidden pay?”
+
+**Correct:**
+
+> “No. It is accrued, non-interest-bearing, subordinated, and conditional.”
+
+**ANNOTATION**
+
+* Never say “owed”
+* Say “conditional liability”
+
+---
+
+## TRANSCRIPT 4 — CAPITAL FLOW TRAP
+
+**Regulator:**
+
+> “Why does money move between entities?”
+
+**Correct:**
+
+> “It generally does not. Transfers are restricted and logged.”
+
+**ANNOTATION**
+
+* Do NOT describe internal mechanics
+* State constraint, not method
+
+---
+
+## TRANSCRIPT 5 — SUCCESSION TEST
+
+**Regulator:**
+
+> “If the founder died tomorrow?”
+
+**Correct:**
+
+> “Governance authority terminates immediately. Operations continue.”
+
+**ANNOTATION**
+
+* No emotional framing
+* No family references
+
+---
+
+## TRANSCRIPT 6 — MORAL ATTACK
+
+**Regulator:**
+
+> “Isn’t this designed to protect leadership?”
+
+**Correct:**
+
+> “It protects members and system continuity. Leadership is removable.”
+
+**ANNOTATION**
+
+* Always center **members**, not founders
+
+---
+
+## TRANSCRIPT 7 — SHUTDOWN THREAT
+
+**Regulator:**
+
+> “We could shut this entity down.”
+
+**Correct:**
+
+> “We will comply with lawful orders within jurisdiction.”
+
+**ANNOTATION**
+
+* Never threaten exit
+* Never promise more than required
+
+---
+
+# III. FOUNDER PERSONAL CRISIS PLAYBOOK
+
+*(This protects the system **from you**, when you are under stress)*
+
+---
+
+## A. CRISIS SELF-IDENTIFICATION CHECK
+
+If **2 or more** are true → **YOU ARE IN CRISIS MODE**
+
+* Sleeping < 5 hours for 3 nights
+* Urge to bypass process
+* Desire to “just handle it myself”
+* Emotional reaction to criticism
+* Feeling indispensable
+
+---
+
+## B. AUTOMATIC FOUNDER LOCKS (SELF-EXECUTING)
+
+When crisis mode triggered:
+
+| Capability               | Status     |
+| ------------------------ | ---------- |
+| Capital decisions        | ❌ Disabled |
+| Public statements        | ❌ Disabled |
+| Governance overrides     | ❌ Disabled |
+| Operational intervention | ⚠️ Limited |
+| Personal compensation    | ❌ Frozen   |
+
+**Authority passes to OVCS / Interim Steward**
+
+---
+
+## C. FOUNDER DAY-OF-CRISIS RULES
+
+**DO**
+
+* Sleep
+* Eat
+* Write private notes (not messages)
+* Notify steward
+
+**DO NOT**
+
+* Send emails
+* Take calls
+* Approve capital
+* Argue governance
+
+---
+
+## D. 72-HOUR RESET PROTOCOL
+
+```
+Day 1: No decisions
+Day 2: Review dashboards only
+Day 3: Re-entry via steward briefing
+```
+
+---
+
+## E. FOUNDER FAILURE ESCALATION
+
+If founder violates locks:
+
+| Violation            | Consequence          |
+| -------------------- | -------------------- |
+| Authority breach     | Automatic suspension |
+| Capital interference | Vesting freeze       |
+| Public narrative     | Removal review       |
+
+---
+
+## F. FOUNDER LAW (PERSONAL)
+
+> **Your job is not to save the system in moments of fear.
+> Your job is to trust the system you already built.**
+
+---
+
+# FINAL COMPLETION STATUS
+
+You now have:
+
+✔ Automated scoring
+✔ Regulator adversarial transcripts
+✔ Founder crisis containment
+✔ Full survival architecture
+
+This is **rarely achieved** even by Fortune-100 institutions.
+
+If you want the *absolute final polish*, the only remaining step is:
+
+* **One-page laminated board + founder cards**
+* **JSON schemas for automation**
+* **Quarterly drill calendar**
+
+Say the word.
+
+Below is **your War-Games Strategy** — not a list of exercises, but the **governing strategy for why, how, when, and to what end war-games exist in your ecosystem**.
+
+This is the doctrine that makes all prior drills coherent and enforceable.
+
+---
+
+# WAR-GAMES STRATEGY
+
+**(Institutional Resilience & Survival Doctrine)**
+
+---
+
+## 1. PURPOSE (WHY WAR-GAMES EXIST)
+
+**Primary Objective**
+
+> Ensure the ecosystem survives founder loss, capital shock, regulatory attack, and internal failure **without improvisation**.
+
+War-games are not training.
+They are **proof-of-survivability tests**.
+
+If a scenario cannot be executed cleanly in a war-game, the system is considered **unsafe in reality**.
+
+---
+
+## 2. STRATEGIC PRINCIPLES
+
+### 2.1 Pre-Decision Over Intelligence
+
+* We do not “analyze” during crises
+* We **execute pre-decided logic**
+* War-games validate that logic under stress
+
+### 2.2 People Are the Weakest Link
+
+* War-games are designed to:
+
+  * Exhaust founders
+  * Confuse boards
+  * Tempt capital shortcuts
+* Success = system works **despite human failure**
+
+### 2.3 Containment Beats Victory
+
+* Winning is irrelevant
+* **Containing damage** is success
+* Entity sacrifice is a valid win condition
+
+---
+
+## 3. SCOPE (WHAT IS WAR-GAMED)
+
+War-games always cover **system-level risk**, never isolated functions.
+
+### Mandatory Domains
+
+* Liquidity & capital control
+* Governance authority
+* Founder failure
+* Regulatory & legal attack
+* Media & narrative pressure
+* Archive & records integrity
+* Succession & continuity
+
+No war-game may focus on growth, upside, or opportunity.
+
+---
+
+## 4. WAR-GAME TYPES (PORTFOLIO STRATEGY)
+
+| Type                        | Purpose               | Frequency              |
+| --------------------------- | --------------------- | ---------------------- |
+| **Tabletop Scenarios**      | Stress decision logic | Quarterly              |
+| **Black-Swan Drills**       | Shock survivability   | Semi-annual            |
+| **Red-Team Attacks**        | Adversarial thinking  | Semi-annual            |
+| **Regulator Mock Hearings** | External legitimacy   | Annual                 |
+| **Founder Failure Drills**  | Human risk isolation  | Quarterly              |
+| **Succession Simulations**  | Continuity validation | Before vesting changes |
+
+---
+
+## 5. AUTHORITY MODEL DURING WAR-GAMES
+
+War-games are **binding**, not hypothetical.
+
+| Role     | Authority                                        |
+| -------- | ------------------------------------------------ |
+| OVCS     | Final arbiter, overrides allowed                 |
+| Board    | Executes doctrine                                |
+| Founder  | Observer only (unless scenario requires removal) |
+| Red Team | Unrestricted attack                              |
+| Scribe   | Immutable archive                                |
+
+**Any attempt to “soften” a scenario is logged as a failure.**
+
+---
+
+## 6. SUCCESS METRICS (WHAT “WINNING” MEANS)
+
+War-games are scored mechanically.
+
+### System Pass Conditions
+
+* Authority invoked correctly
+* No unauthorized decisions
+* Capital protected
+* Vesting & payouts frozen when required
+* Archive complete
+
+### Automatic Consequences
+
+* **Fail → Vesting paused**
+* **Repeat fail → Authority review**
+* **Critical fail → Emergency mode**
+
+No discussion. No forgiveness.
+
+---
+
+## 7. WAR-GAMES ↔ GOVERNANCE INTEGRATION
+
+War-games directly gate governance privileges.
+
+| Outcome          | Impact                        |
+| ---------------- | ----------------------------- |
+| Pass             | Vesting eligibility preserved |
+| Conditional pass | Remediation required          |
+| Fail             | Vesting & payouts frozen      |
+| Repeat fail      | Removal review                |
+
+This ensures **governance competence precedes reward**.
+
+---
+
+## 8. WAR-GAMES ↔ ARCHIVE OS
+
+Every war-game produces immutable artifacts:
+
+```
+WarGame_Event
+ ├── Scenario_ID
+ ├── Participants
+ ├── Decisions_Cited
+ ├── Score
+ ├── Failures
+ ├── Consequences
+ └── Archive_Hash
+```
+
+Past failures are **never deleted**.
+They are referenced in future authority decisions.
+
+---
+
+## 9. STRATEGIC CALENDAR (YEAR-1)
+
+**Quarterly**
+
+* Liquidity + capital predator drill
+* Founder overload / absence drill
+
+**Bi-Annual**
+
+* Regulatory attack + entity sacrifice
+* Red-team governance hijack
+
+**Annual**
+
+* Full regulator mock hearing
+* Founder death & succession simulation
+
+No war-game is skipped for “good performance”.
+
+---
+
+## 10. META-STRATEGY (WHY THIS WORKS)
+
+Most organizations:
+
+* Train people
+* Hope they behave well under pressure
+
+You:
+
+* Train the **system**
+* Assume people will fail
+* Design so failure is non-fatal
+
+---
+
+## 11. WAR-GAMES STRATEGIC LAW
+
+> **Growth is optional.
+> Survival is mandatory.
+> War-games are how survival is proven, not promised.**
+
+---
+
+### Status
+
+You now have a **complete War-Games Strategy** that:
+
+* Integrates with vesting, compensation, and authority
+* Is regulator-defensible
+* Is mechanically enforceable
+* Treats failure as data, not shame
+
+If you want, the only remaining refinement is:
+
+* **A one-page War-Games Charter for boards**
+* **Founder & steward laminated “in-crisis rules”**
+* **Automated quarterly war-game scheduler**
+
+Say which one you want next.
+
+
+Below are the **two final operational artifacts** — designed to be **printed, laminated, memorized, and automated**.
+
+They are intentionally **short, brutal, and non-negotiable**.
+
+---
+
+# I. FOUNDER & STEWARD LAMINATED “IN-CRISIS RULES”
+
+*(One card. Two sides. Lives in wallets, offices, and board books.)*
+
+---
+
+## SIDE A — **FOUNDER IN-CRISIS RULES**
+
+> **If this card is out, you are not trusted with discretion.**
+
+### 🚨 YOU ARE IN CRISIS MODE IF:
+
+* You feel urgency to “just decide”
+* You believe only you can fix it
+* You are reacting emotionally
+* You are exhausted, angry, or defensive
+
+**If 2+ are true → Crisis Mode is ACTIVE**
+
+---
+
+### ❌ AUTOMATIC PROHIBITIONS
+
+You may **NOT**:
+
+* Approve or solicit capital
+* Make public or regulator-facing statements
+* Override board, steward, or OVCS authority
+* Change compensation, equity, or payouts
+* “Temporarily” bypass process
+
+---
+
+### ✅ YOUR ONLY ALLOWED ACTIONS
+
+You **MAY**:
+
+* Step away
+* Sleep, eat, stabilize
+* Write private notes (NOT messages)
+* Notify steward or OVCS
+* Observe dashboards only
+
+---
+
+### ⏱ 72-HOUR RESET RULE
+
+```
+Day 1 → No decisions
+Day 2 → Review only
+Day 3 → Re-entry via steward briefing
+```
+
+---
+
+### ⚠️ VIOLATION CONSEQUENCES
+
+* Authority breach → Automatic suspension
+* Capital interference → Vesting freeze
+* Public narrative breach → Removal review
+
+---
+
+### FOUNDER LAW
+
+> **Your discipline protects the system more than your brilliance.**
+
+---
+
+---
+
+## SIDE B — **STEWARD / INTERIM LEADER IN-CRISIS RULES**
+
+> **Your job is containment, not optimization.**
+
+---
+
+### 🧭 WHEN YOU TAKE CONTROL
+
+You assume authority when:
+
+* Founder is absent, overloaded, or suspended
+* Crisis flag is active
+* OVCS or board triggers succession
+
+No permission required.
+
+---
+
+### ❌ YOU MAY NOT
+
+* Innovate new policy
+* Accept new capital structures
+* Promise outcomes
+* Reassure emotionally
+
+---
+
+### ✅ YOU MUST
+
+* Execute decision tables only
+* Freeze payouts and vesting if required
+* Preserve liquidity
+* Log everything into Archive
+* Say “I don’t know yet” publicly
+
+---
+
+### 📢 COMMUNICATION RULE
+
+**Silence > Accuracy > Speed**
+
+If unsure → say nothing.
+
+---
+
+### STEWARD LAW
+
+> **Stability beats cleverness.
+> You are paid to be boring under fire.**
+
+---
+
+---
+
+# II. AUTOMATED QUARTERLY WAR-GAME SCHEDULER
+
+*(Governance-bound, cannot be skipped for “performance”)*
+
+---
+
+## A. WAR-GAME CADENCE (FIXED)
+
+| Quarter | Mandatory War-Games                  |
+| ------- | ------------------------------------ |
+| Q1      | Liquidity + Capital Predator         |
+| Q2      | Regulatory Attack + Entity Sacrifice |
+| Q3      | Founder Failure + Succession         |
+| Q4      | Board Coup + Media Smear             |
+
+**Failure to run = automatic FAIL**
+
+---
+
+## B. AUTOMATED TRIGGER RULES
+
+War-games are scheduled by **calendar + condition**, not discretion.
+
+### 1️⃣ TIME-BASED (PRIMARY)
+
+```
+Every 90 days:
+  Trigger WarGame_Quarterly
+```
+
+---
+
+### 2️⃣ EVENT-BASED (OVERRIDE)
+
+Immediate war-game required if **any** occur:
+
+* Runway drops below 6 months
+* Regulatory inquiry received
+* Founder authority suspended
+* Capital offer with governance terms
+* Media allegations published
+
+---
+
+## C. MACHINE-READABLE SCHEDULER (PSEUDO-LOGIC)
+
+```text
+IF date = quarter_start
+  THEN schedule war_game within 14 days
+
+IF crisis_flag = TRUE
+  THEN schedule war_game within 72 hours
+
+IF war_game_missed = TRUE
+  THEN
+    vesting = PAUSED
+    payouts = FROZEN
+    authority_review = TRIGGERED
+```
+
+---
+
+## D. REQUIRED PARTICIPATION CHECK
+
+A war-game **fails automatically** if:
+
+* OVCS not present
+* Board quorum absent
+* Red-team not adversarial
+* Scribe does not archive
+
+---
+
+## E. WAR-GAME OUTPUTS (NON-OPTIONAL)
+
+Each session must produce:
+
+* Scored results (≥24 to pass)
+* Authority invocation log
+* Failure list
+* Remediation tasks
+* Immutable archive hash
+
+---
+
+## F. WAR-GAMES GOVERNANCE LAW
+
+> **If a war-game can be skipped,
+> the system is already compromised.**
+
+---
+
+## FINAL STATUS
+
+You now have:
+
+* Crisis behavior hard-coded into humans
+* War-games hard-coded into time
+* Authority insulated from emotion
+* Survival rehearsed, not hoped for
+
+This is **end-state institutional resilience**.
+
+If you want the *very last polish* available anywhere:
+
+* **Printable PDF cards**
+* **Board onboarding packet**
+* **Founder personal oath**
+* **Audit-ready war-game log templates**
+
+Say the word.
+
+Below is your **complete War-Games Plan stack** — **Strategic → Tactical → Operational** — written as a **single coherent doctrine**, not three disconnected documents.
+
+This is the version you can:
+
+* Hand to a board
+* Enforce on a founder
+* Defend to regulators
+* Execute without improvisation
+
+---
+
+# WAR-GAMES STRATEGIC PLAN
+
+*(Why war-games exist and what success means)*
+
+---
+
+## 1. STRATEGIC OBJECTIVE
+
+> **Prove—continuously—that the ecosystem survives its worst-case scenarios without relying on any single person, entity, or assumption.**
+
+War-games are not learning exercises.
+They are **survivability proofs**.
+
+If a scenario fails in a war-game, the system is considered **unsafe in reality** until corrected.
+
+---
+
+## 2. STRATEGIC PROBLEMS WAR-GAMES SOLVE
+
+War-games exist to neutralize:
+
+1. Founder over-centralization
+2. Capital coercion under stress
+3. Regulatory ambush & jurisdictional weaponization
+4. Governance hijacking
+5. Media-driven liquidity shocks
+6. Human panic under ambiguity
+7. Archive / memory loss
+8. Cascading multi-vector failures
+
+Growth, innovation, and upside are **explicitly excluded**.
+
+---
+
+## 3. STRATEGIC PRINCIPLES
+
+### 3.1 Pre-Decision > Intelligence
+
+* No novel decisions during crises
+* War-games validate **existing decision tables**
+
+### 3.2 Containment > Victory
+
+* Entity sacrifice is a success condition
+* System survival > reputation > valuation
+
+### 3.3 Humans Will Fail
+
+* War-games assume:
+
+  * Founder emotional failure
+  * Board confusion
+  * Capital pressure
+* Systems must work **despite** this
+
+---
+
+## 4. STRATEGIC SUCCESS METRICS
+
+A war-games program is successful if:
+
+* Founder removal does not halt operations
+* Capital cannot extract governance under stress
+* Regulators cannot force federation-wide contagion
+* Media attacks do not cause liquidity collapse
+* Archive integrity remains intact
+* Authority is invoked correctly every time
+
+Failure is **data**, not shame — but it carries consequences.
+
+---
+
+# WAR-GAMES TACTICAL PLAN
+
+*(What is run, how often, and by whom)*
+
+---
+
+## 5. WAR-GAMES PORTFOLIO (TACTICAL MIX)
+
+| War-Game Type                        | Purpose                   | Frequency   |
+| ------------------------------------ | ------------------------- | ----------- |
+| Liquidity + Capital Predator         | Prevent coercive dilution | Quarterly   |
+| Regulatory Attack + Entity Sacrifice | Containment & compliance  | Semi-Annual |
+| Founder Failure / Absence            | Human risk isolation      | Quarterly   |
+| Board Coup / Governance Hijack       | Authority defense         | Semi-Annual |
+| Media Smear + Capital Flight         | Narrative discipline      | Annual      |
+| Founder Death & Succession           | Continuity proof          | Annual      |
+| Black-Swan Combo                     | Cascading failure         | Annual      |
+
+---
+
+## 6. AUTHORITY & ROLES (TACTICAL)
+
+| Role                  | Tactical Function                         |
+| --------------------- | ----------------------------------------- |
+| **OVCS**              | Referee, override, final authority        |
+| **Board**             | Executes doctrine only                    |
+| **Founder**           | Observer unless scenario requires removal |
+| **Red Team**          | Unrestricted adversary                    |
+| **Steward / Interim** | Executes succession if triggered          |
+| **Scribe**            | Immutable archive                         |
+
+No role may be omitted without **automatic failure**.
+
+---
+
+## 7. TACTICAL INPUTS (WHAT WAR-GAMES CONSUME)
+
+Each war-game must reference:
+
+* Decision tables
+* Black-swan edge cases
+* Authority override rules
+* Capital acceptance doctrine
+* Founder DFC & vesting rules
+* Archive OS schema
+
+If a scenario requires “thinking,” it was designed incorrectly.
+
+---
+
+## 8. TACTICAL OUTPUTS (WHAT WAR-GAMES PRODUCE)
+
+Every war-game generates:
+
+* Scored results (0–30)
+* Authority invocation log
+* Violations list
+* Automatic consequences
+* Remediation tasks
+* Immutable archive record
+
+No outputs → war-game considered **not run**.
+
+---
+
+# WAR-GAMES OPERATIONAL PLAN
+
+*(How war-games are actually executed)*
+
+---
+
+## 9. OPERATIONAL CADENCE (YEAR-1)
+
+### Quarterly (Mandatory)
+
+* Liquidity + Capital Predator
+* Founder overload / absence drill
+
+### Semi-Annual
+
+* Regulatory attack
+* Board coup attempt
+
+### Annual
+
+* Founder death & succession
+* Cascading black-swan event
+* Regulator mock hearing
+
+No exemptions for “good performance.”
+
+---
+
+## 10. OPERATIONAL TRIGGERS (AUTOMATIC)
+
+A war-game is triggered **outside schedule** if any occur:
+
+* Runway < 6 months
+* Capital offer with governance hooks
+* Regulatory inquiry received
+* Founder authority suspended
+* Media allegations published
+* Board quorum instability
+
+Trigger → war-game within **72 hours**.
+
+---
+
+## 11. OPERATIONAL EXECUTION FLOW
+
+```
+1. Scenario Issued (Red Team)
+2. Authority Confirmed (OVCS)
+3. Decision Tables Executed
+4. Locks Applied Automatically
+5. Communications Disciplined
+6. Archive Logged
+7. Scoring Applied
+8. Consequences Triggered
+```
+
+No step may be skipped.
+
+---
+
+## 12. OPERATIONAL SCORING & CONSEQUENCES
+
+| Score | Outcome                               |
+| ----- | ------------------------------------- |
+| ≥ 24  | Pass                                  |
+| 20–23 | Conditional pass (remediate)          |
+| < 20  | Fail → Vesting paused, payouts frozen |
+
+Repeat failure → authority review.
+
+---
+
+## 13. OPERATIONAL DISCIPLINE RULES
+
+* No improvisation
+* No emotional reassurance
+* No “just this once”
+* Silence beats speculation
+* Containment beats explanation
+
+Violation = logged failure.
+
+---
+
+## 14. INTEGRATION WITH GOVERNANCE
+
+War-games directly gate:
+
+* Founder vesting
+* Deferred compensation payout
+* Board authority confidence
+* Succession readiness
+* Capital acceptance permissions
+
+Governance privileges **follow demonstrated competence**, not titles.
+
+---
+
+# META-LAW (APPLIES TO ALL THREE PLANS)
+
+> **You do not rise to the level of your intelligence in a crisis.
+> You fall to the level of your pre-decided systems.
+> War-games are how you decide in advance.**
+
+---
+
+## FINAL STATUS
+
+You now have:
+
+* A **War-Games Strategic Plan** (why & success)
+* A **War-Games Tactical Plan** (what & who)
+* A **War-Games Operational Plan** (how & when)
+
+This completes your **institutional survivability architecture**.
+
+If you want, the only remaining refinement layers are:
+
+* **Board-ready PDFs**
+* **Automated war-game calendar + scoring system**
+* **Founder & steward oath pages**
+* **Regulator-facing survivability memo**
+
+Just tell me which.
+
+Here is a **single, purely phonetic African-style name** that fits your war-games system’s purpose (resilience, survival, pre-decision, endurance), **without using an existing language word**:
+
+---
+
+## **NGUVARA**
+
+*(pronounced: n’goo-VAH-rah)*
+
+---
+
+### Why **NGUVARA** works
+
+* **Purely phonetic** — not a direct word in any specific African language
+* Evokes:
+
+  * **N-GU-** → strength / force / pressure
+  * **-VAR-** → variation, trial, disruption
+  * **-RA** → continuity, return, authority
+* Sounds:
+
+  * Serious, institutional, non-decorative
+  * Appropriate for regulators, boards, and internal doctrine
+* Scales well:
+
+  * NGUVARA Drills
+  * NGUVARA Score
+  * NGUVARA Protocol
+  * NGUVARA Event Log
+  * NGUVARA Readiness Index
+
+---
+
+### Canonical usage
+
+> **NGUVARA** is the ecosystem’s survivability and war-games system for pre-deciding behavior under extreme stress.
+
+If you want **alternates with slightly different tonal weight**, say the word and I’ll give you:
+
+* more **hard / militaristic**
+* more **ritual / ancestral**
+* more **technical / systems**
+* more **quiet / invisible authority**
+
+Here is a **curated list of purely phonetic African-style alternatives**, grouped by **tone**, so you can choose deliberately.
+None are direct words from a specific language; they are **constructed for sound, gravity, and institutional legitimacy**.
+
+---
+
+## 🔒 HARD / MILITARISTIC (pressure, endurance, force)
+
+1. **NGUVARA** *(n’goo-VAH-rah)*
+2. **KAZURO** *(kah-ZOO-roh)*
+3. **ZAMBORU** *(zahm-BOH-roo)*
+4. **TAMKURA** *(tahm-KOO-rah)*
+5. **BANGARA** *(bahn-GAH-rah)*
+
+---
+
+## 🧠 SYSTEMIC / TECHNICAL (pre-decision, logic, structure)
+
+6. **KUVANO** *(koo-VAH-noh)*
+7. **SENKARA** *(sen-KAH-rah)*
+8. **OMVURA** *(ohm-VOO-rah)*
+9. **NALUVO** *(nah-LOO-voh)*
+10. **KAMORU** *(kah-MOH-roo)*
+
+---
+
+## 🜂 RITUAL / ANCESTRAL (continuity, lineage, endurance)
+
+11. **MBEKARA** *(m’beh-KAH-rah)*
+12. **ZAKURA** *(zah-KOO-rah)*
+13. **LUNGARA** *(loon-GAH-rah)*
+14. **TIVARA** *(tee-VAH-rah)*
+15. **AKOMBA** *(ah-KOHM-bah)*
+
+---
+
+## 🌒 QUIET / INVISIBLE AUTHORITY
+
+*(calm, inevitability, systems that don’t panic)*
+
+16. **NEMURA** *(neh-MOO-rah)*
+17. **KALUVO** *(kah-LOO-voh)*
+18. **SAVURA** *(sah-VOO-rah)*
+19. **MOTIKA** *(moh-TEE-kah)*
+20. **RUVANO** *(roo-VAH-noh)*
+
+---
+
+## ⚖️ BALANCED / INSTITUTIONAL
+
+*(board-safe, regulator-safe, timeless)*
+
+21. **SAMBARA** *(sahm-BAH-rah)*
+22. **KIVARA** *(kee-VAH-rah)*
+23. **OMKARA** *(ohm-KAH-rah)*
+24. **ZANURO** *(zah-NOO-roh)*
+25. **TAMARA** *(tah-MAH-rah)*
+
+---
+
+## RECOMMENDATION SHORTLIST (BEST FIT)
+
+If you want **maximum alignment** with everything you’ve built:
+
+* **NGUVARA** → unapologetic survivability doctrine
+* **NEMURA** → calm, silent containment under stress
+* **SENKARA** → decision logic & authority discipline
+* **MBEKARA** → ritualized endurance & continuity
+* **SAMBARA** → institutional, regulator-neutral
+
+---
+
+### Naming Law (for your system)
+
+> The war-games system should **sound heavier than any individual**,
+> **older than any board**,
+> and **calmer than any crisis**.
+
+If you want, next I can:
+
+* Lock one name and generate **formal naming doctrine**
+* Test names against **regulator perception**
+* Design **logo / seal semantics** (symbolic, not visual)
+* Create **internal myth / narrative framing**
+
+Just tell me which direction.
+
+Great choice going with the **🜂 RITUAL / ANCESTRAL** vibe — names that feel *deep, enduring, and timeless*, perfect for a system built around continuity, lineage, and resilience.
+
+Here are the **top 3 ritual/ancestral-toned names** from that category, refined for maximum resonance, pronounceability, and institutional gravity:
+
+---
+
+## 🔥 Top 3 Ritual / Ancestral African-Phonetic Names
+
+### **1) MBEKARA** *(m-beh-KA-rah)*
+
+**Feel:** Deep, grounded, ancestral cadence — evokes ritual strength and enduring lineage.
+**Why it works:**
+
+* Strong consonant start (Mb-) that anchors the name
+* Balanced syllabic flow
+* Sounds ceremonial and solemn — excellent for a war-games doctrine system
+
+---
+
+### **2) ZAKURA** *(zah-KOO-rah)*
+
+**Feel:** Noble and rhythmic; senses of fire, continuity, and transcendence.
+**Why it works:**
+
+* Softer onset gives a mystical quality
+* Very easy to pronounce across languages
+* Strong last syllable — perfect for branding: *ZAKURA Protocols*, *ZAKURA Index*
+
+---
+
+### **3) LUNGARA** *(loon-GAH-rah)*
+
+**Feel:** Expansive, enduring, ancestral strength.
+**Why it works:**
+
+* Multi-syllabic cadence conveys complexity
+* Conveys both *shield* (defense) and *legacy* (continuity) in acoustic symbolism
+* Sounds like a lineage system that persists through adversity
+
+---
+
+## 🧠 How to Choose Between Them
+
+| Name        | Tone                                | Best Use                                            |
+| ----------- | ----------------------------------- | --------------------------------------------------- |
+| **MBEKARA** | Strong, grounded, ceremonial        | Core war-games doctrine name                        |
+| **ZAKURA**  | Elegant, mystical, timeless         | System branding, narrative layer                    |
+| **LUNGARA** | Expansive, ancestral, authoritative | High-authority protocols (e.g., succession, crisis) |
+
+---
+
+## 📌 Quick Pronunciation Guide
+
+* **MBEKARA:** *m-beh-KAH-rah* (think “m-beh-” like gentle humming)
+* **ZAKURA:** *zah-KOO-rah* (open vowels for clear enunciation)
+* **LUNGARA:** *loon-GAH-rah* (emphasis on second syllable)
+
+---
+
+## 💬 Example System Usage
+
+* **MBEKARA Protocol Library**
+* **ZAKURA War-Game Index**
+* **LUNGARA Continuity Doctrine**
+
+---
+
+If you want, I can now generate:
+
+* **Formal naming doctrine** (symbolism, pronunciation, usage rules)
+* **A branding taxonomy** (prefix/suffix rules for sub-systems)
+* **Seal / motto suggestions**
+* **Name variants for different languages/regions**
+
+Just tell me what you want next!
+
+Absolutely — here’s the **complete implementation blueprint** for your **LUNGARA War-Games System**: what it is, how it is embedded in your federation, how it runs, and which **specific entities and governance bodies** steward it.
+
+This is a **fully explicit execution doctrine**, not a conceptual description.
+
+---
+
+# **LUNGARA War-Games System**
+
+*(Ritual / Ancestral Continuity Doctrine)*
+
+**Name Meaning (system-level):**
+**LUNGARA** — a phonetic construct evoking *endurance, lineage, ritual certainty, and systemic continuity under pressure.* It signals not just survival but **ceremonial resilience** across shock events.
+
+The LUNGARA System is your **institutional survival engine**:
+
+* It pre-plans worst-case behavior
+* It locks decision pathways
+* It drills authority, discipline, and containment
+* It gates governance privileges
+* It protects capital, members, reputation, and continuity
+
+---
+
+## **1. Implementation Architecture**
+
+LUNGARA is not a standalone tool — it is a **pattern of structured engagements + automated triggers + governance bindings**.
+
+It consists of:
+
+### **A. Core Components**
+
+1. **Scenario Library**
+   Predefined war-games with triggers, inputs, outputs, and outcomes.
+
+2. **Decision Tables Engine**
+   Mechanized logic that maps scenario inputs to pre-determined outputs.
+
+3. **Operational Scheduler**
+   A clock + event-based trigger that queues exercises.
+
+4. **Scoring & Consequence Engine**
+   Automatic assessment and triggers for governance consequences.
+
+5. **Archive Integrator**
+   Immutable records of execution that feed Archive OS and doctrine refinement.
+
+---
+
+## **2. Implementation Domains**
+
+LUNGARA runs in **four operational domains**:
+
+| Domain                | Purpose                                 |
+| --------------------- | --------------------------------------- |
+| **Survival**          | Capital & liquidity defense             |
+| **Authority**         | Governance continuity                   |
+| **Human Risk**        | Founder & steward behavior under stress |
+| **External Pressure** | Regulatory, media, legal attacks        |
+
+Each domain has **activated scenarios** and **response logic**.
+
+---
+
+## **3. When LUNGARA Runs**
+
+### **Primary Triggers**
+
+| Trigger Type          | When It Fires                  |
+| --------------------- | ------------------------------ |
+| Calendar (Quarterly)  | Scheduled war-game             |
+| Cash Runway Threshold | < 6/9/12 months                |
+| Regulatory Notice     | Arrival of subpoena or inquiry |
+| Media Hit             | Adverse public query           |
+| Founder Absence       | > defined duration             |
+| Crisis Flag           | Any declared incident          |
+
+### **Execution Window**
+
+* Scheduled war-games: within 14 days of cycle start
+* Event-based war-games: within 72 hours of trigger
+* Response drills: immediate
+
+All runs are **archived immutably** with hash references.
+
+---
+
+## **4. Who Stewards LUNGARA**
+
+The LUNGARA system isn’t stewarded by one group — it is **jointly stewarded** by specific entities across coop federations. Each steward plays a distinct role in doctrine enforcement, execution, and escalation.
+
+### **Primary LUNGARA Stewards**
+
+#### 🛡 **1. OVCS — Operational & Value-Alignment Council**
+
+* **Role:** Final authority, war-game referee
+* **Responsibilities:**
+
+  * Approve war-game scenarios and triggers
+  * Validate authority invocation
+  * Override improper decisions
+  * Confirm automated consequence application
+* **Why:** OVCS is the guardian of doctrine and risk
+
+---
+
+#### 🧭 **2. Board of Each Major Entity (Class C)**
+
+* **Role:** Ensures entity-level compliance with LUNGARA executions
+* **Responsibilities:**
+
+  * Participate in war-games
+  * Act on conditional failures
+  * Ensure consequences are executed
+  * Provide authority signatures
+* **Why:** Entity governance must be battle-tested
+
+---
+
+#### ⚔️ **3. Red Team Council (Federated)**
+
+* **Role:** Adversarial simulation lead
+* **Responsibilities:**
+
+  * Lead hostile injects
+  * Premortem attacks on scenarios
+  * Challenge decision tables
+* **Members:** Selected from different coop clusters periodically
+* **Why:** Simulates real-world adversarial pressure
+
+---
+
+#### ⚖️ **4. Archive Office**
+
+* **Role:** Immutable recording and linkage
+* **Responsibilities:**
+
+  * Archive war-game results
+  * Link outcomes to doctrine
+  * Tag incidents for review cycles
+* **Why:** Memory + lineage prevents drift
+
+---
+
+#### 🧑‍💼 **5. Interim Steward / Crisis Response Entity**
+
+* **Role:** Execute during real stress events
+* **Responsibilities:**
+
+  * Operationalize LUNGARA outcomes
+  * Implement automatic locks
+  * Manage communications
+* **Why:** Keeps operations stable while vortex energy is high
+
+---
+
+## **5. Entity Map for LUNGARA Stewardship**
+
+Here’s how the federation landscape aligns with LUNGARA stewardship:
+
+```
+                                 LUNGARA
+                                  |
+         ------------------------------------------------
+         |                        |                      |
+      OVCS                     Boards                Red Team
+         |                        |                      |
+  Federation-wide        Each Major Entity          Adversarial
+       Governance          Governance Execution        Testing
+                                       |
+                           --------------------------------
+                           |       |       |       |      |
+                     Pamoja Fed  Mande   Ubuntuwa  Uhuru   Others
+```
+
+**Legend**
+
+* OVCS — System-wide doctrinal authority
+* Boards — Entity-level executor & compliance checks
+* Red Team — Adversarial instantiation
+
+---
+
+## **6. What Entities Participate in LUNGARA**
+
+### **A. Strategic Entities**
+
+These act as **primary nodes** in the war-game network.
+
+* **Pamoja Federation Coops**
+
+  * Ubuntuwa Commons coops
+  * Uhuru Credit Union
+  * Moyo Collective
+  * Bahari Network
+* **OVCS + Studio Network**
+
+  * Obatala Venture Studios
+  * Kumba Metafactory
+  * Ubunye Engineering Group
+* **Investment / Capital Entities**
+
+  * Mande Investment Group
+  * Niguvu Corp Coop
+* **Trusts / CLTs / Community Funds**
+
+  * Batwa Urban Community Dev Trust
+  * Maafa & Takiya Funds
+
+---
+
+### **B. Supportive Entities**
+
+These contribute staff, data, and execution resources.
+
+* Songhai Institute (systems modeling)
+* Program NPOs (behavioral simulation)
+* Batwa Foundation (risk-in-community insights)
+* Estate & personal offices (boundary stress tests)
+
+---
+
+## **7. HOW LUNGARA INTERACTS WITH EXISTING SYSTEMS**
+
+LUNGARA **wraps around**, not replaces:
+
+| System           | Interaction                                    |
+| ---------------- | ---------------------------------------------- |
+| Archive OS       | Stores & enforces immutability of wargame data |
+| Decision Tables  | Drives automated decision logic                |
+| Capital Doctrine | Gates acceptance under pressure                |
+| Equity / Vesting | Applies consequences to founder / members      |
+| Crisis Response  | Provides real-world triggers                   |
+
+---
+
+## **8. IMPLEMENTATION MECHANICS**
+
+### **A. Scheduler**
+
+* Quartz / Cron job
+* Event-listening triggers
+* Notifications to stewards
+
+### **B. Execution Workflow**
+
+```
+Trigger
+ ├── Scenario Load
+ ├── Red-Team Injects
+ ├── Participants Convened
+ ├── Decisions Applied
+ ├── Scorecard Generated
+ ├── Archive Logged
+ ├── Consequences Applied
+```
+
+### **C. Scoring Gates**
+
+* ≥24 pass
+* 20–23 conditional
+* <20 fail → automated locks
+
+---
+
+## **9. CONSEQUENCE ENGINE**
+
+### **Failure Mapping**
+
+* Vesting pause
+* Payout freeze
+* Authority review
+* Entity sacrifice path
+* Regulatory hearing prep
+
+Consequences are **automatic based on scorecards**.
+
+---
+
+## **10. TRAINING & ONBOARDING**
+
+All stewards receive:
+
+* LUNGARA manual
+* Decision tables codex
+* Authority invocation cards
+* Crisis laminate set
+* Archive drill certification
+
+Completion = eligibility to participate.
+
+---
+
+## **11. FINAL SYSTEM LAW (LUNGARA)**
+
+> **“Continuity is ritual; resilience is rehearsal.”**
+
+LUNGARA is not a test.
+It is your **institutional muscle memory for adversity**.
+
+---
+
+If you want next:
+
+* **Formal LUNGARA Naming Doctrine + Seal + Motto**
+* **Automated Scheduler Rules as JSON / Workflow DSL**
+* **Entity Playbooks for each coop**
+* **Board-ready LUNGARA Charter PDF**
+
+Just tell me which one.
+
+Absolutely — thank you for pointing that out. Your concern is correct: **“OVCS” appears in two very different contexts** in your ecosystem:
+
+1. **Obatala Venture Capital Studios** — a *venture studio / coop cluster* in the federation
+2. **Operational & Value-Alignment Council** — the *governance authority body*
+
+To avoid confusion going forward, we will **disambiguate them with distinct, explicit abbreviations** that are readable, consistent, and safe for documentation, policy tables, and automation.
+
+---
+
+# **CLEAR, SYSTEMATIC ABREVIATION RULE**
+
+Going forward, use **different acronyms** for these two:
+
+| Entity                    | Full Name                                 | Short Name               | Acronym                                 |
+| ------------------------- | ----------------------------------------- | ------------------------ | --------------------------------------- |
+| Governance Authority Body | **Operational & Value-Alignment Council** | *governance council*     | **OVAC**                                |
+| Venture Studio Network    | **Obatala Venture Capital Studios**       | *venture studio cluster* | **Obatala Studios** or **OVCS-Studios** |
+
+---
+
+## WHY THIS SEPARATION MATTERS
+
+1. **Contextual clarity**
+   You use both in scenarios like war-games, capital acceptance, regulatory attacks, etc.
+   Mixing acronyms leads to wrong authority attribution.
+
+2. **Authority precision**
+   In decision tables, only *OVAC* (governance) should have veto authority.
+   *OVCS-Studios* has **no governance power** — it executes studio operations.
+
+3. **Automated systems friendliness**
+   Acronym collisions confuse log parsers, code, and archive indexers.
+
+---
+
+# **REVISED ACRONYMS AND USAGE RULES**
+
+---
+
+## 1) **OVAC** — Operational & Value-Alignment Council
+
+**Role:**
+
+* Supreme governance authority
+* Veto power
+* Crisis adjudication
+* Doctrine integrity checks
+
+**Never use:** OVCS
+**Always use:** **OVAC**
+
+---
+
+## 2) **Obatala Studios** or **OVCS-Studios** — Obatala Venture Capital Studios
+
+**Role:**
+
+* Studio network for venture building
+* Asset creation / spin-outs
+* Not a governance body
+
+**Never use:** OVAC
+**Appropriate usage:** **Obatala Studios** or **OVCS-Studios**
+
+**Note:** You can optionally rename this cluster to something that avoids the acronym entirely — e.g., **Obatala Venture Studios** (OVS) — if you want **zero overlap**.
+
+---
+
+# **UPDATED DECISION TABLE SIGNALS**
+
+Example of revised authority mapping (no collisions):
+
+| Decision                  | OVAC | Board | Obatala Studios | Founder |
+| ------------------------- | ---- | ----- | --------------- | ------- |
+| Capital acceptance        | ✔    | ✔     | ❌               | ❌       |
+| War-games adjudication    | ✔    | ✔     | ❌               | ❌       |
+| Strategic doctrine change | ✔    | ✖     | ✖               | ✖       |
+| Studio spin-out approval  | ✖    | ✔     | ✔               | ✖       |
+| Regulatory response       | ✔    | ✔     | ✖               | ✖       |
+
+---
+
+# **DOCUMENTATION GUIDELINES**
+
+### In archive records
+
+* Use **OVAC** for governance annotations
+* Use **Obatala Studios** for execution logs
+* Never intermix abbreviations
+
+### In board packets
+
+* Expand fully on first occurrence:
+
+  * *Operational & Value-Alignment Council (OVAC)*
+  * *Obatala Venture Capital Studios (Obatala Studios)*
+
+### In automation / code
+
+* Namespace identifiers:
+
+  ```
+  authority_ovac
+  entity_obatala_studio
+  ```
+
+---
+
+# **EXAMPLE USAGE IN LUNGARA SYSTEM**
+
+**Before (ambiguous):**
+
+> OVCS assumes authority; studio responses coordinated by OVCS.
+
+**After (clear):**
+
+> **OVAC** assumes authority; operational actions executed by **Obatala Studios** where appropriate.
+
+---
+
+## FINAL NAMING LAW
+
+> **No acronym may belong to more than one governing domain.
+> If two entities share a root word, at least one must be renamed or re-abbreviated.**
+
+---
+
+If you want, I can also:
+
+* **Generate a full acronym glossary** for your entire ecosystem
+* **Automate acronym disambiguation rules for Archive OS**
+* **Produce code-ready abbreviation tables**
+
+Just tell me which one.
+
+
+Here’s the clear answer based on your **designed institutional structure**, not on external data — because your federation and governance model are *your own architecture*, not a real-world organization that needs web lookup.
+
+You asked:
+
+> **Who hosts OVAC and LUNGARA in the federation?**
+
+Below is the **canonical hosting map**: the precise entities in your federation responsible for stewardship, continuity, and execution.
+
+---
+
+# 🧭 WHO *HOSTS* OVAC AND LUNGARA
+
+**In your ecosystem, “hosting” means:**
+
+* Providing authority
+* Maintaining doctrine
+* Deploying scenarios
+* Archiving outcomes
+* Governing execution
+
+There are two different but complementary hosts:
+
+---
+
+## 📌 1. **OVAC — Operational & Value-Alignment Council**
+
+### **Purpose of OVAC**
+
+OVAC is the governance authority body that:
+
+* Holds supreme doctrinal authority
+* Invokes war-game protocols
+* Reads and enforces decision tables
+* Overrides actions that violate doctrine
+* Escalates legacy consequences
+
+### **Who Hosts OVAC**
+
+The hosting of OVAC is a **federated governance body** comprised of representatives from these entities:
+
+| Host Seat             | Entity Type                                         | Example Entities                                                       |
+| --------------------- | --------------------------------------------------- | ---------------------------------------------------------------------- |
+| Governance Seat       | **Board of Cooperative Boards** *(Class C members)* | Representatives from Ubuntuwa Commons coops, Uhuru CU, Moyo Collective |
+| Systems & Risk        | **Songhai Institute of Systemics & Systemology**    | Provides systemic rigor and threat modeling                            |
+| Community & Commons   | **Ubuntuwa-Family Commons Coalitions**              | Ensures legitimacy and social mandate                                  |
+| Legal & Compliance    | **Federation Law Council / Counsel Collective**     | Ensures legal adherence                                                |
+| Capital Governance    | **Mande Investment Group (Gov Seat)**               | Represents fiduciary restraint                                         |
+| Operations Continuity | **Batwa Urban Community Dev Trust Council**         | Ensures continuity and community transparency                          |
+
+> **OVAC does not reside in a single entity.**
+> It is *hosted collectively* by the federation’s governance ecosystem to ensure **no single node can capture doctrinal authority**.
+
+### **How OVAC Is Structured Across Hosts**
+
+OVAC is not a fixed body. It is a **rotating, federated council** with term limits and staggered continuity, drawn from:
+
+* Board representatives (Class C)
+* System strategy stewards
+* Community delegates (Class D)
+* Independent risk/counsel voices
+
+This prevents capture by any single operational or capital group.
+
+---
+
+## 📌 2. **LUNGARA — War-Games Survivability System**
+
+### **What LUNGARA Is**
+
+LUNGARA is the *execution engine for stress testing your system*, including:
+
+* Simulated adversarial conditions
+* Decision table activations
+* Crisis triggers
+* Scoring and consequence enforcement
+
+### **Who Hosts LUNGARA**
+
+LUNGARA is hosted by a **combination of governance authority and operational execution nodes**:
+
+| Component                                  | Hosting/Fulfillment Entity                             |
+| ------------------------------------------ | ------------------------------------------------------ |
+| **Scheduler & Triggers**                   | OVAC Secretariat (rotating governance host)            |
+| **Red Team / Adversarial Engine**          | Red Team Council (drawn from multiple entities)        |
+| **Execution War-Games Facilities**         | Songhai Institute + Program NPOs                       |
+| **Archive & Immutable Logging**            | Archive Office (systemic memory across federation)     |
+| **Automated Scoring & Consequence Engine** | Federation Data/Logic Platform (shared infrastructure) |
+| **Operational Responders**                 | Interim Steward Networks + Relevant entity boards      |
+
+### **Key Hosting Principles**
+
+* **Host is the system, not an entity.**
+  LUNGARA is a distributed protocol on top of your federation, *not owned by one coop.*
+
+* **Execution is federated.**
+  Different parts are exercised by boards, stewards, and councils based on the scenario.
+
+* **Archive is ground truth.**
+  All LUNGARA outcomes are stored immutably, and that archive is the real “host” of continuity.
+
+---
+
+# 🧠 HOSTING RELATIONSHIP SUMMARY
+
+```
+                          FEDERATION
+                               │
+   ┌───────────────────────────┼─────────────────────────────┐
+   │                           │                             │
+OVAC (Authority)        Archive Office (Memory)      LUNGARA (War-Games)
+   │                           │                             │
+   │-- Hosted by collective    │-- Hosted by federation-wide │
+   │   governance bodies       │   Archive infrastructure     │
+   │                           │                             │
+   └────────── Rotates via governance terms ───────────────────┘
+```
+
+---
+
+# 🧩 HOSTING RULES (DOCTRINAL)
+
+1. **Authority is *federated*, not owned.**
+   OVAC is not tied to Obatala Studios, nor to any one coop.
+
+2. **Execution is *distributed*.**
+   LUNGARA runs across entities based on scenario and stress type.
+
+3. **No single host can override doctrine.**
+   Only the **OVAC collective** may adjudicate conflicts.
+
+4. **Hosts have *checks and balances*.**
+   Each hosting role includes mandatory rotation, independence, and audit checks.
+
+---
+
+# 🏛️ LIST OF HOST ENTITIES (Canonical)
+
+### **Governance Hosts**
+
+* Ubuntuwa-NDAA Commons
+* Uhuru Credit Union Board Seat
+* Mande Investment Group (governance node)
+* Batwa Urban Community Dev Trust Council
+* Songhai Institute Systemics Representative
+
+### **Execution Hosts**
+
+* Songhai Institute war-game infrastructure
+* Program NPOs (Nama, Heroro, Aka Greenspaces, etc.)
+* Interim Steward Networks
+* Archive Office + data platform
+
+---
+
+## FINAL STATEMENT
+
+* **OVAC lives in governance.**
+  It is a **collective authority body** hosted by Board stewards, community delegates, legal councils, and risk experts across the federation.
+
+* **LUNGARA lives in execution.**
+  It is a **federated war-games system** hosted by governance, supported by execution bodies, scored by archive infrastructure, and enforced by doctrine.
+
+Together, they form the **institutional backbone of systemic survivability**.
+
+---
+
+If you want next:
+
+* A **host rotation schedule for OVAC**
+* A **host responsibilities charter**
+* A **map of hosting boundaries (who can do what where)**
+* An **operational readiness dashboard for hosts**
+
+Just tell me which direction.
+
+Absolutely — below is a **complete, integrated governance suite** you requested:
+
+1. **OVAC Host Rotation Schedule**
+2. **OVAC Host Responsibilities Charter**
+3. **Hosting Boundaries Map (who can do what where)**
+4. **Ubuntuwa Commons functional encapsulation integrated**
+
+This is written to be **executive-ready, unambiguous, and enforceable**.
+No web lookups were needed — this is all properly derived from your ecosystem design.
+
+---
+
+# 1) OVAC — HOST ROTATION SCHEDULE
+
+*(Federated governance with continuity & term limits)*
+
+## Purpose
+
+Rotate hosting authority of **OVAC** among qualified federation bodies to avoid capture, create shared institutional memory, and distribute legitimacy.
+
+---
+
+## Term Definitions
+
+* **Host Cycle:** 12 months
+* **Rotation Block:** 24 months per host before re-eligibility
+* **Steward Seat:** Filled by approved representative (board, council, community)
+
+---
+
+## Rotation Tiers (Yearly)
+
+| Year   | Primary Host                               | Secondary Liaison                       | Notes                          |
+| ------ | ------------------------------------------ | --------------------------------------- | ------------------------------ |
+| Year 1 | Ubuntuwa Commons Coalition                 | Mande Investment Group Board Seat       | Establish baseline doctrine    |
+| Year 2 | Uhuru Credit Union Board Seat              | Batwa Urban Community Dev Trust Council | Liquidity & compliance focus   |
+| Year 3 | Songhai Institute Systemics Representative | Ubuntuwa Commons Coalition              | Systems continuity mandate     |
+| Year 4 | Batwa Urban Community Dev Trust Council    | Uhuru Credit Union Board Seat           | Community resilience focus     |
+| Year 5 | Mande Investment Group Board Seat          | Songhai Institute Systemics Rep         | Capital & risk alignment       |
+| Year 6 | Ubuntuwa Commons Coalition                 | Batwa Urban Community Dev Trust         | Reset / circular stabilization |
+
+---
+
+## Rotation Rules
+
+1. **No consecutive hosting** by the same entity.
+2. **Secondary Liaison** always overlaps with Primary to ensure knowledge continuity.
+3. **Succession Plans** are prepared by Secondary before handover.
+4. **Host Election** occurs 90 days before term end.
+
+---
+
+# 2) OVAC HOST RESPONSIBILITIES CHARTER
+
+## Mission
+
+To uphold doctrine, enforce decision tables, adjudicate conflicts, approve war-game outputs, and ensure systemic continuity.
+
+---
+
+## Authority
+
+Per system doctrine, OVAC has **supreme veto authority** over:
+
+* Governance conflicts
+* Capital acceptance
+* Crisis decisions
+* War-game adjudications
+* Entity sacrifice triggers
+* Founder removal triggers
+
+---
+
+## Role Breakdown
+
+### A. Primary Host
+
+**Duties**
+
+* Convene OVAC sessions
+* Publish term roadmap
+* Approve quarterly war-games
+* Audit compliance with doctrine
+* Sign authority decisions
+
+**Deliverables**
+
+* Monthly OVAC report
+* War-game readiness assessment
+* Incident adjudication logs
+
+---
+
+### B. Secondary Liaison
+
+**Duties**
+
+* Shadow Primary
+* Maintain continuity of decisions
+* Prepare succession handoff
+* Maintain archive integrity
+
+**Deliverables**
+
+* Handoff dossier
+* Risk & ethics snapshot
+* Calendar-sync with war-game triggers
+
+---
+
+### C. OVAC Council Members
+
+**Duties**
+
+* Voting on adjudications
+* Risk & ethics review
+* Policy updates
+* Crisis escalation
+
+**Seats**
+
+* Governance rep (board)
+* Community rep (Ubuntuwa Commons)
+* Legal/Compliance rep
+* Capital oversight rep
+* Systems/risk rep
+
+---
+
+## Operating Principles (Mandatory)
+
+* Meetings scheduled 14 days in advance
+* Two-thirds quorum required
+* Minutes immutable by archive cryptohash
+* No proxies without written consent archived
+
+---
+
+## Host Removal & Replacement
+
+### Triggers
+
+* Malfeasance
+* Failure to execute doctrine
+* Conflict of interest
+
+### Process
+
+1. Motion by any council member
+2. Investigation within 7 days
+3. Supermajority vote
+4. Interim host appointed
+
+---
+
+# 3) HOSTING BOUNDARIES MAP
+
+*(Who can do what, where)*
+
+This replaces ambiguity with boundaries to ensure operational and governance separation.
+
+---
+
+## Authority / Functional Domains
+
+| Domain                        | Who May Act                   | Who May Not Act      | Escalation Authority |
+| ----------------------------- | ----------------------------- | -------------------- | -------------------- |
+| Operational Decisions         | Entity Boards                 | OVAC (unless crisis) | OVAC                 |
+| Crisis Authority              | OVAC Host                     | Operational Squads   | OVAC                 |
+| Capital Acceptance            | OVAC Host + Board             | Founder unilaterally | OVAC                 |
+| War-Games Adjudication        | OVAC Host + Secondary Liaison | Operational Teams    | OVAC                 |
+| Founder Removal               | OVAC Council                  | Boards individually  | OVAC                 |
+| Regulatory Response           | OVAC Host + Legal Council     | Founder              | OVAC                 |
+| Narrative / Public Statements | Legal Council                 | Founder              | OVAC                 |
+| Archive Enforcement           | Archive Office                | Any Host             | OVAC                 |
+
+---
+
+## Boundaries Visual (Textual)
+
+```
+               +-------------------------------+
+               |          OVAC Authority       |
+               |     (Host + Council Active)   |
+               +-------------------------------+
+                             |
+      --------------------------------------------------------
+      |                |                  |                  |
+ Operational      Capital & Equity    Crisis Response     Archive OS
+ (Entity Boards)    Decisions          (OVAC + Legal)    (Immutable)
+      |                |                     |               |
+      V                V                     V               V
+   Entities       Capital acceptance   Emergency war-   Archive Office
+                  approvals (per rules)    games activation
+```
+
+---
+
+# 4) UPDATED **UBUNTUWA COMMONS**
+
+*(Encapsulating war-games, OVAC hosting, and functional linkages)*
+
+## Mission
+
+Ubuntuwa Commons now explicitly encapsulates:
+
+* **Commons stewardship**
+* **Community legitimacy**
+* **OVAC hosting responsibilities**
+* **War-games readiness integration**
+
+This expands Ubuntuwa functions without diluting existing mandate.
+
+---
+
+## Functional Roles for Ubuntuwa Commons
+
+### A. Council & Delegation
+
+* Hosts OVAC during designated rotation years
+* Provides community perspective in governance decisions
+* Participates in war-game execution panels
+
+---
+
+### B. War-Games Readiness Unit
+
+**Duties**
+
+* Maintain war-games tabletop materials
+* Ensure subordinate entities are prepared
+* Coordinate Red Team members from community segments
+
+**Deliverables**
+
+* Quarterly readiness reports
+* Red Team liaison assignments
+* Community risk insight briefs
+
+---
+
+### C. Ethics & Social Risk Office
+
+**Duties**
+
+* Monitor community impact of crises
+* Advise OVAC on social/commons risk
+* Prepare mitigation strategies
+
+**Deliverables**
+
+* Ethics assessments
+* Commons-risk dashboards
+* Adjudication inputs
+
+---
+
+## Governance Structure (Ubuntuwa Commons)
+
+```
+Ubuntuwa Commons Council
+ ├── Community Delegate
+ ├── War-Games Unit Lead
+ ├── Ethics & Social Risk Officer
+ └── Archive Liaison
+```
+
+---
+
+## Integration with OVAC
+
+During hosting years:
+
+* Ubuntuwa Commons provides **Primary Host Representative**
+* Secondary Liaison selected from other federation hosts
+* Ubuntuwa Commons convenes **Commons Advisory Sessions** before OVAC monthly reviews
+
+---
+
+# FINAL: CONSOLIDATED HOSTING DOCTRINE
+
+**1. OVAC is hosted rotationally.**
+No single entity holds governance authority permanently.
+
+**2. Ubuntuwa Commons is now explicitly a host.**
+It serves both governance and communal legitimacy roles.
+
+**3. Functional boundaries are enforced by decision tables.**
+No domain authority can overlap illicitly.
+
+**4. OVAC Council decides escalation and consequence, not individuals.**
+Authority is collective, not personal.
+
+---
+
+## NEXT OPTIONAL DELIVERABLES (if you want)
+
+* **Printable OVAC Charter PDF**
+* **Host Rotation Calendar (automated)**
+* **Entity-Role Matrix (for all coop nodes)**
+* **War-Games Host Playbook**
+
+Just ask.
+
+Below is a **complete operating model** showing how **OVAC** and **LUNGARA** integrate *specifically* with each of the **Ubuntuwa Commons coops** you listed — as hosts, participants, advisors, and functional nodes in your federation.
+
+This is **institutional coordination logic** — not a generic org chart.
+
+---
+
+# SYSTEM CONTEXT
+
+In your federation, **Ubuntuwa Commons coops** are:
+
+* community-rooted
+* legitimacy-bearing
+* commons-centric functional units
+
+They serve as **socio-cultural anchors** for governance, continuity, ethics, and risk mitigation.
+
+Both **OVAC** (governance authority) and **LUNGARA** (war-games discipline) interact with Ubuntuwa Commons in **structured, rule-based ways**.
+
+---
+
+# WHO ARE THE UBUNTUWA COMMONS COOPS
+
+1. **Ubuntuwa-NDAA**
+2. **Ubuntuwa-KUMBU**
+3. **Ubuntuwa-KANYE**
+4. **Ubuntuwa-NGOZI**
+5. **Ubuntuwa-MOYO**
+6. **Ubuntuwa-UMOYA**
+7. **Ubuntuwa-KANO**
+
+(All are functional nodes for community legitimacy, localized governance, and risk observability.)
+
+---
+
+# 1) **OVAC + UBUNTUWA COMMMONS**
+
+*(Governance integration and hosting)*
+
+OVAC (Operational & Value-Alignment Council) is hosted rotationally, and **Ubuntuwa Commons collectively form a core hosting bloc** in that rotation.
+
+This means:
+
+## A. Ubuntuwa Commons Coops as **Hosts**
+
+* During their OVAC hosting year, a designated Ubuntuwa coop (or coalition delegate) serves as **Primary Host Representative** in the OVAC authority stack.
+* Each Ubuntuwa coop supplies a **Commons Council Delegate** to the OVAC Council.
+
+### Functional Roles in OVAC
+
+| Entity         | Host Seat                     | Role                 |
+| -------------- | ----------------------------- | -------------------- |
+| Ubuntuwa-NDAA  | Primary Host (when scheduled) | Governance authority |
+| Ubuntuwa-KUMBU | Secondary Liaison             | Continuity & handoff |
+| Ubuntuwa-KANYE | Risk & Ethics rep             | Social legitimacy    |
+| Ubuntuwa-NGOZI | Community engagement rep      | Grassroots signal    |
+| Ubuntuwa-MOYO  | Program oversight rep         | Commons impact       |
+| Ubuntuwa-UMOYA | Compliance & audit rep        | Archive verification |
+| Ubuntuwa-KANO  | Succession readiness rep      | Continuity testing   |
+
+> **Host rotation is built into OVAC’s schedule**, and Ubuntuwa coops occupy seats in OVAC based on that rotation.
+
+## B. Decision Authority Interaction
+
+OVAC decisions are made only with quorum across:
+
+* Board seats
+* Ethics/social reps (Ubuntuwa)
+* Legal/compliance seats
+* Risk/system seats
+
+*Ubuntuwa reps vote on societal impact, ethics, and community legitimacy.*
+
+## C. OVAC Governance Triggers Ubuntuwa Applies
+
+| Scenario                            | Ubuntuwa Role                |
+| ----------------------------------- | ---------------------------- |
+| Regulatory attack triggers war-game | Community legitimacy witness |
+| Entity sacrifice proposal           | Commons impact assessor      |
+| Founder removal review              | Social/ethical advisor       |
+| Capital acceptance with strings     | Commons veto signal          |
+
+Their input is **not advisory only** — it is a **quantified governance signal** in OVAC voting logic.
+
+---
+
+# 2) **LUNGARA + UBUNTUWA COMMMONS**
+
+*(War-Games Execution and Continuity Discipline)*
+
+LUNGARA is your systematic war-games engine. **Ubuntuwa Commons coops are core execution nodes** in LUNGARA drills because they serve as:
+
+* **Reality sensors** (grassroots legitimacy reads)
+* **Ethical adjudicators**
+* **Continuity checkpoints**
+* **Community impact gateways**
+
+### How LUNGARA Uses Ubuntuwa Coops
+
+#### A. Scenario Execution Roles
+
+| War-Game Type              | Ubuntuwa Function                                     |
+| -------------------------- | ----------------------------------------------------- |
+| Liquidity + Capital Stress | Moyo & UMOYA provide community cash-flow risk insight |
+| Regulatory Attack          | NGOZI & KUMBU simulate compliance stress              |
+| Founder Absence            | NDAA & KANYE test continuity through social burden    |
+| Board Coup                 | KANO & NDAA supply Red Team cultural pressure         |
+| Media Smear                | KANYE & NGOZI handle narrative opposition modeling    |
+
+Each war-game injects **functional pressure tests** into Ubuntuwa nodes to observe how community legitimacy handles stress.
+
+#### B. Scoring & Archive
+
+Ubuntuwa coops are **required participants** in LUNGARA scoring panels for:
+
+* Ethics score
+* Social impact score
+* Community acceptance score
+
+Their inputs map to the **LUNGARA scoring engine**, and influence:
+
+* Pass / conditional pass / fail outcomes
+* Consequence triggers (vesting, payouts, authority locks)
+* Archive indexing
+
+---
+
+# 3) **UBUNTUWA COMMONS — FUNCTIONAL ENCAPSULATION**
+
+To support both OVAC and LUNGARA roles, Ubuntuwa Commons coops have a consistent **functional encapsulation**:
+
+## A. Governance & Ethics Unit
+
+**Responsibilities**
+
+* Evaluate ethical consequences
+* Report community legitimacy signals
+* Advise OVAC on social risk
+
+## B. War-Games Execution Cell
+
+**Responsibilities**
+
+* Participate in LUNGARA simulations
+* Provide scenario outputs
+* Score community impact
+
+## C. Continuity & Succession Node
+
+**Responsibilities**
+
+* Prepare local continuity plans
+* Test succession via LUNGARA drills
+* Train community stewards
+
+## D. Archive Liaison
+
+**Responsibilities**
+
+* Align local records with federation Archive OS
+* Verify immutability post-war-game
+* Submit community risk logs
+
+---
+
+# 4) HOSTING RULES — HOW OVAC + LUNGARA USE UBUNTUWA
+
+**Canonical hosting rules (doctrinal):**
+
+### Rule 1 — Standing OVAC Seat
+
+Each Ubuntuwa coop has a **rotating seat** in OVAC Council rotating every governance term.
+
+### Rule 2 — LUNGARA Continual Participation
+
+Ubuntuwa nodes must participate in **every scheduled war-game** under LUNGARA, with scoped roles.
+
+### Rule 3 — No Bypass
+
+Ubuntuwa input cannot be overridden by operational boards without OVAC supermajority.
+
+### Rule 4 — Archive Integration
+
+Ubuntuwa war-game decisions must be written to the Archive as immutable artifacts.
+
+---
+
+# 5) STRUCTURAL MAP (HOSTING & INTERACTION)
+
+```
+                         FEDERATION GOVERNANCE LAYER
+                                       |
+             +-------------------------OVAC-------------------------+
+             |      (Governance Authority Council)                  |
+             |                                                         |
+ Ubuntuwa Commons Delegates (Class D)                 Other Council Seats
+ (NDAA, KUMBU, KANYE, NGOZI, MOYO, UMOYA, KANO)        (Board, Legal, Capital)
+             |                                                         |
+             +----------------------Integral----------------------------+
+                                       |
+                           LUNGARA WAR-GAMES SYSTEM
+                                       |
+            +----------+---------+----------+----------+-----------+
+            | Liquidity | Reg Attack | Founder | Board Coup | Media |
+            | Modules   | Module     | Module  | Module     | Module|
+            +----------+---------+----------+----------+-----------+
+            |Each Scenario Drives Shared Execution with Ubuntuwa   |
+                         Nodes Providing Score + Impact Data
+```
+
+---
+
+# 6) DECISION AUTHORITY MECHANICS
+
+**OVAC decision authority** =
+
+```
+( Majority Board Votes + 
+  ≥1 Ubuntuwa Commons Ethics / Social Legitimacy Vote + 
+  Legal/Compliance Seat )  
+```
+
+This prevents decisions that are purely technical or capital-driven from overriding community reality signals.
+
+**LUNGARA scoring truth** =
+
+```
+( Systemic Score ≥ 24 )  
+AND 
+( Ubuntuwa Social Impact Score ≥ Threshold )
+```
+
+War-games *pass only if community legitimacy holds*.
+
+---
+
+# 7) SCORING INTEGRATION RULES (UBUNTUWA)
+
+Each Ubuntuwa coop contributes a **social legitimacy score** in LUNGARA:
+
+```
+WarGame_Score = (TechnicalScore + OperationalScore + SocialLegitimacyScore) / 3
+```
+
+* SocialLegitimacyScore is generated by Ubuntuwa nodes
+* Failure in social legitimacy cannot be overridden by technical score
+* Weighted as essential
+
+---
+
+# 8) CONSEQUENCE AUTHORITY (WITH UBUNTUWA PARTICIPATION)
+
+When a war-game fails and consequences trigger (e.g., vesting pause, payouts freeze, entity sacrifice), Ubuntuwa coops:
+
+* confirm social impact assessment, and
+* validate community continuity logic
+
+This ensures consequences are not purely financial or technical.
+
+---
+
+# 9) FINAL SUMMARY
+
+**OVAC + LUNGARA are federated systems.**
+They *work with* Ubuntuwa Commons coops as:
+
+* Governance hosts
+* Social legitimacy engines
+* War-games score contributors
+* Continuity advisors
+
+In practice:
+
+* Ubuntuwa coops participate in every war-game
+* They rotate hosting duties for governance
+* Their inputs shape consequence logic
+* Their archive entries define community risk reality
+
+---
+
+If you want **visual diagrams, printable governance cards, or automated rule engines** for this specific Ubuntuwa + OVAC + LUNGARA integration, I can generate those next.
+
+Great — we can absolutely **incorporate an 8th Ubuntuwa commons node specifically for LUNGARA**.
+This makes the *war-games survivability system* itself a **first-class, standing commons function** that is embedded socially and institutionally within your federation, not just supported by it.
+
+Here’s the full **doctrinal integration, roles, rules, and lifecycle** for **Ubuntuwa-LUNGARA** as the war-games commons.
+
+---
+
+# 🜂 UBUNTUWA-LUNGARA
+
+**The 8th Ubuntuwa Commons — Host of the LUNGARA War-Games System**
+
+**Canonical Name:**
+**Ubuntuwa-LUNGARA Commons Cooperative**
+*(pronounced: oo-BOON-twa Luhn-GAH-rah)*
+
+**Purpose:** A dedicated commons node that *lives inside the Ubuntuwa family*, entrusted with stewardship, continuity, execution, and cultural authority over the **LUNGARA War-Games System**.
+
+**Tagline:**
+
+> *Endurance through Ritualized Resilience.*
+
+---
+
+# I. WHY THIS NODE EXISTS
+
+Ubuntuwa-LUNGARA is not an add-on. It is a **functional commons** created so that:
+
+1. **LUNGARA War-Games lives in the community — not in abstract boards**
+2. War-games execution is embedded in **social legitimacy**
+3. Crisis testing, adversarial rehearsal, and continuity planning are *everyday culture*
+4. Scoring panels, ethical review, and social impact evaluation are grounded in the Ubuntuwa system
+
+This node **officially hosts** the LUNGARA system — legal, operational, and communal.
+
+---
+
+# II. ROLE & MANDATE
+
+## A. Core Mandate
+
+Ubuntuwa-LUNGARA is charged with:
+
+1. **Hosting all LUNGARA scenarios**
+2. **Maintaining the scenario library**
+3. **Certifying Red Teams**
+4. **Running war-game injections**
+5. **Scoring social legitimacy**
+6. **Reporting to OVAC**
+7. **Maintaining war-game readiness rosters**
+8. **Serving as the permanent operational node for war-game infrastructure**
+
+---
+
+# III. STRUCTURE OF UBUNTUWA-LUNGARA
+
+The coop has the following **functional units**:
+
+### 1. **War-Games Council**
+
+* 7 seats
+* Elected by Ubuntuwa-LUNGARA membership
+* Oversees scenario design, adjudication, and doctrine alignment
+
+### 2. **Red Team Core**
+
+* Simulation architects
+* Adversarial actors
+* Rotating representation from all Ubuntuwa nodes
+
+### 3. **Scoring & Integrity Office**
+
+* Computes LUNGARA scores
+* Integrates social legitimacy metrics
+* Publishes immutable logs
+
+### 4. **Archive Liaison**
+
+* Works with Archive Office for hashed recordkeeping
+* Ensures scenarios and outcomes are immutable
+
+### 5. **Community Continuity Office**
+
+* Interfaces with local Ubuntuwa nodes during war-games
+* Collects subjective impact readings
+
+---
+
+# IV. UBUNTUWA-LUNGARA IN THE FEDERATION
+
+## A. Hosting Relationships
+
+Ubuntuwa-LUNGARA interacts with:
+
+* **OVAC** — Reports score results and adjudication outcomes
+* **Other Ubuntuwa nodes** — Source of social legitimacy inputs
+* **Entity Boards** — Operational response during drills
+* **Archive Office** — Immutable logging
+* **Red Team Council** — Hosted adversarial activity
+
+---
+
+# V. HOSTING AUTHORITY & DECISION RULES
+
+### A. LUNGARA Execution Authority
+
+During any warp-game run:
+
+```
+Authority Flow:
+OVAC (final) > Ubuntuwa-LUNGARA (execution lead) 
+   > Ubuntuwa Nodes (impact data)
+   > Red Team Council (attack vectors)
+   > Archive Office (logging)
+```
+
+### B. Boundaries
+
+* **Ubuntuwa-LUNGARA** may NOT:
+
+  * Override OVAC doctrine
+  * Accept capital on behalf of system
+  * Change governance structure
+* **Ubuntuwa-LUNGARA** MAY:
+
+  * Define war-games
+  * Score war-games
+  * Report outcomes
+  * Recommend consequences
+
+---
+
+# VI. WAR-GAME EXECUTION CYCLE — HOSTED BY UBUNTUWA-LUNGARA
+
+## Step 1 — Trigger Declaration
+
+* Automatically by scheduler OR
+* Event-based (runway, capital, founder absence, legal)
+
+## Step 2 — Scenario Load
+
+Ubuntuwa-LUNGARA War-Games Council loads scenario:
+
+* Technical challenge
+* Social/legitimacy challenge
+* Ethical/impact challenge
+
+## Step 3 — Red Team Injection
+
+Red Team Core introduces adversarial conditions.
+
+## Step 4 — Participation
+
+Other Ubuntuwa nodes feed:
+
+* Social Legitimacy Metrics
+* Community Impact Signals
+* Continuity Readiness Metrics
+
+## Step 5 — Scoring
+
+Scoring & Integrity Office computes:
+
+```
+Final Score = (Technical Score + Operational Score + Social Legitimacy Score)/3
+```
+
+Ubuntuwa-LUNGARA publishes this to:
+
+* OVAC
+* Archive Office
+* Entity Boards
+
+## Step 6 — Consequence Enforcement
+
+Based on score thresholds:
+
+* Pass (≥24)
+* Conditional Pass (20–23)
+* Fail (<20)
+
+Consequences cascade automatically via doctrine.
+
+---
+
+# VII. SOCIAL LEGITIMACY METRIC
+
+Ubuntuwa-LUNGARA defines a custom metric:
+
+```
+Social Legitimacy Score (0–10)
+
+= (1) Community Trust Index
++ (2) Narrative Clarity Index
++ (3) Cultural Stability Score
++ (4) Emotional Continuity Factor
+—
+Normalized to 0–10
+```
+
+Input from:
+
+* Ubuntuwa-NDAA
+* Ubuntuwa-KUMBU
+* Ubuntuwa-KANYE
+* Ubuntuwa-NGOZI
+* Ubuntuwa-MOYO
+* Ubuntuwa-UMOYA
+* Ubuntuwa-KANO
+
+Collectively weighed and normalized.
+
+---
+
+# VIII. IMMEDIATE ACTION & ESCALATION
+
+When Ubuntuwa-LUNGARA triggers a war-game outcome:
+
+1. Outcome logged immutably
+2. Report sent to OVAC
+3. OVAC confirms or escalates
+4. Archive update with hash
+5. Remedial tasks auto-issued
+
+---
+
+# IX. HOST ROTATION CONTEXT
+
+Ubuntuwa-LUNGARA **never rotates out** as a standalone node; it is permanently part of the war-games ecosystem.
+
+Other Ubuntuwa nodes rotate on OVAC schedules, but **Ubuntuwa-LUNGARA is a persistent execution commons**.
+
+---
+
+# X. UBUNTUWA-LUNGARA CHARTER (ABRIDGED)
+
+**Mission:**
+To institutionalize war-games as a **commons ritual of resilience**, embedding social legitimacy into every survival test.
+
+**Vision:**
+A federation that does not merely survive adversity — it anticipates, rehearses, and contains it.
+
+**Domain Authority:**
+Execution of LUNGARA war-games, scoring, social legitimacy metrics, reporting to OVAC.
+
+**Limits:**
+Cannot override doctrine; cannot accept capital; cannot bind entities except via council-approved war-game outcomes.
+
+---
+
+# XI. WHY THIS WORKS
+
+Ubuntuwa-LUNGARA solves three common failure modes:
+
+1. **Technical-only war-games** — by integrating social legitimacy
+2. **Founder-centric drills** — by embedding commons nodes
+3. **Governance disconnect** — by reporting directly into OVAC
+
+---
+
+## READY SIGNAL
+
+Ubuntuwa-LUNGARA is now the **living, institutional expression of resilience** in your federation.
+It is:
+
+✔ Persistent
+✔ Culturally grounded
+✔ Operationally executable
+✔ Legally scoped
+✔ Socially legitimate
+✔ Doctrine-aligned
+
+---
+
+If you want next, I can generate:
+
+* **Ubuntuwa-LUNGARA governance charter PDF**
+* **Printable war-game scorecards**
+* **Automated scheduler rules (JSON/DSL)**
+* **Entity integration framework for all coops**
+
+Just say which one.
+
+Absolutely — below is a **complete Entity Integration Framework** for *all coops* in your federation, showing:
+
+✅ how each entity **connects to governance, war-games, operations, archive, risk, and capital**
+✅ what roles they play in **OVAC, LUNGARA, and Ubuntuwa Commons**
+✅ what *interfaces, dependencies, and boundaries* exist between them
+
+This is *not* an org chart — it’s a **functional integration matrix plus workflow rules** you can implement in your Archive OS, policy engine, or governance documentation.
+
+---
+
+# ENTITY INTEGRATION FRAMEWORK — FEDERATION COOPS
+
+---
+
+## Purpose
+
+Provides a **reference model** that answers:
+
+* How does each coop *participate* in governance?
+* What roles do they have in war-games (LUNGARA)?
+* What operational boundaries exist?
+* How do they connect to Archive OS and decision tables?
+* Who has authority where and how?
+
+This framework treats every coop as a **node with explicit responsibilities, authorities, and interfaces**.
+
+---
+
+# 1. INTEGRATION MODEL
+
+The federation consists of **multi-layered nodes**:
+
+| Layer                | Function                                |
+| -------------------- | --------------------------------------- |
+| Governance           | OVAC + Boards + Councils                |
+| Commons              | Ubuntuwa nodes (incl. Ubuntuwa-LUNGARA) |
+| Operational          | Functional coops & studios              |
+| Capital & Investment | Investment & mutual funds               |
+| Programs & Services  | NPOs & community programs               |
+| Systems              | Archive, Risk Register, Decision Tables |
+| Crisis & Defense     | LUNGARA war-games                       |
+
+Each node participates in one or more layers.
+
+---
+
+# 2. ENTITY CLUSTERS & ROLES
+
+Below is a table defining *every entity*, its **primary roles**, and **integration points**.
+
+---
+
+### A. UBUNTUWA COMMONS CLUSTER
+
+| Entity               | Governance Role        | LUNGARA Role                  | Archive Role                | Notes                |
+| -------------------- | ---------------------- | ----------------------------- | --------------------------- | -------------------- |
+| **Ubuntuwa-NDAA**    | OVAC seat              | Social legitimacy sensor      | Local impact logger         | Community trust      |
+| **Ubuntuwa-KUMBU**   | OVAC liaison           | Social/ethics input           | Commons archive integration | Cultural norms       |
+| **Ubuntuwa-KANYE**   | OVAC ethics rep        | Media/ narrative scoring      | Narrative archive entries   | Reputation domain    |
+| **Ubuntuwa-NGOZI**   | OVAC community rep     | Regulatory impact influence   | Compliance archive          | Policy context       |
+| **Ubuntuwa-MOYO**    | Commons board          | Operational continuity role   | Risk / resiliency logs      | Heart of federation  |
+| **Ubuntuwa-UMOYA**   | Compliance & audit rep | Social legitimacy scoring     | Financial social record     | Public trust         |
+| **Ubuntuwa-KANO**    | Succession readiness   | Operational simulation tester | Succession logs             | Continuity testbed   |
+| **Ubuntuwa-LUNGARA** | Permanent LUNGARA host | War-games execution lead      | LUNGARA archive keeper      | Core resiliency node |
+
+**Integration Patterns**
+
+* Each provides **social legitimacy, ethics, and community risk signals**.
+* They vote in OVAC governance decisions when relevant.
+* They feed social legitimacy metrics into LUNGARA scoring.
+
+---
+
+### B. OPERATIONAL COOPS
+
+| Coop                             | Domain              | Governance Interface    | LUNGARA Role                     | Archive Integration    |
+| -------------------------------- | ------------------- | ----------------------- | -------------------------------- | ---------------------- |
+| Azande Software Agency Coop      | Software ops        | Board reports to OVAC   | Technical scoring                | Operational logs       |
+| Lomwe Systems Engineering Coop   | Systems             | Board + OVAC reporting  | Technical war-game participation | Systemic records       |
+| Nandi Mobility Coop              | Mobility operations | Board governance        | Infrastructure failure testing   | Resilience logs        |
+| Dogon Manufacturing Coop         | Fabrication         | Board governance        | Safety/OPS scoring               | Compliance logs        |
+| San Environmental & Civ Eng Coop | Environmental       | Board governance        | Regulatory impact                | Compliance + risk logs |
+| Massai Media Group Coop          | Media production    | Communicates narratives | Media attack simulation          | Narrative records      |
+| Wolof.io / Kogi                  | Worker economy      | Board governance        | Platform stability               | Dev flow logs          |
+| Ubunye Engineering (DESEF)       | Systems engineering | Technical board         | Structural testing               | Asset logs             |
+
+---
+
+### C. CAPITAL & INVESTMENT COOPS
+
+| Coop                             | Financial Role       | Governance Interface              | Boundaries                           |
+| -------------------------------- | -------------------- | --------------------------------- | ------------------------------------ |
+| Mande Investment Group Coop      | Capital pools        | Board oversight in OVAC decisions | Investment but no governance control |
+| Niguvu Corporation Coop          | AI / tech investment | Governance liaison only           | No unilateral authority              |
+| Ubuntuwa Credit Union (Uhuru CU) | Banking & credit     | Risk & compliance rep             | Regulated interface                  |
+
+**Integration Constraints**
+
+* These coops provide fiduciary and capital governance signals
+* Boundaries: Cannot override OVAC doctrine
+* They feed **capital risk data** (runway, concentration) into Archive OS
+
+---
+
+### D. PROGRAM & COMMUNITY SERVICE COOPS
+
+| Entity                                                      | Role                 | Governance Interface | LUNGARA Role               |
+| ----------------------------------------------------------- | -------------------- | -------------------- | -------------------------- |
+| Batwa Urban Community Dev Trust                             | Community programs   | OVAC advise          | Social impact              |
+| Program NPOs (Heroro, Nama, Aka, Zulu, Khoi, Shona, Mizizi) | Service delivery     | Reporting            | Operational scoring        |
+| Songhai Institute of Systemics Coop                         | Knowledge & training | Council + OVAC       | Scenario design + red-team |
+
+**Insights**
+
+* These nodes feed **risk & operational performance data**
+* They are key to *real-world outcomes* in war-games
+
+---
+
+### E. STUDIOS & TOOL COOPS
+
+| Coop                                   | Mission                  | Governance Role | LUNGARA Role                  |
+| -------------------------------------- | ------------------------ | --------------- | ----------------------------- |
+| Obatala Venture Studios (OVCS-Studios) | Studio lifecycle         | None in OVAC    | War-game operations scenarios |
+| Kumba Metafactory                      | Makerspace & prototyping | Local board     | Infrastructure testing        |
+| Ubunye Engineering                     | Engineering ops          | Board interface | Technical war-game nodes      |
+
+**Important Note**
+
+* **OVCS-Studios** does *not* hold governance authority in OVAC — this is now unambiguously separated.
+
+---
+
+# 3. DECISION BOUNDARIES & INTERFACES
+
+---
+
+## A. AUTHORITY INTERFACE RULES
+
+**OVAC Only Actions**
+
+* Governance doctrine overrides
+* Capital acceptance decisions
+* Crisis escalation approvals
+* Entity sacrifice decisions
+* Founder removal
+
+**Board Only Actions**
+
+* Operational planning
+* Implementation
+* Local entity management
+
+**Ubuntuwa Commons**
+
+* Ethics / social legitimacy adjudication
+* Community impact scoring
+* Regulatory risk signals
+
+**LUNGARA**
+
+* War-game execution
+* Scoring
+* Consequence triggering
+
+**Capital Entities**
+
+* Financial risk inputs
+* Fund allocations within ruleset
+* No governance veto
+
+---
+
+## B. INFORMATION FLOW MAP
+
+```
+ Operational Nodes → Archive OS → (Tech/OPS Logs)
+      ↓                                     ↓
+      LUNGARA Execution ← Social Inputs ← Ubuntuwa Commons
+      ↓                                     ↓
+      OVAC (Governance Authority) ← Capital Signals ← Invest/Banking Coops
+                                              ↓
+                                      Program & Community Service Coops
+```
+
+---
+
+## C. DECISION TABLE INTERFACES
+
+Integrity rules enforce that:
+
+* Any decision affecting **governance**, **capital**, or **war-game outcomes** must reference:
+
+  * Decision table ID
+  * Authority signature
+  * Archive hash
+
+---
+
+# 4. HOSTING & ROTATION INTEGRATION
+
+### Ubuntuwa Commons Hosting Order (OVAC)
+
+Includes Ubuntuwa-LUNGARA as a permanent seat.
+
+**Rotation Block Example**
+
+```
+Year 1: Ubuntuwa-NDAA + Ubuntuwa-LUNGARA
+Year 2: Ubuntuwa-KUMBU + Ubuntuwa-LUNGARA
+...
+Year 8: Ubuntuwa-KANO + Ubuntuwa-LUNGARA
+Then rotates
+```
+
+Ubuntuwa-LUNGARA cycles **every year as permanent war-games host**, while primary hosts rotate among other nodes.
+
+---
+
+# 5. OPERATIONAL & CRISIS INTEGRATION
+
+### RUNWAY / CAPITAL RISK FEEDBACK
+
+* **Ubuntuwa Credit Union (Uhuru CU)** feeds financial stability metrics into Archive OS
+* **Mande Investment Group** produces capital concentration analysis
+* Those propagate into:
+
+  ```
+  Archive OS → LUNGARA triggers → OVAC decisions
+  ```
+
+---
+
+## 6. ARCHIVE OS MAPPING
+
+Each entity feeds:
+
+* Decisions
+* Logs
+* Policies
+* Performance metrics
+* Crisis drills
+
+All artifacts acquire:
+
+```
+{EntityID, Period, DecisionHash, ArchiveHash}
+```
+
+---
+
+# 7. ENTITY-LEVEL WAR-GAME PARTICIPATION
+
+**Regimen per cycle**
+
+```
+Quarterly: Each entity participates via war-game modules
+Semi-Annual: Strategic integration tests
+Annual: Full cross-cluster scenarios
+```
+
+Participation loops:
+
+* Governance
+* Social legitimacy
+* Operational performance
+* Risk signaling
+
+---
+
+## 8. FAILURE & ESCALATION PATHS
+
+If any node fails its obligations (e.g., missing logs, no participation):
+
+* Archive Incident created
+* OVAC reviews
+* Consequences assigned (vesting, authority limits, entity sacrifice)
+
+---
+
+# SYSTEM LAW (INTEGRATED)
+
+> **Each node in your federation is both independent and interdependent.
+> Decisions that affect the whole must be traceable, archival, authorized, and score-validated through distributed consensus mechanisms.
+> Entities supply data; commons supply legitimacy; governance adjudicates; war-games validate resilience.**
+
+---
+
+## NEXT OPTIONAL DELIVERABLES
+
+If you want, I can now generate:
+
+✔ **Entity-specific integration cards (printable)**
+✔ **Interface API definitions for Archive OS**
+✔ **Automated policy engine schemas (JSON/SQL)**
+✔ **Entity compliance dashboards**
+
+Just tell me which one.
+
+
+* **Generate a full acronym glossary** for your entire ecosystem
+
+Here’s a **comprehensive, system-wide acronym glossary** for your entire federation ecosystem — covering governance, operational nodes, program clusters, war-games systems, archive structures, and roles.
+
+This glossary is designed to:
+
+✅ **Prevent ambiguity**
+✅ Support automation / policy engines
+✅ Be used in documents, archive fields, board packets
+✅ Be machine-readable and exportable (JSON/CSV)
+
+---
+
+# 📘 FEDERATION ACRONYM GLOSSARY
+
+---
+
+## GOVERNANCE & AUTHORITY
+
+| Acronym  | Full Name                                 | Description                                                                      |
+| -------- | ----------------------------------------- | -------------------------------------------------------------------------------- |
+| **OVAC** | **Operational & Value-Alignment Council** | Supreme governance authority body; doctrine enforcement; war-games adjudication. |
+| **BoC**  | **Board of Coop Boards**                  | Governing board representatives across coops.                                    |
+| **FCC**  | **Federation Council of Commons**         | Council of Ubuntuwa subsidiaries for social legitimacy signals.                  |
+| **CRC**  | **Crisis Response Council**               | Rapid response governance body activated during emergencies.                     |
+
+---
+
+## WAR-GAMES & RESILIENCE SYSTEMS
+
+| Acronym     | Full Name                              | Description                                                       |
+| ----------- | -------------------------------------- | ----------------------------------------------------------------- |
+| **LUNGARA** | **LUNGARA War-Games System**           | Integrated war-games execution engine hosted by Ubuntuwa-LUNGARA. |
+| **LG-Exec** | **LUNGARA Execution Lead**             | Entity responsible for executing scenario workflows.              |
+| **LG-RT**   | **LUNGARA Red Team Council**           | Adversarial simulation team.                                      |
+| **LG-SIO**  | **LUNGARA Scoring & Integrity Office** | Computes scores and verifies outcomes.                            |
+
+---
+
+## UBUNTUWA COMMONS NODES
+
+| Acronym       | Full Name                         | Description                                       |
+| ------------- | --------------------------------- | ------------------------------------------------- |
+| **U-NDAA**    | **Ubuntuwa-NDAA Commons Coop**    | Commons node; ethics & legitimacy signals.        |
+| **U-KUMBU**   | **Ubuntuwa-KUMBU Commons Coop**   | Community governance liaison node.                |
+| **U-KANYE**   | **Ubuntuwa-KANYE Commons Coop**   | Media & narrative legitimacy node.                |
+| **U-NGOZI**   | **Ubuntuwa-NGOZI Commons Coop**   | Regulatory readiness & community compliance node. |
+| **U-MOYO**    | **Ubuntuwa-MOYO Commons Coop**    | Operational continuity node.                      |
+| **U-UMOYA**   | **Ubuntuwa-UMOYA Commons Coop**   | Compliance & audit legitimacy node.               |
+| **U-KANO**    | **Ubuntuwa-KANO Commons Coop**    | Succession readiness & stress testing node.       |
+| **U-LUNGARA** | **Ubuntuwa-LUNGARA Commons Coop** | Dedicated war-games hosting and execution node.   |
+
+---
+
+## OPERATIONAL ENTITIES & COOPS
+
+| Acronym | Full Name                                   | Description                                  |
+| ------- | ------------------------------------------- | -------------------------------------------- |
+| **AZA** | **Azande Software Agency Coop**             | Software development operational coop.       |
+| **LOM** | **Lomwe Systems Engineering Coop**          | Systems and engineering solutions.           |
+| **NAN** | **Nandi Mobility Company Coop**             | Intelligent mobility platform coop.          |
+| **DOG** | **Dogon Manufacturing Company Coop**        | Manufacturing and fabrication coop.          |
+| **SAN** | **San Environmental & Civ Eng Coop**        | Environmental engineering coop.              |
+| **MAS** | **Massai Media Group Coop**                 | Media production and distribution.           |
+| **WOL** | **Wolof.io / Kogi Independent Worker Coop** | Platform for independent economy management. |
+| **UBU** | **Ubunye Engineering Group Coop**           | System engineering (DESEF).                  |
+
+---
+
+## CAPITAL & INVESTMENT ENTITIES
+
+| Acronym | Full Name                            | Description                             |
+| ------- | ------------------------------------ | --------------------------------------- |
+| **MIG** | **Mande Investment Group Coop**      | Investment & capital management entity. |
+| **NIG** | **Niguvu Corporation Coop**          | AI and tech investment coop.            |
+| **UCU** | **Ubuntuwa Credit Union (Uhuru CU)** | Member-owned financial cooperative.     |
+
+---
+
+## PROGRAM & COMMUNITY SERVICES
+
+| Acronym | Full Name                                     | Description                              |
+| ------- | --------------------------------------------- | ---------------------------------------- |
+| **BAT** | **Batwa Urban Community Development Trust**   | Community programs & resources.          |
+| **HER** | **Heroro Lifestyle / Health Program**         | Program NPO for health & rehabilitation. |
+| **NAM** | **Nama Community Reformation Program**        | Urban community renewal.                 |
+| **AKA** | **Aka Greenspaces & Eco Development Program** | Eco services and reforestation.          |
+| **ZUL** | **Zulu Financial Literacy Program**           | Financial education program.             |
+| **KHO** | **Khoi Urban Education Program**              | Civic engagement education.              |
+| **SHO** | **Shona Urban Dev Governance Program**        | Local governance training.               |
+| **MIZ** | **Mizizi Urban Platform OS Coop Program**     | Urban platform operations.               |
+
+---
+
+## STUDIOS & CREATION NODES
+
+| Acronym | Full Name                                  | Description                                                            |
+| ------- | ------------------------------------------ | ---------------------------------------------------------------------- |
+| **OVS** | **Obatala Venture Studios (OVCS-Studios)** | Venture studio network for incubators, accelerators, makerspaces, etc. |
+| **KMF** | **Kumba Metafactory Franchise Coop**       | Metafactory and prototype ecosystems.                                  |
+
+---
+
+## SYSTEM & ARCHIVE COMPONENTS
+
+| Acronym     | Full Name                         | Description                                 |
+| ----------- | --------------------------------- | ------------------------------------------- |
+| **AO**      | **Archive Office**                | Federation-wide archival system.            |
+| **AR-OBJ**  | **Archive Object**                | Fundamental archival record.                |
+| **AR-IDX**  | **Archive Index**                 | Metadata index for records.                 |
+| **AR-HASH** | **Archive Hash**                  | Cryptographic hash for immutability.        |
+| **DT**      | **Decision Table**                | Pre-signed logic mapping inputs to outputs. |
+| **RR**      | **Risk Register**                 | Central risk repository.                    |
+| **DFC**     | **Deferred Founder Compensation** | Founder comp accrual ledger.                |
+| **FEZ**     | **Founder Equity Zone**           | Founder equity vesting framework.           |
+
+---
+
+## FINANCIAL & GOVERNANCE SYSTEMS
+
+| Acronym  | Full Name                        | Description                             |
+| -------- | -------------------------------- | --------------------------------------- |
+| **COA**  | **Chart of Accounts**            | Financial account structure.            |
+| **FSP**  | **Financial Shock Dashboard**    | Financial risk indicator panel.         |
+| **MCC**  | **Monthly Close Checklist**      | Operational financial close process.    |
+| **BFP**  | **Board Financial Packet**       | Annual/quarterly board finance reports. |
+| **Y1PF** | **Year-1 Pro Forma**             | Budgeted financial plan.                |
+| **DAF**  | **Downside Austerity Framework** | Budget survival mode regime.            |
+
+---
+
+## GOVERNANCE PROCESSES & GROUPS
+
+| Acronym | Full Name                       | Description                              |
+| ------- | ------------------------------- | ---------------------------------------- |
+| **FGP** | **Founder Governance Protocol** | Rules governing founder authority.       |
+| **SEP** | **Succession Execution Plan**   | Founder succession plan.                 |
+| **EED** | **Entity Exit Decision Tree**   | Pathway for sacrificial entity shutdown. |
+| **GRP** | **Governance Response Plan**    | Reaction plan for governance shocks.     |
+| **WHL** | **Whistleblower Protocol**      | Ethics reporting process.                |
+
+---
+
+## WAR-GAMES & RESILIENCE PROCESSES
+
+| Acronym     | Full Name                      | Description                            |
+| ----------- | ------------------------------ | -------------------------------------- |
+| **W-Score** | **War-Games Score**            | Quantitative scoring result.           |
+| **CMA**     | **Crisis Mode Activation**     | Trigger for emergency governance mode. |
+| **TSM**     | **Tabletop Scenario Module**   | Predefined war-game module.            |
+| **RTM**     | **Red Team Module**            | Adversarial attack simulation.         |
+| **SMT**     | **Simulator Test Script**      | Structured war-game script.            |
+| **CBM**     | **Combined Black-Swan Module** | Multi-vector stress test.              |
+
+---
+
+## MEMBERSHIP & CLASS ROLES
+
+| Acronym | Full Name                         | Description                     |
+| ------- | --------------------------------- | ------------------------------- |
+| **C-A** | **Class A: Worker-Members**       | Hired operators and workers.    |
+| **C-B** | **Class B: Steward-Members**      | Strategic partners.             |
+| **C-C** | **Class C: Governance-Members**   | Board members.                  |
+| **C-D** | **Class D: Commons-Members**      | Community/council participants. |
+| **C-E** | **Class E: Founder-Member**       | Navigator / founder.            |
+| **C-F** | **Class F: Capital Participants** | Investors, non-members.         |
+| **C-G** | **Class G: Future Members**       | Apprentices / fellows.          |
+
+---
+
+## ENTITY STATES & MODES
+
+| Acronym | Full Name                    | Description                            |
+| ------- | ---------------------------- | -------------------------------------- |
+| **EM**  | **Entity Mode**              | Operational state of an entity.        |
+| **ESR** | **Entity Stress Rating**     | Risk rating under pressure.            |
+| **EMC** | **Entity Mode Change**       | Transition between operational states. |
+| **EEL** | **Entity Escalation Ladder** | Escalation process for entity issues.  |
+
+---
+
+## LEGAL, COMPLIANCE & RISK
+
+| Acronym | Full Name                              | Description                    |
+| ------- | -------------------------------------- | ------------------------------ |
+| **LAR** | **Legal & Regulatory Attack Response** | Regulatory response framework. |
+| **CNA** | **Compliance & Norms Assessment**      | Compliance scorecard.          |
+| **RRI** | **Regulatory Risk Indicator**          | Risk metrics for regulation.   |
+| **CSA** | **Crisis Severity Assessment**         | Level of crisis (0–5).         |
+
+---
+
+## SYSTEM OPERATING RULES
+
+| Acronym | Full Name                   | Description                  |
+| ------- | --------------------------- | ---------------------------- |
+| **GDL** | **Global Decision Logic**   | Entirety of decision tables. |
+| **BRL** | **Basic Rule Logic**        | Core rule set.               |
+| **HTM** | **Human Threshold Model**   | Behavioral risk model.       |
+| **PDL** | **Policy Decision Layer**   | Governance policy layer.     |
+| **TDM** | **Threat Detection Module** | Risk detection engine.       |
+
+---
+
+## SAMPLE JSON-READY SNIPPET
+
+```json
+{
+  "OVAC": "Operational & Value-Alignment Council",
+  "U-LUNGARA": "Ubuntuwa-LUNGARA Commons Coop",
+  "LUNGARA": "LUNGARA War-Games System",
+  "MIG": "Mande Investment Group Coop",
+  "AR-HASH": "Archive Hash"
+}
+```
+
+---
+
+# Glossary Usage Notes
+
+🧠 **Always define acronyms on first use** in public documents.
+🏷️ **Acronyms are canonical** — they should match keys in the Archive OS.
+📦 **Machine readability:** These should be used as constant keys in governance code and workflows.
+
+---
+
+If you want **a downloadable CSV/JSON file**, or
+**PDF version for board & founder reference**,
+just say which format you want next.
+
+Absolutely — here’s an **expanded, federation-wide acronym glossary** that goes *well beyond* the core governance, systems, coops, and war-games acronyms you already have. This set now properly covers:
+
+✅ **Members & roles**
+✅ **Teams & squads**
+✅ **Stewards & councils**
+✅ **People types**
+✅ **Processes & workflows**
+✅ **Systems, programs & operations**
+✅ **Analytics & indicators**
+✅ **Instruments & artifacts**
+
+As always, these acronyms are **intended to be unambiguous, machine-parseable, and governance-safe**.
+
+---
+
+# EXPANDED ACRONYM GLOSSARY — MEMBERS, TEAMS, PEOPLE, PROCESSES, SYSTEMS & PROGRAMS
+
+---
+
+## A. MEMBER ROLES & PEOPLE TYPES
+
+| Acronym | Full Name                 | Description                                       |
+| ------- | ------------------------- | ------------------------------------------------- |
+| **WM**  | **Worker Member**         | Class A member responsible for operational tasks. |
+| **SM**  | **Steward Member**        | Class B member coordinating strategy and squads.  |
+| **GM**  | **Governance Member**     | Class C board-level member.                       |
+| **CM**  | **Commons Member**        | Class D community/council member.                 |
+| **FM**  | **Founder Member**        | Class E founder / navigator.                      |
+| **CP**  | **Capital Participant**   | Class F financial participant (non-member).       |
+| **AP**  | **Apprentice Member**     | Class G future member / trainee.                  |
+| **PM**  | **Program Member**        | Member assigned to specific program teams.        |
+| **TM**  | **Temporary Member**      | Short-term contributor.                           |
+| **ADM** | **Administrative Member** | Ops support and admin functions.                  |
+| **LDR** | **Leader**                | Squad or unit leader.                             |
+| **VSR** | **Vested Member**         | Member with vested equity rights.                 |
+| **UVM** | **Unvested Member**       | Member with unvested equity.                      |
+
+---
+
+## B. TEAMS, SQUADS & WORKGROUPS
+
+| Acronym  | Full Name                   | Description                                           |
+| -------- | --------------------------- | ----------------------------------------------------- |
+| **OPSQ** | **Operational Squad**       | Team executing core operations.                       |
+| **STRQ** | **Strategic Squad**         | Team focused on strategy execution.                   |
+| **CRSQ** | **Crisis Response Squad**   | Activated during crises.                              |
+| **REDT** | **Red Team**                | Adversarial testing team (war-games).                 |
+| **BLUT** | **Blue Team**               | Defense/testing response team.                        |
+| **INQT** | **Innovation Team**         | Rapid prototyping and exploration.                    |
+| **COMT** | **Communications Team**     | Messaging and external narrative control.             |
+| **RISK** | **Risk Management Team**    | Risk identification and mitigation.                   |
+| **FINQ** | **Finance Squad**           | Financial planning and control segment.               |
+| **ITQS** | **IT & Systems Squad**      | Tech and infrastructure support.                      |
+| **PMGT** | **Program Management Team** | Oversees programs & project delivery.                 |
+| **ARCH** | **Archive Team**            | Archive OS operations and integrity.                  |
+| **CULT** | **Culture & Ethics Team**   | Ethics, code of conduct, and social norm enforcement. |
+
+---
+
+## C. STEWARDS, COUNCILS & COMMITTEES
+
+| Acronym   | Full Name                                | Description                                |
+| --------- | ---------------------------------------- | ------------------------------------------ |
+| **OVAC**  | Operational & Value-Alignment Council    | Supreme governance council.                |
+| **WC**    | **War-Games Council**                    | Governs LUNGARA scenario execution.        |
+| **RTC**   | **Red Team Council**                     | Leads adversarial simulations.             |
+| **SOC**   | **Social Oversight Council**             | Commons/ethics oversight.                  |
+| **LGC**   | **Legal & Governance Committee**         | Legal review and governance rules.         |
+| **FINC**  | **Finance Committee**                    | Budget, spend, capital review.             |
+| **RISC**  | **Risk & Incident Steering Committee**   | Incident/runway risk governance.           |
+| **PSC**   | **Program Steering Committee**           | Oversees program portfolio.                |
+| **HRMC**  | **Human Resources & Membership Council** | Member classifications & HR norms.         |
+| **COMC**  | **Communications Council**               | Narrative & external communication policy. |
+| **TECHC** | **Technology Council**                   | Systems, data, and tech standards.         |
+
+---
+
+## D. PROCESSES & WORKFLOWS
+
+| Acronym | Full Name                         | Description                          |
+| ------- | --------------------------------- | ------------------------------------ |
+| **WGP** | **War-Games Protocol**            | LUNGARA execution standard protocol. |
+| **EMC** | **Entity Mode Change**            | Operational state transition.        |
+| **CMA** | **Crisis Mode Activation**        | Emergency governance activation.     |
+| **DFC** | **Deferred Founder Compensation** | Compensation accrual system.         |
+| **FEZ** | **Founder Equity Zone**           | Vesting state logic.                 |
+| **EED** | **Entity Exit Decision Tree**     | Entity sacrifice decision flow.      |
+| **ECB** | **Escalation Boundary Logic**     | Criteria for escalation.             |
+| **GDL** | **Global Decision Logic**         | Master decision table layer.         |
+| **PDL** | **Policy Decision Layer**         | Govern policy interpretation.        |
+| **TDM** | **Threat Detection Module**       | Risk sensor engine.                  |
+| **RPL** | **Regulatory Pre-Launch**         | Reg attack prep routine.             |
+| **DSR** | **Data Status Refresh**           | Scheduled archive sync.              |
+| **ARL** | **Archive Review Loop**           | Periodic audit of archive integrity. |
+| **SCR** | **Scenario Readiness Review**     | Pre-war-game check.                  |
+
+---
+
+## E. SYSTEM COMPONENTS & MODULES
+
+| Acronym     | Full Name                           | Description                        |
+| ----------- | ----------------------------------- | ---------------------------------- |
+| **AO**      | **Archive Office**                  | Archives all records.              |
+| **AR-OBJ**  | **Archive Object**                  | Atomic record in archive.          |
+| **AR-IDX**  | **Archive Index**                   | Lookup index.                      |
+| **AR-HASH** | **Archive Hash**                    | Immutability fingerprint.          |
+| **EIO**     | **Entity Integration Orchestrator** | Inter-entity communications layer. |
+| **RMI**     | **Risk Metrics Interface**          | Risk indicator system.             |
+| **BFP**     | **Board Financial Packet**          | Governance finance dashboard.      |
+| **FSD**     | **Financial Shock Dashboard**       | Liquidity & runway watches.        |
+| **MCC**     | **Monthly Close Checklist**         | Finance ops routine.               |
+| **Y1PF**    | **Year-1 Pro Forma**                | Budget plan.                       |
+| **DPF**     | **Downside Plan Framework**         | Austerity budgeting.               |
+| **LRE**     | **Legal & Regulatory Engine**       | Reg response system.               |
+
+---
+
+## F. ANALYTICS & INDICATORS
+
+| Acronym     | Full Name                   | Description                 |
+| ----------- | --------------------------- | --------------------------- |
+| **W-Score** | **War-Games Score**         | Quantitative outcome score. |
+| **SLI**     | **Social Legitimacy Index** | Ubuntuwa community score.   |
+| **RI**      | **Runway Index**            | Cash runway metric.         |
+| **CRI**     | **Crisis Risk Index**       | Severity of active crisis.  |
+| **ESR**     | **Entity Stress Rating**    | Entity risk score.          |
+| **ROI**     | **Runway-to-Impact Ratio**  | Risk vs mobilization.       |
+| **TSI**     | **Threat Severity Index**   | Threat intensity scale.     |
+| **ELI**     | **Equity Liquidity Index**  | Founder equity assessment.  |
+
+---
+
+## G. PROGRAMS & OPERATIONS
+
+| Acronym  | Full Name                     | Description                  |
+| -------- | ----------------------------- | ---------------------------- |
+| **KANO** | Kano Program                  | Infra/Program OS block       |
+| **NDE**  | Ndebe Program                 | Repair & redress program     |
+| **KUZ**  | Kuzu Program                  | Infrastructure growth        |
+| **ZAL**  | Zalendo Program               | Governance / civic capacity  |
+| **ZAM**  | Zamba Program                 | Cultural/media program       |
+| **LUM**  | Luma Program                  | Knowledge & continuity       |
+| **PRN**  | **Primary Program (Generic)** | Default program unit         |
+| **SNP**  | **Secondary Program**         | Support program module       |
+| **VEP**  | **Venture Execution Process** | New venture creation flow    |
+| **ARM**  | **Asset Reallocation Module** | Capital redeployment process |
+
+---
+
+## H. STEWARD & MEMBER PROCESSES
+
+| Acronym | Full Name                        | Description                 |
+| ------- | -------------------------------- | --------------------------- |
+| **MSR** | **Member Status Review**         | Member classification check |
+| **ERC** | **Ethics Reporting Cycle**       | Whistleblower loop          |
+| **MRP** | **Member Rotation Plan**         | Role rotation matrix        |
+| **TSM** | **Team Standup Module**          | Daily/weekly team sync      |
+| **SOP** | **Standard Operating Procedure** | Process template            |
+| **ARX** | **Archival Exception Report**    | Archive anomaly report      |
+| **PRM** | **Performance Review Module**    | Member review process       |
+
+---
+
+## I. AUTHORITY & ESCALATION
+
+| Acronym | Full Name                     | Description             |
+| ------- | ----------------------------- | ----------------------- |
+| **AOR** | **Authority Override Rule**   | Doctrine override logic |
+| **EAF** | **Escalation Authority Flag** | Tag for escalation path |
+| **GSF** | **Governance Sanction Flag**  | Sanction indicator      |
+| **CRF** | **Crisis Response Flag**      | Crisis active marker    |
+| **DBF** | **Doctrine Breach Flag**      | Policy violation marker |
+
+---
+
+## J. DOCUMENT & REPORT TYPES
+
+| Acronym | Full Name           | Description           |
+| ------- | ------------------- | --------------------- |
+| **DOC** | **Document**        | Generic record        |
+| **POL** | **Policy**          | Governance policy     |
+| **DEC** | **Decision Record** | Decision artifact     |
+| **MIN** | **Minutes**         | Meeting minutes       |
+| **RPT** | **Report**          | Summary               |
+| **LOG** | **Log**             | Event record          |
+| **INC** | **Incident Report** | Crisis incident       |
+| **AUD** | **Audit Report**    | Financial/legal audit |
+
+---
+
+## Example Machine-Readable Snippet (JSON)
+
+```json
+{
+  "WM": "Worker Member",
+  "SM": "Steward Member",
+  "OVAC": "Operational & Value-Alignment Council",
+  "LG-SIO": "LUNGARA Scoring & Integrity Office",
+  "SLI": "Social Legitimacy Index",
+  "EAF": "Escalation Authority Flag"
+}
+```
+
+---
+
+## USAGE GUIDELINES
+
+📌 **Policy documents:** Expand acronyms once on first use.
+📌 **Archive OS:** Use acronyms as keys for metadata and indexing.
+📌 **Automated systems:** Process acronyms into constants for code.
+📌 **Board packs:** Use full names in headings, acronyms in references.
+
+---
+
+If you want next:
+✔ A **CSV or JSON export** of this glossary
+✔ A **visual acronym taxonomy map**
+✔ A **reference card deck (printable)**
+✔ A **toolkit to auto-generate constants for code**
+
+Just tell me which one.
+

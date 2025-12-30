@@ -68,6 +68,7 @@ ashe cycle:
             - Ubuntuwa-MOYO
             - Ubuntuwa-UMOYA
             - Ubuntuwa-KANO
+            - Ubuntuwa-LUNGARA
         uhuru credit union coop
         moyo collective coop
         bahari network coop

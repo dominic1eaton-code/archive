@@ -20,7 +20,7 @@
 *.classpath eol=crlf
 *.sln       eol=crlf
 *.vcproj    eol=crlf
-*.bz1       eol=crlf
+*.bzl       eol=crlf
 *.bazel     eol=crlf
 *BUILD      eol=crlf
 *WORKSPACE  eol=crlf

@@ -69,6 +69,7 @@ ashe cycle:
             - Ubuntuwa-UMOYA
             - Ubuntuwa-KANO
             - Ubuntuwa-LUNGARA
+            - Ubuntuwa-ZULAMBA
         ZULAMBA members coop
         uhuru credit union coop
         moyo collective coop

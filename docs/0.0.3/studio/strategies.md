@@ -2954,3 +2954,266 @@ If you want next, the correct follow-ons are:
 * **Crisis response runbook**
 
 Say which one to generate.
+
+Below are the **four operational artifacts** you asked for — **pure text, no canvases, no abstraction**, written to be **used immediately in Year-1 operations**.
+
+Everything is aligned to your existing Strategy, Tactical, and Operational plans.
+
+---
+
+# 1. Q1 DAILY / WEEKLY CHECKLIST
+
+*(Foundation & Survivability)*
+
+## DAILY CHECKLIST (15–30 minutes total)
+
+**Every day, without exception:**
+
+### A. Decision & Memory
+
+* ☐ Any decision made today is captured (owner, authority, rationale)
+* ☐ Any new risk observed is logged
+* ☐ Any learning worth preserving is noted
+
+> If not captured, it does not exist.
+
+---
+
+### B. Founder Load
+
+* ☐ Did the founder execute today?
+
+  * If **yes**, why could this not be delegated?
+* ☐ Any task founder executed >30 minutes is flagged
+
+---
+
+### C. System Health (Fast Scan)
+
+* ☐ Cash unchanged or improving
+* ☐ No authority confusion observed
+* ☐ No ethical discomfort ignored
+
+If **any** box fails → flag for weekly review.
+
+---
+
+## WEEKLY CHECKLIST (MANDATORY)
+
+### MONDAY — SYSTEM ALIGNMENT
+
+* ☐ Confirm top 3 priorities only
+* ☐ Kill or defer non-essential work
+* ☐ Assign clear owners
+* ☐ Archive weekly priorities
+
+---
+
+### WEDNESDAY — EXECUTION & LOAD CHECK
+
+* ☐ Identify blockers
+* ☐ Identify authority gaps
+* ☐ Review founder execution %
+* ☐ Enforce delegation if threshold crossed
+
+---
+
+### FRIDAY — RISK, MEMORY, & CLOSURE
+
+* ☐ Decision log complete
+* ☐ Risk register reviewed
+* ☐ Ethics check conducted
+* ☐ Deprecations explicit
+* ☐ Archive hygiene complete
+
+---
+
+# 2. FOUNDER LOAD-SHEDDING RULES
+
+*(This prevents system collapse)*
+
+## FOUNDER ROLE IN YEAR 1
+
+**Founder is:**
+
+* Arbiter
+* Constraint enforcer
+* Strategic sequencer
+* Final escalation point
+
+**Founder is NOT:**
+
+* Daily operator
+* Primary executor
+* Bottleneck
+
+---
+
+## HARD LIMITS (ENFORCED)
+
+* Founder execution time ≤ **30% weekly**
+* Founder decision-making time ≤ **50% weekly**
+* Founder presence optional in ≥ **50% of meetings**
+
+If violated → corrective action is mandatory.
+
+---
+
+## AUTOMATIC DELEGATION TRIGGERS
+
+Delegate immediately if:
+
+* Task is repeated twice
+* Task does not require doctrine authority
+* Task blocks others when founder is unavailable
+
+---
+
+## NON-DELEGABLE ITEMS
+
+Only these stay with the founder:
+
+* Doctrine changes
+* Authority assignment/removal
+* Ethical vetoes
+* Strategy integrity rulings
+
+Everything else **must move**.
+
+---
+
+# 3. OPERATIONAL DASHBOARDS
+
+*(What to watch — not tools)*
+
+## A. SURVIVAL DASHBOARD (Weekly)
+
+* Runway (months)
+* Revenue concentration (% top client)
+* Legal/compliance open issues
+* Insurance coverage gaps
+
+**Red Line:** <9 months runway → stop new initiatives
+
+---
+
+## B. COHERENCE DASHBOARD (Weekly)
+
+* Decisions without owners
+* Decisions without archive records
+* Authority disputes logged
+* Doctrine contradictions detected
+
+**Red Line:** Any unresolved contradiction → OVCS review
+
+---
+
+## C. FOUNDER LOAD DASHBOARD (Weekly)
+
+* % time executing
+* # of tasks only founder can do
+* # of decisions delayed waiting on founder
+
+**Red Line:** Execution >30% → forced delegation
+
+---
+
+## D. MEMORY & LEARNING DASHBOARD (Weekly)
+
+* Decisions captured vs made
+* Retrospectives completed
+* Deprecations executed
+* Archive gaps identified
+
+**Red Line:** Learning not altering behavior → review
+
+---
+
+## E. RISK & ETHICS DASHBOARD (Weekly)
+
+* Top 5 risks trending up/down
+* Ethics concerns raised
+* Near-miss incidents
+* Partner/vendor risk exposure
+
+**Red Line:** Any ignored ethical concern → immediate stop
+
+---
+
+# 4. CRISIS RESPONSE RUNBOOK
+
+*(When things go wrong — and they will)*
+
+## WHAT COUNTS AS A CRISIS
+
+* Runway <6 months
+* Legal or regulatory threat
+* Ethical breach or credible allegation
+* Major partner/vendor failure
+* Founder incapacitation
+* Data/security breach
+
+---
+
+## IMMEDIATE ACTIONS (FIRST 24 HOURS)
+
+1. **STOP NON-ESSENTIAL WORK**
+2. **Declare crisis state**
+3. **Assign single incident owner**
+4. **Preserve facts — no narrative**
+5. **Secure people, data, cash**
+
+No optimization. No spin.
+
+---
+
+## 72-HOUR STABILIZATION
+
+* Assess real damage
+* Identify containment actions
+* Invoke OVCS authority if doctrine or ethics involved
+* Communicate internally with facts only
+
+---
+
+## RECOVERY PHASE
+
+* Implement corrective actions
+* Document failure lineage
+* Update risk controls
+* Deprecate contributing strategies if needed
+
+---
+
+## POST-CRISIS NON-NEGOTIABLES
+
+* Full incident report archived
+* Doctrine or strategy updated if violated
+* Authority gaps corrected
+* No return to normal without learning
+
+---
+
+## CRISIS FAILURE MODE (DO NOT DO THIS)
+
+* Blame individuals
+* Rush narrative
+* Hide facts
+* Resume work without correction
+
+---
+
+# FINAL OPERATING RULE
+
+> **If pressure forces you to abandon these rules, the pressure wins — and the system loses.**
+
+This set of artifacts is now your **Year-1 operational spine**.
+
+If you want next, the most natural follow-ons are:
+
+* **Q1 week-by-week execution plan**
+* **Founder calendar & attention budget**
+* **Board-ready crisis escalation flow**
+* **Risk register template**
+
+Say the next command.

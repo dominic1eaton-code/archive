@@ -4404,3 +4404,365 @@ If you want, I can generate:
 📌 An **Outlook ICS bundle**
 
 Just tell me the format you want!
+
+Absolutely — here are your **Monthly Strategic Plans for Year-1 (2026)**: clear, concise, actionable roadmaps for each month that align with your personal WBS, agile rhythms, estate formation, client coop activations, narrative cadence, and governance/tooling deliveries.
+
+Each plan gives you:
+🎯 **Objectives (strategic goals)**
+📌 **Focus Areas**
+📅 **Key Deliverables**
+📊 **Metrics & Success Criteria**
+📍 **Dependencies / Notes**
+
+---
+
+## 📅 January 2026 — **Foundation & Charter Launch**
+
+**Strategic Objectives**
+
+* Establish foundational governance and documentation infrastructure.
+* Begin formation of your Estate and Organizational Genesis Document (OGD).
+
+**Focus Areas**
+
+* Estate Vision & FMID
+* OGD Core Sections
+* Archive Taxonomy
+* Hiring Launch
+
+**Key Deliverables**
+
+* Draft **Founding Manifesto & Intent Declaration (FMID)**
+* OGD core sections initiated
+* Archive taxonomy skeleton
+* Job descriptions for 9 hires published
+
+**Success Metrics**
+✔ FMID v0.1
+✔ OGD v0.1
+✔ Archive taxonomy outline
+✔ Job posts published
+
+---
+
+## 📅 February 2026 — **Legal Formation & Hiring Pipeline**
+
+**Strategic Objectives**
+
+* File core legal entities.
+* Build candidate pipeline for initial team & stewards.
+
+**Focus Areas**
+
+* NPE & Personal Office filings
+* Ubuntuwa Commons formation prep
+* Steward hiring interviews
+* OGD legal sections
+
+**Key Deliverables**
+
+* Submitted legal filings (Estate + Office)
+* Steward candidate shortlist
+* Candidate interviews (Phase 1)
+* OGD legal draft
+
+**Success Metrics**
+✔ Entity filing submissions
+✔ Steward shortlist created
+✔ OGD legal draft section complete
+
+---
+
+## 📅 March 2026 — **OGD Integration & Steward Onboarding**
+
+**Strategic Objectives**
+
+* Integrate legal foundations into OGD.
+* Begin steward selection and orientation prep.
+
+**Focus Areas**
+
+* OGD narrative growth
+* Steward pipeline refinement
+* Narrative cadence
+
+**Key Deliverables**
+
+* OGD narrative sections advanced
+* Steward interview completion
+* Narrative postings (Mungu + Meridian)
+
+**Success Metrics**
+✔ OGD narrative completeness
+✔ Stewards selected (Phase 1)
+✔ Narrative cadence maintained
+
+---
+
+## 📅 April 2026 — **Entity Filings & Orientation Execution**
+
+**Strategic Objectives**
+
+* Confirm legal formations.
+* Conduct steward orientation sessions.
+* Continue OGD expansion.
+
+**Focus Areas**
+
+* Estate + Commons + OVCS filings
+* Steward onboarding
+* Narrative engagement
+
+**Key Deliverables**
+
+* Legal filings confirmed
+* Steward orientation sessions (x3)
+* Narrative outputs for month
+
+**Success Metrics**
+✔ All foundational entities live
+✔ Steward orientation feedback
+✔ Narrative cadence achieved
+
+---
+
+## 📅 May 2026 — **Capital & Governance OS Planning**
+
+**Strategic Objectives**
+
+* Establish capital structures and governance tooling roadmap.
+* Begin deferred compensation policy drafting.
+
+**Focus Areas**
+
+* FundCo LP formations
+* Deferred compensation → DC Units legal frameworks
+* Governance OS architectural planning
+
+**Key Deliverables**
+
+* Capital formation documents
+* Deferred comp legal draft
+* Governance OS roadmap
+
+**Success Metrics**
+✔ Capital vehicles formed
+✔ DC policy draft
+✔ OS specs initiated
+
+---
+
+## 📅 June 2026 — **Governance OS Prototype & Analytics**
+
+**Strategic Objectives**
+
+* Develop early Governance OS prototype.
+* Define analytics dashboard requirements.
+* Advance client intake materials.
+
+**Focus Areas**
+
+* Governance tooling design
+* Client intake SOPs
+* Analytics specification
+
+**Key Deliverables**
+
+* Governance OS prototype specs
+* Intake forms & SOPs
+* Analytics metrics design
+
+**Success Metrics**
+✔ Prototype artifacts produced
+✔ Intake SOPs approved
+✔ Analytics requirements documented
+
+---
+
+## 📅 July 2026 — **Beta Governance & Summit Prep**
+
+**Strategic Objectives**
+
+* Refine Governance OS with beta feedback.
+* Prepare for Ubuntuwa Commons Summit.
+* Continue second wave hiring.
+
+**Focus Areas**
+
+* OS enhancements
+* Summit content & logistics
+* Hiring calibration
+
+**Key Deliverables**
+
+* Beta refinement plan
+* Summit agenda narrative
+* Second wave candidate shortlist
+
+**Success Metrics**
+✔ Beta progress tracked
+✔ Summit agenda finalized
+✔ Hiring shortlist refined
+
+---
+
+## 📅 August 2026 — **Client Cooperative Launch & Onboarding**
+
+**Strategic Objectives**
+
+* File and launch first client cooperatives.
+* Execute onboarding sessions and support tooling.
+
+**Focus Areas**
+
+* Cooperative filings
+* Client onboarding playbooks
+* Governance adoption
+
+**Key Deliverables**
+
+* Client coops filed (Nandi, Wolof.io, Dogon)
+* Onboarding sessions delivered
+* SOP adoption checklists
+
+**Success Metrics**
+✔ Filing confirmations
+✔ Onboarding completion status
+✔ Governance adoption indicators
+
+---
+
+## 📅 September 2026 — **Adoption Acceleration & Equity Tooling**
+
+**Strategic Objectives**
+
+* Focus on cooperative adoption and equity tooling design.
+* Begin compliance review scaffolding.
+
+**Focus Areas**
+
+* Adoption workshops
+* Equity DC → Equity design
+* Analytics refinement
+
+**Key Deliverables**
+
+* Adoption workshop plans
+* Equity tooling specs
+* Analytics dashboards FF
+
+**Success Metrics**
+✔ Adoption benchmarks set
+✔ Equity workflow design draft
+✔ Analytics draft approval
+
+---
+
+## 📅 October 2026 — **Premium Features & Ubuntuwa Commons Summit**
+
+**Strategic Objectives**
+
+* Deliver premium Governance OS features.
+* Host Ubuntuwa Commons Summit.
+* Draft revenue & capital policies.
+
+**Focus Areas**
+
+* OS premium modules
+* Summit execution
+* Policy refinement
+
+**Key Deliverables**
+
+* Premium OS feature backlog closed
+* Summit executed
+* Revenue/Capital policy drafts
+
+**Success Metrics**
+✔ Feature delivery milestones hit
+✔ Summit participation & outcomes
+✔ Policy drafts published
+
+---
+
+## 📅 November 2026 — **Compliance, Retention, & Risk**
+
+**Strategic Objectives**
+
+* Run compliance audits.
+* Build client retention strategies.
+* Map risk and vulnerabilities.
+
+**Focus Areas**
+
+* Compliance scorecards
+* Retention action plans
+* Risk assessments
+
+**Key Deliverables**
+
+* Compliance review outputs
+* Retention plan
+* Risk templates
+
+**Success Metrics**
+✔ Compliance scores
+✔ Client retention plans
+✔ Risk assessment artifacts
+
+---
+
+## 📅 December 2026 — **Year-End Close & OGD v1.0 Release**
+
+**Strategic Objectives**
+
+* Publish OGD v1.0.
+* Deliver year-end financial & governance reports.
+* Define Year-2 roadmap and team plans.
+
+**Focus Areas**
+
+* OGD finalization
+* Financial close
+* Team calibration + Year-2 kickoff
+
+**Key Deliverables**
+
+* OGD v1.0 published
+* Annual financial report
+* Year-2 strategy & narrative
+
+**Success Metrics**
+✔ OGD v1.0 release
+✔ Financial & governance year-end reports
+✔ Year-2 roadmap confirmed
+
+---
+
+## 🧠 Summary Table
+
+| Month | Theme             | Strategic Focus                  | Milestone            |
+| ----- | ----------------- | -------------------------------- | -------------------- |
+| Jan   | Foundation        | Charter & OGD start              | FMID v0.1            |
+| Feb   | Legal & Hiring    | Estate filings, steward pipeline | Filings submitted    |
+| Mar   | OGD + Stewards    | Narrative + steward prep         | Stewards shortlisted |
+| Apr   | Orientation       | Legal confirmations              | Orientation sessions |
+| May   | Capital & Policy  | Governance OS plan               | Policy drafts        |
+| Jun   | OS Prototype      | Analytics design                 | Prototype spec       |
+| Jul   | Beta & Summit     | OS refinement                    | Summit agenda        |
+| Aug   | Client Launch     | Coop filings, onboarding         | Coop live            |
+| Sep   | Adoption & Equity | Workshops + equity tooling       | Adoption plans       |
+| Oct   | Premium + Summit  | Feature delivery                 | Summit executed      |
+| Nov   | Compliance        | Audit + risk                     | Compliance reviews   |
+| Dec   | Close & Release   | OGD v1.0 + Year-2                | OGD published        |
+
+---
+
+If you’d like, I can also generate:
+
+📌 **Printable Monthly Planner**
+📌 **Notion Template for Monthly Plans**
+📌 **Mermaid Timeline Visualization**
+
+Just tell me which format you want!
+

@@ -63,6 +63,25 @@ ashe cycle:
         ubunye engineering group cop (a.k.a. DESEF dominic eaton systems engineering firm)
         umoya society coop
         obatala venture capital studios coop OVCS+studios
+            studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator
+            Creator Studio[s]
+            ├── Makerspace
+            │   ├── Wood
+            │   ├── Metal
+            │   ├── Textiles
+            │   └── Crafts
+            ├── Fablab
+            │   ├── 3D Printing
+            │   ├── Laser
+            │   └── CNC / CAM
+            ├── Hackerspace
+            │   ├── Software
+            │   ├── Electronics
+            │   └── Simulation
+            ├── Techshop
+            │   └── Manufacturing
+            └── IDEA Lab
+                └── Idea → Prototype → MVP
         kumba metafactory franchise coop
         12 ventures coops + 7 platforms + projects:
             nandi mobility company coop

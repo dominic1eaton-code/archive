@@ -1,0 +1,4 @@
+%{
+  "mix-erlang-tasks": {:git, "git://github.com/alco/mix-erlang-tasks.git", "3d6b27da522206ca807bfded5f45d023b234350a", []},
+  "mix_erlang_tasks": {:hex, :mix_erlang_tasks, "0.1.0", "36819fec60b80689eb1380938675af215565a89320a9e29c72c70d97512e4649", [:mix], [], "hexpm", "95d2839c422c482a70c08a8702da8242f86b773f8ab6e8602a4eb72da8da04ed"},
+}

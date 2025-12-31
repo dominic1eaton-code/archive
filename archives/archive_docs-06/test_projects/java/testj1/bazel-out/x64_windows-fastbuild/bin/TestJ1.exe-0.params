@@ -1,0 +1,8 @@
+binary_type=Java
+workspace_name=_main
+symlink_runfiles_enabled=0
+java_bin_path=rules_java++toolchains+local_jdk/bin/java.exe
+java_start_class=com.example.TestJ1
+classpath=TestJ1.jar
+jvm_flags=
+jar_bin_path=../rules_java++toolchains+local_jdk/bin/jar.exe

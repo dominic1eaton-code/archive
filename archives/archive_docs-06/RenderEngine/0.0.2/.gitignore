@@ -1,0 +1,11 @@
+# directories
+build/
+install/
+
+# environments
+.vs
+.vscode
+
+# files
+CMakeSettings.json
+*.pdb

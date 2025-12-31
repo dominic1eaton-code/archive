@@ -52,128 +52,139 @@ the table should be a single, continuous table, grouped by WBSs
 
 
 I would like all the WBSs that allow for this entire cycle to be booted up, live and minimal viably staffed within year 1:
-ashe cycle:
-    coops, coop classes, coop members
-        boards, councils, members, partners, stewards, committees
-        | Class       | Core Identity                          |
-        | ----------- | -------------------------------------- |
-        | **Class A** | Worker-Members (Hires / Operators)     |
-        | **Class B** | Steward-Members (Strategic Partners)   |
-        | **Class C** | Governance-Members (Board)             |
-        | **Class D** | Commons-Members (Council / Community)  |
-        | **Class E** | Founder-Member (Navigator)             |
-        | **Class F** | Capital Participants (Non-Members)     |
-        | **Class G** | Future Members (Apprentices / Fellows) |
 
-    msingi cycle
-        6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
 
-    zawadi units:
-        LZU ≡ labor contribution dimension
-        TZU ≡ temporal dimension
-        VZU ≡ economic dimension
-        LGU ≡ legitimacy scalar
-        RSU ≡ risk scalar
-        CMU ≡ commons impact dimension
-        CPU ≡ capital stake dimension
-        DFU ≡ deferred claim dimension
-        GVU ≡ governance influence measure
-        AZU ≡ asset quantity dimension
+cycle => {kernel, seed, tree, forest}
+fundamental cycle => {kernel cycle, seed cycle, tree cycle, forest cycle}
 
-    pamoja federation coop(s):
-        sankofa council (OVAC Operational & Value-Alignment Council)
-            Sankofa Stewardship - executive branch
-            Sankofa Assembly - legislative branch
-            Sankofa Tribunal - judicial branch
-            MALIYA treasury coop - treasuryDAO
-            jiwe distributed ledger OS solution platform
-        ubuntuwa Commons coops
-            - Ubuntuwa-NDAA
-            - Ubuntuwa-KUMBU
-            - Ubuntuwa-KANYE
-            - Ubuntuwa-NGOZI
-            - Ubuntuwa-MOYO
-            - Ubuntuwa-UMOYA
-            - Ubuntuwa-KANO
-            - Ubuntuwa-LUNGARA
-            - Ubuntuwa-ZULAMBA
-        ZULAMBA members coop
-        uhuru credit union coop
-        moyo collective coop
-        bahari network coop
-        ubunye engineering group coop (a.k.a. DESEF dominic eaton systems engineering firm)
-        umoya society coop
-        obatala venture capital studios coop OVCS+studios
-            studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator
-            Creator Studio[s]
-            ├── Makerspace
-            │   ├── Wood
-            │   ├── Metal
-            │   ├── Textiles
-            │   └── Crafts
-            ├── Fablab
-            │   ├── 3D Printing
-            │   ├── Laser
-            │   └── CNC / CAM
-            ├── Hackerspace
-            │   ├── Software
-            │   ├── Electronics
-            │   └── Simulation
-            ├── Techshop
-            │   └── Manufacturing
-            └── IDEA Lab
-                └── Idea → Prototype → MVP
-        kumba metafactory franchise coop
-            12 ventures coops + 7 platforms + projects:
-                nandi mobility company coop
-                    nandi mobility+intelligent transportation/infrastructure OS solution platform
-                wolof.io independent worker economy management firm coop
-                    kogi independent worker economy OS solution platform
-                dogon manufacturing company coop
-                    imewe digital fabrication system OS solution platform
-                azande software agency coop
-                    qala software factory OS solution platform
-                lomwe systems engineering firm coop
-                    oru simulation development kit OS solution platform
-                damara enterprise engineering firm coop
-                    ume general purpose organization/business/enterprise/entity OS solution platform
-                niguvu corporation coop
-                    sambara AI OS solution platform
-                san environmental and civilization engineering firm coop
-                massai media group coop
-                mande investment group coop
-                    venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
-                    investment funds+portfolios
-                    real estate, easements
-                    stocks/equity/bonds/debts/assets/capital
-                    estate+wealth+offices+portfolio+investment management
-                batwa foundation urban community development centers franchise coop
-                    Maafa Reparations Fund (Restricted Trust)
-                    Takiya Fund (Victims & Families Trust)
-                    Freedman’s credit union Federation (Member-Owned)
-                    Batwa urban Community Development Trust
-                    Community Land Trust (CLT)
-                    Cooperative Holding Co-op
-                    Program NPOs
-                        heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
-                        Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
-                        Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
-                        Zulu financial literacy program
-                        khoi urban community education, training and work program
-                        ndebele maafa and BLM memorials program
-                        shona urban community development governance, civic and political engagement program
-                        mizizi urban platform OS co-op program
-                songhai institue of systemics and systemology coop
-                    the mungu project
-                    the meridian project
-                    systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
-                    programming and research: complex systems, systems theory, complex adaptive/autonomous systems
-                    research labs, training facilities, centers/academics/schools/colleges
+the mungu cycle:
+    members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
+        ashe kernel seed
+            ashe forest
+                ashe seed(s) -> ashe tree(s) -> ashe cycle(s)
+                    the ashe-msingi-pamoja cycle:
+                        jiwe (artifact/archive/distributed-ledger) seed
+                        coops, coop classes, coop members
+                            boards, councils, members, partners, stewards, committees
+                            | Class       | Core Identity                          |
+                            | ----------- | -------------------------------------- |
+                            | **Class A** | Worker-Members (Hires / Operators)     |
+                            | **Class B** | Steward-Members (Strategic Partners)   |
+                            | **Class C** | Governance-Members (Board)             |
+                            | **Class D** | Commons-Members (Council / Community)  |
+                            | **Class E** | Founder-Member (Navigator)             |
+                            | **Class F** | Capital Participants (Non-Members)     |
+                            | **Class G** | Future Members (Apprentices / Fellows) |
 
-    estates and offices:
-        The Eaton Family Estate and Offices coop:
-            THe Dominic Eaton Estate (navigator personal estate)
-            The Dominic Eaton Software Engineering Firm (navigator personal office)
+                        msingi cycle
+                            6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
+
+                        zawadi units:
+                            LZU ≡ labor contribution dimension
+                            TZU ≡ temporal dimension
+                            VZU ≡ economic dimension
+                            LGU ≡ legitimacy scalar
+                            RSU ≡ risk scalar
+                            CMU ≡ commons impact dimension
+                            CPU ≡ capital stake dimension
+                            DFU ≡ deferred claim dimension
+                            GVU ≡ governance influence measure
+                            AZU ≡ asset quantity dimension
+
+                        pamoja federation coop(s):
+                            sankofa council (OVAC Operational & Value-Alignment Council)
+                                Sankofa Stewardship - executive branch
+                                Sankofa Assembly - legislative branch
+                                Sankofa Tribunal - judicial branch
+                                MALIYA treasury coop - treasuryDAO
+                                jiwe distributed ledger OS solution platform
+                            ubuntuwa Commons coops
+                                - Ubuntuwa-NDAA
+                                - Ubuntuwa-KUMBU
+                                - Ubuntuwa-KANYE
+                                - Ubuntuwa-NGOZI
+                                - Ubuntuwa-MOYO
+                                - Ubuntuwa-UMOYA
+                                - Ubuntuwa-KANO
+                                - Ubuntuwa-LUNGARA
+                                - Ubuntuwa-ZULAMBA
+                            ZULAMBA members coop
+                            uhuru credit union coop
+                            moyo collective coop
+                            bahari network coop
+                            ubunye engineering group coop (a.k.a. DESEF dominic eaton systems engineering firm)
+                            umoya society coop
+                            obatala venture capital studios coop OVCS+studios
+                                studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator
+                                Creator Studio[s]
+                                ├── Makerspace
+                                │   ├── Wood
+                                │   ├── Metal
+                                │   ├── Textiles
+                                │   └── Crafts
+                                ├── Fablab
+                                │   ├── 3D Printing
+                                │   ├── Laser
+                                │   └── CNC / CAM
+                                ├── Hackerspace
+                                │   ├── Software
+                                │   ├── Electronics
+                                │   └── Simulation
+                                ├── Techshop
+                                │   └── Manufacturing
+                                └── IDEA Lab
+                                    └── Idea → Prototype → MVP
+                            kumba metafactory franchise coop
+                                12 ventures coops + 7 platforms + projects:
+                                    nandi mobility company coop
+                                        nandi mobility+intelligent transportation/infrastructure OS solution platform
+                                    wolof.io independent worker economy management firm coop
+                                        kogi independent worker economy OS solution platform
+                                    dogon manufacturing company coop
+                                        imewe digital fabrication system OS solution platform
+                                    azande software agency coop
+                                        qala software factory OS solution platform
+                                    lomwe systems engineering firm coop
+                                        oru simulation development kit OS solution platform
+                                    damara enterprise engineering firm coop
+                                        ume general purpose organization/business/enterprise/entity OS solution platform
+                                    niguvu corporation coop
+                                        sambara AI OS solution platform
+                                    san environmental and civilization engineering firm coop
+                                    massai media group coop
+                                    mande investment group coop
+                                        venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
+                                        investment funds+portfolios
+                                        real estate, easements
+                                        stocks/equity/bonds/debts/assets/capital
+                                        estate+wealth+offices+portfolio+investment management
+                                    batwa foundation urban community development centers franchise coop
+                                        Maafa Reparations Fund (Restricted Trust)
+                                        Takiya Fund (Victims & Families Trust)
+                                        Freedman’s credit union Federation (Member-Owned)
+                                        Batwa urban Community Development Trust
+                                        Community Land Trust (CLT)
+                                        Cooperative Holding Co-op
+                                        Program NPOs
+                                            heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
+                                            Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
+                                            Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
+                                            Zulu financial literacy program
+                                            khoi urban community education, training and work program
+                                            ndebele maafa and BLM memorials program
+                                            shona urban community development governance, civic and political engagement program
+                                            mizizi urban platform OS co-op program
+                                    songhai institue of systemics and systemology coop
+                                        the mungu project
+                                        the meridian project
+                                        systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
+                                        programming and research: complex systems, systems theory, complex adaptive/autonomous systems
+                                        research labs, training facilities, centers/academics/schools/colleges
+
+                        estates and offices:
+                            The Eaton Family Estate and Offices coop (member group estate):
+                                THe Dominic Eaton Estate (navigator personal estate) (member estate)
+                                    The Dominic Eaton Software Engineering Firm (navigator personal office)
 
 
 

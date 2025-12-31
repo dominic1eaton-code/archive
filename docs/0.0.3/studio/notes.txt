@@ -68,7 +68,25 @@ ashe cycle:
     msingi cycle
         6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
 
+    zawadi units:
+        LZU ≡ labor contribution dimension
+        TZU ≡ temporal dimension
+        VZU ≡ economic dimension
+        LGU ≡ legitimacy scalar
+        RSU ≡ risk scalar
+        CMU ≡ commons impact dimension
+        CPU ≡ capital stake dimension
+        DFU ≡ deferred claim dimension
+        GVU ≡ governance influence measure
+        AZU ≡ asset quantity dimension
+
     pamoja federation coop(s):
+        sankofa council (OVAC Operational & Value-Alignment Council)
+            Sankofa Stewardship - executive branch
+            Sankofa Assembly - legislative branch
+            Sankofa Tribunal - judicial branch
+            MALIYA treasury coop - treasuryDAO
+            jiwe distributed ledger OS solution platform
         ubuntuwa Commons coops
             - Ubuntuwa-NDAA
             - Ubuntuwa-KUMBU

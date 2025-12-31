@@ -1,0 +1,37 @@
+/**
+ * @brief 
+ */
+
+new
+
+
+create
+create database
+create collection
+create shard
+create partition
+create device
+create system
+create record
+
+update
+update record
+
+read
+read record
+
+remove
+remove record
+
+edit
+
+view
+
+add
+
+
+connect
+
+register
+
+[operations]

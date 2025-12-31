@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
+    <mxGraphModel dx="1358" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="3d76a8aef4d5c911-1" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;whiteSpace=wrap;rounded=0;fontSize=12;align=center;strokeColor=#651084;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="1150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-2" value="Dashboard" style="html=1;shadow=0;dashed=0;fillColor=#662385;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#e3e3e3;fontSize=14;whiteSpace=wrap;labelBackgroundColor=none;labelBorderColor=none;opacity=40;fontFamily=Helvetica;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-7" value="Application" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#e3e3e3;whiteSpace=wrap;fontFamily=Helvetica;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry x="402.5" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-8" value="Settings" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#e3e3e3;whiteSpace=wrap;fontFamily=Helvetica;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry x="517.5" width="100.625" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-9" value="Admin" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#dedede;whiteSpace=wrap;fontFamily=Helvetica;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry x="970" width="100.625" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3d76a8aef4d5c911-10" value="Log Out" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#dedede;whiteSpace=wrap;fontFamily=Helvetica;" parent="3d76a8aef4d5c911-1" vertex="1">
+          <mxGeometry x="1070" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzZcbNyKEAAtNvHYuRZo-2" value="Organization" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#e3e3e3;whiteSpace=wrap;fontFamily=Helvetica;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="260" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzZcbNyKEAAtNvHYuRZo-4" value="Entity" style="html=1;shadow=0;dashed=0;fillColor=none;strokeColor=none;shape=mxgraph.bootstrap.rect;fontColor=#e3e3e3;whiteSpace=wrap;fontFamily=Helvetica;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="120" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzZcbNyKEAAtNvHYuRZo-5" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;opacity=90;strokeWidth=2;strokeColor=#71236f;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="640" y="10" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HzZcbNyKEAAtNvHYuRZo-6" value="Search" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="3d76a8aef4d5c911-1">
+          <mxGeometry x="640" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HzZcbNyKEAAtNvHYuRZo-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Home&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="320" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

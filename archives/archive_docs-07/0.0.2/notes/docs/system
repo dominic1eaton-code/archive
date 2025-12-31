@@ -1,0 +1,15 @@
+Systems
+
+- AgentSim:
+	dev-env-01
+		- nodes:
+			- development
+				- dev-01
+				- dev-02
+			- build
+				- build-01
+				- build-02
+			- operations 
+				- gitlab-01
+				- registry-01
+				- share-01

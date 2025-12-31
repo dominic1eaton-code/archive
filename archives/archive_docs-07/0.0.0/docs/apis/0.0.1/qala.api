@@ -1,0 +1,38 @@
+/**
+ * @brief SDE
+ */
+
+new
+
+
+create
+create package
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+
+
+[developer.api]
+project build
+project install
+project package
+project release
+project tag
+project generate
+project upload
+project dowload
+project analyze(sast)

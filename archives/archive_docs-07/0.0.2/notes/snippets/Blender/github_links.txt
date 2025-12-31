@@ -1,0 +1,100 @@
+
+GITHUB REPOSITORY LINKS 
+
+
+GENERAL:
+
+papers-we-love
+https://github.com/papers-we-love/papers-we-love/papers-we-love
+
+
+
+AI:
+
+AI Papers
+https://github.com/hugochan/AI-Papers
+
+Ai_Papers
+https://github.com/vlall/Ai-Papers
+
+AI-papers
+https://github.com/rupak-118/AI-papers
+
+Awesome Artificial Intelligence (AI) 
+https://github.com/owainlewis/awesome-artificial-intelligence
+
+Awesome AI Best Papers
+https://github.com/shunk031/awesome-ai-best-papers
+
+
+
+MACHINE LEARNING:
+
+Machine Learning Links and Lessons Learned
+https://github.com/adeshpande3/Machine-Learning-Links-And-Lessons-Learned
+
+Summaries of papers on deep learning
+https://github.com/abhshkdz/papers#all-papers
+
+Deep Reinforcement Learning Papers
+https://github.com/junhyukoh/deep-reinforcement-learning-papers#all-papers	
+
+Multi-task Machine Learning Paper List
+https://github.com/wchliao/multi-task-machine-learning-papers
+
+Transfer Learning & Multi-task Learning Papers
+https://github.com/lethienhoa/Transfer-Learning-Multi-task-Learning-Paper
+
+Adversarial Nets Papers
+https://github.com/zhangqianhui/AdversarialNetsPapers
+
+neural-network-papers
+https://github.com/robertsdionne/neural-network-papers
+
+Awesome Recurrent Neural Networks
+https://github.com/kjw0612/awesome-rnn
+
+really-awesome-gan
+https://github.com/nightrome/really-awesome-gan
+
+
+
+DLT:
+
+Awesome Cryptoeconomics 
+https://github.com/jpantunes/awesome-cryptoeconomics
+
+Blockchain Papers
+https://github.com/decrypto-org/blockchain-papers
+
+Blockchain and cryptocurrency Document Library
+https://github.com/bellaj/Blockchain
+
+
+
+CRYPTOGRAPHY:
+
+Awesome Crypto Papers 	
+https://github.com/pFarb/awesome-crypto-papers
+
+Awesome Cryptography 
+https://github.com/sobolevn/awesome-cryptography
+
+Cryptography
+https://github.com/papers-we-love/papers-we-love/tree/master/cryptography
+
+The Crypto Paper
+https://github.com/cryptoseb/CryptoPaper
+
+
+
+DISTRIBUTED SYSTEMS:
+
+awesome-distributed-systems
+https://github.com/theanalyst/awesome-distributed-systems
+
+Distributed Systems
+https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/README.md
+
+Awesome Distributed Systems
+https://github.com/rShetty/awesome-distributed-systems

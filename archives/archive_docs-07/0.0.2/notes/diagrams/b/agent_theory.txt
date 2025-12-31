@@ -1,0 +1,34 @@
+the theory of agent
+
+
+characteristics:
+- complexity
+- distinction
+- duality
+	features
+		- simulation 
+		- memory
+		- change
+			- optimization
+			- evolution
+			- morphism
+				- the fundamental morphism; mapping
+		- metric
+
+the fundamental law of distinction
+- the ability of "agent" to be distinguished from that of "not agent"
+- existence
+	- base instance of the law of distinction
+	- the fundamental distinction
+	
+
+
+the fundamental principle of duality
+	-  the "question;answer" pair
+	-  the "agent; non agent" pair
+		- agent; environment
+		- system; individual
+
+
+the fundamental metric of complexity
+- 

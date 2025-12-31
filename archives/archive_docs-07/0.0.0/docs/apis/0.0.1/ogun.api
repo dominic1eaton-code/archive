@@ -1,0 +1,45 @@
+/**
+ * @brief graphics abstraction api library
+ */
+
+new
+
+
+create
+create primitive triange|square|circle|cube
+create mesh
+create model
+create light point|spot|directional
+create texture
+create image
+
+[vulkan]
+create buffer frame|swapchain|texture|storage|uniform|vertex|transfer
+create pipeline compute|graphics
+create instance
+create device logical|physical
+create frame
+
+
+create scene
+
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

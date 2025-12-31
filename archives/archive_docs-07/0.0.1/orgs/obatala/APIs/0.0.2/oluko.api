@@ -1,0 +1,12 @@
+/**
+ * @copyright
+ * @header
+ * @brief entity kernel, "evo-devo toolkit" development, management, administration system
+ * @note
+ */
+
+[create]
+create entity
+    create kernel
+
+

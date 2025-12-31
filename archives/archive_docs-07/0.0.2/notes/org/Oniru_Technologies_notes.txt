@@ -1,0 +1,25 @@
+[Oniru Technologies]
+
+Gaming and Entertainment
+subdivision Infrastructural Generation Tool <item Oniru Simulation>
+	portfolio Application Generation Software <item Oru Gaming and Rendering>:
+		program <Oru Platform>:
+			project <Oru Launcher>:
+			project <Oru Engine>:
+		program <Oru Games>:
+			project <SEED>:
+			project <LOCd>:
+			project <FulaVillage>:
+			project <Billiards>:
+	portfolio <Oru Multi Agent Simulation>:
+		program <Oru AI&ML>:
+	portfolio <Oniru Mobility Solutions>:
+		program Nzuko Agent
+		program <Nandi Mobility Agents Platform>:
+			project <Nandi Mobility AgentX>:
+				- vehicular retrofitting services
+				
+				
+subdivision Infrastructural Generation Tool <item 3D Printer>
+subdivision Infrastructural Generation Tool <item Plant Propogation System>
+

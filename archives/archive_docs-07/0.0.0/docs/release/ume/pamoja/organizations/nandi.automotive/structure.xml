@@ -1,0 +1,18 @@
+<departments>
+    <department>
+        <name>HR</mame>
+        <id>00000</id>
+    </department>
+    <department>
+        <name>marketing</mame>
+        <id>00001</id>
+    </department>
+    <department>
+        <name>engineering</mame>
+        <id>00002</id>
+    </department>
+    <department>
+        <name>technology</mame>
+        <id>00003</id>
+    </department>
+</departments>

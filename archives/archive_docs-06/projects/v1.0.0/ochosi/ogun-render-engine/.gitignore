@@ -1,0 +1,11 @@
+# @copyright
+# @brief
+# @note
+
+/build*
+/latex*
+/html*
+
+*.spv
+assets/**/*.spv
+/.vscode

@@ -1,0 +1,12 @@
+# @copyright
+# @brief
+# @note
+
+# directories
+/build*
+/latex*
+/html*
+
+# files
+*.spv
+assets/**/*.spv

@@ -1,0 +1,35 @@
+Folder PATH listing for volume DATA
+Volume serial number is BAB6-0F44
+D:.
+����.zig-cache
+�   ����h
+�   ����o
+�   �   ����1b70765bd799f8d2716d4a1a32f6596c
+�   �   ����24b11ede8cb2c052c18ac009fe73e62d
+�   �   ����7696bc6275ba2fdb0fdf4da0f2e025f4
+�   �   ����7ee48a66258982159a95a6e70924f09f
+�   �   ����c78d53dbb278ed4856dc86133e017b9a
+�   �   ����cfaf7a24095f5d89fc7e30798eca24da
+�   �   ����e778e2060fbc701ead6653cfc0206e24
+�   ����tmp
+�   ����z
+����src
+����zig-out
+    ����bin
+
+D:.
+├───.zig-cache
+│   ├───h
+│   ├───o
+│   │   ├───1b70765bd799f8d2716d4a1a32f6596c
+│   │   ├───24b11ede8cb2c052c18ac009fe73e62d
+│   │   ├───7696bc6275ba2fdb0fdf4da0f2e025f4
+│   │   ├───7ee48a66258982159a95a6e70924f09f
+│   │   ├───c78d53dbb278ed4856dc86133e017b9a
+│   │   ├───cfaf7a24095f5d89fc7e30798eca24da
+│   │   └───e778e2060fbc701ead6653cfc0206e24
+│   ├───tmp
+│   └───z
+├───src
+└───zig-out
+    └───bin

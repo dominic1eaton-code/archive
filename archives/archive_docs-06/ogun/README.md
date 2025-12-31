@@ -1,0 +1,1 @@
+# Template cmake project

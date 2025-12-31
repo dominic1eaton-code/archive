@@ -1,0 +1,30 @@
+@echo off
+REM
+REM
+REM
+
+@REM SET MOUNT=D:
+@REM SET GLSL_COMPILER=%MOUNT%/global/VulkanSDK/1.3.296.0/Bin/glslc.exe
+@REM SET SHADER_NAME=default_lighting
+@REM SET SHADER_LIBRARY_PATH=%MOUNT%/dev/projects/v0.0.1/ogunv2/ogun/assets/shaders
+@REM SET SHADER_SET=lighting
+@REM set SHADER_TYPES=vert frag comp
+@REM @REM set SHADER_TYPES=vert frag comp
+
+@REM for %%a in (%SHADER_TYPES%) do (
+@REM     @REM echo %GLSL_COMPILER% %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a -o  %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a.spv
+@REM     %GLSL_COMPILER% %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a -o  %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a.spv
+@REM )
+
+SET MOUNT=D:
+SET GLSL_COMPILER=%MOUNT%/global/Vulkan/1.3.296.0/Bin/glslc.exe
+SET SHADER_NAME=test_primitive
+SET SHADER_LIBRARY_PATH=%MOUNT%/dev/projects/oguntestsandbox/assets/shaders
+SET SHADER_SET=primitive
+set SHADER_TYPES=vert frag
+@REM set SHADER_TYPES=vert frag tesc tese
+
+for %%a in (%SHADER_TYPES%) do (
+    echo %GLSL_COMPILER% %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a -o  %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a.spv
+    %GLSL_COMPILER% %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a -o  %SHADER_LIBRARY_PATH%/%SHADER_SET%/%SHADER_NAME%.%%a.spv
+)

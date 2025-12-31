@@ -1,0 +1,63 @@
+# HEADER_PLACEHOLDER
+cmake_minimum_required(VERSION 3.18)
+#-----------------------------------------------------------
+# @brief: Cmake project top level file
+# @note : N/A
+#-----------------------------------------------------------
+# Project components
+set(_logger Logger)
+set(_utility Utility)
+
+# add sub directories
+add_subdirectory(${_logger})
+
+
+#-----------------------------------------------------------
+#-----------------------------------------------------------
+#-----------------------------------------------------------
+# HEADER_PLACEHOLDER
+cmake_minimum_required(VERSION 3.18)
+#-----------------------------------------------------------
+# @brief: Cmake project file
+# @note : N/A
+#-----------------------------------------------------------
+include(GoogleTest)
+project(LoggerTest)
+
+# get unit test code source to be tested
+global_unit_test_library_source(
+    Logger
+)
+
+# unit test code
+set(UNIT_TEST_SOURCE
+    TestLogger.cpp
+)
+
+# get test data
+set(
+    UNIT_TEST_DATA
+)
+
+# create test executable
+global_unit_test(
+    ${PROJECT_NAME}
+    UNIT_TEST_CODE_SRC ${UNIT_TEST_CODE_SOURCE}
+    UNIT_TEST_SRC ${UNIT_TEST_SOURCE}
+    UNIT_TEST_DATA_SRC ${UNIT_TEST_DATA}
+)
+
+# link test libraries 
+global_unit_test_link_libraries(
+    LIBS_UNDER_TEST ${LIBRARIES_UNDER_TEST}
+)
+
+include_directories(${GTEST_INCLUDE_DIR})
+target_link_libraries(${PROJECT_NAME} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY})
+gtest_add_tests(TARGET ${PROJECT_NAME} WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
+# install test targets
+target_compile_features(${PROJECT_NAME} PUBLIC ${CPP_STD_VERSION})
+global_install(
+    ${PROJECT_NAME}
+)

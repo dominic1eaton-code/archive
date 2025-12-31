@@ -1,0 +1,6 @@
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/GoogleTestProject/CMakeFiles/Project1Lib.dir
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/GoogleTestProject/CMakeFiles/Project1Test.dir
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/GoogleTestProject/CMakeFiles/edit_cache.dir
+D:/dev/projects/GoogleTestProject/out/build/x64-debug/GoogleTestProject/CMakeFiles/rebuild_cache.dir

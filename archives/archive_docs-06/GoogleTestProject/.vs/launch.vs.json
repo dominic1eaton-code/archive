@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "",
+      "name": "CMakeLists.txt"
+    },
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Project1Lib.dll (GoogleTestProject\\Project1Lib.dll)",
+      "name": "Project1Lib.dll (GoogleTestProject\\Project1Lib.dll)"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "Project1Test.exe (GoogleTestProject\\Project1Test.exe)",
+      "name": "Project1Test.exe (GoogleTestProject\\Project1Test.exe)"
+    }
+  ]
+}

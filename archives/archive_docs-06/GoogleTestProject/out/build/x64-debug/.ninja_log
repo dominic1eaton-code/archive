@@ -1,0 +1,12 @@
+# ninja log v5
+4	1572	6993185974767729	GoogleTestProject/CMakeFiles/Project1Lib.dir/Project1.cpp.obj	ca91aee3d8e429df
+24	1323	6993188468983133	GoogleTestProject/CMakeFiles/Project1Test.dir/Project1.cpp.obj	751b1c9f2cd2ea00
+20	2865	6993188484746113	GoogleTestProject/CMakeFiles/Project1Test.dir/tests/main.cpp.obj	89969060cfb7ba7e
+7	365	6993185974767729	GoogleTestProject/Project1Lib.dll	6c2f10ab8e7c66ca
+7	365	6993185974767729	GoogleTestProject/Project1Lib.lib	6c2f10ab8e7c66ca
+7	2882	6993188484986428	GoogleTestProject/CMakeFiles/Project1Test.dir/tests/TestProject1.cpp.obj	92c97c1b55a825d1
+5	3041	6993189134229659	GoogleTestProject/Project1Test.exe	46b7e75e6300e0da
+189	4352	6993191667997885	GoogleTestProject/CMakeFiles/Project1Test.dir/Project1.cpp.obj	2d260b0f20c065b8
+175	6546	6993191691881736	GoogleTestProject/CMakeFiles/Project1Test.dir/tests/main.cpp.obj	d716f064851ac930
+93	6547	6993191692012019	GoogleTestProject/CMakeFiles/Project1Test.dir/tests/TestProject1.cpp.obj	10fe5eabdcf4d9e4
+6547	17791	6993191732800399	GoogleTestProject/Project1Test.exe	2a5de7c93536479e

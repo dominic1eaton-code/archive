@@ -8,3 +8,10 @@ git lfs migrate import --everything --above=100MB
 
 git add --renormalize .; git commit -am "update docs";git push origin main
 
+
+
+git config http.postBuffer 524288000
+git config --global core.longpaths true
+git config --system core.longpaths true
+git config core.longpaths
+

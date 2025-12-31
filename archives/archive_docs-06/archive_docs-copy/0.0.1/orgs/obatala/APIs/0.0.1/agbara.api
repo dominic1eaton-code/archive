@@ -1,0 +1,52 @@
+/**
+ * @brief job design,
+ *        role;responsibility;work actor;work force management,
+ *        work management system
+ */
+
+
+new
+
+
+create
+create role
+create responsibility
+create job
+create job description
+create job info
+create job code
+create position
+create actor
+create actor info
+create actor contact
+
+
+create type [type]
+create type manager
+create type lead
+create type designer
+create type member
+create type chair
+create type architect
+create type owner
+create type founder
+create type principle
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

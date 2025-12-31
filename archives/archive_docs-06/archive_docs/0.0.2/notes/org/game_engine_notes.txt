@@ -1,0 +1,55 @@
+# game engine
+
+
+
+
+games
+	- new game
+		- SEED
+		- LOC'D
+	- test games
+		- recreated test games
+			- 2D
+				- card games
+					- solitaire
+					- black jack
+					- poker
+					- rummy
+					- texas hold em
+				- maze games
+					- dig dug
+					- pacman
+			- 3D
+				- celtic village + third world farmer
+				
+		
+
+		
+game list
+	- pool
+	- solitaire 2D
+		- solitaire standard
+		- klondike
+		- spider
+		- free cell
+		- yukon
+		- golf
+		- napolean
+		- emperor
+		- canfield
+	- billiards
+		- 8 ball pool
+		- snooker
+	- (3rd world farmer + celtic village) 3D
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	F:\X\Simulator\SystemTool
+	F:\Shared\Projects\Software\dev\test\TestRenderEngine\main.cpp
+	D:\dev\projects\RenderEngine\0.0.1\src\Renderer\Graphics\Renderer.h

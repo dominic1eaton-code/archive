@@ -1,0 +1,26 @@
+<employee>
+    <name>
+        <title></title>
+        <honorific></honorific>
+        <first>Dominic</first>
+        <last>Eaton</last>
+        <alias></alias>
+    </name>
+    <id>000001</id>
+    <dob>
+        <month>october</month>
+        <day>18</day>
+        <year>1994</year>
+    </dob>
+    <location>
+        <country>united states</country>
+        <region></region>
+        <address>
+        </address>
+    </location>
+    <contact>
+        <social-media/>
+        <email/>
+        <phone/>
+    </contact>
+</employee>

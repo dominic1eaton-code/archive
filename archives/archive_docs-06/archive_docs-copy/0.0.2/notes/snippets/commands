@@ -1,0 +1,7 @@
+yaml-cpp
+cmake CC=$(which gcc) CXX=$(which g++) cmake -DBUILD_SHARED_LIBS=ON ..
+make
+make install
+g++ -L/opt/yaml-cpp-master/build -I/opt/yaml-cpp-master/include example.cpp -o example -lyaml-cpp
+LD_PRELOAD=/usr/local/lib/libyaml-cpp.so ./example
+

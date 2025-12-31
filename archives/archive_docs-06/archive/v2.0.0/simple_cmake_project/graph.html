@@ -1,0 +1,374 @@
+
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.9/standalone/umd/vis-network.min.js" integrity="sha512-iTgTmIgxyA2YehKNVbzLJx4j9SnuC5ihtRrtxVkXH/9nF3vXBN5YeNQp+6wufBWKD3u+roHVNOvWBMufQnBbug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <body>
+        <style>
+            @media print {
+                .noPrint {
+                    display: none;
+                }
+            }
+            .button {
+                background-color: #5555cc;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 18px;
+            }
+        </style>
+
+        <div style="display: grid; grid-template-columns: 75% 25%; grid-template-rows: 30px auto; height: 100vh;">
+            <div id="mylegend" style="background-color: lightgrey; grid-column-end: span 2;height: 100%"></div>
+            <div id="mynetwork"></div>
+            <div style="background-color: lightgrey;min-height:100%;height:0;overflow-y: auto;">
+                <div>
+                    <input type="checkbox" onchange="switchBuild()" id="show_build_requires" checked />
+                    <label for="show_build_requires">Show build-requires</label>
+                </div>
+                <div>
+                    <input type="checkbox" onchange="switchTest()" id="show_test_requires" checked />
+                    <label for="show_test_requires">Show test-requires</label>
+                </div>
+                <div>
+                    <input type="checkbox" onchange="collapsePackages()" id="collapse_packages"/>
+                    <label for="collapse_packages">Group packages</label>
+                </div>
+                 <div>
+                    <input type="checkbox" onchange="showPackageType()" id="show_package_type"/>
+                    <label for="show_package_type">Show package type</label>
+                </div>
+                 <div>
+                    <input type="search" placeholder="Search packages..." oninput="searchPackages(this)" onkeydown="onSearchKeyDown(event)">
+                </div>
+                 <div>
+                    <input type="search" placeholder="Exclude packages..." title="Add a comma to exclude an additional package" oninput="excludePackages(this)">
+                </div>
+                <div>
+                    <input type="checkbox" onchange="showhideclass('controls')" id="show_controls"/>
+                    <label for="show_controls">Show graph controls</label>
+                </div>
+                <div id="controls" class="controls" style="padding:5; display:none"></div>
+                <div id="details"  style="padding:10;" class="noPrint">Package info: Click on one package to show information</div>
+                <div id="error" style="padding:10;" class="noPrint"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            const graph_data = {"error": {"branch1": {"dst_id": "5", "require": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "vulkan-headers/1.4.313.0", "require": "vulkan-headers/1.4.313.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "src_id": "0", "src_ref": "None"}, "branch2": {"require": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "vulkan-headers/1.3.243.0", "require": "vulkan-headers/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": true, "transitive_libs": null, "visible": true}, "src_id": "7", "src_ref": "vulkan-validationlayers/1.3.243.0"}, "name": "vulkan-headers", "type": "conflict"}, "nodes": {"0": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {"1": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "zlib/1.3.1", "require": "zlib/1.3.1", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "10": {"build": false, "direct": false, "force": false, "headers": false, "libs": true, "package_id_mode": null, "ref": "spirv-tools/1.3.243.0", "require": "spirv-tools/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "2": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "eigen/5.0.1", "require": "eigen/5.0.1", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "3": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "glm/1.0.1", "require": "glm/1.0.1", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "4": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "vulkan-loader/1.4.313.0", "require": "vulkan-loader/1.4.313.0", "run": true, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "5": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "vulkan-headers/1.4.313.0", "require": "vulkan-headers/1.4.313.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "7": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "vulkan-validationlayers/1.3.243.0", "require": "vulkan-validationlayers/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "8": {"build": false, "direct": false, "force": false, "headers": false, "libs": false, "package_id_mode": null, "ref": "robin-hood-hashing/3.11.5", "require": "robin-hood-hashing/3.11.5", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "9": {"build": false, "direct": false, "force": false, "headers": false, "libs": false, "package_id_mode": null, "ref": "spirv-headers/1.3.243.0", "require": "spirv-headers/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}}, "deprecated": null, "description": null, "generators": ["CMakeDeps", "CMakeToolchain"], "generators_folder": null, "homepage": null, "id": "0", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "conanfile.txt", "languages": [], "license": null, "name": null, "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "unknown", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Consumer", "recipe_folder": null, "ref": "conanfile", "remote": null, "revision_mode": "hash", "rrev": null, "rrev_timestamp": null, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": null, "upload_policy": null, "url": null, "user": null, "vendor": false, "version": null, "win_bash": null, "win_bash_run": null}, "1": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"patches": {"1.3.1": [{"patch_description": "separate static/shared builds, disable debug suffix", "patch_file": "patches/1.3.1/0001-fix-cmake.patch", "patch_type": "conan"}]}, "sources": {"1.3.1": {"sha256": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23", "url": ["https://zlib.net/fossils/zlib-1.3.1.tar.gz", "https://github.com/madler/zlib/releases/download/v1.3.1/zlib-1.3.1.tar.gz"]}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": {"fPIC": true, "shared": false}, "dependencies": {}, "deprecated": null, "description": "A Massively Spiffy Yet Delicately Unobtrusive Compression Library (Also Free, Not to Mention Unencumbered by Patents)", "generators": [], "generators_folder": null, "homepage": "https://zlib.net", "id": "1", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "zlib/1.3.1", "languages": [], "license": "Zlib", "name": "zlib", "options": {"shared": "False"}, "options_definitions": {"shared": ["True", "False"]}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "static-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\zlib204752602052d\\e", "ref": "zlib/1.3.1#b8bc2603263cf7eccbd6e17e66b0ed76", "remote": null, "revision_mode": "hash", "rrev": "b8bc2603263cf7eccbd6e17e66b0ed76", "rrev_timestamp": 1733936244.862, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["zlib", "compression"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.3.1", "win_bash": null, "win_bash_run": null}, "10": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"1.3.243.0": {"sha256": "684a29e37bfdc6e151fe1d3ec4b87c5396c17a439de545d81ea05d4ee6fbc86e", "url": "https://github.com/KhronosGroup/SPIRV-Tools/archive/refs/tags/sdk-1.3.243.0.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": {"build_executables": true, "fPIC": true, "shared": false}, "dependencies": {"11": {"build": true, "direct": true, "force": false, "headers": false, "libs": false, "package_id_mode": null, "ref": "cmake/3.31.9", "require": "cmake/[\u003e=3.17.2 \u003c4]", "run": true, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": false}, "9": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "spirv-headers/1.3.243.0", "require": "spirv-headers/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}}, "deprecated": null, "description": "Create and optimize SPIRV shaders", "generators": [], "generators_folder": null, "homepage": "https://github.com/KhronosGroup/SPIRV-Tools/", "id": "10", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "spirv-tools/1.3.243.0", "languages": [], "license": "Apache-2.0", "name": "spirv-tools", "options": {"build_executables": "True", "shared": "False"}, "options_definitions": {"build_executables": ["True", "False"], "shared": ["True", "False"]}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "static-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\spirva4930cfb77f29\\e", "ref": "spirv-tools/1.3.243.0#f906ab20cc9aa085422b23369f093c21", "remote": null, "revision_mode": "hash", "rrev": "f906ab20cc9aa085422b23369f093c21", "rrev_timestamp": 1749650573.064, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["spirv", "spirv-v", "vulkan", "opengl", "opencl", "hlsl", "khronos"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.3.243.0", "win_bash": null, "win_bash_run": null}, "11": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"3.31.9": {"Linux": {"armv8": {"sha256": "09b7127b09e3d3ed5fa894f4e59f6a01112f267da6acc4249e46dba97b14afcb", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-linux-aarch64.tar.gz"}, "x86_64": {"sha256": "312d78e0b7c5c9b4a97a87a46c3e525aa84895fe8135c238c4616bba73dc9518", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-linux-x86_64.tar.gz"}}, "Macos": {"universal": {"sha256": "709726f0c10c5b5255e9eeee2ac586cdaf7595b0070c7f35def15b1a38fa0c95", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-macos10.10-universal.tar.gz"}}, "Windows": {"armv8": {"sha256": "45b319a85083cedb4e9e0ecc38c2747cdfde19954e645fd2137370e03c4b333a", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-windows-arm64.zip"}, "x86_64": {"sha256": "dc16867d0c0ffb35026976aff119335d5b47def44e76ae82ffafdc1f98b3d59d", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-windows-x86_64.zip"}}}}}, "conf_info": {}, "context": "build", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "CMake, the cross-platform, open-source build system.", "generators": [], "generators_folder": null, "homepage": "https://github.com/Kitware/CMake", "id": "11", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "cmake/3.31.9", "languages": [], "license": "BSD-3-Clause", "name": "cmake", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "application", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\cmake83c9bec9dc5ef\\e", "ref": "cmake/3.31.9#f9b9bb4bdfa37937619a33e9218703a6", "remote": null, "revision_mode": "hash", "rrev": "f9b9bb4bdfa37937619a33e9218703a6", "rrev_timestamp": 1761647880.115, "settings": {"arch": "x86_64", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["build", "installer"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "3.31.9", "win_bash": null, "win_bash_run": null}, "2": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"5.0.1": {"sha256": "e4de6b08f33fd8b8985d2f204381408c660bffa6170ac65b68ae1bd3cd575c0a", "url": "https://gitlab.com/libeigen/eigen/-/archive/5.0.1/eigen-5.0.1.tar.bz2"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": {"MPL2_only": false}, "dependencies": {}, "deprecated": null, "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.", "generators": [], "generators_folder": null, "homepage": "http://eigen.tuxfamily.org", "id": "2", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "eigen/5.0.1", "languages": [], "license": "MPL-2.0", "name": "eigen", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "header-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\eigenca109aab8d617\\e", "ref": "eigen/5.0.1#ceac4c62a715813690dc13d666e29fbc", "remote": null, "revision_mode": "hash", "rrev": "ceac4c62a715813690dc13d666e29fbc", "rrev_timestamp": 1763461594.306, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["algebra", "linear-algebra", "matrix", "vector", "numerical", "header-only"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "5.0.1", "win_bash": null, "win_bash_run": null}, "3": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"1.0.1": {"sha256": "9A995DE4DA09723BD33EF194E6B79818950E5A8F2E154792F02E4615277CFB8D", "url": "https://github.com/g-truc/glm/releases/download/1.0.1/glm-1.0.1-light.zip"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "OpenGL Mathematics (GLM)", "generators": [], "generators_folder": null, "homepage": "https://github.com/g-truc/glm", "id": "3", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "glm/1.0.1", "languages": [], "license": "MIT", "name": "glm", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "header-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\glmb1c198329d2c2\\e", "ref": "glm/1.0.1#94392c53a527f7d830119b84fe80c754", "remote": null, "revision_mode": "hash", "rrev": "94392c53a527f7d830119b84fe80c754", "rrev_timestamp": 1713951421.775, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["glm", "opengl", "mathematics"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.0.1", "win_bash": null, "win_bash_run": null}, "4": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"1.4.313.0": {"sha256": "c736fa79d974c3513f5573b74249ed002aab59f1d15d1c13fc1d00644830869a", "url": "https://github.com/KhronosGroup/Vulkan-Loader/archive/vulkan-sdk-1.4.313.0.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": {"with_wsi_directfb": false, "with_wsi_wayland": true, "with_wsi_xcb": true, "with_wsi_xlib": true}, "dependencies": {"5": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "vulkan-headers/1.4.313.0", "require": "vulkan-headers/1.4.313.0", "run": false, "skip": false, "test": false, "transitive_headers": true, "transitive_libs": null, "visible": true}, "6": {"build": true, "direct": true, "force": false, "headers": false, "libs": false, "package_id_mode": null, "ref": "cmake/3.31.9", "require": "cmake/[\u003e=3.17.2 \u003c4.0]", "run": true, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": false}}, "deprecated": null, "description": "Khronos official Vulkan ICD desktop loader for Windows, Linux, and MacOS.", "generators": [], "generators_folder": null, "homepage": "https://github.com/KhronosGroup/Vulkan-Loader", "id": "4", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "vulkan-loader/1.4.313.0", "languages": [], "license": "Apache-2.0", "name": "vulkan-loader", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "shared-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\vulka97957cde5c53c\\e", "ref": "vulkan-loader/1.4.313.0#7c6ffad754f94cc11f946badcf0a5034", "remote": null, "revision_mode": "hash", "rrev": "7c6ffad754f94cc11f946badcf0a5034", "rrev_timestamp": 1749666350.45, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["vulkan", "loader", "desktop", "gpu"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.4.313.0", "win_bash": null, "win_bash_run": null}, "5": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"1.4.313.0": {"sha256": "20743c99a96c07290f24377360e7a12bdd2c465ba202e0c7ef2ec25d446cf61d", "url": "https://github.com/KhronosGroup/Vulkan-Headers/archive/refs/tags/vulkan-sdk-1.4.313.0.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "Vulkan Header files.", "generators": [], "generators_folder": null, "homepage": "https://github.com/KhronosGroup/Vulkan-Headers", "id": "5", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "vulkan-headers/1.4.313.0", "languages": [], "license": "Apache-2.0", "name": "vulkan-headers", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "header-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\vulka67bc6599f4bd5\\e", "ref": "vulkan-headers/1.4.313.0#83efc4aabdbe58d53aeae9494a720f7e", "remote": null, "revision_mode": "hash", "rrev": "83efc4aabdbe58d53aeae9494a720f7e", "rrev_timestamp": 1747979764.107, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["vulkan-headers", "vulkan"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.4.313.0", "win_bash": null, "win_bash_run": null}, "6": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"3.31.9": {"Linux": {"armv8": {"sha256": "09b7127b09e3d3ed5fa894f4e59f6a01112f267da6acc4249e46dba97b14afcb", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-linux-aarch64.tar.gz"}, "x86_64": {"sha256": "312d78e0b7c5c9b4a97a87a46c3e525aa84895fe8135c238c4616bba73dc9518", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-linux-x86_64.tar.gz"}}, "Macos": {"universal": {"sha256": "709726f0c10c5b5255e9eeee2ac586cdaf7595b0070c7f35def15b1a38fa0c95", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-macos10.10-universal.tar.gz"}}, "Windows": {"armv8": {"sha256": "45b319a85083cedb4e9e0ecc38c2747cdfde19954e645fd2137370e03c4b333a", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-windows-arm64.zip"}, "x86_64": {"sha256": "dc16867d0c0ffb35026976aff119335d5b47def44e76ae82ffafdc1f98b3d59d", "url": "https://cmake.org/files/v3.31/cmake-3.31.9-windows-x86_64.zip"}}}}}, "conf_info": {}, "context": "build", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "CMake, the cross-platform, open-source build system.", "generators": [], "generators_folder": null, "homepage": "https://github.com/Kitware/CMake", "id": "6", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "cmake/3.31.9", "languages": [], "license": "BSD-3-Clause", "name": "cmake", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "application", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\cmake83c9bec9dc5ef\\e", "ref": "cmake/3.31.9#f9b9bb4bdfa37937619a33e9218703a6", "remote": null, "revision_mode": "hash", "rrev": "f9b9bb4bdfa37937619a33e9218703a6", "rrev_timestamp": 1761647880.115, "settings": {"arch": "x86_64", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["build", "installer"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "3.31.9", "win_bash": null, "win_bash_run": null}, "7": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"patches": {"1.3.243.0": [{"patch_description": "CMake: Adapt to conan", "patch_file": "patches/1.3.243.0-0001-fix-cmake.patch", "patch_type": "conan"}]}, "sources": {"1.3.243.0": {"sha256": "fd9f6c24027de177b2fb0eb6385542d62f4c21665a8d4cc7e1c118688e0836de", "url": "https://github.com/KhronosGroup/Vulkan-ValidationLayers/archive/refs/tags/sdk-1.3.243.0.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": {"fPIC": true, "with_wsi_wayland": true, "with_wsi_xcb": true, "with_wsi_xlib": true}, "dependencies": {"10": {"build": false, "direct": true, "force": false, "headers": true, "libs": true, "package_id_mode": null, "ref": "spirv-tools/1.3.243.0", "require": "spirv-tools/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "8": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "robin-hood-hashing/3.11.5", "require": "robin-hood-hashing/3.11.5", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}, "9": {"build": false, "direct": true, "force": false, "headers": true, "libs": false, "package_id_mode": null, "ref": "spirv-headers/1.3.243.0", "require": "spirv-headers/1.3.243.0", "run": false, "skip": false, "test": false, "transitive_headers": null, "transitive_libs": null, "visible": true}}, "deprecated": null, "description": "Khronos official Vulkan validation layers for Windows, Linux, Android, and MacOS.", "generators": [], "generators_folder": null, "homepage": "https://github.com/KhronosGroup/Vulkan-ValidationLayers", "id": "7", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "vulkan-validationlayers/1.3.243.0", "languages": [], "license": "Apache-2.0", "name": "vulkan-validationlayers", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "static-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\vulka3b9e8a18e5b6e\\e", "ref": "vulkan-validationlayers/1.3.243.0#3e044982a0167284f0a9ee63bfa18597", "remote": null, "revision_mode": "hash", "rrev": "3e044982a0167284f0a9ee63bfa18597", "rrev_timestamp": 1760691927.516, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["vulkan", "validation-layers"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.3.243.0", "win_bash": null, "win_bash_run": null}, "8": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"patches": {"3.11.5": [{"patch_description": "Add missing stdint include", "patch_file": "patches/3.11.5-0001-fix-missing-stdint-include.patch", "patch_type": "portability"}]}, "sources": {"3.11.5": {"sha256": "3693e44dda569e9a8b87ce8263f7477b23af448a3c3600c8ab9004fe79c20ad0", "url": "https://github.com/martinus/robin-hood-hashing/archive/refs/tags/3.11.5.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "Faster and more efficient replacement for std::unordered_map / std::unordered_set", "generators": [], "generators_folder": null, "homepage": "https://github.com/martinus/robin-hood-hashing", "id": "8", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "robin-hood-hashing/3.11.5", "languages": [], "license": "MIT", "name": "robin-hood-hashing", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "header-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\robinbb55dfcefc1a3\\e", "ref": "robin-hood-hashing/3.11.5#4e5dae5321e7ad26a181dd91bfe386cb", "remote": null, "revision_mode": "hash", "rrev": "4e5dae5321e7ad26a181dd91bfe386cb", "rrev_timestamp": 1749477876.929, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["robin-hood-hashing", "header-only", "containers"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "3.11.5", "win_bash": null, "win_bash_run": null}, "9": {"author": null, "binary": null, "binary_remote": null, "build_folder": null, "build_id": null, "build_policy": null, "channel": null, "conandata": {"sources": {"1.3.243.0": {"sha256": "16927b1868e7891377d059cd549484e4158912439cf77451ae7e01e2a3bcd28b", "url": "https://github.com/KhronosGroup/SPIRV-Headers/archive/refs/tags/sdk-1.3.243.0.tar.gz"}}}, "conf_info": {}, "context": "host", "cpp_info": {"root": {"bindirs": ["bin"], "builddirs": null, "cflags": null, "cxxflags": null, "defines": null, "exe": null, "exelinkflags": null, "frameworkdirs": null, "frameworks": null, "includedirs": ["include"], "languages": null, "libdirs": ["lib"], "libs": null, "link_location": null, "location": null, "objects": null, "properties": null, "requires": null, "resdirs": null, "sharedlinkflags": null, "sources": null, "srcdirs": null, "sysroot": null, "system_libs": null, "type": null}}, "default_options": null, "dependencies": {}, "deprecated": null, "description": "Header files for the SPIRV instruction set.", "generators": [], "generators_folder": null, "homepage": "https://github.com/KhronosGroup/SPIRV-Headers", "id": "9", "immutable_package_folder": null, "info_invalid": null, "invalid_build": false, "label": "spirv-headers/1.3.243.0", "languages": [], "license": "MIT-KhronosGroup", "name": "spirv-headers", "options": {}, "options_definitions": {}, "options_description": null, "package_folder": null, "package_id": null, "package_type": "header-library", "prev": null, "prev_timestamp": null, "provides": null, "python_requires": null, "recipe": "Cache", "recipe_folder": "C:\\Users\\domni\\.conan2\\p\\spirv925fc20cdd7b8\\e", "ref": "spirv-headers/1.3.243.0#328549249f01be97c30aa05182b99671", "remote": null, "revision_mode": "hash", "rrev": "328549249f01be97c30aa05182b99671", "rrev_timestamp": 1753089621.691, "settings": {"arch": "x86_64", "build_type": "Release", "compiler": "msvc", "compiler.cppstd": "14", "compiler.runtime": "dynamic", "compiler.runtime_type": "Release", "compiler.version": "194", "os": "Windows"}, "source_folder": null, "system_requires": {}, "test": false, "topics": ["spirv", "spirv-v", "vulkan", "opengl", "opencl", "khronos"], "upload_policy": null, "url": "https://github.com/conan-io/conan-center-index", "user": null, "vendor": false, "version": "1.3.243.0", "win_bash": null, "win_bash_run": null}}, "overrides": {}, "replaced_requires": {}, "resolved_ranges": {"cmake/[\u003e=3.17.2 \u003c4.0]": "cmake/3.31.9", "cmake/[\u003e=3.17.2 \u003c4]": "cmake/3.31.9"}, "root": {"0": "None"}};
+            let hide_build = false;
+            let hide_test = false;
+            let search_pkgs = null;
+            let focus_search = false;
+            let excluded_pkgs = null;
+            let collapse_packages = false;
+            let show_package_type = false;
+            let color_map = {Cache: "SkyBlue",
+                             Download: "LightGreen",
+                             Build: "Yellow",
+                             Missing: "Orange",
+                             Update: "SeaGreen",
+                             Skip: "White",
+                             Editable: "LightCyan",
+                             EditableBuild: "Cyan",
+                             Invalid: "Red",
+                             Platform: "Violet"};
+            let global_edges = {};
+            function define_data(){
+                let nodes = [];
+                let edges = [];
+                let collapsed_packages = {};
+                let targets = {};
+                global_edges = {};
+                let edge_counter = 0;
+                let conflict=null;
+                if (graph_data["error"] && graph_data["error"]["type"] == "conflict")
+                    conflict = graph_data["error"];
+                for (const [node_id, node] of Object.entries(graph_data["nodes"])) {
+                    if (node.context == "build" && hide_build) continue;
+                    if (node.test && hide_test) continue;
+                    let shape = node.context == "build" || node.test ? "ellipse" : "box";
+                    let label = null;
+                    if (node["name"])
+                        label =  node["name"] + "/" + node["version"];
+                    else if (node["ref"])
+                        label = node["ref"];
+                    else
+                        label = node.recipe == "Consumer"? "conanfile": "CLI";
+                    if (collapse_packages) {
+                        let existing = collapsed_packages[label];
+                        targets[node_id] = existing;
+                        if (existing) continue;
+                        collapsed_packages[label] = node_id;
+                    }
+                    if (excluded_pkgs) {
+                        let patterns = excluded_pkgs.split(',')
+                            .map(pattern => pattern.trim())
+                            .filter(pattern => pattern.length > 0)
+                            .map(pattern => pattern.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
+                        if (patterns.some(pattern => label.match(pattern))) {
+                            continue;
+                        }
+                    }
+                    if (show_package_type) {
+                         label = "<b>" + label + "\n" + "<i>" + node.package_type + "</i>";
+                    }
+                    borderWidth = 1;
+                    borderColor = "SkyBlue";
+                    font = {multi: 'html'};
+                    shapeProperties = {};
+                    let color = color_map[node.binary]
+                    if (conflict && conflict.branch1.dst_id == node_id){
+                        font.color = "white";
+                        color = "Black";
+                        shape = "circle";
+                    }
+                    if (search_pkgs) {
+                        let patterns = search_pkgs.split(',')
+                            .map(pattern => pattern.trim())
+                            .filter(pattern => pattern.length > 0)
+                            .map(pattern => pattern.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
+                        if (patterns.some(pattern => label.match(pattern))) {
+                            borderWidth = 3;
+                            borderColor = "Magenta";
+                            if (focus_search) {
+                                focus_search = node_id;
+                            }
+                        }
+                    }
+                    if (node.test) {
+                        font.background = "lightgrey";
+                        shapeProperties = {borderDashes: true};
+                    }
+                    if (node.recipe == "Platform") {
+                        font.background = "Violet";
+                    }
+                    if (node.vendor) {
+                        borderColor = "Red";
+                        shapeProperties = {borderDashes: [3,5]};
+                        borderWidth = 2;
+                    }
+                    nodes.push({
+                        id: node_id,
+                        font: font,
+                        label: label,
+                        shape: shape,
+                        shapeProperties: shapeProperties,
+                        borderWidth: borderWidth,
+                        color: {border: borderColor, background: color,
+                                highlight: {background: color, border: "Blue"}},
+                    });
+                }
+                for (const [node_id, node] of Object.entries(graph_data["nodes"])) {
+                    for (const [dep_id, dep] of Object.entries(node["dependencies"])) {
+                        if (dep.direct){
+                            let target_id = targets[dep_id] || dep_id;
+                            edges.push({id: edge_counter, from: node_id, to: target_id,
+                                        color: {color: "SkyBlue", highlight: "Blue"}});
+                            global_edges[edge_counter++] = dep;
+                        }
+                    }
+                }
+                if (conflict) {
+                    let conflict_id = null;
+                    if (conflict.branch1.dst_id) { // already created conflict node
+                        conflict_id = conflict.branch1.dst_id;
+                    }
+                    else {
+                        conflict_id = "conflict_id";
+                        nodes.push({
+                            id: conflict_id,
+                            font: {color: "white"},
+                            label: conflict.name,
+                            shape: "circle",
+                            color: {background: "black",
+                                    highlight: {background: "black", border: "Blue"}},
+                        });
+                        edges.push({id: edge_counter, from: conflict.branch1.src_id, to: conflict_id,
+                                    color: {color: "Red", highlight: "Red"},
+                                    label: conflict.branch1.require.ref});
+                        global_edges[edge_counter++] = conflict.branch1.require;
+                    }
+                    edges.push({id: edge_counter, from: conflict.branch2.src_id, to: conflict_id,
+                                color: {color: "Red", highlight: "Red"},
+                                label: conflict.branch2.require.ref});
+                    global_edges[edge_counter++] = conflict.branch2.require;
+                }
+                return {nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges)};
+            };
+            function define_legend() {
+                let x = 0;
+                let y = 0;
+                let step = 250;
+                let legend_nodes = [];
+                legend_nodes.push({id: 0, x: x, y: y, shape: "box", font: {size: 35},
+                    label: "require",
+                });
+                legend_nodes.push({id: 1, x: x + step, y: y, font: {size: 35}, shape: "ellipse",
+                    label: "tool-require",
+                });
+                legend_nodes.push({id: 2, x: x + 2* step, y: y, font: {size: 35, background: "lightgrey"},
+                    shape: "ellipse", shapeProperties: {borderDashes: true},
+                    label: "test-require",
+                })
+                let counter = 3;
+                legend_nodes.push({x: x + counter*step, y: y, shape: "ellipse",
+                    label: "platform",
+                    font: {size: 35, background: "Violet"},
+                });
+                counter++;
+                for (const [status, color] of Object.entries(color_map)) {
+                    legend_nodes.push({x: x + counter*step, y: y, shape: "box", font: {size: 35},
+                        label: status,
+                        color: {border: "SkyBlue", background: color}
+                    });
+                    counter++;
+                }
+                legend_nodes.push({x: x + counter*step, y: y, shape: "box",
+                    label: "conflict",
+                    font: {size: 35, color: "white"},
+                    color: {border: "SkyBlue", background: "Black"}
+                });
+                counter++;
+
+                legend_nodes.push({x: x + counter*step, y: y, shape: "box",
+                    label: "vendor", font: {size: 35},
+                    color: {border: "Red"},
+                    shapeProperties: {borderDashes: [3,5]},
+                    borderWidth: 2
+                });
+                return {nodes: new vis.DataSet(legend_nodes)};
+            }
+            let error = document.getElementById("error");
+            if (graph_data["error"]){
+                 let div = document.createElement('div');
+                 div.innerHTML = "<pre>Error in the graph: " + JSON.stringify(graph_data["error"], undefined, 2) + "</pre>";
+                 error.appendChild(div);
+            }
+            let container = document.getElementById('mynetwork');
+            let controls = document.getElementById('controls');
+            let legend_container = document.getElementById('mylegend');
+
+            let options = {
+                autoResize: true,
+                locale: 'en',
+                edges: {
+                    arrows: { to: {enabled: true} },
+                    smooth: { enabled: false}
+                },
+                nodes: {font: {'face': 'monospace', 'align': 'left'}},
+                layout: {
+                    "hierarchical": {
+                        enabled: true,
+                        sortMethod: "directed",
+                        direction: "DU",
+                        nodeSpacing: 170,
+                        blockShifting: true,
+                        edgeMinimization: true,
+                        shakeTowards: "roots",
+                    }
+                },
+                physics: { enabled: false},
+                configure: {
+                    enabled: true,
+                    filter: 'layout physics',
+                    showButton: false,
+                    container: controls
+                }
+            };
+
+            let data = define_data();
+            let network = new vis.Network(container, data, options);
+            let legend_data = define_legend();
+            let options_legend = {interaction: {selectable: false, dragView: false, dragNodes: false,
+                                                zoomView: false}, physics: {enabled: false}};
+            let legend = new vis.Network(legend_container, legend_data, options_legend);
+
+            network.on('click', function (properties) {
+                let ids = properties.nodes;
+                let ids_edges = properties.edges;
+                let control = document.getElementById("details");
+                while (control.firstChild) {
+                    control.removeChild(control.firstChild);
+                }
+                if(ids[0] !== undefined || ids_edges[0] !== undefined) {
+                    selected = graph_data["nodes"][ids[0]] || global_edges[ids_edges[0]];
+                    let div = document.createElement('div');
+                    let f = Object.fromEntries(Object.entries(selected).filter(([_, v]) => v != null));
+                    div.innerText = JSON.stringify(f, undefined, 2);
+                    let div2 = document.createElement('div');
+                    div2.innerHTML = "<pre>" + div.innerHTML + "</pre>";
+                    control.appendChild(div2);
+                }
+                else {
+                    control.innerHTML = "<b>Info</b>: Click on a package or edge for more info";
+                }
+            });
+            function draw() {
+                let scale = network.getScale();
+                let viewPos = network.getViewPosition();
+                data = define_data();
+                network.setData(data);
+                network.redraw();
+                network.moveTo({position: viewPos, scale: scale});
+                // If we have found a package to focus, we need to move the view
+                if (typeof focus_search === "string") {
+                    network.focus(focus_search, {animation: true, locked: false});
+                }
+            }
+            function switchBuild() {
+                hide_build = !hide_build;
+                draw();
+            }
+            function switchTest() {
+                hide_test = !hide_test;
+                draw();
+            }
+            function collapsePackages() {
+                collapse_packages = !collapse_packages;
+                draw();
+            }
+            const debounce = (func, delay) => {
+                let timeout;
+                return function(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), delay);
+                };
+            };
+            const debouncedDraw = debounce(draw, 300);
+            function searchPackages(e) {
+                search_pkgs = e.value;
+                debouncedDraw();
+            }
+            function onSearchKeyDown(event) {
+                if (event.key === "Enter") {
+                    focus_search = true;
+                    draw();
+                    focus_search = false;
+                }
+            }
+            function excludePackages(e) {
+                excluded_pkgs = e.value;
+                debouncedDraw();
+            }
+            function showPackageType(e) {
+                show_package_type = !show_package_type;
+                draw();
+            }
+            function showhideclass(id) {
+                let elements = document.getElementsByClassName(id)
+                for (let i = 0; i < elements.length; i++) {
+                    elements[i].style.display = (elements[i].style.display != 'none') ? 'none' : 'block';
+                }
+            }
+            window.addEventListener("load", () => {
+               draw();
+            });
+        </script>
+    </body>
+</html>

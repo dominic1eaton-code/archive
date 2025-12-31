@@ -1,0 +1,12 @@
+
+
+
+namespace GroundVehSim
+{
+
+class Tire
+{
+
+};
+
+}

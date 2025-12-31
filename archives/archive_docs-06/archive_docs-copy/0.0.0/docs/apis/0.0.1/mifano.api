@@ -1,0 +1,28 @@
+/**
+ * @brief 3d printing modelling software, computer numerical control (CNC)
+ */
+
+new
+
+
+create
+create gcode
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

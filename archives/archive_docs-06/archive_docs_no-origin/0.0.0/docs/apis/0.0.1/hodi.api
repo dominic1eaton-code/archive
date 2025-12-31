@@ -1,0 +1,55 @@
+/**
+ * @brief document template, management, control system
+ */
+new
+
+
+create
+create template
+create document
+create record
+
+[template]
+create letter type
+create letter reference
+create letter cover
+create letter experience
+create letter acceptance
+create letter dismissal
+create letter notice
+
+create agreement type
+create agreement partnership[limited|silent|general]
+create agreement consultant
+create agreement solution[product|service]
+create agreement client|customer
+
+create plan type
+create plan action
+create plan share
+create plan stock
+
+
+create form
+
+create contract
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+
+

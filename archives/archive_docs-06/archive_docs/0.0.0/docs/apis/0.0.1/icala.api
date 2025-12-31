@@ -1,0 +1,76 @@
+/**
+ * @brief package manager
+ */
+
+new
+
+
+create
+create package
+create dependency
+
+
+create tool
+create toolkit
+create toolchain
+
+
+create platform
+
+
+create version
+
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add info
+add version
+add version compiler
+add version intepreter
+
+
+add package
+add tool
+add solution
+add library
+add application
+add product
+add service
+
+
+view
+view directory
+view package
+
+
+connect
+
+deploy [environment]
+deploy dev
+deploy test
+deploy release
+
+[tag prefix-maturiy-version-timestamp]
+tag
+tag prefix
+tag version [major.minor.patch.extra]
+tag [maturity]
+tag maturity sandbox
+tag maturity dev
+tag maturity nightly
+tag maturity test
+tag maturity candidate
+tag maturity release

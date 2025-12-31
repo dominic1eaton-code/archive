@@ -1,0 +1,99 @@
+/**
+ * @brief 
+ */
+
+
+create organization
+    create entity
+        create kernel
+            create LLC
+            create SP
+            create SCORP
+            create CCORP
+            create Fund
+            create Fund Trust
+            create Fund Equity
+            create Fund VC
+            create LP
+            create LLP
+            create GP
+            create Foundation
+    create brief
+        create profile
+            create mission
+            create vision
+            create objective
+            create goal
+        create info
+            create code
+            create ID
+            create token[]
+            create name
+            create alias
+            create title
+            create contact
+            create contact personal
+            create contact emergency
+            create contact work
+    create registry[]
+        create repository[]
+        create database[]
+        create record[]
+        create document[]
+        create directory[]
+    create team[]
+        create member[]
+        create role[]
+            create responsibility[]
+        create employee[]
+    create infrastructure[]
+        create firm[]
+            create department[]
+                create function[]
+    create portfolio[]
+        create program[]
+            create project[]
+                create solution[]
+                    create capability[]
+    create model work
+        create WBS[]
+            create package[]
+                create item[]
+        create job[]
+            create position[]
+            create role[]
+    create dashboard[]
+        create view[]
+        create filter[]
+    create metric[]
+        create okr[]
+        create kpi[]
+    create strategy[]
+        create plan[]
+        create plan[] strategic
+        create plan[] tactical
+        create plan[] operation
+        create plan[] business
+        create plan[] action
+        create roadmap[]
+    # facility, smart building management, smart office https://www.comfortclick.com/BOS/Library/Devices
+    create facility
+        create office
+        create hq
+        create warehouse
+        create datacenter
+        create factory
+        create plant
+
+
+
+create organization enterpise
+create organization business
+create orchestration foundation
+create organization fund trust
+create organization fund equity
+create organization firm <studio>
+create organization firm <studio> [function]
+create organization firm <factory> [function]
+
+

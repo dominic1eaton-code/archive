@@ -1,0 +1,46 @@
+/**
+ * @brief HR, HRM, employee management system
+ */
+
+
+new
+
+
+create
+create employee
+
+[workflow.onboarding]
+[workflow.offboarding]
+
+
+[workflow.recruitment]
+
+
+[workflow.hire]
+
+
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+
+
+[operation]
+onboard
+offboard
+hire
+request

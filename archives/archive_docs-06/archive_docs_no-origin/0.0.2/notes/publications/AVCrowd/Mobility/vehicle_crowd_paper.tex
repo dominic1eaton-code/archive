@@ -1,0 +1,202 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+ 
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{lipsum}
+%\documentclass{amsart}
+
+
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\addcontentsline{toc}{chapter}{Abstract}
+
+
+
+
+\title{AV Vehicle Crowding}
+\author{eatondo}
+
+\begin{document}  
+\maketitle
+
+\pagebreak
+
+
+\tableofcontents{}
+
+\pagebreak
+
+\chapter*{Abstract}
+
+
+
+\textbf{Goals of Research:} \\
+
+\textbf{High Level} \\
+
+\textbf{Vehicle Behavioral Control} \\
+- Formation Control \\
+\indent - MARL \\
+
+\indent - MTRL \\
+
+\indent - HRL \\
+
+\indent - TD Learning \\
+
+\indent - MCTS \\
+
+\indent - Game Theoretic Negotation / Decision Module \\
+
+to achieve: \\
+- Coordination \\
+- Consensus  \\
+- Stability \\
+- Emergent Steering Behaviors \\
+- Shape Rigidity \\
+- Robust (collective) response to environmental perturbations \\
+
+\textbf{Information (Dissemination)} \\ 
+
+\indent - Gossip Protocols \\
+\indent - Pub - Sub / Middle Ware \\
+\indent - AV Edge Net \\
+
+\textbf{Trust-less Data Life Cycle Management (Curation)} \\
+Introduce Blockchain (Cryptoeconomics) to AV setting for : \\
+- Data Consistency/Consensus \\
+- Information/Data Transaction in trustless distributed setting \\ \\ \\ \\ \\ \\
+
+\\ \\ \textbf{DMPC} \\
+- requires state evolution model \\
+- requires state/control law computation every time step \\
+- requires task coordination / consensus methods (Game Theory GT) \\
+
+\linebreak
+
+- State affected by all agents in environment, but agents are dynamic / continuously changing \\
+- Coordination among continuously changing agents \\
+
+\linebreak
+
+
+
+Apply RL control Techniques to allow agents to form control policies that reflect the effect of having emergent desired steering behaviors (Make vehiles do what we want them to do (do steering behavior)) \\
+
+Provide Representation and Analysis of Vehicle, Traffic and Platooning States, models, and algorithms \\
+
+Provide Literature Organization, Categorization, (Review ?) \\
+
+Develop Simulation Platform / Testbed for AVCB related projects \\
+- World Procedural Generation / Simulator  \\
+- Discrete Event Simulator DES (Comms/Info/Blockchain System) \\
+- Rl, MTRL, MARL, HRL library to perform High level RL functions/algorithms \\
+
+
+
+\textbf{Vehicle Behavior and Response Study:} \\
+
+
+Studying the effects of collective vehicle traffic behavioral responses to various perturbations the shared environment of limited resources. \\
+
+Study the strength of interaction, correlation, and information sharing/passing between different entities that exist within a traffic network and persist on roadways. \\
+
+Study methods for optimal formation control of vehicle groups, using results obtained from observed behavioral responses (local and collective (global)) \\
+
+Study methods for \\ 
+1. Control strategies for AVs to from desirable collective vehicle traffic behaviors / responses to environment. \\
+2. Using AVs to control non-controllable traffic, \\
+A. How many AVs needed to achieve desirable collective response ?, \\
+B. How can AVs affect the behaviors of agents (humans) around them ? \\
+C. How can Avs change / optimize local state to achieve desired global state ?  \\
+
+\textbf{Multi Agent Formation Control:} \\ 
+
+Study global control techniques through the control of local vehicles : \\
+1. Local CAV microscopic state, control laws, parameters, etc... needed for analysis (and solution.) ? \\ 
+
+2. Global vehicle (platoon) macroscopic state, control laws, parameters, etc... needed for analysis (and solution.) ? \\
+
+Achieve stability and consensus and explore methods that achieve these characteristics in a reasonable time. \\
+
+Obtain and maintain vehicle group rigidity and interaction strength (quantify interaction strength, correlation, variability) \\
+
+Study collective vehicle traffic response to environment and explore response control techqniques - (DMPC, Distributed Multi-Agent Reinforcement Learning) \\
+
+\textbf{Communications/Information System:} \\
+
+Generating, Collecting, Maintaining, and Sharing information/data of collective vehicle system \\
+
+Architectures + Protocols for passing of information throughout system of ad hoc vehicles: \\
+1. gossip protocol study (data dissemination study) \\
+2. AV Edge Net Architucture \\
+3. AV Middleware Architecture \\
+
+** Generate some research questions for AV Edge Network uses. \\
+
+
+Study volatility of Distributed data storage in AV ad-hoc Edge Nets. Generally, Study data volatility in vehicle edge Nets \\
+
+
+\textbf{Learning:} \\
+
+Study/generate framework for reinforcement learning of multi-autonomous vehicle agent control: \\
+
+1. Distributed Multi Task Reinforcement learning Control Approach, with: \\
+\indent \indent A. Reward (event) Structure \\
+\indent \indent B. Task Hierarchy Structure \\
+
+
+\textbf{Application and Organization} \\
+
+Autonomous vehicle fleet management solutions: \\
+1. Architecture, algorithm, protocols for autonomous vehicle fleet management for applications: \\
+A. (resource) Order  to Vehicle assignment, vehicle routing, planning, allocation, incentive mechanism. \\  
+
+2. Study system responsiveness / sensitivity (time, alertness, etc...) to fleet management protocol. \\ 
+
+3. Edge network to realize communication/data network of desirable characteristics for fleet management services. \\
+
+
+\textbf{Broad/Big Questions and Goals} \\
+
+1. (Guided) Self organizing / emergent behavior generation of multi-vehicle systems: generating, controlling/guiding, and applications \\
+
+2. Completely Automated resource distribution system using controllable vehicular traffic system with minimum efforts \\
+
+3. Environment data mapping and mining using resource distribution system (resource collection system) \\
+
+4. Bootstrapping Protocols for self-organizing, emergent, automated collective vehicular systems. \\
+
+5. Solutions to the change of limited human mobility in highly diverse environments, through the provision of an adaptable, self-regulating and responsive transportation system \\
+
+6. Governance system for AVCB - (blockchain / Crypoeconomic Applications) \\
+
+7. The AVCB: information gathering, collective processing, mobility optimization, and resource management \\
+
+\part{Preliminaries}
+
+
+\chapter{Introduction}
+
+\chapter{Behavior}
+
+
+
+\end{document}

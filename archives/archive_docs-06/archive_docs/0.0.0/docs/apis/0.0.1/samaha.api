@@ -1,0 +1,28 @@
+/**
+ * @brief statistcal mechanics, statistics, stochastics, noise library
+ */
+
+new
+
+
+create
+create noise perlin
+create noise [color]
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+
+connect
+

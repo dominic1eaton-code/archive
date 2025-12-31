@@ -1,0 +1,60 @@
+/**
+ * @brief 
+ */
+
+new
+
+
+create
+create user
+create admin
+create identity
+create account [local|remote]
+create group
+create guest
+
+create signature
+create certificate
+create token
+
+create password
+create pin
+create passphrase
+
+create role
+create permission
+create domain
+create key --type sha public
+create key --type rsa private
+
+
+
+create timestamp
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add entity
+
+register
+register kernel
+
+connect
+
+[operations]
+encrypt
+decrypt
+authenticate
+authorize
+

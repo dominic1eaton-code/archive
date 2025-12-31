@@ -1,0 +1,15 @@
+
+
+manufacturing
+	- additive
+		- 3d print
+	- traditional
+	- formative
+	- subtractive
+	
+	
+3D Printer Prototype	
+	materials
+		- plastic filament
+		
+		

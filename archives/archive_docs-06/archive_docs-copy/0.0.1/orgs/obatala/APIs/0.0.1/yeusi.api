@@ -1,0 +1,259 @@
+/**
+ * @brief solution, product, service, app, system lifecycle management
+ */
+
+
+new
+new enterprise
+
+create
+create enterprise
+create facility office
+create facility agency
+create facility HQ
+create facility studio
+create facility factory
+create facility warehouse
+create facility datacenter
+create facility virtual office
+create facility physical office
+
+create facility
+create studio
+create business
+create kernel
+create factory
+create firm
+create portal
+create warehouse
+create datacenter
+create office
+create space
+create room
+
+create data warehouse
+create data lake
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add business
+    add infrastructure
+        add netwrok
+            add node
+            add device
+            add router
+            add bridge
+            add modem
+            add domain
+            add protocol
+            add message
+        add blueprint
+            add design
+            add architecture
+            add template
+            add model
+        add registry
+            add repository
+                add record
+                add database
+                    add data
+            add document
+                add document template
+                add agreement
+                add agreement partner
+                add contract
+                add contract sales
+                add letter
+        add function
+            add governance
+                add audit
+                add policy
+                add procudure
+                add handbook
+            add security
+                add access
+                add permission
+                add group
+                add user
+            add operation
+            add administration
+            add HR
+            add marketing
+            add IT
+            add engineering
+            add production
+                add fabrication
+                add manufacturing
+            add technology
+                add software
+            add CRM
+                add customer
+                add client
+            add product
+                add design product
+                add management product
+                add development product
+        add brief
+            add dashboard
+            add profile
+            add contact
+            add info
+            add attribute
+                add code
+        add organization
+            add client
+            add customer
+            add stakeholder
+            add shareholder
+            add founder
+            add owner
+            add partner
+            add directer
+            add manager
+            add lead
+            add member
+            add employee
+            add board
+            add board chair
+            add board manager
+            add board advisor
+            add partner equity
+            add partner named
+            add partner<level>
+            add partner<entry>
+            add partner<junior>
+            add partner<mid>
+            add partner<senior>
+            add partner<executive>
+        add firm
+        add facility
+        add communication
+            add channel
+    add portfolio
+        add program
+            add project
+    add value
+        add capital
+            add asset
+            add solution
+            add product
+            add service
+        add strategy
+            add plan
+            add plan strategic
+            add plan business
+            add plan operation
+            add plan action
+            add roadmap
+    add resource
+        add revenue
+        add cost
+        add liablity
+        add budget
+        add schedule
+            add event
+            add activity
+            add timebox
+            add timeline
+            add chart gantt
+        add data
+            add chart
+            add dashboard
+                add view
+                add filter
+            add metric
+                add okr
+                add kpi
+            
+        
+
+add business
+add business foundation
+    add foundation
+    add council
+    add assembly
+add business estate
+    add estate
+    add boards
+add business enterpise
+    add enterprise
+        add configuration
+        add work
+            add model agile
+            add role
+                add responsibility
+                add skill
+                add qaulilification
+            add WBS [name]
+                add work package [name]
+                    add work item [name] [level]
+            add portfolio
+                add program
+                    add project
+                        add solution
+                        add epic
+                            add initiative
+                                add story
+                                    add task
+                                    add feature
+                                    add issue
+                                    add bug
+                                    add defect
+                                    add requirement
+                                    add case
+                                    add enhancement
+                                    add defect
+                                    add risk
+                                    add enabler
+                                    add capability
+                                    add test
+            add team
+                add member
+            add alliance
+            add guild
+            add chapter
+        add app
+            add portal
+            add system
+        add information
+            add tag
+            add data
+            add metric
+            add contact
+        add organization
+            add team
+            add employee
+                add certification
+                add skill
+            add manager
+            add lead
+        add business
+            add firm
+                add facility
+                    add studio
+                    add factory
+                    add warehosue
+                    add office
+                    add space
+                add function
+                    add capability
+                    add solution
+                    add portfolio
+                add department
+
+
+connect
+
+

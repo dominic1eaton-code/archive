@@ -1,0 +1,131 @@
+/**
+ * @brief 
+ */
+
+new
+new factory studio
+new studio
+new studio record
+
+
+create
+create studio<class> [function] {specializationA,specB,specC}
+create studio<factory> software {simulation,gaming}
+create studio<factory> content
+create studio<project> marketing {digital,content}
+create studio<service> finance
+create studio<service> accounting
+create studio<service> operations
+
+
+create registry
+create registry document
+create dashboard
+create factory studio|software|firm|business
+create space
+
+create canvas
+create canvas business
+create canvas portfolio
+
+create studio profile
+create studio brief
+
+
+create firm brief
+create enterprise brief
+create client brief
+create customer brief
+create business brief
+create board brief
+create employee brief
+
+create brief
+
+create view
+
+create publication
+
+
+
+create firm game studio
+create firm game factory
+create firm game warehouse
+create firm game office
+
+
+
+create studio game
+create studio finance
+create studio marketing
+create studio accounting
+create studio software
+create studio technology
+create studio media
+create studio content
+create studio design
+create studio consulting
+create studio writing
+create studio simulation
+create studio management
+create studio strategy
+create studio administration
+create studio operations
+create studio registy
+create studio publication
+create studio documents
+create studio engienering
+create studio planning
+create studio PR
+create studio fund
+creaet studio resaearch
+create studio IT
+creaet studio HR
+create studio governance
+create studio risk
+create studio communications
+
+
+create studio factory
+create studio warehouse
+create studio office
+
+
+update
+update studio
+
+
+edit
+edit settings
+
+
+read
+
+
+remove
+
+register
+register studio
+
+
+add
+add firm
+add communication
+add organization
+add contact
+add priority
+
+add tool
+add toolkit
+add toolchain
+
+connect
+connect tool
+connect tool SCM
+connect tool VCS
+connect tool IDE
+connect tool SDE
+
+
+
+

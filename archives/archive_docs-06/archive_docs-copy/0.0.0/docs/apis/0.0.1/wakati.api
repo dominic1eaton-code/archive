@@ -1,0 +1,69 @@
+/**
+ * @brief schedule, time management tool
+ */
+
+new
+
+
+create
+create schedule
+create gantt
+create timeline
+create roadmap
+create strategy
+create plan
+create calendar
+
+
+create event
+create appointment
+create meeting
+create participant
+
+create activity
+create timebox
+
+create sprint
+create PI
+create period
+
+create milestone
+create goal
+create objective
+
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+
+[add.datetime]
+add datestamp
+add era
+add millenium
+add century
+add decade
+add year
+add month
+add week
+add day
+
+add timestamp
+add hour
+add minute
+add second
+add millisecond
+add nanosecond
+
+
+connect
+

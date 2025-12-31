@@ -1,0 +1,70 @@
+name: CI Examples
+
+permissions:
+  contents: read
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  run-examples:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        conan-version: [release, develop]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install cross-compilation toolchain (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-12-arm-linux-gnueabihf g++-12-arm-linux-gnueabihf
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install CMake
+        uses: jwlawson/actions-setup-cmake@v1.14
+        with:
+          cmake-version: "3.23"
+
+      - name: Install Bazel
+        uses: bazel-contrib/setup-bazel@0.15.0
+        with:
+          bazelisk-version: "1.27.0"
+
+      - name: Install autotools (macOS)
+        if: runner.os == 'macOS'
+        run: brew install automake autoconf
+
+      - name: Install Conan
+        shell: bash
+        run: |
+          python -m pip install --upgrade pip
+          if [[ "${{ matrix.conan-version }}" == "develop" ]]; then
+            pip install -e git+https://github.com/conan-io/conan.git@develop2#egg=conan --upgrade
+          else
+            pip install conan --upgrade
+          fi
+          pip install meson
+          conan --version
+          conan profile detect --force
+
+      - name: Find and run examples
+        shell: bash
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -u "${{ github.workspace }}/.github/run_ci_tests.py"

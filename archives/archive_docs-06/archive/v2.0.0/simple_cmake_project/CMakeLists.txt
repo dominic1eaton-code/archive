@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.15)
+project(compressor CXX)
+
+# set(CPP_STD_VERSION cxx_std_17 CACHE INTERNAL "")
+# set(CMAKE_CXX_STANDARD 17)
+
+find_package(ZLIB REQUIRED)
+find_package(Eigen3 REQUIRED)
+find_package(glm REQUIRED)
+find_package(VulkanMemoryAllocator REQUIRED)
+find_package(VulkanHeaders REQUIRED)
+find_package(GTest REQUIRED)
+find_package(Vulkan REQUIRED)
+find_package(assimp REQUIRED)
+find_package(tinyobjloader REQUIRED)
+find_package(stb REQUIRED)
+
+add_executable(${PROJECT_NAME} src/main.cpp)
+
+target_link_libraries(${PROJECT_NAME} ZLIB::ZLIB)
+target_link_libraries(${PROJECT_NAME} Eigen3::Eigen)
+target_link_libraries(${PROJECT_NAME} glm::glm)
+target_link_libraries(${PROJECT_NAME} GPUOpen::VulkanMemoryAllocator)
+target_link_libraries(${PROJECT_NAME} vulkan-headers::vulkan-headers)
+target_link_libraries(${PROJECT_NAME} gtest::gtest)
+target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)
+target_link_libraries(${PROJECT_NAME} assimp::assimp)
+target_link_libraries(${PROJECT_NAME} tinyobjloader::tinyobjloader)
+target_link_libraries(${PROJECT_NAME} stb::stb)
+
+target_include_directories(${PROJECT_NAME} PUBLIC C:/Users/domni/.conan2/p/eigenb49492ecc5b3d/p/include)

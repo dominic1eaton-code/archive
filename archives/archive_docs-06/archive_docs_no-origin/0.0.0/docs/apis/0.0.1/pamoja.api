@@ -1,0 +1,73 @@
+/**
+ * @brief organization management and administration tool
+ */
+
+new
+
+
+create
+create directory
+create organization
+create function
+create department
+
+
+create member<role|employee|actor>
+create team
+create squad
+create platoon
+create company
+create battalion
+create regiment
+create division
+create corps
+create army
+
+
+create chapter
+create guild
+create tribe
+create alliance
+
+
+create level enty
+create level junior
+create level mid
+create level senior
+
+
+create flow level team|art|solution|portfolio
+create flow work
+
+
+create profile
+create brief
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add executive [type]
+add board
+
+
+connect
+
+register
+register firm
+register business
+register employee
+register staff
+
+generate report
+generate list employee
+generate list department

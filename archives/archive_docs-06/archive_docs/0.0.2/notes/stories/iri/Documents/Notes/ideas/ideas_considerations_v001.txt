@@ -1,0 +1,108 @@
+Theme 
+- Future
+- robots 
+- Rouge - game 
+
+
+Music 
+- Mick Gordon 
+
+
+Story 
+-
+-
+-
+
+
+Gameplay 
+- Halflife 
+- Quake
+- Prey - Moon Crash 
+
+
+Game Mechanics
+- rules
+- presentation
+- feel, mood, flow, progression
+- high refinement and creativity (and simplicity)
+- puzzles ?
+- audio systems
+- player motivation 
+- transportation systems
+- reward systems 
+- player upgrades and investment 
+- feedback loops (items, upgrades, rewards, world access, etc...)
+- upgrade combinations, coordination and augmentations
+- game built around abilities [faculties] rather than object functionalities 
+	- ***many options for objects that have several functionalities but fulfill a core set of faculties 
+- scene / world/ level routing, paths 
+- [interesting...] quests...
+- continuous novelty / variety  
+- game reactions, changes, updates, adaption, "living", etc...
+- game choices... 
+- game environment study 			
+- area access
+- player training
+- team mechanics
+- 
+
+
+
+Player Assets / Content 
+- different player versions / perspectives / personalities...
+- weapons 
+- items
+	- inventory organization 
+- external view modes... ("astro-projection view [technological equivalent]) - **bullet travel view ...
+- technologies 
+- upgrades 
+- resource limitations
+- **vehicles - CAV
+- class system ? team play / communication
+- player progression 
+- crafting 
+- gathering 
+- attack vs defensive system
+- player augemntations / AI control systems / Allies 
+	- player controlled enemies 
+	- player "helper" AI units
+	- AI team ?
+- final judgement ?
+
+
+
+Vehicles 
+-
+-
+
+
+
+Enemies 
+- growing enemy infestation ?
+- enemy adaption / evolution (in conjunction with character[s]s)
+-
+
+Combat 
+- planning and tactics
+- strategy 
+- character building + stats
+- execution 
+- ***overcome the obstacle - PREY 
+- fear [personality] mechanics
+
+God of War: 
+- responding to enemies
+- positional awareness, mobility options
+- push active combat
+- passive, reactive, vs active combat options
+
+
+Code 
+- api 
+- packages 
+- plugins
+- DLCs, extensions, content 
+- mods
+- cheats 
+
+Multi Player 

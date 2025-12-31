@@ -1,0 +1,34 @@
+HANDBOOK
+    toc
+        information 
+            status
+            issues
+            logs
+        coldstarts
+        warmstarts
+        guides
+        acceptance  test procedure ATPs
+        procedures 
+
+
+CONOPs docs
+    system (software) design document SDD
+    SYSTEM/SUBSYSTEM DESIGN DESCRIPTION (SSDD)
+    software developemnt plan SDP 
+    Software Product Specification SPS
+
+
+Software docs 
+    interface control document ICD
+    interface design document IDD
+
+
+development 
+		   |Automation
+dev->		CI -> nightly -> SIT                  -> CM           -> CM final
+								-> SIT candidate -> CM candidate 
+
+
+
+
+ 

@@ -1,0 +1,61 @@
+/**
+ * @brief IDE
+ */
+
+
+new
+
+
+create
+create key ssh
+create token
+create app gui|cli|enterpise|api|library|package|server|database|release|design
+
+
+create file
+create project
+create solution
+
+update
+
+
+edit
+
+
+read
+
+
+remove
+
+
+add
+add target web|device|mobile|desktop
+
+
+connect
+
+
+register
+register tool build
+register tool network
+register tool ci
+register tool cd
+register tool cm
+register tool db
+register tool test
+register tool package_manager
+register tool provision
+register tool analysis
+register tool SCM
+register tool VCS
+register compiler
+register intepreter
+register OS
+register language
+register file_type
+
+
+list
+list package
+
+

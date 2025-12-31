@@ -1,0 +1,17 @@
+https://en.wikipedia.org/wiki/Percolation_theory
+https://en.wikipedia.org/wiki/Swiss_cheese_model
+http://slatestarcodex.com/2017/11/21/contra-robinson-on-public-food/
+https://wiki.lesswrong.com/wiki/Complexity_of_value
+http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/
+https://vitalik.ca/general/2017/12/17/voting.html
+https://medium.com/amentum/the-crypto-governance-manifesto-7c40df928b04
+https://dailyfintech.com/2017/02/20/applying-loose-coupling-software-principles-to-enterprise-digital-transformation/
+
+https://wiki.lesswrong.com/wiki/Kolmogorov_complexity
+https://www.lesswrong.com/posts/GNnHHmm8EzePmKzPk/value-is-fragile
+https://www.lesswrong.com/posts/4ARaTpNX62uaL86j6/the-hidden-complexity-of-wishes
+https://www.lesswrong.com/posts/KQvdpPd3k2ap6aJTP/complexity-of-value-complexity-of-outcome
+
+
+https://waverleysoftware.com/blog/loosely-coupled-system-design/
+https://jrtrivedi.blogspot.com/2016/03/difference-between-loosely-coupled-and.html

@@ -1,0 +1,90 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+ 
+\renewcommand{\rmdefault}{ppl}
+\renewcommand{\bfdefault}{b}
+\usepackage[scaled]{helvet}
+\renewcommand{\ttdefault}{pcr}
+\linespread{1.05}
+\normalfont % in case the EC fonts aren't available
+
+\usepackage{blindtext}
+\usepackage{mathrsfs,amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{lipsum}
+%\documentclass{amsart}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+
+
+\title{Procedural Generation \\
+\noindent\rule{10cm}{0.4pt}}
+\author{Dominic Eaton}
+
+
+\begin{document}  
+\maketitle
+
+\pagebreak
+
+
+\tableofcontents{}
+
+\pagebreak
+
+\part{Preliminaries}
+
+    \chapter{Introduction}
+    
+        \section{The Progression}
+
+\part{Procedural World Generation}
+
+\part{Procedural Agent Generation}
+
+\part{Procedural Character Generation}
+
+% APPENDICES
+\begin{appendices}
+    \chapter{Notations} 
+    
+    \chapter{Definitions}
+    
+    
+\end{appendices}
+
+% BIBLIOGRAPHY 
+\begin{thebibliography}{9}
+    \bibitem{latexcompanion} 
+        Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+        \textit{The \LaTeX\ Companion}. 
+        Addison-Wesley, Reading, Massachusetts, 1993.
+     
+    \bibitem{einstein} 
+        Albert Einstein. 
+        \textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+        [\textit{On the electrodynamics of moving bodies}]. 
+        Annalen der Physik, 322(10):891–921, 1905.
+     
+    \bibitem{knuthwebsite} 
+        Knuth: Computers and Typesetting,
+        \\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\end{thebibliography}
+
+\end{document}
+    

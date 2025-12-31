@@ -1,0 +1,52 @@
+#
+#
+
+depo:
+  - iso
+  - images
+  - languages
+  - packages
+  - modules
+
+nodes:
+- build-01
+- build-02
+- dev-01
+- dev-02
+- prod-01
+- prod-02
+- test-01
+- test-01
+
+servers:
+  - database-01
+    - sql-01
+    - postgres-01
+  - gitlab-01
+  - sonarqube-01
+  - package-manager-01
+  - cicd|cm-manager-01
+    - puppet-01
+    - chef-01
+    - ansible-01
+    - terraform-01
+  - data-01
+  - backup-01
+  - admin-01
+  - container-01
+  - vm-manager-01
+  - share-01
+  - share-02
+  - ldap-01
+  - setup-01
+  - accounts|users-01
+  - kms|wiki-01
+    - public-01
+    - techpub-01
+      - coldstarts
+      - warmstarts
+      - acceptance test procedures
+      - CONOPs docs
+      - guides
+      - IDDs,ICDs
+      - data sheets|specifications

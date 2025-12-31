@@ -1,0 +1,28 @@
+goals:
+- generate a world (with a road)
+- a car on a road
+- two cars on a road (and basic data collection / perception)
+- two cars on road and can pass messages between one another 
+- two cars on road, can pass messages between, have basic behavioral controller
+- two cars on road, message passing, behavioral control, can play two player zero-sum non cooperative game 
+- two cars on road, message pass, behavioral control, two player game, can learn (maybe even transfer learn) between each other
+- two cars one road, message pass, behavior control, two player game, learning, can allow a distributed (overlay) network to exist between them and basic capabilities for data processing 
+- two cars one road, message pass, behavior control, two player game, learning, overlay network, can facilitiate distributed applications and services (blockchain, incentive mechanism design, cognitive radio apps, etc...)
+- two cars one road, message pass, behavior control, two player game, learning, overlay network, apps and services, have basic protocols for privacy preservation and security (for private and secure transmission of data) between them
+- extend to multiple agents... base crowd formation controller (cooperative game)...
+
+as list:
+0. world generation
+1. one car on road
+2. two cars on road (and data collection)
+3. message passing
+4. behavior control
+5. two player game
+6. learning
+7. overlay network (and data processing)
+8. apps and services 
+9. privacy and security
+10. multi-agent formation control
+
+
+homomorphism

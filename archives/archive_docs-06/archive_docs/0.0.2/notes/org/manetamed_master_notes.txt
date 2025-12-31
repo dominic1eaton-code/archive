@@ -1,0 +1,26 @@
+manetamed master notes
+
+
+
+manetamed portfolio:
+manetamed project: Loc'd legends (volume I)
+manetamed project: TBD (volume II)
+manetamed project: TBD (volume III)
+
+
+
+
+Project types : Game, Strategy, Plan, Action, [Sub]Project
+
+documents:
+	Project [type: Game] proposal document
+		- Game Design Document
+		- Game Story
+		- Project Plan and Strategy Document(s)
+			- resources and asset documents (list, requests, available capital lists, etc...)
+	Seed Document: Project Initiation Document
+		- Project Strategy Document
+		- Software [type: Game] Design Document
+	
+	
+	

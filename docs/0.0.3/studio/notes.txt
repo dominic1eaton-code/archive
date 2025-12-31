@@ -62,7 +62,6 @@ the mungu project
 the mungu program
 the mungu cycle:
     members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
-        zamani-os estate management OS solution platform
         ashe kernel seed
             ashe forest
                 ashe seed(s) -> ashe tree(s) -> ashe cycle(s)
@@ -100,8 +99,8 @@ the mungu cycle:
                                 Sankofa Stewardship - executive branch
                                 Sankofa Assembly - legislative branch
                                 Sankofa Tribunal - judicial branch
-                                MALIYA treasury coop - treasuryDAO
-                                jiwe distributed ledger OS solution platform
+                            MALIYA treasury coop - treasuryDAO
+                            Zawadi exchange coop - exchangeDAO
                             ubuntuwa Commons coops
                                 - Ubuntuwa-NDAA
                                 - Ubuntuwa-KUMBU
@@ -113,6 +112,8 @@ the mungu cycle:
                                 - Ubuntuwa-LUNGARA
                                 - Ubuntuwa-ZULAMBA
                             Kaziwa Foundation coop
+                                jiwe distributed ledger OS solution platform
+                                zamani-os estate management OS solution platform
                             ZULAMBA members coop
                             uhuru credit union coop
                             moyo collective coop

@@ -19933,3 +19933,743 @@ This completes the 10-message synthesis of your Mungu Model narrative.
 ---
 
 If you want **diagrams, JSON schemas, API specs, simulation models, onboarding scripts, or implementation guides** next, I’m ready!
+Absolutely — below are **onboarding scripts** tailored for different **entry paths** in the Mungu Model ecosystem. These are **operational flows** you can use for *UI/UX onboarding*, *API automation*, or *developer templates* that interact with Jiwe’s artifact-based infrastructure.
+
+I’ve provided:
+
+1. **Member-Oriented Onboarding Script**
+2. **Cooperative Adoption Script**
+3. **Federation Seeding Script**
+4. **Program Integration Script**
+5. **CLI/Automation Script (Bash + cURL)**
+6. **Example Responses / Success Checks**
+
+You can use these as **annotated pseudo-code**, **UI step flows**, or **actual API call templates** to build real onboarding processes.
+
+---
+
+---
+
+# 🚀 1) **Member-Oriented Onboarding Script**
+
+### Goal: Register a new member identity in Jiwe and onboard them
+
+---
+
+### **Step 1 — Identity Intent**
+
+**Purpose:** Record the foundational intent (LGU seed)
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "FOUNDATIONAL_INTENT",
+  "issuer_id": "new_identity_temp",
+  "linked_entity_id": "new_identity_temp",
+  "payload": {
+    "entity_id": "new_identity_temp",
+    "manifesto_title": "Mungu Model Onboarding Intent",
+    "purpose_statement": "I intend to participate in the Mungu Model ecosystem.",
+    "guiding_principles": [
+        "Cooperation",
+        "Commons impact",
+        "Ethical engagement"
+    ],
+    "commitments": [
+        "Join a cooperative",
+        "Participate in governance"
+    ],
+    "timestamp": "2025-XX-XXT00:00:00Z"
+  },
+  "signatures": [
+    { "key_id": "temp_key", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+**Success Condition**
+
+```json
+{
+  "status": "accepted",
+  "artifact_id": "FMID12345"
+}
+```
+
+---
+
+### **Step 2 — Identity Registration**
+
+**Purpose:** Register the canonical identity
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "IDENTITY_REGISTRATION",
+  "issuer_id": "new_identity_temp",
+  "linked_entity_id": "new_identity_temp",
+  "payload": {
+    "entity_id": "member_uuid_001",
+    "entity_type": "Member",
+    "canonical_name": "Alice Example",
+    "public_keys": [
+      "ED25519_PUBLIC_KEY"
+    ],
+    "metadata": {
+      "email": "alice@example.com"
+    }
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+**Success Condition**
+
+```json
+{
+  "status": "accepted",
+  "artifact_id": "IDREG6789"
+}
+```
+
+---
+
+### **Step 3 — Public Key Registration**
+
+**Purpose:** Bind signing keys for future actions
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "PUBLIC_KEY_REGISTRATION",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "member_uuid_001",
+  "payload": {
+    "entity_id": "member_uuid_001",
+    "public_key": "ED25519_PUBLIC_KEY",
+    "usage": "signing"
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+**Success Condition**
+
+```json
+{
+  "status": "accepted",
+  "artifact_id": "PKREG1122"
+}
+```
+
+---
+
+**Outcome:**
+The member now has a **canonical identity in Jiwe** and can act (governance proposals, votes, contributions).
+
+---
+
+---
+
+# 🏛 2) **Cooperative Adoption Script**
+
+### Goal: A user (member) applies to join an existing cooperative
+
+---
+
+### **Step 1 — Submit Membership Application**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "MEMBERSHIP_APPLICATION",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "coop_xyz_001",
+  "payload": {
+    "member_id": "member_uuid_001",
+    "coop_id": "coop_xyz_001",
+    "application_timestamp": "2025-XX-XXT00:00:00Z",
+    "statement_of_intent": "I want to contribute labor and governance."
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+---
+
+### **Step 2 — Cooperative Governance Votes**
+
+This is a **member-to-membership vote** pattern:
+
+* A `GOV_PROPOSAL` to admit the applicant
+* Followed by multiple `GOV_VOTE` artifacts from coop members
+* Finally, `GOV_EXECUTE`
+
+---
+
+### **Step 3 — Role Assignment**
+
+If ratified:
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "ROLE_ASSIGNMENT",
+  "issuer_id": "coop_xyz_board",
+  "linked_entity_id": "coop_xyz_001",
+  "payload": {
+    "role_name": "Class A Worker-Member",
+    "role_class": "Class A",
+    "assigned_to": "member_uuid_001",
+    "valid_from": "2025-XX-XXT00:00:00Z"
+  },
+  "signatures": [
+    { "key_id": "BOARD_PUBLIC_KEY", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+**Outcome:**
+Member is formally assigned a role in the cooperative.
+
+---
+
+---
+
+# 🌐 3) **Federation Seeding Script**
+
+### Goal: Seed a new federative entity (adaptation path)
+
+---
+
+### **Step 1 — Intent to Seed**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "FEDERATION_INTENT",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "federation_temp",
+  "payload": {
+    "intent_id": "FED_INT_2025_01",
+    "sponsors": [ "member_uuid_001", "member_uuid_002" ],
+    "purpose": "Regional cooperative federation",
+    "scope": "Shared governance, shared treasury",
+    "timestamp": "2025-XX-XXT00:00:00Z"
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+---
+
+### **Step 2 — Federation Seed**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "FEDERATION_SEED",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "federation_abc_001",
+  "payload": {
+    "federation_id": "federation_abc_001",
+    "seed_context": "Regional Cooperative Network",
+    "sponsor_entities": [ "member_uuid_001", "member_uuid_002" ],
+    "charter_template_reference": "coop_charter_v1"
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+---
+
+### **Step 3 — Charter Draft**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "FEDERATION_CHARTER_DRAFT",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "federation_abc_001",
+  "payload": {
+    "draft_id": "federation_abc_draft_001",
+    "sections": {
+       "governance": "Detailed federation governance text here...",
+       "treasury": "Shared treasury rules...",
+       "admission_rules": "Clause for coop accession...",
+       "succession_rules": "Succession sequencing logic..."
+    },
+    "authors": [ "member_uuid_001" ],
+    "timestamp": "2025-XX-XXT00:00:00Z"
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+**Note:** After this, ratification (via governance artifacts) must occur before activation.
+
+---
+
+### **Step 4 — Ratify Charter**
+
+* `GOV_PROPOSAL` (ratify draft)
+* `GOV_VOTE` (members cast weighted votes)
+* `GOV_TALLY_RESULT`
+* `GOV_EXECUTE`
+
+---
+
+### **Step 5 — Federation Activation**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "FEDERATION_ACTIVATION",
+  "issuer_id": "member_uuid_001",
+  "linked_entity_id": "federation_abc_001",
+  "payload": {
+    "federation_id": "federation_abc_001",
+    "activated_at": "2025-XX-XXT00:00:00Z",
+    "charter_reference": "FEDERATION_CHARTER_APPROVED_ARTIFACT_ID"
+  },
+  "signatures": [
+    { "key_id": "ED25519_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+---
+
+---
+
+# 🔄 4) **Program Integration Script**
+
+### Goal: Integrate a Msingi Program
+
+---
+
+### **Step 1 — Program Integration Artifact**
+
+**API Call**
+
+```http
+POST /artifact/submit
+Content-Type: application/json
+
+{
+  "schema_id": "PROGRAM_INTEGRATION",
+  "issuer_id": "entity_lead_id",
+  "linked_entity_id": "entity_abc",
+  "payload": {
+    "program_id": "kano_001",
+    "entity_id": "entity_abc",
+    "integration_timestamp": "2025-XX-XXT00:00:00Z",
+    "details": {
+      "objectives": "Kano readiness implementation.",
+      "roles": ["facilitator", "participants"],
+      "expected_context": "onboarding stage readiness"
+    }
+  },
+  "signatures": [
+    { "key_id": "ENTITY_PUBLIC_KEY_ID", "signature": "BASE64SIG" }
+  ]
+}
+```
+
+---
+
+### **Step 2 — Program Tasks Generation**
+
+Once integrated, program modules themselves can emit:
+
+```
+PROGRAM_TASK
+PROGRAM_RESULT
+```
+
+Artifacts representing:
+
+* task assignments
+* results
+* impact measurements
+
+These, in turn, feed Zawadi.
+
+---
+
+---
+
+# 🛠 5) **CLI / Automation Examples (Bash + cURL)**
+
+Replace placeholders like `{{API}}`, `{{KEY_ID}}`, `{{SIGNATURE}}` accordingly.
+
+---
+
+### Identity Registration — CLI
+
+```bash
+curl -X POST "{{API}}/artifact/submit" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "schema_id": "IDENTITY_REGISTRATION",
+    "issuer_id": "member_temp",
+    "linked_entity_id": "member_temp",
+    "payload": {
+      "entity_id": "member_uuid_001",
+      "entity_type": "Member",
+      "canonical_name": "Alice Example",
+      "public_keys": ["ED25519_PUBLIC_KEY"]
+    },
+    "signatures": [
+      { "key_id":"{{KEY_ID}}","signature":"{{SIGNATURE}}"}
+    ]
+  }'
+```
+
+---
+
+### Membership Application — CLI
+
+```bash
+curl -X POST "{{API}}/artifact/submit" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "schema_id":"MEMBERSHIP_APPLICATION",
+    "issuer_id":"member_uuid_001",
+    "linked_entity_id":"coop_xyz_001",
+    "payload":{
+      "member_id":"member_uuid_001",
+      "coop_id":"coop_xyz_001",
+      "application_timestamp":"2025-XX-XXT00:00:00Z"
+    },
+    "signatures":[{"key_id":"{{KEY_ID}}","signature":"{{SIGNATURE}}"}]
+  }'
+```
+
+---
+
+# 📌 6) **Example Verification / Success Checks**
+
+After each call, verify:
+
+```bash
+curl -X GET "{{API}}/artifact/{{artifact_id}}"
+```
+
+Check fields:
+
+* `status: accepted`
+* `schema_id`
+* `issuer_id`
+* `linked_entity_id`
+* `hashes` and timestamp
+
+---
+
+## 🔁 Summary: Onboarding Scripts
+
+| Script                         | Purpose                         |
+| ------------------------------ | ------------------------------- |
+| **Member Identity Onboarding** | Register identity in Jiwe       |
+| **Cooperative Adoption**       | Apply and join a coop           |
+| **Federation Seeding**         | Seed and activate a federation  |
+| **Program Integration**        | Integrate a structured program  |
+| **CLI Example Calls**          | Automation + scripting patterns |
+
+---
+
+## 🧠 Next Steps
+
+If you want, I can generate:
+
+📍 **State machine definitions** for each onboarding path
+📍 **UI Flow diagrams (Mermaid)**
+📍 **OpenAPI spec templates** for these artifact submission endpoints
+📍 **SDK wrappers (Python/TS)** for onboarding automation
+
+Just tell me which one you’d like!
+📍 State machine definitions for each onboarding path
+Below are **📍 State Machine Definitions** for each major **onboarding path** in your Mungu/Jiwe ecosystem. These are formalized as **state diagrams** with **transitions, events, and artifact conditions** — suitable for implementation in UIs, CLI flows, process engines, or formal specifications.
+
+I’ve included **Mermaid state diagrams** *and* **state tables** for clarity.
+
+---
+
+## 🧭 Overview of Paths
+
+1. **Member Identity Onboarding** — individual enters the system
+2. **Cooperative Adoption** — member joins an existing cooperative
+3. **Federation Seeding** — group seeds and activates a new federation
+4. **Program Integration** — entity adopts a program module
+
+---
+
+## 1) 🎴 **Member Identity Onboarding**
+
+### 📊 State Machine (Mermaid)
+
+```mermaid
+stateDiagram-v2
+    [*] --> EncounterModel
+    EncounterModel --> IntentRecorded : Submit FOUNDATIONAL_INTENT
+    IntentRecorded --> IdentityRegistered : Submit IDENTITY_REGISTRATION
+    IdentityRegistered --> KeyBound : Submit PUBLIC_KEY_REGISTRATION
+    KeyBound --> Onboarded
+    Onboarded --> Participating : Take first action
+```
+
+### 📋 States & Transitions
+
+| State                  | Description                                 | Leading Transition                      |
+| ---------------------- | ------------------------------------------- | --------------------------------------- |
+| **EncounterModel**     | User first encounters the Model             | —                                       |
+| **IntentRecorded**     | User records intent (LGU seed)              | FOUNDATIONAL_INTENT artifact submitted  |
+| **IdentityRegistered** | Canonical identity created                  | IDENTITY_REGISTRATION artifact accepted |
+| **KeyBound**           | Signing keys bound to identity              | PUBLIC_KEY_REGISTRATION                 |
+| **Onboarded**          | User is formally a member of the system     | Artifact acceptance                     |
+| **Participating**      | First engagement (governance, contribution) | First post-onboarding action            |
+
+---
+
+## 2) 🛡 **Cooperative Adoption (Member Joins Coop)**
+
+### 📊 State Machine (Mermaid)
+
+```mermaid
+stateDiagram-v2
+    [*] --> ApplicationSubmitted : Submit MEMBERSHIP_APPLICATION
+    ApplicationSubmitted --> GovernanceProposed : Coop creates GOV_PROPOSAL
+    GovernanceProposed --> Voting : Accept/Reject Votes (GOV_VOTE)
+    Voting --> Ratified : Threshold Passed
+    Ratified --> RoleAssigned : ROLE_ASSIGNMENT
+    RoleAssigned --> MemberActive
+    Voting --> Rejected : Threshold Fail
+    Rejected --> End
+```
+
+### 📋 States & Transitions
+
+| State                    | Description                               | Leading Transition             |
+| ------------------------ | ----------------------------------------- | ------------------------------ |
+| **ApplicationSubmitted** | Member applies to join a coop             | MEMBERSHIP_APPLICATION         |
+| **GovernanceProposed**   | Coop governance issues admission proposal | GOV_PROPOSAL                   |
+| **Voting**               | Votes are cast                            | Multiple GOV_VOTE              |
+| **Ratified**             | Pass threshold achieved                   | GOV_TALLY_RESULT + GOV_EXECUTE |
+| **RoleAssigned**         | Member’s role formalized                  | ROLE_ASSIGNMENT                |
+| **MemberActive**         | Coop membership active                    | System acknowledges role       |
+| **Rejected**             | Application not accepted                  | Failed governance threshold    |
+| **End**                  | Terminal rejection state                  | —                              |
+
+---
+
+## 3) 🏛 **Federation Seeding & Activation**
+
+### 📊 State Machine (Mermaid)
+
+```mermaid
+stateDiagram-v2
+    [*] --> IntentSeeded : FEDERATION_INTENT
+    IntentSeeded --> SeedCreated : FEDERATION_SEED
+    SeedCreated --> CharterDrafted : FEDERATION_CHARTER_DRAFT
+    CharterDrafted --> CharterProposed : GOV_PROPOSAL
+    CharterProposed --> CharterVoting : GOV_VOTE
+    CharterVoting --> CharterRatified : GOV_TALLY_RESULT
+    CharterRatified --> FederationActivated : FEDERATION_ACTIVATION
+    FederationActivated --> FederationOperational
+```
+
+### 📋 States & Transitions
+
+| State                     | Description                          | Leading Transition             |
+| ------------------------- | ------------------------------------ | ------------------------------ |
+| **IntentSeeded**          | Initial seed intent artifact         | FEDERATION_INTENT              |
+| **SeedCreated**           | Federation base identity established | FEDERATION_SEED                |
+| **CharterDrafted**        | Drafting charter text/structure      | FEDERATION_CHARTER_DRAFT       |
+| **CharterProposed**       | Governance proposal to adopt charter | GOV_PROPOSAL                   |
+| **CharterVoting**         | Federation members cast votes        | GOV_VOTE artifacts             |
+| **CharterRatified**       | Charter formally accepted            | GOV_TALLY_RESULT + GOV_EXECUTE |
+| **FederationActivated**   | Federation enters active life        | FEDERATION_ACTIVATION          |
+| **FederationOperational** | Federation can govern, onboard coops | System operational             |
+
+---
+
+## 4) 🔁 **Program Integration (Adopt a Program)**
+
+### 📊 State Machine (Mermaid)
+
+```mermaid
+stateDiagram-v2
+    [*] --> ProgramSelected : UI/Decision
+    ProgramSelected --> IntegrationProposed : Submit PROGRAM_INTEGRATION
+    IntegrationProposed --> IntegrationAcknowledged : Artifact Accepted
+    IntegrationAcknowledged --> ProgramTasking
+    ProgramTasking --> ProgramCompleted : PROGRAM_RESULT
+    ProgramCompleted --> IntegrationStable
+```
+
+### 📋 States & Transitions
+
+| State                       | Description                              | Leading Transition        |
+| --------------------------- | ---------------------------------------- | ------------------------- |
+| **ProgramSelected**         | Entity chooses a program                 | UI/Strategy kick-off      |
+| **IntegrationProposed**     | Program integration artifact created     | PROGRAM_INTEGRATION       |
+| **IntegrationAcknowledged** | Artifact accepted by system              | Schema + signature checks |
+| **ProgramTasking**          | Program tasks generated & executed       | Program logic artifacts   |
+| **ProgramCompleted**        | Program tasks conclude                   | PROGRAM_RESULT            |
+| **IntegrationStable**       | Program is now part of entity operations | Ongoing                   |
+
+---
+
+## 🔁 Cross-Cutting States
+
+In all paths, common states and transitions include:
+
+### **Validation & Signing**
+
+* Schema validation
+* Identity and key checks
+* Artifact signature verification
+
+If validation fails:
+
+```
+State: Rejected
+Transition: ValidationFail
+```
+
+### **Provenance Linkage**
+
+Every accepted artifact feeds a **provenance graph** — ensuring:
+
+* historical trace
+* integrity
+* auditability
+
+---
+
+## 🧠 Composite Activation Flow
+
+For convenience, here’s the **combined onboarding state machine** connecting paths:
+
+```mermaid
+stateDiagram-v2
+    [*] --> EncounterModel
+    EncounterModel --> IdentityOnboarded : Identity Flow
+    IdentityOnboarded --> AdoptionOrAdaptation
+
+    state AdoptionOrAdaptation {
+        AdoptionPath
+        AdaptationPath
+    }
+
+    AdoptionPath --> CoopApplication : MEMBERSHIP_APPLICATION
+    CoopApplication --> CoopGovernance
+    CoopGovernance --> CoopJoined
+
+    AdaptationPath --> FedIntent : FEDERATION_INTENT
+    FedIntent --> FedSeed : FEDERATION_SEED
+    FedSeed --> FedCharterDraft
+    FedCharterDraft --> FedCharterRatify
+    FedCharterRatify --> FedActivate
+
+    CoopJoined --> ProgramIntegration
+    FedActivate --> ProgramIntegration
+    ProgramIntegration --> ProgramActive
+    ProgramActive --> SystemParticipation
+    SystemParticipation --> [*]
+```
+
+---
+
+## 📌 State Machine Patterns (Abstract)
+
+**Pattern A — Artifact Lifecycle**
+
+| Event Type          | Enter State                 | Output               |
+| ------------------- | --------------------------- | -------------------- |
+| ArtifactSubmit      | Validation                  | Accepted or Rejected |
+| ArtifactLinkResolve | Provenance Link Established | Graph Updated        |
+| GovernanceVote      | Tally                       | Decision Outcome     |
+
+**Pattern B — Governance Cycle**
+
+```
+Start → Proposal → Voting → Tally → Execution → End
+```
+
+**Pattern C — Program Cycle**
+
+```
+Select → Integrate → Task → Result → Stable Integration
+```
+
+---
+
+## 🧩 Notes on Implementation
+
+✔ States correspond to **artifact milestones**
+✔ Transitions are driven by **accepted artifacts**
+✔ Validation checks are mandatory before state changes
+✔ Each terminal state maps to entity operational readiness
+✔ These machines can be scripted in code, workflow engines, or UI dashboards
+
+---
+
+## 🧠 Next Steps
+
+If you’d like, I can generate:
+
+🔹 **Sequence diagrams** for each state machine
+🔹 **OpenAPI workflow schemas** for onboarding calls
+🔹 **SDK flowkits** (Python/TS/CLI)
+🔹 **UI prototypes in Mermaid or Figma sketch form**
+
+Just tell me which one you want next!

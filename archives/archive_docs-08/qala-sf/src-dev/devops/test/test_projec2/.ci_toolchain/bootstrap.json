@@ -1,0 +1,22 @@
+{
+  "bootstrap": [
+    {
+      "name": "zig",
+      "seed": ".ci_toolchain/bootstrap-seed/zig0",
+      "stages": [
+        {
+          "name": "stage1",
+          "cmd": "./build.zig",
+          "cwd": "zig-src",
+          "expected": "8b9e...f33a"
+        },
+        {
+          "name": "stage2",
+          "cmd": "./zig build self-hosted",
+          "cwd": "zig-src",
+          "expected": "8b9e...f33a"
+        }
+      ]
+    }
+  ]
+}

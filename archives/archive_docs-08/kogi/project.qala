@@ -1,0 +1,89 @@
+# @license 
+# @brief
+project(
+    name = "kogi",
+    brief = "entreprenuer operating system",
+    version = "0.0.0",
+    author="eatondo",
+    organization="",
+    links=[
+        "/link/to/docs",
+        "/link/to/home-website",
+        "/link/to/resources"]
+)
+
+def init()
+    [qala] new  project
+        qala init
+            git init
+
+def setup()
+    create_file LICENSE
+    create_file VERSION
+    create_file README.md
+    create_file checksum
+    create_folder docs  --root
+        create_file README.md
+    create_folder env  --root
+        create_file manifest.json
+        create_file env.ini
+    create_folder src --root
+        create_module host --language=scala --env=sbt --submodule
+        create_module pay --language=scala --env=sbt --submodule
+        create_module chat --language=erlang --env=mix --submodule
+        ##create_module chat --language=elixir --env=mix --submodule
+        create_module marketplace --language=go --env=bazel --submodule
+        create_module community --language=go --env=bazel --submodule
+        create_module gig --language=java --env=bazel --submodule
+        create_module portfolio --language=java --env=bazel --submodule
+        create_module portal --language=java --env=bazel --submodule
+        create_module developer --submodule
+            create_module python-api
+            create_module go-api
+            create_module javascript-api
+            create_module java-api
+        create_module client --submodule
+            create module android_client --language=kotlin --env=android
+            create_module web_client --language= --env=angular
+            create_module desktop_client --language= --env=electron
+            create module ios_client
+
+def build()
+    targets = 
+    [
+        all,
+        host,
+        pay,
+        chat,
+        marketplace,
+        community,
+        portfolio,
+        gig,
+        portal,
+        developer,
+        client
+    ]
+    qbuild targets
+
+def install()
+    targets = 
+    [
+        all
+    ]
+    qinstall targets
+
+def deploy()
+    targets = 
+    [
+        all
+    ]
+    qdeploy targets
+
+def test()
+    targets = 
+    [
+        all
+    ]
+
+def dependencies()
+    read env manifest.json

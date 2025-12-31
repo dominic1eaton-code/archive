@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package appmgmt;
+
+service ApplicationService {
+  rpc CreateApplication (CreateApplicationRequest) returns (ApplicationResponse);
+  rpc GetApplication (GetApplicationRequest) returns (ApplicationResponse);
+  rpc ListApplications (ListApplicationsRequest) returns (ListApplicationsResponse);
+}
+
+message Application {
+  uint32 id = 1;
+  string name = 2;
+  string version = 3;
+}
+
+message CreateApplicationRequest {
+  string name = 1;
+  string version = 2;
+}
+
+message ApplicationResponse {
+  Application app = 1;
+}
+
+message GetApplicationRequest {
+  uint32 id = 1;
+}
+
+message ListApplicationsRequest {}
+
+message ListApplicationsResponse {
+  repeated Application apps = 1;
+}

@@ -1,0 +1,8 @@
+{
+  "tools": [
+    { "name": "zig",    "version": "0.13.0",      "path": ".ci_toolchain/zig-0.13.0" },
+    { "name": "clang",  "version": "17.0",        "path": ".ci_toolchain/llvm-17.0" },
+    { "name": "sysroot","version": "glibc-2.37",  "path": ".ci_toolchain/sysroot-glibc-2.37" }
+  ]
+}
+

@@ -1,0 +1,32 @@
+# qala software factory host management system server/service/microservice
+- manage a software factory deployment
+  - software factory kernel management
+    - software factory bootstrapping system
+  - manage factory users
+  - manage factory software applications|solutions
+    - software application lifecycle management system
+    - factory apps system
+      - factory software system designer app
+      - factory software system testing, prototyping app
+      - factory software system monitoring, analysis, evaluation app
+  - manage factory resources
+    - manage build/deployment/pipeline resources
+    - manage software testing resources
+  - manage factory tools, toolchains/sets, (3rd party/vendor) packages
+  - factory stakeholder, vendor management system
+  - manage factory integrations
+  - factory adminsitration system
+    - factory admin panel,dashboard,portal
+    - factory user/developer account administration
+    -  factory resource administration
+    - factory projects, applications/solutions adminsitration
+  - manage factory infrastructure
+    - factory server[s], cloud, (distributed) network management system
+  - manage factory developer/development environments
+  - manage factory (micro)services
+  - factory schedule|time manager
+  - factory process manager
+  - factory memory|storage manager; factory database(s) manager
+  - manage remote and local software development environments SDEs
+    - manage configurable, distributable, deployable SDEs
+    - manage SDEs security and privacy (system[s])

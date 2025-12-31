@@ -1,0 +1,16 @@
+{
+  "name": "desktop-client",
+  "version": "0.0.0",
+  "description": "oru sdk desktop client",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^39.2.2"
+  }
+}

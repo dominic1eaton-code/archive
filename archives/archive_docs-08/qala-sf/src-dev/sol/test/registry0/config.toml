@@ -1,0 +1,246 @@
+app_name = "ZigTOMLApp"
+version = "1.2.0"
+debug = true
+ports = [8000, 8001, 8002]
+
+[database]
+host = "localhost"
+port = 5432
+credentials = { user = "admin", password = "secret" }
+[features]
+enable_logging = true
+max_connections = 100
+timeout_seconds = 30
+[servers.alpha]
+ip = "192.168.1.1"
+dc = "eqdc10"
+[servers.beta]
+ip = "192.168.1.2"
+dc = "eqdc20"
+[clients]
+data = [ ["gamma", "delta"], [1, 2] ]
+[clients.info]
+name = "test_client"
+age = 25
+[logging]
+level = "info"
+file = "/var/log/zigtomlapp.log"
+[metrics]
+enabled = true
+endpoint = "/metrics"
+[security]
+use_tls = true
+allowed_ips = ["192.168.1.100", "192.168.1.101"]
+[security.tls]
+cert_file = "/etc/ssl/certs/zigtomlapp.crt"
+key_file = "/etc/ssl/private/zigtomlapp.key"
+[experimental]
+new_feature_flag = false
+[experimental.performance]
+cache_size = 256
+thread_pool_size = 8
+[experimental.ui]
+theme = "dark"
+[api]
+version = "v1"
+base_url = "https://api.zigtomlapp.com"
+[api.endpoints]
+users = "/users"
+posts = "/posts"
+comments = "/comments"
+[api.rate_limit]
+requests_per_minute = 60
+[backup]
+enabled = true
+schedule = "02:00"
+location = "/var/backups/zigtomlapp/"
+[backup.retention]
+days = 7
+weeks = 4
+months = 6
+[notifications]
+email = true
+sms = false
+[notifications.channels]
+slack = "#zigtoml-notifications"
+[notifications.emails]
+admin = "admin@example.com"
+support = "support@example.com"
+[performance]
+profiling = true
+log_level = "debug"
+[performance.cache]
+enabled = true
+size_mb = 512
+[type_mappings]
+int_to_string = { 1 = "one", 2 = "two", 3 = "three" }
+string_to_int = { "one" = 1, "two" = 2, "three" = 3 }
+[custom_settings]
+setting1 = "value1"
+setting2 = "value2"
+setting3 = "value3"
+[custom_settings.nested]
+nested_key1 = "nested_value1"
+nested_key2 = "nested_value2"
+[custom_settings.nested.deep]
+deep_key = "deep_value"
+[logging.formatters]
+simple = "{level} - {message}"
+detailed = "{timestamp} - {level} - {module} - {message}"
+[logging.handlers]
+file_handler = { class = "FileHandler", level = "INFO", filename = "/var/log/zigtomlapp.log" }
+console_handler = { class = "ConsoleHandler", level = "DEBUG" }
+[logging.loggers]
+app_logger = { level = "DEBUG", handlers = ["console_handler", "file_handler"] }
+db_logger = { level = "INFO", handlers = ["file_handler"] }
+[ui]
+theme = "light"
+language = "en-US"
+[ui.window]
+width = 1024
+height = 768
+[ui.shortcuts]
+save = "Ctrl+S"
+open = "Ctrl+O"
+[deployment]
+environment = "production"
+region = "us-west-1"
+[deployment.servers]
+web = "web01.zigtomlapp.com"
+db = "db01.zigtomlapp.com"
+[deployment.credentials]
+access_key = "AKIAIOSFODNN7EXAMPLE"
+secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+[analytics]
+enabled = true
+tracking_id = "UA-12345678-1"
+[analytics.events]
+page_view = true
+click = true
+form_submit = false
+[features.experimental]
+feature_x = false
+feature_y = true
+feature_z = false
+[features.stable]
+feature_a = true
+feature_b = true
+feature_c = true
+[maintenance]
+mode = false
+schedule = "Sunday 03:00-04:00"
+[maintenance.notifications]
+email = "maintenance@example.com"
+[support]
+contact_email = "support@example.com"
+phone = "+1-800-555-1234"
+[support.hours]
+open = "09:00"
+close = "17:00"
+[updates]
+auto_check = true
+check_interval_hours = 24
+[updates.channels]
+stable = "https://updates.zigtomlapp.com/stable"
+beta = "https://updates.zigtomlapp.com/beta"
+[plugins]
+enabled = ["plugin_a", "plugin_b", "plugin_c"]
+[plugins.configs.plugin_a]
+setting_a1 = "value_a1"
+setting_a2 = "value_a2"
+[plugins.configs.plugin_b]
+setting_b1 = "value_b1"
+setting_b2 = "value_b2"
+[plugins.configs.plugin_c]
+setting_c1 = "value_c1"
+setting_c2 = "value_c2"
+[internationalization]
+default_language = "en"
+supported_languages = ["en", "es", "fr", "de", "zh"]
+[internationalization.fallbacks]
+es = "en"
+fr = "en"
+de = "en"
+zh = "en"
+[cache]
+type = "redis"
+host = "localhost"
+port = 6379
+[cache.redis]
+db = 0
+[cache.memcached]
+servers = ["localhost:11211"]
+[session]
+timeout_minutes = 30
+secure = true
+[cors]
+allowed_origins = ["https://example.com", "https://api.example.com"]
+allowed_methods = ["GET", "POST", "PUT", "DELETE"]
+allowed_headers = ["Content-Type", "Authorization"]
+[rate_limiting]
+enabled = true
+requests_per_minute = 100
+[rate_limiting.exempt_paths]
+paths = ["/health", "/status"]
+[notifications.push]
+enabled = true
+service = "Firebase"
+api_key = "AIzaSyD-EXAMPLEKEY"
+[notifications.push.settings]
+priority = "high"
+[logging.rotation]
+enabled = true
+size_mb = 100
+backup_count = 5
+[security.firewall]
+enabled = true
+rules = [ "allow from 192.168.1.0/24", "deny from all" ]
+[security.encryption]
+algorithm = "AES-256"
+key = "bXlfc2VjcmV0X2tleV9mb3JfYWVz"
+[development]
+hot_reload = true
+[development.mock_data]
+enabled = false
+[development.debug_tools]
+enabled = true
+[testing]
+coverage = true
+report_format = "html"
+[testing.test_suites]
+unit = true
+integration = true
+e2e = false
+[logging.filters]
+sensitive_data = true
+[logging.filters.sensitive_data.fields]
+fields = [ "password", "credit_card_number" ]
+[logging.filters.sensitive_data.replacement]
+replacement = "[REDACTED]"
+[api.authentication]
+method = "OAuth2"
+token_url = "https://auth.zigtomlapp.com/token"
+[api.authentication.scopes]
+scopes = [ "read", "write", "delete" ]
+[build]
+optimize = true
+debug_symbols = false
+[build.targets]
+linux_x86_64 = true
+windows_x86_64 = true
+macos_x86_64 = true
+[build.flags]
+lto = true
+[notifications.sms]
+enabled = true
+provider = "Twilio"
+api_key = "your_api_key_here"
+[from_file]
+path = "ws/qala-sf/src/sol/test/registry0/config.toml"
+include_extra = true
+[extra_settings]
+setting_extra1 = "extra_value1"
+setting_extra2 = "extra_value2"
+[extra_settings.nested_extra]
+nested_extra_key1 = "nested_extra_value1"
+nested_extra_key2 = "nested_extra_value2"

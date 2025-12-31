@@ -1,0 +1,21 @@
+[package]
+name = "supplychain"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "inventory",
+    "logistics",
+    "procurement"
+]
+
+[workspace.dependencies]
+inventory = {version =  "0.0.1", path = "inventory"}
+logistics = {version =  "0.0.1", path = "logistics"}
+procurement = {version =  "0.0.1", path = "procurement"}
+
+[dependencies]
+inventory = { workspace = true}
+logistics = { workspace = true}
+procurement = { workspace = true}

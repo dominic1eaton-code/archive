@@ -1,0 +1,35 @@
+# @license("MIT")
+# @brief("Build template for build-01")
+# @author("qala development team")
+# @copyright("2024 qala development team")
+[build]
+target = "x86_64-windows-gnu"
+mode = "release"
+out_dir = "D:/dev/ws/qala-sf/build/devops/build-01"
+
+[dependencies]
+devops = { path = "../src" }
+
+[options]
+build-01-option = true
+
+[env]
+PATH = "D:/dev/ws/qala-sf/build/devops/build-01/bin;${env.PATH}"
+
+[steps.build]
+command = "zig build -Dbuild-01-option=true"
+working_dir = "D:/dev/ws/qala-sf/src/devops"
+
+[steps.test]
+command = "zig test src/main.zig -Dbuild-01-option=true"
+working_dir = "D:/dev/ws/qala-sf/src/devops"
+
+[steps.deploy]
+command = "echo Deploying build-01..."
+working_dir = "D:/dev/ws/qala-sf/src/devops"
+
+[steps.build.depends_on] = []
+
+[steps.test.depends_on] = ["build"]
+
+[steps.deploy.depends_on] = ["test"]

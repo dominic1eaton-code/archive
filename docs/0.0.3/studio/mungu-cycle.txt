@@ -1,0 +1,16 @@
+
+
+cycle => {kernel, seed, tree, forest}
+kernel cycle, seed cycle, tree cycle, forest cycle
+
+the mungu cycle
+	members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
+		ashe kernel seed
+			ashe forest
+				ashe seed(s) -> ashe tree(s) -> ashe cycle(s)
+					the ashe-msingi-pamoja cycle:
+						jiwe (artifact/archive/distributed-ledger) seed
+				
+				
+				
+				

@@ -54,11 +54,14 @@ the table should be a single, continuous table, grouped by WBSs
 I would like all the WBSs that allow for this entire cycle to be booted up, live and minimal viably staffed within year 1:
 
 
-cycle => {kernel, seed, tree, forest}
-fundamental cycle => {kernel cycle, seed cycle, tree cycle, forest cycle}
+kernel project => prorgam => cycle => {kernel, seed, tree, forest}
+fundamental project => fundamental program => fundamental cycle => {kernel cycle, seed cycle, tree cycle, forest cycle}
 
+the mungu project
+the mungu program
 the mungu cycle:
     members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
+        zamani-os estate management OS solution platform
         ashe kernel seed
             ashe forest
                 ashe seed(s) -> ashe tree(s) -> ashe cycle(s)

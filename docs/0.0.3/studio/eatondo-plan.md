@@ -12445,3 +12445,326 @@ I can now generate:
 🔹 **Spreadsheet models** of payout schedules
 
 Just tell me which one you want!
+
+Absolutely — below are **two ready-to-use deliverables** for your *Pamoja Federation Coop* post-Year 1 economic system:
+
+---
+
+# 📊 **1) Spreadsheet Models of Payout & Dividend Schedules (Template)**
+
+You can implement this in **Google Sheets, Excel, Airtable, Notion table, etc.** I’m giving you **structured tables + formulas** that you can paste directly.
+
+---
+
+## 🧾 **TAB 1 — Quarterly Dividend Calculator**
+
+| **Holder** | **CPU Held** | **CPU Total Eligible** | **Pool (SND)** | **Vesting Multiplier** | **Dividend SND**       |
+| ---------- | ------------ | ---------------------- | -------------- | ---------------------- | ---------------------- |
+| Alice      | 500          | =SUM(B2:B100)          | 200000         | 1.00                   | =($D$2 * B2 / C2) * E2 |
+| Bob        | 300          |                        |                | 0.75                   | =($D$2 * B3 / C3) * E3 |
+| Carol      | 1200         |                        |                | 1.00                   | =($D$2 * B4 / C4) * E4 |
+| **Totals** | =SUM(B2:B4)  |                        |                |                        | =SUM(F2:F4)            |
+
+✅ **Notes**
+
+* *CPU Total Eligible* should be a fixed sum of all vested/eligible CPUs.
+* *Pool* is the approved dividend pool (ratified by JTEC/Assembly).
+* *Vesting Multiplier* adjusts payouts if vesting isn’t complete (0–1 scale).
+
+---
+
+## 🧾 **TAB 2 — DFU Claim Distribution Scheduler**
+
+| **Holder** | **DFU Held** | **DFU Total** | **Surplus Eligible (SND)** | **Milestone Complete?** | **Claim %** | **DFU Payout (SND)** |
+| ---------- | ------------ | ------------- | -------------------------- | ----------------------- | ----------- | -------------------- |
+| InvestorA  | 200          | =SUM(B2:B50)  | 100000                     | TRUE                    | =IF(E2,1,0) | =($D$2*B2/C2)*F2     |
+| InvestorB  | 500          |               |                            | TRUE                    | =IF(E3,1,0) | =($D$2*B3/C3)*F3     |
+| InvestorC  | 300          |               |                            | FALSE                   | =IF(E4,1,0) | =($D$2*B4/C4)*F4     |
+| **Totals** | =SUM(B2:B4)  |               | =SUM(D2:D4)                |                         |             | =SUM(G2:G4)          |
+
+✅ The *Claim %* ensures only DFU whose milestones are met get full payout.
+
+---
+
+## 🧾 **TAB 3 — Member Impact Bonus (CMU-linked)**
+
+| **Member** | **CMU Earned (Quarter)** | **Base Reward (SND)** | **Impact Bonus Multiplier** | **Impact Payout**             |
+| ---------- | ------------------------ | --------------------- | --------------------------- | ----------------------------- |
+| Alice      | 1200                     | 500                   | 1.2                         | =C2 + (B2/TotalCMU * C2 * D2) |
+| Bob        | 800                      | 500                   | 1.1                         | =C3 + (B3/TotalCMU * C3 * D3) |
+| Carol      | 2000                     | 500                   | 1.3                         | =C4 + (B4/TotalCMU * C4 * D4) |
+| **Totals** | =SUM(B2:B4)              |                       |                             | =SUM(E2:E4)                   |
+
+**TotalCMU** = `=SUM(B2:B4)`
+
+---
+
+## 🧾 **TAB 4 — Vesting Status Tracker**
+
+| **Participant** | **CPU Granted** | **CPU Vested %** | **CPU Vested Units** | **DFU Granted** | **DFU Vested %** | **DFU Vested Units** |
+| --------------- | --------------- | ---------------- | -------------------- | --------------- | ---------------- | -------------------- |
+| Alice           | 1000            | 75%              | =B2*C2               | 500             | 50%              | =E2*F2               |
+| Bob             | 800             | 50%              | =B3*C3               | 300             | 75%              | =E3*F3               |
+| Carol           | 1200            | 100%             | =B4*C4               | 0               | 0%               | =E4*F4               |
+
+---
+
+## 🧾 **TAB 5 — Governance Bonus Calculator (GVU / LGU weighting)**
+
+| **Member** | **Base Dividend (SND)** | **GVU** | **LGU** | **Gov Bonus %** | **Gov-Adjusted Dividend** |
+| ---------- | ----------------------- | ------- | ------- | --------------- | ------------------------- |
+| Alice      | 10,000                  | 35      | 0.52    | =1 + (C2 * D2)  | =B2 * E2                  |
+| Bob        | 6,000                   | 20      | 0.30    | =1 + (C3 * D3)  | =B3 * E3                  |
+| Carol      | 15,000                  | 50      | 0.75    | =1 + (C4 * D4)  | =B4 * E4                  |
+
+**Gov Bonus** = `1 + (GVU × LGU)` or a formula you define (e.g., `=1 + (C2/100 * D2)`)
+
+---
+
+### 📌 Dashboard Tips
+
+* Use **pivot tables** to map payouts by cohort, instrument type, and period.
+* Add **conditional formatting** for vesting thresholds and milestones.
+* Link payout calculators to *governance approvals* (bool flag = TRUE) to dynamically disable tables until ratified.
+
+---
+
+# 🛠 **2) Smart Contract Templates for the Dividend Distributor**
+
+These templates are **EVM-compatible Solidity contracts** you can deploy on your DAO treasury layer. They enforce distribution logic using your governance conditions (ratification flags), vesting status, and payout pools.
+
+---
+
+## 🧾 2.1 — **DividendDistributor.sol**
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+/**
+ * @title DividendDistributor
+ * @notice Distributes SND (native currency) dividends to CPU holders proportionally.
+ * Must be ratified by governance (via onlyRatified modifier).
+ */
+contract DividendDistributor {
+    address public governance;
+    bool public ratified;
+
+    mapping(address => uint256) public cpuBalance;
+    uint256 public totalCpu;
+
+    event DividendDistributed(uint256 amount);
+    event Ratified(address ratifier);
+
+    modifier onlyGovernance() {
+        require(msg.sender == governance, "Only governance");
+        _;
+    }
+
+    modifier onlyRatified() {
+        require(ratified, "Not ratified");
+        _;
+    }
+
+    constructor(address _governance) {
+        governance = _governance;
+    }
+
+    function ratifyDistribution() external onlyGovernance {
+        ratified = true;
+        emit Ratified(msg.sender);
+    }
+
+    function addCpu(address account, uint256 amount) external onlyGovernance {
+        cpuBalance[account] += amount;
+        totalCpu += amount;
+    }
+
+    function distributeDividends() external onlyRatified {
+        uint256 pool = address(this).balance;
+        require(pool > 0 && totalCpu > 0, "Nothing to distribute");
+
+        for (uint256 i = 0; i < totalCpu; i++) {
+            address holder = address(uint160(i)); // Simplified: replace with actual list
+            uint256 share = (cpuBalance[holder] * pool) / totalCpu;
+            payable(holder).transfer(share);
+        }
+        emit DividendDistributed(pool);
+    }
+
+    receive() external payable {}
+}
+```
+
+---
+
+## 🧾 2.2 — **ImpactBonusDistributor.sol**
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+/**
+ * Distributes impact bonuses (CMU linked) in SND.
+ * Requires governance ratification per period.
+ */
+contract ImpactBonusDistributor {
+    address public governance;
+    bool public ratified;
+
+    mapping(address => uint256) public impactScore;
+    uint256 public totalImpact;
+
+    event ImpactBonusDistributed(uint256 amount);
+    event Ratified(address ratifier);
+
+    modifier onlyGovernance() {
+        require(msg.sender == governance, "Only governance");
+        _;
+    }
+
+    modifier onlyRatified() {
+        require(ratified, "Not ratified");
+        _;
+    }
+
+    constructor(address _governance) {
+        governance = _governance;
+    }
+
+    function ratifyImpactPool() external onlyGovernance {
+        ratified = true;
+        emit Ratified(msg.sender);
+    }
+
+    function setImpact(address account, uint256 score) external onlyGovernance {
+        impactScore[account] = score;
+        totalImpact += score;
+    }
+
+    function distributeImpactBonuses() external onlyRatified {
+        uint256 pool = address(this).balance;
+        require(pool > 0 && totalImpact > 0, "Nothing to distribute");
+
+        for (uint256 i = 0; i < totalImpact; i++) {
+            address holder = address(uint160(i)); // Simplified: actual registry needed
+            uint256 share = (impactScore[holder] * pool) / totalImpact;
+            payable(holder).transfer(share);
+        }
+        emit ImpactBonusDistributed(pool);
+    }
+
+    receive() external payable {}
+}
+```
+
+---
+
+## 🧾 2.3 — **DFUClaimDistributor.sol**
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+/**
+ * Distributes SND to DFU holders based on milestones/ratifications.
+ */
+contract DFUClaimDistributor {
+    address public governance;
+    bool public ratified;
+
+    mapping(address => uint256) public dfuBalance;
+    uint256 public totalDfu;
+
+    event DFUPayout(address indexed holder, uint256 amount);
+    event Ratified(address ratifier);
+
+    modifier onlyGovernance() {
+        require(msg.sender == governance, "Only governance");
+        _;
+    }
+
+    modifier onlyRatified() {
+        require(ratified, "Not ratified");
+        _;
+    }
+
+    constructor(address _governance) {
+        governance = _governance;
+    }
+
+    function ratifyClaimPool() external onlyGovernance {
+        ratified = true;
+        emit Ratified(msg.sender);
+    }
+
+    function addDfu(address account, uint256 amount) external onlyGovernance {
+        dfuBalance[account] += amount;
+        totalDfu += amount;
+    }
+
+    function distributeClaims() external onlyRatified {
+        uint256 pool = address(this).balance;
+        require(pool > 0 && totalDfu > 0, "Nothing to distribute");
+
+        for (uint256 i = 0; i < totalDfu; i++) {
+            address holder = address(uint160(i)); // Replace with registry iteration
+            uint256 share = (dfuBalance[holder] * pool) / totalDfu;
+            payable(holder).transfer(share);
+            emit DFUPayout(holder, share);
+        }
+    }
+
+    receive() external payable {}
+}
+```
+
+---
+
+## 🛠 Integration Considerations
+
+### 🔧 Governance Ratification
+
+Before calling:
+
+* `distributeDividends()`
+* `distributeImpactBonuses()`
+* `distributeClaims()`
+
+You must call:
+
+```solidity
+ratifyDistribution();
+ratifyImpactPool();
+ratifyClaimPool();
+```
+
+…from your **governance contract or role**.
+
+### 📌 Holder Registry
+
+In real deployment, replace the simplistic `for` loops with:
+
+* An iterable list of holders
+* A snapshot mechanism
+* Enumerable map or use an index registry (OpenZeppelin Enumerable)
+
+---
+
+## 🧠 Next Enhancements You Can Add
+
+✔ **CapEnforcement** — limit max payout per period
+✔ **RSU Risk Controls** — auto pause if risk flags exist
+✔ **VestingGate** — only release to vested accounts
+✔ **DAO Integration** — auto ratification triggers via votes
+✔ **Jiwe Logging** — canonical event hashes
+
+---
+
+If you want, I can also generate:
+
+📌 Hardhat/Foundry tests for these distribution contracts
+📌 Mermaid visual flow of distribution pipelines
+📌 An integrated payout dashboard template
+
+Just tell me which next!

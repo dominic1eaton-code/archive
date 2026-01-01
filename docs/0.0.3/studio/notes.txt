@@ -1,3 +1,34 @@
+# notes
+
+so my top priorities right now and for month 1 of year 1 are:
+
+* outreach and member search campaign
+  - reaching out to and communicating with researchers/external pressures for mungu theory
+  - finding members/hires/help to join the cause / fed coop ecosystem
+
+* governance and establishment
+  - getting the docs/archives and jiwe seed organized, implemented and deployed
+  - going through and organizing all the documents in the archives
+  - organizing and establishing formally my personal estate and office
+  - establising formal models, documents, artifacts and operating systems of the fed coop ecosystem and all its constituent parts
+
+* social media
+  - posting blogs and public facing narratives for all the work
+  - finding online groups/people who could help with the work
+
+* investment and member/capital intake
+  - start preparing for intaking/handling deferred compensation, investment, capital, members into the ecosystem established from the jiwe seed
+
+* strategic planning
+  - figuring out the strategies for the rest of the year
+  - planning the governance structures and meta models
+  - figuring out the first version of jiwe, entities, estates, offices, genesis models/documents
+  - figuring out onboarding, investment, funding, and work/coordination/space/office strategies
+
+
+
+
+
 
 - meta-strategy - how we put strategies together and create strategies
 

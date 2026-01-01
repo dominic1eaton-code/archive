@@ -14456,22 +14456,1095 @@ If you want, I can generate:
 
 Just tell me which one you want!
 
+Absolutely — here’s a **focused execution plan for Month 1** (and early Year 1) specifically for your priority:
+📌 **Investment & Member/Capital Intake preparation** — i.e., *how Pamoja will onboard and manage capital, deferred compensation, members, and investor intake* in alignment with the Jiwe Seed, governance, and economic models.
 
-so my top priorities right now and for month 1 of year 1 are:
+This plan *integrates seamlessly* with the outreach, governance, and social narrative work you’re already doing.
 
-* outreach and member search campaign
-  - reaching out to and communicating with researchers/external pressures for mungu theory
-  - finding members/hires/help to join the cause / fed coop ecosystem
+---
 
-* governance and establishment
-  - getting the docs/archives and jiwe seed organized, implemented and deployed
-  - going through and organizing all the documents in the archives
-  - organizing and establishing formally my personal estate and office
-  - establising formal models, documents, artifacts and operating systems of the fed coop ecosystem and all its constituent parts
+# 🚀 TOP GOALS FOR INVESTMENT & MEMBER/CAPITAL INTAKE (MONTH 1)
 
-* social media
-  - posting blogs and public facing narratives for all the work
-  - finding online groups/people who could help with the work
+📍 **Prepare systems and policies** to accept:
+✔ Deferred compensation (DFU)
+✔ Capital contributions (CPU / SND / external capital)
+✔ New members (equity & governance intake)
+✔ Investors & strategic partners
 
-* investment and member/capital intake
-  - start preparing for intaking/handling deferred compensation, investment, capital, members into the ecosystem established from the jiwe seed
+📍 **Establish secure, compliant intake pipelines** that map into:
+• Jiwe Seed archive & identity
+• Governance cycles (ratification)
+• Treasury DAO
+• Cap tables, vesting, and member registries
+
+---
+
+# 🧠 HIGH-LEVEL STRATEGIC INTAKE PATH
+
+**Step 1 — Define Policies & Instruments**
+→ What can be contributed (units, assets, cash, tokens)
+→ How contributions map into legitimacy (LGU), governance (GVU), capital (CPU/DFU), impact (CMU)
+
+**Step 2 — Build Legal/Contract Frameworks**
+→ Term sheets
+→ Membership agreements
+→ Deferred compensation contracts
+→ Investment agreements
+
+**Step 3 — Intake Pipeline System**
+→ Intake forms + identity verification
+→ Escrow & allocation process
+→ Smart contract commitment + Jiwe hash
+
+**Step 4 — Governance Ratification Triggers**
+→ When onboarding/investments need Assembly or Treasury approval
+→ How ratification integrates with cycles
+
+**Step 5 — Reporting & Compliance**
+→ Dashboards & audit logs
+→ Tax/AML/KYC considerations
+
+---
+
+# 📌 DELIVERABLES YOU SHOULD BUILD IN MONTH 1
+
+## 1) Investment & Capital Intake Doc Suite
+
+These need to be **ratifiable documents** as part of governance SOPs:
+✔ **Capital Intake Policy**
+✔ **Deferred Compensation Policy**
+✔ **Investment Agreement Template**
+✔ **Member Buy-In / Contribution Contracts**
+✔ **Vesting & Redemption Terms**
+
+### Priority Document: **Capital Intake Policy**
+
+Must include:
+
+* What instruments are accepted (CPU, DFU, SND, fiat conversion)
+* How they are valued relative to the coop’s capital model
+* Member vs investor distinctions
+* Governance approval pathways
+* Risk weighting (RSU guardrails)
+
+---
+
+## 2) Investment & Member Intake Smart Contract Suite
+
+You want a *smart-contract front door* for:
+🔹 CPU/DFU commitments
+🔹 SND deposits
+🔹 Identity + legitimacy tie-ins
+🔹 Vesting schedules
+🔹 Escrow → ratification → release logic
+
+Contracts you should draft now (in Month 1):
+
+* **Intake Escrow Contract** (holds capital until ratified)
+* **CPU/DFU Registry Contract** (records capital credits)
+* **Deferred Compensation Contract** (terms + vesting)
+* **Member Intake Contract** (buy-in + legitimacy check)
+* **Governance Ratification Oracle** (permits contract transitions post-Assembly vote)
+
+---
+
+## 3) Jiwe Seed Extensions for Capital & Contributions
+
+Extend Jiwe Seed with **schema & namespaces** for intake artifacts:
+
+📌 Documents archived in Jiwe:
+
+* Term sheets
+* Signed contracts
+* Smart contract event hashes
+* Capital logs
+* Member intake registry
+
+**Required Journal Fields**
+
+* Agent identity
+* Contribution type
+* Timestamp
+* Governance ratification hash
+* Smart contract address + event ID
+
+---
+
+## 4) Intake Forms & Workflow
+
+Build *operational forms* (Notion/Typeform/Custom UI):
+✔ Member buy-in request
+✔ Investor capital submission request
+✔ Deferred comp acceptance
+✔ KYC/AML intake form
+✔ Term sheet confirmation
+
+**Each form should:**
+📌 Capture identity
+📌 Reference governance terms
+📌 Generate automated Jiwe hash on submission
+📌 Queue for Governance approval pipeline
+
+---
+
+# 📆 MONTH 1 OPERATIONAL PLAN — INVESTMENT & MEMBER INTAKE
+
+### **WEEK 1 — POLICY FOUNDATION**
+
+**Outputs**
+
+* Draft Capital Intake Policy
+* Draft Deferred Compensation Policy
+* Member/Membership Intake Policy
+* Template Term Sheet language
+
+**Activities**
+
+1. Outline capital instrument definitions
+2. Define governance approval thresholds
+3. Create sample term sheets (CPU/DFU)
+4. Define eligibility criteria (LGU, GVU baselines)
+
+**Success Checklist**
+☑ Policy skeletons drafted
+☑ Draft term sheets created
+☑ SOP IDs assigned
+
+---
+
+### **WEEK 2 — SMART CONTRACT TEMPLATES**
+
+**Outputs**
+✔ Intake Escrow Contract
+✔ CPU/DFU Registry Contract
+✔ Member Intake Contract
+✔ Deferred Compensation Contract
+
+**Activities**
+
+1. Define data models to align with Jiwe
+2. Integrate governance ratification checks (`requiresCondition(...)`)
+3. Add vesting/escrow release logic
+4. Hook in RSU risk controls
+
+**Success Checklist**
+☑ Contracts drafted
+☑ Local tests passing
+☑ Contracts ready for audit cycles
+
+---
+
+### **WEEK 3 — WORKFLOWS & FORMS**
+
+**Outputs**
+✔ Intake Form Suite
+✔ Onboarding pipelines
+✔ Governance ratification workflows
+
+**Activities**
+
+1. Implement form → smart contract triggers
+2. Automate Jiwe logging on intake
+3. Define notification/alert flows
+4. Map governance cycle dependencies
+
+**Success Checklist**
+☑ All forms functional
+☑ Jiwe logging active
+☑ Governance queue integration
+
+---
+
+### **WEEK 4 — PILOT INTAKE RUNS**
+
+**Outputs**
+🧪 Pilot Intake Round 0
+
+* 5 member buy-ins
+* 2 capital submissions (CPU/DFU)
+* 1 deferred compensation scenario
+
+**Activities**
+
+1. Run dry-run onboarding
+2. Submit to Assembly for ratification
+3. Capture metrics: time, errors, governance lag
+4. Iterate SOPs
+
+**Success Checklist**
+☑ Pilot ratified contributions
+☑ Dashboard logs populated
+☑ Lessons captured
+
+---
+
+# 📊 PILOT DASHBOARD — CAPITAL & MEMBER INTAKE (M1)
+
+| **Metric**               | **Target** | **Actual** |
+| ------------------------ | ---------- | ---------- |
+| Member Intake Requests   | 20         |            |
+| Members Ratified         | 5          |            |
+| CPU Commitments          | ≥ 1,000    |            |
+| DFU Commitments          | ≥ 500      |            |
+| Deferred Comp Intakes    | 1          |            |
+| Governance Approval Time | ≤ 7d       |            |
+| Jiwe Artifacts Archived  | 100%       |            |
+
+**Trend Indicators**
+
+* Intake → ratification latency
+* Governance backlog
+* Risk flags (RSU) per submission
+
+---
+
+# 🧠 GOVERNANCE CYCLE INTAKE FLOW
+
+```
+Intake Form Submitted
+        ↓
+Automated Jiwe Hash / Archive
+        ↓
+Intake Escrow (smart contract)
+        ↓
+Governance Ratification Queue
+        ↓
+Assembly Ratification
+        ↓
+Smart Contract Release (CPU/DFU issuance)
+        ↓
+Member/Investor Dashboard Update
+```
+
+**Ratification Triggers**
+
+* Member buy-ins: Monthly Governance Cycle
+* Capital commitments above threshold: Quarterly Assembly Vote
+* Deferred comp: Governance + Tribunal check
+
+---
+
+# 🛡 RISK & COMPLIANCE GUARDS
+
+**RSU Risk Scoring**
+
+* High RSU agents may have contributions held until remediated
+
+**AML/KYC**
+
+* Basic KYC for external investors
+* Escrow holds until compliance check passed
+
+**Governance Safety**
+
+* Supermajority for capital intake above threshold
+* Cooling periods for large DFU agreements
+
+---
+
+# ✨ EARLY SUCCESS INDICATORS (M1–M2)
+
+**Leading Indicators**
+✔ Intake submissions quantity
+✔ Ratification cycle time
+✔ Escrow contract clearance rates
+✔ CPU/DFU issuance accuracy
+
+**Lagging Indicators**
+✔ Capital committed
+✔ Members onboarded
+✔ Deferred comp executes successfully
+✔ Jiwe integrity (audit logs)
+
+---
+
+# 📌 NEXT SUPPORT I CAN GENERATE
+
+✔ **Editable Term Sheet Templates (PDF/Doc)**
+✔ **Smart Contract Hardhat/Foundry Tests**
+✔ **Dashboard Sheets/Visuals for Intake Metrics**
+✔ **Governance Ratification Scripts**
+
+Just tell me which one you want first!
+
+Absolutely — here’s your **Month 1 Strategy & To-Do List** for *Pamoja* — precise, high-impact, and ready to act on. This combines your current priorities (outreach, governance, social media) with the **investment & member intake foundation** we just outlined. It’s structured so that every day and week has clear targets, outputs, and success metrics.
+
+---
+
+# 📆 **MONTH 1 STRATEGY — PAMOJA**
+
+**Objective:**
+Build the *foundational influx* of legitimacy, members, capital intake readiness, governance artifacts, and public narrative — so that by the end of Month 1 you are operationally ready to onboard your first members, engage investors, and deploy governance + economic intake systems.
+
+---
+
+## 🎯 **STRATEGIC PILLARS FOR MONTH 1**
+
+1. **Outreach & Recruitment Pipeline**
+2. **Governance & Document Canonization**
+3. **Economic & Capital Intake Foundations**
+4. **Social Media & Narrative Deployment**
+5. **Pilot Onboarding Runs & Measurement Loops**
+
+---
+
+# 🗓 **WEEK 1 — FOUNDATION & INFRASTRUCTURE**
+
+## ⚡ Goals
+
+✔ Establish governance scaffolding
+✔ Start outreach & candidate identification
+✔ Begin narrative content creation
+✔ Kickoff capital intake policy setup
+
+---
+
+### 🔹 **Day 1–2: Orientation & Strategy Kickoff**
+
+**Tasks**
+
+* Conduct a 2-hour strategy alignment session with your EA/CoS
+* Set up your month dashboard (OKRs + KPI trackers)
+* Create your *Month 1 Scorecard* (GitHub/Notion/Sheets)
+
+**Success**
+✅ Month 1 dashboard live
+✅ Week 1 milestones visible
+
+---
+
+### 🔹 **Day 3–4: Archive Audit**
+
+**Tasks**
+
+* Inventory all existing documents in your personal archive
+* Categorize: governance, economic, narrative, SOP drafts
+* Create a master index spreadsheet
+
+**Outputs**
+📌 Archive Master Index
+📌 Tagging schema for Jiwe
+
+**Success**
+✅ All docs indexed with metadata
+
+---
+
+### 🔹 **Day 5–7: Core Document Templates**
+
+**Tasks**
+
+* Draft **Capital Intake Policy**
+* Draft **Member Buy-In Policy**
+* Draft **Deferred Compensation Policy**
+* Draft **Investment Term Sheet Template**
+
+**Outputs**
+📌 Policy + Term Sheet drafts
+📌 Governance SOP ID placeholders
+
+**Success**
+✅ Drafts ready for internal review
+
+---
+
+# 🗓 **WEEK 2 — GOVERNANCE + TECH INTEGRATION**
+
+## ⚡ Goals
+
+✔ Deploy Jiwe Seed structure
+✔ Spin up smart contract scaffolding
+✔ Continue outreach
+
+---
+
+### 🔹 **Day 8–9: Jiwe Seed Deployment**
+
+**Tasks**
+
+* Establish Jiwe folder structure
+* Put first canonical version of docs
+* Generate Dir + Hash snapshot
+
+**Outputs**
+📌 Jiwe Seed V0 deployed
+📌 Governance reference pointers
+
+**Success**
+✅ Jiwe accessible & versioned
+
+---
+
+### 🔹 **Day 10–11: Smart Contract Scaffolding**
+
+**Tasks**
+
+* Create contract templates:
+
+  * Intake Escrow
+  * CPU/DFU Registry
+  * Member Intake
+  * Deferred Compensation
+
+* Add governance ratification interfaces
+
+**Outputs**
+📌 Contract skeletons
+📌 Local tests (initial)
+
+**Success**
+✅ Contracts compile + basic tests green
+
+---
+
+### 🔹 **Day 12–14: Outreach Round 1**
+
+**Tasks**
+
+* Build target lists:
+
+  * Researchers (Mungu theory/relevant academic domains)
+  * Potential co-founders / early contributors
+  * Capital pathway prospects (angel, foundation, aligned funds)
+
+* Send personalized outreach emails
+
+**Outputs**
+📌 Outreach CRM / sheet
+📌 20+ initial contact attempts
+
+**Success**
+✅ 3 scheduled conversations confirmed
+
+---
+
+# 🗓 **WEEK 3 — COMMUNITY, CAPITAL, ONBOARDING PREP**
+
+## ⚡ Goals
+
+✔ Set live outreach pages & intake forms
+✔ Deploy recruiting copy
+✔ Begin first member intake RFF (Request For Feedback)
+
+---
+
+### 🔹 **Day 15–16: Intake Form Setup**
+
+**Tasks**
+
+* Build Membership Intake Form
+* Build Capital / Investment Intake Form
+* Link forms to automated Jiwe hashing
+
+**Outputs**
+📌 Notion/Typeform/Custom UIs
+📌 Sheet + Jiwe linkage
+
+**Success**
+✅ Test submissions recorded in Jiwe
+
+---
+
+### 🔹 **Day 17–18: Social Narrative Drafts**
+
+**Tasks**
+
+* Write 4 blog posts:
+
+  * Intro to *Pamoja* mission
+  * Why *Mungu Theory* matters
+  * Cooperative + economic vision (CPU/DFU)
+  * How to join + contribute
+
+**Outputs**
+📌 Drafts queued for publication
+
+**Success**
+✅ First post scheduled
+
+---
+
+### 🔹 **Day 19–21: First Intake Pilot Run**
+
+**Tasks**
+
+* Run 1st dry-run:
+
+  * 3 internal member buy-ins
+  * 1 capital test (CPU/DFU)
+  * Simulated ratification flow
+
+**Outputs**
+📌 Pilot ingestion logs
+📌 Dashboard metrics
+
+**Success**
+✅ Successfully ratified *dry-run* contributions
+
+---
+
+# 🗓 **WEEK 4 — AMPLIFY & MEASURE**
+
+## ⚡ Goals
+
+✔ Launch outreach campaign publicly
+✔ Publish core narratives
+✔ Measure intake pipeline performance
+✔ Prepare first reflection report
+
+---
+
+### 🔹 **Day 22–23: Publish Content**
+
+**Tasks**
+
+* Publish all 4 blogs across platforms:
+
+  * Medium / Substack
+  * LinkedIn
+  * Twitter/X threads
+  * Community forums (relevant groups)
+
+**Outputs**
+📌 Social posts + engagement tracking
+📌 Links shared in CRM
+
+**Success**
+✅ Minimum 500 impressions across posts
+
+---
+
+### 🔹 **Day 24–25: Governance Cycle (Month 1)**
+
+**Tasks**
+
+* Hold governance review session:
+
+  * Ratify policies (Capital, Member Buy-In, DFU)
+  * Approve intake smart contract deployments
+  * Establish next cycle calendar
+
+**Outputs**
+📌 Ratification logs (Jiwe)
+📌 Governance meeting minutes
+
+**Success**
+✅ Policies ratified by default governance weights
+
+---
+
+### 🔹 **Day 26–28: Dashboard & Scorecard Update**
+
+**Tasks**
+
+* Update KPI dashboards:
+
+  * Outreach: replies, meetings, pipelines
+  * Intake: forms submitted, test contributions
+  * Governance: ratification cycle times
+  * Social: impressions, engagement
+
+**Outputs**
+📌 Scorecard report
+📌 Stakeholder briefing doc
+
+**Success**
+✅ All Month 1 metrics captured
+
+---
+
+### 🔹 **Day 29–30: Retrospective & Plan Adjustment**
+
+**Tasks**
+
+* Conduct month retrospective:
+
+  * What worked?
+  * What slowed us down?
+  * What to accelerate next month?
+* Prepare Month 2 roadmap
+
+**Outputs**
+📌 Retrospective analysis
+📌 Adjusted OKRs for Month 2
+
+**Success**
+✅ Month 2 roadmap ratified
+
+---
+
+# 📌 **WEEKLY CHECKLIST (PRINT READY)**
+
+### Week 1
+
+☐ Archive inventory done
+☐ Document templates drafted
+☐ Policy outlines complete
+
+### Week 2
+
+☐ Jiwe Seed deployed
+☐ Smart contract scaffolds written
+☐ Outreach batch #1 sent
+
+### Week 3
+
+☐ Intake forms live
+☐ Blogs drafted
+☐ 1st intake pilot run
+
+### Week 4
+
+☐ Content published
+☐ Governance ratifications
+☐ KPI dashboard updated
+
+---
+
+# 🎯 MONTH 1 PERFORMANCE METRICS
+
+| Metric                   | Target     | Status |
+| ------------------------ | ---------- | ------ |
+| Outreach replies         | ≥10        | ☐      |
+| Member prospects         | ≥20        | ☐      |
+| Intake form submissions  | ≥10        | ☐      |
+| Governance ratifications | ≥3         | ☐      |
+| Blog impressions         | ≥500       | ☐      |
+| Jiwe canonical logs      | ≥30 events | ☐      |
+| Intake pilots completed  | ≥1         | ☐      |
+
+---
+
+# 🛠 **TOOLS YOU SHOULD USE THIS MONTH**
+
+✔ **Notion/Airtable** — Intake forms, pipelines
+✔ **Jiwe** — Canonical ledger & docs
+✔ **Sheets/Data Studio** — KPI dashboards
+✔ **Medium / Substack** — Published narratives
+✔ **Discord/Telegram/LinkedIn Groups** — Recruiting
+
+---
+
+This Month 1 plan gives you **clarity, cadence, and measurable outcomes**. If you want, I can now generate:
+
+🔹 **Email templates for outreach**
+🔹 **Public landing page copy**
+🔹 **Intake form scripts**
+🔹 **Jiwe Seed structure blueprint**
+
+Just tell me which one you want first!
+
+Absolutely — here is a **strategic planning playbook** for your *Month 1* + **Year 1** across the priorities you just added:
+
+📌 *Strategic planning*
+📌 *Governance structures & meta models*
+📌 *Jiwe / entities / estates / offices / genesis models*
+📌 *Onboarding + investment + funding + work/coordination/space/office strategies*
+
+This is organized as **clarity frameworks + decision artifacts + actionable tasks** so you can operationalize immediately.
+
+---
+
+# 🌐 A) STRATEGIC PLANNING — OVERARCHING FRAMEWORK
+
+## 1) **Strategy Axis Model**
+
+Use this simple 4-axis strategy frame to ensure everything you design covers the essential built environment of Pamoja.
+
+```
+       FUTURE
+         ▲
+ Impact  │        LEGITIMACY
+ (CMU)   │             ▲
+         │             │
+         │             │
+         ├─────────────┼─────────────▶
+    ECONOMICS         GOVERNANCE
+       (SND/CPU/DFU)      (GVU/LGU)
+         │                             REALITY
+         │                             (OPERATIONS)
+         ▼
+        TODAY
+```
+
+**Meaning**
+
+* *Top-left*: Build future impact models (Ubuntuwa, community metrics)
+* *Top-right*: Build legitimacy models (Jiwe, identity, agent classes)
+* *Bottom-right*: Build governance operations (cycles, SOPs, meta models)
+* *Bottom-left*: Build economic realities (capital intake, treasury, payouts)
+
+Your strategy must *balance these axes*.
+
+---
+
+## 2) **Strategic Planning Principles (Pamoja)**
+
+### 🟡 **Coherence**
+
+Every strategy must reference:
+
+* **Jiwe canonical artifacts**
+* **Governance SOPs**
+* **Economic exchange models**
+* **Impact metrics**
+
+### 🟡 **Constraint-Based Design**
+
+Governance constraints protect mission:
+
+* Ratification thresholds
+* Supermajorities on key changes
+* Legitimacy floors for governance participation
+
+### 🟡 **Adaptive Governance**
+
+Embed feedback loops into strategy:
+
+* Weekly retros
+* Monthly KPI cycles
+* Quarterly meta reviews
+
+### 🟡 **Ecosystem First**
+
+Your internal strategies must be designed such that *external partners, estates, investors, and members* can seamlessly slot into processes.
+
+---
+
+# 📊 B) MONTH 1 STRATEGIC PLANNING TO-DO LIST
+
+This is **parallel work** you run alongside outreach, governance, and intake pipelines.
+
+### **WEEK 1 — STRATEGY FOUNDATIONS**
+
+1. **Define Strategic Vision + Mission Statements**
+
+   * Clear versions for internal vs external audiences
+   * Publish narrative capsule (for blogs & recruitment)
+
+2. **Define Strategic Themes for Year 1**
+
+   * Governance activation
+   * Membership expansion
+   * Capital gating & intake
+   * Impact proofing
+
+3. **Create Strategic Decision Matrix**
+
+   * When do we escalate to Assembly?
+   * What requires supermajority?
+   * Which changes are operational vs constitutional?
+
+**Outputs**
+✔ Vision + Mission doc
+✔ Strategic themes doc
+✔ Decision matrix artifact
+
+---
+
+### **WEEK 2 — META MODELS DESIGN**
+
+1. **Governance Meta Model**
+
+   * Entity: what are the actors?
+   * Roles: who can do what?
+   * Rights: how influence is weighted?
+
+2. **Jiwe Meta Schema**
+
+   * Documents
+   * Entities
+   * Estates
+   * Offices
+   * Economic artifacts
+   * Governance events
+
+3. **Genesis Models**
+
+   * Initial entity registry
+   * Estate definitions
+   * Office definitions
+   * Role assignments
+
+**Outputs**
+✔ Governance meta models
+✔ Jiwe document schemas
+✔ Genesis registry blueprint
+
+---
+
+### **WEEK 3 — ONBOARDING + INVESTMENT MODELS**
+
+1. **Member Onboarding Strategy**
+
+   * Define funnel stages
+   * Criteria for acceptance
+   * Legitimacy & influence scoring
+
+2. **Investment Intake Strategy**
+
+   * What instruments are accepted?
+   * How capital maps to CPU/DFU?
+   * Ratification pathways
+
+3. **Funding Roadmap**
+
+   * Internal runway
+   * Investor funnel
+   * Deferred compensation frameworks
+
+**Outputs**
+✔ Onboarding strategy doc
+✔ Investment rulebook
+✔ Funding runway model
+
+---
+
+### **WEEK 4 — WORK / COORDINATION / SPACE STRATEGIES**
+
+1. **Operational Work Models**
+
+   * Squad model + interactions
+   * Task vs SOP vs policy flows
+   * Communication channels
+
+2. **Coordination Space Design**
+
+   * Virtual hubs (Discord/Slack/Matrix)
+   * Collaboration tools
+   * Shared calendar & OKR rhythms
+
+3. **Office Strategy**
+
+   * Estates → Offices mapping
+   * Physical vs virtual service nodes
+   * Role templates & workflows
+
+**Outputs**
+✔ Work model map
+✔ Coordination space plan
+✔ Office catalog + workflows
+
+---
+
+# 📌 C) GOVERNANCE STRUCTURES & META MODELS
+
+These are **concept artifacts** you need for strategic clarity.
+
+---
+
+## 1) **Governance Anatomy (Meta Model)**
+
+### **Entities**
+
+* Individual Agent
+* Estate
+* Cooperative Entity
+* Organization / Institution
+* External Partner
+* Active Agent (AI/hybrid)
+
+### **Classes**
+
+| Class                   | Capability     | Governance Rights |
+| ----------------------- | -------------- | ----------------- |
+| A — Worker              | Execution      | No vote           |
+| B — Steward             | Care           | Consultative      |
+| C — Governance          | Policy         | Vote              |
+| D — Commons             | Community      | Council Seat      |
+| E — Founder             | Architect      | Veto + Ratify     |
+| F — Capital Participant | Capital        | No governance     |
+| G — Future Member       | Apprentice     | Observation       |
+| H — AI Delegated        | Scoped actions | Limited           |
+| I — Estate Rep          | Legacy rights  | Estate influence  |
+
+---
+
+## 2) **Governance Interaction Graph**
+
+```
+[KERNEL]
+   └─▶ Jiwe Events
+        └─▶ SOP triggers
+             └─▶ Assembly → Tribunal → Council
+                   └─▶ JTEC ratifications
+                         └─▶ Treasury / Economic actions
+```
+
+---
+
+## 3) **Meta Governance Rules**
+
+### **Ratification Rules**
+
+| Change Type                   | Threshold                    | Body            |
+| ----------------------------- | ---------------------------- | --------------- |
+| Operational SOP               | Simple majority              | Assembly        |
+| Structural SOP                | Supermajority                | Assembly        |
+| Constitutional                | 2/3+                         | Assembly        |
+| Capital intake > threshold    | 2/3                          | Assembly + JTEC |
+| External partnership approval | Simple majority + CGO review | Assembly        |
+
+---
+
+## 4) **Jiwe Canonical Genesis Schema**
+
+| Schema              | Key Elements             |
+| ------------------- | ------------------------ |
+| **Entity**          | id, type, roles, estates |
+| **Estate**          | id, members, assets      |
+| **Office**          | id, roles, workflows     |
+| **Document**        | id, version, tags        |
+| **GovernanceEvent** | proposal, votes, outcome |
+| **EconomicEvent**   | CPU/DFU/SND transactions |
+| **IntakeEvent**     | timestamp, ratified?     |
+| **ImpactEvent**     | CMU metrics, score       |
+
+---
+
+# 📊 D) ONBOARDING, INVESTMENT, FUNDING STRATEGIES
+
+## 1) **Onboarding Strategy Blueprint**
+
+### *Funnel Stages*
+
+1. Awareness
+2. Expression of Interest
+3. Identity Verification (LGU baseline)
+4. Buy-In / Contribution
+5. Ratification
+6. Activation
+
+### *Scoring Rules*
+
+* LGU must pass baseline
+* GVU assigned post-ratification
+* CMU eligible after first impact task
+
+### *Failure Modes*
+
+* Incomplete identity
+* RSU flags
+* Low legitimacy
+
+---
+
+## 2) **Investment Intake Strategy**
+
+### *Capital Instruments*
+
+* CPU — equity stake
+* DFU — deferred claim
+* SND — immediate liquidity
+* AZU — asset contribution
+
+### *Valuation*
+
+* External capital → CPU/DFU via pooling formula
+* Legacy asset → AZU assignment, impact weighting
+
+### *Ratification*
+
+* > Threshold → Assembly & JTEC
+* <Threshold → Micro ratification by Council
+
+---
+
+## 3) **Funding Roadmap**
+
+| Quarter | Focus            | KPI                           |
+| ------- | ---------------- | ----------------------------- |
+| Q1      | Intake readiness | Policy + contracts ready      |
+| Q2      | Pilot intake     | 5 members + 3 investors       |
+| Q3      | Scale capital    | CPU/DFU out to broader cohort |
+| Q4      | Impact funding   | Link payouts to outcomes      |
+
+---
+
+## 4) **Work / Coordination / Office Strategy**
+
+### *Coordination Model*
+
+* Executive cadence (Weekly leadership)
+* Tactical cadence (Squad sprints)
+* Governance cadence (Monthly cycles)
+* Strategic cadence (Quarterly summits)
+
+### *Spaces & Tools*
+
+* Jiwe — canonical source
+* Notion/Airtable — onboarding flows
+* Discord/Slack — real-time comm
+* Data dashboards — KPI + pilot status
+* Calendar & OKR boards — rhythm
+
+### *Offices Blueprint*
+
+Each estate/office has:
+
+* Role map
+* SOP stack
+* Document namespace
+* Access credentials
+
+---
+
+# 🛠 E) MONTH 1 STRATEGIC PLANNING TO-DO LIST (CHECKLIST)
+
+### Planning & Modeling
+
+☐ Draft Vision + Mission
+☐ Create Strategic Themes
+☐ Design Decision Matrix
+☐ Draft Governance Meta Model
+☐ Draft Jiwe Genesis Schema
+☐ Draft Onboarding Strategy
+☐ Draft Investment Strategy
+☐ Draft Funding Roadmap
+☐ Define Weekly/Monthly/Qtr Cadences
+
+### Governance & Ratification
+
+☐ Assign SOP IDs
+☐ Plan Governance Ratification Calendar
+☐ Identify threshold rules
+☐ Draft meta governance rules
+
+### Jiwe & Entities
+
+☐ Jiwe structure defined
+☐ Genesis document taxonomy created
+☐ Entity/estate/office templates drafted
+☐ Identity schema drafted
+
+### Onboarding & Capital Intake
+
+☐ Intake form designs
+☐ Policy drafts
+☐ Smart contract interfaces outlined
+☐ Intake event logging patterns
+
+### Work & Coordination
+
+☐ Cadence calendars
+☐ Tools stack setup
+☐ Communication plan
+
+---
+
+# 🧠 FINAL THOUGHT
+
+This strategic planning stack is **your blueprint** — it ensures that Month 1 isn’t just execution chaos, but a **disciplined planning foundation** that:
+
+✅ Aligns everything to Jiwe canonical truth
+✅ Embeds governance into every intake event
+✅ Connects economic capital to legitimacy & impact
+✅ Makes Pamoja *legible, auditable, scalable*
+
+---
+
+If you want, I can now produce these as **Google Sheet strategic dashboards**, **Notion templates**, or **Mermaid architecture diagrams**.
+Just tell me which one you want first!
+
+
+

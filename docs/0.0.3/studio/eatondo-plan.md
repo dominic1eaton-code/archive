@@ -15548,3 +15548,514 @@ Just tell me which one you want first!
 
 
 
+Below is your **Month 1 Schedule, To-Dos, Plans, Strategies, and Work Breakdown** — fully integrated across all your stated priorities for Year 1 of *Pamoja*. It’s organized as **weekly plans, daily breakdowns, outcome targets, owners (you + possible helpers), artifacts to produce, and metrics** so you can dive in immediately and execute *with coherence*.
+
+---
+
+# 📆 **MONTH 1 EXECUTION PLAN — PAMOJA**
+
+## 🎯 OVERALL MONTH GOALS
+
+By the end of Month 1 you will have:
+
+✔ **Outreach & member pipeline launched**
+✔ **Governance foundation established (Jiwe seed + canonized docs)**
+✔ **Personal estate & office formally articulated**
+✔ **Public narrative active (blogs + engagement)**
+✔ **Investment & capital intake foundations drafted**
+✔ **Strategic planning artifacts for Year 1 completed**
+
+---
+
+# 📅 WEEKLY SCHEDULE OVERVIEW
+
+| Week       | Primary Focus                                                  | Major Outputs/Artifacts                                    |
+| ---------- | -------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Week 1** | Orientation + Archive Audit + Outreach Kickoff                 | Archive index, Outreach targets, Policy skeletons          |
+| **Week 2** | Jiwe Seed Deployment + Doc Canonization + Research Outreach    | Jiwe v0, Document taxonomy, Research responses             |
+| **Week 3** | Social Narratives Live + Intake Forms + Strategic Model Drafts | Published posts, Intake forms, Strategy docs               |
+| **Week 4** | Pilot Intake Runs + Governance Ratification + Reflect & Plan   | Pilot results, Governance minutes, Revised Year 1 Strategy |
+
+---
+
+# 🗓 **DETAILED WEEK BY WEEK BREAKDOWN**
+
+---
+
+## 🗓 **WEEK 1 — ORIENTATION & INFRASTRUCTURE SETUP**
+
+### 🌟 Objectives
+
+• Get clear on roles/outputs
+• Audit existing archive + plan Jiwe structure
+• Begin outreach to researchers & members
+• Start drafting core policies
+
+---
+
+### 🗓 **DAILY PLAN**
+
+**Day 1 — Kickoff & Priorities Setup**
+
+* Establish Month 1 OKRs document
+* Create **Master Month 1 Dashboard** (Notion/Sheets)
+* Set weekly rhythms: Daily standups, weekly retros
+
+*Artifact:* Month 1 Dashboard
+
+---
+
+**Day 2 — Archive Audit**
+
+* Inventory all existing files & documents
+* Tag by category: governance, economic, narrative, SOPs, drafts
+* Build **Archive Master Index** (spreadsheet)
+
+*Artifact:* Archive Master Index
+
+---
+
+**Day 3 — Outreach Target Mapping**
+
+* Create lists:
+
+  * Researchers in relevant fields (systems, complexity, governance theory)
+  * Community builders in DAO, co-op spaces
+  * Potential contributors/hires
+
+*Artifact:* Outreach Target Sheet
+
+---
+
+**Day 4 — Policy Skeleton Drafts**
+Begin drafting:
+✔ Capital Intake Policy
+✔ Member Buy-In Policy
+✔ Deferred Compensation Policy
+✔ Investment Term Sheet
+
+*Artifact:* Policy Starter Drafts
+
+---
+
+**Day 5 — Outreach Messaging**
+Write initial outreach templates:
+
+* Cold email for researchers
+* Invite message to potential members/hires
+* Social media intro announcement
+
+*Artifact:* Outreach Message Templates
+
+---
+
+**Day 6 — Quick Review & Adjustments**
+
+* Review Week 1 work
+* Identify missing pieces
+* Update OKRs & dashboard
+
+*Artifact:* Week 1 Retrospective Notes
+
+---
+
+**Day 7 — Rest/Buffer/Document**
+
+* Sync docs to source control/Jiwe drafts
+* Buffer catch-up
+
+---
+
+### 🧠 **KEY SUCCESS METRICS (W1)**
+
+✔ Archive 100% indexed
+✔ Outreach targets / at least 30 unique contacts identified
+✔ 4 policy skeleton docs drafted
+
+---
+
+## 🗓 **WEEK 2 — JIWE SEED & DOC CANONIZATION**
+
+### 🌟 Objectives
+
+• Deploy Jiwe seed
+• Standardize docs
+• Continue outreach
+• Refine governance models
+
+---
+
+### 🗓 **DAILY PLAN**
+
+**Day 8 — Jiwe Structure Planning**
+
+* Define folder/schema structure:
+
+  * Governance/
+  * Economic/
+  * Intake/
+  * Estate/
+  * Narrative/
+  * SOPs/
+
+*Artifact:* Jiwe Folder Schema
+
+---
+
+**Day 9 — Deploy Jiwe V0**
+
+* Upload core documents with tags + versioning
+* Create canonical metadata (title, tags, hash)
+
+*Artifact:* Jiwe V0 Deployment
+
+---
+
+**Day 10 — Doc Standardization**
+
+* Convert existing docs to agreed canonical templates
+* Add missing meta (authors, version, dependencies)
+
+*Artifact:* Standardized Doc Set
+
+---
+
+**Day 11 — Outreach Round #1**
+
+* Send first batch of personalized emails to top researcher list
+* Track responses
+
+*Artifact:* Outreach Log (sent)
+
+---
+
+**Day 12 — Governance Meta Model Draft**
+
+* Map:
+
+  * Entities
+  * Classes
+  * Roles
+  * SOP hierarchy
+  * Ratification pathways
+
+*Artifact:* Governance Meta Model Doc
+
+---
+
+**Day 13 — Personal Estate & Office Charter**
+
+* Draft:
+
+  * Estate mission & scope
+  * Office roles
+  * Asset assignments
+  * Succession / legacy rules
+
+*Artifact:* Eaton Estate Charter
+
+---
+
+**Day 14 — Weekly Review**
+
+* Reflect on responses
+* Identify gaps
+* Update Month 1 forecast
+
+*Artifact:* Week 2 Retrospective
+
+---
+
+### 🧠 **KEY SUCCESS METRICS (W2)**
+
+✔ Jiwe seed live
+✔ Core docs canonical
+✔ Governance meta model started
+✔ 10+ outreach emails sent
+
+---
+
+## 🗓 **WEEK 3 — NARRATIVE, INTAKE FORMS, STRATEGY MODELS**
+
+### 🌟 Objectives
+
+• Publish core narratives
+• Build intake pipelines
+• Start strategic plan drafting
+
+---
+
+### 🗓 **DAILY PLAN**
+
+**Day 15 — Blog #1 Publish**
+Topic: **What is Pamoja? Vision & Mission**
+
+*Artifact:* Live Blog
+
+---
+
+**Day 16 — Blog #2 Publish**
+Topic: **Why Mungu Theory Matters**
+
+*Artifact:* Live Blog
+
+---
+
+**Day 17 — Build Intake Forms**
+
+* Membership form
+* Capital/Investment form
+* Jiwe hash automation
+* Link to dashboard
+
+*Artifact:* Intake Form Suite
+
+---
+
+**Day 18 — Share in Communities**
+Post blogs to:
+
+* Reddit / r/coop
+* LinkedIn
+* Discord groups
+* Systems forums
+
+*Artifact:* Engagement Log
+
+---
+
+**Day 19 — Strategic Planning Workshop**
+Focus:
+
+* Year 1 strategy themes
+* Risk prioritization
+* Governance cadence
+* Investment pipeline
+
+*Artifact:* Strategy Themes Doc
+
+---
+
+**Day 20 — Onboarding & Funding Flow Draft**
+Design:
+
+* Onboarding steps
+* Governance gates
+* Capital intake & escalation
+* RSU risk guards
+
+*Artifact:* Onboarding & Intake Flow Chart
+
+---
+
+**Day 21 — Weekly Review**
+
+* Goals: narrative engagement + intake progress
+
+*Artifact:* Week 3 Retrospective
+
+---
+
+### 🧠 **KEY SUCCESS METRICS (W3)**
+
+✔ 2 blogs published
+✔ Intake forms ready
+✔ Strategy workshop outputs
+✔ Social engagement tickers
+
+---
+
+## 🗓 **WEEK 4 — PILOTS, RATIFICATION, REFLECT**
+
+### 🌟 Objectives
+
+• Pilot intake runs
+• Governance ratifications
+• Monthly reflection & plan update
+
+---
+
+### 🗓 **DAILY PLAN**
+
+**Day 22 — Pilot Intake Run 1**
+
+* Dry run:
+
+  * 2 membership submits
+  * 1 capital draft
+* Log to Jiwe
+
+*Artifact:* Pilot Intake Log
+
+---
+
+**Day 23 — Send Intake Invites**
+
+* Outreach to small cohort for pilot
+* Evaluate data capture
+
+*Artifact:* Intake Outreach Log
+
+---
+
+**Day 24 — Governance Ratification Session**
+
+* Ratify:
+
+  * Policy skeletons
+  * Intake forms
+  * Jiwe structure
+* Log outcomes
+
+*Artifact:* Governance Minutes
+
+---
+
+**Day 25 — Dashboard Compilation**
+
+* Update:
+
+  * Outreach responses
+  * Intake metrics
+  * Social stats
+  * Governance cycle metrics
+
+*Artifact:* Month Scorecard
+
+---
+
+**Day 26 — OKRs for Month 2 Draft**
+
+* Based on:
+
+  * What worked
+  * What didn’t
+  * Early signals
+
+*Artifact:* Month 2 OKRs
+
+---
+
+**Day 27 — Narrative Wrap**
+Blog #3:
+**Pamoja Month 1 Report & Next Steps**
+
+*Artifact:* Live Blog
+
+---
+
+**Day 28 — Retrospective + Archive**
+
+* Final audit
+* Update Jiwe
+* Archive lesson logs
+
+*Artifact:* Month 1 Retrospective
+
+---
+
+### 🧠 **KEY SUCCESS METRICS (W4)**
+
+✔ 1 intake pilot completed
+✔ Governance ratification done
+✔ Month scorecard published
+✔ 3 blogs live
+
+---
+
+# 🔧 CROSS-CUTTING SUPPORTING TASKS
+
+---
+
+## 🛠 **Documentation & SOPs**
+
+Daily naming conventions:
+
+* Title
+* Version
+* Date
+* Tags
+* Dependencies
+  → Each doc gets Jiwe entry
+
+**To produce**
+✔ SOP dogs for:
+
+* Jiwe upload
+* Intake forms
+* Governance cycles
+* Strategic modeling
+
+---
+
+## 💻 **Governance Workflows**
+
+Define:
+
+* Proposal → Discussion → Vote → Ratify
+* Thresholds
+* Time windows
+
+**To produce**
+✔ Governance workflow map
+
+---
+
+## 📣 **Communication Strategy**
+
+Channels:
+✅ Twitter/X
+✅ LinkedIn
+✅ Medium / Substack
+✅ Discord / Telegram
+
+**To produce**
+✔ Content calendar
+
+---
+
+## 📊 **Metrics Dashboards (Sheets)**
+
+Track:
+
+* Outreach (sent / replied)
+* Intake clicks/submissions
+* Governance approvals
+* Social impressions
+* Intake conversion
+
+**To produce**
+✔ KPI dashboards
+
+---
+
+# 🧠 PRIORITY CHECKPOINTS
+
+| Checkpoint          | Target |
+| ------------------- | ------ |
+| Archive Indexed     | 100%   |
+| Jiwe Seed Live      | Yes    |
+| Outreach Sent       | ≥ 50   |
+| Members Interested  | ≥ 20   |
+| Intake Forms        | Ready  |
+| Capital Policy      | Draft  |
+| Blogs Published     | ≥ 3    |
+| Governance Ratified | ≥ 1    |
+
+---
+
+# 🧠 QUICK START NOTES
+
+**Batch tasks**:
+• Write blogs in one session
+• Set intake forms in one session
+• Group outreach batches
+
+**Automate where possible**
+• Jiwe hashing from forms
+• Dashboard updates
+• Outreach email tracking
+
+---
+
+If you want any of these as **Notion templates, Airtable bases, Sheets dashboards, or ready-to-send email/social media copy**, just tell me which format you want first!

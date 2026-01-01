@@ -11205,3 +11205,869 @@ If you want, I can generate:
 🔹 **Machine-verifiable test result logging for Jiwe**
 
 Just tell me which path you want next!
+Below is a **comprehensive Year 2 Vesting & Release Schedule Framework** for **you, your core team (C-Suite, squads), and investors/partners** within the *Pamoja Federation Coop ecosystem*. This aligns with your governance, capital, legitimacy (LGU/GVU), impact (CMU), and capital instruments (SND/CPU/DFU) logic. You can adopt, adapt, and encode these into SOPs and smart contracts.
+
+---
+
+# 📅 OVERVIEW — PURPOSE & VESTING PHILOSOPHY
+
+**Objective:**
+Ensure that rewards, equity, governance influence, and economic participation earned in Year 2 vest over time in a way that:
+
+✔ Encourages long-term contribution and retention
+✔ Ties economic upside to mission delivery (CMU outcomes)
+✔ Protects governance integrity (staged GVU/LGU grants)
+✔ Balances investor returns with cooperative norms
+✔ Is enforceable via smart contracts
+
+**Key Instruments Covered**
+
+* **CPU** (Capital Participation Units)
+* **DFU** (Deferred Claim Units)
+* **SND** (SundiataCoin) payouts
+* **GVU / LGU** (Governance & Legitimacy Influence)
+* **CMU** (Impact rewards)
+* **Role/Equity Tokens** (e.g., Board/Steward badges)
+
+**Core Principles**
+
+* **Time-based vesting** (standard)
+* **Milestone/impact conditions** (CMU-linked)
+* **Governance release triggers** (ratification/consensus)
+* **Risk moderation** (RSU flags affect vesting curves)
+
+---
+
+# 🧑‍💼 1) PERSONAL VESTING — YOUR ROLE (Founder / CEO)
+
+You are the **navigator and architect** of the ecosystem. Your vesting includes long-term mission alignment (impact & legitimacy), governance stewardship, and capital participation.
+
+## 💠 Year 2 Vesting Pools
+
+| **Component**      | **Total Allocated (Year 2)** | **Vesting Type** | **Release Schedule**          | **Conditions**                                          |
+| ------------------ | ---------------------------- | ---------------- | ----------------------------- | ------------------------------------------------------- |
+| CEO CPU Grant      | 2,400 CPU                    | Time + CMU       | Quarterly over 4 quarters     | Must maintain CEO role; CMU review each quarter         |
+| CEO DFU Grant      | 1,200 DFU                    | Milestone        | 3 tranches (Q2, Q4, Year-end) | Impact milestones (Ubuntuwa, core platform, coop scale) |
+| SND Performance    | 50,000 SND                   | Time             | Monthly                       | Liquidity & economic KPIs                               |
+| GVU Increase       | +30 GVU                      | Governance       | Monthly drip                  | Active participation & no RSU flags                     |
+| LGU Bump           | +0.10                        | One-time         | Q2                            | Assembly ratification                                   |
+| Impact Bonus (CMU) | 3,000 CMU                    | Milestone        | As achieved                   | Meets quarterly CMU targets                             |
+
+### 📊 Example Schedule (CEO)
+
+| **Month** | **CPU** | **DFU** | **SND** | **GVU** | **LGU** | **CMU** |
+| --------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| Jan       | 600     | 0       | 4,000   | 7.5     | —       | 1,000   |
+| Apr       | 600     | 400     | 4,000   | 7.5     | 0.10    | 1,000   |
+| Jul       | 600     | 400     | 4,000   | 7.5     | —       | 500     |
+| Oct       | 600     | 400     | 4,000   | 7.5     | —       | 500     |
+
+**Notes**
+
+* **GVU drip** requires active governance participation; pauses if RSU triggers occur.
+* **CMU releases** anchored to measurable outcomes (Ubuntuwa participation, community KPIs, impact reports).
+
+---
+
+# 👥 2) CORE TEAM (C-Suite + Squad Leads)
+
+This group includes COO, CTO, CFO, CLO, CGO, CPO, CCO, CDLO, CIOp, and Squad Leads. Vesting is structured to reward **retention, delivery, and impact**.
+
+## 💠 Vesting Structure by Category
+
+### A) **Time-based CPU Grants**
+
+* **Total per core exec**: 600–1,200 CPU (role dependent)
+* **Schedule**: Quarterly vest over Year 2 (25%/quarter)
+* **Conditions**: No RSU breaches; role incumbency
+
+### B) **DFU (Deferred Claim)**
+
+* **Total per core exec**: 300–600 DFU
+* **Schedule**: 3 milestone releases (Q2, Q3, Q4)
+* **Conditions**: Completed core delivery milestones (per OKRs)
+
+### C) **SND Bonus Pools**
+
+* **Monthly/Quarterly Performance Pools**
+* Distributed based on squad impact metrics & CMU contributions
+
+### D) **GVU / LGU Adjustments**
+
+* **GVU increment pools** tied to governance participation
+* **LGU boosts** on impact leadership (CMU leadership tiers)
+
+## 📊 Example (COO)
+
+| Category  | Total  | Q1  | Q2  | Q3  | Q4  | Conditions               |
+| --------- | ------ | --- | --- | --- | --- | ------------------------ |
+| CPU       | 800    | 200 | 200 | 200 | 200 | Role + RSU clean         |
+| DFU       | 400    | —   | 150 | 150 | 100 | Milestone OKR delivery   |
+| SND       | 20,000 | 5k  | 5k  | 5k  | 5k  | Squad performance        |
+| GVU       | +15    | +4  | +4  | +4  | +3  | Governance participation |
+| CMU Bonus | 2,000  | 500 | 500 | 500 | 500 | Impact KPIs              |
+
+---
+
+# 🤝 3) NEW MEMBERS (Class A–G)
+
+### 🧠 Member Vesting Logic
+
+New members earn **vested privileges & allocations** tied to:
+
+* **Time in ecosystem**
+* **Participation levels**
+* **Impact contributions (CMU)**
+* **Governance participation (GVU/LGU)**
+
+## 💠 Vesting Tracks
+
+### A) **Legitimacy & Influence Vesting**
+
+* LGU start: baseline
+* **Incremental LGU vest** quarterly if:
+
+  * Governance attendance ≥ 75%
+  * No RSU incidents
+* GVU vest similar for governance roles
+
+### B) **CMU Impact Vesting**
+
+* **Tiered CMU awards** released as members complete community programs
+
+### C) **CPU/DFU Vesting for Member Sponsors**
+
+* Members who invest (CPU) vest DFU:
+
+  * 30% at Q2
+  * 30% at Q3
+  * 40% at Q4
+
+---
+
+## 📊 Example Member Vesting Table
+
+| Vest Type | Total | Q1  | Q2   | Q3   | Q4   | Conditions              |
+| --------- | ----- | --- | ---- | ---- | ---- | ----------------------- |
+| GVU       | +10   | +2  | +2   | +3   | +3   | Gov participation       |
+| LGU       | +0.20 | —   | 0.05 | 0.05 | 0.10 | Impact score            |
+| DFU       | 200   | —   | 60   | 60   | 80   | Member investment norms |
+| CMU       | 1,000 | 250 | 250  | 250  | 250  | Impact milestones       |
+
+---
+
+# 💼 4) INVESTORS / CAPITAL PARTICIPANTS
+
+Investors are treated differently. They get **economic returns** but **limited governance control** (unless specified in buy-in tier).
+
+### 🧠 Investor Vesting Categories
+
+#### A) **DFU Vesting**
+
+* **Vesting** tied to revenue/impact, not just time
+* Typical schedule (Year 2):
+
+  * **Initial release (Q1)**: 25% (on capital contribution)
+  * **Milestone release (Q2)**: 25%
+  * **Revenue trigger (Q3)**: 25%
+  * **Impact fulfillment (Q4)**: 25%
+
+Investor vesting is triggered by:
+
+* **Revenue performance thresholds**
+* **Impact/CMU targets**
+* **Treasury liquidity status**
+
+#### B) **SND Distributions**
+
+* Quarterly dividends/splits based on economic flows + impact weighting
+
+#### C) **Governance/Influence (Optional)**
+
+* Investor governance influence (GVU) vests only if specified and tied to **mission-aligned conditions** (not simple capital)
+
+---
+
+## 📊 Example Investor Vesting Table
+
+| Vest Type    | Total   | Q1  | Q2  | Q3  | Q4  | Trigger                   |
+| ------------ | ------- | --- | --- | --- | --- | ------------------------- |
+| DFU          | 2,000   | 500 | 500 | 500 | 500 | Revenue / CMU targets     |
+| SND          | 100,000 | 20k | 25k | 25k | 30k | Treasury + economic flows |
+| GVU (if any) | +5      | —   | 1   | 1   | 3   | Strategic conditions      |
+
+---
+
+# 🧠 VESTING CONDITIONS & ESCROW
+
+Most vesting is **conditioned** not just on time, but on:
+
+🟡 **CMU impact milestones**
+🟡 **Governance participation thresholds (GVU/LGU)**
+🟡 **Risk ceilings (RSU must stay low)**
+🟡 **Treasury health metrics**
+🟡 **Phase gate transitions** (seed → tree → forest)
+
+**Enforcement via Smart Contracts:**
+
+* **CPU stake contract** with vesting schedule
+* **DFU vesting contract** with release triggers (impact or revenue)
+* **Role vesting contract** for governance influence
+* **Dashboard triggers** automate broadcaster events
+
+---
+
+## 🧠 VESTING FORMULAS (SPREADSHEET-READY)
+
+### 🎯 CPU Time Vesting (Quarterly)
+
+```
+vested_cpu_period = total_cpu / 4
+```
+
+### 🧠 DFU Milestone Vesting
+
+```
+vested_df u_Q = total_dfu * milestone_percentage
+```
+
+### 📊 SND Bonus Vesting (performance)
+
+```
+vested_snd_Q = total_snd * (actual_performance / target_performance)
+```
+
+### 📈 GVU Vesting (Governance)
+
+```
+vgvu_period = base_increment + participation_multiplier − RSU_penalty
+```
+
+---
+
+# 📅 VESTING CHECKPOINTS (AUTOMATED)
+
+Each quarter, your dashboards should evaluate:
+
+✔ Time anchored vesting eligibility
+✔ Impact/CMU conditions
+✔ Governance participation
+✔ RSU risk flags
+✔ Treasury liquidity
+
+**Triggers change state in Jiwe and smart contracts**, allowing automatic release or pausing of vesting.
+
+---
+
+## 🧠 IMPLEMENTATION ROADMAP
+
+### Q1
+
+* Deploy vesting contracts
+* Publish vesting SOPs (CPU/DFU/SND/GVU/LGU)
+* Execute initial grants
+
+### Q2
+
+* Evaluate CMU/impact milestones
+* Vest first DFU and LGU/GVU releases
+
+### Q3
+
+* Evaluate governance participation
+* Mid-year investor vesting
+
+### Q4
+
+* Year-end impact & financial reconciliation
+* Final vesting releases
+
+---
+
+## 🧠 RISKS & ADJUSTERS
+
+| Risk                         | Adjuster                          |
+| ---------------------------- | --------------------------------- |
+| RSU spikes                   | Pause vesting, require mitigation |
+| Missed impact target         | Reduce CMU-linked vesting         |
+| Governance non-participation | Reduce GVU accrual                |
+| Treasury strain              | Delay SND payouts                 |
+
+---
+
+If you want, I can now provide **Hardhat/Foundry tests** for vesting contracts, **spreadsheet models** of these vesting curves, and **dashboard mockups** that visualize vesting over time with release triggers. Just tell me which one you want first!
+
+Here’s a **comprehensive Vesting & Distribution Policy** tailored for your *Pamoja Federation Coop ecosystem* — covering **what gets vested, how it’s distributed, under what conditions, and how governance, impact, legitimacy, and risk interact**. This is your formal policy you can include in bylaws, SOPs, smart contracts, and governance documents.
+
+This answer does **not** require web search — it’s based on your existing coop systems and economic instruments (ZU, GVU/LGU, CMU, CPU/DFU, SND, governance DAO & Tribunal).
+
+---
+
+# 🧠 PAJAMO FEDERATION CO-OP
+
+## **Vesting & Distribution Policy**
+
+**Purpose:**
+To provide clear, fair, mission-aligned rules for how **capital, governance influence, impact rewards, and economic distributions** vest and are distributed over time to Participants, including Founders, Members, Team, and Investors/Partners.
+
+**Scope:**
+Applies to all **vested instruments** issued by or within the Federation, including but not limited to:
+
+* CPU (Capital Participation Units)
+* DFU (Deferred Claim Units)
+* SND (SundiataCoin) economic rewards
+* ZU (Zawadi Units) including LZU, VZU, CMU, LGU, and GVU
+* Role/Equity Tokens (e.g., Board/Steward badges)
+
+Governed by:
+
+* Federation Constitution
+* Coop Charter & Bylaws
+* SOPs & Governance Rules
+* Smart Contracts enforcing vesting mechanics
+
+---
+
+# 🔑 PRINCIPLES
+
+1. **Mission Alignment** — Vesting must reinforce *impact* and *commons betterment* (CMU, Ubuntuwa, ethical cooperativism).
+2. **Governance Integrity** — Vesting of influence (GVU/LGU) must reflect sustained contribution and legitimacy, not be time-locked only.
+3. **Risk Moderation** — RSU (Risk Scalar Unit) may *adjust or pause* vesting if risk or compliance concerns arise.
+4. **Transparency** — All vesting schedules and distributions must be publicly recorded in Jiwe.
+5. **Performance & Milestone Linked** — When appropriate, vesting depends on defined milestones, not just time.
+
+---
+
+# 📊 DEFINITIONS
+
+**CPU**
+Capital units representing *economic stake* in cooperative ventures; eligible for revenue distributions.
+
+**DFU**
+Deferred claim units representing *future economic claims* (e.g., profit share, equity rights).
+
+**SND**
+Network native economic token used for regular payouts and liquidity.
+
+**ZU**
+Zawadi Units (labor, economic, impact, legitimacy, governance) awarded based on activities.
+
+**GVU / LGU / CMU / RSU**
+Governance, Legitimacy, Impact, and Risk measures that influence vesting eligibility.
+
+---
+
+# 🎯 VESTING CATEGORIES
+
+### 1) **Founder Vesting**
+
+Applies to Founders / Navigator Members
+Balanced mix of CPU, DFU, and governance influence.
+
+**Schedule (Example, Year 2):**
+
+* CPU: 25% per quarter (4 quarters)
+* DFU: 3 milestone releases (impact/governance milestones)
+* CMU Rewards: As measured, no time lock
+
+**Governance Influence (GVU):**
+
+* Monthly vesting tied to *verified impact & Assembly participation*
+* LGU bump once at mid-year ratification
+
+---
+
+### 2) **Team & C-Suite Vesting**
+
+(Execs, Squad Leads, Stewards)
+
+**CPU Vesting:**
+
+* Quarterly vesting over 12 months
+* Must meet role participation and no RSU breaches
+
+**DFU Vesting:**
+
+* Milestone (e.g., product delivery, strategic objectives)
+
+**Governance Vesting (GVU/LGU):**
+
+* Based on governance engagement & legitimacy performance
+
+---
+
+### 3) **Member Vesting**
+
+(New & existing coop members)
+
+**Impact Vesting (CMU):**
+
+* Issued as earned with quarterly review
+* Larger milestones yield bonus CMU
+
+**Governance Vesting (LGU/GVU):**
+
+* LGU increases based on sustained participation;
+* GVU increases tied to governance work, community contributions
+
+**Assets / CPU / DFU:**
+
+* Only if member *invests capital* or meets specific engagement terms
+
+---
+
+### 4) **Investor/Partner Vesting**
+
+External Capital Participants
+
+**CPU & DFU:**
+
+* CPU immediate credit but vesting of *returns* and *claim uplift* structured
+* DFU vest based on:
+
+  * **Revenue performance**
+  * **Impact outcomes**
+  * **Treasury stability**
+
+**Governance Influence:**
+
+* Typically limited; only if specified in the buy-in tier
+
+**SND Incentives:**
+
+* Quarterly distributions tied to economic flows
+
+---
+
+# 🗓 VESTING TRIGGERS
+
+Vesting must be tied to at least one of the following:
+
+1. **Time-based**
+
+   * Standard: Quarterly or monthly
+2. **Performance/Milestones**
+
+   * Completion of agreed objectives (product, community, impact)
+3. **Governance Participation**
+
+   * Minimum participation in Assembly, councils, Tribunals
+4. **Legitimacy Scores**
+
+   * Certain LGU/GVU thresholds enable next tier unlocks
+
+---
+
+# ✳️ RSU IMPACT ON VESTING
+
+If a participant accrues **high risk scores (RSU)**:
+
+* Time-based vesting may **pause until RSU declines**
+* Governance influence vesting may be reduced
+* Capital uplift (DFU/SND bonuses) may be reduced or deferred
+
+RSU resolution paths include:
+
+* Remediation plans
+* Compliance corrections
+* Tribunal reviews
+
+---
+
+# 💰 DISTRIBUTION RULES
+
+### A) SND ECONOMIC DISTRIBUTIONS
+
+**Frequency:** Monthly or quarterly
+**Basis:**
+
+* Operational revenue
+* Treasury DAO allocations
+* Impact performance signals
+
+**Distribution Pools:**
+
+1. **Team Pool** – allocated by role & contribution
+2. **Member Pool** – for active cooperative members
+3. **Investor/Partner Pool** – per agreed term sheet
+4. **Impact Bonus Pool** – based on CMU outcomes
+
+---
+
+### B) CPU / DFU CASH-FLOW DISTRIBUTIONS
+
+Triggered by:
+
+* Reserved revenue performance
+* Cooperative surplus allocations
+* Governance decisions ratifying distribution
+
+**Rules:**
+
+* CPU holders get pro rata distributions per vesting schedule
+* DFU holders receive post-vesting claim payouts
+* Distributions recorded on Jiwe + Treasury logs
+
+---
+
+# 📌 DISTRIBUTION PRIORITY
+
+Federation **Power of the Purse (POP)** rules (via JTEC) determine *priority*:
+
+1. **Operational budget**
+2. **Impact/Commons programs**
+3. **Team & Founders’ vesting schedules**
+4. **Member distributions**
+5. **Investor payouts** (in accordance with agreements)
+6. **Reserve treasury**
+
+This ensures mission first, then obligations.
+
+---
+
+# 🧠 GOVERNANCE SAFEGUARDS
+
+Vesting and distributions are **ratified by governance** based on:
+
+✔ Governance OS approvals
+✔ Assembly votes (GVU/LGU weighted where applicable)
+✔ Tribunal oversight for disputes
+
+Smart contracts implement conditions:
+
+* Condition checks (`requiresCondition`)
+* Time/vest timers
+* Milestone triggers
+* RSU risk gating
+
+---
+
+# 📍 RECORD KEEPING & TRANSPARENCY
+
+All vesting and distribution events must be recorded in:
+
+📌 **Jiwe canonical ledger**
+📌 **Treasury DAO smart contract logs**
+📌 **Governance dashboards**
+📌 **Member dashboards**
+
+Historic records include:
+
+* Vesting terms
+* Grant schedules
+* Distribution events
+* RSU notes
+* Governance ratifications
+
+---
+
+# 🧠 POLICY EXAMPLES
+
+### **Example: Quarterly CPU Vesting Rule**
+
+> *“25% of CPU grant vests each quarter for participants with no RSU flags and active participation logs stored in Jiwe.”*
+
+### **Example: CMU Milestone Vesting**
+
+> *“CMU earned is released upon verified completion of community impact milestones documented in dashboards and ratified by Assembly.”*
+
+### **Example: SND Distribution**
+
+> *“SND rewards from cooperative surplus are distributed monthly post-ratification by JTEC, with a floor reserve of 10% for impact programs.”*
+
+---
+
+# 🧩 IMPLEMENTATION TOOLS
+
+In addition to policy text, you should implement:
+
+🔹 **Smart Contracts** for enforcing vesting
+🔹 **Dashboards** tracking vested/unvested balances
+🔹 **Triggers** for governance workflows
+🔹 **Notifications** to stakeholders
+
+---
+
+## ⭐ SUMMARY
+
+Your Vesting & Distribution Policy:
+
+📌 Encourages *long-term engagement*
+📌 Balances *mission & economics*
+📌 Integrates *governance legitimacy*
+📌 Guards against *risk misuse*
+📌 Is automated via *smart contracts & Jiwe ledger*
+
+---
+
+### OPTIONAL NEXT DELIVERABLES
+
+I can generate:
+
+🔹 **Policy as a formatted legal doc (Bylaws section)**
+🔹 **Smart contract vesting templates**
+🔹 **Mermaid diagrams of vesting flows**
+🔹 **Spreadsheet models of vesting curves**
+
+Just tell me which one you want!
+Absolutely — **it’s *Pamoja*** (not “the federation” in isolation). I hear you — and every policy, contract, governance rule, SOP, and artifact should clearly reference the name **Pamoja** as the formal ecosystem identity.
+
+Here’s the corrected **formal Vesting & Distribution Policy** with the right naming throughout:
+
+---
+
+# 📜 **PAMOJA FEDERATION CO-OP
+
+VESTING & DISTRIBUTION POLICY**
+
+**Effective Date:** *[Insert ratified date]*
+**Ratified by:** Pamoja Assembly
+**Document ID:** PAMOJA-VDP-2025-Q4
+
+---
+
+## 1️⃣ PURPOSE
+
+This **Vesting & Distribution Policy** defines how value, governance influence, economic rights, impact rewards, and capital participation vest and are distributed within the **Pamoja Federation Cooperative (“Pamoja”)**.
+
+It governs:
+
+✔ Founders & Navigators
+✔ Core Teams & C-Suite
+✔ Members
+✔ Investors & Strategic Partners
+✔ Estates & Entities
+
+All vesting and distribution must align with Pamoja’s **Constitution, SOPs, Jiwe canonical ledger, ZU currency framework, and governance legitimacy systems (GVU/LGU/CMU/RSU)**.
+
+---
+
+## 2️⃣ SCOPE
+
+This policy applies to all instruments vesting/distribution mechanisms issued or enforced by Pamoja:
+
+| Instrument                           | Purpose                                    | Primary Domain      |
+| ------------------------------------ | ------------------------------------------ | ------------------- |
+| **CPU** (Capital Participation Unit) | Capital ownership / distribution rights    | Capital & Treasury  |
+| **DFU** (Deferred Claim Unit)        | Future claim on economic value             | Capital & Returns   |
+| **SND** (SundiataCoin)               | Economic distributions & liquidity         | Payments / Treasury |
+| **ZU** (Zawadi Units)                | Labor/impact/legitimacy/governance rewards | Incentives          |
+| **GVU** (Governance Influence)       | Governance weight                          | Governance          |
+| **LGU** (Legitimacy)                 | Legitimacy scoring                         | Governance          |
+| **CMU** (Impact)                     | Impact contribution                        | Commons/Impact      |
+
+---
+
+## 3️⃣ GUIDING PRINCIPLES
+
+Pamoja’s vesting and distribution structure is guided by:
+
+🔹 **Equity with Mission Alignment**
+No instrument vests without benefit to the *Pamoja Commons* or cooperative purpose.
+
+🔹 **Impact-Linked Value**
+Rewards are tied to *impact outcomes (CMU)* not just mere participation.
+
+🔹 **Legitimacy & Governance Integrity**
+GVU/LGU weightings influence eligibility or accelerate vesting only when paired with verifiable performance.
+
+🔹 **Risk Moderation**
+RSU (Risk Scalar Unit) flags can suspend or modify vesting schedules.
+
+🔹 **Transparency & Auditability**
+All vesting events are logged to **Jiwe** as canonical, provable records.
+
+---
+
+## 4️⃣ GENERAL VESTING FRAMEWORK
+
+### 🎯 4.1 Time-Based Vesting
+
+Standard release schedules for CPU/DFU/SND and certain GVU/LGU allocations:
+
+* **Quarterly releases** for standard roles.
+* **Monthly drip** for governance weights (GVU) tied to active participation.
+* **Time locks** on strategic distributions.
+
+---
+
+### 🎯 4.2 Milestone / Performance Vesting
+
+Certain rewards (especially DFU, CMU, and investor distributions) vest only when:
+
+* Agreed *impact milestones* are documented and ratified.
+* Product/Platform delivery gates (Kernel→Seed→Tree) pass with consensus.
+* Community participation and legitimacy requirements are met.
+
+---
+
+### 🎯 4.3 RSU (Risk) Overrides
+
+An RSU above specified thresholds can:
+
+✔ Pause vesting
+✔ Reduce vesting amounts
+✔ Trigger governance review
+✔ Revoke conditional distribution until remediated
+
+---
+
+## 5️⃣ FOUNDERS & NAVIGATOR VESTING
+
+### 5.1 CPU & DFU Allocation
+
+| Component         | Vesting Type  | Vesting Triggers               |
+| ----------------- | ------------- | ------------------------------ |
+| Founder CPU Grant | Time + Impact | Quarterly with CMU checks      |
+| Founder DFU       | Milestone     | Impact + Governance Milestones |
+| SND Bonus         | Monthly       | Economic performance           |
+
+### 5.2 Governance Vesting
+
+* GVU increases each month with active participation.
+* First significant LGU bump after Assembly ratification.
+
+---
+
+## 6️⃣ CORE TEAM (C-SUITE & KEY LEADS)
+
+### 6.1 Vesting Schedule
+
+| Category   | Vesting Style    | Conditions                                   |
+| ---------- | ---------------- | -------------------------------------------- |
+| CPU        | Quarterly        | Role tenure & RSU clean                      |
+| DFU        | Milestone        | Delivery milestone + Governance ratification |
+| SND Bonus  | Quarterly        | Squad / program performance                  |
+| GVU Growth | Monthly          | Verified votes + council participation       |
+| CMU Bonus  | Impact milestone | Impact delivered & verified                  |
+
+---
+
+## 7️⃣ MEMBER VESTING
+
+### 7.1 Membership Rewards
+
+Membership increases through:
+✔ Time & participation
+✔ Impact engagement (CMU)
+✔ Governance participation (LGU/GVU)
+
+### 7.2 CPU/DFU for Members
+
+Only if member makes capital contributions per buy-in policy.
+
+---
+
+## 8️⃣ INVESTOR / PARTNER VESTING
+
+Investor vesting respects cooperative norms:
+
+### 8.1 CPU/DFU Terms
+
+* CPU caps based on cooperative bylaws.
+* DFU releases tied to:
+
+  * Revenue checkpoints
+  * CMU impact goals
+  * Treasury health
+
+### 8.2 Governance Influence
+
+Investors DO NOT automatically receive governance weight unless specified in buy-in tier. GVU and LGU vesting is available only when investors participate in mission-aligned activities (e.g., governance dialogues, impact reviews).
+
+---
+
+## 9️⃣ DISTRIBUTION RULES
+
+### 🎁 9.1 SND Distributions
+
+* **Monthly or Quarterly** after governance ratification.
+* Pools:
+
+  * Team
+  * Members
+  * Investors/Partners
+  * Impact (CMU bonus)
+
+### 🎁 9.2 CPU/DFU Economic Distributions
+
+* **CPU holders:** pro rata share after surplus determination.
+* **DFU holders:** payout per schedule tied to performance triggers.
+
+Distribution is ratified by:
+💠 Joint Treasury & Economics Council (JTEC)
+💠 Pamoja Assembly or delegated DAO governance
+
+---
+
+## 10️⃣ GOVERNANCE RATIFICATION
+
+All vesting and distributions subject to **assembly or council approval** when thresholds are reached. Ratification is recorded in **Jiwe**.
+
+Examples:
+
+* CPU release > threshold
+* SND bonus pool activation
+* DFU payout scheduling
+
+---
+
+## 11️⃣ SMART CONTRACT ENFORCEMENT
+
+Pamoja enforces vesting via smart contract modules:
+
+🔒 **Vesting Escrow Contracts**
+Timed release of CPU/DFU/SND with verifiable conditions.
+
+📜 **Milestone Trigger Contracts**
+Require governance conditions to fire (impact metrics, delivery checks, quorum).
+
+🔐 **Risk Controls**
+Contracts that halt vesting if RSU flags present.
+
+All vesting events emit **canonical events** to feed dashboards and audit logs.
+
+---
+
+## 12️⃣ REPORTING & DASHBOARDS
+
+Pamoja dashboards include:
+
+🔹 Vesting schedules (planned & actual)
+🔹 Vested vs unvested balances
+🔹 Distribution histories (SND/CPU/DFU)
+🔹 Governance participation status
+🔹 CMU achievement trackers
+🔹 RSU risk monitoring
+
+These are reviewed at:
+
+* Weekly Leadership Meetings
+* Monthly Dashboards
+* Quarterly Strategy Summits
+* Year-End Reports
+
+---
+
+## 13️⃣ CHANGE CONTROL & POLICY AMENDMENTS
+
+This policy may only be amended via:
+
+1. Proposal in the Governance OS
+2. Ratified by the Pamoja Assembly (GVU/LGU thresholds apply)
+3. Archived in Jiwe canonical ledger
+
+---
+
+## 14️⃣ DEFINITIONS (for reference)
+
+**CPU:** Economic participation units
+**DFU:** Deferred economic claim units
+**LGU:** Legitimacy measurement
+**GVU:** Governance influence weight
+**CMU:** Impact contribution
+**RSU:** Risk scalar
+
+---
+
+If you want, I can now provide **this as a formatted legal section for your constitution/bylaws**, **smart contract modules** implementing this policy, or **spreadsheet models** of vesting curves with specific numbers. Just let me know which one you want!

@@ -250,9 +250,33 @@ the mungu cycle:
                             The Eaton Family Estate and Offices coop (member group estate):
                                 THe Dominic Eaton Estate (navigator personal estate) (member estate)
                                     The Dominic Eaton Software Engineering Firm (navigator personal office)
+                                        first 1+12 hires C-suite:
+                                        team: squad-exec:
+                                        |  **#** | **Role Title**                             | **Primary Responsibility**                             | **Core Interfaces / Domains**               | **Strategic Year 1 KPIs**                                    |
+                                        | -----: | ------------------------------------------ | ------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ |
+                                        |  **1** | **Chief Executive Officer (CEO)**          | Vision, Total Ecosystem Strategy                       | All squads, governance, investors, partners | Meta OKR attainment; mission alignment; governance integrity |
+                                        |  **2** | **Chief of Staff (CoS)**                   | Strategic execution & alignment                        | CEO, all execs, governance stewards         | Cross-team delivery; execution velocity; roadmap adherence   |
+                                        |  **3** | **Chief Financial Officer (CFO)**          | Multi-entity financial controls & treasury health      | Treasury DAO, JTEC, investors               | Reserve stability; budget fidelity; audit readiness          |
+                                        |  **4** | **Chief Technical Officer (CTO)**          | Platform architecture & core system standards          | Engineering squads, Jiwe tech               | Platform uptime; integration velocity; secure deployments    |
+                                        |  **5** | **Chief Legal & Compliance Officer (CLO)** | Legal architecture, entity risk, compliance            | Governance/legal stewards, Tribunal         | Legal risk management; compliance pass rates                 |
+                                        |  **6** | **Chief Communications Officer (CCO)**     | Narrative, community voice & evangelism                | Social squads, outreach partners            | Engagement rates; narrative lift; brand reach                |
+                                        |  **7** | **Chief Planning Officer (CPO)**           | Sequencing, master timeline & phase gating             | Program leads, ops leads                    | Milestone delivery accuracy; plan adherence                  |
+                                        |  **8** | **Chief Governance Officer (CGO)**         | Governance pipelines & compliance                      | Sankofa Assembly, stewards, Tribunal        | Governance cycle speed; ratification success                 |
+                                        |  **9** | **Chief Impact Officer (CIOp)**            | Impact frameworks & CMU measurement                    | Impact squads, Ubuntuwa programs            | CMU attainment; external impact validations                  |
+                                        | **10** | **Chief Data & Legitimacy Officer (CDLO)** | ZU/LGU/GVU data systems & dashboards                   | CTO, governance squads, analytics           | Data integrity; legitimacy coverage; risk signals            |
+                                        | **11** | **Chief Operating Officer (COO)**          | Operations, HR, growth & delivery                      | Ops squads, intake pipelines                | Operational throughput; HR funnel conversion                 |
+                                        | **12** | **Chief Investment Officer (CIO)**         | Investment intake strategy & investor relations        | CFO, governance, capital participants       | Capital commitments; investor funnel velocity                |
+                                        | **13** | **Chief Strategy Officer (CSO)**           | Long-range strategy, meta models & portfolio alignment | CEO, planning, governance                   | Strategic roadmap delivery; horizon planning outcomes        |
 
+                                        ## 🛡️ **First 5 Stewards — Squad-Steward Layer (Unified Header Format)**
 
-
+                                        | **Team**          | **Role / Member**           | **Title / Position**         | **Primary Focus**                                    | **Domain / Coverage**           |
+                                        | ----------------- | --------------------------- | ---------------------------- | ---------------------------------------------------- | ------------------------------- |
+                                        | **Squad-Steward** | OVCS Anchor                 | Constraint Guardian          | Structural veto, audit access, constitutional brake  | OVCS / Cross-Entity Governance  |
+                                        | Squad-Steward     | Systemics Co-Thinker        | Conceptual Stress Tester     | Doctrine critique, model breaking, closure avoidance | Systemics / Doctrine            |
+                                        | Squad-Steward     | Human Viability Guardian    | Moral & Human-Impact Steward | Human harm prevention, pause authority               | Human Systems / Commons         |
+                                        | Squad-Steward     | Governance & Legal Designer | Constraint Translator        | Encode enforceable governance & revocation           | Legal / Governance Architecture |
+                                        | Squad-Steward     | Operations Realist          | Ground-Truth Steward         | Feasibility, cost realism, operational veto          | Operations / Delivery Reality   |
 
 
 

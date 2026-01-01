@@ -79,6 +79,33 @@ the mungu cycle:
                             | **Class F** | Capital Participants (Non-Members)     |
                             | **Class G** | Future Members (Apprentices / Fellows) |
 
+                        agents
+                            agent types: represent *what kind of actor* is participating:
+                            | **Type**                     | **Description**                                          | **Examples**                                     |
+                            | ---------------------------- | -------------------------------------------------------- | ------------------------------------------------ |
+                            | **Individual Person**        | A natural human participant                              | You, future members                              |
+                            | **Member**                   | A recognized federation participant                      | Member individuals or estates                    |
+                            | **Estate**                   | Family/organizational estate acting as a unit            | Dominic Eaton Estate                             |
+                            | **Cooperative Entity**       | A formal cooperative organization                        | Ubuntuwa, Kumba                                  |
+                            | **Organization/Institution** | Legally formed org aligned with federation               | NGO, research institute                          |
+                            | **Business/Enterprise**      | Commercial entity interacting with federation            | Manufacturing partners (non-member or affiliate) |
+                            | **External Partner**         | Entities entering with constrained capital               | Investors, grantors, aligned funds               |
+                            | **Active AI Agent**          | Autonomous software participant with delegated authority | AI assistants, workflow bots                     |
+                            | **Hybrid Agent**             | Composite agent with multiple identities                 | Estate + AI governance bot                       |
+
+                            agent classes:
+                            | **Class**   | **Short Name**       | **Primary Capability Domain**           | **Governance Rights**                                  |
+                            | ----------- | -------------------- | --------------------------------------- | ------------------------------------------------------ |
+                            | **Class A** | Worker-Members       | Execution and operations work           | Operational participation, non-voting by default       |
+                            | **Class B** | Steward-Members      | Commons and care stewardship            | Consultative voice; advisory roles                     |
+                            | **Class C** | Governance-Members   | Policy & oversight participation        | Voting on coop governance and some federation policies |
+                            | **Class D** | Commons-Members      | Shared asset & community representation | Commons policy participation                           |
+                            | **Class E** | Founder-Members      | Navigator & architectural roles         | Ratification rights for foundational changes           |
+                            | **Class F** | Capital Participants | Investors / sponsors                    | No governance rights by default                        |
+                            | **Class G** | Future Members       | In training / probation                 | Observation + mentorship participation                 |
+                            | **Class H** | AI Delegated Agents  | Scoped autonomous execution             | Limited protocol/action execution                      |
+                            | **Class I** | Estate Agents        | Estate representatives                  | Asset management + legacy continuity rights            |
+
                         msingi cycle
                             6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
 
@@ -95,10 +122,11 @@ the mungu cycle:
                             AZU ≡ asset quantity dimension
 
                         pamoja federation coop(s):
-                            sankofa council (OVAC Operational & Value-Alignment Council)
+                            sankofa coop council (OVAC Operational & Value-Alignment Council)
                                 Sankofa Stewardship - executive branch
                                 Sankofa Assembly - legislative branch
                                 Sankofa Tribunal - judicial branch
+                                Joint Treasury & Economics Council (JTEC) - Power of the Purse (POP)
                             MALIYA treasury coop - treasuryDAO
                             Zawadi exchange coop - exchangeDAO
                             ubuntuwa Commons coops

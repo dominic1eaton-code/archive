@@ -90,193 +90,194 @@ kernel project => prorgam => cycle => {kernel, seed, tree, forest}
 fundamental project => fundamental program => fundamental cycle => {kernel cycle, seed cycle, tree cycle, forest cycle}
 
 the mungu project
-the mungu program
-the mungu cycle:
-    members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
-        ashe kernel seed
-            ashe forest
-                ashe seed(s) -> ashe tree(s) -> ashe cycle(s)
-                    the ashe-msingi-pamoja cycle:
-                        jiwe (artifact/archive/distributed-ledger) seed
-                        coops, coop classes, coop members
-                            boards, councils, members, partners, stewards, committees
-                            | Class       | Core Identity                          |
-                            | ----------- | -------------------------------------- |
-                            | **Class A** | Worker-Members (Hires / Operators)     |
-                            | **Class B** | Steward-Members (Strategic Partners)   |
-                            | **Class C** | Governance-Members (Board)             |
-                            | **Class D** | Commons-Members (Council / Community)  |
-                            | **Class E** | Founder-Member (Navigator)             |
-                            | **Class F** | Capital Participants (Non-Members)     |
-                            | **Class G** | Future Members (Apprentices / Fellows) |
+    the mungu program
+        the mungu cycle:
+            members, member groups (families), member estates, member group (family) estates (the mungu kernel -> mungu seed -> mungu tree -> mungu forest)
+                ashe kernel seed
+                    ashe forest
+                        ashe seed(s) -> ashe tree(s) -> ashe cycle(s)
+                            the ashe-msingi-pamoja cycle:
+                                jiwe (artifact/archive/distributed-ledger) seed
+                                coops, coop classes, coop members
+                                    boards, councils, members, partners, stewards, committees
+                                    | Class       | Core Identity                          |
+                                    | ----------- | -------------------------------------- |
+                                    | **Class A** | Worker-Members (Hires / Operators)     |
+                                    | **Class B** | Steward-Members (Strategic Partners)   |
+                                    | **Class C** | Governance-Members (Board)             |
+                                    | **Class D** | Commons-Members (Council / Community)  |
+                                    | **Class E** | Founder-Member (Navigator)             |
+                                    | **Class F** | Capital Participants (Non-Members)     |
+                                    | **Class G** | Future Members (Apprentices / Fellows) |
 
-                        agents
-                            agent types: represent *what kind of actor* is participating:
-                            | **Type**                     | **Description**                                          | **Examples**                                     |
-                            | ---------------------------- | -------------------------------------------------------- | ------------------------------------------------ |
-                            | **Individual Person**        | A natural human participant                              | You, future members                              |
-                            | **Member**                   | A recognized federation participant                      | Member individuals or estates                    |
-                            | **Estate**                   | Family/organizational estate acting as a unit            | Dominic Eaton Estate                             |
-                            | **Cooperative Entity**       | A formal cooperative organization                        | Ubuntuwa, Kumba                                  |
-                            | **Organization/Institution** | Legally formed org aligned with federation               | NGO, research institute                          |
-                            | **Business/Enterprise**      | Commercial entity interacting with federation            | Manufacturing partners (non-member or affiliate) |
-                            | **External Partner**         | Entities entering with constrained capital               | Investors, grantors, aligned funds               |
-                            | **Active AI Agent**          | Autonomous software participant with delegated authority | AI assistants, workflow bots                     |
-                            | **Hybrid Agent**             | Composite agent with multiple identities                 | Estate + AI governance bot                       |
+                                agents
+                                    agent types: represent *what kind of actor* is participating:
+                                    | **Type**                     | **Description**                                          | **Examples**                                     |
+                                    | ---------------------------- | -------------------------------------------------------- | ------------------------------------------------ |
+                                    | **Individual Person**        | A natural human participant                              | You, future members                              |
+                                    | **Member**                   | A recognized federation participant                      | Member individuals or estates                    |
+                                    | **Estate**                   | Family/organizational estate acting as a unit            | Dominic Eaton Estate                             |
+                                    | **Cooperative Entity**       | A formal cooperative organization                        | Ubuntuwa, Kumba                                  |
+                                    | **Organization/Institution** | Legally formed org aligned with federation               | NGO, research institute                          |
+                                    | **Business/Enterprise**      | Commercial entity interacting with federation            | Manufacturing partners (non-member or affiliate) |
+                                    | **External Partner**         | Entities entering with constrained capital               | Investors, grantors, aligned funds               |
+                                    | **Active AI Agent**          | Autonomous software participant with delegated authority | AI assistants, workflow bots                     |
+                                    | **Hybrid Agent**             | Composite agent with multiple identities                 | Estate + AI governance bot                       |
 
-                            agent classes:
-                            | **Class**   | **Short Name**       | **Primary Capability Domain**           | **Governance Rights**                                  |
-                            | ----------- | -------------------- | --------------------------------------- | ------------------------------------------------------ |
-                            | **Class A** | Worker-Members       | Execution and operations work           | Operational participation, non-voting by default       |
-                            | **Class B** | Steward-Members      | Commons and care stewardship            | Consultative voice; advisory roles                     |
-                            | **Class C** | Governance-Members   | Policy & oversight participation        | Voting on coop governance and some federation policies |
-                            | **Class D** | Commons-Members      | Shared asset & community representation | Commons policy participation                           |
-                            | **Class E** | Founder-Members      | Navigator & architectural roles         | Ratification rights for foundational changes           |
-                            | **Class F** | Capital Participants | Investors / sponsors                    | No governance rights by default                        |
-                            | **Class G** | Future Members       | In training / probation                 | Observation + mentorship participation                 |
-                            | **Class H** | AI Delegated Agents  | Scoped autonomous execution             | Limited protocol/action execution                      |
-                            | **Class I** | Estate Agents        | Estate representatives                  | Asset management + legacy continuity rights            |
+                                    agent classes:
+                                    | **Class**   | **Short Name**       | **Primary Capability Domain**           | **Governance Rights**                                  |
+                                    | ----------- | -------------------- | --------------------------------------- | ------------------------------------------------------ |
+                                    | **Class A** | Worker-Members       | Execution and operations work           | Operational participation, non-voting by default       |
+                                    | **Class B** | Steward-Members      | Commons and care stewardship            | Consultative voice; advisory roles                     |
+                                    | **Class C** | Governance-Members   | Policy & oversight participation        | Voting on coop governance and some federation policies |
+                                    | **Class D** | Commons-Members      | Shared asset & community representation | Commons policy participation                           |
+                                    | **Class E** | Founder-Members      | Navigator & architectural roles         | Ratification rights for foundational changes           |
+                                    | **Class F** | Capital Participants | Investors / sponsors                    | No governance rights by default                        |
+                                    | **Class G** | Future Members       | In training / probation                 | Observation + mentorship participation                 |
+                                    | **Class H** | AI Delegated Agents  | Scoped autonomous execution             | Limited protocol/action execution                      |
+                                    | **Class I** | Estate Agents        | Estate representatives                  | Asset management + legacy continuity rights            |
 
-                        msingi cycle
-                            6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
+                                msingi cycle
+                                    6 programs: Kano, Ndebe, Kuzu, Zalendo, Zamba, Luma
 
-                        zawadi units:
-                            LZU ≡ labor contribution dimension
-                            TZU ≡ temporal dimension
-                            VZU ≡ economic dimension
-                            LGU ≡ legitimacy scalar
-                            RSU ≡ risk scalar
-                            CMU ≡ commons impact dimension
-                            CPU ≡ capital stake dimension
-                            DFU ≡ deferred claim dimension
-                            GVU ≡ governance influence measure
-                            AZU ≡ asset quantity dimension
+                                zawadi units:
+                                    LZU ≡ labor contribution dimension
+                                    TZU ≡ temporal dimension
+                                    VZU ≡ economic dimension
+                                    LGU ≡ legitimacy scalar
+                                    RSU ≡ risk scalar
+                                    CMU ≡ commons impact dimension
+                                    CPU ≡ capital stake dimension
+                                    DFU ≡ deferred claim dimension
+                                    GVU ≡ governance influence measure
+                                    AZU ≡ asset quantity dimension
 
-                        pamoja federation coop(s):
-                            sankofa coop council (OVAC Operational & Value-Alignment Council)
-                                Sankofa Stewardship - executive branch
-                                Sankofa Assembly - legislative branch
-                                Sankofa Tribunal - judicial branch
-                                Joint Treasury & Economics Council (JTEC) - Power of the Purse (POP)
-                            MALIYA treasury coop - treasuryDAO
-                            Zawadi exchange coop - exchangeDAO
-                            ubuntuwa Commons coops
-                                - Ubuntuwa-NDAA
-                                - Ubuntuwa-KUMBU
-                                - Ubuntuwa-KANYE
-                                - Ubuntuwa-NGOZI
-                                - Ubuntuwa-MOYO
-                                - Ubuntuwa-UMOYA
-                                - Ubuntuwa-KANO
-                                - Ubuntuwa-LUNGARA
-                                - Ubuntuwa-ZULAMBA
-                            Kaziwa Foundation coop
-                                jiwe distributed ledger OS solution platform
-                                zamani-os estate management OS solution platform
-                            ZULAMBA members coop
-                            uhuru credit union coop
-                            moyo collective coop
-                            bahari network coop
-                            ubunye engineering group coop (a.k.a. DESEF dominic eaton systems engineering firm)
-                            umoya society coop
-                            obatala venture capital studios coop OVCS+studios
-                                studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator
-                                Creator Studio[s]
-                                ├── Makerspace
-                                │   ├── Wood
-                                │   ├── Metal
-                                │   ├── Textiles
-                                │   └── Crafts
-                                ├── Fablab
-                                │   ├── 3D Printing
-                                │   ├── Laser
-                                │   └── CNC / CAM
-                                ├── Hackerspace
-                                │   ├── Software
-                                │   ├── Electronics
-                                │   └── Simulation
-                                ├── Techshop
-                                │   └── Manufacturing
-                                └── IDEA Lab
-                                    └── Idea → Prototype → MVP
-                            kumba metafactory franchise coop
-                                12 ventures coops + 7 platforms + projects:
-                                    nandi mobility company coop
-                                        nandi mobility+intelligent transportation/infrastructure OS solution platform
-                                    wolof.io independent worker economy management firm coop
-                                        kogi independent worker economy OS solution platform
-                                    dogon manufacturing company coop
-                                        imewe digital fabrication system OS solution platform
-                                    azande software agency coop
-                                        qala software factory OS solution platform
-                                    lomwe systems engineering firm coop
-                                        oru simulation development kit OS solution platform
-                                    damara enterprise engineering firm coop
-                                        ume general purpose organization/business/enterprise/entity OS solution platform
-                                    niguvu corporation coop
-                                        sambara AI OS solution platform
-                                    san environmental and civilization engineering firm coop
-                                    massai media group coop
-                                    mande investment group coop
-                                        venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
-                                        investment funds+portfolios
-                                        real estate, easements
-                                        stocks/equity/bonds/debts/assets/capital
-                                        estate+wealth+offices+portfolio+investment management
-                                    batwa foundation urban community development centers franchise coop
-                                        Maafa Reparations Fund (Restricted Trust)
-                                        Takiya Fund (Victims & Families Trust)
-                                        Freedman’s credit union Federation (Member-Owned)
-                                        Batwa urban Community Development Trust
-                                        Community Land Trust (CLT)
-                                        Cooperative Holding Co-op
-                                        Program NPOs
-                                            heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
-                                            Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
-                                            Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
-                                            Zulu financial literacy program
-                                            khoi urban community education, training and work program
-                                            ndebele maafa and BLM memorials program
-                                            shona urban community development governance, civic and political engagement program
-                                            mizizi urban platform OS co-op program
-                                    songhai institue of systemics and systemology coop
-                                        the mungu project
-                                        the meridian project
-                                        systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
-                                        programming and research: complex systems, systems theory, complex adaptive/autonomous systems
-                                        research labs, training facilities, centers/academics/schools/colleges
+                                pamoja federation coop(s):
+                                    sankofa coop council (OVAC Operational & Value-Alignment Council)
+                                        Sankofa Stewardship - executive branch
+                                        Sankofa Assembly - legislative branch
+                                        Sankofa Tribunal - judicial branch
+                                        Joint Treasury & Economics Council (JTEC) - Power of the Purse (POP)
+                                    MALIYA treasury coop - treasuryDAO
+                                    Zawadi exchange coop - exchangeDAO
+                                    ubuntuwa Commons coops
+                                        - Ubuntuwa-NDAA
+                                        - Ubuntuwa-KUMBU
+                                        - Ubuntuwa-KANYE
+                                        - Ubuntuwa-NGOZI
+                                        - Ubuntuwa-MOYO
+                                        - Ubuntuwa-UMOYA
+                                        - Ubuntuwa-KANO
+                                        - Ubuntuwa-LUNGARA
+                                        - Ubuntuwa-ZULAMBA
+                                    Kaziwa Foundation coop
+                                        jiwe distributed ledger OS solution platform
+                                        zamani-os estate management OS solution platform
+                                    ZULAMBA members coop
+                                    uhuru credit union coop
+                                    moyo collective coop
+                                    bahari network coop
+                                    ubunye engineering group coop (a.k.a. DESEF dominic eaton systems engineering firm)
+                                    umoya society coop
+                                    obatala venture capital studios coop OVCS+studios
+                                        studio types/actions/(studio-state)transforms: incubator, accelerator, rehabilitator/renovator, researcher/creator, liquidator
+                                        Creator Studio[s]
+                                        ├── Makerspace
+                                        │   ├── Wood
+                                        │   ├── Metal
+                                        │   ├── Textiles
+                                        │   └── Crafts
+                                        ├── Fablab
+                                        │   ├── 3D Printing
+                                        │   ├── Laser
+                                        │   └── CNC / CAM
+                                        ├── Hackerspace
+                                        │   ├── Software
+                                        │   ├── Electronics
+                                        │   └── Simulation
+                                        ├── Techshop
+                                        │   └── Manufacturing
+                                        └── IDEA Lab
+                                            └── Idea → Prototype → MVP
+                                    kumba metafactory franchise coop
+                                        12 ventures coops + 7 platforms + projects:
+                                            nandi mobility company coop
+                                                nandi mobility+intelligent transportation/infrastructure OS solution platform
+                                            wolof.io independent worker economy management firm coop
+                                                kogi independent worker economy OS solution platform
+                                            dogon manufacturing company coop
+                                                imewe digital fabrication system OS solution platform
+                                            azande software agency coop
+                                                qala software factory OS solution platform
+                                            lomwe systems engineering firm coop
+                                                oru simulation development kit OS solution platform
+                                            damara enterprise engineering firm coop
+                                                ume general purpose organization/business/enterprise/entity OS solution platform
+                                            niguvu corporation coop
+                                                sambara AI OS solution platform
+                                            san environmental and civilization engineering firm coop
+                                            massai media group coop
+                                            mande investment group coop
+                                                venture capital, mutual funds, private equity, hedge funds, forex, REITS, ETFs, funds
+                                                investment funds+portfolios
+                                                real estate, easements
+                                                stocks/equity/bonds/debts/assets/capital
+                                                estate+wealth+offices+portfolio+investment management
+                                            batwa foundation urban community development centers franchise coop
+                                                Maafa Reparations Fund (Restricted Trust)
+                                                Takiya Fund (Victims & Families Trust)
+                                                Freedman’s credit union Federation (Member-Owned)
+                                                Batwa urban Community Development Trust
+                                                Community Land Trust (CLT)
+                                                Cooperative Holding Co-op
+                                                Program NPOs
+                                                    heroro lifestyle health, mental health, behavioral health and rehabilitation/drug/crime program
+                                                    Nama urban community reformation and repair, network of communes, collective/communal housing franhise program
+                                                    Aka greenspaces, eco-services and eco-development, and mass subboreal forestation and repair program
+                                                    Zulu financial literacy program
+                                                    khoi urban community education, training and work program
+                                                    ndebele maafa and BLM memorials program
+                                                    shona urban community development governance, civic and political engagement program
+                                                    mizizi urban platform OS co-op program
+                                            songhai institue of systemics and systemology coop
+                                                the mungu project
+                                                the meridian project
+                                                systemics, systematics, systemography, systemology, systematology, systemics sciences, systemics engineering, civilization engineering
+                                                programming and research: complex systems, systems theory, complex adaptive/autonomous systems
+                                                research labs, training facilities, centers/academics/schools/colleges
 
-                        estates and offices:
-                            The Eaton Family Estate and Offices coop (member group estate):
-                                THe Dominic Eaton Estate (navigator personal estate) (member estate)
-                                    The Dominic Eaton Software Engineering Firm (navigator personal office)
-                                        first 1+12 hires C-suite:
-                                        team: squad-exec:
-                                        |  **#** | **Role Title**                             | **Primary Responsibility**                             | **Core Interfaces / Domains**               | **Strategic Year 1 KPIs**                                    |
-                                        | -----: | ------------------------------------------ | ------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ |
-                                        |  **1** | **Chief Executive Officer (CEO)**          | Vision, Total Ecosystem Strategy                       | All squads, governance, investors, partners | Meta OKR attainment; mission alignment; governance integrity |
-                                        |  **2** | **Chief of Staff (CoS)**                   | Strategic execution & alignment                        | CEO, all execs, governance stewards         | Cross-team delivery; execution velocity; roadmap adherence   |
-                                        |  **3** | **Chief Financial Officer (CFO)**          | Multi-entity financial controls & treasury health      | Treasury DAO, JTEC, investors               | Reserve stability; budget fidelity; audit readiness          |
-                                        |  **4** | **Chief Technical Officer (CTO)**          | Platform architecture & core system standards          | Engineering squads, Jiwe tech               | Platform uptime; integration velocity; secure deployments    |
-                                        |  **5** | **Chief Legal & Compliance Officer (CLO)** | Legal architecture, entity risk, compliance            | Governance/legal stewards, Tribunal         | Legal risk management; compliance pass rates                 |
-                                        |  **6** | **Chief Communications Officer (CCO)**     | Narrative, community voice & evangelism                | Social squads, outreach partners            | Engagement rates; narrative lift; brand reach                |
-                                        |  **7** | **Chief Planning Officer (CPO)**           | Sequencing, master timeline & phase gating             | Program leads, ops leads                    | Milestone delivery accuracy; plan adherence                  |
-                                        |  **8** | **Chief Governance Officer (CGO)**         | Governance pipelines & compliance                      | Sankofa Assembly, stewards, Tribunal        | Governance cycle speed; ratification success                 |
-                                        |  **9** | **Chief Impact Officer (CIOp)**            | Impact frameworks & CMU measurement                    | Impact squads, Ubuntuwa programs            | CMU attainment; external impact validations                  |
-                                        | **10** | **Chief Data & Legitimacy Officer (CDLO)** | ZU/LGU/GVU data systems & dashboards                   | CTO, governance squads, analytics           | Data integrity; legitimacy coverage; risk signals            |
-                                        | **11** | **Chief Operating Officer (COO)**          | Operations, HR, growth & delivery                      | Ops squads, intake pipelines                | Operational throughput; HR funnel conversion                 |
-                                        | **12** | **Chief Investment Officer (CIO)**         | Investment intake strategy & investor relations        | CFO, governance, capital participants       | Capital commitments; investor funnel velocity                |
-                                        | **13** | **Chief Strategy Officer (CSO)**           | Long-range strategy, meta models & portfolio alignment | CEO, planning, governance                   | Strategic roadmap delivery; horizon planning outcomes        |
+                                estates and offices:
+                                    The Eaton Family Estate and Offices coop (member group estate):
+                                        THe Dominic Eaton Estate (navigator personal estate) (member estate)
+                                            The Dominic Eaton Software Engineering Firm (navigator personal office)
+                                                first 1+12 hires C-suite:
+                                                team: squad-exec:
+                                                Navigator - Chief Navigation Officer - Founding Officer
+                                                |  **#** | **Role Title**                             | **Primary Responsibility**                             | **Core Interfaces / Domains**               | **Strategic Year 1 KPIs**                                    |
+                                                | -----: | ------------------------------------------ | ------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ |
+                                                |  **1** | **Chief Executive Officer (CEO)**          | Vision, Total Ecosystem Strategy                       | All squads, governance, investors, partners | Meta OKR attainment; mission alignment; governance integrity |
+                                                |  **2** | **Chief of Staff (CoS)**                   | Strategic execution & alignment                        | CEO, all execs, governance stewards         | Cross-team delivery; execution velocity; roadmap adherence   |
+                                                |  **3** | **Chief Financial Officer (CFO)**          | Multi-entity financial controls & treasury health      | Treasury DAO, JTEC, investors               | Reserve stability; budget fidelity; audit readiness          |
+                                                |  **4** | **Chief Technical Officer (CTO)**          | Platform architecture & core system standards          | Engineering squads, Jiwe tech               | Platform uptime; integration velocity; secure deployments    |
+                                                |  **5** | **Chief Legal & Compliance Officer (CLO)** | Legal architecture, entity risk, compliance            | Governance/legal stewards, Tribunal         | Legal risk management; compliance pass rates                 |
+                                                |  **6** | **Chief Communications Officer (CCO)**     | Narrative, community voice & evangelism                | Social squads, outreach partners            | Engagement rates; narrative lift; brand reach                |
+                                                |  **7** | **Chief Planning Officer (CPO)**           | Sequencing, master timeline & phase gating             | Program leads, ops leads                    | Milestone delivery accuracy; plan adherence                  |
+                                                |  **8** | **Chief Governance Officer (CGO)**         | Governance pipelines & compliance                      | Sankofa Assembly, stewards, Tribunal        | Governance cycle speed; ratification success                 |
+                                                |  **9** | **Chief Impact Officer (CIOp)**            | Impact frameworks & CMU measurement                    | Impact squads, Ubuntuwa programs            | CMU attainment; external impact validations                  |
+                                                | **10** | **Chief Data & Legitimacy Officer (CDLO)** | ZU/LGU/GVU data systems & dashboards                   | CTO, governance squads, analytics           | Data integrity; legitimacy coverage; risk signals            |
+                                                | **11** | **Chief Operating Officer (COO)**          | Operations, HR, growth & delivery                      | Ops squads, intake pipelines                | Operational throughput; HR funnel conversion                 |
+                                                | **12** | **Chief Investment Officer (CIO)**         | Investment intake strategy & investor relations        | CFO, governance, capital participants       | Capital commitments; investor funnel velocity                |
+                                                | **13** | **Chief Strategy Officer (CSO)**           | Long-range strategy, meta models & portfolio alignment | CEO, planning, governance                   | Strategic roadmap delivery; horizon planning outcomes        |
 
-                                        ## 🛡️ **First 5 Stewards — Squad-Steward Layer (Unified Header Format)**
+                                                ## 🛡️ **First 5 Stewards — Squad-Steward Layer (Unified Header Format)**
 
-                                        | **Team**          | **Role / Member**           | **Title / Position**         | **Primary Focus**                                    | **Domain / Coverage**           |
-                                        | ----------------- | --------------------------- | ---------------------------- | ---------------------------------------------------- | ------------------------------- |
-                                        | **Squad-Steward** | OVCS Anchor                 | Constraint Guardian          | Structural veto, audit access, constitutional brake  | OVCS / Cross-Entity Governance  |
-                                        | Squad-Steward     | Systemics Co-Thinker        | Conceptual Stress Tester     | Doctrine critique, model breaking, closure avoidance | Systemics / Doctrine            |
-                                        | Squad-Steward     | Human Viability Guardian    | Moral & Human-Impact Steward | Human harm prevention, pause authority               | Human Systems / Commons         |
-                                        | Squad-Steward     | Governance & Legal Designer | Constraint Translator        | Encode enforceable governance & revocation           | Legal / Governance Architecture |
-                                        | Squad-Steward     | Operations Realist          | Ground-Truth Steward         | Feasibility, cost realism, operational veto          | Operations / Delivery Reality   |
+                                                | **Team**          | **Role / Member**           | **Title / Position**         | **Primary Focus**                                    | **Domain / Coverage**           |
+                                                | ----------------- | --------------------------- | ---------------------------- | ---------------------------------------------------- | ------------------------------- |
+                                                | **Squad-Steward** | OVCS Anchor                 | Constraint Guardian          | Structural veto, audit access, constitutional brake  | OVCS / Cross-Entity Governance  |
+                                                | Squad-Steward     | Systemics Co-Thinker        | Conceptual Stress Tester     | Doctrine critique, model breaking, closure avoidance | Systemics / Doctrine            |
+                                                | Squad-Steward     | Human Viability Guardian    | Moral & Human-Impact Steward | Human harm prevention, pause authority               | Human Systems / Commons         |
+                                                | Squad-Steward     | Governance & Legal Designer | Constraint Translator        | Encode enforceable governance & revocation           | Legal / Governance Architecture |
+                                                | Squad-Steward     | Operations Realist          | Ground-Truth Steward         | Feasibility, cost realism, operational veto          | Operations / Delivery Reality   |
 
 
 

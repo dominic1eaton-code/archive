@@ -389,6 +389,7 @@ obatala-model
 sankofa-model
 bahari-model
 zawadi-model
+meridian-model
 
 
 notes and assumptions: 

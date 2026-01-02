@@ -6956,24 +6956,27 @@ Just say where to look.
 You said:
 This is where i would like to cleave to, please integrate:
 
-obatala and the 12 tribes:
-niguvu, mande, songhai, azande, damara, lomwe, san, wolof, nandi, massai, dogon, batwa
+The Kumba Model:
+
+        obatala and the 12 tribes:
+        niguvu, mande, songhai, azande, damara, lomwe, san, wolof, nandi, massai, dogon, batwa
 
 
-sambara and the 6 kingdoms:
-nandi, ume, kogi, oru, imewe, qala
+        sambara and the 6 kingdoms:
+        nandi, ume, kogi, oru, imewe, qala
 
 
-the 3 entities:
-entity, software defined entity,  software defined entity operating system
+        the 3 entities:
+        entity, software defined entity,  software defined entity operating system
 
 
-civilizationOS and the 2 nations:
-the civilization (physical system), the software defined civilization (digital (twin) system)
+        civilizationOS and the 2 nations:
+        the civilization (physical system), the software defined civilization (digital (twin) system)
 
 
-the CivOS
-general purpose operating systems for civilizations
+        the CivOS
+        general purpose operating systems for civilizations
+
 ChatGPT said:
 Good. This is the cleave line.
 What you’ve just named is not an addition — it is a compression into a legible cosmology.

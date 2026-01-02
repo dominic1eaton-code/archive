@@ -4101,9 +4101,10 @@ Just tell me what to generate next!
 Absolutely — below you’ll find **formal Merkle schemas** for:
 
 ✅ **Jiwe Artifact Storage**
-✅ **Entity Genesis Framework (EGF / EFG)**
-✅ **Organization Genesis Document (OGD)**
 ✅ **Founding Manifesto & Intent Declaration (FMID)**
+✅ **Organization Genesis Document (OGD)**
+✅ **Entity Genesis Framework (EGF / EFG)**
+
 
 These are **precise cryptographic data schemas** designed for use in distributed ledgers, Merkle-DAGs, smart contract stores, and canonical archival.
 

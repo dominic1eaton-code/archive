@@ -350,9 +350,13 @@ The 3 axioms/laws of mungu theory:
 * All systems cycle
 
 core equations:
-the cleval equations
-the mungu equation
-the mungu field equations
+jina
+  the mungu equation
+  the cleval equations
+  the mungu field equations
+  The Trionic Equations
+  MTP — Mungu Trionic Proof System
+  Omni-Mungonic Unified Framework (OMUF) - unfied mungu field theory/equations
 
 core theorems:
 the fundamental theorem of system: all things are, dualonically stable mononic, systems and all things are system. All particles, ideas, physical and metaphysical manifestations, existence, meta-existence and system itself is a system, where all of these systems are merely specific instantiations of the fundamental mungoni system, which itself is a dualonic mungoni<->mungon pair monon, which all are compositions of stable dualonic pair, meaning that all systems are ultimately self stable dualonic pair monons, where these monons are equal to themselves in the fundamental trivial state (the fundamental sibon)
@@ -364,21 +368,25 @@ the fundamental theorem of agent: agent must holistically, coherently, consisten
 the fundamental theorem of existence: no “entity” exists without the “monad” and no “monad” exists without the “entity”, with them being effectively one and the same. This all being in correspondence with the fundamental fact that it is neither entity nor monad that is the primitive of existence, but the interaction between them that is the fundamental primitive of existence
 
 core theories:
-S-theory - system theory (previously known as U theory but now updated as not to conflict with unit theory): that categorizes the nature of U-system, where U-system = {the system of all system (the meta system), the subset of all systems (a.k.a and S-system, i.e. just the “system)}, this S-system being the any subset of the U-system is further divided into F-systems (form systems) and L-system (flux systems). There are more specialized systems such as P-systems (any mungon primitive (impi, tathri, indi, wekhi (the abstraction of network, relationship), ramani (where impi, tathri, indi, wekhi, ramani are superset primitives that then contain subprimitives such as mali (qualisense, the abtract notation of any/all qualities, and is a specialized tathri), sibi (a specialized ramani), etc…) equipped with any other mungon primitive) , Q-systems (any impi equipped with a tathri), T-system containing a structural systems and K-systems containing all dynamic/kinematic systems; all systems are S-systems, where they are subsets/systems of the U-system, with the U-system being an S-system subset of itself
+E-U-S Theory
+  S-theory - system theory (previously known as U theory but now updated as not to conflict with unit theory): that categorizes the nature of U-system, where U-system = {the system of all system (the meta system), the subset of all systems (a.k.a and S-system, i.e. just the “system)}, this S-system being the any subset of the U-system is further divided into F-systems (form systems) and L-system (flux systems). There are more specialized systems such as P-systems (any mungon primitive (impi, tathri, indi, wekhi (the abstraction of network, relationship), ramani (where impi, tathri, indi, wekhi, ramani are superset primitives that then contain subprimitives such as mali (qualisense, the abtract notation of any/all qualities, and is a specialized tathri), sibi (a specialized ramani), etc…) equipped with any other mungon primitive) , Q-systems (any impi equipped with a tathri), T-system containing a structural systems and K-systems containing all dynamic/kinematic systems; all systems are S-systems, where they are subsets/systems of the U-system, with the U-system being an S-system subset of itself
 
-E-theory - element theory: mungu primitives and meta-primitives, and mungu mechanisms - impi are the generalization/abstraction/notion of every/any/all components, entites, things, elements; wekhi the generalization of all networks; tathri the generalization of all attributes, properties; indi the abstraction/generalization of all types, classes; mali the generalization of “qaulisense” which represents all qualities, values, senses; ramani the abstraction of “transmorphism” which represents all morphisms, interactions, mappings, transforms, interactions, morphism of morphisms; sibi represents the change between two cleave states (level states), with sibon being the fundamental abstraction of state, such that sibi represents the change/transition/morphism/ramani between any two sibons (any two states (of any kind/type (indi))) which is governed by the mechanism/operator/ramani of “clevity” (the cleave operator (ramani)); so structural configuration within sibons is measured with entropy, and structural configuration between sibons is measured with complexity, assuming the existence of configuration and that sibons have the “capacity” to be “equipped ”with configuration (maybe this can be generalized N-dimensionally, and not just 2-dimensionally?)
+  E-theory - element theory: mungu primitives and meta-primitives, and mungu mechanisms - impi are the generalization/abstraction/notion of every/any/all components, entites, things, elements; wekhi the generalization of all networks; tathri the generalization of all attributes, properties; indi the abstraction/generalization of all types, classes; mali the generalization of “qaulisense” which represents all qualities, values, senses; ramani the abstraction of “transmorphism” which represents all morphisms, interactions, mappings, transforms, interactions, morphism of morphisms; sibi represents the change between two cleave states (level states), with sibon being the fundamental abstraction of state, such that sibi represents the change/transition/morphism/ramani between any two sibons (any two states (of any kind/type (indi))) which is governed by the mechanism/operator/ramani of “clevity” (the cleave operator (ramani)); so structural configuration within sibons is measured with entropy, and structural configuration between sibons is measured with complexity, assuming the existence of configuration and that sibons have the “capacity” to be “equipped ”with configuration (maybe this can be generalized N-dimensionally, and not just 2-dimensionally?)
 
-U-theory - unit theory: polons, polyons, polytons, polytopes, polysysts, polygeons, polygons, polynets, polysets, polycats, syntoni = {mo-on, duons, trions, quar-ons, quinons, sexons, etc… polons} with an assumption that all mungon primitives have an associated meta primitive, flux/change “flow-ic?” representation sets (or categories?) outlining the “flow” of the mungoni, and includes (corresponding to T-system impi, i.e. polons,etc…) kolons, kolyons, kolytons, kolytopes?, kolysysts?, kolygeons? kolygons (physical manifestations of time (position, velocity, etc…) i.e. motion?)? with a meta primitive called the flyntoni
+  U-theory - unit theory: polons, polyons, polytons, polytopes, polysysts, polygeons, polygons, polynets, polysets, polycats, syntoni = {mo-on, duons, trions, quar-ons, quinons, sexons, etc… polons} with an assumption that all mungon primitives have an associated meta primitive, flux/change “flow-ic?” representation sets (or categories?) outlining the “flow” of the mungoni, and includes (corresponding to T-system impi, i.e. polons,etc…) kolons, kolyons, kolytons, kolytopes?, kolysysts?, kolygeons? kolygons (physical manifestations of time (position, velocity, etc…) i.e. motion?)? with a meta primitive called the flyntoni
 
-Mungu Chain Theory (MCT) = rigorous, Mungu-aligned formal theory of chain systems (distributed ledgers, chains-of-blocks, sharded/Multichain systems, cross-chain interoperation), *and* the algebraic chain complexes used to study invariants and flows on chains, all embedded inside the U-system/Polyon framework.
 
-Omni-Mungonic Unified Framework (OMUF) - unfied mungu field theory
+C-D-S "cids" theory 
+  Mungu Chain Theory (MCT) = rigorous, Mungu-aligned formal theory of chain systems (distributed ledgers, chains-of-blocks, sharded/Multichain systems, cross-chain interoperation), *and* the algebraic chain complexes used to study invariants and flows on chains, all embedded inside the U-system/Polyon framework.
 
-MUM - mungu unified meaning / mathematics
+  Digital Twin theory
 
-MUP - mungu unified physics
+  E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation;
 
-MUS- mungu unified sciences
+M-P-S theory
+  MUM - mungu unified meaning / mathematics
+  MUP - mungu unified physics
+  MUS- mungu unified sciences
 
 
 core models:

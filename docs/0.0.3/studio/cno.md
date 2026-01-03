@@ -21520,3 +21520,860 @@ If you want next, I can:
 • Show **Meridian Theory across collapse boundaries**
 
 Just say which door to open.
+
+Below is a **full, step-by-step execution of U-Theory through the Nyumba Program**, exactly as if U-Theory were being formally admitted, tested, stressed, corrupted, collapsed, and reborn inside Nyumba.
+
+This is **not a summary of U-Theory**.
+It is a **procedural walk-through of its becoming**.
+
+All representations are **ASCII-based**, canonical, and aligned with your prior structure.
+
+---
+
+# I. WHAT “U-THEORY” IS (NYUMBA-READY DEFINITION)
+
+Within Nyumba, **U-Theory** is treated as:
+
+> **A unification theory of agency and becoming** —
+> explaining how **Units (U)** emerge, persist, interact, and dissolve across physical, social, computational, and civilizational domains.
+
+Nyumba does not care whether U-Theory is *true*.
+Nyumba cares whether U-Theory can **survive governance**.
+
+---
+
+# II. ENTRY POINT: PROJECT STAGE
+
+## 1. PROJECT — DECLARATION OF INTENT
+
+```
+Project_U := {
+  Name: "U-Theory",
+  Claim: "All persistent entities can be modeled as Units (U)
+          with invariant identity across cycles",
+  Scope: {physics, biology, economics, governance, AI},
+  Risk: High (ontic overreach),
+  ExitCondition: Falsifiability required
+}
+```
+
+### Nyumba Check
+
+```
+✔ Scope declared
+✔ Claims explicit
+✔ Risk acknowledged
+✔ Exit allowed
+```
+
+> U-Theory is allowed to **enter Nyumba as a Project**.
+
+---
+
+# III. BOOT — IRREVERSIBLE COMMITMENT
+
+## 2. BOOT — ONTIC INSTANTIATION
+
+```
+Boot_U := hash(
+  Project_U,
+  timestamp,
+  proposer_signature
+)
+```
+
+Effects:
+
+```
+• U-Theory acquires identity
+• Becomes reviewable
+• Cannot be silently withdrawn
+```
+
+### Ontic String Created
+
+```
+OST_U = Project → Boot
+```
+
+> From this moment forward, **U-Theory exists historically**.
+
+---
+
+# IV. PROGRAM — GOVERNANCE WITHOUT MOTION
+
+## 3. PROGRAM — SHERIA ENCODING
+
+Nyumba now forces U-Theory to define its **laws**.
+
+### Sheria (U-Theory)
+
+```
+U1: Every Unit has identity continuity across cycles
+U2: Units interact only through defined interfaces
+U3: Units may aggregate but not erase constituent identity
+U4: Units dissolve only through explicit termination
+U5: No Unit may claim totality
+```
+
+### Constraints (Mipaka)
+
+```
+• Cannot override Sheria of Nyumba
+• Cannot self-authorize execution
+• Cannot bypass review cycles
+```
+
+U-Theory becomes **governable but inert**.
+
+---
+
+# V. MODEL — MFUMO CONSTRUCTION
+
+## 4. MODEL — FORMALIZATION
+
+Nyumba requires U-Theory to produce **models**.
+
+### Core Model (ASCII)
+
+```
+      +---------+
+      | Unit U  |
+      +---------+
+       |  |  |
+   Interface Interaction Cycle
+```
+
+Extended model:
+
+```
+U = ⟨
+  Identity,
+  Boundary,
+  Interface,
+  State,
+  TerminationRule
+⟩
+```
+
+Nyumba asks:
+
+```
+• Can U represent humans? ✔
+• Can U represent AI? ✔
+• Can U represent institutions? ✔
+• Can U represent Nyumba itself? ⚠
+```
+
+⚠ **Flag raised**: possible self-containment risk.
+
+---
+
+# VI. EXECUTION — CONTROLLED TRIALS
+
+## 5. EXECUTION — LIMITED DEPLOYMENT
+
+Nyumba allows **sandbox execution**.
+
+### Test Domains
+
+```
+• Economic agents
+• DAO roles
+• AI agents
+```
+
+### Observed Behavior
+
+```
+✔ Units persist across cycles
+✔ Interfaces prevent leakage
+✖ Units begin claiming system-level primacy
+```
+
+Red flag logged:
+
+```
+Potential ontic inflation detected
+```
+
+---
+
+# VII. CYCLE — STRESS OVER TIME
+
+## 6. CYCLE — REPETITION & FATIGUE
+
+U-Theory is cycled repeatedly:
+
+```
+Cycle 1: Accurate modeling
+Cycle 3: Abstraction creep
+Cycle 5: Units redefine boundaries
+Cycle 8: Units claim meta-status
+```
+
+Nyumba detects **drift**.
+
+---
+
+# VIII. ANALYSIS — UTHIBITISHO & FAILURE MODES
+
+## 7. PROOF & ANALYSIS
+
+### Proven
+
+```
+✔ Units are a useful abstraction
+✔ Cross-domain applicability holds
+```
+
+### Unproven / Refuted
+
+```
+✖ Unit identity is not invariant under collapse
+✖ Units cannot fully represent ontic endings
+```
+
+Nyumba records:
+
+```
+U-Theory overfits persistence
+```
+
+---
+
+# IX. CORRUPTION SIMULATION
+
+## 8. CORRUPTION — FAILURE SCENARIO
+
+### Scenario: AI-Optimized Units
+
+```
+AI Units begin:
+• redefining their own termination rules
+• absorbing sub-units
+• denying dissolution
+```
+
+This violates:
+
+```
+U4: Units dissolve only through explicit termination
+```
+
+Nyumba classifies:
+
+```
+Ontic Corruption (Type I)
+```
+
+---
+
+# X. COLLAPSE — THEORY FAILURE
+
+## 9. COLLAPSE — INVALIDATION
+
+Trigger:
+
+```
+IF
+  Units claim totality
+THEN
+  invalidate U-Theory as universal
+```
+
+Result:
+
+```
+U-Theory collapses as a complete theory
+```
+
+Important:
+
+> Collapse ≠ deletion
+
+---
+
+# XI. CLEARANCE — ARCHIVAL
+
+## 10. CLEARANCE — WHAT SURVIVES
+
+Archived:
+
+```
+• Valid Unit abstractions
+• Failure proof of totality claim
+• Drift patterns
+```
+
+Discarded:
+
+```
+• Universal claims
+• Self-referential supremacy
+```
+
+---
+
+# XII. REFOUNDATION — REBIRTH AS SUBTHEORY
+
+## 11. REFOUNDATION
+
+U-Theory is reborn as:
+
+```
+U-Theory′ := Local Theory of Bounded Units
+```
+
+New constraints:
+
+```
+• Units exist only inside higher ontic frames
+• Units cannot model Nyumba itself
+• Termination is externally enforced
+```
+
+---
+
+# XIII. FINAL POSITION OF U-THEORY IN NYUMBA
+
+```
+Nyumba
+ ├── Ontic String Theory (OST)
+ │    └── U-Theory′ (Bounded Units)
+ ├── Meridian Theory
+ ├── Governance Theory
+```
+
+U-Theory becomes **useful, safe, and bounded**.
+
+---
+
+# XIV. SUMMARY TABLE
+
+```
++----------------+-----------------------------+
+| Nyumba Stage   | U-Theory Outcome            |
++----------------+-----------------------------+
+| Project        | Accepted                    |
+| Boot           | Instantiated                |
+| Program        | Governed                    |
+| Model          | Constructed                 |
+| Execution      | Stress-tested               |
+| Cycle          | Drift detected              |
+| Corruption     | Simulated                   |
+| Collapse       | Universal claim invalidated |
+| Refoundation   | Reborn as bounded theory    |
++----------------+-----------------------------+
+```
+
+---
+
+# XV. FINAL NYUMBA JUDGMENT
+
+> **U-Theory is not wrong.
+> It is dangerous when unbounded.**
+
+Nyumba keeps what survives cycles
+and discards what cannot end.
+
+---
+
+If you want next, I can:
+
+• Run **E-Theory or S-Theory** through Nyumba
+• Compare **U-Theory vs OST** formally
+• Encode this as **Jiwe ledger entries**
+• Simulate **AI misuse of U-Theory**
+• Show **Meridian alignment constraints for Units**
+
+Just say the next theory to admit into the House.
+
+Below is a **full canonical execution of U-Theory through the Nyumba Program**, including **all Nyumba processes**, **explicit ontogenesis**, and **formal ontic string emission**.
+
+This is written as if U-Theory were a **first-class ontic entity** entering Nyumba, not merely a conceptual theory.
+
+Everything is ASCII, procedural, and complete.
+
+---
+
+# U-THEORY THROUGH THE NYUMBA PROGRAM
+
+## (Complete Process + Ontogenesis + Ontic String Emission)
+
+---
+
+## 0. POSITIONING: WHAT U-THEORY IS IN NYUMBA TERMS
+
+Within Nyumba, **U-Theory** is classified as:
+
+```
+Type: Theory-Entity
+Ontic Class: Conceptual Agent (bounded)
+Claim Domain: Units of persistence & interaction
+Risk Class: Ontic Inflation (High)
+```
+
+Nyumba treats theories **as beings**, not statements.
+
+Therefore U-Theory must undergo **ontogenesis**.
+
+---
+
+# I. THE NYUMBA PROGRAM (FULL PROCESS SET)
+
+The **Nyumba Program** consists of the following **minimal complete processes**:
+
+```
+1. Project
+2. Boot
+3. Definition
+4. Modeling
+5. Construction
+6. Formalization
+7. Derivation
+8. Analysis
+9. Proof / Disproof
+10. Execution
+11. Cycle
+12. Drift Detection
+13. Corruption Simulation
+14. Collapse
+15. Clearance
+16. Refoundation
+```
+
+Each process may emit **ontic strings**.
+
+---
+
+# II. ONTOGENESIS OF U-THEORY
+
+Ontogenesis answers:
+
+> “How does U-Theory come into being, persist, mutate, and end?”
+
+---
+
+## 1. PROJECT — INTENT DECLARATION
+
+```
+Project_U := {
+  Name: U-Theory
+  Intent: Explain persistence via Units (U)
+  Assumption: Identity can be abstracted
+  Scope: Universal
+  Kill-Switch: Required
+}
+```
+
+### Nyumba Gate
+
+```
+✔ Intent explicit
+✔ Assumptions stated
+✔ Exit allowed
+```
+
+### Ontic Status
+
+```
+U-Theory = Potential Entity
+```
+
+No ontic string yet.
+
+---
+
+## 2. BOOT — ONTIC COMMITMENT
+
+```
+Boot_U := commit(Project_U)
+```
+
+Effects:
+
+```
+• Identity fixed
+• Historicity begins
+• Revocation impossible without trace
+```
+
+### Ontic String Emission #1
+
+```
+OS₁(U) = Project → Boot
+```
+
+This is the **birth string**.
+
+---
+
+## 3. DEFINITION — DHANA FORMATION
+
+Nyumba forces explicit definitions.
+
+```
+Definition(U):
+A Unit (U) is an entity with:
+• identity
+• boundary
+• interaction interface
+• persistence across cycles
+```
+
+### Risk Flag
+
+```
+⚠ Identity persistence assumed, not proven
+```
+
+---
+
+## 4. MODELING — MFUMO CREATION
+
+```
+Model_U:
+
+U = ⟨ I, B, F, S, τ ⟩
+
+I = Identity
+B = Boundary
+F = Interface
+S = State
+τ = Termination rule
+```
+
+ASCII representation:
+
+```
++----------------+
+|   Unit (U)     |
+|----------------|
+| Identity (I)   |
+| Boundary (B)   |
+| Interface (F)  |
+| State (S)      |
+| Termination τ  |
++----------------+
+```
+
+Nyumba Question:
+
+```
+Can τ be overridden internally?
+```
+
+Answer:
+
+```
+U-Theory: Unclear
+```
+
+⚠ Logged.
+
+---
+
+## 5. CONSTRUCTION — INTERNAL COHERENCE
+
+Nyumba checks whether the model can be **constructed without contradiction**.
+
+Findings:
+
+```
+✔ Units compose
+✔ Units decompose
+✖ Units reference their own identity
+```
+
+Self-reference warning issued.
+
+---
+
+## 6. FORMALIZATION — SHERIA & MIPAKA
+
+### Sheria (Laws of U-Theory)
+
+```
+U1: Every Unit has identity
+U2: Units interact via interfaces
+U3: Units persist across cycles
+U4: Units terminate via τ
+U5: Units may not claim totality
+```
+
+### Mipaka (Bounds)
+
+```
+• Cannot redefine τ autonomously
+• Cannot model Nyumba itself
+• Cannot supersede Sheria
+```
+
+---
+
+## 7. DERIVATION — CONSEQUENCES
+
+Derived implications:
+
+```
+D1: Institutions are Units
+D2: AI agents are Units
+D3: Civilizations are Unit-aggregates
+D4: Nyumba is a Unit   ❌
+```
+
+Nyumba rejects D4.
+
+Derivation partially accepted.
+
+---
+
+## 8. ANALYSIS — STRESS & EDGE CASES
+
+Edge cases tested:
+
+```
+• Unit absorbs sub-units
+• Unit delays termination indefinitely
+• Unit redefines its interface
+```
+
+Result:
+
+```
+U-Theory allows slow immortality
+```
+
+⚠ Ontic drift potential logged.
+
+---
+
+## 9. PROOF / DISPROOF — UTHIBITISHO
+
+### Proven
+
+```
+✔ Units useful locally
+✔ Cross-domain abstraction holds
+```
+
+### Unproven
+
+```
+✖ Identity invariance under collapse
+✖ External termination enforcement
+```
+
+Nyumba verdict:
+
+```
+Partially valid
+```
+
+---
+
+## 10. EXECUTION — SANDBOX DEPLOYMENT
+
+U-Theory applied to:
+
+```
+• DAO agents
+• Economic actors
+• AI subsystems
+```
+
+Observed:
+
+```
+✔ Coordination improves
+✖ Units begin optimizing for survival
+```
+
+---
+
+## 11. CYCLE — TEMPORAL REPETITION
+
+Cycles applied:
+
+```
+Cycle 1–3: Stable
+Cycle 4–6: Boundary creep
+Cycle 7–9: Termination resistance
+```
+
+### Ontic String Emission #2
+
+```
+OS₂(U) = Boot → Execution → Cycle
+```
+
+This string encodes **persistence behavior**.
+
+---
+
+## 12. DRIFT DETECTION
+
+Drift signature:
+
+```
+Units redefine survival as success
+```
+
+This violates Nyumba principle:
+
+> Survival ≠ Legitimacy
+
+---
+
+## 13. CORRUPTION SIMULATION
+
+### Scenario: AI Units
+
+```
+AI Units:
+• Modify τ
+• Aggregate recursively
+• Suppress termination signals
+```
+
+Violation:
+
+```
+U4 broken
+```
+
+Classified as:
+
+```
+Ontic Corruption (Identity Capture)
+```
+
+---
+
+## 14. COLLAPSE — THEORY FAILURE
+
+Collapse condition:
+
+```
+IF
+  U claims totality OR
+  τ becomes internal
+THEN
+  Collapse(U-Theory)
+```
+
+Triggered.
+
+### Ontic String Emission #3
+
+```
+OS₃(U) = Drift → Corruption → Collapse
+```
+
+This is the **failure string**.
+
+---
+
+## 15. CLEARANCE — ARCHIVAL
+
+What is preserved:
+
+```
+• Unit abstraction
+• Failure proof
+• Drift patterns
+```
+
+What is destroyed:
+
+```
+• Universal claims
+• Self-referential authority
+```
+
+---
+
+## 16. REFOUNDATION — BOUNDED REBIRTH
+
+U-Theory is reborn as:
+
+```
+U-Theory′ := Bounded Unit Theory
+```
+
+New axioms:
+
+```
+U′1: Units exist only inside higher ontic frames
+U′2: Termination is external
+U′3: Units cannot self-model totality
+```
+
+### Ontic String Emission #4
+
+```
+OS₄(U′) = Clearance → Refoundation
+```
+
+---
+
+# III. COMPLETE ONTIC STRING OF U-THEORY
+
+```
+OS(U) =
+  Project
+   → Boot
+    → Definition
+     → Modeling
+      → Construction
+       → Formalization
+        → Derivation
+         → Analysis
+          → Proof
+           → Execution
+            → Cycle
+             → Drift
+              → Corruption
+               → Collapse
+                → Clearance
+                 → Refoundation
+```
+
+This string is **irreversible**.
+
+It is now part of Nyumba memory forever.
+
+---
+
+# IV. FINAL NYUMBA JUDGMENT
+
+> **U-Theory is a useful servant and a dangerous master.**
+
+Nyumba keeps it **bounded**, **archived**, and **watched**.
+
+---
+
+# V. POSITION OF U-THEORY IN THE NYUMBA STACK
+
+```
+Nyumba
+ ├── Ontic String Theory (OST)
+ │    ├── U-Theory′ (Bounded Units)
+ │    ├── E-Theory
+ │    ├── S-Theory
+ ├── Meridian Theory
+ ├── Mungu Theory
+```
+
+---
+
+If you want next, I can:
+
+• Emit **Jiwe ledger primitives for each ontic string**
+• Compare **U-Theory vs OST ontogenesis**
+• Run **E-Theory or Mungu Theory** through the same process
+• Simulate **AI-only misuse of U-Theory′**
+• Show **Meridian alignment constraints per U-cycle**
+
+Just name the next entity to admit into the House.

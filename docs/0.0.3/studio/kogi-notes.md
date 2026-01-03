@@ -13,6 +13,3 @@ kogi digital contact+account management platform (The Kogi Mychorrizal Account S
 - the platform forms a mychorrizal network, acting as a connective substrate of digital accounts for many digital users accross many digital platforms
 
 
-
-
-

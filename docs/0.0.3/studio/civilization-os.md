@@ -4,7 +4,7 @@ name and formalize the following sibonic string:
 
 E-U-S "eus" theory (E-theory U-theory S_theory) cleaves into
 
-M-P-S "mips" theory (MUM theory (mungu unified meaning/mathematics) MUP theory (mungu unified physics) MUS theory) cleaves into
+M-P-S "mips" theory (MUM theory (mungu unified meaning/mathematics) MUP theory (mungu unified physics) MUS theory (mungu unified sciences)) cleaves into
 
 C-D-S "cids" theory which contains: MCT mungu chain theory, Digital Twin theory, E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation; which cleaves into 
 

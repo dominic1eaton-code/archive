@@ -4,7 +4,7 @@ name and formalize the following sibonic string:
 
 E-U-S "eus" theory (E-theory U-theory S_theory) cleaves into
 
-M-P-S "mips" theory (MUM theory MUP theory MUS theory) cleaves into
+M-P-S "mips" theory (MUM theory (mungu unified meaning/mathematics) MUP theory (mungu unified physics) MUS theory) cleaves into
 
 C-D-S "cids" theory which contains: MCT mungu chain theory, Digital Twin theory, E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation; which cleaves into 
 
@@ -24,7 +24,7 @@ The Civilization <-> Digital Civilization Twin; which cleaves into
 
 The Civilization operation system (The CivOS)
 
-where mungu theory is the underlying theory of this entire sibonic string theory
+where mungu theory is the underlying theory of this entire sibonic string theory (ontic string theory)
 
 ===============================================================================================================
 

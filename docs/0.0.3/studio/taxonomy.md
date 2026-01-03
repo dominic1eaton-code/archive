@@ -32583,3 +32583,7 @@ If you want next:
 * or Canon Seal 0002 (Ethics as Δ policy)
 
 Just specify direction.
+
+
+
+FORMALIZE FRAGILITY…

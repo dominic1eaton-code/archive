@@ -349,14 +349,16 @@ The 3 axioms/laws of mungu theory:
 * Interactions come before particles and Systems come before individuals
 * All systems cycle
 
-core equations:
-jina
-  the mungu equation
-  the cleval equations
-  the mungu field equations
-  The Trionic Equations
-  MTP — Mungu Trionic Proof System
-  Omni-Mungonic Unified Framework (OMUF) - unfied mungu field theory/equations
+core programs:
+the nyumba program:
+  core equations:
+  jina
+    the mungu equation
+    the cleval equations
+    the mungu field equations
+    The Trionic Equations
+    MTP — Mungu Trionic Proof System
+    Omni-Mungonic Unified Framework (OMUF) - unfied mungu field theory/equations
 
 core theorems:
 the fundamental theorem of system: all things are, dualonically stable mononic, systems and all things are system. All particles, ideas, physical and metaphysical manifestations, existence, meta-existence and system itself is a system, where all of these systems are merely specific instantiations of the fundamental mungoni system, which itself is a dualonic mungoni<->mungon pair monon, which all are compositions of stable dualonic pair, meaning that all systems are ultimately self stable dualonic pair monons, where these monons are equal to themselves in the fundamental trivial state (the fundamental sibon)

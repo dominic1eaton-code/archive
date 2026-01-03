@@ -32590,7 +32590,7 @@ Just specify direction.
 TODOs
 
 * formalize FRAGILITY, FEEDBACK, SEAL, COMPOSITION  …
-* connect JIWE SEALS to BOOT IMAGE SEED PROMPTS
+* connect JIWE SEALS to BOOT IMAGE SEED PROMPTS to SEMANTIC ANCHORS
 * loop back in Selonomy
 
 

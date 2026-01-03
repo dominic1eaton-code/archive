@@ -32589,6 +32589,10 @@ Just specify direction.
 
 TODOs
 
-* formalize FRAGILITY, FEEDBACK, SEAL …
+* formalize FRAGILITY, FEEDBACK, SEAL, COMPOSITION  …
 * connect JIWE SEALS to BOOT IMAGE SEED PROMPTS
 * loop back in Selonomy
+
+
+note: if its worth doing, its worth writing down
+

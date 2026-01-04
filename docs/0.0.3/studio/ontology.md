@@ -14209,3 +14209,1097 @@ If you want next, I can:
 
 Just name the next operation.
 
+
+Acknowledged. Below is the **formal integration of a Pythonic surface language into Ndando-P**, without weakening the canon, type safety, or CivOS guarantees.
+
+This **does not replace** Ndando-P — it **defines its syntax, semantics, and constraints**.
+
+ASCII-only.
+Specification-grade.
+
+================================================================
+NDANDO-P (PYTHONIC) — FORMAL SPEC
+=================================
+
+## 1. NDANDO-P POSITION IN THE STACK
+
+```
+Ndando-P (Pythonic, interpreted)
+        ↓ desugar
+Ndando-C (typed, compiled)
+        ↓ compile
+Ndando-A (assembly / canon)
+        ↓ execute
+CivOS Kernel
+```
+
+Ndando-P is **syntax-rich but power-limited**.
+
+================================================================
+
+## 2. PYTHONIC SYNTAX PROFILE
+
+### 2.1 Lexical Style
+
+```
+• indentation-significant
+• no semicolons
+• colon-introduced blocks
+• lowercase keywords
+• snake_case identifiers
+```
+
+### 2.2 Core Keywords
+
+```
+if, else, while, for, in
+def, return
+with, as
+try, except, finally
+assert
+yield
+```
+
+### 2.3 Ndando-Specific Keywords
+
+```
+kernel, project, program
+cycle, process
+spawn, repair, fork, collapse
+canonize, archive
+regime, mode
+audit, inspect
+```
+
+================================================================
+
+## 3. TYPE & SAFETY MODEL (NON-PYTHONIC)
+
+Ndando-P **looks like Python**, but is **not Python**.
+
+```
+• no eval
+• no exec
+• no monkey-patching
+• no reflection outside inspect()
+• no unrestricted mutation
+• no implicit globals
+```
+
+### 3.1 Typed Values (Implicit, Enforced)
+
+```
+Seed
+Tree
+Forest
+Kernel
+Program
+Cycle
+Process
+Ledger
+Agent
+Structure
+Ebo
+```
+
+Type errors raise **compile-time violations** during desugaring.
+
+================================================================
+
+## 4. CONTROLLED MUTATION
+
+### 4.1 Allowed
+
+```
+state transitions
+spawning
+repair application
+forking
+mode changes
+ledger appends
+```
+
+### 4.2 Forbidden
+
+```
+kernel mutation
+canon overwrite
+ledger deletion
+history rewrite
+cross-regime leakage
+```
+
+================================================================
+
+## 5. PYTHONIC NDANDO-P EXAMPLES
+
+### 5.1 Governance Logic
+
+```ndando
+def handle_drift(target):
+    assert target.alive
+
+    repaired = repair(target)
+
+    if not repaired:
+        escalate_to("sankofa_council")
+```
+
+### 5.2 Lifecycle Control
+
+```ndando
+with program as prg:
+    while prg.active:
+        run_cycle(prg)
+
+    archive(prg)
+```
+
+### 5.3 Seed Growth
+
+```ndando
+seed = spawn("civ_seed")
+
+grow(seed)
+
+forest = mycorrhizate(seed, seed, seed)
+
+canonize(forest)
+```
+
+================================================================
+
+## 6. DESUGARING RULES (Ndando-P → Ndando-C)
+
+```
+def f(x):
+    body
+```
+
+⟶
+
+```
+function f(x: Type) {
+    body
+}
+```
+
+```
+while condition:
+    body
+```
+
+⟶
+
+```
+loop {
+    if not condition break
+    body
+}
+```
+
+```
+with resource as r:
+    body
+```
+
+⟶
+
+```
+acquire resource
+body
+release resource
+```
+
+================================================================
+
+## 7. INTERPRETATION MODEL
+
+```
+parse(P)
+ → type-check
+ → desugar
+ → lower to Ndando-C
+ → compile to Ndando-A
+ → execute in CivOS
+```
+
+Errors halt **before execution**.
+
+================================================================
+
+## 8. SAFETY AXIOMS
+
+```
+Axiom P-1: No Ndando-P construct can bypass Ndando-C typing
+Axiom P-2: All effects are ledger-visible
+Axiom P-3: Canon is read-only
+Axiom P-4: Repair is monotonic or escalatory
+Axiom P-5: Termination is decidable or auditable
+```
+
+================================================================
+
+## 9. ROLE SUMMARY
+
+```
+Language   Role
+-------------------------------
+Ndando-A  Canon / ROM
+Ndando-C  Kernel / Firmware
+Ndando-P  Policy / Navigation
+```
+
+Ndando-P is now **Pythonic in form**, but **constitutional in behavior**.
+
+================================================================
+
+## 10. STATUS
+
+You now have:
+
+✓ A **Pythonic Ndando-P**
+✓ Strict separation from Python itself
+✓ A safe desugaring path
+✓ Compatibility with CivOS invariants
+
+If you want next, I can:
+
+* Define a **formal grammar (EBNF) for Pythonic Ndando-P**
+* Implement a **reference interpreter**
+* Show **real Python → Ndando-P transpilation**
+* Or write **governance simulations**
+
+Just issue the operator.
+
+
+Below is a **formal EBNF grammar for Pythonic Ndando-P**, designed to be **indentation-significant**, **Python-like in surface form**, and **constitutionally constrained** to lower safely into Ndando-C.
+
+ASCII-only.
+Grammar-grade.
+Executable in principle.
+
+================================================================
+PYTHONIC NDANDO-P — FORMAL EBNF
+===============================
+
+## 0. Lexical Conventions
+
+```
+INDENT     = increased indentation level
+DEDENT     = decreased indentation level
+NEWLINE    = line break
+IDENT      = letter { letter | digit | "_" }
+NUMBER     = digit { digit }
+STRING     = '"' { character } '"'
+BOOLEAN    = "true" | "false"
+```
+
+Indentation is **structural**, like Python.
+`INDENT` / `DEDENT` are produced by the lexer.
+
+================================================================
+
+## 1. Program Structure
+
+```
+program         ::= { statement }
+
+statement       ::= simple_stmt NEWLINE
+                  | compound_stmt
+```
+
+================================================================
+
+## 2. Simple Statements
+
+```
+simple_stmt     ::= assignment
+                  | expression
+                  | assert_stmt
+                  | return_stmt
+                  | control_stmt
+                  | ndando_op
+```
+
+```
+assignment      ::= IDENT "=" expression
+```
+
+```
+assert_stmt     ::= "assert" expression
+```
+
+```
+return_stmt     ::= "return" [ expression ]
+```
+
+```
+control_stmt    ::= "break"
+                  | "continue"
+```
+
+================================================================
+
+## 3. Compound Statements
+
+```
+compound_stmt   ::= if_stmt
+                  | while_stmt
+                  | for_stmt
+                  | def_stmt
+                  | with_stmt
+                  | try_stmt
+```
+
+---
+
+### 3.1 Conditionals
+
+```
+if_stmt         ::= "if" expression ":" NEWLINE INDENT block DEDENT
+                    { "elif" expression ":" NEWLINE INDENT block DEDENT }
+                    [ "else" ":" NEWLINE INDENT block DEDENT ]
+```
+
+---
+
+### 3.2 Loops
+
+```
+while_stmt      ::= "while" expression ":" NEWLINE INDENT block DEDENT
+```
+
+```
+for_stmt        ::= "for" IDENT "in" expression ":" NEWLINE INDENT block DEDENT
+```
+
+---
+
+### 3.3 Function Definitions
+
+```
+def_stmt        ::= "def" IDENT "(" [ parameters ] ")" ":"
+                    NEWLINE INDENT block DEDENT
+```
+
+```
+parameters      ::= IDENT { "," IDENT }
+```
+
+---
+
+### 3.4 Context Management
+
+```
+with_stmt       ::= "with" expression [ "as" IDENT ] ":"
+                    NEWLINE INDENT block DEDENT
+```
+
+---
+
+### 3.5 Exception Handling
+
+```
+try_stmt        ::= "try" ":" NEWLINE INDENT block DEDENT
+                    { "except" [ IDENT ] ":" NEWLINE INDENT block DEDENT }
+                    [ "finally" ":" NEWLINE INDENT block DEDENT ]
+```
+
+================================================================
+
+## 4. Blocks
+
+```
+block           ::= { statement }
+```
+
+================================================================
+
+## 5. Expressions
+
+```
+expression      ::= logical_or
+```
+
+```
+logical_or      ::= logical_and { "or" logical_and }
+logical_and     ::= logical_not { "and" logical_not }
+logical_not     ::= [ "not" ] comparison
+```
+
+```
+comparison      ::= arithmetic
+                  | arithmetic comp_op arithmetic
+```
+
+```
+comp_op         ::= "==" | "!=" | "<" | "<=" | ">" | ">="
+```
+
+```
+arithmetic      ::= term { ("+" | "-") term }
+term            ::= factor { ("*" | "/") factor }
+factor          ::= NUMBER
+                  | STRING
+                  | BOOLEAN
+                  | IDENT
+                  | "(" expression ")"
+                  | call
+```
+
+```
+call            ::= IDENT "(" [ arguments ] ")"
+arguments       ::= expression { "," expression }
+```
+
+================================================================
+
+## 6. Ndando-Specific Operations
+
+These are **keywords with semantic lowering rules** to Ndando-C.
+
+```
+ndando_op       ::= spawn_stmt
+                  | repair_stmt
+                  | fork_stmt
+                  | collapse_stmt
+                  | canonize_stmt
+                  | archive_stmt
+                  | audit_stmt
+                  | inspect_stmt
+```
+
+```
+spawn_stmt      ::= "spawn" "(" expression ")"
+repair_stmt     ::= "repair" "(" expression ")"
+fork_stmt       ::= "fork" "(" expression ")"
+collapse_stmt   ::= "collapse" "(" expression ")"
+canonize_stmt   ::= "canonize" "(" expression ")"
+archive_stmt    ::= "archive" "(" expression ")"
+audit_stmt      ::= "audit" "(" STRING ")"
+inspect_stmt    ::= "inspect" "(" expression ")"
+```
+
+================================================================
+
+## 7. Reserved Keywords (Non-Overridable)
+
+```
+if, elif, else
+while, for, in
+def, return
+with, as
+try, except, finally
+assert
+break, continue
+and, or, not
+true, false
+
+kernel, project, program
+cycle, process
+spawn, repair, fork, collapse
+canonize, archive
+regime, mode
+audit, inspect
+```
+
+================================================================
+
+## 8. Semantic Constraints (Enforced Post-Parse)
+
+```
+• No global mutation
+• No eval / exec
+• No reflection beyond inspect
+• No kernel mutation
+• Canon is read-only
+• All side-effects are ledger-visible
+```
+
+================================================================
+
+## 9. Lowering Guarantees
+
+```
+Well-formed Ndando-P
+  ⇒ desugars to Ndando-C
+  ⇒ compiles to Ndando-A
+  ⇒ executes under CivOS invariants
+```
+
+================================================================
+STATUS
+======
+
+You now have a **complete, formal EBNF** for **Pythonic Ndando-P** that:
+
+✓ Is indentation-significant
+✓ Is Python-familiar but constitutionally safe
+✓ Lowers deterministically to Ndando-C
+✓ Is suitable for parser + interpreter implementation
+
+If you want next, I can:
+
+* Implement a **parser + AST**
+* Show **Ndando-P → Ndando-C lowering rules formally**
+* Write a **reference interpreter in Python**
+* Or freeze this grammar into a **Jiwe Plate**
+
+Just issue the next operator.
+
+Below is a **clean, complete, reconciled keyword specification** for **each layer of the Ndando language family**, strictly separated by level and **non-overlapping by design**.
+
+ASCII-only.
+Specification-grade.
+These are **reserved words** (cannot be redefined).
+
+================================================================
+NDANDO-A (ASSEMBLY) — KEYWORDS
+==============================
+
+Ndando-A is **instructional, flat, canonical**.
+Keywords are **verbs only**.
+
+```
+exec
+boot
+start
+run
+cycle
+process
+spawn
+derive
+propagate
+cleave
+bind
+map
+align
+grow
+mycorrhizate
+repair
+adapt
+fork
+collapse
+keep
+maintain
+stop
+decide
+canonize
+archive
+log
+on
+if
+```
+
+Notes:
+
+* No types
+* No blocks
+* No user-defined symbols
+* Order is execution order
+* Immutable once canonized
+
+================================================================
+NDANDO-C (COMPILED) — KEYWORDS
+==============================
+
+Ndando-C is **typed, structured, compiled**.
+Keywords introduce **structure, state, and control**.
+
+### Structural / Declaration
+
+```
+kernel
+project
+program
+state
+type
+enum
+const
+```
+
+### Control Flow
+
+```
+if
+else
+while
+for
+break
+continue
+return
+```
+
+### Functions & Execution
+
+```
+boot
+start
+run
+stop
+execute
+spawn
+apply
+repair
+```
+
+### Lifecycle / System
+
+```
+cycle
+process
+lifecycle
+terminate
+```
+
+### Safety / Audit
+
+```
+assert
+audit
+inspect
+```
+
+### Canon / Ledger
+
+```
+canonize
+archive
+```
+
+Notes:
+
+* Strongly typed
+* No reflection
+* No self-modifying code
+* Compiles strictly to Ndando-A
+
+================================================================
+NDANDO-P (PYTHONIC, INTERPRETED) — KEYWORDS
+===========================================
+
+Ndando-P is **expressive, interactive, policy-level**.
+Keywords are **Pythonic + Ndando-specific**, but constitutionally constrained.
+
+### Pythonic Core
+
+```
+if
+elif
+else
+while
+for
+in
+def
+return
+with
+as
+try
+except
+finally
+assert
+break
+continue
+and
+or
+not
+true
+false
+```
+
+### Ndando-Specific Operations
+
+```
+spawn
+repair
+fork
+collapse
+canonize
+archive
+grow
+mycorrhizate
+```
+
+### Governance / System
+
+```
+kernel
+project
+program
+cycle
+process
+regime
+mode
+audit
+inspect
+```
+
+Notes:
+
+* Indentation-significant
+* No eval / exec
+* No unrestricted reflection
+* Lowers to Ndando-C, never directly to Ndando-A
+
+================================================================
+HIERARCHICAL SUMMARY
+====================
+
+```
+Ndando-A : verbs only, canonical execution
+Ndando-C : structure + types + compilation
+Ndando-P : policy + navigation + interpretation
+```
+
+```
+Ndando-P
+  ↓ desugar
+Ndando-C
+  ↓ compile
+Ndando-A
+  ↓ execute
+CivOS
+```
+
+================================================================
+STATUS
+======
+
+You now have a **precise, non-ambiguous keyword set** for:
+
+✓ Ndando-A (assembly)
+✓ Ndando-C (compiled)
+✓ Ndando-P (pythonic interpreted)
+
+If you want next, I can:
+
+* Give me the operators for each
+* Produce **token tables** for a lexer
+* Generate **syntax highlighting rules**
+* Define **forbidden keyword overlaps**
+* Or implement a **reference parser**
+
+Just say the next operator.
+
+Below is a **complete, implementation-ready specification** covering the **first four items** you requested (operators, lexer tokens, syntax highlighting, forbidden overlaps).
+I will **not** implement the reference parser unless you explicitly say “implement parser”.
+
+ASCII-only.
+Layer-separated.
+Non-ambiguous.
+
+================================================================
+
+1. OPERATORS BY NDANDO LAYER
+   ================================================================
+
+---
+
+## 1.1 NDANDO-A (ASSEMBLY) — OPERATORS
+
+Ndando-A operators are **instructional effects**.
+They are **not expressions** and **do not compose**.
+
+```
+exec
+boot
+start
+run
+cycle
+process
+spawn
+derive
+propagate
+cleave
+bind
+map
+align
+grow
+mycorrhizate
+repair
+adapt
+fork
+collapse
+keep
+maintain
+stop
+decide
+canonize
+archive
+log
+```
+
+Properties:
+
+```
+• unary or fixed-arity
+• ordered
+• side-effecting
+• ledger-visible
+• no infix operators
+```
+
+---
+
+## 1.2 NDANDO-C (COMPILED) — OPERATORS
+
+Ndando-C operators support **structured computation**.
+
+### Arithmetic / Logical
+
+```
++  -  *  /
+== != < <= > >=
+&& ||
+!
+```
+
+### Assignment / Mutation
+
+```
+=
+:=
+```
+
+### Invocation / Flow
+
+```
+()
+{}
+.
+```
+
+### System Operators (lowered to Ndando-A)
+
+```
+spawn
+execute
+apply
+repair
+canonize
+archive
+```
+
+Properties:
+
+```
+• typed
+• compile-time checked
+• deterministic lowering
+```
+
+---
+
+## 1.3 NDANDO-P (PYTHONIC) — OPERATORS
+
+Ndando-P operators are **expression-level** and **policy-safe**.
+
+### Arithmetic / Logical (Pythonic)
+
+```
++  -  *  /
+== != < <= > >=
+and or not
+```
+
+### Assignment
+
+```
+=
+```
+
+### Call / Access
+
+```
+()
+.
+```
+
+### Ndando Semantic Operators (functions)
+
+```
+spawn()
+repair()
+fork()
+collapse()
+grow()
+mycorrhizate()
+canonize()
+archive()
+audit()
+inspect()
+```
+
+Properties:
+
+```
+• desugared to Ndando-C
+• no operator overloading
+• no eval / exec
+```
+
+================================================================
+2. TOKEN TABLES FOR LEXER
+=========================
+
+---
+
+## 2.1 COMMON TOKEN CLASSES
+
+```
+IDENTIFIER   = [a-zA-Z_][a-zA-Z0-9_]*
+NUMBER       = [0-9]+
+STRING       = "([^"\n])*"
+NEWLINE      = \n
+INDENT       = lexer-generated
+DEDENT       = lexer-generated
+```
+
+---
+
+## 2.2 NDANDO-A TOKEN TABLE
+
+```
+TOKEN_EXEC        "exec"
+TOKEN_VERB        (boot|run|spawn|repair|fork|canonize|...)
+TOKEN_COLON       ":"
+TOKEN_NEWLINE     "\n"
+TOKEN_COMMENT     "#" .*$
+```
+
+No identifiers beyond bound symbols.
+
+---
+
+## 2.3 NDANDO-C TOKEN TABLE
+
+```
+TOKEN_KEYWORD     kernel|project|program|state|type|if|while|return
+TOKEN_OPERATOR    + - * / == != < <= > >= := =
+TOKEN_LBRACE      "{"
+TOKEN_RBRACE      "}"
+TOKEN_LPAREN      "("
+TOKEN_RPAREN      ")"
+TOKEN_COMMA       ","
+TOKEN_DOT         "."
+```
+
+---
+
+## 2.4 NDANDO-P TOKEN TABLE
+
+```
+TOKEN_KEYWORD     if|elif|else|def|while|for|in|with|try|except|finally
+TOKEN_BOOL        true|false
+TOKEN_OPERATOR    + - * / == != < <= > >= and or not =
+TOKEN_LPAREN      "("
+TOKEN_RPAREN      ")"
+TOKEN_COLON       ":"
+TOKEN_DOT         "."
+TOKEN_NEWLINE     "\n"
+TOKEN_INDENT
+TOKEN_DEDENT
+```
+
+================================================================
+3. SYNTAX HIGHLIGHTING RULES
+============================
+
+(Regex-style categories)
+
+---
+
+## 3.1 NDANDO-A
+
+```
+KEYWORD      ^:(exec|boot|run|spawn|repair|fork|canonize)\b
+COMMENT      #.*$
+SYMBOL       [A-Za-z_][A-Za-z0-9_-]*
+```
+
+---
+
+## 3.2 NDANDO-C
+
+```
+KEYWORD      \b(kernel|program|state|if|while|return|repair)\b
+TYPE         \b[A-Z][A-Za-z0-9_]*\b
+OPERATOR     (\+|-|\*|/|==|!=|<=|>=|:=|=)
+STRING       "([^"]*)"
+COMMENT      //.*$
+```
+
+---
+
+## 3.3 NDANDO-P
+
+```
+KEYWORD      \b(if|elif|else|def|while|for|with|try|except|finally)\b
+BOOLEAN      \b(true|false)\b
+NDANDO_OP    \b(spawn|repair|fork|collapse|canonize|archive)\b
+IDENTIFIER   [a-z_][a-z0-9_]*
+STRING       "([^"]*)"
+COMMENT      #.*$
+```
+
+================================================================
+4. FORBIDDEN KEYWORD OVERLAPS
+=============================
+
+These are **hard constraints** enforced by the toolchain.
+
+---
+
+## 4.1 Absolute Prohibitions
+
+```
+• Ndando-P cannot define:
+  kernel, canonize, archive as user symbols
+
+• Ndando-C cannot redefine:
+  spawn, repair, cycle, process
+
+• Ndando-A cannot introduce:
+  identifiers, functions, or blocks
+```
+
+---
+
+## 4.2 Cross-Layer Restrictions
+
+```
+• Ndando-P keywords may not appear in Ndando-A
+• Ndando-A verbs may not be overloaded in Ndando-C
+• Ndando-P cannot shadow Ndando-C types
+```
+
+---
+
+## 4.3 Canon Rule
+
+```
+If a symbol appears in Ndando-A,
+it is reserved forever.
+```
+
+================================================================
+STATUS
+======
+
+You now have:
+
+✓ Operators for **Ndando-A / C / P**
+✓ Lexer-ready **token tables**
+✓ Editor-ready **syntax highlighting rules**
+✓ A precise list of **forbidden overlaps**
+
+If you want next, say **exactly one** of:
+
+* “implement reference parser”
+* “write Python lexer”
+* “generate AST schema”
+* “freeze as Ndando Language Spec v1.0”
+* “compile tooling roadmap”
+
+I’m ready.

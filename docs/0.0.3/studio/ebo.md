@@ -5224,3 +5224,569 @@ If you want next:
 * executable proof checker for Ebo/CivOS
 * historical validation against known civilizations
 * compression of the entire system into a Jiwe Canon Seal
+
+
+Below is the **canonical reformulation**, preserving the original ontic intent while **renaming, refining, and structurally upgrading** the theory cluster.
+
+This is written as a **formal replacement**, not an add-on.
+ASCII only. Locked.
+
+================================================================
+I. REFORMULATION STATEMENT (AUTHORITATIVE)
+==========================================
+
+The construct previously referred to as:
+
+```
+C–D–S
+  containing:
+    - Mungu Chain Theory (MCT)
+    - Digital Twin Theory
+    - E–A–A–S Theory
+```
+
+is hereby **superseded and reformulated** as:
+
+```
+C–M–S THEORY
+  containing:
+    - Mungu Chain Theory (MCT)
+    - Mungu Mirror Theory
+        ( (Digital Twin Theory)
+          | (Navigator–Cartographer Theory) )
+    - Mungu Simulation Theory
+        (Entity–Actor–Agent–Simulation Theory)
+```
+
+This reformulation is **ontic-preserving**, not cosmetic.
+
+---
+
+================================================================
+II. C–M–S THEORY (FORMAL DEFINITION)
+====================================
+
+C–M–S Theory is the **triadic operational theory layer** governing:
+
+* continuity (chains)
+* correspondence (mirrors)
+* exploration and projection (simulations)
+
+C–M–S operates **inside the E-layer** of T–E–C, and directly underpins **CivOS execution and foresight**.
+
+Formally:
+
+```
+C–M–S =
+  < Chain , Mirror , Simulation >
+```
+
+Each component is irreducible.
+
+---
+
+================================================================
+III. MUNGU CHAIN THEORY (UNCHANGED, RE-ANCHORED)
+================================================
+
+Name:
+Mungu Chain Theory (MCT)
+
+Definition:
+MCT describes **ordered continuity across states, time, and transformation**.
+
+Formal object:
+
+```
+Chain = { S_0 -> S_1 -> ... -> S_n }
+```
+
+Properties:
+
+* causal ordering
+* dependency preservation
+* inheritance tracking
+* non-commutativity
+
+Ontic role:
+
+* guarantees memory continuity
+* supports Civilization Theory inheritance
+* underlies legitimacy chains and authority chains
+
+MCT answers:
+"What must follow from what?"
+
+---
+
+================================================================
+IV. MUNGU MIRROR THEORY (REFORMULATED)
+======================================
+
+Mungu Mirror Theory **replaces and subsumes** standalone Digital Twin Theory.
+
+It is explicitly **dual-aspect**.
+
+---
+
+IV.a CORE DEFINITION
+
+Mungu Mirror Theory studies **structured correspondence between a system and its representation**, where the representation is used for navigation, reasoning, and repair.
+
+Formal relation:
+
+```
+Mirror M : System -> Representation
+such that:
+  fidelity(M) >= threshold
+  latency(M) <= bound
+```
+
+---
+
+IV.b DIGITAL TWIN AS SUBCASE
+
+Digital Twin Theory is a **proper subset**:
+
+```
+Digital Twin ⊂ Mungu Mirror
+```
+
+Digital Twin:
+
+* high-fidelity
+* real-time or near-real-time
+* operational monitoring
+
+---
+
+IV.c NAVIGATOR–CARTOGRAPHER THEORY
+
+This is the **epistemic half** of Mirror Theory.
+
+Roles:
+
+* Cartographer: constructs maps/models
+* Navigator: uses maps to decide action
+
+Formal split:
+
+```
+Mirror =
+  < Cartography (model construction),
+    Navigation (model use) >
+```
+
+Ontic role:
+
+* enables foresight
+* enables planning
+* enables repair without destructive testing
+
+Mirror Theory answers:
+"How do we know where we are and where we can go?"
+
+---
+
+================================================================
+V. MUNGU SIMULATION THEORY (REFORMULATED)
+=========================================
+
+Mungu Simulation Theory replaces E–A–A–S with a **clean ontic framing**.
+
+---
+
+V.a CORE DEFINITION
+
+Mungu Simulation Theory studies **counterfactual and projected dynamics of entities, actors, and agents within constrained worlds**.
+
+Formal components:
+
+```
+Entity = passive object
+Actor  = role-bearing object
+Agent  = decision-capable object
+```
+
+Simulation:
+
+```
+Sim(World, Rules, InitialState) -> Trajectory
+```
+
+---
+
+V.b ENTITY–ACTOR–AGENT–SIMULATION (EAAS)
+
+EAAS is retained as the **internal formal schema**:
+
+```
+EAAS = < Entities , Actors , Agents , Simulation >
+```
+
+Ontic role:
+
+* future projection
+* stress testing
+* fork prediction
+* collapse anticipation
+
+Simulation Theory answers:
+"What happens if…?"
+
+---
+
+================================================================
+VI. INTERNAL ALIGNMENT OF C–M–S
+===============================
+
+```
+Mungu Chain   -> temporal correctness
+Mungu Mirror  -> representational correctness
+Mungu Sim     -> counterfactual correctness
+```
+
+All three are required for **safe civilizational operation**.
+
+Remove one:
+
+* No Chain -> no continuity
+* No Mirror -> blind operation
+* No Simulation -> reckless expansion
+
+---
+
+================================================================
+VII. POSITION IN THE FULL STACK
+===============================
+
+```
+Terraformata
+  |
+Ebo Theory
+  |
+Civilization Theory
+  |
+C–M–S Theory
+  |
+Civitics
+  |
+Civilization Engineering
+  |
+CivOS
+```
+
+C–M–S is the **cognitive–operational core** of CivOS.
+
+---
+
+================================================================
+VIII. FINAL COMPRESSION (LOCKED)
+================================
+
+```
+C–D–S is obsolete.
+
+C–M–S is canonical.
+
+Chains preserve truth.
+Mirrors preserve sight.
+Simulations preserve futures.
+
+Together,
+they let civilizations think before they act.
+```
+
+If you want next:
+
+* formal equations for mirror fidelity and simulation error
+* CivOS module boundaries for Chain/Mirror/Sim
+* failure cases when mirrors drift or simulations diverge
+* Jiwe glyph for C–M–S Theory
+
+Below is the **canonical formalization** of **Mungu Mirror Theory**, explicitly integrating **Twin Theory**, **Digital Twin Theory**, and **Navigator–Cartographer Theory** as **coherent substructures**, not parallel ideas.
+
+ASCII only. Formal. Locked.
+
+================================================================
+MUNGU MIRROR THEORY (MMT)
+=========================
+
+# I. CORE DEFINITION
+
+Mungu Mirror Theory is the theory of **structured correspondence between a realized system and its representations**, used for **observation, navigation, prediction, and repair**.
+
+Formally:
+
+```
+Mirror M : World -> Representation
+```
+
+Such that:
+
+```
+fidelity(M) >= F_min
+latency(M)  <= L_max
+utility(M)  > 0
+```
+
+A mirror is not merely descriptive.
+It is **operational**.
+
+---
+
+================================================================
+II. ONTIC ROLE
+==============
+
+Mungu Mirror Theory answers:
+
+"How does a system know itself well enough to act without destroying itself?"
+
+MMT operates at the **E-layer (Ebo Theory)** and is foundational to **C–M–S Theory** and **CivOS cognition**.
+
+---
+
+================================================================
+III. TWIN THEORY (ONTIC DUPLICATION)
+====================================
+
+III.1 DEFINITION
+
+Twin Theory studies **paired systems** where one system corresponds structurally and causally to another.
+
+Formal pair:
+
+```
+TwinPair = < W_real , W_twin >
+```
+
+Where:
+
+* W_real = realized world
+* W_twin = mirrored world
+
+Constraint:
+
+```
+structure(W_twin) ≈ structure(W_real)
+```
+
+Twin Theory establishes the **possibility** of mirroring.
+
+---
+
+III.2 TWIN TYPES
+
+```
+Static Twin   : structural correspondence only
+Dynamic Twin  : time-evolving correspondence
+Causal Twin   : preserves cause-effect relations
+```
+
+Twin Theory answers:
+"Can a system be meaningfully duplicated in representation?"
+
+---
+
+================================================================
+IV. DIGITAL TWIN THEORY (INSTRUMENTED MIRROR)
+=============================================
+
+Digital Twin Theory is a **proper subset** of Mungu Mirror Theory.
+
+```
+DigitalTwin ⊂ Twin ⊂ Mirror
+```
+
+---
+
+IV.1 DEFINITION
+
+A Digital Twin is a **computationally instantiated mirror** with continuous data coupling.
+
+Formal:
+
+```
+DigitalTwin D =
+  < Model , Sensors , UpdateLoop >
+```
+
+Constraints:
+
+```
+real_time(D) OR near_real_time(D)
+error(D) <= epsilon
+```
+
+---
+
+IV.2 ONTIC ROLE
+
+Digital Twins provide:
+
+* monitoring
+* diagnostics
+* anomaly detection
+* operational forecasting
+
+Digital Twin Theory answers:
+"What is happening right now, in measurable terms?"
+
+---
+
+================================================================
+V. NAVIGATOR–CARTOGRAPHER THEORY (EPISTEMIC SPLIT)
+==================================================
+
+Navigator–Cartographer Theory explains **how mirrors are built and used**.
+
+---
+
+V.1 CARTOGRAPHER (MODEL CONSTRUCTION)
+
+Definition:
+
+```
+Cartographer C :
+  World -> Map
+```
+
+Responsibilities:
+
+* abstraction
+* compression
+* representation choice
+* uncertainty encoding
+
+Failure mode:
+
+* map distortion
+* missing dimensions
+* outdated structure
+
+---
+
+V.2 NAVIGATOR (MODEL UTILIZATION)
+
+Definition:
+
+```
+Navigator N :
+  Map x Goal -> Action
+```
+
+Responsibilities:
+
+* path selection
+* decision-making
+* risk assessment
+* adaptation
+
+Failure mode:
+
+* misinterpretation
+* overconfidence
+* map misuse
+
+---
+
+V.3 COMPOSITION
+
+```
+Mirror = < Cartography , Navigation >
+```
+
+Without Cartography:
+
+* no map
+
+Without Navigation:
+
+* no use
+
+---
+
+================================================================
+VI. MIRROR QUALITY METRICS
+==========================
+
+A mirror M is evaluated by:
+
+```
+fidelity(M)     : structural accuracy
+latency(M)      : update delay
+coverage(M)     : portion of world represented
+stability(M)    : resistance to noise
+actionability(M): usefulness for decisions
+```
+
+Mirror failure occurs when:
+
+```
+fidelity < threshold
+OR latency > tolerance
+```
+
+---
+
+================================================================
+VII. FAILURE MODES (CANONICAL)
+==============================
+
+```
+Broken Twin      -> false confidence
+Stale Mirror     -> delayed collapse
+Overfit Map      -> brittle decisions
+Blind Navigation -> reckless action
+```
+
+Empires fail when:
+
+* mirrors flatter power
+* maps erase V-system reality
+
+---
+
+================================================================
+VIII. POSITION IN THE STACK
+===========================
+
+```
+Terraformata
+   |
+Ebo Theory
+   |
+Civilization Theory
+   |
+C–M–S Theory
+   |
+Mungu Mirror Theory
+   |
+CivOS cognition & foresight
+```
+
+Mirror Theory is the **eyes and maps** of a civilization.
+
+---
+
+================================================================
+IX. FINAL COMPRESSION (LOCKED)
+==============================
+
+```
+Twin Theory says a world can be mirrored.
+Digital Twins keep the mirror alive.
+Cartographers draw the map.
+Navigators choose the path.
+
+Without mirrors, civilizations are blind.
+```
+
+If you want next:
+
+* formal mirror drift equations
+* CivOS mirror modules and APIs
+* mirror-induced failure case studies
+* Jiwe glyph for Mungu Mirror Theory
+

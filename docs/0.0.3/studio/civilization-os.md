@@ -2,6 +2,8 @@
 
 name and formalize the following sibonic string:
 
+C-R-P "crip" thoery
+
 E-U-S "eus" theory (E-theory U-theory S_theory) cleaves into
 
 M-P-S "mips" theory (MUM theory (mungu unified meaning/mathematics) MUP theory (mungu unified physics) MUS theory (mungu unified sciences)) cleaves into
@@ -98,6 +100,8 @@ a federated coordination substrate
 II. PLACE IN THE SIBONIC STRING
 
 Mungu Theory
+  ↓
+C-R-P
   ↓
 E–U–S
   ↓

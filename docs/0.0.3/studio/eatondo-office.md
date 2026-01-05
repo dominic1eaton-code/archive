@@ -21,7 +21,11 @@ first pass:
 | 12 | **Chief Investment Officer (CIO)**         | C     | Capital intake               | CFO, JTEC           | Capital velocity      |
 | 13 | **Chief Strategy Officer (CSO)**           | B     | Long-range models            | Navigators          | Horizon coherence     |
 
+
+
 second pass:
+
+the system: The Dominic Eaton Software Engineering Firm
 
 chief navigation officer: Dominic Eaton
 - grand poobah
@@ -75,11 +79,14 @@ chief technology officer:
 - hanldes all technology functions
 - helps build the system
 
+
 chief systems officer:
 - handles system level organization concerns
 - handles organization system optimzition (in contrast to COO who handles organization system execution)
 - handles organization system gaps and gap analysis
-- helps organize the system
+- handles organization mapping
+    - maping out of system, subsystems, processes, workflows, automations, etc...
+- helps organize/map the system
 
 
 chief legal officer:
@@ -102,4 +109,3 @@ chief financial officer:
 chief governance officer
 - handles planning, scheduling, governance, impact strategies/functions
 - helps keep the system on track
-

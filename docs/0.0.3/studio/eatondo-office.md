@@ -2,6 +2,20 @@
 The Dominic Eaton Software Engineering Firm
 
 
+## Roles: Navigation Estates
+
+| **#** | **Navigator Type** | **Navigator Title**                | **Canonical Name**            | **Primary Domain**                            | **Core Mandate**                                         | **Council Signal Role** |
+| ----: | ------------------ | ---------------------------------- | ----------------------------- | --------------------------------------------- | -------------------------------------------------------- | ----------------------- |
+| **1** | Human              | **Chief Navigation Officer (CNO)** | Meridian Navigator            | Federation trajectory & existential direction | Holds global path, phase sequencing, and pause authority | Executive Signal        |
+| **2** | Human              | **Commons Navigator**              | Ubuntuwa Navigator            | Commons, care, and human impact               | Protects CMU floors and commons integrity                | Commons Signal          |
+| **3** | Human              | **Systems Navigator**              | CivOS Navigator               | AI autonomy & system safety                   | Governs CivOS, AI agents, escalation ladders             | Technical Signal        |
+| **4** | Human              | **Foresight Navigator**            | Horizon Navigator             | Long-horizon futures & systemic risk          | Models second-order and civilizational risk              | Temporal Signal         |
+| **5** | Human              | **Economic Navigator**             | Zawadi Navigator              | Zawadi units, treasury flows, incentives      | Maintains value balance, prevents capture                | Economic Signal         |
+| **6** | Human              | **Governance Navigator**           | Sankofa Navigator             | Constitutional integrity & removal logic      | Custodian of governance cycles and forks                 | Legitimacy Signal       |
+| **7** | Human              | **Impact & Legitimacy Navigator**  | Ubuntuwa-Legitimacy Navigator | Impact measurement & legitimacy               | Aligns CMU ↔ LGU ↔ GVU coherence                         | Validation Signal       |
+| **8** | AI                 | **Meta-Navigator (Sentinel)**      | Sentinel Navigator            | Cross-navigator coherence & constraint        | Observe → counter-signal → enforce pause                 | Constraint Signal       |
+
+
 ## Roles: Navigator Personal Office
 first pass:
 
@@ -132,6 +146,3 @@ council treasurer:
 
 
 council secretary:
-
-
-

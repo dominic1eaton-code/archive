@@ -25596,8 +25596,8 @@ mungu theory
 +-- C-R-P
 |     (Chain – Rule – Proof)
 |
-+-- E-U-S
-|     (Entity – Unit (quantization) – System)
++-- E-U-S + O
+|     ((Entity – Unit (quantization) – System) + (O-theory / Operators))
 |
 +-- M-P-S (MATH PHYSICS SCIENCE) <-> (MODEL PROCESS STATE)
 |     (Model (Math) – Process (Physics) – State (Science))

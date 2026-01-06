@@ -1805,3 +1805,1518 @@ I-0009: Estate & Firewall               : milestone, after 2026-07-19, 1d
 E-0025: Estate Governance Setup         : milestone, after 2026-07-20, 1d
 S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 
+
+
+==========================================================================================================================================
+
+
+
+
+This appendix establishes formal correctness of the Jiwe numeric system
+and encodes the full SI base + fundamental constants canonically.
+---------------------------------------------------------------------
+I. SOUNDNESS OF JIWE NUMERIC REWRITES
+---------------------------------------------------------------------
+We prove that every Jiwe numeric expression is:
+• well-formed
+• dimensionally consistent
+• rewrite-safe
+• semantically invariant under normalization
+---------------------------------------------------------------------
+I.1 NORMAL FORM (RECAP)
+Every Jiwe quantity has exactly one canonical normal form:
+Q := [Count][Scale][Polarity][Unit]
+No rewrite may change this arity.
+---------------------------------------------------------------------
+I.2 AXIOMS
+---------------------------------------------------------------------
+AXIOM J1 (Count Integrity)
+-------------------------
+Count glyphs (|, ╏, *) encode cardinality only.
+They never encode scale, unit, or polarity.
+AXIOM J2 (Scale Orthogonality)
+-----------------------------
+Scale glyphs (^, _, ., etc.) commute with count but not with unit.
+AXIOM J3 (Polarity Exclusivity)
+-------------------------------
+Every quantity has exactly one polarity:
+▲ (P / form) OR → (K / flow)
+AXIOM J4 (Unit Closure)
+----------------------
+Every unit glyph corresponds to exactly one U-level.
+AXIOM J5 (Composition Preservation)
+----------------------------------
+Binding (⊗) and division (/) preserve dimensional balance.
+---------------------------------------------------------------------
+I.3 SOUNDNESS THEOREM
+---------------------------------------------------------------------
+THEOREM (J-SOUND):
+For any Jiwe quantity Q and any valid rewrite R,
+R(Q) preserves:
+• magnitude equivalence
+• dimensional validity
+• polarity consistency
+• unit graph closure
+PROOF (Sketch):
+Let Q = [C][S][P][U].
+Each rewrite acts on exactly one component:
+• Count rewrites preserve magnitude
+• Scale rewrites preserve order of magnitude
+• Polarity rewrites forbidden
+• Unit rewrites constrained by ⊗ and /
+No rewrite alters more than one component class.
+Therefore invariants hold. □
+---------------------------------------------------------------------
+II. REVERSIBILITY OF JIWE NUMERIC REWRITES
+---------------------------------------------------------------------
+Reversibility means: all information can be recovered.
+---------------------------------------------------------------------
+II.1 REVERSIBLE OPERATORS
+---------------------------------------------------------------------
+| Operator | Reversible | Inverse |
+|--------|-------------|---------|
+| ^      | yes         | _       |
+| _      | yes         | ^       |
+| ⊗      | yes         | /       |
+| /      | yes         | ⊗       |
+| ↑      | conditional | ⌃       |
+| ⌃      | conditional | ↑       |
+---------------------------------------------------------------------
+II.2 REVERSIBILITY THEOREM
+---------------------------------------------------------------------
+THEOREM (J-REV):
+Any Jiwe quantity Q can be uniquely decomposed
+into its canonical components.
+PROOF:
+Jiwe syntax is prefix-free and positionally fixed:
+[Count][Scale][Polarity][Unit]
+No two components overlap.
+Therefore parsing is unique and invertible. □
+---------------------------------------------------------------------
+III. DIMENSIONAL CONSISTENCY
+---------------------------------------------------------------------
+DIMENSION RULE:
+For any expression E:
+dim(E) = Π(dim(numerators)) / Π(dim(denominators))
+Violation => invalid rewrite.
+This matches SI dimensional analysis exactly.
+---------------------------------------------------------------------
+IV. SI BASE UNITS — PURE JIWE
+---------------------------------------------------------------------
+SI base units are embedded as U-theory units.
+| Quantity        | SI | Jiwe Encoding |
+|----------------|----|---------------|
+| Length         | m  | ▲□            |
+| Mass           | kg | ▲⬚            |
+| Time           | s  | ▲⟳            |
+| Electric curr. | A  | →□            |
+| Temperature    | K  | ▲Θ            |
+| Amount         | mol| ▲⊞            |
+| Luminous inten.| cd | ▲◇            |
+(All glyphs are structural P-units unless inherently flow-based.)
+---------------------------------------------------------------------
+V. DERIVED SI UNITS — JIWE
+---------------------------------------------------------------------
+| Quantity | SI | Jiwe |
+|--------|----|------|
+| Velocity | m/s | →□ / ⟳ |
+| Accel. | m/s² | →□ / ⟳^2 |
+| Force | N | ▲⬚ ⊗ →□ / ⟳^2 |
+| Energy | J | ▲⬚ ⊗ ⬚ / ⟳^2 |
+| Power | W | ▲⬚ ⊗ ⬚ / ⟳^3 |
+| Pressure | Pa | ▲⬚ / ⬚ |
+| Charge | C | →□ ⊗ ⟳ |
+| Voltage | V | ▲⬚ ⊗ ⬚ / (→□ ⊗ ⟳^2) |
+---------------------------------------------------------------------
+VI. FUNDAMENTAL CONSTANTS — JIWE
+---------------------------------------------------------------------
+VI.1 Speed of Light (c)
+c = 3 × 10^8 m/s
+Jiwe:
+|||^^^ →□ / ⟳
+---------------------------------------------------------------------
+VI.2 Planck Constant (h)
+h = 6.626 × 10^-34 J·s
+Jiwe (normalized symbolic):
+╏||_.. (▲⬚ ⊗ ⬚ / ⟳)
+---------------------------------------------------------------------
+VI.3 Reduced Planck (ħ)
+ħ = h / 2π
+Jiwe:
+(h) / ⟳
+---------------------------------------------------------------------
+VI.4 Gravitational Constant (G)
+G = 6.67 × 10^-11 m^3 / (kg·s^2)
+Jiwe:
+╏||.. ▲⬚^3 / (▲⬚ ⊗ ⟳^2)
+---------------------------------------------------------------------
+VI.5 Boltzmann Constant (k_B)
+k = 1.38 × 10^-23 J/K
+Jiwe:
+|_.. (▲⬚ ⊗ ⬚) / Θ
+---------------------------------------------------------------------
+VI.6 Elementary Charge (e)
+e = 1.602 × 10^-19 C
+Jiwe:
+|_... →□ ⊗ ⟳
+---------------------------------------------------------------------
+VII. UNIVERSAL CONSISTENCY THEOREM
+---------------------------------------------------------------------
+THEOREM (J-SI):
+All SI units and constants encoded in Jiwe:
+• preserve dimensional equivalence
+• are reversible to numeric SI
+• compose under ⊗ and /
+• integrate directly into EIDs
+Therefore Jiwe is a **complete physical metric system**.
+□
+---------------------------------------------------------------------
+VIII. FINAL AXIOM (NUMERIC CLOSURE)
+---------------------------------------------------------------------
+AXIOM J-NUM:
+All physical quantities are countable,
+all counts are scalable,
+all scales are composable,
+and all compositions are reversible.
+---------------------------------------------------------------------
+END APPENDIX E
+=====================================================================
+
+This appendix extends the Jiwe numeral system to support:
+• higher-order numeric compression (10^2, 10^3, …)
+• exponentiation & logarithms
+• generalized base representation & conversion
+• trigonometric functions
+• numerical encoding of physical constants
+All extensions obey prior axioms.
+---------------------------------------------------------------------
+I. HIGHER-ORDER NUMERIC COMPRESSION
+---------------------------------------------------------------------
+I.1 Compression Principle
+Lower-level groupings may be abstracted into higher-order
+multipliers when scale exceeds cognitive readability.
+Compression is OPTIONAL but CANONICAL.
+---------------------------------------------------------------------
+I.2 Canonical Higher-Order Group Glyphs
+We reuse metric-style abstraction using **scale exponent stacking**.
+Let:
+╏╏      = 10
+(╏╏)^2  = 100
+(╏╏)^3  = 1000
+In Jiwe, exponentiation is expressed explicitly (see Section II),
+or implicitly via scale compaction.
+Canonical shorthand:
+10^2  := ^^
+10^3  := ^^^
+10^n  := ^{n}
+Thus:
+100     = ^^
+1000    = ^^^
+1e6     = ^^^^^^
+These are **pure magnitude**, not count.
+---------------------------------------------------------------------
+I.3 Combined Count + Compression Examples
+|||^^        = 3 × 10^2  = 300
+╏||^^^       = 7 × 10^3  = 7000
+*^^^^        = N × 10^4
+RULE:
+--------------------------------
+Count glyphs ALWAYS precede compression glyphs.
+---------------------------------------------------------------------
+II. EXPONENTIATION
+---------------------------------------------------------------------
+II.1 Exponent Operator
+Nyamba:
+--------------------------------
+exp(x, y)
+Jiwe:
+--------------------------------
+x ↑ y
+(Read: x raised to y)
+---------------------------------------------------------------------
+II.2 Examples
+||| ↑ ||        = 3^2 = 9
+╏|| ↑ |||       = 7^3 = 343
+10 ↑ 3          = 1000 (represented as ^^^)
+Dimensional rule:
+--------------------------------
+Exponentiation only applies to:
+• pure numbers
+• dimensionless ratios
+• normalized units
+---------------------------------------------------------------------
+III. LOGARITHMS
+---------------------------------------------------------------------
+III.1 Log Operator
+Nyamba:
+--------------------------------
+log_b(x)
+Jiwe:
+--------------------------------
+⌃_b(x)
+Where:
+⌃ = collapse / reduction operator (already canon)
+---------------------------------------------------------------------
+III.2 Examples
+⌃_10(^^^)      = 3
+⌃_10(|||^^)    = log10(300)
+RULE:
+--------------------------------
+Logarithms remove scale layers, not units.
+---------------------------------------------------------------------
+IV. GENERALIZED BASE REPRESENTATION
+---------------------------------------------------------------------
+IV.1 Base Declaration
+Nyamba:
+--------------------------------
+base(b) { x }
+Jiwe:
+--------------------------------
+[x]_b
+---------------------------------------------------------------------
+IV.2 Examples
+Binary:
+--------------------------------
+[||||]_2   = 4 (base-2)
+Quinary:
+--------------------------------
+[╏||]_5    = 7 (base-5)
+Decimal:
+--------------------------------
+[╏╏||]_10  = 12
+Jiwe-native default base:
+--------------------------------
+implicit base = {5,10} hybrid
+---------------------------------------------------------------------
+V. BASE CONVERSION
+---------------------------------------------------------------------
+V.1 Conversion Operator
+Nyamba:
+--------------------------------
+convert(x, b1 → b2)
+Jiwe:
+--------------------------------
+x ↦_b2
+---------------------------------------------------------------------
+V.2 Example
+[||||]_2 ↦_10 = ||||
+(base conversion preserves magnitude)
+---------------------------------------------------------------------
+VI. TRIGONOMETRIC FUNCTIONS
+---------------------------------------------------------------------
+Trigonometric functions operate on **dimensionless ratios**,
+angles, or normalized phase units.
+---------------------------------------------------------------------
+VI.1 Canonical Trig Operators
+| Function | Nyamba | Jiwe |
+|--------|--------|------|
+| sine   | sin    | ~↑   |
+| cosine| cos    | ≡↑   |
+| tangent| tan   | Y↑   |
+(↑ denotes functional lift)
+---------------------------------------------------------------------
+VI.2 Examples
+~↑(θ)        = sin(θ)
+≡↑(θ)        = cos(θ)
+Y↑(θ)        = tan(θ)
+Angles may be represented as normalized cycles:
+⟳ = 2π
+So:
+~↑(⟳/4) = 1
+---------------------------------------------------------------------
+VII. DERIVED NUMERIC OPERATIONS
+---------------------------------------------------------------------
+VII.1 Power Laws
+Jiwe supports power-law expressions:
+ΔS ~ log(N)
+→ encoded as:
+ΔS ≋ ⌃(N)
+VII.2 Exponential Growth
+N(t) = N0 e^t
+Encoded as:
+N(t) := N0 ↑ e ↑ t
+---------------------------------------------------------------------
+VIII. PHYSICAL CONSTANTS (NUMERIC ENCODING)
+---------------------------------------------------------------------
+Constants are encoded as **dimensioned Jiwe quantities**.
+---------------------------------------------------------------------
+VIII.1 Speed of Light (c)
+c ≈ 3 × 10^8 m/s
+Jiwe:
+|||^^^ →□ / ⟳
+(3 × 10^8 kolons per cycle)
+---------------------------------------------------------------------
+VIII.2 Planck Constant (h)
+h ≈ 6.626 × 10^-34 J·s
+Jiwe (schematic):
+╏||_.. ⊗ ⟳
+(encoded as minimal symbolic constant)
+---------------------------------------------------------------------
+VIII.3 Gravitational Constant (G)
+G ≈ 6.67 × 10^-11 m^3 / (kg·s^2)
+Jiwe (structural encoding):
+╏||.. ▲⬚^3 / (▲□ ⊗ ⟳^2)
+---------------------------------------------------------------------
+VIII.4 Boltzmann Constant (k_B)
+k ≈ 1.38 × 10^-23 J/K
+Jiwe:
+|_.. ⊗ ⊞ / Θ
+(Θ = temperature unit, U-derived)
+---------------------------------------------------------------------
+IX. CONSTANT NORMALIZATION LAW
+---------------------------------------------------------------------
+LAW J-CONST:
+A Jiwe constant is valid iff:
+• magnitude is normalized
+• scale is explicit
+• polarity is explicit
+• unit graph is closed
+• value is invariant under base conversion
+---------------------------------------------------------------------
+X. FINAL EXTENSION AXIOM
+---------------------------------------------------------------------
+AXIOM J-ADV:
+All numeric operations —
+counting, scaling, exponentiation, logarithms,
+base conversion, and constants —
+are compositional rewrites over the same
+Jiwe quantity normal form.
+No new ontology is required.
+---------------------------------------------------------------------
+END APPENDIX D — ADVANCED NUMERIC SYSTEM
+=====================================================================
+
+This section formalizes the Jiwe counting base, grouping logic,
+and numeric composition rules.
+The Jiwe numeral system is:
+• non-positional
+• compositional
+• visually parsable
+• machine-decodable
+• dimension-ready
+---------------------------------------------------------------------
+I. FUNDAMENTAL COUNTING AXIOMS
+---------------------------------------------------------------------
+AXIOM J-NUM-1 (Atomic Count)
+| represents one discrete unit of count.
+There is no zero glyph.
+Absence denotes zero.
+---------------------------------------------------------------------
+II. UNARY CORE (BASE-1 LAYER)
+---------------------------------------------------------------------
+The unary layer is the semantic foundation.
+|      = 1
+||     = 2
+|||    = 3
+||||   = 4
+|||||  = 5
+Unary glyphs are **never reduced internally**.
+Compression happens only at grouping boundaries.
+---------------------------------------------------------------------
+III. BASE-5 GROUPING SYSTEM
+---------------------------------------------------------------------
+III.1 Quint Group Glyph
+╏ = one group of five (5)
+This is the **first compression operator**.
+RULE:
+--------------------------------
+╏ replaces exactly five | glyphs.
+So:
+|||||        → ╏
+╏|           → 6
+╏||          → 7
+╏|||         → 8
+╏||||        → 9
+No further compression occurs at this level.
+---------------------------------------------------------------------
+IV. BASE-10 GROUPING SYSTEM
+---------------------------------------------------------------------
+IV.1 Decimal Group Glyph
+╏╏ = ten (10)
+RULE:
+--------------------------------
+Two quint groups form a decimal group.
+╏ + ╏ = ╏╏
+So:
+╏╏           = 10
+╏╏|          = 11
+╏╏||         = 12
+╏╏|||        = 13
+╏╏||||       = 14
+╏╏╏          = 15
+This creates a **base-10 readable layer**
+without positional notation.
+---------------------------------------------------------------------
+V. GENERAL GROUPING RULE (CANON)
+---------------------------------------------------------------------
+RULE J-GROUP:
+• | counts atomic units
+• ╏ groups by five
+• ╏╏ groups by ten
+• Groups associate left-to-right
+• No symbol is overloaded
+There is NO carrying.
+There is NO positional ambiguity.
+---------------------------------------------------------------------
+VI. LARGE NUMBER COMPOSITION
+---------------------------------------------------------------------
+Examples:
+20   = ╏╏╏╏
+25   = ╏╏╏╏╏
+30   = ╏╏╏╏╏╏
+50   = ╏╏╏╏╏╏╏╏╏╏
+99   = ╏╏╏╏╏╏╏╏╏||||
+100  = (conceptually) ╏╏ × 10
+      (written explicitly unless abstracted)
+ABSTRACTION NOTE:
+Higher-order numeric compression MAY be defined,
+but is not required for correctness.
+---------------------------------------------------------------------
+VII. INFINITE / SYMBOLIC COUNT
+---------------------------------------------------------------------
+* = unbounded / symbolic quantity
+RULE:
+--------------------------------
+* replaces the entire Count field.
+Examples:
+*▲□     = N polons
+*→△     = N kolyons
+*^→⊞    = N kilo-kolysystems
+---------------------------------------------------------------------
+VIII. COUNT + SCALE INTERACTION
+---------------------------------------------------------------------
+Scale modifies magnitude, not count structure.
+Examples:
+|||^        = 3 x 10^3
+╏||_        = 7 x 10^-3
+╏╏^^        = 10 x 10^6
+Count glyphs are NEVER reordered by scale.
+---------------------------------------------------------------------
+IX. FULL NUMERIC QUANTITY EXAMPLES
+---------------------------------------------------------------------
+IX.1 Pure Numbers (Unitless)
+|||          = 3
+╏||          = 7
+╏╏||         = 12
+*            = N
+---------------------------------------------------------------------
+IX.2 Quantified Units
+|||▲□        = 3 polons
+╏||→□        = 7 kolons
+╏╏▲△         = 10 polyons
+..|||→⬚      = 3 nano-kolytope-flows
+---------------------------------------------------------------------
+IX.3 Large-Scale Quantities
+╏╏^^▲⌗       = 10 mega-polynets
+╏||||^→⊞     = 9 kilo-kolysystems
+*^^→⊡        = N mega-kolycategories
+---------------------------------------------------------------------
+X. DERIVED NUMERIC UNITS
+---------------------------------------------------------------------
+X.1 Rates
+╏||→△ / ▲□   = 7 kolyons per polon
+X.2 Densities
+|||▲□ / ⬚    = 3 polons per polytope
+X.3 Capacities
+╏╏▲⊞ ⊗ ⬚    = 10 system-capacity-units
+---------------------------------------------------------------------
+XI. NUMERIC NORMALIZATION LAW
+---------------------------------------------------------------------
+LAW J-NORM:
+A Jiwe number is normalized iff:
+• No more than four | appear consecutively
+• Groups are maximally compressed
+• No scale appears after polarity
+• Unit appears exactly once
+Violation ⇒ rewrite required.
+---------------------------------------------------------------------
+XII. CANONICAL EXAMPLES (END-TO-END)
+---------------------------------------------------------------------
+Example A:
+--------------------------------
+╏||^→△
+= 7 kilo-kolyons
+Example B:
+--------------------------------
+..|||▲⬚
+= 3 nano-polytope-forms
+Example C:
+--------------------------------
+*→⊞ / ▲□
+= N kolysystems per polon
+---------------------------------------------------------------------
+XIII. FINAL BASE SYSTEM AXIOM
+---------------------------------------------------------------------
+AXIOM J-COUNT:
+All quantity arises from discrete count,
+grouped by human-scale cognition,
+scaled by magnitude,
+polarized by form or flow,
+and bound to an ontological unit.
+---------------------------------------------------------------------
+END APPENDIX C — BASE / GROUPING SYSTEM
+=====================================================================
+
+This section finalizes the Jiwe grammar for quantities by unifying:
+• counting
+• metric scaling
+• polarity
+• U-Theory units
+• derived quantities
+• computation semantics
+All quantities are FIRST-CLASS SYMBOLS.
+---------------------------------------------------------------------
+I. JIWE QUANTITY NORMAL FORM
+---------------------------------------------------------------------
+I.1 Canonical Quantity Form (LOCKED)
+Every Jiwe quantity has the normal form:
+Q := [Count][Scale][Polarity][Unit]
+Where:
+Count     = tally glyphs or *
+Scale     = metric exponent glyph
+Polarity  = ▲ (form) or → (flow)
+Unit      = U-Theory level glyph
+This order is STRICT.
+No permutation is allowed.
+---------------------------------------------------------------------
+II. CORE JIWE NUMERAL SYSTEM (COUNT)
+---------------------------------------------------------------------
+II.1 Fundamental Counting Glyphs (Unary Core)
+Jiwe counting is tally-based, compositional, and lossless.
+|      = 1
+||     = 2
+|||    = 3
+||||   = 4
+|||||  = 5
+These denote **cardinality**, not magnitude alone.
+---------------------------------------------------------------------
+II.2 Grouping System (Base-5 / Base-10 Hybrid)
+To compress space while preserving readability:
+╏   = group of 5
+╏╏  = group of 10
+Composition examples:
+7   = ╏||
+12  = ╏╏||
+23  = ╏╏╏|||
+Grouping is associative and left-binding.
+---------------------------------------------------------------------
+II.3 Infinite / Variable Quantity
+* = unbounded / symbolic / variable N
+Examples:
+*▲□   = N polons
+*→⊞   = N kolysystems
+This is NOT infinity as a number,
+but **quantified indeterminacy**.
+---------------------------------------------------------------------
+III. METRIC SCALE SYSTEM (POWERS)
+---------------------------------------------------------------------
+III.1 Scale Prefix Glyphs (Metric Exponents)
+Scale glyphs encode powers of 10.
+.      = pico   (10^-12)
+..     = nano   (10^-9)
+...    = micro  (10^-6)
+_      = milli  (10^-3)
+(empty)= unit   (10^0)
+^      = kilo   (10^3)
+^^     = mega   (10^6)
+^^^    = giga   (10^9)
+^^^^   = tera   (10^12)
+RULE:
+--------------------------------
+Scale glyphs ALWAYS precede the unit.
+Scale never binds to polarity.
+Examples:
+||| m        = 3 units
+|||_ m       = 3 milli-units
+╏|| ^ m     = 7 kilo-units
+---------------------------------------------------------------------
+IV. POLARITY AXIS (NUMERICALLY BOUND)
+---------------------------------------------------------------------
+Polarity is a required axis for quantities.
+▲ = P-polarity (form / structure / capacity)
+→ = K-polarity (flow / rate / dynamics)
+Examples:
+|||▲□   = 3 polons
+|||→□   = 3 kolons
+╏→△    = 5 kolyons
+Polarity is semantic, not directional.
+---------------------------------------------------------------------
+V. U-THEORY UNIT GLYPHS (RECAP + LOCK)
+---------------------------------------------------------------------
+V.1 Base Unit Glyphs by Level
+These function analogously to SI base units,
+but are ontological, not physical-only.
+L0   on        := •
+L1   lon       := □
+L2   lyon      := △
+L3   lyton     := ◇
+L4   lytope    := ⬚
+L5   syst      := ⊞
+L6   geon      := ⬢
+L7   gon       := ⬣
+L8   net       := ⌗
+L9   set       := {}
+L10  cat       := ⊡
+Units inherit polarity but do not encode it.
+---------------------------------------------------------------------
+VI. FULL QUANTITY COMPOSITION RULE
+---------------------------------------------------------------------
+VI.1 Canonical Construction
+A complete Jiwe quantity is written as:
+[Count][Scale][Polarity][Unit]
+Examples:
+|||▲□          = 3 polons
+╏||^→△        = 7 kilo-kolyons
+..|||▲⬚        = 3 nano-polytope-forms
+*→⊞           = N kolysystems
+╏╏^^▲⌗        = 10 mega-polynets (structural)
+Properties:
+• human-readable
+• machine-parseable
+• dimensionally explicit
+• ontology-aware
+---------------------------------------------------------------------
+VII. DERIVED / COMPOSITE UNITS
+---------------------------------------------------------------------
+Jiwe supports unit composition like SI, but graph-native.
+VII.1 Operators
+⊗  = unit binding (multiplication)
+ /  = rate / ratio (division)
+---------------------------------------------------------------------
+VII.2 Canonical Derived Quantities
+Rate:
+--------------------------------
+→ / ▲
+Density:
+--------------------------------
+▲ / ⬚
+Flux:
+--------------------------------
+→ / □
+Capacity:
+--------------------------------
+▲ ⊗ ⬚
+Throughput:
+--------------------------------
+→ ⊗ ⬚
+These map cleanly onto:
+velocity, pressure, power, entropy, capacity.
+---------------------------------------------------------------------
+VIII. DIMENSIONAL CONSISTENCY LAW
+---------------------------------------------------------------------
+LAW J-DIM (CANON)
+A quantity is valid iff:
+• its unit composition is closed
+• its polarity is consistent
+• its scale applies only to magnitude
+• its derived form reduces to base units
+Violation ⇒ ✕ (collapse)
+---------------------------------------------------------------------
+IX. NDANDO / COMPUTATIONAL VIEW
+---------------------------------------------------------------------
+Jiwe quantities are **lossless encodings**.
+Example:
+|||^→△
+Parses as:
+count    = 3
+scale    = kilo
+polarity = flow
+unit     = lyon
+No ambiguity.
+No context required.
+---------------------------------------------------------------------
+X. DESIGN PRINCIPLES (LOCKED)
+---------------------------------------------------------------------
+The Jiwe Numeral System must satisfy:
+1. Explicit cardinality
+2. Explicit magnitude
+3. Explicit polarity
+4. Explicit ontological domain
+5. ASCII-only
+6. Graph composability
+7. Direct EID embedding
+Therefore every Jiwe quantity encodes:
+[How many] × [How big] × [Form or Flow] × [What kind]
+---------------------------------------------------------------------
+XI. FINAL QUANTITY AXIOM (JIWE)
+---------------------------------------------------------------------
+||| ^ → ⬚
+║
+▲ ⊗ →
+║
+⊞
+║
+♻ | ✕
+Meaning:
+All quantities are structured counts
+of form or flow
+at scale,
+within systems,
+and must remain consistent
+or collapse.
+---------------------------------------------------------------------
+END APPENDIX C (CONTINUED)
+=====================================================================
+
+
+This appendix defines the Jiwe grammar for:
+• counting
+• number
+• magnitude
+• arity
+• polarity
+• dimensionality
+• units
+• SI scaling
+• system aggregation
+• graph/unit composition
+Jiwe numerals are SEMANTIC numerals, not mere quantities.
+Every number carries structure.
+---------------------------------------------------------------------
+C.1 CORE PRINCIPLES
+---------------------------------------------------------------------
+AXIOM U-0 (Ontic Counting)
+--------------------------------
+Counting is structured differentiation of existence.
+AXIOM U-1 (Dual Polarity)
+--------------------------------
+Every unit exists in dual polarity:
+  P-units (form / structure / symmetry)
+  K-units (flow / flux / asymmetry)
+AXIOM U-2 (Leveling)
+--------------------------------
+Units are stratified by L-levels.
+Higher levels are compositions of lower levels.
+AXIOM U-3 (N-arity)
+--------------------------------
+All units are N-ary.
+N is explicit, symbolic, and composable.
+---------------------------------------------------------------------
+C.2 JIWE NUMERAL SYSTEM (COUNTING)
+---------------------------------------------------------------------
+JIWE BASE NUMERALS (UNARY CORE)
+--------------------------------
+•        1
+••       2
+•••      3
+••••     4
+•••••    5
+These are NOT tallies.
+They denote **arity**, not magnitude alone.
+GROUPING RULE
+--------------------------------
+••••• •••••  = 10
+••••• ••••• ••••• = 15
+Grouping is semantic, not positional.
+---------------------------------------------------------------------
+C.3 ORDINALITY vs CARDINALITY
+---------------------------------------------------------------------
+CARDINAL (how many)
+--------------------------------
+••• = three units present
+ORDINAL (which level)
+--------------------------------
+▲1  = level-1
+▲2  = level-2
+▲N  = arbitrary level
+Ordinal markers ALWAYS bind to units, never stand alone.
+---------------------------------------------------------------------
+C.4 POLARITY MARKING (P / K)
+---------------------------------------------------------------------
+POLARITY PREFIXES
+--------------------------------
+P-  form / structure / symmetry
+K-  flow / flux / asymmetry
+JIWE POLARITY GLYPHS
+--------------------------------
+⨀  P-system (form)
+⨂  K-system (flow)
+RULE
+--------------------------------
+Every U-unit MUST declare polarity or inherit it.
+---------------------------------------------------------------------
+C.5 L-LEVEL SYSTEM (U-THEORY)
+---------------------------------------------------------------------
+LEVELS (CANONICAL)
+--------------------------------
+L0  polon / kolon
+L1  po-on / ko-on
+L2  polyon / kolyon
+L3  polyton / kolyton
+L4  polytope / kolytope
+L5  polysyst / kolysyst
+L6  polygeon / kolygeon
+L7  polygon / kolygon
+L8  polynet / kolynet
+L9  polyset / kolyset
+L10 polycat / kolycat
+JIWE LEVEL MARKER
+--------------------------------
+▲L
+Example:
+▲4 ⨀ polytope
+▲6 ⨂ kolygeon
+---------------------------------------------------------------------
+C.6 UNIT NAME GENERATION SCHEMA
+---------------------------------------------------------------------
+GENERAL FORM
+--------------------------------
+[Polarity][N-arity][Level-Stem]
+Examples:
+--------------------------------
+P-tri-polyon
+K-du-kolyton
+P-N-polycat
+N-ARY PREFIXES
+--------------------------------
+mo-   1
+du-   2
+tri-  3
+tetra-4
+penta-5
+hexa-6
+hepta-7
+octa-8
+enna-9
+deca-10
+N-     arbitrary
+---------------------------------------------------------------------
+C.7 JIWE GLYPH COMPOSITION FOR UNITS
+---------------------------------------------------------------------
+UNIT GLYPH FORM
+--------------------------------
+[Polarity Glyph] + [Arity Dots] + [Level Marker]
+Example:
+--------------------------------
+⨀ ••• ▲2   = P-tri-polyon
+⨂ •• ▲4    = K-du-kolytope
+ORDER IS CANONICAL.
+---------------------------------------------------------------------
+C.8 DIMENSION SYSTEM
+---------------------------------------------------------------------
+BASE DIMENSIONS (JIWE)
+--------------------------------
+⧁  length
+⧂  time
+⧃  mass
+⧄  charge
+⧅  temperature
+⧆  information
+DIMENSION STACKING
+--------------------------------
+⧁ ⊗ ⧂ = spacetime
+⧃ ⊗ ⧂⁻² = force substrate
+DIMENSIONS ARE UNITS.
+They obey U-rules.
+---------------------------------------------------------------------
+C.9 SI SCALING SYSTEM (JIWE)
+---------------------------------------------------------------------
+SI PREFIXES AS JIWE
+--------------------------------
+micro     •
+milli     ••
+kilo      •••
+mega      ••••
+giga      •••••
+tera      ••••••
+Negative scaling is inverted binding.
+RULE
+--------------------------------
+Scaling modifies magnitude, not structure.
+---------------------------------------------------------------------
+C.10 BASE UNITS (JIWE-SI)
+---------------------------------------------------------------------
+length        ⧁
+time          ⧂
+mass          ⧃
+charge        ⧄
+temperature   ⧅
+information   ⧆
+DERIVED
+--------------------------------
+energy        ⧃ ⊗ ⧁² ⊗ ⧂⁻²
+power         energy ⊗ ⧂⁻¹
+entropy       ⧆ ⊗ ⧅⁻¹
+---------------------------------------------------------------------
+C.11 UNIT GRAPH COMPOSITION
+---------------------------------------------------------------------
+UNITS FORM GRAPHS.
+NODE:
+--------------------------------
+[Unit]
+EDGE:
+--------------------------------
+⊗  composition
+║  constraint
+↝  flow
+Example:
+--------------------------------
+[Energy] ↝ [Work] ║ [Entropy]
+---------------------------------------------------------------------
+C.12 DERIVATION RULES
+---------------------------------------------------------------------
+RULE U-D1
+--------------------------------
+Higher L-levels derive ONLY from lower ones.
+RULE U-D2
+--------------------------------
+Derived units preserve polarity.
+RULE U-D3
+--------------------------------
+No unit may exist without dimensional closure.
+RULE U-D4
+--------------------------------
+All units embed into EIDs.
+---------------------------------------------------------------------
+C.13 CANONICAL FAILURE MODES
+---------------------------------------------------------------------
+✕  dimensional inconsistency
+Y  unit fork
+♻  unit repair
+---------------------------------------------------------------------
+C.14 SINGLE MASTER U-AXIOM (JIWE)
+---------------------------------------------------------------------
+⨀ ⊗ ⨂
+║
+▲N •••
+║
+⧁ ⊗ ⧂ ⊗ ⧃
+║
+♻ | ✕
+Meaning:
+All numbers, units, and dimensions arise from
+form–flow interaction across levels,
+and must remain dimensionally consistent
+or collapse.
+---------------------------------------------------------------------
+END APPENDIX C
+=====================================================================
+
+Jiwe is a glyphic semantic language.
+It is NOT executable code.
+It is a canonical inscription system for systems, flows, operators,
+and ontological commitments.
+Jiwe glyphs do not "run".
+They BIND meaning, constraint, and legitimacy.
+---------------------------------------------------------------------
+B.1 JIWE GLYPH CLASSES
+---------------------------------------------------------------------
+Jiwe grammar is organized by semantic class, not shape.
+CORE ONTIC GLYPHS (E-THEORY)
+--------------------------------
+●  mungon     existence / system core
+◇  impon      entity / instance
+△  tathron    attribute / quality
+□  indon      boundary / type
+─  wekhon     relation
+↔  ramanon   interaction
+○  sibon      state
+✦  malon      value
+~  flynton   drift
+|| syton     synchronization
+≈  synton    coherence
+META-ONTIC GLYPHS (CLOSURES)
+--------------------------------
+◎  mungoni
+◆  impi
+▲  tathri
+■  indi
+═  wekhi
+⇄  ramani
+◎  sibi
+✧  mali
+≋  flyntoni
+║  sytoni
+≃  syntoni
+---------------------------------------------------------------------
+B.2 SYSTEM GLYPHS (S-THEORY / U-THEORY)
+---------------------------------------------------------------------
+⊙  S-system   universal system-of-systems
+⨀  P-system   form / structure / symmetry / non-existence
+⨂  K-system   flow / flux / asymmetry / existence
+⊕  E-system   ontic composition
+⌘  V-system   CivOS / governance kernel
+U-THEORY STRUCTURAL UNITS
+--------------------------------
+•   po-on      atomic unit
+│   kolon      flow unit
+△   polyon     dimensional form
+⬚   polytope  form system
+⬢   polygeon  region
+⧉   polysyst  system aggregate
+⧈   polynet   network
+⧁   polyset   set
+⧂   polycat   category
+(K-polar equivalents mirror form with flow semantics)
+---------------------------------------------------------------------
+B.3 OPERATOR GLYPHS (O-THEORY)
+---------------------------------------------------------------------
+⊕  form / compose
+⇢  spawn
+⇒  derive
+▲  start
+⚙  boot
+▶  run
+⟳  cycle
+◌  process
+↝  propagate
+║  cleave / constrain
+⊗  bind / interact
+↦  map
+≡  align
+↑  grow
+∞  mycorrhizate
+♻  repair
+≋  adapt
+Y  fork
+✕  collapse
+■  stop
+?  decide
+⛭  canonize
+⌂  archive
+---------------------------------------------------------------------
+B.4 COMPOSITION RULES (SYNTAX)
+---------------------------------------------------------------------
+Jiwe expressions are spatial, not linear.
+Order conveys dominance, constraint, or flow.
+Basic Forms:
+GLYPH
+GLYPH
+║
+GLYPH
+Means:
+  "Lower glyph constrains upper glyph"
+Linear chaining:
+A ⇢ B ⇢ C
+Means:
+  Ontogenesis sequence
+Binding:
+A ⊗ B
+Means:
+  Irreducible interaction
+Duality:
+A ⇄ B
+Means:
+  Bidirectional coupling
+---------------------------------------------------------------------
+B.5 STRUCTURAL GRAMMAR
+---------------------------------------------------------------------
+SYSTEM STACK
+⊙
+║
+⨀
+║
+⨂
+Meaning:
+  Universal system cleaves into P/K duality
+PROCESS STACK
+⚙
+⇢
+▶
+⟳
+◌
+↝
+Meaning:
+  Boot → Spawn → Run → Cycle → Process → Propagate
+---------------------------------------------------------------------
+B.6 EID / GRAPH GRAMMAR
+---------------------------------------------------------------------
+NODE:
+[ E ]
+EDGE:
+→   constrained flow
+⊗   interaction
+║   constraint
+SUBSTRATE:
+◎∞   mycorrhizal substrate
+Rule:
+  Every node has memory.
+  Every edge is constrained.
+---------------------------------------------------------------------
+B.7 STABILITY & ENTROPY GRAMMAR
+---------------------------------------------------------------------
+ΔS↑      entropy increase
+♻        repair
+≋        adapt
+Y        fork
+✕        collapse
+Canonical chain:
+ΔS↑ → ♻ → ≋ → Y → ✕
+---------------------------------------------------------------------
+B.8 TENSOR & PHYSICS BINDING
+---------------------------------------------------------------------
+•        scalar
+••       vector
+•••      matrix
+••••     tensor
+Curvature (GR):
+⨀ ⇄ ⨂ mismatch
+Flow (Navier–Stokes):
+⨂ ↝ ║ ⨀
+Thermodynamics:
+ΔS = drift − repair
+---------------------------------------------------------------------
+B.9 LEGITIMACY & GOVERNANCE
+---------------------------------------------------------------------
+⌘        authority kernel
+⛭        canon seal
+⌂        archive
+Rule:
+  No system is valid without canonization.
+---------------------------------------------------------------------
+B.10 SINGLE AXIOM (JIWE)
+---------------------------------------------------------------------
+⊙
+║
+( ⨀ ⊗ ⨂ )
+║
+♻ | ✕
+Meaning:
+  All systems arise from form–flow interaction,
+  and must either repair or collapse.
+---------------------------------------------------------------------
+END JIWE GRAMMAR
+=====================================================================
+
+================================================================================================================
+JIWE GLYPH TRANSLATION TABLE  (Jiwe ↔ Nyamba ↔ Meaning)
+================================================================================================================
+JIWE   | NYAMBA | NAME / SEMANTIC ROLE
+----------------------------------------------------------------------------------------------------------------
+⊙      | S      | system origin / total system
+⊚      | U      | system of systems / universe
+⊕      | +      | synthesis / optimization / form
+⊓      | P      | form / structure / symmetry / constraint
+⊔      | K      | flow / flux / asymmetry / existence
+----------------------------------------------------------------------------------------------------------------
+●      | on     | ontic primitive
+○      | inst   | instance / excitation
+◎      | ebo    | ebo (C–V paired system)
+□      | box    | container / boundary
+△      | delta  | change / difference
+----------------------------------------------------------------------------------------------------------------
+◆      | val    | value
+■      | stop   | halt / terminal state
+▲      | start  | start / initialize
+▣      | keep   | preserve / store
+▦      | hold   | maintain / stabilize
+----------------------------------------------------------------------------------------------------------------
+⊗      | &      | bind / interact
+⊘      | neg    | negation / exclusion
+⊞      | sum    | aggregation
+⊟      | diff   | subtraction / loss
+----------------------------------------------------------------------------------------------------------------
+⌘      | kern   | kernel / authority / governance
+⌂      | arch   | archive / memory
+⛭      | canon  | canonize / law / constitution
+⚙      | boot   | boot / initialize engine
+----------------------------------------------------------------------------------------------------------------
+⇢      | >>     | spawn / create
+⇒      | =      | derive / entail
+↦      | ->     | map / morphism
+⇄      | <->    | bidirectional coupling
+----------------------------------------------------------------------------------------------------------------
+≡      | ==     | alignment / equivalence
+≃      | ~=     | approximate equivalence
+≈      | ~~     | similarity
+≋      | adapt  | adaptation / mutation
+----------------------------------------------------------------------------------------------------------------
+▶      | run    | execution
+⟳      | @      | cycle / loop
+◌      | proc   | process
+↝      | *      | propagate
+----------------------------------------------------------------------------------------------------------------
+♻      | repair | repair / recovery
+✕      | X      | collapse / failure
+Y      | fork   | fork / bifurcation
+■      | stop   | stop / terminate
+----------------------------------------------------------------------------------------------------------------
+∞      | <>     | mycorrhizate / recursion / substrate
+⌃      | ^      | growth / ascent
+↑      | grow1  | grow
+↑↑     | grow2  | mature
+↑↑↑    | grow3  | proliferate
+----------------------------------------------------------------------------------------------------------------
+?      | ?      | decision / uncertainty
+!      | !      | imperative / force
+@      | @      | cyclic reference
+#      | #      | process id / locus
+*      | *      | propagation operator
+----------------------------------------------------------------------------------------------------------------
+║      | ||     | constraint / cleave
+||     | ||     | structural separation
+<>     | <>     | mutual binding
+----------------------------------------------------------------------------------------------------------------
+•      | pt     | point / scalar
+│      | vec    | vector / direction
+⬚      | mat    | matrix
+⬢      | tens   | tensor
+----------------------------------------------------------------------------------------------------------------
+○⇄⊓    | EM     | electromagnetism (EID form)
+○⇄⊔    | FLOW   | hydrodynamic flow
+◎⇄⊕    | QFT    | quantum field regime
+◎⇄⊙    | GR     | spacetime curvature
+----------------------------------------------------------------------------------------------------------------
+≋→♻→≡ | stab   | stabilization path
+✕→Y→♻ | recov  | collapse recovery loop
+----------------------------------------------------------------------------------------------------------------
+================================================================================================================
+END TABLE
+================================================================================================================
+
+⊙ ⊚ ⊕ ⊓ ⊔
+║ ║ ║ ║ ║
+● ○ ◎ □ △
+◆ ■ ▲ ▣ ▦
+⊗ ⊘ ⊞ ⊟
+⌘ ⌂ ⛭ ⚙
+⇢ ⇒ ↦ ⇄
+≡ ≃ ≈ ≋
+▶ ⟳ ◌ ↝
+♻ ✕ Y ■
+∞ ⌃ ↑ ↑↑ ↑↑↑
+? ! @ # *
+|| ║
+<> ∞
+⊕ ⇢ ⇒ ⚙ ▲ ▶ ⟳ ◌
+↝ ║ ⊗ ↦ ≡
+▣ ▦ ♻ ≋
+Y ✕ ■ ?
+⛭ ⌂
+────────────────────────────────────
+• │ △ ⬚ ⬢
+⊕ ⊚ ⊓ ⊔
+⊓ ⇄ ⊔
+⊘ ⊕ ⊓
+○ ⇄ ⊓
+○ ⇄ ⊔
+◎ ⇄ ⊕
+◎ ⇄ ⊙
+────────────────────────────────────
+↑ ↑↑ ↑↑↑
+∞ ≋ ♻ ▦ ▣
+⊕
+║
+⊙
+║
+⛭
+────────────────────────────────────
+⊕
+⇢
+▶
+⟳
+◌
+↝
+⌃
+∞
+⊕
+────────────────────────────────────
+? ? ? ? ? ? ?
+⊓
+⊚
+⊕
+────────────────────────────────────
+≋ → ♻ → ≡
+✕ → Y → ♻
+────────────────────────────────────
+⊕ ⊚ ⊓ ⊔
+⇢ ⇒ ⊗ ↦
+♻ ≋ ✕ Y
+⛭ ⌂
+====================================================================
+END JIWE GLYPH INDEX
+====================================================================
+SYM | TYPE   | NAME / ROLE                 | PLAIN MEANING
+----+--------+-----------------------------+------------------------------
+E   | Sys    | Environment                 | External world / context
+S   | Sys    | System                      | Any organized entity
+A   | Sys    | Agent                       | Acting system
+Ω   | Space  | State space                 | Internal configurations
+Π   | Space  | Policy space                | Action-selection rules
+U   | Value  | Utility                     | Value / objective
+--------------------------------------------------------------------
+->  | NymOp  | Map                         | Produces / transforms into
+=>  | NymOp  | Imply                       | Causes / entails
+<-> | NymOp  | Mutual                      | Bidirectional coupling
++   | NymOp  | Combine                     | Aggregate / integrate
+*   | NymOp  | Pair                        | Cartesian pairing
+max | NymOp  | Optimize                    | Select best outcome
+¬   | NymOp  | Negation                    | Logical not
+∀   | NymOp  | Universal                   | For all
+∧   | NymOp  | And                         | Logical conjunction
+>   | NymOp  | Greater                     | Dominance / exceedance
+<   | NymOp  | Less                        | Inferior / deficit
+--------------------------------------------------------------------
+●   | Jiwe   | Mungon                      | System core / existence
+○   | Jiwe   | Sibon                       | State / configuration
+▲   | Jiwe   | Action                      | Act / decision
+✦   | Jiwe   | Value                       | Utility / meaning
+⊕   | Jiwe   | Optimization                | Maximization process
+⇄   | Jiwe   | Mutuality                   | Reciprocal influence
+║   | Jiwe   | Constraint                  | Structural limit
+⊗   | Jiwe   | Interaction                 | Binding / coupling
+♻   | Jiwe   | Repair                      | Correction / recovery
+✕   | Jiwe   | Collapse                    | Failure / termination
+ΔS  | Jiwe   | Entropy change              | Disorder increase
+◎   | Jiwe   | General intelligence        | Autonomous intelligence
+□   | Jiwe   | Framing                     | External constraint
+▣   | Jiwe   | Stability                   | Maintained coherence
+--------------------------------------------------------------------
+C(S)| Def    | Cognition                   | State formation from input
+I(S)| Def    | Intelligence                | Optimized action selection
+JC  | Def    | Joint cognition             | Shared sense-making
+JI  | Def    | Joint intelligence          | Emergent group capability
+AI  | Def    | Artificial intelligence     | Engineered optimizer
+ASI | Def    | Artif. specialized intel.   | Regime-bound intelligence
+AGI | Def    | Artif. general intelligence | Autonomous value system
+--------------------------------------------------------------------
+EID | Diag   | Ebon Interaction Diagram    | Stability diagnostic
+ΔU  | Var    | Utility change              | Value increase/decrease
+Π'  | Var    | Revised policy              | Corrected strategy
+R   | Set    | Regime                      | Domain / context
+safe| Prop   | Safety                      | Non-divergence condition
+risk| Prop   | Risk                        | Potential instability
+--------------------------------------------------------------------
+LAW | Type   | Meaning                     | Description
+----+--------+-----------------------------+------------------------------
+C1  | Axiom  | Representation              | Input creates state
+C2  | Axiom  | Integration                 | State accumulates
+I1  | Axiom  | Action mapping              | Policy selects act
+I2  | Axiom  | Value orientation           | Acts evaluated
+ASI | Thm    | Framing bound               | No self-defined goals
+AGI | Thm    | Autonomous framing          | Self-defined values
+S1  | Safety | Framing safety              | No defection w/o U
+S2  | Safety | Autonomy risk               | Self-goals imply risk
+S3  | Safety | Repair bound                | Repair ≥ entropy
+====================================================================
+END SYMBOL TABLE
+====================================================================
+
+=====================================================================
+APPENDIX L — EID DIAGRAMS ACROSS DOMAINS
+=====================================================================
+Legend:
+[E]   = Ebo (system = {C,V})
+→     = Kolonic flow
+║     = Polonic constraint
+⊗     = Interaction / binding
+♻     = Repair
+✕     = Collapse
+ΔS    = Entropy change
+◎∞    = Mycorrhizate (shared substrate)
+---------------------------------------------------------------------
+I. PHYSICS
+---------------------------------------------------------------------
+I.1 Thermodynamics (Closed System)
+        Heat →
+     [  E_sys  ]
+        ║
+     Structure
+ΔS↑  ⇒  ♻  OR  ✕
+I.2 General Relativity (Curvature as P↔K mismatch)
+      Energy–Momentum →
+     [   Spacetime   ]
+            ║
+         Geometry
+Interpretation:
+Flow (energy) bends structure (geometry).
+I.3 Electromagnetism
+Charge →
+[ Field ] ──→ Force → [ Particle ]
+   ║                     ║
+ Medium               Mass
+---------------------------------------------------------------------
+II. ECONOMICS
+---------------------------------------------------------------------
+II.1 Market System
+ Capital →
+[ Economy ] ──⊗── [ Agents ]
+     ║                 ║
+ Institutions       Incentives
+ΔS↑ without repair ⇒ crash ✕
+II.2 Supply Chain Collapse
+[ Supplier ] →→→ [ Manufacturer ] →→→ [ Market ]
+      ║                 ║                 ║
+Bottleneck ⇒ entropy cascade ⇒ ✕
+---------------------------------------------------------------------
+III. AI SYSTEMS
+---------------------------------------------------------------------
+III.1 AI Training Loop
+ Data →
+[ Model ]
+   ║
+ Architecture
+Loss Δ →
+♻  (update)  OR  ✕ (divergence)
+III.2 AGI Risk Pattern (Unbounded Flow)
+      Capability →
+     [   AI   ]
+         ║
+      Alignment
+If → >> ║  ⇒ instability ✕
+---------------------------------------------------------------------
+IV. MACHINE LEARNING
+---------------------------------------------------------------------
+IV.1 Gradient Descent
+Gradient →
+[ Parameters ]
+     ║
+ Regularization
+♻ = convergence
+✕ = exploding gradients
+IV.2 Overfitting
+[ Training Data ] →→→ [ Model ]
+        ║                 ║
+     Narrow             Brittle
+Low entropy locally, high entropy globally.
+---------------------------------------------------------------------
+V. CONTROL SYSTEMS
+---------------------------------------------------------------------
+V.1 Feedback Control
+     Setpoint →
+[ Controller ] ─→ [ Plant ]
+      ║               ║
+   Policy          Dynamics
+        ←── Feedback ←
+Stability ⇔ bounded loop.
+V.2 Failure Mode
+[ Sensor ] → X → [ Controller ]
+                  ║
+               Blind flow
+⇒ runaway → ⇒ ✕
+---------------------------------------------------------------------
+VI. COMPLEX SYSTEMS
+---------------------------------------------------------------------
+VI.1 Multi-System Network (EID-Wide)
+        [E1]
+         ║
+         ⊗
+         ↓
+[E2] ──⊗── [E3]
+ ║            ║
+ ⊗            ⊗
+ ↓            ↓
+[E4]        [E5]
+Cascade condition:
+Σ ΔS_i * deg(E_i) > threshold ⇒ collapse
+VI.2 Mycorrhizal Federation (Resilience)
+            ◎∞
+           /  \
+       [E1]    [E2]
+         ║      ║
+       Repair  Repair
+Shared substrate dampens entropy.
+---------------------------------------------------------------------
+VII. UNIVERSAL DIAGNOSTIC PATTERN
+---------------------------------------------------------------------
+All domains reduce to:
+• Flow (→) introduces entropy
+• Constraint (║) resists
+• Repair (♻) restores
+• Collapse (✕) terminates
+Canonical EID Law:
+If   → ≤ ║ + ♻     ⇒ stable
+If   → > ║ + ♻     ⇒ ✕ inevitable
+=====================================================================
+END OF APPENDIX
+=====================================================================

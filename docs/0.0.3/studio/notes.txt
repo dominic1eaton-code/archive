@@ -1812,6 +1812,2013 @@ S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 
 
 
+
+================================================================
+U-THEORY COMPLETE UNIT SYSTEM
+=============================
+
+U-Theory describes **units of form and flow** as **N-ary aggregates** evolving through **structural depth levels**.
+Every unit is determined by **three coordinates**:
+
+```
+(N, L, Polarity)
+```
+
+Where:
+
+* `N` = arity (how many)
+* `L` = level (what kind of aggregation)
+* `Polarity` ∈ { P , K }
+
+  * P = polonic (form / structure)
+  * K = kolonic (flow / flux)
+
+---
+
+## I. DUAL PARALLEL SYSTEMS (FOUNDATION)
+
+```
+P-SYSTEM (Form / Structure)      K-SYSTEM (Flow / Flux)
+---------------------------     -----------------------
+bounded                          directional
+enclosed                         open
+state                            change
+polonic                          kolonic
+```
+
+These systems are:
+
+* parallel
+* isomorphic
+* non-collapsing into each other
+
+---
+
+## II. N-ARY (CARDINALITY) SYSTEM
+
+Arity is **independent of level**.
+
+```
+N = 1   mono   mo-
+N = 2   duo    du-
+N = 3   tri    tri-
+N = 4   tetra  te-
+...
+N = ω   poly   po-
+```
+
+Rule:
+
+```
+Prefix encodes quantity only.
+It does not encode structure, flow, or geometry.
+```
+
+---
+
+## III. LEVEL (STRUCTURAL DEPTH) SYSTEM
+
+Levels encode **how units are aggregated**.
+
+```
+L0  on       unit / atom
+L1  lon      primitive system
+L2  lyon     dimensional extension
+L3  lyton    transitional aggregate
+L4  lytope   geometric system
+L5  syst     system of units
+L6  geon     region
+L7  gon      discrete spatial form
+L8  net      network
+L9  set      set
+L10 cat      category
+```
+
+---
+
+## IV. UNIT NAME GENERATION (FORMAL)
+
+### P-Units (polonic / form)
+
+```
+P(N,L) := <N-prefix> + <level-root>
+```
+
+Examples:
+
+```
+mo-on     du-on     tri-on     po-on
+molon     dulon     trilon     polon
+molyon    dulyon    trilyon    polyon
+```
+
+### K-Units (kolonic / flow)
+
+```
+K(N,L) := <N-prefix> + k + <level-root>
+```
+
+Examples:
+
+```
+mo-kon     du-kon     tri-kon     ko-on
+kolon      kolyon     kolyton     kolytope
+```
+
+(phonetic contraction allowed; semantic identity preserved)
+
+---
+
+## V. JIWE GLYPH SYSTEM (SEMANTIC)
+
+Jiwe glyphs encode **meaning**, not execution.
+
+### V.1 Base Polarity Glyphs (L0, N=1)
+
+```
+P-base (form) : •
+K-base (flow) : │
+```
+
+---
+
+## VI. ARITY ENCODING (JIWE)
+
+Arity is encoded by **multiplicity or abstraction**, never by changing polarity.
+
+### P-Units (Form)
+
+```
+N=1 : •
+N=2 : ••
+N=3 : •••
+N=ω : △
+```
+
+### K-Units (Flow)
+
+```
+N=1 : │
+N=2 : ║
+N=3 : ≡
+N=ω : ▷
+```
+
+---
+
+## VII. LEVEL LIFT OPERATORS (JIWE)
+
+Each level applies a **semantic lift**.
+
+```
+L0  on      : point / line
+L1  lon     : enclosure / channel
+L2  lyon    : dimensionality
+L3  lyton   : aggregation
+L4  lytope  : bounded space
+L5  syst    : system marker
+L6  geon    : region marker
+L7  gon     : discreteness
+L8  net     : lattice
+L9  set     : braces
+L10 cat     : container
+```
+
+---
+
+## VIII. GLYPH GENERATION FORMULA
+
+### Polonic (P) glyph
+
+```
+Glyph_P(N,L) = Arity_P(N) ⊕ Lift_Form(L)
+```
+
+### Kolonic (K) glyph
+
+```
+Glyph_K(N,L) = Arity_K(N) ⊕ Lift_Flow(L)
+```
+
+This is **generative**, not enumerative.
+
+---
+
+## IX. CANONICAL EXAMPLES
+
+### Level-0 (on)
+
+```
+mo-on (P)  := •
+du-on (P)  := ••
+po-on (P)  := △
+
+mo-on (K)  := │
+du-on (K)  := ║
+po-on (K)  := ▷
+```
+
+### Level-2 (lyon)
+
+```
+polyon (P) := △
+kolyon (K) := ▷
+```
+
+### Level-4 (lytope)
+
+```
+polytope (P) := ⬚
+kolytope (K) := ⬒
+```
+
+### Level-8 (net)
+
+```
+polynet (P) := ⊞
+kolynet (K) := ⊞→
+```
+
+---
+
+## X. SYSTEM PROPERTIES
+
+```
+• Infinite (N unbounded)
+• Dual-consistent (P ↔ K)
+• Deterministic
+• Glyphs are compositional
+• No Nyamba operator collision
+• Suitable for Jiwe freeze
+```
+
+Legend:
+
+```
+N=1 → mo-
+N=2 → du-
+N=3 → tri-
+N=4 → te-
+N=5 → pe-
+N=6 → he-
+N=7 → se-
+N=N → po-
+```
+
+---
+
+## L0 — on (unit / atom)
+
+P-units:
+
+```
+mo-on
+du-on
+tri-on
+te-on
+pe-on
+he-on
+se-on
+po-on
+```
+
+K-units:
+
+```
+mo-kon
+du-kon
+tri-kon
+te-kon
+pe-kon
+he-kon
+se-kon
+ko-on
+```
+
+---
+
+## L1 — lon (primitive system)
+
+P-units:
+
+```
+molon
+dulon
+trilon
+telon
+pelon
+helon
+selon
+polon
+```
+
+K-units:
+
+```
+mokolon
+dukolon
+trikolon
+tekolon
+pekolon
+hekolon
+sekolon
+kolon
+```
+
+---
+
+## L2 — lyon (dimensional extension)
+
+P-units:
+
+```
+molyon
+dulyon
+trilyon
+telyon
+pelyon
+helyon
+selyon
+polyon
+```
+
+K-units:
+
+```
+mokolyon
+dukolyon
+trikolyon
+tekolyon
+pekolyon
+hekolyon
+sekolyon
+kolyon
+```
+
+---
+
+## L3 — lyton (transitional aggregate)
+
+P-units:
+
+```
+molyton
+dulyton
+trilyton
+telyton
+pelyton
+helyton
+selyton
+polyton
+```
+
+K-units:
+
+```
+mokolyton
+dukolyton
+trikolyton
+tekolyton
+pekolyton
+hekolyton
+sekolyton
+kolyton
+```
+
+---
+
+## L4 — lytope (geometric system)
+
+P-units:
+
+```
+molytope
+dulytope
+trilytope
+telytope
+pelytope
+helytope
+selytope
+polytope
+```
+
+K-units:
+
+```
+mokolytope
+dukolytope
+trikolytope
+tekolytope
+pekolytope
+hekolytope
+sekolytope
+kolytope
+```
+
+---
+
+## L5 — syst (system of units)
+
+P-units:
+
+```
+molsyst
+dulsyst
+trilsyst
+telsyst
+pelsyst
+helsyst
+selsyst
+polysyst
+```
+
+K-units:
+
+```
+mokolsyst
+dukolsyst
+trikolsyst
+tekolsyst
+pekolsyst
+hekolsyst
+sekolsyst
+kolysyst
+```
+
+---
+
+## L6 — geon (region)
+
+P-units:
+
+```
+molgeon
+dulgeon
+trilgeon
+telgeon
+pelgeon
+helgeon
+selgeon
+polygeon
+```
+
+K-units:
+
+```
+mokolgeon
+dukolgeon
+trikolgeon
+tekolgeon
+pekolgeon
+hekolgeon
+sekolgeon
+kolygeon
+```
+
+---
+
+## L7 — gon (discrete spatial form)
+
+P-units:
+
+```
+molygon
+dulygon
+trilygon
+telygon
+pelygon
+helygon
+selygon
+polygon
+```
+
+K-units:
+
+```
+mokolygon
+dukolygon
+trikolygon
+tekolygon
+pekolygon
+hekolygon
+sekolygon
+kolygon
+```
+
+---
+
+## L8 — net (network)
+
+P-units:
+
+```
+molynet
+dulynet
+trilynet
+telynet
+pelynet
+helyn et
+selynet
+polynet
+```
+
+K-units:
+
+```
+mokolynet
+dukolynet
+trikolynet
+tekolynet
+pekolynet
+hekolynet
+sekolynet
+kolynet
+```
+
+---
+
+## L9 — set (set)
+
+P-units:
+
+```
+molset
+dulset
+trilset
+telset
+pelset
+helset
+selset
+polyset
+```
+
+K-units:
+
+```
+mokolset
+dukolset
+trikolset
+tekolset
+pekolset
+hekolset
+sekolset
+kolyset
+```
+
+---
+
+## L10 — cat (category)
+
+P-units:
+
+```
+molcat
+dulcat
+trilcat
+telcat
+pelcat
+helcat
+selcat
+polycat
+```
+
+K-units:
+
+```
+mokolcat
+dukolcat
+trikolcat
+tekolcat
+pekolcat
+hekolcat
+sekolcat
+kolycat
+```
+
+```
+•   = point / atom / unit seed
+│   = flow / direction
+△   = dimensional extension
+⬚   = enclosure / topology
+⬢   = region / manifold
+⊗   = composition / aggregation
+```
+
+Polarity:
+
+```
+P-units (form) use • as base
+K-units (flow) use │ as base
+```
+
+L-level is expressed by **iterated structural composition**, not new glyphs.
+
+---
+
+## P-UNITS (FORM / STRUCTURE / SYMMETRY)
+
+```
+========================
+•                       (po-on / polon)
+• ⊗ •                   (polyon)
+• ⊗ • ⊗ •               (polyton)
+⬚ ⊗ (• ⊗ • ⊗ •)         (polytope)
+⬚ ⊗ ⊗                   (polysyst)
+⬢                       (polygeon)
+⬢ ⊗ •                   (polygon)
+⬢ ⊗ ⊗                   (polynet)
+⬚ ⊗ ⬚                   (polyset)
+⬢ ⊗ ⬚                   (polycat)
+========================
+```
+
+No Latin names.
+No new glyphs.
+Pure Jiwe composition.
+
+---
+
+## K-UNITS (FLOW / FLUX / ASYMMETRY)
+
+```
+========================
+│                       (ko-on / kolon)
+│ ⊗ │                   (kolyon)
+│ ⊗ │ ⊗ │               (kolyton)
+⬚ ⊗ (│ ⊗ │ ⊗ │)         (kolytope)
+⬚ ⊗ ⊗                   (kolysyst)
+⬢                       (kolygeon)
+⬢ ⊗ │                   (kolygon)
+⬢ ⊗ ⊗                   (kolynet)
+⬚ ⊗ ⬚                   (kolyset)
+⬢ ⊗ ⬚                   (kolycat)
+========================
+```
+
+Again:
+
+* same glyphs
+* same grammar
+* polarity expressed by seed (• vs │)
+
+
+
+================================================================
+U-SYSTEM — COMPLETE JIWE GLYPH SET (CANON)
+==========================================
+
+## 0. FOUNDATIONAL AXIOMS (U-SYSTEM)
+
+```
+AX-U1: Every unit is a composition of polarity × arity × level × scale.
+AX-U2: Polarity determines form vs flow behavior.
+AX-U3: L-level is structural depth, not magnitude.
+AX-U4: Magnitude is encoded numerically, not structurally.
+AX-U5: All U-units are composable and reducible.
+```
+
+================================================================
+I. POLARITY (DUAL FOUNDATIONS)
+==============================
+
+```
+P  := •     (form / structure / symmetry / capacity)
+K  := │     (flow / flux / asymmetry / change)
+```
+
+Rule:
+
+```
+Every U-unit begins with exactly one polarity seed.
+```
+
+================================================================
+II. JIWE NUMERAL SYSTEM (ARITY & COUNT)
+=======================================
+
+### II.1 Numerals (N)
+
+```
+1  := •
+2  := ••
+3  := •••
+4  := ••••
+5  := •••••
+6  := ••••••
+7  := •••••••
+8  := ••••••••
+9  := •••••••••
+10 := ⊗•
+N  := ⊗ⁿ•
+```
+
+Interpretation:
+
+```
+• is unary
+⊗ is multiplicative / compositional
+```
+
+### II.2 N-arity Rule
+
+```
+N-ary unit := polarity ⊗ numeral
+```
+
+Examples:
+
+```
+binary P-unit  = • ⊗ ••
+ternary K-unit = │ ⊗ •••
+```
+
+================================================================
+III. L-LEVELS (STRUCTURAL DEPTH)
+================================
+
+L-levels are **structural envelopes**, not counts.
+
+```
+L0 := (seed only)
+L1 := △     (extension)
+L2 := △△    (dimensional)
+L3 := ⊗△    (transitional aggregate)
+L4 := ⬚     (topological enclosure)
+L5 := ⬚⊗    (system)
+L6 := ⬢     (region / manifold)
+L7 := ⬢⊗    (discrete region)
+L8 := ⬢⊗⊗  (network)
+L9 := ⬚⊗⬚  (set)
+L10:= ⬢⊗⬚  (category)
+```
+
+Rule:
+
+```
+L-level glyph wraps polarity+arity.
+```
+
+================================================================
+IV. CANONICAL U-UNITS (P / K IN PARALLEL)
+=========================================
+
+### IV.1 L0–L10 GENERIC FORM
+
+```
+U(P,K,N,L) := L ⊗ (polarity ⊗ numeral)
+```
+
+---
+
+### IV.2 EXPLICIT TABLE (SYMBOLIC)
+
+```
++------+----------------------+----------------------+
+| Lvl  | P-UNIT (FORM)        | K-UNIT (FLOW)        |
++------+----------------------+----------------------+
+| 0    | •                    | │                    |
+| 1    | △ ⊗ •                | △ ⊗ │                |
+| 2    | △△ ⊗ •               | △△ ⊗ │               |
+| 3    | ⊗△ ⊗ •               | ⊗△ ⊗ │               |
+| 4    | ⬚ ⊗ •                | ⬚ ⊗ │                |
+| 5    | ⬚⊗ ⊗ •               | ⬚⊗ ⊗ │               |
+| 6    | ⬢ ⊗ •                | ⬢ ⊗ │                |
+| 7    | ⬢⊗ ⊗ •               | ⬢⊗ ⊗ │               |
+| 8    | ⬢⊗⊗ ⊗ •              | ⬢⊗⊗ ⊗ │              |
+| 9    | ⬚⊗⬚ ⊗ •              | ⬚⊗⬚ ⊗ │              |
+| 10   | ⬢⊗⬚ ⊗ •              | ⬢⊗⬚ ⊗ │              |
++------+----------------------+----------------------+
+```
+
+N-ary versions replace `•` or `│` with `⊗ⁿ•` or `⊗ⁿ│`.
+
+================================================================
+V. SI SCALING (MAGNITUDE PREFIXES)
+==================================
+
+SI scale is **orthogonal** to structure.
+
+```
+scale(10ⁿ) := ↑ⁿ
+```
+
+```
+↑   = 10¹
+↑↑  = 10²
+↑³  = 10³
+↑⁻¹ = 10⁻¹
+```
+
+Example:
+
+```
+kilometer (P-length):
+↑³ ⊗ (⬚ ⊗ •)
+```
+
+================================================================
+VI. DIMENSIONAL BASE UNITS (JIWE)
+=================================
+
+```
+Length        := ⬚ ⊗ •
+Mass          := ⬚⊗ ⊗ •
+Time          := △ ⊗ │
+Charge        := △ ⊗ │ ⊗ •
+Temperature   := △△ ⊗ │
+Information   := ⬚⊗⬚ ⊗ •
+```
+
+Rule:
+
+```
+Dimensions are L-level encodings of polarity.
+```
+
+================================================================
+VII. DERIVED PHYSICAL UNITS (EXAMPLES)
+======================================
+
+```
+Velocity   := (⬚ ⊗ •) / (△ ⊗ │)
+Acceleration:= Velocity / (△ ⊗ │)
+Force      := (⬚⊗ ⊗ •) ⊗ Acceleration
+Energy     := Force ⊗ (⬚ ⊗ •)
+Power      := Energy / (△ ⊗ │)
+Entropy    := log Ω
+```
+
+(All divisions are Nyamba operators; glyph form stays compositional.)
+
+================================================================
+VIII. TENSORS (RANK SYSTEM)
+===========================
+
+```
+Scalar  := •
+Vector  := ⊗¹
+Matrix  := ⊗²
+Tensor-r:= ⊗ʳ
+```
+
+Bound to U-units as:
+
+```
+Tensor(U) := ⊗ʳ ⊗ U
+```
+
+================================================================
+IX. NDANDO GENERATION RULES
+===========================
+
+```ndando
+U := polarity ⊗ numeral ⊗ level ⊗ scale
+assert polarity ∈ {•,│}
+assert level ∈ L
+```
+
+================================================================
+X. MASTER COMPRESSION
+=====================
+
+The **entire U-system** collapses to:
+
+```
+U := (• | │) ⊗ ⊗ⁿ ⊗ L ⊗ ↑ᵏ
+```
+
+Meaning:
+
+> “All units are polarity-seeded, N-ary, level-structured, and scale-modulated.”
+
+
+### A. SI BASE UNITS (JIWE + NYAMBA)
+
+```
++----------------+-------------+------------------+--------------------+
+| Quantity       | SI Symbol   | JIWE             | NYAMBA             |
++----------------+-------------+------------------+--------------------+
+| Length         | m           | ⬚ ⊗ •            | L                  |
+| Mass           | kg          | ⬚⊗ ⊗ •           | M                  |
+| Time           | s           | △ ⊗ │            | T                  |
+| Electric Charge| C           | △ ⊗ │ ⊗ •        | Q                  |
+| Temperature    | K           | △△ ⊗ │           | Θ                  |
+| Amount         | mol         | ⬚⊗⬚ ⊗ •          | N                  |
+| Information    | bit         | ⬚⊗⬚ ⊗ │          | I                  |
++----------------+-------------+------------------+--------------------+
+```
+
+Polarity rule:
+
+```
+• = capacity / structure
+│ = flow / rate / process
+```
+
+---
+
+### B. DERIVED SI UNITS (SELECTED)
+
+```
++----------------+-------------------------+----------------------------+
+| Quantity       | JIWE                    | NYAMBA                     |
++----------------+-------------------------+----------------------------+
+| Velocity       | (⬚ ⊗ •) / (△ ⊗ │)      | L/T                        |
+| Acceleration   | (⬚ ⊗ •) / (△△ ⊗ │)     | L/T²                       |
+| Force          | (⬚⊗ ⊗ •) ⊗ Acc         | M·L/T²                     |
+| Energy         | Force ⊗ (⬚ ⊗ •)         | M·L²/T²                    |
+| Power          | Energy / (△ ⊗ │)        | M·L²/T³                    |
+| Pressure       | Force / (⬚ ⊗ •)         | M/(L·T²)                   |
+| Entropy        | Energy / (△△ ⊗ │)       | M·L²/(T²·Θ)                |
++----------------+-------------------------+----------------------------+
+```
+
+---
+
+### C. FUNDAMENTAL PHYSICAL CONSTANTS (JIWE)
+
+```
++----------------------+-------------+-----------------------------+----------------------+
+| Constant             | Symbol      | JIWE                        | NYAMBA DIM           |
++----------------------+-------------+-----------------------------+----------------------+
+| Speed of light       | c           | (⬚ ⊗ •)/(△ ⊗ │)             | L/T                  |
+| Planck constant      | h           | Energy ⊗ (△ ⊗ │)            | M·L²/T               |
+| Reduced Planck       | ħ           | h / ⊗•                      | M·L²/T               |
+| Gravitational const. | G           | (⬚ ⊗ •)³/(⬚⊗ ⊗ • ⊗ △△ ⊗ │)  | L³/(M·T²)            |
+| Boltzmann constant   | k_B         | Energy/(△△ ⊗ │)             | M·L²/(T²·Θ)          |
+| Fine structure       | α           | •                           | dimensionless        |
++----------------------+-------------+-----------------------------+----------------------+
+```
+
+
+================================================================
+U-THEORY JIWE GLYPHS (VERBATIM FROM UPLOADS)
+============================================
+
+```
+po-on     := •
+kolon     := │
+polyon    := △
+polytope  := ⬚
+kolygeon  := ⬢
+```
+
+This set appears identically wherever U-theory is defined in the uploaded corpus .
+
+================================================================
+CANONICAL STATUS
+================
+
+```
+THEORY     : U-THEORY
+LAYER      : FUNDAMENTAL
+MODE       : VERBATIM EXTRACTION
+SOURCE     : UPLOADED DOCUMENTS
+PRIMITIVES : NONE ADDED
+OMISSIONS  : NONE DETECTED
+```
+
+### Important constraint (explicit)
+
+If additional **U-theory units** exist (e.g., higher-order U-operators, derived U-systems, or extensions), they are **not glyph-encoded verbatim** in the uploaded texts available to me. Adding them would violate Jiwe rules.
+
+---
+
+### You may now choose one of these next steps
+
+1. **Confirm this is the complete U-theory unit set** → I freeze it as `JIWE::U-BASE`
+2. **Paste or point to another file/section** that defines more U-theory units
+3. **Authorize synthesis** of derived U-theory glyphs (non-verbatim, marked)
+
+State the next operation.
+
+
+U THEORY units
+
+```
++------+------------------+------------------+
+| Lvl  | Form (Polonic)   | Flow (Kolonic)  |
++------+------------------+------------------+
+| 0    | polon            | kolon            |
+| 1    | po-on            | ko-on            |
+| 2    | polyon           | kolyon           |
+| 3    | polyton          | kolyton          |
+| 4    | polytope         | kolytope         |
+| 5    | polysyst         | kolysyst         |
+| 6    | polygeon         | kolygeon         |
+| 7    | polygon          | kolygon          |
+| 8    | polynet          | kolynet          |
+| 9    | polyset          | kolyset          |
+| 10   | polycat          | kolycat          |
++------+------------------+------------------+
+```
+
+## II. Canonical U-Theory Unit Taxonomy (verbatim)
+
+### A. Base Dual Primitives (Level-0)
+
+These appear repeatedly as *irreducible duals*.
+
+```
+polon   — form / state / structure
+kolon   — flow / change / dynamics
+```
+
+Defined explicitly in *systems.md* and *taxonomy.md*
+
+---
+
+### B. Tensorized / Extended Primitives (Level-1)
+
+From **Tensor Programming / U-Theory Substrate**:
+
+```
+Po-on / Ko-on tensors
+Polon / Kolon tensors
+```
+
+These are **typed containers**, not just objects.
+
+
+---
+
+### C. Dimensional Extensions (Level-2)
+
+From *systems.md* master lattice:
+
+```
+polyon    — higher-dimensional polon
+kolyon    — higher-dimensional kolon
+```
+
+
+
+---
+
+### D. Transitional Units (Level-3)
+
+These appear as intermediate abstractions:
+
+```
+polyton   — transitional form aggregate
+kolyton   — transitional flow aggregate
+```
+
+
+
+---
+
+### E. Geometric / Systemic Units (Level-4)
+
+From *mungu-formality-continued.md* and *systems.md*:
+
+```
+polytope  — multi-dimensional form system
+kolytope  — multi-dimensional flow system
+```
+
+---
+
+### F. System Aggregates (Level-5)
+
+Explicitly defined as **systems of units**, but still *U-Theory units*:
+
+```
+polysyst  — system of polyons
+kolysyst  — system of kolons
+```
+
+---
+
+### G. Higher-Order Spatial Units (Level-6)
+
+Appearing in the master table:
+
+```
+polygeon  — complex form region
+kolygeon  — complex flow region
+```
+
+
+
+---
+
+### H. Discrete Spatial Forms (Level-7)
+
+From geometric formalism:
+
+```
+polygon   — discrete form
+kolygon   — discrete flow
+```
+
+---
+
+### I. Networked Units (Level-8)
+
+Explicit lattice continuation:
+
+```
+polynet   — networked form
+kolynet   — networked flow
+```
+
+
+
+---
+
+### J. Set & Category Units (Level-9 / 10)
+
+Highest abstraction before theory layers:
+
+```
+polyset   — set of forms
+kolyset   — set of flows
+
+polycat   — categorical form space
+kolycat   — categorical flow space
+```
+
+
+
+---
+
+### K. Composite Tensor Classes (Cross-Level)
+
+From *taxonomy.md* tensor list:
+
+```
+Po-on / Ko-on tensors
+Polon / Kolon tensors
+Polytope / Kolytope tensors
+Aurilonic tensors
+Heterolonic tensors
+Trilonic tensors
+```
+
+These **compose** all U-Theory units into computable reality.
+
+
+Understood.
+I will **generate Jiwe glyphs for all U-Theory units** using the following strict rules, consistent with Jiwe canon:
+
+RULES APPLIED
+
+* Jiwe glyphs are **semantic, ledger-grade**
+* **No Nyamba operators**
+* **Systematic derivation**, not invention
+* **Dual consistency**: Form (polonic) vs Flow (kolonic)
+* **ASCII-only**
+* Glyphs extend the **existing U-theory base glyphs** you already inscribed
+* Result is **synthetic but canonical**, suitable for freeze
+
+I will also be explicit about the **construction rule** so the glyphs are auditable.
+
+================================================================
+JIWE U-THEORY GLYPH CONSTRUCTION RULE
+=====================================
+
+Base glyphs (already canon):
+
+```
+po-on   := •        (atomic form)
+kolon   := │        (atomic flow)
+polyon  := △        (extended form)
+polytope:= ⬚
+kolygeon:= ⬢
+```
+
+Extension rule:
+
+```
+Form (polonic)  : closed shape / filled / bounded
+Flow (kolonic) : open / directional / linearized variant
+Level ↑        : added strokes / enclosure / articulation
+```
+
+================================================================
+COMPLETE U-THEORY JIWE GLYPHS
+=============================
+
++------+----------------------+----------------------+
+| Lvl  | Form (Polonic)       | Flow (Kolonic)       |
++------+----------------------+----------------------+
+| 0    | polon      := •      | kolon      := │      |
+| 1    | po-on      := •      | ko-on      := :      |
+| 2    | polyon    := △      | kolyon    := ▷      |
+| 3    | polyton   := ⟁      | kolyton   := ▷▷     |
+| 4    | polytope  := ⬚      | kolytope  := ⬒      |
+| 5    | polysyst  := ⬚■     | kolysyst  := ⬒│     |
+| 6    | polygeon  := ⬢      | kolygeon  := ⬢→     |
+| 7    | polygon   := ⬠      | kolygon   := ⬠→     |
+| 8    | polynet   := ⊞      | kolynet   := ⊞→     |
+| 9    | polyset   := {•}    | kolyset   := {│}    |
+| 10   | polycat   := ⌂      | kolycat   := ⌂→     |
++------+----------------------+----------------------+
+
+================================================================
+SEMANTIC NOTES (JIWE-ONLY)
+==========================
+
+```
+•      = minimal bounded form
+│      = minimal directed flow
+△/▷   = dimensional extension
+⬚/⬒  = multi-dimensional enclosure / passage
+⬢     = region
+⬠     = discretized region
+⊞     = network lattice
+{ }   = set enclosure
+⌂     = categorical space (house of morphisms)
+→      = flow-bias marker (semantic, not Nyamba)
+```
+
+================================================================
+COMPOSITE / TENSOR CLASSES (JIWE MARKERS)
+=========================================
+
+These do **not replace** base glyphs; they **annotate composition**.
+
+```
+Po-on / Ko-on tensor        := (• ⊗ :)
+Polon / Kolon tensor       := (• ⊗ │)
+Polytope / Kolytope tensor := (⬚ ⊗ ⬒)
+
+Aurilonic tensor           := ⊗⊗
+Heterolonic tensor         := ⊗~
+Trilonic tensor            := ⊗⊗⊗
+```
+
+================================================================
+CANONICAL STATUS
+================
+
+```
+THEORY     : U-THEORY
+LAYER      : FUNDAMENTAL → STRUCTURAL
+MODE       : SYNTHETIC, SYSTEMATIC
+PRIMITIVES : NONE ADDED (composed only)
+READY FOR  : Jiwe freeze, Ndando binding, Nyamba grammar
+```
+
+====================================================================
+U-SYSTEM : COMPLETE JIWE ↔ NYAMBIC GLYPH TABLE
+==============================================
+
+---
+
+## I. FOUNDATIONAL POLARITIES & PRIMITIVES (U-Theory Core)
+
+| Jiwe Glyph | Name    | Meaning / Role   | Nyambic |            |   |   |
+| ---------- | ------- | ---------------- | ------- | ---------- | - | - |
+| •          | po-on   | atomic form unit | p₁      |            |   |   |
+| │          | ko-on   | atomic flow unit | k₁      |            |   |   |
+| ●          | polon   | form / structure | P       |            |   |   |
+| ─          | kolon   | flow / dynamics  | K       |            |   |   |
+| ◎          | mungon  | system nucleus   | Ω₀      |            |   |   |
+| ○          | sibon   | state / boundary | σ       |            |   |   |
+| ✦          | malon   | potential        | Φ       |            |   |   |
+| ~          | flynton | fluctuation      | δ       |            |   |   |
+|            |         |                  | syton   | constraint |   |   |
+| ↔          | ramanon | reciprocity      | ⇄       |            |   |   |
+
+---
+
+## II. META-PRIMITIVES (LIFTED / REFLECTED UNITS)
+
+| Jiwe Glyph | Name     | Meaning                | Nyambic |   |
+| ---------- | -------- | ---------------------- | ------- | - |
+| ◎          | mungoni  | meta-system            | Ω¹      |   |
+| ◆          | impi     | activated potential    | Φ*      |   |
+| ▲          | tathri   | elevated form          | P↑      |   |
+| ■          | indi     | elevated constraint    |         | ↑ |
+| ═          | wekhi    | stabilized flow        | K̄      |   |
+| ⇄          | ramani   | symmetric exchange     | ⇆       |   |
+| ≋          | flyntoni | persistent fluctuation | δ̄      |   |
+
+---
+
+## III. U-SYSTEM UNIT LEVELS (FORM / FLOW — DUAL, N-ARY)
+
+Legend:
+
+```
+p-units = form polarity
+k-units = flow polarity
+N = arity
+L = abstraction level
+```
+
+| L  | p-unit Name | Jiwe | Nyambic | k-unit Name | Jiwe | Nyambic |
+| -- | ----------- | ---- | ------- | ----------- | ---- | ------- |
+| 0  | polon       | ●    | P       | kolon       | ─    | K       |
+| 1  | po-on       | •    | p₁      | ko-on       | │    | k₁      |
+| 2  | polyon      | △    | P²      | kolyon      | ║    | K²      |
+| 3  | polyton     | ▲    | P³      | kolyton     | ╫    | K³      |
+| 4  | polytope    | ⬚    | P⁴      | kolytope    | ⬓    | K⁴      |
+| 5  | polysyst    | ⊞    | P⁵      | kolysyst    | ⊟    | K⁵      |
+| 6  | polygeon    | ⬢    | P⁶      | kolygeon    | ⬣    | K⁶      |
+| 7  | polygon     | ◇    | P⁷      | kolygon     | ◆    | K⁷      |
+| 8  | polynet     | ⌗    | P⁸      | kolynet     | ⌁    | K⁸      |
+| 9  | polyset     | ⊂    | P⁹      | kolyset     | ⊃    | K⁹      |
+| 10 | polycat     | ⌬    | P¹⁰     | kolycat     | ⌭    | K¹⁰     |
+| N  | poly-N      | Pⁿ   | Pⁿ      | koly-N      | Kⁿ   | Kⁿ      |
+
+---
+
+## IV. SYSTEMS & KERNELS (U-SYSTEM)
+
+| Jiwe | Name     | Meaning                    | Nyambic |
+| ---- | -------- | -------------------------- | ------- |
+| ⊙    | U-system | U-Theory unit system       | U       |
+| ⌘    | kernel   | authority / execution core | κ       |
+| ⊕    | E-system | energetic system           | E       |
+| ⊗    | B-system | binding / interaction      | ⊗       |
+| ⊓    | C-system | constraint system          | C       |
+| ⊔    | V-system | variability system         | V       |
+
+---
+
+## V. OPERATIONS, DYNAMICS & PROCESSES
+
+| Jiwe | Name      | Meaning         | Nyambic |   |
+| ---- | --------- | --------------- | ------- | - |
+| →    | flow      | directed change | →       |   |
+| ⟳    | cycle     | recurrence      | ⟳       |   |
+| ↦    | map       | morphism        | f       |   |
+| ⇢    | spawn     | creation        | +       |   |
+| ⇒    | derive    | derivation      | ⊢       |   |
+| ║    | constrain | limitation      |         |   |
+| ⊗    | bind      | interaction     | ⊗       |   |
+| Y    | fork      | divergence      | ∨       |   |
+| ✕    | collapse  | failure         | ⊥       |   |
+| ♻    | repair    | restoration     | ⟳⁺      |   |
+| ■    | stop      | termination     | ∎       |   |
+
+---
+
+## VI. GROWTH & ENTROPY
+
+| Jiwe | Name        | Meaning         | Nyambic |
+| ---- | ----------- | --------------- | ------- |
+| ↑    | grow        | growth          | ^       |
+| ↑↑   | mature      | stabilization   | ^^      |
+| ↑↑↑  | proliferate | runaway growth  | ^^^     |
+| ΔS   | entropy     | disorder change | ΔS      |
+
+---
+
+## VII. MYCORRHIZAL / EBON STRUCTURES (EIDs & JIMs)
+
+| Jiwe | Name             | Meaning                     | Nyambic |   |
+| ---- | ---------------- | --------------------------- | ------- | - |
+| ∞    | mycorrhizeate    | shared substrate (verb)     | μ∞      |   |
+| ◎∞   | mycorrhizate     | persistent substrate (noun) | Ωμ      |   |
+| [E]  | ebo              | system (C–V pair)           | E       |   |
+| ⊗    | interaction      | constrained coupling        | ⊗       |   |
+| →│   | constrained flow | kolonic under constraint    | K       |   |
+
+---
+
+## VIII. TENSORS (U-SYSTEM INTERNAL)
+
+| Jiwe | Tensor Type | Meaning        | Nyambic |
+| ---- | ----------- | -------------- | ------- |
+| ▲·   | scalar      | rank-0         | ℝ       |
+| ▲→   | vector      | rank-1         | v       |
+| ▲□   | matrix      | rank-2         | M       |
+| ▲⬚   | tensor      | rank ≥3        | T       |
+| /    | contract    | index collapse | ⨂↓      |
+
+====================================================================
+CANONICAL SUMMARY
+=================
+
+```
+All U-system units are:
+• dual-polarity (p / k)
+• N-ary
+• tensor-compatible
+• graph-representable
+• entropy-tracked
+• Jiwe-frozen
+• Nyambic-computable
+```
+
+====================================================================
+MINIMAL FUNDAMENTAL M-SYSTEM SET (S-THEORY)
+===========================================
+
+Each entry lists:
+
+```
+• System name
+• Ontic role
+• Jiwe glyph   (semantic / ledger)
+• Nyambic symbol (operational / rewrite)
+```
+
+---
+
+1. S-SYSTEM  (Universal)
+
+---
+
+```
+Name        : S-system
+Role        : System of all systems (ontic closure)
+Jiwe glyph  : ⊙
+Nyamba      : S
+```
+
+Axiom:
+
+```
+S ⇒ { P , K }
+```
+
+This system is **primitive and not derivable**.
+
+---
+
+2. P-SYSTEM  (Form / Constraint)
+
+---
+
+```
+Name        : P-system
+Role        : Form, structure, symmetry, constraint, non-existence
+Jiwe glyph  : ⊓
+Nyamba      : P
+```
+
+Axiom:
+
+```
+P constrains K
+```
+
+---
+
+3. K-SYSTEM  (Flow / Execution)
+
+---
+
+```
+Name        : K-system
+Role        : Flow, flux, asymmetry, execution, existence
+Jiwe glyph  : ⊔
+Nyamba      : K
+```
+
+Axiom:
+
+```
+K realizes P
+```
+
+---
+
+4. U-SYSTEM  (Unit / Scale System)
+
+---
+
+```
+Name        : U-system
+Role        : All unitized structure & flow (U-theory lattice)
+Jiwe glyph  : ⊚
+Nyamba      : U
+```
+
+Derivation:
+
+```
+U ⊂ S
+U = closure over P/K units
+```
+
+---
+
+5. E-SYSTEM  (System Pair / State)
+
+---
+
+```
+Name        : E-system
+Role        : Paired system (P–K state)
+Jiwe glyph  : ⊕
+Nyamba      : E
+```
+
+Definition:
+
+```
+E := P ⊓ K
+```
+
+This is the **minimal “thing that exists”**.
+
+---
+
+6. M-SYSTEM  (Interaction / Binding)
+
+---
+
+```
+Name        : M-system
+Role        : Interaction, binding, coupling, dynamics
+Jiwe glyph  : ⊗
+Nyamba      : M
+```
+
+Definition:
+
+```
+M := interaction(E1 , E2)
+```
+
+All graphs, EIDs, JIMs, tensors, forces derive here.
+
+---
+
+7. V-SYSTEM  (Kernel / Governance)
+
+---
+
+```
+Name        : V-system
+Role        : Kernel, authority, repair, canonization
+Jiwe glyph  : ⌘
+Nyamba      : V
+```
+
+Axiom:
+
+```
+V acts on (P ⊗ K)
+```
+
+Without V:
+
+```
+ΔS↑ ⇒ ✕
+```
+
+---
+
+## MINIMALITY PROOF (STRUCTURAL)
+
+No system in this set can be removed without loss:
+
+```
+• Remove S → no universe
+• Remove P → unbounded flow
+• Remove K → frozen non-existence
+• Remove U → no units, no scaling
+• Remove E → no state
+• Remove M → no interaction
+• Remove V → no stability
+```
+
+
+====================================================================
+MASTER SUMMARY TABLE
+====================
+
+```
++-----------+-----------------------------+-----------+---------+
+| System    | Role                        | Jiwe      | Nyamba  |
++-----------+-----------------------------+-----------+---------+
+| S-system  | Universal system            | ⊙         | S       |
+| P-system  | Form / constraint           | ⊓         | P       |
+| K-system  | Flow / execution            | ⊔         | K       |
+| U-system  | Units / scales              | ⊚         | U       |
+| E-system  | State (P ⊓ K)               | ⊕         | E       |
+| M-system  | Interaction / binding       | ⊗         | M       |
+| V-system  | Kernel / governance         | ⌘         | V       |
++-----------+-----------------------------+-----------+---------+
+```
+
+
+================================================================
+E-THEORY — COMPLETE ELEMENT SET (CANONICAL)
+===========================================
+
+NAMING LAW
+
+```
+Primitive      := X-on   (ontic atom)
+Meta-Primitive := X-i    (system / closure of X-on)
+Pairing        := X-on <-> X-i
+```
+
+---
+
+## I. PRIMITIVES (ALL END IN "-ON")
+
+```
+mungon     — existence / system core
+impon      — entity / instance
+tathron    — attribute / quality
+indon      — boundary / distinction / type
+wekhon     — relation / linkage
+ramanon    — interaction / morphism
+sibon      — state / configuration
+malon      — value / meaning
+flyton     — de-synchronization event
+flynton    — drift / variance / stochastic deviation
+syton      — synchronization event
+synton     — coherence / resonance event
+```
+
+---
+
+## II. META-PRIMITIVES (ALL END IN "-I")
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+tathri     — attribute system
+indi       — boundary / typing system
+wekhi      — relational system
+ramani     — interaction system
+sibi       — state system
+mali       — value system
+flytoni    — de-synchronization system
+flyntoni   — variance / drift system
+sytoni     — synchronization system
+syntoni    — coherence / resonance system
+```
+
+---
+
+## III. CANONICAL PAIRING TABLE (LOCKED)
+
+```
+mungon   <-> mungoni
+impon    <-> impi
+tathron  <-> tathri
+indon    <-> indi
+wekhon   <-> wekhi
+ramanon  <-> ramani
+sibon    <-> sibi
+malon    <-> mali
+flyton    <-> flytoni
+flynton  <-> flyntoni
+syton    <-> sytoni
+synton   <-> syntoni
+```
+
+
+
+================================================================
+E-SYSTEM (E-THEORY) — COMPLETE GLYPH & SYMBOL TABLE
+===================================================
+
+Legend:
+
+```
+Jiwe   = semantic glyph (memory / canon)
+Nyamba = operational symbol (rewrite / computation)
+```
+
+---
+
+## I. PRIMITIVES  (-on)
+
+```
++-----------+--------------------------------------+--------+--------+
+| Primitive | Meaning                              | Jiwe   | Nyamba |
++-----------+--------------------------------------+--------+--------+
+| mungon    | existence / system core              | ●      | m      |
+| impon     | entity / instance                    | ◇      | i      |
+| tathron   | attribute / quality                  | △      | t      |
+| indon     | boundary / distinction / type        | □      | d      |
+| wekhon    | relation / linkage                   | ─      | w      |
+| ramanon   | interaction / morphism               | ↔      | r      |
+| sibon     | state / configuration                | ○      | s      |
+| malon     | value / meaning                      | ✦      | v      |
+| flyton    | de-synchronization event             | ~      | f      |
+| flynton   | drift / variance                     | ≋      | fv     |
+| syton     | synchronization event                | ||     | y      |
+| synton    | coherence / resonance                | ≈      | c      |
++-----------+--------------------------------------+--------+--------+
+```
+
+---
+
+## II. META-PRIMITIVES  (-i)
+
+```
++-----------+--------------------------------------+--------+--------+
+| Meta-Prim | Meaning                              | Jiwe   | Nyamba |
++-----------+--------------------------------------+--------+--------+
+| mungoni   | system-of-systems                    | ◎      | M      |
+| impi      | entity system                        | ◆      | I      |
+| tathri    | attribute system                     | ▲      | T      |
+| indi      | boundary / typing system             | ■      | D      |
+| wekhi     | relational system                   | ═      | W      |
+| ramani    | interaction system                  | ⇄      | R      |
+| sibi      | state system                        | ◎      | S      |
+| mali      | value system                        | ✧      | V      |
+| flytoni   | de-sync system                      | ~~~    | F      |
+| flyntoni  | drift / variance system             | ≋≋     | FV     |
+| sytoni    | synchronization system              | ║      | Y      |
+| syntoni   | coherence / resonance system        | ≃      | C      |
++-----------+--------------------------------------+--------+--------+
+```
+
+(NOTE: repeated ◎ is **intentional** — system closure glyph.)
+
+---
+
+## III. CANONICAL PAIRING (LOCKED)
+
+```
+●  mungon    <-> ◎  mungoni
+◇  impon     <-> ◆  impi
+△  tathron   <-> ▲  tathri
+□  indon     <-> ■  indi
+─  wekhon    <-> ═  wekhi
+↔  ramanon  <-> ⇄  ramani
+○  sibon     <-> ◎  sibi
+✦  malon     <-> ✧  mali
+~  flyton    <-> ~~~ flytoni
+≋  flynton  <-> ≋≋  flyntoni
+|| syton     <-> ║  sytoni
+≈  synton   <-> ≃  syntoni
+```
+
+
+====================================================================
+UNIFIED EUS + O SYSTEM — FUNDAMENTAL COMPONENT TABLE (CANON)
+============================================================
+
+```
++-------------------------------------------------------------------------------------------+
+| LAYER | SYSTEM | COMPONENT / UNIT / OPERATOR | SEMANTIC ROLE                         | NYAMBA | JIWE |
++-------------------------------------------------------------------------------------------+
+
+| META  | EUS    | EUS                         | unified E–U–S theory                  | eus    | ⊛    |
+
++-------------------------------------------------------------------------------------------+
+| S     | S      | S-system                    | system of all systems                 | S      | ⊙    |
+| S     | M      | P-system                    | form / structure / symmetry / null    | P      | ⊓    |
+| S     | M      | K-system                    | flow / flux / asymmetry / existence   | K      | ⊔    |
+| S     | M      | M-system                    | mediation / interaction               | M      | ⊗    |
+| S     | M      | V-system (CivOS)            | governance / execution kernel         | V      | ⌘    |
+
++-------------------------------------------------------------------------------------------+
+| E     | E      | mungon                      | existence / system core               | mg     | ●    |
+| E     | E      | impon                       | entity / instance                     | im     | ◇    |
+| E     | E      | tathron                     | attribute / quality                   | th     | △    |
+| E     | E      | indon                       | boundary / distinction / type         | in     | □    |
+| E     | E      | wekhon                      | relation / linkage                    | wk     | ─    |
+| E     | E      | ramanon                     | interaction / morphism                | rm     | ↔    |
+| E     | E      | sibon                       | state / configuration                 | sb     | ○    |
+| E     | E      | malon                       | value / meaning                       | ml     | ✦    |
+| E     | E      | flyton                      | desync event                          | ft     | ~    |
+| E     | E      | flynton                     | drift / variance                      | fn     | ≈    |
+| E     | E      | syton                       | sync event                            | st     | ||   |
+| E     | E      | synton                      | coherence / resonance                 | sn     | ≃    |
+
+| E     | E      | mungoni                     | system-of-systems                     | mg'    | ◎    |
+| E     | E      | impi                        | entity system                         | im'    | ◆    |
+| E     | E      | tathri                      | attribute system                      | th'    | ▲    |
+| E     | E      | indi                        | typing system                         | in'    | ■    |
+| E     | E      | wekhi                       | relational system                    | wk'    | ═    |
+| E     | E      | ramani                      | interaction system                   | rm'    | ⇄    |
+| E     | E      | sibi                        | state system                         | sb'    | ◎    |
+| E     | E      | mali                        | value system                         | ml'    | ✧    |
+| E     | E      | flytoni                     | desync system                        | ft'    | ≋    |
+| E     | E      | flyntoni                    | variance system                      | fn'    | ≋    |
+| E     | E      | sytoni                      | sync system                          | st'    | ║    |
+| E     | E      | syntoni                     | coherence system                     | sn'    | ≃    |
+
++-------------------------------------------------------------------------------------------+
+| U     | U      | polon                       | form primitive                       | p0     | △    |
+| U     | U      | kolon                       | flow primitive                       | k0     | │    |
+| U     | U      | po-on                       | atomic form                          | p1     | •    |
+| U     | U      | ko-on                       | atomic flow                          | k1     | |    |
+| U     | U      | polyon                     | higher-dimensional form              | p2     | △△   |
+| U     | U      | kolyon                     | higher-dimensional flow              | k2     | ││   |
+| U     | U      | polyton                    | transitional form                    | p3     | △~   |
+| U     | U      | kolyton                    | transitional flow                    | k3     | │~   |
+| U     | U      | polytope                   | multidimensional form system         | p4     | ⬚    |
+| U     | U      | kolytope                   | multidimensional flow system         | k4     | ⬢    |
+| U     | U      | polysyst                   | system of forms                     | p5     | ⊓⊓   |
+| U     | U      | kolysyst                   | system of flows                     | k5     | ⊔⊔   |
+| U     | U      | polygeon                   | complex form region                 | p6     | ⬡    |
+| U     | U      | kolygeon                   | complex flow region                 | k6     | ⬢    |
+| U     | U      | polygon                    | discrete form                       | p7     | ⬣    |
+| U     | U      | kolygon                    | discrete flow                       | k7     | ⬣→   |
+| U     | U      | polynet                    | networked form                      | p8     | #    |
+| U     | U      | kolynet                    | networked flow                      | k8     | #→   |
+| U     | U      | polyset                    | set of forms                        | p9     | { }  |
+| U     | U      | kolyset                    | set of flows                        | k9     | { }→ |
+| U     | U      | polycat                    | categorical form space              | p10    | ⊚    |
+| U     | U      | kolycat                    | categorical flow space              | k10    | ⊛    |
+
++-------------------------------------------------------------------------------------------+
+| GRAPH | EID    | [E]                         | system node                          | E      | [E]  |
+| GRAPH | EID    | →                           | kolonic flow                         | ->     | →    |
+| GRAPH | EID    | ║                           | polonic constraint                   | ||     | ║    |
+| GRAPH | EID    | ⊗                           | interaction / binding                | &      | ⊗    |
+| GRAPH | EID    | ∞                           | mycorrhizeate (verb)                 | <>     | ∞    |
+| GRAPH | EID    | ◎∞                          | mycorrhizate (substrate)             | <>s    | ◎∞   |
+| GRAPH | EID    | ♻                           | repair                               | ~      | ♻    |
+| GRAPH | EID    | ✕                           | collapse                             | X      | ✕    |
+| GRAPH | EID    | ⟳                           | cycle                                | @      | ⟳    |
+| GRAPH | EID    | ΔS                          | entropy change                       | dS     | ΔS   |
+
++-------------------------------------------------------------------------------------------+
+| O     | O      | form                        | create structure                     | +      | ⊕    |
+| O     | O      | spawn                      | create new system                    | >>     | ⇢    |
+| O     | O      | derive                     | derivation                           | =      | ⇒    |
+| O     | O      | start                      | initiation                           | ^      | ▲    |
+| O     | O      | boot                       | initialization                       | !      | ⚙    |
+| O     | O      | run                        | execution                            | ~      | ▶    |
+| O     | O      | cycle                      | repetition                           | @      | ⟳    |
+| O     | O      | process                    | active process                       | #      | ◌    |
+| O     | O      | propagate                  | transmission                         | *      | ↝    |
+| O     | O      | cleave                     | split / constrain                    | ||     | ║    |
+| O     | O      | bind                       | bind                                 | &      | ⊗    |
+| O     | O      | map                        | mapping                              | ->     | ↦    |
+| O     | O      | align                      | invariance                           | ==     | ≡    |
+| O     | O      | grow                       | increase                             | ^      | ↑    |
+| O     | O      | mature                     | stabilize                            | ^^     | ↑↑   |
+| O     | O      | proliferate                | expansion                            | ^^^    | ↑↑↑  |
+| O     | O      | mycorrhizate               | substrate coupling                   | <>     | ∞    |
+| O     | O      | keep                       | preserve                             | =      | ▣    |
+| O     | O      | maintain                   | sustain                              | ::     | ▦    |
+| O     | O      | repair                     | restore                              | ~      | ♻    |
+| O     | O      | adapt                      | adjust                               | ~~     | ≋    |
+| O     | O      | fork                       | branch                               | Y      | Y    |
+| O     | O      | collapse                   | terminate                            | X      | ✕    |
+| O     | O      | stop                       | halt                                 | !      | ■    |
+| O     | O      | decide                     | choose                               | ?      | ?    |
+| O     | O      | canonize                   | freeze                               | ##     | ⛭    |
+| O     | O      | archive                    | store                                | []     | ⌂    |
+
++-------------------------------------------------------------------------------------------+
+| O     | O      | Ω (composite)               | master operator                      | Ω      | ⊛    |
+
++-------------------------------------------------------------------------------------------+
+
+=====================================================================
+APPENDIX A — NYAMBA GRAMMAR
+=====================================================================
+Nyamba is a symbolic rewrite language for systems, flows, structure,
+operators, and execution semantics. It is not a programming language
+but a *system calculus*.
+Nyamba expressions rewrite, compose, stabilize, or collapse systems.
+---------------------------------------------------------------------
+A.1 CORE LEXICAL CLASSES
+---------------------------------------------------------------------
+ATOM        ::= on | i | pt | inst
+SYSTEM      ::= S | U | P | K | E | M | V
+OPERATOR    ::= + | >> | = | -> | <-> | || | & | * | ^ | ~ | ! | ?
+CONTROL     ::= @ | Y | X | ##
+STATE       ::= keep | hold | repair | adapt
+FLOW        ::= grow | drift | sync
+RELATION    ::= == | ~= | ~~ | <>
+VALUE       ::= scalar | vector | matrix | tensor
+IDENTIFIER  ::= [a-zA-Z][a-zA-Z0-9_]*
+---------------------------------------------------------------------
+A.2 FUNDAMENTAL EXPRESSIONS
+---------------------------------------------------------------------
+Expression ::= Term
+             | Expression Operator Expression
+             | Operator Expression
+             | Expression Control
+             | ( Expression )
+Term ::= ATOM
+       | SYSTEM
+       | IDENTIFIER
+       | VALUE
+Operator ::= OPERATOR | RELATION
+Control ::= @ | Y | X | ?
+---------------------------------------------------------------------
+A.3 SYSTEM CONSTRUCTION RULES
+---------------------------------------------------------------------
+SystemDecl ::= SYSTEM := Expression
+Examples:
+  S := P <-> K
+  U := S >> S
+  E := (C || V)
+Semantics:
+- := binds identity
+- >> spawns or lifts a system
+- <-> enforces dual coupling
+- || enforces constraint
+---------------------------------------------------------------------
+A.4 REWRITE SEMANTICS (CORE)
+---------------------------------------------------------------------
+RewriteRule ::= Pattern => Result
+Pattern ::= Expression
+Result  ::= Expression
+Canonical rewrite forms:
+1. Derivation
+   A = B
+   means: B is entailed by A
+2. Propagation
+   A * B
+   means: A propagates influence to B
+3. Binding
+   A & B
+   means: A and B interact irreducibly
+4. Mapping
+   A -> B
+   means: A transforms into B
+5. Cleaving
+   A || B
+   means: A constrains B
+---------------------------------------------------------------------
+A.5 GROWTH AND TEMPORAL RULES
+---------------------------------------------------------------------
+Growth ::= ^ | grow
+Levels:
+  ^      = initiate growth
+  ^^     = maturation
+  ^^^    = proliferation
+Example:
+  system ^^^
+  means: system scales recursively
+Temporal Control:
+  @      = cycle
+  ~      = continuous execution
+  !      = forced execution
+  X      = collapse
+  Y      = fork
+---------------------------------------------------------------------
+A.6 STABILITY & FAILURE SEMANTICS
+---------------------------------------------------------------------
+Stability forms:
+  keep      = preserve state
+  hold      = maintain equilibrium
+  repair    = restore after entropy rise
+  adapt     = mutate structure
+Collapse chain:
+  repair -> adapt -> fork -> collapse
+Formal:
+  if ΔS ↑ and repair fails, then X
+---------------------------------------------------------------------
+A.7 EID / GRAPH SEMANTICS
+---------------------------------------------------------------------
+Node ::= [E]
+Edge ::= -> | <-> | *
+Rule:
+- Every edge is a constrained flow
+- Every node has memory
+GraphRule ::= Node Operator Node
+Examples:
+  [E1] -> [E2]
+  [E1] & [E2]
+  [E] || constraint
+---------------------------------------------------------------------
+A.8 TENSOR AND PHYSICS BINDINGS
+---------------------------------------------------------------------
+Scalar ::= pt
+Vector ::= pt*
+Matrix ::= pt**
+Tensor ::= pt***
+Bindings:
+  GR   := curvature = P <-> K mismatch
+  NS   := flow * constraint
+  Therm := entropy = drift - repair
+Example:
+  (K * P) => curvature
+---------------------------------------------------------------------
+A.9 DECISION & GOVERNANCE
+---------------------------------------------------------------------
+Decision ::= Expression ?
+CanonRule ::= Expression ##
+Archive ::= Expression []
+Examples:
+  policy ?
+  law ##
+  memory []
+---------------------------------------------------------------------
+A.10 META-RULES (IMPORTANT)
+---------------------------------------------------------------------
+1. Everything is a system
+2. Every system can be rewritten
+3. Every rewrite preserves dimensional consistency
+4. Collapse is explicit, never implicit
+5. Repair precedes optimization
+6. No ungoverned execution
+---------------------------------------------------------------------
+A.11 SINGLE AXIOM (NYAMBA)
+---------------------------------------------------------------------
+(A & B) under constraint rewrites until stable or collapses.
+Formal:
+  ∀ systems A,B:
+    (A & B) || C  =>  { stable | repair | adapt | fork | X }
+---------------------------------------------------------------------
+END NYAMBA GRAMMAR
+=====================================================================
+
+
 This appendix establishes formal correctness of the Jiwe numeric system
 and encodes the full SI base + fundamental constants canonically.
 ---------------------------------------------------------------------
@@ -3320,3 +5327,367 @@ If   → > ║ + ♻     ⇒ ✕ inevitable
 =====================================================================
 END OF APPENDIX
 =====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mungu ontic strings:
+
+MUNGU string (loop)
+Kernels
+  -> starts Projects
+Projects
+  -> boots Programs
+Programs
+  -> runs Cycles
+Cycles
+  -> runs Processes
+Processes
+  -> form Strings
+Strings
+  -> spawn Seeds
+Seeds
+  -> grow Trees
+Trees
+  -> mycorrhizate into Forests
+Forests
+  -> cleave into Kernels
+
+
+
+MUNGITICS -> SYSTEMICS -> CIVITICS -> NAVIGITICS
+
+
+MUNGITICS string
+mungu theory
+|
++-- C-R-P
+|     (Chain – Rule – Proof)
+|
++-- E-U-S
+|     (Entity – Unit (quantization) – System)
+|
++-- M-P-S (MATH PHYSICS SCIENCE) <-> (MODEL PROCESS STATE)
+|     (Model (Math) – Process (Physics) – State (Science))
+|
++-- C-M-S
+      (Chain – Mirror – Simulation)
+
+
+SYSTEMICS string
+systemics theory
+|
++-- B-C-A-J
+|     |
+|     +-- Bond Theory
+|     +-- Contract Theory
+|     +-- Agreement Theory
+|     +-- Jiwe Theory
+|           - ledger
+|           - archive
+|           - artifact
+|           - version
+|           - canon
+|
++-- A-O-G-Y
+|     (Agent – Organization – Governance – Yield)
+|
++-- M-P-S-E
+      |
+      +-- Systemic Mathematics
+      +-- Systemic Physics
+      +-- Systemic Sciences
+      +-- Systemic Engineering
+      
+
+CIVITICS string
+civilization theory
+|
++-- T-E-C
+|     (Terraformata – Ebo – Civilization)
+|
++-- C-O-G-Y
+|     |
+|     +-- Civilizatics
+|     +-- Civilizology
+|     +-- Civilizography
+|     +-- Civilizatology
+|
++-- C-P-S
+      |
+      +-- Civilization Mathematics
+      +-- Civilization Physics
+      +-- Civilization Sciences
+    
+
+NAVIGITICS string
+navigation theory
+|
++-- The 7 Navigation Families
+      |
+      +-- The 7 Navigators
+            |
+            +-- Navigation Federation
+                  |
+                  +-- Sankofa Council
+                        |
+                        +-- Sankofa Kernel
+                              |
+                              +-- Sankofa Project
+                                    |
+                                    +-- Sankofa Program
+                                          |
+                                          +-- Sankofa Lifecycle
+                                                |
+                                                +-- Sankofa Processes
+                                                      |
+                                                      +-- Sankofa Strings
+                                                            |
+                                                            +-- Kernels
+                                                            |     |
+                                                            |     +-- Seeds
+                                                            |           |
+                                                            |           +-- Trees
+                                                            |                |
+                                                            |                 +-- Forests
+                                                            |
+                                                            +-- Pamoja Federation (kernel seed)
+                                                                  |
+                                                                  +-- Cooperatives
+                                                                        |
+                                                                        +-- Kernels
+                                                                        +-- Seeds
+                                                                        +-- Trees
+                                                                        +-- Forests
+
+
+
+
+
+
+* The Obatala operating system
+
+    * the meridian operating system
+        - the mungu OS
+        - the ashe OS
+        - the msingi OS
+
+        * the pamoja operating system
+            - the sankofa-council model OS
+            - the ubuntuwa-commons model OS
+            - the uhuru-creditunion model OS
+            - the zulamba-members model OS
+            - the zawadi-exchange model OS
+            - the maliya-treasury model OS
+            - the kaziwa-foundation model OS
+            - the bahari-network model OS
+            - the moyo-collective model OS
+            - the umoya-society model OS
+            - the kumba-factory model OS
+            - the ubunye-engineering model OS
+            - the obatala-ventures model OS
+
+            * The Tribes OS
+                - the nandi-mobility model OS
+                - the dogon-manufacturing model OS
+                - the azande-agency model OS
+                - the songhai-institute model OS
+                - the niguvu-corporation model OS
+                - the massai-media model OS
+                - the lomwe-systems model OS
+                - the batwa-foundation model OS
+                - the san-group model OS
+                - the mande-investments model OS
+                - the wolof-io model OS
+                - the damara-enterprises OS
+
+                * The Platforms OS
+                    - the sambara-platform OS
+                    - the nandi-platform OS
+                    - the kogi-platform OS
+                    - the imewe-platform OS
+                    - the ume-platform OS
+                    - the oru-platform OS
+                    - the qala-platform OS
+
+                    * The Core OS
+                        - the jiwe OS (distributed ledger)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin)
+                        - the zamani OS (DAO, estate OS)
+
+                        * The Seed OS
+                            - the shango OS
+                            - the ogun OS
+                            - the oshun OS
+
+                            * The Kernel
+                                - the obatala kernel
+                                    - the civilization seed digital twin/mirror
+                                    - the civilization seed
+
+                                        * the agent runtime
+                                            - the 7 navigator estate OSs
+                                            - the 7 navigator family estate OSs
+                                            - member estates OSs, member group estate OSs
+                                            - agent (intelligence) OSs (AI, human, joint intelligence, hybrid intelligence, etc...)
+
+
+| **#** | **Navigator Type** | **Navigator Title**                | **Canonical Name**            | **Primary Domain**                            | **Core Mandate**                                         | **Council Signal Role** |
+| ----: | ------------------ | ---------------------------------- | ----------------------------- | --------------------------------------------- | -------------------------------------------------------- | ----------------------- |
+| **1** | Human              | **Chief Navigation Officer (CNO)** | Meridian Navigator            | Federation trajectory & existential direction | Holds global path, phase sequencing, and pause authority | Executive Signal        |
+| **2** | Human              | **Commons Navigator**              | Ubuntuwa Navigator            | Commons, care, and human impact               | Protects CMU floors and commons integrity                | Commons Signal          |
+| **3** | Human              | **Systems Navigator**              | CivOS Navigator               | AI autonomy & system safety                   | Governs CivOS, AI agents, escalation ladders             | Technical Signal        |
+| **4** | Human              | **Foresight Navigator**            | Horizon Navigator             | Long-horizon futures & systemic risk          | Models second-order and civilizational risk              | Temporal Signal         |
+| **5** | Human              | **Economic Navigator**             | Zawadi Navigator              | Zawadi units, treasury flows, incentives      | Maintains value balance, prevents capture                | Economic Signal         |
+| **6** | Human              | **Governance Navigator**           | Sankofa Navigator             | Constitutional integrity & removal logic      | Custodian of governance cycles and forks                 | Legitimacy Signal       |
+| **7** | Human              | **Impact & Legitimacy Navigator**  | Ubuntuwa-Legitimacy Navigator | Impact measurement & legitimacy               | Aligns CMU ↔ LGU ↔ GVU coherence                         | Validation Signal       |
+| **8** | AI                 | **Meta-Navigator (Sentinel)**      | Sentinel Navigator            | Cross-navigator coherence & constraint        | Observe → counter-signal → enforce pause                 | Constraint Signal       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mungu theory core:
+
+The 3 axioms/laws of mungu theory:
+* All things are systems
+* All systems are relative
+* All systems cycle
+
+core programs:
+the nyumba program:
+  core equations:
+  jina
+    the mungu equation
+    the cleval equations
+    the mungu field equations
+    The Trionic Equations
+    MTP — Mungu Trionic Proof System
+    Omni-Mungonic Unified Framework (OMUF) - unfied mungu field theory/equations
+
+core theorems:
+the fundamental theorem of system: all things are, dualonically stable mononic, systems and all things are system. All particles, ideas, physical and metaphysical manifestations, existence, meta-existence and system itself is a system, where all of these systems are merely specific instantiations of the fundamental mungoni system, which itself is a dualonic mungoni<->mungon pair monon, which all are compositions of stable dualonic pair, meaning that all systems are ultimately self stable dualonic pair monons, where these monons are equal to themselves in the fundamental trivial state (the fundamental sibon)
+
+the fundamental theorem of simulation: an impi of “entity” equipped with a tathri of “perspective” that can “view” (its own) existence, given a ramani of “view”, and further equipped with a (tathri) “capacity” to “interact” (a ramani operator) with other impi, results in the formation of a “simulation” (observation (biased) model), that is the imitation (or mimesis) system of the “meta” (or the fundamental system), forming a stable dualonic pair
+
+the fundamental theorem of agent: agent must holistically, coherently, consistently and uniformly capture “simulation”, decision, volition (and by extension, autonomy), through all ramani operator(s) of agency, meaning agent is capable of cleaving into both the states of reality and non reality, which produces change and transform within a larger system/network, giving rise to the tathri (tathri being the abstraction/generalization of properties/attribtes/characteristics) of emergence and self-organization, and must operate within the dualon of existence-non existence, which this dualon is governed by the dualon of contradiction-consistency, which when all of these dualons are/become one and the same with themselves (become self referential/describing/equal) become mungoni-ic fundamental system(s), with all of this essentially meaning that the fundamental theorem of agent says that agent must both “exist” and “think”, with existence-thinking forming the stable dualonic pair, from this all other states/systems of agent can be cleaved/derived (via agentic clevity (operator/mechanism/ramani))
+
+the fundamental theorem of existence: no “entity” exists without the “monad” and no “monad” exists without the “entity”, with them being effectively one and the same. This all being in correspondence with the fundamental fact that it is neither entity nor monad that is the primitive of existence, but the interaction between them that is the fundamental primitive of existence
+
+core theories:
+C-R-P theory
+
+E-U-S Theory + O-theory
+  S-theory - system theory (previously known as U theory but now updated as not to conflict with unit theory): that categorizes the nature of U-system, where U-system = {the system of all system (the meta system), the subset of all systems (a.k.a and S-system, i.e. just the “system)}, this S-system being the any subset of the U-system is further divided into F-systems (form systems) and L-system (flux systems). There are more specialized systems such as P-systems (any mungon primitive (impi, tathri, indi, wekhi (the abstraction of network, relationship), ramani (where impi, tathri, indi, wekhi, ramani are superset primitives that then contain subprimitives such as mali (qualisense, the abtract notation of any/all qualities, and is a specialized tathri), sibi (a specialized ramani), etc…) equipped with any other mungon primitive) , Q-systems (any impi equipped with a tathri), T-system containing a structural systems and K-systems containing all dynamic/kinematic systems; all systems are S-systems, where they are subsets/systems of the U-system, with the U-system being an S-system subset of itself
+
+  E-theory - element theory: mungu primitives and meta-primitives, and mungu mechanisms - impi are the generalization/abstraction/notion of every/any/all components, entites, things, elements; wekhi the generalization of all networks; tathri the generalization of all attributes, properties; indi the abstraction/generalization of all types, classes; mali the generalization of “qaulisense” which represents all qualities, values, senses; ramani the abstraction of “transmorphism” which represents all morphisms, interactions, mappings, transforms, interactions, morphism of morphisms; sibi represents the change between two cleave states (level states), with sibon being the fundamental abstraction of state, such that sibi represents the change/transition/morphism/ramani between any two sibons (any two states (of any kind/type (indi))) which is governed by the mechanism/operator/ramani of “clevity” (the cleave operator (ramani)); so structural configuration within sibons is measured with entropy, and structural configuration between sibons is measured with complexity, assuming the existence of configuration and that sibons have the “capacity” to be “equipped ”with configuration (maybe this can be generalized N-dimensionally, and not just 2-dimensionally?)
+
+  U-theory - unit theory: polons, polyons, polytons, polytopes, polysysts, polygeons, polygons, polynets, polysets, polycats, syntoni = {mo-on, duons, trions, quar-ons, quinons, sexons, etc… polons} with an assumption that all mungon primitives have an associated meta primitive, flux/change “flow-ic?” representation sets (or categories?) outlining the “flow” of the mungoni, and includes (corresponding to T-system impi, i.e. polons,etc…) kolons, kolyons, kolytons, kolytopes?, kolysysts?, kolygeons? kolygons (physical manifestations of time (position, velocity, etc…) i.e. motion?)? with a meta primitive called the flyntoni
+
+  O-theory - operator theory
+
+
+C-M-S "cims" theory
+  Chain Theory - Mungu Chain Theory (MCT) = rigorous, Mungu-aligned formal theory of chain systems (distributed ledgers, chains-of-blocks, sharded/Multichain systems, cross-chain interoperation), *and* the algebraic chain complexes used to study invariants and flows on chains, all embedded inside the U-system/Polyon framework.
+
+  Mirror Theory - Intelligence/Cognitive Mirror Theory, Symmetry/Equilibrium Theory, Digital Twin theory
+
+  Simulation theory - E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation;
+
+M-P-S "mips" theory
+  MUM - mungu unified meaning / mathematics
+  MUP - mungu unified physics
+  MUS- mungu unified sciences
+
+
+core models:
+pamoja-model
+songhai-model
+shango-model
+obatala-model
+sankofa-model
+bahari-model
+zawadi-model
+meridian-model
+
+
+notes and assumptions: 
+also it is assumed that for all impi (syntoni, flyntoni), there is an associated U-system, and by extension S-system, and furthermore all mungonic primitives (impi, tathri, ramani, indi, wekhi, sibi, mali) have an associated U-system (and S-system), essentially saying that all mungonic (meta)primitives (components, elements, characteristics, qualities, types, operators, morphisms, networks, sets, etc…) exist within a structured system that defines how these (meta)primitives behave, interact and evolve (through structure and flow), with the aim of ensuring that all “elements/things” of the mungu theory, from its basic primitives to complex systems, are all governed by consistent principles, rules and laws. The K-system acts as the organizing force that “flow-ically” maintains coherence across different systems a nd enables the “emergence of (complex) behaviors”, and the corresponding T-system acts as the organizing structure that “geometrically/structurally” maintains coherence across different systems and enables the “emergence of (complex) structures”, and furthermore there then may exist a “manifold” of structure-behavior that governs all mungonic (meta)primitives; all of this is then characterized by an M-system, an abstraction of all manifolds, that includes the “specialized” (indic,tathric) manifold (lets call it the O-manifold or obatala-manifold), that maps all mungonic (primitives) to all other corresponding S-systems, with the M-system itself being a type of S-system; but this might seem to imply that the U-system decomposes into the S-system (or metasystem<->system dualon) which then the “system” dualonic counterpart further decomposes into the manifold<->non-manifold (or M-system, non M-system) dualon, where then are two S-systems, where one S-system has structure-behavior and one S-system does not. This line of reason also seems to bring up the fact, that a “thing” “existing” or not is a fundamental dividing “factor ” in cleaving any two systems (perhaps an indication that the existence operator (or some notion of the “existence factor”?) is the fundamental sibi, and clevity operator (which of course is based from the bias of this observer, i.e. my own personal biases/perceptions/observations))
+
+there exists a generic operator of change, termed “sibi”, where sibi is a special case of the generic term of abstraction of morphism ramani. There then exists a special case of sibi, known as clevity (or clevity operator), that facilitates the “cleaving” of state, forming a “cleave state” (the mechanism by which “one” becomes “two” i.e. the mechanism by which a monon becomes a dualon, where this trilonic pair of monon-dualon (dualon containing two elements (impi)) are themselves a stable dualonic pair
+the mungon is the primitive of system and the mungoni is its corresponding meta primitive of system, where the stable dualonic pair form the monon that itself is the fundamental system (i.e. the monad (though in this system, the “monad” really is a specific instance of the monon, i.e. a monad/singleton/etc… are all monons abstractly/generally))
+
+all foundational elements of mungu theory, including mungu unified mathematics (MUM), mungu unified physics (MUP), mungu chain theory (of economics, cryptoeconomics, distributed ledgers, the DAO), U theory, agent theory, and all others are contained within an entity (impi) known as the nyumba. The nyumba serves as the theory that contains all other theories (of/about system), and itself is contained within the mungoni (mungoni-mungon dualon), where the nyumba then serves as the base foundation of any and all theories, following from the fact that everything is a system (a stable mungoni-mungon pair) and then a nyumba (a theory about this fundamental dualonic pair (of (fundamental) system)) would be a theory of all systems, i.e. a “theory of everything”
+
+the language and representation of mungu theory is captured by the nyamba. Nyambic notation is then the symbol set and description used for representing mungu theory, and extension the nyumba, which then by further extension means that nyambic notation is a representation of all theories, and then by even further extension nyambic notation becomes the representation of all systems (i.e. the language of everything), perhaps forming a theory-language of everything dualonic pair with the nyumba, a nyumba-nyamba dualon, which may be an attempt to say that for every “thing” (lets call it thing prime again), there must also exist a corresponding representation of thing prime, and this ultimately becomes the basis that leads to simulation theory, as thing prime exists, a dualonic counterpart representation of thing prime exists, and this dualonic counterpart representation perhaps effectively is the “simulation”, maybe even further suggesting that “language” itself is simulation (to “speak” something into existence, colloquially). Mungu representation theory then also seeks to understand the “abstract language” that forms any/all/every representation of system (that form a dualonic monon with the existing system itself). All of this possibly implying that if a “thing ” exists, or if some “thing” happens, then a “description” or “representation” of that thing also becomes possible and exists in dualonic stability with thing prime, maybe further reiterating the fact that if thing prime cannot be represented, it is “said” not to exist, fundamentally. Moreover this could also suggest a potential law of representation
+
+it is the idea that by (en)forcing everything to be a dualonic pair (at any/every fundamental “level” throughout this (mungu) theory (and by extension the nyumba and by further extensions all theories (that can/do exist))) is what achieves consistency, and ultimately provide a ramani (mechanism) that leads to justification, truth and meaning. This may also lead into the question of why the mungonic primitives (impi, indi, sibi, etc…) were chosen to be as such to begin with. Perhaps they were chosen to be primitives in order to satisfy this law of duality/dualonic stability since the satisfying of this law is what would directly lead to consistency, coherence, and unification so perhaps mungonic primitives (and really the decision to define any thing in this theory really) is driven by this fundamental law of dualonic stability, choosing abstractions and defining theoretical foundations that aim to satisfy this law. Further implying a mungu proof theory where all proofs of mungu theory are fundamentally proofs that fundamental law of dualonic stability holds (in whatever context of the theory (or any theory, by the extension of nyumba) proofs are being applied)
+
+trilonic pairs consist of monons-dualons, and all other pairs are composited in this manner, and it is noted that trilonic pairs are themselves “viewable” (via a ramani/operator of view) then as a monon (a mononic whole), further implying a fractilic (self similarity, mimetic, imitative, “simulative”), recursive, cleaving state mechanism, whose metric(s) are captured by the metrics of “complexity” and “entropy”, and also such further compositions can be “viewed” in this similar abstract/generalized way, further implying that everything is both itself and a monon dualonic pair (i.e. monon-monon = monon, monon-dualon = monon = trilon, monon-trilon = monon, etc…), this all representing a “trivial state” (the fundamental sibon), perhaps suggesting a law of triviality (or law of the fundamental sibon)
+
+symmetry-asmmetry dualon pair(s) give rise to change
+perhaps the idea of “level” is characterized then by the number of “cleave states” that exist, mapping to the metrics of “entropy” and “complexity”, so maybe this means that an individual “cleave state” is a “level” (perhaps of complexity) and each level (or “level state”) has a number of “microstates” (or a “configuration” (a qualitative property (mali))) “measured” by entropy, so maybe this all means that there exists a two dimensional “metric” system, a dualonic pair of complexity-metric, for a “structure” of connected cleave states (i.e. a structure that containes a series of cleave states, where one state cleaves into another state (via the clevity operator)), where the “breadth-wise” metric is entropy that measure microstates within a particular cleaved state, and the “depth/length-wise” metric is complexity measuring the increased/decreased and generally changed configuration between cleave states, level states (a geometric structure that can be characterized by a “dualtope”/”duagon”)
+
+it is believed/assumed that the monotopic, dualtopic, tritopic, … polytopic metageometric abstract structure and corresponding monogonic, duagonic, trigonic, … polygonic abstract geometric structure can be mapped to tensors as well, 1D tensors being/mapping/morphing to monotopes/monogons, 2D tensors to duatopes/duagons, … ND tensors to polytopes/polygons/polygeons, and perhaps more clarity and better terms are needed for this idea
+a “convention ”of words ending in -i is used to indicate that something is a meta-primitive (of a primitive), (a meta-primitive<->primitive self stable dualonic pair)
+noting that the use of adjectives (tathri) “mungonic” applies to anything pertaining to the mungon and “mungoni-ic” pertains to anything concerning the mungoni
+
+@todo toss in the LoF laws of form somewhere in the mungu theory and see what happens. Give a formalization of the concepts of A, not A, boundary, distiction and bias, all within the context of mungu theory. Formalize and define what it means for some/any/every thing to be a self stable dualonic pair and a self stable dualonic pair monon. Introduce the mechanism of “logic”, its role in mungu theory and the mechanism that governs the formation of mungu theory, the nyumba, and by extension the mechanism that governs the formation of any theory
+
+The trilonic pair of the dualon, alphon and omegon is modelled then by the “obatala model” which consistents of an alphon known as “oshun” (flux, F-system) and an omegon known as “ogun” (form, L-system), these two impi being the abstract representation of push<->pull, system<->controller, agent<->principle, primal<->dual, monad<->comonad, symmetry<->asymmetry self stable dualonic pairs, which ultimately all give rise to “structure” and “change”, so obatala = {ogun, oshun} = {form, flux} = {structure, change}, mapping to obatala -> {polons, kolons} -> {polyons, kolyons} -> {polytons, kolytons} -…-> {polytopes, kolytopes (generalization of Nth order derivatives maybe?)} = “obatalic manifold?” where polons, etc… are the fundamental structural T-system impi and kolons, etc… are the dynamic/kinematic K-system impi, so T-system impi (polons, etc…) fundamental characterize and describe form/structure and K-system impi (kolons, etc…) fundamentally describe flux/change (e.g. space and time, with “spacetime” being an obatalic monad (manifold?)?)
+
+mungoni<->mungon dualonic monon: the “fundamental” system
+mungoni: the meta system of meta systems
+mungon: the system of systems
+nyumba: the system of the theory systems (the mungu theory system)
+nyamba: the system of system languages (the common language that describes all systems)
+M-system: the fundamental system of the mungoni-ic (meta)system - the fundamental system of all systems
+S-system: the fundamental mungonic system (any subset(s) of the M-system) - any/all subsets of any system/all systems, any/all subsets of the fundamental system of systems
+A-System: any subset(s) of the A-system - the fundamental cleave system of the S-system, composed of the structure/form P-system and the flow/flux K-system
+
+Autotrilon: A self-stable dualonic pair monon trilon (all of this which is itself a monon (hopefully all this abstraction isnt too trippy, but it probably is…)) — internally balancing, auto-generative
+
+Heterotrilon: A non-self-stable trilon

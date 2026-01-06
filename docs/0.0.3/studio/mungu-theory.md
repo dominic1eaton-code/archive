@@ -342,11 +342,18 @@ If you want next, we can:
 Just say the next step.
 
 
-=============================================================================================================================
-
-The 3 axioms/laws of mungu theory:
 * Everything is a system
 * Interactions come before particles and Systems come before individuals
+* All systems cycle
+
+
+
+=============================================================================================================================
+mungu theory core:
+
+The 3 axioms/laws of mungu theory:
+* All things are systems
+* All systems are relative
 * All systems cycle
 
 core programs:
@@ -370,22 +377,26 @@ the fundamental theorem of agent: agent must holistically, coherently, consisten
 the fundamental theorem of existence: no “entity” exists without the “monad” and no “monad” exists without the “entity”, with them being effectively one and the same. This all being in correspondence with the fundamental fact that it is neither entity nor monad that is the primitive of existence, but the interaction between them that is the fundamental primitive of existence
 
 core theories:
-E-U-S Theory
+C-R-P theory
+
+E-U-S Theory + O-theory
   S-theory - system theory (previously known as U theory but now updated as not to conflict with unit theory): that categorizes the nature of U-system, where U-system = {the system of all system (the meta system), the subset of all systems (a.k.a and S-system, i.e. just the “system)}, this S-system being the any subset of the U-system is further divided into F-systems (form systems) and L-system (flux systems). There are more specialized systems such as P-systems (any mungon primitive (impi, tathri, indi, wekhi (the abstraction of network, relationship), ramani (where impi, tathri, indi, wekhi, ramani are superset primitives that then contain subprimitives such as mali (qualisense, the abtract notation of any/all qualities, and is a specialized tathri), sibi (a specialized ramani), etc…) equipped with any other mungon primitive) , Q-systems (any impi equipped with a tathri), T-system containing a structural systems and K-systems containing all dynamic/kinematic systems; all systems are S-systems, where they are subsets/systems of the U-system, with the U-system being an S-system subset of itself
 
   E-theory - element theory: mungu primitives and meta-primitives, and mungu mechanisms - impi are the generalization/abstraction/notion of every/any/all components, entites, things, elements; wekhi the generalization of all networks; tathri the generalization of all attributes, properties; indi the abstraction/generalization of all types, classes; mali the generalization of “qaulisense” which represents all qualities, values, senses; ramani the abstraction of “transmorphism” which represents all morphisms, interactions, mappings, transforms, interactions, morphism of morphisms; sibi represents the change between two cleave states (level states), with sibon being the fundamental abstraction of state, such that sibi represents the change/transition/morphism/ramani between any two sibons (any two states (of any kind/type (indi))) which is governed by the mechanism/operator/ramani of “clevity” (the cleave operator (ramani)); so structural configuration within sibons is measured with entropy, and structural configuration between sibons is measured with complexity, assuming the existence of configuration and that sibons have the “capacity” to be “equipped ”with configuration (maybe this can be generalized N-dimensionally, and not just 2-dimensionally?)
 
   U-theory - unit theory: polons, polyons, polytons, polytopes, polysysts, polygeons, polygons, polynets, polysets, polycats, syntoni = {mo-on, duons, trions, quar-ons, quinons, sexons, etc… polons} with an assumption that all mungon primitives have an associated meta primitive, flux/change “flow-ic?” representation sets (or categories?) outlining the “flow” of the mungoni, and includes (corresponding to T-system impi, i.e. polons,etc…) kolons, kolyons, kolytons, kolytopes?, kolysysts?, kolygeons? kolygons (physical manifestations of time (position, velocity, etc…) i.e. motion?)? with a meta primitive called the flyntoni
 
+  O-theory - operator theory
 
-C-D-S "cids" theory 
-  Mungu Chain Theory (MCT) = rigorous, Mungu-aligned formal theory of chain systems (distributed ledgers, chains-of-blocks, sharded/Multichain systems, cross-chain interoperation), *and* the algebraic chain complexes used to study invariants and flows on chains, all embedded inside the U-system/Polyon framework.
 
-  Digital Twin theory
+C-M-S "cims" theory
+  Chain Theory - Mungu Chain Theory (MCT) = rigorous, Mungu-aligned formal theory of chain systems (distributed ledgers, chains-of-blocks, sharded/Multichain systems, cross-chain interoperation), *and* the algebraic chain complexes used to study invariants and flows on chains, all embedded inside the U-system/Polyon framework.
 
-  E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation;
+  Mirror Theory - Intelligence/Cognitive Mirror Theory, Symmetry/Equilibrium Theory, Digital Twin theory
 
-M-P-S theory
+  Simulation theory - E-A-A-S "eas" Theory of: Entity + Actor + Agent + Simulation;
+
+M-P-S "mips" theory
   MUM - mungu unified meaning / mathematics
   MUP - mungu unified physics
   MUS- mungu unified sciences
@@ -432,9 +443,9 @@ mungoni: the meta system of meta systems
 mungon: the system of systems
 nyumba: the system of the theory systems (the mungu theory system)
 nyamba: the system of system languages (the common language that describes all systems)
-A-system: the fundamental system of the mungoni-ic (meta)system
-U-system: the fundamental mungonic system (any subset(s) of the A-system)
-S-System: any subset(s) of the U-system
+M-system: the fundamental system of the mungoni-ic (meta)system - the fundamental system of all systems
+S-system: the fundamental mungonic system (any subset(s) of the M-system) - any/all subsets of any system/all systems, any/all subsets of the fundamental system of systems
+A-System: any subset(s) of the A-system - the fundamental cleave system of the S-system, composed of the structure/form P-system and the flow/flux K-system
 
 Autotrilon: A self-stable dualonic pair monon trilon (all of this which is itself a monon (hopefully all this abstraction isnt too trippy, but it probably is…)) — internally balancing, auto-generative
 

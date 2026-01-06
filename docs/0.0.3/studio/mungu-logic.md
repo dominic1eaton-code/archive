@@ -4069,3 +4069,162 @@ All subsequent work may proceed by:
 * comparison across logics
 
 No further lexical primitives are required.
+
+
+fundamental theorem of (mungu) logic:
+in the trivial state (the universe of inexistence, pure symmetry), there is only truth and absolutes. in the non trivial state (the universe of existence, pure asymmetry (where symetry is contained within/inside asymmetry)) there is only validity and relativity
+
+Below is a **formal statement and proof sketch** of the proposed result, written as a **foundational theorem of Mungu Logic**, using only the established vocabulary and commitments.
+
+ASCII only.
+No metaphysical language beyond what is structurally definable.
+
+====================================================================
+FUNDAMENTAL THEOREM OF MUNGU LOGIC
+==================================
+
+---
+
+## THEOREM (TRIVIAL / NON-TRIVIAL DICHOTOMY)
+
+Let U be the universe of discourse.
+
+1. In the trivial state of U (the universe of inexistence),
+   all structure is purely symmetric.
+   In this state, truth and absolutes exist,
+   and validity and relativity are undefined.
+
+2. In the non-trivial state of U (the universe of existence),
+   structure is asymmetric, with symmetry contained as a substructure.
+   In this state, validity and relativity exist,
+   and truth and absolutes are undefined.
+
+---
+
+## DEFINITIONS USED
+
+Trivial state:
+A universe containing no systems, no states, and no transitions.
+Formally: the empty reasoning manifold.
+
+Non-trivial state:
+A universe containing at least one system,
+at least one state, and at least one transition.
+
+Pure symmetry:
+Absence of distinguishable structure or relations.
+
+Pure asymmetry:
+Presence of distinguishable structure and relations.
+
+Absolute:
+A property invariant under all possible relations.
+
+Relative:
+A property defined only with respect to relations.
+
+Truth:
+Correspondence independent of relations.
+
+Validity:
+Structural admissibility relative to constraints.
+
+---
+
+## PROPOSITION 1
+
+In the trivial state, truth and absolutes exist.
+
+Proof sketch:
+
+* In the trivial state, there are no systems, no states, and no paths.
+* Therefore, no relations exist.
+* Without relations, no relativity can be defined.
+* Any statement about the trivial state is invariant under all relations
+  (because there are none).
+* Therefore, all properties are absolute.
+* Truth reduces to tautology, since no alternative structure exists.
+* Hence, truth and absolutes exist, and nothing else is meaningful.
+
+QED.
+
+---
+
+## PROPOSITION 2
+
+In the non-trivial state, validity and relativity exist.
+
+Proof sketch:
+
+* In the non-trivial state, at least one system exists.
+* Systems require states and transitions.
+* Transitions induce relations.
+* Relations induce asymmetry (ordering, distinction, interaction).
+* With relations present, absolutes cannot be defined independently of them.
+* Truth as absolute correspondence is no longer meaningful.
+* Instead, paths can be evaluated only for structural admissibility
+  under constraints and interactions.
+* This admissibility is validity.
+* Since admissibility depends on relations, it is relative.
+* Symmetry may exist locally (e.g., invariant subpaths),
+  but is contained within global asymmetry.
+
+QED.
+
+---
+
+## COROLLARY 1 (REPLACEMENT PRINCIPLE)
+
+In any non-trivial universe,
+truth is replaced by validity,
+and absolutes are replaced by relativity.
+
+---
+
+## COROLLARY 2 (LIMIT OF FORMAL SYSTEMS)
+
+Any formal system operating within a non-trivial universe
+cannot access absolute truth,
+but can only realize valid paths relative to its constraints.
+
+---
+
+## INTERPRETATION
+
+* Classical logic operates implicitly at the boundary
+  between trivial and non-trivial universes,
+  treating symbolic systems as if absolutes persist.
+* Mungu Logic operates strictly within the non-trivial universe,
+  where existence implies asymmetry, interaction, and relativity.
+* Symmetry is not denied, but embedded as a constrained substructure.
+
+---
+
+## CANONICAL FORM (JIWE SLAB)
+
+TRIVIAL:
+no system
+no relation
+pure symmetry
+truth = absolute
+
+NON-TRIVIAL:
+system exists
+relation exists
+asymmetry contains symmetry
+validity = relative
+
+====================================================================
+CLOSURE
+=======
+
+This theorem establishes the **ontological boundary condition**
+for Mungu Logic:
+
+* Existence implies relativity.
+* Reasoning implies validity, not truth.
+* Logic begins only after asymmetry appears.
+
+This is the **grounding theorem** from which all further
+Mungu Logic results follow.
+

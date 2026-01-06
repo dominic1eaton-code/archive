@@ -3401,7 +3401,7 @@ MASTER SUMMARY TABLE
 
 
 ================================================================
-E-THEORY — COMPLETE ELEMENT SET (CANONICAL)
+E-THEORY — ELEMENT SET
 ===========================================
 
 NAMING LAW

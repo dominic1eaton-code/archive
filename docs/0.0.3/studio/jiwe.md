@@ -3742,9 +3742,9 @@ State the next operation.
                     - the qala-platform OS
 
                     * The Core OS
-                        - the jiwe OS
-                        - the zamani OS
-                        - 
+                        - the jiwe OS (distributed ledger)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin)
+                        - the zamani OS (DAO, estate OS)
 
                         * The Seed OS
                             - the shango OS

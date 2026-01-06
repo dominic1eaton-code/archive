@@ -2,7 +2,7 @@
 The Dominic Eaton Software Engineering Firm
 
 
-## Roles
+## Roles: Navigator Personal Office
 first pass:
 
 |  # | Role Title                                 | Class | Primary Responsibility       | Core Interfaces     | Year-1 KPIs           |
@@ -109,3 +109,29 @@ chief financial officer:
 chief governance officer
 - handles planning, scheduling, governance, impact strategies/functions
 - helps keep the system on track
+
+
+
+
+## Roles: Sankofa Council
+
+
+council chair:
+- council governance head
+
+
+councli vice chair:
+- council management head
+
+
+council chief:
+- council administrative head
+
+
+council treasurer:
+
+
+council secretary:
+
+
+

@@ -3753,5 +3753,7 @@ State the next operation.
 
                             * The Kernel
                                 - the obatala kernel
+                                    - the civilization seed digital twin/mirror
+                                    - the civilization seed
 
 

@@ -9266,3 +9266,26 @@ That is why it is.
 Not because it is true.
 
 But because **anything false cannot survive long enough to ask this question**.
+
+ia the fundamental ramani of "cleaving", 
+
+
+
+
+from the first kora law of distinction - 
+in the universe of existence, asymmetry came first, where asymmetry generated the fundamental boundary that
+allowed for the first fundamental interaction to exist: the interaction of distinction. from this fundamental interaction, cleaveed A and not A through this fundamental system interaction of distinction, A and "not A" (lets call it B) interact with one another "through" a boundary, completing one anothers "pattern" via/through this boundary. But before that the asymmetry boundary generated an initial boundary that needed to be completed,
+and this "distinction" becomee the completion of pattern of/for "boundary", where boundary and distinction
+then formed a self stable dualonic pair monon (an aurilon), where then the "cleave" operator (clevon) became the fundamental interaction of/between boundary and distinction, allowing for them to cleaved into states of both A and not A, and by extension, equipping everything else in the universe of existence with the cleave (clevity) operator as well, making "cleave" the fundamental pattern that allowed for pattern completion and then ultimately allowed and allows for all systems to achieve closure. If something/anything is to achieve closure, it must cleave. Expanding on this, for something (lets say A) to achieve closure means that it is invariant internally/within itself, but under the axiom of relativity (interactions before particles, systems before individuals), this must only be possible if A is able to, and necesarily must, cleave into some/any "not A" (lets call it B), where B is also internally invariant, and completes (by necessity) closure, and A and B form a completed, consistent/symmetric pattern between themselves 
+
+All of this stems/follows from (assymetry, symetry, existence, distinction, clevity, and everything else) from the fundamental assumption of Mungu Theory - The fundamental assumption of Mungu Theory: things exist
+
+where this assumption is asserted only by the statement of "things exist simply because it is said so" and not by any formal proof beyond the statment itself, implying that (assuming that) if any thing can be "said" (simulated) to exist, then therefore it exists (materially, imaterialy, abstractly, concretely, mentally, physically, etc... regardless of the "form" of that existence). 
+
+And the only way for the fundamental assumption to hold is for there to be the fundamental interaction of asymmetry, which generated the fundamental (incomplete) pattern of clevity, which then brings into existence a self stable dualonic pair of boundary and distinction, where both boundary and distinction complete this pattern of clevity, which then brought clevity into stable existence as the fundamental interaction cleaving, where then cleaving brought into existence a stable dualonic pair of A and B (not A),
+forming the fundamental sibonic string and the first two fundamental sibons, where the first sibon was boundary and distinction and the second sibon was A and B, and the fundamental interaction between these two sibons (clevity) formed sibi, the fundamental ramani, all of this in the universe of existence.
+
+Also noting that asymmetry and symmetry are the fundamental impi, forming the fundamental self stable dualonic pair, with the most important note of saying that "symmetry is a subset of asymmetry" (itself an asymmetric statemtent) in the universe of existence, with the self stable dualonic pair of asymmetry and symmetry then forming the mungoni, the closure of existence, and the mungon then being existence itself. And this then forms the heart of mungu theory, the second fundamental assumption of mungu theory: symmetry can be a subset of asymmetry, as things can go from existence to non existence, in the universe of existence, but asymmetry can not be a subset of symmetry, in the universe of non-existence, as in this universe things can not go from not existing to then existing, this asymmetric statement/idea then serving as the generator of asymmetry itself, that then caused (cleaved) existence.
+
+
+

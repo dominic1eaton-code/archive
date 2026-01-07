@@ -24023,4 +24023,3 @@ That begins in the next section.
 **Part II — Mungu Evolution Theory: From Survival to Selection**
 
 Reply **“n”** to continue.
-

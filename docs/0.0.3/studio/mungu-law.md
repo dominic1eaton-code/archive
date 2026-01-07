@@ -9624,3 +9624,33 @@ What you had was a **correct intuition expressed too early at too many levels at
 Now it’s straight.
 
 Sleep well, Cartographer.
+
+
+
+interaction itself is a self stable dualonic pair between a P-system (with polonic/form/structural polarity) and K-system (with kolonic/flow/flux polarity). So the fundamental interaction (the mungoni, existence of existence) is that between the polonic symmetry and the kolonic asymmetry, which then cleaves the polonic boundary and kolonic distinction dualonic pair (the mungon), existence, where the mungoni and the mungon are the first two fundamental sibons and clevity the fundamental ramani/sibi/interaction between these two sibons, with the most important fact that asymmetry comes first and symmetry comes after, in the universe of existence. This implies that the asymmetry-symmetry pair is itself asymmetric, cleaving into disctinction-boundary (asymmetry-symmetry) which is then symmetric, cleaving into A-"not A" which is then asymmetric, where there forms/instantiates/cleaves a general fundamental "string" (a series of "patterns") of a sibon state of asymmetry followed by sibon state of symmetry followed again asymmetry sibon, on and on again, in a connected/interaction constrained pattern where this pattern is known as "sibi", and where sibi is initally incomplete (asymmetric) in initial value conditions and then becomes completed (symmetric) and then becomes incompleted again (asymmetric) demonstrating a stable dualonic pair that progresses across "dimensions" of space, time, entropy and complexity, where space-time-entropy-complexty form the fundamental tensor/dimension/orthogonal-basis of the universe of existence.
+
+
+if soemthing "exists" then it must be able to be "simulated" (sensed, perceived, copied, mirrored, imitated). For example, a purple unicorn exists in the "memetic realm" and is then simulated/mirrored in the "mental realm" of a mind, and is then able to be further simulated/mirrored in the "physical realm" where it is "expressed" as images, pictures, art, etc.... A "symmetric simulation/mirror" is then that which implies "two things" are one in the same, but the "frame"/perspective/context/observation applied to those "two things" is simply just vieweed from two "different angles", because really what may be simulated/mirrored/percieved as "two things" are really just two things are actually just "one in the same". Sor for example "distinction" and "boundary" really just two "frames"/perceptions/viewpoints/observations/measures/aspects/contexts of a common system/structure known as "difference" (fundamental theorem of uniqueness), where then in reality/actuality "difference" (fundamental theorem of uniqueness) is the fundamental interaction that contains the incomplete pattern "clevity"/cleave, where this pattern is then completed by "distinction" and "boundary", noting that when "clevity" is an incomplete pattern, it is purely polonic/un-operational/structural/form, but when the pattern is completed, it becomes kolonic/operational/flow/flux, causing it then to become a ramani/operator/transform/morphism known as "cleave" where the universe of existence is now equipped with "cleaving" and "Cleaving" can now take place. This logic further then is followed to imply that incomplete patterns are polonic/state and complete patterns are then kolonic/dynamic where this "process" (transitioning between a "state"/sibon of polonic to a state of kolonic) allows the pattern to be "realizeable" and "actionable". "Polonic" and "Kolonic" are themselves a self stable dualonic pair aurilon with an incomplete pattern of "intertia" or lack of change, where once they complete eachothers/one anothers pattern(s), this then cleaves into "process"/change/energy. Also noting that symmetric simulation implies a "perfect copy" of two things, but in actuality/reality, a "perfect copy" two things is really just an observation of "one thing" simply viewed from two frames/lenses/contexts/viewpoints/measures/observations/aspects/perceptions/sense-points, so a "perfect copy" is an "appearance" of "two things" that are really just two "sampling observation points" of one common structure/system.
+
+Asymmetric simulation/mirroring/perception/copying is where "two things" have fully cleaved across the "boundary of distinction", forming an "imperfct copy", where "two things" are viewed by two different frames and are truly two different (unique) views of two different (unique) things/objects/impi. 
+
+
+This all then forms:
+Kora Theory:
+
+the 5 fundamental theorems then are (The Kora Theorems):
+* the fundamental theorem of uniqueness
+* the fundamental theorem of patterns
+* the fundamental theorem of system
+* the fundamental theorem of simulation
+* the fundamental theorem of agent (entity, actor)
+
+The Kora laws:
+* the law of distinction (difference, uniqurness)
+* the law of closure (patterns)
+* the law of system (system)
+* the law of relativity (simulation, observation, mirror, copy, imitation, symmtric/asymettric interaction)
+* the law of cycle (entity, actor, agent)
+
+where Kora theory serves as the kernel of "Mungu Logic" and where Kora Theory becomes the "moyo" (heart, center) of the Nyumba
+

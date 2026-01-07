@@ -8022,7 +8022,7 @@ navigation theory
                                             - the 7 navigator family estate OSs
                                             - member estates OSs, member group estate OSs
                                             - agent (intelligence) OSs (AI, human, joint intelligence, hybrid intelligence, etc...)
-                                            
+
 
 
 I need to be very precise and honest here.

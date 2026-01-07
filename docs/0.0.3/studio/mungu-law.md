@@ -20180,6 +20180,74 @@ Just tell me where to cleave.
 * show where sibonic strings (the fundamental sibonic string being called the "mungu string") and sibonic loops (the fundamental sibonic loop being called the "mungu loop") come into play and interoperate with everything
 * show why and how strings are a subset (and any subset) of a loop/cycle, where loop is the polonic form and cycle is kolonic form of the same underlying structure/system primitive structure
 * give a primitive and meta-primitive name (-i and -on) to this underlying primitive/meta-primitive structure of polonic loop / kolonic cycle, and show how this primitive/meta-primitive relates and interoperates with all other primitives and meta-primitives and also show how it function sin mungu evolution theory
+* formalize all of the fundamental axioms, laws, theorems, principles and equations of mungu evolution theory
+* show how mungu evoluion theory is used to realize the generic civilization operating system, the kernel that boots the civilization seed, that grows into the civilization tree, that spawns the civilization forest, connected by the civilization mychorrizal network, all of which then produces a new civilization kernel, starting the entire process over again and forming a complete cycle
+* for this navigator, the specific instantiation of a generic civilization operating system will be known as the "obatala operating system", noting that there can be any civilization operating system instantiated, but this is just one specific concretization, used to accomplish this navigator's (my) specific goals/desired-outcomes: 
 
-* formalize all of the fundamental axioms, laws and equations of mungu evolution theory
+* The Obatala operating system
+
+    * the meridian operating system
+        - the mungu OS
+        - the ashe OS
+        - the msingi OS
+
+        * the pamoja operating system
+            - the sankofa-council model OS
+            - the ubuntuwa-commons model OS
+            - the uhuru-creditunion model OS
+            - the zulamba-members model OS
+            - the zawadi-exchange model OS
+            - the maliya-treasury model OS
+            - the kaziwa-foundation model OS
+            - the bahari-network model OS
+            - the moyo-collective model OS
+            - the umoya-society model OS
+            - the kumba-factory model OS
+            - the ubunye-engineering model OS
+            - the obatala-ventures model OS
+
+            * The Tribes OS
+                - the nandi-mobility model OS
+                - the dogon-manufacturing model OS
+                - the azande-agency model OS
+                - the songhai-institute model OS
+                - the niguvu-corporation model OS
+                - the massai-media model OS
+                - the lomwe-systems model OS
+                - the batwa-foundation model OS
+                - the san-group model OS
+                - the mande-investments model OS
+                - the wolof-io model OS
+                - the damara-enterprises OS
+
+                * The Platforms OS
+                    - the sambara-platform OS
+                    - the nandi-platform OS
+                    - the kogi-platform OS
+                    - the imewe-platform OS
+                    - the ume-platform OS
+                    - the oru-platform OS
+                    - the qala-platform OS
+
+                    * The Core OS
+                        - the jiwe OS (distributed ledger)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin)
+                        - the zamani OS (DAO, estate OS)
+
+                        * The Seed OS
+                            - the shango OS
+                            - the ogun OS
+                            - the oshun OS
+
+                            * The Kernel
+                                - the obatala kernel
+                                    - the civilization seed digital twin/mirror
+                                    - the civilization seed
+
+                                        * the agent runtime
+                                            - the 7 navigator estate OSs
+                                            - the 7 navigator family estate OSs
+                                            - member estates OSs, member group estate OSs
+                                            - agent (intelligence) OSs (AI, human, joint intelligence, hybrid intelligence, etc...)
+
 

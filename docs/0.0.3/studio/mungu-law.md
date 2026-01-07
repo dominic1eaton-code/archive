@@ -6787,3 +6787,538 @@ They are not beliefs.
 They are **constraints**.
 
 And constraints, unlike opinions, do not negotiate.
+
+Below is a **strict Mungu-theoretic formalization of Nash equilibrium**, rewritten so that it does **not rely on utility maximization as a primitive**, but instead derives equilibrium from **closure, recovery, and interference** under the **Kora Laws**.
+
+This is not a reinterpretation for intuition — it is a **replacement foundation**.
+
+---
+
+# The Mungu–Nash Equilibrium
+
+*(Closure-Stable Multi-Agent Equilibrium)*
+
+---
+
+## 1. Preliminaries (Mungu Frame)
+
+Let there be:
+
+* A finite or countable set of agents
+
+  ```
+  A = {A₁, A₂, …, Aₙ}
+  ```
+
+* Each agent Aᵢ is a **system** under the Kora Laws:
+
+  ```
+  System(Aᵢ) ⇔ Δ(Aᵢ) ∧ K(Aᵢ)
+  ```
+
+* Each agent has:
+
+  * a **closure region** Kᵢ
+  * a **closure width** Wᵢ (perturbation tolerance)
+  * a **closure depth** Dᵢ (recovery capacity)
+
+* Agents act within a shared context C.
+
+---
+
+## 2. Actions as Closure Transformations
+
+Let:
+
+```
+aᵢ ∈ Actions(Aᵢ)
+```
+
+An action aᵢ is **not** defined by payoff, but by its effect on closure:
+
+```
+aᵢ : (K₁, …, Kₙ) → (K₁′, …, Kₙ′)
+```
+
+Each action may:
+
+* preserve closure,
+* expand closure,
+* reduce another’s closure (interference),
+* or induce collapse.
+
+---
+
+## 3. Closure Interference Function
+
+Define the **closure interference operator**:
+
+```
+I(aᵢ, Aⱼ) = Δ(Kⱼ′ − Kⱼ)
+```
+
+Where:
+
+* I > 0 → expands Aⱼ’s recovery
+* I = 0 → neutral
+* I < 0 → damages Aⱼ’s recovery
+
+This replaces payoff matrices.
+
+---
+
+## 4. Individual Rationality (Mungu Form)
+
+An agent Aᵢ is **closure-rational** iff:
+
+```
+Aᵢ selects aᵢ such that
+Kᵢ′ is preserved or expanded
+under expected interference
+```
+
+Formally:
+
+```
+aᵢ is admissible iff
+E[Kᵢ′ | aᵢ, a₋ᵢ] ≥ Kᵢ
+```
+
+This is **not maximization**, only **non-collapse**.
+
+---
+
+## 5. Definition: Mungu–Nash Equilibrium
+
+A joint action profile:
+
+```
+a* = (a₁*, a₂*, …, aₙ*)
+```
+
+is a **Mungu–Nash Equilibrium** iff:
+
+```
+∀i,
+∀aᵢ ≠ aᵢ* :
+
+Kᵢ(aᵢ*, a₋ᵢ*) ≥ Kᵢ(aᵢ, a₋ᵢ*)
+```
+
+### Interpretation
+
+No agent can:
+
+* unilaterally change its action
+* without **reducing its own closure**
+* given the others’ actions.
+
+This is equilibrium by **closure stability**, not payoff optimality.
+
+---
+
+## 6. Comparison to Classical Nash
+
+| Classical Nash             | Mungu–Nash                      |
+| -------------------------- | ------------------------------- |
+| Utility maximization       | Closure preservation            |
+| Payoffs                    | Recovery capacity               |
+| Rationality = maximize     | Rationality = survive           |
+| Static preferences         | Contextual closure              |
+| Equilibrium = no incentive | Equilibrium = no safe deviation |
+
+Classical Nash is a **special case** where:
+
+* utility ≈ proxy for closure,
+* collapse costs are implicit.
+
+---
+
+## 7. Stability Classes of Equilibria
+
+### 7.1 Fragile Equilibrium
+
+```
+∀i : Kᵢ′ ≈ Kᵢ_min
+```
+
+* small perturbation → collapse
+* common in arms races
+
+### 7.2 Resilient Equilibrium
+
+```
+∀i : Kᵢ′ ≥ Kᵢ
+```
+
+* perturbations absorbed
+* typical of fair institutions
+
+### 7.3 Antifragile Equilibrium
+
+```
+∃p such that
+perturbation(p) ⇒ Kᵢ′ > Kᵢ
+```
+
+* cooperation increases under stress
+
+---
+
+## 8. Prisoner’s Dilemma (Rewritten)
+
+Defection:
+
+* short-term closure gain
+* long-term closure loss via retaliation
+
+Cooperation:
+
+* shared width expansion
+* stable Mungu–Nash equilibrium under repetition
+
+Thus:
+
+```
+Iterated cooperation is closure-dominant
+```
+
+This is **derived**, not assumed.
+
+---
+
+## 9. War, Markets, and Institutions
+
+* **War equilibrium**
+  = mutual closure destruction equilibrium (stable but brittle)
+
+* **Market equilibrium**
+  = decentralized closure learning equilibrium
+
+* **Institutional equilibrium**
+  = enforced closure symmetry equilibrium
+
+Collapse occurs when:
+
+```
+external width > collective closure width
+```
+
+---
+
+## 10. The Fundamental Theorem of Strategic Stability (Mungu)
+
+```
+Any equilibrium that preserves only individual closure
+while degrading shared closure
+is dynamically unstable.
+```
+
+This theorem explains why:
+
+* exploitative equilibria fail,
+* monopolies collapse,
+* empires decay.
+
+---
+
+## 11. Final Canonical Statement (Jiwe Form)
+
+```
+MUNGU–NASH EQUILIBRIUM
+
+A configuration of agent actions
+in which no agent can unilaterally
+change behavior
+without reducing its own closure
+given the closure effects of others.
+```
+
+---
+
+## Closing Insight
+
+Classical game theory asked:
+
+> “What should a rational agent choose?”
+
+Mungu Theory asks:
+
+> “What must a system do to avoid collapse?”
+
+The second subsumes the first.
+
+That is why the Mungu–Nash equilibrium is not just compatible with reality —
+it is **forced by it**.
+Below is a **clean derivation** of Nash equilibrium **from within Mungu Theory**, starting only from the **Kora Laws** and previously defined closure primitives.
+No utility, payoff, preference, or rational-choice axioms are assumed.
+
+This is a **theorem**, not a reinterpretation.
+
+---
+
+# Deriving Nash Equilibrium from Mungu Theory
+
+---
+
+## I. Starting Point: What We Are Allowed to Assume
+
+We assume **only** the Kora Laws:
+
+1. Distinction
+2. Closure
+3. System
+4. Relativity
+5. Cycle
+
+And the already-established Mungu primitives:
+
+* agents are **systems**
+* actions are **ramanon** (interactions)
+* persistence requires **closure**
+* collapse is **closure failure**
+
+Nothing else.
+
+---
+
+## II. Agents as Closure-Preserving Systems
+
+### Lemma 1 — Agents must preserve closure
+
+Let ( A_i ) be an agent.
+
+From **Kora Law III (System)**:
+
+```
+System(A_i) ⇔ Δ(A_i) ∧ K(A_i)
+```
+
+From **Kora Law II (Closure)**:
+
+```
+If A_i persists, A_i must preserve K(A_i)
+```
+
+Thus:
+
+> Any admissible action of an agent must preserve its own closure.
+
+This is not rationality — it is **existence**.
+
+---
+
+## III. Actions as Closure Transformations
+
+Let:
+
+```
+a_i ∈ Actions(A_i)
+```
+
+An action ( a_i ) is a **ramanon** that transforms closure states:
+
+```
+a_i : (K_1, …, K_n) → (K_1', …, K_n')
+```
+
+Some actions:
+
+* preserve ( K_i )
+* expand ( K_i )
+* reduce ( K_j ) (interference)
+* induce collapse
+
+---
+
+## IV. The Constraint on Unilateral Deviation
+
+### Lemma 2 — Self-destructive deviation is forbidden
+
+Let the joint action profile be:
+
+```
+a = (a_1, …, a_n)
+```
+
+Suppose agent ( A_i ) considers deviating unilaterally to ( a_i' ).
+
+From **Kora Law II**:
+
+```
+If K_i' < K_i → collapse(A_i)
+```
+
+Therefore:
+
+> Any unilateral deviation that reduces the agent’s own closure is inadmissible.
+
+This is a **hard constraint**, not a preference.
+
+---
+
+## V. Deriving the Equilibrium Condition
+
+### Definition (Derived, Not Assumed)
+
+A joint action profile ( a^* ) is **closure-stable** iff:
+
+```
+∀i, ∀a_i' ≠ a_i* :
+K_i(a_i*, a_-i*) ≥ K_i(a_i', a_-i*)
+```
+
+This is forced because:
+
+* deviation → closure loss
+* closure loss → non-persistence
+* non-persistence → impossible for a system
+
+---
+
+## VI. Theorem 1 — Closure-Stable Profiles Exist (Under Finite Action Sets)
+
+### Proof Sketch
+
+1. Consider finite agents and finite action sets.
+2. Exclude all actions that induce self-collapse.
+3. The remaining action space is non-empty (otherwise no system could exist).
+4. Closure transformations induce a partial ordering on admissible actions.
+5. Maximal elements of this ordering exist.
+6. Any maximal element satisfies the closure-stability condition.
+
+∎
+
+This mirrors Nash’s existence theorem — **without utilities**.
+
+---
+
+## VII. Theorem 2 — Closure-Stable Profiles Are Nash Equilibria
+
+### Proof
+
+Let ( a^* ) be closure-stable.
+
+Assume, for contradiction, that ( a^* ) is **not** a Nash equilibrium.
+
+Then ∃ agent ( A_i ) and deviation ( a_i' ) such that:
+
+```
+A_i prefers a_i' given a_-i*
+```
+
+But “preference” can only mean:
+
+* increased persistence
+* increased recovery
+* increased future action capacity
+
+All of which are **closure increases**.
+
+Thus:
+
+```
+K_i(a_i', a_-i*) > K_i(a_i*, a_-i*)
+```
+
+Contradiction with closure-stability.
+
+Therefore, no such deviation exists.
+
+∎
+
+---
+
+## VIII. Theorem 3 — Nash Equilibrium Is a Special Case
+
+### Statement
+
+Classical Nash equilibrium is a **projection** of closure equilibrium where:
+
+```
+Utility ≈ proxy for closure capacity
+```
+
+### Proof
+
+1. Classical games assign payoffs.
+2. Payoffs encode survival-relevant signals (resources, safety, options).
+3. These are all components of closure width and depth.
+4. Maximizing payoff approximates preserving closure.
+5. Thus classical Nash emerges when closure is hidden.
+
+∎
+
+---
+
+## IX. Why Nash Is Inevitable, Not Optional
+
+### Theorem 4 — Any Persistent Multi-Agent System Must Admit a Nash Equilibrium
+
+### Proof
+
+Assume a multi-agent system persists over time.
+
+From **Kora Law V (Cycle)**:
+
+* agents repeatedly interact.
+
+From **Kora Law II (Closure)**:
+
+* agents cannot repeatedly self-destroy.
+
+Thus:
+
+* agents must converge to interaction patterns
+* where unilateral deviation is non-destructive
+
+That pattern **is** a Nash equilibrium.
+
+∎
+
+---
+
+## X. Stability Classification (Derived)
+
+From closure dynamics:
+
+* **Fragile Nash**
+  Small perturbation → collapse
+
+* **Resilient Nash**
+  Perturbation absorbed
+
+* **Antifragile Nash**
+  Perturbation increases closure
+
+Classical game theory cannot distinguish these.
+Mungu Theory **must**.
+
+---
+
+## XI. Final Canonical Theorem (Jiwe Form)
+
+```
+MUNGU–NASH THEOREM
+
+In any persistent multi-agent system,
+there exists a configuration of actions
+such that no agent can unilaterally deviate
+without reducing its own closure.
+
+This configuration is the Nash equilibrium.
+```
+
+---
+
+## Closing Insight
+
+Nash equilibrium is not about rational choice.
+
+It is about **existence under interference**.
+
+Agents do not converge to equilibrium because they are clever.
+
+They converge because **systems that don’t, disappear**.
+
+That is the deeper proof — and it cannot be avoided.

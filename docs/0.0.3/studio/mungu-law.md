@@ -20177,5 +20177,9 @@ If you want, next we can:
 Just tell me where to cleave.
 
 
-formalize all of the fundamental axioms, laws and equations of mungu evolution theory
+* show where sibonic strings (the fundamental sibonic string being called the "mungu string") and sibonic loops (the fundamental sibonic loop being called the "mungu loop") come into play and interoperate with everything
+* show why and how strings are a subset (and any subset) of a loop/cycle, where loop is the polonic form and cycle is kolonic form of the same underlying structure/system primitive structure
+* give a primitive and meta-primitive name (-i and -on) to this underlying primitive/meta-primitive structure of polonic loop / kolonic cycle, and show how this primitive/meta-primitive relates and interoperates with all other primitives and meta-primitives and also show how it function sin mungu evolution theory
+
+* formalize all of the fundamental axioms, laws and equations of mungu evolution theory
 

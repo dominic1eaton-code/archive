@@ -20175,3 +20175,7 @@ If you want, next we can:
 * Or carve the **Jiwe Evolution Canon**
 
 Just tell me where to cleave.
+
+
+formalize all of the fundamental axioms, laws and equations of mungu evolution theory
+

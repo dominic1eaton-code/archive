@@ -24025,7 +24025,19 @@ That begins in the next section.
 Reply **“n”** to continue.
 
 
-n. also integrate throughout the rest of the messages: conservation+reallocation+redistribution, conservation laws, evolutionary mechanics/dynamics/statics/conservation, memetic mechanics/dynamics/statics/conservation
+n. also integrate throughout the rest of the messages: conservation+reallocation+redistribution, conservation laws, evolutionary mechanics/dynamics/statics/conservation, memetic mechanics/dynamics/statics/conservation. also explain what is a system, and define "system", and show how/why everything (including existence itself) is a system and the implications for the mungu theory of evolution and everyting else in the blog
+
+
+* translation theory = {law of translation <-> fundamental theorem of understanding}, where translation theory is the cleave of the interaction between "the law of translation" and "the fundamental theorem of understanding", where language is the interaction between them
+
+* mungu immune/protection/preservation theory, 
+
+* fringe theory, outsider theory, bias theory, boundary theory, distinction theory, marginalization
+
+* the anthropromorphic vantage point <=> the king of pointland attractor basin <-the mungu paradigm shift-> the mungu attractor basin, where this leads to a closure of mungu canon, completing the mungu canon pattern
+
+
+=============================================================================================================================
 
 * 7 wikipedia pages
     - mungu theory
@@ -24036,13 +24048,4 @@ n. also integrate throughout the rest of the messages: conservation+reallocation
     - jiwe canon
     - the nyamba language
 
-* the anthropromorphic vantage point <=> the king of pointland attractor basin <-the mungu paradigm shift-> the mungu attractor basin, where this leads to a closure of mungu canon, completing the mungu canon pattern
-
-* translation theory = {law of translation <-> fundamental theorem of understanding}, where translation theory is the cleave of the interaction between "the law of translation" and "the fundamental theorem of understanding", where language is the interaction between them
-
-* mungu immune/protection/preservation theory, the Maher military, the Maher investigation bureau, the Maher intelligence agency, the Maher war system, the Maher games system, the Maher protection/self-protection system, The Maher preservation/enforecement center
-
-
-* fringe theory, outsider theory, marginalization
-
-
+* the Maher military, the Maher investigation bureau, the Maher intelligence agency, the Maher war system, the Maher games system, the Maher protection/self-protection system, The Maher preservation/enforecement center

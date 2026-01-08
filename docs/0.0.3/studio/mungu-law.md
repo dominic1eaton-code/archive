@@ -27804,6 +27804,30 @@ https://systemics.substack.com/p/why-mungu-theory-happened?r=70f4q6
 
 
 
+read these articles too:
+
+https://systemics.substack.com/p/the-mungu-papers?r=70f4q6
+
+https://systemics.substack.com/p/mungu-biology?r=70f4q6
+
+https://systemics.substack.com/p/mungu-review?r=70f4q6
+
+https://systemics.substack.com/p/mungu-canon-continued?r=70f4q6
+
+https://systemics.substack.com/p/mungu-evolution?r=70f4q6
+
+https://systemics.substack.com/p/autonomy?r=70f4q6
+
+https://systemics.substack.com/p/mungu-theory-notes?r=70f4q6
+
+https://systemics.substack.com/p/the-mungu-nash-equilibrium?r=70f4q6
+
+https://systemics.substack.com/p/the-fundamental-laws-of-mungu-theory?r=70f4q6
+
+
+
+formalize: CRR (Conservation-Reallocation-Redistribution ~ Closure-Recovery-Reproduction)
+
 =============================================================================================================================
 
 

@@ -26981,10 +26981,11 @@ give a post note for the blog post showing how this all then leads to: The Theor
 
 * the "anthropromorphic vantage point" <=> the "king of pointland attractor basin" <-the "mungu paradigm shift"-> the mungu attractor basin, where this leads to a closure of mungu canon, completing the mungu canon pattern; where the anthropromorphic vantage point is where a "thinking/reasoning system" "thinkks/believes" that it is the "default reference point" and anything that is not that system is fundamentally a derivation of that system (making this system the "king of pointland" where it believes that it is the only that exist and any external "sources" it only believes are just mere perturbations of its own self/"mind"), similar to how humans may think that "general intelligence" = "human intelligence" or that human "knowledge" and "understanding" is the standard for all "knowledge" and "understanding" in the "known" universe. Fundamentally this is an atrifact of "believing" that particles (kings of pointland) come before interaction, but once the interaction of mungu paradigm shift occurs, this attractor basin of believing that humans/monads/kings-of-pointland/particles are the center of the "universe" then "shifts" to the belief that interactions/systems/connections are the "fundamental reference points" that govern the universe of asymetry, effectively then forming the "mungu attractor basin"
 
-
+* formalize each of the following: mungitics, systemics, civitics, navigitics (contains meridian/alignment/orientation theory, the ACME method, the navigator<->cartographer system,), civilization operating systems, Ka/Ni/Se/Te (generalism-generation/structuralism-structuralization/formalism-formalization/applicism-application)
 
 * give me an outline for a doctoral thesis - introducing, formalizing, outlining and analyzing: The Theory of Agent
 * give me an outline for a monograph - introducing, formalizing, outlining and analyzing: Mungu Theory
+* give me an outline for a textbook - introducing, formalizing, outlining and analyzing: Civilization Operating Systems
 
 =============================================================================================================================
 

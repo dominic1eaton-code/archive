@@ -26971,9 +26971,7 @@ give a post note for the blog post showing how this all then leads to: The Theor
 * formalize each of the following: translation/intepretation theory = {law of translation/intepretation <-> fundamental theorem of understanding}, where translation/intepretation theory is the cleave of the interaction between "the law of translation/intepretation" and "the fundamental theorem of understanding", language theory, communication theory, perception theory, observationt theory, measure theory, transformation theory, translation theory, intepretation theory, mediums of transmission, transmission theory, gossip networks, gossip protocols, gossip theory, spread theory, epidemiology and its core theory: mungu epidemic theory, organizational theory
 
 * formalize each of the following: mungu immune/protection/preservation/survival theory
-
 * formalize each of the following: fringe theory, outsider theory, bias theory, boundary theory, distinction theory, marginalization
-
 * formalize: the fundamental assertion/assumption of mungu theory: "system(s) exist", which forms the root of mungu theory. it is from the fundamental assertion/assumption that all systems, meta-systems, and everything else is built
 
 * formalize and define: mungu theory, systems theory, general[ized] systems theory, special[ized] systems theory (any/all subsets of general systems theory), complex systems theory, complex adaptive systems theory, complex autonomus systems theory, agent systems theory, multi agent systems theory, DAO systems theory, civiization systems theory

@@ -26968,7 +26968,6 @@ give a post note for the blog post showing how this all then leads to: The Theor
 
 * formalize each of the following: the law of Dualonicity, orientation, alignment, dialectic, black swan polarity, positive black swans, negative black swans, the black swan event horizon, assumption, assertion, mungu canon, mungu philosophy, the theory of change
 
-
 * formalize each of the following: translation/intepretation theory = {law of translation/intepretation <-> fundamental theorem of understanding}, where translation/intepretation theory is the cleave of the interaction between "the law of translation/intepretation" and "the fundamental theorem of understanding", language theory, communication theory, perception theory, observationt theory, measure theory, transformation theory, translation theory, intepretation theory, mediums of transmission, transmission theory, gossip networks, gossip protocols, gossip theory, spread theory, epidemiology and its core theory: mungu epidemic theory, organizational theory
 
 * formalize each of the following: mungu immune/protection/preservation/survival theory

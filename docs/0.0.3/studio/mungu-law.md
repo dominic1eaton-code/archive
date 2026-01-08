@@ -27655,9 +27655,157 @@ Civilization Operating Systems give the machinery.
 Everything else is implementation.
 
 
+read the corpus of mungu theory:
+
+read the articles:
+
+https://medium.com/@songhai.institute/the-mungu-theory-of-evolution-4f1d7a86c9f3
+
+https://medium.com/@songhai.institute/mungu-proof-system-b1ea1a143563
+
+https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+https://medium.com/@songhai.institute/mungu-logic-81950a110853
+
+https://medium.com/@songhai.institute/four-missing-disciplines-for-a-complex-world-b05901ea31fd
+
+https://medium.com/@eatondo000/the-fundamental-theorem-of-patterns-14f6d4c80956
+
+https://medium.com/@eatondo000/mungu-theory-self-analysis-34be7aa302f7
+
+https://medium.com/@eatondo000/artificial-intelligence-is-not-general-intelligence-part-ii-c684e5f43897
+
+https://medium.com/@dominic1.eaton/what-is-mungu-theory-eba2be72acca
+
+https://medium.com/@dominic1.eaton/the-fundamental-laws-of-mungu-theory-042ca82599bb
+
+
+read the articles:
+
+https://open.substack.com/pub/systemics/p/the-fundamental-theorem-of-patterns?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-theory-notes?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/autonomy?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-evolution?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-fundamental-laws-of-mungu-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/navigitics?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-canon?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/nyamba?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-logic?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-ontology?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/ndando-604?utm_campaign=post-expanded-share&utm_medium=web
+
+
+
+read these articles too:
+
+https://open.substack.com/pub/systemics/p/the-jina-equations?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/o-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/u-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/jiwe?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/s-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/ebo-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/aogy-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/pre-systemics-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/systemic-physics-ii?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/systemic-physics?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-continuity-constraint?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/c-r-p-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-power-law-and-the-golden-ratio?utm_campaign=post-expanded-share&utm_medium=web
+
+
+
+read these articles too:
+
+https://systemics.substack.com/p/the-sibonic-civilizational-system?r=70f4q6
+
+https://systemics.substack.com/p/the-foundations-of-systems-208?r=70f4q6
+
+https://systemics.substack.com/p/e-theory?r=70f4q6
+
+https://systemics.substack.com/p/the-agent-intelligence-interaction?r=70f4q6
+
+https://systemics.substack.com/p/the-theory-of-decentralized-autonomous?r=70f4q6
+
+https://systemics.substack.com/p/the-theory-of-agent?r=70f4q6
+
+https://systemics.substack.com/p/ai-engineering-and-hlih?r=70f4q6
+
+https://systemics.substack.com/p/agent-completion-patterns?r=70f4q6
+
+https://systemics.substack.com/p/regime-theory-and-ledger-theory?r=70f4q6
+
+https://systemics.substack.com/p/blockchain-theory?r=70f4q6
+
+https://systemics.substack.com/p/ledger-theory?r=70f4q6
+
+https://systemics.substack.com/p/notes-on-the-why-attractor-basin?r=70f4q6
+
+https://systemics.substack.com/p/the-mungu-model?r=70f4q6
+
+https://systemics.substack.com/p/aillm-engineering?r=70f4q6
+
+https://systemics.substack.com/p/aillm-systems-engineering?r=70f4q6
+
+https://systemics.substack.com/p/aillm-hardware-engineering?r=70f4q6
+
+https://systemics.substack.com/p/the-sambara-project?r=70f4q6
+
+https://systemics.substack.com/p/the-sambara-os?r=70f4q6
+
+https://systemics.substack.com/p/general-purpose-operating-systems-206?r=70f4q6
+
+https://systemics.substack.com/p/general-purpose-operating-systems?r=70f4q6
+
+https://systemics.substack.com/p/artificial-intelligence-engineering-09c?r=70f4q6
+
+https://systemics.substack.com/p/artificial-intelligence-engineering?r=70f4q6
+
+https://systemics.substack.com/p/rehydration-boot-image-seed-mutations?r=70f4q6
+
+https://systemics.substack.com/p/the-dna-of-shared-intelligence?r=70f4q6
+
+https://systemics.substack.com/p/autonomous-systems?r=70f4q6
+
+https://systemics.substack.com/p/civilization-engineering-terraformata?r=70f4q6
+
+https://systemics.substack.com/p/systemics?r=70f4q6
+
+https://systemics.substack.com/p/systemology?r=70f4q6
+
+https://systemics.substack.com/p/unified-interaction-field-whitepaper?r=70f4q6
+
+https://systemics.substack.com/p/the-foundations-of-systems?r=70f4q6
+
+
+
+
+
+
 =============================================================================================================================
 
-
+* describe the process of how mungu theory generates/creates its own terminology/language (Mungu, Kora, Sibon, Aurilon, etc...)  to build a self-contained system and what that means and why.
 
 * formalize each of the following: the law of Dualonicity, orientation, alignment, dialectic, black swan polarity, positive black swans, negative black swans, the black swan event horizon, assumption, assertion, mungu canon, mungu philosophy, the theory of change
 
@@ -27676,7 +27824,7 @@ Everything else is implementation.
 
 * formalize each of the following: jiwe, collection, collation, process, ledger, distributed ledger, canon, block, chain, linking, blockchain, slab (a collection/collation of artifacts, a memory/block), bible (a collection of slabs, a colectin of collections, a history realized through/as a chain of memories/blocks forming a memory-chain/blockchain), inscription, inscribing, carving, artifact, glyph, compilation, bound, binding, artifact binding, version, memory, history, provenance, agreement, contract, smart-contract, policy, rule, protocol (set of rules governing the jiwe system/programs/blockchain/distributed-ledger/versioning-system), jiwe protocol, jiwe rule, jiwe policy, jiwe smart-contract, jiwe memory, jiwe history, jiwe provenance, jiwe inscription, jiwe inscription process, jiwe (slab) carving process, jiwe (chain) linking (process), jiwe binding (process), jiwe compilation (process), jiwe artifact, jiwe glyph, jiwe (distributed) ledger, jiwe block, jiwe blockchain, jiwe slab, jiwe bible, jiwe canon, jiwe smart-contract, jiwe program (any program/process/procedure/protocol/smart-contract that runs on the jiwe system (blockchain/distributed-ledger)), jiwe version, jiwe versioning system, jiwe system, jiwe kernel program (the fundamental protocol, implemented as a kernel smart-contract program, that runs on the jiwe system (blockchain/distributed-ledger) where it is the process of carving jiwe slabs, inscribing jiwe canon on jiwe slabs written in jiwe glyphs producing a jiwe artifact, compiling a bound set of jiwe artifacts together form a jiwe version, putting that jiwe version into a jiwe block, then adding that jiwe blcok to the jiwe blockchain/distributed-leger, where jiwe blocks form a chain as new jiwe versions are added to the distributed ledger, all of this producing a jiwe memory/history/provenance, where the entire fundamental blockchain formation/interaction/lifecycle process is governed by the jiwe protocol(s))
 
-* formalize each of the following: navigation theory (a navigational intelligence system), cartography theory (a mapping intelligence system), navigator, cartographer, navigator-cartographer joint intelligence system (and completion of eachothers/one-anothers pattern), polarity, polarity theory, social proof, social captial, social games, social game theory, games, game theory, social theory, fundamental theorem of dependence<->independence, meridian theory, orientation theory, organization theory (to organize is to change orientation from one frame/perspective/context to another), alignment theory (to align is orient in a common/shared polarity, resulting in organization), stewards, stewardship, owner, ownership, ownership theory (pure ownership is symmetry and cannot exist in the universe of existence, and can only exist in the universe of symmetry/non-existence), stewardship theory (pure stewardship is asymmetry and the only thing that can exist in the universe of asymmetry/existence)
+* formalize each of the following: navigation theory (a navigational intelligence system), cartography theory (a mapping intelligence system), navigator, cartographer, navigator-cartographer joint intelligence system (and completion of eachothers/one-anothers pattern), polarity, polarity theory, social proof, social captial, social games, social game theory, games, game theory, social theory, fundamental theorem of dependence<->independence, meridian theory, orientation theory, organization theory (to organize is to change orientation from one frame/perspective/context to another), alignment theory (to align is orient in a common/shared polarity, resulting in organization), symbiosis, symbiosis theory, stewards, stewardship, owner, ownership, ownership theory (pure ownership is symmetry and cannot exist in the universe of existence, and can only exist in the universe of symmetry/non-existence), stewardship theory (pure stewardship is asymmetry and the only thing that can exist in the universe of asymmetry/existence)
 
 
 

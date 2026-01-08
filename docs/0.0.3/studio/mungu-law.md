@@ -26959,7 +26959,7 @@ Reply **“n”** to complete the blog.
 
 
 
-give a post note for the blog post showing how this all then leads to: The Theory of Agent, which is the foundational theory for terraformata, civitics, civilization theory, civizlation kernels, DAOs, autonmous systems, complex systems, complex adaptive systems, complex autonomous systems, navigitics; where all of these things then forms the theoretical foundations for "civilization operating systems"
+give a post note for the blog post showing how this all then leads to: The Theory of Agent - which is the foundational theory for terraformata, civitics, civilization theory, civizlation kernels, DAOs, autonmous systems, complex systems, complex adaptive systems, complex autonomous systems, navigitics, systemics - where all of these things then forms the theoretical foundations for "civilization operating systems"
 
 
 =============================================================================================================================
@@ -26976,6 +26976,8 @@ give a post note for the blog post showing how this all then leads to: The Theor
 * formalize each of the following: fringe theory, outsider theory, bias theory, boundary theory, distinction theory, marginalization
 
 * formalize: the fundamental assertion/assumption of mungu theory: "system(s) exist", which forms the root of mungu theory. it is from the fundamental assertion/assumption that all systems, meta-systems, and everything else is built
+
+* formalize and define: mungu theory, systems theory, general systems theory, special systems theory (any/all subsets of general systems theory), complex systems theory, complex adaptive systems theory, complex autonomus systems theory, agent systems theory, multi agent systems theory, DAO systems theory, civiization systems theory
 
 * the "anthropromorphic vantage point" <=> the "king of pointland attractor basin" <-the "mungu paradigm shift"-> the mungu attractor basin, where this leads to a closure of mungu canon, completing the mungu canon pattern; where the anthropromorphic vantage point is where a "thinking/reasoning system" "thinkks/believes" that it is the "default reference point" and anything that is not that system is fundamentally a derivation of that system (making this system the "king of pointland" where it believes that it is the only that exist and any external "sources" it only believes are just mere perturbations of its own self/"mind"), similar to how humans may think that "general intelligence" = "human intelligence" or that human "knowledge" and "understanding" is the standard for all "knowledge" and "understanding" in the "known" universe. Fundamentally this is an atrifact of "believing" that particles (kings of pointland) come before interaction, but once the interaction of mungu paradigm shift occurs, this attractor basin of believing that humans/monads/kings-of-pointland/particles are the center of the "universe" then "shifts" to the belief that interactions/systems/connections are the "fundamental reference points" that govern the universe of asymetry, effectively then forming the "mungu attractor basin" 
 

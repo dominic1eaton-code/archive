@@ -26959,7 +26959,7 @@ Reply **“n”** to complete the blog.
 
 
 
-give a post note for the blog post showing how this all then leads to: The Theory of Agent, which is the foundational theory for terraformata, civitics, civilization theory, civizlation kernels, DAOs, autonmous systems, complex systems, complex adaptive systems, complex autonomous systems; where all of these things then forms the theoretical foundations for "civilization operating systems"
+give a post note for the blog post showing how this all then leads to: The Theory of Agent, which is the foundational theory for terraformata, civitics, civilization theory, civizlation kernels, DAOs, autonmous systems, complex systems, complex adaptive systems, complex autonomous systems, navigitics; where all of these things then forms the theoretical foundations for "civilization operating systems"
 
 
 =============================================================================================================================
@@ -26992,7 +26992,7 @@ give a post note for the blog post showing how this all then leads to: The Theor
     - navigitics
     - civilization operating systems
     - the sankofa project
-    - the theory of mungu evolution
+    - the theory of agent
     - jiwe canon
     - the nyamba language
 

@@ -26982,8 +26982,8 @@ give a post note for the blog post showing how this all then leads to: The Theor
 * mungu philosphy
 
 
-* give me an outline for my doctoral thesis introducing, formalizing, outlining and analyzing: The Theory of Agent
-* give me an outline for my monograph introducing, formalizing, outlining and analyzing:: Mungu Theory
+* give me an outline for a doctoral thesis - introducing, formalizing, outlining and analyzing: The Theory of Agent
+* give me an outline for a monograph - introducing, formalizing, outlining and analyzing: Mungu Theory
 
 =============================================================================================================================
 

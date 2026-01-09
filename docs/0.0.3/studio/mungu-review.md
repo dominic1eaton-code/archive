@@ -35205,7 +35205,7 @@ such that Sigma(T*) = Phi(T*).
 If at T* :
   I >= I_c and D >= D_c
 then trajectory -> acceptance attractor.
-
+enes / DNA / Ledgers / Blockchain / Jiwe /
 Else:
   trajectory -> exponential attractor
   until collapse resets Phi.

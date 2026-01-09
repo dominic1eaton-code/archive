@@ -1,16 +1,5 @@
 # notes
 
-diamond teams
-
-the 4 diamond teams of the navigator personal office:
-* marketing diamond team
-  - marketing, media, communications, public relations, stakeholder relations, sales, etc...
-* operations diamond team
-  - operations, finance, accounting, administration, HR, etc...
-* technical diamond team
-  - technology, software, security, engineering, hardware, IT, research and development, etc...
-* strategy diamond team
-  - strategy, management, executive, business development, business analysis, business optimization, systems, organization/firm/entity strategy, etc...
 
 
 
@@ -895,6 +884,21 @@ They are onboarded **before staff**.
 
 
 =========================================================================================================================
+
+diamond teams
+
+the 4 diamond teams of the navigator personal office:
+* marketing diamond team
+  - marketing, media, communications, public relations, stakeholder relations, sales, etc...
+* operations diamond team
+  - operations, finance, accounting, administration, HR, etc...
+* technical diamond team
+  - technology, software, security, engineering, hardware, IT, research and development, etc...
+* strategy diamond team
+  - strategy, management, executive, business development, business analysis, business optimization, systems, organization/firm/entity strategy, etc...
+
+
+
 
 Here’s a **clear description, comparison, and contrast** of the **team types** you asked about — **squad, chapter, guild, tiger, tribe, line, and domain** — so you can see *how they function, differ, and relate* in organizational and agile team design:
 

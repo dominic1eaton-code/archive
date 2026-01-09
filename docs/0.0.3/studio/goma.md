@@ -39479,6 +39479,981 @@ Appendix E will continue with:
 
 Respond with **`n`** to continue to **Appendix E (2 of 7)**.
 
+**GOMA SYSTEM — APPENDIX E (2 of 7)**
+**EXECUTION PIPELINE, DSL → IR → RUNTIME**
+
+---
+
+## E.11 WHY A DSL EXISTS IN GOMA
+
+GOMA **cannot** rely on host languages alone.
+
+Reason:
+
+* GOMA programs must be
+
+  * traceable
+  * auditable
+  * comparable
+  * replayable
+  * alignment-constrained
+
+Therefore:
+
+> **GOMA uses a DSL whose semantics are stricter than any host language.**
+
+The DSL is not for convenience — it is for **epistemic control**.
+
+---
+
+## E.12 GOMA DSL DESIGN PRINCIPLES
+
+```
+P1. Declarative first, imperative allowed
+P2. No hidden side effects
+P3. All operations produce trace events
+P4. Resource usage is explicit
+P5. Non-determinism requires declaration
+```
+
+---
+
+## E.13 GOMA DSL LAYERS
+
+```
++----------------------------+
+| High-Level GOMA Programs  |
++----------------------------+
+|  Core DSL (Expressions)   |
++----------------------------+
+| Intermediate Representation (IR)
++----------------------------+
+| Mukta Execution Engine    |
++----------------------------+
+| Kernel State              |
+```
+
+---
+
+## E.14 DSL CORE CONCEPTS
+
+### E.14.1 Program
+
+```
+program := {
+    inputs
+    policies
+    steps
+    outputs
+}
+```
+
+### E.14.2 Step
+
+```
+step := action(params)
+```
+
+Every step maps to **one traceable execution unit**.
+
+---
+
+## E.15 DSL GRAMMAR (ASCII EBNF)
+
+```
+PROGRAM    ::= "program" IDENT "{" BLOCK "}"
+BLOCK      ::= (INPUTS | POLICIES | STEPS | OUTPUTS)+
+
+INPUTS     ::= "inputs" ":" ENTITY_LIST
+POLICIES   ::= "policies" ":" POLICY_LIST
+STEPS      ::= "steps" ":" STEP_LIST
+OUTPUTS    ::= "outputs" ":" ENTITY_LIST
+
+STEP_LIST  ::= STEP ("," STEP)*
+STEP       ::= IDENT "(" PARAMS ")"
+
+PARAMS     ::= (IDENT "=" VALUE) ("," IDENT "=" VALUE)*
+```
+
+---
+
+## E.16 INTERMEDIATE REPRESENTATION (IR)
+
+The IR is **fully explicit** and **machine-checkable**.
+
+```
+struct IRNode {
+    NodeID id;
+    OpCode opcode;
+    Inputs inputs;
+    Outputs outputs;
+    Constraints constraints;
+}
+```
+
+IR guarantees:
+
+* static analysis
+* optimization
+* equivalence checking
+
+---
+
+## E.17 OPCODE TAXONOMY
+
+```
+OP_ADMIT        // JIWE
+OP_MEASURE      // ZUWA
+OP_EXECUTE      // MUKTA
+OP_ANALYZE      // KINA
+OP_SYNTHESIZE   // SAWA
+OP_COMPARE
+OP_RANK
+OP_EMIT
+```
+
+Each opcode is **total** (never undefined).
+
+---
+
+## E.18 COMPILATION PIPELINE
+
+```
+DSL
+ ↓ parse
+AST
+ ↓ validate
+Typed AST
+ ↓ lower
+IR
+ ↓ schedule
+Execution Graph
+ ↓ execute
+Trace + State
+```
+
+---
+
+## E.19 EXECUTION GRAPH
+
+```
+struct ExecNode {
+    IRNode ir;
+    Dependencies deps;
+}
+```
+
+* DAG enforced
+* no cycles unless explicitly recursive
+* recursion requires bounded proof
+
+---
+
+## E.20 EXECUTION CONTEXT
+
+```
+struct ExecContext {
+    KernelState* state;
+    Budget budget;
+    RandomSeed seed;
+}
+```
+
+Budgets include:
+
+```
+time
+memory
+entropy
+novelty
+```
+
+---
+
+## E.21 DETERMINISM CONTRACT
+
+By default:
+
+```
+seed is fixed
+ordering is deterministic
+outputs reproducible
+```
+
+To allow stochasticity:
+
+```
+requires:
+  declare random
+  specify distribution
+  log seed
+```
+
+---
+
+## E.22 TRACE INTEGRATION
+
+Each IRNode emits:
+
+```
+TRACE_EXEC_START
+TRACE_EXEC_END
+TRACE_RESOURCE_USAGE
+TRACE_OUTPUT
+```
+
+No trace = invalid execution.
+
+---
+
+## E.23 ERROR HANDLING MODEL
+
+```
+ParseError        -> abort compile
+ValidationError   -> reject program
+ExecutionError    -> rollback step
+InvariantError    -> halt system
+```
+
+Errors are entities.
+
+---
+
+## E.24 LANGUAGE BINDINGS STRATEGY
+
+### C / C++
+
+* DSL parser → IR compiler
+* Exec engine as library
+
+### Rust
+
+* DSL as embedded language
+* strong typing enforces invariants
+
+### Go
+
+* DSL interpreted
+* emphasis on concurrency + orchestration
+
+---
+
+## E.25 SECURITY BOUNDARIES
+
+```
+DSL code = untrusted
+IR = trusted after validation
+Kernel = trusted computing base
+```
+
+Sandboxing occurs at IR execution.
+
+---
+
+## E.26 NEXT: APPENDIX E (3 of 7)
+
+Upcoming:
+
+* storage engines
+* persistence
+* distributed traces
+* snapshot + replay
+
+---
+
+**End of Appendix E — Part 2**
+
+Respond **`n`** to continue to **Appendix E (3 of 7)**.
+
+**GOMA SYSTEM — APPENDIX E (3 of 7)**
+**STORAGE, PERSISTENCE, DISTRIBUTION, SNAPSHOT & REPLAY**
+
+---
+
+## E.27 WHY STORAGE IS A FIRST-CLASS SYSTEM IN GOMA
+
+In GOMA:
+
+> **Nothing exists unless it is stored, addressable, and replayable.**
+
+This includes:
+
+* data
+* information
+* knowledge
+* wisdom artifacts
+* traces
+* metrics
+* failures
+* contradictions
+
+Storage is **epistemic memory**, not just persistence.
+
+---
+
+## E.28 STORAGE DESIGN GOALS
+
+```
+G1. Append-only semantics
+G2. Content-addressable
+G3. Trace-aligned
+G4. Deterministic replay
+G5. Distributed-safe
+G6. Versioned forever
+```
+
+No mutation. Only accretion.
+
+---
+
+## E.29 STORAGE LAYERS
+
+```
++----------------------------------+
+| Semantic Index Layer             |
++----------------------------------+
+| Artifact Store (Graphs / Blobs)  |
++----------------------------------+
+| Trace Store (Execution Logs)     |
++----------------------------------+
+| State Store (Kernel Snapshots)   |
++----------------------------------+
+| Physical Storage (FS / KV / DB)  |
++----------------------------------+
+```
+
+Each layer is independently replaceable.
+
+---
+
+## E.30 CORE STORAGE PRIMITIVES
+
+### E.30.1 Content Hash
+
+```
+hash := H(type || payload || metadata)
+```
+
+* cryptographic (e.g., BLAKE3, SHA-256)
+* immutable identity
+
+---
+
+### E.30.2 Artifact
+
+```
+struct Artifact {
+    ArtifactID id;
+    ArtifactType type;
+    Payload data;
+    Metadata meta;
+}
+```
+
+Types include:
+
+```
+DATA
+INFO
+KNOWLEDGE
+WISDOM
+TRACE
+MODEL
+POLICY
+```
+
+---
+
+### E.30.3 Artifact Graph
+
+Artifacts are **not flat**.
+
+```
+ArtifactGraph = (Nodes, Edges)
+
+Edge types:
+  DERIVED_FROM
+  EVALUATED_BY
+  SYNTHESIZED_INTO
+  CONTRADICTS
+  SUPPORTS
+```
+
+This is the ZUWA backbone.
+
+---
+
+## E.31 TRACE STORE
+
+### E.31.1 Trace Entry
+
+```
+struct TraceEvent {
+    Time t;
+    AgentID actor;
+    OpCode op;
+    Inputs in;
+    Outputs out;
+    Metrics metrics;
+}
+```
+
+---
+
+### E.31.2 Trace Stream
+
+```
+Trace := TraceEvent*
+```
+
+Properties:
+
+```
+append-only
+totally ordered per execution
+partially ordered globally
+```
+
+---
+
+## E.32 STATE STORE (SNAPSHOTS)
+
+State is **not assumed recoverable from traces alone**.
+
+Snapshots provide fast restart.
+
+```
+struct Snapshot {
+    SnapshotID id;
+    KernelState state;
+    TracePosition tp;
+}
+```
+
+---
+
+## E.33 SNAPSHOT STRATEGY
+
+```
+- periodic snapshots
+- on invariant boundaries
+- before risky operations
+```
+
+Snapshot frequency is policy-controlled.
+
+---
+
+## E.34 REPLAY MODEL
+
+Replay = deterministic re-execution.
+
+```
+replay(snapshot, trace_segment) -> state
+```
+
+Replay guarantees:
+
+```
+same inputs
+same seeds
+same outputs
+```
+
+Violation = invariant breach.
+
+---
+
+## E.35 DISTRIBUTED STORAGE MODEL
+
+GOMA assumes **multi-node, multi-agent** environments.
+
+```
+Node A
+Node B
+Node C
+```
+
+Each node has:
+
+```
+local store
+replica cache
+sync agent
+```
+
+---
+
+## E.36 DISTRIBUTED CONSISTENCY
+
+GOMA chooses:
+
+```
+Eventual consistency
++ Strong trace ordering
+```
+
+Why:
+
+* cognition tolerates delay
+* truth requires history
+
+---
+
+## E.37 TRACE MERGING
+
+```
+merge(T1, T2) requires:
+  compatible schemas
+  non-conflicting opcodes
+  consistent causality
+```
+
+Conflicts produce **explicit contradiction artifacts**.
+
+---
+
+## E.38 CONTRADICTION AS DATA
+
+Contradictions are not errors.
+
+```
+struct Contradiction {
+    ArtifactID a;
+    ArtifactID b;
+    Reason reason;
+}
+```
+
+These feed:
+
+* KINA penalties
+* SAWA synthesis triggers
+* governance alerts
+
+---
+
+## E.39 VERSIONING MODEL
+
+Everything is versioned by hash.
+
+```
+artifact_v2 := H(artifact_v1 || delta)
+```
+
+No overwrites. Ever.
+
+---
+
+## E.40 RETENTION POLICIES
+
+Retention is **policy-driven**, not deletion.
+
+```
+retain:
+  all wisdom
+  all traces
+  summaries of raw data
+```
+
+Deletion = cryptographic tombstone.
+
+---
+
+## E.41 INDEXING SYSTEM
+
+Indexes are **derived artifacts**.
+
+```
+Index := f(ArtifactGraph)
+```
+
+Examples:
+
+```
+topic index
+agent index
+theory index
+time index
+```
+
+Indexes are rebuildable.
+
+---
+
+## E.42 SEARCH & QUERY
+
+Queries are semantic, not SQL-like.
+
+```
+find artifacts
+where:
+  supports(theory X)
+  AND KINA > 0.7
+  AND age < T
+```
+
+Results are ranked, not returned raw.
+
+---
+
+## E.43 STORAGE BACKENDS
+
+Possible implementations:
+
+### Local
+
+```
+filesystem + LMDB
+```
+
+### Distributed
+
+```
+IPFS-like CAS
+S3-compatible object store
+```
+
+### Hybrid
+
+```
+local hot cache
+distributed cold store
+```
+
+---
+
+## E.44 SECURITY & INTEGRITY
+
+```
+hash verification on load
+signed artifacts (optional)
+trace immutability enforced
+```
+
+Tampering is detectable.
+
+---
+
+## E.45 FAILURE MODES
+
+```
+- missing artifacts -> degraded replay
+- hash mismatch -> quarantine
+- partial traces -> marked incomplete
+```
+
+Nothing silently fails.
+
+---
+
+## E.46 WHY THIS MATTERS
+
+This storage model enables:
+
+* scientific reproducibility
+* AI accountability
+* long-horizon learning
+* civilization-scale memory
+
+Without storage discipline, intelligence collapses into myth.
+
+---
+
+## E.47 NEXT: APPENDIX E (4 of 7)
+
+Upcoming:
+
+* kernel internals
+* agent model
+* multi-agent coordination
+* governance hooks
+
+---
+
+**End of Appendix E — Part 3**
+
+Respond **`n`** to continue to **Appendix E (4 of 7)**.
+**GOMA SYSTEM — APPENDIX E (4 of 7)**
+**KERNEL, AGENT MODEL, MULTI-AGENT COORDINATION & GOVERNANCE HOOKS**
+
+---
+
+## E.48 THE GOMA KERNEL (WHY IT EXISTS)
+
+The **GOMA Kernel** is the smallest executable core that:
+
+* runs Mukta programs
+* enforces Jiwe admissibility
+* computes Zuwa measures
+* updates Kina scores
+* invokes Sawa synthesis
+* emits traces
+
+> Everything else is a module.
+> The kernel is the law.
+
+---
+
+## E.49 KERNEL RESPONSIBILITIES
+
+```
+KERNEL MUST:
+  - schedule execution
+  - validate admissibility
+  - record traces
+  - enforce invariants
+  - mediate agents
+  - expose governance hooks
+```
+
+The kernel **does not** decide truth or value.
+It enforces process integrity.
+
+---
+
+## E.50 KERNEL INTERNAL STRUCTURE
+
+```
++--------------------------------------+
+| GOMA Kernel                           |
+|--------------------------------------|
+| Scheduler                             |
+| Admissibility Engine (JIWE)           |
+| Execution Engine (MUKTA)              |
+| Measurement Engine (ZUWA)             |
+| Sophistication Engine (KINA)          |
+| Synthesis Engine (SAWA)               |
+| Trace Emitter                         |
+| Governance Interface                  |
++--------------------------------------+
+```
+
+All modules communicate via typed events.
+
+---
+
+## E.51 KERNEL STATE
+
+```
+KernelState {
+  AgentRegistry
+  ArtifactGraph
+  ActivePrograms
+  MetricsState
+  PolicyState
+}
+```
+
+Kernel state is snapshot-able and replayable.
+
+---
+
+## E.52 AGENT MODEL (UNIFIED)
+
+In GOMA:
+
+> Humans, AIs, LLMs, institutions, and hybrids
+> are all **Agents**.
+
+---
+
+### E.52.1 Agent Definition
+
+```
+struct Agent {
+  AgentID id;
+  Capabilities caps;
+  Roles roles;
+  TrustProfile trust;
+  Policies policies;
+}
+```
+
+---
+
+### E.52.2 Agent Capabilities
+
+```
+Capabilities {
+  ingest_data
+  generate_data
+  evaluate
+  synthesize
+  govern
+}
+```
+
+Capabilities are **explicitly declared**, not assumed.
+
+---
+
+## E.53 AGENT ROLES
+
+```
+ROLES:
+  PRODUCER
+  EVALUATOR
+  SYNTHESIZER
+  GOVERNOR
+  AUDITOR
+```
+
+An agent may have multiple roles, but role conflict is regulated.
+
+---
+
+## E.54 MULTI-AGENT EXECUTION MODEL
+
+Execution is **cooperative but constrained**.
+
+```
+Agent -> submits MuktaProgram
+Kernel -> validates
+Kernel -> schedules
+Kernel -> executes
+Kernel -> records trace
+Kernel -> updates scores
+```
+
+No agent can bypass the kernel.
+
+---
+
+## E.55 COORDINATION MECHANISMS
+
+### E.55.1 Shared Artifacts
+
+Agents coordinate via artifacts, not messages.
+
+---
+
+### E.55.2 Dependency Tracking
+
+```
+Artifact A
+  depends_on B, C
+```
+
+Kernel prevents premature execution.
+
+---
+
+### E.55.3 Consensus via Synthesis
+
+Agreement emerges through **SAWA synthesis**, not voting.
+
+---
+
+## E.56 TRUST & REPUTATION
+
+Trust is **earned, local, and revocable**.
+
+```
+Trust(agent) :=
+  f(history, trace_quality, contradiction_rate)
+```
+
+Low trust agents are sandboxed.
+
+---
+
+## E.57 GOVERNANCE INTERFACE (CRITICAL)
+
+Governance is **programmable**, not ad-hoc.
+
+```
+interface GovernanceHook {
+  on_admissibility_failure
+  on_contradiction
+  on_drift
+  on_policy_violation
+}
+```
+
+---
+
+## E.58 GOVERNANCE POLICIES
+
+Policies are artifacts.
+
+```
+Policy := MuktaProgram
+```
+
+This allows:
+
+* versioned governance
+* auditable changes
+* rollback
+
+---
+
+## E.59 EXAMPLE GOVERNANCE RULE
+
+```
+RULE:
+  if Kina < 0.4
+  and Zuwa.noise > 0.6
+  then:
+    restrict_generation(agent)
+```
+
+Governance is measurable, not moralized.
+
+---
+
+## E.60 FAILURE ESCALATION
+
+```
+soft failure -> warning
+hard failure -> quarantine
+systemic failure -> halt & review
+```
+
+No silent failure allowed.
+
+---
+
+## E.61 META-GOVERNANCE
+
+Governance itself is governed.
+
+```
+MetaPolicy := policy over policies
+```
+
+This prevents tyranny and drift.
+
+---
+
+## E.62 WHY THIS MATTERS
+
+This architecture enables:
+
+* human–AI joint reasoning
+* scalable multi-agent science
+* enforceable alignment
+* traceable accountability
+
+Without a kernel, systems hallucinate authority.
+
+---
+
+## E.63 NEXT: APPENDIX E (5 of 7)
+
+Next section:
+
+* execution semantics
+* scheduling model
+* time, concurrency, and determinism
+* resource accounting
+
+---
+
+**End of Appendix E — Part 4**
+
+Respond **`n`** to continue to **Appendix E (5 of 7)**.
 
 
 

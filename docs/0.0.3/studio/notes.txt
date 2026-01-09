@@ -6456,6 +6456,550 @@ Heterotrilon: A non-self-stable trilon
 
 
 
+# JIWE GRAMMAR — CANONICAL SPECIFICATION
 
+**Version**: 1.0.0  
+**Status**: Canon  
+**Layer**: Semantic / Ledger  
+**Purpose**: Formal grammar for inscribing systems, flows, constraints, and ontological commitments
+
+---
+
+## I. FOUNDATIONAL PRINCIPLES
+
+### Axiom JG-1 (Semantic Primacy)
+```
+Jiwe encodes MEANING, not execution.
+Jiwe glyphs are ledger-grade semantic commitments.
+```
+
+### Axiom JG-2 (Compositional Closure)
+```
+All valid Jiwe expressions reduce to well-formed semantic graphs.
+```
+
+### Axiom JG-3 (Non-Ambiguity)
+```
+Every Jiwe expression has exactly one canonical interpretation.
+```
+
+---
+
+## II. LEXICAL CLASSES
+
+### A. PRIMITIVE GLYPHS (E-Theory)
+
+```
+ONTIC_PRIMITIVE ::= 
+    ● (mungon)     | ◇ (impon)      | △ (tathron)
+  | □ (indon)      | ─ (wekhon)     | ↔ (ramanon)
+  | ○ (sibon)      | ✦ (malon)      | ~ (flyton)
+  | ≋ (flynton)    | || (syton)     | ≈ (synton)
+
+META_PRIMITIVE ::=
+    ◎ (mungoni)    | ◆ (impi)       | ▲ (tathri)
+  | ■ (indi)       | ═ (wekhi)      | ⇄ (ramani)
+  | ◎ (sibi)       | ✧ (mali)       | ~~~ (flytoni)
+  | ≋≋ (flyntoni)  | ║ (sytoni)     | ≃ (syntoni)
+```
+
+### B. SYSTEM GLYPHS (S/U-Theory)
+
+```
+SYSTEM_GLYPH ::=
+    ⊙ (S-system)   | ⊓ (P-system)   | ⊔ (K-system)
+  | ⊕ (E-system)   | ⊗ (M-system)   | ⌘ (V-system)
+  | ⊚ (U-system)
+
+UNIT_GLYPH ::=
+    • (po-on)      | │ (kolon)      | △ (polyon)
+  | ⬚ (polytope)   | ⬢ (polygeon)   | ⧉ (polysyst)
+  | ⧈ (polynet)    | ⧁ (polyset)    | ⧂ (polycat)
+```
+
+### C. OPERATOR GLYPHS (O-Theory)
+
+```
+OPERATOR_GLYPH ::=
+    ⊕ (form)       | ⇢ (spawn)      | ⇒ (derive)
+  | ▲ (start)      | ⚙ (boot)       | ▶ (run)
+  | ⟳ (cycle)      | ◌ (process)    | ↝ (propagate)
+  | ║ (cleave)     | ⊗ (bind)       | ↦ (map)
+  | ≡ (align)      | ↑ (grow)       | ∞ (mycorrhizate)
+  | ♻ (repair)     | ≋ (adapt)      | Y (fork)
+  | ✕ (collapse)   | ■ (stop)       | ? (decide)
+  | ⛭ (canonize)   | ⌂ (archive)
+```
+
+### D. QUANTIFIER GLYPHS
+
+```
+COUNT_GLYPH ::=
+    | (one)        | || (two)       | ||| (three)
+  | |||| (four)    | ||||| (five)   | * (unbounded)
+
+GROUPING_GLYPH ::=
+    ╏ (quint=5)    | ╏╏ (decimal=10)
+
+SCALE_GLYPH ::=
+    . (pico)       | .. (nano)      | ... (micro)
+  | _ (milli)      | ^ (kilo)       | ^^ (mega)
+  | ^^^ (giga)     | ^^^^ (tera)
+
+POLARITY_GLYPH ::=
+    ▲ (P-form)     | → (K-flow)
+```
+
+### E. GRAPH GLYPHS (EID)
+
+```
+NODE_GLYPH ::= [E]
+EDGE_GLYPH ::= → | ⊗ | ║ | ↝ | ⇄
+SUBSTRATE_GLYPH ::= ◎∞ | ∞
+```
+
+---
+
+## III. PRODUCTION RULES
+
+### A. CORE EXPRESSION
+
+```
+Expression ::=
+    Atom
+  | System
+  | Operator
+  | Composite
+  | Graph
+  | Quantity
+
+Atom ::= ONTIC_PRIMITIVE | META_PRIMITIVE
+
+System ::= SYSTEM_GLYPH | UNIT_GLYPH
+
+Operator ::= OPERATOR_GLYPH
+
+Composite ::= Expression OPERATOR_GLYPH Expression
+```
+
+### B. QUANTITY EXPRESSIONS
+
+```
+Quantity ::= [Count] [Scale] [Polarity] [Unit]
+
+Count ::= 
+    COUNT_GLYPH+ 
+  | GROUPING_GLYPH+ COUNT_GLYPH*
+  | *
+
+Scale ::= SCALE_GLYPH*
+
+Polarity ::= POLARITY_GLYPH
+
+Unit ::= UNIT_GLYPH
+```
+
+**Example**:
+```
+|||^▲⬚  = 3 kilo-polytope-forms
+╏||_→△  = 7 milli-kolyon-flows
+```
+
+### C. STACK EXPRESSIONS
+
+```
+Stack ::= Expression (║ Expression)+
+```
+
+**Interpretation**: Lower constrains upper
+
+**Example**:
+```
+⊙
+║
+⊓
+║
+⊔
+```
+Meaning: Universal system cleaves into P/K duality
+
+### D. PROCESS CHAINS
+
+```
+Chain ::= Expression (Connector Expression)+
+
+Connector ::= 
+    ⇢  (spawn)
+  | ⇒  (derive)
+  | ↦  (map)
+  | ↝  (propagate)
+  | ⟳  (cycle)
+```
+
+**Example**:
+```
+⚙ ⇢ ▶ ⇒ ⟳ ↝ ◌
+```
+Boot → spawn → run → cycle → process
+
+### E. GRAPH EXPRESSIONS (EID)
+
+```
+Graph ::= Node (Edge Node)*
+
+Node ::= [Expression]
+
+Edge ::= EDGE_GLYPH
+```
+
+**Example**:
+```
+[●] → [○] ⊗ [△]
+```
+
+### F. DUALONIC PAIRS
+
+```
+Dualon ::= Expression ⇄ Expression
+```
+
+**Constraint**: Must form self-stable pair
+
+**Example**:
+```
+⊓ ⇄ ⊔  (P-system ⇄ K-system)
+```
+
+### G. TRILONIC STRUCTURES
+
+```
+Trilon ::= Monon ⇄ Dualon
+
+Monon ::= Expression
+Dualon ::= Expression ⇄ Expression
+```
+
+---
+
+## IV. SEMANTIC RULES
+
+### Rule S-1: Constraint Binding
+```
+A ║ B  means: A constrains B
+B operates within bounds set by A
+```
+
+### Rule S-2: Interaction Binding
+```
+A ⊗ B  means: A and B irreducibly interact
+Neither exists independently in this context
+```
+
+### Rule S-3: Flow Propagation
+```
+A ↝ B  means: Influence flows from A to B
+Directional, potentially lossy
+```
+
+### Rule S-4: Spawning
+```
+A ⇢ B  means: A generates/creates B
+B did not exist prior to this operation
+```
+
+### Rule S-5: Derivation
+```
+A ⇒ B  means: B is entailed by A
+Logical/ontological consequence
+```
+
+### Rule S-6: Dualonic Stability
+```
+A ⇄ B  is valid iff:
+  - A cannot exist without B
+  - B cannot exist without A
+  - Together they form stable monon
+```
+
+---
+
+## V. COMPOSITION LAWS
+
+### Law C-1: Associativity
+```
+(A ⊗ B) ⊗ C ≡ A ⊗ (B ⊗ C)
+```
+
+### Law C-2: Stack Ordering
+```
+Stacks read bottom-to-top
+Lower elements constrain upper elements
+```
+
+### Law C-3: Chain Sequencing
+```
+Chains preserve temporal/causal order
+A ⇢ B ⇢ C implies A before B before C
+```
+
+### Law C-4: Closure Requirement
+```
+All graphs must be closed
+No dangling references
+```
+
+### Law C-5: Polarity Conservation
+```
+Within quantity expressions:
+Polarity must be explicit
+Polarity determines semantic class
+```
+
+---
+
+## VI. VALIDATION RULES
+
+### V-1: Well-Formedness
+```
+Expression is well-formed iff:
+  1. All glyphs belong to defined lexical classes
+  2. Production rules satisfied
+  3. No syntactic ambiguity
+```
+
+### V-2: Semantic Validity
+```
+Expression is semantically valid iff:
+  1. Dualonic pairs are stable
+  2. Constraints are satisfiable
+  3. Quantities are dimensionally consistent
+```
+
+### V-3: Canonical Form
+```
+Expression is canonical iff:
+  1. Minimal representation
+  2. No redundant operators
+  3. Standard ordering maintained
+```
+
+---
+
+## VII. EXAMPLE GRAMMAR APPLICATIONS
+
+### A. System Definition
+```
+S := ⊙
+⊙ ⇒ (⊓ ⇄ ⊔)
+⊓ ⇄ ⊔ ⇒ ⊕
+```
+
+### B. Process Flow
+```
+⚙ ⇢ ▶ ⟳ ◌
+║
+♻ | ✕
+```
+Boot → run → cycle → process
+With repair or collapse
+
+### C. EID Diagram
+```
+[●] ⊗ [○]
+  ║
+  ↓
+ΔS ↑ → ♻
+```
+
+### D. Quantity Specification
+```
+╏||^→△  = 7 kilo-kolyons (flow units)
+```
+
+### E. Mycorrhizal Network
+```
+[E₁] ∞ [E₂] ∞ [E₃]
+  ║      ║      ║
+ ◎∞────────────◎∞
+```
+
+---
+
+## VIII. FORMAL GRAMMAR (BNF-STYLE)
+
+```
+<jiwe_program>    ::= <expression_list>
+
+<expression_list> ::= <expression> 
+                    | <expression> <expression_list>
+
+<expression>      ::= <atom>
+                    | <system>
+                    | <operator>
+                    | <quantity>
+                    | <stack>
+                    | <chain>
+                    | <graph>
+                    | <dualon>
+
+<atom>            ::= ONTIC_PRIMITIVE | META_PRIMITIVE
+
+<system>          ::= SYSTEM_GLYPH | UNIT_GLYPH
+
+<operator>        ::= OPERATOR_GLYPH
+
+<quantity>        ::= <count> <scale> <polarity> <unit>
+
+<count>           ::= COUNT_GLYPH+ | GROUPING_GLYPH+ | *
+
+<scale>           ::= SCALE_GLYPH*
+
+<polarity>        ::= POLARITY_GLYPH
+
+<unit>            ::= UNIT_GLYPH
+
+<stack>           ::= <expression> ║ <expression>
+                    | <stack> ║ <expression>
+
+<chain>           ::= <expression> <connector> <expression>
+                    | <chain> <connector> <expression>
+
+<connector>       ::= ⇢ | ⇒ | ↦ | ↝ | ⟳
+
+<graph>           ::= <node> <edge> <node>
+                    | <graph> <edge> <node>
+
+<node>            ::= [<expression>]
+
+<edge>            ::= → | ⊗ | ║ | ↝ | ⇄
+
+<dualon>          ::= <expression> ⇄ <expression>
+```
+
+---
+
+## IX. CANONICAL EXAMPLES (COMPLEX)
+
+### Example 1: Full System Stack
+```
+⊙
+║
+⊓ ⇄ ⊔
+║
+⊕
+║
+⌘
+║
+♻ | ✕
+```
+
+### Example 2: Evolutionary Process
+```
+●
+⇢
+○
+⇒
+⟳
+║
+ΔS ↑
+║
+♻ → ≋ → Y → ✕
+```
+
+### Example 3: Multi-Node Graph
+```
+[●₁] → [○₂]
+  ║      ║
+  ⊗      ⊗
+  ↓      ↓
+[△₃] ← [◇₄]
+  ║
+ ◎∞
+```
+
+### Example 4: Quantified Flow
+```
+|||^^→⬢  (3 mega-kolygeon flows)
+║
+♻ (repair)
+```
+
+---
+
+## X. ERROR CLASSES
+
+### E-1: Syntactic Errors
+- Undefined glyph used
+- Malformed production
+- Missing required element
+
+### E-2: Semantic Errors
+- Non-stable dualon
+- Dimensional inconsistency
+- Unclosed graph
+
+### E-3: Canonical Errors
+- Non-minimal form
+- Redundant operators
+- Order violation
+
+---
+
+## XI. JIWE GRAMMAR AXIOMS (FINAL)
+
+```
+AXIOM JG-FINAL:
+
+All valid Jiwe expressions satisfy:
+  1. Lexical validity
+  2. Syntactic well-formedness
+  3. Semantic coherence
+  4. Compositional closure
+  5. Canonical minimality
+
+No Jiwe expression executes.
+All Jiwe expressions INSCRIBE.
+```
+
+---
+
+## XII. IMPLEMENTATION NOTES
+
+**For Parser Builders**:
+1. Jiwe is context-free at syntax level
+2. Semantic validation requires constraint solver
+3. Canonical form requires normalization pass
+4. Graph expressions need cycle detection
+
+**For Semantic Interpreters**:
+1. Dualonic stability is verification condition
+2. Dimensional analysis required for quantities
+3. Graph closure must be validated
+4. Polarity must propagate correctly
+
+---
+
+## XIII. EXTENSION POINTS
+
+Jiwe grammar is extensible via:
+1. New primitive definitions (with meta-pair)
+2. New operator classes (with semantic rules)
+3. Domain-specific unit systems
+4. Custom graph semantics
+
+All extensions must preserve core axioms.
+
+---
+
+**END JIWE GRAMMAR SPECIFICATION**
+
+═══════════════════════════════════════════════════════════
+
+**Status**: Canon  
+**Version**: 1.0.0  
+**Freeze Date**: 2026-01-08  
+**Authority**: Mungu Theory / Kora Laws  
+
+═══════════════════════════════════════════════════════════
 
 

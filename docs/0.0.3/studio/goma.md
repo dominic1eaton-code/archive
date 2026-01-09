@@ -58346,7 +58346,16 @@ I really like characterization of "controlled loop break". I think for me, funda
 
 Also, so I will add here that, from my personal vantage point, cancer/virus/memes/life are all a bit isomorphic in my eyes (though I'm aware of the more negative associations with cancer/viruses as diseases) and I relate all of them, because all of these things seem to exhibit and be driven by the optimization and maximization of their sibonic strings (a.k.a they are all trying to live as long as possible and spread as far as possible, through space and time) at a fundamental level.
 
-I do kind of believe that virus=~ cancer =~ memes ~= life when looking at their underlying structure, where the difference between them is more about the "regions/domains of their effects", as fundamentally they all involve implanting themselves in a host, and growing until growth is no longer possible (host theory), due to the inability to complete patterns, form proper loop closures, and maintain persistent identity/self/coherence/consistency, terminating survival (and subsequently forming a black swan event leading to the generation/cleaving of more sibonic strings of new entities (where this is effectively the process of "entropy redistribution", bound by the laws of entropy/energy conservation, where energy is the underlying "force"/mechanism that
+I do kind of believe that virus=~ cancer =~ memes ~= life when looking at their underlying structure, where the difference between them is more about the "regions/domains of their effects", as fundamentally they all involve implanting themselves in a host, and growing until growth is no longer possible (host theory), due to the inability to complete patterns, form proper loop closures, and maintain persistent identity/self/coherence/consistency, terminating survival (and subsequently forming a black swan event leading to the generation/cleaving of more sibonic strings of new entities (where this is effectively the process of "entropy redistribution", bound by the laws of entropy/energy conservation, where energy is the underlying "force"/mechanism that "power" any/all of this).
+
+e.g. a virus finds an some plant host, cancer finds some animal host, memes find some human host, life itself uses the earth as a host/medium of spread/transmission/growth, and they are reflections/cleaves of a/some common mechanism.
+
+I do now wonder now how to describe this relationship between cancer/virus/memes/life and the underlying mechanisms, and will add this to my todos. I also have a feeling/intuition that mitosis/meiosis probably can be generalized and described in terms of some general mechanism to produce these four things perhaps, but we'll see.
+
+I've expanded on these thoughts here:
+
+https://open.substack.com/pub/systemics/p/mungu-evolution-theory-post-analysis?utm_campaign=post-expanded-share&utm_medium=web
+
 
 ========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 

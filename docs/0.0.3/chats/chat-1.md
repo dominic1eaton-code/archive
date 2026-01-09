@@ -56490,3 +56490,13 @@ Just point.
 
 No file chosenNo file chosen
 ChatGPT can make mistakes. Check important info.
+
+
+
+for anyone interested:
+
+https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+https://open.substack.com/pub/systemics/p/autonomy?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-evolution?utm_campaign=post-expanded-share&utm_medium=web

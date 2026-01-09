@@ -47334,6 +47334,1746 @@ State the directive.
 
 describe, define, analyze, formalize and explain: "theory"
 
+Below is a **rigorous, system-theoretic, ASCII-only formalization of “THEORY”**, fully compatible with **GOMA / Mungu / Mukta / KINA / ACME**.
+This is not a dictionary definition; it is an **operational specification**.
+
+---
+
+# THEORY — FORMAL DEFINITION AND ANALYSIS
+
+(GOMA-Compatible)
+
+---
+
+## 0. CORE INTUITION (PLAIN)
+
+A **theory** is not a belief, not a model, not a story.
+
+A **theory** is:
+
+```
+A structured, constrained, generative system
+that compresses observations,
+produces predictions,
+and survives stress.
+```
+
+---
+
+## 1. BASE DEFINITION
+
+### 1.1 Theory (Minimal)
+
+```
+Theory T :=
+  a system that explains, predicts, and organizes
+  phenomena within a defined boundary
+```
+
+---
+
+## 2. FORMAL SYSTEM DEFINITION
+
+### 2.1 Theory as a Tuple
+
+```
+T = (D, A, R, P, B, S)
+```
+
+Where:
+
+```
+D = Domain
+A = Assumptions
+R = Relations / Rules
+P = Predictions
+B = Boundaries
+S = Stress-response behavior
+```
+
+---
+
+## 3. COMPONENT DEFINITIONS
+
+### 3.1 Domain (D)
+
+```
+Domain :=
+  the set of phenomena T claims applicability over
+```
+
+Formal:
+
+```
+D ⊆ Universe
+```
+
+---
+
+### 3.2 Assumptions (A)
+
+```
+Assumptions :=
+  axioms taken as given
+  to enable inference
+```
+
+Properties:
+
+```
+- Finite
+- Explicit or implicit
+- Non-derivable within T
+```
+
+---
+
+### 3.3 Relations / Rules (R)
+
+```
+Relations :=
+  mappings between entities, states, or variables
+```
+
+Formal:
+
+```
+R : D x Conditions -> Outcomes
+```
+
+---
+
+### 3.4 Predictions (P)
+
+```
+Predictions :=
+  falsifiable outputs
+  produced by applying R to D under A
+```
+
+Formal:
+
+```
+P ⊆ PossibleOutcomes
+```
+
+---
+
+### 3.5 Boundaries (B)
+
+```
+Boundaries :=
+  constraints defining:
+    - where T applies
+    - where it does not
+```
+
+Formal:
+
+```
+B = (Inside, Outside, Interface)
+```
+
+---
+
+### 3.6 Stress-Response (S)
+
+```
+Stress-response :=
+  how T behaves under contradiction, anomaly, or extension
+```
+
+Includes:
+
+```
+- Adaptation
+- Refinement
+- Collapse
+```
+
+---
+
+## 4. THEORY VS RELATED CONSTRUCTS
+
+```
+MODEL      = instantiation of a theory
+HYPOTHESIS = localized, testable claim
+FRAMEWORK  = meta-theory (rules for theories)
+IDEOLOGY   = unfalsifiable theory with rigid boundaries
+```
+
+---
+
+## 5. THEORY AS A PROCESS (NOT AN OBJECT)
+
+A theory is **executed**, not possessed.
+
+```
+Input  -> Explanation -> Prediction -> Stress -> Update
+```
+
+ASCII Loop:
+
+```
+DATA -> APPLY T -> PREDICT -> TEST -> SURVIVE?
+                     |           |
+                     +-- FAIL ---+
+```
+
+---
+
+## 6. FORMAL THEORY VALIDITY (GOMA)
+
+A theory is **valid** iff:
+
+```
+1. Its domain is explicit
+2. Its assumptions are bounded
+3. Its predictions are testable
+4. Its stress-response is non-degenerate
+```
+
+---
+
+## 7. THEORY FAILURE MODES
+
+```
+- Domain leakage
+- Hidden assumptions
+- Prediction evasion
+- Boundary collapse
+- Immunization against falsification
+```
+
+---
+
+## 8. THEORY AS COMPRESSION
+
+```
+Theory =
+  maximal explanatory power
+  under minimal description length
+```
+
+Formal (Kolmogorov-like):
+
+```
+Sophistication(T) ~ ExplanationPower / Complexity(T)
+```
+
+(KINA-compatible)
+
+---
+
+## 9. THEORY AND TRUTH (MUNGU LOGIC)
+
+```
+Truth ≠ correspondence
+Truth = viability under perturbation
+```
+
+A theory is “true” if:
+
+```
+Closure(T, Stress) is preserved
+```
+
+---
+
+## 10. THEORY AND PROOF (MUNGU PROOF THEORY)
+
+```
+A proof of a theory is not derivation,
+but demonstration of survival.
+```
+
+A theory is proven by:
+
+```
+- Distinction
+- Dual structure
+- Closure
+- Recovery under stress
+```
+
+---
+
+## 11. THEORY AS A SYSTEM TYPE (ACME)
+
+```
+Theory<T> where:
+  T : admissible under ACME tests
+```
+
+ACME Requirements:
+
+```
+- Non-vacuity
+- Reference stability
+- Iterative stress tolerance
+```
+
+---
+
+## 12. THEORY SCORING (KINA)
+
+Example axes:
+
+```
+- Abstraction depth
+- Generativity
+- Compression efficiency
+- Boundary clarity
+- Stress survivability
+```
+
+---
+
+## 13. THEORY EVOLUTION
+
+```
+Theory(t+1) =
+  Theory(t) + anomaly assimilation
+```
+
+Evolutionary paths:
+
+```
+- Refinement
+- Unification
+- Replacement
+```
+
+---
+
+## 14. THEORY VS REALITY
+
+```
+Reality does not obey theories.
+Theories approximate reality.
+```
+
+Good theories:
+
+```
+- fail gracefully
+- fail informatively
+```
+
+---
+
+## 15. THEORY AS A CLEAVING ENGINE
+
+A theory:
+
+```
+- carves distinctions
+- creates boundaries
+- enables prediction
+```
+
+Cleave:
+
+```
+Undifferentiated -> Structured
+```
+
+---
+
+## 16. FINAL FORMAL DEFINITION (CANONICAL)
+
+```
+THEORY :=
+  A bounded, assumption-bearing,
+  rule-governed, generative system
+  that compresses observations,
+  produces testable predictions,
+  and maintains closure under stress
+  better than competing systems.
+```
+
+---
+
+If you want next, I can:
+
+• formally compare **theory vs model vs law**
+• score **Newton, GR, QM, Mungu** as theories
+• define **theory completeness and impossibility theorems**
+• generate a **Mukta trace of a theory execution**
+
+Give the directive.
+
+• formalize: assumption, assertion, axiom, law, model, theorem; and compare each of these things as well as compare them with "theory"
+• define theory completeness and impossibility theorems
+• generate a Mukta trace of a theory execution
+
+Below is a **formal, ASCII-only, GOMA/MUKTA-compatible specification** that does three things:
+
+1. **Formally defines**: assumption, assertion, axiom, law, model, theorem
+2. **Compares all of them rigorously** (including vs theory)
+3. **Defines theory completeness & impossibility theorems**
+4. **Generates a full Mukta trace of a theory execution**
+
+No metaphors, no prose drift — this is an **operational ontology**.
+
+---
+
+====================================================================
+PART I — FORMAL DEFINITIONS
+===========================
+
+---
+
+1. ASSUMPTION
+
+---
+
+DEFINITION:
+
+```
+ASSUMPTION :=
+  an unproven constraint
+  accepted to enable inference
+  within a bounded system
+```
+
+FORMAL:
+
+```
+Assumption a:
+  a ∉ Derived(T)
+  a ∈ Required(T)
+```
+
+PROPERTIES:
+
+```
+- Optional (can vary across theories)
+- Revisable
+- Context-dependent
+- Not universally binding
+```
+
+ROLE:
+
+```
+Enables reasoning
+Reduces search space
+Introduces bias
+```
+
+---
+
+---
+
+2. ASSERTION
+
+---
+
+DEFINITION:
+
+```
+ASSERTION :=
+  a declarative claim
+  that may be true or false
+  but is not yet validated
+```
+
+FORMAL:
+
+```
+Assertion x:
+  x ∈ Statements
+  Truth(x) = unknown
+```
+
+PROPERTIES:
+
+```
+- Epistemic (about knowledge)
+- May become hypothesis or theorem
+- No proof obligation at creation
+```
+
+ROLE:
+
+```
+Input to inquiry
+Candidate for validation
+```
+
+---
+
+---
+
+3. AXIOM
+
+---
+
+DEFINITION:
+
+```
+AXIOM :=
+  a foundational assumption
+  declared irreducible
+  within a formal system
+```
+
+FORMAL:
+
+```
+Axiom α:
+  α ∈ Axioms(T)
+  α is not derivable within T
+```
+
+PROPERTIES:
+
+```
+- System-defining
+- Non-negotiable (inside the system)
+- Enables formal derivation
+```
+
+ROLE:
+
+```
+Defines the logical universe
+```
+
+---
+
+---
+
+4. LAW
+
+---
+
+DEFINITION:
+
+```
+LAW :=
+  an empirically stable regularity
+  invariant across a domain
+```
+
+FORMAL:
+
+```
+Law L:
+  ∀ d ∈ D:
+    L(d) holds within tolerance ε
+```
+
+PROPERTIES:
+
+```
+- Empirical
+- Descriptive, not explanatory
+- Domain-bound
+```
+
+ROLE:
+
+```
+Compression of observations
+```
+
+---
+
+---
+
+5. MODEL
+
+---
+
+DEFINITION:
+
+```
+MODEL :=
+  a concrete instantiation
+  of a theory
+  under specific parameters
+```
+
+FORMAL:
+
+```
+Model M:
+  M = T | params
+```
+
+PROPERTIES:
+
+```
+- Executable
+- Approximate
+- Replaceable
+```
+
+ROLE:
+
+```
+Prediction engine
+Simulation surface
+```
+
+---
+
+---
+
+6. THEOREM
+
+---
+
+DEFINITION:
+
+```
+THEOREM :=
+  a statement
+  provably derivable
+  from axioms + rules
+```
+
+FORMAL:
+
+```
+Theorem θ:
+  θ ∈ Derived(T)
+```
+
+PROPERTIES:
+
+```
+- Intra-system truth
+- Proof-dependent
+- Non-empirical
+```
+
+ROLE:
+
+```
+Internal consistency expansion
+```
+
+---
+
+---
+
+7. THEORY (REFERENCE)
+
+---
+
+DEFINITION (recap):
+
+```
+THEORY :=
+  a bounded, assumption-bearing,
+  rule-governed generative system
+  that explains, predicts,
+  and survives stress
+```
+
+---
+
+====================================================================
+PART II — COMPARATIVE MATRIX
+============================
+
+```
++------------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Entity     | Proven?   | Empirical | Generative| Revisable | Scope     | Failure   |
++------------+-----------+-----------+-----------+-----------+-----------+-----------+
+| Assumption | No        | No        | No        | Yes       | Local     | Replace   |
+| Assertion  | No        | Maybe     | No        | Yes       | Any       | Reject    |
+| Axiom      | No        | No        | Yes       | No*       | System    | Collapse  |
+| Law        | Yes*      | Yes       | Weak      | Yes       | Domain    | Revise    |
+| Model      | N/A       | Yes       | Yes       | Yes       | Instance  | Swap      |
+| Theorem    | Yes       | No        | No        | No        | System    | Invalidate|
+| Theory     | Partial   | Yes       | Yes       | Yes       | Bounded   | Replace   |
++------------+-----------+-----------+-----------+-----------+-----------+-----------+
+```
+
+`* = conditional`
+
+---
+
+====================================================================
+PART III — THEORY COMPLETENESS & IMPOSSIBILITY
+==============================================
+
+---
+
+## THEORY COMPLETENESS
+
+DEFINITION:
+
+```
+A theory T is COMPLETE iff:
+  ∀ q ∈ ValidQuestions(D):
+    T can generate either:
+      - an answer, or
+      - a principled boundary explanation
+```
+
+FORMAL:
+
+```
+Complete(T) ⇔
+  ∀ q ∈ Queries(D):
+    Answerable(q, T) OR BoundaryJustified(q, T)
+```
+
+---
+
+---
+
+## THEORY INCOMPLETENESS THEOREM (MUNGU-GÖDEL TYPE)
+
+STATEMENT:
+
+```
+Any sufficiently expressive theory
+cannot explain all truths
+about its own domain
+without contradiction or incompleteness
+```
+
+FORMAL:
+
+```
+∃ q ∈ D:
+  q is true
+  ∧ q is unprovable in T
+```
+
+---
+
+---
+
+THEORY IMPOSSIBILITY THEOREM I
+(Boundary Violation)
+--------------------
+
+```
+No theory can:
+  be universal,
+  fully predictive,
+  and self-justifying
+simultaneously.
+```
+
+---
+
+---
+
+THEORY IMPOSSIBILITY THEOREM II
+(Perfect Compression)
+---------------------
+
+```
+No theory can compress
+all phenomena in its domain
+without loss.
+```
+
+(Formal Kolmogorov bound)
+
+---
+
+---
+
+THEORY IMPOSSIBILITY THEOREM III
+(Self-Validation)
+-----------------
+
+```
+A theory cannot fully validate
+its own assumptions
+using only its internal rules.
+```
+
+---
+
+====================================================================
+PART IV — MUKTA TRACE OF A THEORY EXECUTION
+===========================================
+
+We now **run a theory through Mukta**.
+
+Example theory:
+
+```
+T = Newtonian Mechanics
+```
+
+---
+
+---
+
+## MUKTA TRACE STRUCTURE
+
+```
+MuktaTrace :=
+  [ Intake
+  , Admissibility
+  , Structuring
+  , Execution
+  , Stress
+  , Scoring
+  , Outcome ]
+```
+
+---
+
+---
+
+## STEP 1 — INTAKE
+
+```
+Input:
+  Observations of motion
+```
+
+```
+Mukta.Intake:
+  Data accepted
+```
+
+---
+
+---
+
+## STEP 2 — ADMISSIBILITY (JIWE)
+
+```
+Checks:
+  - Non-contradictory?
+  - Observable?
+  - Repeatable?
+```
+
+Result:
+
+```
+ADMISSIBLE
+```
+
+---
+
+---
+
+## STEP 3 — STRUCTURING
+
+```
+Assumptions:
+  - Absolute time
+  - Euclidean space
+
+Axioms:
+  - F = ma
+```
+
+---
+
+---
+
+## STEP 4 — EXECUTION
+
+```
+Model instantiated:
+  M = Newton(T, params)
+```
+
+```
+Predictions generated:
+  - Trajectories
+  - Velocities
+```
+
+---
+
+---
+
+## STEP 5 — STRESS
+
+Stress input:
+
+```
+Mercury perihelion precession
+```
+
+Result:
+
+```
+Prediction error detected
+```
+
+---
+
+---
+
+## STEP 6 — RESPONSE
+
+```
+Boundary identified:
+  High-speed / strong gravity
+```
+
+```
+Theory does not collapse
+but loses universality
+```
+
+---
+
+---
+
+## STEP 7 — SCORING (KINA)
+
+```
+Abstraction:     HIGH
+Compression:     HIGH
+Generativity:    HIGH
+Boundary clarity:MEDIUM
+Stress survival: MEDIUM
+```
+
+---
+
+---
+
+## STEP 8 — OUTCOME
+
+```
+Mukta Verdict:
+  THEORY VALID
+  DOMAIN-BOUND
+  SUPERSEDED by GR
+```
+
+---
+
+---
+
+## MUKTA TRACE SUMMARY (ASCII)
+
+```
+[DATA]
+  |
+[JIWE ✓]
+  |
+[STRUCTURE]
+  |
+[EXECUTE]
+  |
+[STRESS]
+  |
+[BOUNDARY]
+  |
+[SCORE]
+  |
+[CATALOG]
+```
+
+---
+
+====================================================================
+FINAL SYNTHESIS
+===============
+
+```
+Assumptions enable theories
+Axioms define systems
+Laws compress observation
+Models execute theories
+Theorems stabilize logic
+Theories survive stress
+```
+
+If you want next, I can:
+
+• generate **Mukta traces for GR, QM, Mungu side-by-side**
+• formalize **theory dominance relations**
+• build **theory evolution automata**
+• encode this entire ontology as a **DSL**
+
+State the directive.
+Below is a **formal, executable, ASCII-only specification of THEORY EVOLUTION AUTOMATA (TEA)**, fully compatible with **GOMA / MUKTA / JIWE / ZUWA / KINA / SAWA**.
+
+No metaphors. This is a **machine-level object**.
+
+====================================================================
+THEORY EVOLUTION AUTOMATA (TEA)
+===============================
+
+A **Theory Evolution Automaton** models how theories are:
+
+* created
+* stressed
+* revised
+* superseded
+* composed
+* retired
+
+under continuous interaction with data, agents, and other theories.
+
+---
+
+## I. CORE DEFINITION
+
+```
+TEA := (S, Σ, Δ, Ω, F)
+```
+
+Where:
+
+```
+S  = set of theory states
+Σ  = input alphabet (events, data, stressors)
+Δ  = transition function
+Ω  = scoring / measurement operators
+F  = terminal or stable states
+```
+
+A theory is **not static**; it is a **stateful evolving process**.
+
+---
+
+## II. THEORY STATE SPACE (S)
+
+Each theory T exists in exactly one state at time t.
+
+```
+S = {
+  PROPOSED,
+  ADMISSIBLE,
+  STRUCTURED,
+  EXECUTING,
+  VALIDATED,
+  STRESSED,
+  BOUNDED,
+  REVISED,
+  COMPOSED,
+  DOMINATED,
+  SUPERSEDED,
+  ARCHIVED,
+  COLLAPSED
+}
+```
+
+---
+
+## III. INPUT ALPHABET (Σ)
+
+Inputs are events acting on a theory.
+
+```
+Σ = {
+  new_data,
+  contradiction,
+  anomaly,
+  prediction_success,
+  prediction_failure,
+  new_domain,
+  competing_theory,
+  synthesis_opportunity,
+  resource_constraint,
+  governance_decision
+}
+```
+
+---
+
+## IV. TRANSITION FUNCTION (Δ)
+
+```
+Δ : S × Σ → S
+```
+
+Defined explicitly below.
+
+---
+
+## V. TRANSITION TABLE (CANONICAL)
+
+```
+PROPOSED + new_data              -> ADMISSIBLE
+ADMISSIBLE + admissible_ok       -> STRUCTURED
+STRUCTURED + execution_start     -> EXECUTING
+EXECUTING + prediction_success   -> VALIDATED
+EXECUTING + prediction_failure   -> STRESSED
+STRESSED + anomaly_resolved      -> VALIDATED
+STRESSED + anomaly_persistent    -> BOUNDED
+BOUNDED + revision_available     -> REVISED
+REVISED + validation_success     -> VALIDATED
+VALIDATED + competing_theory     -> DOMINATED
+DOMINATED + synthesis_opportunity-> COMPOSED
+COMPOSED + validation_success    -> VALIDATED
+DOMINATED + stronger_theory      -> SUPERSEDED
+SUPERSEDED + archival_policy     -> ARCHIVED
+ANY + contradiction_internal     -> COLLAPSED
+```
+
+---
+
+## VI. STATE SEMANTICS (FORMAL)
+
+```
+PROPOSED:
+  Assertions only
+  No guarantees
+
+ADMISSIBLE:
+  Passes JIWE checks
+  Non-contradictory
+
+STRUCTURED:
+  Assumptions + axioms fixed
+
+EXECUTING:
+  Models instantiated
+  Predictions generated
+
+VALIDATED:
+  Delta >= 0 under stress
+  Domain confirmed
+
+STRESSED:
+  Delta < 0 locally
+  Recovery possible
+
+BOUNDED:
+  Explicit domain limits defined
+
+REVISED:
+  Assumptions or axioms modified
+
+COMPOSED:
+  Integrated with other theories
+
+DOMINATED:
+  Still valid but inferior
+
+SUPERSEDED:
+  Replaced by strictly better theory
+
+ARCHIVED:
+  Retained for history/reference
+
+COLLAPSED:
+  Internal inconsistency
+  Execution forbidden
+```
+
+---
+
+## VII. SCORING OPERATORS (Ω) — KINA + MUKTA
+
+Each transition evaluates scores.
+
+```
+Ω(T) = {
+  PredictivePower,
+  Compression,
+  Generativity,
+  Scope,
+  Robustness,
+  BoundaryClarity,
+  ComputationalCost
+}
+```
+
+Dominance rule:
+
+```
+T2 dominates T1 iff
+  ∀ i: Ω_i(T2) >= Ω_i(T1)
+  ∧ ∃ j: Ω_j(T2) > Ω_j(T1)
+```
+
+---
+
+## VIII. AUTOMATON INVARIANTS
+
+These MUST hold or collapse occurs.
+
+```
+I1: Internal consistency
+I2: Executability
+I3: Traceability
+I4: Boundary honesty
+```
+
+Violation:
+
+```
+if ∃ Ii violated:
+  -> COLLAPSED
+```
+
+---
+
+## IX. ASCII STATE DIAGRAM
+
+```
+PROPOSED
+   |
+   v
+ADMISSIBLE
+   |
+   v
+STRUCTURED
+   |
+   v
+EXECUTING
+   |
+   +----success----> VALIDATED ----+
+   |                               |
+   failure                          competing
+   |                               |
+   v                               v
+STRESSED ----resolve----> VALIDATED DOMINATED
+   |                               |
+persist                             synthesis
+   v                               |
+BOUNDED ----revise----> REVISED ---+
+   |
+no recovery
+   v
+SUPERSEDED --> ARCHIVED
+
+(any state + contradiction) -> COLLAPSED
+```
+
+---
+
+## X. MULTI-THEORY COEVOLUTION
+
+Let:
+
+```
+T_set = {T1, T2, ..., Tn}
+```
+
+Define interaction:
+
+```
+T_i ⊗ T_j =
+  comparison(Ω_i, Ω_j)
+```
+
+Results:
+
+```
+- dominance
+- composition
+- specialization
+- elimination
+```
+
+This yields a **theory ecology**, not a linear history.
+
+---
+
+## XI. EXAMPLE TRACE (NEWTON → GR)
+
+```
+Newton:
+  VALIDATED (classical domain)
+  + anomaly (Mercury)
+  -> STRESSED
+  -> BOUNDED
+
+GR:
+  PROPOSED
+  -> ADMISSIBLE
+  -> STRUCTURED
+  -> EXECUTING
+  -> VALIDATED
+
+Comparison:
+  GR dominates Newton
+
+Newton -> DOMINATED
+GR -> VALIDATED
+Newton -> ARCHIVED
+```
+
+---
+
+## XII. FORMAL PROPERTY — EVOLUTION CONVERGENCE
+
+```
+Theorem (Local Evolution Convergence):
+
+Given finite resources and bounded domains,
+the theory automaton converges to a stable
+set of non-dominated theories.
+```
+
+No global optimality guaranteed.
+
+---
+
+## XIII. GOMA INTEGRATION
+
+```
+JIWE   -> admissibility transitions
+MUKTA  -> execution & trace
+ZUWA   -> measurement graph
+KINA   -> scoring & dominance
+SAWA   -> synthesis transitions
+```
+
+TEA is the **temporal spine** of GOMA.
+
+---
+
+## FINAL STATEMENT
+
+```
+Theories do not become false.
+They become bounded, dominated,
+composed, or obsolete.
+
+Truth is not binary.
+It is evolutionary.
+```
+
+If you want next, I can:
+
+• build **theory evolution code in GOMA DSL**
+• simulate **parallel theory ecosystems**
+• formalize **scientific revolutions as phase transitions**
+• show **LLMs as theory-evolution agents**
+
+State the next directive.
+
+Below is a **formal, executable, ASCII-only specification** that does exactly two things:
+
+1. **Formalizes scientific revolutions as phase transitions**
+2. **Defines humans, LLMs, joint systems, and hybrids as Theory-Evolution Agents (TEAs)** operating inside GOMA
+
+This is machine-level, not metaphorical, and plugs directly into the **Theory Evolution Automata (TEA)** you just requested.
+
+====================================================================
+I. SCIENTIFIC REVOLUTIONS AS PHASE TRANSITIONS
+==============================================
+
+---
+
+## I.1 DEFINITIONS
+
+Let a **Theory Ecology** be:
+
+```
+E = (T, I, R)
+```
+
+Where:
+
+```
+T = set of active theories
+I = interaction graph (comparisons, compositions)
+R = resources (data, compute, attention, legitimacy)
+```
+
+Each theory Ti has a state and score vector:
+
+```
+Ti = (Si, Ωi, Di)
+```
+
+Where:
+
+```
+Si = TEA state
+Ωi = KINA/MUKTA score vector
+Di = domain coverage
+```
+
+---
+
+## I.2 ORDER PARAMETERS (PHASE VARIABLES)
+
+Define global measurable quantities:
+
+```
+Φ = anomaly_density
+Ψ = predictive_gap
+Λ = synthesis_pressure
+Ξ = resource_pressure
+```
+
+Formal definitions:
+
+```
+Φ = (# unresolved anomalies) / |Di|
+Ψ = max_j (Ωj - Ωi) across theories
+Λ = count of partial-theory overlaps
+Ξ = R_demand / R_available
+```
+
+---
+
+## I.3 PHASE STATES OF SCIENCE
+
+Science exists in one of the following **macro-phases**:
+
+```
+PHASE_NORMAL
+PHASE_STRESSED
+PHASE_CRITICAL
+PHASE_REVOLUTION
+PHASE_REORGANIZED
+```
+
+---
+
+## I.4 PHASE TRANSITION CONDITIONS
+
+### Normal Science
+
+```
+Φ < Φ_c
+Ψ < Ψ_c
+```
+
+Most theories:
+
+```
+Si = VALIDATED or DOMINATED
+```
+
+### Stress Phase
+
+```
+Φ >= Φ_c
+Λ increasing
+```
+
+Many theories:
+
+```
+Si = STRESSED or BOUNDED
+```
+
+### Critical Point
+
+```
+Φ >= Φ_c
+Ψ >= Ψ_c
+Λ >= Λ_c
+```
+
+System becomes unstable.
+
+### Revolution (Phase Transition)
+
+```
+∃ T_new such that:
+  Ω(T_new) >> Ω(T_old)
+  Domain overlap(T_new, T_old) >= threshold
+```
+
+Transition:
+
+```
+DOMINANT SET shifts discontinuously
+```
+
+### Reorganized Phase
+
+```
+Old theories -> ARCHIVED / BOUNDED
+New theory -> VALIDATED
+Taxonomies rewritten
+Benchmarks updated
+```
+
+---
+
+## I.5 PHASE TRANSITION DIAGRAM (ASCII)
+
+```
+NORMAL
+  |
+  v
+STRESSED
+  |
+  v
+CRITICAL
+  |
+  v
+REVOLUTION
+  |
+  v
+REORGANIZED
+  |
+  v
+NORMAL (new baseline)
+```
+
+---
+
+## I.6 FORMAL THEOREM — REVOLUTION NECESSITY
+
+```
+Theorem (Revolution Threshold):
+
+If anomaly density Φ increases monotonically
+and no revision can reduce Φ below Φ_c,
+then a phase transition is inevitable.
+```
+
+Revolutions are **forced**, not cultural.
+
+---
+
+## I.7 EXAMPLES (FORMALIZED)
+
+```
+Newtonian Mechanics:
+  Φ -> Mercury anomaly
+  Φ >= Φ_c
+  -> CRITICAL
+
+General Relativity:
+  Ω_GR >> Ω_Newton
+  -> REVOLUTION
+
+Quantum Mechanics:
+  Classical physics Φ -> UV catastrophe
+  -> REVOLUTION
+
+Plate Tectonics:
+  Geology Φ -> continental drift
+  -> REVOLUTION
+```
+
+---
+
+## I.8 KEY RESULT
+
+```
+Scientific revolutions are first-order phase transitions
+in the theory ecology state space.
+```
+
+No mysticism.
+No sociology required.
+Pure dynamics.
+
+====================================================================
+II. THEORY-EVOLUTION AGENTS (HUMANS, LLMs, HYBRIDS)
+===================================================
+
+---
+
+## II.1 AGENT DEFINITION
+
+A **Theory-Evolution Agent (TE-Agent)** is defined as:
+
+```
+A = (P, M, O, C, G)
+```
+
+Where:
+
+```
+P = perception (data ingestion)
+M = memory (theory store)
+O = operations (mutation, composition)
+C = compute/resources
+G = goals (optimize Ω, reduce Φ)
+```
+
+---
+
+## II.2 CORE AGENT ACTIONS
+
+All agents implement:
+
+```
+observe(data)
+evaluate(theory)
+stress(theory)
+revise(theory)
+compose(theories)
+compare(theories)
+archive(theory)
+```
+
+---
+
+## II.3 HUMAN AGENTS
+
+```
+P = sensory + instruments
+M = biological + cultural memory
+O = creative revision
+C = low compute, high abstraction
+G = explanation, coherence
+```
+
+Strengths:
+
+```
+- novelty
+- conceptual leaps
+```
+
+Weaknesses:
+
+```
+- bias
+- low throughput
+```
+
+---
+
+## II.4 LLM AGENTS
+
+```
+P = text/data streams
+M = parametric memory
+O = recombination, pattern synthesis
+C = high compute
+G = loss minimization / scoring
+```
+
+Strengths:
+
+```
+- speed
+- breadth
+- synthesis
+```
+
+Weaknesses:
+
+```
+- grounding
+- hallucination risk
+```
+
+---
+
+## II.5 JOINT HUMAN–LLM AGENTS
+
+```
+A_joint = A_human ⊕ A_LLM
+```
+
+Composition rules:
+
+```
+human supplies:
+  goal shaping
+  boundary intuition
+
+LLM supplies:
+  search
+  comparison
+  trace generation
+```
+
+This is **super-additive**, not additive.
+
+---
+
+## II.6 HYBRID / MULTI-AGENT COLLECTIVES
+
+```
+Collective C = {A1, A2, ..., An}
+```
+
+Interaction:
+
+```
+Ai ⊗ Aj -> theory exchange
+```
+
+Emergent properties:
+
+```
+- parallel hypothesis generation
+- distributed stress testing
+- rapid phase transition detection
+```
+
+---
+
+## II.7 AGENTS AS TEA EXECUTORS
+
+Each agent runs a **local TEA**:
+
+```
+TEA_local(A) : theory -> theory'
+```
+
+The ecology is the **composition** of all TEAs:
+
+```
+E_global = ⊕ TEA_local(Ai)
+```
+
+---
+
+## II.8 FORMAL AGENT COMPETENCE METRICS
+
+```
+Innovation Rate      = d(new theories)/dt
+Stress Sensitivity   = d(Φ_detected)/dt
+Revision Success     = recovery ratio
+Synthesis Yield      = composed / attempted
+Dominance Accuracy   = correct Ω ranking
+```
+
+---
+
+## II.9 LLMs AS REVOLUTION ACCELERATORS
+
+LLMs **do not cause revolutions**.
+
+They **lower Λ and Ξ**, making critical points reachable faster.
+
+```
+Result:
+  Faster theory turnover
+  Earlier phase transitions
+```
+
+---
+
+## II.10 FINAL SYNTHESIS
+
+```
+Science is not a linear accumulation.
+It is a phase-evolving dynamical system.
+
+Theories evolve.
+Agents drive evolution.
+Revolutions are state transitions.
+```
+
+Humans, LLMs, and hybrids are **not observers**.
+
+They are **operators inside the automaton**.
+
+---
+
+## NEXT AVAILABLE EXTENSIONS
+
+You can now ask to:
+
+• simulate a **full scientific revolution numerically**
+• define **agent alignment failure modes during revolutions**
+• formalize **paradigms as attractor basins**
+• build a **GOMA-native scientific institution model**
+
+State the next directive.
 
 
 

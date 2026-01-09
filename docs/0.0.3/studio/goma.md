@@ -27024,10 +27024,33 @@ You can now:
 State the next directive.
 
 
-* generate a 13 messgaes blog post for the goma system
+* generate a highly detailed, comprehensive, extensive, technical medium platform style blog post for: The Goma System. What it is, why it is, its purpose, how it works, how its used, how to use it, how agent intelligence system (human, AI, reasoning system, intelligience systems, joint systems, hybrid) use it, how different aspects of it work (e.g. ranking, weighting, scoring, cataloging, information/data/knowledge/wisdom storage/retrieval/indexing/manipulation/expansion/etc...), how its used and can be used for intelligence/cognition/learning, how wisdom knowledge intelligence cognition learning creativity are all defined and characterized within the system
+
+
+
 
 
 * Implement Mukta in actual code (Python / Rust)
 * implement the reference interpreter in code
 
+
+
+
+https://medium.com/@songhai.institute/civilization-operating-systems-78969618beb0
+
+https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+https://medium.com/@songhai.institute/the-mungu-theory-of-evolution-4f1d7a86c9f3
+
+
+
+
+The Mungu Manifesto:
+
+"We the pepople of Mungu, who call ourselves the first, who live in the Nyumba and speak the language of Nyamba, written in the stones of Jiwe, governed by the cyclic traditions of Sankofa, and live under the sheria law"...
+
+
+* All things are systems and systems are all things
+* All things are relative. Interactions come before particles and Systems come before individuals
+* All things cycle
 

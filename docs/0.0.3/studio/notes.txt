@@ -1,5 +1,20 @@
 # notes
 
+diamond teams
+
+the 4 diamond teams of the navigator personal office:
+* marketing diamond team
+  - marketing, media, communications, public relations, stakeholder relations, sales, etc...
+* operations diamond team
+  - operations, finance, accounting, administration, HR, etc...
+* technical diamond team
+  - technology, software, security, engineering, hardware, IT, research and development, etc...
+* strategy diamond team
+  - strategy, management, executive, business development, business analysis, business optimization, systems, organization/firm/entity strategy, etc...
+
+
+
+
 so my top priorities right now and for month 1 of year 1 are:
 
 * outreach and member search campaign

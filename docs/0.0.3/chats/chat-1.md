@@ -56493,6 +56493,10 @@ ChatGPT can make mistakes. Check important info.
 
 
 
+
+formalize: host theory, symbiosis theory, parasite theory, mutual/joint survival optimization, mutually assured destruction
+
+
 for anyone interested:
 
 https://medium.com/@songhai.institute/mungu-theory-b304798432f5

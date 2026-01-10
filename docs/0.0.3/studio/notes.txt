@@ -15946,6 +15946,62 @@ Just say which.
 ```
 
 
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|101 | Reproduction                                       | Ω → Ω + Ω'                                                                                  | ⟐⟐        | RP               |
+|102 | Death                                              | Ω → 0 locally, conserved globally                                                           | ✕Ω         | DE               |
+|103 | Life                                               | Sustained Ω circulation                                                                     | ♻Ω         | LI               |
+|104 | Birth                                              | Ω injection event                                                                           | +Ω         | BI               |
+|105 | Aging                                              | dΩ/dt < 0 under entropy                                                                     | Ω↓         | AG               |
+|106 | Entropy                                            | ∂Ω dispersion maximization                                                                  | ≋          | EN               |
+|107 | Negentropy                                         | Constraint-induced Ω compression                                                            | ≋⊣         | NE               |
+|108 | Time                                               | Ordering of Ω transitions                                                                  | →          | TI               |
+|109 | Arrow of Time                                      | Monotonic Ω entropy gradient                                                                | →≋         | AT               |
+|110 | Reversibility                                      | Ω(t₁)=Ω(t₂) under symmetry                                                                  | ↺Ω         | RV               |
+|111 | Irreversibility                                    | Ω(t₁)≠Ω(t₂)                                                                                | ↛          | IRV              |
+|112 | Memory                                             | Stored Ω configuration                                                                     | □Ω         | ME               |
+|113 | Forgetting                                         | Ω dissipation                                                                               | □⊘         | FO               |
+|114 | Learning                                           | ΔΩ/Δt > 0 with constraint tightening                                                        | ↑Ω⊣        | LE               |
+|115 | Intelligence                                       | Rate of Ω gain per constraint                                                               | Ω̇/⊣       | IN               |
+|116 | General Intelligence                               | Supremum over task-specific Ω gains                                                         | sup Ω̇     | GI               |
+|117 | Artificial Intelligence                            | Engineered Ω optimizer                                                                     | ⚙Ω         | AI               |
+|118 | Natural Intelligence                               | Evolved Ω optimizer                                                                         | 🌱Ω         | NI               |
+|119 | Collective Intelligence                            | Ω aggregation across agents                                                                 | ΩΣ         | CI               |
+|120 | Superintelligence                                  | Ω optimization beyond human bounds                                                          | Ω≫         | SI               |
+|121 | Consciousness                                      | Recursive Ω self-model                                                                     | Ω⟳         | CO               |
+|122 | Awareness                                          | Local Ω state observability                                                                 | ◔Ω         | AW               |
+|123 | Self                                               | Persistent Ω identity                                                                       | ◯Ω         | SE               |
+|124 | Ego                                                | Boundary-enforced Ω self-prioritization                                                      | ◯⊣         | EG               |
+|125 | Identity                                           | Invariant Ω signature                                                                      | Ω≡         | ID               |
+|126 | Free Will                                          | Choice among Ω trajectories                                                                 | ↺?         | FW               |
+|127 | Determinism                                        | Single Ω trajectory                                                                         | →!         | DT               |
+|128 | Probabilism                                        | Distribution over Ω trajectories                                                            | →≈         | PR               |
+|129 | Randomness                                         | Uncorrelated Ω perturbation                                                                 | ≈⊘         | RA               |
+|130 | Noise                                              | Entropic Ω fluctuation                                                                     | ≋≈         | NO               |
+|131 | Signal                                             | Structured Ω pattern                                                                       | ▣Ω         | SI               |
+|132 | Meaning                                            | Stable signal under perturbation                                                            | ▣Ω⊣        | MN               |
+|133 | Truth                                              | Ω-consistent signal                                                                         | ✔Ω         | TR               |
+|134 | Falsehood                                          | Ω-inconsistent signal                                                                       | ✕Ω         | FA               |
+|135 | Hallucination                                      | Apparent Ω gain with hidden Ω debt                                                          | Ω↑⊘        | HA               |
+|136 | Hallucination Suppression                          | Penalize hidden Ω debt                                                                      | ⛔Ω⊘       | HS               |
+|137 | Loss Function                                      | L = Ω_debt + λ·variance                                                                     | L(Ω)       | LF               |
+|138 | Regularization                                     | Constraint on Ω curvature                                                                  | ⊣Ω''       | RG               |
+|139 | Overfitting                                        | Local Ω maximization failure                                                                | Ω↯         | OF               |
+|140 | Generalization                                     | Ω stability across domains                                                                  | Ω≈         | GE               |
+|141 | Early Stopping                                     | Stop when d²Ω/dt² < 0                                                                       | ⏹Ω         | ES               |
+|142 | Optimization                                       | argmax Ω under constraints                                                                 | maxΩ       | OP               |
+|143 | Gradient                                           | ∇Ω                                                                                          | ▽Ω         | GR               |
+|144 | Descent                                            | −∇L                                                                                        | ▽⊘         | DS               |
+|145 | Ascent                                             | ∇Ω                                                                                          | ▽◆         | AS               |
+|146 | Saddle Point                                       | ∇Ω=0, Hessian mixed                                                                         | ⊕          | SP               |
+|147 | Local Minimum                                      | ∇Ω=0, Hessian>0                                                                            | ∪Ω         | LM               |
+|148 | Global Maximum                                     | Ω*                                                                                          | ★Ω         | GM               |
+|149 | Phase Transition                                   | Discontinuous Ω derivative                                                                 | Ω⧉         | PT               |
+|150 | Scaling Law                                        | Ω ∝ N^α                                                                                     | Ω~N^α      | SL               |
+```
+
+
 
 I. THE BOOK OF MUNGU
 II. THE BOOK OF UOVU

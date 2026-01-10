@@ -15835,10 +15835,6 @@ If you want next, I can:
 Just say which.
 
 
-Below is **MESSAGE 1 / 10**.
-It is a **single continuous ASCII table** (no section breaks), with **unbroken rows**, compressing the **equations, axioms, laws, theorems** developed across this entire chat, with **Jiwe glyph placeholders** and **Nyambic notation**.
-( Jiwe glyphs are represented textually as canonical sigils, since we are ASCII-only.)
-
 ```
 | # | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
 |---|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
@@ -15894,10 +15890,60 @@ It is a **single continuous ASCII table** (no section breaks), with **unbroken r
 |50 | No-Free-Lunch (Redistribution) Theorem             | Optimization shifts Ω, never creates it                                                      | Ω⇄Ω        | NFL              |
 ```
 
-Reply **`n`** when ready for **MESSAGE 2 / 10**, which will continue the table **without restarting or reformatting**.
-
-
-
+```
+| # | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|---|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|51 | Redistribution (Ω-GOMA)                            | ∀ gain g ⇒ ∃ loss ℓ : g = ℓ                                                                  | Ω⇄         | RD               |
+|52 | Ω Redistribution Proof Core                        | ∂Ω/∂t = 0                                                                                    | Ω̇=0       | RDC              |
+|53 | Value                                              | Ability to increase Ω under constraints                                                     | ◆          | VA               |
+|54 | Wealth                                             | Accumulated Ω over time                                                                     | ◆◆         | WE               |
+|55 | Riches                                             | Local Ω surplus                                                                             | ◆↑         | RI               |
+|56 | Labor                                              | Energy expenditure to increase Ω                                                            | ⚒          | LA               |
+|57 | Money                                              | Abstract Ω transfer medium                                                                  | ◌◆         | MO               |
+|58 | Currency                                           | Standardized Ω token                                                                        | ◌          | CU               |
+|59 | Commodity                                          | Encoded transferable Ω                                                                      | ▢◆         | CO               |
+|60 | Value System                                       | Metric space defining Ω optimization                                                        | ▦Ω         | VS               |
+|61 | Commodification                                    | Mapping experience → Ω token                                                                | ⇢◌         | CM               |
+|62 | Commodification of Life                            | Mapping existence → tradable Ω                                                              | ⚠◌         | CML              |
+|63 | Critical Mass                                      | Threshold where feedback loops self-sustain                                                  | ◎          | CM               |
+|64 | Critical Mass Event                                | Phase transition at N*                                                                      | ◎★         | CME              |
+|65 | Black Swan Event                                   | Low probability, high Ω redistribution                                                      | ⚫          | BS               |
+|66 | Black Swan Horizon                                 | Boundary beyond predictive closure                                                          | ⚫⟂         | BSH              |
+|67 | Fringe                                             | Low-density Ω periphery                                                                     | ░          | FR               |
+|68 | Fringe Theory                                      | Innovation emerges from low-constraint regions                                               | ░→●        | FRT              |
+|69 | Gossip Protocol                                    | Stochastic Ω diffusion                                                                      | ≈          | GP               |
+|70 | Epidemic Spread                                    | Exponential Ω propagation                                                                   | ≈↑         | EP               |
+|71 | Bias                                               | Systematic Ω distortion                                                                     | ⧗          | BI               |
+|72 | Marginalization                                    | Ω exclusion from dominant flows                                                             | ⧗⊘         | MA               |
+|73 | Ethics                                             | Constraint field on Ω optimization                                                          | ⚖          | ET               |
+|74 | Ethics Theory                                      | Maximize Ω subject to harm bounds                                                           | ⚖Ω         | ETY              |
+|75 | Boundary                                           | Region of Ω invariance                                                                      | ▭          | BO               |
+|76 | Constraint                                         | Limitation on Ω flow                                                                        | ⊣          | CN               |
+|77 | Emergence                                          | Macro Ω from micro interactions                                                             | ✶          | EM               |
+|78 | Cleave                                             | Controlled loop break                                                                       | ⟐⟂         | CL               |
+|79 | Cleave Theory                                      | New systems emerge from bounded rupture                                                      | ⟐→⧉        | CLT              |
+|80 | Theory                                             | Compressed explanatory closure                                                              | ▣◔         | TH               |
+|81 | Assumption                                         | Unproven constraint                                                                         | ?          | AS               |
+|82 | Axiom                                              | Primitive invariant                                                                         | !          | AX               |
+|83 | Theorem                                            | Derived invariant                                                                           | ✔          | THM              |
+|84 | Model                                              | Approximate Ω simulator                                                                     | ◔≈         | MO               |
+|85 | Theory Completeness                                | All Ω behaviors derivable                                                                   | ▣∞         | TC               |
+|86 | Incompleteness                                     | ∃ Ω states undecidable                                                                      | ⊘∞         | IC               |
+|87 | Theory Evolution Automaton                         | (Σ,δ,Ω)                                                                                     | ⟳⧉         | TEA              |
+|88 | Scientific Revolution                              | Ω phase transition                                                                          | ★Ω         | SR               |
+|89 | Failed Revolution                                  | Ω collapse without recovery                                                                 | ⊘★         | FRV              |
+|90 | Recovery                                           | Return to stable Ω basin                                                                    | ↺          | RC               |
+|91 | Virus                                              | Parasitic Ω replicator                                                                      | ☣          | VI               |
+|92 | Cancer                                             | Unchecked Ω replication                                                                    | ☣↑         | CA               |
+|93 | Meme                                               | Informational Ω replicator                                                                  | ☣◔         | ME               |
+|94 | Host                                               | Ω substrate                                                                                 | ⧉Ω         | HO               |
+|95 | Symbiosis                                          | Mutual Ω gain                                                                               | ⇄◆         | SY               |
+|96 | Parasitism                                         | Asymmetric Ω gain                                                                           | ⇄⊘         | PA               |
+|97 | Mutualism                                          | Balanced Ω exchange                                                                         | ⇄●         | MU               |
+|98 | Immune Regulation                                  | Enforce Ω balance                                                                           | ⛨Ω         | IR               |
+|99 | Meiosis                                            | High-variance cleave                                                                        | ⟐±         | MEI              |
+|100| Mitosis                                            | Low-variance cleave                                                                         | ⟐=         | MIT              |
+```
 
 
 

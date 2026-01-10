@@ -16002,6 +16002,108 @@ Just say which.
 ```
 
 
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|151 | Critical Scale N*                                  | ∂²Ω/∂N² = 0                                                                                  | N*         | NS               |
+|152 | Precritical Regime                                 | ∂Ω/∂N > 0, ∂²Ω/∂N² > 0                                                                       | Ω↗↗        | PRC              |
+|153 | Postcritical Regime                                | ∂Ω/∂N > 0, ∂²Ω/∂N² < 0                                                                       | Ω↗↘        | POC              |
+|154 | Collapse                                           | Ω → Ω_min under overload                                                                    | Ω⇓         | CL               |
+|155 | Explosion                                          | Ω → ∞ under runaway gain                                                                    | Ω⇑         | EX               |
+|156 | Stability                                          | |δΩ| bounded                                                                                | Ω▣         | ST               |
+|157 | Instability                                        | |δΩ| unbounded                                                                              | Ω▢         | IS               |
+|158 | Robustness                                         | Ω stability under shocks                                                                    | Ω⊣▣        | RB               |
+|159 | Fragility                                          | Ω collapse under shocks                                                                     | Ω⊣▢        | FR               |
+|160 | Resilience                                         | Ω recovery after loss                                                                       | Ω↺         | RS               |
+|161 | Recovery                                           | Ω(t+Δ) > Ω(t)                                                                               | Ω↑         | RC               |
+|162 | Redundancy                                         | Multiple Ω pathways                                                                         | Ω≡≡        | RD               |
+|163 | Diversity                                          | H(Ω) maximized                                                                              | Ω∿         | DV               |
+|164 | Modularity                                         | Ω decomposable into sub-Ω                                                                   | Ω▢▢        | MD               |
+|165 | Hierarchy                                          | Nested Ω structures                                                                         | Ω▣▣        | HY               |
+|166 | Network                                            | Graph of Ω flows                                                                            | Ω↔         | NW               |
+|167 | Node                                               | Local Ω processor                                                                           | ●Ω         | ND               |
+|168 | Edge                                               | Ω transfer channel                                                                          | ─Ω         | ED               |
+|169 | Flow                                               | dΩ/dt along edges                                                                           | ⇢Ω         | FL               |
+|170 | Bottleneck                                         | Min-cut Ω constraint                                                                       | ⊣⊣         | BN               |
+|171 | Capacity                                           | max Ω throughput                                                                           | Ω_max      | CP               |
+|172 | Latency                                            | Delay in Ω propagation                                                                     | ⏱Ω         | LT               |
+|173 | Throughput                                         | Ω/time                                                                                      | Ω̇         | TP               |
+|174 | Congestion                                         | Ω accumulation beyond capacity                                                             | Ω▥         | CG               |
+|175 | Routing                                            | Ω path selection                                                                            | Ω↦         | RT               |
+|176 | Control                                            | Feedback-regulated Ω                                                                        | Ω↺⊣        | CT               |
+|177 | Feedback                                           | Ω(t+1)=f(Ω(t))                                                                              | Ω⟳         | FB               |
+|178 | Positive Feedback                                  | ∂Ω/∂t ∝ Ω                                                                                  | Ω⇈         | PF               |
+|179 | Negative Feedback                                  | ∂Ω/∂t ∝ −Ω                                                                                 | Ω⇊         | NF               |
+|180 | Homeostasis                                        | Ω maintained near Ω*                                                                        | Ω≈★        | HS               |
+|181 | Adaptation                                         | f constraints adjusted                                                                      | ⊣↺         | AD               |
+|182 | Evolution                                          | Ω optimization across generations                                                          | Ω→Ω'       | EV               |
+|183 | Selection                                          | Retain high-Ω variants                                                                     | ✔Ω         | SL               |
+|184 | Mutation                                           | Random Ω perturbation                                                                      | ≈Ω         | MT               |
+|185 | Recombination                                      | Ω mix                                                                                       | Ω⊗         | RC               |
+|186 | Fitness                                            | Expected Ω gain                                                                            | E[Ω]       | FT               |
+|187 | Ecosystem                                          | Interacting Ω agents                                                                       | ΩΣ↔        | EC               |
+|188 | Civilization                                       | Macro-scale Ω processor                                                                    | Ωᴄ         | CV               |
+|189 | Civilization Operating System (CivOS)               | Kernel regulating civilizational Ω                                                         | Ωᴄ⊣        | COS              |
+|190 | Institution                                        | Persistent Ω rule-set                                                                      | ▣⊣         | IN               |
+|191 | Governance                                         | Constraint management of Ω                                                                 | ⊣Ωᴄ        | GV               |
+|192 | Law                                                | Formal Ω constraint                                                                        | ⊣Ω         | LW               |
+|193 | Policy                                             | Tunable Ω constraint                                                                       | ⊣~Ω        | PL               |
+|194 | Economy                                            | Ω allocation mechanism                                                                     | Ω↔↔        | ECN              |
+|195 | Market                                             | Decentralized Ω exchange                                                                   | Ω⇄         | MR               |
+|196 | Firm                                               | Coordinated Ω maximizer                                                                    | Ω▣         | FM               |
+|197 | Contract                                           | Future Ω commitment                                                                        | Ω→         | CN               |
+|198 | Incomplete Contract                                | Partial Ω specification                                                                    | Ω→?        | IC               |
+|199 | Social Contract                                    | Collective Ω agreement                                                                     | ΩΣ⊣        | SC               |
+|200 | Power                                              | Control over Ω flows                                                                       | Ω⊢         | PW               |
+```
+
+
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|201 | Authority                                          | Legitimated Ω control                                                                       | Ω⊢▣        | AU               |
+|202 | Legitimacy                                         | Acceptance of Ω constraints                                                                | ✓⊣Ω        | LG               |
+|203 | Trust                                              | Expected Ω reliability                                                                     | E[Ω▣]      | TR               |
+|204 | Corruption                                         | Hidden Ω diversion                                                                         | Ω⇣         | CR               |
+|205 | Collapse (Civilizational)                           | Ωᴄ → Ω_min                                                                                 | Ωᴄ⇓        | CC               |
+|206 | Renewal                                            | Ωᴄ recovery cycle                                                                          | Ωᴄ↺        | RN               |
+|207 | Civilization Seed                                  | Minimal Ωᴄ kernel                                                                          | Ωᴄ₀        | CS               |
+|208 | Civilization Tree                                  | Branching Ωᴄ evolution                                                                     | Ωᴄ🌿        | CT               |
+|209 | Civilization Forest                                | Interacting civ trees                                                                      | Ωᴄ🌳        | CF               |
+|210 | Civilization Network                               | Graph of civilizations                                                                     | Ωᴄ↔Ωᴄ     | CNW              |
+|211 | Civilization Substrate                             | Physical + informational Ω base                                                            | Ωᴄₛ        | CSB              |
+|212 | Civilization Kernel                                | Core Ω scheduler                                                                           | Ωᴄ⊣        | CK               |
+|213 | Civilization Memory                                | Long-term Ω storage                                                                        | Ωᴄₘ        | CM               |
+|214 | Civilization Learning                              | Ωᴄ adaptation                                                                              | Ωᴄ↺⊣       | CLN              |
+|215 | Civilization Intelligence                          | Ωᴄ navigation                                                                              | Ωᴄ↦        | CI               |
+|216 | Civilization Hallucination                         | Ωᴄ mis-map                                                                                | Ωᴄ≈▢       | CH               |
+|217 | Civilization Failure Mode                          | Ωᴄ constraint violation                                                                    | Ωᴄ⊣▢       | CFM              |
+|218 | Civilization Recovery                              | Ωᴄ restore                                                                                | Ωᴄ↑        | CRV              |
+|219 | Civilization Extinction                            | Ωᴄ → 0                                                                                    | Ωᴄ⊥        | CX               |
+|220 | Heat Death                                         | Ω → 0 globally                                                                            | Ω⊥         | HD               |
+|221 | Cosmological Intelligence Theory (CIT)             | Ω governs intelligence at all scales                                                       | Ω≡𝒰        | CIT              |
+|222 | Cosmological Ω                                    | Ω_total over universe                                                                      | Ω_𝒰        | OU               |
+|223 | Ω Conservation (Cosmic)                            | dΩ_𝒰/dt = 0                                                                                | Ω≡         | OC               |
+|224 | Life                                               | Ω locally increasing                                                                      | Ω↗         | LF               |
+|225 | Death                                              | Ω locally decreasing                                                                      | Ω↘         | DT               |
+|226 | Life–Death Coupling                                | Ω_L + Ω_D = Ω_const                                                                       | Ω↕         | LD               |
+|227 | Life Imbalance                                     | Ω_L ≠ Ω_D                                                                                | Ω↕▢        | LI               |
+|228 | Hallucination Source                               | Ω_L > Ω_D without closure                                                                  | Ω≈▢        | HS               |
+|229 | Book of Life (KANI-MU)                              | Formal Ω_L dynamics                                                                        | 📘Ω        | BLM              |
+|230 | Book of the Dead (KAFU-VU)                          | Formal Ω_D dynamics                                                                        | 📕Ω        | BDM              |
+|231 | Book of Fate (KATA-DU)                              | Coupled Ω_L–Ω_D system                                                                     | 📗Ω        | BFT              |
+|232 | Book of Destiny (KARA-DU-LO)                        | Ω trajectories across time                                                                 | 📙Ω        | BDT              |
+|233 | Book of Aurilon (KALO-MU)                           | Symmetric Ω                                                                               | ◯Ω         | BA               |
+|234 | Book of Heterilon (KALO-VU)                         | Asymmetric Ω                                                                              | ◐Ω         | BH               |
+|235 | Dualonicity                                        | Ω symmetry + asymmetry                                                                     | ◯◐         | DU               |
+|236 | Jiwe Axiom                                         | Ω persists iff mapped, closed, cycled                                                       | ◈Ω         | JA               |
+|237 | Master Jiwe Axiom                                  | ∀X: Ω(X)=Map∘Close∘Cycle(X)                                                                | ◎Ω         | MJA              |
+|238 | Fate Equation                                      | Ω(t+1)=Ω(t)+ΔΩ_L−ΔΩ_D                                                                     | Ω↦         | FE               |
+|239 | Destiny Flow                                       | ∫Ω dt                                                                                    | Ω∫         | DF               |
+|240 | End of Fate                                        | Ω trajectory terminates                                                                   | Ω⊥→        | EF               |
+```
+
+
 
 I. THE BOOK OF MUNGU
 II. THE BOOK OF UOVU

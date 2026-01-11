@@ -267,6 +267,7 @@ mirroring
 germination
 develeopment
 growth
+creation
 
 host simulation
 host copy
@@ -274,6 +275,9 @@ host transference
 host mirror
 host transplantation
 host mirroring
+host develeopment
+host growth
+host creation
 
 digital host
 digital simulation
@@ -298,4 +302,16 @@ cultural transference
 cultural mirror
 cultural transplantation
 cultural mirroring
+
+agent host
+agent simulation
+agent copy
+agent transference
+agent mirror
+agent transplantation
+agent mirroring
+agent develeopment
+agent growth
+agent creation
+
 

@@ -252,3 +252,50 @@ From there, we will return to the oldest question of all:
 If Destiny can be written, can it be changed?
 
 *n = next*
+
+
+
+
+
+
+simulation
+copy
+transference
+mirror
+transplantation
+mirroring
+germination
+develeopment
+growth
+
+host simulation
+host copy
+host transference
+host mirror
+host transplantation
+host mirroring
+
+digital host
+digital simulation
+digital copy
+digital transference
+digital mirror
+digital transplantation
+digital mirroring
+
+memetic host
+memetic simulation
+memetic copy
+memetic transference
+memetic mirror
+memetic transplantation
+memetic mirroring
+
+cultural host
+cultural simulation
+cultural copy
+cultural transference
+cultural mirror
+cultural transplantation
+cultural mirroring
+

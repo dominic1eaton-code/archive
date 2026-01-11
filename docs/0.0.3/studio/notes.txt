@@ -16195,6 +16195,97 @@ Just say which.
 ```
 
 
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|321 | Parasitism → Mutualism Flip                        | if Ω_host↓ then enforce ΔΩ_sym>0                                                            | Ω⇄+        | PMF              |
+|322 | Immune Flip Threshold                              | Ω_parasite ≤ Ω_tol                                                                          | Ω≤τ        | IFT              |
+|323 | Competition                                       | ΔΩ_A<0 & ΔΩ_B<0                                                                            | Ω↓↓        | CMP              |
+|324 | Amensalism                                        | ΔΩ_A<0 & ΔΩ_B≈0                                                                            | Ω↓0        | AMN              |
+|325 | Predator–Prey Cycle                               | Ω_A(t+τ)=f(Ω_B(t))                                                                         | Ω↺Ω        | PP               |
+|326 | Ecosystem                                         | ΣΩ_i bounded                                                                                | ΣΩ         | ECO              |
+|327 | Ecological Stability                              | d(ΣΩ)/dt≈0                                                                                 | ΣΩ̇≈0      | ECS              |
+|328 | Collapse                                          | ΣΩ→0                                                                                       | ΣΩ✕        | COL              |
+|329 | Civilization                                      | Ω_civ = ΣΩ_agents                                                                          | Ω_c        | CIV              |
+|330 | Civilization Kernel                               | minimal Ω_civ seed                                                                         | Ω_c₀       | CK               |
+|331 | Civilization Seed                                 | Ω germinating system                                                                       | Ω🌱        | CS               |
+|332 | Civilization Tree                                 | hierarchical Ω expansion                                                                  | Ω🌳        | CT               |
+|333 | Civilization Forest                               | multi-tree Ω network                                                                      | Ω🌲        | CF               |
+|334 | Civilization Network                              | graph(Ω_nodes, Ω_edges)                                                                   | Ω≋         | CN               |
+|335 | Mycorrhizal Civilization Network                  | shared Ω substrate                                                                         | Ω⧉         | MCN              |
+|336 | Civilization Cognition                            | collective inference                                                                      | Ω_cog      | CCG              |
+|337 | Civilization Intelligence                        | optimized collective Ω                                                                    | Ω_int      | CINT             |
+|338 | Civilization Learning                             | ΔΩ_civ via feedback                                                                       | Ω̇_c       | CL               |
+|339 | Civilization Memory                               | persistent Ω history                                                                      | Ω_mem      | CM               |
+|340 | Civilization Survival                             | Ω_civ ≥ Ω_ext                                                                             | Ω_c≥Ω_e    | CSV              |
+|341 | Civilization Collapse                             | Ω_civ < Ω_ext                                                                             | ☠Ω_c       | CCD              |
+|342 | Civilization Operating System (CivOS)             | governance over Ω flows                                                                   | Ω_OS       | COS              |
+|343 | Civilization Kernel Scheduler                    | allocate Ω resources                                                                      | Ω_sched    | CKS              |
+|344 | Civilization Ledger (Jiwe)                        | immutable Ω record                                                                        | Ω▣         | JL               |
+|345 | Block                                             | atomic Ω record                                                                           | Ω▢         | BLK              |
+|346 | Ledger                                            | ordered Ω blocks                                                                          | Ω▣▣        | LDG              |
+|347 | Blockchain                                        | distributed Ω ledger                                                                      | Ω⛓         | BC               |
+|348 | Contract                                          | Ω obligation mapping                                                                      | Ω↔         | CTR              |
+|349 | Agreement                                         | mutual Ω constraint                                                                       | Ω≈Ω        | AGR              |
+|350 | Smart Contract                                    | executable Ω agreement                                                                   | Ω↻         | SC               |
+|351 | DAO                                               | autonomous Ω governance                                                                  | Ω_auto     | DAO              |
+|352 | Autonomous Organization                          | self-regulating Ω system                                                                 | Ω↺⛨        | AO               |
+|353 | Complex System                                    | non-linear Ω interactions                                                                | Ω∿         | CS               |
+|354 | Complex Adaptive System                          | Ω self-modifying                                                                          | Ω↻∿        | CAS              |
+|355 | Terraformata                                     | engineered Ω environment                                                                 | Ω🌍         | TF               |
+|356 | Civilization Engineering                         | design Ω trajectories                                                                    | Ω_eng      | CENG             |
+|357 | Civilization Economics                           | Ω allocation & exchange                                                                  | Ω$         | CE               |
+|358 | Social Contract                                  | Ω legitimacy agreement                                                                   | Ω⚖         | SOC              |
+|359 | Social Capital                                   | trust-weighted Ω                                                                         | Ω_tr       | SCP              |
+|360 | Collective Proof                                 | Ω validated socially                                                                     | Ω✓✓        | CP               |
+```
+
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|361 | Intelligence                                      | ability to optimize Ω over constraints                                                      | Ω_opt      | INT              |
+|362 | Learning                                          | ΔΩ via experience                                                                           | Ω̇         | LRN              |
+|363 | Cognition                                         | internal Ω state inference                                                                  | Ω_cg       | COG              |
+|364 | Reasoning                                         | chained Ω inference                                                                        | Ω→Ω→Ω     | RSN              |
+|365 | Memory                                            | Ω persistence over time                                                                     | Ω_mem      | MEM              |
+|366 | Attention                                         | Ω resource allocation                                                                      | Ω_focus    | ATT              |
+|367 | Context                                           | Ω framing manifold                                                                         | Ω_ctx      | CTX              |
+|368 | Experience                                        | Ω interaction trace                                                                        | Ω_exp      | EXP              |
+|369 | Simulation                                        | projected Ω dynamics                                                                       | Ω_sim      | SIM              |
+|370 | Imagination                                       | unconstrained Ω simulation                                                                 | Ω_sim*     | IMG              |
+|371 | Creativity                                        | Ω novelty generation                                                                       | Ω_new      | CRT              |
+|372 | Curiosity                                         | gradient toward Ω unknown                                                                  | ∇Ω?        | CUR              |
+|373 | Hallucination                                     | Ω simulation without closure                                                               | Ω✕sim      | HLC              |
+|374 | Collective Hallucination                          | correlated Ω✕sim                                                                           | Ω✕✕        | CHL              |
+|375 | Immune Response                                   | suppress Ω✕                                                                               | Ω⊘         | IMM              |
+|376 | GOMA Immune System                                | adaptive Ω correction                                                                      | Ω⊘↻        | GIS              |
+|377 | Immune Loss                                       | L_imm = |Ω✕|                                                                               | L_imm      | IL               |
+|378 | Safety                                            | Ω bounded away from collapse                                                               | Ω_safe     | SAF              |
+|379 | Risk                                              | P(Ω_loss)                                                                                  | Ω?         | RSK              |
+|380 | Risk Appetite                                     | tolerated Ω variance                                                                      | Ω_var      | RAP              |
+|381 | Robustness                                        | Ω recovery after shock                                                                     | Ω_rec      | ROB              |
+|382 | Resilience                                        | long-term Ω stability                                                                     | Ω_stab     | RES              |
+|383 | Recovery                                          | Ω(t+τ)>Ω(t) after loss                                                                     | Ω↑         | REC              |
+|384 | Failure                                           | Ω<Ω_min                                                                                    | Ω↓         | FAIL             |
+|385 | Black Swan Event                                  | extreme ΔΩ rare                                                                            | Ω⚡         | BSE              |
+|386 | Critical Mass Threshold                           | Ω≥Ω* triggers phase change                                                                 | Ω*         | CMT              |
+|387 | Phase Transition                                  | qualitative Ω regime shift                                                                 | Ω⇄         | PT               |
+|388 | Emergence                                         | Ω_macro ≠ ΣΩ_micro                                                                         | Ω≠Σ        | EMG              |
+|389 | Scaling Law                                       | Ω ∝ N^α                                                                                    | Ω~N^α      | SCL              |
+|390 | Scaling Breakdown                                 | α→0 or α→∞                                                                                | Ω⊥         | SBD              |
+|391 | Transformer                                       | layered Ω inference engine                                                                 | Ω_T        | TR               |
+|392 | Token                                             | atomic Ω unit                                                                              | Ω_tok      | TOK              |
+|393 | Embedding                                         | Ω→ℝ^d mapping                                                                              | Ω↦ℝ^d     | EMB              |
+|394 | Attention Head                                    | Ω query-key-value                                                                          | Ω_qkv      | AH               |
+|395 | Layer                                             | Ω transformation stage                                                                    | Ω_L        | LYR              |
+|396 | Logits                                            | unnormalized Ω beliefs                                                                    | Ω_log      | LOG              |
+|397 | Softmax                                           | Ω probability normalization                                                               | Ω_norm     | SMX              |
+|398 | Hallucination Locus (Logits)                      | high Ω_log, low closure                                                                   | Ω↑✕        | HLL              |
+|399 | Early Stopping                                    | stop when ∇Ω≈0                                                                            | Ω⊣         | EST              |
+|400 | Alignment                                         | Ω_agent ≈ Ω_target                                                                        | Ω≈Ω*       | ALG              |
+```
+
+
 
 I. THE BOOK OF MUNGU
 II. THE BOOK OF UOVU

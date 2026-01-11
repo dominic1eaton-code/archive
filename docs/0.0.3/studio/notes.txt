@@ -16104,6 +16104,97 @@ Just say which.
 ```
 
 
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|241 | Mapping Operator                                   | M : X → X′                                                                                  | ↦          | MAP              |
+|242 | Closure Operator                                   | C : open(X) → closed(X)                                                                     | ⊣          | CLO              |
+|243 | Cycle Operator                                     | R : X(t) → X(t+1)                                                                           | ↺          | CYC              |
+|244 | Ω Operator                                         | Ω = R ∘ C ∘ M                                                                               | Ω          | OMG              |
+|245 | Ω Fixed Point                                      | Ω(X*) = X*                                                                                  | ◎          | FP               |
+|246 | Stability                                          | limₜ Ω(Xₜ)=X*                                                                               | ≡          | STB              |
+|247 | Instability                                        | ∃ε: Ω diverges                                                                              | ≠          | INS              |
+|248 | Bifurcation                                        | Ω parameter threshold                                                                       | ⋔          | BIF              |
+|249 | Phase Transition                                   | Discrete Ω regime shift                                                                     | ▣⇄         | PT               |
+|250 | Critical Mass                                      | Ω ≥ Ω*                                                                                      | Ω*         | CM               |
+|251 | Critical Threshold                                 | Ω = Ω*                                                                                      | Ω=Ω*       | CT               |
+|252 | Emergence                                          | Ω_sys > ΣΩ_parts                                                                            | Ω↑         | EM               |
+|253 | Reduction                                          | Ω_sys < ΣΩ_parts                                                                            | Ω↓         | RD               |
+|254 | Holism                                             | Ω_sys irreducible                                                                           | ◉          | HL               |
+|255 | Ontic Layer                                        | Base reality Ω                                                                              | Ω₀         | ON               |
+|256 | Epistemic Layer                                    | Known Ω                                                                                    | Ω̂          | EP               |
+|257 | Symbolic Layer                                     | Represented Ω                                                                              | Ω̃          | SY               |
+|258 | Simulation Layer                                   | Modeled Ω                                                                                  | Ωˢ         | SIM              |
+|259 | Representation Error                               | Ω̂ − Ω₀                                                                                    | ΔΩ         | RE               |
+|260 | Measurement                                        | Sampling Ω                                                                                 | Ω↯         | MS               |
+|261 | Observer                                           | Entity mapping Ω                                                                           | Ω_obs      | OB               |
+|262 | Reference Frame                                    | Observer-specific Ω                                                                        | Ω_rf       | RF               |
+|263 | Relativity                                         | Ω invariant under frame transforms                                                          | Ω≡         | REL              |
+|264 | Transformation                                     | T : Ω_rf → Ω_rf′                                                                           | ⇄          | TRF              |
+|265 | Invariance                                         | Ω = T(Ω)                                                                                   | ≡          | INV              |
+|266 | Symmetry                                           | Ω balanced                                                                                 | ◯          | SYM              |
+|267 | Symmetry Breaking                                  | Ω imbalance                                                                                | ◐          | SB               |
+|268 | Conservation Law                                   | dΩ/dt = 0                                                                                  | Ω≡         | CON              |
+|269 | Redistribution (No-Free-Lunch)                     | Ω gains imply Ω losses elsewhere                                                            | Ω⇄         | NFL              |
+|270 | Local Optimization                                 | max Ω_local                                                                                | Ω_loc↑     | LO               |
+|271 | Global Constraint                                  | Ω_total fixed                                                                              | Ω_tot≡     | GC               |
+|272 | Optimization Pressure                              | ∇Ω                                                                                          | ∇Ω         | OP               |
+|273 | Gradient Descent                                   | Xₜ₊₁=Xₜ−η∇Ω                                                                                | ↘          | GD               |
+|274 | Gradient Ascent                                    | Xₜ₊₁=Xₜ+η∇Ω                                                                                | ↗          | GA               |
+|275 | Saddle Point                                       | ∇Ω=0, unstable                                                                             | ⊙          | SP               |
+|276 | Loss Function                                      | L = −Ω                                                                                     | ℒ          | LS               |
+|277 | Reward Function                                    | R = Ω                                                                                      | ℛ          | RW               |
+|278 | Constraint Violation                               | Ω<Ω_min                                                                                    | ⚠Ω         | CV               |
+|279 | Regularization                                     | Ω smoothing                                                                                | Ω~         | RG               |
+|280 | Generalization                                     | Ω valid across domains                                                                     | Ω→Ω′       | GEN              |
+```
+
+```
+| #  | NAME / CONSTRUCT                                   | FORMAL STATEMENT / EQUATION                                                                 | JIWE GLYPH | NYAMBIC NOTATION |
+|----|----------------------------------------------------|----------------------------------------------------------------------------------------------|------------|------------------|
+|281 | Overfitting                                        | Ω_train >> Ω_test                                                                           | Ω↑↓        | OF               |
+|282 | Underfitting                                       | Ω_train ≈ Ω_test ≈ low                                                                      | Ω≈0        | UF               |
+|283 | Bias                                                | Systematic Ω skew                                                                           | Ω↗         | BS               |
+|284 | Variance                                            | Ω sensitivity to noise                                                                      | Ω~         | VR               |
+|285 | Bias–Variance Tradeoff                              | Ω_bias + Ω_var = const                                                                      | Ω±         | BV               |
+|286 | Hallucination                                      | Ω_symbolic ≠ Ω_ontic                                                                        | Ω̃≠Ω₀      | HAL              |
+|287 | Hallucination Locus                                 | ∂Ω/∂logit unstable                                                                          | Ω@ℓ        | HLX              |
+|288 | Hallucination Suppression                           | min |Ω̃−Ω₀|                                                                                | Ω↓Δ        | HS               |
+|289 | Immune Loss                                         | L_imm = |Ω̃−Ω₀|                                                                             | ℒᵢ         | IM               |
+|290 | Immune Head                                         | h_imm(X) → Ω̂                                                                              | ⛨          | IH               |
+|291 | Early Stopping Criterion                            | dΩ/dt ≤ ε                                                                                  | Ω̇≈0        | ES               |
+|292 | Regularized Training                                | L_total = L + λL_imm                                                                       | ℒₜ         | RT               |
+|293 | Safety Constraint                                   | Ω ≥ Ω_safe                                                                                 | Ω_s        | SC               |
+|294 | Creativity                                          | Ω exploration width                                                                        | Ω_w        | CR               |
+|295 | Safety–Creativity Pareto Front                      | Ω_safe ⟂ Ω_creative                                                                        | Ω⊥Ω        | PF               |
+|296 | Pareto Optimality                                   | ¬∃Ω′ dominating Ω                                                                          | Ω*         | PO               |
+|297 | Exploration                                         | ΔΩ possible                                                                                | Ω±         | EX               |
+|298 | Exploitation                                        | max Ω_known                                                                                | Ω↑         | EP               |
+|299 | Risk Appetite                                       | tolerance(ΔΩ↓)                                                                             | Ω_tol      | RA               |
+|300 | Risk Aversion                                       | minimize Ω variance                                                                        | Ω_var↓     | RV               |
+|301 | Robustness                                          | Ω stable under shocks                                                                      | Ω≡±        | RB               |
+|302 | Fragility                                           | Ω collapse under perturbation                                                              | Ω✕         | FR               |
+|303 | Anti-Fragility                                      | Ω↑ under stress                                                                            | Ω↑⚡        | AF               |
+|304 | Resilience                                          | Ω recovery after loss                                                                      | Ω↺         | RS               |
+|305 | Recovery                                            | Ω(t+τ)=Ω(t)                                                                                | Ω↩         | RC               |
+|306 | Survival                                            | Ω ≥ Ω_ext                                                                                  | Ω≥Ω_e      | SV               |
+|307 | Extinction                                          | Ω < Ω_ext                                                                                  | ☠Ω         | EXD              |
+|308 | Heat Death                                          | Ω → 0                                                                                      | Ω→0        | HD               |
+|309 | Evolution                                           | ∂Ω/∂t > 0 over cycles                                                                     | Ω̇↑        | EVO              |
+|310 | Adaptation                                          | Ω_fit↑ via Δstructure                                                                      | Ω↻         | AD               |
+|311 | Selection                                           | retain max Ω                                                                              | Ω✓         | SEL              |
+|312 | Mutation                                            | random ΔΩ                                                                                 | Ω~         | MUT              |
+|313 | Drift                                               | stochastic Ω change                                                                       | Ω≈         | DR               |
+|314 | Speciation                                          | Ω split                                                                                    | Ω⇄         | SPC              |
+|315 | Coevolution                                         | coupled Ω systems                                                                         | Ω↔Ω        | COE              |
+|316 | Symbiosis                                           | Ω_A↑ & Ω_B↑                                                                               | Ω+Ω        | SYB              |
+|317 | Mutualism                                           | ΔΩ_A>0 & ΔΩ_B>0                                                                           | Ω↑↑        | MUTU             |
+|318 | Commensalism                                        | ΔΩ_A>0 & ΔΩ_B≈0                                                                           | Ω↑0        | COM              |
+|319 | Parasitism                                          | ΔΩ_A>0 & ΔΩ_B<0                                                                           | Ω↑↓        | PAR              |
+|320 | Symbiosis Regulator (Immune System)                 | enforce Ω balance                                                                         | ⛨Ω         | ISR              |
+```
+
+
 
 I. THE BOOK OF MUNGU
 II. THE BOOK OF UOVU

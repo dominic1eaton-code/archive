@@ -16576,4 +16576,1710 @@ assignment      ::= IDENTIFIER '=' expression
 return_stmt     ::= 'return' [expression]
 
 break_stmt
+# Complete Ndando Language Family Specifications
+## Formal Language, Grammar, Automata, and Computational Models
+
+---
+
+# TABLE OF CONTENTS
+
+1. [NDANDO-A: Assembly Language](#ndando-a-assembly-language)
+2. [NDANDO-C: Compiled Language](#ndando-c-compiled-language)
+3. [NDANDO-P: Pythonic Interpreted Language](#ndando-p-pythonic-interpreted-language)
+4. [Cross-Language Specifications](#cross-language-specifications)
+
+---
+
+# NDANDO-A: ASSEMBLY LANGUAGE
+
+## 1.1 Language Overview
+
+**Type:** Imperative, assembly-level, canonical instruction language  
+**Paradigm:** Procedural, deterministic, ledger-oriented  
+**Execution:** Direct interpretation by CivOS kernel  
+**Memory Model:** Flat, explicit, non-hierarchical
+
+---
+
+## 1.2 Lexical Specification
+
+### 1.2.1 Character Set
+
+```
+ALPHABET = ASCII [0x20-0x7E]
+LETTER = [a-zA-Z]
+DIGIT = [0-9]
+SPECIAL = [_-.]
+WHITESPACE = [ \t\n\r]
+```
+
+### 1.2.2 Token Classes
+
+```
+DIRECTIVE    ::= ':' LETTER (LETTER | DIGIT | '_')*
+OPERATOR     ::= OP_SYMBOL+
+IDENTIFIER   ::= LETTER (LETTER | DIGIT | '_' | '-' | '.')*
+NUMBER       ::= DIGIT+ ('.' DIGIT+)?
+STRING       ::= '"' CHAR* '"'
+COMMENT      ::= '#' ANY* NEWLINE
+NEWLINE      ::= '\n' | '\r\n'
+```
+
+### 1.2.3 Operator Symbols
+
+```
+OP_SYMBOL ::= '^' | '>' | '!' | '~' | '@' | '#' | '-' | '<' 
+            | '+' | '&' | '?' | '|' | '=' | 'X' | '*' | '/' | ':'
+```
+
+### 1.2.4 Reserved Keywords
+
+```
+KEYWORDS = {
+  exec, boot, start, run, cycle, process,
+  spawn, derive, propagate, cleave,
+  bind, map, align, grow, mycorrhizate,
+  repair, adapt, fork, collapse,
+  keep, maintain, stop, decide,
+  canonize, archive, log,
+  on, if
+}
+```
+
+---
+
+## 1.3 Syntax Specification (Context-Free Grammar)
+
+### 1.3.1 Complete EBNF Grammar
+
+```ebnf
+(* Ndando-A Context-Free Grammar *)
+
+program         ::= statement*
+
+statement       ::= directive
+                  | instruction
+                  | label_def
+                  | comment
+
+directive       ::= ':' IDENTIFIER argument*
+
+instruction     ::= operator operand*
+
+operator        ::= lifecycle_op
+                  | coupling_op
+                  | governance_op
+                  | failure_op
+                  | flow_op
+                  | structural_op
+
+lifecycle_op    ::= '^' | '>>' | '!' | '~' | '@' | '#' | '->'
+
+coupling_op     ::= '<>' | '+>' | '<+' | '&'
+
+governance_op   ::= '?' | '||' | '==' | '!='
+
+failure_op      ::= 'X' | '~>' | '~~>'
+
+flow_op         ::= '|>' | '*' | '/' | '-'
+
+structural_op   ::= ':' | '::' | '='
+
+operand         ::= IDENTIFIER
+                  | NUMBER
+                  | STRING
+                  | register
+
+register        ::= 'r' DIGIT+
+
+label_def       ::= IDENTIFIER ':'
+
+argument        ::= operand
+
+comment         ::= '#' TEXT NEWLINE
+```
+
+### 1.3.2 Operator Arity
+
+```
+Unary Operators:
+  ! (boot)           - arity 1
+  ~ (run)            - arity 1
+  X (collapse)       - arity 1
+  
+Binary Operators:
+  ^ (grow)           - arity 2
+  >> (spawn)         - arity 2
+  -> (map)           - arity 2
+  +> (bind)          - arity 2
+  <+ (unbind)        - arity 2
+  = (assign)         - arity 2
+  
+Variadic Operators:
+  <> (mycorrhizate)  - arity 2+
+  || (cleave)        - arity 1+
+  & (align)          - arity 2+
+```
+
+---
+
+## 1.4 Computational Model
+
+### 1.4.1 Abstract Machine Definition
+
+**Ndando-A Abstract Machine (NAAM)**
+
+```
+NAAM = (Q, Σ, Γ, δ, q₀, F)
+
+Where:
+  Q  = {executing, waiting, repairing, collapsed, terminated}
+  Σ  = Instruction alphabet (operators + operands)
+  Γ  = Memory tape alphabet (values + types)
+  δ  = Transition function (state × instruction → state × effect)
+  q₀ = executing (initial state)
+  F  = {terminated} (accepting states)
+```
+
+### 1.4.2 State Transition Function
+
+```
+δ: Q × Σ → Q × Effect
+
+Transitions:
+  δ(executing, boot_instr)     → (executing, kernel_loaded)
+  δ(executing, spawn_instr)    → (executing, entity_created)
+  δ(executing, collapse_instr) → (collapsed, failure_logged)
+  δ(collapsed, repair_instr)   → (repairing, repair_attempted)
+  δ(repairing, success)        → (executing, restored)
+  δ(repairing, failure)        → (collapsed, escalated)
+  δ(any, stop_instr)           → (terminated, halted)
+```
+
+### 1.4.3 Memory Model
+
+```
+Memory = {
+  Registers: R[0..15]         (general purpose)
+  Stack: S[0..1023]           (execution stack)
+  Ledger: L[0..∞]             (append-only log)
+  Canon: C[0..∞]              (immutable once written)
+}
+
+Operations:
+  READ(addr)  → value
+  WRITE(addr, value) → ⊤ | ⊥ (succeeds if addr not in Canon)
+  APPEND(ledger_entry) → ⊤ (always succeeds)
+  CANONIZE(addr) → ⊤ (makes addr immutable)
+```
+
+---
+
+## 1.5 Operational Semantics
+
+### 1.5.1 Small-Step Semantics
+
+```
+Configuration: ⟨I, M, L⟩
+  I = Instruction sequence
+  M = Memory state
+  L = Ledger state
+
+Evaluation Rules:
+
+[BOOT]
+⟨!p :: I, M, L⟩ → ⟨I, M[kernel ↦ loaded], L⟩
+
+[SPAWN]
+⟨x >> y :: I, M, L⟩ → ⟨I, M[y ↦ new(type(x))], L ∪ {spawn(y)}⟩
+
+[GROW]
+⟨x ^ y :: I, M, L⟩ → ⟨I, M[x ↦ y], L⟩  where x ⊆ y
+
+[COLLAPSE]
+⟨X e :: I, M, L⟩ → ⟨I, M[e ↦ failure], L ∪ {collapse(e)}⟩
+
+[REPAIR]
+⟨~> f :: I, M, L⟩ → ⟨I, M[f ↦ repaired(f)], L ∪ {repair(f)}⟩
+  where f : Failure ∧ repairable(f)
+
+[MYCORRHIZATE]
+⟨x <> y :: I, M, L⟩ → ⟨I, M[link(x,y)], L ∪ {couple(x,y)}⟩
+
+[CANONIZE]
+⟨## e :: I, M, L⟩ → ⟨I, M, L ∪ {canon(e)}⟩
+  where e promoted to Canon
+
+[HALT]
+⟨stop :: I, M, L⟩ → ⟨[], M, L⟩
+```
+
+### 1.5.2 Type System
+
+```
+Types:
+  τ ::= Kernel | Project | Program | Cycle | Process
+      | String | Seed | Tree | Forest
+      | Failure | Decision
+      | τ → τ (function types not user-definable)
+
+Typing Rules:
+
+Γ ⊢ p : Project
+─────────────────── [T-BOOT]
+Γ ⊢ !p : Program
+
+Γ ⊢ x : String
+─────────────────── [T-SPAWN]
+Γ ⊢ x >> seed : Seed
+
+Γ ⊢ s : Seed
+─────────────────── [T-GROW]
+Γ ⊢ s ^ tree : Tree
+
+Γ ⊢ e : τ
+─────────────────── [T-COLLAPSE]
+Γ ⊢ X e : Failure
+
+Γ ⊢ f : Failure
+─────────────────── [T-REPAIR]
+Γ ⊢ ~> f : τ
+
+Γ ⊢ t₁ : Forest   Γ ⊢ t₂ : Forest
+────────────────────────────────── [T-MYCOR]
+Γ ⊢ t₁ <> t₂ : ForestCoupling
+```
+
+---
+
+## 1.6 Automata Model
+
+### 1.6.1 Finite State Automaton
+
+```
+NAAM-FSA = (Q, Σ, δ, q₀, F)
+
+States (Q):
+  q₀ : INIT
+  q₁ : KERNEL_LOADED
+  q₂ : PROGRAM_RUNNING
+  q₃ : CYCLE_ACTIVE
+  q₄ : PROCESS_EXECUTING
+  q₅ : FAILURE_STATE
+  q₆ : REPAIRING
+  qf : TERMINATED
+
+Alphabet (Σ):
+  {boot, run, cycle, process, collapse, repair, stop}
+
+Transition Function (δ):
+  δ(INIT, boot) = KERNEL_LOADED
+  δ(KERNEL_LOADED, run) = PROGRAM_RUNNING
+  δ(PROGRAM_RUNNING, cycle) = CYCLE_ACTIVE
+  δ(CYCLE_ACTIVE, process) = PROCESS_EXECUTING
+  δ(PROCESS_EXECUTING, cycle) = CYCLE_ACTIVE
+  δ(any, collapse) = FAILURE_STATE
+  δ(FAILURE_STATE, repair) = REPAIRING
+  δ(REPAIRING, ε) = PROCESS_EXECUTING (on success)
+  δ(REPAIRING, ε) = FAILURE_STATE (on failure)
+  δ(any, stop) = TERMINATED
+```
+
+### 1.6.2 Pushdown Automaton (for nested structures)
+
+```
+NAAM-PDA = (Q, Σ, Γ, δ, q₀, Z₀, F)
+
+Stack Alphabet (Γ):
+  {KERNEL, PROGRAM, CYCLE, PROCESS, MARKER, Z₀}
+
+Transitions:
+  δ(q₀, boot, Z₀) = {(q₁, KERNEL·Z₀)}
+  δ(q₁, run, KERNEL) = {(q₂, PROGRAM·KERNEL)}
+  δ(q₂, cycle, PROGRAM) = {(q₃, CYCLE·PROGRAM)}
+  δ(q₃, process, CYCLE) = {(q₄, PROCESS·CYCLE)}
+  δ(q₄, end_process, PROCESS) = {(q₃, ε)}
+  δ(q₃, end_cycle, CYCLE) = {(q₂, ε)}
+```
+
+---
+
+## 1.7 Execution Model
+
+### 1.7.1 Instruction Cycle
+
+```
+1. FETCH:    PC → IR (instruction register)
+2. DECODE:   IR → opcode, operands
+3. VALIDATE: type_check(operands)
+4. EXECUTE:  perform operation
+5. LOG:      append to ledger
+6. UPDATE:   PC++, update state
+7. CHECK:    collision detection, repair needed?
+```
+
+### 1.7.2 Execution Flow
+
+```
+┌─────────────┐
+│    BOOT     │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────┐
+│   KERNEL    │◄──────┐
+└──────┬──────┘       │
+       │              │
+       ▼              │
+┌─────────────┐       │
+│  PROGRAM    │       │
+└──────┬──────┘       │
+       │              │
+       ▼              │
+┌─────────────┐       │
+│    CYCLE    │◄──┐   │
+└──────┬──────┘   │   │
+       │          │   │
+       ▼          │   │
+┌─────────────┐   │   │
+│   PROCESS   │───┘   │
+└──────┬──────┘       │
+       │              │
+       ▼              │
+┌─────────────┐       │
+│   FOREST    │───────┘
+└─────────────┘
+   (recurse)
+```
+
+### 1.7.3 Error Handling
+
+```
+Error States:
+  E_SYNTAX     : Invalid instruction format
+  E_TYPE       : Type mismatch
+  E_CANON      : Attempt to modify canonized data
+  E_UNREPAIR   : Repair failed
+  E_OVERFLOW   : Stack/memory overflow
+
+Recovery Mechanism:
+  IF error THEN
+    log_error(error)
+    IF repairable(error) THEN
+      attempt_repair()
+    ELSE
+      escalate_to_governance()
+    END IF
+  END IF
+```
+
+---
+
+## 1.8 Example Programs
+
+### 1.8.1 Basic Lifecycle
+
+```ndando-a
+# Boot a civilization
+:exec boot
+!kernel
+^project
+>>program
+~program
+@cycle
+#process
+```
+
+### 1.8.2 With Repair
+
+```ndando-a
+# Process with repair capability
+:exec run
+@cycle
+#process
+
+# Simulate failure
+X process
+
+# Attempt repair
+~> process
+
+# If repair fails, adapt
+~~> process
+```
+
+### 1.8.3 Forest Coupling
+
+```ndando-a
+# Create two forests and couple them
+>>seed1
+^tree1
+^forest1
+
+>>seed2
+^tree2
+^forest2
+
+# Mycorrhizate
+forest1 <> forest2
+
+# Canonize the coupling
+## coupling
+```
+
+---
+
+# NDANDO-C: COMPILED LANGUAGE
+
+## 2.1 Language Overview
+
+**Type:** Statically typed, compiled, structured  
+**Paradigm:** Imperative with functional elements  
+**Execution:** Compiles to Ndando-A  
+**Memory Model:** Hierarchical, typed, scoped
+
+---
+
+## 2.2 Lexical Specification
+
+### 2.2.1 Token Classes
+
+```
+KEYWORD      ::= 'kernel' | 'project' | 'program' | 'state' | 'type'
+               | 'if' | 'else' | 'while' | 'for' | 'return'
+               | 'boot' | 'run' | 'spawn' | 'repair'
+
+TYPE_NAME    ::= UPPER_LETTER (LETTER | DIGIT)*
+
+IDENTIFIER   ::= LOWER_LETTER (LETTER | DIGIT | '_')*
+
+OPERATOR     ::= '+' | '-' | '*' | '/' | '=' | ':='
+               | '==' | '!=' | '<' | '<=' | '>' | '>='
+               | '&&' | '||' | '!'
+
+LITERAL      ::= NUMBER | STRING | BOOLEAN
+
+DELIMITER    ::= '(' | ')' | '{' | '}' | '[' | ']'
+               | ',' | ';' | '.' | ':'
+
+COMMENT      ::= '//' TEXT NEWLINE
+               | '/*' TEXT '*/'
+```
+
+### 2.2.2 Reserved Keywords
+
+```
+STRUCTURE:    kernel, project, program, state, type, enum, const
+CONTROL:      if, else, while, for, break, continue, return
+FUNCTIONS:    boot, start, run, stop, execute, spawn, apply, repair
+LIFECYCLE:    cycle, process, lifecycle, terminate
+SAFETY:       assert, audit, inspect
+CANON:        canonize, archive
+```
+
+---
+
+## 2.3 Syntax Specification
+
+### 2.3.1 Complete EBNF Grammar
+
+```ebnf
+(* Ndando-C Context-Free Grammar *)
+
+program         ::= declaration*
+
+declaration     ::= kernel_decl
+                  | type_decl
+                  | const_decl
+                  | function_decl
+
+kernel_decl     ::= 'kernel' IDENTIFIER '{' kernel_body '}'
+
+kernel_body     ::= (state_decl | function_decl)*
+
+state_decl      ::= 'state' ':=' expression
+
+type_decl       ::= 'type' TYPE_NAME '=' type_expr
+
+type_expr       ::= TYPE_NAME
+                  | type_expr '->' type_expr
+                  | '(' type_expr ')'
+
+function_decl   ::= IDENTIFIER '(' param_list? ')' (':' type_expr)? block
+
+param_list      ::= param (',' param)*
+
+param           ::= IDENTIFIER ':' type_expr
+
+block           ::= '{' statement* '}'
+
+statement       ::= var_decl
+                  | assignment
+                  | if_stmt
+                  | while_stmt
+                  | for_stmt
+                  | return_stmt
+                  | expression_stmt
+                  | block
+
+var_decl        ::= IDENTIFIER ':' type_expr '=' expression
+
+assignment      ::= IDENTIFIER ':=' expression
+                  | IDENTIFIER '=' expression
+
+if_stmt         ::= 'if' expression block ('else' block)?
+
+while_stmt      ::= 'while' expression block
+
+for_stmt        ::= 'for' IDENTIFIER 'in' expression block
+
+return_stmt     ::= 'return' expression?
+
+expression_stmt ::= expression
+
+expression      ::= logical_or
+
+logical_or      ::= logical_and ('||' logical_and)*
+
+logical_and     ::= equality ('&&' equality)*
+
+equality        ::= relational (('==' | '!=') relational)*
+
+relational      ::= additive (('<' | '<=' | '>' | '>=') additive)*
+
+additive        ::= multiplicative (('+' | '-') multiplicative)*
+
+multiplicative  ::= unary (('*' | '/') unary)*
+
+unary           ::= ('!' | '-') unary
+                  | postfix
+
+postfix         ::= primary ('(' arg_list? ')' | '.' IDENTIFIER)*
+
+primary         ::= IDENTIFIER
+                  | LITERAL
+                  | '(' expression ')'
+                  | kernel_op
+
+kernel_op       ::= 'spawn' '(' expression ')'
+                  | 'repair' '(' expression ')'
+                  | 'canonize' '(' expression ')'
+
+arg_list        ::= expression (',' expression)*
+```
+
+---
+
+## 2.4 Type System
+
+### 2.4.1 Type Hierarchy
+
+```
+τ ::= Primitive Types
+    | Kernel | Project | Program | Cycle | Process
+    | String | Seed | Tree | Forest
+    | Failure | Decision
+    | Compound Types
+    | Unit (void)
+    | τ₁ → τ₂ (function)
+    | τ₁ × τ₂ (product)
+    | τ₁ + τ₂ (sum)
+    | List<τ> (list)
+    | Option<τ> (optional)
+
+Primitive = Int | Float | Bool | String
+```
+
+### 2.4.2 Typing Rules
+
+```
+[T-VAR]
+x : τ ∈ Γ
+─────────
+Γ ⊢ x : τ
+
+[T-APP]
+Γ ⊢ e₁ : τ₁ → τ₂    Γ ⊢ e₂ : τ₁
+──────────────────────────────
+Γ ⊢ e₁(e₂) : τ₂
+
+[T-FUNC]
+Γ, x : τ₁ ⊢ e : τ₂
+────────────────────────────
+Γ ⊢ (x : τ₁) → e : τ₁ → τ₂
+
+[T-IF]
+Γ ⊢ e₁ : Bool    Γ ⊢ e₂ : τ    Γ ⊢ e₃ : τ
+─────────────────────────────────────────
+Γ ⊢ if e₁ then e₂ else e₃ : τ
+
+[T-WHILE]
+Γ ⊢ e₁ : Bool    Γ ⊢ e₂ : Unit
+──────────────────────────────
+Γ ⊢ while e₁ { e₂ } : Unit
+
+[T-SPAWN]
+Γ ⊢ e : String
+─────────────────
+Γ ⊢ spawn(e) : Seed
+
+[T-REPAIR]
+Γ ⊢ e : Failure
+──────────────────────
+Γ ⊢ repair(e) : Option<τ>
+```
+
+### 2.4.3 Type Inference
+
+```
+Algorithm W (Hindley-Milner-style):
+
+infer(Γ, e) = case e of
+  x              → lookup(Γ, x)
+  λx.e           → let τ₁ = fresh()
+                       τ₂ = infer(Γ ∪ {x:τ₁}, e)
+                   in τ₁ → τ₂
+  e₁ e₂          → let τ₁ = infer(Γ, e₁)
+                       τ₂ = infer(Γ, e₂)
+                       τ₃ = fresh()
+                       unify(τ₁, τ₂ → τ₃)
+                   in τ₃
+  if e₁ e₂ e₃    → let unify(infer(Γ, e₁), Bool)
+                       τ₂ = infer(Γ, e₂)
+                       τ₃ = infer(Γ, e₃)
+                       unify(τ₂, τ₃)
+                   in τ₂
+```
+
+---
+
+## 2.5 Computational Model
+
+### 2.5.1 Abstract Machine
+
+**Ndando-C Abstract Machine (NCAM)**
+
+```
+NCAM = (Code, Stack, Heap, Env, PC)
+
+Where:
+  Code = instruction sequence
+  Stack = evaluation stack
+  Heap = typed object storage
+  Env = environment (variable bindings)
+  PC = program counter
+```
+
+### 2.5.2 Instruction Set (Internal)
+
+```
+Instructions (compiled from Ndando-C):
+  LOAD var           - push var onto stack
+  STORE var          - pop stack into var
+  PUSH const         - push constant
+  POP                - discard top of stack
+  CALL func arity    - call function
+  RET                - return from function
+  JMP label          - unconditional jump
+  JMPF label         - jump if false
+  BINOP op           - binary operation
+  SPAWN              - create entity
+  REPAIR             - attempt repair
+  CANONIZE           - mark canonical
+```
+
+---
+
+## 2.6 Operational Semantics
+
+### 2.6.1 Big-Step Semantics
+
+```
+[E-VAR]
+(Γ, x ↦ v) ⊢ x ⇓ v
+
+[E-APP]
+Γ ⊢ e₁ ⇓ λx.e    Γ ⊢ e₂ ⇓ v₂    Γ[x ↦ v₂] ⊢ e ⇓ v
+─────────────────────────────────────────────────
+Γ ⊢ e₁ e₂ ⇓ v
+
+[E-IF-TRUE]
+Γ ⊢ e₁ ⇓ true    Γ ⊢ e₂ ⇓ v
+──────────────────────────
+Γ ⊢ if e₁ e₂ e₃ ⇓ v
+
+[E-IF-FALSE]
+Γ ⊢ e₁ ⇓ false    Γ ⊢ e₃ ⇓ v
+───────────────────────────
+Γ ⊢ if e₁ e₂ e₃ ⇓ v
+
+[E-WHILE-FALSE]
+Γ ⊢ e₁ ⇓ false
+─────────────────────
+Γ ⊢ while e₁ e₂ ⇓ ()
+
+[E-WHILE-TRUE]
+Γ ⊢ e₁ ⇓ true    Γ ⊢ e₂ ⇓ ()    Γ ⊢ while e₁ e₂ ⇓ ()
+──────────────────────────────────────────────────
+Γ ⊢ while e₁ e₂ ⇓ ()
+```
+
+---
+
+## 2.7 Compilation Process
+
+### 2.7.1 Compilation Phases
+
+```
+Ndando-C Source
+    ↓
+[Lexical Analysis]
+    ↓
+Token Stream
+    ↓
+[Syntax Analysis]
+    ↓
+Abstract Syntax Tree (AST)
+    ↓
+[Type Checking]
+    ↓
+Typed AST
+    ↓
+[Optimization]
+    ↓
+Optimized AST
+    ↓
+[Code Generation]
+    ↓
+Ndando-A Code
+```
+
+### 2.7.2 Compilation Rules
+
+```
+compile_stmt(s) = case s of
+  var_decl(x, τ, e) → 
+    compile_expr(e) ++ [STORE x]
+    
+  assignment(x, e) →
+    compile_expr(e) ++ [STORE x]
+    
+  if_stmt(cond, then, else) →
+    let L1 = fresh_label()
+        L2 = fresh_label()
+    in  compile_expr(cond) ++
+        [JMPF L1] ++
+        compile_stmt(then) ++
+        [JMP L2, LABEL L1] ++
+        compile_stmt(else) ++
+        [LABEL L2]
+        
+  while_stmt(cond, body) →
+    let L_start = fresh_label()
+        L_end = fresh_label()
+    in  [LABEL L_start] ++
+        compile_expr(cond) ++
+        [JMPF L_end] ++
+        compile_stmt(body) ++
+        [JMP L_start, LABEL L_end]
+```
+
+---
+
+## 2.8 Example Programs
+
+### 2.8.1 Kernel Definition
+
+```ndando-c
+kernel CivOS {
+  state := dormant
+
+  boot() {
+    state := active
+    audit("kernel booted")
+  }
+
+  run(prg: Program) {
+    while prg.active {
+      cycle := execute_cycle(prg)
+      if failure_detected(cycle) {
+        repair(cycle)
+      }
+    }
+  }
+
+  repair(target: Cycle) {
+    if repairable(target) {
+      apply_repair_grammar(target)
+    } else {
+      escalate_to_governance(target)
+    }
+  }
+}
+```
+
+### 2.8.2 Type-Safe Lifecycle
+
+```ndando-c
+type Result = Success | Failure
+
+function process_lifecycle(input: String): Result {
+  seed := spawn(input)
+  tree := grow(seed)
+  
+  if validate(tree) {
+    forest := expand(tree)
+    canonize(forest)
+    return Success
+  } else {
+    return Failure
+  }
+}
+```
+
+---
+
+# NDANDO-P: PYTHONIC INTERPRETED LANGUAGE
+
+## 3.1 Language Overview
+
+**Type:** Dynamically typed, interpreted, high-level  
+**Paradigm:** Multi-paradigm (imperative, functional, rule-based)  
+**Execution:** Interprets to Ndando-C, then compiles to Ndando-A  
+**Memory Model:** Abstract, managed, garbage-collected
+
+---
+
+## 3.2 Lexical Specification
+
+### 3.2.1 Token Classes
+
+```
+KEYWORD      ::= 'if' | 'elif' | 'else' | 'while' | 'for' | 'in'
+               | 'def' | 'return' | 'with' | 'as'
+               | 'try' | 'except' | 'finally'
+               | 'assert' | 'break' | 'continue'
+               | 'spawn' | 'repair' | 'fork' | 'collapse'
+               | 'canonize' | 'archive'
+               | 'and' | 'or' | 'not'
+               | 'true' | 'false' | 'None'
+
+IDENTIFIER   ::= (LETTER | '_') (LETTER | DIGIT | '_')*
+
+OPERATOR     ::= '+' | '-' | '*' | '/' | '//' | '%' | '**'
+               | '==' | '!=' | '<' | '<=' | '>' | '>='
+               | 'and' | 'or' | 'not'
+
+DELIMITER    ::= '(' | ')' | '[' | ']' | '{' | '}'
+               | ',' | ':' | '.' | ';'
+
+INDENT       ::= (lexer-generated indentation token)
+DEDENT       ::= (lexer-generated dedentation token)
+NEWLINE      ::= '\n'
+
+NUMBER       ::= DIGIT+ ('.' DIGIT+)? ([eE] [+-]? DIGIT+)?
+
+STRING       ::= '"' CHAR* '"' | "'" CHAR* "'"
+               | '"""' CHAR* '"""' | "'''" CHAR* "'''"
+```
+
+### 3.2.2 Indentation Rules
+
+```
+Indentation-sensitive parsing:
+  - INDENT generated when indentation increases
+  - DEDENT generated when indentation decreases
+  - Indentation level must be consistent
+  - Tabs converted to spaces (8 spaces per tab)
+```
+
+---
+
+## 3.3 Syntax Specification
+
+### 3.3.1 Complete EBNF Grammar
+
+```ebnf
+(* Ndando-P Context-Free Grammar *)
+
+file_input      ::= (NEWLINE | statement)* ENDMARKER
+
+statement       ::= simple_stmt | compound_stmt
+
+simple_stmt     ::= small_stmt (';' small_stmt)* [';'] NEWLINE
+
+small_stmt      ::= expr_stmt
+                  | assignment
+                  | return_stmt
+                  | break_stmt
+                  | continue_stmt
+                  | assert_stmt
+                  | ndando_stmt
+
+expr_stmt       ::= expression
+
+assignment      ::= IDENTIFIER '=' expression
+
+return_stmt     ::= 'return' [expression]
+
+break_stmt      ::= 'break'
+
+continue_stmt   ::= 'continue'
+
+assert_stmt     ::= 'assert' expression [',' expression]
+
+ndando_stmt     ::= spawn_stmt | repair_stmt | fork_stmt 
+                  | collapse_stmt | canonize_stmt | archive_stmt
+
+spawn_stmt      ::= 'spawn' '(' expression ')'
+
+repair_stmt     ::= 'repair' '(' expression ')'
+
+fork_stmt       ::= 'fork' '(' expression ')'
+
+collapse_stmt   ::= 'collapse' '(' expression ')'
+
+canonize_stmt   ::= 'canonize' '(' expression ')'
+
+archive_stmt    ::= 'archive' '(' expression ')'
+
+compound_stmt   ::= if_stmt | while_stmt | for_stmt
+                  | def_stmt | with_stmt | try_stmt
+
+if_stmt         ::= 'if' expression ':' suite
+                    ('elif' expression ':' suite)*
+                    ['else' ':' suite]
+
+while_stmt      ::= 'while' expression ':' suite
+
+for_stmt        ::= 'for' IDENTIFIER 'in' expression ':' suite
+
+def_stmt        ::= 'def' IDENTIFIER '(' [parameters] ')' ':' suite
+
+parameters      ::= parameter (',' parameter)*
+
+parameter       ::= IDENTIFIER [':' type_hint] ['=' expression]
+
+type_hint       ::= IDENTIFIER
+
+with_stmt       ::= 'with' expression ['as' IDENTIFIER] ':' suite
+
+try_stmt        ::= 'try' ':' suite
+                    ('except' [IDENTIFIER] ':' suite)+
+                    ['finally' ':' suite]
+
+suite           ::= simple_stmt | NEWLINE INDENT statement+ DEDENT
+
+expression      ::= or_test
+
+or_test         ::= and_test ('or' and_test)*
+
+and_test        ::= not_test ('and' not_test)*
+
+not_test        ::= 'not' not_test | comparison
+
+comparison      ::= arith_expr (comp_op arith_expr)*
+
+comp_op         ::= '<' | '>' | '==' | '>=' | '<=' | '!='
+
+arith_expr      ::= term (('+' | '-') term)*
+
+term            ::= factor (('*' | '/' | '//' | '%') factor)*
+
+factor          ::= ('+' | '-' | 'not') factor | power
+
+power           ::= atom ['**' factor]
+
+atom            ::= IDENTIFIER
+                  | NUMBER
+                  | STRING+
+                  | 'true' | 'false' | 'None'
+                  | '(' [expression] ')'
+                  | '[' [expr_list] ']'
+                  | '{' [dict_items] '}'
+                  | atom '(' [arg_list] ')'
+                  | atom '[' expression ']'
+                  | atom '.' IDENTIFIER
+
+expr_list       ::= expression (',' expression)* [',']
+
+arg_list        ::= argument (',' argument)* [',']
+
+argument        ::= expression | IDENTIFIER '=' expression
+
+dict_items      ::= dict_item (',' dict_item)* [',']
+
+dict_item       ::= expression ':' expression
+```
+
+---
+
+## 3.4 Type System
+
+### 3.4.1 Dynamic Type Model
+
+```
+Runtime Types:
+  τ_runtime ::= Int | Float | String | Bool | None
+              | List[τ] | Dict[τ_key, τ_val]
+              | Function | Object
+              | Seed | Tree | Forest | Kernel | Program
+              | Cycle | Process | Failure | Decision
+
+Type Contracts (optional annotations):
+  contract ::= τ_expected → τ_result
+  
+Type Checking:
+  - Runtime type checking only
+  - Optional static type hints (PEP 484 style)
+  - Contract enforcement at function boundaries
+  - Gradual typing support
+```
+
+### 3.4.2 Type Inference
+
+```
+Type inference via abstract interpretation:
+
+infer_type(expr, env) = case expr of
+  NumberLiteral(n)     → Int | Float
+  StringLiteral(s)     → String
+  BoolLiteral(b)       → Bool
+  Identifier(x)        → lookup(env, x)
+  BinOp(e1, op, e2)    → infer_binop(op, 
+                           infer_type(e1, env),
+                           infer_type(e2, env))
+  Call(spawn, [arg])   → Seed
+  Call(repair, [arg])  → infer_type(arg, env) | None
+  ListLit(exprs)       → List[union(map(infer_type, exprs))]
+```
+
+---
+
+## 3.5 Computational Model
+
+### 3.5.1 Abstract Machine
+
+**Ndando-P Abstract Machine (NPAM)**
+
+```
+NPAM = (Frames, Heap, Globals, PC, CallStack)
+
+Where:
+  Frames = Stack of execution frames
+  Heap = Garbage-collected object heap
+  Globals = Global namespace dictionary
+  PC = Program counter (bytecode index)
+  CallStack = Function call stack
+```
+
+### 3.5.2 Execution Model
+
+```
+Frame Structure:
+  {
+    code: bytecode,
+    pc: int,
+    locals: dict,
+    stack: list,
+    prev_frame: Frame | None
+  }
+
+Execution Cycle:
+  LOOP:
+    instr = fetch(current_frame.code, current_frame.pc)
+    current_frame.pc += 1
+    execute(instr, current_frame)
+    IF exception_raised THEN handle_exception()
+    IF return_called THEN pop_frame()
+```
+
+---
+
+## 3.6 Operational Semantics
+
+### 3.6.1 Big-Step Semantics
+
+```
+Environment: ρ = variable → value mapping
+
+[E-NUM]
+⟨n, ρ⟩ ⇓ n
+
+[E-VAR]
+ρ(x) = v
+─────────
+⟨x, ρ⟩ ⇓ v
+
+[E-BINOP]
+⟨e₁, ρ⟩ ⇓ v₁    ⟨e₂, ρ⟩ ⇓ v₂    v = eval_op(op, v₁, v₂)
+────────────────────────────────────────────────────────
+⟨e₁ op e₂, ρ⟩ ⇓ v
+
+[E-IF-TRUE]
+⟨e₁, ρ⟩ ⇓ true    ⟨e₂, ρ⟩ ⇓ v
+──────────────────────────────
+⟨if e₁: e₂ else e₃, ρ⟩ ⇓ v
+
+[E-IF-FALSE]
+⟨e₁, ρ⟩ ⇓ false    ⟨e₃, ρ⟩ ⇓ v
+───────────────────────────────
+⟨if e₁: e₂ else e₃, ρ⟩ ⇓ v
+
+[E-WHILE]
+⟨e₁, ρ⟩ ⇓ false
+─────────────────────
+⟨while e₁: e₂, ρ⟩ ⇓ None
+
+⟨e₁, ρ⟩ ⇓ true    ⟨e₂, ρ⟩ ⇓ ρ'    ⟨while e₁: e₂, ρ'⟩ ⇓ v
+──────────────────────────────────────────────────────────
+⟨while e₁: e₂, ρ⟩ ⇓ v
+
+[E-FUNC]
+⟨body, ρ[x ↦ v]⟩ ⇓ v_ret
+──────────────────────────────────────
+⟨(λx.body)(v), ρ⟩ ⇓ v_ret
+
+[E-SPAWN]
+⟨e, ρ⟩ ⇓ v    create_seed(v) = s
+──────────────────────────────────
+⟨spawn(e), ρ⟩ ⇓ s
+
+[E-REPAIR]
+⟨e, ρ⟩ ⇓ failure    attempt_repair(failure) = Some(v)
+───────────────────────────────────────────────────────
+⟨repair(e), ρ⟩ ⇓ v
+
+⟨e, ρ⟩ ⇓ failure    attempt_repair(failure) = None
+──────────────────────────────────────────────────
+⟨repair(e), ρ⟩ ⇓ None
+```
+
+---
+
+## 3.7 Interpretation Process
+
+### 3.7.1 Interpretation Pipeline
+
+```
+Ndando-P Source
+    ↓
+[Lexical Analysis + Indentation Processing]
+    ↓
+Token Stream with INDENT/DEDENT
+    ↓
+[Parsing]
+    ↓
+Abstract Syntax Tree
+    ↓
+[Desugaring to Ndando-C]
+    ↓
+Ndando-C AST
+    ↓
+[Type Checking (optional)]
+    ↓
+[Compilation to Ndando-A]
+    ↓
+Ndando-A Instructions
+    ↓
+[Execution]
+```
+
+### 3.7.2 Desugaring Rules
+
+```
+desugar(stmt) = case stmt of
+  def f(x): body →
+    function f(x: infer(x)) { desugar(body) }
+    
+  while cond: body →
+    loop {
+      if not desugar(cond) break
+      desugar(body)
+    }
+    
+  for x in expr: body →
+    iter := desugar(expr)
+    loop {
+      x := next(iter)
+      if x == StopIteration break
+      desugar(body)
+    }
+    
+  with expr as x: body →
+    x := acquire(desugar(expr))
+    desugar(body)
+    release(x)
+    
+  try: body except E: handler →
+    try_block(desugar(body))
+    catch(E, desugar(handler))
+```
+
+---
+
+## 3.8 Example Programs
+
+### 3.8.1 Governance Logic
+
+```python
+def handle_drift(target):
+    assert target.alive
+    
+    repaired = repair(target)
+    
+    if not repaired:
+        escalate_to("sankofa_council")
+```
+
+### 3.8.2 Lifecycle Management
+
+```python
+def process_civilization_seed(seed_name):
+    seed = spawn(seed_name)
+    
+    if not validate(seed):
+        return None
+    
+    tree = grow(seed)
+    forest = mycorrhizate(tree, tree, tree)
+    
+    canonize(forest)
+    return forest
+```
+
+### 3.8.3 Error Handling
+
+```python
+def safe_process(input_data):
+    try:
+        result = process(input_data)
+        
+        if detect_drift(result):
+            result = repair(result)
+            
+        return result
+        
+    except ProcessingError as e:
+        # Attempt adaptation
+        adapted = adapt(input_data)
+        return safe_process(adapted)
+        
+    finally:
+        audit("processing_complete")
+```
+
+---
+
+# CROSS-LANGUAGE SPECIFICATIONS
+
+## 4.1 Language Interoperability
+
+### 4.1.1 Compilation Chain
+
+```
+┌──────────────┐
+│  Ndando-P    │ (High-level policy)
+│  (Python-    │
+│   like)      │
+└──────┬───────┘
+       │ desugar
+       ▼
+┌──────────────┐
+│  Ndando-C    │ (Structural)
+│  (Typed,     │
+│   compiled)  │
+└──────┬───────┘
+       │ compile
+       ▼
+┌──────────────┐
+│  Ndando-A    │ (Canonical)
+│  (Assembly)  │
+└──────┬───────┘
+       │ execute
+       ▼
+┌──────────────┐
+│  CivOS       │ (Runtime)
+│  Kernel      │
+└──────────────┘
+```
+
+### 4.1.2 Type Preservation
+
+```
+Type Preservation Theorem:
+  If Γ ⊢ e : τ in Ndando-P
+  and desugar(e) = e' in Ndando-C
+  and compile(e') = e'' in Ndando-A
+  then execute(e'') produces value v : τ
+
+Proof sketch:
+  By induction on the structure of e:
+  - Base cases (literals, variables) preserve types trivially
+  - Inductive cases (operations, control flow) preserve types
+    by construction of desugaring and compilation rules
+```
+
+---
+
+## 4.2 Memory Models Comparison
+
+```
+┌─────────────┬──────────────┬──────────────┬──────────────┐
+│ Aspect      │ Ndando-A     │ Ndando-C     │ Ndando-P     │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Allocation  │ Explicit     │ Static/Stack │ Dynamic/GC   │
+│ Mutability  │ Immutable    │ Controlled   │ Mutable      │
+│ Scope       │ Global       │ Lexical      │ Lexical      │
+│ Lifetime    │ Eternal      │ Bounded      │ GC-managed   │
+│ Addressing  │ Flat         │ Hierarchical │ Abstract     │
+└─────────────┴──────────────┴──────────────┴──────────────┘
+```
+
+---
+
+## 4.3 Execution Models Comparison
+
+```
+┌─────────────┬──────────────┬──────────────┬──────────────┐
+│ Aspect      │ Ndando-A     │ Ndando-C     │ Ndando-P     │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Evaluation  │ Eager        │ Eager        │ Eager        │
+│ Strategy    │              │              │              │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Control     │ Sequential   │ Structured   │ Exception-   │
+│ Flow        │ + jumps      │ + functions  │ based        │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Concurrency │ None         │ None         │ Generator-   │
+│             │              │              │ based        │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Error       │ Explicit     │ Type-checked │ Exception    │
+│ Handling    │ collapse     │ + repair     │ + repair     │
+└─────────────┴──────────────┴──────────────┴──────────────┘
+```
+
+---
+
+## 4.4 Common Automata Framework
+
+### 4.4.1 Unified State Machine
+
+```
+Ndando Unified Automaton (NUA):
+
+States:
+  Q = {init, kernel_loaded, program_running, 
+       cycle_active, process_executing,
+       repairing, collapsed, terminated}
+
+Alphabet (unified across all layers):
+  Σ = {boot, run, cycle, process, spawn, grow,
+       repair, adapt, collapse, canonize, stop}
+
+Transition Function δ:
+  δ(init, boot) = kernel_loaded
+  δ(kernel_loaded, run) = program_running
+  δ(program_running, cycle) = cycle_active
+  δ(cycle_active, process) = process_executing
+  δ(process_executing, spawn) = process_executing
+  δ(any, collapse) = collapsed
+  δ(collapsed, repair) = repairing
+  δ(repairing, success) = last_valid_state
+  δ(repairing, failure) = collapsed
+  δ(collapsed, adapt) = repairing
+  δ(any, stop) = terminated
+  δ(any, canonize) = same_state (with canonization side-effect)
+```
+
+---
+
+## 4.5 Semantic Equivalence
+
+### 4.5.1 Equivalence Relations
+
+```
+Behavioral Equivalence:
+  e₁ ≈ e₂ iff ∀ρ. ⟨e₁, ρ⟩ ⇓ v₁ ∧ ⟨e₂, ρ⟩ ⇓ v₂ → v₁ = v₂
+
+Observational Equivalence:
+  e₁ ≋ e₂ iff ∀C[·]. C[e₁] ⇓ v ↔ C[e₂] ⇓ v
+
+Compilation Correctness:
+  compile(e) correct iff e ≈ execute(compile(e))
+```
+
+### 4.5.2 Cross-Layer Equivalence
+
+```
+Theorem (Compilation Preserves Semantics):
+  For any well-typed Ndando-P program p:
+    ⟦p⟧_P ≈ ⟦desugar(p)⟧_C ≈ ⟦compile(desugar(p))⟧_A
+
+Where ⟦·⟧_L denotes evaluation in layer L.
+```
+
+---
+
+## 4.6 Safety Properties
+
+### 4.6.1 Type Safety
+
+```
+Progress:
+  If Γ ⊢ e : τ and e is not a value,
+  then there exists e' such that e → e'
+
+Preservation:
+  If Γ ⊢ e : τ and e → e',
+  then Γ ⊢ e' : τ
+
+Type Safety Theorem:
+  If ∅ ⊢ e : τ, then either:
+    - e ⇓ v where ∅ ⊢ v : τ, or
+    - e ⇓ Failure, or
+    - e diverges
+```
+
+### 4.6.2 Memory Safety
+
+```
+Spatial Safety:
+  All memory accesses are within bounds
+
+Temporal Safety:
+  No use-after-free violations
+  (ensured by GC in Ndando-P, ownership in Ndando-C)
+
+Canon Safety:
+  Once canonized, data is immutable
+  ∀x. canonized(x) → ¬writable(x)
+```
+
+---
+
+## 4.7 Performance Characteristics
+
+```
+┌─────────────┬──────────────┬──────────────┬──────────────┐
+│ Metric      │ Ndando-A     │ Ndando-C     │ Ndando-P     │
+├─────────────┼──────────────┼──────────────┼──────────────┤
+│ Startup     │ Instant      │ Fast         │ Moderate     │
+│ Execution   │ Fastest      │ Fast         │ Slower       │
+│ Memory Use  │ Minimal      │ Low          │ Higher (GC)  │
+│ Flexibility │ None         │ Limited      │ High         │
+│ Safety      │ Minimal      │ Strong       │ Runtime      │
+└─────────────┴──────────────┴──────────────┴──────────────┘
+
+Time Complexity by Operation:
+  boot:        O(1) in all layers
+  spawn:       O(1) in A, O(log n) in C, O(1) amortized in P
+  repair:      O(n) worst case in all layers
+  mycorrhizate: O(m + n) for coupling m and n nodes
+  canonize:    O(1) marking, O(n) verification
+```
+
+---
+
+## 4.8 Formal Verification Support
+
+### 4.8.1 Proof Obligations
+
+```
+For any Ndando program p:
+
+1. Termination:
+   prove: ∃n. steps(p) < n (for non-recursive programs)
+
+2. Correctness:
+   prove: postcondition(execute(p)) ⊨ specification
+
+3. Safety:
+   prove: ∀s ∈ reachable_states(p). safe(s)
+
+4. Repair Completeness:
+   prove: ∀f ∈ failures(p). repairable(f) → ∃p'. repairs(p', f)
+```
+
+### 4.8.2 Verification Techniques
+
+```
+Available techniques:
+
+- Model checking (for finite-state Ndando-A programs)
+- Abstract interpretation (for Ndando-C)
+- Symbolic execution (all layers)
+- Type-based verification (Ndando-C, Ndando-P with hints)
+- Contract-based verification (Ndando-P)
+- Proof-carrying code (all layers with annotations)
+```
+
+---
+
+## 4.9 Implementation Guidelines
+
+### 4.9.1 Recommended Tool Chain
+
+```
+┌─────────────────────────────────────────────────────┐
+│                  Ndando Toolchain                    │
+├─────────────────────────────────────────────────────┤
+│                                                      │
+│  Parser Generator: ANTLR4 or Lark (Python)          │
+│  Type Checker: Custom Hindley-Milner implementation │
+│  Compiler Backend: LLVM or custom bytecode          │
+│  Runtime: Custom VM or transpile to C               │
+│  GC: Mark-sweep or generational (for Ndando-P)      │
+│  Debugger: GDB integration + custom REPL            │
+│  Package Manager: Soma-PM (custom)                  │
+│                                                      │
+└─────────────────────────────────────────────────────┘
+```
+
+### 4.9.2 Standard Conformance
+
+```
+A conforming Ndando implementation must:
+
+1. Accept all programs in the formal grammar
+2. Reject ill-typed programs (for Ndando-C)
+3. Preserve semantics across compilation layers
+4. Implement all standard library functions
+5. Enforce canon immutability
+6. Support repair mechanisms
+7. Generate SEL entries for canonical operations
+8. Provide error messages with source locations
+9. Support OCEAN-1 constitutional checks
+```
+
+---
+
+## 4.10 Future Extensions
+
+### 4.10.1 Planned Features
+
+```
+Ndando 2.0 Roadmap:
+
+- Concurrent Ndando (Ndando-Π for parallel execution)
+- Distributed Ndando (Ndando-Δ for distributed systems)
+- Probabilistic Ndando (Ndando-Ψ for stochastic processes)
+- Temporal Ndando (Ndando-Τ for temporal logic)
+- Quantum Ndando (Ndando-Θ for quantum algorithms)
+```
+
+### 4.10.2 Research Directions
+
+```
+Open questions:
+
+1. Optimal repair strategies
+2. Automatic canonization policies
+3. Distributed mycorrhization protocols
+4. Formal verification of meta-properties
+5. Machine learning integration for adaptive repair
+6. Blockchain integration for distributed ledger
+7. Formal semantics for emergent behaviors
+```
+
+---
+
+## APPENDIX A: Complete Operator Precedence Table
+
+```
+┌──────┬─────────────────────┬─────────────┬───────────────┐
+│ Prec │ Operator            │ Assoc       │ Layer         │
+├──────┼─────────────────────┼─────────────┼───────────────┤
+│  1   │ () [] .             │ Left        │ All           │
+│  2   │ **                  │ Right       │ P             │
+│  3   │ ! ~ X (unary)       │ Right       │ All           │
+│  4   │ * / % //            │ Left        │ All           │
+│  5   │ + - (binary)        │ Left        │ All           │
+│  6   │ ^                   │ Right       │ A, C          │
+│  7   │ >> -> |>            │ Left        │ All           │
+│  8   │ < <= > >=           │ Left        │ All           │
+│  9   │ == != <>            │ Left        │ All           │
+│ 10   │ not (logical)       │ Right       │ P             │
+│ 11   │ and &&              │ Left        │ C, P          │
+│ 12   │ or \|\|             │ Left        │ C, P          │
+│ 13   │ ? (ternary)         │ Right       │ A, C          │
+│ 14   │ = := +> <+          │ Right       │ All           │
+│ 15   │ :: (canonize)       │ Right       │ All           │
+└──────┴─────────────────────┴─────────────┴───────────────┘
+```
+
+---
+
+## APPENDIX B: Error Code Reference
+
+```
+┌──────┬───────────────────────────────────────────────────┐
+│ Code │ Description                                        │
+├──────┼───────────────────────────────────────────────────┤
+│ E001 │ Syntax error                                       │
+│ E002 │ Undefined identifier                               │
+│ E003 │ Type mismatch                                      │
+│ E004 │ Arity mismatch                                     │
+│ E005 │ Invalid operator for type                          │
+│ E010 │ Memory access violation                            │
+│ E011 │ Clause 11 violation (missing meta-annotation)     │
+│ E012 │ Canon write violation                              │
+│ E013 │ Ledger corruption                                  │
+│ E020 │ Interface mismatch                                 │
+│ E021 │ Module not found                                   │
+│ E030 │ Package signature invalid                          │
+│ E031 │ Version conflict                                   │
+│ E040 │ Repair failed                                      │
+│ E041 │ MLE forecast failure (high-risk)                   │
+│ E042 │ Adaptation impossible                              │
+│ E050 │ Resource exhaustion                                │
+│ E051 │ Stack overflow                                     │
+│ E052 │ Heap exhaustion                                    │
+│ E060 │ Governance violation                               │
+│ E061 │ Unauthorized operation                             │
+│ E070 │ Runtime panic                                      │
+└──────┴───────────────────────────────────────────────────┘
+```
+
+---
+
+## APPENDIX C: Standard Library Function Summary
+
+```
+Kernel.nd:
+  boot() → Kernel
+  spawn(Type, args...) → Entity
+  repair(Object) → Result<Object>
+  canonize(Object) → Canonical<Object>
+
+Lifecycle.nd:
+  form(Project) → Project
+  grow(Seed) → Tree
+  mycorrhizate(Tree, Tree) → Forest
+  collapse(Forest) → Failure
+
+Governance.nd:
+  propose(Motion) → Proposal
+  decide(Motion) → Decision
+  legitimize(Action) → Authorized<Action>
+
+Repair.nd:
+  detectFailure(Object) → Option<Failure>
+  selfRepair(Object) → Result<Object>
+  stabilize(System) → System
+
+Memory.nd (Jiwe):
+  inscribe(Event) → LedgerEntry
+  archive(Object) → ArchivedObject
+  canonize(Object) → Canonical<Object>
+```
+
+---
+
+*This document constitutes the complete formal specification for the Ndando language family (Ndando-A, Ndando-C, Ndando-P) version 1.0. All conforming implementations must adhere to these specifications.*
+
+**Status**: Canonical  
+**Version**: 1.0  
+**Date**: 2025-01-10  
+**Authors**: Ndando Language Design Committee  
+**License**: Open specification for implementation
 

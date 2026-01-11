@@ -104,6 +104,7 @@ the table should be a single, continuous table, grouped by WBSs
 I would like all the WBSs that allow for this entire cycle to be booted up, live and minimal viably staffed within year 1:
 
 
+I will now begin a series of rehydrating prompts of notes on Mungu Theory. Here is the first prompt:
 
 kernel project => prorgam => cycle => {kernel, seed, tree, forest}
 fundamental project => fundamental program => fundamental cycle => {kernel cycle, seed cycle, tree cycle, forest cycle}
@@ -822,23 +823,6 @@ They are onboarded **before staff**.
 
 
 
-
-| **Team Type**   | **Primary Focus**                       | **Duration**        | **Scope**              | **Typical Use Case**                    |                                |
-| --------------- | --------------------------------------- | ------------------- | ---------------------- | --------------------------------------- | ------------------------------ |
-| **Squad**       | Execution of product/features           | Ongoing             | Product mission        | Rapid delivery teams ([Medium][2])      |                                |
-| **Tribe**       | Coordination of squads                  | Long-term           | Product area           | Cross-functional alignment ([Wrike][1]) |                                |
-| **Chapter**     | Skill/domain expertise                  | Long-term           | Functional consistency | Best practice sharing ([Wrike][1])      |                                |
-| **Guild**       | Cross-organizational interest community | Long-term/voluntary | Broad interests        | Knowledge exchange ([Wrike][1])         |                                |
-| **Tiger Team**  | Critical problem resolution             | Short-term          | Specific target        | High-impact issues ([PM Column][3])     |                                |
-| **Line Team**   | Functional hierarchy                    | Ongoing             | Career & reporting     | People management ([and.digital][6])    |                                |
-| **Domain Team** | Domain accountability                   | Ongoing             | Domain services        | Domain ownership & APIs                 | *conceptual industry practice* |
-
-
-
-
-
-
-
 ```
                                ┌──────────────────────────┐
                                │  Class E — Founder        │
@@ -912,34 +896,22 @@ They are onboarded **before staff**.
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 =========================================================================================================================
+
+next prompt:
+
+
+| **Team Type**   | **Primary Focus**                       | **Duration**        | **Scope**              | **Typical Use Case**                    |                                |
+| --------------- | --------------------------------------- | ------------------- | ---------------------- | --------------------------------------- | ------------------------------ |
+| **Squad**       | Execution of product/features           | Ongoing             | Product mission        | Rapid delivery teams ([Medium][2])      |                                |
+| **Tribe**       | Coordination of squads                  | Long-term           | Product area           | Cross-functional alignment ([Wrike][1]) |                                |
+| **Chapter**     | Skill/domain expertise                  | Long-term           | Functional consistency | Best practice sharing ([Wrike][1])      |                                |
+| **Guild**       | Cross-organizational interest community | Long-term/voluntary | Broad interests        | Knowledge exchange ([Wrike][1])         |                                |
+| **Tiger Team**  | Critical problem resolution             | Short-term          | Specific target        | High-impact issues ([PM Column][3])     |                                |
+| **Line Team**   | Functional hierarchy                    | Ongoing             | Career & reporting     | People management ([and.digital][6])    |                                |
+| **Domain Team** | Domain accountability                   | Ongoing             | Domain services        | Domain ownership & APIs                 | *conceptual industry practice* |
+
+
 
 diamond teams
 
@@ -1655,7 +1627,7 @@ What you say:
 
 
 
-
+next prompt:
 
 
 
@@ -1761,17 +1733,6 @@ What you say:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
                                      +--------------------------------+
                                      |   Eaton Family Estate (ESE)    |
                                      |   + Family Offices + Sponsors   |
@@ -1833,13 +1794,6 @@ What you say:
         |  Central/Factory Shared Ops    |
         |  (OpCo + ManCo Support Teams)   |
         +--------------------------------+
-
-
-
-
-
-
-
 
 
 
@@ -2187,7 +2141,7 @@ S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 
 
 
-
+next prompt:
 
 ================================================================
 U-THEORY COMPLETE UNIT SYSTEM

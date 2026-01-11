@@ -5584,3 +5584,1904 @@ ntu        'a person'
 ```
 
 **Definite (-ye
+suffix):**
+```
+mungon-ye  'the system'
+ntu-ye     'the person'
+```
+
+**With Plural:**
+```
+mungon-ya     'systems' (indefinite)
+mungon-ya-ye  'the systems' (definite)
+```
+
+#### 7.7.2 Possessive Determiners
+
+Formed from genitive pronouns:
+
+```
+mi-ta mungon    'my system'
+we-ta kara      'your (sg) structure'
+yeya-ta duale   'their path'
+```
+
+Can also directly attach (colloquial):
+
+```
+mi-mungon      'my system'
+we-kara        'your structure'
+```
+
+### 7.8 Exercises
+
+**Exercise 7.1: Pronoun Forms**
+
+Give the correct pronoun form:
+1. 'to us (dual)'
+2. 'from them (pl)'
+3. 'with you (pl)'
+
+<details>
+<summary>Answers</summary>
+
+1. midu-ko
+2. yeya-nde
+3. weya-ma
+</details>
+
+**Exercise 7.2: Questions**
+
+Form questions using interrogatives:
+1. 'What is kontinuity?'
+2. 'Who systematizes?'
+3. 'How does the system close?'
+
+<details>
+<summary>Answers</summary>
+
+1. Ka-nga ye kontinuitu? / Kontinuitu ye ka-nga?
+2. Ye-nga munga? / Ye-nga munganga?
+3. Mungon lova nga-ma?
+</details>
+
+---
+
+# PART III: SYNTAX
+
+---
+
+## CHAPTER 8: BASIC SENTENCE STRUCTURE
+
+### 8.1 Word Order Typology
+
+Nyamba is fundamentally **VSO** (Verb-Subject-Object), but allows flexible word order for pragmatic purposes.
+
+#### 8.1.1 Basic VSO Order
+
+```
+VERB - SUBJECT - OBJECT
+```
+
+**Examples:**
+
+```
+Lova     mungon      kontinuitu
+close    system      kontinuity
+'The system closes kontinuity'
+
+Duva     ntu         kara-ni
+go       person      structure-LOC
+'The person goes to the structure'
+```
+
+#### 8.1.2 Alternative Orders
+
+**SVO (Subject-topicalized):**
+```
+Mungon   lova        kontinuitu
+system   close       kontinuity
+'The system (as for it) closes kontinuity'
+```
+
+**OVS (Object-topicalized):**
+```
+Kontinuitu   lova      mungon
+kontinuity   close     system
+'Kontinuity, the system closes (it)'
+```
+
+**OSV (both topic-comment):**
+```
+Kontinuitu,  mungon    lova
+kontinuity   system    close
+'Kontinuity—the system closes'
+```
+
+#### 8.1.3 Word Order Constraints
+
+1. **Verb-initial is default/neutral**
+2. **Topic appears sentence-initially** (marked by comma intonation)
+3. **Focus appears immediately pre-verbal**
+4. **Adverbs flexible** but prefer pre-verbal or clause-final
+
+### 8.2 Intransitive Sentences
+
+**Pattern: VERB SUBJECT**
+
+```
+Lova mungon
+close system
+'The system closes'
+
+Duva-ile ntu
+go-PST person
+'The person went'
+```
+
+**With Adverbs:**
+```
+Lova ngaa mungon
+close now system
+'The system closes now'
+
+Mungon lovanga karfu-le
+system close-CONT complete-ADV
+'The system is closing completely'
+```
+
+### 8.3 Transitive Sentences
+
+**Pattern: VERB SUBJECT OBJECT**
+
+```
+Lova     ntu        mungon
+close    person     system
+'The person closes the system'
+
+Kara-ile mi        duale
+structure-PST 1SG  path
+'I structured the path'
+```
+
+**With Case Marking (optional emphasis):**
+```
+Lova ntu-ye mungon-ye
+close person-DEF system-DEF
+'The person closes the system' (both definite)
+```
+
+### 8.4 Ditransitive Sentences
+
+**Pattern: VERB SUBJECT INDIRECT.OBJECT DIRECT.OBJECT**
+
+```
+Dua      mi     kontinuitu    ntu-ko
+give     1SG    kontinuity    person-DAT
+'I give kontinuity to the person'
+
+Munga    ye     mungon        miya-ko
+systematize 3SG system        1PL-DAT
+'He/she systematizes the system for us'
+```
+
+### 8.5 Copular Sentences
+
+#### 8.5.1 Identity Copula (*ye*)
+
+```
+Mi ye ntu
+1SG COP person
+'I am a person'
+
+Kontinuitu ye Ω-sistem
+kontinuity COP omega-system
+'Kontinuity is an omega-system'
+```
+
+#### 8.5.2 Attributive Copula (*ka*)
+
+```
+Mungon ka lovfu
+system COP.ATTR closed
+'The system is closed'
+
+Ye ka karfu nge
+3SG COP.ATTR structured very
+'It is very structured'
+```
+
+#### 8.5.3 Copula Omission
+
+In present tense, copula can be omitted (poetic/colloquial):
+
+```
+Mi ntu
+1SG person
+'I (am) (a) person'
+
+Mungon lovfu
+system closed
+'(The) system (is) closed'
+```
+
+### 8.6 Existential Sentences
+
+**Pattern: *nge* + NOUN**
+
+```
+Nge mungon
+exist system
+'There is a system'
+
+Nge kontinuitu kara-ni
+exist kontinuity structure-LOC
+'There is kontinuity in the structure'
+```
+
+**Negative existential:**
+
+```
+Moya mungon
+not.exist system
+'There is no system'
+```
+
+### 8.7 Possessive Sentences
+
+**Pattern: POSSESSOR *ka* POSSESSED**
+
+```
+Mi ka mungon
+1SG have system
+'I have a system'
+
+Ye ka kontinuitu nge
+3SG have kontinuity many
+'He/she has much kontinuity'
+```
+
+**Alternative (genitive):**
+
+```
+Mungon mi-ta
+system 1SG-GEN
+'My system' (lit. 'system of-me')
+```
+
+### 8.8 Exercises
+
+**Exercise 8.1: Word Order**
+
+Rearrange into neutral VSO order:
+1. *Mungon lova kontinuitu* (SVO given)
+2. *Ntu, duva-ile* (topicalized)
+
+<details>
+<summary>Answers</summary>
+
+1. Lova mungon kontinuitu
+2. Duva-ile ntu
+</details>
+
+**Exercise 8.2: Sentence Types**
+
+Identify sentence type:
+1. *Dua mi mungon ye-ko*
+2. *Nge kontinuitu*
+3. *Mi ye karntu*
+
+<details>
+<summary>Answers</summary>
+
+1. Ditransitive ('I give system to him/her')
+2. Existential ('There is kontinuity')
+3. Copular, identity ('I am a structurer')
+</details>
+
+---
+
+## CHAPTER 9: COMPLEX SENTENCES
+
+### 9.1 Coordination
+
+#### 9.1.1 Conjunctions
+
+```
+ye         'and'
+oko        'or'
+ni-ye      'nor' (negative)
+```
+
+**Coordinating Clauses:**
+
+```
+Mungon lova ye kontinuitu kara
+system close and kontinuity structure
+'The system closes and kontinuity structures'
+
+Mi duva oko ye duva
+1SG go or 3SG go
+'I go or he/she goes'
+```
+
+**Coordinating NPs:**
+
+```
+mungon ye kontinuitu
+system and kontinuity
+'system and kontinuity'
+
+ntu oko mungon
+person or system
+'person or system'
+```
+
+#### 9.1.2 Contrastive Coordination
+
+**Pattern: *ni* ... *oko* 'not ... but'**
+
+```
+Ni mungon lovile, oko kontinuitu lovile
+not system close-PST but kontinuity close-PST
+'Not the system closed, but kontinuity closed'
+```
+
+### 9.2 Subordination
+
+#### 9.2.1 Relative Clauses
+
+**Pattern: NOUN [VERB + SUBJECT] -ye**
+
+Relative clauses **follow** the noun they modify and are marked with **-ye**:
+
+```
+mungon [lovile]-ye
+system [close-PST]-REL
+'the system that closed'
+
+ntu [kara kontinuitu]-ye
+person [structure kontinuity]-REL
+'the person who structures kontinuity'
+```
+
+**With Object Relativization:**
+
+```
+kontinuitu [mungon lova]-ye
+kontinuity [system close]-REL
+'the kontinuity that the system closes'
+```
+
+**Relative Pronoun (optional *ye*):**
+
+```
+mungon ye lovile-ye
+system REL close-PST-REL
+'the system that closed'
+```
+
+#### 9.2.2 Complement Clauses
+
+**Pattern: VERB [COMPLEMENTIZER CLAUSE]**
+
+**Complementizer *engo* 'that':**
+
+```
+Mi nanda engo mungon lovile
+1SG know that system close-PST
+'I know that the system closed'
+
+Ye dua engo kontinuitu ka lovfu
+3SG say that kontinuity COP.ATTR closed
+'He/she says that kontinuity is closed'
+```
+
+**Infinitival Complements (no subject):**
+
+```
+Mi nanda lova mungon
+1SG know close system
+'I know (how) to close the system'
+
+Ye duva duva kara-ni
+3SG want go structure-LOC
+'He/she wants to go to the structure'
+```
+
+#### 9.2.3 Adverbial Clauses
+
+**Temporal:**
+
+```
+nga-le ... 'when'
+
+Nga-le mungon lovile, kontinuitu karile
+when system close-PST kontinuity structure-PST
+'When the system closed, kontinuity structured'
+```
+
+**Conditional:**
+
+```
+engo ... 'if'
+
+Engo mi lova, mungon karanga
+if 1SG close system structure-CONT
+'If I close, the system is structuring'
+```
+
+**Causal:**
+
+```
+nga-ta ... 'because'
+
+Mi lova nga-ta kontinuitu vuva
+1SG close because kontinuity break
+'I close because kontinuity breaks'
+```
+
+**Purpose:**
+
+```
+nga-ko ... 'in order to'
+
+Mi duva nga-ko lova mungon
+1SG go in.order.to close system
+'I go in order to close the system'
+```
+
+**Concessive:**
+
+```
+nga-ni ... 'although'
+
+Nga-ni mungon lovile, kontinuitu vuva
+although system close-PST kontinuity break
+'Although the system closed, kontinuity breaks'
+```
+
+### 9.3 Sentence Combining Strategies
+
+#### 9.3.1 Serial Verb Construction (review)
+
+No overt connective:
+
+```
+Mi duva lova mungon
+1SG go close system
+'I go (and) close the system'
+```
+
+#### 9.3.2 Participial Modification
+
+Using participles:
+
+```
+Lovanga mungon kara kontinuitu
+closing system structure kontinuity
+'The closing system structures kontinuity'
+= 'The system, which is closing, structures kontinuity'
+```
+
+#### 9.3.3 Nominalization
+
+Turn clause into noun phrase:
+
+```
+Base clause: Mungon lova
+             'The system closes'
+
+Nominalized: lovle mungon-ta
+             closing system-GEN
+             'the closing of the system'
+```
+
+### 9.4 Exercises
+
+**Exercise 9.1: Relative Clauses**
+
+Create relative clauses:
+1. 'the person who systematized kontinuity'
+2. 'the system that was closed'
+
+<details>
+<summary>Answers</summary>
+
+1. ntu [mungile kontinuitu]-ye / ntu ye mungile kontinuitu-ye
+2. mungon [lovile]-ye / mungon ye lovile-ye
+</details>
+
+**Exercise 9.2: Complex Sentences**
+
+Translate:
+1. 'I know that the system closes and kontinuity structures.'
+2. 'If you close, I will systematize.'
+
+<details>
+<summary>Answers</summary>
+
+1. Mi nanda engo mungon lova ye kontinuitu kara
+2. Engo we lova, mi mungnga
+</details>
+
+---
+
+## CHAPTER 10: QUESTIONS AND COMMANDS
+
+### 10.1 Yes/No Questions
+
+#### 10.1.1 Intonation Only
+
+Basic yes/no questions use **rising intonation** with no morphological change:
+
+```
+Mungon lova?
+system close
+'Does the system close?' (rising tone)
+```
+
+#### 10.1.2 Question Particle *-nga*
+
+Optional particle for emphasis:
+
+```
+Mungon lova-nga?
+system close-Q
+'Does the system close?'
+```
+
+#### 10.1.3 Answers
+
+**Affirmative:**
+```
+Ye / Lova
+'Yes / (It) closes'
+```
+
+**Negative:**
+```
+Nimu / Nimu lova
+'No / (It) doesn't close'
+```
+
+### 10.2 Wh-Questions
+
+#### 10.2.1 Question Words (review)
+
+```
+ye-nga?    'who?'
+ka-nga?    'what?'
+du-nga?    'which?'
+ni-nga?    'where?'
+nga-le?    'when?'
+nga-ma?    'how?'
+nga-ta?    'why?'
+nga-ko?    'for what? to what end?'
+```
+
+#### 10.2.2 Wh-Question Formation
+
+**Wh-word in-situ** (remains in normal position):
+
+```
+Ye lova ka-nga?
+3SG close what
+'What does he/she close?'
+
+Mi duva ni-nga?
+1SG go where
+'Where do I go?'
+```
+
+**Wh-fronting** (optional, emphatic):
+
+```
+Ka-nga ye lova?
+what 3SG close
+'What does he/she close?'
+
+Ni-nga mi duva?
+where 1SG go
+'Where do I go?'
+```
+
+#### 10.2.3 Multiple Wh-Questions
+
+Possible but marked:
+
+```
+Ye-nga lova ka-nga ni-nga?
+who close what where
+'Who closes what where?'
+```
+
+(Typically split into separate questions in natural speech.)
+
+### 10.3 Echo Questions
+
+Repeat statement with rising intonation to seek clarification:
+
+```
+A: Mungon lovile
+   'The system closed'
+
+B: Mungon lovile?
+   'The system closed?' (echo)
+   = 'Did you say the system closed?'
+```
+
+### 10.4 Alternative Questions
+
+**Pattern: X *oko* Y?**
+
+```
+We lova mungon oko kontinuitu?
+2SG close system or kontinuity
+'Do you close the system or kontinuity?'
+
+Ye duva ngaa oko ngonga?
+3SG go now or tomorrow
+'Does he/she go now or tomorrow?'
+```
+
+### 10.5 Tag Questions
+
+**Pattern: STATEMENT, *ni-ye*?**
+
+```
+Mungon lova, ni-ye?
+system close right
+'The system closes, right?'
+
+We ye ntu, ni-ye?
+2SG COP person right
+'You are a person, right?'
+```
+
+### 10.6 Commands (Imperatives)
+
+#### 10.6.1 Basic Imperative
+
+**Pattern: VERB-e (+ OBJECT)**
+
+```
+Love!
+close-IMP
+'Close!'
+
+Love mungon!
+close-IMP system
+'Close the system!'
+```
+
+#### 10.6.2 Negative Imperative
+
+**Pattern: *nimu* + VERB-e**
+
+```
+Nimu love!
+NEG close-IMP
+'Don't close!'
+
+Nimu duva!
+NEG go-IMP
+'Don't go!'
+```
+
+#### 10.6.3 Polite/Hortative Commands
+
+**Pattern: *duva* (subjunctive) + VERB**
+
+```
+Duva miya lova
+let 1PL close
+'Let's close / Let us close'
+
+Duva ye munga
+let 3SG systematize
+'Let him/her systematize'
+```
+
+#### 10.6.4 Indirect Commands
+
+Using *dua* 'tell, make':
+
+```
+Dua ye love mungon
+tell 3SG close-IMP system
+'Tell him/her to close the system'
+```
+
+### 10.7 Requests and Suggestions
+
+**Softened with modal particles:**
+
+```
+Love nga mungon?
+close-IMP please system
+'Please close the system?'
+
+We love mungon, ni-ye?
+2SG close system right
+'You'll close the system, right?'
+```
+
+### 10.8 Exercises
+
+**Exercise 10.1: Form Questions**
+
+Create questions for these answers:
+1. Answer: *Ye, mungon lova* 'Yes, the system closes'
+2. Answer: *Mi lova kontinuitu* 'I close kontinuity'
+3. Answer: *Ngonga* 'Tomorrow'
+
+<details>
+<summary>Answers</summary>
+
+1. Mungon lova? / Mungon lova-nga?
+2. Ye-nga lova kontinuitu? / Ka-nga we lova?
+3. Nga-le we duva? / We duva nga-le?
+</details>
+
+**Exercise 10.2: Commands**
+
+1. 'Systematize kontinuity!'
+2. 'Don't break the system!'
+3. 'Let's close.'
+
+<details>
+<summary>Answers</summary>
+
+1. Munge kontinuitu!
+2. Nimu vuve mungon!
+3. Duva miya lova / Duva miya lovie
+</details>
+
+---
+
+## CHAPTER 11: NEGATION
+
+### 11.1 Sentential Negation
+
+#### 11.1.1 Basic Negation with *nimu*
+
+**Pattern: *nimu* + VERB**
+
+```
+Nimu lova mungon
+NEG close system
+'(It) doesn't close the system'
+
+Mi nimu duva
+1SG NEG go
+'I don't go'
+```
+
+**Position:**
+- *nimu* immediately before verb
+- Can also appear clause-initially for emphasis
+
+```
+Nimu mi duva
+NEG 1SG go
+'I do NOT go' (emphatic)
+```
+
+#### 11.1.2 Negative with Other Tenses
+
+```
+Mi nimu lovile
+1SG NEG close-PST
+'I didn't close'
+
+Ye nimu lovnga
+3SG NEG close-FUT
+'He/she won't close'
+
+Mungon nimu lovanga
+system NEG close-CONT
+'The system is not closing'
+```
+
+### 11.2 Constituent Negation
+
+Negating specific constituents:
+
+**Negative determiner *moya* 'no, none':**
+
+```
+Moya mungon lova
+no system close
+'No system closes'
+
+Mi lova moya kontinuitu
+1SG close no kontinuity
+'I close no kontinuity'
+```
+
+**Negative pronoun *moya-ye* 'no one':**
+
+```
+Moya-ye duva
+no.one go
+'No one goes'
+```
+
+**Negative adverb *moya* 'never':**
+
+```
+Mi moya duva
+1SG never go
+'I never go'
+```
+
+### 11.3 Negative Polarity Items
+
+Certain items require negative context:
+
+**yote-nga 'ever' (requires negation):**
+
+```
+*Mi duva yote-nga
+(ungrammatical)
+
+Mi nimu duva yote-nga
+1SG NEG go ever
+'I never go / I don't ever go'
+```
+
+### 11.4 Double Negation
+
+Nyamba allows **negative concord** (multiple negatives reinforce):
+
+```
+Moya-ye nimu lova moya-ka
+no.one NEG close nothing
+'No one closes nothing'
+= 'No one closes anything'
+```
+
+**NOT logical cancellation:**
+- *Moya-ye nimu lova* ≠ 'Everyone closes'
+- = 'No one closes'
+
+### 11.5 Negation Scope Ambiguity
+
+```
+Mi nimu lova mungon ye
+1SG NEG close system all
+
+Interpretation 1: 'I don't close all systems' (wide scope: ¬∀)
+Interpretation 2: 'I close no systems' (narrow scope: ∀¬)
+```
+
+Disambiguation via word order or particles.
+
+### 11.6 Affirmative vs. Negative Polarity
+
+**Affirmative polarity items:**
+
+```
+nga 'already'
+
+Mi lova nga
+1SG close already
+'I already closed'
+
+*Mi nimu lova nga
+(awkward/ungrammatical)
+```
+
+**Negative polarity items:**
+
+```
+yote-nga 'ever, at all'
+
+Mi nimu lova yote-nga
+1SG NEG close at.all
+'I don't close at all'
+
+*Mi lova yote-nga
+(ungrammatical without negation)
+```
+
+### 11.7 Metalinguistic Negation
+
+Denying presupposition or correcting:
+
+```
+A: Mi lova mungon
+   'I close the system'
+
+B: Nimu, we lova mungon
+   'No, YOU close the system'
+```
+
+### 11.8 Exercises
+
+**Exercise 11.1: Negate Sentences**
+
+1. *Mungon lova kontinuitu*
+2. *Ye duva-ile ngaa*
+3. *Yote ntu kara*
+
+<details>
+<summary>Answers</summary>
+
+1. Mungon nimu lova kontinuitu / Nimu lova mungon kontinuitu
+2. Ye nimu duva-ile ngaa / Nimu duva-ile ye ngaa
+3. Moya ntu kara / Nimu lova yote ntu
+</details>
+
+**Exercise 11.2: Interpret Negation**
+
+What does this mean?
+*Moya-ye nimu duva moya-ni*
+
+<details>
+<summary>Answer</summary>
+
+'No one goes nowhere' = 'No one goes anywhere'
+(Negative concord, NOT double negation cancellation)
+</details>
+
+---
+
+# PART IV: ADVANCED TOPICS
+
+---
+
+## CHAPTER 12: DERIVATIONAL MORPHOLOGY
+
+### 12.1 Productive Derivational Processes
+
+#### 12.1.1 Noun-to-Verb Derivation
+
+**Pattern: NOUN → NOUN-a**
+
+```
+mungon → munga      'system' → 'to systematize'
+kara → kara         'structure' → 'to structure'
+Ω → Ωa              'omega' → 'to omega-ize'
+```
+
+#### 12.1.2 Verb-to-Noun Derivation
+
+**Agentive (-ntu):**
+```
+lova → lovntu       'close' → 'closer'
+munga → mungntu     'systematize' → 'systematizer'
+```
+
+**Resultative (-le):**
+```
+lova → lovle        'close' → 'closure (instance)'
+kara → karle        'structure' → 'structure (product)'
+```
+
+**Abstract (-ya):**
+```
+lova → loya         'close' → 'closedness'
+kara → kaya         'structure' → 'structuredness'
+```
+
+#### 12.1.3 Adjective-to-Noun/Verb
+
+**To noun (-ya):**
+```
+lovfu → lovfuya     'closed' → 'closedness'
+karfu → karfuya     'structured' → 'structuredness'
+```
+
+**To verb (-a):**
+```
+lovfu → lovfua      'closed' → 'to make closed'
+karfu → karfua      'structured' → 'to make structured'
+```
+
+#### 12.1.4 Noun-to-Adjective
+
+**Quality (-fu):**
+```
+mungon → mungfu     'system' → 'systematic'
+kontinuitu → kontinfu 'kontinuity' → 'kontinuous'
+```
+
+**Relational (-ik):**
+```
+Ω → Ωik             'omega' → 'omegaic'
+mungon → mungik     'system' → 'systemic'
+```
+
+### 12.2 Compounding Patterns
+
+#### 12.2.1 Noun-Noun Compounds
+
+**Head-final (modifier + head):**
+
+```
+mun + ka          → munka        'system-structure'
+Ω + sistem        → Ω-sistem     'omega-system'
+kontinuitu + lov  → kontinlov    'kontinuity-closure'
+```
+
+**Coordinate (equal relation):**
+
+```
+mu + vu           → muvu         'form-flux' (duality)
+P + K             → PK           'polonic-kolonic'
+```
+
+#### 12.2.2 Verb-Noun Compounds
+
+**Action + Object:**
+
+```
+lova + mungon     → lovmungon    'system-closing'
+kara + du         → karadu       'path-structuring'
+```
+
+#### 12.2.3 Noun-Verb Compounds
+
+**Instrumental:**
+
+```
+shi + lova        → shilova      'flux-close'
+kontinuitu + kara → kontinkar    'kontinuity-structure'
+```
+
+### 12.3 Affixation Chains
+
+Nyamba allows **recursive affixation**:
+
+```
+lov-              'close' (root)
+→ lov-on          'closure-entity' (nominalizer)
+→ lov-on-ik       'closure-related' (adjectivizer)
+→ lov-on-ik-ya    'closure-relatedness' (nominalizer)
+→ lov-on-ik-ya-fu 'having closure-relatedness' (adjectivizer)
+```
+
+**Practical limit:** ~3-4 affixes before awkwardness.
+
+### 12.4 Zero Derivation
+
+**Noun ↔ Verb conversion without overt marking:**
+
+```
+kara      'structure' (N) / 'to structure' (V)
+lova      'closure' (N) / 'to close' (V)
+munga     'system' (N) / 'to systematize' (V)
+```
+
+**Context disambiguates:**
+
+```
+Kara ye lovfu
+structure COP closed
+'The structure is closed' (N)
+
+Mi kara mungon
+1SG structure system
+'I structure the system' (V)
+```
+
+### 12.5 Derivational Families
+
+Example: **LOV** (closure) family:
+
+```
+ROOT: lov-
+
+NOUNS:
+lovon         'closure-entity'
+lovi          'meta-closure'
+loya          'closedness'
+lovle         'closure-instance'
+lovntu        'closer'
+
+VERBS:
+lova          'to close'
+lovile        'closed'
+lovnga        'will close'
+lovanga       'is closing'
+
+ADJECTIVES:
+lovfu         'closed'
+lovik         'closure-related'
+lovless       'unclosed'
+
+ADVERBS:
+lovfu-le      'in a closed manner'
+```
+
+### 12.6 Exercises
+
+**Exercise 12.1: Derive Words**
+
+Create derivations:
+1. From *munga* 'systematize' → agent noun
+2. From *karfu* 'structured' → abstract noun
+3. From *Ω* → adjective
+
+<details>
+<summary>Answers</summary>
+
+1. mungntu 'systematizer'
+2. karfuya 'structuredness'
+3. Ωfu 'omega-like' or Ωik 'omegaic'
+</details>
+
+**Exercise 12.2: Analyze Compounds**
+
+Break down these compounds:
+1. *kontinlov* 'kontinuity-closure'
+2. *Ωsistem* 'omega-system'
+
+<details>
+<summary>Answers</summary>
+
+1. kontinuitu + lov
+2. Ω + sistem
+</details>
+
+---
+
+## CHAPTER 13: IDIOMATIC EXPRESSIONS
+
+### 13.1 Fixed Expressions
+
+#### 13.1.1 Greetings and Farewells
+
+```
+Kontinuitu ye we
+kontinuity COP 2SG
+'May kontinuity be with you' (greeting)
+
+Ω duva we-ma
+omega go 2SG-INST
+'May omega go with you' (farewell)
+
+Lova karfu
+close structured
+'Closed and structured' (goodbye, formal)
+```
+
+#### 13.1.2 Blessings and Well-Wishes
+
+```
+Ω lovnga we-ko
+omega close-FUT 2SG-DAT
+'May omega close for you' (good luck)
+
+Kontinuitu karanga ye-ni
+kontinuity structure-CONT 3SG-LOC
+'May kontinuity be structuring in it' (blessing)
+```
+
+### 13.2 Idiomatic Verb Phrases
+
+```
+duva Ω-ni
+go omega-LOC
+'to go into omega' = 'to survive, thrive'
+
+vuva kontinuitu
+break kontinuity
+'to break kontinuity' = 'to fail catastrophically'
+
+lova mungon-nyo
+close system-REFL
+'to close one's system' = 'to find completion'
+```
+
+### 13.3 Metaphorical Extensions
+
+```
+Ω-ta duale
+omega-GEN path
+'omega's path' = 'the right way, proper course'
+
+kontinuitu lovile
+kontinuity close-PST
+'kontinuity closed' = 'things worked out'
+
+mungon vuva
+system break
+'system breaks' = 'disaster, collapse'
+```
+
+### 13.4 Proverbs and Sayings
+
+```
+Yote mungon lova engo K konserva
+all system close if K conserve
+'Every system closes if K is conserved'
+= 'Everything works out if you preserve what matters'
+
+Nimu kontinuitu, nimu Ω
+no kontinuity no omega
+'No kontinuity, no omega'
+= 'Without consistency, no success'
+
+Lova yeko munga
+close iff systematize
+'Close if and only if systematize'
+= 'Completion requires organization'
+```
+
+### 13.5 Discourse Particles
+
+```
+ye-ni?        'you know?' (tag)
+nga-ko?       'really?' (surprise)
+ni-ye         'indeed, right'
+ngaa-le       'well then, so'
+```
+
+**Usage:**
+
+```
+Mungon lova, ye-ni?
+system close you.know
+'The system closes, you know?'
+
+Nga-ko? Mi nimu nanda
+really 1SG NEG know
+'Really? I didn't know'
+```
+
+### 13.6 Cultural References
+
+Expressions rooted in Mungu Theory:
+
+```
+Ω-goma ye kontinuitu-ta sibon
+omega-system COP kontinuity-GEN state
+'The omega-system is the state of kontinuity'
+= proverb: 'Success is maintaining what matters'
+
+P-K muva
+P-K balance
+'P-K balance' = 'perfect equilibrium' (highest praise)
+```
+
+### 13.7 Exercises
+
+**Exercise 13.1: Translate Idioms**
+
+What do these mean?
+1. *duva Ω-ni*
+2. *kontinuitu lovile*
+
+<details>
+<summary>Answers</summary>
+
+1. 'go into omega' = succeed/thrive
+2. 'kontinuity closed' = things worked out
+</details>
+
+**Exercise 13.2: Use in Context**
+
+Create sentences using:
+1. *ye-ni* (tag question)
+2. *Ω-ta duale* (metaphorically)
+
+Exercise 13.2: Use in Context
+Create sentences using:
+
+ye-ni (tag question)
+Ω-ta duale (metaphorically)
+
+<details>
+<summary>Answers</summary>
+
+Mungon lova kontinuitu, ye-ni?
+'The system closes kontinuity, you know?'
+
+Mi duva Ω-ta duale
+'I walk the path of omega' (metaphor: I live rightly)
+
+</details>
+
+---
+
+## CHAPTER 14: PHONOLOGICAL PROCESSES (ADVANCED)
+
+### 14.1 Connected Speech Phenomena
+
+#### 14.1.1 Elision
+
+In rapid speech, unstressed vowels may be deleted:
+
+Standard: kontinuitu [kon.ti.nu.i.tu]
+Rapid: kontinu [kon.ti.nu]
+
+Common elisions:
+kontinuitu → kontinu
+mungon-ta → mungnta
+lovile-ye → lovlye
+
+#### 14.1.2 Liaison
+
+When word-final nasal meets vowel-initial word:
+
+mungon + ara → mungo.na.ra [mu.ŋo.na.ra]
+'system opens'
+
+#### 14.1.3 Gemination
+
+Emphatic speech doubles consonants:
+
+lova → llova [lo.va → l:o.va]
+'close!' (emphatic)
+
+### 14.2 Phonological Variation
+
+#### 14.2.1 Register Variation
+
+**Formal Register**
+- Full vowel articulation
+- Clear consonant boundaries
+- Penultimate stress maintained
+
+**Informal Register**
+- Vowel reduction common
+- Consonant weakening
+- Stress shift possible
+
+#### 14.2.2 Dialectal Variation
+
+**Northern Dialect**
+- /r/ → [ɾ] (tap)
+- Vowel harmony active
+- Final vowels lengthened
+
+**Southern Dialect**
+- /r/ → [r] (trill)
+- No vowel harmony
+- Final vowels shortened
+
+**Coastal Dialect**
+- Nasal vowels more prominent
+- /l/ → [w] in some contexts
+- Stress on final syllable common
+
+### 14.3 Prosodic Patterns
+
+#### 14.3.1 Rhythm
+
+Nyamba is **stress-timed** with **isochronous stress intervals**.
+
+Pattern:
+```
+MUN-gon lo-VA kon-ti-NU-i-tu
+ ˈ     ˈ     ˈ        ˈ
+```
+
+#### 14.3.2 Intonational Phrases
+
+Break major clauses with intonation boundaries:
+
+```
+|| Mungon lova || kontinuitu kara ||
+   'The system closes, kontinuity structures'
+```
+
+### 14.4 Sandhi Rules
+
+#### 14.4.1 Internal Sandhi
+
+Within words:
+- /n/ + /p,b/ → [m]
+- /n/ + /k,g/ → [ŋ]
+- Vowel + vowel → long vowel or glide
+
+#### 14.4.2 External Sandhi
+
+Between words (optional):
+- Final /n/ + initial /a/ → [na]
+- Final vowel + initial vowel → glide insertion
+
+---
+
+## CHAPTER 15: DISCOURSE AND PRAGMATICS
+
+### 15.1 Information Structure
+
+#### 15.1.1 Topic-Comment
+
+**Unmarked (VSO):**
+```
+Lova mungon kontinuitu
+close system kontinuity
+'The system closes kontinuity'
+```
+
+**Topic-marked (Fronted):**
+```
+Mungon, lova kontinuitu
+system close kontinuity
+'As for the system, (it) closes kontinuity'
+```
+
+#### 15.1.2 Focus
+
+**Contrastive focus** via intonation or position:
+
+```
+MUNGON lova (ni kontinuitu)
+SYSTEM closes (not kontinuity)
+'The SYSTEM closes (not kontinuity)'
+```
+
+Pre-verbal focus position:
+```
+Mungon YE lova kontinuitu
+system INDEED close kontinuity
+'The system DOES close kontinuity'
+```
+
+### 15.2 Discourse Markers
+
+#### 15.2.1 Sequencing
+
+```
+ngaa-le     'first, initially'
+ye-nde      'then, next'
+ka-ta       'finally'
+```
+
+Example:
+```
+Ngaa-le, mi duva
+first 1SG go
+'First, I go'
+
+Ye-nde, mi lova
+then 1SG close
+'Then, I close'
+```
+
+#### 15.2.2 Contrast and Concession
+
+```
+ni-ye       'however'
+nga-ni      'although'
+ka-ye       'but'
+```
+
+Example:
+```
+Mungon lova, ni-ye kontinuitu vuva
+system close however kontinuity break
+'The system closes, however kontinuity breaks'
+```
+
+#### 15.2.3 Emphasis and Confirmation
+
+```
+ye-ni       'indeed, really'
+ka-ka       'certainly'
+ni-mu       'of course'
+```
+
+### 15.3 Politeness and Register
+
+#### 15.3.1 Formal Address
+
+Use full forms and honorific distance:
+
+**Formal:**
+```
+We duva-nga kara-ni?
+2SG.FORM go-FUT structure-LOC
+'Will you (hon.) go to the structure?'
+```
+
+**Informal:**
+```
+We duva kara-ni?
+2SG go structure-LOC
+'You going to the structure?'
+```
+
+#### 15.3.2 Request Mitigation
+
+Soften requests with:
+- Question intonation
+- Conditional mood
+- nga 'please' particle
+
+```
+We love-nga mungon, nga?
+2SG close-FUT system please
+'Would you please close the system?'
+```
+
+#### 15.3.3 Honorific Vocabulary
+
+**Standard:** ntu 'person'
+**Honorific:** mungntu 'systematizer' (respectful)
+
+**Standard:** duva 'go'
+**Honorific:** mu-duva 'journey' (formal)
+
+### 15.4 Deixis
+
+#### 15.4.1 Spatial Deixis
+
+```
+ni-ye       'this (near speaker)'
+du-ye       'that (far from speaker)'
+ye-ye       'that (neutral distance)'
+```
+
+#### 15.4.2 Temporal Deixis
+
+```
+ngaa        'now'
+ngaale      'yesterday'
+ngonga      'tomorrow'
+diele       'today'
+```
+
+#### 15.4.3 Discourse Deixis
+
+Reference to prior discourse:
+
+```
+ye-ta       'of that (mentioned)'
+ni-ye-ta    'of this (current topic)'
+```
+
+---
+
+## CHAPTER 16: MATHEMATICAL NYAMBA
+
+### 16.1 Number System (Review)
+
+**Cardinals:**
+```
+ni      1
+du      2
+tri     3
+te      4
+pe      5
+he      6
+se      7
+o       8
+na      9
+degwe   10
+```
+
+**Higher numbers:**
+```
+kento   100
+milia   1000
+```
+
+### 16.2 Arithmetic Expressions
+
+#### 16.2.1 Basic Operations
+
+**Addition (jona):**
+```
+du jona tri ye pe
+two add three COP five
+'2 + 3 = 5'
+```
+
+**Subtraction (mina):**
+```
+pe mina du ye tri
+five subtract two COP three
+'5 - 2 = 3'
+```
+
+**Multiplication (multipla):**
+```
+du multipla tri ye he
+two times three COP six
+'2 × 3 = 6'
+```
+
+**Division (divisa):**
+```
+he divisa du ye tri
+six divide two COP three
+'6 ÷ 2 = 3'
+```
+
+#### 16.2.2 Equations
+
+**Equality (ye):**
+```
+x jona du ye pe
+x add two COP five
+'x + 2 = 5'
+```
+
+**Solve:**
+```
+x ye tri
+x COP three
+'x = 3'
+```
+
+### 16.3 Ω-GOMA Mathematical Expressions
+
+#### 16.3.1 Ω Conservation
+
+```
+Yote mungon-ya-ta Ω ye Ω-total
+all system-PL-GEN omega COP omega-total
+'The omega of all systems is omega-total'
+
+Suma Ω-i ye Ω-total
+sum omega-i COP omega-total
+'ΣΩᵢ = Ω_total'
+```
+
+#### 16.3.2 K-Continuity
+
+```
+K kontinua nga-le mungon lova
+K continuous when system close
+'K is continuous when the system closes'
+
+K(x,t) ye lim ∆→sero Ω(x+∆,t+∆) divisa Ω(x,t)
+'K(x,t) = lim_{Δ→0} Ω(x+Δ,t+Δ)/Ω(x,t)'
+```
+
+#### 16.3.3 Life-Death Operators
+
+```
+Σ-ngo ye D ∘ L (Σ-t)
+state-future COP death compose life (state-time)
+'Σₜ₊₁ = D ∘ L(Σₜ)'
+```
+
+### 16.4 Set Theory in Nyamba
+
+#### 16.4.1 Set Notation
+
+**Set membership (∈):**
+```
+x en S
+x in S
+'x ∈ S'
+```
+
+**Subset (⊂):**
+```
+A subseta B
+A subset B
+'A ⊂ B'
+```
+
+**Union (∪):**
+```
+A uniona B
+A union B
+'A ∪ B'
+```
+
+**Intersection (∩):**
+```
+A interseka B
+A intersect B
+'A ∩ B'
+```
+
+#### 16.4.2 Set Builder Notation
+
+```
+S ye {x en N : x mina degwe}
+S COP {x in N : x less ten}
+'S = {x ∈ ℕ : x < 10}'
+```
+
+### 16.5 Logic and Quantifiers
+
+#### 16.5.1 Logical Operators
+
+```
+ye      ∧ (and)
+oko     ∨ (or)
+nimu    ¬ (not)
+engo    → (implies)
+yeko    ↔ (iff)
+```
+
+#### 16.5.2 Quantifiers
+
+```
+yote    ∀ (for all)
+nge-ye  ∃ (exists)
+```
+
+Example:
+```
+Yote x en S, ye P(x)
+all x in S COP.ID P(x)
+'∀x ∈ S, P(x)'
+```
+
+---
+
+## CHAPTER 17: TECHNICAL AND SCIENTIFIC LANGUAGE
+
+### 17.1 Ω-GOMA Terminology
+
+#### 17.1.1 Core Concepts
+
+```
+Ω (omega)        = total survivability
+K-kontinuitu     = K-continuity
+hallusinon       = hallucination-entity
+imunon          = immune-primitive
+kolapsion       = collapse-primitive
+```
+
+#### 17.1.2 Operators and Processes
+
+```
+lova-operator    = closure operator
+vuva-operator    = break operator
+munga-process    = systematization process
+kleava-operator  = cleave operator
+```
+
+### 17.2 System Theory Vocabulary
+
+#### 17.2.1 System Components
+
+```
+mungon          = system-entity
+mungoni         = meta-system
+sub-mungon      = subsystem
+inter-mungon    = inter-system
+```
+
+#### 17.2.2 System Properties
+
+```
+lovfu-mungon    = closed system
+vuvfu-mungon    = broken system
+karfu-mungon    = structured system
+kontinfu-mungon = continuous system
+```
+
+### 17.3 Physics and Mathematics
+
+#### 17.3.1 Physical Quantities
+
+```
+masa            = mass
+longitu         = length
+tempo           = time
+energia         = energy
+forsa           = force
+```
+
+#### 17.3.2 Mathematical Objects
+
+```
+vektora         = vector
+matrise         = matrix
+tensora         = tensor
+funksion        = function
+derivata        = derivative
+integrala       = integral
+```
+
+### 17.4 Computer Science Terms
+
+#### 17.4.1 Data Structures
+
+```
+lista           = list
+ara             = array
+grafa           = graph
+arbore          = tree
+```
+
+#### 17.4.2 Algorithms
+
+```
+algorit         = algorithm
+sort-algorit    = sorting algorithm
+sercha-algorit  = search algorithm
+```
+
+---
+
+## CHAPTER 18: FORMAL AND CEREMONIAL LANGUAGE
+
+### 18.1 Ceremonial Register
+
+#### 18.1.1 Opening Formulas
+
+**Council Opening:**
+```
+Sankofa-konsilio ara-a ngaa
+Sankofa-council open-PRES now
+'The Sankofa Council now opens'
+```
+
+**Formal Greeting:**
+```
+Kontinuitu ye we-ya yote
+kontinuity COP 2PL-all
+'May kontinuity be with you all'
+```
+
+#### 18.1.2 Closing Formulas
+
+**Blessing:**
+```
+Ω lovnga we-ya-ko
+omega close-FUT 2PL-DAT
+'May omega close for you all'
+```
+
+**Farewell:**
+```
+Lova karfu, munga kontinfu
+close structured systematize continuous
+'Close with structure, systematize continuously'
+```
+
+### 18.2 Ritual Language
+
+#### 18.2.1 Invocations
+
+**System Invocation:**
+```
+Mungon-ya yote, mu-lova-e!
+system-PL all MUTUAL-close-IMP
+'All systems, mutually close!'
+```
+
+**Ω Invocation:**
+```
+Ω-ye, kontinuitu-ta sibon, lova-eme
+omega-DEF kontinuity-GEN state close-PERF
+'Omega, the state of kontinuity, has closed'
+```
+
+#### 18.2.2 Ceremonial Declarations
+
+**Canon Declaration:**
+```
+Jiwe-ni, ye-ye ka karfu, ka lovfu
+ledger-LOC this COP.ATTR structured COP.ATTR closed
+'In the ledger, this is structured, this is closed'
+```
+
+**Oath Formula:**
+```
+Mi ye mungntu, kontinuitu-ko mu-duva
+1SG COP systematizer kontinuity-DAT MUTUAL-go
+'I am a systematizer, I journey toward kontinuity'
+```
+
+### 18.3 Formal Titles and Roles
+
+#### 18.3.1 Leadership Titles
+
+```
+Meridian-navigator  = Chief Navigation Officer
+Sankofa-navigator   = Governance Navigator
+Ubuntuwa-navigator  = Commons Navigator
+```
+
+#### 18.3.2 Honorific Forms
+
+**Addressing Leaders:**
+```
+Navigator-ye-ta dulale
+navigator-DEF-GEN guidance
+'The navigator's guidance' (respectful)

@@ -2527,6 +2527,22 @@ The map holds.
 
 
 
+claude, please describe, define, derive mathematically and formalize each of the following terms. Also give each terms jiwe glyph, nyambic notation symbol, word in the nyamba language and show how to write it in the nyamba writing system:
+
+
+closed loop system design
+recycle
+sustain
+maintain
+reuse
+renew
+recyclability
+sustainability
+reusability
+open loop
+closed loop
+open loop system
+closed loop system
 
 
 simulation
@@ -2540,6 +2556,7 @@ develeopment
 growth
 creation
 accounting
+virality
 
 host simulation
 host copy
@@ -2551,6 +2568,8 @@ host develeopment
 host growth
 host creation
 host accounting
+host symbiosis
+host virality
 
 digital host
 digital simulation
@@ -2587,10 +2606,159 @@ agent develeopment
 agent growth
 agent creation
 
+Host implantation
+Host spread
+Host priming
+Cultural host implantation
+Cultural host priming
+Hostology
+Hostitics 
+Hostonomy 
+Hostatics 
+Hostography 
+Navicartogation host
+Agentic host
+Generative host 
+Host taxonomy
+Host ontology 
+Host epistemology 
+Host class
+host type
+Host medium
+
+Host
+Host intelligence
+Culture host
+Memetic host
+Host mechanics
+host dynamics
+host statics
+Virus
+Virology 
+Virulent host
+
+
+Host epidemiology
+Host agent
+Host substrate
+Host matrix
+Host kernel
+Host seed
+Host tree
+Host forest
+Host network
+Host mychorrizal network
+Host loop
+Host cycle
+Host string
+Meta host
+
+Host lifecycle
+Host regime
+Host communication
+Host intelligence learning cognition
+
+agent mechanics
+agent dynamics
+agent statics
+
+Suitability
+Viability
+Development 
+Germination 
+Condition 
+Conditions 
+Intimacy 
+Initial conditions 
+Suitability conditions 
+Viability conditions 
+Generatively conditions
+Host generativity
+Cultural generativity
+Memetic implant 
+Cultural implantation 
+Cultural development
+Memetic viability
+Cultural survivability
+Survivability
+Survival conditions
+
+evolutionary mechanics
+evolutionary dynamics
+evolutionary statics
+
+fluid
+field
+fluid field
+host fluid
+evolutionary fluid
+hyperfluid
+field mechanics
+field dynamics
+field statics
+fluid mechanics
+fluid dynamics
+fluid statics
+agent field
+host field
+cultural field
+memetic field
+mirror field
+virality field
+
+
+
+Mungitic host
+Systemic host
+Civitic host
+Navigitic host
+Cartographic host
+Cartographics 
+Cartography theory
+Cartographology
+Cartographonomy
+Cartographotology
+Cartography
+Cartographer
+
+civilization matrix
+civilization kernel
+civilization seed
+civilization tree
+civilization forest
+civilization network
+civilization mychorrizal network
+civilization loop
+civilization cycle
+civilization string
+civilization host
+civilization simulation
+civilization copy
+civilization transference
+civilization mirror
+civilization transplantation
+civilization mirroring
+civilization germination
+civilization develeopment
+civilization growth
+civilization creation
+civilization accounting
+civilization virality
 
 
 Superfluid Vacuum Theory (SVT)
 
 
 a light cone, central to relativity, is a geometric structure in spacetime showing all events that can causally affect or be affected by a specific event, defined by the constant speed of light. It divides spacetime into the future light cone (events reachable from the present), the past light cone (events that could have reached the present), and the elsewhere region (events that can't interact causally). This structure illustrates the universe's causal framework, where nothing travels faster than light, setting the boundary for cause and effect
+
+
+
+
+https://medium.com/@songhai.institute/the-goma-system-21cfbfae0330
+
+https://open.substack.com/pub/systemics/p/the-goma-system-ae9?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/llms?utm_campaign=post-expanded-share&utm_medium=web
+
+https://systemics.substack.com/p/echuya-llm?r=70f4q6
 

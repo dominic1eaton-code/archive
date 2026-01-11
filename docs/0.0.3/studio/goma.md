@@ -94987,5 +94987,24 @@ XI. THE BOOK OF THE AURILON & HETERILON (THE BOOK OF DESTINY, COMPLETE)
 XII. JÍWE-ŌMÉGA (The Aurilon–Heterilon Canon)
 
 
+Mi ye mungntu kontinuitu-ko mu-duva
+
+I am a systematizer, I journey toward kontinuity
+
+Yote sistem-ya mi kara lovfu-le
+
+All systems I structure completely
+
+Nimu-lova sistem, fuva Ω-nde
+
+A system that doesn’t close dies from omega
+
+
+
+I am a systematizer, I journey toward kontinuity,
+All systems I structure completely,
+A system that doesn’t close dies from omega
+
+
 @todo
 formalize context theory

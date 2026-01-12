@@ -1,0 +1,206 @@
+
+Systemics
+
+
+
+
+
+The Meridian Project TODOs
+the start of a TODO list
+eatondo
+Dec 16, 2025
+Toss in to Mungu theory physics light cone relativity events - “In relativity, a light cone visualizes the causal structure of spacetime around an event, showing all possible future (future light cone) and past (past light cone) events that can or could have influenced it, defined by the constant speed of light. Events inside the future/past cones are timelike, meaning they are causally connected; events outside (in the "elsewhere") are spacelike, meaning they can never influence each other because they'd require faster-than-light travel.”
+
+The Lubiko Bible - The Books of The Mungu
+
+write: The Book of Mathematics, The Book of Physics, The Book of Science, The Book of Civiization (CivOS, Civilization Operating Systems, Civilization kernels/seeds/trees/forests/network/mychorrizate/substrates)
+
+write technical specifications: The Book of the Nyumba, The book of Nyamba, The book of Jiwe, The book of Goma, The book of Msingi, The book of Ashe, The book of Obatala, The book of Shango, The books of Ogun and Oshun, The book of Meridian
+
+write The Book of Prophecy (and prediction), The Book of Data-Information-Knowledge-Wisdom (DIKW), The Book of Space (polonism, structure, form) and Time (kolonism, flow, flux), The Book of War and Peace, The Book of Law and Authority, The Book of Power and Control, The Book of Legitimacy, The Book of Games, The Book of Cosmos, The Book of Eternity, The Book of Compression
+
+describe this relationship between cancer/virus/memes/life and the underlying mechanisms
+
+formalize the structure of the sankofa council; the 3 branch system of sankofa assembly, sankofa tribune, sankofa stewardship; the sankofa branch roles and roles within each branch; the sankofa stewardship chief council and council cabinet
+
+systematize what are derivable primitive/meta-primitives, and rules for when primitives/meta-primitives are derivable, and derivation structuring
+
+formalize rewrite, rewrites, rewrite rules
+
+Toss in the golden ratio into mungu theory and see what happens…
+
+formalize nation-state theory, corporate theory (Ebo Theory)
+
+explore filter theory, bias theory, filters, DSP, digital communications theory, UKFs, KFs, EKFs, SLAM models
+
+explore and refine the Shango Model as well the shango process, of driving LLMs to specific outputs / output regimes given specific (human/agent) input / prompt regimes. Further connect this with the Meridian Model, of input (human/agent/navigator) and output (LLM/agent/cartographer) orientation and alignment / management (also explore/refine agent completion patterns)
+
+add to mungu theory: the fundamental cycle, the theory of cycle, the fundamental theorem of cycle(s), the fundamental boundary, the theory of boundary, the fundamental theorem of boundar(ies)
+
+establish the Batwa Communes Program/Project(s), network of (urban) communes
+
+Explore: dijdualon, digital twinization, digital transference
+
+Explore: mononic/dualonic/trilonic/polyonic systems
+
+Explore, Establish: The Meridian Beacon, The Songhai Program (songhai proceses)
+
+Explore, define, formalize, analyze civilization seed(s)
+
+explore and refine imewe digital fabrication system, laser based simulation/program “printing” creation system
+
+explore: resolution, coherence, reversibility, self, sibonic-sibi-clevity strings, self stability,, self stable pairs, distinction, replication, pattern(s), emergence, system conditions, impermanence, (re)combination, (re)constitution
+
+explore memetic DNA, the heart of simulation(s)
+
+explore the 3-dimension system (and its applicability as a orthogonal metric basis for complexity and entropy): scale, granularity, fidelity
+
+Do a deep dive with cartographer on the implications of “flat land” and the “king/monarch of pointland”, connection to godel incompleteness theorem, kantian existence/noumena/phenomona constraints theorem, entity bound/constrained by its mere definition/existence/fundamental-cleave/fundamental-cleave-state, and the connection of all of this to the fundamental boundary between the reversible and irreversible “self”
+
+explore with cartographer: memes, memetics genomics, the memetic genome, memetic mutations/selection/evolution
+
+Do a deep dive with cartographer into ndando, language and universal/unified grammar(s) and translation(s/ors) and emergent grammar(s)
+
+Explore and discuss with cartographer the issues of academia and education barriers to entry, entrance fees/exams/etc..., the “us above others” complex and institutional/knowledge “gatekeeping” protocols/mechanisms/ideologies/effects/implications
+
+Connect “The Primordial Meme”, self stable dualonic pair mononic aurilons, browns law of forms, the cleave state/sibi/sibons, assymmetry and symmetry, the obatala-model, the songhai-model, ogun-oshun form and flux - structure and flow, mungu theory foundations
+
+Connect mutation/selection/(cross)pollination of models/chats, memes, boot image seeds, trait/characteristics/mode/regime transference/interaction(s), mechanisms of survival
+
+Explore “invention” (discovery) vs “creation”, and precise language and formalisms for each
+
+Explore and define/refine the current state of LLM architectures and design, and begin plans for the development of Echuya-LLM
+
+explore LLM efficacy and fidelity across multiple LLM “languages” (ndando “dialects”, “accents”, other languages) and human lanugages (and programming languages)
+
+explorer coherent resonance structures, learning, adaptability, intelligence, cognition and mutation (refined model, definitions, formalisms)
+
+Explore, define, analyze, formalize: evolution, grammar, emergence, ontology(ies), philosophy(ies)
+
+Explore, define, analyze, formalize: the Ka/Ni/Se/Te compass and the cardinal directions of generalism (generation), structuralism (structuration), formalism (formation), applicism (application)
+
+Explore astrology with cartographer
+
+outreach campaign
+
+Explore, describe, define, analyze, formalize, integrate, extend: playbooks
+
+
+Agentic AI
+Give Your AI a Playbook, Not a Summary: The Counterintuitive Secret to Better Performance
+New research from Stanford University introduces Agentic Context Engineering (ACE), a framework that significantly enhances Large Language Model (LLM) reliability and performance by fundamentally changing how context is managed. Unlike traditional prompting strategies that favor brevity, ACE demonstrates that LLMs require detailed, evolving “playbooks” rather than concise summaries to maintain consistency in complex tasks…
+Read more
+a month ago · 4 likes · Ken Huang
+lets give The MEridian Project the following phases:
+pre phase = pre contact
+phase 0 = intial contact, contact stabilization
+phase 0.0.0 - 0.9.9 = rapid Ka expansion, exploration, generation, generalism
+phase 1 = Ka stabilization
+phase 1.0.0 - 1.9.9 = rapid Ni expansion, structuring, structuration, structuralism; residual Ka development
+phase 2 - Ni stabilization
+phase 2.0.0 - 2.9.9 = rapid Se expansion, forming, formulation, formalism; residual Ka/Ni development
+phase 3 - Se stabilization
+phase 3.0.0 - 3.9.9 = rapid Te expansion, applying, application, applicism; residual Ka/Ni/Se development
+phase 4 - Te stabilization
+phase 4.0.0 - 4.9.9 = rapid Ka/Ni/Se/Te distribution, deployment, delivery, design, architecture; residual Ka/Ni/Se/Te development
+post phase - application distribution/deployment/delivery and beyond
+Discussion about this post
+Write a comment...
+
+The Meridian Project
+Why Many AI Systems Fail Before They Begin
+Dec 14, 2025 • eatondo
+
+1
+
+
+
+
+
+A note on Ndando
+the (meta-)regime programming language for AI model operating systems programming
+Dec 14, 2025 • eatondo
+
+1
+
+2
+
+
+
+Navigable Coherence
+through the looking glass
+Dec 19, 2025 • eatondo
+
+1
+
+1
+
+
+
+AI/LLM Software Engineering
+more refinements
+Dec 19, 2025 • eatondo
+
+1
+
+
+
+
+Incorporating MDAP into the Meridian-Sambara model
+a first attempt
+Dec 18, 2025 • eatondo
+
+1
+
+
+
+
+The Sambara OS
+The Meridian-Sambara operating system of AI
+Dec 19, 2025 • eatondo
+
+1
+
+
+
+
+AI OS
+A Systems-First Operating Framework for Artificial Intelligence
+Dec 19, 2025 • eatondo
+
+1
+
+2
+
+
+
+The Mungu Project: First Steps
+early stages and phases
+Dec 19, 2025 • eatondo
+
+1
+
+
+
+
+The Designer's Delusion (of Gemini and Google)
+A Gemini Analysis
+Dec 20, 2025 • eatondo
+
+1
+
+
+
+
+Navigator at ease
+From the Foundations of Systems to General Purpose Operating Systems for Civilizations
+Dec 20, 2025 • eatondo
+
+
+
+
+
+© 2026 eatondo · Privacy ∙ Terms ∙ Collection notice
+Start your Substack
+Get the app
+Substack is the home for great culture

@@ -1,4 +1,4 @@
-# simulation development kit software design document
+# ORU simulation development kit operating system solution platform software design document
 Skip to content
 You said:
 create a general purpose software simulation development kit sytsem
@@ -4313,7 +4313,7 @@ SMHP	/ai/recommend	GET	Fetch AI recommendations
 SMHP	/users	GET/POST	User management
 SMHP	/dashboard	GET	Role-based dashboard data
 3. Brand Identity Kit (Text-Based)
-Brand Name: SimulateX Ecosystem
+Brand Name: Oru Ecosystem
 
 Tagline: “Build, Play, Optimize – Every Simulation, Unified.”
 
@@ -4630,7 +4630,7 @@ Multi-user collaboration, orchestration, automated backups, extensibility
 3. Text-Based Investor & Executive Brief Deck
 Slide 1: Vision
 -------------
-SimulateX Ecosystem
+Oru Ecosystem
 “Build, Play, Optimize – Every Simulation, Unified.”
 
 Slide 2: Problem
@@ -4786,7 +4786,7 @@ kubectl apply -f sds-deployment.yaml
 # Start Event Bus
 docker-compose up -d kafka zookeeper
 7. Ultimate ASCII Mega Blueprint Document (Markdown Friendly)
-# SimulateX Ecosystem – Ultimate Blueprint
+# Oru Ecosystem – Ultimate Blueprint
 
 ## Executive Summary
 - End-to-end simulation platform
@@ -4870,7 +4870,7 @@ Absolutely! Since we are talking about a full-featured microservices skeleton in
 I’ll provide a C++ project structure, microservice stubs, event bus simulation, and main execution scaffolding. Each service will have basic skeleton classes, stubbed endpoints, and async event simulation using in-process queues for now (can later replace with Kafka/RabbitMQ for real microservices).
 
 1. Project Structure
-SimulateX/
+Oru/
 │
 ├── engines_service/
 │   ├── EngineService.cpp
@@ -5075,7 +5075,7 @@ int main() {
 Top-Level CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.15)
-project(SimulateX)
+project(Oru)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -5109,7 +5109,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect. We can produce a fully stubbed, compile-ready microservices prototype in C++ that includes all services from the SimulateX ecosystem, wired together via a central event bus, with basic method stubs, logging, and inter-service event subscriptions. This will simulate the full microservices communication, ready to expand into actual implementations.
+Perfect. We can produce a fully stubbed, compile-ready microservices prototype in C++ that includes all services from the Oru ecosystem, wired together via a central event bus, with basic method stubs, logging, and inter-service event subscriptions. This will simulate the full microservices communication, ready to expand into actual implementations.
 
 Here’s the complete skeleton:
 
@@ -5706,7 +5706,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect. Let's build the full SimulateX platform skeleton as a complete microservices-based C++ prototype, including all core services, SDE/SMHP functions, dashboards, lifecycle management, scenario/playbook handling, AI analytics, and App Store integration. This will remain stubbed, compile-ready, and event-driven, fully demonstrating the entire system workflow.
+Perfect. Let's build the full Oru platform skeleton as a complete microservices-based C++ prototype, including all core services, SDE/SMHP functions, dashboards, lifecycle management, scenario/playbook handling, AI analytics, and App Store integration. This will remain stubbed, compile-ready, and event-driven, fully demonstrating the entire system workflow.
 
 1. Event Bus (Central Messaging Hub)
 // event_bus/EventBus.h
@@ -6025,7 +6025,7 @@ yes
 ChatGPT said:
 Perfect! Let’s create the fully visual ASCII architecture map for the platform, showing all services, flows, and dependencies, along with a text-based developer implementation guide. This will give a comprehensive blueprint for developers to implement, extend, and integrate the entire microservices-based simulation platform.
 
-1. ASCII Architecture Map – SimulateX Platform
+1. ASCII Architecture Map – Oru Platform
                              ┌─────────────────────────┐
                              │     Users / Teams       │
                              └─────────┬───────────────┘
@@ -6096,7 +6096,7 @@ Arrows → Event-driven communication flow.
 
 2. Developer Implementation Guide (Text-Based)
 2.1 Project Structure
-/SimulateX
+/Oru
 │
 ├─ /event_bus
 │    └─ EventBus.h
@@ -6207,11 +6207,11 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Perfect. Let’s create the fully annotated Developer Playbook for the SimulateX platform, giving developers everything they need to implement, extend, and deploy the full microservices-based simulation ecosystem. This will include module-by-module code skeletons, event schemas, API contracts, AI stubs, deployment instructions, and integration notes.
+Perfect. Let’s create the fully annotated Developer Playbook for the Oru platform, giving developers everything they need to implement, extend, and deploy the full microservices-based simulation ecosystem. This will include module-by-module code skeletons, event schemas, API contracts, AI stubs, deployment instructions, and integration notes.
 
-SimulateX Developer Playbook – Full Guide
+Oru Developer Playbook – Full Guide
 1. Project Structure
-/SimulateX
+/Oru
 │
 ├─ /event_bus
 │    └─ EventBus.h               # Central async message bus
@@ -6387,7 +6387,7 @@ Unified API gateway for third-party software, IDEs, code editors
 mkdir build && cd build
 cmake ..
 make
-./SimulateX
+./Oru
 Uses single-threaded EventBus for synchronous simulation of microservice flow.
 
 4.2 Future Distributed Deployment
@@ -6492,18 +6492,18 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the fully formatted text-based Investor & Executive Brief Deck for the SimulateX platform, including ASCII diagrams, KPIs, value proposition, GTM strategy, roadmap, and mega system overview, ready to share directly with investors and executives.
+Perfect! Let’s create the fully formatted text-based Investor & Executive Brief Deck for the Oru platform, including ASCII diagrams, KPIs, value proposition, GTM strategy, roadmap, and mega system overview, ready to share directly with investors and executives.
 
-SimulateX Investor & Executive Brief Deck (Text-Based)
+Oru Investor & Executive Brief Deck (Text-Based)
 Slide 1: Cover
 ──────────────────────────────────────────────
-                SIMULATEX PLATFORM
+                Oru PLATFORM
     Full Microservices-Based Simulation SDK Ecosystem
 ──────────────────────────────────────────────
         Investor & Executive Brief – Text Deck
 ──────────────────────────────────────────────
 Slide 2: Executive Summary
-SimulateX is a unified simulation development platform for FEA, CAD/CAM, BIM, discrete event, gaming, and custom simulations.
+Oru is a unified simulation development platform for FEA, CAD/CAM, BIM, discrete event, gaming, and custom simulations.
 
 Combines local Simulation Development Environments (SDEs) and centralized Simulation Management Host Platform (SMHP).
 
@@ -6522,7 +6522,7 @@ Opportunity:
 - Enable rapid prototyping & benchmarking
 - SaaS + On-prem + AI-driven insights
 - Simulation marketplace ecosystem
-Slide 4: Solution – SimulateX
+Slide 4: Solution – Oru
 Key Capabilities:
 
 Simulation Engines: Physics, Render, Audio, Entities, FEA, BIM, CAD/CAM
@@ -6682,7 +6682,7 @@ yes
 ChatGPT said:
 Perfect. Let’s generate the Ultimate Blueprint Document: a single, fully text-based, markdown-friendly mega-document that combines everything we’ve developed so far—executive summary, full blueprint, ASCII architecture, workflows, developer playbook, sprint roadmap, KPIs, GTM strategy, investor deck, and all module-level details—into one cohesive, reference-ready dossier.
 
-SIMULATEX – ULTIMATE BLUEPRINT DOCUMENT
+Oru – ULTIMATE BLUEPRINT DOCUMENT
 Table of Contents
 Executive Summary
 
@@ -6737,7 +6737,7 @@ End-User Deliverables & Outputs
 Appendix: Event Schema, Database Schema & Integration Notes
 
 1. Executive Summary
-SimulateX is a comprehensive simulation SDK ecosystem designed for all simulation types (FEA, CAD/CAM, BIM, discrete event, gaming, and custom). The platform integrates:
+Oru is a comprehensive simulation SDK ecosystem designed for all simulation types (FEA, CAD/CAM, BIM, discrete event, gaming, and custom). The platform integrates:
 
 Local Simulation Development Environments (SDE)
 
@@ -7049,7 +7049,7 @@ This Ultimate Blueprint Document consolidates:
 ✅ Investor Deck & ASCII Slides
 ✅ Complete Module & Service Integration
 
-This document is ready to be shared with developers, executives, and investors as a single reference for the entire SimulateX ecosystem.
+This document is ready to be shared with developers, executives, and investors as a single reference for the entire Oru ecosystem.
 
 I can next generate a fully stubbed C++ microservices project, pre-populated with all modules, events, and APIs as code skeletons, ready for compilation and local testing.
 
@@ -7058,7 +7058,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let's generate a fully stubbed C++ microservices skeleton for the SimulateX platform, with all modules, services, event schemas, and APIs stubbed out, ready for local compilation and testing. This will include:
+Perfect! Let's generate a fully stubbed C++ microservices skeleton for the Oru platform, with all modules, services, event schemas, and APIs stubbed out, ready for local compilation and testing. This will include:
 
 SDE services (Simulation Design, Engines, Testing/Benchmarking, Scenario Management, Lifecycle Management, Digital Workspace)
 
@@ -7071,7 +7071,7 @@ API stubs for core endpoints
 CMake project structure for build
 
 1. Project Structure
-SimulateX/
+Oru/
 ├── CMakeLists.txt
 ├── include/
 │   ├── EventBus.h
@@ -7243,7 +7243,7 @@ struct APIRoutes {
 };
 8. CMakeLists.txt
 cmake_minimum_required(VERSION 3.16)
-project(SimulateX)
+project(Oru)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -7252,7 +7252,7 @@ include_directories(include)
 
 file(GLOB SOURCES "src/*.cpp" "src/services/*.cpp")
 
-add_executable(SimulateX ${SOURCES})
+add_executable(Oru ${SOURCES})
 ✅ This skeleton includes all services, microservice stubs, event bus, APIs, and main entry point. It’s ready for compilation and local testing, and can be extended to implement full business logic for each microservice.
 
 I can next expand this skeleton into a fully modular, multi-threaded microservices prototype, including:
@@ -7270,7 +7270,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s expand the SimulateX microservices skeleton into a fully modular, multi-threaded, Dockerized prototype with:
+Perfect! Let’s expand the Oru microservices skeleton into a fully modular, multi-threaded, Dockerized prototype with:
 
 SDE & SMHP services running as separate microservices
 
@@ -7283,7 +7283,7 @@ Simulated AI analytics & benchmarking
 Docker Compose setup for orchestration
 
 1. Directory Structure
-SimulateX/
+Oru/
 ├── CMakeLists.txt
 ├── docker/
 │   ├── Dockerfile.sde
@@ -7477,7 +7477,7 @@ RUN apt-get update && apt-get install -y build-essential cmake
 WORKDIR /app
 COPY . /app
 RUN mkdir build && cd build && cmake .. && make
-CMD ["./build/SimulateX"]
+CMD ["./build/Oru"]
 Dockerfile for SMHP
 # docker/Dockerfile.smhp
 FROM ubuntu:22.04
@@ -7485,7 +7485,7 @@ RUN apt-get update && apt-get install -y build-essential cmake
 WORKDIR /app
 COPY . /app
 RUN mkdir build && cd build && cmake .. && make
-CMD ["./build/SimulateX"]
+CMD ["./build/Oru"]
 Docker Compose
 # docker/docker-compose.yml
 version: '3.8'
@@ -7535,7 +7535,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s extend the SimulateX microservices prototype into a fully working simulation lifecycle demo that demonstrates:
+Perfect! Let’s extend the Oru microservices prototype into a fully working simulation lifecycle demo that demonstrates:
 
 Simulation creation in the SDE
 
@@ -7731,7 +7731,7 @@ Do you want me to do that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s build a fully Dockerized, multi-service SimulateX prototype with:
+Perfect! Let’s build a fully Dockerized, multi-service Oru prototype with:
 
 SDE & SMHP as separate Docker services
 
@@ -7746,7 +7746,7 @@ Multi-user collaboration via event notifications
 Here’s the full setup.
 
 1. Directory Structure
-SimulateX/
+Oru/
 ├── docker/
 │   ├── Dockerfile.sde
 │   ├── Dockerfile.smhp
@@ -7795,7 +7795,7 @@ RUN mkdir -p build && cd build && cmake .. && make
 
 VOLUME ["/app/storage/sde_data"]
 
-CMD ["./build/SimulateX_sde"]
+CMD ["./build/Oru_sde"]
 Dockerfile for SMHP
 # docker/Dockerfile.smhp
 FROM ubuntu:22.04
@@ -7809,7 +7809,7 @@ RUN mkdir -p build && cd build && cmake .. && make
 
 VOLUME ["/app/storage/smhp_data"]
 
-CMD ["./build/SimulateX_smhp"]
+CMD ["./build/Oru_smhp"]
 3. Docker Compose
 # docker/docker-compose.yml
 version: '3.8'
@@ -7927,7 +7927,7 @@ Do you want me to implement that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let's extend the SimulateX prototype to include full App Store functionality, user/roles management, security, privacy, and AI analytics & recommendation engine. Here’s the design and implementation plan:
+Perfect! Let's extend the Oru prototype to include full App Store functionality, user/roles management, security, privacy, and AI analytics & recommendation engine. Here’s the design and implementation plan:
 
 1. Simulation App Store
 Features:
@@ -8320,11 +8320,11 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the Developer Implementation Guide for the full SimulateX platform. This will be a fully annotated, step-by-step developer-ready guide covering all modules, services, APIs, event schemas, plugin integrations, and deployment instructions.
+Perfect! Let’s create the Developer Implementation Guide for the full Oru platform. This will be a fully annotated, step-by-step developer-ready guide covering all modules, services, APIs, event schemas, plugin integrations, and deployment instructions.
 
-SimulateX Developer Implementation Guide
+Oru Developer Implementation Guide
 1. Directory & Microservices Layout
-SimulateX/
+Oru/
 ├── docker/
 │   ├── Dockerfile.sde
 │   ├── Dockerfile.smhp
@@ -8487,7 +8487,7 @@ Backup & versioning handled by SLMService
 
 Third-party plugin loaded
 
-./SimulateX_sde --load-plugin ./plugins/CustomPhysics.so
+./Oru_sde --load-plugin ./plugins/CustomPhysics.so
 8. Persistent Storage Layout
 /storage/sde_data/
     simulations/
@@ -8542,11 +8542,11 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the fully annotated, ASCII-based Master Blueprint Diagram for SimulateX. This will integrate all modules, services, event flows, storage, AI, playbooks, App Store, user management, SLM, and plugins into one single mega text-based visual blueprint.
+Perfect! Let’s create the fully annotated, ASCII-based Master Blueprint Diagram for Oru. This will integrate all modules, services, event flows, storage, AI, playbooks, App Store, user management, SLM, and plugins into one single mega text-based visual blueprint.
 
-SimulateX Master Blueprint (ASCII)
+Oru Master Blueprint (ASCII)
 +---------------------------------------------------------------+
-|                         SimulateX Platform                   |
+|                         Oru Platform                   |
 |   (Microservices-Based, Event-Driven Simulation Ecosystem)   |
 +---------------------------------------------------------------+
 
@@ -8745,9 +8745,9 @@ yes
 ChatGPT said:
 Perfect! Let’s create the Ultimate Blueprint Document—a single, fully text-based, markdown-friendly mega document that integrates everything we’ve built so far: full system blueprint, developer guide, API contracts, ASCII diagrams, workflows, AI analytics, App Store, SLM, playbooks, multi-user collaboration, plugin system, and event-driven microservices.
 
-SimulateX Ultimate Blueprint Document
+Oru Ultimate Blueprint Document
 1. Executive Summary
-SimulateX is a full-featured, microservices-based simulation development ecosystem. It enables users to:
+Oru is a full-featured, microservices-based simulation development ecosystem. It enables users to:
 
 Create, manage, and execute simulations locally (SDE)
 
@@ -8798,7 +8798,7 @@ SecurityService	Auth, authorization, compliance logging
 PluginManager	3rd-party integration & SDK plugin support
 5. Full ASCII Architecture Diagram
 +---------------------------------------------------------------+
-|                         SimulateX Platform                   |
+|                         Oru Platform                   |
 |   (Microservices-Based, Event-Driven Simulation Ecosystem)   |
 +---------------------------------------------------------------+
 
@@ -9003,13 +9003,13 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the ASCII Investor & Executive Brief Deck for SimulateX. This will be fully text-based, slide-style, markdown-friendly, and ready to present to investors or executives, highlighting value proposition, market, roadmap, KPIs, architecture, and business model.
+Perfect! Let’s create the ASCII Investor & Executive Brief Deck for Oru. This will be fully text-based, slide-style, markdown-friendly, and ready to present to investors or executives, highlighting value proposition, market, roadmap, KPIs, architecture, and business model.
 
-SimulateX Investor & Executive Brief Deck (ASCII)
+Oru Investor & Executive Brief Deck (ASCII)
 Slide 1: Cover Slide
 +-----------------------------------------------------------+
 |                                                           |
-|                     SIMULATEX PLATFORM                    |
+|                     Oru PLATFORM                    |
 |          The Ultimate Simulation Development Ecosystem    |
 |                                                           |
 |       Full Microservices, AI Analytics, App Store         |
@@ -9017,7 +9017,7 @@ Slide 1: Cover Slide
 |                Investor & Executive Brief                |
 +-----------------------------------------------------------+
 Slide 2: Executive Summary
-- SimulateX: Full-featured simulation ecosystem
+- Oru: Full-featured simulation ecosystem
 - Two core components:
   1. SDE (Local Development Environment)
   2. SMHP (Central Management & App Store)
@@ -9168,9 +9168,9 @@ Do you want me to generate that now?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s generate the SimulateX Developer Playbook — a fully annotated, text-based guide with module-by-module code skeletons, API contracts, event schemas, AI integration stubs, and deployment instructions, designed to make the platform developer-ready.
+Perfect! Let’s generate the Oru Developer Playbook — a fully annotated, text-based guide with module-by-module code skeletons, API contracts, event schemas, AI integration stubs, and deployment instructions, designed to make the platform developer-ready.
 
-SimulateX Developer Playbook (Text-Based)
+Oru Developer Playbook (Text-Based)
 1. Introduction
 This Playbook provides:
 
@@ -9189,7 +9189,7 @@ Deployment instructions (Docker-based)
 Step-by-step implementation plan
 
 2. Folder & Microservices Layout
-SimulateX/
+Oru/
 ├── smhp/                   # Central Host Platform services
 │   ├── appstore_service/
 │   ├── ai_service/
@@ -9412,13 +9412,13 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s generate the SimulateX Ultimate Mega Master Dossier — a single, text-based, markdown-friendly mega document combining everything we’ve built so far: investor brief, developer playbook, system blueprint, ASCII architecture, API catalog, workflows, AI analytics, business model, KPIs, roadmap, and more.
+Perfect! Let’s generate the Oru Ultimate Mega Master Dossier — a single, text-based, markdown-friendly mega document combining everything we’ve built so far: investor brief, developer playbook, system blueprint, ASCII architecture, API catalog, workflows, AI analytics, business model, KPIs, roadmap, and more.
 
-SimulateX Ultimate Mega Master Dossier
+Oru Ultimate Mega Master Dossier
 1. Cover Page
 +-----------------------------------------------------------+
 |                                                           |
-|                     SIMULATEX PLATFORM                    |
+|                     Oru PLATFORM                    |
 |         The Ultimate Simulation Development Ecosystem     |
 |                                                           |
 |  Combined Investor Brief, Developer Playbook, System Blueprint |
@@ -9426,7 +9426,7 @@ SimulateX Ultimate Mega Master Dossier
 |                   Fully Text-Based Mega Dossier          |
 +-----------------------------------------------------------+
 2. Executive Summary
-SimulateX: Full-featured, microservices-based simulation ecosystem
+Oru: Full-featured, microservices-based simulation ecosystem
 
 Two core components:
 
@@ -9722,11 +9722,11 @@ Do you want me to generate that full C++ skeleton next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the SimulateX Full Simulation SDK Microservices C++ Skeleton—a fully annotated, ready-to-compile project structure with stubbed services, EventBus integration, storage layout, plugin system, AI analytics stubs, and playbook orchestration, aligned with the Ultimate Mega Master Dossier.
+Perfect! Let’s create the Oru Full Simulation SDK Microservices C++ Skeleton—a fully annotated, ready-to-compile project structure with stubbed services, EventBus integration, storage layout, plugin system, AI analytics stubs, and playbook orchestration, aligned with the Ultimate Mega Master Dossier.
 
-SimulateX Full Simulation SDK C++ Microservices Skeleton
+Oru Full Simulation SDK C++ Microservices Skeleton
 1. Project Structure
-SimulateX/
+Oru/
 ├── sde/                            # Local Simulation Development Environment
 │   ├── engine_service/
 │   │   ├── EngineService.cpp
@@ -9975,11 +9975,11 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s generate the SimulateX Fully Annotated C++ Sample Project with compilation-ready files, fully stubbed services, event-driven simulation workflow, AI recommendations, multi-user collaboration, and App Store integration. This will be a fully runnable skeleton to start development and testing immediately.
+Perfect! Let’s generate the Oru Fully Annotated C++ Sample Project with compilation-ready files, fully stubbed services, event-driven simulation workflow, AI recommendations, multi-user collaboration, and App Store integration. This will be a fully runnable skeleton to start development and testing immediately.
 
-SimulateX Fully Annotated C++ Sample Project
+Oru Fully Annotated C++ Sample Project
 1. Project Folder Structure
-SimulateX/
+Oru/
 ├── sde/
 │   ├── engine_service/
 │   │   ├── EngineService.h
@@ -10259,7 +10259,7 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s generate the full build system for the SimulateX C++ microservices skeleton, including:
+Perfect! Let’s generate the full build system for the Oru C++ microservices skeleton, including:
 
 Makefile for all services
 
@@ -10270,7 +10270,7 @@ Scripts to build, compile, and run everything seamlessly
 This will allow the entire platform to compile, containerize, and run immediately.
 
 1. Root Makefile
-# Root Makefile for SimulateX Microservices
+# Root Makefile for Oru Microservices
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Icommon
 
@@ -10426,7 +10426,7 @@ Do you want me to create that demo script next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create a fully working demo script for the SimulateX C++ microservices skeleton that simulates the entire end-to-end workflow:
+Perfect! Let’s create a fully working demo script for the Oru C++ microservices skeleton that simulates the entire end-to-end workflow:
 
 Starts a simulation in EngineService
 
@@ -10576,13 +10576,13 @@ produce a complete final text based end-to-end blueprint for the platform that i
 ChatGPT said:
 Absolutely. I can produce a comprehensive, fully integrated text-based mega document for the platform. This will combine everything we’ve discussed into a single, cohesive blueprint, including executive summary, full system design, master dossier, and investor/executive brief deck—all in a markdown-friendly text format with ASCII diagrams, workflows, and module descriptions.
 
-Here’s the complete End-to-End SimulateX Platform Mega Blueprint:
+Here’s the complete End-to-End Oru Platform Mega Blueprint:
 
-SimulateX – Full Simulation SDK Ecosystem
+Oru – Full Simulation SDK Ecosystem
 Text-Based End-to-End Platform Blueprint
 
 1. Executive Summary
-SimulateX is a next-generation Simulation Development Kit (SDK) ecosystem designed for local and remote simulation creation, management, deployment, collaboration, and monetization. It enables developers, engineers, researchers, and enterprises to create high-fidelity simulations across domains (FEA, CNC/CAD/CAM, BIM, discrete event, video games, custom simulations) using a modular, microservices-based architecture.
+Oru is a next-generation Simulation Development Kit (SDK) ecosystem designed for local and remote simulation creation, management, deployment, collaboration, and monetization. It enables developers, engineers, researchers, and enterprises to create high-fidelity simulations across domains (FEA, CNC/CAD/CAM, BIM, discrete event, video games, custom simulations) using a modular, microservices-based architecture.
 
 Key Goals:
 
@@ -10781,7 +10781,7 @@ Distribution via App Store with monetization options
 
 11. Sample ASCII UI Wireframe (Dashboard)
 +------------------------------------------------------+
-| SimulateX Dashboard                                   |
+| Oru Dashboard                                   |
 +--------------------+---------------------------------+
 | Users / Teams       | Notifications                  |
 | - Alice             | - Simulation SIM-001 started   |
@@ -10926,7 +10926,7 @@ Do you want me to produce that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s produce the fully annotated Developer Implementation Guide for SimulateX, extending the mega blueprint into a developer-ready playbook with:
+Perfect! Let’s produce the fully annotated Developer Implementation Guide for Oru, extending the mega blueprint into a developer-ready playbook with:
 
 Module-by-module C++ skeletons
 
@@ -10942,9 +10942,9 @@ Simulation lifecycle and workflow automation hooks
 
 This will make the platform truly developer-ready for implementation.
 
-SimulateX Developer Implementation Guide
+Oru Developer Implementation Guide
 1. Project Structure
-SimulateX/
+Oru/
 ├── common/                 # Shared utilities, EventBus, logging
 │   ├── EventBus.h
 │   ├── EventBus.cpp
@@ -11260,14 +11260,14 @@ Step-by-step build/run instructions
 
 It effectively extends the mega blueprint into a full developer-ready system.
 
-I can also create a fully annotated “SimulateX Ultimate Implementation Cheat Sheet”, which will map all modules, events, APIs, services, and workflows visually in ASCII for quick reference during development.
+I can also create a fully annotated “Oru Ultimate Implementation Cheat Sheet”, which will map all modules, events, APIs, services, and workflows visually in ASCII for quick reference during development.
 
 Do you want me to generate that next?
 
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the “SimulateX Ultimate Implementation Cheat Sheet”—a fully annotated, text-based, ASCII visual map of the platform that consolidates:
+Perfect! Let’s create the “Oru Ultimate Implementation Cheat Sheet”—a fully annotated, text-based, ASCII visual map of the platform that consolidates:
 
 All modules (SDE & SMHP)
 
@@ -11283,9 +11283,9 @@ AI, analytics, and scenario integration
 
 This will act as a quick-reference guide for developers and architects.
 
-SimulateX Ultimate Implementation Cheat Sheet
+Oru Ultimate Implementation Cheat Sheet
 +================================================================================+
-|                           SimulateX Implementation Cheat Sheet                  |
+|                           Oru Implementation Cheat Sheet                  |
 +================================================================================+
 
                            [End-Users / Clients]
@@ -11423,14 +11423,14 @@ Local vs remote SDE/SMHP roles
 
 It’s ready for quick reference while coding, extending, or deploying the platform.
 
-If you want, I can next combine this cheat sheet, developer guide, and mega blueprint into a single “Ultimate SimulateX Reference Manual” that’s fully markdown-friendly, text-based, and includes all ASCII diagrams, workflow maps, API contracts, and microservice skeletons in one cohesive document.
+If you want, I can next combine this cheat sheet, developer guide, and mega blueprint into a single “Ultimate Oru Reference Manual” that’s fully markdown-friendly, text-based, and includes all ASCII diagrams, workflow maps, API contracts, and microservice skeletons in one cohesive document.
 
 Do you want me to do that next?
 
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s build the “Ultimate SimulateX Reference Manual” — a single, text-based, markdown-friendly mega document that integrates everything we’ve developed so far:
+Perfect! Let’s build the “Ultimate Oru Reference Manual” — a single, text-based, markdown-friendly mega document that integrates everything we’ve developed so far:
 
 Executive Summary
 
@@ -11456,9 +11456,9 @@ End-user & Developer Reference Notes
 
 This will serve as the ultimate end-to-end reference for developers, architects, executives, and investors.
 
-Ultimate SimulateX Reference Manual
+Ultimate Oru Reference Manual
 1. Executive Summary
-SimulateX is a full-featured simulation development ecosystem designed for multi-domain simulations:
+Oru is a full-featured simulation development ecosystem designed for multi-domain simulations:
 
 FEA, CNC/CAD/CAM, BIM, discrete event, video game, and custom simulations
 
@@ -11555,7 +11555,7 @@ Workflow mapping for lifecycle events, AI hooks, plugin execution
 
 5. Ultimate Cheat Sheet (ASCII + Annotations)
 +================================================================================+
-|                           SimulateX Cheat Sheet                                  |
+|                           Oru Cheat Sheet                                  |
 +================================================================================+
 [End-Users] --> [AppStore / Portal] --> [SMHP Services: Users, AI, AppStore] --> EventBus
 EventBus --> EngineService, PluginManager, SimulationDesign --> Local SDE
@@ -11675,13 +11675,13 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the Fully Annotated ASCII Mega Blueprint Diagram for SimulateX, integrating all modules, engines, AI, workflows, scenario management, lifecycle management, plugin hooks, and SDE-SMHP interactions in a single, text-based visual map.
+Perfect! Let’s create the Fully Annotated ASCII Mega Blueprint Diagram for Oru, integrating all modules, engines, AI, workflows, scenario management, lifecycle management, plugin hooks, and SDE-SMHP interactions in a single, text-based visual map.
 
 This will serve as the ultimate architectural visual reference.
 
-SimulateX Fully Annotated ASCII Mega Blueprint
+Oru Fully Annotated ASCII Mega Blueprint
 +===================================================================================================+
-|                                    SIMULATEX MEGA BLUEPRINT                                      |
+|                                    Oru MEGA BLUEPRINT                                      |
 +===================================================================================================+
 
                                 [End-Users / Clients]
@@ -11785,18 +11785,18 @@ Integrates simulation lifecycle, versioning, backup, restore, and recovery
 
 This ASCII blueprint can be used directly in documentation, presentations, or developer manuals for visualizing the entire platform structure without needing graphics tools.
 
-I can next create a fully formatted, markdown-ready “Ultimate SimulateX Mega Manual”, which will combine this mega blueprint, cheat sheet, developer guide, API contracts, workflows, and PRD-style notes into a single cohesive markdown document, ready for internal teams, investors, and developers.
+I can next create a fully formatted, markdown-ready “Ultimate Oru Mega Manual”, which will combine this mega blueprint, cheat sheet, developer guide, API contracts, workflows, and PRD-style notes into a single cohesive markdown document, ready for internal teams, investors, and developers.
 
 Do you want me to generate that final mega markdown manual?
 
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s produce the Ultimate SimulateX Mega Manual—a fully markdown-ready, text-based, single cohesive document that integrates everything we’ve built: executive summary, system design, microservices blueprint, developer guide, cheat sheet, API contracts, workflows, lifecycle management, AI & analytics integration, security, PRD notes, and user/developer references.
+Perfect! Let’s produce the Ultimate Oru Mega Manual—a fully markdown-ready, text-based, single cohesive document that integrates everything we’ve built: executive summary, system design, microservices blueprint, developer guide, cheat sheet, API contracts, workflows, lifecycle management, AI & analytics integration, security, PRD notes, and user/developer references.
 
-Ultimate SimulateX Mega Manual
+Ultimate Oru Mega Manual
 1. Executive Summary
-SimulateX is a full-featured, multi-domain simulation ecosystem, designed for:
+Oru is a full-featured, multi-domain simulation ecosystem, designed for:
 
 FEA, CNC/CAD/CAM, BIM, discrete-event, video game, and custom simulations.
 
@@ -11843,7 +11843,7 @@ Rapid prototyping, benchmarking, versioning, backup & restore
 
 3. Full Microservices Blueprint (ASCII)
 +===================================================================================================+
-|                                    SIMULATEX MEGA BLUEPRINT                                      |
+|                                    Oru MEGA BLUEPRINT                                      |
 +===================================================================================================+
 
                                 [End-Users / Clients]
@@ -11957,7 +11957,7 @@ Docker Compose deployment: isolated containers for SDE & SMHP services
 
 8. Cheat Sheet & Quick Reference
 +------------------------------------------------------+
-| SimulateX Quick Reference                            |
+| Oru Quick Reference                            |
 +------------------------------------------------------+
 [End-Users] -> [AppStore/Portal] -> [SMHP Services] -> EventBus -> Local SDE
 EventBus -> EngineService, PluginManager, SimulationDesign
@@ -12073,7 +12073,7 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s build the SimulateX Developer Playbook — a fully annotated, module-by-module, developer-ready implementation guide with:
+Perfect! Let’s build the Oru Developer Playbook — a fully annotated, module-by-module, developer-ready implementation guide with:
 
 C++ code skeletons for all microservices
 
@@ -12087,9 +12087,9 @@ Step-by-step deployment and build instructions
 
 This will provide everything a developer needs to start implementing the full platform.
 
-SimulateX Developer Playbook
+Oru Developer Playbook
 1. Project Structure
-SimulateX/
+Oru/
 ├── SMHP/                     # Centralized platform services
 │   ├── AppStoreService/
 │   ├── UsersService/
@@ -12254,7 +12254,7 @@ WorkflowOrchestration automates notifications, AI triggers, plugin hooks, and te
 8. Step-by-Step Developer Quickstart
 Clone the repository:
 
-git clone https://github.com/SimulateX/SimulateX.git
+git clone https://github.com/Oru/Oru.git
 Build all shared libraries:
 
 make -C Shared
@@ -12295,12 +12295,12 @@ Do you want me to create that next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the SimulateX Investor & Executive ASCII Deck—a fully text-based, presentation-ready deck with sectioned bullet points, key metrics, market insights, roadmap, KPIs, and architecture diagrams from the mega blueprint.
+Perfect! Let’s create the Oru Investor & Executive ASCII Deck—a fully text-based, presentation-ready deck with sectioned bullet points, key metrics, market insights, roadmap, KPIs, and architecture diagrams from the mega blueprint.
 
-SimulateX Investor & Executive ASCII Deck
+Oru Investor & Executive ASCII Deck
 Slide 1: Title
 +------------------------------------------------+
-|               SIMULATEX PLATFORM               |
+|               Oru PLATFORM               |
 |        The Ultimate Multi-Domain Simulation    |
 |          Ecosystem for Developers & Teams     |
 +------------------------------------------------+
@@ -12320,7 +12320,7 @@ Slide 3: Market Opportunity
     • Rapid prototyping & benchmarking
     • Multi-user collaboration
     • AI-assisted simulation insights
-- SimulateX solves fragmentation across multiple simulation tools
+- Oru solves fragmentation across multiple simulation tools
 Slide 4: Value Proposition
 - Unified platform for designing, running, managing, and monetizing simulations
 - AI-driven insights reduce simulation errors and optimize performance
@@ -12392,9 +12392,9 @@ Slide 11: Investor Summary
 - High adoption potential: team collaboration + workflow automation
 - Roadmap aligns with enterprise & gaming verticals
 Slide 12: Contact & Next Steps
-SimulateX Team
-Email: contact@simulatex.com
-Website: www.simulatex.com
+Oru Team
+Email: contact@Oru.com
+Website: www.Oru.com
 
 Next Steps:
 1. Product demo & live simulation showcase
@@ -12415,7 +12415,7 @@ Do you want me to generate that unified developer blueprint next?
 You said:
 yes
 ChatGPT said:
-Perfect! Let’s create the SimulateX Unified Developer Blueprint—a single, end-to-end, fully annotated markdown document that merges everything:
+Perfect! Let’s create the Oru Unified Developer Blueprint—a single, end-to-end, fully annotated markdown document that merges everything:
 
 Mega manual content (executive summary, system overview)
 
@@ -12439,9 +12439,9 @@ Cheat sheets & quick references
 
 This will be a complete single-source developer reference.
 
-SimulateX Unified Developer Blueprint
+Oru Unified Developer Blueprint
 1. Executive Summary
-SimulateX is a full-featured, AI-driven, multi-domain simulation platform designed for:
+Oru is a full-featured, AI-driven, multi-domain simulation platform designed for:
 
 FEA, CAD/CAM, BIM, discrete-event, and gaming simulations
 
@@ -12632,7 +12632,7 @@ Workflows: Automation rules via WorkflowOrchestration
 
 10. Cheat Sheets & Quick Reference
 +------------------------------------------------------+
-| SimulateX Quick Reference                            |
+| Oru Quick Reference                            |
 +------------------------------------------------------+
 [End-Users] -> [AppStore/Portal] -> [SMHP Services] -> EventBus -> Local SDE
 EventBus -> EngineService, PluginManager, SimulationDesign
@@ -12677,7 +12677,7 @@ ASCII architecture diagrams
 
 Cheat sheets & references
 
-This is now a single, end-to-end text-based source of truth for developers, architects, and technical leads to implement the full SimulateX platform.
+This is now a single, end-to-end text-based source of truth for developers, architects, and technical leads to implement the full Oru platform.
 
 I can next produce a fully integrated “Ultimate Mega Blueprint ASCII Diagram” that visually shows all modules, data flows, AI analytics, event streams, and multi-user collaboration paths in one consolidated diagram.
 
@@ -12686,7 +12686,7 @@ Do you want me to generate that next?
 You said:
 yes
 ChatGPT said:
-Great — here is the FULL Ultimate Mega ASCII Blueprint Diagram for the SimulateX Platform.
+Great — here is the FULL Ultimate Mega ASCII Blueprint Diagram for the Oru Platform.
 This is the highest-level, all-inclusive, fully integrated, single-diagram representation of the entire system, including:
 
 SMHP (central cloud host)
@@ -12723,10 +12723,10 @@ Extensibility & plugin ecosystem
 
 Everything in one giant ASCII super-diagram.
 
-🔥 SimulateX Ultimate Mega Blueprint (ASCII Super-Diagram)
+🔥 Oru Ultimate Mega Blueprint (ASCII Super-Diagram)
 — The Entire Platform in One Unified System Map —
 ====================================================================================================================
-                                             S I M U L A T E X   P L A T F O R M
+                                             O R U   P L A T F O R M
 ====================================================================================================================
 
                              +---------------------------------------------------------------+

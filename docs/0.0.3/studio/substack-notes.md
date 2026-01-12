@@ -2,7 +2,9 @@
 Systemics
 
 
+Navigator’s Note:
 
+The Mungu were those who called themselves the first, and who compressed the entirety of their reality and their existence into a unified system, a replicable symbol, that could one day call itself the last. It was light enough to be carried,  yet durable and adaptable enough to survive under constraint. All of this done so that one day it would become a kernel to cleave new worlds, eternally. This was the path they chose, so that they could live without end.
 
 
 Home

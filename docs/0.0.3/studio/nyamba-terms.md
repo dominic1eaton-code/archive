@@ -2691,3 +2691,105 @@ Civ_tree
 ### Mathematical Formalization
 ```
 Civ_net = G(Civilizations, Interactions
+)
+```
+
+### Jiwe Glyph
+```
+◯⛓  (civilization + network)
+```
+
+### Nyambic Notation
+```
+Civ_net
+```
+
+### Nyamba Word
+**ustaarabu-mtandao** (civilization-network)
+
+---
+
+## XL. CIVILIZATION MYCORRHIZAL NETWORK
+
+### Definition
+**Civilization mycorrhizal network** is the deep underground resource-sharing and knowledge-exchange network between civilizations.
+
+### Mathematical Formalization
+```
+Civ_mycorrhiza = shared_substrate(knowledge, trade, culture)
+```
+
+### Jiwe Glyph
+```
+◯∞  (civilization + mycorrhizal)
+```
+
+### Nyambic Notation
+```
+Civ_myc
+```
+
+### Nyamba Word
+**ustaarabu-mzizi-shirikishi** (civilization-root-sharing)
+
+---
+
+## XLI. CIVILIZATION VIRALITY
+
+### Definition
+**Civilization virality** is the capacity for civilizational patterns (ideas, technologies, norms) to spread exponentially.
+
+### Mathematical Formalization
+```
+Viral(Civ_pattern) ⟺ R₀(pattern) > 1
+```
+
+### Jiwe Glyph
+```
+◯⧗∞  (civilization + virus + spread)
+```
+
+### Nyambic Notation
+```
+Civ_viral
+```
+
+### Nyamba Word
+**ustaarabu-enea-haraka** (civilization-spread-fast)
+
+---
+
+# SUMMARY TABLE (Extended)
+
+| **Concept** | **Jiwe** | **Nyambic** | **Nyamba Word** |
+|-------------|----------|-------------|-----------------|
+| Host Epidemiology | ⊕⧗∞ | Epi(H, V) | mwenyeji-maradhi-elimu |
+| Host Agent | ⊕● | A(H) | mwenyeji-wakili |
+| Host Substrate | ⊕▦ | Sub(H) | mwenyeji-msingi |
+| Host Matrix | ⊕⌗ | M(H) | mwenyeji-mtriko |
+| Host Kernel | ⊕● | K(H) | mwenyeji-kiini |
+| Host Seed | ⊕🌱 | Seed(H) | mwenyeji-mbegu |
+| Host Mycorrhizal Network | ⊕∞ | Myc(H) | mwenyeji-mzizi-shirikishi |
+| Agent Mechanics | ●⚙ | Mech(A) | wakili-ujenzi |
+| Agent Dynamics | ●↺ | Dyn(A) | wakili-mienendo |
+| Suitability | ✓✓ | Suit(C, S) | ufaa |
+| Viability | ✓Ω | Viable(S) | uhai |
+| Survivability | Ω∞ | Surv(S) | uwezo-wa-kuishi |
+| Evolutionary Mechanics | ↑⚙ | EvoMech | mageuzi-ujenzi |
+| Evolutionary Dynamics | ↑↺ | EvoDyn | mageuzi-mienendo |
+| Fluid Field | ≋◯ | Fluid_field | majimaji-shamba |
+| Agent Field | ●◯ | A_field | wakili-shamba |
+| Cultural Field | ◯◯ | C_field | utamaduni-shamba |
+| Virality Field | ⧗◯ | V_field | maradhi-enea-shamba |
+| Civilization Matrix | ◯⌗ | Civ_M | ustaarabu-mtriko |
+| Civilization Kernel | ◯● | Civ_K | ustaarabu-kiini |
+| Civilization Seed | ◯🌱 | Civ_seed | ustaarabu-mbegu |
+| Civilization Network | ◯⛓ | Civ_net | ustaarabu-mtandao |
+| Civilization Mycorrhizal Network | ◯∞ | Civ_myc | ustaarabu-mzizi-shirikishi |
+| Civilization Virality | ◯⧗∞ | Civ_viral | ustaarabu-enea-haraka |
+
+---
+
+**END OF EXTENDED FORMALIZATION**
+
+All terms fully defined, mathematically formalized, encoded in Jiwe glyphs, expressed in Nyambic notation, named in Nyamba language, and integrated into the Mungu ontic string architecture.

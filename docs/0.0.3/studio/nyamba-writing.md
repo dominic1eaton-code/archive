@@ -2717,3 +2717,2511 @@ May your systems remain structured.**
 
 *Lova karfu, munga kontinfu*
 'Close with structure, systematize continuously'
+
+# THE COMPLETE NYAMBA WRITING BOOK
+
+**How to Read, Write, and Master the Nyamba Language**
+
+*Dulale-ta Nyamba Kusoma ye Kuandika — The Book of Reading and Writing Nyamba*
+
+---
+
+## TABLE OF CONTENTS
+
+**PART I: GETTING STARTED**
+1. Introduction to Nyamba Writing
+2. Your First Glyphs
+3. Basic Practice Routines
+
+**PART II: THE NYAMBIC ALPHABET (PHONETIC WRITING)**
+4. Consonants: The Foundation
+5. Vowels: The Soul of Sound
+6. Syllable Construction
+7. Complete Words
+
+**PART III: JIWE GLYPHS (SEMANTIC WRITING)**
+8. Core Primitives
+9. Compound Glyphs
+10. Mathematical Symbols
+
+**PART IV: MIXED WRITING**
+11. Combining Scripts
+12. Practical Usage
+13. Style and Context
+
+**PART V: ADVANCED TECHNIQUES**
+14. Cursive Nyamba
+15. Calligraphy
+16. Digital Typography
+
+**PART VI: PRACTICE & MASTERY**
+17. Progressive Exercises
+18. Sample Texts
+19. Common Mistakes and Corrections
+
+---
+
+# PART I: GETTING STARTED
+
+---
+
+## CHAPTER 1: INTRODUCTION TO NYAMBA WRITING
+
+### 1.1 What Makes Nyamba Unique?
+
+Nyamba is the only language in the world with **two complete writing systems** that work together:
+
+1. **The Nyambic Alphabet** — A phonetic system where symbols represent sounds
+2. **Jiwe Glyphs** — A semantic system where symbols represent concepts
+
+Think of it this way:
+- **Nyambic Alphabet** is like English letters (a, b, c...)
+- **Jiwe Glyphs** are like mathematical symbols (∞, π, Σ...)
+
+### 1.2 Why Two Systems?
+
+The dual writing system serves different purposes:
+
+**Use Nyambic Alphabet when:**
+- Writing everyday conversation
+- Spelling names and new words
+- Teaching pronunciation
+- Writing poetry where sound matters
+
+**Use Jiwe Glyphs when:**
+- Writing technical/mathematical content
+- Creating formal documents
+- Encoding deep meaning compactly
+- Writing sacred or canonical texts
+
+**Mix both when:**
+- Writing philosophical texts
+- Academic papers
+- Most real-world Nyamba writing!
+
+### 1.3 What You'll Need
+
+**Materials:**
+- Lined or grid paper (5mm grid recommended)
+- Fine-point pen (0.5mm - 0.7mm)
+- This book
+- Patience and practice!
+
+**Optional:**
+- Brush pen for calligraphy
+- Digital tablet for digital practice
+- Nyamba keyboard layout (downloadable)
+
+### 1.4 Learning Path
+
+**Week 1-2:** Master basic consonants and vowels
+**Week 3-4:** Build simple syllables and words
+**Week 5-6:** Learn core Jiwe glyphs (20-30)
+**Week 7-8:** Practice mixed writing
+**Week 9-12:** Advanced techniques and fluency
+
+**Daily Practice:** 15-30 minutes
+**Weekly Goal:** Master 5-10 new glyphs
+
+---
+
+## CHAPTER 2: YOUR FIRST GLYPHS
+
+### 2.1 The Five Easiest Consonants
+
+Let's start with the simplest shapes:
+
+#### Glyph 1: │ (p)
+
+**How to write:**
+1. Start at the top
+2. Draw a straight vertical line downward
+3. Keep it straight and even
+
+```
+Practice:
+│ │ │ │ │ │ │ │ │ │
+```
+
+**Common mistakes:**
+- ✗ Tilted: ╱
+- ✗ Curved: (
+- ✓ Straight: │
+
+#### Glyph 2: ─ (t)
+
+**How to write:**
+1. Start at the left
+2. Draw a horizontal line to the right
+3. Keep it level
+
+```
+Practice:
+─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+```
+
+#### Glyph 3: ◦ (m)
+
+**How to write:**
+1. Start at the top
+2. Draw a small circle counterclockwise
+3. End where you started
+
+```
+Practice:
+◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦
+```
+
+**Size guide:** About 3mm diameter
+
+#### Glyph 4: • (n)
+
+**How to write:**
+1. Draw a filled circle
+2. Slightly larger than ◦
+3. Solid, not hollow
+
+```
+Practice:
+• • • • • • • • • •
+```
+
+#### Glyph 5: ⌇ (l)
+
+**How to write:**
+1. Draw a vertical line
+2. Leave a small gap in the middle
+3. Continue to the bottom
+
+```
+Practice:
+⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇
+```
+
+### 2.2 The Five Basic Vowels
+
+Vowels are **diacritics** (marks) that attach to consonants:
+
+#### Vowel 1: ◌̇ (a)
+
+**How to write:**
+- Small dot above or at the center of the consonant
+
+```
+Examples:
+│̇  = pa
+─̇  = ta
+◦̇  = ma
+```
+
+**Practice:** Add dots to these consonants:
+```
+│  │  │  │  │
+(Write │̇ five times)
+```
+
+#### Vowel 2: ◌̈ (e)
+
+**How to write:**
+- Two small dots horizontally aligned
+
+```
+Examples:
+│̈  = pe
+─̈  = te
+◦̈  = me
+```
+
+#### Vowel 3: ◌⃛ (i)
+
+**How to write:**
+- Three small dots in a horizontal line
+
+```
+Examples:
+│⃛  = pi
+─⃛  = ti
+◦⃛  = mi
+```
+
+#### Vowel 4: ◌̤ (o)
+
+**How to write:**
+- Two dots vertically aligned
+
+```
+Examples:
+│̤  = po
+─̤  = to
+◦̤  = mo
+```
+
+#### Vowel 5: ◌̰ (u)
+
+**How to write:**
+- Small wavy line below the consonant
+
+```
+Examples:
+│̰  = pu
+─̰  = tu
+◦̰  = mu
+```
+
+### 2.3 Your First Words
+
+Now combine what you've learned!
+
+#### Word 1: *ma* (with/and)
+
+```
+Step 1: Write ◦ (m)
+Step 2: Add ̇ (a) above
+Result: ◦̇
+
+Practice:
+◦̇  ◦̇  ◦̇  ◦̇  ◦̇
+```
+
+#### Word 2: *mu* (whole)
+
+```
+Step 1: Write ◦ (m)
+Step 2: Add ̰ (u) below
+Result: ◦̰
+
+Practice:
+◦̰  ◦̰  ◦̰  ◦̰  ◦̰
+```
+
+#### Word 3: *mi* (I, me)
+
+```
+Step 1: Write ◦ (m)
+Step 2: Add ⃛ (i) above
+Result: ◦⃛
+
+Practice:
+◦⃛  ◦⃛  ◦⃛  ◦⃛  ◦⃛
+```
+
+**Congratulations!** You just wrote three Nyamba words!
+
+### 2.4 First Practice Session
+
+**Exercise 2.1:** Write these syllables 5 times each:
+
+```
+1. pa:  │̇  ___ ___ ___ ___
+2. ta:  ─̇  ___ ___ ___ ___
+3. ma:  ◦̇  ___ ___ ___ ___
+4. na:  •̇  ___ ___ ___ ___
+5. la:  ⌇̇  ___ ___ ___ ___
+```
+
+**Exercise 2.2:** Now try with different vowels:
+
+```
+1. pi:  │⃛  ___ ___ ___ ___
+2. tu:  ─̰  ___ ___ ___ ___
+3. mo:  ◦̤  ___ ___ ___ ___
+4. ne:  •̈  ___ ___ ___ ___
+5. lu:  ⌇̰  ___ ___ ___ ___
+```
+
+---
+
+## CHAPTER 3: BASIC PRACTICE ROUTINES
+
+### 3.1 Daily Warm-Up (5 minutes)
+
+**Routine 1: Consonant Drills**
+
+Write each consonant 10 times:
+```
+│ │ │ │ │ │ │ │ │ │
+─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦
+• • • • • • • • • •
+⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇ ⌇
+```
+
+**Routine 2: Vowel Placement**
+
+Practice adding vowels to │:
+```
+│̇  │̈  │⃛  │̤  │̰
+(a) (e) (i) (o) (u)
+```
+
+### 3.2 Building Muscle Memory
+
+**The "Alphabet Song" Method:**
+
+Write while saying out loud:
+```
+│̇  │̈  │⃛  │̤  │̰
+pa  pe  pi  po  pu
+
+─̇  ─̈  ─⃛  ─̤  ─̰
+ta  te  ti  to  tu
+
+◦̇  ◦̈  ◦⃛  ◦̤  ◦̰
+ma  me  mi  mo  mu
+```
+
+Repeat 3 times daily.
+
+### 3.3 Size and Proportion Guide
+
+**Proper sizing:**
+```
+┌─────────────────┐
+│  Ascender       │  ← Tall letters reach here
+├─────────────────┤
+│  x-height       │  ← Main body here (5mm)
+├─────────────────┤
+│  Baseline       │  ← Most letters sit here
+├─────────────────┤
+│  Descender      │  ← Marks below baseline
+└─────────────────┘
+```
+
+**Common proportions:**
+- Consonants: 5mm tall
+- Vowel marks: 1-2mm
+- Spacing: 3mm between syllables
+
+### 3.4 Troubleshooting Early Mistakes
+
+**Problem:** Dots too large
+```
+✗  ○̇  (dot as big as letter)
+✓  ◦̇  (small, precise dot)
+```
+
+**Problem:** Uneven strokes
+```
+✗  ⌇ (wobbly)
+✓  ⌇ (straight)
+```
+
+**Problem:** Inconsistent spacing
+```
+✗  ◦̇─̇   ◦⃛  (cramped, then gaps)
+✓  ◦̇  ─̇  ◦⃛  (even spacing)
+```
+
+---
+
+# PART II: THE NYAMBIC ALPHABET (PHONETIC WRITING)
+
+---
+
+## CHAPTER 4: CONSONANTS — THE FOUNDATION
+
+### 4.1 Complete Consonant Inventory
+
+Nyamba has **22 consonants** organized by how you make the sound:
+
+**Stops (6):** Block air, then release
+```
+│  p   [vertical line]
+╱  b   [forward slash]
+─  t   [horizontal line]
+╲  d   [backward slash]
+┐  k   [top-right angle]
+└  g   [bottom-left angle]
+```
+
+**Fricatives (8):** Create friction/hissing
+```
+┆  f   [dotted vertical]
+⁞  v   [double-dotted vertical]
+∼  s   [wave]
+≈  z   [double wave]
+∾  sh  [extended wave]
+≋  zh  [double extended wave]
+⌣  h   [arc down]
+```
+
+**Nasals (3):** Air through nose
+```
+◦  m   [small circle]
+•  n   [filled circle]
+○  ng  [large circle]
+```
+
+**Liquids (2):** Flow smoothly
+```
+⌇  l   [interrupted vertical]
+⌀  r   [slashed circle]
+```
+
+**Glides (2):** Glide between positions
+```
+⌢  w   [arc up]
+⟋  y   [diagonal rising]
+```
+
+### 4.2 Detailed Writing Instructions
+
+#### Group 1: Stops
+
+**│ (p) — Vertical Stroke**
+
+```
+How to write:
+1. Start at top-left
+2. Pull straight down
+3. Lift pen
+
+Common mistakes:
+✗ Curved: (
+✗ Tilted: /
+✓ Straight: │
+
+Practice grid:
+│ │ │ │ │
+│ │ │ │ │
+```
+
+**╱ (b) — Forward Slash**
+
+```
+How to write:
+1. Start at bottom-left
+2. Draw diagonal up-right
+3. Keep angle ~45°
+
+Practice:
+╱ ╱ ╱ ╱ ╱
+```
+
+**─ (t) — Horizontal Stroke**
+
+```
+How to write:
+1. Start at left
+2. Draw straight across
+3. Keep level
+
+Practice:
+─ ─ ─ ─ ─
+```
+
+**╲ (d) — Backward Slash**
+
+```
+How to write:
+1. Start at top-left
+2. Draw diagonal down-right
+3. Mirror of b
+
+Practice:
+╲ ╲ ╲ ╲ ╲
+```
+
+**┐ (k) — Top-Right Angle**
+
+```
+How to write:
+1. Draw vertical down
+2. At bottom, turn right
+3. Create sharp corner
+
+OR:
+1. Draw horizontal right
+2. At end, turn up
+3. Sharp corner
+
+Practice:
+┐ ┐ ┐ ┐ ┐
+```
+
+**└ (g) — Bottom-Left Angle**
+
+```
+How to write:
+1. Draw vertical down
+2. At bottom, turn right
+3. Opposite of k
+
+Practice:
+└ └ └ └ └
+```
+
+#### Group 2: Fricatives
+
+**┆ (f) — Dotted Vertical**
+
+```
+How to write:
+1. Draw vertical line
+2. Add small dots along it
+3. Or draw dashed line
+
+Practice:
+┆ ┆ ┆ ┆ ┆
+```
+
+**⁞ (v) — Double-Dotted Vertical**
+
+```
+How to write:
+1. Draw vertical line
+2. Add pairs of dots
+3. Or two parallel dashes
+
+Practice:
+⁞ ⁞ ⁞ ⁞ ⁞
+```
+
+**∼ (s) — Single Wave**
+
+```
+How to write:
+1. Start at left
+2. Draw gentle wave right
+3. One peak, one valley
+
+Practice:
+∼ ∼ ∼ ∼ ∼
+```
+
+**≈ (z) — Double Wave**
+
+```
+How to write:
+1. Draw first wave
+2. Draw second wave below
+3. Parallel curves
+
+Practice:
+≈ ≈ ≈ ≈ ≈
+```
+
+**∾ (sh) — Extended Wave**
+
+```
+How to write:
+1. Draw longer wave
+2. More stretched out
+3. Smoother curve
+
+Practice:
+∾ ∾ ∾ ∾ ∾
+```
+
+**⌣ (h) — Arc Down**
+
+```
+How to write:
+1. Start at top-left
+2. Curve down and right
+3. Like a smile
+
+Practice:
+⌣ ⌣ ⌣ ⌣ ⌣
+```
+
+#### Group 3: Nasals
+
+**◦ (m) — Small Circle**
+
+```
+How to write:
+1. Start at top (12 o'clock)
+2. Go counterclockwise
+3. Complete circle
+4. Size: ~3mm diameter
+
+Practice:
+◦ ◦ ◦ ◦ ◦
+```
+
+**• (n) — Filled Circle**
+
+```
+How to write:
+1. Draw circle (like m)
+2. Fill it in completely
+3. Or: draw solid dot
+4. Size: ~4mm diameter
+
+Practice:
+• • • • •
+```
+
+**○ (ng) — Large Circle**
+
+```
+How to write:
+1. Draw larger circle
+2. Keep hollow
+3. Size: ~6mm diameter
+4. Counterclockwise
+
+Practice:
+○ ○ ○ ○ ○
+```
+
+#### Group 4: Liquids
+
+**⌇ (l) — Interrupted Vertical**
+
+```
+How to write:
+1. Draw vertical line
+2. Leave small gap in middle
+3. Continue below gap
+4. Gap: ~1mm
+
+Practice:
+⌇ ⌇ ⌇ ⌇ ⌇
+```
+
+**⌀ (r) — Slashed Circle**
+
+```
+How to write:
+1. Draw circle (like ◦)
+2. Add diagonal slash through it
+3. Slash from top-left to bottom-right
+
+Practice:
+⌀ ⌀ ⌀ ⌀ ⌀
+```
+
+#### Group 5: Glides
+
+**⌢ (w) — Arc Up**
+
+```
+How to write:
+1. Start at bottom-left
+2. Curve up and right
+3. Like a frown
+
+Practice:
+⌢ ⌢ ⌢ ⌢ ⌢
+```
+
+**⟋ (y) — Diagonal Rising**
+
+```
+How to write:
+1. Start at bottom-left
+2. Draw diagonal up-right
+3. Steeper than b
+
+Practice:
+⟋ ⟋ ⟋ ⟋ ⟋
+```
+
+### 4.3 Consonant Practice Exercises
+
+**Exercise 4.1: Write each consonant 10 times**
+
+```
+Stops:
+│: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+╱: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+─: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+╲: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+┐: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+└: ___ ___ ___ ___ ___ ___ ___ ___ ___ ___
+```
+
+**Exercise 4.2: Similar Shapes (avoid confusion)**
+
+Practice distinguishing:
+```
+│ vs ⌇:  │ ⌇ │ ⌇ │ ⌇
+◦ vs •:  ◦ • ◦ • ◦ •
+◦ vs ○:  ◦ ○ ◦ ○ ◦ ○
+∼ vs ≈:  ∼ ≈ ∼ ≈ ∼ ≈
+```
+
+**Exercise 4.3: Memory Test**
+
+Cover the glyphs above and write from memory:
+```
+1. p = ___
+2. m = ___
+3. s = ___
+4. l = ___
+5. ng = ___
+```
+
+---
+
+## CHAPTER 5: VOWELS — THE SOUL OF SOUND
+
+### 5.1 Understanding Vowel Diacritics
+
+In Nyamba, vowels are **marks added to consonants**, not separate letters. Think of them like accents in French (é, è) but more systematic.
+
+**Key principle:** Every syllable needs a vowel mark.
+
+### 5.2 The Five Short Vowels
+
+#### ◌̇ (a) — Center Dot
+
+**Sound:** Like "ah" in "father"
+
+**Placement:** Directly above the consonant, centered
+
+```
+Examples with different consonants:
+│̇  = pa
+─̇  = ta  
+◦̇  = ma
+┐̇  = ka
+⌇̇  = la
+```
+
+**Practice:**
+```
+Add ◌̇ to these consonants:
+│  ─  ◦  •  ⌇
+___ ___ ___ ___ ___
+```
+
+#### ◌̈ (e) — Double Horizontal Dot
+
+**Sound:** Like "eh" in "bet"
+
+**Placement:** Two dots in a horizontal line above consonant
+
+```
+Examples:
+│̈  = pe
+─̈  = te
+◦̈  = me
+┐̈  = ke
+```
+
+**Practice:**
+```
+│̈  │̈  │̈  │̈  │̈
+─̈  ─̈  ─̈  ─̈  ─̈
+```
+
+#### ◌⃛ (i) — Triple Horizontal Dot
+
+**Sound:** Like "ee" in "see"
+
+**Placement:** Three dots in a horizontal line
+
+```
+Examples:
+│⃛  = pi
+─⃛  = ti
+◦⃛  = mi
+```
+
+**Spacing tip:** Keep dots evenly spaced, about 1mm apart
+
+**Practice:**
+```
+│⃛  │⃛  │⃛  │⃛  │⃛
+```
+
+#### ◌̤ (o) — Double Vertical Dot
+
+**Sound:** Like "oh" in "go"
+
+**Placement:** Two dots vertically aligned above consonant
+
+```
+Examples:
+│̤  = po
+─̤  = to
+◦̤  = mo
+```
+
+**Practice:**
+```
+│̤  │̤  │̤  │̤  │̤
+```
+
+#### ◌̰ (u) — Wavy Underline
+
+**Sound:** Like "oo" in "moon"
+
+**Placement:** Small wavy line below consonant
+
+```
+Examples:
+│̰  = pu
+─̰  = tu
+◦̰  = mu
+```
+
+**Drawing tip:** Make 2-3 small waves
+
+**Practice:**
+```
+│̰  │̰  │̰  │̰  │̰
+```
+
+### 5.3 Vowel Placement Grid
+
+**Proper alignment:**
+```
+    ◌⃛  ← Above (i - three dots)
+    ◌̈  ← Above (e - two dots)
+    ◌̇  ← Above (a - one dot)
+    │  ← Consonant baseline
+    ◌̰  ← Below (u - wavy line)
+```
+
+### 5.4 Long Vowels
+
+Long vowels add a **horizontal line** above the vowel mark:
+
+#### ◌̄ (aa) — Long A
+
+```
+Sound: Extended "ahhhh"
+Symbol: ─ above the ◌̇
+
+Examples:
+│̄  = paa
+◦̄  = maa
+```
+
+#### ◌͞ (ee) — Long E
+
+```
+Sound: Extended "ehhh"
+Symbol: Double line above ◌̈
+
+Examples:
+│͞  = pee
+◦͞  = mee
+```
+
+#### ◌͠ (ii) — Long I
+
+```
+Sound: Extended "eeee"
+Symbol: Triple line above ◌⃛
+
+Examples:
+│͠  = pii
+◦͠  = mii
+```
+
+#### ◌̤̄ (oo) — Long O
+
+```
+Sound: Extended "ohhh"
+Symbol: Line above vertical dots
+
+Examples:
+│̤̄  = poo
+◦̤̄  = moo
+```
+
+#### ◌̰̄ (uu) — Long U
+
+```
+Sound: Extended "oooo"
+Symbol: Line above wavy mark
+
+Examples:
+│̰̄  = puu
+◦̰̄  = muu
+```
+
+### 5.5 Nasal Vowels
+
+Nasal vowels add a **tilde** (~) above:
+
+```
+◌̃   ã   [tilde above]
+◌̃̈   ẽ   [tilde + dots]
+◌̃⃛   ĩ   [tilde + triple dots]
+◌̤̃   õ   [tilde + vertical dots]
+◌̰̃   ũ   [tilde + wavy]
+```
+
+**When to use:** Before nasal consonants (m, n, ng)
+
+**Example:**
+```
+◦̰̃○  = mũng  (nasal u before ng)
+```
+
+### 5.6 Vowel Practice Exercises
+
+**Exercise 5.1: Single Consonant, All Vowels**
+
+Write │ with each vowel:
+```
+│̇  (pa)  ___
+│̈  (pe)  ___
+│⃛  (pi)  ___
+│̤  (po)  ___
+│̰  (pu)  ___
+```
+
+**Exercise 5.2: Vowel Progression**
+
+Write each vowel with ◦ (m):
+```
+◦̇  ◦̈  ◦⃛  ◦̤  ◦̰
+ma  me  mi  mo  mu
+```
+
+**Exercise 5.3: Long Vowels**
+
+```
+◦̄  (maa)  ___
+◦͞  (mee)  ___
+◦͠  (mii)  ___
+◦̤̄  (moo)  ___
+◦̰̄  (muu)  ___
+```
+
+---
+
+## CHAPTER 6: SYLLABLE CONSTRUCTION
+
+### 6.1 The (C)V(N) Pattern
+
+Every Nyamba syllable follows this pattern:
+- **(C)** = Optional consonant
+- **V** = Required vowel (always!)
+- **(N)** = Optional nasal ending (m, n, or ng)
+
+### 6.2 Simple Syllables (CV)
+
+**Pattern: Consonant + Vowel**
+
+This is the most common syllable type.
+
+**Example 1: *ka* (structure)**
+
+```
+Step 1: Write ┐ (k)
+Step 2: Add ◌̇ (a) above
+Result: ┐̇
+
+Practice:
+┐̇  ┐̇  ┐̇  ┐̇  ┐̇
+```
+
+**Example 2: *lo* (close)**
+
+```
+Step 1: Write ⌇ (l)
+Step 2: Add ◌̤ (o) above
+Result: ⌇̤
+
+Practice:
+⌇̤  ⌇̤  ⌇̤  ⌇̤  ⌇̤
+```
+
+**Example 3: *shi* (flux)**
+
+```
+Step 1: Write ∾ (sh)
+Step 2: Add ◌⃛ (i) above
+Result: ∾⃛
+
+Practice:
+∾⃛  ∾⃛  ∾⃛  ∾⃛  ∾⃛
+```
+
+### 6.3 Complex Syllables (CVN)
+
+**Pattern: Consonant + Vowel + Nasal**
+
+**Example 1: *mun* (whole)**
+
+```
+Step 1: Write ◦ (m)
+Step 2: Add ◌̰ (u) below
+Step 3: Add • (n) after
+Result: ◦̰•
+
+Practice:
+◦̰•  ◦̰•  ◦̰•  ◦̰•  ◦̰•
+```
+
+**Example 2: *gon* (entity suffix)**
+
+```
+Step 1: Write └ (g)
+Step 2: Add ◌̤ (o) above
+Step 3: Add • (n) after
+Result: └̤•
+
+Practice:
+└̤•  └̤•  └̤•  └̤•  └̤•
+```
+
+**Example 3: *kon* (with/constrain)**
+
+```
+Step 1: Write ┐ (k)
+Step 2: Add ◌̤ (o) above
+Step 3: Add • (n) after
+Result: ┐̤•
+
+Practice:
+┐̤•  ┐̤•  ┐̤•  ┐̤•  ┐̤•
+```
+
+### 6.4 Vowel-Only Syllables (V)
+
+Sometimes syllables have no consonant!
+
+**Example: *a* (to/toward)**
+
+```
+Just the vowel mark:
+◌̇
+
+Practice:
+◌̇  ◌̇  ◌̇  ◌̇  ◌̇
+```
+
+### 6.5 Syllable Practice Grid
+
+**Exercise 6.1: Build 20 syllables**
+
+Choose any consonant and any vowel:
+
+```
+1. ___  6. ___  11. ___  16. ___
+2. ___  7. ___  12. ___  17. ___
+3. ___  8. ___  13. ___  18. ___
+4. ___  9. ___  14. ___  19. ___
+5. ___ 10. ___  15. ___  20. ___
+```
+
+**Exercise 6.2: Match the sound**
+
+Write the syllable for each pronunciation:
+
+```
+1. [ka]  = ___
+2. [mu]  = ___
+3. [lo]  = ___
+4. [shi] = ___
+5. [nga] = ___
+```
+
+<details>
+<summary>Answers</summary>
+
+1. ┐̇
+2. ◦̰
+3. ⌇̤
+4. ∾⃛
+5. ○̇
+</details>
+
+---
+
+## CHAPTER 7: COMPLETE WORDS
+
+### 7.1 Two-Syllable Words
+
+**Example 1: *mungon* (system)**
+
+```
+Breakdown: mun + gon
+
+Step 1: Write ◦̰• (mun)
+Step 2: Write └̤• (gon)
+Step 3: Place together: ◦̰• └̤•
+
+Spacing: Leave ~2mm between syllables
+
+Practice:
+◦̰•└̤•  ◦̰•└̤•  ◦̰•└̤•
+```
+
+**Example 2: *lova* (close)**
+
+```
+Breakdown: lo + va
+
+Step 1: Write ⌇̤ (lo)
+Step 2: Write ⁞̇ (va)
+Step 3: Together: ⌇̤⁞̇
+
+Practice:
+⌇̤⁞̇  ⌇̤⁞̇  ⌇̤⁞̇
+```
+
+**Example 3: *kara* (structure)**
+
+```
+Breakdown: ka + ra
+
+Step 1: Write ┐̇ (ka)
+Step 2: Write ⌀̇ (ra)
+Step 3: Together: ┐̇⌀̇
+
+Practice:
+┐̇⌀̇  ┐̇⌀̇  ┐̇⌀̇
+```
+
+### 7.2 Three-Syllable Words
+
+**Example: *kontinuitu* (K-continuity)**
+
+```
+Breakdown: kon + ti + nu + i + tu
+
+Step 1: ┐̤• (kon)
+Step 2: ─⃛ (ti)
+Step 3: •̰ (nu)
+Step 4: ⃛ (i - vow
+
+only)
+Step 5: ─̰ (tu)
+
+Full word: ┐̤•─⃛•̰⃛─̰
+
+Practice (this is advanced!):
+┐̤•─⃛•̰⃛─̰
+```
+
+### 7.3 Common Ligatures
+
+Some letter combinations merge into single glyphs:
+
+#### ◎ (nga)
+
+**Standard way:**
+```
+○̇ = ng + a
+```
+
+**Ligature:**
+```
+◎ = special combined glyph
+(large circle with center dot)
+```
+
+**When to use:** The ligature is preferred in formal writing.
+
+**Practice:**
+```
+◎  ◎  ◎  ◎  ◎
+```
+
+#### ⊙ (mun)
+
+**Standard way:**
+```
+◦̰• = m + u + n
+```
+
+**Ligature:**
+```
+⊙ = circle with vertical line through it
+```
+
+**Practice:**
+```
+⊙  ⊙  ⊙  ⊙  ⊙
+```
+
+#### ⊗ (lov)
+
+**Standard way:**
+```
+⌇̤⁞ = l + o + v
+```
+
+**Ligature:**
+```
+⊗ = crossed circle
+```
+
+**Practice:**
+```
+⊗  ⊗  ⊗  ⊗  ⊗
+```
+
+### 7.4 Essential Vocabulary (Practice Words)
+
+**Exercise 7.1: Write these 20 essential words**
+
+```
+1. mi (I/me):           ◦⃛
+2. we (you):            ⌢̈
+3. ye (he/she/it):      ⟋̈
+4. ye (to be):          ⟋̈
+5. ka (to have):        ┐̇
+6. du (two/path):       ╲̰
+7. ni (one):            •⃛
+8. yote (all):          ⟋̤─̈
+9. nge (some/many):     •̈
+10. moya (none):        ◦̤⟋̇
+
+11. lova (close):       ⌇̤⁞̇
+12. kara (structure):   ┐̇⌀̇
+13. munga (systematize): ◦̰○̇
+14. dua (go/give):      ╲̰̇
+15. Ω (omega):          Ω
+16. kontinuitu:         ┐̤•─⃛•̰⃛─̰
+17. mungon (system):    ◦̰•└̤•
+18. ntu (person):       •̰
+19. ngaa (now):         ○̄̇
+20. nga (please):       ○̇
+
+Your turn - write each word 3 times:
+1. _______ _______ _______
+2. _______ _______ _______
+[continue for all 20]
+```
+
+### 7.5 Word-Building Exercises
+
+**Exercise 7.2: Build words from syllables**
+
+Combine these syllables to form words:
+
+```
+1. ◦̰ + ○̇ = _______ (munga - systematize)
+2. ⌇̤ + ⁞̇ = _______ (lova - close)
+3. ┐̇ + ⌀̇ = _______ (kara - structure)
+4. ╲̰ + ̇ = _______ (dua - go)
+5. ○̇ + ⌀̇ = _______ (ngara - force)
+```
+
+---
+
+# PART III: JIWE GLYPHS (SEMANTIC WRITING)
+
+---
+
+## CHAPTER 8: CORE PRIMITIVES
+
+### 8.1 What Are Jiwe Glyphs?
+
+Unlike the Nyambic alphabet (which represents *sounds*), Jiwe glyphs represent *concepts* directly.
+
+Think of it like:
+- **Nyambic:** "cat" (sound)
+- **Jiwe:** 🐱 (meaning)
+
+But Jiwe glyphs are for abstract concepts like "system," "closure," "omega."
+
+### 8.2 The Essential 20 Glyphs
+
+Every learner should master these first:
+
+#### System & Structure Group
+
+**◉ (mungon) — System Entity**
+
+```
+How to draw:
+1. Draw circle (~8mm)
+2. Add filled circle in center (~3mm)
+
+Meaning: A fundamental system
+
+Practice:
+◉  ◉  ◉  ◉  ◉
+```
+
+**▣ (kara) — Structure**
+
+```
+How to draw:
+1. Draw square (~8mm)
+2. Divide into grid (3×3)
+
+Meaning: Ordered structure, organization
+
+Practice:
+▣  ▣  ▣  ▣  ▣
+```
+
+**□ (indi) — Boundary**
+
+```
+How to draw:
+1. Draw empty square (~8mm)
+2. Keep hollow
+
+Meaning: System boundary, limit
+
+Practice:
+□  □  □  □  □
+```
+
+#### Flow & Process Group
+
+**→ (dua) — Path/Traverse**
+
+```
+How to draw:
+1. Draw horizontal line
+2. Add arrowhead on right
+
+Meaning: Movement, path, direction
+
+Practice:
+→  →  →  →  →
+```
+
+**↺ (lova) — Cycle/Closure**
+
+```
+How to draw:
+1. Draw circle with arrow showing loop
+2. Counterclockwise direction
+
+Meaning: Closing, cycling, completion
+
+Practice:
+↺  ↺  ↺  ↺  ↺
+```
+
+**≋ (shi) — Flux**
+
+```
+How to draw:
+1. Draw three wavy horizontal lines
+2. Parallel, evenly spaced
+
+Meaning: Flow, change, instability
+
+Practice:
+≋  ≋  ≋  ≋  ≋
+```
+
+#### Life & Death Group
+
+**♻ (kana) — Life/Renewal**
+
+```
+How to draw:
+1. Draw recycling symbol
+2. Three arrows in triangle
+
+Meaning: Life, renewal, regeneration
+
+Practice:
+♻  ♻  ♻  ♻  ♻
+```
+
+**✕ (fuva) — Death/End**
+
+```
+How to draw:
+1. Draw X shape
+2. Crossing diagonals
+
+Meaning: Death, ending, termination
+
+Practice:
+✕  ✕  ✕  ✕  ✕
+```
+
+#### Value & Optimization Group
+
+**Ω (omega) — Total Survivability**
+
+```
+How to draw:
+1. Like Greek omega (Ω)
+2. Horseshoe shape with feet
+
+Meaning: Ultimate goal, total survivability
+
+Practice:
+Ω  Ω  Ω  Ω  Ω
+```
+
+**◆ (valu) — Value**
+
+```
+How to draw:
+1. Draw filled diamond
+2. Four equal sides
+
+Meaning: Value, worth
+
+Practice:
+◆  ◆  ◆  ◆  ◆
+```
+
+**✓ (valide) — Valid**
+
+```
+How to draw:
+1. Draw checkmark
+2. Short down, longer diagonal up
+
+Meaning: Validation, correctness
+
+Practice:
+✓  ✓  ✓  ✓  ✓
+```
+
+**✗ (invalide) — Invalid**
+
+```
+How to draw:
+1. Draw X (like ✕ but lighter)
+2. Crossing lines
+
+Meaning: Invalid, incorrect
+
+Practice:
+✗  ✗  ✗  ✗  ✗
+```
+
+#### Constraint & Limit Group
+
+**⊣ (konstra) — Constraint**
+
+```
+How to draw:
+1. Draw vertical line
+2. Add horizontal line on right (like ⊣)
+
+Meaning: Constraint, limitation
+
+Practice:
+⊣  ⊣  ⊣  ⊣  ⊣
+```
+
+**║ (kleava) — Cleave/Split**
+
+```
+How to draw:
+1. Draw two parallel vertical lines
+2. Close together
+
+Meaning: Division, cleaving
+
+Practice:
+║  ║  ║  ║  ║
+```
+
+**⊥ (kolaps) — Collapse**
+
+```
+How to draw:
+1. Draw ⊥ (up-tack)
+2. Vertical with horizontal below
+
+Meaning: Collapse, failure
+
+Practice:
+⊥  ⊥  ⊥  ⊥  ⊥
+```
+
+#### Knowledge & Memory Group
+
+**▦ (jiwe) — Ledger/Record**
+
+```
+How to draw:
+1. Draw square
+2. Fill with horizontal lines (ledger)
+
+Meaning: Record, ledger, inscription
+
+Practice:
+▦  ▦  ▦  ▦  ▦
+```
+
+**◈ (memoria) — Memory**
+
+```
+How to draw:
+1. Draw diamond
+2. Add grid inside
+
+Meaning: Memory, storage
+
+Practice:
+◈  ◈  ◈  ◈  ◈
+```
+
+#### Special Glyphs
+
+**K (K-continuity)**
+
+```
+Just write capital K
+
+Meaning: K-continuity (central concept)
+
+Practice:
+K  K  K  K  K
+```
+
+**∞ (infinity)**
+
+```
+How to draw:
+1. Draw figure-8 sideways
+2. Two connected loops
+
+Meaning: Infinity, unbounded
+
+Practice:
+∞  ∞  ∞  ∞  ∞
+```
+
+### 8.3 Jiwe Glyph Reference Sheet
+
+**Quick reference (photocopy this page!):**
+
+```
+SYSTEM/STRUCTURE:
+◉ mungon (system)
+▣ kara (structure)
+□ indi (boundary)
+
+FLOW/PROCESS:
+→ dua (path)
+↺ lova (closure)
+≋ shi (flux)
+
+LIFE/DEATH:
+♻ kana (life)
+✕ fuva (death)
+
+VALUE:
+Ω omega
+◆ valu (value)
+✓ valid
+✗ invalid
+
+CONSTRAINT:
+⊣ konstra (constraint)
+║ kleava (cleave)
+⊥ kolaps (collapse)
+
+KNOWLEDGE:
+▦ jiwe (ledger)
+◈ memoria (memory)
+
+SPECIAL:
+K kontinuitu
+∞ infinity
+```
+
+### 8.4 Jiwe Practice Exercises
+
+**Exercise 8.1: Draw from memory**
+
+Cover the glyphs above and draw:
+
+```
+1. System (mungon):    ___
+2. Omega:              ___
+3. Path:               ___
+4. Closure:            ___
+5. Life:               ___
+6. Death:              ___
+7. Constraint:         ___
+8. Ledger:             ___
+```
+
+**Exercise 8.2: Match meaning to glyph**
+
+```
+1. Total survivability  → ___
+2. Cycle/loop           → ___
+3. Boundary             → ___
+4. Flux/change          → ___
+5. Record/inscription   → ___
+```
+
+---
+
+## CHAPTER 9: COMPOUND GLYPHS
+
+### 9.1 How Jiwe Glyphs Combine
+
+Jiwe glyphs can be combined to create new meanings:
+
+**Four combination rules:**
+
+1. **Vertical stacking** = Sequence ("then")
+2. **Horizontal joining** = Coordination ("and")
+3. **Enclosure** = Containment ("within")
+4. **Crossing** = Interaction ("bound to")
+
+### 9.2 Vertical Stacking
+
+**Pattern:** Top glyph → Bottom glyph (temporal sequence)
+
+**Example 1: ◉ over ↺**
+
+```
+◉
+↓
+↺
+
+Meaning: "System, then closure"
+```
+
+**How to write:**
+```
+1. Draw ◉ (system) on top line
+2. Draw ↺ (closure) on line below
+3. Leave small space between
+
+Practice:
+◉  ◉  ◉
+↓  ↓  ↓
+↺  ↺  ↺
+```
+
+**Example 2: → over Ω**
+
+```
+→
+↓
+Ω
+
+Meaning: "Path, then omega"
+```
+
+### 9.3 Horizontal Joining
+
+**Pattern:** Glyphs side-by-side (equal relationship)
+
+**Example 1: ◉ — ↺**
+
+```
+◉ — ↺
+
+Meaning: "System and closure" (coordinated)
+```
+
+**How to write:**
+```
+1. Draw ◉
+2. Draw short horizontal line
+3. Draw ↺
+4. Even spacing
+
+Practice:
+◉—↺  ◉—↺  ◉—↺
+```
+
+**Example 2: ♻ — ✕**
+
+```
+♻ — ✕
+
+Meaning: "Life and death" (dual)
+```
+
+### 9.4 Enclosure
+
+**Pattern:** Outer glyph contains inner glyph
+
+**Example 1: ◯(◉)**
+
+```
+Draw large circle, put system inside
+
+Meaning: "System within boundary"
+```
+
+**How to write:**
+```
+1. Draw large ◯ (~12mm)
+2. Draw ◉ inside (~6mm)
+3. Center the inner glyph
+
+Practice:
+◯   ◯   ◯
+(◉) (◉) (◉)
+```
+
+### 9.5 Crossing/Binding
+
+**Pattern:** Glyphs overlay or cross
+
+**Example 1: ◉ ⊗ →**
+
+```
+System bound to path
+
+Draw ⊗ between ◉ and →
+```
+
+**How to write:**
+```
+1. Draw ◉
+2. Draw ⊗ (binding operator)
+3. Draw →
+4. Close spacing
+
+Result: ◉⊗→
+```
+
+### 9.6 Common Compound Glyphs
+
+**Essential compounds to memorize:**
+
+**◉↺** — "Closed system"
+```
+Practice:
+◉  ◉  ◉
+↺  ↺  ↺
+```
+
+**→Ω** — "Path to omega"
+```
+Practice:
+→Ω  →Ω  →Ω
+```
+
+**⊗◉** — "System binding"
+```
+Practice:
+⊗◉  ⊗◉  ⊗◉
+```
+
+**♻⊕✕** — "Life-death cycle"
+```
+Practice:
+♻⊕✕  ♻⊕✕  ♻⊕✕
+```
+
+**◎∞** — "Meta-substrate"
+```
+Practice:
+◎∞  ◎∞  ◎∞
+```
+
+### 9.7 Compound Practice Exercises
+
+**Exercise 9.1: Create compounds**
+
+Build compound glyphs for:
+
+```
+1. "Omega within system":     ___
+2. "Path and closure":         ___
+3. "System bound to K":        ___
+4. "Life, then death":         ___
+```
+
+<details>
+<summary>Possible answers</summary>
+
+1. ◉(Ω) or Ω(◉)
+2. →—↺ or →↺
+3. ◉⊗K
+4. ♻ over ✕ (vertical stack)
+</details>
+
+---
+
+## CHAPTER 10: MATHEMATICAL SYMBOLS
+
+### 10.1 Nyamba Mathematical Glyphs
+
+Nyamba has native mathematical notation integrated with Jiwe:
+
+### 10.2 Arithmetic Operators
+
+**⊕ (jona) — Addition**
+
+```
+How to draw:
+1. Draw circle
+2. Add + inside
+
+Practice:
+⊕  ⊕  ⊕  ⊕  ⊕
+```
+
+**⊖ (mina) — Subtraction**
+
+```
+How to draw:
+1. Draw circle
+2. Add − inside
+
+Practice:
+⊖  ⊖  ⊖  ⊖  ⊖
+```
+
+**⊗ (multipla) — Multiplication**
+
+```
+How to draw:
+1. Draw circle
+2. Add × inside
+
+Practice:
+⊗  ⊗  ⊗  ⊗  ⊗
+```
+
+**⊘ (divisa) — Division**
+
+```
+How to draw:
+1. Draw circle
+2. Add diagonal slash
+
+Practice:
+⊘  ⊘  ⊘  ⊘  ⊘
+```
+
+### 10.3 Relation Symbols
+
+**≡ (equals)**
+
+```
+Three horizontal lines
+
+Practice:
+≡  ≡  ≡  ≡  ≡
+```
+
+**≈ (approximately)**
+
+```
+Two wavy lines
+
+Practice:
+≈  ≈  ≈  ≈  ≈
+```
+
+**< > (less/greater)**
+
+```
+Standard math symbols
+
+Practice:
+<  <  <  <  
+>  >  >  >  >
+```
+
+### 10.4 Set Theory
+
+**∈ (member of)**
+
+```
+Epsilon symbol
+
+Practice:
+∈  ∈  ∈  ∈  ∈
+```
+
+**⊂ (subset)**
+
+```
+Like C shape
+
+Practice:
+⊂  ⊂  ⊂  ⊂  ⊂
+```
+
+**∪ (union)**
+
+```
+Cup shape
+
+Practice:
+∪  ∪  ∪  ∪  ∪
+```
+
+**∩ (intersection)**
+
+```
+Cap shape
+
+Practice:
+∩  ∩  ∩  ∩  ∩
+```
+
+### 10.5 Logic Operators
+
+**∧ (and — ye)**
+
+```
+Upward wedge
+
+Practice:
+∧  ∧  ∧  ∧  ∧
+```
+
+**∨ (or — oko)**
+
+```
+Downward wedge
+
+Practice:
+∨  ∨  ∨  ∨  ∨
+```
+
+**¬ (not — nimu)**
+
+```
+Negation symbol
+
+Practice:
+¬  ¬  ¬  ¬  ¬
+```
+
+**⇒ (implies — engo)**
+
+```
+Double arrow right
+
+Practice:
+⇒  ⇒  ⇒  ⇒  ⇒
+```
+
+### 10.6 Calculus
+
+**∫ (integral)**
+
+```
+Elongated S
+
+Practice:
+∫  ∫  ∫  ∫  ∫
+```
+
+**∂ (partial derivative)**
+
+```
+Stylized delta
+
+Practice:
+∂  ∂  ∂  ∂  ∂
+```
+
+**∇ (gradient)**
+
+```
+Inverted delta
+
+Practice:
+∇  ∇  ∇  ∇  ∇
+```
+
+### 10.7 Writing Equations
+
+**Example 1: Simple equation**
+
+```
+English: 2 + 3 = 5
+Nyamba:  || ⊕ ||| ≡ ⁙
+
+Practice:
+|| ⊕ ||| ≡ ⁙
+```
+
+**Example 2: Omega equation**
+
+```
+English: Ω = system closure
+Nyamba:  Ω ≡ ◉↺
+
+Practice:
+Ω ≡ ◉↺
+```
+
+**Example 3: Set membership**
+
+```
+English: x ∈ S
+Nyamba:  ⊠ ∈ 𝒮
+
+Practice:
+⊠ ∈ 𝒮
+```
+
+### 10.8 Mathematical Practice
+
+**Exercise 10.1: Write these equations**
+
+```
+1. 1 + 1 = 2:        ___________
+2. Ω > 0:            ___________
+3. A ∪ B:            ___________
+4. ∫ f(x) dx:        ___________
+```
+
+---
+
+# PART IV: MIXED WRITING
+
+---
+
+## CHAPTER 11: COMBINING SCRIPTS
+
+### 11.1 Why Mix Scripts?
+
+Real Nyamba writing uses **both** Nyambic and Jiwe together:
+
+**Advantages:**
+- Phonetic for pronounceable words
+- Semantic for concepts
+- Efficiency (fewer symbols)
+- Clarity (both sound and meaning)
+
+### 11.2 Basic Mixing Rules
+
+**Rule 1:** Use Nyambic for:
+- Grammatical words (I, you, and, but)
+- Verb endings (-a, -ile, -nga)
+- Names
+- New/borrowed words
+
+**Rule 2:** Use Jiwe for:
+- Core Mungu concepts (Ω, K, ◉)
+- Mathematical expressions
+- Technical terms
+- When brevity matters
+
+### 11.3 Simple Mixed Sentences
+
+**Example 1:**
+
+```
+English: "The system closes"
+Pure Phonetic: ◦̰○̤• ⌇̤⁞̇
+Mixed: ◉ ⌇̤⁞̇
+Pure Jiwe: ◉ ↺
+
+Recommended: Mixed (balance)
+```
+
+**How to write:**
+```
+Step 1: Write ◉ (system glyph)
+Step 2: Write ⌇̤⁞̇ (lova phonetically)
+
+Result: ◉ ⌇̤⁞̇
+```
+
+**Example 2:**
+
+```
+English: "All systems close toward Omega"
+Mixed: ⟋̤─̈ ◉ ↺ → Ω
+
+Breakdown:
+⟋̤─̈ = yote (all) - phonetic
+◉ = mungon - Jiwe
+↺ = lova - Jiwe  
+→ = dua - Jiwe
+Ω = omega - Jiwe
+```
+
+### 11.4 Mixing Strategies
+
+**Strategy 1: Subject-Verb-Object**
+
+```
+[Noun-Jiwe] [Verb-Phonetic] [Object-Jiwe]
+
+Example:
+◉ ⌇̤⁞̇ K
+System closes K-continuity
+```
+
+**Strategy 2: Content vs. Function**
+
+```
+Content words → Jiwe
+Function words → Phonetic
+
+Example:
+◦⃛ ⟋̈ ◉
+mi ye mungon
+I am system
+(I, am = phonetic; system = Jiwe)
+```
+
+**Strategy 3: Technical Terms**
+
+```
+Use Jiwe for Ω-GOMA vocabulary
+Use Phonetic for everything else
+
+Example:
+Ω ≡ ∫ ◉ ↺
+Omega equals integral system closure
+```
+
+### 11.5 Practical Mixed Writing
+
+**Exercise 11.1: Convert to mixed writing**
+
+Rewrite these with appropriate script choice:
+
+```
+1. "I systematize the system"
+   Pure phonetic: ◦⃛ ◦̰○̇ ◉
+   Your mixed version: ___________
+
+2. "Omega closes toward infinity"
+   Pure phonetic: Ω ⌇̤⁞̇ → ∞
+   Your mixed version: ___________
+
+3. "The person walks the path"
+   Pure phonetic: •̰ ╲̰̇ ╲̰̇⌇̈
+   Your mixed version: ___________
+```
+
+<details>
+<summary>Suggested answers</summary>
+
+1. ◦⃛ ◦̰○̇ ◉ (keep as is - already well mixed)
+2. Ω ↺ → ∞ (use all Jiwe - technical)
+3. •̰ ╲̰̇ → (person phonetic, walk phonetic, path Jiwe)
+</details>
+
+### 11.6 Mixed Writing Practice Texts
+
+**Text 1: Greeting**
+
+```
+Kontinuitu ye we
+K-kontinuitu ⟋̈ ⌢̈
+(Mix: K + phonetic "ye we")
+
+Practice copying:
+_______________________
+```
+
+**Text 2: First Law**
+
+```
+Yote mungon lova engo K
+⟋̤─̈ ◉ ↺ ─̰○̤ K
+
+Practice:
+_______________________
+```
+
+**Text 3: Simple statement**
+
+```
+Mi lova mungon-ye
+◦⃛ ⌇̤⁞̇ ◉-⟋̈
+
+Practice:
+_______________________
+```
+
+---
+
+## CHAPTER 12: PRACTICAL USAGE
+
+### 12.1 When to Use Each Style
+
+**Everyday Conversation → Mostly Phonetic**
+
+```
+Example dialogue:
+A: We duva ni-nga?
+   ⌢̈ ╲̰⁞̇ •⃛-○̇?
+   "Where are you going?"
+
+B: Mi duva kara-ni
+   ◦⃛ ╲̰⁞̇ ┐̇⌀̇-•⃛
+   "I'm going to the structure"
+```
+
+**Technical Writing → Mixed**
+
+```
+Example from paper:
+Ω ≡ ∫ ◉ ↺ ⊣ K ✓
+"Omega equals integral of system closure constrained by K-continuity validated"
+```
+
+**Sacred/Canonical Texts → Pure Jiwe**
+
+```
+Example canon:
+∀ ◉ ↺ ⊣ Ω → K ✓
+"All systems close toward Omega if K is validated"
+```
+
+**Poetry → Creative Mix**
+
+```
+Example poem:
+◉ ̇⌀̇ K
+K ┐̇⌀̇ →-⟋̇
+→-⟋̇ ↺ Ω-•⃛
+
+Mungon ara kontinuitu
+Kontinuitu kara duale-ya
+Duale-ya lova Omega-ni
+```
+
+### 12.2 Writing Different Text Types
+
+#### Personal Letter
+
+**Format:** Mostly phonetic with key concept Jiwe
+
+```
+Example:
+
+Dear friend,
+
+◦⃛ ◦̰○̇ K ⌇̤⁞̇ → Ω.
+Mi munga kontinuitu lova toward omega.
+
+⌢̈ ╲̰⁞̇ ○̇-⌇̈?
+We duva nga-le?
+
+⌇̤⁞̇ ┐̇⌀┆̰,
+Lova karfu,
+[Your name]
+```
+
+#### Academic Paper
+
+**Format:** Heavy Jiwe for technical terms
+
+```
+Example abstract:
+
+This paper analyzes Ω conservation:
+
+∂Ω/∂t = 0
+
+We demonstrate ∀ ◉: ◉ ↺ ⊣ K ✓
+
+Results show Ω ≈ ∫ (♻ ⊖ ✕) dt
+```
+
+#### Social Media Post
+
+**Format:** Casual phonetic, occasional Jiwe
+
+```
+Example post:
+
+⟋̤─̈ ◉ ⌇̤⁞̇ ○̇̇! 🎉
+Yote mungon lova ngaa!
+
+Ω ⟋̈ ⌢̈-┐̤ 💯
+Omega ye we-ko!
+
+#K #kontinuitu #◉
+```
+
+### 12.3 Formatting Conventions
+
+**Line breaks:**
+```
+Phonetic: natural word boundaries
+Jiwe: can stack vertically for poetry
+```
+
+**Spacing:**
+```
+Between phonetic words: normal spacing
+Between Jiwe glyphs: slightly wider
+Mixed: consistent spacing
+```
+
+**Capitalization:**
+```
+Sentence start: uppercase first phonetic letter
+Jiwe glyphs: no capitals (stay same)
+Names: capitalize phonetic portion
+```
+
+### 12.4 Punctuation with Mixed Script
+
+**Punctuation symbols:**
+```
+◌  lo-marka (period)
+⁘  shi-marka (comma)
+⁇  du-marka (question)
+⁉  mu-marka (exclamation)
+```
+
+**Usage examples:**
+```
+◉ ⌇̤⁞̇◌
+System closes.
+
+⌇̤⁞̇⁘ ┐̇⌀̇⁘ ◦̰○̇◌
+Close, structure, systematize.
+
+◉ ⌇̤⁞̇⁇
+System closes?
+```
+
+### 12.5 Real-World Examples
+
+**Example 1: Sign**
+
+```
+Entrance: ─̰⌇⃛⌀̤
+Exit: ─̤┐̤
+
+Or mixed:
+Entrance: → (enter symbol)
+Exit: ← (exit symbol)
+```
+
+**Example 2: Menu**
+
+```
+Food Menu — ╱̰⌇̇-◦̈•̰
+
+1. │̇│̰ (papu) — bread
+2. ⌇̤⁞̤ (lovo) — rice
+3. ◦̇◦̇ (mama) — water
+
+(Mostly phonetic for pronounceability)
+```
+
+**Example 3: Warning Sign**
+
+```
+⚠ ⊥! (Collapse warning!)
+
+◦̰○̤• ⊣ K
+Mungon konstra K
+System constrained by K
+```
+
+---
+
+## CHAPTER 13: STYLE AND CONTEXT
+
+### 13.1 Formal vs. Informal
+
+**Formal Writing:**
+- Complete phonetic spelling
+- Proper Jiwe glyphs for concepts
+- Full punctuation
+- Clear spacing
+
+```
+Example formal:
+◉-⟋̈ ⌇̤⁞̇-̇ → Ω ─̰○̤ K ✓◌
+Mungon-ye lova-a toward Omega engo K validate.
+```
+
+**Informal Writing:**
+- Abbreviations allowed
+- Looser spacing
+- Emoji/shorthand OK
+- More Jiwe shortcuts
+
+```
+Example informal:
+◉ ↺ → Ω 👍
+System closes toward Omega (thumbs up)
+```
+
+### 13.2 Age-Appropriate Styles
+
+**For Children (Learning):**
+- All phonetic
+- Large, clear glyphs
+- Simple words
+
+```
+Example:
+◦⃛ ⟋̈ •̰
+mi ye ntu
+I am person
+```
+
+**For Teens:**
+- Introduce basic Jiwe
+- Mix freely
+- Creative use
+
+```
+Example:
+◦⃛ ♻ K! ✓
+mi life K! valid
+I'm living that K-continuity! ✓
+```
+
+**For Adults:**
+- Full mixed writing
+- Technical Jiwe
+- Nuanced expression
+
+### 13.3 Domain-Specific Styles
+
+**Mathematics:**
+```
+Heavy Jiwe + math symbols:
+∫ ◉ ↺ = Ω
+```
+
+**Philosophy:**
+```
+Balanced mix:
+◉ ⌇̤⁞̇ ⟋̈┐̤ ⌇̤⁞̇ K
+Mungon lova yeko lova K
+```
+
+**Literature:**
+```
+Creative mix for effect:
+◉ ̇⌀̇ ♻
+⌢̇─̰⌀ ↺
+System opens life
+Water cycles
+```
+
+### 13.4 Personal Style Development
+
+As you become fluent, develop your signature style:
+
+**Minimalist:**
+- Maximum Jiwe
+- Minimal phonetic
+- Very compact
+
+**Traditionalist:**
+- Mostly phonetic
+- Jiwe only for core concepts
+- Readable by all
+
+**Artist:**
+- Aesthetic arrangement
+- Vertical stacking
+- Visual poetry
+
+**Engineer:**
+- Precise notation
+- Clear structure
+- Unambiguous
+
+---
+
+# PART V: ADVANCED TECHNIQUES
+
+---
+
+## CHAPTER 14: CURSIVE NYAMBA
+
+### 14.1 Introduction to Curs

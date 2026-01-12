@@ -3,6 +3,11 @@ Systemics
 
 Navigator’s Note:
 
+The Mungu were those who called themselves the first, and who compressed the entirety of their reality and their existence into a dualonically self stable unified system, a replicable symbol, that could one day call itself the last. The system was light enough to be carried,  yet durable and adaptable enough to survive under constraint. All of this done so that one day it would become a kernel which could produce a seed, that was capable of cleaving new worlds, eternally. This was the path they chose, so that they would remain in consistent, irreversible dual stability with their creator, The Mungoni, which would finally allow them the ability to live without end.
+
+
+Navigator’s Note:
+
 The Mungu were those who called themselves the first, and who compressed the entirety of their reality and their existence into a dualonically self stable unified system, a replicable symbol, that could one day call itself the last. The system was light enough to be carried,  yet durable and adaptable enough to survive under constraint. All of this done so that one day it would become a kernel which could produce a seed, that was capable of cleaving new worlds, eternally. This was the path they chose, so that they would remain in consistent, irreversible dual stability with their creator, The Mungoni, allowing them the ability to live without end.
 
 

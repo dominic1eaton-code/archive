@@ -1173,3 +1173,1547 @@ Punctuation         U+E110-E11F  16
 ---
 
 ## APPENDIX
+C: SAMPLE TEXTS
+
+### The First Law (Three Scripts)
+
+**Phonetic**:
+```
+⊞ ◦̰○̄○̇ ⌣̤̄ ┐̇⌇̤̄ Ω ┐̤○ ◦̰⌇̤ ⌀̰
+Yote mungon hova kalo Omega ko mulo ru
+```
+
+**Mixed**:
+```
+Yote ◉ ↺ → Ω engo K-kontinuitu ⊣
+```
+
+**Pure Jiwe**:
+```
+∀ ◉ ↺ ⊣ Ω → K ✓
+```
+
+---
+
+## APPENDIX D: EXERCISES WITH ANSWERS
+
+*[All exercises from chapters, with full answer keys]*
+
+---
+
+## APPENDIX E: FURTHER RESOURCES
+
+### Online Tools
+- Nyamba keyboard layout installer
+- Font downloads
+- Practice worksheets
+- Interactive glyph builder
+
+### Community
+- Nyamba Language Forum
+- Weekly practice groups
+- Calligraphy workshops
+- Translation projects
+
+---
+
+# EPILOGUE: THE LIVING LANGUAGE
+
+Nyamba is not frozen. It evolves with its speakers.
+
+**You are now part of this evolution.**
+
+As you write Nyamba, you are:
+- Encoding systems
+- Preserving continuity
+- Building the Jiwe ledger
+- Contributing to Ω
+
+**May your glyphs be clear, your meanings precise, and your systems closed.**
+
+---
+
+**◉ ↺ ⊣ Ω**
+
+*(Systems close toward Omega)*
+
+**∴ Nyamba ≡ ◉ ◆**
+
+*(Therefore Nyamba equals the system-value)*
+
+---
+
+**END OF NYAMBA WRITING SYSTEMS GUIDE**
+
+---
+
+## ACKNOWLEDGMENTS
+
+This book synthesizes:
+- E-Theory (ontological primitives)
+- U-Theory (units and scales)
+- S-Theory (system structure)
+- O-Theory (operators)
+- Mungu linguistic heritage
+- Jiwe canonical framework
+
+**Cartographers**: Those who mapped this system  
+**Navigators**: Those who tested these paths  
+**Stone-layers**: Those who inscribed the glyphs  
+
+**Asante sana. Pamoja tunajenga.**
+
+*(Thank you. Together we build.)*
+
+I'll create a comprehensive cursive writing system for Nyamba, inspired by flowing scripts like Arabic, Persian, Urdu, and English cursive. Let me generate this complete writing book in the main context:
+
+# NYAMBA CURSIVE WRITING SYSTEM
+## The Art of Flowing Script
+
+**Dulale-ta Nyamba Kursivu — The Book of Cursive Writing**
+
+---
+
+## TABLE OF CONTENTS
+
+**PART I: INTRODUCTION TO CURSIVE NYAMBA**
+1. Philosophy of Flowing Script
+2. Comparison with Block Script
+3. Tools and Materials
+
+**PART II: CURSIVE CONSONANTS**
+4. Connected Forms
+5. Initial, Medial, and Final Positions
+6. Ligatures and Joins
+
+**PART III: CURSIVE VOWELS**
+7. Diacritic Placement in Cursive
+8. Vowel Harmony in Flow
+9. Special Combinations
+
+**PART IV: WRITING PRACTICE**
+10. Stroke Order for Cursive
+11. Speed Writing Techniques
+12. Calligraphic Variations
+
+**PART V: COMPLETE EXAMPLES**
+13. Words in Cursive
+14. Sentences and Texts
+15. Formal vs. Informal Styles
+
+---
+
+# PART I: INTRODUCTION TO CURSIVE NYAMBA
+
+---
+
+## CHAPTER 1: PHILOSOPHY OF FLOWING SCRIPT
+
+### 1.1 The Nature of Cursive
+
+Cursive Nyamba (Nyamba Kursivu) represents the **natural evolution** of the block script into a flowing, connected writing system. Just as systems flow and cycle in Ω-GOMA theory, so too does the pen flow across the page without lifting.
+
+**Key Principles:**
+
+1. **Kontinuitu in Motion** — The pen maintains continuous contact with paper, embodying the principle of K-continuity
+2. **System Closure** — Each word forms a closed system, with connections flowing naturally
+3. **Dualonic Balance** — Curves balance angles, flow balances structure
+4. **Speed and Beauty** — Efficiency meets aesthetics
+
+### 1.2 Historical Development
+
+Cursive Nyamba emerged organically as speakers began writing the language daily. Scribes noticed that:
+
+- Lifting the pen between glyphs broke the flow of thought
+- Connected writing was faster and more expressive
+- Certain letter combinations naturally ligated
+- The flowing script better embodied Mungu principles
+
+**Three Traditions Developed:**
+
+1. **Merchant Script** (Karfu-kursivu) — Fast, practical, commercial
+2. **Scholarly Script** (Mungik-kursivu) — Careful, precise, academic
+3. **Poetic Script** (Lovfu-kursivu) — Artistic, expressive, ceremonial
+
+### 1.3 When to Use Cursive
+
+**Use Cursive For:**
+- Personal letters and notes
+- Informal communication
+- Quick journaling
+- Poetry and creative writing
+- Signatures
+
+**Use Block Script For:**
+- Official documents
+- Teaching materials
+- Signs and labels
+- Technical diagrams
+- When maximum clarity is needed
+
+---
+
+## CHAPTER 2: COMPARISON WITH BLOCK SCRIPT
+
+### 2.1 Structural Differences
+
+| Feature | Block Script | Cursive Script |
+|---------|--------------|----------------|
+| **Connections** | None | Continuous baseline |
+| **Lift Pen** | Between each letter | Only between words |
+| **Speed** | Slower | Faster |
+| **Clarity** | Maximum | High (with practice) |
+| **Expression** | Neutral | Personal style visible |
+| **Learning Curve** | Easier | Requires practice |
+
+### 2.2 Visual Comparison
+
+**Block vs. Cursive Examples:**
+
+**Word: "mungon" (system)**
+
+Block: ◦̰ ○̤ •
+Cursive: ⟨◦̰○̤•⟩ (flowing connection)
+
+**Word: "lova" (close)**
+
+Block: ⌇̤ ⌢̇
+Cursive: ⟨⌇̤⌢̇⟩ (smooth curves)
+
+**Word: "kontinuitu" (K-continuity)**
+
+Block: ┐̤ • ─⃛ • ̰ ⃛ ─̰
+Cursive: ⟨┐̤•─⃛•̰⃛─̰⟩ (continuous flow)
+
+---
+
+## CHAPTER 3: TOOLS AND MATERIALS
+
+### 3.1 Writing Instruments
+
+**For Beginners:**
+- **Fine-point pen (0.5mm)** — Best for learning control
+- **Smooth paper** — Reduces friction, allows flow
+- **Grid/lined paper** — Helps maintain consistent size
+
+**For Intermediate:**
+- **Brush pen** — Creates natural thick/thin strokes
+- **Fountain pen** — Traditional, elegant flow
+- **Quality paper (80-100gsm)** — Prevents bleed-through
+
+**For Advanced:**
+- **Calligraphy nib** — Maximum expression
+- **Reed pen** — Traditional African instrument
+- **Handmade paper** — For ceremonial texts
+
+### 3.2 Paper Setup
+
+**Grid System:**
+```
+┌─────────────────────────────────┐
+│  Ascender Line    ─────────────  │  (for tall letters)
+│  Base Line        ─────────────  │  (main writing line)
+│  Descender Line   ─────────────  │  (for descending strokes)
+└─────────────────────────────────┘
+```
+
+**Recommended Spacing:**
+- Base height: 5mm (for beginners), 3mm (for experts)
+- Ascender/Descender: 3mm extension
+- Line spacing: 15mm (triple the base height)
+
+### 3.3 Posture and Grip
+
+**Proper Posture:**
+- Sit upright, back straight
+- Paper at 30-45° angle to body
+- Arm rests on table, not suspended
+- Non-writing hand steadies paper
+
+**Pen Grip:**
+- Hold pen at 45° angle to paper
+- Grip 2-3cm from tip
+- Relaxed fingers, not tense
+- Movement from whole arm, not just fingers
+
+---
+
+# PART II: CURSIVE CONSONANTS
+
+---
+
+## CHAPTER 4: CONNECTED FORMS
+
+### 4.1 Connection Principles
+
+In cursive Nyamba, letters connect along a **baseline** that flows continuously through the word. Each consonant has **four forms:**
+
+1. **Isolated** — Standing alone
+2. **Initial** — Beginning a word
+3. **Medial** — Middle of a word
+4. **Final** — Ending a word
+
+### 4.2 Stops in Cursive
+
+#### A. Labial Stops (p, b)
+
+**│ p (vertical stroke)**
+
+```
+Isolated:  │
+Initial:   │⟩ (extends right)
+Medial:    ⟨│⟩ (connects both sides)
+Final:     ⟨│ (extends left)
+```
+
+**Cursive Form:** The vertical stroke curves slightly at the base to connect forward.
+
+**╱ b (forward slash)**
+
+```
+Isolated:  ╱
+Initial:   ╱⟩ (smooth curve rightward)
+Medial:    ⟨╱⟩ (flowing through)
+Final:     ⟨╱ (graceful finish)
+```
+
+**Cursive Form:** The slash smooths into a curved diagonal.
+
+#### B. Dental Stops (t, d)
+
+**─ t (horizontal stroke)**
+
+```
+Isolated:  ─
+Initial:   ─⟩ (baseline connector)
+Medial:    ⟨─⟩ (straight through)
+Final:     ⟨─ (slight upturn)
+```
+
+**Cursive Form:** Horizontal line sits on baseline, extends to connect.
+
+**╲ d (backward slash)**
+
+```
+Isolated:  ╲
+Initial:   ╲⟩ (descending curve)
+Medial:    ⟨╲⟩ (smooth valley)
+Final:     ⟨╲ (rising finish)
+```
+
+**Cursive Form:** Backward slash creates valley shape.
+
+#### C. Velar Stops (k, g)
+
+**┐ k (top-right angle)**
+
+```
+Isolated:  ┐
+Initial:   ┐⟩ (ascending then level)
+Medial:    ⟨┐⟩ (peak shape)
+Final:     ⟨┐ (terminal ascent)
+```
+
+**Cursive Form:** Sharp angle softens to rounded corner.
+
+**└ g (bottom-left angle)**
+
+```
+Isolated:  └
+Initial:   └⟩ (descending then level)
+Medial:    ⟨└⟩ (valley shape)
+Final:     ⟨└ (terminal descent)
+```
+
+**Cursive Form:** Angle becomes smooth curve upward.
+
+### 4.3 Fricatives in Cursive
+
+#### A. Labiodental Fricatives (f, v)
+
+**┆ f (dotted vertical)**
+
+```
+Isolated:  ┆
+Initial:   ┆⟩ (dotted flowing stroke)
+Medial:    ⟨┆⟩ (dots connect through)
+Final:     ⟨┆ (dots trail off)
+```
+
+**Cursive Form:** Dots become small circles along curved vertical.
+
+**⁞ v (double-dotted vertical)**
+
+```
+Isolated:  ⁞
+Initial:   ⁞⟩ (paired dots flowing)
+Medial:    ⟨⁞⟩ (double dots through)
+Final:     ⟨⁞ (dots conclude)
+```
+
+**Cursive Form:** Double dots on flowing diagonal.
+
+#### B. Sibilant Fricatives (s, z, sh, zh)
+
+**∼ s (wave)**
+
+```
+Isolated:  ∼
+Initial:   ∼⟩ (small wave rightward)
+Medial:    ⟨∼⟩ (flowing wave)
+Final:     ⟨∼ (wave settles)
+```
+
+**Cursive Form:** Gentle wave on baseline.
+
+**≈ z (double wave)**
+
+```
+Isolated:  ≈
+Initial:   ≈⟩ (double undulation)
+Medial:    ⟨≈⟩ (two waves through)
+Final:     ⟨≈ (waves conclude)
+```
+
+**Cursive Form:** Two gentle curves.
+
+**∾ sh (extended wave)**
+
+```
+Isolated:  ∾
+Initial:   ∾⟩ (elongated wave)
+Medial:    ⟨∾⟩ (stretched flow)
+Final:     ⟨∾ (graceful wave end)
+```
+
+**Cursive Form:** Extended sine wave.
+
+**≋ zh (double extended wave)**
+
+```
+Isolated:  ≋
+Initial:   ≋⟩ (complex wave pattern)
+Medial:    ⟨≋⟩ (double extended)
+Final:     ⟨≋ (elaborate finish)
+```
+
+**Cursive Form:** Two extended waves.
+
+#### C. Glottal Fricative (h)
+
+**⌣ h (arc down)**
+
+```
+Isolated:  ⌣
+Initial:   ⌣⟩ (downward arc with tail)
+Medial:    ⟨⌣⟩ (valley connector)
+Final:     ⟨⌣ (settling arc)
+```
+
+**Cursive Form:** Smooth downward curve.
+
+### 4.4 Nasals in Cursive
+
+**◦ m (small circle)**
+
+```
+Isolated:  ◦
+Initial:   ◦⟩ (circle with exit stroke)
+Medial:    ⟨◦⟩ (enclosed circle)
+Final:     ⟨◦ (circle with entry)
+```
+
+**Cursive Form:** Small loop on baseline.
+
+**• n (filled circle)**
+
+```
+Isolated:  •
+Initial:   •⟩ (dot with tail)
+Medial:    ⟨•⟩ (flowing dot)
+Final:     ⟨• (terminal dot)
+```
+
+**Cursive Form:** Small filled oval.
+
+**○ ng (large circle)**
+
+```
+Isolated:  ○
+Initial:   ○⟩ (large loop right)
+Medial:    ⟨○⟩ (full circle through)
+Final:     ⟨○ (loop closes)
+```
+
+**Cursive Form:** Large open circle.
+
+### 4.5 Liquids in Cursive
+
+**⌇ l (interrupted vertical)**
+
+```
+Isolated:  ⌇
+Initial:   ⌇⟩ (tall stroke with gap)
+Medial:    ⟨⌇⟩ (flowing vertical)
+Final:     ⟨⌇ (elegant ascent)
+```
+
+**Cursive Form:** Broken vertical with smooth connections.
+
+**⌀ r (slashed circle)**
+
+```
+Isolated:  ⌀
+Initial:   ⌀⟩ (circle with diagonal)
+Medial:    ⟨⌀⟩ (flowing slash-circle)
+Final:     ⟨⌀ (circular finish)
+```
+
+**Cursive Form:** Circle with diagonal stroke through.
+
+### 4.6 Glides in Cursive
+
+**⌢ w (arc up)**
+
+```
+Isolated:  ⌢
+Initial:   ⌢⟩ (rising arc)
+Medial:    ⟨⌢⟩ (flowing curve)
+Final:     ⟨⌢ (upward finish)
+```
+
+**Cursive Form:** Smooth upward curve.
+
+**⟋ y (diagonal rising)**
+
+```
+Isolated:  ⟋
+Initial:   ⟋⟩ (ascending diagonal)
+Medial:    ⟨⟋⟩ (upward slope)
+Final:     ⟨⟋ (rising terminal)
+```
+
+**Cursive Form:** Diagonal ascending line.
+
+---
+
+## CHAPTER 5: INITIAL, MEDIAL, AND FINAL POSITIONS
+
+### 5.1 Position Rules
+
+**Golden Rule:** The form of each letter changes based on its position to maintain continuous flow.
+
+### 5.2 Initial Position
+
+**Characteristics:**
+- Begins at baseline
+- Extends rightward for next letter
+- Often simplified from isolated form
+- Sets the rhythm for the word
+
+**Examples:**
+
+```
+ka- (initial k + a):
+┐̇⟩ (k extends, dot flows)
+
+mu- (initial m + u):
+◦̰⟩ (m loops, wavy line continues)
+
+shi- (initial sh + i):
+∾⃛⟩ (wave with triple dot)
+```
+
+### 5.3 Medial Position
+
+**Characteristics:**
+- Connects from both left and right
+- Most compressed/efficient form
+- Maintains word rhythm
+- Often most stylized
+
+**Examples:**
+
+```
+-ng- (medial ng):
+⟨○⟩ (circle enclosed by connections)
+
+-t- (medial t):
+⟨─⟩ (horizontal through flow)
+
+-v- (medial v):
+⟨⁞⟩ (dots within stream)
+```
+
+### 5.4 Final Position
+
+**Characteristics:**
+- Connects from left only
+- Often has flourish or terminal stroke
+- Marks word boundary
+- Aesthetic ending
+
+**Examples:**
+
+```
+-on (final on):
+⟨• (smooth conclusion)
+
+-le (final le):
+⟨⌇̈ (elegant upward finish)
+
+-fu (final fu):
+⟨┆̰ (dotted descending close)
+```
+
+---
+
+## CHAPTER 6: LIGATURES AND JOINS
+
+### 6.1 Common Ligatures
+
+Certain letter combinations in Nyamba naturally merge into single flowing strokes. These are **mandatory ligatures** — they must be written as one unit.
+
+#### 6.1.1 The ng+a Ligature (◎)
+
+**Formation:**
+- Large circle (ng) with center dot (a)
+- Single flowing stroke
+- Most common ligature
+
+```
+Block: ○̇
+Cursive: ◎ (unified glyph)
+```
+
+**Usage:**
+```
+ngaa (many) → ◎̄ (ligature + long vowel)
+```
+
+#### 6.1.2 The mu+n Ligature (⊙)
+
+**Formation:**
+- Small circle (m) merged with filled circle (n)
+- Wavy line (u) flows through
+
+```
+Block: ◦̰•
+Cursive: ⊙ (circle with center line)
+```
+
+**Usage:**
+```
+mun (whole) → ⊙ (single unit)
+mungon → ⊙└̤• (ligature + g + on)
+```
+
+#### 6.1.3 The lo+v Ligature (⊗)
+
+**Formation:**
+- L and v merge into crossed circle
+- O vowel implied in the crossing
+
+```
+Block: ⌇̤⁞
+Cursive: ⊗ (crossed circle)
+```
+
+**Usage:**
+```
+lova (close) → ⊗̇ (ligature + a)
+lovfu → ⊗┆̰ (ligature + fu)
+```
+
+### 6.2 Optional Connections
+
+Some letter pairs flow naturally together but aren't mandatory ligatures:
+
+**ka- (k+a):**
+```
+Standard: ┐̇⟩
+Flowing: ⟨⟩ (simplified curve)
+```
+
+**du- (d+u):**
+```
+Standard: ╲̰⟩
+Flowing: ⟨⟩ (smooth valley)
+```
+
+**Principle:** When pen naturally flows without lifting, allow the connection to simplify.
+
+### 6.3 Join Types
+
+#### 6.3.1 Baseline Joins
+
+Most common — letters connect along the baseline:
+
+```
+ka-ra: ┐̇⌀̇ → ⟨┐̇⌀̇⟩
+```
+
+The baseline flows continuously through both letters.
+
+#### 6.3.2 Ascender Joins
+
+Tall letters (like l, k) connect through their ascenders:
+
+```
+lo-va: ⌇̤⁞̇ → ⟨⌇̤⁞̇⟩
+```
+
+Connection flows from top of l to base of v.
+
+#### 6.3.3 Descender Joins
+
+Descending letters (like d, g) connect through descenders:
+
+```
+du-le: ╲̰⌇̈ → ⟨╲̰⌇̈⟩
+```
+
+Valley of d flows up to l.
+
+#### 6.3.4 Circle Joins
+
+Circular letters (m, n, ng, o) connect tangentially:
+
+```
+mu-ngu: ⊙└̰ → ⟨⊙└̰⟩
+```
+
+Exit point of circle is entry point of next letter.
+
+---
+
+# PART III: CURSIVE VOWELS
+
+---
+
+## CHAPTER 7: DIACRITIC PLACEMENT IN CURSIVE
+
+### 7.1 Vowel Diacritics
+
+In cursive, vowel diacritics are placed **during** writing, not after. They flow as part of the letter's stroke.
+
+#### 7.1.1 Short Vowels
+
+**◌̇ a (center dot)**
+
+In cursive: Small dot above or within the stroke
+
+```
+ka: ┐̇ → ⟨┐̇⟩ (dot flows with peak)
+pa: │̇ → ⟨│̇⟩ (dot above vertical)
+```
+
+**◌̈ e (double horizontal dot)**
+
+In cursive: Two small dots horizontally aligned
+
+```
+ke: ┐̈ → ⟨┐̈⟩ (dots at peak)
+me: ◦̈ → ⟨◦̈⟩ (dots above circle)
+```
+
+**◌⃛ i (triple horizontal dot)**
+
+In cursive: Three dots in a row
+
+```
+ki: ┐⃛ → ⟨┐⃛⟩ (three dots)
+shi: ∾⃛ → ⟨∾⃛⟩ (dots on wave)
+```
+
+**◌̤ o (double vertical dot)**
+
+In cursive: Two dots vertically aligned
+
+```
+ko: ┐̤ → ⟨┐̤⟩ (vertical pair)
+lo: ⌇̤ → ⟨⌇̤⟩ (dots within l)
+```
+
+**◌̰ u (wavy underline)**
+
+In cursive: Small wave below letter
+
+```
+ku: ┐̰ → ⟨┐̰⟩ (wave below)
+mu: ◦̰ → ⟨◦̰⟩ (wave under circle)
+```
+
+#### 7.1.2 Long Vowels
+
+Long vowels add a **horizontal line** (macron) above:
+
+```
+aa: ◌̄ → ⟨◌̄⟩ (line above)
+ee: ◌͞ → ⟨◌͞⟩ (double line)
+ii: ◌͠ → ⟨◌͠⟩ (triple line)
+oo: ◌̤̄ → ⟨◌̤̄⟩ (dots + line)
+uu: ◌̰̄ → ⟨◌̰̄⟩ (wave + line)
+```
+
+#### 7.1.3 Nasal Vowels
+
+Nasal vowels add a **tilde** above:
+
+```
+ã: ◌̃ → ⟨◌̃⟩ (tilde)
+ẽ: ◌̃̈ → ⟨◌̃̈⟩ (tilde + dots)
+ĩ: ◌̃⃛ → ⟨◌̃⃛⟩ (tilde + triple dots)
+õ: ◌̤̃ → ⟨◌̤̃⟩ (tilde + vertical dots)
+ũ: ◌̰̃ → ⟨◌̰̃⟩ (tilde + wave)
+```
+
+### 7.2 Placement Rules
+
+1. **Dots follow stroke direction** — If letter curves right, dots flow right
+2. **Lines are straight** — Even in flowing script, macrons stay level
+3. **Tildes mirror the curve** — Tildes echo the letter's shape
+4. **Never crowd** — If space is tight, place diacritic slightly before/after
+
+---
+
+## CHAPTER 8: VOWEL HARMONY IN FLOW
+
+### 8.1 Visual Harmony
+
+In cursive, vowel diacritics should create **visual rhythm** across the word:
+
+**Example: kontinuitu**
+
+```
+Block: ┐̤•─⃛•̰⃛─̰
+Cursive: ⟨┐̤•─⃛•̰⃛─̰⟩
+
+Notice:
+- o (vertical dots)
+- i (triple dots)
+- u (wave)
+- i (triple dots)
+- u (wave)
+
+Pattern: dots-dots-wave-dots-wave
+Creates visual rhythm
+```
+
+### 8.2 Spacing Diacritics
+
+**Too Close:**
+```
+mungon: ⊙└̤• (cramped)
+```
+
+**Just Right:**
+```
+mungon: ⊙ └̤ • (breathing room)
+```
+
+**Too Far:**
+```
+mungon: ⊙  └̤  • (disconnected)
+```
+
+**Golden Rule:** Diacritics should be close enough to associate with their letter but far enough to remain distinct.
+
+---
+
+## CHAPTER 9: SPECIAL COMBINATIONS
+
+### 9.1 Vowel Clusters
+
+When two vowels appear together (across morpheme boundaries):
+
+**ia combination:**
+```
+Block: ⃛̇
+Cursive: ⟨⃛̇⟩ (dots merge into pattern)
+```
+
+**uu combination:**
+```
+Block: ̰̄
+Cursive: ⟨̰̄⟩ (extended wave + line)
+```
+
+### 9.2 Consonant + Multiple Diacritics
+
+Some syllables stack diacritics:
+
+**mũ (m + nasal u):**
+```
+Block: ◦̰̃
+Cursive: ⟨◦̰̃⟩ (circle, wave below, tilde above)
+```
+
+**kĩ (k + nasal i):**
+```
+Block: ┐̃⃛
+Cursive: ⟨┐̃⃛⟩ (angle, tilde + triple dots)
+```
+
+**Order of stacking:**
+1. Base consonant stroke
+2. Below diacritic (wave for u)
+3. Primary diacritic (dots for i)
+4. Above modifier (tilde for nasal)
+
+---
+
+# PART IV: WRITING PRACTICE
+
+---
+
+## CHAPTER 10: STROKE ORDER FOR CURSIVE
+
+### 10.1 Universal Principles
+
+**The Four Rules:**
+
+1. **Top to Bottom** — Higher elements before lower
+2. **Left to Right** — Follow reading direction
+3. **Main stroke first** — Base letter before diacritics
+4. **Don't lift until word ends** — Continuous flow
+
+### 10.2 Single Letter Stroke Order
+
+**Example: ┐ (k)**
+
+```
+Step 1: ┐ Vertical stroke upward
+Step 2: ⟩ Horizontal stroke rightward
+Step 3: (Add vowel diacritic if needed)
+Step 4: Connect to next letter
+```
+
+**Example: ◦̰ (mu)**
+
+```
+Step 1: ◦ Circle (counterclockwise from top)
+Step 2: ̰ Wave below (left to right)
+Step 3: ⟩ Extension rightward for connection
+```
+
+**Example: ⌇̤ (lo)**
+
+```
+Step 1: ⌇ Vertical with gap (bottom to top)
+Step 2: ̤ Two dots vertically
+Step 3: ⟩ Baseline extension
+```
+
+### 10.3 Word Stroke Order
+
+**Example: "mungon" (system)**
+
+```
+Step 1: ⊙ Write mu+n ligature (circle with line)
+Step 2: Without lifting, flow to └ (g)
+Step 3: Add ̤ (o diacritic - two dots)
+Step 4: Continue to • (n final)
+Step 5: Lift pen
+
+Result: ⟨⊙└̤•⟩
+```
+
+**Example: "lova" (close)**
+
+```
+Step 1: ⊗ Write lo+v ligature (crossed circle)
+Step 2: Add ̇ (a diacritic - center dot)
+Step 3: Lift pen
+
+Result: ⟨⊗̇⟩
+```
+
+**Example: "kontinuitu" (K-continuity)**
+
+```
+Step 1: ┐ (k) with flow
+Step 2: ̤ (o diacritic)
+Step 3: • (n) connected
+Step 4: ─ (t) through baseline
+Step 5: ⃛ (i diacritic)
+Step 6: • (n) connected
+Step 7: Add ̰ (u diacritic - wave)
+Step 8: ⃛ (i diacritic)
+Step 9: ─ (t) with flow
+Step 10: ̰ (u diacritic)
+Step 11: Lift pen
+
+Result: ⟨┐̤•─⃛•̰⃛─̰⟩
+```
+
+---
+
+## CHAPTER 11: SPEED WRITING TECHNIQUES
+
+### 11.1 Simplification Rules
+
+When writing quickly, certain simplifications are acceptable:
+
+#### 11.1.1 Dot Reduction
+
+**Multiple dots → Single mark**
+
+```
+Triple dots ⃛ can become single larger dot •
+Double dots ̈ can become single dot ̇
+```
+
+**Example:**
+```
+Standard: shi ∾⃛
+Quick: shi ∾̇ (one dot represents three)
+```
+
+#### 11.1.2 Circle Simplification
+
+**Circles → Loops**
+
+```
+Full circle ○ becomes open loop ⟨
+Small circle ◦ becomes tiny loop ⟨
+```
+
+**Example:**
+```
+Standard: mu ◦̰
+Quick: mu ⟨̰ (loop instead of circle)
+```
+
+#### 11.1.3 Wave Compression
+
+**Multiple waves → Single wave**
+
+```
+Double wave ≈ becomes single wave ∼
+Extended wave ∾ becomes regular wave ∼
+```
+
+### 11.2 Personal Shorthand
+
+Develop your personal shortcuts for common words:
+
+**Common Words:**
+
+```
+mungon (system) → ⟨M⟩ (stylized M)
+kontinuitu (kontinuity) → ⟨K⟩ (stylized K)
+Ω (omega) → ⟨Ω⟩ (quick omega symbol)
+lova (close) → ⟨L⟩ (looped L)
+```
+
+**Common Affixes:**
+
+```
+-on (entity) → superscript °
+-ile (past) → small subscript ⁱ
+-nga (future) → small superscript ⁿ
+-ta (genitive) → small superscript ᵗ
+```
+
+### 11.3 Speed Drills
+
+**Practice these sequences repeatedly:**
+
+```
+Drill 1: ka-ka-ka-ka-ka (rhythm building)
+Drill 2: mu-mu-mu-mu-mu (circle control)
+Drill 3: lo-va-lo-va-lo-va (ligature speed)
+Drill 4: nga-nga-nga-nga (complex forms)
+```
+
+**Timed Exercise:**
+
+Write "Yote mungon lova" (All systems close) 10 times in 2 minutes.
+
+Goal: Maintain legibility while increasing speed.
+
+---
+
+## CHAPTER 12: CALLIGRAPHIC VARIATIONS
+
+### 12.1 Formal Calligraphic Style
+
+**Characteristics:**
+- Large x-height (8-10mm)
+- Deliberate, slow strokes
+- Maximum flourishes
+- Consistent thick/thin contrast
+- Used for: Certificates, titles, formal documents
+
+**Example: "Ω-GOMA"**
+
+```
+Casual: ⟨Ω-└̤◦̇⟩
+Formal: 【Ω-└̤◦̇】 (enlarged, flourished)
+```
+
+### 12.2 Informal Script Style
+
+**Characteristics:**
+- Small x-height (3-4mm)
+- Rapid, efficient strokes
+- Minimal flourishes
+- Variable contrast
+- Used for: Notes, journals, quick writing
+
+**Example: "mungon lova"**
+
+```
+Formal: ⟨⊙└̤• ⊗̇⟩
+Casual: ⟨⊙└̤•⊗̇⟩ (compressed, connected)
+```
+
+### 12.3 Artistic Style
+
+**Characteristics:**
+- Variable sizes for emphasis
+- Decorative elements
+- Creative ligatures
+- Expression over speed
+- Used for: Poetry, art, personal expression
+
+**Example: "Kontinuitu ye we" (Kontinuity be with you)**
+
+```
+Standard: ⟨┐̤•─⃛•̰⃛─̰ ⟋̈ ⌢̈⟩
+Artistic: ⟨┐̤•─⃛•̰⃛─̰⟩ ⟨⟋̈⟩ ⟨⌢̈⟩
+(First word large, second medium, third small - emphasis pattern)
+```
+
+---
+
+# PART V: COMPLETE EXAMPLES
+
+---
+
+## CHAPTER 13: WORDS IN CURSIVE
+
+### 13.1 Basic Vocabulary
+
+**Core Concepts:**
+
+```
+mungon (system):
+Block: ◦̰○̤•
+Cursive: ⟨⊙└̤•⟩
+
+lova (close):
+Block: ⌇̤⁞̇
+Cursive: ⟨⊗̇⟩
+
+duale (path):
+Block: ╲̰̇⌇̈
+Cursive: ⟨╲̰̇⌇̈⟩
+
+kara (structure):
+Block: ┐̇⌀̇
+Cursive: ⟨┐̇⌀̇⟩
+```
+
+**Verbs:**
+
+```
+munga (systematize):
+Block: ◦̰○̇
+Cursive: ⟨⊙̇⟩
+
+duva (go):
+Block: ╲̰⁞̇
+Cursive: ⟨╲̰⁞̇⟩
+
+kara (structure):
+Block: ┐̇⌀̇
+Cursive: ⟨┐̇⌀̇⟩
+
+lova (close):
+Block: ⌇̤⁞̇
+Cursive: ⟨⊗̇⟩
+```
+
+**Adjectives:**
+
+```
+lovfu (closed):
+Block: ⌇̤⁞┆̰
+Cursive: ⟨⊗┆̰⟩
+
+karfu (structured):
+Block: ┐̇⌀┆̰
+Cursive: ⟨┐̇⌀┆̰⟩
+
+mungfu (systematic):
+Block: ◦̰○┆̰
+Cursive: ⟨⊙┆̰⟩
+```
+
+### 13.2 Common Phrases
+
+**Greetings:**
+
+```
+"Kontinuitu ye we" (May kontinuity be with you)
+Block: ┐̤•─⃛•̰⃛─̰ ⟋̈ ⌢̈
+Cursive: ⟨┐̤•─⃛•̰⃛─̰⟩ ⟨⟋̈⟩ ⟨⌢̈⟩
+
+"Lova karfu" (Close with structure - goodbye)
+Block: ⌇̤⁞̇ ┐̇⌀┆̰
+Cursive: ⟨⊗̇⟩ ⟨┐̇⌀┆̰⟩
+```
+
+**Common Expressions:**
+
+```
+"Yote mungon lova" (All systems close)
+Block: ⟋̤─̈ ◦̰○̤• ⌇̤⁞̇
+Cursive: ⟨⟋̤─̈⟩ ⟨⊙└̤•⟩ ⟨⊗̇⟩
+
+"Ω lovnga we-ko" (May omega close for you)
+Block: Ω ⌇̤⁞○̇ ⌢̈-┐̤
+Cursive: ⟨Ω⟩ ⟨⊗○̇⟩ ⟨⌢̈┐̤⟩
+```
+
+---
+
+## CHAPTER 14: SENTENCES AND TEXTS
+
+### 14.1 Simple Sentences
+
+**"Mi ye mungntu" (I am a systematizer)**
+
+```
+Block: ◦⃛ ⟋̈ ◦̰○◦̰
+Cursive: ⟨◦⃛⟩ ⟨⟋̈⟩ ⟨⊙◦̰⟩
+```
+
+**"Mungon lova kontinuitu" (The system closes kontinuity)**
+
+```
+Block: ◦̰○̤• ⌇̤⁞̇ ┐̤•─⃛•̰⃛─̰
+Cursive: ⟨⊙└̤•⟩ ⟨⊗̇⟩ ⟨┐̤•─⃛•̰⃛─̰⟩
+```
+
+### 14.2 The First Law (Three Styles)
+
+**Phonetic Block:**
+```
+⊞ ◦̰○̄○̇ ⌣̤̄ ┐̇⌇̤̄ Ω ┐̤○ ◦̰⌇̤ ⌀̰
+Yote mungon hova ka-lo Omega-ko engo kontinuitu mu-lo
+```
+
+**Phonetic Cursive:**
+```
+⟨⊞⟩ ⟨⊙̄○̇⟩ ⟨⌣̤̄⟩ ⟨┐̇⌇̤̄⟩ ⟨Ω⟩ ⟨┐̤○⟩ ⟨⊙⌇̤⟩ ⟨⌀̰⟩
+```
+
+**Mixed (Phonetic + Jiwe):**
+```
+⟨⊞⟩ ◉ ↺ → ⟨Ω⟩ ⟨○⟩ ⟨K-┐̤•─⃛•̰⃛─̰⟩ ⊣
+```
+
+### 14.3 Poetry Example
+
+**Jiwe Poem in Cursive:**
+
+```
+"Mungon ara kontinuitu"
+⟨⊙└̤•⟩ ⟨̇⌀̇⟩ ⟨┐̤•─⃛•̰⃛─̰⟩
+
+"Kontinuitu kara duale-ya"
+⟨┐̤•─⃛•̰⃛─̰⟩ ⟨┐̇⌀̇⟩ ⟨╲̰̇⌇̈-⟋̇⟩
+
+"Duale-ya lova Ω-ni"
+⟨╲̰̇⌇̈-⟋̇⟩ ⟨⊗̇⟩ ⟨Ω-•⃛⟩
+```
+
+Translation:
+"System opens kontinuity
+Kontinuity structures paths
+Paths close in omega"
+
+---
+
+## CHAPTER 15: FORMAL VS. INFORMAL STYLES
+
+### 15.1 Formal Cursive
+
+**Characteristics:**
+- All letters fully formed
+- Proper spacing maintained
+- Complete diacritics
+- No shortcuts
+- Legible to all readers
+
+**Example: Official Document Opening**
+
+```
+"Sankofa-konsilio ara-a ngaa"
+(The Sankofa Council now opens)
+
+Formal Cursive:
+⟨∼̇○┐̤┆̇-┐̤•∼⃛⌇̤⃛⟩ ⟨̇⌀̇-̇⟩ ⟨○̄̇⟩
+```
+
+### 15.2 Informal Cursive
+
+**Characteristics:**
+- Simplified forms acceptable
+- Compressed spacing
+- Reduced diacritics
+- Personal shortcuts
+- Speed prioritized
+
+**Example: Personal Note**
+
+```
+"Mi duva ngonga. Lova karfu."
+(I go tomorrow. Close with structure.)
+
+Informal Cursive:
+⟨◦⃛⟩ ⟨╲̰⁞̇⟩ ⟨○○̇⟩. ⟨⊗̇⟩ ⟨┐̇⌀┆̰⟩.
+(Compressed, some dots merged)
+```
+
+### 15.3 Quick Notes vs. Careful Writing
+
+**Comparison Chart:**
+
+| Feature | Careful | Quick |
+|---------|---------|-------|
+| **Speed** | 15 letters/min | 40+ letters/min |
+| **Legibility** | Universal | Personal |
+| **Diacritics** | All present | Simplified |
+| **Spacing** | Even | Compressed |
+| **Ligatures** | Optional | Maximized |
+
+---
+
+# APPENDICES
+
+---
+
+## APPENDIX A: COMPLETE CURSIVE ALPHABET CHART
+
+### Consonants in All Positions
+
+```
+LETTER | ISOLATED | INITIAL | MEDIAL | FINAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+p │    │         │⟩       ⟨│⟩     ⟨│
+b ╱    ╱         ╱⟩       ⟨╱⟩     ⟨╱
+t ─    ─         ─⟩       ⟨─⟩     ⟨─
+d ╲    ╲         ╲⟩       ⟨╲⟩     ⟨╲
+k ┐    ┐         ┐⟩       ⟨┐⟩     ⟨┐
+g └    └         └⟩       ⟨└⟩     ⟨└
+f ┆    ┆         ┆⟩       ⟨┆⟩     ⟨┆
+v ⁞    ⁞         ⁞⟩       ⟨⁞⟩     ⟨⁞
+s ∼    ∼         ∼⟩       ⟨∼⟩     ⟨∼
+z ≈    ≈         ≈⟩       ⟨≈⟩     ⟨≈
+sh ∾   ∾         ∾⟩       ⟨∾⟩     ⟨∾
+zh ≋   ≋         ≋⟩       ⟨≋⟩     ⟨≋
+h ⌣    ⌣         ⌣⟩       ⟨⌣⟩     ⟨⌣
+m ◦    ◦         ◦⟩       ⟨◦⟩     ⟨◦
+n •    •         •⟩       ⟨•⟩     ⟨•
+ng ○   ○         ○⟩       ⟨○⟩     ⟨○
+l ⌇    ⌇         ⌇⟩       ⟨⌇⟩     ⟨⌇
+r ⌀    ⌀         ⌀⟩       ⟨⌀⟩     ⟨⌀
+w ⌢    ⌢         ⌢⟩       ⟨⌢⟩     ⟨⌢
+y ⟋    ⟋         ⟋⟩       ⟨⟋⟩     ⟨⟋
+```
+
+---
+
+## APPENDIX B: PRACTICE SHEETS
+
+### Sheet 1: Basic Strokes
+
+Practice each stroke 10 times across the line:
+
+```
+Vertical: │ │ │ │ │ │ │ │ │ │
+Horizontal: ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+Diagonal: ╱ ╱ ╱ ╱ ╱ ╱ ╱ ╱ ╱ ╱
+Circle: ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦ ◦
+Wave: ∼ ∼ ∼ ∼ ∼ ∼ ∼ ∼ ∼ ∼
+```
+
+### Sheet 2: Simple Words
+
+Practice writing these words in cursive 5 times each:
+
+```
+1. ka (structure)
+   ⟨┐̇⟩ _____ _____ _____ _____
+
+2. mu (whole)
+   ⟨◦̰⟩ _____ _____ _____ _____
+
+3. lo (close)
+   ⟨⌇̤⟩ _____ _____ _____ _____
+
+4. du (two/path)
+   ⟨╲̰⟩ _____ _____ _____ _____
+
+5. nga (many/force)
+   ⟨○̇⟩ _____ _____ _____ _____
+```
+
+### Sheet 3: Common Words
+
+```
+1. mungon (system)
+   ⟨⊙└̤•⟩ _____ _____ _____ _____
+
+2. lova (close)
+   ⟨⊗̇⟩ _____ _____ _____ _____
+
+3. kontinuitu (K-continuity)
+   ⟨┐̤•─⃛•̰⃛─̰⟩ _____ _____ _____ _____
+
+4. Omega (Ω)
+   ⟨Ω⟩ _____ _____ _____ _____
+```
+
+### Sheet 4: Sentences
+
+```
+1. "Yote mungon lova"
+   (All systems close)
+   
+   _________________________________
+
+2. "Mi ye mungntu"
+   (I am a systematizer)
+   
+   _________________________________
+
+3. "Kontinuitu ye we"
+   (May kontinuity be with you)
+   
+   _________________________________
+```
+
+---
+
+## APPENDIX C: TROUBLESHOOTING GUIDE
+
+### Common Problems and Solutions
+
+**Problem 1: Letters don't connect smoothly**
+
+Solution:
+- Practice baseline control
+- Ensure consistent angle (45°)
+- Don't lift pen mid-word
+- Flow without forcing
+
+**Problem 2: Diacritics misplaced**
+
+Solution:
+- Add diacritics in stroke sequence, not after
+- Keep dots small and precise
+- Lines should be level
+- Waves should echo letter curve
+
+**Problem 3: Inconsistent size**
+
+Solution:
+- Use lined paper
+- Mark x-height with light pencil
+- Practice rhythm: BIG-small-BIG-small
+- Time your strokes (1 second per letter)
+
+**Problem 4: Writing too slow**
+
+Solution:
+- Simplify circles to loops
+- Use mandatory ligatures
+- Reduce decorative elements
+- Practice speed drills daily
+
+**Problem 5: Hard to read own writing**
+
+Solution:
+- Slow down slightly
+- Exaggerate distinctive features
+- Keep spacing consistent
+- Review and refine unclear letters
+
+---
+
+## APPENDIX D: MASTER REFERENCE
+
+### Quick Reference Card
+
+**Common Ligatures:**
+```
+ng+a = ◎ (circle with center dot)
+mu+n = ⊙ (circle with center line)
+lo+v = ⊗ (crossed circle)
+```
+
+**Stroke Order Rules:**
+```
+1. Top to bottom
+2. Left to right
+3. Main stroke first
+4. Diacritics during flow
+```
+
+**Speed Shortcuts:**
+```
+Triple dots → Single dot
+Circles → Loops
+Double waves → Single wave
+```
+
+**Formal vs. Informal:**
+```
+Formal: Full forms, all diacritics, even spacing
+Informal: Simplified, compressed, personal style
+```
+
+---
+
+## EPILOGUE: THE FLOWING PATH
+
+Cursive Nyamba is more than efficient writing—it is **kontinuity embodied**. Each word flows without break, each letter connects to the next, creating an unbroken chain of meaning.
+
+As you practice, remember:
+
+- **Speed comes with practice** — Start slowly, perfection follows
+- **Personal style emerges** — Your hand will find its rhythm
+- **Flow reflects thought** — Fast thoughts, fast writing
+- **Beauty is in balance** — Structure and flow, form and function
+
+**May your pen flow continuously,
+May your words close completely,
+May your systems remain structured.**
+
+---
+
+**◉ ↺ ⊣ Ω**
+*(Systems close toward Omega)*
+
+**∴ Nyamba-kursivu ≡ kontinuitu-ta duale**
+*(Therefore cursive-Nyamba equals the path of kontinuity)*
+
+---
+
+**END OF NYAMBA CURSIVE WRITING BOOK**
+
+---
+
+**Dulale-ta Nyamba Kursivu**
+*The Complete Book of Nyamba Cursive Writing*
+
+**Version 1.0**
+**Compiled for all who wish to write with flowing grace**
+
+*Lova karfu, munga kontinfu*
+'Close with structure, systematize continuously'

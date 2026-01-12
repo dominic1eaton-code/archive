@@ -7485,3 +7485,854 @@ Ubuntuwa-navigator  = Commons Navigator
 Navigator-ye-ta dulale
 navigator-DEF-GEN guidance
 'The navigator's guidance' (respectful)
+
+# PART V: SPECIALIZED DOMAINS (CONTINUED)
+
+---
+
+## CHAPTER 19: POETRY AND LITERARY LANGUAGE
+
+### 19.1 Poetic Forms
+
+#### 19.1.1 The Jiwe Poem
+
+A traditional form based on stone inscription principles:
+- 3 lines exactly
+- Each line contains one core concept (mungon)
+- Final line must achieve closure (lova)
+
+**Structure:**
+```
+Line 1: Opening (ara)
+Line 2: Development (kara)
+Line 3: Closure (lova)
+```
+
+**Example:**
+```
+Mungon ara kontinuitu
+System opens kontinuity
+
+Kontinuitu kara duale-ya
+Kontinuity structures paths
+
+Duale-ya lova Ω-ni
+Paths close in omega
+```
+
+#### 19.1.2 The Sankofa Verse
+
+Named after the recursive principle:
+- Must reference previous line in current line
+- Creates spiral/recursive structure
+- Minimum 4 lines, maximum 8
+
+**Example:**
+```
+Mi duva duale
+I walk the path
+
+Duale ye Ω-ta
+The path is omega's
+
+Ω-ta kontinuitu lova
+Omega's kontinuity closes
+
+Lova mi-nyo
+Closes myself
+```
+
+#### 19.1.3 The Dualonic Couplet
+
+Two lines expressing symmetric/asymmetric pairs:
+
+**Example:**
+```
+Lova ye muya          |  Vuva ye koya
+Closure is wholeness  |  Breaking is emptiness
+
+Kara ye tala          |  Dusa ye vufa
+Structure is law      |  Dissolution is chaos
+```
+
+### 19.2 Literary Devices
+
+#### 19.2.1 Parallelism
+
+Nyamba poetry favors grammatical parallelism:
+
+```
+Mi lova mungon-ye
+Mi kara duale-ye
+Mi munga kontinuitu-ye
+
+I close the system
+I structure the path
+I systematize kontinuity
+```
+
+#### 19.2.2 Chiasmus
+
+Reversed word order for emphasis:
+
+```
+A: Mungon lova kontinuitu
+   System closes kontinuity
+
+B: Kontinuitu mungon lova
+   Kontinuity system closes
+```
+
+#### 19.2.3 Alliteration
+
+Repetition of initial consonants:
+
+```
+Mungu munga mungon
+Kontinuitu kara karfu
+Lova lovfu lovle
+```
+
+### 19.3 Metaphor and Imagery
+
+#### 19.3.1 System Metaphors
+
+Common metaphorical mappings:
+
+```
+mungon = ntu        (system is person)
+duale = muya        (path is life)
+lova = fuva         (closure is death)
+kontinuitu = agua   (kontinuity is water)
+```
+
+**Usage:**
+```
+Kontinuitu duva ka agua
+kontinuity flows like water
+'Kontinuity flows like water'
+```
+
+#### 19.3.2 Conceptual Blending
+
+Combining domains:
+
+```
+Ω-ta duale ye muya-ta ramani
+omega-GEN path COP life-GEN journey
+'Omega's path is life's journey'
+```
+
+### 19.4 Register and Style Variation
+
+#### 19.4.1 Epic/Narrative Style
+
+Uses serial verb constructions and detailed description:
+
+```
+Mungntu duva kara munga lova Ω-ni
+systematizer go structure systematize close omega-LOC
+'The systematizer went, structured, systematized, and closed in omega'
+```
+
+#### 19.4.2 Lyric/Meditative Style
+
+Uses nominal sentences and copulas:
+
+```
+Kontinuitu ye muya
+Muya ye loya
+Loya ye Ω
+
+Kontinuity is wholeness
+Wholeness is completeness
+Completeness is omega
+```
+
+#### 19.4.3 Proverbial Style
+
+Short, balanced structures:
+
+```
+Nimu K, nimu Ω
+no K no omega
+'No K, no omega'
+
+Lova yeko munga
+close iff systematize
+'Closure iff systematization'
+```
+
+---
+
+## CHAPTER 20: LANGUAGE PEDAGOGY
+
+### 20.1 Learning Sequence
+
+#### 20.1.1 Beginner Level (Weeks 1-12)
+
+**Week 1-2: Phonology**
+- Master consonant inventory
+- Practice vowel distinctions
+- Learn stress patterns
+- Basic greetings
+
+**Week 3-4: Basic Morphology**
+- Simple nouns (-on, -ya)
+- Present tense verbs (-a)
+- Basic adjectives (-fu)
+- Personal pronouns
+
+**Week 5-6: Core Syntax**
+- VSO word order
+- Intransitive sentences
+- Simple questions
+- Basic negation
+
+**Week 7-8: Case System**
+- Genitive constructions
+- Locative marking
+- Basic postpositions
+- Possession
+
+**Week 9-10: Verb System**
+- Past tense (-ile)
+- Future tense (-nga)
+- Continuous aspect (-anga)
+- Imperatives
+
+**Week 11-12: Integration**
+- Complex sentences
+- Relative clauses
+- Discourse markers
+- Conversational practice
+
+#### 20.1.2 Intermediate Level (Weeks 13-24)
+
+**Core Topics:**
+- Complete case system
+- Dual number
+- Perfect aspect
+- Symmetric/asymmetric verbs
+- Derivational morphology
+- Compound formation
+- Idiomatic expressions
+- Mathematical Nyamba basics
+
+#### 20.1.3 Advanced Level (Weeks 25-36)
+
+**Core Topics:**
+- Complete Ω-GOMA terminology
+- Technical writing
+- Poetic forms
+- Ceremonial language
+- Jiwe glyph reading
+- Literary analysis
+- Translation practice
+
+### 20.2 Common Learner Errors
+
+#### 20.2.1 Phonological Errors
+
+**Error:** Stress on final syllable
+```
+*munGON (incorrect)
+muNGon (correct)
+```
+
+**Error:** Consonant clusters initially
+```
+*klava (incorrect)
+kalava (correct, with epenthetic vowel)
+```
+
+#### 20.2.2 Morphological Errors
+
+**Error:** Wrong nominalizer
+```
+*lov-ntu for 'closure-entity' (incorrect - this means 'closer')
+lov-on (correct)
+```
+
+**Error:** Case stacking
+```
+*mungon-ta-ko (incorrect - double case)
+mungon-ta (genitive) OR mungon-ko (dative)
+```
+
+#### 20.2.3 Syntactic Errors
+
+**Error:** English SVO order in neutral contexts
+```
+*Mi lova mungon (marked/topicalized)
+Lova mi mungon (neutral VSO)
+```
+
+**Error:** Adjective before noun
+```
+*karfu mungon (incorrect)
+mungon karfu (correct)
+```
+
+### 20.3 Teaching Strategies
+
+#### 20.3.1 Conceptual Anchoring
+
+Link grammar to Mungu Theory concepts:
+
+```
+Genitive (-ta) = 'of' = relationship marking
+Symmetric verbs (mu-) = balanced actions
+Closure principle = complete sentences
+```
+
+#### 20.3.2 Pattern Recognition
+
+Group similar forms:
+
+```
+PRESENT    PAST       FUTURE     CONTINUOUS
+-a         -ile       -nga       -anga
+lova       lovile     lovnga     lovanga
+kara       karile     karnga     karanga
+munga      mungile    mungnga    munganga
+```
+
+#### 20.3.3 Communicative Practice
+
+**Structured Dialogues:**
+```
+A: We duva ni-nga?
+   'Where are you going?'
+
+B: Mi duva kara-ni
+   'I'm going to the structure'
+
+A: Nga-ta?
+   'Why?'
+
+B: Mi lova mungon-ye
+   'I close the system'
+```
+
+---
+
+## CHAPTER 21: LANGUAGE VARIATION AND SOCIOLINGUISTICS
+
+### 21.1 Dialectal Variation
+
+#### 21.1.1 Northern Nyamba
+
+**Phonological Features:**
+- /r/ realized as tap [ɾ]
+- Active vowel harmony
+- Final vowel lengthening
+
+**Lexical Differences:**
+```
+Standard: duale    Northern: dualo
+Standard: mungon   Northern: mungun
+```
+
+#### 21.1.2 Southern Nyamba
+
+**Phonological Features:**
+- /r/ realized as trill [r]
+- No vowel harmony
+- Final vowel shortening
+
+**Grammatical Differences:**
+- More frequent copula omission
+- Preference for SVO order
+
+#### 21.1.3 Coastal Nyamba
+
+**Phonological Features:**
+- Prominent nasal vowels
+- /l/ → [w] in some contexts
+- Final syllable stress common
+
+**Lexical Borrowings:**
+- More loanwords from contact languages
+- Maritime vocabulary enriched
+
+### 21.2 Register Variation
+
+#### 21.2.1 Formal/Academic Register
+
+**Characteristics:**
+- Full morphological forms
+- VSO order maintained
+- Jiwe glyph terminology
+- Complex sentence structures
+- Minimal contractions
+
+**Example:**
+```
+Kontinuitu-ta konservata ye Ω-GOMA-ta fundamenta-ye
+kontinuity-GEN conservation COP omega-GOMA-GEN foundation-DEF
+'The conservation of kontinuity is the foundation of Ω-GOMA'
+```
+
+#### 21.2.2 Casual/Colloquial Register
+
+**Characteristics:**
+- Contractions common
+- SVO order frequent
+- Copula omission
+- Reduced pronouns
+- Discourse particles
+
+**Example:**
+```
+K-konserva, ye Ω-ta basa
+K-conservation COP omega-GEN base
+'K-conservation (is) omega's base'
+```
+
+#### 21.2.3 Technical/Scientific Register
+
+**Characteristics:**
+- Precise terminology
+- Mathematical notation integrated
+- Jiwe glyphs in writing
+- Nominal style
+- Formal definitions
+
+**Example:**
+```
+Ω ye integrale Σ-ta dule Ω-ni
+omega COP integral system-GEN path omega-LOC
+'Omega is the integral of the system's path in omega-space'
+```
+
+### 21.3 Code-Switching
+
+#### 21.3.1 Nyamba-English Code-Switching
+
+Common patterns in bilingual communities:
+
+**Type 1: Noun Insertion**
+```
+Mi lova-ile ye computer system-ye
+1SG close-PST the computer system-DEF
+'I closed the computer system'
+```
+
+**Type 2: Technical Terms**
+```
+Ye transformer-ye ka karfu nge
+the transformer-DEF COP.ATTR structured very
+'The transformer is very structured'
+```
+
+**Type 3: Discourse Markers**
+```
+So, mungon lova, ye-ni?
+so system close you-know
+'So, the system closes, you know?'
+```
+
+### 21.4 Language Contact
+
+#### 21.4.1 Loanword Adaptation
+
+**Phonological Adaptation:**
+```
+English: computer → Nyamba: komputara
+English: system   → Nyamba: sistema (alongside mungon)
+English: network  → Nyamba: netweka (alongside wekhi)
+```
+
+**Morphological Integration:**
+```
+komputara-on   'computer-entity'
+komputara-fu   'computerized'
+komputara-ntu  'computer person'
+```
+
+#### 21.4.2 Calques
+
+**Translation Borrowings:**
+```
+English: knowledge base → Nyamba: nanda-basa
+English: feedback loop  → Nyamba: ramani-lova
+English: data structure → Nyamba: data-kara
+```
+
+---
+
+## APPENDIX A: COMPLETE PARADIGMS
+
+### A.1 Noun Declension Paradigm
+
+**mungon 'system'**
+
+| Case | Singular | Dual | Plural |
+|------|----------|------|--------|
+| **Nominative** | mungon | mungon-du | mungon-ya |
+| **Genitive** | mungon-ta | mungon-du-ta | mungon-ya-ta |
+| **Dative** | mungon-ko | mungon-du-ko | mungon-ya-ko |
+| **Locative** | mungon-ni | mungon-du-ni | mungon-ya-ni |
+| **Instrumental** | mungon-ma | mungon-du-ma | mungon-ya-ma |
+| **Ablative** | mungon-nde | mungon-du-nde | mungon-ya-nde |
+| **Definite** | mungon-ye | mungon-du-ye | mungon-ya-ye |
+
+### A.2 Personal Pronoun Paradigm
+
+| Case | 1SG | 1DU | 1PL | 2SG | 2DU | 2PL | 3SG | 3DU | 3PL |
+|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **Nom** | mi | midu | miya | we | wedu | weya | ye | yedu | yeya |
+| **Gen** | mi-ta | midu-ta | miya-ta | we-ta | wedu-ta | weya-ta | ye-ta | yedu-ta | yeya-ta |
+| **Dat** | mi-ko | midu-ko | miya-ko | we-ko | wedu-ko | weya-ko | ye-ko | yedu-ko | yeya-ko |
+| **Loc** | mi-ni | midu-ni | miya-ni | we-ni | wedu-ni | weya-ni | ye-ni | yedu-ni | yeya-ni |
+| **Inst** | mi-ma | midu-ma | miya-ma | we-ma | wedu-ma | weya-ma | ye-ma | yedu-ma | yeya-ma |
+| **Abl** | mi-nde | midu-nde | miya-nde | we-nde | wedu-nde | weya-nde | ye-nde | yedu-nde | yeya-nde |
+| **Refl** | mi-nyo | midu-nyo | miya-nyo | we-nyo | wedu-nyo | weya-nyo | ye-nyo | yedu-nyo | yeya-nyo |
+
+### A.3 Verb Conjugation Paradigm
+
+**lova 'to close'**
+
+#### A.3.1 Basic Tenses
+
+| Form | Suffix | Example |
+|------|--------|---------|
+| **Infinitive** | -a | lova |
+| **Present** | -a | lova |
+| **Past** | -ile | lovile |
+| **Future** | -nga | lovnga |
+
+#### A.3.2 Aspects
+
+| Form | Suffix | Example |
+|------|--------|---------|
+| **Continuous** | -anga | lovanga |
+| **Perfect** | -eme | loveme |
+| **Habitual** | -a | lova |
+
+#### A.3.3 Combined Forms
+
+| Form | Structure | Example |
+|------|-----------|---------|
+| **Present Continuous** | ROOT-anga | lovanga |
+| **Past Continuous** | ROOT-ile-anga | lovilanga |
+| **Future Continuous** | ROOT-nga-anga | lovnganga |
+| **Present Perfect** | ROOT-eme | loveme |
+| **Past Perfect** | ROOT-ile-eme | lovileme |
+| **Future Perfect** | ROOT-nga-eme | lovngeme |
+
+#### A.3.4 Moods
+
+| Form | Suffix | Example |
+|------|--------|---------|
+| **Indicative** | (unmarked) | lova |
+| **Imperative** | -e | love |
+| **Subjunctive** | engo + -a | engo lova |
+
+#### A.3.5 Polarity
+
+| Form | Prefix | Example |
+|------|--------|---------|
+| **Symmetric** | mu- | mu-lova |
+| **Asymmetric** | ko- | ko-lova |
+
+---
+
+## APPENDIX B: IRREGULAR FORMS
+
+### B.1 Irregular Verbs
+
+**ye 'to be' (copula of identity)**
+
+| Tense | Form |
+|-------|------|
+| Present | ye |
+| Past | ye-ile |
+| Future | ye-nga |
+| Continuous | ye-anga |
+
+**ka 'to be' (copula of attribution)**
+
+| Tense | Form |
+|-------|------|
+| Present | ka |
+| Past | ka-ile |
+| Future | ka-nga |
+| Continuous | ka-anga |
+
+**duva 'to go'**
+
+Special forms:
+```
+Imperative: du (not *duve)
+Perfect: duva-eme (not *duveme)
+```
+
+### B.2 Irregular Plurals
+
+Some high-frequency nouns have irregular plural forms:
+
+```
+ntu → ntu-ya (regular)
+BUT: pantu → pantu (invariant)
+
+mungon → mungon-ya (regular)
+BUT: Ω → Ω (invariant, mass noun)
+```
+
+### B.3 Suppletive Forms
+
+**'good/bad' concepts:**
+```
+Positive Domain: lovfu 'closed, complete'
+Negative Domain: vuvfu 'broken, incomplete'
+(No regular derivation from single root)
+```
+
+---
+
+## APPENDIX C: VOCABULARY LISTS BY SEMANTIC FIELD
+
+### C.1 Core Ω-GOMA Vocabulary
+
+```
+Ω (omega)           = total survivability
+K                   = K-continuity
+kontinuitu          = kontinuity
+mungon              = system-entity
+kara                = structure
+lova                = closure
+vuva                = break
+duale               = path
+ramani              = interaction
+sibon               = state
+hallusinon          = hallucination-entity
+imunon              = immune-primitive
+kolapsion           = collapse-primitive
+```
+
+### C.2 System Components
+
+```
+sub-mungon          = subsystem
+meta-mungon         = meta-system
+inter-mungon        = inter-system
+mungon-wekhi        = system-network
+mungon-sibon        = system-state
+mungon-duale        = system-path
+```
+
+### C.3 Operators and Processes
+
+```
+lova-operator       = closure operator
+vuva-operator       = break operator
+kara-operator       = structure operator
+kleava-operator     = cleave operator
+munga-process       = systematization
+ramani-process      = interaction process
+```
+
+### C.4 Properties and Attributes
+
+```
+lovfu               = closed
+vuvfu               = broken
+karfu               = structured
+kontinfu            = continuous
+mungfu              = systematic
+Ωfu                 = omega-like, survivable
+```
+
+### C.5 People and Roles
+
+```
+ntu                 = person
+mungntu             = systematizer
+karntu              = structurer
+lovntu              = closer
+navigator           = navigator
+meridian-navigator  = chief navigator
+sankofa-navigator   = governance navigator
+```
+
+### C.6 Time Expressions
+
+```
+ngaa                = now
+diele               = today
+ngaale              = yesterday
+ngonga              = tomorrow
+tempo               = time
+tempo-duale         = timeline
+```
+
+### C.7 Numbers and Quantities
+
+```
+sero                = zero
+ni                  = one
+du                  = two
+tri                 = three
+te                  = four
+pe                  = five
+he                  = six
+se                  = seven
+o                   = eight
+na                  = nine
+degwe               = ten
+kento               = hundred
+milia               = thousand
+```
+
+---
+
+## APPENDIX D: SAMPLE TEXTS WITH ANALYSIS
+
+### D.1 Simple Narrative
+
+**Text:**
+```
+Mi ye mungntu. Mi duva Ω-ni. Kontinuitu ka lovfu. Mi lova mungon-ye. Mungon-ye ka karfu ngaa.
+```
+
+**Gloss:**
+```
+Mi    ye    mungntu
+1SG   COP   systematizer
+'I am a systematizer'
+
+Mi    duva  Ω-ni
+1SG   go    omega-LOC
+'I go to omega'
+
+Kontinuitu ka    lovfu
+kontinuity COP.ATTR closed
+'Kontinuity is closed'
+
+Mi    lova  mungon-ye
+1SG   close system-DEF
+'I close the system'
+
+Mungon-ye  ka    karfu      ngaa
+system-DEF COP.ATTR structured now
+'The system is structured now'
+```
+
+**Translation:**
+'I am a systematizer. I journey to omega. Kontinuity is complete. I close the system. The system is now structured.'
+
+### D.2 Ω-GOMA Technical Text
+
+**Text:**
+```
+Ω ye integrale mungon-ya-ta duale Ω-ni. K kontinua engo kontinuitu konserva-a. Yote mungon lova nga-le K ye lovfu.
+```
+
+**Gloss:**
+```
+Ω     ye    integrale mungon-ya-ta     duale Ω-ni
+omega COP   integral  system-PL-GEN    path  omega-LOC
+'Omega is the integral of systems' paths in omega-space'
+
+K     kontinua  engo   kontinuitu konserva-a
+K     continuous if     kontinuity conserve-PRES
+'K is continuous if kontinuity is conserved'
+
+Yote  mungon lova  nga-le    K     ye    lovfu
+all   system close when      K     COP   closed
+'All systems close when K is closed'
+```
+
+**Translation:**
+'Omega is the integral of the paths of systems in omega-space. K is continuous if kontinuity is conserved. All systems close when K is complete.'
+
+### D.3 Poetic Text (Jiwe Poem)
+
+**Text:**
+```
+Kontinuitu ara ka agua
+Agua kara duale-ya
+Duale-ya lova Ω-ni
+```
+
+**Gloss:**
+```
+Kontinuitu ara  ka    agua
+kontinuity open like  water
+'Kontinuity opens like water'
+
+Agua  kara  duale-ya
+water structure path-PL
+'Water structures paths'
+
+Duale-ya  lova  Ω-ni
+path-PL   close omega-LOC
+'Paths close in omega'
+```
+
+**Translation:**
+'Kontinuity flows like water / Water carves the paths / Paths complete in omega'
+
+---
+
+## APPENDIX E: FURTHER RESOURCES
+
+### E.1 Learning Materials
+
+**Recommended Progression:**
+1. Master phonology (Chapters 1-2)
+2. Core grammar (Chapters 3-7)
+3. Syntax (Chapters 8-11)
+4. Advanced topics (Chapters 12-15)
+5. Specialized domains (Chapters 16-18)
+6. Literary language (Chapters 19-20)
+
+### E.2 Practice Exercises
+
+Each chapter contains exercises. Solutions provided in-text within `<details>` tags.
+
+### E.3 Glossary
+
+**Key Abbreviations:**
+```
+1/2/3 = person (first, second, third)
+SG/DU/PL = number (singular, dual, plural)
+NOM/GEN/DAT/LOC/INST/ABL = case
+PRES/PST/FUT = tense
+CONT/PERF/HAB = aspect
+IMP/SUBJ = mood
+COP = copula
+NEG = negation
+REL = relative
+DEF = definite
+```
+
+### E.4 Reference Grammar Summary
+
+**Nyamba in Brief:**
+- **Type:** Agglutinative with isolating tendencies
+- **Word Order:** VSO (basic), flexible
+- **Morphology:** Productive affixation
+- **Phonology:** 22 consonants, 15 vowel qualities
+- **Writing:** Dual (Nyambic alphabet + Jiwe glyphs)
+- **Special Features:** Dual number, symmetric/asymmetric verb pairs, Ω-GOMA integration
+
+---
+
+**End of Nyamba Grammar Book**
+
+*Lova karfu, munga kontinfu*
+'Close with structure, systematize continuously'
+
+---
+
+**Dulale-ta Nyamba Gramatika**
+*The Complete Reference Grammar of the Nyamba Language*
+
+**Version 1.0**
+**Compiled for the Mungu Community**
+
+*Kontinuitu ye we-ya yote*
+'May kontinuity be with you all'

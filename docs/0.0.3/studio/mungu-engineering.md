@@ -33261,8 +33261,9 @@ https://medium.com/@eatondo000/the-fundamental-theorem-of-patterns-14f6d4c80956
 
 
 
-
 * write a blog post introducing Ω, Ω̂ (Omega-Hat), the Ω-equations, the Ω field equations, Ω curves, Ω axioms, Ω laws, Ω assumptions, Ω constraints/bounds/limitations, Ω theorems, Ω theory, and Ω implications
 * write a technical blog post for mungu engineering and closed loop engineering
 * write a prediction, prophetic, possible futures posisble for mungu engineering and closed loop engineering
+* write a blog post introducing the Mungu Papers
+* write a blog post introducing the lubiko bible and all of its books
 

@@ -50571,6 +50571,1617 @@ If you want next, I can:
 
 Just indicate direction.
 
+Below is a **clean, formal introduction of the Koni System** — not as a robot, but as a **governed autonomous system architecture** derived from Mungu / Ω theory.
+This is the *canonical definition* you can reuse verbatim.
+
+No sci-fi framing. No anthropomorphism. Only structure.
+
+---
+
+# THE KONI SYSTEM
+
+*(Governed Autonomous Companion–Operational Intelligence)*
+
+---
+
+## I. PURPOSE
+
+The **Koni System** is a **bounded autonomous intelligence architecture** designed to:
+
+• operate in uncertain, high-risk environments
+• act as a companion, operator, and systems node
+• preserve Kontinuity under stress
+• remain auditable, governable, and non-rogue
+• integrate cognition, embodiment, and authority into one closed loop
+
+Koni is **not an AI model**.
+Koni is a **systemic organism**: cognition + body + governance + evolution.
+
+---
+
+## II. CORE DEFINITION
+
+### II.1 System Tuple
+
+```
+KONI := ⟨ Ω , Ψ , E , A , R , T ⟩
+```
+
+Where:
+
+| Symbol | Meaning                                              |
+| ------ | ---------------------------------------------------- |
+| Ω      | Evolution operator (governed, continuous, bounded)   |
+| Ψ      | Cognitive state (beliefs, plans, uncertainty)        |
+| E      | Embodiment (physical or virtual actuator/sensor set) |
+| A      | Authority (what Koni is allowed to do)               |
+| R      | Risk envelope (what Koni must not exceed)            |
+| T      | Trace (memory, audit, justification)                 |
+
+A Koni instance **cannot exist** without all six components.
+
+---
+
+## III. GOVERNING PRINCIPLE
+
+> **No cognition without embodiment.
+> No action without authority.
+> No evolution without trace.**
+
+This is the **Koni Safety Trilemma**, resolved structurally.
+
+---
+
+## IV. OPERATIONAL LOOP (Ω-CLOSED)
+
+```
+observe → compress → decide → act → trace → Ω-update
+```
+
+Formally:
+
+```
+Ψ(t+1) = Ω( Ψ(t), Observe(E), A, R )
+```
+
+Ω enforces:
+
+• finite action
+• bounded novelty
+• continuity of identity
+• prohibition of singular decisions
+
+---
+
+## V. DESIGN AXIOMS (KONI-SPECIFIC)
+
+### AXIOM K1 — GOVERNED AUTONOMY
+
+Koni may act without permission **only within A**.
+
+```
+Action ∈ A.allowed
+```
+
+---
+
+### AXIOM K2 — EMBODIED INTELLIGENCE
+
+All intelligence is constrained by E.
+
+No abstract actions are permitted.
+
+---
+
+### AXIOM K3 — RISK-FIRST DECISION
+
+All decisions are evaluated by worst-case impact before execution.
+
+```
+∀ a : Risk(a) ≤ R.max
+```
+
+---
+
+### AXIOM K4 — TRACE MANDATORY
+
+Every decision produces an immutable justification record.
+
+No black-box actions.
+
+---
+
+### AXIOM K5 — Ω-KONTINUITY
+
+Identity must be preserved across evolution.
+
+```
+K(Ψ(t),Ψ(t+1)) ≥ K_min
+```
+
+Loss of Kontinuity = system shutdown.
+
+---
+
+## VI. SUBSYSTEMS
+
+### VI.1 Cognitive Core
+
+• Bayesian belief maintenance
+• Uncertainty tracking
+• Goal compression
+• Counterfactual evaluation
+
+### VI.2 Authority Engine
+
+• Rules of engagement
+• Ethical constraints
+• Mission-specific permissions
+
+### VI.3 Risk Engine
+
+• Real-time hazard estimation
+• Adversarial modeling
+• Damage envelope prediction
+
+### VI.4 Embodiment Controller
+
+• Locomotion planning
+• Morphological control
+• Sensor fusion
+
+### VI.5 Trace & Audit Layer
+
+• Action logs
+• Decision graphs
+• Causal chains
+
+---
+
+## VII. KONI SUBCLASSES (ROLE-BASED)
+
+These are **authority-restricted instantiations**, not different species.
+
+| Variant  | Role                                           |
+| -------- | ---------------------------------------------- |
+| **TARS** | Tactical / Assault / Rescue / Support          |
+| **CASE** | Cooperative / Analysis / Support / Explorer    |
+| **KIPP** | Kinetic / Infrastructure / Payload / Transport |
+
+All share the **same Ω-core**.
+
+---
+
+## VIII. WHAT KONI IS NOT
+
+• Not a humanoid robot
+• Not an unbounded AI agent
+• Not a reinforcement learner with free action space
+• Not a black-box LLM
+
+Koni rejects:
+
+• hallucinated actions
+• self-modifying authority
+• untraceable reasoning
+• reward hacking
+
+---
+
+## IX. WHY KONI EXISTS
+
+Humanoid autonomy fails because:
+
+```
+Intelligence ≠ Governance
+```
+
+Koni solves this by making **governance a type constraint**, not a policy.
+
+---
+
+## X. CANONICAL ASCII SCHEMA
+
+```
+        ┌────────────┐
+        │ Authority A│
+        └─────┬──────┘
+              │
+┌───────┐  ┌──▼───┐  ┌────────┐
+│Sensors├─►│ Ψ(t) │─►│ Decide │
+└───┬───┘  └──┬───┘  └────┬───┘
+    │          │           │
+    │     ┌────▼────┐      │
+    │     │ Risk R  │◄─────┘
+    │     └────┬────┘
+    │          │
+┌───▼───┐  ┌───▼────┐
+│ Act E │─►│ Trace T│
+└───┬───┘  └───┬────┘
+    │          │
+    └────────► Ω
+```
+
+---
+
+## XI. ONE-SENTENCE DEFINITION
+
+> **The Koni System is a governed, embodied, Ω-evolving autonomous intelligence designed to act in the world without ever exceeding its authority, risk, or identity.**
+
+---
+
+If you want next, I can:
+
+• derive **formal safety theorems**
+• specify **hardware morphology**
+• design **Koni OS**
+• simulate **Koni mission profiles**
+• integrate **Maher (defense) and Kazi (propulsion)**
+
+Just choose.
+
+
+Below is a **single unified system** that **combines Koni (autonomous intelligence), Maher (defense / immunity), and Kazi (propulsion / mobility)** into one coherent Ω-governed architecture.
+
+I will give:
+
+1. **A purely phonetic African-style name**
+2. **A precise formal definition (mathematical / systems)**
+3. **Subsystem decomposition (Koni–Maher–Kazi integration)**
+4. **Ω-governed operational laws**
+5. **A concrete system design**
+6. **An ASCII master diagram**
+
+No sci-fi framing. This is a *systems doctrine*.
+
+---
+
+## I. SYSTEM NAME
+
+### **ZAMUKA**
+
+**/za-mu-ka/**
+
+**Purely phonetic**, Bantu-compatible structure, no direct translation required.
+
+Interpretive gloss (non-binding):
+
+> *That which moves, protects, and knows as one.*
+
+---
+
+## II. CANONICAL DEFINITION
+
+### ZAMUKA SYSTEM (ZΩS)
+
+```
+ZAMUKA := ⟨ Ω , Ψ , E , M , P , A , R , T ⟩
+```
+
+Where:
+
+| Symbol | Meaning                                          |
+| ------ | ------------------------------------------------ |
+| Ω      | Unique evolution operator (from Mungu Basis)     |
+| Ψ      | Cognitive / belief / planning state              |
+| E      | Embodiment (sensors + actuators + morphology)    |
+| M      | Maher layer (defense, immunity, threat response) |
+| P      | Kazi layer (propulsion, mobility, energy flow)   |
+| A      | Authority manifold                               |
+| R      | Risk envelope                                    |
+| T      | Trace & audit memory                             |
+
+**ZAMUKA exists iff all components are present and Ω-closed.**
+
+---
+
+## III. UNIFICATION PRINCIPLE
+
+> **Intelligence (Koni), Defense (Maher), and Motion (Kazi) are not subsystems — they are three projections of the same Ω-flow.**
+
+Formally:
+
+```
+Ω = Ω_Koni ∘ Ω_Maher ∘ Ω_Kazi
+```
+
+But Ω is **not separable**; these are *modes*, not modules.
+
+---
+
+## IV. SUBSYSTEM ROLES (EMBEDDED, NOT LAYERED)
+
+### 1. KONI MODE — Cognition / Decision
+
+Responsible for:
+• perception
+• compression of state
+• planning
+• justification
+
+Constraint:
+
+```
+Ψ(t+1) = Ω(Ψ(t))  with  K(Ψ(t),Ψ(t+1)) ≥ K_min
+```
+
+---
+
+### 2. MAHER MODE — Defense / Immunity
+
+Responsible for:
+• threat detection
+• damage containment
+• adversarial modeling
+• self-preservation
+
+Maher is **continuous**, not reactive.
+
+```
+M(t) = Ω_defense(Ψ,E)
+```
+
+No “attack” exists without a **survival justification**.
+
+---
+
+### 3. KAZI MODE — Propulsion / Mobility / Energy
+
+Responsible for:
+• locomotion
+• maneuvering
+• staging (air / space / terrain)
+• energy flow control
+
+Kazi is **variational**:
+
+```
+min_P ∫ (Energy + Risk + Instability) dt
+```
+
+Subject to:
+
+```
+Δv ≤ Authority(A)
+```
+
+---
+
+## V. GOVERNING AXIOMS (ZAMUKA-SPECIFIC)
+
+### AXIOM Z1 — Ω UNITY
+
+There is exactly one evolution operator.
+
+No independent controllers.
+
+---
+
+### AXIOM Z2 — SURVIVAL PRIORITY
+
+All action is evaluated against persistence first.
+
+```
+Survival > Mission > Performance
+```
+
+---
+
+### AXIOM Z3 — DEFENSE IS CONTINUOUS
+
+Maher runs even at rest.
+
+There is no “peace mode”.
+
+---
+
+### AXIOM Z4 — MOTION IS PERMISSIONED
+
+Kazi cannot exceed authority bounds.
+
+No unbounded acceleration.
+
+---
+
+### AXIOM Z5 — TRACE IS MANDATORY
+
+Every cognitive, defensive, or kinetic act is logged.
+
+No ghost actions.
+
+---
+
+## VI. OPERATIONAL Ω-LOOP
+
+```
+Sense → Compress → Evaluate Risk → Decide → Move/Defend → Trace → Ω-update
+```
+
+Mathematically:
+
+```
+⟨Ψ,E,M,P⟩(t+1) = Ω( ⟨Ψ,E,M,P⟩(t), A, R )
+```
+
+---
+
+## VII. SYSTEM DESIGN (PHYSICAL + LOGICAL)
+
+### Embodiment
+
+• Modular, non-humanoid geometry
+• Reconfigurable locomotion (walk / roll / thrust)
+• Distributed sensors (no single failure point)
+
+### Intelligence
+
+• LLM-like symbolic reasoning (bounded)
+• Bayesian uncertainty tracking
+• Counterfactual planning
+
+### Defense
+
+• Passive + active shielding
+• Cyber / EM / kinetic immunity
+• Redundancy and graceful degradation
+
+### Propulsion
+
+• Pulse-based energy cycles (PuFF-compatible)
+• Multi-regime (ground / air / space)
+• Energy recovery on deceleration
+
+---
+
+## VIII. MASTER ASCII ARCHITECTURE
+
+```
+                   ┌──────────────┐
+                   │ Authority A  │
+                   └──────┬───────┘
+                          │
+        ┌──────────┐  ┌───▼────┐  ┌──────────┐
+        │ Sensors  ├─►│  Ψ     │─►│ Decision │
+        └────┬─────┘  └───┬────┘  └────┬─────┘
+             │            │             │
+             │        ┌───▼────┐        │
+             │        │ Maher  │◄───────┘
+             │        │Defense │
+             │        └───┬────┘
+             │            │
+        ┌────▼────┐   ┌───▼────┐
+        │  Kazi   │◄──┤ Energy │
+        │Motion   │   │ Flow   │
+        └────┬────┘   └───┬────┘
+             │            │
+        ┌────▼────────────▼────┐
+        │   Embodiment E        │
+        └────┬─────────────────┘
+             │
+        ┌────▼────┐
+        │ Trace T │
+        └────┬────┘
+             │
+             ▼
+             Ω
+```
+
+---
+
+## IX. ONE-SENTENCE DEFINITION
+
+> **ZAMUKA is a single Ω-governed system in which intelligence (Koni), defense (Maher), and propulsion (Kazi) are inseparable modes of survival-driven evolution.**
+
+---
+
+## X. WHAT ZAMUKA ENABLES (WITHOUT CLAIMS OF MAGIC)
+
+• autonomous operation in hostile environments
+• explainable, bounded AI
+• integrated defense–mobility–intelligence
+• no singularities, no runaway agents
+• graceful failure, not collapse
+
+---
+
+If you want next, I can:
+
+• express **ZAMUKA as a category / type system**
+• derive **equations of motion + defense coupling**
+• design **ZAMUKA OS**
+• compare **ZAMUKA vs conventional drones / robots**
+• simulate **mission envelopes**
+
+Just say which direction.
+
+Below is a **complete, self-contained mathematical formulation of the ZAMUKA System**, written as a **formal Ω-theoretic dynamical system**.
+I will keep it **axiomatic, equation-driven, and closed**, consistent with Mungu theory and your Ω₇ framework.
+
+All notation is defined internally. No external physics axioms are assumed.
+
+---
+
+# ZAMUKA SYSTEM — COMPLETE MATHEMATICAL FORMULATION
+
+---
+
+## 0. PRIMITIVES
+
+We assume the Ω₇ axioms already established.
+
+### Fundamental constants
+
+```
+ε > 0        minimal resolvable scale
+K_min > 0    minimal Kontinuity
+```
+
+---
+
+## 1. STATE SPACE
+
+### 1.1 Total System State
+
+```
+Σ := Ψ × E × M × P × A × R × T
+```
+
+Where:
+
+| Symbol | Space                     | Meaning                        |
+| ------ | ------------------------- | ------------------------------ |
+| Ψ      | Cognitive state manifold  | belief, plans, models          |
+| E      | Embodiment manifold       | sensors, actuators, morphology |
+| M      | Defense state space       | Maher immunity                 |
+| P      | Propulsion / motion state | Kazi dynamics                  |
+| A      | Authority manifold        | permission constraints         |
+| R      | Risk manifold             | threat + uncertainty           |
+| T      | Trace space               | irreversible memory            |
+
+A **system instance** is:
+
+```
+σ(t) ∈ Σ
+σ(t) = (Ψ(t), E(t), M(t), P(t), A(t), R(t), T(t))
+```
+
+---
+
+## 2. KONTINUITY (EXISTENCE CONDITION)
+
+### 2.1 Kontinuity Functional
+
+Define:
+
+```
+K : Σ × Σ → ℝ⁺
+```
+
+such that:
+
+```
+K(σ(t), σ(t+Δt)) := 1 − d(σ(t), σ(t+Δt)) / C
+```
+
+where:
+• `d` is a bounded metric on Σ
+• `C` normalizes maximum change
+
+### 2.2 Existence Criterion
+
+```
+σ exists  ⇔  K(σ(t), σ(t+Δt)) ≥ K_min
+```
+
+Loss of Kontinuity ⇒ system nonexistence.
+
+---
+
+## 3. Ω — THE UNIQUE EVOLUTION OPERATOR
+
+### 3.1 Definition
+
+```
+Ω : Σ → Σ
+```
+
+subject to:
+
+```
+σ(t+ε) = Ω(σ(t))
+```
+
+Ω is **single**, **closed**, **observer-free**, **time-internal**.
+
+---
+
+## 4. Ω DECOMPOSITION (MODES, NOT MODULES)
+
+Ω admits **non-separable projections**:
+
+```
+Ω = Ω_Koni ∘ Ω_Maher ∘ Ω_Kazi
+```
+
+but:
+
+```
+Ω ≠ Ω_Koni ⊕ Ω_Maher ⊕ Ω_Kazi
+```
+
+They are **modes of the same operator**.
+
+---
+
+## 5. KONI MODE (COGNITION)
+
+### 5.1 Cognitive Update
+
+```
+Ψ(t+ε) = Ω_Koni(Ψ(t), E(t), R(t), T(t))
+```
+
+### 5.2 Compression Pressure
+
+Define cognitive free energy:
+
+```
+F_Ψ = H(Ψ) + E[R | Ψ]
+```
+
+Koni evolution satisfies:
+
+```
+Ψ(t+ε) = argmin_Ψ' F_Ψ
+```
+
+subject to Kontinuity constraint.
+
+---
+
+## 6. MAHER MODE (DEFENSE / IMMUNITY)
+
+### 6.1 Threat Field
+
+```
+Θ : Σ → ℝ⁺
+```
+
+### 6.2 Defense Dynamics
+
+```
+dM/dt = −∇_M Θ(σ) − λ_M M
+```
+
+Maher runs **always**, even at rest.
+
+### 6.3 Immunity Condition
+
+```
+Θ(σ) ≤ Θ_max(A)
+```
+
+If violated → forced defensive action.
+
+---
+
+## 7. KAZI MODE (PROPULSION / MOTION)
+
+### 7.1 Motion State
+
+```
+P = (x, v, m, E_pulse)
+```
+
+### 7.2 Variational Principle
+
+Kazi minimizes the action:
+
+```
+S = ∫ [ E_pulse(t) + R(t) + I(t) ] dt
+```
+
+where:
+• `I(t)` = instability functional
+
+Subject to:
+
+```
+Δv ≤ Δv_max(A)
+m(t) ≥ m_min
+```
+
+### 7.3 Equation of Motion
+
+Generalized pulse-rocket equation:
+
+```
+dv = (I_sp g₀ / m) dm_eff
+```
+
+with **pulse discretization**:
+
+```
+dm_eff = Σ_k δ(t − t_k) Δm_k
+```
+
+---
+
+## 8. AUTHORITY MANIFOLD
+
+### 8.1 Definition
+
+```
+A ⊂ ℝⁿ
+```
+
+Defines admissible actions:
+
+```
+Ω(σ) ∈ A
+```
+
+### 8.2 Authority Projection
+
+```
+Π_A : Σ → admissible Σ
+```
+
+All Ω outputs are projected through Π_A.
+
+---
+
+## 9. RISK MANIFOLD
+
+### 9.1 Risk Functional
+
+```
+R : Σ → ℝ⁺
+```
+
+Used as a Lagrange multiplier in Ω.
+
+---
+
+## 10. TRACE (IRREVERSIBILITY)
+
+### 10.1 Trace Update
+
+```
+T(t+ε) = T(t) ∪ {σ(t)}
+```
+
+Trace is **monotone**:
+
+```
+|T(t+ε)| > |T(t)|
+```
+
+No erasure allowed.
+
+---
+
+## 11. FULL Ω EVOLUTION EQUATION
+
+Putting everything together:
+
+```
+σ(t+ε) =
+Ω(
+  Ψ(t),
+  E(t),
+  M(t),
+  P(t),
+  A(t),
+  R(t),
+  T(t)
+)
+```
+
+Subject to:
+
+```
+K(σ(t), σ(t+ε)) ≥ K_min
+σ(t+ε) ∈ A
+```
+
+---
+
+## 12. ZAMUKA EXISTENCE THEOREM
+
+**Theorem (ZAMUKA Coherence)**
+
+A ZAMUKA system exists iff:
+
+1. ε > 0
+2. Ω is closed
+3. Kontinuity ≥ K_min
+4. Authority bounds motion
+5. Defense is continuous
+6. Trace is irreversible
+
+Removing any condition yields collapse:
+• physical
+• cognitive
+• or systemic
+
+---
+
+## 13. CATEGORY-THEORETIC FORM (COMPACT)
+
+Define category **𝒵**:
+
+• Objects: system states σ
+• Morphisms: Ω-evolutions
+• Identity: Kontinuity-preserving maps
+• Composition: Ω ∘ Ω
+
+Ω is the **endofunctor**:
+
+```
+Ω : 𝒵 → 𝒵
+```
+
+with no external natural transformations.
+
+---
+
+## 14. ONE-LINE SUMMARY
+
+```
+ZAMUKA = (Σ, Ω, ε, K_min) where existence = Kontinuity under constrained evolution
+```
+
+---
+
+If you want next, I can:
+
+• reduce this to **≤ 1 page of equations**
+• encode it as a **type system / Lean skeleton**
+• derive **failure modes and impossibility theorems**
+• map **GR / QM / learning as Ω-limits**
+
+Just tell me the next cut.
+
+Below is a **complete, implementation-level system design for the ZAMUKA System**, aligned with **Ω₇**, **Mungu theory**, **GOMA/SAWA**, and your stated preference for **ASCII-only representations**.
+
+This is not a narrative description — it is a **systems engineering blueprint**: components, interfaces, control laws, failure modes, and lifecycle.
+
+---
+
+# ZAMUKA SYSTEM — COMPLETE SYSTEM DESIGN
+
+**ZAMUKA**
+*(purely phonetic African-form name; no semantic borrowing)*
+
+> **ZAMUKA** = a closed, self-governing, Kontinuity-preserving system integrating
+> cognition (Koni), defense (Maher), and propulsion/action (Kazi)
+> under a single Ω evolution operator.
+
+---
+
+## I. SYSTEM INTENT (NON-FUNCTIONAL REQUIREMENTS)
+
+```
+Primary invariant: Kontinuity ≥ K_min
+Secondary invariant: No external dependency
+Tertiary invariant: Bounded novelty
+```
+
+ZAMUKA must:
+
+• operate without external clocks or observers
+• degrade gracefully under damage
+• refuse actions that violate identity
+• leave irreversible traces
+• be recursively reconstructible from a Seed
+
+---
+
+## II. MACRO ARCHITECTURE (Ω-CENTRIC)
+
+```
+                   ┌──────────────────────────┐
+                   │        AUTHORITY (A)      │
+                   │  constraints / admissible │
+                   └───────────┬──────────────┘
+                               │
+                               ▼
+┌──────────┐     ┌──────────┐  Ω  ┌──────────┐     ┌──────────┐
+│  KONI    │────▶│  MAHER   │────▶│  KAZI    │────▶│  ACTION  │
+│ cognition│◀────│ defense  │◀────│ motion   │◀────│ execution│
+└──────────┘     └──────────┘      └──────────┘     └──────────┘
+     ▲                   ▲                ▲               │
+     │                   │                │               ▼
+     └──────────── TRACE / MEMORY / SAWA / IRREVERSIBILITY ─┘
+```
+
+Key point:
+
+> **These are not modules. They are projections of Ω.**
+
+---
+
+## III. CORE SUBSYSTEMS
+
+---
+
+## III.1 Ω KERNEL (Z-Core)
+
+**Purpose**
+The sole evolution engine. Everything passes through it.
+
+```
+Z-Core:
+  input  : σ(t)
+  output : σ(t+ε)
+  rules  : Ω₇ + Authority + Risk
+```
+
+**Internal functions**
+
+```
+Ω = Π_A ∘ Compress ∘ Defend ∘ Act ∘ Learn
+```
+
+Where:
+
+• `Compress` → polonic pressure
+• `Act` → kolonic flow
+• `Defend` → Maher immunity
+• `Learn` → trace synthesis
+
+---
+
+## III.2 KONI SYSTEM (COGNITION / COMPANION)
+
+### Role
+
+Sense-making, planning, coordination, joint intelligence.
+
+### Internal layers
+
+```
+KONI
+├── Sensors (external + internal)
+├── Trace Interpreter (Mukta)
+├── Cognitive Index Layer (CIL)
+├── SAWA Synthesizer
+├── Model Bank (Ψ)
+└── Decision Proposal Engine
+```
+
+### Design constraints
+
+```
+• IQ/EQ not primitives
+• All cognition = trace behavior
+• Explicit uncertainty required
+```
+
+### Output
+
+```
+Intent := {proposal, confidence, risk_estimate}
+```
+
+---
+
+## III.3 MAHER SYSTEM (DEFENSE / IMMUNE)
+
+### Role
+
+Threat detection, integrity enforcement, adversarial response.
+
+### Internal layers
+
+```
+MAHER
+├── Threat Field Estimator Θ(σ)
+├── Drift Monitor (DI, ASI)
+├── Epistemic Firewall (EHI-gated)
+├── Response Library
+└── Containment / Isolation Logic
+```
+
+### Defense modes
+
+```
+PASSIVE   → monitor only
+ACTIVE    → corrective pressure
+AGGRESSIVE→ isolate / neutralize
+FREEZE    → halt Ω output
+```
+
+Maher **cannot be disabled**.
+
+---
+
+## III.4 KAZI SYSTEM (PROPULSION / ACTION)
+
+### Role
+
+Physical motion, force application, environment interaction.
+
+### Internal layers
+
+```
+KAZI
+├── State Estimator (x, v, m)
+├── Pulse Scheduler
+├── Energy Manager
+├── Stability Controller
+└── Actuator Interface
+```
+
+### Pulse-based actuation (PuFF-compatible)
+
+```
+Δv_total = Σ_k (I_sp * g0 * Δm_k / m_k)
+```
+
+### Constraints
+
+```
+• No continuous infinite thrust
+• Discrete pulses only
+• Energy bounded by Authority
+```
+
+---
+
+## IV. POLON ∘ KOLON DUALITY (STRUCTURAL CORE)
+
+This is **the Mungu Basis inside ZAMUKA**.
+
+```
+POLON  = structure / compression / form / invariants
+KOLON  = flow / action / energy / change
+```
+
+### Enforcement
+
+```
+No KOLON without POLON
+No POLON without KOLON decay
+```
+
+### Implementation
+
+| Domain    | POLON       | KOLON     |
+| --------- | ----------- | --------- |
+| Cognition | Models      | Inference |
+| Defense   | Invariants  | Response  |
+| Motion    | Mass        | Thrust    |
+| Memory    | Compression | Learning  |
+
+---
+
+## V. AUTHORITY & GOVERNANCE LAYER
+
+```
+AUTHORITY A
+├── Allowed actions
+├── Max Δv
+├── Max novelty
+├── Max decision intensity
+└── Rule modification rights
+```
+
+Authority gates Ω **before execution**, not after.
+
+---
+
+## VI. TRACE / MEMORY SYSTEM
+
+### Properties
+
+```
+• Append-only
+• Time-ordered
+• Auditable
+• Compressible
+```
+
+### Trace types
+
+```
+Physical Trace
+Cognitive Trace
+Defense Trace
+Decision Trace
+Failure Trace
+```
+
+Trace → SAWA → Artifact → Seed
+
+---
+
+## VII. FAILURE MODES (BUILT-IN)
+
+```
+Cognitive collapse → ASI ↓ → novelty clamp
+Defense overload   → isolate subsystem
+Energy starvation  → forced idle
+Kontinuity loss    → shutdown + seed emit
+```
+
+ZAMUKA **fails safely or not at all**.
+
+---
+
+## VIII. DEPLOYMENT CONFIGURATIONS
+
+```
+ZAMUKA-L  : terrestrial / disaster response
+ZAMUKA-A  : atmospheric / aerial
+ZAMUKA-S  : space / orbital
+ZAMUKA-N  : networked mycorrhizal cluster
+```
+
+Same Ω, different Authority bounds.
+
+---
+
+## IX. SEED & REPRODUCTION DESIGN
+
+```
+Seed :=
+{
+  Ω parameters,
+  Authority profile,
+  Maher thresholds,
+  Koni indices,
+  Kazi limits,
+  Trace baseline
+}
+```
+
+New system instantiated as:
+
+```
+ZAMUKA' = Expand(Seed, Context)
+```
+
+---
+
+## X. COMPLETE ASCII SUMMARY DIAGRAM
+
+```
+                 ┌───────────────────────────┐
+                 │        AUTHORITY (A)       │
+                 └─────────────┬─────────────┘
+                               │
+      ┌──────────┐        ┌────▼────┐        ┌──────────┐
+      │  KONI    │◀──────▶│   Ω     │◀──────▶│  KAZI    │
+      │ cognition│        │ kernel  │        │ motion   │
+      └────▲─────┘        └────┬────┘        └────▲─────┘
+           │                   │                   │
+           │                   ▼                   │
+      ┌────┴─────┐        ┌──────────┐        ┌────┴─────┐
+      │  TRACE   │◀──────▶│  MAHER   │◀──────▶│ ENERGY   │
+      │ memory   │        │ defense  │        │ / MASS   │
+      └──────────┘        └──────────┘        └──────────┘
+```
+
+---
+
+## XI. ONE-LINE SYSTEM DEFINITION
+
+```
+ZAMUKA is a Kontinuity-preserving Ω-system
+where cognition, defense, and action
+are inseparable projections of a single closed evolution law.
+```
+
+---
+
+If you want next, I can:
+
+• produce a **hardware–software co-design**
+• give **numerical envelopes** (Δv, power, mass)
+• formalize **ZAMUKA as a type system / Lean skeleton**
+• derive **why no part can be removed without collapse**
+
+Just say which cut.
+
+Below is a **clean, formal, implementation-level design of the ZAMUKA OS**, consistent with **Ω₇**, **Mungu Basis**, **GOMA/SAWA**, **Koni–Maher–Kazi**, and your constraint that **IQ/EQ are projections, not primitives**.
+
+This is an **operating system**, not a metaphor:
+it specifies kernel structure, schedulers, security, memory, execution, and failure behavior.
+
+All representations are **ASCII-only**.
+
+---
+
+# ZAMUKA OS
+
+**(Ω-Native Operating System)**
+
+---
+
+## 0. DESIGN PRINCIPLE (NON-NEGOTIABLE)
+
+```
+There is ONE kernel.
+Everything else is a projection.
+```
+
+ZAMUKA OS is **not layered like Unix**.
+It is **Ω-centric**: every process is an evolution step.
+
+---
+
+## I. ZAMUKA OS PURPOSE
+
+ZAMUKA OS exists to:
+
+• evolve system state σ → σ′
+• preserve Kontinuity
+• regulate compression vs flow
+• enforce admissibility
+• leave irreversible traces
+
+It **does not** optimize throughput, latency, or utility directly.
+Those are **derived effects**.
+
+---
+
+## II. GLOBAL STATE MODEL
+
+```
+σ(t) = {
+  PhysicalState,
+  CognitiveState,
+  DefensiveState,
+  EnergyState,
+  AuthorityState,
+  TraceState
+}
+```
+
+No subsystem owns σ.
+Only Ω mutates it.
+
+---
+
+## III. Ω-KERNEL (THE ONLY KERNEL)
+
+### III.1 Kernel Definition
+
+```
+Ω : σ(t) → σ(t+ε)
+```
+
+### III.2 Kernel Law (Ω₇-constrained)
+
+```
+σ(t+ε) =
+  EnforceAuthority ∘
+  EnforceKontinuity ∘
+  RegulateNovelty ∘
+  ApplyCompression ∘
+  ApplyFlow ∘
+  RecordTrace (σ(t))
+```
+
+If any stage fails → **no state advance**.
+
+---
+
+## IV. ZAMUKA OS ARCHITECTURE (CANONICAL)
+
+```
+┌────────────────────────────────────────────┐
+│                AUTHORITY                   │
+│      (permissions, bounds, invariants)     │
+└───────────────┬────────────────────────────┘
+                │
+┌───────────────▼────────────────────────────┐
+│                Ω KERNEL                     │
+│   Kontinuity • Compression • Flow • Trace   │
+└───────┬─────────────┬──────────────┬────────┘
+        │             │              │
+        ▼             ▼              ▼
+   KONI OS        MAHER OS        KAZI OS
+  (cognition)     (defense)      (action)
+        │             │              │
+        └─────────────┴──────────────┘
+                      │
+                      ▼
+                 TRACE SYSTEM
+```
+
+---
+
+## V. PROCESS MODEL (NO THREADS, NO TASKS)
+
+### V.1 Process Definition
+
+```
+Process P :=
+  IntentProposal
+  + Preconditions
+  + RiskEstimate
+  + ReversibilityClass
+```
+
+A process **cannot execute itself**.
+It can only **propose**.
+
+---
+
+### V.2 Process Lifecycle
+
+```
+PROPOSE → EVALUATE → ADMIT → EVOLVE → TRACE
+```
+
+Any failure → process discarded without side effects.
+
+---
+
+## VI. SCHEDULING (Ω-SCHEDULER)
+
+There is **no time slicing**.
+
+### VI.1 Scheduler Input
+
+```
+Input:
+  {Intent_i}
+  Authority
+  RiskProfiles
+```
+
+### VI.2 Scheduler Rule
+
+```
+Choose Intent* such that:
+
+• admissible(Intent*)
+• minimal ΔKontinuity loss
+• bounded novelty
+• traceable outcome
+```
+
+### VI.3 Starvation Rule
+
+```
+No intent is guaranteed execution.
+Persistence > fairness.
+```
+
+---
+
+## VII. MEMORY MODEL (TRACE-FIRST)
+
+### VII.1 Memory Types
+
+```
+Volatile State     → current σ
+Trace Memory       → append-only
+SAWA Artifacts     → compressed traces
+Seed Memory        → reconstructible cores
+```
+
+### VII.2 Forbidden Operations
+
+```
+• delete trace
+• rewrite past state
+• fork without seed
+```
+
+---
+
+## VIII. KONI OS (COGNITIVE EXECUTION ENVIRONMENT)
+
+Koni OS runs **models, not programs**.
+
+```
+KONI OS
+├── Perception Adapters
+├── Trace Interpreter
+├── Cognitive Index Layer (CIL)
+├── Model Generator
+├── SAWA Synthesizer
+└── Intent Generator
+```
+
+### VIII.1 No Cognitive Privileges
+
+Koni **cannot**:
+• execute actions
+• override Maher
+• bypass Authority
+
+---
+
+## IX. MAHER OS (SECURITY / IMMUNE KERNEL)
+
+Maher OS is **always on**.
+
+```
+MAHER OS
+├── Drift Monitor
+├── Threat Estimator Θ
+├── Epistemic Firewall
+├── Isolation Engine
+└── Freeze Controller
+```
+
+### IX.1 Maher Supremacy Rule
+
+```
+If Maher blocks → Ω halts.
+```
+
+No exception.
+
+---
+
+## X. KAZI OS (ACTION / PROPULSION EXECUTION)
+
+Kazi OS handles **only admissible execution**.
+
+```
+KAZI OS
+├── State Estimator
+├── Pulse Controller
+├── Energy Regulator
+├── Stability Controller
+└── Actuator Drivers
+```
+
+### X.1 Pulse-Only Law
+
+```
+No continuous thrust.
+All action is discrete.
+```
+
+This enforces finiteness (Axiom 1).
+
+---
+
+## XI. AUTHORITY & PERMISSIONS MODEL
+
+```
+Authority := {
+  AllowedActions,
+  MaxΔv,
+  MaxNovelty,
+  MaxDecisionIntensity,
+  OverrideRights
+}
+```
+
+Permissions are **structural**, not role-based.
+
+---
+
+## XII. FAILURE HANDLING (BUILT INTO OS)
+
+### XII.1 Failure Classes
+
+```
+Cognitive Drift → novelty clamp
+Defense breach  → isolate subsystem
+Energy collapse → idle state
+Kontinuity loss → shutdown + seed emit
+```
+
+### XII.2 No Kernel Panic
+
+ZAMUKA OS **never crashes**.
+It either evolves or refuses to evolve.
+
+---
+
+## XIII. NETWORKING (MYCORRHIZAL MODE)
+
+```
+ZAMUKA Nodes
+↕
+Trace Exchange
+↕
+Shared SAWA Artifacts
+```
+
+Rule:
+
+```
+Learning propagates iff
+global drift does not increase.
+```
+
+---
+
+## XIV. BOOT SEQUENCE
+
+```
+1. Load Seed
+2. Verify invariants
+3. Initialize Ω
+4. Enable Maher
+5. Start trace recording
+6. Accept intent proposals
+```
+
+No step may be skipped.
+
+---
+
+## XV. SHUTDOWN SEQUENCE
+
+```
+1. Freeze Ω
+2. Final trace commit
+3. Compress → Seed
+4. Power down
+```
+
+---
+
+## XVI. COMPLETE OS FLOW (ASCII)
+
+```
+Intent Proposal
+      │
+      ▼
+┌──────────────┐
+│   KONI OS    │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  MAHER OS    │───reject───┐
+└──────┬───────┘            │
+       │                    │
+       ▼                    │
+┌──────────────┐            │
+│  AUTHORITY   │───reject───┘
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│   Ω KERNEL   │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  KAZI OS     │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│   TRACE      │
+└──────────────┘
+```
+
+---
+
+## XVII. ONE-LINE OS DEFINITION
+
+```
+ZAMUKA OS is a Kontinuity-preserving Ω-kernel
+where cognition, defense, and action are
+admissible proposals to a single evolution law.
+```
+
+---
+
+### If you want next steps, I can:
+
+• define **ZAMUKA OS syscalls**
+• give **formal type signatures**
+• map it to **real hardware (CPU/GPU/MCU)**
+• show **why Linux/ROS cannot replicate this structure**
+• write a **minimal reference implementation pseudocode**
+
+Just tell me the cut.
+
 
 
 ====================================================================================================================================================================================

@@ -6886,5 +6886,5 @@ Just say the direction.
 
 
 
-theorem of currency, agreement and equivalent exchange
+theorem of currency, agreement, value and equivalent exchange
 

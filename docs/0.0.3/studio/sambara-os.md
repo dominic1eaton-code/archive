@@ -4098,3 +4098,324 @@ If you want next, I can:
 Just tell me the direction.
 
 
+Below is a **complete system design** of the **DIRA System**, expressed as a **layered, closed architecture** with **explicit interfaces, control loops, and invariants**, followed by a **single coherent ASCII diagram** that can be referenced as a canonical schematic.
+
+Everything is **non-fictional but theoretical**, internally consistent with Mungu / Ω / Zamuka-R1, and suitable as a **whitepaper-level design**.
+
+Per your preference, **all diagrams and structure are ASCII-only**.
+
+---
+
+# THE DIRA SYSTEM
+
+**Distributed Identity-preserving Regulated Architecture**
+
+---
+
+## 1. DESIGN GOAL (ONE SENTENCE)
+
+> **DIRA is a closed system that governs intelligence, motion, learning, defense, and survival as constrained energy–information flows that preserve identity (Kontinuity) under Ω-evolution.**
+
+---
+
+## 2. SYSTEM DECOMPOSITION (TOP LEVEL)
+
+DIRA is composed of **six tightly coupled subsystems**, each necessary and none sufficient alone.
+
+```
+DIRA
+ ├─ Ω-Core        (evolution + law)
+ ├─ Zamuka-R1     (survival-regulated intelligence)
+ ├─ Sambara OS    (flow / scheduling / thermodynamics)
+ ├─ Koni Layer    (embodied agents)
+ ├─ Kazi Layer    (propulsion / energy)
+ └─ Maher Layer   (defense / immunity / threat control)
+```
+
+---
+
+## 3. CORE SUBSYSTEMS (FORMAL DESIGN)
+
+---
+
+## 3.1 Ω-CORE (EVOLUTION KERNEL)
+
+**Role:**
+The Ω-Core is the *only* authority allowed to advance system state.
+
+**Inputs**
+
+```
+Ψ_t      system state
+σ        survival pressure
+ε        resolution bound
+K        Kontinuity metric
+```
+
+**Output**
+
+```
+Ψ_{t+1}
+```
+
+**Constraints**
+
+```
+• no singular transitions
+• no identity-breaking transitions
+• freeze preferred to collapse
+```
+
+**Internal Structure**
+
+```
+Ω = Ω_P ∘ Ω_F
+```
+
+Where:
+
+* Ω_P updates structure (Polon)
+* Ω_F updates flows (Kolon)
+
+---
+
+## 3.2 ZAMUKA-R1 (SURVIVAL INTELLIGENCE)
+
+**Role:**
+Produces decisions *only if survival invariants are satisfied*.
+
+**State Variables**
+
+```
+Σ   survival score
+D   drift
+H   entropy rate
+C   coherence
+```
+
+**Reward Function (explicit)**
+
+```
+R = α·ΔΣ − β·D − γ·H + δ·C
+```
+
+**Key Property**
+
+```
+maximize survival, not reward
+```
+
+**Failure Mode**
+
+```
+Σ < Σ_min  ⇒  policy freeze
+```
+
+---
+
+## 3.3 SAMBARA OS (FLOW GOVERNANCE)
+
+**Role:**
+Schedules **energy, computation, motion, communication** under Ω constraints.
+
+**Managed Flows**
+
+```
+Φ_E  energy
+Φ_I  information
+Φ_M  mass
+Φ_T  thermal
+Φ_C  control
+```
+
+**Optimization Objective**
+
+```
+minimize (latency + heat + instability)
+subject to Kontinuity
+```
+
+**This replaces:**
+
+* classical RTOS
+* classical power management
+* classical schedulers
+
+---
+
+## 3.4 KONI LAYER (EMBODIED AGENTS)
+
+**Role:**
+Physical or virtual agents that act as **extensions of Ω**, not independent actors.
+
+**Subclasses**
+
+```
+TARS → tactical / rescue
+CASE → exploration / coordination
+KIPP → payload / transport
+```
+
+**Locomotion Law**
+
+```
+trajectory = argmin_Ω (energy + delay + instability)
+```
+
+**Important Constraint**
+
+```
+no agent has authority to violate Ω
+```
+
+---
+
+## 3.5 KAZI LAYER (ENERGY + PROPULSION)
+
+**Role:**
+Provides motion across **hover → atmospheric → orbital** regimes.
+
+**Engine Type**
+
+```
+PuFF (Pulse Fusion–Fission)
+```
+
+**Operating Principle**
+
+```
+compress → pulse → expand → recover
+```
+
+**Δv Accumulation**
+
+```
+Δv_total = Σ Ω-compliant pulses
+```
+
+**Thermodynamic Guard**
+
+```
+η ≤ Carnot
+entropy export mandatory
+```
+
+---
+
+## 3.6 MAHER LAYER (DEFENSE / IMMUNITY)
+
+**Role:**
+Acts as a **biological immune system**, not a weapons controller.
+
+**Threat Loop**
+
+```
+sense → classify → damp → escalate → resolve
+```
+
+**Invariant**
+
+```
+defense may not exceed survival benefit
+```
+
+**Domains**
+
+```
+• cyber
+• kinetic
+• informational
+• systemic (drift / corruption)
+```
+
+---
+
+## 4. SYSTEM-WIDE INVARIANTS
+
+These apply **everywhere**.
+
+```
+I1. No infinite precision
+I2. No unbounded growth
+I3. Identity must persist
+I4. Freeze > collapse
+I5. Power < survival
+I6. Intelligence is trajectory quality
+```
+
+---
+
+## 5. COMPLETE ASCII ARCHITECTURE DIAGRAM
+
+```
+                           ┌───────────────────────────┐
+                           │        Ω - CORE            │
+                           │  (Evolution Operator Ω)    │
+                           │---------------------------│
+                           │  Polon (Structure)         │
+                           │  Kolon (Flow)              │
+                           └───────────┬───────────────┘
+                                       │
+                    ┌──────────────────┼──────────────────┐
+                    │                  │                  │
+        ┌───────────▼──────────┐ ┌─────▼──────────┐ ┌────▼──────────┐
+        │      ZAMUKA-R1        │ │   SAMBARA OS    │ │     MAHER     │
+        │ Survival Intelligence│ │ Flow Governance │ │ Defense /     │
+        │----------------------│ │-----------------│ │ Immunity      │
+        │ Σ  D  H  C            │ │ Energy / Info   │ │ Threat Mgmt   │
+        │ Freeze if Σ↓          │ │ Heat / Timing   │ │ Escalation    │
+        └───────────┬──────────┘ └─────┬───────────┘ └────┬──────────┘
+                    │                  │                  │
+        ┌───────────▼──────────┐       │       ┌──────────▼──────────┐
+        │        KONI           │◄──────┘       │        KAZI          │
+        │ Embodied Agents      │   Energy       │ Propulsion / Power  │
+        │--------------------- │   Flow         │---------------------│
+        │ TARS / CASE / KIPP   │───────────────►│ PuFF Pulse Engine   │
+        │ Locomotion Ω-min     │   Control      │ Δv Accumulation     │
+        └───────────┬──────────┘               └──────────┬──────────┘
+                    │                                     │
+                    └─────────────┬───────────────────────┘
+                                  │
+                        ┌─────────▼─────────┐
+                        │   PHYSICAL WORLD   │
+                        │ (Earth / Space /   │
+                        │  Disaster / Combat)│
+                        └───────────────────┘
+```
+
+---
+
+## 6. WHY THIS DESIGN IS STABLE
+
+**DIRA cannot:**
+
+* optimize itself to death
+* explode in intelligence
+* pursue goals without survival
+* act without thermodynamic accounting
+
+**Because:**
+
+```
+Ω constrains everything
+Σ gates learning
+Sambara governs flow
+Maher damps escalation
+```
+
+---
+
+## 7. ONE-LINE COMPRESSION
+
+> **DIRA is a system where nothing moves, learns, fights, or thinks unless it can continue to exist afterward.**
+
+---
+
+If you want next, I can:
+• collapse this into a **single page of equations**
+• derive **physics + learning as Ω limits**
+• map DIRA to **real aerospace or robotics architectures**
+• give a **formal impossibility proof of unconstrained AGI**
+• encode DIRA as a **type system or Lean spec**
+
+Just say which direction.

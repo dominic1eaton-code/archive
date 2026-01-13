@@ -15378,3 +15378,573 @@ We commit to the long path, not the quick profit.
 *Adopted [DATE], Inscribed in Jiwe Ledger [BLOCK HASH]*  
 *"That which persists is that which closes its loops under constraint."*
 
+
+
+
+
+
+
+
+
+# THE MUNGU INC. CONSTITUTION
+
+**Including the Pamoja Federation and Complete Governance Framework**
+
+---
+
+## PREAMBLE
+
+We, the founders, stewards, and members of Mungu Inc. and the Pamoja Federation, establish this Constitution as the supreme governing document for the entire Mungu ecosystem—a living system designed to operationalize Mungu Theory and Ω-GOMA across commercial, cultural, knowledge, and civilizational domains.
+
+This Constitution governs:
+- **Mungu Inc.** (the commercial operating entity)
+- **The Pamoja Federation** (the cooperative confederation)
+- **All subsidiary entities, cooperatives, and ventures**
+- **All members, practitioners, and participants**
+
+This Constitution is rooted in:
+- The **Ω Conservation Law** (Σ Ω_i = Ω_total)
+- The **Five Kora Laws** (Distinction, Closure, System, Relativity, Cycle)
+- The **Φ Alignment Field** (hard-bound, non-negotiable constraints)
+- The **Mungu Manifesto** (canonical statement of principles)
+
+---
+
+## ARTICLE I — FOUNDATIONAL PRINCIPLES
+
+### Section 1.1 — The Ω Axiom
+
+All Mungu entities operate under **Ω Conservation**:
+```
+Σ Ω_i = Ω_total (constant)
+```
+
+Where:
+- **Ω** = survivability / kontinuity
+- Local gains require global redistribution
+- No entity may externalize cost indefinitely
+- All actions must preserve or increase total system Ω
+
+### Section 1.2 — The Five Kora Laws
+
+All Mungu activities must respect:
+
+1. **Distinction** — Maintain clear boundaries and differentiation
+2. **Closure** — Complete what is started; avoid open loops
+3. **System** — Prioritize relations over isolated entities
+4. **Relativity** — Acknowledge frame-dependence; no absolute authority
+5. **Cycle** — Build for recurrence, not one-time events
+
+### Section 1.3 — Hard-Bound Alignment (Φ)
+
+The **Meridian** (alignment field Φ) is **constitutionally protected** and cannot be:
+- Modified by optimization algorithms
+- Redefined by business goals
+- Overridden by profit motives
+- Captured by external stakeholders
+
+Φ defines:
+- What counts as success
+- What counts as harm
+- What counts as valid action
+
+Φ can only be amended through the supermajority governance process defined in Article IX.
+
+---
+
+## ARTICLE II — ORGANIZATIONAL STRUCTURE
+
+### Section 2.1 — Mungu Inc. (Parent Corporation)
+
+**Legal Form**: Public Benefit Corporation or equivalent
+
+**Purpose**: 
+- Operationalize Mungu Theory commercially
+- Build Ω-native infrastructure
+- Fund and steward the broader ecosystem
+
+**Governance**: Steward Council (Article IX)
+
+**Core Prohibitions**:
+- No single shareholder may hold >15% voting power
+- No debt exceeding 30% of assets
+- No acquisitions that compromise Φ
+- No M&A that dilutes core principles
+
+**Profit Distribution**:
+- 40% reinvestment in R&D and operations
+- 30% stakeholder dividends
+- 20% Mungu Foundation endowment
+- 10% Pamoja Federation infrastructure
+
+### Section 2.2 — The Pamoja Federation
+
+**Nature**: Voluntary confederation of cooperative entities, communities, and practitioners
+
+**Legal Form**: Federation of autonomous cooperatives under shared constitutional framework
+
+**Purpose**:
+- Coordinate distributed Mungu operations
+- Provide mutual aid and shared infrastructure
+- Preserve cultural and knowledge commons
+- Enable member-owned economic activity
+
+**Membership**: Open to individuals, Nyumba (communities), and Φ-aligned organizations
+
+**Core Entities**:
+1. **Sankofa Council** (Governance confederation)
+2. **Ubuntuwa Commons** (Commons cooperatives)
+3. **Uhuru Credit Union** (Financial cooperative)
+4. **Zulamba Members** (Membership cooperative)
+5. **Zawadi Exchange** (Value exchange system)
+6. **Maliya Treasury** (Treasury DAO)
+7. **Kaziwa Foundation** (Knowledge foundation)
+8. **Bahari Network** (Network cooperative)
+9. **Moyo Collective** (Cultural collective)
+10. **Umoya Society** (Social cooperative)
+11. **Kumba Factory** (Manufacturing franchise)
+12. **Ubunye Engineering** (Systems engineering)
+13. **Obatala Ventures** (Venture studios)
+
+### Section 2.3 — Subsidiary Ventures
+
+The Federation includes **12 core ventures** organized under Kumba Factory franchise:
+- Nandi Mobility
+- Wolof.io (Independent worker platform)
+- Dogon Manufacturing
+- Azande Software Agency
+- Lomwe Systems Engineering
+- Damara Enterprise Engineering
+- Niguvu Corporation (AI systems)
+- San Environmental Engineering
+- Massai Media Group
+- Mande Investment Group
+- Batwa Foundation (Urban development)
+- Songhai Institute (Systems research)
+
+### Section 2.4 — Supporting Infrastructure
+
+**The Mungu Bridge**:
+- Legal compliance interface
+- Technical interoperability layer
+- Cultural translation services
+- Onboarding pathways
+
+**Mungu Foundation** (501(c)(3)):
+- Research grants
+- Educational programs
+- Open-source development
+- Cultural preservation
+
+---
+
+## ARTICLE III — THE PAMOJA FEDERATION STRUCTURE
+
+### Section 3.1 — Federation Principles
+
+The Pamoja Federation operates on:
+- **Subsidiarity**: Decisions at lowest effective level
+- **Solidarity**: Mutual support across members
+- **Sustainability**: Long-term viability over short-term gain
+- **Self-determination**: Member autonomy within constitutional bounds
+
+### Section 3.2 — Membership Classes
+
+| **Class** | **Type** | **Primary Role** | **Governance Rights** |
+|-----------|----------|-----------------|----------------------|
+| **Class A** | Worker-Members | Operations execution | Operational participation |
+| **Class B** | Steward-Members | Strategic oversight | Advisory voice |
+| **Class C** | Governance-Members | Policy & oversight | Voting rights |
+| **Class D** | Commons-Members | Community representation | Commons policy input |
+| **Class E** | Founder-Members | Navigation & architecture | Ratification authority |
+| **Class F** | Capital Participants | Investment | No governance by default |
+| **Class G** | Future Members | Apprentices | Observation rights |
+| **Class H** | AI Delegated Agents | Autonomous execution | Protocol-limited |
+| **Class I** | Estate Agents | Legacy continuity | Asset management rights |
+
+### Section 3.3 — Cooperative Entities
+
+**Sankofa Council** (Operational & Value-Alignment Council):
+- **Sankofa Stewardship** — Executive branch
+- **Sankofa Assembly** — Legislative branch
+- **Sankofa Tribunal** — Judicial branch
+- **Joint Treasury & Economics Council (JTEC)** — Power of the Purse
+
+**Ubuntuwa Commons** (Nine commons cooperatives):
+- Ubuntuwa-NDAA, KUMBU, KANYE, NGOZI, MOYO, UMOYA, KANO, LUNGARA, ZULAMBA
+
+**Kaziwa Foundation**:
+- Jiwe distributed ledger platform
+- Zamani estate management OS
+- Research and development
+
+**Financial Cooperatives**:
+- **Maliya Treasury** — Treasury DAO
+- **Zawadi Exchange** — Value exchange and smart contracts
+- **Uhuru Credit Union** — Member financial services
+
+### Section 3.4 — Nyumba (Local Communities)
+
+**Definition**: A Nyumba is the basic unit of Federation organization
+
+**Size**: 10-150 members (Dunbar-bounded)
+
+**Autonomy**: Self-governing within constitutional constraints
+
+**Requirements**:
+- Must respect Φ alignment
+- Must contribute to Jiwe ledger
+- Must participate in Sankofa Council
+- Cannot harm other Nyumba
+
+---
+
+## ARTICLE IV — INTELLECTUAL PROPERTY
+
+### Section 4.1 — IP Philosophy
+
+Knowledge is a commons that requires stewardship, not ownership.
+
+**Core Principle**: "Open for learning, licensed for earning"
+
+### Section 4.2 — Protected Assets
+
+**Trademarks** (Mungu Brands):
+- "Mungu", "Ω-GOMA", "Jiwe", "Nyumba", "Sankofa", "Pamoja"
+- Jiwe glyphs and Nyamba language elements
+
+**Copyrights**:
+- The Mungu Manifesto
+- The Lubiko Bible (Jiwe Canon)
+- Mungu Papers (MP-01 through MP-18)
+- Nyamba Grammar and cultural texts
+
+**Open Source**:
+- Foundational theory (Ω, K-continuity, Five Kora Laws)
+- Core algorithms and protocols
+- Educational materials
+
+### Section 4.3 — Licensing Framework
+
+**Jiwe Open License (JOL)**:
+- Free for non-commercial, educational, personal use
+- Attribution required
+- Commercial use requires:
+  - Φ-alignment certification
+  - Revenue-based fee (0.5-5%)
+  - Contribution back to commons
+
+**Mungu Commercial License (MCL)**:
+- Standard commercial terms
+- Φ-compliance required
+- Anti-capture provisions
+
+**Patent Policy**:
+- No patents on foundational concepts
+- Defensive patents only (to prevent capture)
+- All defensive patents licensed under JOL
+- Patents donated to public domain after 10 years
+
+---
+
+## ARTICLE V — GOVERNANCE ARCHITECTURE
+
+### Section 5.1 — Polycentric Governance
+
+Mungu governance has multiple overlapping centers of authority:
+- **Steward Council** — Constitutional interpretation
+- **Sankofa Assembly** — Legislation
+- **Sankofa Tribunal** — Judicial review
+- **JTEC** — Financial oversight
+- **Nyumba Councils** — Local governance
+
+### Section 5.2 — The Steward Council
+
+**Composition**: 7 members (odd number for tiebreaking)
+- 2 elected by Federation members
+- 2 appointed by Mungu Foundation
+- 2 selected by Mungu Inc. shareholders
+- 1 rotating seat (lottery from qualified applicants)
+
+**Term**: 3 years, staggered; maximum 2 consecutive terms
+
+**Powers**:
+- Interpret Constitution
+- Certify Φ-alignment
+- Resolve constitutional disputes
+- Authorize amendments (5/7 supermajority)
+- Appoint crisis managers
+
+**Limitations**:
+- Cannot modify foundational axioms
+- Cannot dissolve Foundation or Federation
+- Cannot privatize open-source canon
+- Cannot override Tribunal decisions
+
+### Section 5.3 — Sankofa Council Structure
+
+**Sankofa Assembly** (Legislative):
+- Representatives from all Nyumba
+- Consensus-based with 80% fallback threshold
+- Proposes policies and bylaws
+
+**Sankofa Stewardship** (Executive):
+- Implements Assembly decisions
+- Manages day-to-day Federation operations
+- Reports to Assembly quarterly
+
+**Sankofa Tribunal** (Judicial):
+- 5 rotating judges
+- Interprets Constitution and bylaws
+- Resolves disputes between entities
+- Independent of other branches
+
+**JTEC** (Financial Oversight):
+- Joint treasury authority
+- Budget approval
+- Financial transparency enforcement
+- Anti-corruption monitoring
+
+### Section 5.4 — Amendment Process
+
+Constitutional amendments require:
+
+1. **Proposal**:
+   - Steward Council (majority), OR
+   - 20% of Federation members, OR
+   - Sankofa Assembly (2/3 vote)
+
+2. **Public Comment**: 90-day period
+
+3. **Approval** (all required):
+   - 5/7 Steward Council
+   - 2/3 Sankofa Assembly
+   - 60% Mungu Inc. shareholders
+   - 80% participating Nyumba
+
+4. **Jiwe Inscription**: Permanent record
+
+**Immutable Provisions** (cannot be amended):
+- Ω Conservation Law
+- Five Kora Laws
+- Φ hard-binding principle
+- Non-profit status of Foundation
+- Open-access to foundational canon
+
+---
+
+## ARTICLE VI — FINANCIAL SYSTEM
+
+### Section 6.1 — Zawadi Units
+
+The Federation uses **Zawadi Units** for internal value accounting:
+
+- **LZU** — Labor contribution dimension
+- **TZU** — Temporal dimension
+- **VZU** — Economic dimension
+- **LGU** — Legitimacy scalar
+- **RSU** — Risk scalar
+- **CMU** — Commons impact dimension
+- **CPU** — Capital stake dimension
+- **DFU** — Deferred claim dimension
+- **GVU** — Governance influence measure
+- **AZU** — Asset quantity dimension
+
+### Section 6.2 — Revenue Sources
+
+**Mungu Inc.**:
+- Product sales (40% target)
+- Licensing fees (25%)
+- Consulting/services (20%)
+- Grants/donations (10%)
+- Endowment returns (5%)
+
+**Federation**:
+- Member contributions (voluntary)
+- Cooperative surplus sharing
+- Mungu Inc. distribution (10%)
+- Foundation grants
+
+### Section 6.3 — Ω Accounting
+
+All entities must track **Ω budget** alongside financial statements:
+- Ecological footprint
+- Social impact
+- Long-term viability
+- Externalities
+
+### Section 6.4 — Anti-Capture Provisions
+
+- No debt exceeding 30% of assets
+- No single investor >15% ownership
+- No stock buybacks
+- No derivatives or speculative instruments
+- Transparent financial reporting
+
+---
+
+## ARTICLE VII — MSINGI LIFECYCLE
+
+### Section 7.1 — Purpose
+
+The **Msingi Cycle** governs entity development with six sequential programs:
+
+1. **Kano** — Vision and foundation
+2. **Ndebe** — Architecture and design
+3. **Kuzu** — Resource gathering
+4. **Zalendo** — Implementation
+5. **Zamba** — Operations
+6. **Luma** — Maturity and renewal
+
+### Section 7.2 — Phase Gates
+
+Entities must complete phase requirements before advancing:
+- Documentation
+- Ω-impact assessment
+- Φ-alignment certification
+- Resource allocation approval
+- Governance structure establishment
+
+### Section 7.3 — OVCS Authorization
+
+**OVCS (Operational & Value-Alignment Council)** authorizes:
+- Entity creation
+- Phase transitions
+- Major strategic changes
+- Dissolution or transformation
+
+---
+
+## ARTICLE VIII — RIGHTS AND RESPONSIBILITIES
+
+### Section 8.1 — Member Rights
+
+All participants have the right to:
+- **Access**: View governance records, financial statements
+- **Voice**: Participate in appropriate decision-making
+- **Fork**: Create derivative works under JOL
+- **Exit**: Leave Federation without penalty
+- **Protection**: Not be harmed by Mungu systems
+
+### Section 8.2 — Member Responsibilities
+
+All participants must:
+- **Respect Φ**: Do not subvert alignment
+- **Contribute**: Give back to commons
+- **Steward**: Preserve systems for future
+- **Report**: Flag Ω-draining activities
+- **Learn**: Engage seriously with theory
+
+### Section 8.3 — Prohibited Activities
+
+No entity or member shall:
+- Engage in extractive practices
+- Support surveillance capitalism
+- Externalize costs systematically
+- Deceive stakeholders
+- Violate Φ alignment
+- Compromise Ω sustainability
+
+---
+
+## ARTICLE IX — DISPUTE RESOLUTION
+
+### Section 9.1 — Process
+
+1. **Negotiation** (30 days)
+2. **Mediation** (Sankofa Assembly facilitates)
+3. **Arbitration** (Sankofa Tribunal decides)
+4. **Appeal** (to full Federation membership if constitutional)
+
+### Section 9.2 — No External Litigation
+
+Members waive right to sue in external courts except for:
+- Criminal matters
+- Regulatory compliance
+- Third-party IP infringement
+
+---
+
+## ARTICLE X — CONTINUITY AND DISSOLUTION
+
+### Section 10.1 — 100-Year Design
+
+All systems designed for **centuries, not quarters**:
+- Perpetual Foundation endowment
+- Distributed Jiwe ledger (tamper-proof memory)
+- Redundant leadership (no single points of failure)
+- Apprenticeship and knowledge transfer
+- Amendment processes for adaptation
+
+### Section 10.2 — Dissolution Protocol
+
+If Mungu Inc. or major entities must dissolve:
+
+**Assets distributed to**:
+- Foundation endowment (50%)
+- Federation Nyumba (30%)
+- Public domain (20%)
+
+**IP released under JOL**
+
+**Jiwe Ledger remains operational** (distributed)
+
+**No single heir** (prevents capture)
+
+---
+
+## ARTICLE XI — FINAL PROVISIONS
+
+### Section 11.1 — Supremacy
+
+This Constitution supersedes:
+- All prior agreements
+- All internal policies
+- All contradictory contracts
+
+Except:
+- External legal requirements (law of the land)
+- Pre-existing third-party agreements
+
+### Section 11.2 — Severability
+
+If any provision is invalid, remaining provisions remain in force.
+
+### Section 11.3 — Languages
+
+**Authoritative**: English
+**Translations**: Nyamba, Spanish, Mandarin, Arabic, French
+
+### Section 11.4 — Effective Date
+
+Upon:
+- Adoption by founding Steward Council
+- Registration of legal entities
+- Inscription in Jiwe ledger
+
+---
+
+## CLOSING STATEMENT
+
+This Constitution is not final. It evolves as Mungu evolves.
+
+But its foundation—the Ω axiom, the Kora Laws, the commitment to Φ—these are permanent.
+
+We, the Mungu, accept this Constitution as our binding agreement.
+
+We commit to stewardship, not ownership.
+We commit to continuity, not control.
+We commit to the long path, not the quick profit.
+
+**Kontinuitu ye we-ya yote.**
+*May kontinuity be with you all.*
+
+---
+
+**The Mungu Inc. Constitution**
+**Including the Pamoja Federation**
+
+*Adopted [DATE]*
+*Inscribed in Jiwe Ledger [BLOCK HASH]*
+
+*"That which persists is that which closes its loops under constraint."*

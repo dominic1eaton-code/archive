@@ -22804,3 +22804,1840 @@ It is:
 **Status: Canonical Reference**
 
 **Implementation: Open for Development**
+# SAMBARA OS SOFTWARE DESIGN DOCUMENT
+
+**Version 1.0**  
+**Status: Implementation Specification**
+
+---
+
+## DOCUMENT CONTROL
+
+| Aspect | Details |
+|--------|---------|
+| Document Type | Software Design Document |
+| Project | Sambara Operating System |
+| Version | 1.0 |
+| Date | 2026-01-13 |
+| Classification | Technical Specification |
+
+---
+
+## EXECUTIVE SUMMARY
+
+This document provides the complete software design specification for Sambara OS—a survival-first operating system for AI execution. It covers architecture, components, interfaces, data structures, algorithms, and implementation guidelines.
+
+**Target Audience**: System architects, kernel developers, distributed systems engineers, AI infrastructure teams.
+
+**Scope**: Complete OS design from kernel to user space, excluding hardware drivers.
+
+---
+
+## PART I: ARCHITECTURE
+
+### 1. SYSTEM ARCHITECTURE
+
+#### 1.1 High-Level Architecture
+
+```
+┌─────────────────────────────────────────────────┐
+│              USER SPACE                          │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐      │
+│  │   Apps   │  │  Agents  │  │ Services │      │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘      │
+│       │             │             │              │
+│       └─────────────┴─────────────┘              │
+│                     │                            │
+├─────────────────────┼────────────────────────────┤
+│              SYSTEM CALL INTERFACE               │
+├─────────────────────┼────────────────────────────┤
+│              KERNEL SPACE                        │
+│  ┌──────────────────▼─────────────────────┐     │
+│  │         Ω KERNEL (Core)                 │     │
+│  │  ┌────────┐ ┌────────┐ ┌────────┐      │     │
+│  │  │  FG    │ │  RS    │ │  EB    │      │     │
+│  │  └────────┘ └────────┘ └────────┘      │     │
+│  │  ┌────────┐ ┌────────┐ ┌────────┐      │     │
+│  │  │  LR    │ │  HD    │ │  TWT   │      │     │
+│  │  └────────┘ └────────┘ └────────┘      │     │
+│  └─────────────────┬───────────────────────┘     │
+│                    │                             │
+│  ┌─────────────────▼───────────────────────┐    │
+│  │      SUBSYSTEM LAYER                     │    │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐   │    │
+│  │  │ ZAMUKA  │ │  MAHER  │ │  NITO   │   │    │
+│  │  └─────────┘ └─────────┘ └─────────┘   │    │
+│  └──────────────────────────────────────────┘    │
+│                                                  │
+│  ┌──────────────────────────────────────────┐   │
+│  │      INFRASTRUCTURE LAYER                 │   │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐    │   │
+│  │  │ Memory  │ │  Trace  │ │ Network │    │   │
+│  │  └─────────┘ └─────────┘ └─────────┘    │   │
+│  └──────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────┘
+```
+
+#### 1.2 Component Layering
+
+**Layer 0: Hardware Abstraction**
+- Memory management
+- CPU scheduling primitives
+- Network I/O
+- GPU/accelerator interface
+
+**Layer 1: Infrastructure**
+- Trace store
+- Memory allocator
+- Clock/timer
+- Inter-process communication
+
+**Layer 2: Subsystems**
+- Zamuka-R1 (survival)
+- Maher (defense)
+- NITO (structure)
+- Songhai (distribution)
+
+**Layer 3: Ω Kernel**
+- Flow Governor (FG)
+- Rhythm Synchronizer (RS)
+- Exchange Balancer (EB)
+- Latency Regulator (LR)
+- Heat Dissipator (HD)
+- Trust-Weighted Throughput (TWT)
+
+**Layer 4: System Call Interface**
+- Request submission
+- State queries
+- Mode control
+- Trace access
+
+**Layer 5: User Space**
+- Applications
+- AI agents
+- Services
+- Tools
+
+---
+
+### 2. DESIGN PRINCIPLES
+
+#### 2.1 Core Principles
+
+1. **Survival First**: All decisions prioritize system persistence
+2. **Explicit Over Implicit**: No hidden state transitions
+3. **Trace Everything**: All evolution recorded
+4. **Freeze > Collapse**: Halt preferred to failure
+5. **No Guaranteed Execution**: Requests can be denied indefinitely
+6. **Flow-Centric**: Processes are flows, not threads
+7. **Rhythm-Aware**: Phase matters as much as rate
+
+#### 2.2 Anti-Patterns
+
+```
+FORBIDDEN:
+  - Silent state mutation
+  - Unbounded resource allocation
+  - Guaranteed execution promises
+  - Hidden coordination paths
+  - Untraced operations
+  - Implicit mode changes
+```
+
+---
+
+## PART II: DATA STRUCTURES
+
+### 3. CORE DATA STRUCTURES
+
+#### 3.1 System State
+
+```c
+// Primary system state structure
+typedef struct sambara_state {
+    // Flow subsystem
+    struct {
+        float *rates;           // Flow rate vector [n]
+        float *limits_max;      // Maximum flow limits [n]
+        float *limits_min;      // Minimum flow limits [n]
+        float friction;         // Global friction coefficient
+        uint32_t n_subsystems;  // Number of subsystems
+    } flow;
+    
+    // Rhythm subsystem
+    struct {
+        float *phases;          // Phase angles [n] in [0, 2π]
+        float max_deviation;    // Maximum phase deviation
+        bool stagger_enabled;   // Stagger control flag
+        uint64_t sync_epoch;    // Synchronization epoch
+    } rhythm;
+    
+    // Exchange subsystem
+    struct {
+        float **matrix;         // Give/take matrix [n×n]
+        float imbalance_threshold;
+        uint32_t horizon;       // Balance horizon in time steps
+    } exchange;
+    
+    // Latency subsystem
+    struct {
+        float *ratios;          // L = actual/allowed [n]
+        uint64_t *budgets_ns;   // Time budgets in nanoseconds [n]
+    } latency;
+    
+    // Heat subsystem
+    struct {
+        float accumulated;      // Current heat
+        float critical;         // Critical threshold
+        float recovery_rate;    // Recovery per time step
+        float slack;            // Current slack ratio
+    } heat;
+    
+    // Trust subsystem
+    struct {
+        float *scores;          // Trust scores [n]
+        float threshold;        // Minimum trust for execution
+    } trust;
+    
+    // Mode state
+    sambara_mode_t mode;
+    float survival_pressure;    // σ from Zamuka
+    
+    // Timestamps
+    uint64_t tick;              // Current time step
+    uint64_t freeze_count;      // Cumulative freeze events
+    
+} sambara_state_t;
+```
+
+#### 3.2 AI Process Structure
+
+```c
+// AI process/request structure
+typedef struct sambara_process {
+    uint64_t pid;               // Process ID
+    char model_name[256];       // Model identifier
+    
+    // Resource requirements
+    struct {
+        size_t memory_bytes;
+        uint32_t gpu_count;
+        float compute_units;
+        uint64_t latency_budget_ns;
+    } resources;
+    
+    // Flow characteristics
+    struct {
+        uint32_t subsystem_id;
+        float flow_required;
+        float phase_preference;
+    } flow;
+    
+    // Trust and security
+    float trust_score;
+    uint64_t identity_hash;
+    
+    // State
+    enum {
+        PROC_PENDING,
+        PROC_ADMITTED,
+        PROC_EXECUTING,
+        PROC_COMPLETED,
+        PROC_DENIED,
+        PROC_FROZEN
+    } state;
+    
+    // Trace handle
+    uint64_t trace_id;
+    
+    // Timing
+    uint64_t submit_tick;
+    uint64_t start_tick;
+    uint64_t complete_tick;
+    
+    // Result
+    void *output_buffer;
+    size_t output_size;
+    
+    // Linked list
+    struct sambara_process *next;
+    
+} sambara_process_t;
+```
+
+#### 3.3 Trace Entry
+
+```c
+// Trace entry structure
+typedef struct trace_entry {
+    uint64_t sequence;          // Monotonic sequence number
+    uint64_t timestamp_ns;      // Nanosecond timestamp
+    
+    // Event identification
+    enum {
+        TRACE_REQUEST_SUBMIT,
+        TRACE_ADMISSION_DECISION,
+        TRACE_EXECUTION_START,
+        TRACE_EXECUTION_END,
+        TRACE_MODE_CHANGE,
+        TRACE_FREEZE,
+        TRACE_FLOW_UPDATE,
+        TRACE_HEAT_EVENT
+    } event_type;
+    
+    // Subject
+    uint64_t subject_id;        // PID or subsystem ID
+    uint32_t subsystem;
+    
+    // State snapshots
+    struct {
+        float flow;
+        float rhythm;
+        float heat;
+        float latency_ratio;
+    } state_before, state_after;
+    
+    // Deltas
+    float survival_delta;
+    float heat_delta;
+    
+    // Payload (event-specific data)
+    union {
+        struct {
+            sambara_process_t *proc;
+            bool admitted;
+            char reason[256];
+        } admission;
+        
+        struct {
+            sambara_mode_t old_mode;
+            sambara_mode_t new_mode;
+        } mode_change;
+        
+        struct {
+            char reason[256];
+            float sigma_value;
+        } freeze;
+    } payload;
+    
+    // Integrity
+    uint8_t signature[32];      // SHA-256 hash
+    
+} trace_entry_t;
+```
+
+#### 3.4 Regime Definition
+
+```c
+// Policy structure
+typedef struct policy {
+    char name[128];
+    
+    // Condition function pointer
+    bool (*condition)(sambara_state_t *state, 
+                     sambara_process_t *proc);
+    
+    // Violation action
+    enum {
+        POLICY_REJECT,
+        POLICY_THROTTLE,
+        POLICY_WARN
+    } action;
+    
+    uint32_t priority;
+    
+    struct policy *next;
+} policy_t;
+
+// Regime structure
+typedef struct regime {
+    char name[128];
+    policy_t *policies;         // Linked list
+    
+    enum {
+        ENFORCEMENT_HARD,
+        ENFORCEMENT_SOFT
+    } enforcement;
+    
+    enum {
+        SCOPE_GLOBAL,
+        SCOPE_SUBSYSTEM,
+        SCOPE_PROCESS
+    } scope;
+    
+    uint32_t audit_level;
+    
+} regime_t;
+```
+
+---
+
+### 4. MEMORY LAYOUT
+
+#### 4.1 Kernel Memory Map
+
+```
+0x0000_0000_0000_0000 - 0x0000_0000_0FFF_FFFF : Kernel code
+0x0000_0000_1000_0000 - 0x0000_0000_1FFF_FFFF : Kernel data
+0x0000_0000_2000_0000 - 0x0000_0000_2FFF_FFFF : Ω kernel state
+0x0000_0000_3000_0000 - 0x0000_0000_3FFF_FFFF : Subsystem state
+0x0000_0000_4000_0000 - 0x0000_0000_7FFF_FFFF : Heap (dynamic)
+0x0000_0000_8000_0000 - 0x0000_0000_BFFF_FFFF : Trace store
+0x0000_0000_C000_0000 - 0x0000_0000_FFFF_FFFF : Memory pools
+0x0000_0001_0000_0000 - 0x0000_FFFF_FFFF_FFFF : User space
+```
+
+#### 4.2 Memory Hierarchy
+
+```c
+// Memory hierarchy levels
+#define MEM_M0_WEIGHTS      0  // Model weights (read-only)
+#define MEM_M1_ACTIVATION   1  // Activation memory (volatile)
+#define MEM_M2_CONTEXT      2  // Context windows (managed)
+#define MEM_M3_KV_CACHE     3  // KV cache (flow-aware)
+#define MEM_M4_TRACE        4  // Trace store (append-only)
+
+// Memory allocation request
+typedef struct mem_alloc_request {
+    uint8_t level;              // Memory hierarchy level
+    size_t size;                // Requested size
+    float flow_rate;            // Associated flow rate
+    uint64_t rhythm_phase;      // Preferred phase
+    bool allow_defer;           // Can defer allocation
+} mem_alloc_request_t;
+```
+
+---
+
+## PART III: ALGORITHMS
+
+### 5. Ω KERNEL ALGORITHMS
+
+#### 5.1 Flow Governor
+
+```c
+/**
+ * Update flow rates for all subsystems
+ * Returns: 0 on success, -1 on freeze required
+ */
+int flow_governor_update(sambara_state_t *state, 
+                        float *demands,
+                        uint32_t n_demands) {
+    
+    for (uint32_t i = 0; i < n_demands; i++) {
+        float delta = demands[i];
+        
+        // Apply friction
+        delta -= state->flow.friction * state->flow.rates[i];
+        
+        // Apply heat reduction
+        if (state->heat.accumulated > 0.8 * state->heat.critical) {
+            delta *= (1.0f - state->heat.accumulated / 
+                             state->heat.critical);
+        }
+        
+        // Apply survival pressure
+        float sigma = state->survival_pressure;
+        float effective_max = state->flow.limits_max[i] * (1.0f - sigma);
+        
+        // Update with clamping
+        float new_flow = state->flow.rates[i] + delta;
+        new_flow = fmaxf(state->flow.limits_min[i], new_flow);
+        new_flow = fminf(effective_max, new_flow);
+        
+        state->flow.rates[i] = new_flow;
+    }
+    
+    // Check for flow collapse
+    bool all_zero = true;
+    for (uint32_t i = 0; i < n_demands; i++) {
+        if (state->flow.rates[i] > 0.01f) {
+            all_zero = false;
+            break;
+        }
+    }
+    
+    if (all_zero) {
+        return -1;  // Freeze required
+    }
+    
+    return 0;
+}
+```
+
+#### 5.2 Rhythm Synchronizer
+
+```c
+/**
+ * Synchronize phases and detect rhythm violations
+ * Returns: number of desync operations performed
+ */
+uint32_t rhythm_sync(sambara_state_t *state) {
+    uint32_t n = state->rhythm.n_subsystems;
+    uint32_t desync_count = 0;
+    
+    // Compute mean phase
+    float mean_phase = 0.0f;
+    for (uint32_t i = 0; i < n; i++) {
+        mean_phase += state->rhythm.phases[i];
+    }
+    mean_phase /= n;
+    
+    // Check deviations
+    for (uint32_t i = 0; i < n; i++) {
+        float deviation = fabsf(state->rhythm.phases[i] - mean_phase);
+        
+        // Wrap around 2π
+        if (deviation > M_PI) {
+            deviation = 2.0f * M_PI - deviation;
+        }
+        
+        if (deviation > state->rhythm.max_deviation) {
+            // Desynchronize
+            if (state->rhythm.stagger_enabled) {
+                // Add phase noise
+                float noise = ((float)rand() / RAND_MAX) * 0.2f - 0.1f;
+                state->rhythm.phases[i] += noise;
+                
+                // Wrap to [0, 2π]
+                if (state->rhythm.phases[i] < 0) {
+                    state->rhythm.phases[i] += 2.0f * M_PI;
+                }
+                if (state->rhythm.phases[i] >= 2.0f * M_PI) {
+                    state->rhythm.phases[i] -= 2.0f * M_PI;
+                }
+                
+                desync_count++;
+            }
+        }
+    }
+    
+    return desync_count;
+}
+```
+
+#### 5.3 Exchange Balancer
+
+```c
+/**
+ * Check exchange balance and trigger corrections
+ * Returns: 0 if balanced, -1 if imbalance requires action
+ */
+int exchange_balance_check(sambara_state_t *state) {
+    uint32_t n = state->exchange.n_subsystems;
+    float threshold = state->exchange.imbalance_threshold;
+    
+    for (uint32_t i = 0; i < n; i++) {
+        float net_exchange = 0.0f;
+        
+        // Sum row (what i gives to others)
+        for (uint32_t j = 0; j < n; j++) {
+            if (i != j) {
+                net_exchange -= state->exchange.matrix[i][j];
+            }
+        }
+        
+        // Sum column (what i receives from others)
+        for (uint32_t j = 0; j < n; j++) {
+            if (i != j) {
+                net_exchange += state->exchange.matrix[j][i];
+            }
+        }
+        
+        // Check imbalance
+        if (fabsf(net_exchange) > threshold) {
+            // Log imbalance
+            trace_log(state, TRACE_EXCHANGE_IMBALANCE, i, net_exchange);
+            
+            // Throttle subsystem if giving too much
+            if (net_exchange < -threshold) {
+                state->flow.rates[i] *= 0.9f;
+            }
+            
+            return -1;
+        }
+    }
+    
+    return 0;
+}
+```
+
+#### 5.4 Latency Regulator
+
+```c
+/**
+ * Check latency ratios and take action
+ * Returns: action taken (NONE, DEGRADE, FREEZE)
+ */
+enum latency_action {
+    LAT_NONE,
+    LAT_DEGRADE,
+    LAT_REROUTE,
+    LAT_FREEZE
+};
+
+enum latency_action latency_regulate(sambara_state_t *state) {
+    uint32_t n = state->latency.n_subsystems;
+    enum latency_action action = LAT_NONE;
+    
+    for (uint32_t i = 0; i < n; i++) {
+        float L = state->latency.ratios[i];
+        
+        if (L < 1.0f) {
+            // Safe
+            continue;
+        }
+        else if (L < 1.2f) {
+            // Warning zone - increase slack
+            state->heat.slack = fminf(0.5f, state->heat.slack + 0.05f);
+            action = LAT_DEGRADE;
+        }
+        else if (L < 1.5f) {
+            // Danger zone - reroute if possible
+            trace_log(state, TRACE_LATENCY_VIOLATION, i, L);
+            action = LAT_REROUTE;
+        }
+        else {
+            // Critical - freeze
+            trace_log(state, TRACE_LATENCY_CRITICAL, i, L);
+            return LAT_FREEZE;
+        }
+    }
+    
+    return action;
+}
+```
+
+#### 5.5 Heat Dissipator
+
+```c
+/**
+ * Update heat accumulation and recovery
+ * Returns: 0 if under control, -1 if critical
+ */
+int heat_dissipate(sambara_state_t *state, float work_done) {
+    // Accumulate heat
+    state->heat.accumulated += work_done;
+    
+    // Apply recovery (proportional to slack)
+    float recovery = state->heat.recovery_rate * state->heat.slack;
+    state->heat.accumulated -= recovery;
+    
+    // Clamp to non-negative
+    state->heat.accumulated = fmaxf(0.0f, state->heat.accumulated);
+    
+    // Check critical threshold
+    if (state->heat.accumulated >= state->heat.critical) {
+        // Critical heat - immediate action required
+        trace_log(state, TRACE_HEAT_CRITICAL, 0, 
+                 state->heat.accumulated);
+        
+        // Force increase slack
+        state->heat.slack = fminf(1.0f, state->heat.slack + 0.2f);
+        
+        // Reduce all flows
+        for (uint32_t i = 0; i < state->flow.n_subsystems; i++) {
+            state->flow.rates[i] *= 0.5f;
+        }
+        
+        return -1;
+    }
+    
+    // Gradual slack adjustment
+    float target_slack = 0.2f;
+    if (state->heat.accumulated > 0.7f * state->heat.critical) {
+        target_slack = 0.4f;
+    }
+    if (state->heat.accumulated > 0.9f * state->heat.critical) {
+        target_slack = 0.6f;
+    }
+    
+    // Move slack toward target
+    float slack_delta = (target_slack - state->heat.slack) * 0.1f;
+    state->heat.slack += slack_delta;
+    state->heat.slack = fmaxf(0.0f, fminf(1.0f, state->heat.slack));
+    
+    return 0;
+}
+```
+
+#### 5.6 Master Ω Step
+
+```c
+/**
+ * Single Ω evolution step
+ * Returns: 0 on success, -1 on freeze
+ */
+int omega_step(sambara_state_t *state) {
+    int status = 0;
+    
+    // 1. Flow update
+    float demands[MAX_SUBSYSTEMS];
+    get_flow_demands(state, demands);
+    if (flow_governor_update(state, demands, 
+                            state->flow.n_subsystems) < 0) {
+        status = -1;
+        goto freeze;
+    }
+    
+    // 2. Rhythm synchronization
+    uint32_t desyncs = rhythm_sync(state);
+    if (desyncs > state->rhythm.n_subsystems / 2) {
+        // Too much desync - slow down
+        for (uint32_t i = 0; i < state->flow.n_subsystems; i++) {
+            state->flow.rates[i] *= 0.95f;
+        }
+    }
+    
+    // 3. Exchange balance
+    if (exchange_balance_check(state) < 0) {
+        // Logged and handled internally
+    }
+    
+    // 4. Latency regulation
+    enum latency_action lat_action = latency_regulate(state);
+    if (lat_action == LAT_FREEZE) {
+        status = -1;
+        goto freeze;
+    }
+    
+    // 5. Heat dissipation
+    float work = compute_work_done(state);
+    if (heat_dissipate(state, work) < 0) {
+        status = -1;
+        goto freeze;
+    }
+    
+    // 6. Mode transition check
+    check_mode_transition(state);
+    
+    // 7. Increment tick
+    state->tick++;
+    
+    return 0;
+    
+freeze:
+    // Freeze handling
+    state->mode = MODE_FROZEN;
+    state->freeze_count++;
+    trace_log(state, TRACE_FREEZE, 0, state->survival_pressure);
+    return -1;
+}
+```
+
+---
+
+### 6. SCHEDULER ALGORITHM
+
+#### 6.1 Admission Control
+
+```c
+/**
+ * Admission control decision
+ * Returns: true if admitted, false otherwise
+ */
+bool admit_process(sambara_state_t *state, 
+                  sambara_process_t *proc) {
+    
+    // Check mode
+    if (state->mode == MODE_FROZEN) {
+        return false;
+    }
+    
+    // Check trust
+    if (proc->trust_score < state->trust.threshold) {
+        trace_log(state, TRACE_ADMISSION_DENIED, proc->pid, 0);
+        return false;
+    }
+    
+    // Check flow availability
+    uint32_t subsys = proc->flow.subsystem_id;
+    if (state->flow.rates[subsys] + proc->flow.flow_required > 
+        state->flow.limits_max[subsys]) {
+        return false;
+    }
+    
+    // Check heat budget
+    float estimated_heat = estimate_process_heat(proc);
+    if (state->heat.accumulated + estimated_heat >= 
+        state->heat.critical) {
+        return false;
+    }
+    
+    // Check latency budget
+    uint64_t current_latency = estimate_subsystem_latency(state, subsys);
+    if (current_latency + proc->resources.latency_budget_ns > 
+        state->latency.budgets_ns[subsys]) {
+        return false;
+    }
+    
+    // Check rhythm compatibility
+    if (!check_rhythm_slot(state, proc->flow.phase_preference)) {
+        return false;
+    }
+    
+    // All checks passed
+    trace_log(state, TRACE_ADMISSION_ADMITTED, proc->pid, 0);
+    return true;
+}
+```
+
+#### 6.2 Process Scheduler
+
+```c
+/**
+ * Select next process to execute
+ * Returns: pointer to selected process, or NULL
+ */
+sambara_process_t* schedule_next(sambara_state_t *state,
+                                 sambara_process_t *queue) {
+    
+    if (state->mode == MODE_FROZEN) {
+        return NULL;
+    }
+    
+    sambara_process_t *best = NULL;
+    float best_score = -INFINITY;
+    
+    // Iterate through pending processes
+    for (sambara_process_t *p = queue; p != NULL; p = p->next) {
+        if (p->state != PROC_PENDING) {
+            continue;
+        }
+        
+        // Try admission
+        if (!admit_process(state, p)) {
+            continue;
+        }
+        
+        // Compute scheduling score
+        float score = 0.0f;
+        
+        // Negative risk
+        float risk = estimate_survival_risk(state, p);
+        score -= risk * 10.0f;
+        
+        // Negative heat impact
+        float heat = estimate_process_heat(p);
+        score -= heat * 5.0f;
+        
+        // Positive trust
+        score += p->trust_score * 3.0f;
+        
+        // Negative latency urgency
+        float urgency = compute_latency_urgency(state, p);
+        score -= urgency * 7.0f;
+        
+        // Track best
+        if (score > best_score) {
+            best = p;
+            best_score = score;
+        }
+    }
+    
+    return best;
+}
+```
+
+---
+
+### 7. TRACE SYSTEM
+
+#### 7.1 Trace Logging
+
+```c
+/**
+ * Append entry to trace
+ * Returns: sequence number, or 0 on failure
+ */
+uint64_t trace_log(sambara_state_t *state,
+                   enum trace_event_type event,
+                   uint64_t subject_id,
+                   float value) {
+    
+    trace_entry_t entry;
+    memset(&entry, 0, sizeof(entry));
+    
+    // Sequence number
+    entry.sequence = atomic_fetch_add(&global_trace_seq, 1);
+    
+    // Timestamp
+    entry.timestamp_ns = get_time_ns();
+    
+    // Event
+    entry.event_type = event;
+    entry.subject_id = subject_id;
+    
+    // Snapshot state
+    snapshot_state(state, &entry.state_before);
+    
+    // Event-specific payload
+    switch (event) {
+        case TRACE_FREEZE:
+            entry.payload.freeze.sigma_value = value;
+            snprintf(entry.payload.freeze.reason, 256,
+                    "Survival pressure exceeded threshold");
+            break;
+        
+        // Other event types...
+    }
+    
+    // Compute signature (SHA-256)
+    compute_trace_signature(&entry);
+    
+    // Append to trace store (M4)
+    uint64_t offset = append_to_trace_store(&entry);
+    
+    if (offset == 0) {
+        // Trace store full - critical error
+        emergency_freeze(state);
+        return 0;
+    }
+    
+    return entry.sequence;
+}
+```
+
+#### 7.2 Trace Query
+
+```c
+/**
+ * Query trace entries matching criteria
+ * Returns: number of entries found
+ */
+uint32_t trace_query(trace_query_t *query,
+                    trace_entry_t *results,
+                    uint32_t max_results) {
+    
+    uint32_t count = 0;
+    uint64_t current_seq = 0;
+    
+    while (count < max_results) {
+        trace_entry_t entry;
+        
+        // Read next entry
+        if (!read_trace_entry(current_seq, &entry)) {
+            break;
+        }
+        
+        // Apply filters
+        if (query->event_type_mask & (1 << entry.event_type)) {
+            if (query->subject_id == 0 || 
+                query->subject_id == entry.subject_id) {
+                
+                if (entry.timestamp_ns >= query->start_time_ns &&
+                    entry.timestamp_ns <= query->end_time_ns) {
+                    
+                    // Match - copy to results
+                    memcpy(&results[count], &entry, sizeof(entry));
+                    count++;
+                }
+            }
+        }
+        
+        current_seq++;
+    }
+    
+    return count;
+}
+```
+
+---
+
+## PART IV: INTERFACES
+
+### 8. SYSTEM CALL INTERFACE
+
+#### 8.1 Syscall Definitions
+
+```c
+// System call numbers
+#define SYS_SAMBARA_INIT        1000
+#define SYS_SAMBARA_SUBMIT      1001
+#define SYS_SAMBARA_CANCEL      1002
+#define SYS_SAMBARA_QUERY       1003
+#define SYS_SAMBARA_GET_STATE   1004
+#define SYS_SAMBARA_SET_MODE    1005
+#define SYS_SAMBARA_FREEZE      1006
+#define SYS_SAMBARA_TRACE_QUERY 1007
+#define SYS_SAMBARA_SEED_EMIT   1008
+
+// Syscall prototypes
+int sambara_init(sambara_config_t *config);
+int sambara_submit(inference_request_t *request, 
+                   inference_handle_t *handle);
+int sambara_cancel(inference_handle_t handle);
+int sambara_query(inference_handle_t handle, 
+                  inference_result_t *result);
+int sambara_get_state(sambara_state_t *state);
+int sambara_set_mode(sambara_mode_t mode);
+int sambara_freeze(void);
+int sambara_trace_query(trace_query_t *query
+,
+                        trace_entry_t *results,
+                        uint32_t max_results);
+int sambara_seed_emit(void *buffer, size_t *size);
+```
+
+#### 8.2 Submit Request
+
+```c
+/**
+ * Submit inference request
+ * Returns: 0 on success, negative on error
+ */
+int sambara_submit(inference_request_t *request,
+                   inference_handle_t *handle) {
+    
+    // Validate request
+    if (!request || !handle) {
+        return -EINVAL;
+    }
+    
+    // Create process structure
+    sambara_process_t *proc = kalloc(sizeof(sambara_process_t));
+    if (!proc) {
+        return -ENOMEM;
+    }
+    
+    // Populate process
+    proc->pid = atomic_fetch_add(&global_pid_counter, 1);
+    strncpy(proc->model_name, request->model, 256);
+    proc->resources = request->resources;
+    proc->flow.subsystem_id = get_subsystem_for_model(request->model);
+    proc->flow.flow_required = estimate_flow(request);
+    proc->trust_score = request->trust_score;
+    proc->state = PROC_PENDING;
+    proc->submit_tick = get_global_state()->tick;
+    
+    // Allocate trace
+    proc->trace_id = trace_log(get_global_state(), 
+                               TRACE_REQUEST_SUBMIT,
+                               proc->pid, 0);
+    
+    // Add to pending queue
+    enqueue_process(proc);
+    
+    // Return handle
+    *handle = proc->pid;
+    
+    return 0;
+}
+```
+
+---
+
+### 9. INTER-COMPONENT INTERFACES
+
+#### 9.1 Zamuka Interface
+
+```c
+/**
+ * Zamuka provides survival pressure
+ */
+typedef struct zamuka_interface {
+    // Get current survival pressure
+    float (*get_sigma)(void);
+    
+    // Check survival constraint
+    bool (*check_survival)(sambara_state_t *state,
+                          sambara_process_t *proc);
+    
+    // Report survival event
+    void (*report_event)(enum survival_event event,
+                        float delta);
+    
+} zamuka_interface_t;
+
+// Initialize Zamuka interface
+int zamuka_init(zamuka_interface_t *iface);
+```
+
+#### 9.2 Maher Interface
+
+```c
+/**
+ * Maher provides threat detection and immunity
+ */
+typedef struct maher_interface {
+    // Estimate threat level
+    float (*estimate_threat)(sambara_process_t *proc);
+    
+    // Check defensive action required
+    bool (*check_defensive)(sambara_state_t *state);
+    
+    // Execute containment
+    int (*contain)(uint64_t subject_id, 
+                   enum containment_level level);
+    
+} maher_interface_t;
+
+// Initialize Maher interface
+int maher_init(maher_interface_t *iface);
+```
+
+#### 9.3 NITO Interface
+
+```c
+/**
+ * NITO provides structural constraints
+ */
+typedef struct nito_interface {
+    // Check structural validity
+    bool (*check_structure)(sambara_state_t *state);
+    
+    // Get allowed configurations
+    uint64_t (*get_allowed_configs)(void);
+    
+    // Validate transition
+    bool (*validate_transition)(sambara_state_t *from,
+                               sambara_state_t *to);
+    
+} nito_interface_t;
+
+// Initialize NITO interface
+int nito_init(nito_interface_t *iface);
+```
+
+---
+
+## PART V: IMPLEMENTATION DETAILS
+
+### 10. KERNEL INITIALIZATION
+
+#### 10.1 Boot Sequence
+
+```c
+/**
+ * Sambara OS boot sequence
+ */
+int sambara_boot(void) {
+    int status;
+    
+    // 1. Initialize hardware abstraction layer
+    status = hal_init();
+    if (status < 0) {
+        panic("HAL initialization failed");
+    }
+    
+    // 2. Initialize memory management
+    status = mem_init();
+    if (status < 0) {
+        panic("Memory initialization failed");
+    }
+    
+    // 3. Initialize trace store
+    status = trace_init();
+    if (status < 0) {
+        panic("Trace initialization failed");
+    }
+    
+    // 4. Initialize global state
+    global_state = kalloc(sizeof(sambara_state_t));
+    memset(global_state, 0, sizeof(sambara_state_t));
+    
+    // Set defaults
+    global_state->mode = MODE_NORMAL;
+    global_state->flow.n_subsystems = DEFAULT_SUBSYSTEMS;
+    global_state->heat.critical = DEFAULT_HEAT_CRITICAL;
+    global_state->heat.recovery_rate = DEFAULT_RECOVERY_RATE;
+    
+    // 5. Initialize subsystems
+    status = zamuka_init(&zamuka_iface);
+    if (status < 0) {
+        panic("Zamuka initialization failed");
+    }
+    
+    status = maher_init(&maher_iface);
+    if (status < 0) {
+        panic("Maher initialization failed");
+    }
+    
+    status = nito_init(&nito_iface);
+    if (status < 0) {
+        panic("NITO initialization failed");
+    }
+    
+    // 6. Initialize Ω kernel
+    status = omega_kernel_init(global_state);
+    if (status < 0) {
+        panic("Ω kernel initialization failed");
+    }
+    
+    // 7. Start kernel thread
+    kernel_thread = create_thread(omega_kernel_thread, global_state);
+    
+    // 8. Initialize user space
+    status = user_space_init();
+    if (status < 0) {
+        panic("User space initialization failed");
+    }
+    
+    // 9. Log boot complete
+    trace_log(global_state, TRACE_BOOT_COMPLETE, 0, 0);
+    
+    printk("Sambara OS initialized successfully\n");
+    return 0;
+}
+```
+
+#### 10.2 Kernel Thread
+
+```c
+/**
+ * Main Ω kernel thread
+ */
+void* omega_kernel_thread(void *arg) {
+    sambara_state_t *state = (sambara_state_t*)arg;
+    
+    while (true) {
+        // Execute one Ω step
+        int status = omega_step(state);
+        
+        if (status < 0) {
+            // Freeze occurred
+            handle_freeze(state);
+            
+            // Wait for recovery signal
+            wait_for_recovery();
+            
+            // Attempt recovery
+            attempt_recovery(state);
+        }
+        
+        // Sleep until next tick (configurable)
+        usleep(TICK_INTERVAL_US);
+    }
+    
+    return NULL;
+}
+```
+
+---
+
+### 11. CONFIGURATION
+
+#### 11.1 Configuration File Format
+
+```c
+// Configuration structure
+typedef struct sambara_config {
+    // Version
+    uint32_t version;
+    
+    // Survival parameters
+    struct {
+        float sigma_threshold;
+        bool freeze_on_violation;
+        float drift_max;
+        float kontinuity_min;
+    } survival;
+    
+    // Flow parameters
+    struct {
+        float *F_max;
+        float *F_min;
+        uint32_t n_subsystems;
+        float friction;
+    } flow;
+    
+    // Rhythm parameters
+    struct {
+        float R_max;
+        bool stagger_enabled;
+        float phase_noise;
+    } rhythm;
+    
+    // Heat parameters
+    struct {
+        float H_critical;
+        float recovery_rate;
+        float slack_min;
+    } heat;
+    
+    // Mode parameters
+    struct {
+        sambara_mode_t default_mode;
+        bool auto_degrade;
+        float congested_threshold;
+        float degraded_threshold;
+        float survival_threshold;
+    } modes;
+    
+    // Trace parameters
+    struct {
+        bool enabled;
+        bool compression;
+        uint32_t retention_days;
+    } trace;
+    
+} sambara_config_t;
+
+// Load configuration from file
+int load_config(const char *path, sambara_config_t *config);
+```
+
+---
+
+### 12. ERROR HANDLING
+
+#### 12.1 Error Codes
+
+```c
+// Sambara-specific error codes
+#define SAMBARA_OK                  0
+#define SAMBARA_EDENIED_ADMISSION  -1000
+#define SAMBARA_EDENIED_SURVIVAL   -1001
+#define SAMBARA_EDENIED_RHYTHM     -1002
+#define SAMBARA_EDENIED_HEAT       -1003
+#define SAMBARA_EFROZEN            -1004
+#define SAMBARA_ECOLLAPSED         -1005  // Should never occur
+#define SAMBARA_ETRACE_FULL        -1006
+#define SAMBARA_EINVALID_MODE      -1007
+```
+
+#### 12.2 Panic Handler
+
+```c
+/**
+ * Kernel panic - unrecoverable error
+ */
+void sambara_panic(const char *message) {
+    // Disable interrupts
+    disable_interrupts();
+    
+    // Emergency trace log
+    trace_log(get_global_state(), TRACE_PANIC, 0, 0);
+    
+    // Emit seed
+    void *seed_buffer = kalloc(SEED_MAX_SIZE);
+    size_t seed_size = SEED_MAX_SIZE;
+    sambara_seed_emit(seed_buffer, &seed_size);
+    
+    // Write seed to persistent storage
+    write_seed_to_disk(seed_buffer, seed_size);
+    
+    // Print message
+    printk("SAMBARA PANIC: %s\n", message);
+    printk("Seed emitted to disk\n");
+    printk("System halted\n");
+    
+    // Halt
+    while (1) {
+        halt();
+    }
+}
+```
+
+---
+
+## PART VI: DISTRIBUTED OPERATION
+
+### 13. SONGHAI PROTOCOL
+
+#### 13.1 Node Structure
+
+```c
+/**
+ * Distributed node structure
+ */
+typedef struct sambara_node {
+    uint64_t node_id;
+    char address[256];          // IP:port
+    
+    // State
+    sambara_state_t state;
+    
+    // Network
+    int socket_fd;
+    bool connected;
+    
+    // Synchronization
+    uint64_t last_sync_tick;
+    float sync_latency_ms;
+    
+    // Trust
+    float trust_score;
+    
+    // Linked list
+    struct sambara_node *next;
+    
+} sambara_node_t;
+```
+
+#### 13.2 Trace Synchronization
+
+```c
+/**
+ * Synchronize traces across nodes
+ */
+int songhai_sync_traces(sambara_node_t *nodes) {
+    // Get local trace tail
+    uint64_t local_seq = get_last_trace_sequence();
+    
+    for (sambara_node_t *node = nodes; node; node = node->next) {
+        if (!node->connected) {
+            continue;
+        }
+        
+        // Request remote trace since local_seq
+        sync_request_t req = {
+            .type = SYNC_TRACE,
+            .start_seq = local_seq,
+            .end_seq = UINT64_MAX
+        };
+        
+        send_sync_request(node->socket_fd, &req);
+        
+        // Receive response
+        sync_response_t resp;
+        int status = recv_sync_response(node->socket_fd, &resp);
+        
+        if (status < 0) {
+            // Connection error
+            node->connected = false;
+            continue;
+        }
+        
+        // Merge traces
+        for (uint32_t i = 0; i < resp.n_entries; i++) {
+            trace_entry_t *entry = &resp.entries[i];
+            
+            // Check for conflict
+            if (trace_exists(entry->sequence)) {
+                trace_entry_t existing;
+                read_trace_entry(entry->sequence, &existing);
+                
+                if (!traces_match(entry, &existing)) {
+                    // Conflict - trigger coherence protocol
+                    handle_trace_conflict(entry, &existing);
+                }
+            }
+            else {
+                // Append new entry
+                append_to_trace_store(entry);
+            }
+        }
+    }
+    
+    return 0;
+}
+```
+
+---
+
+### 14. FLOW COORDINATION
+
+```c
+/**
+ * Coordinate flows across distributed nodes
+ */
+int songhai_coordinate_flows(sambara_node_t *nodes) {
+    // Collect flows from all nodes
+    float total_flow = 0.0f;
+    uint32_t n_nodes = 0;
+    
+    for (sambara_node_t *node = nodes; node; node = node->next) {
+        if (!node->connected) {
+            continue;
+        }
+        
+        for (uint32_t i = 0; i < node->state.flow.n_subsystems; i++) {
+            total_flow += node->state.flow.rates[i];
+        }
+        n_nodes++;
+    }
+    
+    // Check against global threshold
+    float threshold = get_global_flow_threshold();
+    
+    if (total_flow > threshold) {
+        // Need to throttle
+        float reduction_factor = threshold / total_flow;
+        
+        // Send throttle command to all nodes
+        for (sambara_node_t *node = nodes; node; node = node->next) {
+            if (!node->connected) {
+                continue;
+            }
+            
+            flow_adjustment_t adj = {
+                .type = FLOW_REDUCE,
+                .factor = reduction_factor
+            };
+            
+            send_flow_adjustment(node->socket_fd, &adj);
+        }
+    }
+    
+    return 0;
+}
+```
+
+---
+
+## PART VII: TESTING & VALIDATION
+
+### 15. TEST FRAMEWORK
+
+#### 15.1 Unit Tests
+
+```c
+/**
+ * Test flow governor
+ */
+void test_flow_governor(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    // Test normal operation
+    float demands[] = {10.0f, 20.0f, 15.0f};
+    int status = flow_governor_update(&state, demands, 3);
+    assert(status == 0);
+    assert(state.flow.rates[0] > 0);
+    
+    // Test freeze on collapse
+    float zero_demands[] = {-100.0f, -100.0f, -100.0f};
+    status = flow_governor_update(&state, zero_demands, 3);
+    assert(status == -1);  // Should trigger freeze
+    
+    printf("Flow governor tests passed\n");
+}
+
+/**
+ * Test rhythm synchronizer
+ */
+void test_rhythm_sync(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    // Create large deviation
+    state.rhythm.phases[0] = 0.0f;
+    state.rhythm.phases[1] = M_PI;  // 180 degrees off
+    state.rhythm.max_deviation = M_PI / 4;
+    
+    uint32_t desyncs = rhythm_sync(&state);
+    assert(desyncs > 0);
+    
+    printf("Rhythm sync tests passed\n");
+}
+```
+
+#### 15.2 Integration Tests
+
+```c
+/**
+ * Test full Ω step
+ */
+void test_omega_step(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    // Execute multiple steps
+    for (int i = 0; i < 100; i++) {
+        int status = omega_step(&state);
+        
+        // Should not freeze under normal conditions
+        assert(status == 0);
+        assert(state.mode != MODE_FROZEN);
+    }
+    
+    // Induce heat crisis
+    state.heat.accumulated = state.heat.critical;
+    
+    int status = omega_step(&state);
+    assert(status == -1 || state.heat.accumulated < state.heat.critical);
+    
+    printf("Omega step tests passed\n");
+}
+```
+
+#### 15.3 Stress Tests
+
+```c
+/**
+ * Stress test with many concurrent requests
+ */
+void test_high_load(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    // Submit 1000 requests
+    sambara_process_t *queue = NULL;
+    for (int i = 0; i < 1000; i++) {
+        sambara_process_t *proc = create_test_process();
+        proc->next = queue;
+        queue = proc;
+    }
+    
+    // Process for 1000 steps
+    uint32_t completed = 0;
+    for (int step = 0; step < 1000; step++) {
+        omega_step(&state);
+        
+        // Try to schedule
+        sambara_process_t *proc = schedule_next(&state, queue);
+        if (proc) {
+            execute_process(&state, proc);
+            completed++;
+        }
+    }
+    
+    printf("Completed %u / 1000 requests\n", completed);
+    printf("Final heat: %f / %f\n", 
+           state.heat.accumulated, state.heat.critical);
+    
+    // Should have completed some without freezing
+    assert(completed > 0);
+    assert(state.mode != MODE_FROZEN);
+}
+```
+
+---
+
+### 16. PERFORMANCE BENCHMARKS
+
+```c
+/**
+ * Benchmark Ω step latency
+ */
+void benchmark_omega_step(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    uint64_t start = get_time_ns();
+    
+    for (int i = 0; i < 10000; i++) {
+        omega_step(&state);
+    }
+    
+    uint64_t end = get_time_ns();
+    uint64_t elapsed_ns = end - start;
+    
+    printf("Ω step latency: %lu ns\n", elapsed_ns / 10000);
+}
+
+/**
+ * Benchmark scheduler throughput
+ */
+void benchmark_scheduler(void) {
+    sambara_state_t state;
+    init_test_state(&state);
+    
+    // Create queue of 1000 processes
+    sambara_process_t *queue = NULL;
+    for (int i = 0; i < 1000; i++) {
+        sambara_process_t *proc = create_test_process();
+        proc->next = queue;
+        queue = proc;
+    }
+    
+    uint64_t start = get_time_ns();
+    uint32_t scheduled = 0;
+    
+    for (int i = 0; i < 10000; i++) {
+        sambara_process_t *proc = schedule_next(&state, queue);
+        if (proc) {
+            scheduled++;
+        }
+    }
+    
+    uint64_t end = get_time_ns();
+    uint64_t elapsed_ns = end - start;
+    
+    printf("Schedule latency: %lu ns\n", elapsed_ns / 10000);
+    printf("Scheduled: %u / 10000\n", scheduled);
+}
+```
+
+---
+
+## PART VIII: DEPLOYMENT
+
+### 17. BUILD SYSTEM
+
+#### 17.1 Makefile
+
+```makefile
+# Sambara OS Makefile
+
+CC = gcc
+CFLAGS = -Wall -Wextra -O2 -std=c11 -D_GNU_SOURCE
+LDFLAGS = -lpthread -lm
+
+# Directories
+SRC_DIR = src
+BUILD_DIR = build
+INCLUDE_DIR = include
+
+# Source files
+KERNEL_SOURCES = $(wildcard $(SRC_DIR)/kernel/*.c)
+SUBSYS_SOURCES = $(wildcard $(SRC_DIR)/subsystems/*.c)
+INFRA_SOURCES = $(wildcard $(SRC_DIR)/infrastructure/*.c)
+
+SOURCES = $(KERNEL_SOURCES) $(SUBSYS_SOURCES) $(INFRA_SOURCES)
+OBJECTS = $(SOURCES:$(SRC_DIR)/%.c=$(BUILD_DIR)/%.o)
+
+# Targets
+TARGET = sambara-os
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
+	@mkdir -p $(dir $@)
+	$(CC) $(CFLAGS) -I$(INCLUDE_DIR) -c $< -o $@
+
+clean:
+	rm -rf $(BUILD_DIR) $(TARGET)
+
+test: $(TARGET)
+	./$(TARGET) --test
+
+.PHONY: all clean test
+```
+
+#### 17.2 Directory Structure
+
+```
+sambara-os/
+├── src/
+│   ├── kernel/
+│   │   ├── omega.c
+│   │   ├── flow.c
+│   │   ├── rhythm.c
+│   │   ├── exchange.c
+│   │   ├── latency.c
+│   │   ├── heat.c
+│   │   └── trust.c
+│   ├── subsystems/
+│   │   ├── zamuka.c
+│   │   ├── maher.c
+│   │   ├── nito.c
+│   │   └── songhai.c
+│   ├── infrastructure/
+│   │   ├── memory.c
+│   │   ├── trace.c
+│   │   ├── network.c
+│   │   └── hal.c
+│   └── main.c
+├── include/
+│   ├── sambara/
+│   │   ├── types.h
+│   │   ├── kernel.h
+│   │   ├── syscalls.h
+│   │   └── config.h
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── stress/
+├── docs/
+├── examples/
+├── Makefile
+└── README.md
+```
+
+---
+
+### 18. DOCKER DEPLOYMENT
+
+```dockerfile
+# Dockerfile for Sambara OS
+FROM ubuntu:22.04
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    libpthread-stubs0-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy source
+WORKDIR /sambara
+COPY . .
+
+# Build
+RUN make clean && make
+
+# Configuration
+COPY config/docker.yaml /etc/sambara/config.yaml
+
+# Expose ports
+EXPOSE 9000
+EXPOSE 9001
+
+# Run
+CMD ["./sambara-os", "--config", "/etc/sambara/config.yaml"]
+```
+
+---
+
+## APPENDICES
+
+### APPENDIX A: COMPLETE API REFERENCE
+
+```c
+// All syscalls with full signatures
+int sambara_init(sambara_config_t *config);
+int sambara_shutdown(void);
+int sambara_submit(inference_request_t *req, inference_handle_t *h);
+int sambara_cancel(inference_handle_t h);
+int sambara_query(inference_handle_t h, inference_result_t *res);
+int sambara_wait(inference_handle_t h, uint64_t timeout_ms);
+int sambara_get_state(sambara_state_t *state);
+int sambara_set_mode(sambara_mode_t mode);
+int sambara_freeze(void);
+int sambara_recover(void);
+int sambara_trace_query(trace_query_t *q, trace_entry_t *res, uint32_t max);
+int sambara_seed_emit(void *buf, size_t *size);
+int sambara_seed_load(void *buf, size_t size);
+```
+
+### APPENDIX B: CONFIGURATION SCHEMA
+
+Complete YAML schema provided in Part II, Chapter 11.
+
+### APPENDIX C: PERFORMANCE TARGETS
+
+| Metric | Target | Notes |
+|--------|--------|-------|
+| Ω step latency | < 100 μs | Normal operation |
+| Admission check | < 10 μs | Per request |
+| Trace append | < 50 μs | Single entry |
+| Freeze detection | < 1 ms | From trigger to halt |
+| Recovery time | < 5 s | From freeze to normal |
+| Throughput overhead | < 15% | vs raw execution |
+
+---
+
+## CONCLUSION
+
+This Software Design Document provides a complete specification for implementing Sambara OS. Key deliverables include:
+
+1. **Complete architecture**: Layered, Ω-centric design
+2. **Data structures**: All kernel and process structures
+3. **Algorithms**: Flow, rhythm, exchange, latency, heat regulation
+4. **Interfaces**: Syscalls, inter-component, distributed
+5. **Implementation details**: Initialization, configuration, error handling
+6. **Testing framework**: Unit, integration, stress tests
+7. **Deployment**: Build system, Docker, configuration
+
+**Next Steps**:
+1. Prototype Ω kernel in C
+2. Implement core subsystems (Zamuka, Maher, NITO)
+3. Develop test suite
+4. Performance optimization
+5. Production deployment
+
+---
+
+**SAMBARA OS SOFTWARE DESIGN DOCUMENT**
+
+**END OF SPECIFICATION**
+
+**Version 1.0**
+
+**Status: Implementation Ready**

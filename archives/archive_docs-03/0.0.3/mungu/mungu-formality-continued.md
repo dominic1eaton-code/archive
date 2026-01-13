@@ -3319,10 +3319,10 @@ These names capture the **dualistic relationship** between **dynamic** (changing
 ### **Hierarchy Overview with New Names:**
 
 ```
-U-system Monon (Universal System)   
+S-system Monon (Universal System)   (previoualy called U-system, but changed as to not conflct with unit U-theory)
 │
 ├── **Vibrons**: Dynamic Systems (K-systems, E-systems)
-│    ├── K-systems (Dynamic Systems)
+│    ├── K-systems (Kolonic, Dynamic Systems)
 │    └── E-systems (Equipped Systems)
 │
 └── **Stasisons**: Static Systems (T-systems, P-systems, I-systems, X-systems)

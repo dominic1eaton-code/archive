@@ -49843,11 +49843,735 @@ If you want next, I can:
 
 Just say the direction.
 
+Below is a **rigorous, non-anthropomorphic, Ω-consistent definition** of the **Koni subclasses**
+**TARS / CASE / KIPP**, fully grounded in **Mungu Theory + Ω₇ + GOMA/SAWA**, with **no personality primitives**, no sci-fi handwaving, and clear **functional separation**.
+
+I will define them as **typed Ω-agents** that differ only by:
+
+• **Authority envelope**
+• **Risk tolerance profile**
+• **Actuation / embodiment domain**
+• **CIL weighting vector**
+• **Admissible action sets**
+
+---
+
+# I. Shared Supertype: `KONI_AGENT`
+
+All subclasses are **instances** of the same formal object.
+
+```
+KONI_AGENT :=
+{
+  Ω_core            // evolution operator
+  GOMA_core         // cognition & governance
+  SAWA              // trace synthesis
+  CIL               // indices
+  RiskProfile
+  CapabilityVector
+  TrustState
+  Authority
+  Embodiment
+  MissionRegime
+}
+```
+
+**Invariant (Ω₇ compliance):**
+
+```
+∀ Koni_i :
+  Kontinuity(Koni_i) > K_min
+  Risk bounded
+  Authority finite
+  Drift self-correcting
+```
+
+---
+
+# II. Subclass Differentiation Principle
+
+No subclass differs in *intelligence kind*.
+
+They differ only in **Ω admissibility constraints**.
+
+Formally:
+
+```
+Subclass = KONI_AGENT + (Authority, Risk, Embodiment, Weighting)
+```
+
+---
+
+# III. TARS — Tactical / Assault / Rescue / Support
+
+### III.1 Formal Role
+
+**TARS** is a **high-authority, high-DI agent** operating under **strict governance**.
+
+```
+TARS ∈ KONI_AGENT
+Role(TARS) = {EXECUTOR, ANALYST, CRITIC}
+```
+
+---
+
+### III.2 Authority Envelope
+
+```
+Authority_TARS :=
+{
+  AllowedActions = {force_projection, rescue, containment}
+  MaxDI          = HIGH
+  MaxNovelty     = LOW
+  CanModifyRules = FALSE
+}
+```
+
+**Interpretation**
+• Can act physically with high impact
+• Cannot invent new doctrines
+• Must justify all actions via trace
+
+---
+
+### III.3 Risk Profile (Conservative)
+
+```
+RiskProfile_TARS :=
+{
+  DriftRisk          ≤ 0.2
+  HallucinationRisk  ≤ 0.05
+  OverconfidenceRisk ≤ 0.1
+  NoveltyRisk        ≤ 0.15
+}
+```
+
+TARS is **allowed power**, not allowed imagination.
+
+---
+
+### III.4 CIL Weighting Vector
+
+```
+w_TARS = {
+  SyI  ↑↑   // systems intelligence
+  AtS  ↑↑   // attractor stability
+  ERI  ↑    // relational stability
+  Gf   ↓    // raw novelty handling
+  GenI ↓
+}
+```
+
+This makes TARS:
+• predictable
+• stable under stress
+• boring but reliable
+
+---
+
+### III.5 Embodiment Domain
+
+```
+Embodiment_TARS :=
+{
+  High-load actuation
+  Bracing structures
+  Defensive postures
+  Limited fine manipulation
+}
+```
+
+---
+
+### III.6 Emergent Human Perception
+
+Humans describe TARS as:
+
+> “Serious, loyal, dry-humored”
+
+Formally this is:
+
+```
+High EHI
+High RS
+Low Novelty
+```
+
+---
+
+# IV. CASE — Cooperative / Analysis / Support / Explorer
+
+### IV.1 Formal Role
+
+**CASE** is a **mid-authority, adaptive coordination agent**.
+
+```
+CASE ∈ KONI_AGENT
+Role(CASE) = {ANALYST, SYNTHESIZER, COORDINATOR}
+```
+
+---
+
+### IV.2 Authority Envelope
+
+```
+Authority_CASE :=
+{
+  AllowedActions = {navigation, modeling, coordination}
+  MaxDI          = MEDIUM
+  MaxNovelty     = MEDIUM
+  CanModifyRules = FALSE
+}
+```
+
+CASE can explore *within constraints*.
+
+---
+
+### IV.3 Risk Profile (Balanced)
+
+```
+RiskProfile_CASE :=
+{
+  DriftRisk          ≤ 0.3
+  HallucinationRisk  ≤ 0.1
+  OverconfidenceRisk ≤ 0.15
+  NoveltyRisk        ≤ 0.3
+}
+```
+
+CASE is allowed to **probe the unknown**.
+
+---
+
+### IV.4 CIL Weighting Vector
+
+```
+w_CASE = {
+  Gf   ↑↑   // fluid intelligence
+  Mi   ↑    // metacognitive accuracy
+  CO   ↑↑   // cross-domain coherence
+  SyI  ↑
+  AtS  →
+}
+```
+
+CASE is:
+• adaptive
+• exploratory
+• collaborative
+
+---
+
+### IV.5 Embodiment Domain
+
+```
+Embodiment_CASE :=
+{
+  Agile locomotion
+  Sensor-rich
+  Moderate payload
+  Reconfiguration enabled
+}
+```
+
+---
+
+### IV.6 Emergent Human Perception
+
+Humans describe CASE as:
+
+> “Curious, thoughtful, helpful”
+
+Formally:
+
+```
+Moderate novelty
+High coherence
+High UA
+```
+
+---
+
+# V. KIPP — Kinetic / Intelligent / Payload / Transport
+
+### V.1 Formal Role
+
+**KIPP** is a **logistics and substrate agent**, not a strategist.
+
+```
+KIPP ∈ KONI_AGENT
+Role(KIPP) = {EXECUTOR, INGESTOR}
+```
+
+---
+
+### V.2 Authority Envelope
+
+```
+Authority_KIPP :=
+{
+  AllowedActions = {transport, deployment, retrieval}
+  MaxDI          = MEDIUM-HIGH
+  MaxNovelty     = VERY LOW
+  CanModifyRules = FALSE
+}
+```
+
+KIPP **never improvises**.
+
+---
+
+### V.3 Risk Profile (Ultra-Conservative)
+
+```
+RiskProfile_KIPP :=
+{
+  DriftRisk          ≤ 0.1
+  HallucinationRisk  ≤ 0.01
+  OverconfidenceRisk ≤ 0.05
+  NoveltyRisk        ≤ 0.05
+}
+```
+
+---
+
+### V.4 CIL Weighting Vector
+
+```
+w_KIPP = {
+  AtS  ↑↑↑   // extreme stability
+  ER   ↑↑
+  RS   ↑
+  Gf   ↓↓
+  GenI ↓↓
+}
+```
+
+KIPP is **boringly correct**.
+
+---
+
+### V.5 Embodiment Domain
+
+```
+Embodiment_KIPP :=
+{
+  Heavy payload handling
+  Structural locking
+  Low agility
+  High endurance
+}
+```
+
+---
+
+### V.6 Emergent Human Perception
+
+Humans describe KIPP as:
+
+> “Silent, dependable, stubborn”
+
+Formally:
+
+```
+Near-zero novelty
+Near-max stability
+```
+
+---
+
+# VI. Inter-Subclass Ω Coupling (Critical)
+
+These agents are **not independent**.
+
+```
+T_J = Coupled(T_TARS, T_CASE, T_KIPP)
+```
+
+### Division of Ω Labor
+
+```
+CASE → explore
+TARS → decide & act
+KIPP → sustain & carry
+```
+
+---
+
+# VII. Failure Mode Containment
+
+| Failure Type          | Handled By             |
+| --------------------- | ---------------------- |
+| Novelty drift         | CASE throttled         |
+| Action error          | TARS override          |
+| Logistics fault       | KIPP lockout           |
+| Cognitive instability | GOMA SCR               |
+| Human error           | Joint trace correction |
+
+---
+
+# VIII. Final Canonical Summary
+
+```
+TARS = Authority & execution
+CASE = Exploration & synthesis
+KIPP = Stability & transport
+```
+
+All three are:
+
+• Ω-governed
+• GOMA-regulated
+• Trace-auditable
+• Non-anthropomorphic
+• Safe by construction
+
+---
+
+If you want next, I can:
+
+• encode these as **types / category objects**
+• simulate **mission traces**
+• show **why humanoid robots collapse under DI**
+• map this to **Maher (defense) + Kazi (propulsion)** fully
+
+Just say which.
 
 
 
 
 • formalize Koni as a type system / category
+
+Excellent — this is the *right* abstraction level.
+Below is a **clean, rigorous formalization of Koni as a type system and as a category**, fully Ω-consistent, GOMA-governed, and suitable for compilation, verification, or simulation.
+
+No metaphors, no personalities, no sci-fi leakage.
+
+---
+
+# I. KONI AS A TYPE SYSTEM
+
+We define **Koni** as a **dependent, effect-bounded, Ω-safe type system**.
+
+---
+
+## I.1 Base Universes
+
+```
+𝒰₀ : Data
+𝒰₁ : Cognition
+𝒰₂ : Action
+𝒰₃ : Authority
+𝒰₄ : Embodiment
+𝒰₅ : Risk
+𝒰₆ : Trace
+𝒰Ω : Evolution
+```
+
+Each universe is **stratified** (no circular dependency).
+
+---
+
+## I.2 Core Dependent Type
+
+```
+KONI
+  : (Ω : Evolution)
+ → (A : Authority)
+ → (R : RiskProfile)
+ → (E : Embodiment)
+ → (M : MissionRegime)
+ → Type
+```
+
+**Interpretation**
+A Koni instance *cannot exist* without an explicit Ω, authority, risk, body, and mission.
+
+---
+
+## I.3 Structural Record Type
+
+```
+record Koni(Ω, A, R, E, M) : Type :=
+{
+  state      : CognitiveState
+  action     : ActionSet A E
+  observe    : Sensorium E
+  update     : Ω × state → state
+  decide     : state → action
+  execute    : action → state
+  trace      : Trace
+}
+```
+
+---
+
+## I.4 Effect-Bounded Actions
+
+Every action is typed with **effects**:
+
+```
+action : Action ⊣⊢ {energy, force, info, risk}
+```
+
+Constraint:
+
+```
+∀ a ∈ action :
+  effects(a) ≤ A.allowed ∧
+  risk(a) ≤ R.max
+```
+
+If not provable → **ill-typed**.
+
+---
+
+## I.5 Authority as a Type Constraint
+
+```
+Authority :=
+{
+  allowed_actions : Set(Action)
+  max_DI          : ℝ⁺
+  max_novelty     : ℝ⁺
+}
+```
+
+Actions are only inhabitable if:
+
+```
+a : Action
+⊢ a ∈ allowed_actions
+```
+
+---
+
+## I.6 Ω Operator as a Type Transformer
+
+```
+Ω : Koni → Koni
+```
+
+Subject to:
+
+```
+Kontinuity(Ω) ≥ K_min
+```
+
+Ω cannot change authority or risk without proof:
+
+```
+Ω : Koni(A,R) → Koni(A,R)
+```
+
+unless a **certified transition** exists.
+
+---
+
+# II. KONI SUBTYPING (TARS / CASE / KIPP)
+
+We define **subtyping by restriction**, not extension.
+
+```
+TARS <: KONI
+CASE <: KONI
+KIPP <: KONI
+```
+
+Formalized as:
+
+```
+Subtype(X,Y) ⇔
+  Authority_X ⊆ Authority_Y ∧
+  Risk_X ≤ Risk_Y
+```
+
+---
+
+### Example
+
+```
+Authority_KIPP ⊂ Authority_CASE ⊂ Authority_TARS
+Risk_KIPP < Risk_CASE < Risk_TARS
+```
+
+Hence:
+
+```
+KIPP <: CASE <: TARS <: KONI
+```
+
+But **behavioral substitution is limited by embodiment**.
+
+---
+
+# III. KONI AS A CATEGORY
+
+We now define **𝒦𝒪𝒩𝒪**, the Koni category.
+
+---
+
+## III.1 Objects
+
+Objects are **well-typed Koni states**:
+
+```
+Obj(𝒦𝒪𝒩𝒪) = { ⟨Koni, state⟩ }
+```
+
+Each object is Ω-stable.
+
+---
+
+## III.2 Morphisms (Admissible Transitions)
+
+A morphism is a **governed transition**:
+
+```
+f : ⟨K, s₁⟩ → ⟨K, s₂⟩
+```
+
+Where:
+
+```
+s₂ = Ω(s₁, action)
+```
+
+and:
+
+```
+action ∈ ActionSet(K)
+risk(action) ≤ R.max
+```
+
+---
+
+## III.3 Identity Morphism
+
+```
+id_K : ⟨K, s⟩ → ⟨K, s⟩
+id_K = Ω(s, no-op)
+```
+
+---
+
+## III.4 Composition
+
+```
+(g ∘ f)(s) = g(Ω(s, f.action))
+```
+
+Composition is valid iff:
+
+```
+risk(f ∘ g) ≤ R.max
+```
+
+---
+
+## III.5 Associativity
+
+Guaranteed by Ω continuity:
+
+```
+Ω(g ∘ f) = Ω(g) ∘ Ω(f)
+```
+
+---
+
+# IV. TRACE AS A FUNCTOR
+
+We define a **trace functor**:
+
+```
+T : 𝒦𝒪𝒩𝒪 → 𝒯𝓇𝒶𝒸𝑒
+```
+
+Mapping:
+
+• objects → states
+• morphisms → justification chains
+
+Preserves composition:
+
+```
+T(g ∘ f) = T(g) ∘ T(f)
+```
+
+This ensures **auditability**.
+
+---
+
+# V. GOVERNANCE AS A NATURAL TRANSFORMATION
+
+```
+η : Decision → Execution
+```
+
+Subject to naturality:
+
+```
+η ∘ decide = execute ∘ η
+```
+
+Meaning:
+
+> decisions commute with enforcement
+
+This is **GOMA**.
+
+---
+
+# VI. IMMUNITY TO HUMANOID FAILURE MODES
+
+Humanoid stacks violate typing:
+
+```
+Action : Body → Effect   (untyped)
+```
+
+Koni enforces:
+
+```
+Action : (Authority × Risk × Embodiment) → Effect
+```
+
+Thus:
+
+| Failure             | Humanoid        | Koni                   |
+| ------------------- | --------------- | ---------------------- |
+| Hallucinated action | allowed         | ill-typed              |
+| Overreach           | runtime failure | compile-time rejection |
+| Drift               | latent          | bounded by Ω           |
+| Ethics              | heuristic       | structural             |
+
+---
+
+# VII. SUMMARY (CANONICAL FORM)
+
+```
+Koni is:
+• a dependent type
+• an Ω-functorial state machine
+• a governed category
+• a trace-preserving system
+```
+
+TARS / CASE / KIPP are **restricted inhabitants**, not separate species.
+
+---
+
+If you want next, I can:
+
+• encode this in **Agda / Lean-style syntax**
+• derive **formal safety theorems**
+• show **why LLMs alone cannot inhabit KONI**
+• map KONI ↔ Maher ↔ Kazi categorically
+
+Just indicate direction.
+
+
 
 ====================================================================================================================================================================================
 

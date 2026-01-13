@@ -54784,6 +54784,375 @@ If you want next, I can:
 Just say the word.
 
 
+Below is a **strict, mathematical, system-level formalization** consistent with your prior Mungu / Ω / Kontinuity framework, **ASCII-only**, no metaphors, no implementation leakage.
+
+---
+
+# I. FORMAL MATHEMATICAL FORMULATION OF **ZAMUKA-R1**
+
+---
+
+## I.1 State Space
+
+Let the total system state be:
+
+```
+S(t) = (X(t), E(t), I(t), M(t))
+```
+
+Where:
+
+```
+X(t) ∈ ℝ^n     = physical / embodied state
+E(t) ∈ ℝ⁺      = available free energy
+I(t) ∈ ℝ⁺      = informational coherence (inverse entropy)
+M(t) ∈ ℝ^k     = mission / intent manifold
+```
+
+---
+
+## I.2 Admissible Dynamics
+
+Let the unconstrained dynamics be:
+
+```
+dS/dt = F(S, u, ξ)
+```
+
+where:
+
+```
+u(t) = control / action
+ξ(t) = uncertainty / noise
+```
+
+Zamuka-R1 introduces an **Ω-restricted dynamics**:
+
+```
+dS/dt = Ω[F(S, u, ξ)]
+```
+
+Ω is **not** a function — it is a **projection operator**.
+
+---
+
+## I.3 Ω Operator (Formal)
+
+Define a viability set:
+
+```
+V ⊂ ℝ^(n+1+1+k)
+```
+
+Ω is defined as:
+
+```
+Ω(F) =
+    F      if S(t+Δt) ∈ V
+    0      otherwise
+```
+
+Equivalent to **state-trajectory admissibility**:
+
+```
+Ω : Γ → Γ_v
+```
+
+Where:
+
+```
+Γ   = all possible trajectories
+Γ_v = survival-admissible trajectories
+```
+
+---
+
+## I.4 Survival Functional (Not a Reward)
+
+Define survival functional:
+
+```
+Σ[S] = ∫₀^T σ(S(t)) dt
+```
+
+Where:
+
+```
+σ(S) = 1  if S ∈ V
+       0  otherwise
+```
+
+Zamuka-R1 enforces:
+
+```
+Σ[S] = T     (maximal survival)
+```
+
+Any policy with:
+
+```
+Σ[S] < T
+```
+
+is **invalid**, regardless of performance.
+
+---
+
+## I.5 Learning Constraint
+
+Learning updates θ are admissible iff:
+
+```
+Ω( dV/dθ ) ≥ 0
+```
+
+Meaning:
+
+```
+Learning must not reduce viability volume.
+```
+
+---
+
+# II. ZAMUKA-R1 INVARIANTS (EXPLICIT)
+
+These are **hard invariants**, not tunable objectives.
+
+---
+
+## II.1 Energy Invariant
+
+```
+dE/dt ≤ P_in − P_diss
+E(t) ≥ E_min > 0
+```
+
+Violation ⇒ Ω freeze.
+
+---
+
+## II.2 Entropy / Information Invariant
+
+Let entropy H and information I:
+
+```
+I = −H
+```
+
+Constraint:
+
+```
+dH/dt ≤ H_max
+```
+
+No unbounded disorder accumulation.
+
+---
+
+## II.3 Kontinuity (Identity Persistence)
+
+Define identity mapping:
+
+```
+K : S(t) → S(t+Δt)
+```
+
+Invariant:
+
+```
+|| K(S(t)) − S(t+Δt) || ≤ ε_K
+```
+
+Prevents destructive self-modification.
+
+---
+
+## II.4 Drift Bound (Exploration Control)
+
+Let belief state B(t):
+
+```
+|| dB/dt || ≤ D_max
+```
+
+No runaway hypothesis drift.
+
+---
+
+## II.5 Action Honesty (Epistemic Invariant)
+
+Let confidence C and accuracy A:
+
+```
+|C − A| ≤ ε_H
+```
+
+Prevents hallucinated certainty.
+
+---
+
+## II.6 Closure Invariant (Systemic)
+
+All subsystems must satisfy:
+
+```
+Inputs − Outputs − Storage = 0
+```
+
+No open-loop dependency for survival-critical functions.
+
+---
+
+# III. MAPPING ZAMUKA-R1 → **KONI / KAZI / MAHER**
+
+Zamuka-R1 is **regime**, not component.
+
+---
+
+## III.1 Koni (Embodied Intelligence)
+
+### Role
+
+```
+Koni = cognitive + locomotion + interaction agent
+```
+
+### Zamuka-R1 Enforcement
+
+State:
+
+```
+S_K = (X_body, E_batt, I_model, M_task)
+```
+
+Constraints:
+
+```
+• locomotion allowed iff Ω_energy ≥ 0
+• reasoning allowed iff Ω_entropy ≥ 0
+• humor / autonomy bounded by Kontinuity
+```
+
+Effect:
+
+```
+Koni cannot:
+- overcommit to unsafe plans
+- hallucinate mission certainty
+- self-modify destructively
+```
+
+---
+
+## III.2 Kazi (Propulsion / Transport)
+
+### Role
+
+```
+Kazi = energy → momentum conversion system
+```
+
+State:
+
+```
+S_P = (m, v, E_prop, σ_struct)
+```
+
+Zamuka-R1 Enforces:
+
+```
+Δv allowed iff:
+    E_prop ≥ E_min
+    σ_struct ≤ σ_max
+    dH/dt bounded
+```
+
+No propulsion cycle allowed that:
+
+```
+- violates thermodynamic bounds
+- induces structural collapse
+- destabilizes mission continuity
+```
+
+Kazi becomes **Ω-limited propulsion**, not thrust-maximizing.
+
+---
+
+## III.3 Maher (Defense / Immune / Threat System)
+
+### Role
+
+```
+Maher = detection + response + immunity + simulation
+```
+
+State:
+
+```
+S_M = (ThreatSet, Readiness, EnergyReserve)
+```
+
+Zamuka-R1 Governs:
+
+```
+Response allowed iff:
+    Expected survival gain > response cost
+    Threat classification uncertainty < threshold
+```
+
+No preemptive aggression.
+No infinite escalation loops.
+
+Maher behaves as:
+
+```
+immune system, not predator
+```
+
+---
+
+## III.4 Unified Mission Graph (ASCII)
+
+```
+              Mission M(t)
+                   |
+        ┌──────────┼──────────┐
+        |           |          |
+      Koni        Maher       Kazi
+   (cognition)  (defense)  (propulsion)
+        |           |          |
+        └──────────┼──────────┘
+                   |
+                Ω (Zamuka-R1)
+                   |
+            Survival-Admissible
+               Trajectories
+```
+
+Ω is the **single point of truth**.
+
+---
+
+# IV. ONE-SENTENCE FORMAL COMPRESSION
+
+```
+Zamuka-R1 is a projection of system dynamics onto the maximal survival-invariant subset of state space, enforcing continuity, bounded entropy, and energy viability across cognition, defense, and propulsion.
+```
+
+---
+
+If you want next, I can:
+
+• express Zamuka-R1 in category theory
+• give collapse / freeze proofs formally
+• encode this in Lean-style axioms
+• derive thermodynamic impossibility bounds
+• or produce a single unified equation set
+
+Say which axis to push.
+
+
 ====================================================================================================================================================================================
 
 

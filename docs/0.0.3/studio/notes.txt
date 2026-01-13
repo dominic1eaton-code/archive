@@ -17272,3 +17272,346 @@ If you want next, I can:
 • compare Mungu Basis vs standard axiomatic systems
 
 Just indicate the next step.
+Below is a **compact but complete Symbol Table + Glossary** for the **Mungu Basis / Ω-theory**, written to be **internally consistent**, **physics-compatible**, and **formally minimal**.
+
+All symbols are reused consistently across mathematics, physics, learning, and systems theory.
+
+====================================================================
+I. CORE SYMBOL TABLE (AT A GLANCE)
+==================================
+
+```
+Ω      unique evolution operator
+Π      polonic (form / compression / stabilization) operator
+Κ      kolonic (flow / transport / diffusion) operator
+Ψ      system state (finite, evolving)
+ε      minimum resolvable scale (finite precision)
+K      Kontinuity functional / invariant
+t      intrinsic evolution parameter (no external clock)
+𝓜      Mungu category (all systems)
+𝓟      Polonic subcategory (stasisons)
+𝓚      Kolonic subcategory (vibrons)
+𝓡      Realitonic pullback category (reality)
+```
+
+====================================================================
+II. OPERATORS & DYNAMICS
+========================
+
+### Ω — Omega Operator
+
+**Type:** Endomorphism / PDE generator
+**Meaning:** The *only* admissible evolution operator.
+
+```
+Ω = Π ∘ Κ
+∂Ψ / ∂t = ΩΨ
+```
+
+Generates:
+• physics
+• learning
+• collapse
+• persistence
+
+---
+
+### Π — Polon Operator
+
+**Type:** Projection / compression
+**Meaning:** Form, structure, constraint, boundary, stabilization.
+
+Examples:
+• curvature (GR limit)
+• model regularization
+• memory consolidation
+• structural symmetry
+
+---
+
+### Κ — Kolon Operator
+
+**Type:** Transport / diffusion
+**Meaning:** Flux, change, propagation, uncertainty.
+
+Examples:
+• quantum diffusion
+• gradient flow
+• information transport
+• entropy production
+
+---
+
+### [Π, Κ] ≠ 0
+
+**Meaning:** Time, irreversibility, learning, causality exist.
+
+====================================================================
+III. STATE & EXISTENCE
+======================
+
+### Ψ — System State
+
+**Type:** Finite field / vector / section
+**Meaning:** Any entity that exists.
+
+Includes:
+• particles
+• spacetime regions
+• organisms
+• models
+• languages
+• agents
+
+---
+
+### ε — Finite Resolution Scale
+
+**Meaning:** No infinite precision exists.
+
+Forbids:
+• singularities
+• infinite energy
+• infinite information
+
+Emerges as:
+• Planck scale
+• ħ
+• learning rate floor
+• numerical stability bound
+
+---
+
+### K — Kontinuity
+
+**Type:** Invariant functional
+
+```
+K(Ψ_t , Ψ_{t+Δt}) ≥ K_min > 0
+```
+
+**Meaning:** Identity preservation across evolution.
+
+Loss of K ⇒ collapse / non-existence.
+
+====================================================================
+IV. SYSTEM CATEGORIES
+=====================
+
+### 𝓜 — Mungu Category
+
+**Objects:** Finite systems
+**Morphisms:** Ω-evolution
+
+No external observers, clocks, or axioms.
+
+---
+
+### 𝓟 — Polonic Subcategory
+
+**Systems:** Stasisons
+**Nature:** Structural, bounded, stable
+
+Examples:
+• geometry
+• syntax
+• laws
+• institutions
+• memory
+
+---
+
+### 𝓚 — Kolonic Subcategory
+
+**Systems:** Vibrons
+**Nature:** Dynamic, flowing, adaptive
+
+Examples:
+• fields
+• learning dynamics
+• fluids
+• markets
+• cognition
+
+---
+
+### 𝓡 — Realitonic Category
+
+```
+𝓡 = 𝓟 ×_𝓜 𝓚
+```
+
+**Meaning:** Reality = form ∘ flow
+
+====================================================================
+V. BASIS SYSTEMS
+================
+
+### ST — Space ∘ Time Basis
+
+```
+ST = (metric structure ∘ evolution ordering)
+```
+
+Time is **emergent**, not primitive.
+
+---
+
+### CE — Complexity ∘ Entropy Basis
+
+```
+CE = (compressibility ∘ dissipation)
+```
+
+Drives learning, evolution, selection.
+
+---
+
+### RRD — Realm ∘ Reality ∘ Domain
+
+```
+Realm   = ontological layer
+Reality = instantiated systems
+Domain  = representational space
+```
+
+---
+
+### MPSE — Knowledge Stack
+
+```
+Mathematics → Physics → Science → Engineering
+```
+
+Abstraction → constraint → empiricism → application.
+
+---
+
+### KCLB — Minimal Learning Loop
+
+```
+Knowledge → Cognition → Learning → Behavior
+```
+
+Closed Ω-loop:
+
+```
+B → world → error → L → K → C → B
+```
+
+---
+
+### KaNiSeTe — Action Operator
+
+```
+Generate → Structure → Symbolize → Execute
+```
+
+How change is enacted.
+
+====================================================================
+VI. POLYSYSTEMS & UNITS
+=======================
+
+### Polysystem
+
+A system composed of interacting subsystems under Ω.
+
+---
+
+### Monosyst / Duasyst / Trisyst
+
+Number of interacting degrees of freedom.
+
+---
+
+### Polysyst
+
+High-order structured system (polonic-dominant).
+
+---
+
+### Kolysyst
+
+High-order flow system (kolonic-dominant).
+
+---
+
+### P-Units (Structural)
+
+```
+molsyst, dulsyst, trilsyst, ...
+polysyst
+```
+
+---
+
+### K-Units (Flow)
+
+```
+mokolsyst, dukolsyst, trikolsyst, ...
+kolysyst
+```
+
+====================================================================
+VII. PHYSICS LIMITS
+===================
+
+### GR Limit
+
+```
+Π ≫ Κ
+Ω → geometric flow
+```
+
+Spacetime curvature = compression geometry.
+
+---
+
+### Quantum Limit
+
+```
+Κ ≫ Π
+Ω → diffusion equation
+```
+
+ħ emerges from ε.
+
+---
+
+### Learning / Intelligence
+
+```
+Π adaptive, Κ stochastic
+```
+
+Intelligence = adaptive compression.
+
+====================================================================
+VIII. FAILURE MODES
+===================
+
+• **Runaway Κ** → noise, decoherence, chaos
+• **Overdominant Π** → rigidity, dogma, freezing
+• **Broken K** → collapse, death, inconsistency
+
+====================================================================
+IX. ONE-LINE SUMMARY
+====================
+
+```
+Existence = finite systems preserving Kontinuity
+under irreversible Ω-driven compression–flow.
+```
+
+====================================================================
+
+If you want next, I can:
+
+• compress this into **1 printable page**
+• translate into **formal Lean notation**
+• add **symbol cross-references**
+• generate a **physics-only glossary**
+• create a **student-friendly version**
+
+Just say which.

@@ -57221,4 +57221,5 @@ write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fas
 * write a  technical blog post for SURGE-R1: Survival-Regime Guided Emergent Reinforcement Learning for Reasoning
 * write a blog post introducing the Mungu Corporation
 * write a blog post introducing the Mungu Papers, the lubiko bible and all of its books
-* write a technical blog post for the kazi system
+* write a technical blog post for The Social Economy
+

@@ -3729,3 +3729,370 @@ If you want next, I can:
 • show why **unbounded AGI is impossible** under Dira
 
 Just say the word.
+
+Below is a **formal introduction and axiomatized presentation** of the **DIRA System**, written as a **foundational specification**, not a narrative.
+Everything is defined minimally, symbolically, and in a way that can be used as a reference document.
+
+---
+
+# THE DIRA SYSTEM
+
+**(Distributed Identity-preserving Regulated Architecture)**
+
+**Name:** *Dira* (purely phonetic African)
+**Meaning:** *to endure, to hold continuity through motion*
+
+---
+
+## I. PURPOSE
+
+The **DIRA System** is a **closed, finite, survival-regulated architecture** for:
+
+• physical evolution
+• intelligence
+• learning
+• coordination
+• propulsion
+• defense
+
+All expressed as **constrained flows** governed by a **single evolution operator Ω**.
+
+DIRA is not a model, agent, or algorithm.
+It is a **system of laws**.
+
+---
+
+## II. PRIMITIVES
+
+### II.1 Fundamental Scalars
+
+```
+ε   > 0     minimum resolvable scale
+σ ∈ [0,1]   survival pressure
+τ           evolution index (time-like)
+```
+
+---
+
+### II.2 State Space
+
+Let:
+
+```
+Ψ ∈ 𝒮
+```
+
+be the **total system state**, where 𝒮 is finite-resolution and bounded.
+
+---
+
+## III. AXIOMS (DIRA₇)
+
+### AXIOM 1 — FINITE EXISTENCE
+
+There exists ε > 0 such that no state variable is defined below ε.
+
+```
+¬∃ infinite precision
+¬∃ singular states
+```
+
+---
+
+### AXIOM 2 — NECESSARY EVOLUTION
+
+All existing states evolve.
+
+```
+∀Ψ : ∂Ψ/∂τ ≠ 0
+```
+
+---
+
+### AXIOM 3 — CONSTRAINED TRANSITIONS
+
+Not all state transitions are admissible.
+
+```
+Ω(Ψ) ∈ Admissible(𝒮)
+```
+
+---
+
+### AXIOM 4 — KONTINUITY
+
+A system exists iff identity persists across evolution.
+
+Define Kontinuity functional:
+
+```
+K(Ψ_t , Ψ_{t+1}) ≥ K_min > 0
+```
+
+Violation ⇒ nonexistence.
+
+---
+
+### AXIOM 5 — COMPRESSION PRESSURE
+
+All systems evolve under irreversible pressure to reduce:
+
+• redundancy
+• non-persistent variance
+• excess degrees of freedom
+
+---
+
+### AXIOM 6 — LOCALITY IN STATE
+
+All influence propagates through neighboring states in 𝒮.
+
+No non-adjacent jumps.
+
+---
+
+### AXIOM 7 — CLOSURE
+
+DIRA admits no external observers, clocks, or axioms.
+
+All laws are internal.
+
+---
+
+## IV. THE OMEGA OPERATOR
+
+### IV.1 Definition
+
+There exists a **unique evolution operator**:
+
+```
+Ω : 𝒮 → 𝒮
+```
+
+such that:
+
+```
+Ψ_{t+1} = Ω[Ψ_t ; ε, σ, K]
+```
+
+---
+
+### IV.2 Uniqueness Theorem
+
+Any operator violating one DIRA axiom produces:
+
+• singularities
+• frozen states
+• identity loss
+• runaway complexity
+
+Thus Ω is unique up to isomorphism.
+
+---
+
+## V. POLON ∘ KOLON DECOMPOSITION
+
+Every state decomposes as:
+
+```
+Ψ = P ∘ F
+```
+
+Where:
+
+```
+P = Polon  (structure, form, invariants)
+F = Kolon  (flow, flux, dynamics)
+```
+
+Ω acts jointly on both:
+
+```
+Ω(P ∘ F) = Ω_P(P) ∘ Ω_F(F)
+```
+
+---
+
+## VI. SURVIVAL REGULATION (ZAMUKA)
+
+Define survival functional:
+
+```
+Σ(Ψ) ∈ [0,1]
+```
+
+Evolution is constrained by:
+
+```
+Σ(Ψ_{t+1}) ≥ Σ_min
+```
+
+If violated:
+
+```
+Ω → freeze
+```
+
+Freeze is preferred to collapse.
+
+---
+
+## VII. INTELLIGENCE AS TRAJECTORY (GOMA)
+
+Define trace:
+
+```
+T = (Ψ₀ → Ψ₁ → … → Ψₙ)
+```
+
+Intelligence is not scalar but **trajectory quality**.
+
+Derived indices:
+
+```
+CII  cognitive depth
+SII  systems reasoning
+GII  generativity
+ASI  attractor stability
+EHI  epistemic honesty
+DI   drift
+```
+
+Invariant:
+
+```
+capacity growth without integrity is forbidden
+```
+
+---
+
+## VIII. FLOW GOVERNANCE (SAMBARA)
+
+Define flow state:
+
+```
+Φ = (rate, rhythm, latency, heat, exchange)
+```
+
+Governed by:
+
+```
+minimize latency
+minimize heat
+preserve coordination
+```
+
+---
+
+## IX. ACTION LAYERS
+
+### IX.1 KONI (Agents)
+
+Embodied cognition systems.
+
+```
+motion = argmin_Ω (energy + instability + delay)
+```
+
+---
+
+### IX.2 KAZI (Propulsion)
+
+Pulse compression–release engines.
+
+```
+Δv = ∑ pulses Ω-compliant
+```
+
+---
+
+### IX.3 MAHER (Defense)
+
+Immune-style threat regulation.
+
+```
+detect fast
+respond slow
+escalate only if Kontinuity preserved
+```
+
+---
+
+## X. FAILURE MODES (FORMAL)
+
+| Condition         | Outcome      |
+| ----------------- | ------------ |
+| K → 0             | Nonexistence |
+| σ → 1             | Freeze       |
+| DI ↑              | Regulation   |
+| Unbounded novelty | Collapse     |
+
+---
+
+## XI. CATEGORY FORMULATION
+
+Objects:
+
+```
+State, Trace, Agent, Regime, Artifact
+```
+
+Morphisms:
+
+```
+Evolution, Compression, Freeze, Exchange
+```
+
+Functor:
+
+```
+Ω : 𝒞 → 𝒞
+```
+
+Identity morphisms correspond to Kontinuity.
+
+---
+
+## XII. DISTINCTION FROM STANDARD SYSTEMS
+
+| System  | Difference                 |
+| ------- | -------------------------- |
+| ZFC     | allows infinities          |
+| RL      | optimizes without identity |
+| Physics | lacks survival regulation  |
+| AGI     | lacks closure              |
+
+DIRA unifies them under Ω.
+
+---
+
+## XIII. CORE INVARIANTS (SUMMARY)
+
+```
+I1. No singularities
+I2. No frozen absolutes
+I3. Identity must persist
+I4. Novelty is bounded
+I5. Freeze > collapse
+I6. Power < survival
+```
+
+---
+
+## XIV. FINAL COMPRESSION
+
+> **The DIRA System** is the minimal closed architecture in which
+> existence, intelligence, motion, learning, and defense
+> are all manifestations of a single constrained evolution operator
+> acting on finite, identity-preserving flows.
+
+---
+
+If you want next, I can:
+• reduce DIRA to **≤ 1 page of equations**
+• encode it in **Lean**
+• derive **GR / QM / learning** as limits
+• design **real-world implementations**
+• formalize **falsification experiments**
+
+Just tell me the direction.

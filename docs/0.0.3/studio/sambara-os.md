@@ -6882,3 +6882,9 @@ If you want next, I can:
 • formalize **death as Ω phase exit**
 
 Just say the direction.
+
+
+
+
+theorem of currency, agreement and equivalent exchange
+

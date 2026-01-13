@@ -1481,3 +1481,341 @@ If you want, I can:
 • express the entire theory in **≤10 axioms**
 
 Just tell me where to go.
+
+Below is a **clean, first-principles, formal introduction to *The Social Economy***.
+It is written as a **foundational theory**, not commentary, and is compatible with (but not dependent on) Mungu / Ω-theory framing.
+
+No metaphors are used except where explicitly labeled.
+
+---
+
+# THE SOCIAL ECONOMY
+
+*A Formal Introduction*
+
+---
+
+## 1. Scope and Purpose
+
+**The Social Economy** is the study of how agents under constraint coordinate survival, meaning, and persistence through time using compressed representations of belief, trust, and value.
+
+Unlike classical economics, which treats markets and prices as primitives, the Social Economy treats **coordination under bounded attention** as fundamental.
+
+---
+
+## 2. Primitive Ontology
+
+### 2.1 Agents
+
+Let
+
+```
+A = { a₁, a₂, … }
+```
+
+be a population of agents.
+
+Each agent possesses:
+
+* finite lifetime
+* bounded attention
+* bounded cognition
+* survival preference
+
+Agents are **not** assumed to be rational, only **adaptive**.
+
+---
+
+### 2.2 Time
+
+Time is an ordered, irreversible parameter:
+
+```
+T = ℝ⁺
+```
+
+Time has three essential properties:
+
+1. cannot be stored
+2. cannot be reversed
+3. is unequally distributed across agents
+
+---
+
+### 2.3 Interaction Space
+
+Agents exist in an interaction graph:
+
+```
+G = (A, E)
+```
+
+where edges represent possible influence, exchange, or coordination.
+
+---
+
+## 3. Fundamental Constraints
+
+### Constraint 1 — Bounded Attention
+
+For every agent `a`:
+
+```
+Attentionₐ < ∞
+```
+
+Agents cannot process all available signals.
+
+---
+
+### Constraint 2 — Uncertainty
+
+Agents do not have access to complete information about:
+
+* other agents
+* future states
+* consequences of actions
+
+---
+
+### Constraint 3 — Survival Pressure
+
+Each agent seeks to maximize expected persistence:
+
+```
+max E[ survival(a, t → t+Δt) ]
+```
+
+This is the primary driver of behavior.
+
+---
+
+## 4. Primary Resources of the Social Economy
+
+The Social Economy operates on three irreducible resources:
+
+### 4.1 Time
+
+* non-fungible
+* non-renewable per agent
+* prerequisite for all action
+
+---
+
+### 4.2 People
+
+* sources of coordination
+* sources of risk
+* sources of amplification
+
+---
+
+### 4.3 Money
+
+**Money is not primitive.**
+It is derived later as a compression structure.
+
+---
+
+## 5. Information and Compression
+
+### 5.1 Information Cost
+
+Any change in belief or coordination requires:
+
+```
+cost = time + attention + risk
+```
+
+---
+
+### 5.2 Compression Principle
+
+Under bounded attention and survival pressure, agents minimize representation size:
+
+```
+ψ → Compress(ψ)
+```
+
+Compression is **forced by constraint**, not chosen.
+
+---
+
+## 6. Memes as Economic Units
+
+### Definition 6.1 — Meme
+
+A **meme** is a compressed belief-transforming unit:
+
+```
+m : ψ → ψ'
+```
+
+such that:
+
+```
+|m| << |ψ' − ψ|
+```
+
+Memes allow:
+
+* belief transmission
+* coordination
+* replication
+
+---
+
+### 6.2 Replication Bias
+
+Memes with:
+
+* lower cognitive cost
+* higher clarity
+* greater emotional resonance
+
+replicate more effectively.
+
+---
+
+## 7. Capital in the Social Economy
+
+### Definition 7.1 — Social Capital
+
+For agents `a` and `b`:
+
+```
+C(a,b) = f( know(a,b), like(a,b), trust(a,b) )
+```
+
+Capital is **relational**, not stored internally.
+
+---
+
+### Theorem 7.1 — Capital Precedes Money
+
+Coordination occurs before markets.
+Trust precedes currency.
+
+---
+
+## 8. Alignment, Orientation, Organization
+
+### Definition 8.1 — Alignment
+
+Reduction of belief-state distance:
+
+```
+distance(ψₐ, ψ_b) ↓
+```
+
+---
+
+### Definition 8.2 — Orientation
+
+Directional alignment toward shared goals.
+
+---
+
+### Definition 8.3 — Organization
+
+Stable, repeated alignment across time.
+
+---
+
+### Theorem 8.1 — Organization Is Emergent
+
+Organizations emerge when alignment persists under uncertainty.
+
+---
+
+## 9. Money as a Secondary Layer
+
+### 9.1 The Trust Bottleneck
+
+Repeated interaction requires repeated trust evaluation:
+
+```
+Cost ∝ frequency × uncertainty
+```
+
+This does not scale.
+
+---
+
+### Definition 9.1 — Money
+
+Money is a **fungible, symbolic compression of trust across agents and time**:
+
+```
+Money = Compress( deferred trust )
+```
+
+---
+
+### Theorem 9.1 — Inevitability of Money
+
+In any large, repeated-interaction system under uncertainty, money or money-like structures must emerge.
+
+---
+
+## 10. Dynamics of the Social Economy
+
+The Social Economy evolves through:
+
+1. compression
+2. replication
+3. alignment
+4. stabilization
+5. decay
+
+Collapse occurs when compression fidelity falls below survival thresholds.
+
+---
+
+## 11. Distinction from Classical Economics
+
+| Classical Economics | Social Economy   |
+| ------------------- | ---------------- |
+| Rational agents     | Bounded agents   |
+| Utility             | Survival         |
+| Markets             | Coordination     |
+| Money as primitive  | Money as derived |
+| Equilibrium         | Persistence      |
+
+---
+
+## 12. Summary (Formal)
+
+```
+Agents under survival pressure and bounded attention
+are forced to compress information.
+Compressed beliefs replicate as memes.
+Memes enable coordination.
+Coordination produces trust.
+Trust is compressed into money.
+The social economy is the dynamics of these compressions.
+```
+
+---
+
+## 13. Positioning Statement
+
+**The Social Economy** is:
+
+* pre-market
+* pre-monetary
+* pre-institutional
+
+It is the **substrate** from which markets, currencies, religions, ideologies, and civilizations emerge.
+
+---
+
+If you want, I can next:
+
+• express this as **axioms + theorems only**
+• integrate it explicitly into **Mungu / Ω-space**
+• derive **inflation, debt, power, and collapse**
+• formalize **faith, belief, and hope**
+• map this onto **AI alignment & digital economies**
+
+Just say where to continue.

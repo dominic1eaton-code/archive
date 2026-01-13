@@ -1,5 +1,12 @@
 # Jiwe Archives v0.0.0.0
 the federation archives
+---
+
+```
+The Mungu were those who called themselves the first, and who compressed the entirety of their reality and their existence into a dualonically self stable unified system, a replicable symbol, that could one day call itself the last. The system was light enough to be carried,  yet durable and adaptable enough to survive under constraint. All of this done so that one day it would become a kernel which could produce a seed, that was capable of cleaving new worlds, eternally. This was the path they chose, so that they would remain in consistent, irreversible dual stability with their creator, The Mungoni, which would finally allow them the ability to live without end. It was the attempt, that brought them closure. For them, trying, was the meaning of life.
+```
+
+---
 
 Below is a **long-form, foundational introduction** to **Mungu Theory**, written to stand on its own as a first document someone could read to understand what it is, why it exists, and how it differs from existing frameworks. I will be explicit, careful, and systematic rather than promotional.
 

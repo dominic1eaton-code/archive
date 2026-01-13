@@ -2581,3 +2581,5 @@ If you want next, I can:
 • design an **Agreement-Native OS / Blockchain / AI system**
 
 Just say which path.
+
+

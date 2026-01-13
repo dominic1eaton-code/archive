@@ -2420,3 +2420,1717 @@ PostgreSQL --> SDE Management: SDE ID
 SDE Management -> Infrastructure: Provision container/VM
 Infrastructure --> SDE Management: Provisioning initiated
 SDE Management --> API Gateway: 202 Accepted {sde
+_id, status}
+API Gateway --> Developer: Response
+
+[Async Provisioning]
+Infrastructure -> Infrastructure: Create environment
+Infrastructure -> SDE Management: Provisioning complete
+SDE Management -> PostgreSQL: Update status to 'active'
+SDE Management -> Event Bus: Publish SDE_PROVISIONED event
+Event Bus -> Notifications: Forward event
+Notifications -> Developer: Notify provisioning complete
+```
+
+### Class Design
+
+```zig
+// SDE Model
+pub const SDE = struct {
+    id: []const u8,
+    owner_id: []const u8,
+    template_id: []const u8,
+    name: []const u8,
+    type: SDEType,
+    status: SDEStatus,
+    config: Config,
+    snapshot_version: u32,
+    created_at: i64,
+    updated_at: i64,
+    
+    pub const SDEType = enum {
+        local,
+        remote,
+        cloud,
+    };
+    
+    pub const SDEStatus = enum {
+        provisioning,
+        active,
+        stopped,
+        suspended,
+        terminated,
+    };
+    
+    pub const Config = struct {
+        cpu_cores: u8,
+        memory_gb: u8,
+        storage_gb: u16,
+        environment_vars: std.StringHashMap([]const u8),
+        tools: []const []const u8,
+    };
+};
+
+// Provisioning Manager
+pub const ProvisioningManager = struct {
+    infrastructure: *InfrastructureAdapter,
+    repository: *SDERepository,
+    ai_service: *AIService,
+    
+    pub fn provision(
+        self: *ProvisioningManager,
+        owner_id: []const u8,
+        template_id: []const u8,
+        config: SDE.Config
+    ) ![]const u8 {
+        // Optimize configuration using AI
+        const optimized_config = try self.ai_service.optimizeConfig(config);
+        
+        // Create SDE record
+        var sde = SDE{
+            .id = generateUUID(),
+            .owner_id = owner_id,
+            .template_id = template_id,
+            .name = "SDE-" ++ owner_id[0..8],
+            .type = .cloud,
+            .status = .provisioning,
+            .config = optimized_config,
+            .snapshot_version = 0,
+            .created_at = timestamp(),
+            .updated_at = timestamp(),
+        };
+        
+        try self.repository.create(&sde);
+        
+        // Async provisioning
+        try self.provisionAsync(sde.id);
+        
+        return sde.id;
+    }
+    
+    fn provisionAsync(self: *ProvisioningManager, sde_id: []const u8) !void {
+        // This runs in a background job
+        const sde = try self.repository.findById(sde_id);
+        
+        // Call infrastructure adapter
+        try self.infrastructure.createEnvironment(sde);
+        
+        // Update status
+        sde.status = .active;
+        try self.repository.update(sde);
+        
+        // Publish event
+        try publishEvent("SDE_PROVISIONED", sde);
+    }
+};
+
+// Snapshot Manager
+pub const SnapshotManager = struct {
+    storage: *ObjectStorage,
+    repository: *SnapshotRepository,
+    
+    pub fn createSnapshot(
+        self: *SnapshotManager,
+        sde_id: []const u8,
+        description: []const u8
+    ) ![]const u8 {
+        const sde = try getSDE(sde_id);
+        
+        // Capture current state
+        const snapshot_data = try captureSDEState(sde);
+        
+        // Store in object storage
+        const snapshot_path = try self.storage.store(snapshot_data);
+        
+        // Create snapshot record
+        const snapshot = Snapshot{
+            .id = generateUUID(),
+            .sde_id = sde_id,
+            .version = sde.snapshot_version + 1,
+            .snapshot_path = snapshot_path,
+            .description = description,
+            .created_at = timestamp(),
+        };
+        
+        try self.repository.create(&snapshot);
+        
+        // Update SDE snapshot version
+        sde.snapshot_version += 1;
+        try updateSDE(sde);
+        
+        return snapshot.id;
+    }
+    
+    pub fn rollback(
+        self: *SnapshotManager,
+        sde_id: []const u8,
+        snapshot_id: []const u8
+    ) !void {
+        const snapshot = try self.repository.findById(snapshot_id);
+        
+        // Retrieve snapshot data
+        const snapshot_data = try self.storage.retrieve(snapshot.snapshot_path);
+        
+        // Restore SDE state
+        try restoreSDEState(sde_id, snapshot_data);
+        
+        // Publish rollback event
+        try publishEvent("SDE_ROLLBACK_COMPLETED", .{
+            .sde_id = sde_id,
+            .snapshot_id = snapshot_id,
+        });
+    }
+};
+```
+
+---
+
+# 5. Data Design
+
+## 5.1 Data Model
+
+### Entity Relationship Diagram
+
+```
+┌─────────────┐           ┌─────────────┐           ┌─────────────┐
+│    users    │           │    roles    │           │  user_roles │
+├─────────────┤           ├─────────────┤           ├─────────────┤
+│ id (PK)     │           │ id (PK)     │           │ user_id (FK)│
+│ name        │           │ name        │           │ role_id (FK)│
+│ email       │           │ description │           │ assigned_at │
+│ created_at  │           └─────────────┘           └─────────────┘
+└──────┬──────┘                  │                          │
+       │                         └──────────┬───────────────┘
+       │                                    │
+       │ 1:N                                │ N:M
+       │                                    │
+       ▼                                    ▼
+┌─────────────┐           ┌─────────────┐           ┌─────────────┐
+│    sdes     │───────────│ sde_templates│          │sde_snapshots│
+├─────────────┤    N:1    ├─────────────┤          ├─────────────┤
+│ id (PK)     │           │ id (PK)     │          │ id (PK)     │
+│ owner_id(FK)│           │ name        │          │ sde_id (FK) │
+│ template_id │           │ base_image  │          │ version     │
+│ name        │           │ config      │          │ snapshot_path│
+│ type        │           │ version     │          │ created_at  │
+│ status      │           │ created_at  │          └─────────────┘
+│ config      │           └─────────────┘                  │
+│ created_at  │                                            │
+└──────┬──────┘                                            │
+       │                                                   │
+       │ 1:N                                               │ 1:N
+       │                                                   │
+       ▼                                                   │
+┌─────────────┐                                           │
+│ workspaces  │◀──────────────────────────────────────────┘
+├─────────────┤
+│ id (PK)     │
+│ owner_id(FK)│
+│ name        │
+│ type        │
+│ created_at  │
+└──────┬──────┘
+       │
+       │ 1:N
+       │
+       ▼
+┌─────────────┐           ┌─────────────┐
+│workspace_   │───────────│content_     │
+│ content     │    1:N    │ versions    │
+├─────────────┤           ├─────────────┤
+│ id (PK)     │           │ id (PK)     │
+│workspace_id │           │ content_id  │
+│ parent_id   │           │ version     │
+│ name        │           │ content     │
+│ type        │           │ changed_by  │
+│ content     │           │ created_at  │
+│ version     │           └─────────────┘
+│ created_at  │
+└──────┬──────┘
+       │
+       │ 1:N
+       │
+       ▼
+┌─────────────┐
+│  pipelines  │
+├─────────────┤
+│ id (PK)     │
+│ name        │
+│ sde_id (FK) │
+│ config      │
+│ status      │
+│ created_at  │
+└──────┬──────┘
+       │
+       │ 1:N
+       │
+       ▼
+┌─────────────┐           ┌─────────────┐
+│pipeline_    │───────────│build_       │
+│ executions  │    1:N    │ artifacts   │
+├─────────────┤           ├─────────────┤
+│ id (PK)     │           │ id (PK)     │
+│pipeline_id  │           │execution_id │
+│ trigger_type│           │ name        │
+│ status      │           │ path        │
+│ started_at  │           │ size        │
+│ completed_at│           │ checksum    │
+│ logs        │           │ created_at  │
+└─────────────┘           └─────────────┘
+```
+
+## 5.2 Database Schema
+
+### Users Table
+
+```sql
+CREATE TABLE users (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    deleted_at TIMESTAMP,
+    
+    CONSTRAINT email_format CHECK (email ~* '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$')
+);
+
+CREATE INDEX idx_users_email ON users(email) WHERE deleted_at IS NULL;
+CREATE INDEX idx_users_created_at ON users(created_at DESC);
+```
+
+### SDEs Table
+
+```sql
+CREATE TABLE sdes (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    owner_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    template_id UUID REFERENCES sde_templates(id),
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(50) NOT NULL CHECK (type IN ('local', 'remote', 'cloud')),
+    status VARCHAR(50) NOT NULL CHECK (status IN ('provisioning', 'active', 'stopped', 'suspended', 'terminated')),
+    config JSONB NOT NULL DEFAULT '{}',
+    snapshot_version INTEGER NOT NULL DEFAULT 0,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    terminated_at TIMESTAMP,
+    
+    CONSTRAINT valid_config CHECK (jsonb_typeof(config) = 'object')
+);
+
+CREATE INDEX idx_sdes_owner_id ON sdes(owner_id) WHERE terminated_at IS NULL;
+CREATE INDEX idx_sdes_status ON sdes(status) WHERE terminated_at IS NULL;
+CREATE INDEX idx_sdes_created_at ON sdes(created_at DESC);
+CREATE INDEX idx_sdes_config_gin ON sdes USING gin(config);
+```
+
+### Workspaces Table
+
+```sql
+CREATE TABLE workspaces (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    owner_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(50) NOT NULL CHECK (type IN ('personal', 'shared')),
+    description TEXT,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    deleted_at TIMESTAMP,
+    
+    CONSTRAINT unique_workspace_name_per_owner UNIQUE (owner_id, name, deleted_at)
+);
+
+CREATE INDEX idx_workspaces_owner_id ON workspaces(owner_id) WHERE deleted_at IS NULL;
+CREATE INDEX idx_workspaces_type ON workspaces(type) WHERE deleted_at IS NULL;
+```
+
+### Workspace Content Table
+
+```sql
+CREATE TABLE workspace_content (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    workspace_id UUID NOT NULL REFERENCES workspaces(id) ON DELETE CASCADE,
+    parent_id UUID REFERENCES workspace_content(id) ON DELETE CASCADE,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(50) NOT NULL CHECK (type IN ('file', 'folder')),
+    content TEXT,
+    version INTEGER NOT NULL DEFAULT 1,
+    created_by UUID NOT NULL REFERENCES users(id),
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    
+    CONSTRAINT unique_content_name_per_parent UNIQUE (workspace_id, parent_id, name)
+);
+
+CREATE INDEX idx_content_workspace_id ON workspace_content(workspace_id);
+CREATE INDEX idx_content_parent_id ON workspace_content(parent_id);
+CREATE INDEX idx_content_type ON workspace_content(type);
+```
+
+### Pipelines Table
+
+```sql
+CREATE TABLE pipelines (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name VARCHAR(255) NOT NULL,
+    sde_id UUID REFERENCES sdes(id) ON DELETE SET NULL,
+    config JSONB NOT NULL,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('active', 'paused', 'archived')),
+    created_by UUID NOT NULL REFERENCES users(id),
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+CREATE INDEX idx_pipelines_sde_id ON pipelines(sde_id);
+CREATE INDEX idx_pipelines_status ON pipelines(status);
+CREATE INDEX idx_pipelines_created_at ON pipelines(created_at DESC);
+```
+
+### Pipeline Executions Table
+
+```sql
+CREATE TABLE pipeline_executions (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    pipeline_id UUID NOT NULL REFERENCES pipelines(id) ON DELETE CASCADE,
+    trigger_type VARCHAR(50) NOT NULL CHECK (trigger_type IN ('manual', 'commit', 'schedule', 'webhook')),
+    triggered_by UUID REFERENCES users(id),
+    status VARCHAR(50) NOT NULL CHECK (status IN ('pending', 'running', 'success', 'failed', 'cancelled')),
+    started_at TIMESTAMP,
+    completed_at TIMESTAMP,
+    duration_seconds INTEGER,
+    logs TEXT,
+    error_message TEXT,
+    
+    CONSTRAINT valid_duration CHECK (
+        (completed_at IS NULL AND duration_seconds IS NULL) OR
+        (completed_at IS NOT NULL AND duration_seconds >= 0)
+    )
+);
+
+CREATE INDEX idx_executions_pipeline_id ON pipeline_executions(pipeline_id);
+CREATE INDEX idx_executions_status ON pipeline_executions(status);
+CREATE INDEX idx_executions_started_at ON pipeline_executions(started_at DESC);
+```
+
+## 5.3 Data Access Patterns
+
+### Query Patterns
+
+**User Queries**
+```sql
+-- Get user with roles
+SELECT u.*, array_agg(r.name) as roles
+FROM users u
+LEFT JOIN user_roles ur ON u.id = ur.user_id
+LEFT JOIN roles r ON ur.role_id = r.id
+WHERE u.id = $1
+GROUP BY u.id;
+
+-- Find users by email (case-insensitive)
+SELECT * FROM users
+WHERE LOWER(email) = LOWER($1)
+AND deleted_at IS NULL;
+```
+
+**SDE Queries**
+```sql
+-- Get active SDEs for a user
+SELECT * FROM sdes
+WHERE owner_id = $1
+AND status = 'active'
+AND terminated_at IS NULL
+ORDER BY created_at DESC;
+
+-- Get SDEs with template info
+SELECT s.*, t.name as template_name, t.version as template_version
+FROM sdes s
+LEFT JOIN sde_templates t ON s.template_id = t.id
+WHERE s.owner_id = $1
+AND s.terminated_at IS NULL;
+
+-- Get SDE resource usage statistics
+SELECT 
+    s.id,
+    s.name,
+    (s.config->>'cpu_cores')::int as cpu_cores,
+    (s.config->>'memory_gb')::int as memory_gb,
+    (s.config->>'storage_gb')::int as storage_gb,
+    COUNT(DISTINCT ps.id) as snapshot_count
+FROM sdes s
+LEFT JOIN sde_snapshots ps ON s.id = ps.sde_id
+WHERE s.owner_id = $1
+AND s.terminated_at IS NULL
+GROUP BY s.id;
+```
+
+**Workspace Queries**
+```sql
+-- Get workspace with content tree
+WITH RECURSIVE content_tree AS (
+    SELECT id, parent_id, name, type, 0 as depth, ARRAY[id] as path
+    FROM workspace_content
+    WHERE workspace_id = $1 AND parent_id IS NULL
+    
+    UNION ALL
+    
+    SELECT wc.id, wc.parent_id, wc.name, wc.type, ct.depth + 1, ct.path || wc.id
+    FROM workspace_content wc
+    INNER JOIN content_tree ct ON wc.parent_id = ct.id
+)
+SELECT * FROM content_tree ORDER BY path;
+
+-- Get recently updated content
+SELECT wc.*, u.name as updated_by_name
+FROM workspace_content wc
+JOIN users u ON wc.created_by = u.id
+WHERE wc.workspace_id = $1
+ORDER BY wc.updated_at DESC
+LIMIT 10;
+```
+
+**Pipeline Queries**
+```sql
+-- Get pipeline execution statistics
+SELECT 
+    p.id,
+    p.name,
+    COUNT(pe.id) as total_executions,
+    COUNT(CASE WHEN pe.status = 'success' THEN 1 END) as successful,
+    COUNT(CASE WHEN pe.status = 'failed' THEN 1 END) as failed,
+    AVG(pe.duration_seconds) as avg_duration_seconds,
+    MAX(pe.completed_at) as last_execution
+FROM pipelines p
+LEFT JOIN pipeline_executions pe ON p.id = pe.pipeline_id
+WHERE p.created_by = $1
+GROUP BY p.id, p.name;
+
+-- Get recent pipeline executions
+SELECT pe.*, p.name as pipeline_name
+FROM pipeline_executions pe
+JOIN pipelines p ON pe.pipeline_id = p.id
+WHERE p.sde_id = $1
+ORDER BY pe.started_at DESC
+LIMIT 20;
+```
+
+### Caching Strategy
+
+```
+┌─────────────────────────────────────────────────┐
+│              Caching Layers                      │
+├─────────────────────────────────────────────────┤
+│                                                  │
+│  L1: Application Cache (In-Memory)              │
+│  - Frequently accessed reference data            │
+│  - TTL: 5 minutes                                │
+│  - Size: 100MB per service instance              │
+│                                                  │
+│  L2: Redis Cache (Distributed)                  │
+│  - User sessions                                 │
+│  - API responses (short TTL)                     │
+│  - Rate limiting counters                        │
+│  - TTL: 15 minutes - 1 hour                     │
+│                                                  │
+│  L3: CDN Cache (Edge)                           │
+│  - Static assets                                 │
+│  - Public API responses                          │
+│  - TTL: 24 hours - 7 days                       │
+│                                                  │
+└─────────────────────────────────────────────────┘
+```
+
+**Cache Invalidation Strategies**
+
+1. **Time-based (TTL)**: Most common, suitable for non-critical data
+2. **Event-based**: Invalidate on data changes via Kafka events
+3. **Manual**: Admin-triggered cache clear for critical updates
+
+```zig
+// Cache wrapper example
+pub const CacheWrapper = struct {
+    redis: *Redis,
+    ttl_seconds: u32,
+    
+    pub fn get(self: *CacheWrapper, key: []const u8) !?[]const u8 {
+        return try self.redis.get(key);
+    }
+    
+    pub fn set(self: *CacheWrapper, key: []const u8, value: []const u8) !void {
+        try self.redis.setex(key, self.ttl_seconds, value);
+    }
+    
+    pub fn delete(self: *CacheWrapper, key: []const u8) !void {
+        try self.redis.del(key);
+    }
+    
+    pub fn getOrCompute(
+        self: *CacheWrapper,
+        key: []const u8,
+        comptime computeFn: fn() ![]const u8
+    ) ![]const u8 {
+        if (try self.get(key)) |cached_value| {
+            return cached_value;
+        }
+        
+        const computed_value = try computeFn();
+        try self.set(key, computed_value);
+        
+        return computed_value;
+    }
+};
+```
+
+---
+
+# 6. Interface Design
+
+## 6.1 REST API Design
+
+### API Design Principles
+
+1. **RESTful Resources**: Use nouns for endpoints, not verbs
+2. **HTTP Verbs**: GET (read), POST (create), PUT (update), DELETE (delete)
+3. **Status Codes**: Meaningful HTTP status codes
+4. **Versioning**: URL-based versioning (`/api/v1/`)
+5. **Pagination**: Consistent pagination for list endpoints
+6. **Filtering**: Query parameters for filtering
+7. **HATEOAS**: Include links to related resources
+
+### API Structure
+
+```
+Base URL: https://api.qala.io
+
+Authentication: Bearer token in Authorization header
+Content-Type: application/json
+Accept: application/json
+```
+
+### Standard Response Format
+
+**Success Response**
+```json
+{
+  "data": {
+    "id": "uuid",
+    "attributes": {}
+  },
+  "meta": {
+    "request_id": "uuid",
+    "timestamp": "2026-01-12T10:00:00Z"
+  }
+}
+```
+
+**Error Response**
+```json
+{
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "Invalid input parameters",
+    "details": [
+      {
+        "field": "email",
+        "message": "Invalid email format"
+      }
+    ]
+  },
+  "meta": {
+    "request_id": "uuid",
+    "timestamp": "2026-01-12T10:00:00Z"
+  }
+}
+```
+
+**Paginated Response**
+```json
+{
+  "data": [],
+  "pagination": {
+    "page": 1,
+    "limit": 20,
+    "total": 150,
+    "pages": 8
+  },
+  "links": {
+    "self": "/api/v1/sdes?page=1&limit=20",
+    "first": "/api/v1/sdes?page=1&limit=20",
+    "next": "/api/v1/sdes?page=2&limit=20",
+    "last": "/api/v1/sdes?page=8&limit=20"
+  }
+}
+```
+
+### Error Codes
+
+| Code | HTTP Status | Description |
+|------|-------------|-------------|
+| INVALID_REQUEST | 400 | Malformed request or invalid parameters |
+| UNAUTHORIZED | 401 | Authentication required or failed |
+| FORBIDDEN | 403 | Insufficient permissions |
+| NOT_FOUND | 404 | Resource not found |
+| CONFLICT | 409 | Resource already exists or conflict |
+| VALIDATION_ERROR | 422 | Input validation failed |
+| RATE_LIMIT_EXCEEDED | 429 | Too many requests |
+| INTERNAL_ERROR | 500 | Server error |
+| SERVICE_UNAVAILABLE | 503 | Service temporarily unavailable |
+
+## 6.2 Event Schema Design
+
+### Event Structure
+
+All Kafka events follow a standard structure:
+
+```json
+{
+  "event_id": "uuid",
+  "event_type": "SDE_CREATED",
+  "event_version": "1.0",
+  "timestamp": "2026-01-12T10:00:00Z",
+  "source_service": "sde-management",
+  "correlation_id": "uuid",
+  "payload": {
+    // Event-specific data
+  },
+  "metadata": {
+    "user_id": "uuid",
+    "tenant_id": "uuid"
+  }
+}
+```
+
+### Event Types
+
+**User Events**
+```json
+{
+  "event_type": "USER_CREATED",
+  "payload": {
+    "user_id": "uuid",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "roles": ["developer"]
+  }
+}
+
+{
+  "event_type": "USER_UPDATED",
+  "payload": {
+    "user_id": "uuid",
+    "changes": {
+      "name": "John Smith"
+    }
+  }
+}
+
+{
+  "event_type": "USER_DELETED",
+  "payload": {
+    "user_id": "uuid"
+  }
+}
+```
+
+**SDE Events**
+```json
+{
+  "event_type": "SDE_CREATED",
+  "payload": {
+    "sde_id": "uuid",
+    "owner_id": "uuid",
+    "template_id": "uuid",
+    "name": "dev-env-1",
+    "type": "cloud"
+  }
+}
+
+{
+  "event_type": "SDE_PROVISIONED",
+  "payload": {
+    "sde_id": "uuid",
+    "status": "active",
+    "ip_address": "10.0.1.50",
+    "access_url": "https://sde-123.qala.io"
+  }
+}
+
+{
+  "event_type": "SDE_SNAPSHOT_CREATED",
+  "payload": {
+    "sde_id": "uuid",
+    "snapshot_id": "uuid",
+    "version": 3,
+    "description": "Before major refactoring"
+  }
+}
+```
+
+**Workflow Events**
+```json
+{
+  "event_type": "BUILD_STARTED",
+  "payload": {
+    "execution_id": "uuid",
+    "pipeline_id": "uuid",
+    "sde_id": "uuid",
+    "trigger_type": "commit",
+    "commit_sha": "abc123"
+  }
+}
+
+{
+  "event_type": "BUILD_COMPLETED",
+  "payload": {
+    "execution_id": "uuid",
+    "status": "success",
+    "duration_seconds": 180,
+    "artifacts": [
+      {
+        "artifact_id": "uuid",
+        "name": "app-v1.2.3.jar",
+        "size_bytes": 52428800
+      }
+    ]
+  }
+}
+```
+
+## 6.3 gRPC Interface Design
+
+For high-performance internal service communication:
+
+```protobuf
+syntax = "proto3";
+
+package qala.sde.v1;
+
+service SDEService {
+  rpc CreateSDE(CreateSDERequest) returns (CreateSDEResponse);
+  rpc GetSDE(GetSDERequest) returns (GetSDEResponse);
+  rpc ListSDEs(ListSDEsRequest) returns (ListSDEsResponse);
+  rpc CreateSnapshot(CreateSnapshotRequest) returns (CreateSnapshotResponse);
+  rpc Rollback(RollbackRequest) returns (RollbackResponse);
+}
+
+message CreateSDERequest {
+  string owner_id = 1;
+  string template_id = 2;
+  string name = 3;
+  SDEConfig config = 4;
+}
+
+message CreateSDEResponse {
+  string sde_id = 1;
+  SDEStatus status = 2;
+}
+
+message SDEConfig {
+  uint32 cpu_cores = 1;
+  uint32 memory_gb = 2;
+  uint32 storage_gb = 3;
+  map<string, string> environment_vars = 4;
+  repeated string tools = 5;
+}
+
+enum SDEStatus {
+  SDE_STATUS_UNSPECIFIED = 0;
+  SDE_STATUS_PROVISIONING = 1;
+  SDE_STATUS_ACTIVE = 2;
+  SDE_STATUS_STOPPED = 3;
+  SDE_STATUS_SUSPENDED = 4;
+  SDE_STATUS_TERMINATED = 5;
+}
+```
+
+---
+
+# 7. Security Design
+
+## 7.1 Authentication & Authorization
+
+### Authentication Flow
+
+```
+┌──────────┐                ┌──────────┐                ┌──────────┐
+│  Client  │                │   API    │                │   Auth   │
+│          │                │ Gateway  │                │ Service  │
+└────┬─────┘                └────┬─────┘                └────┬─────┘
+     │                           │                           │
+     │  POST /auth/login         │                           │
+     │  {email, password}        │                           │
+     ├──────────────────────────▶│                           │
+     │                           │  Forward credentials      │
+     │                           ├──────────────────────────▶│
+     │                           │                           │
+     │                           │                           │ Verify
+     │                           │                           │ credentials
+     │                           │                           │
+     │                           │      JWT token            │
+     │                           │◀──────────────────────────┤
+     │      JWT token            │                           │
+     │◀──────────────────────────┤                           │
+     │                           │                           │
+     │                           │                           │
+     │  GET /api/v1/sdes         │                           │
+     │  Authorization: Bearer..  │                           │
+     ├──────────────────────────▶│                           │
+     │                           │  Validate token           │
+     │                           ├──────────────────────────▶│
+     │                           │      Token valid          │
+     │                           │◀──────────────────────────┤
+     │                           │  Forward to service       │
+     │                           ├────────────▶│             │
+     │       Response            │             │             │
+     │◀──────────────────────────┤             │             │
+     │                           │             │             │
+```
+
+### JWT Token Structure
+
+```json
+{
+  "header": {
+    "alg": "RS256",
+    "typ": "JWT"
+  },
+  "payload": {
+    "sub": "user_uuid",
+    "email": "user@example.com",
+    "roles": ["developer", "admin"],
+    "permissions": ["sde:create", "sde:delete"],
+    "iat": 1705057200,
+    "exp": 1705143600,
+    "iss": "qala-auth-service",
+    "aud": "qala-api"
+  },
+  "signature": "..."
+}
+```
+
+### Role-Based Access Control (RBAC)
+
+```
+Roles Hierarchy:
+
+    ┌────────────┐
+    │Super Admin │
+    └──────┬─────┘
+           │
+    ┌──────▼─────┐
+    │   Admin    │
+    └──────┬─────┘
+           │
+    ┌──────▼─────────┬─────────────┐
+    │  Team Lead     │  Developer  │
+    └────────────────┴─────────────┘
+```
+
+**Permission Matrix**
+
+| Resource | Super Admin | Admin | Team Lead | Developer |
+|----------|-------------|-------|-----------|-----------|
+| Create User | ✓ | ✓ | ✗ | ✗ |
+| Delete User | ✓ | ✓ | ✗ | ✗ |
+| Create SDE | ✓ | ✓ | ✓ | ✓ |
+| Delete SDE | ✓ | ✓ | ✓ | Own only |
+| View Workspace | ✓ | ✓ | Team only | Own only |
+| Deploy Pipeline | ✓ | ✓ | ✓ | ✓ |
+| View Metrics | ✓ | ✓| Team only | Own only |
+
+## 7.2 Data Security
+
+### Encryption Strategy
+
+**At Rest**
+- Database: AES-256 encryption
+- Object Storage: S3 SSE or equivalent
+- Secrets: HashiCorp Vault with encryption
+- Backups: Encrypted before storage
+
+**In Transit**
+- TLS 1.3 for all external communications
+- mTLS for internal service-to-service
+- Certificate rotation every 90 days
+
+### Sensitive Data Handling
+
+```zig
+// Example: Encrypting sensitive configuration
+pub const SecureConfig = struct {
+    kms: *KMSClient,
+    
+    pub fn encrypt(self: *SecureConfig, plaintext: []const u8) ![]const u8 {
+        const data_key = try self.kms.generateDataKey();
+        defer data_key.deinit();
+        
+        const encrypted = try aes256Encrypt(plaintext, data_key.key);
+        const wrapped_key = try self.kms.wrapKey(data_key.key);
+        
+        // Return encrypted data + wrapped key
+        return try combineEncryptedData(encrypted, wrapped_key);
+    }
+    
+    pub fn decrypt(self: *SecureConfig, ciphertext: []const u8) ![]const u8 {
+        const parts = try splitEncryptedData(ciphertext);
+        defer parts.deinit();
+        
+        const unwrapped_key = try self.kms.unwrapKey(parts.wrapped_key);
+        defer unwrapped_key.deinit();
+        
+        return try aes256Decrypt(parts.encrypted_data, unwrapped_key);
+    }
+};
+```
+
+## 7.3 Security Monitoring
+
+### Security Event Detection
+
+```
+┌─────────────────────────────────────────────────────┐
+│           Security Event Pipeline                    │
+├─────────────────────────────────────────────────────┤
+│                                                      │
+│  1. Event Collection                                 │
+│     - Application logs                               │
+│     - System logs                                    │
+│     - Network traffic                                │
+│     - Database audit logs                            │
+│                                                      │
+│  2. Event Normalization                              │
+│     - Parse and standardize                          │
+│     - Enrich with context                            │
+│                                                      │
+│  3. Threat Detection                                 │
+│     - Rule-based detection                           │
+│     - ML anomaly detection                           │
+│     - Correlation analysis                           │
+│                                                      │
+│  4. Alert & Response                                 │
+│     - Generate alerts                                │
+│     - Trigger automated response                     │
+│     - Notify security team                           │
+│                                                      │
+└─────────────────────────────────────────────────────┘
+```
+
+**Security Rules**
+
+1. **Failed Login Attempts**: Alert after 5 failed attempts in 10 minutes
+2. **Privilege Escalation**: Alert on role changes to admin
+3. **Data Exfiltration**: Alert on large data downloads (>1GB)
+4. **Unusual Access Patterns**: Alert on access from new locations/IPs
+5. **Configuration Changes**: Audit all infrastructure config changes
+
+---
+
+# 8. Deployment Design
+
+## 8.1 Container Architecture
+
+### Docker Container Design
+
+```dockerfile
+# Base image for Zig microservices
+FROM alpine:3.18 AS builder
+
+# Install Zig
+RUN apk add --no-cache wget ca-certificates \
+    && wget https://ziglang.org/download/0.11.0/zig-linux-x86_64-0.11.0.tar.xz \
+    && tar -xf zig-linux-x86_64-0.11.0.tar.xz -C /usr/local
+
+# Build application
+WORKDIR /app
+COPY . .
+RUN zig build -Doptimize=ReleaseFast
+
+# Runtime image
+FROM alpine:3.18
+RUN apk add --no-cache ca-certificates
+
+WORKDIR /app
+COPY --from=builder /app/zig-out/bin/service /app/service
+
+# Non-root user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD ["/app/service", "health"]
+
+EXPOSE 8080
+ENTRYPOINT ["/app/service"]
+```
+
+### Kubernetes Deployment
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sde-management-service
+  namespace: qala
+  labels:
+    app: sde-management
+    version: v1.0.0
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: sde-management
+  template:
+    metadata:
+      labels:
+        app: sde-management
+        version: v1.0.0
+    spec:
+      serviceAccountName: sde-management-sa
+      containers:
+      - name: sde-management
+        image: qala/sde-management:v1.0.0
+        ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP
+        - containerPort: 9090
+          name: metrics
+          protocol: TCP
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: postgres-credentials
+              key: connection-string
+        - name: KAFKA_BROKERS
+          value: "kafka-0.kafka-headless:9092,kafka-1.kafka-headless:9092"
+        resources:
+          requests:
+            cpu: 500m
+            memory: 512Mi
+          limits:
+            cpu: 2000m
+            memory: 2Gi
+        livenessProbe:
+          httpGet:
+            path: /health/live
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health/ready
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 5
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sde-management
+  namespace: qala
+spec:
+  selector:
+    app: sde-management
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8080
+  - name: metrics
+    port: 9090
+    targetPort: 9090
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: sde-management-hpa
+  namespace: qala
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: sde-management-service
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+```
+
+## 8.2 Infrastructure as Code
+
+### Terraform Module Structure
+
+```hcl
+# VPC Module
+module "vpc" {
+  source = "./modules/vpc"
+  
+  name            = "qala-production"
+  cidr            = "10.0.0.0/16"
+  azs             = ["us-east-1a", "us-east-1b", "us-east-1c"]
+  private_subnets = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+  public_subnets  = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
+  
+  enable_nat_gateway = true
+  enable_vpn_gateway = false
+  
+  tags = {
+    Environment = "production"
+    Project     = "qala"
+  }
+}
+
+# EKS Cluster
+module "eks" {
+  source = "./modules/eks"
+  
+  cluster_name    = "qala-production"
+  cluster_version = "1.28"
+  vpc_id          = module.vpc.vpc_id
+  subnet_ids      = module.vpc.private_subnets
+  
+  node_groups = {
+    general = {
+      desired_capacity = 3
+      min_capacity     = 3
+      max_capacity     = 10
+      instance_types   = ["t3.large"]
+    }
+    compute = {
+      desired_capacity = 2
+      min_capacity     = 2
+      max_capacity     = 20
+      instance_types   = ["c5.2xlarge"]
+    }
+  }
+}
+
+# RDS PostgreSQL
+module "rds" {
+  source = "./modules/rds"
+  
+  identifier     = "qala-production"
+  engine_version = "15.3"
+  instance_class = "db.r6g.2xlarge"
+  
+  allocated_storage     = 100
+  max_allocated_storage = 1000
+  
+  multi_az               = true
+  backup_retention_period = 30
+  backup_window          = "03:00-04:00"
+  maintenance_window     = "sun:04:00-sun:05:00"
+  
+  vpc_id     = module.vpc.vpc_id
+  subnet_ids = module.vpc.private_subnets
+}
+
+# MSK Kafka Cluster
+module "kafka" {
+  source = "./modules/kafka"
+  
+  cluster_name      = "qala-production"
+  kafka_version     = "3.4.0"
+  number_of_nodes   = 3
+  instance_type     = "kafka.m5.xlarge"
+  
+  ebs_volume_size = 1000
+  
+  vpc_id     = module.vpc.vpc_id
+  subnet_ids = module.vpc.private_subnets
+}
+```
+
+## 8.3 CI/CD Pipeline
+
+### GitLab CI Pipeline
+
+```yaml
+stages:
+  - build
+  - test
+  - security
+  - deploy-staging
+  - integration-test
+  - deploy-production
+
+variables:
+  DOCKER_REGISTRY: registry.qala.io
+  KUBERNETES_VERSION: 1.28
+
+# Build stage
+build:
+  stage: build
+  image: ziglang/zig:0.11.0
+  script:
+    - zig build -Doptimize=ReleaseFast
+    - zig build test
+  artifacts:
+    paths:
+      - zig-out/
+    expire_in: 1 hour
+
+# Unit tests
+unit-test:
+  stage: test
+  image: ziglang/zig:0.11.0
+  script:
+    - zig build test
+  coverage: '/Coverage: \d+.\d+%/'
+
+# Security scanning
+security-scan:
+  stage: security
+  image: aquasec/trivy:latest
+  script:
+    - trivy fs --severity HIGH,CRITICAL .
+    - trivy image $DOCKER_REGISTRY/sde-management:$CI_COMMIT_SHA
+
+# Build Docker image
+docker-build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker build -t $DOCKER_REGISTRY/sde-management:$CI_COMMIT_SHA .
+    - docker push $DOCKER_REGISTRY/sde-management:$CI_COMMIT_SHA
+
+# Deploy to staging
+deploy-staging:
+  stage: deploy-staging
+  image: bitnami/kubectl:latest
+  script:
+    - kubectl config use-context staging
+    - kubectl set image deployment/sde-management sde-management=$DOCKER_REGISTRY/sde-management:$CI_COMMIT_SHA -n qala-staging
+    - kubectl rollout status deployment/sde-management -n qala-staging
+  environment:
+    name: staging
+    url: https://staging.qala.io
+  only:
+    - develop
+
+# Integration tests
+integration-test:
+  stage: integration-test
+  script:
+    - npm install
+    - npm run test:integration
+  environment:
+    name: staging
+
+# Deploy to production
+deploy-production:
+  stage: deploy-production
+  image: bitnami/kubectl:latest
+  script:
+    - kubectl config use-context production
+    - kubectl set image deployment/sde-management sde-management=$DOCKER_REGISTRY/sde-management:$CI_COMMIT_SHA -n qala-production
+    - kubectl rollout status deployment/sde-management -n qala-production
+  environment:
+    name: production
+    url: https://qala.io
+  when: manual
+  only:
+    - main
+```
+
+---
+
+# 9. Quality Attributes
+
+## 9.1 Performance
+
+### Performance Requirements
+
+| Metric | Target | Measurement |
+|--------|--------|-------------|
+| API Response Time (p95) | < 200ms | Application metrics |
+| API Response Time (p99) | < 500ms | Application metrics |
+| Database Query Time | < 100ms | Database metrics |
+| SDE Provisioning Time | < 2 hours | Service metrics |
+| Pipeline Execution (simple) | < 5 minutes | CI/CD metrics |
+| Event Processing Latency | < 1 second | Kafka metrics |
+
+### Performance Optimization Strategies
+
+1. **Caching**: Multi-level caching (application, Redis, CDN)
+2. **Database Optimization**: Indexes, query optimization, read replicas
+3. **Async Processing**: Event-driven architecture for long-running tasks
+4. **Connection Pooling**: Reuse database connections
+5. **CDN**: Static asset delivery via edge locations
+6. **Compression**: gzip/brotli compression for responses
+7. **Resource Optimization**: Right-sized container resources
+
+## 9.2 Scalability
+
+### Horizontal Scaling
+
+All services designed to scale horizontally:
+
+```
+Load = 100 RPS → 3 instances
+Load = 1000 RPS → 15 instances
+Load = 10000 RPS → 100+ instances
+```
+
+### Auto-Scaling Configuration
+
+```yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: service-hpa
+spec:
+  minReplicas: 3
+  maxReplicas: 100
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 300
+      policies:
+      - type: Percent
+        value: 50
+        periodSeconds: 60
+    scaleUp:
+      stabilizationWindowSeconds: 0
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 15
+```
+
+## 9.3 Reliability
+
+### Fault Tolerance
+
+**Circuit Breaker Pattern**
+```zig
+pub const CircuitBreaker = struct {
+    state: State,
+    failure_threshold: u32,
+    success_threshold: u32,
+    timeout_ms: u64,
+    failure_count: u32,
+    success_count: u32,
+    last_failure_time: i64,
+    
+    const State = enum {
+        closed,
+        open,
+        half_open,
+    };
+    
+    pub fn call(self: *CircuitBreaker, comptime func: anytype, args: anytype) !@TypeOf(func(args)) {
+        switch (self.state) {
+            .open => {
+                if (timestamp() - self.last_failure_time > self.timeout_ms) {
+                    self.state = .half_open;
+                } else {
+                    return error.CircuitBreakerOpen;
+                }
+            },
+            .half_open, .closed => {},
+        }
+        
+        const result = func(args) catch |err| {
+            self.recordFailure();
+            return err;
+        };
+        
+        self.recordSuccess();
+        return result;
+    }
+    
+    fn recordFailure(self: *CircuitBreaker) void {
+        self.failure_count += 1;
+        self.last_failure_time = timestamp();
+        
+        if (self.failure_count >= self.failure_threshold) {
+            self.state = .open;
+        }
+    }
+    
+    fn recordSuccess(self: *CircuitBreaker) void {
+        self.success_count += 1;
+        self.failure_count = 0;
+        
+        if (self.state == .half_open and self.success_count >= self.success_threshold) {
+            self.state = .closed;
+            self.success_count = 0;
+        }
+    }
+};
+```
+
+### Retry Strategy
+
+```zig
+pub fn retryWithBackoff(
+    comptime func: anytype,
+    args: anytype,
+    max_attempts: u32
+) !@TypeOf(func(args)) {
+    var attempt: u32 = 0;
+    var backoff_ms: u64 = 100;
+    
+    while (attempt < max_attempts) : (attempt += 1) {
+        const result = func(args) catch |err| {
+            if (attempt == max_attempts - 1) {
+                return err;
+            }
+            
+            std.time.sleep(backoff_ms * 1_000_000);
+            backoff_ms *= 2; // Exponential backoff
+            continue;
+        };
+        
+        return result;
+    }
+    
+    return error.MaxRetriesExceeded;
+}
+```
+
+## 9.4 Maintainability
+
+### Code Organization
+
+```
+qala/
+├── services/
+│   ├── user-identity/
+│   │   ├── src/
+│   │   │   ├── api/           # API handlers
+│   │   │   ├── business/      # Business logic
+│   │   │   ├── data/          # Data access
+│   │   │   ├── models/        # Data models
+│   │   │   └── main.zig
+│   │   ├── tests/
+│   │   └── build.zig
+│   ├── sde-management/
+│   └── ...
+├── shared/
+│   ├── auth/
+│   ├── database/
+│   ├── events/
+│   └── utils/
+├── infrastructure/
+│   ├── terraform/
+│   ├── kubernetes/
+│   └── docker/
+└── docs/
+```
+
+### Logging Standards
+
+```zig
+pub const Logger = struct {
+    service_name: []const u8,
+    
+    pub fn info(self: *Logger, message: []const u8, context: anytype) void {
+        log(.info, message, context);
+    }
+    
+    pub fn error(self: *Logger, message: []const u8, error_value: anyerror, context: anytype) void {
+        log(.@"error", message, .{
+            .error_name = @errorName(error_value),
+            .context = context,
+        });
+    }
+    
+    fn log(level: LogLevel, message: []const u8, context: anytype) void {
+        const log_entry = .{
+            .timestamp = timestamp(),
+            .level = @tagName(level),
+            .service = self.service_name,
+            .message = message,
+            .context = context,
+        };
+        
+        std.json.stringify(log_entry, .{}, std.io.getStdOut().writer()) catch {};
+        std.io.getStdOut().writeAll("\n") catch {};
+    }
+};
+```
+
+---
+
+# 10. Design Decisions
+
+## 10.1 Technology Choices
+
+### Zig for Microservices
+
+**Rationale**:
+- Performance: Compiled language with C-level performance
+- Memory Safety: No hidden allocations, explicit error handling
+- Simplicity: No hidden control flow, easy to understand
+- Cross-platform: Single binary deployment
+- Small footprint: Minimal container sizes
+
+**Trade-offs**:
+- Smaller ecosystem compared to Go/Java
+- Fewer developers with Zig experience
+- Less mature tooling
+
+### Kafka for Event Bus
+
+**Rationale**:
+- High throughput: Millions of messages per second
+- Durability: Persistent message storage
+- Scalability: Horizontal scaling via partitions
+- Replay capability: Event sourcing support
+- Industry standard: Large community and tooling
+
+**Trade-offs**:
+- Operational complexity
+- Resource intensive
+- Learning curve for team
+
+### PostgreSQL as Primary Database
+
+**Rationale**:
+- ACID compliance: Strong consistency guarantees
+- JSON support: Flexible schema with JSONB
+- Performance: Excellent query optimization
+- Extensions: PostGIS, full-text search, time-series
+- Proven reliability: Battle-tested at scale
+
+**Trade-offs**:
+- Vertical scaling limits
+- Complex replication setup
+- Requires careful index management
+
+## 10.2 Architectural Decisions
+
+### Decision Record Format
+
+```markdown
+# ADR-001: Use Microservices Architecture
+
+## Status
+Accepted
+
+## Context
+Need to build a scalable, maintainable platform that can evolve independently per component.
+
+## Decision
+Adopt microservices architecture with service-per-bounded-context approach.
+
+## Consequences
+### Positive
+- Independent deployment and scaling
+- Technology flexibility per service
+- Team autonomy
+- Fault isolation
+
+### Negative
+- Increased operational complexity
+- Distributed system challenges
+- More complex testing
+- Network latency between services
+
+## Alternatives Considered
+- Monolithic architecture: Simpler but limited scalability
+- Modular monolith: Middle ground but still coupled deployment
+```
+
+### Key Architectural Decisions
+
+1. **ADR-001**: Microservices Architecture
+2. **ADR-002**: Event-Driven Communication
+3. **ADR-003**: Database-Per-Service Pattern
+4. **ADR-004**: API Gateway Pattern
+5. **ADR-005**: Container-Based Deployment
+6. **ADR-006**: Multi-Region Active-Active
+7. **ADR-007**: Zig as Primary Language
+8. **ADR-008**: Kafka for Event Streaming
+9. **ADR-009**: gRPC for Internal Communication
+10. **ADR-010**: REST for External APIs
+
+---
+
+# Appendices
+
+## Appendix A: Glossary
+
+| Term | Definition |
+|------|------------|
+| SDE | Software Development Environment - isolated environment for development |
+| CI/CD | Continuous Integration / Continuous Deployment |
+| SEM | Security Event Management |
+| MDM | Master Data Management |
+| RBAC | Role-Based Access Control |
+| JWT | JSON Web Token |
+| mTLS | Mutual TLS authentication |
+| gRPC | Google Remote Procedure Call |
+| HATEOAS | Hypermedia As The Engine Of Application State |
+
+## Appendix B: References
+
+1. **Microservices Patterns** - Chris Richardson
+2. **Building Microservices** - Sam Newman  
+3. **Site Reliability Engineering** - Google
+4. **Domain-Driven Design** - Eric Evans
+5. **Designing Data-Intensive Applications** - Martin Kleppmann
+
+## Appendix C: Document Change History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0.0 | 2026-01-12 | Architecture Team | Initial comprehensive design document |
+
+---
+
+**Document Status**: ✅ Ready for Implementation
+
+**Approval Required**:
+- [ ] Chief Technology Officer
+- [ ] Chief Architect  
+- [ ] VP of Engineering
+- [ ] Lead Security Engineer
+- [ ] Lead DevOps Engineer
+
+**Next Steps**:
+1. Technical review session with engineering team
+2. Finalize technology stack selections
+3. Create detailed implementation tickets
+4. Begin Sprint 1 planning
+5. Set up development environments
+
+---
+
+*"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs*
+
+**End of Document**

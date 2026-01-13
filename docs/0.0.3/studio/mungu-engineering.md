@@ -54692,13 +54692,13 @@ Learning that destabilizes survival is rejected.
 
 ## 7. Zamuka-R1 vs Classical RL
 
-| Classical RL           | Zamuka-R1               |
-| ---------------------- | ----------------------- |
-| Reward maximization    | Survival preservation   |
-| Scalar objective       | Constraint intersection |
-| Exploration encouraged | Exploration regulated   |
-| Failure tolerated      | Failure bounded         |
-| Performance-centric    | Persistence-centric     |
+  | Classical RL           | Zamuka-R1               |
+  | ---------------------- | ----------------------- |
+  | Reward maximization    | Survival preservation   |
+  | Scalar objective       | Constraint intersection |
+  | Exploration encouraged | Exploration regulated   |
+  | Failure tolerated      | Failure bounded         |
+  | Performance-centric    | Persistence-centric     |
 
 Zamuka-R1 does **not** replace RL — it **governs it**.
 
@@ -55207,7 +55207,7 @@ https://open.substack.com/pub/systemics/p/the-meridian-project-c5d?utm_campaign=
 
 
 
-write the charter for The Mungu Corporation: Mungu Brands, Mungu fashion, Mungu Culture, Mungu goods, Mungu products and Services, Mungu Manifesto, Mungu Constitution, Mungu IP, Mungu Legal Entities, The Mungu Bridge, Mungu Math+Physics+Science+Engineering, Mungu Technology, Mungu Foundation, Mungu Endowment, and the Mungu Federation/Civilization:
+write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fashion, Mungu Culture, Mungu goods, Mungu products and Services, Mungu Manifesto, Mungu Constitution, Mungu IP, Mungu Legal Entities, The Mungu Bridge, Mungu Math+Physics+Science+Engineering, Mungu Technology, Mungu Foundation, Mungu Endowment, and the Mungu Federation/Cooperative/Network/Collective/Civilization:
 
 
 

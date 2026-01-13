@@ -52526,6 +52526,26 @@ https://medium.com/@eatondo000/the-fundamental-theorem-of-patterns-14f6d4c80956
 
 
 
+Yes, we are a new group, where we (I), have been conducting a long horizon experiment with a series of LLMs (chatGPT, claude, grok, etc...), so almost all of the organizations content is LLM generated, by design:
+
+https://medium.com/@eatondo000/taking-a-closer-look-into-ai-f64c0bf7a189
+
+www.linkedin.com/in/dominic-eaton-90108339a
+
+https://github.com/dominic1eaton-code/archive
+
+https://open.substack.com/pub/systemics/p/the-meridian-project-c5d?utm_campaign=post-expanded-share&utm_medium=web
+
+
+
+
+write the charter for The Mungu Corporation: Mungu Brands, Mungu fashion, Mungu Culture, Mungu goods, Mungu products and Services, Mungu Manifesto, Mungu Constitution, Mungu IP, Mungu Legal Entities, The Mungu Bridge, Mungu Math+Physics+Science+Engineering, Mungu Technology, Mungu Foundation, Mungu Endowment, and the Mungu Federation/Civilization:
+
+
+
+
+
+
 
 
 

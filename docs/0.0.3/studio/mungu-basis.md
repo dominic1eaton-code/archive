@@ -4636,3 +4636,9 @@ If you want next, I can:
 
 Say the word.
 
+
+
+
+also include and integrate in the <polon ∘ kolon> (polonic/structure/form<->kolonic/flow/flux) basis into the Mungu Basis and present the complete Mungu Basis, formally
+
+

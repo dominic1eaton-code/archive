@@ -5279,3 +5279,1186 @@ The Nyamba Case System consists of **15 grammatical cases** organized into 5 fun
 *(Close with structure, systematize continuously)*
 
 **∎**
+
+
+# THE NYAMBA VERB SYSTEM — COMPLETE FORMALIZATION
+
+**Mfumo wa Vitenzi vya Nyamba — The System of Nyamba Verbs**
+
+---
+
+## I. FOUNDATIONAL PRINCIPLES
+
+### A. Verb System Philosophy
+
+Nyamba verbs encode:
+
+1. **Action and state** — What happens
+2. **Time and aspect** — When and how it happens
+3. **Modality** — Reality status of the action
+4. **Voice** — Relationship between subject and action
+5. **Polarity** — Symmetric vs. asymmetric operations
+6. **Ω-GOMA dynamics** — System transformations
+
+### B. Core Architecture
+
+```
+VERB = ROOT + [POLARITY] + [TENSE] + [ASPECT] + [MOOD] + [VOICE]
+```
+
+**Agglutinative Structure:**
+- Base root carries core meaning
+- Affixes add grammatical information
+- Systematic and predictable
+- Can stack multiple markers
+
+---
+
+## II. VERB ROOT STRUCTURE
+
+### A. Root Types
+
+**CVC Roots (most common):**
+```
+lov-    'close, complete'
+kar-    'structure, order'
+mun-    'system, whole'
+vuv-    'break, rupture'
+duv-    'go, traverse'
+```
+
+**CV Roots:**
+```
+ka-     'structure' (reduced)
+lo-     'close' (reduced)
+du-     'path' (reduced)
+fu-     'end' (reduced)
+```
+
+### B. Root Selection by Polarity
+
+**Polonic Roots (Form/Structure — P):**
+```
+lov-    closure (symmetric)
+kar-    structure
+mun-    system
+kon-    continue
+lind-   guard
+```
+
+**Kolonic Roots (Flow/Change — K):**
+```
+vuv-    break (asymmetric)
+fuv-    die, end
+dus-    dissolve
+shi-    flux
+vuv-    change
+```
+
+---
+
+## III. TENSE SYSTEM
+
+### A. Basic Tenses (3)
+
+| **Tense** | **Marker** | **Function** | **Example** |
+|-----------|-----------|--------------|-------------|
+| **Present** | -a | Current action/state | lova 'closes' |
+| **Past** | -ile | Completed action | lovile 'closed' |
+| **Future** | -nga | Upcoming action | lovnga 'will close' |
+
+### B. Complete Tense Paradigm
+
+**ROOT: lov- (close)**
+
+```
+PRESENT:    lov-a        'closes, is closing, does close'
+PAST:       lov-ile      'closed, did close'
+FUTURE:     lov-nga      'will close, shall close'
+```
+
+**With subjects:**
+```
+Mi lova          'I close'
+Mi lovile        'I closed'
+Mi lovnga        'I will close'
+
+We lova          'You close'
+We lovile        'You closed'
+We lovnga        'You will close'
+
+Ye lova          'He/she/it closes'
+Ye lovile        'He/she/it closed'
+Ye lovnga        'He/she/it will close'
+```
+
+### C. Additional Time References
+
+**Immediate Past (-ile-tu):**
+```
+lov-ile-tu       'just closed'
+Mi lovile-tu     'I just closed'
+```
+
+**Immediate Future (-nga-tu):**
+```
+lov-nga-tu       'about to close'
+Mi lovnga-tu     'I'm about to close'
+```
+
+**Remote Past (-ile-le):**
+```
+lov-ile-le       'closed long ago'
+Mi lovilele      'I closed long ago'
+```
+
+**Remote Future (-nga-le):**
+```
+lov-nga-le       'will close far in future'
+Mi lovngale      'I will close far in the future'
+```
+
+---
+
+## IV. ASPECT SYSTEM
+
+### A. Primary Aspects (5)
+
+| **Aspect** | **Marker** | **Function** | **Example** |
+|-----------|-----------|--------------|-------------|
+| **Simple** | ∅ | Unmarked | lova 'closes' |
+| **Continuous** | -anga | Ongoing action | lovanga 'is closing' |
+| **Perfect** | -eme | Completed with relevance | loveme 'has closed' |
+| **Habitual** | -a-a | Regular occurrence | lovaa 'closes regularly' |
+| **Prospective** | -nga-nga | About to happen | lovnganga 'is about to close' |
+
+### B. Aspect Paradigm
+
+**ROOT: lov- (close)**
+
+```
+SIMPLE:      lova          'closes'
+CONTINUOUS:  lovanga       'is closing'
+PERFECT:     loveme        'has closed'
+HABITUAL:    lovaa         'closes habitually'
+PROSPECTIVE: lovnganga     'is about to close'
+```
+
+### C. Tense-Aspect Combinations
+
+**Present + Aspects:**
+```
+Present Simple:      lova          'closes'
+Present Continuous:  lovanga       'is closing'
+Present Perfect:     loveme        'has closed'
+Present Habitual:    lovaa         'closes regularly'
+```
+
+**Past + Aspects:**
+```
+Past Simple:         lovile        'closed'
+Past Continuous:     lovilanga     'was closing'
+Past Perfect:        lovileme      'had closed'
+Past Habitual:       lovilaa       'used to close'
+```
+
+**Future + Aspects:**
+```
+Future Simple:       lovnga        'will close'
+Future Continuous:   lovnganga     'will be closing'
+Future Perfect:      lovngeme      'will have closed'
+```
+
+---
+
+## V. MOOD SYSTEM
+
+### A. Primary Moods (6)
+
+| **Mood** | **Marker** | **Function** | **Example** |
+|----------|-----------|--------------|-------------|
+| **Indicative** | ∅ | Statement of fact | lova 'closes' |
+| **Imperative** | -e | Command | love 'close!' |
+| **Subjunctive** | -i | Hypothetical | lovi 'may close' |
+| **Conditional** | engo + -a | If-then | engo lova 'if closes' |
+| **Optative** | -le | Wish/desire | lovle 'may it close' |
+| **Potential** | -nga-a | Can/able to | lovngaa 'can close' |
+
+### B. Mood Paradigm
+
+**ROOT: lov- (close)**
+
+```
+INDICATIVE:   lova          'closes' (fact)
+IMPERATIVE:   love          'close!' (command)
+SUBJUNCTIVE:  lovi          'may close' (possibility)
+CONDITIONAL:  engo lova     'if (it) closes'
+OPTATIVE:     lovle         'may it close' (wish)
+POTENTIAL:    lovngaa       'can close' (ability)
+```
+
+### C. Mood Usage Examples
+
+**Indicative (unmarked):**
+```
+Mungon lova
+system close.IND
+'The system closes'
+```
+
+**Imperative:**
+```
+Love mungon!
+close.IMP system
+'Close the system!'
+
+Nimu love!
+NEG close.IMP
+'Don't close!'
+```
+
+**Subjunctive:**
+```
+Mi nanda engo ye lovi
+1SG know that 3SG close.SUBJ
+'I know that he/she may close'
+
+Engo mungon lovi, kontinuitu karanga
+if system close.SUBJ kontinuity structure.CONT
+'If the system should close, kontinuity is structuring'
+```
+
+**Conditional:**
+```
+Engo mi lova, ye karanga
+if 1SG close.COND 3SG structure.CONT
+'If I close, he/she is structuring'
+
+Engo we lovile, mi lovnga
+if 2SG close.PST.COND 1SG close.FUT
+'If you closed, I will close'
+```
+
+**Optative (wish):**
+```
+Lovle mungon!
+close.OPT system
+'May the system close!'
+
+Ω lovle we-ko
+omega close.OPT 2SG-DAT
+'May omega close for you'
+```
+
+**Potential (ability):**
+```
+Mi lovngaa mungon
+1SG close.POT system
+'I can close the system'
+
+Ye nimu lovngaa
+3SG NEG close.POT
+'He/she cannot close'
+```
+
+---
+
+## VI. VOICE SYSTEM
+
+### A. Primary Voices (4)
+
+| **Voice** | **Marker** | **Function** | **Example** |
+|-----------|-----------|--------------|-------------|
+| **Active** | ∅ | Subject does action | lova 'closes' |
+| **Passive** | -wa | Subject receives action | lovwa 'is closed' |
+| **Causative** | -isha | Subject causes action | lovisha 'causes to close' |
+| **Reciprocal** | mu- | Mutual action | mulova 'close each other' |
+
+### B. Voice Paradigm
+
+**ROOT: lov- (close)**
+
+```
+ACTIVE:      lova          'closes'
+PASSIVE:     lovwa         'is closed'
+CAUSATIVE:   lovisha       'causes to close'
+RECIPROCAL:  mulova        'close each other'
+```
+
+### C. Voice Usage Examples
+
+**Active (unmarked):**
+```
+Ntu lova mungon
+person close.ACT system
+'The person closes the system'
+```
+
+**Passive:**
+```
+Mungon lovwa (ntu-ma)
+system close.PASS (person-INST)
+'The system is closed (by the person)'
+
+Kontinuitu lovwa-ile
+kontinuity close.PASS-PST
+'Kontinuity was closed'
+```
+
+**Causative:**
+```
+Mi lovisha ye mungon
+1SG close.CAUS 3SG system
+'I make him/her close the system'
+
+Ω lovisha mungon lova
+omega close.CAUS system close
+'Omega causes the system to close'
+```
+
+**Reciprocal (with mu- prefix):**
+```
+Midu mulova
+1DU RECIP-close
+'We two close each other'
+
+Ntu-du mulova mungon-pamoja
+person-DU RECIP-close system-COM
+'The two people mutually close the system together'
+```
+
+---
+
+## VII. POLARITY MARKING
+
+### A. Symmetric vs. Asymmetric Verbs
+
+**Special Feature:** Nyamba grammaticalizes Ω-GOMA polarity
+
+| **Polarity** | **Prefix** | **Function** | **Example** |
+|-------------|-----------|--------------|-------------|
+| **Polonic (P)** | mu- | Form-preserving, symmetric | mulova 'mutually close' |
+| **Kolonic (K)** | ko- | Form-breaking, asymmetric | kovuva 'directionally break' |
+
+### B. Polarity Paradigm
+
+**BASE VERBS:**
+```
+lova        'close' (neutral)
+vuva        'break' (neutral)
+kara        'structure' (neutral)
+```
+
+**WITH POLONIC PREFIX (mu-):**
+```
+mulova      'mutually close' (symmetric closure)
+mukara      'co-structure' (mutual structuring)
+muduva      'go together' (symmetric motion)
+```
+
+**WITH KOLONIC PREFIX (ko-):**
+```
+kovuva      'directionally break' (asymmetric rupture)
+koshia      'flux asymmetrically' (unidirectional flow)
+koduva      'diverge' (asymmetric motion)
+```
+
+### C. Polarity Usage Examples
+
+**Polonic (Symmetric):**
+```
+Mungon-du mulova
+system-DU SYMM-close
+'The two systems mutually close'
+
+Ntu-ya mukara mungon
+person-PL SYMM-structure system
+'The people co-structure the system'
+```
+
+**Kolonic (Asymmetric):**
+```
+Kontinuitu kovuva mungon-nde
+kontinuity ASYMM-break system-ABL
+'Kontinuity breaks away from the system (directionally)'
+
+Shi koshia Ω-nga
+flux ASYMM-flux omega-ALL
+'Flux flows asymmetrically toward omega'
+```
+
+**Contrast:**
+```
+Symmetric:  midu mulova    'we two mutually close'
+Asymmetric: midu koduva    'we two diverge (go different ways)'
+```
+
+---
+
+## VIII. NEGATION
+
+### A. Standard Negation
+
+**Marker:** nimu (preverbal particle)
+
+```
+Affirmative: Mi lova        'I close'
+Negative:    Mi nimu lova   'I don't close'
+
+Affirmative: Ye lovile      'He/she closed'
+Negative:    Ye nimu lovile 'He/she didn't close'
+```
+
+### B. Negative Forms by Tense
+
+**Present:**
+```
+Mi nimu lova         'I don't close'
+Mi nimu lovanga      'I'm not closing'
+```
+
+**Past:**
+```
+Mi nimu lovile       'I didn't close'
+Mi nimu lovilanga    'I wasn't closing'
+```
+
+**Future:**
+```
+Mi nimu lovnga       'I won't close'
+Mi nimu lovnganga    'I won't be closing'
+```
+
+### C. Negative Imperative
+
+```
+Nimu love!
+NEG close.IMP
+'Don't close!'
+
+Nimu duva kara-ni!
+NEG go.IMP structure-LOC
+'Don't go to the structure!'
+```
+
+### D. Negative Ability
+
+```
+Mi nimu lovngaa
+1SG NEG close.POT
+'I cannot close'
+
+Ye nimu duva-ngaa
+3SG NEG go-POT
+'He/she cannot go'
+```
+
+---
+
+## IX. PERSON AND NUMBER AGREEMENT
+
+### A. Subject Pronouns
+
+Nyamba verbs do not inflect for person/number. Subject pronouns are obligatory:
+
+**Singular:**
+```
+mi lova      'I close'
+we lova      'you (sg) close'
+ye lova      'he/she/it closes'
+```
+
+**Dual:**
+```
+midu lova    'we two close'
+wedu lova    'you two close'
+yedu lova    'they two close'
+```
+
+**Plural:**
+```
+miya lova    'we (all) close'
+weya lova    'you (all) close'
+yeya lova    'they (all) close'
+```
+
+### B. Agreement with Nominal Subjects
+
+```
+Ntu lova             'The person closes'
+Ntu-ya lova          'The people close'
+Mungon lova          'The system closes'
+Mungon-ya lova       'The systems close'
+```
+
+**No verb change for number:**
+```
+Ntu lovile           'The person closed'
+Ntu-ya lovile        'The people closed' (same verb form)
+```
+
+---
+
+## X. INFINITIVE AND NON-FINITE FORMS
+
+### A. Infinitive
+
+**Form:** ROOT + -a (same as present indicative)
+
+```
+lova        'to close'
+kara        'to structure'
+duva        'to go'
+munga       'to systematize'
+```
+
+**Usage:**
+```
+Mi nanda lova
+1SG know close.INF
+'I know (how) to close'
+
+Ye duva kara lova mungon
+3SG want structure.INF close.INF system
+'He/she wants to structure (and) close the system'
+```
+
+### B. Gerund (Verbal Noun)
+
+**Form:** ROOT + -le
+
+```
+lovle       'closing' (act of)
+karle       'structuring' (act of)
+duvale      'going' (act of)
+```
+
+**Usage:**
+```
+Lovle mungon-ta ye lovfu
+closing system-GEN COP complete
+'The closing of the system is complete'
+
+Mi ye kara-ni lovle-ta
+1SG COP structure-LOC closing-GEN
+'I am in the act of closing'
+```
+
+### C. Present Participle
+
+**Form:** ROOT + -anga (same as present continuous)
+
+```
+lovanga     'closing' (active participle)
+karanga     'structuring'
+duvanga     'going'
+```
+
+**Usage (adjectival):**
+```
+mungon lovanga
+system closing
+'the closing system' / 'the system that is closing'
+
+ntu karanga
+person structuring
+'the structuring person' / 'the person who is structuring'
+```
+
+### D. Past Participle
+
+**Form:** ROOT + -ile (same as past tense)
+
+```
+lovile      'closed'
+karile      'structured'
+duvile      'gone'
+```
+
+**Usage (adjectival):**
+```
+mungon lovile
+system closed
+'the closed system' / 'the system that closed'
+
+kara karile
+structure structured
+'the structured structure'
+```
+
+---
+
+## XI. AUXILIARY VERBS
+
+### A. Modal Auxiliaries
+
+**ye (be/exist):**
+```
+Mi ye kara-ni
+1SG be structure-LOC
+'I am in the structure'
+```
+
+**ka (have/possess):**
+```
+Mi ka mungon
+1SG have system
+'I have a system'
+```
+
+**duva (want/will):**
+```
+Mi duva lova
+1SG want close
+'I want to close'
+```
+
+**nanda (know how to):**
+```
+Mi nanda munga
+1SG know systematize
+'I know how to systematize'
+```
+
+**ngaa (can/able):**
+```
+Mi ngaa duva
+1SG can go
+'I can go'
+```
+
+### B. Auxiliary Constructions
+
+**Progressive (ye + continuous):**
+```
+Mi ye lovanga
+1SG be close.CONT
+'I am closing'
+```
+
+**Perfect (ka + past participle):**
+```
+Mi ka lovile
+1SG have close.PST
+'I have closed'
+```
+
+**Future (duva + infinitive):**
+```
+Mi duva lova
+1SG will close.INF
+'I will close'
+```
+
+---
+
+## XII. SERIAL VERB CONSTRUCTIONS
+
+### A. Sequential Actions
+
+Verbs can be serialized without conjunctions:
+
+```
+Mi duva lova mungon
+1SG go close system
+'I go (and) close the system'
+
+Ye kara munga kontinuitu
+3SG structure systematize kontinuity
+'He/she structures (by) systematizing kontinuity'
+```
+
+### B. Manner Serialization
+
+```
+Mi duva karfu-le lova
+1SG go structured-ADV close
+'I go structuredly (and) close'
+= 'I go in a structured way to close'
+```
+
+### C. Purpose Serialization
+
+```
+Mi duva lova Ω
+1SG go close omega
+'I go to close omega'
+```
+
+---
+
+## XIII. COMPLETE CONJUGATION PARADIGMS
+
+### A. Regular Verb: lova (close)
+
+**INDICATIVE MOOD**
+
+| **Tense/Aspect** | **Form** | **Translation** |
+|-----------------|----------|-----------------|
+| Present Simple | lova | closes |
+| Present Continuous | lovanga | is closing |
+| Present Perfect | loveme | has closed |
+| Present Habitual | lovaa | closes regularly |
+| Past Simple | lovile | closed |
+| Past Continuous | lovilanga | was closing |
+| Past Perfect | lovileme | had closed |
+| Past Habitual | lovilaa | used to close |
+| Future Simple | lovnga | will close |
+| Future Continuous | lovnganga | will be closing |
+| Future Perfect | lovngeme | will have closed |
+
+**OTHER MOODS**
+
+| **Mood** | **Form** | **Translation** |
+|----------|----------|-----------------|
+| Imperative | love | close! |
+| Negative Imperative | nimu love | don't close! |
+| Subjunctive | lovi | may close |
+| Optative | lovle | may it close |
+| Potential | lovngaa | can close |
+
+**VOICES**
+
+| **Voice** | **Form** | **Translation** |
+|-----------|----------|-----------------|
+| Active | lova | closes |
+| Passive | lovwa | is closed |
+| Causative | lovisha | causes to close |
+| Reciprocal | mulova | close each other |
+
+**POLARITY**
+
+| **Polarity** | **Form** | **Translation** |
+|-------------|----------|-----------------|
+| Neutral | lova | closes |
+| Polonic (Symmetric) | mulova | mutually closes |
+| Kolonic (Asymmetric) | kolova | closes asymmetrically |
+
+**NON-FINITE FORMS**
+
+| **Form** | **Type** | **Translation** |
+|----------|----------|-----------------|
+| lova | Infinitive | to close |
+| lovle | Gerund | closing (act of) |
+| lovanga | Present Participle | closing (active) |
+| lovile | Past Participle | closed |
+
+---
+
+### B. Regular Verb: kara (structure)
+
+**INDICATIVE MOOD**
+
+| **Tense/Aspect** | **Form** | **Translation** |
+|-----------------|----------|-----------------|
+| Present Simple | kara | structures |
+| Present Continuous | karanga | is structuring |
+| Present Perfect | kareme | has structured |
+| Past Simple | karile | structured |
+| Past Continuous | karilanga | was structuring |
+| Past Perfect | karileme | had structured |
+| Future Simple | karnga | will structure |
+| Future Continuous | karnganga | will be structuring |
+| Future Perfect | karngeme | will have structured |
+
+---
+
+### C. Regular Verb: duva (go)
+
+**INDICATIVE MOOD**
+
+| **Tense/Aspect** | **Form** | **Translation** |
+|-----------------|----------|-----------------|
+| Present Simple | duva | goes |
+| Present Continuous | duvanga | is going |
+| Present Perfect | duveme | has gone |
+| Past Simple | duvile | went |
+| Past Continuous | duvilanga | was going |
+| Past Perfect | duvileme | had gone |
+| Future Simple | duvnga | will go |
+| Future Continuous | duvnganga | will be going |
+| Future Perfect | duvngeme | will have gone |
+
+**IMPERATIVE**
+
+| **Form** | **Translation** |
+|----------|-----------------|
+| duve | go! |
+| nimu duve | don't go! |
+
+**Note:** Imperative of *duva* is irregular: *duve* (not *duva-e*)
+
+---
+
+### D. Irregular Verb: ye (be - identity copula)
+
+**PRESENT**
+
+| **Person** | **Form** | **Translation** |
+|-----------|----------|-----------------|
+| mi ye | mi ye | I am |
+| we ye | we ye | you are |
+| ye ye | ye ye | he/she/it is |
+| miya ye | miya ye | we are |
+| yeya ye | yeya ye | they are |
+
+**PAST**
+
+| **Person** | **Form** | **Translation** |
+|-----------|----------|-----------------|
+| mi ye-ile | mi yeile | I was |
+| we ye-ile | we yeile | you were |
+| ye ye-ile | ye yeile | he/she/it was |
+
+**FUTURE**
+
+| **Person** | **Form** | **Translation** |
+|-----------|----------|-----------------|
+| mi ye-nga | mi yenga | I will be |
+| we ye-nga | we yenga | you will be |
+| ye ye-nga | ye yenga | he/she/it will be |
+
+**Note:** Copula *ye* is irregular and often contracts or is omitted in casual speech.
+
+---
+
+### E. Irregular Verb: ka (have/be - attributive copula)
+
+**PRESENT**
+
+| **Person** | **Form** | **Translation** |
+|-----------|----------|-----------------|
+| mi ka | mi ka | I have/am (state) |
+| we ka | we ka | you have/are |
+| ye ka | ye ka | he/she/it has/is |
+
+**PAST**
+
+| **Form** | **Translation** |
+|----------|-----------------|
+| ka-ile | had/was (state) |
+| mi kaile | I had/was |
+
+**FUTURE**
+
+| **Form** | **Translation** |
+|----------|-----------------|
+| ka-nga | will have/be |
+| mi kanga | I will have/be |
+
+---
+
+## XIV. COMPOUND TENSES AND ASPECTS
+
+### A. Perfect Progressive
+
+**Form:** ROOT + -eme-anga
+
+```
+lovemanga       'has been closing'
+karemanga       'has been structuring'
+
+Mi lovemanga mungon
+1SG close.PERF.CONT system
+'I have been closing the system'
+```
+
+### B. Future Perfect Progressive
+
+**Form:** ROOT + -nga-eme-anga
+
+```
+lovngemanga     'will have been closing'
+karngemanga     'will have been structuring'
+
+Mi lovngemanga
+1SG close.FUT.PERF.CONT
+'I will have been closing'
+```
+
+### C. Past Perfect Progressive
+
+**Form:** ROOT + -ile-eme-anga
+
+```
+lovilemanga     'had been closing'
+karilemanga     'had been structuring'
+
+Ye lovilemanga mungon
+3SG close.PST.PERF.CONT system
+'He/she had been closing the system'
+```
+
+---
+
+## XV. CONDITIONAL FORMS
+
+### A. Real Conditionals
+
+**Present Real:**
+```
+Engo mi lova, ye karanga
+if 1SG close 3SG structure.CONT
+'If I close, he/she is structuring'
+```
+
+**Past Real:**
+```
+Engo mi lovile, ye karile
+if 1SG close.PST 3SG structure.PST
+'If I closed, he/she structured'
+```
+
+**Future Real:**
+```
+Engo mi lovnga, ye karnga
+if 1SG close.FUT 3SG structure.FUT
+'If I will close, he/she will structure'
+```
+
+### B. Hypothetical Conditionals
+
+**Present Hypothetical (Subjunctive):**
+```
+Engo mi lovi, ye kari
+if 1SG close.SUBJ 3SG structure.SUBJ
+'If I were to close, he/she would structure'
+```
+
+**Past Hypothetical:**
+```
+Engo mi lovile-i, ye karile-i
+if 1SG close.PST-SUBJ 3SG structure.PST-SUBJ
+'If I had closed, he/she would have structured'
+```
+
+### C. Counterfactual
+
+```
+Engo mi lovile, ni ye nimu karile
+if 1SG close.PST but 3SG NEG structure.PST
+'If I closed, but he/she didn't structure'
+```
+
+---
+
+## XVI. DERIVED VERBS
+
+### A. Denominalization (Noun → Verb)
+
+**Pattern:** NOUN + -a
+
+```
+mungon → munga       'system' → 'to systematize'
+kara → kara          'structure' → 'to structure'
+Ω → Ωa               'omega' → 'to optimize for omega'
+```
+
+### B. Deadjectivalization (Adjective → Verb)
+
+**Pattern:** ADJ + -a
+
+```
+lovfu → lovfua       'closed' → 'to make closed'
+karfu → karfua       'structured' → 'to make structured'
+```
+
+### C. Causative Derivation
+
+**Pattern:** VERB + -isha
+
+```
+lova → lovisha       'close' → 'cause to close'
+duva → duvisha       'go' → 'cause to go, send'
+kara → karisha       'structure' → 'cause to structure'
+```
+
+### D. Applicative (Benefactive) Derivation
+
+**Pattern:** VERB + -ira
+
+```
+lova → lovira        'close' → 'close for (someone)'
+kara → karira        'structure' → 'structure for (someone)'
+
+Mi lovira we mungon
+1SG close.APPL 2SG system
+'I close the system for you'
+```
+
+---
+
+## XVII. ASPECT STACKING
+
+### A. Multiple Aspect Marking
+
+Aspects can stack for complex temporal relationships:
+
+**Perfect + Continuous:**
+```
+loveme + -anga → lovemanga
+'has been closing'
+```
+
+**Future + Perfect:**
+```
+lovnga + -eme → lovngeme
+'will have closed'
+```
+
+**Future + Perfect + Continuous:**
+```
+lovnga + -eme + -anga → lovngemanga
+'will have been closing'
+```
+
+### B. Aspect Stacking Order
+
+```
+ROOT + [TENSE] + [PERFECT] + [CONTINUOUS]
+
+Examples:
+lov-ile-eme-anga     'had been closing'
+kar-nga-eme-anga     'will have been structuring'
+```
+
+---
+
+## XVIII. VERB VALENCY
+
+### A. Intransitive Verbs (1 argument)
+
+```
+duva        'go'
+lova        'close' (can be intransitive)
+fuva        'die'
+
+Mi duva
+1SG go
+'I go'
+
+Mungon lova
+system close
+'The system closes'
+```
+
+### B. Transitive Verbs (2 arguments)
+
+```
+lova        'close' (transitive)
+kara        'structure'
+vuva        'break'
+
+Mi lova mungon
+1SG close system
+'I close the system'
+```
+
+### C. Ditransitive Verbs (3 arguments)
+
+```
+dua         'give'
+lovisha     'cause to close'
+
+Mi dua mungon ntu-ko
+1SG give system person-DAT
+'I give the system to the person'
+```
+
+### D. Valency-Changing Operations
+
+**Causative (adds argument):**
+```
+Intransitive: Mungon lova          'The system closes'
+Causative:    Mi lovisha mungon    'I cause the system to close'
+```
+
+**Passive (removes argument):**
+```
+Active:  Ntu lova mungon           'The person closes the system'
+Passive: Mungon lovwa (ntu-ma)     'The system is closed (by the person)'
+```
+
+---
+
+## XIX. VERB CLASSIFICATION
+
+### A. Action Verbs (Dynamic)
+
+```
+lova        'close'
+duva        'go'
+kara        'structure'
+vuva        'break'
+munga       'systematize'
+```
+
+### B. State Verbs (Stative)
+
+```
+ye          'be' (identity)
+ka          'be' (state), 'have'
+nanda       'know'
+duva        'want' (when modal)
+```
+
+### C. Process Verbs (Telic)
+
+```
+lova        'close' (has endpoint)
+kara        'structure' (has completion)
+fuva        'die' (has terminus)
+```
+
+### D. Activity Verbs (Atelic)
+
+```
+duva        'go' (ongoing)
+shi-a       'flux' (continuous)
+ramani-a    'interact' (ongoing)
+```
+
+---
+
+## XX. COMPLETE VERB TEMPLATE
+
+### A. Maximum Complexity
+
+```
+[POLARITY]-ROOT-[TENSE]-[ASPECT1]-[ASPECT2]-[MOOD]-[VOICE]
+
+Example:
+mu-lov-nga-eme-anga-i-wa
+SYMM-close-FUT-PERF-CONT-SUBJ-PASS
+
+'would have been being mutually closed (hypothetical, passive)'
+```
+
+### B. Practical Maximum
+
+Most verbs use 2-3 suffixes:
+
+```
+Common:
+lov-ile          'closed' (ROOT-TENSE)
+lov-anga         'is closing' (ROOT-ASPECT)
+lov-nga-eme      'will have closed' (ROOT-TENSE-ASPECT)
+
+Rare but possible:
+mu-lov-ile-eme-anga
+SYMM-close-PST-PERF-CONT
+'had been mutually closing'
+```
+
+---
+
+## XXI. VERB SUMMARY TABLES
+
+### A. Tense Summary
+
+| **Tense** | **Marker** | **Example** | **Meaning** |
+|-----------|-----------|-------------|-------------|
+| Present | -a | lova | closes |
+| Past | -ile | lovile | closed |
+| Future | -nga | lovnga | will close |
+| Immediate Past | -ile-tu | lo

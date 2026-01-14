@@ -57217,7 +57217,7 @@ write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fas
 
 * write a blog post introducing Ω, Ω̂ (Omega-Hat), the Ω-equations, the Ω field equations, Ω curves, Ω axioms, Ω laws, Ω assumptions, Ω constraints/bounds/limitations/leakage, Ω theorems, Ω operators, Ω-flow, Ω theory, and Ω implications
 
-* write a technical blog post for the Mungu Basis, Complexity Theory and the Dira System and Sambara AI OS
+* write a technical blog post for the Mungu Basis, Complexity Theory and the Dira System and Sambara AI OS. Generate in the main context window ONLY
 
 
 

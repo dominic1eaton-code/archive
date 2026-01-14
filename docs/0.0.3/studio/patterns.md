@@ -7250,7 +7250,7 @@ Just tell me the direction.
 
 
 
-Domingu Akheni Ke Mungu
+Domingu Akheni wa Kontinuitu Ke Mungu
 
 
 nyamba jussive mood

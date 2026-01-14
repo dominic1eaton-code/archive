@@ -2983,10 +2983,10 @@ Where:
 If you want next, I can:
 
 • express this as a **single Ω PDE**
+• connect this to **complexity, entropy, space, time, intelligence, cognition, learning**
 • map **AI alignment** directly to consensus drift
 • formalize **propaganda / bubbles / cults**
 • give **numerical estimators** for consensus stability
-• connect this to **complexity, entropy, and learning**
 
 Say the word.
 

@@ -57219,10 +57219,13 @@ write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fas
 
 * write a technical blog post for the Mungu Basis, Complexity Theory and the Dira System and Sambara AI OS
 
-* write a technical blog post for mungu engineering and closed loop engineering
 
 
 
+* write a comprehensive, extended technical blog post for MUNGU SYSTEM DESIGN METHODOLOGY (MSDM). Generate in the main context window ONLY
+
+
+* write a comprehensive, extended technical blog post for mungu engineering and closed loop engineering. Generate in the main context window ONLY
 
 
 * write a blog post introducing the Mungu Corporation. Generate in the main context window ONLY

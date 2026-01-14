@@ -17617,6 +17617,11 @@ If you want next, I can:
 Just say which.
 
 
+Formalize the Mungu Cycle/Loop:
+
+kernel -> cleave -> decompression -> seed -> tree -> <mychorrizate (substrate), network, forest> -> compression -> cleave -> kernel
+
+
 
 The Mungu State
 The Pamojan Nation State

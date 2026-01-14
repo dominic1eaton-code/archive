@@ -57216,10 +57216,21 @@ write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fas
 
 
 * write a blog post introducing Ω, Ω̂ (Omega-Hat), the Ω-equations, the Ω field equations, Ω curves, Ω axioms, Ω laws, Ω assumptions, Ω constraints/bounds/limitations/leakage, Ω theorems, Ω operators, Ω-flow, Ω theory, and Ω implications
+
 * write a technical blog post for the Mungu Basis, Complexity Theory and the Dira System and Sambara AI OS
+
 * write a technical blog post for mungu engineering and closed loop engineering
-* write a  technical blog post for SURGE-R1: Survival-Regime Guided Emergent Reinforcement Learning for Reasoning
+
+
 * write a blog post introducing the Mungu Corporation
-* write a blog post introducing the Mungu Papers, the lubiko bible and all of its books
-* write a technical blog post for The Social Economy and the Theory of Agreement
+
+* write a blog post introducing the Mungu Papers, the lubiko bible and all of its book
+
+
+
+
+* write a  medium platform style technical blog post for SURGE-R1: Survival-Regime Guided Emergent Reinforcement Learning for Reasoning. Generate in the main context window ONLY
+
+
+* write a medium platform style technical blog post for The Social Economy, social proof, social capital/equity, relationship equity, and the Theory of Agreement. Generate in the main context window ONLY
 

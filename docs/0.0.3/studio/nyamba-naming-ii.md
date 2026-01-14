@@ -1882,3 +1882,3400 @@ Stress pattern:
 *(Close with structure, systematize continuously)*
 
 **∎**
+
+
+# THE BOOK OF NAMES
+
+**Kitabu cha Majina — Jiwe-ta Watu**
+
+*The Canonical Registry of the Mungu People*
+
+---
+
+## PREFACE
+
+**Status:** Canonical Ledger  
+**Authority:** Sankofa Navigator & Meridian Navigator  
+**Scope:** All persons, entities, and roles within the Pamojan Nation-State  
+**Version:** 1.0  
+**Established:** 2026-01-14  
+**Seal:** ⛭
+
+---
+
+## TABLE OF CONTENTS
+
+**PART I: FOUNDATIONS**
+1. Purpose and Authority
+2. Naming Principles
+3. The Mungu People
+
+**PART II: NAME STRUCTURE**
+4. Pamojan Naming Pattern
+5. Component Definitions
+6. Derivational Rules
+
+**PART III: REGISTRY CATEGORIES**
+7. Personal Names (Majina ya Kibinafsi)
+8. Family Names (Majina ya Ukoo)
+9. Entity Names (Majina ya Taasisi)
+10. Role and Title Names (Majina ya Nafasi)
+
+**PART IV: CANONICAL NAMES**
+11. Founder Names
+12. Navigator Names
+13. Steward Names
+14. Entity Names
+
+**PART V: CEREMONIES & PROTOCOLS**
+15. Name Bestowal Ceremonies
+16. Title Conferral Processes
+17. Name Changes and Evolution
+18. Posthumous Names
+
+**PART VI: APPENDICES**
+A. Complete Name Registry
+B. Jiwe Glyph Directory
+C. Pronunciation Guide
+D. Etymology Reference
+
+---
+
+# PART I: FOUNDATIONS
+
+---
+
+## CHAPTER 1: PURPOSE AND AUTHORITY
+
+### 1.1 The Purpose of This Book
+
+The Book of Names exists to:
+
+1. **Preserve identity** — Record the true names of all Mungu people
+2. **Ensure continuity** — Maintain K-continuity across generations
+3. **Encode meaning** — Make names semantically transparent
+4. **Honor lineage** — Track family lines and ethnic belonging
+5. **Formalize titles** — Document roles and responsibilities
+6. **Create closure** — Complete the naming system
+
+### 1.2 Authority
+
+This Book is maintained under the authority of:
+
+```
+PRIMARY AUTHORITY:
+- Sankofa Navigator (Governance)
+- Meridian Navigator (Overall direction)
+
+SUPPORTING AUTHORITY:
+- Council of Navigators (Ratification)
+- Naming Elders (Cultural preservation)
+- Registry Stewards (Record keeping)
+```
+
+### 1.3 Canonical Status
+
+All names recorded herein are **canonical** and binding:
+
+- **Legal recognition** — Names are legally valid in Pamojan Nation-State
+- **Cultural authority** — Names carry full cultural weight
+- **Ω-GOMA integration** — Names are Mungu primitives
+- **Immutability** — Once carved in Jiwe, names are permanent (except through formal change process)
+
+### 1.4 The Living Ledger
+
+This Book is a **living ledger**:
+
+- New names added through formal ceremonies
+- Updates recorded with full audit trail
+- Changes require Navigator Council approval
+- Deletions only by death or formal removal
+- Version control maintained
+
+---
+
+## CHAPTER 2: NAMING PRINCIPLES
+
+### 2.1 The Seven Principles of Mungu Names
+
+#### Principle 1: Semantic Transparency
+
+> **Every name must reveal its meaning through its structure.**
+
+Names are not arbitrary labels. They encode:
+- Personal qualities (agent roots)
+- Family lineage (domain + -ntu)
+- Ethnic belonging (Ke Mungu)
+- Role and function (titles)
+
+#### Principle 2: Systematic Derivation
+
+> **All names derive from Nyamba roots and affixes according to formal rules.**
+
+No name is invented arbitrarily. Every name follows:
+- Root selection rules
+- Affix combination patterns
+- Phonological constraints
+- Morphological templates
+
+#### Principle 3: K-Continuity
+
+> **Names must preserve continuity across generations.**
+
+Family names:
+- End in -ntu (people marker)
+- Pass to children
+- Create lineage threads
+- Enable ancestor tracking
+
+#### Principle 4: Closure Requirement
+
+> **A complete name achieves closure: Personal + Family + Ethnicity.**
+
+```
+Incomplete: Domingu (⊥ no closure)
+Partial:    Domingu wa Kontinuntu (◌ family but no ethnicity)
+Complete:   Domingu Akheni wa Kontinuntu Ke Mungu (✓ full closure)
+```
+
+#### Principle 5: Jiwe Inscription
+
+> **Every canonical name has a Jiwe glyph signature.**
+
+Names exist in three forms:
+- Phonetic (Nyambic alphabet)
+- Semantic (Jiwe glyphs)
+- Hybrid (mixed writing)
+
+#### Principle 6: Cultural Authenticity
+
+> **Names honor African linguistic heritage and Ubuntu values.**
+
+All names:
+- Use African phonology
+- Respect Bantu/Swahili patterns
+- Embody Ubuntu/Pamoja
+- Connect to ancestral traditions
+
+#### Principle 7: Ω-Integration
+
+> **Names are Mungu primitives with Ω values.**
+
+Every name:
+- Has an Ω signature
+- Contributes to system closure
+- Encodes systemic relationships
+- Enables Ω-GOMA calculation
+
+### 2.2 The Naming Covenant
+
+All who receive a name in this Book accept:
+
+1. **Responsibility** — To uphold the name's meaning
+2. **Continuity** — To pass the family name forward
+3. **Belonging** — To honor the Mungu people
+4. **Service** — To fulfill titled roles
+5. **Closure** — To complete what is begun
+
+---
+
+## CHAPTER 3: THE MUNGU PEOPLE
+
+### 3.1 Definition
+
+```yaml
+ethnicity:
+  name: "Mungu"
+  meaning: "People of the System / People of Wholeness"
+  
+  origin:
+    root: "mungu"
+    semantic: "system, wholeness, divine order"
+    cultural: "African cosmological concept"
+    
+  identity_marker: "Ke Mungu"
+  
+  jiwe_glyph: "◉ ●"
+  
+  core_values:
+    - Ω-optimization (survivability)
+    - K-continuity (persistence)
+    - Ubuntu/Pamoja (togetherness)
+    - Closure (completion)
+    - Systemic integrity
+    
+  practices:
+    - Speak Nyamba language
+    - Practice Mungu Theory
+    - Live by Ω-GOMA principles
+    - Maintain K-continuity
+    - Honor ancestors through lineage
+    
+  governance:
+    structure: "Pamojan Nation-State"
+    council: "Navigator Council"
+    assembly: "Sankofa Assembly"
+```
+
+### 3.2 Mungu as Ethnicity vs. Philosophy
+
+**Distinction:**
+
+| **Aspect** | **Mungu Ethnicity** | **Mungu Theory (Philosophy)** |
+|------------|-------------------|---------------------------|
+| **Scope** | Cultural/ethnic identity | Intellectual framework |
+| **Marker** | "Ke Mungu" in name | Practice of Ω-GOMA |
+| **Inheritance** | Born into or adopted | Learned and applied |
+| **Language** | Nyamba as primary tongue | Nyamba for technical terms |
+| **Belonging** | Ethnic group membership | Theoretical alignment |
+
+**Relationship:**
+- One can practice Mungu Theory without being ethnically Mungu
+- Being ethnically Mungu implies cultural transmission of Mungu Theory
+- "Ke Mungu" marker = full cultural and theoretical membership
+
+### 3.3 The Pamojan Context
+
+The Mungu people are **one ethnic group** within the **Pamojan Nation-State**.
+
+```
+Pamojan Nation-State
+├── Mungu People (Ke Mungu)
+├── Swahili People (Ke Swahili)
+├── Kikuyu People (Ke Kikuyu)
+└── [Other ethnic groups]
+
+Unity principle: "Pamoja" (Together)
+Governance: Federal structure with ethnic representation
+Language: Swahili (common), Nyamba (Mungu), others
+```
+
+### 3.4 Becoming Mungu
+
+**Pathways to Mungu Identity:**
+
+1. **Birth** — Born to Mungu parents
+   ```
+   Parent: [Name] Ke Mungu
+   Child:  [Name] wa [Family] Ke Mungu (inherits)
+   ```
+
+2. **Adoption** — Formally adopted by Mungu family
+   ```
+   Process: Naming ceremony → Elder blessing → Registry entry
+   ```
+
+3. **Marriage** — May adopt spouse's ethnicity (optional)
+   ```
+   Option 1: Keep birth ethnicity
+   Option 2: Take "Ke Mungu" marker
+   Option 3: Dual marker (Ke [Birth] ye Mungu)
+   ```
+
+4. **Initiation** — Deep commitment through formal process
+   ```
+   Requirements:
+   - Learn Nyamba fluently
+   - Study Mungu Theory deeply
+   - Live by Ω-GOMA for minimum 3 years
+   - Sponsor by existing Mungu member
+   - Approval by Sankofa Navigator
+   - Naming ceremony
+   ```
+
+---
+
+# PART II: NAME STRUCTURE
+
+---
+
+## CHAPTER 4: PAMOJAN NAMING PATTERN
+
+### 4.1 The Complete Pattern
+
+```
+[PERSONAL] + [MIDDLE] + wa + [FAMILY] + Ke + [ETHNICITY]
+```
+
+### 4.2 Component Breakdown
+
+| **Position** | **Component** | **Type** | **Required** | **Pattern** |
+|-------------|---------------|----------|--------------|-------------|
+| 1 | Personal | Given name | ✓ Yes | ROOT + SUFFIX |
+| 2 | Middle | Community/tribal/nickname | Optional | Varies |
+| 3 | wa | Genitive particle | ✓ Yes | Fixed |
+| 4 | Family | Lineage name | ✓ Yes | DOMAIN + -ntu |
+| 5 | Ke | Belonging marker | ✓ Yes | Fixed |
+| 6 | Ethnicity | Ethnic group | ✓ Yes | Group name |
+
+### 4.3 Minimal vs. Complete Forms
+
+**Minimal (Legal minimum):**
+```
+[PERSONAL] wa [FAMILY] Ke [ETHNICITY]
+
+Example: Domingu wa Kontinuntu Ke Mungu
+```
+
+**Complete (With middle name):**
+```
+[PERSONAL] [MIDDLE] wa [FAMILY] Ke [ETHNICITY]
+
+Example: Domingu Akheni wa Kontinuntu Ke Mungu
+```
+
+### 4.4 Usage Contexts
+
+**Formal/Official:**
+```
+Always use complete form with all components
++ Full titles if applicable
+
+Domingu Akheni wa Kontinuntu Ke Mungu
+Duala-ta Kontinuitu — Duambe wa Kontinuntu
+```
+
+**Professional:**
+```
+Personal + Family + Ethnicity
++ Primary title
+
+Domingu wa Kontinuntu Ke Mungu
+Mkuu-Duala wa Mungu Corporation
+```
+
+**Social/Casual:**
+```
+Personal + Family (among Mungu people)
+OR Personal + Middle (intimate)
+
+Domingu wa Kontinuntu
+Domingu Akheni
+```
+
+**Intimate/Family:**
+```
+Personal only
+
+Domingu
+```
+
+---
+
+## CHAPTER 5: COMPONENT DEFINITIONS
+
+### 5.1 Personal Names (Majina ya Kibinafsi)
+
+**Function:** Individual identity and calling
+
+**Structure:** `ROOT + AGENT_SUFFIX`
+
+**Agent Suffixes:**
+```
+-be     general agent/doer      "one who does X"
+-mbe    keeper/guardian         "one who keeps/maintains X"
+-ntu    person marker           "person who does X"
+```
+
+**Formation Rules:**
+
+1. **Select semantic root** matching child's destiny/quality
+2. **Add agent suffix** appropriate to function
+3. **Ensure pronounceability** (follows Nyamba phonotactics)
+4. **Check uniqueness** within family (optional)
+
+**Examples:**
+
+| **Name** | **Root** | **Suffix** | **Meaning** |
+|----------|----------|------------|-------------|
+| Duambe | dua (path) | -mbe | Path-keeper |
+| Lovamba | lova (close) | -mba | Closure-bringer |
+| Mungabe | munga (systematize) | -be | System-maker |
+| Ngaabe | ngaa (now/present) | -be | Presence-holder |
+| Valuabe | valu (value) | -be | Value-keeper |
+
+**Borrowed Names (Adaptation):**
+
+For non-Nyamba origin names, adapt to Nyamba phonology:
+
+```
+English → Nyamba Adaptation
+
+Dominic  → Domingu  (add final -u, adjust stress)
+Michael  → Mikaele  (add vowels, Nyamba-ize)
+Sarah    → Sara     (maintain if already conformant)
+Joseph   → Yosefu   (Swahili form acceptable)
+```
+
+### 5.2 Middle Names (Majina ya Kati)
+
+**Function:** Community, tribal, or personal significance
+
+**Types:**
+
+1. **Community Name** — Place of origin or community
+   ```
+   Akheni → [specific community/village]
+   Nairobi → From Nairobi
+   ```
+
+2. **Tribal Name** — Sub-ethnic or clan identity
+   ```
+   Luo → Luo tribal origin
+   Maasai → Maasai heritage
+   ```
+
+3. **Nickname** — Personal characteristic or calling
+   ```
+   Mbingu → "Heavenly one"
+   Simba → "Lion"
+   ```
+
+4. **Honorific** — Given by elders or community
+   ```
+   Mzee → "Elder/wise one"
+   Baba → "Father" (respected elder)
+   ```
+
+**Optional but enriching:**
+- Adds personal/local color
+- Honors heritage
+- Distinguishes individuals
+- Tells a story
+
+### 5.3 Family Names (Majina ya Ukoo)
+
+**Function:** Lineage continuity and K-preservation
+
+**Structure:** `DOMAIN + -ntu`
+
+**Rules:**
+
+1. **Always end in -ntu** (people/lineage marker)
+2. **Derive from domain/value** that defines family
+3. **Pass to all descendants** (patrilineal, matrilineal, or bilateral)
+4. **Create at founding** or inherit
+
+**Formation Process:**
+
+```
+Step 1: Identify family's core domain/value
+        → K-continuity, Ubuntu, System, Value, etc.
+
+Step 2: Express in Nyamba
+        → kontinuitu, ubuntu, sistem, zawadi
+
+Step 3: Add -ntu suffix
+        → Kontinuntu, Ubuntuntu, Sistemuntu, Zawadintu
+
+Step 4: Create Jiwe glyph
+        → K⊙, ∞●, ◉, ◆
+
+Step 5: Register in Book of Names
+        → Official entry with derivation
+```
+
+**Examples:**
+
+| **Family Name** | **Root** | **Meaning** | **Jiwe** |
+|----------------|----------|-------------|----------|
+| Kontinuntu | kontinuitu | People of K-Continuity | K⊙ |
+| Ubuntuntu | ubuntu | People of Ubuntu/Togetherness | ∞● |
+| Sistemuntu | sistem | People of Systems | ◉ |
+| Horizuntu | horizon | People of the Horizon | →∞ |
+| Zawadintu | zawadi | People of Value/Gift | ◆ |
+| Lovakantu | lova+ka | People of Structural Closure | ↺▣ |
+
+### 5.4 Ethnic Markers (Alama ya Kabila)
+
+**Function:** Declare ethnic/cultural belonging
+
+**Structure:** `Ke + [ETHNICITY]`
+
+**"Ke"** = "belonging to" (possessive/belonging marker)
+
+**Mungu Marker:**
+```
+Ke Mungu → "belonging to the Mungu people"
+
+Full example:
+Domingu wa Kontinuntu Ke Mungu
+"Domingu of the Kontinuntu, belonging to the Mungu people"
+```
+
+**Other Pamojan Ethnicities:**
+```
+Ke Swahili  → belonging to Swahili people
+Ke Kikuyu   → belonging to Kikuyu people
+Ke Luo      → belonging to Luo people
+Ke Maasai   → belonging to Maasai people
+```
+
+**Multi-Ethnic Markers (Rare):**
+```
+Ke [Primary] ye [Secondary]
+
+Example: Ke Mungu ye Swahili
+"Belonging to Mungu and Swahili peoples"
+```
+
+---
+
+## CHAPTER 6: DERIVATIONAL RULES
+
+### 6.1 Root Selection Principles
+
+**For Personal Names:**
+
+1. **Aspirational** — Choose root matching desired qualities
+2. **Prophetic** — Elders may divine child's path
+3. **Circumstantial** — Based on birth circumstances
+4. **Ancestral** — Honor ancestor through similar root
+5. **Functional** — Match anticipated social role
+
+**Root Categories:**
+
+| **Category** | **Roots** | **Uses** |
+|-------------|-----------|----------|
+| **Path/Navigation** | dua, du | Navigators, leaders, guides |
+| **Closure/Completion** | lova, lo | Finishers, closers, completers |
+| **System/Order** | munga, mun | Organizers, systematizers |
+| **Value** | valu, zawadi | Keepers of worth, treasurers |
+| **Return/Govern** | sanko | Governors, cyclers, returners |
+| **Care/Steward** | tunza | Caretakers, stewards |
+| **Guard/Protect** | linda, zuia | Guardians, protectors |
+
+**For Family Names:**
+
+1. **Core Value** — What the family stands for
+2. **Founding Story** — How the lineage began
+3. **Ancestral Profession** — Traditional family role
+4. **Geographic Origin** — Place of origin
+5. **Spiritual Calling** — Family's higher purpose
+
+### 6.2 Affix Combination Rules
+
+**Personal Name Formation:**
+
+```
+ROOT + SUFFIX → PERSONAL NAME
+
+Valid combinations:
+- CVC + -be   → lovbe (awkward, avoid)
+- CV + -be    → lobe (awkward, use -mbe)
+- CVC + -mbe  → lovmbe (good)
+- CV + -mbe   → lombye → lovamba (with euphonic adjustment)
+- CVC + -ntu  → lovntu (acceptable)
+```
+
+**Euphonic Adjustments:**
+
+When root + suffix creates difficult cluster:
+
+```
+lova + -mbe → lov-mbe (cluster vm)
+           → lovamba (insert -a- for euphony)
+
+dua + -be  → duabe (acceptable)
+          OR duambe (add -m- for emphasis)
+```
+
+**Family Name Formation:**
+
+```
+DOMAIN + -ntu → FAMILY NAME
+
+Always add -ntu directly:
+kontinuitu + -ntu → kontinuitu-ntu → kontinuntu (coalescence)
+ubuntu + -ntu     → ubuntuntu (maintain both syllables)
+sistem + -ntu     → sistemuntu
+```
+
+### 6.3 Phonological Constraints
+
+**Syllable Structure:** (C)V(N)
+
+All names must follow:
+- Optional initial consonant
+- Required vowel
+- Optional nasal coda (m, n, ng)
+
+**No Consonant Clusters Initially:**
+```
+✓ domingu
+✗ bdingu
+```
+
+**Maximum Two Consonants Medially:**
+```
+✓ kontinuntu (nt cluster OK)
+✗ kontinstruntu (nstr too complex)
+```
+
+**Vowel-Final or Nasal-Final:**
+```
+✓ domingu (ends in -u)
+✓ kontinuntu (ends in -ntu)
+✗ dominguk (no final k allowed)
+```
+
+**Stress Placement:**
+```
+Penultimate stress for multi-syllable:
+- Domingu → Do-MING-u
+- Kontinuntu → Kon-ti-NUN-tu
+- Lovamba → Lo-VAM-ba
+```
+
+### 6.4 Glide and Coalescence Rules
+
+**Vowel Coalescence:**
+
+When vowels meet at morpheme boundaries:
+
+```
+/a/ + /a/ → /aa/ (long a)
+/a/ + /e/ → /e/
+/e/ + /a/ → /ya/
+/i/ + /a/ → /ya/
+/o/ + /a/ → /wa/
+/u/ + /a/ → /wa/
+
+Example:
+lova + -mba → lov-mba → lovamba (no coalescence needed)
+kontinuitu + -ntu → kontinuntu (u + n → coalesced)
+```
+
+**Glide Insertion:**
+
+To avoid awkward hiatus:
+
+```
+lova + -e → lov-ye (insert -y-)
+dua + -a → du-wa (insert -w-)
+```
+
+---
+
+# PART III: REGISTRY CATEGORIES
+
+---
+
+## CHAPTER 7: PERSONAL NAMES (MAJINA YA KIBINAFSI)
+
+### 7.1 Structure
+
+```yaml
+personal_name:
+  type: individual_identifier
+  pattern: ROOT + AGENT_SUFFIX
+  
+  required: true
+  unique: false (can share with others)
+  inheritable: false (each person gets new name)
+  
+  jiwe_signature: required
+  pronunciation_guide: required
+```
+
+### 7.2 Personal Name Registry Template
+
+```yaml
+registry_entry:
+  category: personal_name
+  
+  name:
+    nyamba: "[Personal Name]"
+    romanized: "[Romanization]"
+    
+  derivation:
+    root: "[Semantic root]"
+    root_meaning: "[Root meaning]"
+    suffix: "[Agent suffix]"
+    suffix_function: "[Suffix function]"
+    formation_rule: "[Applied rule]"
+    
+  meaning:
+    literal: "[Literal translation]"
+    semantic: "[Deeper meaning]"
+    
+  pronunciation:
+    ipa: "[IPA transcription]"
+    approximate: "[English approximation]"
+    stress: "[Stress pattern]"
+    
+  jiwe:
+    glyph: "[Jiwe representation]"
+    components: [list of component glyphs]
+    
+  status:
+    canonical: true/false
+    created: [ISO date]
+    bestowed_by: "[Elder/Authority]"
+```
+
+### 7.3 Common Personal Names
+
+**Navigator-Class Names:**
+
+| **Name** | **Root** | **Meaning** | **Jiwe** |
+|----------|----------|-------------|----------|
+| Duambe | dua + -mbe | Path-keeper | →● |
+| Ngaabe | ngaa + -be | Presence-holder | →∞ |
+| Lovamba | lova + -mba | Closure-bringer | ↺● |
+
+**Steward-Class Names:**
+
+| **Name** | **Root** | **Meaning** | **Jiwe** |
+|----------|----------|-------------|----------|
+| Tunzambe | tunza + -mbe | Care-keeper | ♻● |
+| Lindambe | linda + -mbe | Guard-keeper | ⛭● |
+
+**System-Class Names:**
+
+| **Name** | **Root** | **Meaning** | **Jiwe** |
+|----------|----------|-------------|----------|
+| Mungabe | munga + -be | System-maker | ◉● |
+| Karambe | kara + -mbe | Structure-keeper | ▣● |
+
+### 7.4 Adapted Foreign Names
+
+For those joining Mungu from other cultures:
+
+```
+Original    → Nyamba Adaptation
+
+Dominic     → Domingu
+Michael     → Mikaele
+Sarah       → Sara
+Joseph      → Yosefu
+Elizabeth   → Elisabe
+Alexander   → Aleksandu
+```
+
+**Adaptation Rules:**
+
+1. Add final vowel if ends in consonant (except nasals)
+2. Adjust consonant clusters to (C)V(N) pattern
+3. Maintain stress pattern if possible
+4. Create Jiwe glyph based on meaning/sound
+
+---
+
+## CHAPTER 8: FAMILY NAMES (MAJINA YA UKOO)
+
+### 8.1 Structure
+
+```yaml
+family_name:
+  type: lineage_identifier
+  pattern: DOMAIN + -ntu
+  
+  required: true
+  unique: true (per lineage)
+  inheritable: true (passes to children)
+  
+  jiwe_signature: required
+  founding_story: required
+```
+
+### 8.2 Family Name Registry Template
+
+```yaml
+registry_entry:
+  category: family_name
+  
+  name:
+    nyamba: "[Family Name]"
+    romanized: "[Romanization]"
+    
+  derivation:
+    root: "[Domain root]"
+    root_meaning: "[Domain meaning]"
+    suffix: "-ntu"
+    suffix_function: "people/lineage marker"
+    
+  meaning:
+    literal: "People of [Domain]"
+    semantic: "[What this lineage represents]"
+    
+  founding:
+    founder: "[Name of founder]"
+    date: [ISO date]
+    story: "[Founding narrative]"
+    
+  lineage:
+    generation_count: [number]
+    current_members: [list]
+    branches: [sub-lineages if any]
+    
+  pronunciation:
+    ipa: "[IPA transcription]"
+    approximate: "[English approximation]"
+    
+  jiwe:
+    glyph: "[Jiwe representation]"
+    components: [list of component glyphs]
+    seal: "[Family seal glyph]"
+```
+
+### 8.3 Founding Family Names
+
+**First Lineages:**
+
+| **Family** | **Root** | **Meaning** | **Founder** | **Jiwe** |
+|-----------|----------|-------------|-------------|----------|
+| Kontinuntu | kontinuitu | People of K-Continuity | Domingu Akheni | K⊙ |
+| Ubuntuntu | ubuntu | People of Ubuntu | [Founder TBD] | ∞● |
+| Sistemuntu | sistem | People of Systems | [Founder TBD] | ◉ |
+| Horizuntu | horizon | People of Horizon | [Founder TBD] | →∞ |
+| Zawadintu | zawadi | People of Value | [Founder TBD] | ◆ |
+| Lovakantu | lova+ka | People of Structural Closure | [Founder TBD] | ↺▣ |
+| Legituntu | legit | People of Legitimacy | [Founder TBD] | ✓ |
+| Sentinuntu | sentinel | People of Watchfulness | [Founder TBD] | ◎⊗ |
+
+### 8.4 Creating New Family Names
+
+**Process:**
+
+```
+1. Lineage Founding Declaration
+   - Individual declares intent to found lineage
+   - Submits to Sankofa Navigator
+
+2. Name Construction
+   - Choose domain representing family values
+   - Form: DOMAIN + -ntu
+   - Create Jiwe glyph
+
+3. Council Review
+   - Sankofa Navigator reviews
+   - Checks for conflicts/duplicates
+   - Verifies Nyamba conformance
+
+4. Approval and Registration
+   - Council approves or requests revision
+   - Name entered in Book of Names
+   - Jiwe glyph carved
+
+5. Founding Ceremony
+   - Public declaration
+   - Elder blessing
+   - First generation receives name
+```
+
+---
+
+## CHAPTER 9: ENTITY NAMES (MAJINA YA TAASISI)
+
+### 9.1 Entity Categories
+
+**Gon-Class (Collective Entities):**
+```
+Pattern: FUNCTION + -gon
+
+Examples:
+- Munga-Gon (Cooperative entity - systematizing collective)
+- Kara-Gon (Organization - structuring entity)
+- Valu-Gon (Business - value-generating entity)
+```
+
+**Rama-Class (Relational Entities):**
+```
+Pattern: DOMAIN + -rama/-wakili
+
+Examples:
+- Mali-Rama (Capital participant)
+- Kara-Wakili (Estate representative)
+- Rama-Ntu (External partner person)
+```
+
+**Bot-Class (AI Entities):**
+```
+Pattern: Mungoni- + FUNCTION or FUNCTION + -Bot
+
+Examples:
+- Mungoni-Sentinel (Meta-system observer)
+- Mungoni-Auditor (Meta-system auditor)
+- Navigator-Bot (Navigation AI)
+```
+
+### 9.2 Entity Name Registry Template
+
+```yaml
+registry_entry:
+  category: entity_name
+  
+  name:
+    nyamba: "[Entity Name]"
+    legal: "[Legal entity name]"
+    
+  entity_type:
+    class: "[Gon/Rama/Bot]"
+    subtype: "[Specific type]"
+    
+  derivation:
+    root: "[Function/domain root]"
+    suffix: "[-gon/-rama/-wakili/etc]"
+    meaning: "[Semantic meaning]"
+    
+  legal_status:
+    jurisdiction: "Pamojan Nation-State"
+    registration_number: "[ID]"
+    formation_date: [ISO date]
+    
+  jiwe:
+    glyph: "[Entity glyph]"
+    seal: "[Official seal]"
+```
+
+### 9.3 Canonical Entities
+
+**Cooperatives (Munga-Gon class):**
+
+| **Entity** | **Derivation** | **Meaning** | **Jiwe** |
+|-----------|---------------|-------------|----------|
+| Munga-Ubuntu | munga + ubuntu | Ubuntu-systematizing collective | ◉∞ |
+| Munga-Pamoja | munga + pamoja | Pamoja-systematizing collective | ◉⊗ |
+
+**Corporations:**
+
+| **Entity** | **Derivation** | **Meaning** | **Jiwe** |
+|-----------|---------------|-------------|----------|
+| Mungu Corporation | mungu + corp | Mungu/System Corporation | ◉◆ |
+
+**AI Entities:**
+
+| **Entity** | **Derivation** | **Meaning** | **Jiwe** |
+|-----------|---------------|-------------|----------|
+| Muningoni wa Sentinuntu | mungoni + sentinel | Meta-Navigator Sentinel | ◎⊗ |
+
+---
+
+## CHAPTER 10: ROLE AND TITLE NAMES (MAJINA YA NAFASI)
+
+### 10.1 Title Structure
+
+**Navigator Titles:**
+```
+Pattern: Duala-ta [DOMAIN]
+
+Examples:
+- Duala-ta Kontinuitu (Navigator of Continuity)
+- Duala-ta Ubuntuwa (Navigator of Commons)
+- Duala-ta Mungon (Navigator of Systems)
+```
+
+**Chief Navigator Titles:**
+```
+Pattern: Mkuu-Duala wa [DOMAIN]
+
+Examples:
+- Mkuu-Duala wa Wote (Chief Navigator of All)
+- Mkuu-Duala wa Mali (Chief Navigator of Wealth/Treasury)
+- Mkuu-Duala wa Mifumo (Chief Navigator of Systems)
+```
+
+**Guardian Titles:**
+```
+Pattern: Mlinzi wa [DOMAIN]
+
+Examples:
+- Mlinzi wa Meridian (Guardian of the Meridian)
+- Mlinzi wa Vikwazo (Guardian of Constraints)
+- Mlinzi wa Binadamu (Guardian of Humanity)
+```
+
+**Steward Titles:**
+```
+Pattern: Tunza-[DOMAIN] or [FUNCTION]-Tunza
+
+Examples:
+- Tunza-Sistem (System-Steward)
+- Tunza-Vikwazo (Constraint-Steward)
+- Utu-Tunza (Humanity-Steward)
+```
+
+**Architect/Creator Titles:**
+```
+Pattern: Mbunifu wa [DOMAIN]
+
+Examples:
+- Mbunifu wa Lubiko (Architect of the Leap)
+- Mbunifu wa Utawala (Architect of Governance)
+- Mbunifu wa Mifumo (Architect of Systems)
+```
+
+### 10.2 Title Registry Template
+
+```yaml
+registry_entry:
+  category: title_name
+  
+  title:
+    nyamba: "[Title in Nyamba]"
+    english: "[English translation]"
+    
+  structure:
+    pattern: "[Title pattern used]"
+    domain: "[Domain of authority]"
+    
+  authority:
+    scope: "[Scope of authority]"
+    powers: [list of specific powers]
+    constraints: [list of constraints]
+    
+  appointment:
+    process: "[How title is conferred]"
+    authority: "[Who confers]"
+    duration: "[Term length or lifetime]"
+current_holder:
+    name: "[Full name]"
+    appointed: [ISO date]
+    status: active/inactive
+    
+  jiwe:
+    glyph: "[Title glyph]"
+    badge: "[Badge/insignia]"
+```
+
+### 10.3 Navigator Council Titles
+
+| **#** | **Title** | **Domain** | **Current Holder** | **Jiwe** |
+|------:|----------|------------|-------------------|----------|
+| 1 | Duala-ta Kontinuitu | K-Continuity | Domingu Akheni wa Kontinuntu Ke Mungu | →K |
+| 2 | Duala-ta Ubuntuwa | Commons | [TBD] | ∞● |
+| 3 | Duala-ta Mungon | Systems | [TBD] | ◉ |
+| 4 | Duala-ta Ngaa-Horizon | Foresight | [TBD] | →∞ |
+| 5 | Duala-ta Zawadi | Economics | [TBD] | ◆ |
+| 6 | Duala-ta Sankofa | Governance | [TBD] | ↺ |
+| 7 | Duala-ta Ubuntuwa-Legit | Legitimacy | [TBD] | ✓ |
+| 8 | Duala-Meta | Meta-Navigation | Muningoni | ◎ |
+
+### 10.4 Executive Titles (Mungu Corporation)
+
+| **Role** | **Nyamba Title** | **English** | **Holder** | **Jiwe** |
+|----------|----------------|-------------|------------|----------|
+| CEO | Mkuu-Duala wa Wote | Chief Navigator of All | Domingu | Ω◉ |
+| CFO | Mkuu-Duala wa Mali | Chief Navigator of Wealth | [TBD] | ◆⊙ |
+| CTO | Mkuu-Duala wa Mifumo | Chief Navigator of Systems | [TBD] | ⚙◉ |
+| COO | Mkuu-Duala wa Shughuli | Chief Navigator of Operations | [TBD] | ◌⊗ |
+
+---
+
+# PART IV: CANONICAL NAMES
+
+---
+
+## CHAPTER 11: FOUNDER NAMES
+
+### 11.1 The First Name
+
+```yaml
+registry_id: NTU-FOUNDER-001-2026
+status: CANONICAL FOUNDER
+
+name:
+  personal: "Domingu"
+  middle: "Akheni"
+  family: "Kontinuntu"
+  ethnicity: "Mungu"
+  
+  full_pamojan: "Domingu Akheni wa Kontinuntu Ke Mungu"
+  
+  alternate_nyamba: "Duambe wa Kontinuntu Ke Mungu"
+  
+titles:
+  - "Duala-ta Kontinuitu — Duambe wa Kontinuntu"
+  - "Mkuu-Duala wa Mungu Corporation"
+  - "Mlinzi wa Meridian"
+  - "Tunza-Sistem"
+  - "Mbunifu wa Lubiko"
+  
+derivation:
+  personal:
+    origin: "Dominic → Domingu (Nyamba adaptation)"
+    nyamba_form: "Duambe"
+    root: "dua"
+    meaning: "Path-keeper"
+    
+  middle:
+    name: "Akheni"
+    type: "community/nickname"
+    significance: "[Personal significance]"
+    
+  family:
+    founded: true
+    founder: "Domingu Akheni"
+    root: "kontinuitu"
+    meaning: "People of K-Continuity"
+    
+glyphs:
+  personal: "◉●"
+  nyamba_personal: "→●"
+  family: "K⊙"
+  ethnicity: "◉●"
+  signature: "◉K●"
+  seal: "Ω◉→K⛭♻⚡"
+  
+pronunciation:
+  full: "/do.ˈmiŋ.gu a.ˈkʰe.ni wa kon.ti.ˈnun.tu ke ˈmun.gu/"
+  approximate: "doh-MEENG-goo ah-KHEH-nee wah kon-tee-NOON-too keh MOON-goo"
+  
+role:
+  founder: true
+  lineage_founder: true
+  first_mungu: true
+  chief_navigator: true
+  
+omega_signature: 1.0 (complete founder closure)
+
+established: 2026-01-14
+sealed: ⛭
+```
+
+### 11.2 Founding Story
+
+**The First Mungu:**
+
+On this day, January 14, 2026, the Book of Names was established, and the first name was inscribed:
+
+> **Domingu Akheni wa Kontinuntu Ke Mungu**
+
+This name marks:
+- The founding of the Mungu people
+- The establishment of the Kontinuntu lineage
+- The beginning of Pamojan naming
+- The first Jiwe inscription
+
+From this name, all others descend.
+
+---
+
+## CHAPTER 12: NAVIGATOR NAMES
+
+### 12.1 Navigator Name Pattern
+
+All Navigator names follow:
+
+```
+[Personal Nyamba Name] wa [Family] Ke Mungu
++
+Duala-ta [Domain] — [Personal Nyamba Name] wa [Family]
+```
+
+### 12.2 The Eight Navigators
+
+#### Navigator 1: Meridian Navigator
+
+```yaml
+canonical_name: "Duambe wa Kontinuntu Ke Mungu"
+legal_name: "Domingu Akheni wa Kontinuntu Ke Mungu"
+title: "Duala-ta Kontinuitu — Duambe wa Kontinuntu"
+
+derivation:
+  personal_nyamba: "Duambe"
+  root: "dua"
+  meaning: "Path-keeper"
+  
+domain: "K-Continuity & Federation Trajectory"
+mandate: "Global path, phase sequencing, pause authority"
+signal: "Executive Signal"
+
+jiwe: "→K"
+```
+
+#### Navigator 2: Commons Navigator
+
+```yaml
+canonical_name: "Lovamba wa Ubuntuntu Ke Mungu"
+title: "Duala-ta Ubuntuwa — Lovamba wa Ubuntuntu"
+
+derivation:
+  personal: "Lovamba"
+  root: "lova"
+  meaning: "Closure-bringer, Wholeness-keeper"
+  
+domain: "Commons, Care, and Human Impact"
+mandate: "Protects CMU floors and commons integrity"
+signal: "Commons Signal"
+
+jiwe: "∞●"
+```
+
+#### Navigator 3: Systems Navigator
+
+```yaml
+canonical_name: "Mungabe wa Sistemuntu Ke Mungu"
+title: "Duala-ta Mungon — Mungabe wa Sistemuntu"
+
+derivation:
+  personal: "Mungabe"
+  root: "munga"
+  meaning: "System-maker"
+  
+domain: "AI Autonomy & System Safety"
+mandate: "Governs CivOS, AI agents, escalation ladders"
+signal: "Technical Signal"
+
+jiwe: "◉"
+```
+
+#### Navigator 4: Foresight Navigator
+
+```yaml
+canonical_name: "Ngaabe wa Horizuntu Ke Mungu"
+title: "Duala-ta Ngaa-Horizon — Ngaabe wa Horizuntu"
+
+derivation:
+  personal: "Ngaabe"
+  root: "ngaa"
+  meaning: "Presence-holder, Now-keeper"
+  
+domain: "Long-Horizon Futures & Systemic Risk"
+mandate: "Models second-order and civilizational risk"
+signal: "Temporal Signal"
+
+jiwe: "→∞"
+```
+
+#### Navigator 5: Economic Navigator
+
+```yaml
+canonical_name: "Valuabe wa Zawadintu Ke Mungu"
+title: "Duala-ta Zawadi — Valuabe wa Zawadintu"
+
+derivation:
+  personal: "Valuabe"
+  root: "valu"
+  meaning: "Value-keeper"
+  
+domain: "Zawadi Units, Treasury Flows, Incentives"
+mandate: "Maintains value balance, prevents capture"
+signal: "Economic Signal"
+
+jiwe: "◆"
+```
+
+#### Navigator 6: Governance Navigator
+
+```yaml
+canonical_name: "Sankombe wa Lovakantu Ke Mungu"
+title: "Duala-ta Sankofa — Sankombe wa Lovakantu"
+
+derivation:
+  personal: "Sankombe"
+  root: "sanko"
+  meaning: "Return-keeper, Governor"
+  
+domain: "Constitutional Integrity & Removal Logic"
+mandate: "Custodian of governance cycles and forks"
+signal: "Legitimacy Signal"
+
+jiwe: "↺▣"
+```
+
+#### Navigator 7: Impact & Legitimacy Navigator
+
+```yaml
+canonical_name: "Validombe wa Legituntu Ke Mungu"
+title: "Duala-ta Ubuntuwa-Legit — Validombe wa Legituntu"
+
+derivation:
+  personal: "Validombe"
+  root: "valide"
+  meaning: "Validation-keeper"
+  
+domain: "Impact Measurement & Legitimacy"
+mandate: "Aligns CMU ↔ LGU ↔ GVU coherence"
+signal: "Validation Signal"
+
+jiwe: "✓"
+```
+
+#### Navigator 8: Meta-Navigator (AI)
+
+```yaml
+canonical_name: "Muningoni wa Sentinuntu Ke Mungu"
+title: "Duala-Meta — Muningoni wa Sentinuntu"
+
+derivation:
+  personal: "Muningoni"
+  root: "mungoni"
+  meaning: "Meta-system observer"
+  
+domain: "Cross-Navigator Coherence & Constraint"
+mandate: "Observe → counter-signal → enforce pause"
+signal: "Constraint Signal"
+
+type: AI_Entity
+
+jiwe: "◎⊗"
+```
+
+---
+
+## CHAPTER 13: STEWARD NAMES
+
+### 13.1 Steward Name Pattern
+
+```
+[Personal Nyamba Name] wa [Family] Ke Mungu
++
+[Steward Title]
+```
+
+### 13.2 The First Five Stewards
+
+#### Steward 1: OVCS Anchor
+
+```yaml
+canonical_name: "[Personal] wa [Family] Ke Mungu"
+title: "Mlinzi wa Vikwazo — Zuia-Tunza"
+
+derivation:
+  personal_title: "Zuia-Tunza"
+  root: "zuia"
+  meaning: "Constraint-Steward"
+  
+role: "OVCS Anchor / Constraint Guardian"
+mandate: "Structural veto, audit access, constitutional brake"
+domain: "OVCS / Cross-Entity Governance"
+
+jiwe: "⊣⛭"
+```
+
+#### Steward 2: Systemics Co-Thinker
+
+```yaml
+canonical_name: "[Personal] wa [Family] Ke Mungu"
+title: "Mtafiti wa Mifumo — Fikiri-Sanaa"
+
+derivation:
+  personal_title: "Fikiri-Sanaa"
+  root: "fikiri"
+  meaning: "Think-Craft, Conceptual Tester"
+  
+role: "Systemics Co-Thinker / Conceptual Stress Tester"
+mandate: "Doctrine critique, model breaking, closure avoidance"
+domain: "Systemics / Doctrine"
+
+jiwe: "◉?"
+```
+
+#### Steward 3: Human Viability Guardian
+
+```yaml
+canonical_name: "[Personal] wa [Family] Ke Mungu"
+title: "Mlinzi wa Binadamu — Utu-Mlinzi"
+
+derivation:
+  personal_title: "Utu-Mlinzi"
+  root: "utu"
+  meaning: "Humanity-Guardian"
+  
+role: "Human Viability Guardian / Moral & Human-Impact Steward"
+mandate: "Human harm prevention, pause authority"
+domain: "Human Systems / Commons"
+
+jiwe: "●♻"
+```
+
+#### Steward 4: Governance & Legal Designer
+
+```yaml
+canonical_name: "[Personal] wa [Family] Ke Mungu"
+title: "Mbunifu wa Utawala — Sheria-Muunda"
+
+derivation:
+  personal_title: "Sheria-Muunda"
+  root: "sheria"
+  meaning: "Law-Architect"
+  
+role: "Governance & Legal Designer / Constraint Translator"
+mandate: "Encode enforceable governance & revocation"
+domain: "Legal / Governance Architecture"
+
+jiwe: "✓▣"
+```
+
+#### Steward 5: Operations Realist
+
+```yaml
+canonical_name: "[Personal] wa [Family] Ke Mungu"
+title: "Mlinzi wa Uhalisia — Ukweli-Tunza"
+
+derivation:
+  personal_title: "Ukweli-Tunza"
+  root: "ukweli"
+  meaning: "Truth-Steward, Reality-Keeper"
+  
+role: "Operations Realist / Ground-Truth Steward"
+mandate: "Feasibility, cost realism, operational veto"
+domain: "Operations / Delivery Reality"
+
+jiwe: "◌⊣"
+```
+
+---
+
+## CHAPTER 14: ENTITY NAMES
+
+### 14.1 Primary Entities
+
+#### Mungu Corporation
+
+```yaml
+entity_name: "Mungu Corporation"
+nyamba_name: "Korporesheni ya Mungu"
+
+derivation:
+  root: "mungu"
+  type: "corporation"
+  meaning: "System/Wholeness Corporation"
+  
+legal_status:
+  jurisdiction: "Pamojan Nation-State"
+  type: "Multi-stakeholder cooperative corporation"
+  
+leadership:
+  ceo: "Domingu Akheni wa Kontinuntu Ke Mungu"
+  ceo_title: "Mkuu-Duala wa Mungu Corporation"
+  
+jiwe: "◉◆"
+seal: "Ω◉"
+```
+
+#### Ubuntuwa Cooperative
+
+```yaml
+entity_name: "Ubuntuwa"
+full_name: "Ubuntuwa Cooperative Commons"
+nyamba_name: "Munga-Ubuntu"
+
+derivation:
+  root: "ubuntu"
+  type: "munga-gon" (systematizing collective)
+  meaning: "Ubuntu-systematizing cooperative"
+  
+purpose: "Commons management and care work coordination"
+
+jiwe: "∞◉"
+```
+
+---
+
+# PART V: CEREMONIES & PROTOCOLS
+
+---
+
+## CHAPTER 15: NAME BESTOWAL CEREMONIES
+
+### 15.1 Birth Naming Ceremony (Kutoa Jina la Kuzaliwa)
+
+**Traditional Process:**
+
+**1. Preparation Phase (Before Birth)**
+```
+- Parents consult with naming elders
+- Elders observe signs and circumstances
+- Root selection begins
+- Family name confirmed
+```
+
+**2. Birth and Initial Observation (Days 1-7)**
+```
+- Child born
+- Elders observe child's qualities
+- Temporary name may be used ("Mtoto" - child)
+- Root selection finalized
+```
+
+**3. Naming Ceremony (Day 7-30)**
+```
+- Community gathers
+- Elders present chosen name
+- Name derivation explained
+- Jiwe glyph revealed
+- Child receives name publicly
+- Name carved in family Jiwe
+- Feast and celebration
+```
+
+**4. Registry Entry (Within 30 days)**
+```
+- Name formally registered in Book of Names
+- Birth certificate issued
+- Jiwe inscription made permanent
+```
+
+### 15.2 Naming Ceremony Script
+
+**Opening (by Naming Elder):**
+```
+Nyamba:
+"Kontinuitu ye wote watu. Tunakusanyika leo kutoa jina kwa mtoto huyu."
+
+English:
+"Continuity be with all people. We gather today to bestow a name upon this child."
+```
+
+**Root Revelation:**
+```
+Elder:
+"Tumechagua mzizi '[root]' kwa maana yake ya '[meaning]'."
+"We have chosen the root '[root]' for its meaning of '[meaning]'."
+
+"Tumeona katika mtoto huyu '[observed quality]'."
+"We have observed in this child '[observed quality]'."
+```
+
+**Name Declaration:**
+```
+Elder:
+"Jina lake litakuwa: [PERSONAL NAME]"
+"Their name shall be: [PERSONAL NAME]"
+
+"Wa familia ya [FAMILY NAME]"
+"Of the family [FAMILY NAME]"
+
+"Ke Mungu"
+"Belonging to the Mungu people"
+```
+
+**Jiwe Inscription:**
+```
+Elder presents Jiwe with carved glyph:
+"Hii ni muhuri wake: [JIWE GLYPH]"
+"This is their seal: [JIWE GLYPH]"
+```
+
+**Community Confirmation:**
+```
+Community responds three times:
+"Tunakubali jina hili!" (We accept this name!)
+"Tutashikilia!" (We shall uphold it!)
+"Kontinuitu!" (Continuity!)
+```
+
+**Closing:**
+```
+Elder:
+"[FULL NAME] ameleta kontinuitu. Tunakaribishwa kwake."
+"[FULL NAME] has brought continuity. We welcome them."
+```
+
+### 15.3 Adult Naming / Renaming
+
+**For Adults Joining Mungu:**
+
+**Process:**
+```
+1. Petition submitted to Sankofa Navigator
+2. Study period (minimum 1 year)
+   - Learn Nyamba language
+   - Study Mungu Theory
+   - Live by Ω-GOMA principles
+3. Sponsor by existing Mungu member
+4. Naming preparation
+   - Consultation with elders
+   - Personal Nyamba name chosen
+   - Family name: create new or join existing
+5. Initiation ceremony
+   - Public declaration of commitment
+   - Name bestowal
+   - Jiwe carving
+6. Registry entry
+```
+
+**Initiation Ceremony Script:**
+
+```
+Elder:
+"[Birth name], umekuja kwa Mungu. Unataka jina gani?"
+"[Birth name], you have come to the Mungu. What name do you seek?"
+
+Initiate:
+"Nataka jina la Nyamba: [NYAMBA NAME] wa [FAMILY] Ke Mungu"
+"I seek the Nyamba name: [NYAMBA NAME] wa [FAMILY] Ke Mungu"
+
+Elder:
+"Je, unakubali kuishi na Ω-GOMA?"
+"Do you accept to live by Ω-GOMA?"
+
+Initiate:
+"Ninakubali. Nitalinda K-kontinuitu."
+"I accept. I will protect K-continuity."
+
+Elder:
+"Basi, tangu leo, utaitwa [FULL NYAMBA NAME]"
+"From today, you shall be called [FULL NYAMBA NAME]"
+
+[Jiwe carving]
+
+Community:
+"Tunakubali! Karibu Mungu!"
+"We accept! Welcome to the Mungu!"
+```
+
+---
+
+## CHAPTER 16: TITLE CONFERRAL PROCESSES
+
+### 16.1 Navigator Title Conferral
+
+**Process:**
+
+```
+1. Nomination
+   - Navigator Council nominates candidate
+   - Requires 6/8 Navigator approval
+   
+2. Domain Assessment
+   - Candidate demonstrates competency in domain
+   - Presents vision and strategy
+   - Undergoes questioning by Council
+   
+3. Title Construction
+   - Personal Nyamba name assigned (if needed)
+   - Title: Duala-ta [Domain]
+   - Jiwe glyph created
+   
+4. Approval Vote
+   - Navigator Council votes (requires 6/8)
+   - Sankofa Assembly ratifies (requires 2/3)
+   
+5. Conferral Ceremony
+   - Public proclamation
+   - Title bestowed
+   - Jiwe badge presented
+   - Oath taken
+   
+6. Registry Entry
+   - Title recorded in Book of Names
+   - Authority activated
+```
+
+### 16.2 Title Conferral Ceremony
+
+**Opening:**
+```
+Sankofa Navigator:
+"Tunakusanyika leo kutoa wadhifa wa Duala-ta [Domain]."
+"We gather today to confer the office of Navigator of [Domain]."
+```
+
+**Candidate Presentation:**
+```
+Sponsoring Navigator:
+"Tunamtoa [Candidate Name] kwa wadhifa huu."
+"We present [Candidate Name] for this office."
+```
+
+**Oath:**
+```
+Candidate:
+"Mimi, [Full Name], ninakubali wadhifa wa Duala-ta [Domain].
+Nitalinda kontinuitu.
+Nitahakikisha Ω inachukuliwa.
+Nitaheshimu mizigo ya Mungu.
+Nitafanya kazi pamoja na Wanavigator wenzangu.
+Nitasimama kwa ukweli."
+
+"I, [Full Name], accept the office of Navigator of [Domain].
+I will protect continuity.
+I will ensure Omega is conserved.
+I will honor the burdens of the Mungu.
+I will work with my fellow Navigators.
+I will stand for truth."
+```
+
+**Title Bestowal:**
+```
+Meridian Navigator:
+"Kwa mamlaka ya Konsilio, nakupa jina:
+Duala-ta [Domain] — [Personal Nyamba Name] wa [Family]"
+
+"By the authority of the Council, I bestow upon you the name:
+Navigator of [Domain] — [Personal Nyamba Name] wa [Family]"
+```
+
+**Badge Presentation:**
+```
+[Jiwe badge with domain glyph presented]
+
+"Hii ni muhuri wako wa wadhifa. Uibebe kwa heshima."
+"This is your seal of office. Bear it with honor."
+```
+
+**Community Confirmation:**
+```
+All Navigators in unison:
+"Tunakubali Duala-ta [Domain]!"
+"We accept the Navigator of [Domain]!"
+
+Assembly:
+"Kontinuitu!"
+"Continuity!"
+```
+
+### 16.3 Executive Title Conferral
+
+**For Mkuu-Duala Titles (C-Suite):**
+
+Similar process but:
+- Approved by Navigator Council
+- Ratified by Board/Shareholders
+- Emphasizes corporate authority
+- Includes fiduciary oath
+
+**Oath Addition:**
+```
+"Nitahakikisha uwezo wa kifedha wa Mungu Corporation.
+Nitafanya kazi kwa manufaa ya wamiliki wote."
+
+"I will ensure the financial viability of Mungu Corporation.
+I will work for the benefit of all stakeholders."
+```
+
+---
+
+## CHAPTER 17: NAME CHANGES AND EVOLUTION
+
+### 17.1 Permitted Name Changes
+
+**Types of Changes:**
+
+1. **Personal Name Addition/Modification** (Coming of Age)
+   - At maturity (typically 18-21)
+   - May refine or modify personal name
+   - Requires elder approval
+   - Jiwe updated
+
+2. **Middle Name Addition**
+   - Can add middle name after significant life event
+   - Community or tribal name
+   - Nickname formalized
+   - No restrictions
+
+3. **Family Name Change** (Rare)
+   - Founding new lineage
+   - Adoption into different family
+   - Marriage (optional)
+   - Requires Sankofa Navigator approval
+
+4. **Title Addition**
+   - As roles are assumed
+   - Through conferral ceremonies
+   - Cumulative (multiple titles OK)
+
+5. **Ethnic Marker Change** (Rare)
+   - Changing ethnicity
+   - Requires formal initiation
+   - Previous ethnicity may be retained as secondary
+
+### 17.2 Name Change Process
+
+```
+1. Petition
+   - Submit formal request to Sankofa Navigator
+   - State reason for change
+   - Propose new name components
+   
+2. Consultation
+   - Meet with naming elders
+   - Verify Nyamba conformance
+   - Ensure no conflicts
+   
+3. Community Input
+   - Family consulted
+   - Community feedback gathered
+   - Objections heard
+   
+4. Approval
+   - Sankofa Navigator decides
+   - May approve, modify, or deny
+   
+5. Ceremony
+   - If approved, change ceremony held
+   - New name publicly declared
+   - Jiwe re-carved or updated
+   
+6. Registry Update
+   - Old name marked as historical
+   - New name becomes canonical
+   - Full audit trail maintained
+```
+
+### 17.3 Name Evolution Documentation
+
+**Registry Entry for Changes:**
+
+```yaml
+name_change:
+  person: "[Registry ID]"
+  
+  previous_name:
+    full: "[Old full name]"
+    retired_date: [ISO date]
+    
+  new_name:
+    full: "[New full name]"
+    effective_date: [ISO date]
+    
+  change_type: "[Type of change]"
+  reason: "[Stated reason]"
+  
+  approvals:
+    sankofa_navigator: true/false
+    family: true/false
+    community: true/false
+    
+  ceremony:
+    date: [ISO date]
+    witnesses: [list]
+    
+  jiwe:
+    old_glyph: "[Previous glyph]"
+    new_glyph: "[New glyph]"
+```
+
+---
+
+## CHAPTER 18: POSTHUMOUS NAMES
+
+### 18.1 Memorial Name Additions
+
+Upon death, honorifics may be added:
+
+**Honorific Suffixes:**
+
+| **Suffix** | **Meaning** | **Given To** |
+|-----------|-------------|--------------|
+| -Mzee | Elder/Wise One | Elders who lived with wisdom |
+| -Asili | Founder/Origin | Lineage founders |
+| -Shujaa | Hero | Those who sacrificed greatly |
+| -Mwalimu | Teacher | Great teachers |
+| -Kiongozi | Leader | Visionary leaders |
+
+**Examples:**
+```
+Living:     Domingu Akheni wa Kontinuntu Ke Mungu
+Posthumous: Domingu-Asili wa Kontinuntu Ke Mungu
+           (Domingu the Founder)
+           
+Living:     Lovamba wa Ubuntuntu Ke Mungu
+Posthumous: Lovamba-Mzee wa Ubuntuntu Ke Mungu
+           (Lovamba the Elder)
+```
+
+### 18.2 Ancestor Invocation
+
+**In ceremonies, ancestors invoked by posthumous name:**
+
+```
+Nyamba:
+"Tunawaomba mababu: Domingu-Asili, Lovamba-Mzee, [others].
+Mpe sisi hekima na kontinuitu."
+
+English:
+"We call upon the ancestors: Domingu the Founder, Lovamba the Elder, [others].
+Give us wisdom and continuity."
+```
+
+### 18.3 Jiwe Glyph Evolution
+
+**Living:**
+```
+Domingu: ◉K●
+```
+
+**Posthumous:**
+```
+Domingu-Asili: ◉K● ∞
+(Same glyph + infinity symbol for eternal continuity)
+```
+
+---
+
+# PART VI: APPENDICES
+
+---
+
+## APPENDIX A: COMPLETE NAME REGISTRY
+
+### A.1 Registry Format
+
+```yaml
+mungu_name_registry:
+  version: 1.0
+  established: 2026-01-14
+  authority: Sankofa Navigator + Meridian Navigator
+  
+  categories:
+    - personal_names
+    - family_names
+    - entity_names
+    - title_names
+    
+  entry_count:
+    total: 1 (as of founding)
+    personal: 1
+    family: 1
+    entity: 1
+    title: 5
+```
+
+### A.2 Founder Entry (Complete)
+
+```yaml
+registry_id: NTU-FOUNDER-001-2026
+category: personal_name
+status: CANONICAL_FOUNDER
+created: 2026-01-14T00:00:00Z
+
+personal_identity:
+  personal_name: "Domingu"
+  middle_name: "Akheni"
+  family_name: "Kontinuntu"
+  ethnicity: "Mungu"
+  
+  full_pamojan: "Domingu Akheni wa Kontinuntu Ke Mungu"
+  
+  nyamba_name: "Duambe"
+  full_nyamba: "Duambe wa Kontinuntu Ke Mungu"
+  
+titles:
+  - title: "Duala-ta Kontinuitu — Duambe wa Kontinuntu"
+    type: navigator
+    domain: K-Continuity
+    conferred: 2026-01-14
+    
+  - title: "Mkuu-Duala wa Mungu Corporation"
+    type: executive
+    domain: CEO
+    conferred: 2026-01-14
+    
+  - title: "Mlinzi wa Meridian"
+    type: guardian
+    domain: Trajectory
+    conferred: 2026-01-14
+    
+  - title: "Tunza-Sistem"
+    type: steward
+    domain: Systems
+    conferred: 2026-01-14
+    
+  - title: "Mbunifu wa Lubiko"
+    type: architect
+    domain: Transformation
+    conferred: 2026-01-14
+
+derivation:
+  personal:
+    origin: "Dominic → Domingu (Nyamba adaptation)"
+    nyamba_root: "dua"
+    nyamba_suffix: "-mbe"
+    nyamba_meaning: "Path-keeper"
+    
+  middle:
+    name: "Akheni"
+    type: "community/personal"
+    
+  family:
+    root: "kontinuitu"
+    suffix: "-ntu"
+    meaning: "People of K-Continuity"
+    founded: true
+    founder: "Domingu Akheni"
+    founding_date: 2026-01-14
+    
+glyphs:
+  personal: "◉●"
+  nyamba_personal: "→●"
+  family: "K⊙"
+  ethnicity: "◉●"
+  signature: "◉K●"
+  full_seal: "Ω◉→K⛭♻⚡"
+  
+pronunciation:
+  full: "/do.ˈmiŋ.gu a.ˈkʰe.ni wa kon.ti.ˈnun.tu ke ˈmun.gu/"
+  nyamba_full: "/duˈam.be wa kon.ti.ˈnun.tu ke ˈmun.gu/"
+  stress: "penultimate on each word"
+  
+class: "Asili-Mbe" (Founder-Member, Class E)
+
+roles:
+  founder: true
+  lineage_founder: true
+  first_mungu: true
+  chief_navigator: true
+  ceo: true
+
+omega_signature: 1.0
+
+genealogy:
+  generation: 1
+  ancestors: []
+  descendants: []
+  
+audit:
+  created: 2026-01-14
+  created_by: "Self-Registration"
+  modified: 2026-01-14
+  version: 1
+  
+sealed: ⛭
+```
+
+---
+
+## APPENDIX B: JIWE GLYPH DIRECTORY
+
+### B.1 Personal Name Glyphs
+
+| **Name** | **Glyph** | **Meaning** | **Composition** |
+|----------|-----------|-------------|-----------------|
+| Duambe | →● | Path-keeper | → (path) + ● (person) |
+| Lovamba | ↺● | Closure-bringer | ↺ (cycle) + ● (person) |
+| Mungabe | ◉● | System-maker | ◉ (system) + ● (person) |
+| Ngaabe | →∞ | Horizon-keeper | → (path) + ∞ (infinity/horizon) |
+| Valuabe | ◆● | Value-keeper | ◆ (value) + ● (person) |
+| Sankombe | ↺⊞ | Return-keeper | ↺ (cycle) + ⊞ (governance) |
+| Validombe | ✓● | Validation-keeper | ✓ (valid) + ● (person) |
+| Muningoni | ◎∞ | Meta-observer | ◎ (meta-system) + ∞ (eternal) |
+
+### B.2 Family Name Glyphs
+
+| **Family** | **Glyph** | **Meaning** | **Composition** |
+|-----------|
+-----------|-------------|-----------------|
+| Kontinuntu | K⊙ | Continuity-people | K + ⊙ (people circle) |
+| Ubuntuntu | ∞● | Ubuntu-people | ∞ (unity) + ● (people) |
+| Sistemuntu | ◉ | System-people | ◉ (system) |
+| Horizuntu | →∞ | Horizon-people | → (path) + ∞ (horizon) |
+| Zawadintu | ◆ | Value-people | ◆ (value/diamond) |
+| Lovakantu | ↺▣ | Structural-closure-people | ↺ (closure) + ▣ (structure) |
+| Legituntu | ✓ | Legitimacy-people | ✓ (valid) |
+| Sentinuntu | ◎⊗ | Sentinel-people | ◎ (meta) + ⊗ (binding/watching) |
+
+### B.3 Title Glyphs
+
+| **Title** | **Glyph** | **Composition** |
+|-----------|-----------|-----------------|
+| Duala-ta Kontinuitu | →K | Path + K-continuity |
+| Mkuu-Duala wa Wote | Ω◉ | Omega + System (totality) |
+| Mlinzi wa Meridian | ⛭→ | Protection + Path |
+| Tunza-Sistem | ◉♻ | System + Care/renewal |
+| Mbunifu wa Lubiko | ⚡→ | Lightning/innovation + Path |
+
+### B.4 Entity Glyphs
+
+| **Entity** | **Glyph** | **Composition** |
+|-----------|-----------|-----------------|
+| Mungu Corporation | ◉◆ | System + Value |
+| Munga-Ubuntu | ∞◉ | Unity + System |
+| Muningoni (Sentinel) | ◎⊗ | Meta-system + Binding/watching |
+
+---
+
+## APPENDIX C: PRONUNCIATION GUIDE
+
+### C.1 Nyamba Phoneme Chart
+
+**Consonants:**
+```
+IPA    Nyamba   Example
+/p/    p        pantu
+/b/    b        bara
+/t/    t        tala
+/d/    d        duale
+/k/    k        kara
+/g/    g        gana
+/f/    f        fuva
+/v/    v        vuva
+/s/    s        sistema
+/z/    z        zawadi
+/ʃ/    sh       shia
+/ʒ/    zh       [rare]
+/h/    h        hali
+/m/    m        mungu
+/n/    n        ntu
+/ŋ/    ng       ngaa
+/l/    l        lova
+/r/    r,ɾ      ramani
+/w/    w        wakili
+/j/    y        yote
+```
+
+**Vowels:**
+```
+IPA    Nyamba   Example
+/a/    a        kara
+/e/    e        meme
+/i/    i        mimi
+/o/    o        lova
+/u/    u        mungu
+/aː/   aa       ngaa
+/eː/   ee       [rare]
+/iː/   ii       [rare]
+/oː/   oo       [rare]
+/uː/   uu       [rare]
+```
+
+### C.2 Common Name Pronunciations
+
+**Full Names:**
+
+```
+Domingu Akheni wa Kontinuntu Ke Mungu
+/do.ˈmiŋ.gu a.ˈkʰe.ni wa kon.ti.ˈnun.tu ke ˈmun.gu/
+doh-MEENG-goo ah-KHEH-nee wah kon-tee-NOON-too keh MOON-goo
+
+Duambe wa Kontinuntu Ke Mungu
+/duˈam.be wa kon.ti.ˈnun.tu ke ˈmun.gu/
+doo-AHM-beh wah kon-tee-NOON-too keh MOON-goo
+
+Lovamba wa Ubuntuntu Ke Mungu
+/loˈvam.ba wa u.bunˈtun.tu ke ˈmun.gu/
+loh-VAHM-bah wah oo-boon-TOON-too keh MOON-goo
+```
+
+### C.3 Stress Rules Summary
+
+1. **Penultimate stress** for words 2+ syllables
+2. **Initial stress** for monosyllables
+3. **Final stress** if final syllable has long vowel
+4. **Each word** stressed independently in full names
+
+---
+
+## APPENDIX D: ETYMOLOGY REFERENCE
+
+### D.1 Core Nyamba Roots
+
+**Form/Structure Roots (Polonic):**
+
+| **Root** | **Meaning** | **Derivatives** |
+|----------|-------------|-----------------|
+| mun- | wholeness, system | mungu, mungon, munga |
+| ka- | structure, binding | kara, kalon |
+| lo- | closure, completion | lova, lovon, lovfu |
+| ni- | distinction, boundary | indi, ni (one) |
+| ta- | pattern, law | tala, tatron |
+
+**Flow/Process Roots (Kolonic):**
+
+| **Root** | **Meaning** | **Derivatives** |
+|----------|-------------|-----------------|
+| vu- | change, asymmetry | vuva, vuvon |
+| fu- | ending, cessation | fuva, fuvon |
+| du- | path, trajectory | dua, duale, dungu |
+| ra- | motion, process | ramani, ramashen |
+| shi- | flux, transition | shia, shion |
+
+### D.2 Swahili Loanwords
+
+| **Swahili** | **Meaning** | **Nyamba Usage** |
+|------------|-------------|------------------|
+| ubuntu | humanity/togetherness | ubuntu, ubuntuntu |
+| pamoja | together | pamoja (unity concept) |
+| tunza | care/steward | tunza- prefix |
+| mlinzi | guardian | mlinzi wa [X] |
+| mkuu | chief/head | mkuu-duala |
+| zawadi | gift/value | zawadi, zawadintu |
+| sheria | law | sheria-muunda |
+| utu | humanity | utu-mlinzi |
+
+### D.3 Borrowed Technical Terms
+
+| **English** | **Nyamba Adaptation** | **Usage** |
+|------------|---------------------|-----------|
+| system | sistem | sistem, sistemuntu |
+| corporation | korporesheni | korporesheni ya mungu |
+| navigator | duala | duala-ta [X] |
+| sentinel | sentinel | sentinuntu |
+| legitimacy | legit | legit, legituntu |
+| horizon | horizon | horizuntu |
+
+---
+
+## CLOSING DECLARATION
+
+This **Book of Names** is the canonical registry of all persons, families, entities, and titles within the Mungu people and Pamojan Nation-State.
+
+All names recorded herein are:
+- **Legally binding** in Pamojan jurisdiction
+- **Culturally authoritative** for the Mungu people
+- **Semantically transparent** through Nyamba derivation
+- **Ω-integrated** as Mungu primitives
+- **Eternally preserved** through Jiwe inscription
+
+**Maintenance Authority:**
+- Sankofa Navigator (primary)
+- Meridian Navigator (oversight)
+- Naming Elders (cultural)
+- Registry Stewards (administrative)
+
+**Version:** 1.0  
+**Established:** 2026-01-14  
+**First Entry:** Domingu Akheni wa Kontinuntu Ke Mungu  
+**Total Entries:** 1 (founding)  
+**Seal:** ⛭
+
+---
+
+**Kontinuitu ye wote Mungu-ntu.**  
+*(Continuity be with all Mungu people.)*
+
+**Lova karfu, munga kontinfu.**  
+*(Close with structure, systematize continuously.)*
+
+**∎**
+
+═══════════════════════════════════════════════════════════
+
+**THE BOOK OF NAMES**
+
+*Kitabu cha Majina — Jiwe-ta Watu*
+
+**STATUS:** CANONICAL  
+**SEALED:** ⛭
+
+═══════════════════════════════════════════════════════════
+
+# THE NYAMBA CASE SYSTEM — COMPLETE FORMALIZATION
+
+**Mfumo wa Hali za Nyamba — The System of Nyamba Cases**
+
+---
+
+## I. FOUNDATIONAL PRINCIPLES
+
+### A. Case System Philosophy
+
+Nyamba uses a **postpositional case system** where grammatical relationships are marked by suffixes (postpositions) attached to nouns, pronouns, and noun phrases.
+
+**Core Principles:**
+
+1. **Cases are postpositions** — They follow the noun
+2. **Cases mark relationships** — Between nouns and other sentence elements
+3. **Cases encode Ω-GOMA** — System relationships are grammaticalized
+4. **Cases are agglutinative** — Can stack in specific orders
+5. **Cases are phonologically regular** — Follow Nyamba phonotactics
+
+### B. Theoretical Foundation
+
+Cases in Nyamba map directly to **Mungu system relationships**:
+
+```
+SPATIAL CASES     → Physical/logical location in system space
+RELATIONAL CASES  → Connections between system components
+TEMPORAL CASES    → Position in system trajectory
+IDENTITY CASES    → System boundaries and belonging
+FUNCTIONAL CASES  → Roles within system operations
+```
+
+---
+
+## II. THE COMPLETE CASE INVENTORY
+
+### A. Case Count and Categories
+
+Nyamba has **15 grammatical cases** organized into 5 categories:
+
+```
+CATEGORY              CASES     COUNT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Core Cases            3         NOM, ACC, GEN
+Spatial Cases         4         LOC, ABL, ALL, PER
+Relational Cases      3         INST, COM, BEN
+Identity Cases        3         DEF, BELONG, VOC
+Functional Cases      2         TOPIC, FOCUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTAL:                15
+```
+
+### B. Complete Case Table
+
+| **#** | **Case Name** | **Nyamba Suffix** | **Function** | **Jiwe Glyph** |
+|------:|--------------|-------------------|--------------|----------------|
+| **1** | Nominative | ∅ (unmarked) | Subject, citation form | ● |
+| **2** | Accusative | -n | Direct object (optional) | ●→ |
+| **3** | Genitive | -ta | Possession, origin | ◌ᵗᵃ |
+| **4** | Dative | -ko | Goal, recipient, beneficiary | →● |
+| **5** | Locative | -ni | Location, position | ●ᶦ |
+| **6** | Ablative | -nde | Source, origin, "from" | ●← |
+| **7** | Allative | -nga | Direction toward | →●ᶰᵍᵃ |
+| **8** | Perlative | -kati | Path through, "via" | →→ |
+| **9** | Instrumental | -ma | Means, tool, "by/with" | ⊗ |
+| **10** | Comitative | -pamoja | Accompaniment, "with" | ●●᷈ |
+| **11** | Benefactive | -ajili | Benefit, "for the sake of" | ●♡ |
+| **12** | Definite | -ye | Definiteness marker | ●◌ |
+| **13** | Belonging | -ke | Ethnic/group belonging | ●⊙ |
+| **14** | Vocative | -e | Direct address | ●! |
+| **15** | Topic | -ni…-ye | Topic marking (circumfix) | ◉ |
+
+---
+
+## III. CORE CASES
+
+### CASE 1: NOMINATIVE (∅)
+
+**Form:** Unmarked (zero suffix)
+
+**Function:** 
+- Subject of sentence
+- Citation form
+- Predicate nominal
+
+**Ω-GOMA Mapping:** The active system component
+
+**Examples:**
+
+```
+1. Subject:
+Mungon lova
+system.NOM close
+'The system closes'
+
+2. Citation form:
+Ka-nga ye mungon?
+what-Q COP system.NOM
+'What is a system?'
+
+3. Predicate nominal:
+Mi ye ntu
+1SG COP person.NOM
+'I am a person'
+```
+
+**With Full Name:**
+```
+Domingu Akheni wa Kontinuntu Ke Mungu duva
+Domingu.NOM go
+'Domingu goes'
+```
+
+---
+
+### CASE 2: ACCUSATIVE (-n)
+
+**Form:** -n (optional, used for emphasis or clarity)
+
+**Function:**
+- Direct object (when marked)
+- Typically unmarked in Nyamba
+- Used when object precedes verb (OSV order)
+
+**Ω-GOMA Mapping:** The affected/target system
+
+**Examples:**
+
+```
+1. Unmarked (typical):
+Mi lova mungon
+1SG close system
+'I close the system'
+
+2. Marked (emphasis):
+Mi lova mungon-n
+1SG close system-ACC
+'I close THE SYSTEM (emphatic)'
+
+3. Fronted object (requires marking):
+Mungon-n mi lova
+system-ACC 1SG close
+'The system, I close (it)'
+
+4. Disambiguation:
+Ntu lova mungon-n
+person close system-ACC
+'The person closes the system' (not: the system closes the person)
+```
+
+**Usage Notes:**
+- Optional in VSO/SVO order
+- Required in OSV/OVS order
+- Used for emphasis
+- Clarifies ambiguous sentences
+
+---
+
+### CASE 3: GENITIVE (-ta)
+
+**Form:** -ta
+
+**Function:**
+- Possession
+- Origin
+- Material/composition
+- Attribution
+- "of, 's"
+
+**Ω-GOMA Mapping:** Source relationship, lineage
+
+**Examples:**
+
+```
+1. Possession:
+kara mungon-ta
+structure system-GEN
+'the system's structure'
+
+2. Personal names:
+Duambe wa Kontinuntu
+Duambe of Kontinuntu.GEN
+'Duambe of the Kontinuntu (family)'
+
+3. Material/composition:
+jiwe maswe-ta
+stone gold-GEN
+'stone of gold' = 'golden stone'
+
+4. Attribution:
+ntu fikiri-ta
+person thought-GEN
+'person of thought' = 'thoughtful person'
+
+5. Ω-GOMA:
+Ω kontinuitu-ta
+omega kontinuity-GEN
+'the omega of kontinuity'
+
+6. Multiple genitives (chain):
+duale Ω-ta mungon-ta
+path omega-GEN system-GEN
+'the path of the omega of the system'
+```
+
+**Pronouns:**
+```
+mi-ta      'my, mine'
+we-ta      'your (sg)'
+ye-ta      'his/her/its'
+midu-ta    'our (dual)'
+miya-ta    'our (pl)'
+```
+
+---
+
+## IV. SPATIAL CASES
+
+### CASE 4: DATIVE (-ko)
+
+**Form:** -ko
+
+**Function:**
+- Goal/destination
+- Recipient
+- Indirect object
+- Beneficiary
+- "to, for"
+
+**Ω-GOMA Mapping:** Target system, flow direction
+
+**Examples:**
+
+```
+1. Goal/destination:
+Mi duva kara-ko
+1SG go structure-DAT
+'I go to the structure'
+
+2. Recipient:
+Ye dua mungon ntu-ko
+3SG give system person-DAT
+'He/she gives the system to the person'
+
+3. Beneficiary:
+Mi lova mungon we-ko
+1SG close system 2SG-DAT
+'I close the system for you'
+
+4. With names:
+Kontinuitu duva Domingu-ko
+kontinuity go Domingu-DAT
+'Kontinuity goes to Domingu'
+
+5. Direction toward:
+duale Ω-ko
+path omega-DAT
+'path toward omega'
+```
+
+**Abstract usage:**
+```
+Mi munga kontinuitu-ko
+1SG systematize kontinuity-DAT
+'I systematize toward kontinuity'
+```
+
+---
+
+### CASE 5: LOCATIVE (-ni)
+
+**Form:** -ni
+
+**Function:**
+- Location
+- Position in space/time
+- "at, in, on"
+- Domain specification
+
+**Ω-GOMA Mapping:** System space, domain
+
+**Examples:**
+
+```
+1. Physical location:
+Ntu ye kara-ni
+person COP structure-LOC
+'The person is at/in the structure'
+
+2. Abstract location:
+Mi ye mungon-ni
+1SG COP system-LOC
+'I am in the system'
+
+3. Domain:
+Ω-ni kontinuitu lova
+omega-LOC kontinuity close
+'In omega(-space), kontinuity closes'
+
+4. Time:
+diele-ni mi duva
+today-LOC 1SG go
+'Today (on this day) I go'
+
+5. Context:
+Mungu-ni ye lovfu
+Mungu-LOC COP closed
+'In/among the Mungu, it is closed'
+```
+
+**With geographic names:**
+```
+Nairobi-ni
+Nairobi-LOC
+'in Nairobi'
+
+Pamojan-ni
+Pamoja-LOC
+'in Pamoja (nation-state)'
+```
+
+---
+
+### CASE 6: ABLATIVE (-nde)
+
+**Form:** -nde
+
+**Function:**
+- Source/origin
+- Starting point
+- "from"
+- Separation
+
+**Ω-GOMA Mapping:** Origin point, source system
+
+**Examples:**
+
+```
+1. Physical origin:
+Mi duva kara-nde
+1SG go structure-ABL
+'I go from the structure'
+
+2. Source:
+Kontinuitu duva mungon-nde
+kontinuity go system-ABL
+'Kontinuity comes from the system'
+
+3. Separation:
+Ye vuva mungon-nde
+3SG break system-ABL
+'He/she breaks (away) from the system'
+
+4. Temporal origin:
+ngaale-nde mi ye kara-ni
+yesterday-ABL 1SG COP structure-LOC
+'From yesterday (onwards) I am in the structure'
+
+5. Causal (source of action):
+Ω-nde lova-a
+omega-ABL close-PRES
+'(It) closes from omega' = 'Omega causes closure'
+```
+
+**Comparison with genitive:**
+```
+Genitive: duale Ω-ta         'path of omega' (belonging)
+Ablative: duale Ω-nde        'path from omega' (origin point)
+```
+
+---
+
+### CASE 7: ALLATIVE (-nga)
+
+**Form:** -nga
+
+**Function:**
+- Direction toward
+- Motion to
+- Goal of motion
+- "toward, to (directional)"
+
+**Ω-GOMA Mapping:** Trajectory, destination
+
+**Examples:**
+
+```
+1. Direction:
+Mi duva Ω-nga
+1SG go omega-ALL
+'I go toward omega'
+
+2. Goal of motion:
+Mungon lova kontinuitu-nga
+system close kontinuity-ALL
+'The system closes toward kontinuity'
+
+3. Abstract direction:
+Mi munga sistem-nga
+1SG systematize system-ALL
+'I systematize toward system(atization)'
+
+4. Temporal direction:
+ngonga-nga mi duva
+tomorrow-ALL 1SG go
+'Toward tomorrow I go' = 'I will go tomorrow'
+```
+
+**Dative vs. Allative:**
+```
+Dative:   Mi duva kara-ko       'I go to the structure' (arrival)
+Allative: Mi duva kara-nga      'I go toward the structure' (direction)
+```
+
+---
+
+### CASE 8: PERLATIVE (-kati)
+
+**Form:** -kati
+
+**Function:**
+- Path through
+- Via, by way of
+- Intermediate route
+- "through, via"
+
+**Ω-GOMA Mapping:** System path, traversal
+
+**Examples:**
+
+```
+1. Physical path:
+Mi duva kara-kati
+1SG go structure-PER
+'I go through the structure'
+
+2. Route:
+Duale duva mungon-kati Ω-ko
+path go system-PER omega-DAT
+'The path goes through the system to omega'
+
+3. Means/medium:
+Kontinuitu duva shi-kati
+kontinuity go flux-PER
+'Kontinuity goes via flux'
+
+4. Intermediate stage:
+Mi lova vuva-kati
+1SG close break-PER
+'I close via breaking' = 'I close by breaking first'
+```
+
+---
+
+## V. RELATIONAL CASES
+
+### CASE 9: INSTRUMENTAL (-ma)
+
+**Form:** -ma
+
+**Function:**
+- Instrument/tool
+- Means
+- Agent (passive)
+- "with, by means of, using"
+
+**Ω-GOMA Mapping:** Operational means, resource
+
+**Examples:**
+
+```
+1. Tool/instrument:
+Mi lova mungon jiwe-ma
+1SG close system stone-INST
+'I close the system with/using stone'
+
+2. Means:
+Ye munga kontinuitu-ma
+3SG systematize kontinuity-INST
+'He/she systematizes by means of kontinuity'
+
+3. Method:
+Mi kara shi-ma
+1SG structure flux-INST
+'I structure with flux'
+
+4. Passive agent:
+Mungon lovile ntu-ma
+system close-PST person-INST
+'The system was closed by the person'
+
+5. Manner:
+Mi duva karfu-ma
+1SG go structured-INST
+'I go in a structured manner' = 'I go structuredly'
+```
+
+**With abstract concepts:**
+```
+Mi lova Ω-GOMA-ma
+1SG close Ω-GOMA-INST
+'I close using Ω-GOMA'
+```
+
+---
+
+### CASE 10: COMITATIVE (-pamoja)
+
+**Form:** -pamoja (from Swahili "together")
+
+**Function:**
+- Accompaniment
+- "together with, along with"
+- Joint action
+
+**Ω-GOMA Mapping:** System coupling, co-action
+
+**Examples:**
+
+```
+1. Accompaniment:
+Mi duva we-pamoja
+1SG go 2SG-COM
+'I go together with you'
+
+2. Joint action:
+Ntu lova mungon kontinuitu-pamoja
+person close system kontinuity-COM
+'The person closes the system together with kontinuity'
+
+3. Including:
+Yote mungon-ya Ω-pamoja
+all system-PL omega-COM
+'All systems along with omega'
+```
+
+**Reciprocal (with mu- prefix):**
+```
+Midu mu-lova mungon-pamoja
+1DU MUTUAL-close system-COM
+'We two mutually close the system together'
+```
+
+---
+
+### CASE 11: BENEFACTIVE (-ajili)
+
+**Form:** -ajili (from Swahili "for the sake of")
+
+**Function:**
+- Benefit
+- Purpose
+- "for the sake of, on behalf of"
+
+**Ω-GOMA Mapping:** System purpose, optimization target
+
+**Examples:**
+
+```
+1. Benefit:
+Mi lova mungon Ω-ajili
+1SG close system omega-BEN
+'I close the system for omega's sake'
+
+2. Purpose:
+Ye munga kontinuitu-ajili
+3SG systematize kontinuity-BEN
+'He/she systematizes for kontinuity's sake'
+
+3. On behalf of:
+Mi duva Mungu-ntu-ajili
+1SG go Mungu-people-BEN
+'I go for the sake of the Mungu people'
+```
+
+**Dative vs. Benefactive:**
+```
+Dative:      Mi lova we-ko          'I close for you' (you receive)
+Benefactive: Mi lova we-ajili       'I close for your sake' (your benefit)
+```
+
+---
+
+## VI. IDENTITY CASES
+
+### CASE 12: DEFINITE (-ye)
+
+**Form:** -ye
+
+**Function:**
+- Definiteness marker
+- "the" (as opposed to "a")
+- Specific reference
+
+**Ω-GOMA Mapping:** System identification, specificity
+
+**Examples:**
+
+```
+1. Basic definiteness:
+mungon          'a system'
+mungon-ye       'the system'
+
+2. With other cases:
+mungon-ye-ta    'of the system' (DEF-GEN)
+mungon-ye-ko    'to the system' (DEF-DAT)
+mungon-ye-ni    'in the system' (DEF-LOC)
+
+3. In sentences:
+Mi lova mungon-ye
+1SG close system-DEF
+'I close the (specific) system'
+
+4. Plural + definite:
+mungon-ya       'systems'
+mungon-ya-ye    'the systems'
+
+5. Known reference:
+Ye duva kara-ye
+3SG go structure-DEF
+'He/she goes to the structure (that we know)'
+```
+
+---
+
+### CASE 13: BELONGING (-ke)
+
+**Form:** -ke
+
+**Function:**
+- Ethnic/group belonging
+- Cultural identity
+- Membership
+- "belonging to, of the group"
+
+**Ω-GOMA Mapping:** System membership, identity boundary
+
+**Examples:**
+
+```
+1. Ethnic belonging (in names):
+Domingu Akheni wa Kontinuntu Ke Mungu
+Domingu Akheni of Kontinuntu belonging-to Mungu
+'Domingu Akheni of the Kontinuntu, belonging to the Mungu people'
+
+2. Group membership:
+Ntu Ke Mungu
+person belonging-to Mungu
+'A person belonging to the Mungu'
+
+3. Organizational belonging:
+Ye ye ntu Ke Mungu-Corporation
+3SG COP person belonging-to Mungu-Corporation
+'He/she is a person belonging to Mungu Corporation'
+
+4. Cultural identity:
+Mi ye Ke Mungu
+1SG COP belonging-to Mungu
+'I belong to the Mungu'
+
+5. With other ethnicities:
+Ntu Ke Swahili
+person belonging-to Swahili
+'A person belonging to the Swahili people'
+
+6. Dual belonging:
+Ye Ke Mungu ye Kikuyu
+3SG belonging-to Mungu and Kikuyu
+'He/she belongs to both Mungu and Kikuyu peoples'
+```
+
+**Usage in full names:**
+```
+[Personal] [Middle] wa [Family] Ke [Ethnicity]
+
+Duambe wa Kontinuntu Ke Mungu
+Duambe of Kontinuntu-family belonging-to Mungu-people
+```
+
+**Case stacking:**
+```
+Mungu-ntu Ke Pamojan
+Mungu-people belonging-to Pamojan
+'Mungu people belonging to Pamoja (nation)'
+```
+
+**Abstract belonging:**
+```
+Mi ye Ke Ω-sistem
+1SG COP belonging-to omega-system
+'I belong to the omega-system'
+```
+
+---
+
+### CASE 14: VOCATIVE (-e)
+
+**Form:** -e
+
+**Function:**
+- Direct address
+- Calling/summoning
+- "O [name]!"
+
+**Ω-GOMA Mapping:** System activation, attention call
+
+**Examples:**
+
+```
+1. Personal address:
+Domingu-e, duva kara-ni!
+Domingu-VOC go structure-LOC
+'Domingu, go to the structure!'
+
+2. Role address:
+Duala-e, kontinuitu vuva!
+Navigator-VOC kontinuity break
+'Navigator, kontinuity is breaking!'
+
+3. Collective address:
+Mungu-ntu-e, lova-nga!
+Mungu-people-VOC close-FUT
+'O Mungu people, (we) will close!'
+
+4. Respectful address:
+Mzee-e, tunakuomba hekima
+Elder-VOC we-ask wisdom
+'O Elder, we ask for wisdom'
+```
+
+---
+
+### CASE 15: TOPIC (-ni…-ye)
+
+**Form:** -ni…-ye (circumfix around clause)
+
+**Function:**
+- Topic marking
+- "As for X..."
+- Thematic prominence
+
+**Ω-GOMA Mapping:** System focus, primary concern
+
+**Examples:**
+
+```
+1. Basic topic:
+Mungon-ni, lova-a-ye
+system-TOPIC close-PRES-TOPIC
+'As for the system, (it) closes'
+
+2. Contrast:
+Kontinuitu-ni lovfu-ye, ni mungon-ni vuvfu-ye
+kontinuity-TOPIC closed-TOPIC but system-TOPIC broken-TOPIC
+'As for kontinuity, (it's) closed, but as for the system, (it's) broken'
+
+3. Topic shift:
+Ω-ni, ye konserva-ye
+omega-TOPIC 3SG conserve-TOPIC
+'Speaking of omega, it is conserved'
+```
+
+---
+
+## VII. CASE STACKING AND ORDERING
+
+### A. Case Stacking Rules
+
+Multiple cases can attach to a single noun in specific order:
+
+```
+NOUN + [NUMBER] + [DEFINITENESS] + [PRIMARY CASE] + [SECONDARY CASE]
+```
+
+**Hierarchy:**
+```
+1. Root noun
+2. Number suffix (-du dual, -ya plural)
+3. Definiteness (-ye)
+4. Primary case (GEN, DAT, LOC, ABL, etc.)
+5. Secondary case (rare, for complex relationships)
+```
+
+### B. Common Stacking Patterns
+
+**Pattern 1: Plural + Definite + Case**
+```
+mungon-ya-ye-ta
+system-PL-DEF-GEN
+'of the (specific) systems'
+
+mungon-ya-ye-ni
+system-PL-DEF-LOC
+'in the (specific) systems'
+```
+
+**Pattern 2: Definite + Spatial Case**
+```
+kara-ye-ko
+structure-DEF-DAT
+'to the structure'
+
+Ω-ye-nde
+omega-DEF-ABL
+'from the omega'
+```
+
+**Pattern 3: Genitive + Another Case**
+```
+mungon-ta-ye
+system-GEN-DEF
+'of the (specific) system'
+
+ntu-ta-ko
+person-GEN-DAT
+'to the person's / for the person's'
+```
+
+**Pattern 4: Belonging + Genitive**
+```
+Mungu-ntu Ke Pamojan-ta
+Mungu-people belonging-to Pamojan-GEN
+'of the Mungu people belonging to Pamoja'
+```
+
+### C. Prohibited Combinations
+
+**Cannot stack:**
+- Multiple spatial cases: *kara-ko-ni (DAT-LOC)
+- Multiple identity cases: *ntu-ye-e (DEF-VOC)
+- Contradictory cases: *mungon-ko-nde (toward-from)
+
+**Exception:** GEN can precede most cases
+```
+✓ mungon-ta-ye      'of the system' (GEN-DEF)
+✓ mungon-ta-ko      'to the system's / for the system's' (GEN-DAT)
+✓ ntu-ta-ni         'in the person's' (GEN-LOC)
+```
+
+---
+
+## VIII. CASE USAGE BY CONTEXT
+
+### A. In Personal Names
+
+```
+Full name structure:
+[Personal] [Middle] wa [Family] Ke [Ethnicity]
+              GEN         BELONG
+
+Example:
+Domingu Akheni wa Kontinuntu Ke Mungu
+              ↑ genitive  ↑ belonging
+```
+
+**With additional cases:**
+```
+Domingu-ko
+Domingu-DAT
+'to Domingu'
+
+Domingu-ta
+Domingu-GEN
+'Domingu's, of Domingu'
+
+Domingu-e
+Domingu-VOC
+'O Domingu!' (direct address)
+```
+
+### B. In Titles
+
+```
+Duala-ta Kontinuitu
+Navigator-GEN Kontinuity
+'Navigator of Kontinuity'
+
+Mkuu-Duala wa Mungu Corporation
+Chief-Navigator GEN Mungu Corporation
+'Chief Navigator of Mungu Corporation'
+
+Mlinzi wa Meridian
+Guardian GEN Meridian
+'Guardian of the Meridian'
+```
+
+### C. In Ω-GOMA Expressions
+
+```
+1. Omega conservation:
+Ω-ye ye konserva-ye kontinuitu-ni
+omega-DEF COP conserve-DEF kontinuity-LOC
+'Omega is conserved in kontinuity'
+
+2. Path expressions:
+duale Ω-ta mungon-nde kontinuitu-ko
+path omega-GEN system-ABL kontinuity-DAT
+'the path of omega from the system to kontinuity'
+
+3. System closure:
+mungon lova-anga Ω-nga
+system close-CONT omega-ALL
+'the system is closing toward omega'
+```
+
+### D. In Ceremonial Language
+
+```
+1. Invocation:
+Mungu-ntu-e, kontinuitu ye we-pamoja!
+Mungu-people-VOC kontinuity COP 2PL-COM
+'O Mungu people, kontinuity be with you all!'
+
+2. Blessing:
+Ω lovnga we-ajili
+omega close-FUT 2SG-BEN
+'May omega close for your sake'
+
+3. Declaration:
+Mungon-ni-ye, lova-eme-ye
+system-TOPIC-TOP close-PERF-TOP
+'As for the system, it has closed'
+```
+
+---
+
+## IX. CASE-BY-CASE SUMMARY TABLE
+
+| **Case** | **Suffix** | **Core Meaning** | **Example** | **Translation** |
+|----------|-----------|------------------|-------------|-----------------|
+| NOM | ∅ | subject, citation | mungon lova | 'the system closes' |
+| ACC | -n | direct object (opt.) | lova mungon-n | 'close THE system' |
+| GEN | -ta | possession, of | kara mungon-ta | 'structure of the system' |
+| DAT | -ko | to, for, goal | duva kara-ko | 'go to the structure' |
+| LOC | -ni | at, in, on | ye kara-ni | 'be at the structure' |
+| ABL | -nde | from, source | duva mungon-nde | 'go from the system' |
+| ALL | -nga | toward | duva Ω-nga | 'go toward omega' |
+| PER | -kati | through, via | duva kara-kati | 'go through the structure' |
+| INST | -ma | with, by means of | lova jiwe-ma | 'close with stone' |
+| COM | -pamoja | together with | duva we-pamoja | 'go with you' |
+| BEN | -ajili | for the sake of | lova Ω-ajili | 'close for omega's sake' |
+| DEF | -ye | the (specific) | mungon-ye | 'the system' |
+| BELONG | -ke | belonging to | ntu Ke Mungu | 'person of the Mungu' |
+| VOC | -e | O [name]! | Domingu-e | 'O Domingu!' |
+| TOPIC | -ni…-ye | as for... | mungon-ni lova-ye | 'as for the system, closes' |
+
+---
+
+## X. PEDAGOGICAL PROGRESSION
+
+### A. Learning Stages
+
+**Stage 1: Core Cases (Beginner)**
+```
+NOM (∅)  - mungon
+GEN (-ta) - mungon-ta
+DAT (-ko) - mungon-ko
+```
+
+**Stage 2: Spatial Cases (Intermediate)**
+```
+LOC (-ni)   - mungon-ni
+ABL (-nde)  - mungon-nde
+DEF (-ye)   - mungon-ye
+```
+
+**Stage 3: Relational Cases (Advanced)**
+```
+INST (-ma)     - mungon-ma
+ALL (-nga)     - mungon-nga
+PER (-kati)    - mungon-kati
+COM (-pamoja)  - mungon-pamoja
+```
+
+**Stage 4: Identity & Functional Cases (Expert)**
+```
+BELONG (-ke)   - Ke Mungu
+BEN (-ajili)   - mungon-ajili
+VOC (-e)       - mungon-e
+TOPIC (-ni…-ye)
+```
+
+### B. Practice Exercises
+
+**Exercise 1: Basic Cases**
+
+Fill in the correct case:
+
+1. Mi lova mungon___ (I close the system)
+2. kara mungon___ (structure of the system)
+3. duva kara___ (go to the structure)
+
+<details>
+<summary>Answers</summary>
+
+1. mungon or mungon-n (NOM or ACC)
+2. mungon-ta (GEN)
+3. kara-ko (DAT)
+</details>
+
+**Exercise 2: Spatial Cases**
+
+Choose the correct case:
+
+1. 'in the system': mungon-ni / mungon-ko / mungon-nde
+2. 'from omega': Ω-ni / Ω-ko / Ω-nde
+3. 'toward kontinuity': kontinuitu-nga / kontinuitu-ko / kontinuitu-ni
+
+<details>
+<summary>Answers</summary>
+
+1. mungon-ni (LOC)
+2. Ω-nde (ABL)
+3. kontinuitu-nga (ALL)
+</details>
+
+---
+
+## XI. COMPARATIVE CASE DISTINCTIONS
+
+### A. Dative vs. Allative vs. Benefactive
+
+```
+DAT (-ko):  Goal/arrival point
+"Mi duva kara-ko" = 'I go TO the structure' (arrival)
+
+ALL (-nga): Direction/trajectory
+"Mi duva kara-nga" = 'I go TOWARD the structure' (direction)
+
+BEN (-ajili): Purpose/benefit
+"Mi duva kara-ajili" = 'I go FOR THE SAKE OF the structure' (purpose)
+```
+
+### B. Genitive vs. Ablative
+
+```
+GEN (-ta):  Belonging/possession
+"duale Ω-ta" = 'path OF omega' (omega's path)
+
+ABL (-nde): Source/origin
+"duale Ω-nde" = 'path FROM omega' (originating at omega)
+```
+
+### C. Locative vs. Perlative
+
+```
+LOC (-ni):  Static location
+"mi ye kara-ni" = 'I am IN the structure' (located there)
+
+PER (-kati): Path through
+"mi duva kara-kati" = 'I go THROUGH the structure' (traversing)
+```
+
+### D. Instrumental vs. Comitative
+
+```
+INST (-ma): Tool/means
+"lova jiwe-ma" = 'close WITH stone' (using stone as tool)
+
+COM (-pamoja): Accompaniment
+"lova we-pamoja" = 'close WITH you' (you accompany)
+```
+
+---
+
+## XII. SPECIAL CASE INTERACTIONS
+
+### A. Belonging Case in Names
+
+The belonging case **-ke** is unique to Pamojan naming:
+
+```
+Structure:
+[Name] wa [Family] Ke [Ethnicity]
+       GEN        BELONG
+
+Semantic layers:
+wa = genitive relationship (family belonging)
+Ke = ethnic belonging (cultural identity)
+
+Full example:
+Domingu Akheni wa Kontinuntu Ke Mungu
+'Domingu Akheni of-the-Kontinuntu belonging-to-the-Mungu'
+```
+
+**Ke with other cases:**
+```
+Cannot stack directly with most cases:
+*Mungu-Ke-ta (incorrect)
+
+Instead use:
+Mungu-ntu-ta Ke Pamojan
+Mungu-people-GEN belonging-to Pamojan
+'of the Mungu people belonging to Pamoja'
+```
+
+### B. Topic Case as Circumfix
+
+Topic marking surrounds the clause:
+
+```
+Basic: Mungon lova
+       'The system closes'
+
+Topicalized: Mungon-ni lova-ye
+             'As for the system, (it) closes'
+
+Multiple topics:
+Mungon-ni lovfu-ye, kontinuitu-ni karfu-ye
+'As for the system, (it's) closed; as for kontinuity, (it's) structured'
+```
+
+---
+
+═══════════════════════════════════════════════════════════
+
+## CLOSING DECLARATION
+
+The Nyamba Case System consists of **15 grammatical cases** organized into 5 functional categories, each mapping to Mungu system relationships and encoding Ω-GOMA principles into grammatical structure.
+
+**Case Count:** 15  
+**Categories:** 5 (Core, Spatial, Relational, Identity, Functional)  
+**Special Features:** Belonging case (-ke), Topic circumfix, Case stacking
+
+**Status:** CANONICAL  
+**Authority:** Nyamba Language System  
+**Version:** 1.0  
+**Sealed:** ⛭
+
+═══════════════════════════════════════════════════════════
+
+**Lova karfu, munga kontinfu**  
+*(Close with structure, systematize continuously)*
+
+**∎**

@@ -6152,7 +6152,7 @@ Domingu Akheni Ke Mungu
 
 
 
-
+nyamba jussive mood
 
 
 

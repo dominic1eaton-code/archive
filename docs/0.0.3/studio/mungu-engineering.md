@@ -57222,8 +57222,10 @@ write the charter for The Mungu Corporation: Mungu Inc., Mungu Brands, Mungu fas
 * write a technical blog post for mungu engineering and closed loop engineering
 
 
-* write a blog post introducing the Mungu Corporation
 
+
+
+* write a blog post introducing the Mungu Corporation. Generate in the main context window ONLY
 
 
 * write a medium platform style blog post introducing the Mungu Papers, the lubiko bible and all of its book.  Generate in the main context window ONLY

@@ -8589,6 +8589,7 @@ where a "self" (an agent, system, being, thing) must be consistent/distinct/boun
 
 I'll now definitely to add exploring different reality indexes, K-metrics, d dimensions, P physics, Ω operators and the conditions that they favor and that favor them, to my TODO list.
 
+Furthermore, assuming any of this is true, I'd be curious to know the nature of and what exactly is this "activation barrier" that could potentially move agents between different reality indexes and what the boundaries of this mechanism would be, and also I wonder what connection this has to string theory and M-theory and how the formulate dimensionality as well. 
 
 Hopefully this all makes some kind of sense, and please feel free to challenge it if it doesn't, but that's my personal reasoning for now, and of course is subject to change as my understanding gets clearer and more refined.
 

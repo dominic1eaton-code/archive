@@ -8587,7 +8587,7 @@ I'll formalize this entire concept now as a law: "The Law of Self Consistency",
 
 where a "self" (an agent, system, being, thing) must be consistent/distinct/bounded/unique across any, all, and every reality R, physics P, identity continuity K, dimension D, and evolution Ω. And I do believe that this law is consistent with the axioms, ideas and concepts of relativity, self dualonic pair stability, finite existence, necessary evolution and constrained transitions, k continuity, compression pressure, continuous/contiguous state locality, closure. and I'll formalize the associated evolutionary operator with this law as "Ω-C", the fundamental Ω operator.
 
-I'll now definitely to add exploring different reality indexes, K-metrics, d dimensions, P physics, Ω operators and the conditions that they favor and that favor them, to my TODO list.
+I'll now definitely to add exploring different reality indexes, K-metrics, d dimensions, P physics, Ω operators and the conditions that they favor as well as the conditions that favor them, to my TODO list.
 
 Furthermore, assuming any of this is true, I'd be curious to know the nature of and what exactly is this "activation barrier" that could potentially move agents between different reality indexes and what the boundaries of this mechanism would be, and also I wonder what connection this has to string theory and M-theory and how the formulate dimensionality as well. 
 

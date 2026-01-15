@@ -21048,6 +21048,8 @@ Just say where to cut next.
 
 
 
+
+
 formalize "K mathematics" which includes Kontinuity mathematics, Omega Mathematics, and unifies all currently existing mathematics fields/domains/realms/realities, as well as the foundations of all mathematics and all types of mathematics, all united under K mathematics
 
 

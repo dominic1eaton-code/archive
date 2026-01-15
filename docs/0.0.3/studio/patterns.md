@@ -8569,6 +8569,11 @@ nyamba jussive mood
 
 
 
+organize, formalize and check the validity of all of the following:
+COMMENT:
+
+
+RESPONSE:
 
 This is a really interesting idea, if I'm understanding you correctly. I'm still very much actively trying to work out all of the intuition, so take everything I'm saying with a grain of salt. 
 

@@ -25137,7 +25137,7 @@ Just name the direction.
 
 
 
-"Reality exists only if it accumulates enough structured continuity to outrun its own entropy, and the minimal ratio required is the golden ratio." - show how/why/when/where "compression" mitigates this. Also define and formalize "compression
+"Reality exists only if it accumulates enough structured continuity to outrun its own entropy, and the minimal ratio required is the golden ratio." - show how/why/when/where "compression" mitigates this. Also define and formalize "compression"
 
 
 why is the golden ratio "optimal" ? what does "optimal" mean formally? are there other metrics/ratios that are "optimal" ? is "optimallity" unique? why or why not? how? when? where? from who's perpsective?
@@ -25363,6 +25363,28 @@ https://open.substack.com/pub/systemics/p/the-book-of-kogi?utm_campaign=post-exp
 https://open.substack.com/pub/systemics/p/ndando-programming?utm_campaign=post-expanded-share&utm_medium=web
 
 https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+
+
+
+
+Some introductory links to Mungu Theory:
+
+https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+https://medium.com/@dominic1.eaton/the-mungu-manifesto-ba7f9f8af5d3
+
+https://medium.com/@eatondo000/taking-a-closer-look-into-ai-f64c0bf7a189
+
+https://open.substack.com/pub/systemics/p/the-law-of-self-consistency?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-meridian-web?utm_campaign=post-expanded-share&utm_medium=web
+
+https://github.com/dominic1eaton-code/archive
+
+
+
+
 
 
 

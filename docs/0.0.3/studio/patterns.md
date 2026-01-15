@@ -8599,8 +8599,6 @@ Hopefully this all makes some kind of sense, and please feel free to challenge i
 
 
 
-
-
 I’ll address each of your requested tasks in turn, based strictly on the provided specification of **the Dira System**.
 
 ---

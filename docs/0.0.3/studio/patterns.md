@@ -27112,6 +27112,8 @@ tensors, vectors, manifolds, vector bundles, galois theory, langlands program, m
 
 
 
+predictive history: secret history #17: literary genesis
+
 
 
 King David - the Jewish Navigator / Chief Navigation Officer:

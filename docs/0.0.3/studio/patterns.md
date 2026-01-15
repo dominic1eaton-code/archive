@@ -20164,6 +20164,7 @@ If you want next logical steps, the only ones left are:
 Just say which.
 
 
+
 formalize: basin, unstable basin, stable basin, attractor basin, repulsor basin, basin geometry, basin topology, basin analysis, basin mechanics+statics+dynamics, basin statistics+probability+stochastics, basin shape, basin terrain, basin curvature, basin manifold, basin boundaries, K basins
 
 

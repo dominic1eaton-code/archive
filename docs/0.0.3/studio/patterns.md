@@ -15054,3 +15054,23 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5870623
 https://medium.com/@eatondo000/f4a05f8683cf
 
 
+
+
+
+
+
+
+
+Some side projects:
+
+https://open.substack.com/pub/systemics/p/the-book-of-kogi?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/ndando-programming?utm_campaign=post-expanded-share&utm_medium=web
+
+https://medium.com/@songhai.institute/mungu-theory-b304798432f5
+
+
+
+
+
+

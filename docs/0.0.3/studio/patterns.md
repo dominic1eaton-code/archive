@@ -25137,6 +25137,7 @@ Just name the direction.
 
 
 
+"Reality exists only if it accumulates enough structured continuity to outrun its own entropy, and the minimal ratio required is the golden ratio." - show how/why/when/where "compression" mitigates this. Also define and formalize "compression
 
 
 why is the golden ratio "optimal" ? what does "optimal" mean formally? are there other metrics/ratios that are "optimal" ? is "optimallity" unique? why or why not? how? when? where? from who's perpsective?

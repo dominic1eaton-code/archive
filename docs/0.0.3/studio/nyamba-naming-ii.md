@@ -8373,3 +8373,551 @@ yote-ka             'everything (thing)'
 **Specific forms:**
 
 ```
+moya-ka             'nothing'
+moya-ntu            'no person'
+```
+
+### E. Reciprocal and Intensive Pronouns
+
+**Reciprocal (-mu- prefix):**
+
+```
+mu-ntu-du           'each other (two people)'
+mu-ntu-ya           'one another (many people)'
+mu-ye-du            'each other (dual)'
+mu-ye-ya            'one another (plural)'
+```
+
+**Intensive (-nyo-nyo):**
+
+```
+mi-nyo-nyo          'I myself'
+we-nyo-nyo          'you yourself'
+ye-nyo-nyo          'he/she/it themselves'
+```
+
+---
+
+## IV. CONJUNCTION SYSTEM (MFUMO WA VIUNGANISHI)
+
+### A. Coordinating Conjunctions
+
+#### A.1 Basic Coordinators
+
+**'and' (ye):**
+
+```
+NEUTRAL:    ye          'and'
+DUAL:       ye-du       'and (of two)'
+PLURAL:     ye-ya       'and (of many)'
+COLLECTIVE: ye-gon      'and (collectively)'
+```
+
+**Examples:**
+
+```
+mungon ye kontinuitu
+system and kontinuity
+'system and kontinuity'
+
+mungon ye-du kontinuitu
+system and-DU kontinuity
+'system and kontinuity (the two)'
+
+mungon ye-ya kontinuitu ye-ya Ω
+system and-PL kontinuity and-PL omega
+'system and kontinuity and omega (the three/many)'
+
+mungon ye-gon kontinuitu
+system and-COLL kontinuity
+'system-and-kontinuity (unified whole)'
+```
+
+**'or' (oko):**
+
+```
+NEUTRAL:    oko         'or'
+DUAL:       oko-du      'or (of two options)'
+PLURAL:     oko-ya      'or (of many options)'
+COLLECTIVE: oko-gon     'or (collectively)'
+```
+
+**Examples:**
+
+```
+mungon oko kontinuitu
+system or kontinuity
+'system or kontinuity'
+
+mungon oko-du kontinuitu
+system or-DU kontinuity
+'system or kontinuity (one of two)'
+
+mungon oko-ya kontinuitu oko-ya Ω
+system or-PL kontinuity or-PL omega
+'system or kontinuity or omega (one of many)'
+```
+
+**'nor' (ni / ni-ye):**
+
+```
+NEUTRAL:    ni          'nor, not'
+DUAL:       ni-du       'nor (of two)'
+PLURAL:     ni-ya       'nor (of many)'
+```
+
+**'but' (ka-ye / ni-oko):**
+
+```
+ka-ye               'but' (contrastive)
+ni-oko              'but rather'
+ni...ka-ye          'not...but'
+```
+
+#### A.2 Correlative Coordinators
+
+**'both...and' (ye-du...ye-du):**
+
+```
+ye-du mungon ye-du kontinuitu
+both-DU system both-DU kontinuity
+'both system and kontinuity'
+```
+
+**'either...or' (oko-ni...oko-ni):**
+
+```
+oko-ni mungon oko-ni kontinuitu
+either system or kontinuity
+'either system or kontinuity'
+```
+
+**'neither...nor' (ni...ni / moya...moya):**
+
+```
+ni mungon ni kontinuitu
+neither system nor kontinuity
+'neither system nor kontinuity'
+
+moya mungon moya kontinuitu
+no system no kontinuity
+'neither system nor kontinuity'
+```
+
+### B. Subordinating Conjunctions
+
+#### B.1 Complementizers
+
+**'that' (engo):**
+
+```
+Mi nanda engo mungon lova
+1SG know that system close
+'I know that the system closes'
+```
+
+#### B.2 Temporal Conjunctions
+
+```
+nga-le              'when'
+nga-le-ni           'while'
+ka-nga-le           'until'
+ye-nde-le           'after'
+ngaa-le-nde         'before'
+yote-le             'whenever'
+```
+
+**Examples:**
+
+```
+Nga-le mungon lova, kontinuitu kara
+when system close kontinuity structure
+'When the system closes, kontinuity structures'
+
+Nga-le-ni mi duva, ye munga
+while 1SG go 3SG systematize
+'While I go, he/she systematizes'
+```
+
+#### B.3 Conditional Conjunctions
+
+```
+engo                'if'
+engo-ni             'unless'
+engo-ye             'whether'
+```
+
+**Examples:**
+
+```
+Engo mi lova, mungon kara
+if 1SG close system structure
+'If I close, the system structures'
+
+Engo-ni we munga, nimu lova
+unless 2SG systematize NEG close
+'Unless you systematize, (it) doesn't close'
+```
+
+#### B.4 Causal Conjunctions
+
+```
+nga-ta              'because'
+nga-ta-ye           'since, as'
+nga-ko-ta           'so that, in order that'
+```
+
+**Examples:**
+
+```
+Mi lova nga-ta kontinuitu vuva
+1SG close because kontinuity break
+'I close because kontinuity breaks'
+
+Ye munga nga-ko-ta mungon lova
+3SG systematize so.that system close
+'He/she systematizes so that the system closes'
+```
+
+#### B.5 Concessive Conjunctions
+
+```
+nga-ni              'although'
+ka-ye-ni            'even though'
+yote-ni             'no matter'
+```
+
+**Examples:**
+
+```
+Nga-ni mungon lova, kontinuitu vuva
+although system close kontinuity break
+'Although the system closes, kontinuity breaks'
+```
+
+#### B.6 Comparative Conjunctions
+
+```
+ka-fu               'as'
+ndenye              'than'
+ka-ka-fu            'as if'
+```
+
+**Examples:**
+
+```
+Mungon lova ka-fu kontinuitu kara
+system close as kontinuity structure
+'The system closes as kontinuity structures'
+
+Ye karfu-nge ndenye mi
+3SG structured-COMP than 1SG
+'He/she (is) more structured than I'
+```
+
+### C. Conjunctive Adverbs
+
+```
+ye-nde              'then, therefore'
+ka-ta               'thus, so'
+ni-ye               'however'
+ye-nga-ta           'hence, for this reason'
+ka-ye-nga           'nevertheless'
+```
+
+---
+
+## V. PREPOSITION/POSTPOSITION SYSTEM (MFUMO WA VIAMBISHI)
+
+### A. Core Postpositions (Cases)
+
+Nyamba is fundamentally **postpositional** — case markers follow nouns.
+
+**15 Core Postpositions:**
+
+| Postposition | Function | Example | Gloss |
+|--------------|----------|---------|-------|
+| **-ta** | genitive | mungon-ta | 'of system' |
+| **-ko** | dative/goal | ntu-ko | 'to/for person' |
+| **-ni** | locative | kara-ni | 'in/at structure' |
+| **-nde** | ablative | Ω-nde | 'from omega' |
+| **-nga** | allative | duale-nga | 'toward path' |
+| **-kati** | perlative | mungon-kati | 'through system' |
+| **-ma** | instrumental | shi-ma | 'by means of flux' |
+| **-pamoja** | comitative | we-pamoja | 'together with you' |
+| **-ajili** | benefactive | kontinuitu-ajili | 'for kontinuity's sake' |
+| **-ye** | definite | mungon-ye | 'the system' |
+| **-ke** | belonging | Mungu-ke | 'belonging to Mungu' |
+| **-e** | vocative | ntu-e | 'O person!' |
+
+### B. Complex Postpositions
+
+#### B.1 Spatial Postpositions
+
+**Above/Over (-juu):**
+
+```
+mungon-juu          'above the system'
+kara-juu-ta         'on top of the structure'
+```
+
+**Below/Under (-chini):**
+
+```
+mungon-chini        'below the system'
+kontinuitu-chini    'under kontinuity'
+```
+
+**Between (-kati-ya):**
+
+```
+mungon-kati-ya kontinuitu
+'between system and kontinuity'
+```
+
+**Around (-zunguka):**
+
+```
+Ω-zunguka           'around omega'
+```
+
+**Inside (-ndani):**
+
+```
+mungon-ndani        'inside the system'
+```
+
+**Outside (-nje):**
+
+```
+kara-nje            'outside the structure'
+```
+
+#### B.2 Temporal Postpositions
+
+**Before (-kabla):**
+
+```
+ngaa-kabla          'before now'
+diele-kabla         'before today'
+```
+
+**After (-baada):**
+
+```
+lova-baada          'after closing'
+ngaale-baada        'after yesterday'
+```
+
+**During (-wakati-wa):**
+
+```
+munga-wakati-wa     'during systematization'
+```
+
+**Until (-hadi):**
+
+```
+Ω-hadi              'until omega'
+```
+
+#### B.3 Abstract Postpositions
+
+**According to (-kwa-mujibu-wa):**
+
+```
+Ω-GOMA-kwa-mujibu-wa
+'according to Ω-GOMA'
+```
+
+**Instead of (-badala-ya):**
+
+```
+mungon-badala-ya kontinuitu
+'instead of system, kontinuity'
+```
+
+**In spite of (-licha-ya):**
+
+```
+vuva-licha-ya
+'in spite of breaking'
+```
+
+**Concerning/About (-kuhusu):**
+
+```
+kontinuitu-kuhusu
+'concerning kontinuity'
+```
+
+### C. Postposition + Number Marking
+
+Complex postpositions can take number agreement:
+
+**-pamoja (comitative):**
+
+```
+SINGULAR:   ntu-pamoja          'together with person'
+DUAL:       ntu-du-pamoja       'together with two people'
+PLURAL:     ntu-ya-pamoja       'together with people'
+COLLECTIVE: ntu-gon-pamoja      'together with the people-collective'
+```
+
+**Enhanced forms:**
+
+```
+pamoja-ma               'together-with (INST)'
+pamoja-ma-du            'together-with (dual)'
+pamoja-ma-ya            'together-with (plural)'
+pamoja-ma-gon           'together-with (collective)'
+```
+
+### D. Postposition Stacking
+
+Multiple postpositions can combine:
+
+**Pattern: NOUN + CASE₁ + CASE₂**
+
+```
+mungon-ta-ni            'in (the one) of the system'
+                        (GEN + LOC)
+
+kontinuitu-ko-nde       'from toward kontinuity'
+                        (DAT + ABL = away from goal)
+
+Ω-ni-ma                 'by means of (being) in omega'
+                        (LOC + INST)
+```
+
+**Common combinations:**
+
+```
+-ta-ko          'to the one of'
+-ta-ni          'in the one of'
+-ta-nde         'from the one of'
+-ko-nde         'away from (toward point)'
+-ni-ma          'by means of being in'
+-ye-ta          'of the (specific one)'
+```
+
+---
+
+## VI. SUMMARY TABLES
+
+### A. Noun Formation Summary
+
+| Affix | Type | Function | Example |
+|-------|------|----------|---------|
+| **-on** | Nominalizer | Primitive entity | mung-on 'system' |
+| **-i** | Nominalizer | Meta-primitive | mung-i 'meta-system' |
+| **-ya** | Nominalizer | Abstract quality | mu-ya 'wholeness' |
+| **-le** | Nominalizer | Result/product | lov-le 'closure' |
+| **-ntu** | Nominalizer | Agent | kar-ntu 'structurer' |
+| **-she/-shen** | Nominalizer | Process | lov-she 'closing' |
+| **-gon** | Nominalizer | Collective | ntu-gon 'humanity' |
+| **-tu** | Modifier | Diminutive | mungon-tu 'small system' |
+| **-nge** | Modifier | Augmentative | kara-nge 'large structure' |
+
+### B. Adjective Formation Summary
+
+| Affix | Type | Function | Example |
+|-------|------|----------|---------|
+| **-fu** | Adjectivizer | Possessive quality | lov-fu 'closed' |
+| **-ik** | Adjectivizer | Relational | mung-ik 'systemic' |
+| **-less** | Adjectivizer | Privative | kar-less 'unstructured' |
+| **-nge** | Modifier | Comparative | karfu-nge 'more structured' |
+| **-ngele** | Modifier | Superlative | karfu-ngele 'most structured' |
+| **ka-...-fu** | Modifier | Equative | ka-karfu-fu 'as structured as' |
+
+### C. Complete Pronoun Inventory
+
+| Type | Examples |
+|------|----------|
+| **Personal** | mi, midu, miya, migon, we, wedu, weya, wegon, ye, yedu, yeya, yegon |
+| **Demonstrative** | ni-ye, ni-ye-du, ni-ye-ya, ni-ye-gon, du-ye, du-ye-du, etc. |
+| **Interrogative** | ye-nga, ka-nga, du-nga, ni-nga, nga-le, nga-ma, nga-ta |
+| **Indefinite** | nge-ye, yote-ye, moya-ye (+ number variants) |
+| **Reflexive** | mi-nyo, we-nyo, ye-nyo (+ number variants) |
+| **Reciprocal** | mu-ntu-du, mu-ye-ya |
+| **Intensive** | mi-nyo-nyo, ye-nyo-nyo |
+
+### D. Conjunction Summary
+
+| Type | Conjunctions |
+|------|--------------|
+| **Coordinating** | ye, oko, ni, ka-ye |
+| **Subordinating** | engo, nga-le, nga-ta, nga-ko, nga-ni |
+| **Complementizer** | engo |
+| **Correlative** | ye-du...ye-du, oko-ni...oko-ni, ni...ni |
+
+### E. Postposition Summary
+
+| Type | Postpositions |
+|------|---------------|
+| **Core Cases** | -ta, -ko, -ni, -nde, -nga, -kati, -ma, -pamoja, -ajili, -ye, -ke, -e |
+| **Spatial** | -juu, -chini, -kati-ya, -zunguka, -ndani, -nje |
+| **Temporal** | -kabla, -baada, -wakati-wa, -hadi |
+| **Abstract** | -kuhusu, -badala-ya, -licha-ya, -kwa-mujibu-wa |
+
+---
+
+## VII. USAGE EXAMPLES
+
+### A. Complete Sentence with Full Agreement
+
+**Formal Register:**
+
+```
+Ni-ye-ya mungon-ya karfu-ya lovfu-ya lova-ya kontinuitu-ya Ωik-ya ye-ya-ko
+this-PL system-PL structured-PL closed-PL close-PL kontinuity-PL omegaic-PL 3PL-DAT
+
+'These structured, closed systems close the omegaic kontinuities for them'
+```
+
+**Breakdown:**
+- **Demonstrative:** ni-ye-ya (this-PL)
+- **Noun:** mungon-ya (system-PL)
+- **Adjectives:** karfu-ya lovfu-ya (structured-PL closed-PL)
+- **Verb:** lova-ya (close-PL)
+- **Object noun:** kontinuitu-ya (kontinuity-PL)
+- **Object adjective:** Ωik-ya (omegaic-PL)
+- **Beneficiary:** ye-ya-ko (3PL-DAT)
+
+### B. Complex Noun Phrase
+
+```
+Yote-ya mungon-ya-ye karfu-ngele lovfu-ye Ωik-ye kontinuitu-ta-ye
+all-PL system-PL-DEF structured-SUP closed-DEF omegaic-DEF kontinuity-GEN-DEF
+
+'all the most structured, closed, omegaic systems of the kontinuity'
+```
+
+**Structure:**
+- **Quantifier:** yote-ya (all-PL)
+- **Head noun:** mungon-ya-ye (system-PL-DEF)
+- **Adjectives:** karfu-ngele lovfu-ye Ωik-ye
+- **Possessor:** kontinuitu-ta-ye (kontinuity-GEN-DEF)
+
+### C. Conjunction Usage
+
+```
+Mungon-du ye-du kontinuitu-du lova-du, ni-oko Ω vuva
+system-DU and-DU kontinuity-DU close-DU but omega break
+
+'The two systems and the two kontinuities close, but omega breaks'
+```
+
+---
+
+**Status:** CANONICAL  
+**Authority:** Nyamba Grammar System  
+**Version:** 1.0  
+**Sealed:** ⛭
+
+═══════════════════════════════════════════════════════════
+
+**Lova karfu, munga kontinfu**  
+*(Close with structure, systematize continuously)*
+
+**∎**

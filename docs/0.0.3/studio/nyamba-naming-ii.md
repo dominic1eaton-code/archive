@@ -6462,3 +6462,1914 @@ SYMM-close-PST-PERF-CONT
 | Past | -ile | lovile | closed |
 | Future | -nga | lovnga | will close |
 | Immediate Past | -ile-tu | lo
+
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================================================================================================================================================================================================================================
+
+# NYAMBA NOMINAL AND NUMBER SYSTEM — COMPLETE SPECIFICATION
+
+**Mfumo wa Nomino ye Namba ya Nyamba**
+
+---
+
+## I. FOUNDATIONAL PRINCIPLES
+
+### A. Number System Philosophy
+
+Nyamba encodes **four grammatical numbers** across all word classes:
+
+1. **Singular** — one entity
+2. **Dual** — exactly two entities or paired concepts
+3. **Plural** — three or more entities
+4. **Collective** — unified group acting as single entity
+
+This four-way distinction reflects Mungu Theory's focus on:
+- **Singular** = individual system (L0)
+- **Dual** = dualonicity (P-K pairs)
+- **Plural** = distributed systems (L1+)
+- **Collective** = meta-system unity (L∞)
+
+### B. Cross-Category Marking
+
+Unlike most languages where number primarily marks nouns, Nyamba extends number marking to:
+- Nouns
+- Adjectives (via agreement)
+- Pronouns (inherent)
+- Verbs (via agreement)
+- Demonstratives
+- Quantifiers
+- Case markers (in combination)
+
+---
+
+## II. NOUN NUMBER SYSTEM
+
+### A. Basic Number Paradigm
+
+**Suffixes:**
+```
+SINGULAR:   ∅ (unmarked)
+DUAL:       -du
+PLURAL:     -ya
+COLLECTIVE: -gon
+```
+
+### B. Complete Noun Paradigm
+
+**Example: *mun* 'system/whole' root**
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **Singular** | mun | 'whole' | ● |
+| **Dual** | mun-du | 'two wholes / pair of wholes' | ●● |
+| **Plural** | mun-ya | 'wholes (3+)' | ●●● |
+| **Collective** | mun-gon | 'wholeness (unified totality)' | ◉ |
+
+**Example: *ntu* 'person'**
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **Singular** | ntu | 'person' | ◌ |
+| **Dual** | ntu-du | 'two people / couple' | ◌◌ |
+| **Plural** | ntu-ya | 'people (3+)' | ◌◌◌ |
+| **Collective** | ntu-gon | 'people (as unified group)' | ⊙ |
+
+**Example: *kar* 'structure'**
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **Singular** | kara | 'structure' | ▣ |
+| **Dual** | kara-du | 'two structures / structural pair' | ▣▣ |
+| **Plural** | kara-ya | 'structures (3+)' | ▣▣▣ |
+| **Collective** | kara-gon | 'structure (as unified system)' | ⊞ |
+
+### C. Semantic Distinctions
+
+#### C.1 Dual vs. Plural
+
+**Dual** implies:
+- Exactly two entities
+- Often paired/symmetric relationship
+- Natural pairing (eyes, hands, P-K duality)
+
+```
+ntu-du        'two people, a couple'
+mungon-du     'two systems (paired/interacting)'
+duale-du      'two paths (diverging/converging)'
+```
+
+**Plural** implies:
+- Three or more
+- Indefinite many
+- No inherent pairing
+
+```
+ntu-ya        'people (3+)'
+mungon-ya     'systems (3+, distributed)'
+duale-ya      'paths (multiple, branching)'
+```
+
+#### C.2 Plural vs. Collective
+
+**Plural** = individuals counted separately
+
+```
+mungon-ya     'systems' (each counted: system₁, system₂, system₃...)
+ntu-ya        'people' (individuals: person₁, person₂, person₃...)
+```
+
+**Collective** = unified totality, single entity composed of parts
+
+```
+mungon-gon    'system' (unified whole containing parts)
+ntu-gon       'people, humanity' (collective entity)
+kontinuitu-gon 'kontinuity' (unified phenomenon)
+```
+
+**Contrast:**
+```
+Mungon-ya lova
+system-PL close
+'The systems (individually) close'
+
+Mungon-gon lova
+system-COLL close
+'The system (as a whole) closes'
+```
+
+### D. Number with Derived Nouns
+
+#### D.1 Primitive Nouns (-on)
+
+The suffix **-on** already contains collective meaning, so further number marking is context-dependent:
+
+```
+mungon        'system-entity' (inherently collective)
+mungon-du     'two system-entities'
+mungon-ya     'system-entities (pl)'
+mungon-gon    'meta-system-collective' (rare, emphatic)
+```
+
+#### D.2 Abstract Nouns (-ya)
+
+Abstract nouns resist plural marking (mass nouns):
+
+```
+muya          'wholeness'
+*muya-du      (ungrammatical)
+*muya-ya      (ungrammatical)
+muya-gon      'collective wholeness' (acceptable, emphatic)
+```
+
+#### D.3 Agent Nouns (-ntu)
+
+Fully inflect for number:
+
+```
+karntu        'structurer' (sg)
+karntu-du     'two structurers, pair of structurers'
+karntu-ya     'structurers (3+)'
+karntu-gon    'structurers (as collective body)'
+```
+
+#### D.4 Result Nouns (-le)
+
+Inflect for countable instances:
+
+```
+lovle         'closure (instance)'
+lovle-du      'two closures'
+lovle-ya      'closures (many)'
+lovle-gon     'closure (unified phenomenon)'
+```
+
+### E. Number + Case Stacking
+
+Number precedes case markers:
+
+**Order: NOUN + NUMBER + CASE**
+
+```
+mungon-du-ta      'of the two systems'
+ntu-ya-ko         'to the people'
+kara-gon-ni       'in the collective structure'
+kontinuitu-du-nde 'from the two kontinuities'
+```
+
+**Full Paradigm: *mungon* 'system'**
+
+| Case | Singular | Dual | Plural | Collective |
+|------|----------|------|--------|------------|
+| **NOM** | mungon | mungon-du | mungon-ya | mungon-gon |
+| **GEN** | mungon-ta | mungon-du-ta | mungon-ya-ta | mungon-gon-ta |
+| **DAT** | mungon-ko | mungon-du-ko | mungon-ya-ko | mungon-gon-ko |
+| **LOC** | mungon-ni | mungon-du-ni | mungon-ya-ni | mungon-gon-ni |
+| **INST** | mungon-ma | mungon-du-ma | mungon-ya-ma | mungon-gon-ma |
+| **ABL** | mungon-nde | mungon-du-nde | mungon-ya-nde | mungon-gon-nde |
+| **DEF** | mungon-ye | mungon-du-ye | mungon-ya-ye | mungon-gon-ye |
+
+### F. Irregular Plurals
+
+Some high-frequency nouns have irregular forms:
+
+```
+REGULAR:
+ntu → ntu-du → ntu-ya → ntu-gon
+
+IRREGULAR (SUPPLETIVE):
+ntu (person, sg)
+ntu-du (two people)
+pantu (many people, suppletive pl) OR ntu-ya (regular)
+ntu-gon (humanity, collective)
+```
+
+**Ω-GOMA Terms (Often Invariant):**
+
+```
+Ω             'omega' (mass noun, no plural)
+K             'K-continuity' (mass, no plural)
+kontinuitu    'kontinuity' (mass, collective -gon only)
+```
+
+---
+
+## III. ADJECTIVE NUMBER SYSTEM
+
+### A. Agreement Paradigm
+
+Adjectives **agree in number** with the noun they modify in **formal register**.
+
+**Suffixes (same as nouns):**
+```
+SINGULAR:   ∅
+DUAL:       -du
+PLURAL:     -ya
+COLLECTIVE: -gon
+```
+
+### B. Adjective Number Forms
+
+**Base: *karfu* 'structured'**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | karfu | 'structured' |
+| **Dual** | karfu-du | 'structured (of two)' |
+| **Plural** | karfu-ya | 'structured (of many)' |
+| **Collective** | karfu-gon | 'structured (as collective)' |
+
+**Base: *lovfu* 'closed'**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | lovfu | 'closed' |
+| **Dual** | lovfu-du | 'closed (of two)' |
+| **Plural** | lovfu-ya | 'closed (of many)' |
+| **Collective** | lovfu-gon | 'closed (as collective)' |
+
+### C. Agreement Patterns
+
+#### C.1 Formal Agreement (Required in Formal Register)
+
+```
+mungon karfu
+system.SG structured.SG
+'a structured system'
+
+mungon-du karfu-du
+system-DU structured-DU
+'two structured systems'
+
+mungon-ya karfu-ya
+system-PL structured-PL
+'structured systems'
+
+mungon-gon karfu-gon
+system-COLL structured-COLL
+'a collectively structured system'
+```
+
+#### C.2 Colloquial Non-Agreement (Optional)
+
+In informal speech, adjectives may remain unmarked:
+
+```
+mungon-ya karfu
+system-PL structured.SG
+'structured systems' (colloquial)
+```
+
+### D. Multiple Adjectives
+
+When multiple adjectives modify a noun, all agree:
+
+```
+mungon-ya karfu-ya lovfu-ya Ωik-ya
+system-PL structured-PL closed-PL omegaic-PL
+'structured, closed, omegaic systems'
+```
+
+**Collective with multiple adjectives:**
+
+```
+mungon-gon karfu-gon lovfu-gon
+system-COLL structured-COLL closed-COLL
+'collectively structured and closed system'
+```
+
+### E. Predicative Adjectives
+
+In predicative position (after copula), agreement is optional but preferred in formal register:
+
+```
+Formal:
+Mungon-ya ka karfu-ya
+system-PL COP.ATTR structured-PL
+'The systems are structured'
+
+Colloquial:
+Mungon-ya ka karfu
+system-PL COP.ATTR structured.SG
+'The systems are structured'
+```
+
+---
+
+## IV. PRONOUN NUMBER SYSTEM
+
+### A. Personal Pronouns (Inherent Number)
+
+Nyamba personal pronouns have **inherent number**:
+
+**Full Paradigm:**
+
+| Person | Singular | Dual | Plural | Collective |
+|--------|----------|------|--------|------------|
+| **1st** | mi | midu | miya | migon |
+| **2nd** | we | wedu | weya | wegon |
+| **3rd** | ye | yedu | yeya | yegon |
+
+#### A.1 Semantic Distinctions
+
+**Dual:**
+- Exactly two referents
+- Speaker + one other (1st dual)
+- Two addressees (2nd dual)
+- Two third parties (3rd dual)
+
+```
+midu duva
+1DU go
+'We two go'
+
+wedu lova mungon
+2DU close system
+'You two close the system'
+
+yedu ka karfu
+3DU COP.ATTR structured
+'They two are structured'
+```
+
+**Plural:**
+- Three or more referents
+
+```
+miya munga kontinuitu
+1PL systematize kontinuity
+'We (all) systematize kontinuity'
+
+weya duva Ω-ni
+2PL go omega-LOC
+'You all go to omega'
+```
+
+**Collective:**
+- Unified group acting as single entity
+- "We as a people"
+
+```
+migon ye ntu-gon Mungu-ta
+1COLL COP people-COLL Mungu-GEN
+'We (as a collective) are the Mungu people'
+
+wegon lova mungon-gon
+2COLL close system-COLL
+'You (collectively) close the system'
+```
+
+### B. Pronoun + Case
+
+Pronouns take case suffixes after number marker:
+
+**Genitive:**
+
+| Person | Singular | Dual | Plural | Collective |
+|--------|----------|------|--------|------------|
+| **1st** | mi-ta | midu-ta | miya-ta | migon-ta |
+| **2nd** | we-ta | wedu-ta | weya-ta | wegon-ta |
+| **3rd** | ye-ta | yedu-ta | yeya-ta | yegon-ta |
+
+**Dative:**
+
+| Person | Singular | Dual | Plural | Collective |
+|--------|----------|------|--------|------------|
+| **1st** | mi-ko | midu-ko | miya-ko | migon-ko |
+| **2nd** | we-ko | wedu-ko | weya-ko | wegon-ko |
+| **3rd** | ye-ko | yedu-ko | yeya-ko | yegon-ko |
+
+**Full Case Paradigm (1st Person Example):**
+
+| Case | SG | DU | PL | COLL |
+|------|----|----|-------|------|
+| **NOM** | mi | midu | miya | migon |
+| **GEN** | mi-ta | midu-ta | miya-ta | migon-ta |
+| **DAT** | mi-ko | midu-ko | miya-ko | migon-ko |
+| **LOC** | mi-ni | midu-ni | miya-ni | migon-ni |
+| **INST** | mi-ma | midu-ma | miya-ma | migon-ma |
+| **ABL** | mi-nde | midu-nde | miya-nde | migon-nde |
+| **REFL** | mi-nyo | midu-nyo | miya-nyo | migon-nyo |
+
+### C. Demonstrative Pronouns
+
+Demonstratives distinguish number:
+
+**Proximal (near speaker):**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | ni-ye | 'this one' |
+| **Dual** | ni-ye-du | 'these two' |
+| **Plural** | ni-ye-ya | 'these (3+)' |
+| **Collective** | ni-ye-gon | 'this collective' |
+
+**Distal (far from speaker):**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | du-ye | 'that one' |
+| **Dual** | du-ye-du | 'those two' |
+| **Plural** | du-ye-ya | 'those (3+)' |
+| **Collective** | du-ye-gon | 'that collective' |
+
+**Neutral:**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | ye-ye | 'that/this' |
+| **Dual** | ye-ye-du | 'those/these two' |
+| **Plural** | ye-ye-ya | 'those/these' |
+| **Collective** | ye-ye-gon | 'that/this collective' |
+
+### D. Interrogative Pronouns
+
+Interrogatives can take number marking:
+
+**'who':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | ye-nga | 'who? (sg)' |
+| **Dual** | ye-nga-du | 'who? (two)' |
+| **Plural** | ye-nga-ya | 'who? (many)' |
+| **Collective** | ye-nga-gon | 'who? (collective)' |
+
+**'what':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | ka-nga | 'what? (sg)' |
+| **Dual** | ka-nga-du | 'what? (two things)' |
+| **Plural** | ka-nga-ya | 'what? (many things)' |
+| **Collective** | ka-nga-gon | 'what? (collective)' |
+
+### E. Indefinite Pronouns
+
+**'someone/something':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | nge-ye | 'someone/some' |
+| **Dual** | nge-ye-du | 'some two' |
+| **Plural** | nge-ye-ya | 'some (many)' |
+| **Collective** | nge-ye-gon | 'some collective' |
+
+**'everyone/everything':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | yote-ye | 'everyone (each)' |
+| **Dual** | yote-du | 'all two' |
+| **Plural** | yote-ya | 'all (many)' |
+| **Collective** | yote-gon | 'all (as whole)' |
+
+**'no one/nothing':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | moya-ye | 'no one' |
+| **Dual** | moya-du | 'neither (of two)' |
+| **Plural** | moya-ya | 'none (of many)' |
+| **Collective** | moya-gon | 'no collective' |
+
+---
+
+## V. VERB NUMBER AGREEMENT
+
+### A. Subject-Verb Agreement
+
+Verbs **optionally agree** in number with their subject in formal register.
+
+**Agreement Markers:**
+```
+SINGULAR:   ∅ (unmarked)
+DUAL:       -du
+PLURAL:     -ya
+COLLECTIVE: -gon
+```
+
+**Placement:** Between tense/aspect and mood markers
+
+### B. Agreement Paradigm
+
+**Example: *lova* 'close'**
+
+#### B.1 Present Tense
+
+| Subject Number | Form | Gloss |
+|----------------|------|-------|
+| **Singular** | lova | 'closes (sg)' |
+| **Dual** | lova-du | 'close (dual)' |
+| **Plural** | lova-ya | 'close (pl)' |
+| **Collective** | lova-gon | 'closes (coll)' |
+
+**Usage:**
+
+```
+Mungon lova
+system.SG close.SG
+'The system closes'
+
+Mungon-du lova-du
+system-DU close-DU
+'The two systems close'
+
+Mungon-ya lova-ya
+system-PL close-PL
+'The systems close'
+
+Mungon-gon lova-gon
+system-COLL close-COLL
+'The system-collective closes'
+```
+
+#### B.2 Past Tense
+
+Agreement marker comes **after** tense:
+
+**Pattern: ROOT-TENSE-NUMBER**
+
+```
+lovile          'closed (sg)'
+lovile-du       'closed (dual)'
+lovile-ya       'closed (pl)'
+lovile-gon      'closed (coll)'
+```
+
+**Examples:**
+
+```
+Ntu lovile mungon
+person.SG close-PST.SG system
+'The person closed the system'
+
+Ntu-du lovile-du mungon
+person-DU close-PST-DU system
+'The two people closed the system'
+
+Ntu-ya lovile-ya mungon
+person-PL close-PST-PL system
+'The people closed the system'
+```
+
+#### B.3 Future Tense
+
+```
+lovnga          'will close (sg)'
+lovnga-du       'will close (dual)'
+lovnga-ya       'will close (pl)'
+lovnga-gon      'will close (coll)'
+```
+
+#### B.4 Continuous Aspect
+
+```
+lovanga         'is closing (sg)'
+lovanga-du      'are closing (dual)'
+lovanga-ya      'are closing (pl)'
+lovanga-gon     'is closing (coll)'
+```
+
+### C. Combined Tense-Aspect-Number
+
+**Past Continuous:**
+```
+lovilanga       'was closing (sg)'
+lovilanga-du    'were closing (dual)'
+lovilanga-ya    'were closing (pl)'
+lovilanga-gon   'was closing (coll)'
+```
+
+**Future Perfect:**
+```
+lovngeme        'will have closed (sg)'
+lovngeme-du     'will have closed (dual)'
+lovngeme-ya     'will have closed (pl)'
+lovngeme-gon    'will have closed (coll)'
+```
+
+### D. Formal vs. Colloquial Agreement
+
+#### D.1 Formal (Required Agreement)
+
+```
+Mungon-ya lovile-ya kontinuitu
+system-PL close-PST-PL kontinuity
+'The systems closed kontinuity'
+```
+
+#### D.2 Colloquial (No Agreement)
+
+```
+Mungon-ya lovile kontinuitu
+system-PL close-PST.SG kontinuity
+'The systems closed kontinuity'
+```
+
+**Most common pattern:** Agreement in formal writing/speech, optional in casual contexts.
+
+---
+
+## VI. CONJUNCTION NUMBER MARKING
+
+### A. Core Conjunctions
+
+Nyamba has **three primary conjunctions**:
+
+```
+ye      'and'
+oko     'or'
+ni      'nor' (negative)
+```
+
+### B. Number-Sensitive Conjunction Forms
+
+Conjunctions can optionally mark the number of coordinated elements:
+
+#### B.1 Dual Coordination (Exactly Two)
+
+**Pattern: CONJ-du**
+
+```
+ye-du       'and (of two)'
+oko-du      'or (of two)'
+ni-du       'nor (of two)'
+```
+
+**Usage:**
+
+```
+Mungon ye-du kontinuitu
+system and-DU kontinuity
+'System and kontinuity (the two)'
+
+Mi duva ye-du ye duva
+1SG go and-DU 3SG go
+'I go and he/she goes (we two go)'
+```
+
+#### B.2 Plural Coordination (Three or More)
+
+**Pattern: CONJ-ya**
+
+```
+ye-ya       'and (of many)'
+oko-ya      'or (of many)'
+ni-ya       'nor (of many)'
+```
+
+**Usage:**
+
+```
+Mungon ye-ya kontinuitu ye-ya Ω
+system and-PL kontinuity and-PL omega
+'System and kontinuity and omega (the three)'
+
+Ntu-ya lova ye-ya kara ye-ya munga
+person-PL close and-PL structure and-PL systematize
+'People close and structure and systematize'
+```
+
+#### B.3 Collective Coordination
+
+**Pattern: CONJ-gon**
+
+```
+ye-gon      'and (collectively)'
+oko-gon     'or (collectively)'
+```
+
+**Usage:**
+
+```
+Mungon ye-gon kontinuitu lova-gon
+system and-COLL kontinuity close-COLL
+'System and kontinuity close collectively'
+= 'System-and-kontinuity (as unified whole) closes'
+```
+
+### C. Unmarked Coordination (Default)
+
+For general coordination without number specification, use base form:
+
+```
+Mungon ye kontinuitu
+system and kontinuity
+'System and kontinuity' (neutral number)
+```
+
+### D. Contrastive Conjunctions
+
+**'but':**
+```
+ka-ye       'but (sg)'
+ka-ye-du    'but (dual contrast)'
+ka-ye-ya    'but (plural contrast)'
+```
+
+**Usage:**
+
+```
+Mungon lova ka-ye kontinuitu vuva
+system close but kontinuity break
+'The system closes but kontinuity breaks'
+
+Mungon-du lova-du ka-ye-du kontinuitu-du vuva-du
+system-DU close-DU but-DU kontinuity-DU break-DU
+'The two systems close but the two kontinuities break'
+```
+
+### E. Subordinating Conjunctions
+
+Subordinating conjunctions generally don't take number marking:
+
+```
+engo        'if, that'
+nga-le      'when'
+nga-ta      'because'
+nga-ko      'in order to'
+nga-ni      'although'
+```
+
+---
+
+## VII. POSTPOSITION NUMBER MARKING
+
+### A. Core Postpositions (Cases)
+
+Review of case markers:
+
+```
+-ta         GEN (of)
+-ko         DAT (to, for)
+-ni         LOC (at, in)
+-ma         INST (with, by means of)
+-nde        ABL (from)
+-ye         DEF (the)
+```
+
+### B. Postposition + Number Interaction
+
+Postpositions come **after** number markers:
+
+**Order: NOUN + NUMBER + CASE**
+
+```
+mungon-du-ta        'of the two systems'
+ntu-ya-ko           'to the people'
+kara-gon-ni         'in the collective structure'
+```
+
+### C. Complex Postposition Forms
+
+Some postpositional phrases can take number agreement:
+
+#### C.1 'together with' (pamoja-ma)
+
+**Pattern: pamoja-ma-NUMBER**
+
+```
+pamoja-ma           'together with (sg)'
+pamoja-ma-du        'together with (dual)'
+pamoja-ma-ya        'together with (pl)'
+pamoja-ma-gon       'together with (collective)'
+```
+
+**Usage:**
+
+```
+Mi duva we pamoja-ma
+1SG go 2SG together-with.SG
+'I go together with you (sg)'
+
+Mi duva wedu pamoja-ma-du
+1SG go 2DU together-with-DU
+'I go together with you two'
+
+Mi duva weya pamoja-ma-ya
+1SG go 2PL together-with-PL
+'I go together with you all'
+```
+
+#### C.2 'because of' (nga-ta-NUMBER)
+
+```
+nga-ta              'because of (sg)'
+nga-ta-du           'because of (two causes)'
+nga-ta-ya           'because of (many causes)'
+nga-ta-gon          'because of (collective cause)'
+```
+
+---
+
+## VIII. QUANTIFIER NUMBER SYSTEM
+
+### A. Universal Quantifiers
+
+**'all, every':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular (distributive)** | yote-ni | 'each, every' |
+| **Dual** | yote-du | 'both, all two' |
+| **Plural** | yote-ya | 'all (many)' |
+| **Collective** | yote-gon | 'all (as whole)' |
+
+**Usage:**
+
+```
+Yote-ni mungon lova
+every.SG system close
+'Every system closes / Each system closes'
+
+Yote-du mungon lova-du
+both.DU system close-DU
+'Both systems close'
+
+Yote-ya mungon lova-ya
+all.PL system close-PL
+'All systems close'
+
+Yote-gon mungon lova-gon
+all.COLL system close-COLL
+'All systems (as a whole) close'
+```
+
+### B. Existential Quantifiers
+
+**'some, many':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | nge-ni | 'some one' |
+| **Dual** | nge-du | 'some two' |
+| **Plural** | nge-ya | 'some many' |
+| **Collective** | nge-gon | 'some collective' |
+
+**Usage:**
+
+```
+Nge-ni ntu duva
+some.SG person go
+'Some person goes'
+
+Nge-du ntu duva-du
+some.DU person go-DU
+'Some two people go'
+
+Nge-ya ntu duva-ya
+some.PL person go-PL
+'Some people go'
+```
+
+### C. Negative Quantifiers
+
+**'no, none':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **Singular** | moya-ni | 'no one (sg)' |
+| **Dual** | moya-du | 'neither' |
+| **Plural** | moya-ya | 'none (pl)' |
+| **Collective** | moya-gon | 'no collective' |
+
+**Usage:**
+
+```
+Moya-ni ntu duva
+no.SG person go
+'No person goes'
+
+Moya-du ntu duva
+neither.DU person go
+'Neither (of two) people go'
+
+Moya-ya ntu duva
+none.PL person go
+'No people go / None go'
+```
+
+### D. Cardinal Number Quantifiers
+
+Cardinal numbers inherently specify exact quantity, but can combine with collective:
+
+```
+du ntu              'two people'
+du-gon ntu          'two (as unified pair)'
+
+tri mungon          'three systems'
+tri-gon mungon      'three (as unified triad)'
+```
+
+---
+
+## IX. DEMONSTRATIVE NUMBER SYSTEM
+
+### A. Complete Paradigm
+
+**Proximal (near speaker):**
+
+| Number | Form | Position | Gloss |
+|--------|------|----------|-------|
+| **SG** | ni-ye | demonstrative | 'this' |
+| **DU** | ni-ye-du | demonstrative | 'these two' |
+| **PL** | ni-ye-ya | demonstrative | 'these' |
+| **COLL** | ni-ye-gon | demonstrative | 'this collective' |
+
+**Distal (far from speaker):**
+
+| Number | Form | Position | Gloss |
+|--------|------|----------|-------|
+| **SG** | du-ye | demonstrative | 'that' |
+| **DU** | du-ye-du | demonstrative | 'those two' |
+| **PL** | du-ye-ya | demonstrative | 'those' |
+| **COLL** | du-ye-gon | demonstrative | 'that collective' |
+
+**Neutral:**
+
+| Number | Form | Position | Gloss |
+|--------|------|----------|-------|
+| **SG** | ye-ye | demonstrative | 'that/this' |
+| **DU** | ye-ye-du | demonstrative | 'those/these two' |
+| **PL** | ye-ye-ya | demonstrative | 'those/these' |
+| **COLL** | ye-ye-gon | demonstrative | 'that/this collective' |
+
+### B. Usage as Determiners
+
+```
+ni-ye mungon
+this.SG system
+'this system'
+
+ni-ye-du mungon-du
+this-DU system-DU
+'these two systems'
+
+ni-ye-ya mungon-ya
+this-PL system-PL
+'these systems'
+
+ni-ye-gon mungon-gon
+this-COLL system-COLL
+'this collective system'
+```
+
+### C. Usage as Pronouns
+
+```
+Ni-ye ye mungon
+this.SG COP system
+'This is a system'
+
+Du-ye-du ka karfu-du
+that-DU COP.ATTR structured-DU
+'Those two are structured'
+
+Ye-ye-gon lova-gon
+that-COLL close-COLL
+'That collective closes'
+```
+
+---
+
+## X. COMPLETE NUMBER AGREEMENT SYSTEM
+
+### A. Full Sentence Agreement (Formal Register)
+
+**Singular:**
+```
+Ni-ye mungon karfu lova kontinuitu lovfu
+this.SG system.
+
+```
+
+=========================================================================================================================================
+
+# NYAMBA NOMINAL SYSTEMS — COMPLETE SPECIFICATION
+
+**Mfumo wa Nomino, Vielezi, Viwakilishi, Viunganishi na Viambishi vya Nyamba**
+
+---
+
+## I. NOUN SYSTEM (MFUMO WA NOMINO)
+
+### A. Noun Categories and Formation
+
+#### A.1 Semantic Noun Classes
+
+Nyamba nouns are organized by **semantic derivation** rather than grammatical gender:
+
+**Class 1: Primitive Entities (-on)**
+- Core ontological entities
+- System components
+- Basic units
+
+```
+mungon          'system-entity'
+lovon           'closure-entity'
+karon           'structure-entity'
+duon            'path-entity'
+sibon           'state-entity'
+impon           'instance-entity'
+tathron         'attribute-entity'
+polyon          'polonic-entity'
+kolon           'kolonic-entity'
+```
+
+**Class 2: Meta-Primitives (-i)**
+- Higher-order entities
+- Meta-systems
+- Recursive structures
+
+```
+mungoni         'meta-system'
+lovi            'meta-closure'
+kari            'meta-structure'
+dui             'meta-path'
+Ωi              'meta-omega'
+kontinuitui     'meta-kontinuity'
+```
+
+**Class 3: Abstract Qualities (-ya)**
+- Properties
+- States
+- Qualities
+
+```
+muya            'wholeness, unity'
+kaya            'structuredness'
+loya            'completeness'
+vuya            'brokenness'
+kontinya        'continuity (abstract)'
+Ωya             'omega-ness'
+```
+
+**Class 4: Results/Products (-le)**
+- Concrete instances
+- Outcomes
+- Artifacts
+
+```
+lovle           'a closure (instance)'
+karle           'a structure (concrete)'
+duale           'a path (traversed)'
+mungle          'a systematization (result)'
+vuvle           'a break (instance)'
+ramale          'an interaction (event)'
+```
+
+**Class 5: Agents (-ntu)**
+- Doers
+- Actors
+- Practitioners
+
+```
+karntu          'structurer, one who structures'
+lovntu          'closer, one who closes'
+mungntu         'systematizer'
+duvntu          'traveler, one who traverses'
+ramantu         'interactor'
+navegantu       'navigator'
+```
+
+**Class 6: Processes (-she/-shen)**
+- Ongoing actions
+- Continuous states
+- Dynamic phenomena
+
+```
+lovshe          'closing (process)'
+karshe          'structuring (process)'
+dushe           'traversing (process)'
+ramanshen       'interaction (ongoing)'
+mungshen        'systematization (process)'
+```
+
+**Class 7: Collectives/Mass (-gon)**
+- Unified wholes
+- Mass nouns
+- Collective entities
+
+```
+mungon          'system (as unified whole)'
+ntugon          'people, humanity'
+kontinuitugon   'kontinuity (mass)'
+Ωgon            'omega (totality)'
+pantu           'people (collective, irregular)'
+```
+
+**Class 8: Diminutives (-tu)**
+- Small versions
+- Instances
+- Reduced forms
+
+```
+mungontu        'little system'
+karatu          'small structure'
+dualetu         'short path'
+lovletu         'small closure'
+```
+
+**Class 9: Augmentatives (-nge)**
+- Large versions
+- Intensive forms
+- Magnified entities
+
+```
+mungonge        'large system'
+karange         'major structure'
+dualenge        'long path'
+kontinuitunge   'vast kontinuity'
+```
+
+#### A.2 Derivation Patterns
+
+**Root → Noun Paradigm**
+
+Starting from root **LOV-** (closure):
+
+```
+PRIMITIVE:      lov-on          'closure-entity'
+META:           lov-i           'meta-closure'
+ABSTRACT:       lo-ya           'completeness'
+RESULT:         lov-le          'a closure (instance)'
+AGENT:          lov-ntu         'closer'
+PROCESS:        lov-she         'closing (process)'
+COLLECTIVE:     lov-gon         'closure (as whole)'
+DIMINUTIVE:     lov-le-tu       'small closure'
+AUGMENTATIVE:   lov-le-nge      'large closure'
+```
+
+Starting from root **KAR-** (structure):
+
+```
+PRIMITIVE:      kar-on          'structure-entity'
+META:           kar-i           'meta-structure'
+ABSTRACT:       ka-ya           'structuredness'
+RESULT:         kar-le          'a structure (concrete)'
+AGENT:          kar-ntu         'structurer'
+PROCESS:        kar-she         'structuring (process)'
+COLLECTIVE:     kar-gon         'structure (as whole)'
+DIMINUTIVE:     kar-le-tu       'small structure'
+AUGMENTATIVE:   kar-le-nge      'large structure'
+```
+
+Starting from root **MUN-** (whole/system):
+
+```
+PRIMITIVE:      mun-gon         'system-entity'
+META:           mun-gon-i       'meta-system'
+ABSTRACT:       mu-ya           'wholeness'
+RESULT:         mun-le          'systematization (result)'
+AGENT:          mun-g-ntu       'systematizer'
+PROCESS:        mun-g-shen      'systematizing (process)'
+COLLECTIVE:     mun-gon         'system (unified)'
+DIMINUTIVE:     mun-gon-tu      'small system'
+AUGMENTATIVE:   mun-gon-ge      'large system'
+```
+
+### B. Noun Morphology
+
+#### B.1 Number System (Complete Review)
+
+```
+SINGULAR:       ∅               unmarked
+DUAL:           -du             exactly two
+PLURAL:         -ya             three or more
+COLLECTIVE:     -gon            unified group
+```
+
+**Examples:**
+
+```
+ntu             'person'
+ntu-du          'two people'
+ntu-ya          'people (3+)'
+ntu-gon         'people (as collective)'
+
+mungon          'system'
+mungon-du       'two systems'
+mungon-ya       'systems (3+)'
+mungon-gon      'system-collective'
+```
+
+#### B.2 Case System (Complete)
+
+**15 Cases:**
+
+| # | Case | Suffix | Function | Jiwe |
+|---|------|--------|----------|------|
+| 1 | **Nominative** | ∅ | Subject | ● |
+| 2 | **Accusative** | -n | Direct object (optional) | ●→ |
+| 3 | **Genitive** | -ta | Possession, origin | ◌ᵗᵃ |
+| 4 | **Dative** | -ko | Goal, recipient | →● |
+| 5 | **Locative** | -ni | Location | ●ⁱ |
+| 6 | **Ablative** | -nde | Source, from | ●← |
+| 7 | **Allative** | -nga | Direction toward | →●ⁿᵍᵃ |
+| 8 | **Perlative** | -kati | Path through | →→ |
+| 9 | **Instrumental** | -ma | Means, tool | ⊗ |
+| 10 | **Comitative** | -pamoja | Accompaniment | ●●͈ |
+| 11 | **Benefactive** | -ajili | Benefit, for sake of | ●♡ |
+| 12 | **Definite** | -ye | Definiteness | ●◌ |
+| 13 | **Belonging** | -ke | Ethnic/group belonging | ●⊙ |
+| 14 | **Vocative** | -e | Direct address | ●! |
+| 15 | **Topic** | -ni…-ye | Topic marking (circumfix) | ◉ |
+
+#### B.3 Case Paradigm: *mungon* 'system'
+
+**Singular:**
+
+```
+NOM:    mungon              'system'
+ACC:    mungon(-n)          '(the) system' (obj)
+GEN:    mungon-ta           'of system, system's'
+DAT:    mungon-ko           'to/for system'
+LOC:    mungon-ni           'in/at system'
+ABL:    mungon-nde          'from system'
+ALL:    mungon-nga          'toward system'
+PER:    mungon-kati         'through system'
+INST:   mungon-ma           'by means of system'
+COM:    mungon-pamoja       'together with system'
+BEN:    mungon-ajili        'for sake of system'
+DEF:    mungon-ye           'the system'
+BELONG: mungon-ke           'belonging to system'
+VOC:    mungon-e            'O system!'
+TOPIC:  mungon-ni...ye      'as for system...'
+```
+
+**Dual:**
+
+```
+NOM:    mungon-du           'two systems'
+GEN:    mungon-du-ta        'of the two systems'
+DAT:    mungon-du-ko        'to the two systems'
+LOC:    mungon-du-ni        'in the two systems'
+ABL:    mungon-du-nde       'from the two systems'
+ALL:    mungon-du-nga       'toward the two systems'
+PER:    mungon-du-kati      'through the two systems'
+INST:   mungon-du-ma        'by means of the two systems'
+COM:    mungon-du-pamoja    'together with the two systems'
+BEN:    mungon-du-ajili     'for sake of the two systems'
+DEF:    mungon-du-ye        'the two systems'
+```
+
+**Plural:**
+
+```
+NOM:    mungon-ya           'systems'
+GEN:    mungon-ya-ta        'of the systems'
+DAT:    mungon-ya-ko        'to the systems'
+LOC:    mungon-ya-ni        'in the systems'
+ABL:    mungon-ya-nde       'from the systems'
+ALL:    mungon-ya-nga       'toward the systems'
+PER:    mungon-ya-kati      'through the systems'
+INST:   mungon-ya-ma        'by means of the systems'
+COM:    mungon-ya-pamoja    'together with the systems'
+BEN:    mungon-ya-ajili     'for sake of the systems'
+DEF:    mungon-ya-ye        'the systems'
+```
+
+**Collective:**
+
+```
+NOM:    mungon-gon          'system-collective'
+GEN:    mungon-gon-ta       'of the system-collective'
+DAT:    mungon-gon-ko       'to the system-collective'
+LOC:    mungon-gon-ni       'in the system-collective'
+ABL:    mungon-gon-nde      'from the system-collective'
+ALL:    mungon-gon-nga      'toward the system-collective'
+PER:    mungon-gon-kati     'through the system-collective'
+INST:   mungon-gon-ma       'by means of the system-collective'
+COM:    mungon-gon-pamoja   'together with the system-collective'
+BEN:    mungon-gon-ajili    'for sake of the system-collective'
+DEF:    mungon-gon-ye       'the system-collective'
+```
+
+#### B.4 Compounding
+
+Nyamba allows **productive noun-noun compounding**:
+
+**Head-Final (Modifier + Head):**
+
+```
+mun + ka            → munka          'system-structure'
+Ω + sistem          → Ωsistem        'omega-system'
+kontinuitu + lov    → kontinlov      'kontinuity-closure'
+du + ale            → duale          'path (lit. two-way)'
+kar + fu            → karfu          'structured (lit. structure-possessing)'
+```
+
+**Coordinate (Equal Elements):**
+
+```
+P + K               → PK              'polonic-kolonic'
+mu + vu             → muvu            'form-flux'
+lova + vuva         → lovvu           'close-break (cycle)'
+```
+
+**Recursive:**
+
+```
+mun-gon-i           'meta-system' (system-COLL-META)
+Ω-sistem-gon        'omega-system-collective'
+kontinuitu-kar-le   'kontinuity-structure-result'
+```
+
+#### B.5 Irregular Nouns
+
+**Suppletive Plurals:**
+
+```
+SINGULAR            DUAL                PLURAL              COLLECTIVE
+ntu                 ntu-du              pantu/ntu-ya        ntu-gon
+'person'            'two people'        'people'            'humanity'
+
+Ω                   *Ω-du (rare)        *Ω-ya (rare)        Ω-gon
+'omega'             -                   -                   'omega-totality'
+
+K                   *K-du (rare)        *K-ya (rare)        K-gon
+'K-continuity'      -                   -                   'K-totality'
+```
+
+**Invariant Nouns (Mass/Abstract):**
+
+```
+kontinuitu          'kontinuity' (mass noun, no plural)
+muya                'wholeness' (abstract, no plural)
+Ωya                 'omega-ness' (abstract, no plural)
+```
+
+---
+
+## II. ADJECTIVE SYSTEM (MFUMO WA VIELEZI)
+
+### A. Adjective Formation
+
+#### A.1 Primary Adjectivizers
+
+**Possessive Quality (-fu):**
+
+```
+lov-fu              'closed, possessing closure'
+kar-fu              'structured, possessing structure'
+mung-fu             'systematic, possessing system'
+Ω-fu                'omega-like, possessing omega'
+kontinuitu-fu       'continuous, possessing kontinuity'
+vuv-fu              'broken, possessing breakage'
+```
+
+**Relational (-ik):**
+
+```
+mung-ik             'systemic, of/relating to systems'
+Ω-ik                'omegaic, relating to omega'
+kontinuitu-ik       'kontinuity-related'
+kar-ik              'structural, relating to structure'
+P-ik                'polonic'
+K-ik                'kolonic'
+```
+
+**Privative/Negative (-less):**
+
+```
+lov-less            'unclosed, lacking closure'
+kar-less            'unstructured, lacking structure'
+mung-less           'unsystematic, lacking system'
+Ω-less              'non-omegaic, lacking omega'
+```
+
+**Intensive (-nge):**
+
+```
+kar-fu-nge          'very structured'
+lov-fu-nge          'very closed'
+mung-fu-nge         'highly systematic'
+```
+
+**Comparative (-nge):**
+
+```
+kar-fu-nge          'more structured'
+lov-fu-nge          'more closed'
+```
+
+**Superlative (-ngele):**
+
+```
+kar-fu-ngele        'most structured'
+lov-fu-ngele        'most closed'
+mung-fu-ngele       'most systematic'
+```
+
+**Equative (ka-...-fu):**
+
+```
+ka-kar-fu-fu        'as structured as'
+ka-lov-fu-fu        'as closed as'
+```
+
+#### A.2 Derived from Verbs
+
+**Present Participle (-anga → adjective):**
+
+```
+lova → lovanga      'closing (active participle)'
+kara → karanga      'structuring'
+munga → munganga    'systematizing'
+```
+
+**Past Participle (-ile → adjective):**
+
+```
+lova → lovile       'closed (passive participle)'
+kara → karile       'structured'
+munga → mungile     'systematized'
+```
+
+#### A.3 Deverbal Adjectives
+
+**Manner (-fu-le → -fule):**
+
+```
+kar → karfule       'structured-ly formed'
+lov → lovfule       'completely formed'
+```
+
+**Resultative (-fu):**
+
+```
+lov-ile → lovfu     'closed' (result state)
+kar-ile → karfu     'structured' (result state)
+vuv-ile → vuvfu     'broken' (result state)
+```
+
+### B. Adjective Morphology
+
+#### B.1 Number Agreement
+
+Adjectives agree with nouns in number (formal register):
+
+```
+SINGULAR:       -∅
+DUAL:           -du
+PLURAL:         -ya
+COLLECTIVE:     -gon
+```
+
+**Examples:**
+
+```
+mungon karfu                'structured system (sg)'
+mungon-du karfu-du          'structured systems (dual)'
+mungon-ya karfu-ya          'structured systems (pl)'
+mungon-gon karfu-gon        'structured system-collective'
+```
+
+#### B.2 Comparison System
+
+**Positive:**
+```
+karfu               'structured'
+lovfu               'closed'
+mungfu              'systematic'
+```
+
+**Comparative (-nge):**
+```
+karfu-nge           'more structured'
+lovfu-nge           'more closed'
+mungfu-nge          'more systematic'
+```
+
+**Superlative (-ngele):**
+```
+karfu-ngele         'most structured'
+lovfu-ngele         'most closed'
+mungfu-ngele        'most systematic'
+```
+
+**Equative (ka-ADJ-fu):**
+```
+ka-karfu-fu         'as structured as'
+ka-lovfu-fu         'as closed as'
+```
+
+**Comparative Constructions:**
+
+```
+Mungon ka karfu-nge ndenye kara
+system COP.ATTR structured-COMP than structure
+'The system is more structured than the structure'
+
+Ye mungon karfu-ngele
+3SG system structured-SUP
+'It is the most structured system'
+
+Mungon ka-karfu-fu kara
+system as-structured-as structure
+'The system is as structured as the structure'
+```
+
+#### B.3 Intensifiers and Diminutives
+
+**Intensifiers:**
+
+```
+nge                 'very, much'
+ngele               'extremely, most'
+tu                  'a little, somewhat'
+ka-ka               'quite, rather'
+```
+
+**Usage:**
+
+```
+karfu nge           'very structured'
+lovfu ngele         'extremely closed'
+mungfu tu           'somewhat systematic'
+Ωik ka-ka           'rather omegaic'
+```
+
+**Diminutive Adjectives (-tu):**
+
+```
+karfu-tu            'slightly structured'
+lovfu-tu            'somewhat closed'
+```
+
+### C. Adjective Position and Agreement
+
+#### C.1 Attributive Position
+
+Adjectives **follow** nouns:
+
+```
+mungon karfu                    'structured system'
+ntu lovfu                       'complete person'
+kontinuitu mungik               'systemic kontinuity'
+duale Ωfu                       'omega-like path'
+```
+
+**Multiple adjectives:**
+
+```
+mungon karfu lovfu Ωik
+system structured closed omegaic
+'a structured, closed, omegaic system'
+```
+
+#### C.2 Predicative Position
+
+After copula:
+
+```
+Mungon ka karfu
+system COP.ATTR structured
+'The system is structured'
+
+Kontinuitu ka lovfu
+kontinuity COP.ATTR closed
+'Kontinuity is closed'
+```
+
+#### C.3 Substantivized Adjectives
+
+Adjectives can function as nouns:
+
+```
+karfu-ye            'the structured one(s)'
+lovfu-ya            'the closed ones'
+mungless-ye         'the unsystematic one'
+Ωik-gon             'the omegaic collective'
+```
+
+### D. Complete Adjective Paradigm
+
+**Root: *kar-* 'structure'**
+
+**Basic Forms:**
+
+```
+karfu               'structured' (possessive)
+karik               'structural' (relational)
+karless             'unstructured' (privative)
+```
+
+**Number Forms:**
+
+```
+karfu               'structured (sg)'
+karfu-du            'structured (dual)'
+karfu-ya            'structured (pl)'
+karfu-gon           'structured (coll)'
+```
+
+**Comparison:**
+
+```
+karfu               'structured' (positive)
+karfu-nge           'more structured' (comparative)
+karfu-ngele         'most structured' (superlative)
+ka-karfu-fu         'as structured as' (equative)
+```
+
+**Intensity:**
+
+```
+karfu tu            'slightly structured'
+karfu               'structured'
+karfu nge           'very structured'
+karfu ngele         'extremely structured'
+```
+
+**Derived Forms:**
+
+```
+kar-anga            'structuring' (pres. part.)
+kar-ile             'structured' (past part.)
+kar-fule            'structuredly formed'
+```
+
+---
+
+## III. PRONOUN SYSTEM (MFUMO WA VIWAKILISHI)
+
+### A. Personal Pronouns
+
+#### A.1 Basic Forms (Inherent Number)
+
+**Complete Paradigm:**
+
+| Person | Singular | Dual | Plural | Collective |
+|--------|----------|------|--------|------------|
+| **1st** | mi | midu | miya | migon |
+| **2nd** | we | wedu | weya | wegon |
+| **3rd** | ye | yedu | yeya | yegon |
+
+**Jiwe Glyphs:**
+
+```
+mi      ◌¹          'I, me'
+midu    ◌¹◌¹        'we two'
+miya    ◌¹◌¹◌¹      'we (all)'
+migon   ⊙¹          'we (collective)'
+
+we      ◌²          'you (sg)'
+wedu    ◌²◌²        'you two'
+weya    ◌²◌²◌²      'you (all)'
+wegon   ⊙²          'you (collective)'
+
+ye      ◌³          'he/she/it/they (sg)'
+yedu    ◌³◌³        'they two'
+yeya    ◌³◌³◌³      'they (all)'
+yegon   ⊙³          'they (collective)'
+```
+
+#### A.2 Case Forms
+
+**Genitive (-ta):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-ta | midu-ta | miya-ta | migon-ta |
+| **2nd** | we-ta | wedu-ta | weya-ta | wegon-ta |
+| **3rd** | ye-ta | yedu-ta | yeya-ta | yegon-ta |
+
+**Dative (-ko):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-ko | midu-ko | miya-ko | migon-ko |
+| **2nd** | we-ko | wedu-ko | weya-ko | wegon-ko |
+| **3rd** | ye-ko | yedu-ko | yeya-ko | yegon-ko |
+
+**Locative (-ni):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-ni | midu-ni | miya-ni | migon-ni |
+| **2nd** | we-ni | wedu-ni | weya-ni | wegon-ni |
+| **3rd** | ye-ni | yedu-ni | yeya-ni | yegon-ni |
+
+**Instrumental (-ma):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-ma | midu-ma | miya-ma | migon-ma |
+| **2nd** | we-ma | wedu-ma | weya-ma | wegon-ma |
+| **3rd** | ye-ma | yedu-ma | yeya-ma | yegon-ma |
+
+**Ablative (-nde):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-nde | midu-nde | miya-nde | migon-nde |
+| **2nd** | we-nde | wedu-nde | weya-nde | wegon-nde |
+| **3rd** | ye-nde | yedu-nde | yeya-nde | yegon-nde |
+
+**Reflexive (-nyo):**
+
+| Person | SG | DU | PL | COLL |
+|--------|----|----|-------|------|
+| **1st** | mi-nyo | midu-nyo | miya-nyo | migon-nyo |
+| **2nd** | we-nyo | wedu-nyo | weya-nyo | wegon-nyo |
+| **3rd** | ye-nyo | yedu-nyo | yeya-nyo | yegon-nyo |
+
+**Complete 1st Person Paradigm:**
+
+```
+NOM:    mi          midu        miya        migon
+GEN:    mi-ta       midu-ta     miya-ta     migon-ta
+DAT:    mi-ko       midu-ko     miya-ko     migon-ko
+LOC:    mi-ni       midu-ni     miya-ni     migon-ni
+ABL:    mi-nde      midu-nde    miya-nde    migon-nde
+ALL:    mi-nga      midu-nga    miya-nga    migon-nga
+PER:    mi-kati     midu-kati   miya-kati   migon-kati
+INST:   mi-ma       midu-ma     miya-ma     migon-ma
+COM:    mi-pamoja   midu-pamoja miya-pamoja migon-pamoja
+BEN:    mi-ajili    midu-ajili  miya-ajili  migon-ajili
+REFL:   mi-nyo      midu-nyo    miya-nyo    migon-nyo
+```
+
+### B. Demonstrative Pronouns
+
+#### B.1 Proximal (Near Speaker)
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **SG** | ni-ye | 'this (one)' | ●ᵖʳᵒˣ |
+| **DU** | ni-ye-du | 'these two' | ●●ᵖʳᵒˣ |
+| **PL** | ni-ye-ya | 'these' | ●●●ᵖʳᵒˣ |
+| **COLL** | ni-ye-gon | 'this collective' | ⊙ᵖʳᵒˣ |
+
+#### B.2 Distal (Far from Speaker)
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **SG** | du-ye | 'that (one)' | ●ᵈⁱˢᵗ |
+| **DU** | du-ye-du | 'those two' | ●●ᵈⁱˢᵗ |
+| **PL** | du-ye-ya | 'those' | ●●●ᵈⁱˢᵗ |
+| **COLL** | du-ye-gon | 'that collective' | ⊙ᵈⁱˢᵗ |
+
+#### B.3 Neutral
+
+| Number | Form | Gloss | Jiwe |
+|--------|------|-------|------|
+| **SG** | ye-ye | 'that/this' | ●ⁿᵉᵘᵗ |
+| **DU** | ye-ye-du | 'those/these two' | ●●ⁿᵉᵘᵗ |
+| **PL** | ye-ye-ya | 'those/these' | ●●●ⁿᵉᵘᵗ |
+| **COLL** | ye-ye-gon | 'that/this collective' | ⊙ⁿᵉᵘᵗ |
+
+**Case Forms (Example: Proximal Singular):**
+
+```
+NOM:    ni-ye           'this'
+GEN:    ni-ye-ta        'of this'
+DAT:    ni-ye-ko        'to this'
+LOC:    ni-ye-ni        'in this'
+INST:   ni-ye-ma        'by means of this'
+```
+
+### C. Interrogative Pronouns
+
+#### C.1 Basic Forms
+
+```
+ye-nga              'who?'
+ka-nga              'what?'
+du-nga              'which?'
+ni-nga              'where?'
+nga-le              'when?'
+nga-ma              'how?'
+nga-ta              'why?'
+nga-ko              'for what purpose?'
+```
+
+#### C.2 Number Forms
+
+**'who':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **SG** | ye-nga | 'who? (sg)' |
+| **DU** | ye-nga-du | 'who? (two people)' |
+| **PL** | ye-nga-ya | 'who? (many people)' |
+| **COLL** | ye-nga-gon | 'who? (collective)' |
+
+**'what':**
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **SG** | ka-nga | 'what? (sg)' |
+| **DU** | ka-nga-du | 'what? (two things)' |
+| **PL** | ka-nga-ya | 'what? (many things)' |
+| **COLL** | ka-nga-gon | 'what? (collective)' |
+
+**Case Forms:**
+
+```
+ye-nga-ta           'whose? of whom?'
+ye-nga-ko           'to whom?'
+ka-nga-ta           'of what?'
+ka-nga-ko           'to/for what?'
+ni-nga-nde          'from where?'
+ni-nga-nga          'to where?'
+```
+
+### D. Indefinite Pronouns
+
+#### D.1 Existential ('some')
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **SG** | nge-ye | 'someone, something' |
+| **DU** | nge-ye-du | 'some two' |
+| **PL** | nge-ye-ya | 'some (many)' |
+| **COLL** | nge-ye-gon | 'some collective' |
+
+**Specific forms:**
+
+```
+nge-ka              'something (neutral)'
+nge-ntu             'someone (person-specific)'
+```
+
+#### D.2 Universal ('all, every')
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **SG (distributive)** | yote-ni | 'each, every' |
+| **DU** | yote-du | 'both, all two' |
+| **PL** | yote-ya | 'all (many)' |
+| **COLL** | yote-gon | 'all (as whole)' |
+
+**Specific forms:**
+
+```
+yote-ye             'everyone (person)'
+yote-ka             'everything (thing)'
+```
+
+#### D.3 Negative ('no, none')
+
+| Number | Form | Gloss |
+|--------|------|-------|
+| **SG** | moya-ye | 'no one, nothing' |
+| **DU** | moya-du | 'neither (of two)' |
+| **PL** | moya-ya | 'none (of many)' |
+| **COLL** | moya-gon | 'no collective' |
+
+**Specific forms:**
+
+```

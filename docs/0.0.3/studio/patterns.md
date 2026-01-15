@@ -15072,5 +15072,16 @@ https://medium.com/@songhai.institute/mungu-theory-b304798432f5
 
 
 
+Domingu Akari Etondo
 
 
+The Eaton Family Estate
+The Dominic Eaton Estate
+The Dominic Eaton Software Engineering Firm
+
+
+MungCorp - Mungu Inc.
+
+The Eaton Family Estate
+The Domingu Etondo Estate
+The Domingu Etondo Systems Engineering Firm

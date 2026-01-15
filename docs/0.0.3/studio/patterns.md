@@ -23723,6 +23723,7 @@ The Jewish People <-> The Mungu People mapping:
 | The Patron God | Yahweh           | Mungoni          |
 | The House      | Jewish Temple    | The Nyumba       |
 | The Text       | The Jewish Bible | The Lubiko Bible |
+| The Land       | Isreal           | Panoja           |
 
 
 

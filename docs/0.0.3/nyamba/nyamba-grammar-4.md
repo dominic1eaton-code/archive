@@ -990,3 +990,247 @@ mun-ko → muŋko [muŋ.ko]
 **Consonant Weakening (rapid speech):**
 ```
 RULE
+: Intervocalic /t,k/ → tap/fricative
+
+/t/ → [ɾ]
+/k/ → [x] or ∅
+
+EXAMPLE:
+Careful: mungon [mu.ŋon]
+Rapid: mungun [mu.ŋuŋ]
+```
+
+#### C.2 Stress Assignment
+
+**RULE: Penultimate stress**
+
+```
+Algorithm:
+IF word has 1 syllable:
+    stress = initial
+ELSE IF word has 2+ syllables:
+    stress = second-to-last syllable
+ELSE IF final syllable has long vowel:
+    stress = final
+
+EXAMPLES:
+mu.NGO.ntu      (3 syllables → stress syllable 2)
+lo.VA.nga       (3 syllables → stress syllable 2)
+kon.ti.NU.i.tu  (5 syllables → stress syllable 4)
+```
+
+#### C.3 Syllabification
+
+**Algorithm:**
+
+```
+INPUT: Phoneme sequence
+OUTPUT: Syllabified word
+
+STEP 1: Mark vowels as syllable nuclei
+STEP 2: Attach onset consonants (left-to-right)
+STEP 3: Attach coda nasals (if any)
+STEP 4: Apply maximal onset principle
+
+EXAMPLE: /mungon/
+STEP 1: m u ng o n → [u] [o] are nuclei
+STEP 2: [mu] [ngo] (attach consonants to following vowel)
+STEP 3: [mun] [gon] (attach final /n/ as coda)
+OUTPUT: mun.gon
+```
+
+---
+
+## VII. SEMANTIC COMPOSITION
+
+### A. Compositional Semantics
+
+**Principle:** Meaning of whole = function of meanings of parts
+
+```
+EXAMPLE: mungon karfu lova
+
+STEP 1: Lexical semantics
+  mungon: λx.SYSTEM(x)
+  karfu: λx.STRUCTURED(x)
+  lova: λx.λy.CLOSE(x,y)
+
+STEP 2: Composition
+  mungon karfu: λx.[SYSTEM(x) ∧ STRUCTURED(x)]
+  
+STEP 3: Predication
+  lova [mungon karfu]: CLOSE([SYSTEM ∧ STRUCTURED])
+  
+MEANING: 'The structured system closes'
+```
+
+### B. Ω-GOMA Semantic Primitives
+
+**All meanings ultimately reduce to system primitives:**
+
+```
+PRIMITIVES:
+◉ (mungon)      system-entity
+→ (dua)         trajectory
+↺ (lova)        closure
+Ω (omega)       total survivability
+K (kontinuitu)  K-continuity
+
+COMPOSITE MEANINGS:
+mungon karfu    = ◉ with internal ▣ (structure)
+lova Ω-ko       = ↺ toward Ω
+kontinuitu lovfu = K in state ↺ (closed)
+```
+
+---
+
+## VIII. FULL GRAMMAR SUMMARY
+
+### A. Complete Feature Matrix
+
+```
+NYAMBA GRAMMAR FEATURES:
+
+PHONOLOGY:
+├── 22 consonants
+├── 15 vowel qualities
+├── (C)V(N) syllable structure
+└── Penultimate stress
+
+MORPHOLOGY:
+├── Agglutinative
+├── 8 noun derivational classes
+├── 4-way number (SG/DU/PL/COLL)
+├── 15 case system
+├── 12 TAM combinations
+├── 6 moods (IND/IMP/SUBJ/COND/OPT/POT)
+├── 4 voices (ACT/PASS/CAUS/RECIP)
+└── Polarity marking (mu-/ko-)
+
+SYNTAX:
+├── VSO basic word order
+├── Flexible for pragmatics
+├── Postpositional
+├── Head-mixed
+├── Pro-drop optional
+└── Nominative-accusative alignment
+
+SEMANTICS:
+├── Compositional
+├── Ω-GOMA primitives
+└── System-theoretic foundation
+```
+
+### B. Learning Progression
+
+**Stage 1: Basic (Months 1-3)**
+```
+- Phonology
+- Basic nouns (-on, -ya)
+- Present tense verbs
+- Simple sentences (VSO)
+- Core cases (NOM, GEN, DAT)
+```
+
+**Stage 2: Intermediate (Months 4-6)**
+```
+- All tenses/aspects
+- Complete case system
+- Dual number
+- Imperative mood
+- Derivational morphology
+```
+
+**Stage 3: Advanced (Months 7-12)**
+```
+- Polarity system
+- All moods
+- Complex sentences
+- Idiomatic expressions
+- Ω-GOMA terminology
+```
+
+---
+
+## IX. SAMPLE PARADIGMS
+
+### Complete Noun Paradigm: *mungon* 'system'
+
+```
+         SINGULAR    DUAL         PLURAL        COLLECTIVE
+NOM      mungon      mungon-du    mungon-ya     mungon-gon
+ACC      mungon-n    mungon-du-n  mungon-ya-n   mungon-gon-n
+GEN      mungon-ta   mungon-du-ta mungon-ya-ta  mungon-gon-ta
+DAT      mungon-ko   mungon-du-ko mungon-ya-ko  mungon-gon-ko
+LOC      mungon-ni   mungon-du-ni mungon-ya-ni  mungon-gon-ni
+ABL      mungon-nde  mungon-du-nde mungon-ya-nde mungon-gon-nde
+ALL      mungon-nga  mungon-du-nga mungon-ya-nga mungon-gon-nga
+PER      mungon-kati mungon-du-kati mungon-ya-kati mungon-gon-kati
+INST     mungon-ma   mungon-du-ma mungon-ya-ma  mungon-gon-ma
+COM      mungon-pamoja mungon-du-pamoja mungon-ya-pamoja mungon-gon-pamoja
+BEN      mungon-ajili mungon-du-ajili mungon-ya-ajili mungon-gon-ajili
+DEF      mungon-ye   mungon-du-ye mungon-ya-ye  mungon-gon-ye
+VOC      mungon-e    mungon-du-e  mungon-ya-e   mungon-gon-e
+```
+
+### Complete Verb Paradigm: *lova* 'to close'
+
+```
+INDICATIVE:
+Present Simple:      lova
+Present Continuous:  lovanga
+Present Perfect:     loveme
+Past Simple:         lovile
+Past Continuous:     lovilanga
+Past Perfect:        lovileme
+Future Simple:       lovnga
+Future Continuous:   lovnganga
+Future Perfect:      lovngeme
+
+IMPERATIVE/JUSSIVE:
+2SG:                 love
+2PL:                 love (weya)
+1PL (hortative):    duva miya love
+3SG (jussive):      duva ye love
+Negative:           nimu love
+
+OTHER MOODS:
+Subjunctive:        engo lova
+Conditional:        engo lovile
+Optative:           lovle
+Potential:          lovngaa
+
+VOICES:
+Active:             lova
+Passive:            lovwa
+Causative:          lovisha
+Reciprocal:         mulova
+
+POLARITY:
+Symmetric:          mulova
+Asymmetric:         kolova
+
+NON-FINITE:
+Infinitive:         lova
+Gerund:             lovle
+Pres. Participle:   lovanga
+Past Participle:    lovile
+```
+
+---
+
+## X. CONCLUSION
+
+The Nyamba grammar system is:
+
+✓ **Systematic** — all rules derive from core principles
+✓ **Expressive** — encodes fine semantic distinctions
+✓ **Learnable** — regular patterns with minimal exceptions
+✓ **Culturally grounded** — African phonological base
+✓ **Philosophically coherent** — embeds Ω-GOMA worldview
+✓ **Computationally precise** — formal compositional semantics
+
+**Lova karfu, munga kontinfu**
+*(Close with structure, systematize continuously)*
+
+**∎**

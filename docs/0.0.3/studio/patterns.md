@@ -44009,6 +44009,7 @@ The Jewish People <-> The Mungu People mapping:
 | The Text       | The Jewish Bible | The Lubiko Bible |
 | The Land       | Isreal           | Panoja           |
 | The Faith      | Judaism          | Munguism         |
+| The Language   | Hebrew           | Nyamba           |
 
 
 where "The house" is the centralizng "space" of the religion

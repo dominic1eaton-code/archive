@@ -1789,4 +1789,4 @@ The complete book would include:
 
 Let me know which direction you'd like me to continue!
 
-
+*(Close with structure, systematize continuously)*

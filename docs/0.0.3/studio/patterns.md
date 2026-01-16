@@ -43951,7 +43951,7 @@ complexity > entropy is grwoth/generation and complexity < entropy is degenerati
 
 
 
-formalize, define and derive: gravity, quauntum gravity, matter, dark matter, energy, dark energy
+formalize, define and derive: gravity, quauntum gravity, matter, dark matter, energy, dark energy, fiber, bundle, fiber bunder, renormalization, renormalization group, black hole, black swan (net positive, net negative), black swan event, event horizon, event
 
 
 

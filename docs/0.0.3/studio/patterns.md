@@ -35008,6 +35008,7 @@ Just tell me which direction.
 
 
 
+
 formalize and define each of the reality classes:
 
                         Ω★  (Total Continuity Budget)

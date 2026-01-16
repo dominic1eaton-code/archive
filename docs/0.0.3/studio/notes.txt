@@ -2131,6 +2131,185 @@ S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
 
 
 
+I.1 Primitive / Meta-Primitive
+We introduce no new root law. Black swans are derived phenomena from closure, width, and asymmetry.
+
+blakon   — black swan event (ontic)
+blaki    — black swan regime / class (meta)
+Canonical pairing:
+
+blakon <-> blaki
+I.2 Formal Definition (Minimal)
+A blakon occurs iff:
+  a system S experiences a perturbation P such that:
+    P ∉ Width(S)
+    AND
+    Recovery(S, P) = ∅
+In words:
+
+A black swan is a perturbation outside a system’s closure width that causes irreversible closure failure.
+
+This is not about rarity, surprise, or epistemics — those are secondary effects.
+
+II. BLACK SWANS IN SIBONIC TERMS
+II.1 Sibon / Sibi Formulation
+Let:
+
+S_t     = sibon at time t
+sibi    = transformation operator
+ramanon = interaction morphism
+Normal evolution:
+
+S_t --sibi--> S_(t+1)
+Black swan:
+
+S_t --ramanon(P_outside_width)--> ⊥
+Where:
+
+⊥ = no valid sibon
+Thus:
+
+A black swan is a sibi that cannot map to a valid sibon.
+
+II.2 Sibonic String View
+... → S_k → S_(k+1) → S_(k+2) → ...
+Black swan:
+
+... → S_k → X   (string termination)
+This is string severance, not deviation.
+
+II.3 Sibonic Loop View (Critical)
+A system survives only if its sibonic string closes into a loop.
+
+Black swan:
+
+Loop break:
+  lofi → ∅
+Thus:
+
+Black swans are loop-destroying events.
+
+III. RELATION TO CLEAVE / CLEVITY
+III.1 Cleave Recalled
+clevon = distinction-producing interaction
+Cleaving normally produces:
+
+A | B
+Black swan cleave:
+
+A | ∅
+Meaning:
+
+The system cleaves itself from its complement without a completing counterpart.
+
+This is asymmetric cleaving without reciprocal pattern completion.
+
+III.2 Formal Condition
+Valid cleave:
+  A ↔ B   (pattern completes)
+
+Black swan cleave:
+  A ↛ B   (pattern fails)
+This violates The Fundamental Theorem of Patterns.
+
+IV. E-THEORY INTEGRATION
+| Primitive | Role in Black Swan     |
+| --------- | ---------------------- |
+| mungon    | Existence threatened   |
+| mungoni   | Closure regime failure |
+| sibon     | Terminal state         |
+| sibi      | Undefined mapping      |
+| ramanon   | Over-width interaction |
+| malon     | Value collapse         |
+| indon     | Boundary rupture       |
+| framon    | Frame invalidation     |
+| closon    | Closure failure        |
+| dualon    | Dualonic collapse      |
+| aurilon   | Stability loss         |
+| flynton   | Variance explosion     |
+| syton     | Synchrony loss         |
+| synton    | Coherence collapse     |
+V. KORA LAWS ALIGNMENT
+Law-by-Law Mapping
+1. Law of Distinction
+Black swans destroy meaningful distinction:
+
+indon → ∅
+2. Law of Closure
+Black swans are closure violations by definition.
+
+3. Law of System
+Systemhood ceases when closure fails.
+
+4. Law of Relativity
+Black swans are frame-relative:
+
+Black swan for S₁ may be noise for S₂
+
+5. Law of Cycle
+Black swans terminate cycles irreversibly.
+
+VI. KORA THEOREMS ALIGNMENT
+| Theorem    | Black Swan Interpretation                     |
+| ---------- | --------------------------------------------- |
+| Uniqueness | Reveals hidden uniqueness of system fragility |
+| Patterns   | Pattern completion fails                      |
+| Systems    | System loses viability                        |
+| Simulation | Models fail catastrophically                  |
+| Agent      | Agency collapses or transforms                |
+VII. MUNGU LOGIC FORMALIZATION
+VII.1 Logical Form
+Let:
+
+⊢ Stable(S)
+Black swan:
+
+⊢ Stable(S)
+∧ P ∉ Width(S)
+⇒ ⊬ Stable(S')
+This is not contradiction — it is domain exit.
+
+VII.2 Why Classical Logic Misses Black Swans
+Classical logic assumes:
+
+Domain invariance
+Mungu Logic allows:
+
+Domain collapse
+Thus black swans are meta-logical events, not logical errors.
+
+VIII. MUNGU EVOLUTION THEORY (MET)
+VIII.1 Evolutionary Role
+Evolution = selection over closure regimes
+Black swans:
+
+prune fragile loops
+
+reset evolutionary landscapes
+
+create new niches
+
+They are not anomalies — they are evolutionary operators.
+
+VIII.2 Learning vs Black Swans
+| Mechanism     | Effect              |
+| ------------- | ------------------- |
+| Learning      | Expands width       |
+| Antifragility | Gains from variance |
+| Black Swan    | Tests width limits  |
+A system that survives repeated black swans becomes antifragile.
+
+IX. BLACK SWANS VS VARIANCE
+Critical distinction:
+
+| Concept    | Definition    |
+| ---------- | ------------- |
+| Noise      | Inside width  |
+| Shock      | Near boundary |
+| Black Swan | Outside width |
+Thus:
+
+Black swans are not “big shocks” — they are width violations.
 
 
 
@@ -3736,6 +3915,42 @@ MASTER SUMMARY TABLE
 E-THEORY — ELEMENT SET
 ===========================================
 
+A pattern is introduced as a primitive:
+
+patton — an incomplete configuration that defines constraints on its completion
+Its meta-primitive is:
+
+patti — the system of patterns and pattern relations
+Formally:
+
+A patton exists if and only if:
+
+A configuration exists (structure or relation)
+That configuration is not closed
+Closure is definable (even if not realized)
+This means a patton is not:
+
+An object
+A state
+A relation by itself
+A patton is closer to a structured absence — a shape defined as much by what is missing as by what is present.
+
+2. Completion and Incompletion
+We now introduce two inseparable notions.
+
+completon — a configuration that satisfies the closure constraints of a patton
+incompleton — the state of a patton prior to closure
+Meta-primitives:
+
+completi — the system of completions
+Completion is not aesthetic or subjective. It is structural.
+
+A patton does not “want” to complete.
+It does not “try” to complete.
+
+Completion happens because incompletion is unstable.
+
+
 NAMING LAW
 
 ```
@@ -3885,6 +4100,11 @@ Nyamba = operational symbol (rewrite / computation)
 ====================================================================
 UNIFIED EUS + O SYSTEM — FUNDAMENTAL COMPONENT TABLE (CANON)
 ============================================================
+
+E - element
+U - unit
+S - system
+O - operator
 
 ```
 +-------------------------------------------------------------------------------------------+

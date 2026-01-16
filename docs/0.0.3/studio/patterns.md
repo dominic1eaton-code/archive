@@ -43941,6 +43941,10 @@ Just tell me where to go.
 
 
 
+
+explain where fine-structure constant alpha = 1 / 137 comes from? and why? and how? and when does it appear?
+
+
 formalize, define and derive mathematically: compression, pattern completion, the compression principle, the existence cone, autocatakinesis
 
 

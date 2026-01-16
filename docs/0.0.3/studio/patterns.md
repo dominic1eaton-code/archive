@@ -43945,6 +43945,7 @@ formalize, define and derive mathematically: compression, pattern completion, th
 
 
 
+complexity > entropy is grwoth/generation and complexity < entropy is degeneration
 
 
 

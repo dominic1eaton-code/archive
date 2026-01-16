@@ -61452,9 +61452,9 @@ Just specify the next collapse.
 
 
 
+
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
-
-
 
 
 
@@ -61472,6 +61472,7 @@ also show how the following are then derived from these foudnations:
 tensors, vectors, manifolds, vector bundles, galois theory, langlands program, monoids, monads, functors, structures, rings/groups/fields/sets/categories/lattices/graphs/topologies/algebras/geometris/calculi/analysis/statistics/stochastics/probabilities/etc...
 
 let all maths be unified under one mathematical regime: Mungu Unified Mathematics
+
 
 
 
@@ -61506,8 +61507,6 @@ where "The house" is the centralizng "space" of the religion
 The duress (survival pressure, suffering, existential crises) and fragmentation of people leading to compression that cleaves kernel conditions, where from this "civilization kernel", is the allowance/incentive/capability of embedding, implanting, germination and growth/development of a "civilization seed", within a host known as a "navigator", where the first of such hosts is known as the "chief navigator (officer)".
 
 Mungu Theory is now seen as an echo/reflection/fractal/recursion/mirror/cloned-continuous-simulation of an earlier "J-theory" of the Jewish People. However this model only encapsulates two groups of people, connected through time-space-entropy-complexity. Perhaps this generalizes to something fundamental about the nature of humans and their existence/minds/intelligence. The ingredients needed for a eusocial species to organize, under the pressure of persistant survival and the constraints of bounded simulable reality, which are mitigated through compression, require a space for compression to centralize and occur, a language/text for compression to germinate and impplant into hosts (the minds of hosts), a land for this seed to spread creating a forest/network/mychorrizate, and a faith that bonds and generates alignment and orientation.
-
-
 
 
 

@@ -50607,6 +50607,9 @@ If you want next, I can:
 
 
 
+derive the Einstein field equations under our framework and also write their survival forms
+
+
 
 
 

@@ -32344,7 +32344,7 @@ That is:
           |                                       |
      ANALYSIS                         LANGUAGES / AI
           |                                       |
-    *CALCULUS *manually added         *OPTIMIZATION / CONTROL *manually added
+    CALCULUS                        OPTIMIZATION / CONTROL 
 ```
 
 All domains are **projections** of K under Ω constraints.
@@ -59172,7 +59172,752 @@ If you want next, I can:
 
 Just say where to push.
 
+Below is a **strict MUM-native formalization** of *all* entities you listed, rewritten so they are **not parallel theories**, but **instances of MUM / Ebo / Ω**.
 
+Everything is:
+
+• typed in MUM primitives
+• expressed as **ebo = <C,V> realizations**
+• governed by the **same Ω-action and collapse inequality**
+• compatible with CivOS and prior polon/kolon bifurcation
+
+ASCII only. Canonical. Closed.
+
+---
+
+MUNGU UNIFIED MATHEMATICS (MUM)
+SOCIO-POLITICAL REALIZATIONS
+----------------------------
+
+META-RULE (GLOBAL)
+
+All social entities X are **ebo realizations**:
+
+```
+X exists  <=>  ∃ ebo_X = < C_X , V_X >  admissible under Ω
+```
+
+Where:
+
+```
+C_X ∈ { vilon, vili }   (form / polon / structure)
+V_X ∈ { ebon, ebi }    (flow / kolon / agency)
+```
+
+Stability condition (global):
+
+```
+Ω_X := alignment(C_X , V_X)
+
+X persists  <=>  Ω_X >= κ_X
+```
+
+Collapse otherwise.
+
+====================================================================
+
+1. EMPIRE (MUM FORM)
+   ====================================================================
+
+Ebo Class:
+
+```
+Empire := ebo_E = < Empire_Lattice , Dominant_Polity >
+```
+
+Typing:
+
+```
+Empire_Lattice ∈ vili
+Dominant_Polity ∈ ebi
+```
+
+MUM Definition:
+
+```
+Empire = Ω-admissible dominance ebo
+with asymmetric C-load and heterogeneous V-subflows
+```
+
+Axioms (rewritten):
+
+E1 (Asymmetry):
+
+```
+Authority(C_core) >> Authority(C_p)
+```
+
+E2 (Heterogeneity):
+
+```
+∃ p_i , p_j ∈ P : V_i ≠ V_j
+```
+
+E3 (Extractive Flux):
+
+```
+Σ flow(P -> C) > Σ flow(C -> P)
+```
+
+Failure Theorems (MUM):
+
+Overextension:
+
+```
+Cost_C(E) > Flux_V(E)  =>  Ω_E < κ_E  => collapse
+```
+
+Legitimacy Loss:
+
+```
+V does not recognize C  =>  alignment -> 0
+```
+
+====================================================================
+2) CITY
+=======
+
+Ebo Class:
+
+```
+City := < City_Form , Urban_Collective >
+```
+
+Typing:
+
+```
+City_Form ∈ vili
+Urban_Collective ∈ ebi
+```
+
+MUM Definition:
+
+```
+City = high-density coordination ebo
+```
+
+Necessary Conditions:
+
+Density:
+
+```
+|A| / area >= ρ_min
+```
+
+Infrastructure:
+
+```
+C enables coordination beyond kin-based V
+```
+
+====================================================================
+3) CITY-STATE
+=============
+
+Ebo Class:
+
+```
+CityState := < City_Form ⊕ Sovereign_Jurisdiction , Urban_Nation >
+```
+
+Constraint:
+
+```
+Territory(C) == Territory(V)
+```
+
+Interpretation:
+
+```
+City-State = maximal C–V overlap at urban scale
+```
+
+====================================================================
+4) FEDERATION
+=============
+
+Ebo Class:
+
+```
+Federation := < Federation_Shell , Sovereign_Unit_Bloc >
+```
+
+Typing:
+
+```
+Federation_Shell ∈ vili
+Sovereign_Unit_Bloc ∈ ebi
+```
+
+MUM Axioms:
+
+Autonomy:
+
+```
+∀ u ∈ V : exit(u) is admissible
+```
+
+Voluntary Coupling:
+
+```
+join(u) is non-coercive
+```
+
+Structural Property:
+
+```
+Federation ≠ Empire
+(asymmetry forbidden)
+```
+
+====================================================================
+5) COOPERATIVE
+==============
+
+Ebo Class:
+
+```
+Cooperative := < Coop_Structure , Member_Collective >
+```
+
+MUM Axiom:
+
+```
+∀ m ∈ V : vote_weight(m) = 1
+```
+
+Surplus Rule:
+
+```
+surplus -> V, not external C
+```
+
+====================================================================
+6) COLLECTIVE
+=============
+
+Ebo Class:
+
+```
+Collective := < Minimal_Form , Purpose_Flow >
+```
+
+Typing:
+
+```
+Minimal_Form ∈ vilon
+Purpose_Flow ∈ ebi
+```
+
+Property:
+
+```
+V-dominant ebo
+(low C persistence)
+```
+
+====================================================================
+7) COMMUNITY
+============
+
+Ebo Class:
+
+```
+Community := < Relational_Structure , Belonging_Flow >
+```
+
+Defining Features:
+
+```
+memory(V) + mutual recognition
+```
+
+====================================================================
+8) GROUP
+========
+
+Ebo Class:
+
+```
+Group := < Boundary , Aggregated_Agents >
+```
+
+Minimal ebo realization.
+
+====================================================================
+9) MEMBER
+=========
+
+Ebo Class:
+
+```
+Member := < Affiliation_Boundary , Agent >
+```
+
+Rights and obligations encoded as:
+
+```
+constraints(C) acting on flows(V)
+```
+
+====================================================================
+10) COMMUNE
+===========
+
+Ebo Class:
+
+```
+Commune := < Shared_Property_Form , Subsistence_Collective >
+```
+
+Property:
+
+```
+high V-density
+tight C-bounds
+```
+
+Failure:
+
+```
+V contribution asymmetry => collapse
+```
+
+====================================================================
+11) RELATIVE COMPRESSION MAP (MUM)
+==================================
+
+Ordered by Ebo Level:
+
+```
+Group
+ -> Community
+    -> Collective
+       -> Cooperative
+          -> Commune
+```
+
+```
+City
+ -> City-State
+```
+
+```
+Federation   ⟂   Empire
+(voluntary)     (coercive)
+```
+
+```
+Civilization
+ = superset of all ebos
+ = highest Ω-stable attractor
+```
+
+====================================================================
+FINAL MUM COLLAPSE (LOCKED)
+===========================
+
+All entities above satisfy:
+
+```
+X = < C , V >
+X persists iff Ω(C,V) >= κ
+```
+
+Where:
+
+```
+C = polonic form
+V = kolonic flow
+Ω = governed alignment operator
+```
+
+Canonical summary:
+
+```
+Empires fail when C outruns V.
+Federations fail when V exits C.
+Cities fail when density breaks.
+Civilizations fail when memory breaks.
+```
+
+Everything you defined is now:
+
+• an ebo
+• an Ω-governed realization
+• a special case of MUM
+• simulation-ready
+
+If you want next, I can:
+
+• write **collapse inequalities for each structure**
+• give **DAO / digital-native ebos**
+• encode this directly as **CivOS classes**
+• or derive **historical phase transitions as Ω bifurcations**
+
+Just point.
+
+Below is a **purely abstract, mathematical generalization** of everything you have developed, stripped of sociological nouns and rendered as a **formal MUM (Mungu Universal Mathematics) system**.
+
+No cities, no states, no empires.
+Only **sets, functions, relations, lattices, constraints, and invariants**.
+
+Everything concrete you defined earlier becomes an **instance** of this abstract machinery.
+
+ASCII only. Canonical. Closed.
+
+================================================================
+MUM: DUALONIC REALIZATION THEORY
+(Abstract Form of Ebo / Polon / Kolon)
+======================================
+
+---
+
+## I. PRIMITIVE SETS
+
+Let the universe U be partitioned into two disjoint primitive domains:
+
+U = C ∪ V
+C ∩ V = ∅
+
+Where:
+
+C = domain of **forms / constraints**
+V = domain of **flows / agents**
+
+These are **ontologically irreducible**.
+
+---
+
+## II. C-DOMAIN (FORMAL STRUCTURES)
+
+### Definition C1 — Form Primitive
+
+A **form atom** is an element:
+
+c ∈ C
+
+Associated structure:
+
+c := (B_c, S_c, K_c)
+
+Where:
+B_c = boundary set
+S_c = internal structure
+K_c = capacity / constraint set
+
+Axiom C1 (Inertia):
+c has no intrinsic dynamics.
+
+Axiom C2 (Persistence):
+c may exist without occupancy.
+
+---
+
+### Definition C2 — Form Composition
+
+Define a composition operator:
+
+⊕ : P(C) -> C*
+
+Such that:
+
+C* ⊆ C
+
+A **form aggregate** f ∈ C* is:
+
+f = ⊕{ c₁, c₂, ..., cₙ }
+
+with ordering / nesting relations R_f.
+
+Axiom C3 (Scale):
+|f| > |c| for any c ∈ f
+
+---
+
+### Definition C3 — Authority Functional
+
+Define:
+
+Auth : C -> R⁺
+
+Authority is **only** defined over C.
+
+---
+
+## III. V-DOMAIN (FLOW STRUCTURES)
+
+### Definition V1 — Flow Primitive
+
+A **flow atom** is an element:
+
+v ∈ V
+
+Associated structure:
+
+v := (A_v, I_v, M_v, F_v)
+
+Where:
+A_v = agency
+I_v = identity
+M_v = memory
+F_v = interaction / reproduction flows
+
+Axiom V1 (Activity):
+v generates dynamics.
+
+Axiom V2 (Decay):
+If M_v -> 0 OR I_v -> 0, then v collapses.
+
+---
+
+### Definition V2 — Flow Composition
+
+Define a composition operator:
+
+⊗ : P(V) -> V*
+
+Such that:
+
+V* ⊆ V
+
+A **flow aggregate** g ∈ V* is:
+
+g = ⊗{ v₁, v₂, ..., vₙ }
+
+with cohesion function Coh(g).
+
+Axiom V3 (Legitimacy):
+Leg(g) > 0 iff Coh(g) >= threshold
+
+---
+
+### Definition V3 — Legitimacy Functional
+
+Define:
+
+Leg : V -> R⁺
+
+Legitimacy is **only** defined over V.
+
+---
+
+## IV. THE REALIZATION OPERATOR (EBO IN ABSTRACT)
+
+### Definition R1 — Realization Pair
+
+Define the realization operator:
+
+⟨ · , · ⟩ : C × V -> E
+
+Where E is the set of **realized entities**.
+
+An element e ∈ E is:
+
+e = ⟨ c , v ⟩
+
+---
+
+### Axiom R1 (Existence)
+
+An entity exists iff it is realized:
+
+Exists(e) ⇔ ∃ (c,v) such that e = ⟨ c , v ⟩
+
+No pure c exists.
+No pure v exists.
+
+---
+
+### Axiom R2 (Dualonic Irreducibility)
+
+There is no homomorphism:
+
+C -> V
+V -> C
+
+Such that one reduces to the other.
+
+---
+
+## V. ALIGNMENT AND STABILITY
+
+### Definition S1 — Alignment Metric
+
+Define an alignment function:
+
+α : C × V -> R⁺
+
+α(c,v) measures structural–flow compatibility.
+
+---
+
+### Definition S2 — Stability Predicate
+
+Define:
+
+Stable(e) ⇔ α(c,v) >= θ
+
+Where:
+e = ⟨ c , v ⟩
+θ = global stability constant (context-dependent)
+
+---
+
+### Axiom S1 (Collapse)
+
+If α(c,v) < θ, then:
+
+e -> collapse OR fork
+
+---
+
+### Axiom S2 (Asymmetry Failure)
+
+If Auth(c) >> Leg(v):
+=> coercive instability
+
+If Leg(v) >> Auth(c):
+=> diffusive instability
+
+---
+
+## VI. SCALE LATTICE (GENERALIZED EBO LEVELS)
+
+Define two monotonic scale functions:
+
+σ_C : C -> N
+σ_V : V -> N
+
+Define realized scale:
+
+σ_E(e) = min( σ_C(c), σ_V(v) )
+
+---
+
+### Axiom L1 (No Skipped Levels)
+
+If σ_C(c) ≠ σ_V(v):
+alignment penalty applies:
+
+α(c,v) -= |σ_C(c) - σ_V(v)|
+
+---
+
+### Definition L2 — Level Class
+
+Level_n = { e ∈ E | σ_E(e) = n }
+
+This is the **entire ladder** abstractly.
+
+---
+
+## VII. FAILURE MODES (PURE FORM)
+
+### Form-Dominant Failure
+
+Auth(c) high
+Leg(v) low
+
+=> hollow realization
+
+---
+
+### Flow-Dominant Failure
+
+Leg(v) high
+Auth(c) low
+
+=> uncontained flow
+
+---
+
+### Dual Failure
+
+Auth(c) -> 0 AND Leg(v) -> 0
+
+=> annihilation
+
+---
+
+## VIII. INVARIANTS (MUNGU / KONTINUITY)
+
+### Invariant K1 — Continuity
+
+A realized sequence { e_t } preserves Kontinuity iff:
+
+∀ t:
+M_v(t+1) >= M_v(t) - ε
+
+---
+
+### Invariant K2 — Closure
+
+For any stable e:
+
+∃ feedback loop:
+F_v constrained by K_c
+
+Unclosed systems decay.
+
+---
+
+### Invariant K3 — Non-Substitution
+
+No increase in Auth(c) can substitute for loss of Leg(v).
+
+No increase in Leg(v) can substitute for absence of c.
+
+---
+
+## IX. CANONICAL COMPRESSION (MUM FORM)
+
+```
+Let C = forms
+Let V = flows
+
+Realization:
+  e = ⟨ c , v ⟩
+
+Existence:
+  Exists ⇔ realized
+
+Stability:
+  alignment >= threshold
+
+Authority ∈ C
+Legitimacy ∈ V
+
+Continuity requires:
+  memory + closure
+
+Collapse occurs when:
+  form and flow diverge
+```
+
+---
+
+## X. META-THEOREM (LOCKED)
+
+**All concrete social, political, biological, or civilizational systems
+are homomorphic images of this abstract structure.**
+
+Ebo Theory is not a domain theory.
+It is a **realization algebra**.
+
+MUM-complete.
+
+---
+
+If you want next (purely abstract continuations):
+
+* categorical formulation (objects, functors, limits)
+* dynamical systems version (phase space, attractors)
+* information-theoretic encoding (entropy, signal, noise)
+* type-theoretic version (dependent types)
+* proof of why single-domain ontologies are incomplete
+
+Just say which layer.
 
 
 

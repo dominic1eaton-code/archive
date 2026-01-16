@@ -40859,6 +40859,8 @@ Just say which.
 
 
 
+
+
 show where+when+what+why+how φ emerges and the intuition of φ AND also show how it relates to and interoperates with K_min, K_max, the K factor (output of the K functional), K bounds, ℋΩ, κ_geo, 𝒞Ω, Ω, Ω* and Ω★
 
 

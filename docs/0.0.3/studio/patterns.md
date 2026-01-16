@@ -36277,3 +36277,22 @@ MungCorp - Mungu Inc.
 The Eaton Family Estate
 The Domingu Etondo Estate
 The Domingu Etondo Systems Engineering Firm
+
+
+
+
+DAE publications:
+
+monograph: Mungu Theory
+
+dissertation: The Theory of Agent
+
+textbook: Civilization Operating Systems
+    - mungitics/systemics/civitics//navicartographics
+
+textbook: Nyamba Grammar Book
+
+textbook: Fundamentals of Systemics
+    - mungu unified mathematics/physics/sciences/engineering
+
+

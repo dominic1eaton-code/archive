@@ -43941,7 +43941,7 @@ Just tell me where to go.
 
 
 
-formalize, define and derive mathematically: compression, pattern completion, the compression principle, the existence cone
+formalize, define and derive mathematically: compression, pattern completion, the compression principle, the existence cone, autocatakinesis
 
 
 

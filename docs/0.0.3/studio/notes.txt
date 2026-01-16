@@ -17875,8 +17875,12 @@ The Pamojan Nation State
 
 
 
+formalize MUM, where MUM is:
 
 
+merge URA and K-mathematics into one unified representational model of all of mathematics and let that be Mungu Unified Mathematics MUM. So MUM = {URA, K-mathematics}, where URA and K-mathematics are fully merged into one clean model of all of mathematics, where URA embeds meta-mathematics (mathematics of (classical) mathematics) and K-mathematics embeds classical mathematics
+
+where K-mathematics is:
 
 # I. What K-Mathematics Is (Precisely)
 

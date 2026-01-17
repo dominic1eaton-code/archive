@@ -68881,9 +68881,14 @@ All properties are relational."
 
 
 
-* show why constants are stabilized symbols
+
 * build the single universal commutative diagram
+* derive spacetime as a language constraint
+* show why constants are stabilized symbols
 * encode all Jiwe + GOMA rewrite rules
+
+
+
 * produce the Nyumba Codex canonical table of laws
 
 

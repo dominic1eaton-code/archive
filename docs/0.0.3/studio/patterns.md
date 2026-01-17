@@ -66870,7 +66870,12 @@ let all maths be unified under one mathematical regime: Mungu Unified Mathematic
 
 
 
+a meme is the smallest unit of distinguishable/distinct pattern that can be replicated, reproduced, implanated, germinated, developed and transfered between hosts
 
+
+formalize "mungu tradition":
+
+under the sankofic tradition, when a mungu is birthed, they are given an initial tribal/family name (a "nickname"), and when a mungu becomes of age they give themselves their own name, as a testiment to the cleaving of their own agency and beginning the their "existence" as an asymmetrically complete, self aligned mungu.
 
 
 formalize: philosophy, ontology, epistimology, teleology, mungu philosophy, mungu ontology, mungu epistimology, mungu teleology

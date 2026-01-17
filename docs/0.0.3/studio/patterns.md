@@ -66833,6 +66833,43 @@ explain what it means for "interaction to come first". how does interaction come
 
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
+Write a comissioning memo and a charter for: The Nyumba Project:
+
+The Nyumba Project: commissioned project for generating, developing, maintaining, distributing and stewarding: the Nyumba Codex:
+
+The Nyumba Codex (The House of Mungu):
+    monograph: Mungu Theory
+        - core theory of systems
+        - mungu unified mathematics/physics/sciences/engineering
+
+    dissertation: The Theory of Agent
+        - bridge between theory and application
+
+    textbook: Civilization Operating Systems
+        - mungitics/systemics/civitics//navicartographics
+
+    textbook: Fundamentals of Systemics
+        - the practitioners guide to system design
+
+    specification: The Obatala Operating System
+
+    text: Nyamba Grammar
+        - the language of systems
+        + nyamba grammar system
+        + nyamba writing system
+        + ngozi nyamba technical/legalese dialect
+        + jiwe glyph/semantics system
+        + ndando family programming languages
+
+    text: The Mungu Papers
+        - establishment of Mungu Theory
+
+    text: The Lubiko Bible
+        - The Covenant of the Mungu
+        - The Mungu Manifesto
+        - The Books of The Mungu
+        
+
 
 
 
@@ -67178,3 +67215,6 @@ The Nyumba Codex (The House of Mungu Theory):
 
     text: The Lubiko Bible
         - The Covenant of the Mungu
+        - The Mungu Manifesto
+        - The Books of The Mungu
+

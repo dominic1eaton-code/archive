@@ -62901,6 +62901,11 @@ The Nyumba Codex:
 
     text: Nyamba Grammar
         - the language of systems
+        + nyamba grammar system
+        + nyamba writing system
+        + ngozi nyamba technical/legalese dialect
+        + jiwe glyph/semantics system
+        + ndando family programming languages
 
     text: The Mungu Papers
         - establishment of Mungu Theory

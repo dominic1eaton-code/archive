@@ -66829,6 +66829,8 @@ Say the direction.
 
 
 
+explain what it means for "interaction to come first". how does interaction come before particles? why ? when? where? what does this mean intuitively and why?
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 
@@ -66903,6 +66905,8 @@ The Jewish People <-> The Mungu People mapping:
 CNO | David | DAE
 
 where "The house" is the centralizng "space" of the religion
+
+House of Mungu <-> House of David
 
 
 The duress (survival pressure, suffering, existential crises) and fragmentation of people leading to compression that cleaves kernel conditions, where from this "civilization kernel", is the allowance/incentive/capability of embedding, implanting, germination and growth/development of a "civilization seed", within a host known as a "navigator", where the first of such hosts is known as the "chief navigator (officer)".

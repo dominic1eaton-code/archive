@@ -759,9 +759,9 @@ If any provision is invalid:
 
 ### Section 14.4 — Languages
 
-**Authoritative version:** English
+**Authoritative version:** Nyamba
 
-**Translations:** Nyamba, Spanish, Mandarin, Arabic, French
+**Translations:** English, Spanish, Mandarin, Arabic, French
 
 **Translation policy:** Community-driven, Council-reviewed
 

@@ -62885,24 +62885,25 @@ The Domingu Etondo Systems Engineering Firm
 
 DAE publications:
 
-monograph: Mungu Theory
-    - core theory of systems
-    - mungu unified mathematics/physics/sciences/engineering
+The Nyumba Codex:
+    monograph: Mungu Theory
+        - core theory of systems
+        - mungu unified mathematics/physics/sciences/engineering
 
-dissertation: The Theory of Agent
-    - bridge between theory and application
+    dissertation: The Theory of Agent
+        - bridge between theory and application
 
-textbook: Civilization Operating Systems
-    - mungitics/systemics/civitics//navicartographics
+    textbook: Civilization Operating Systems
+        - mungitics/systemics/civitics//navicartographics
 
-textbook: Fundamentals of Systemics
-    - the practitioners guide to system design
+    textbook: Fundamentals of Systemics
+        - the practitioners guide to system design
 
-text: Nyamba Grammar
-    - the language of systems
+    text: Nyamba Grammar
+        - the language of systems
 
-text: The Mungu Papers
-    - establishment of Mungu Theory
+    text: The Mungu Papers
+        - establishment of Mungu Theory
 
-text: The Lubiko Bible
-    - The Covenant of the Mungu
+    text: The Lubiko Bible
+        - The Covenant of the Mungu

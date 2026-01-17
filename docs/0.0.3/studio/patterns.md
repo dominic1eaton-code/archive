@@ -66900,6 +66900,7 @@ The Jewish People <-> The Mungu People mapping:
 | The Empire               | Jewish Empire    | Mungu Empire     |
 | The Dynasty (Kontinuity) | Davidic Line     | Mungitic Line    |
 
+CNO | David | DAE
 
 where "The house" is the centralizng "space" of the religion
 

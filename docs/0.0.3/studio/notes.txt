@@ -2844,6 +2844,243 @@ If you want next, I can:
 • unify **kwanzas with aurilons and evolution automata**
 
 
+```
+mungoni    — system-of-systems
+impi       — entity system
+tathri     — attribute system
+indi       — boundary / typing system
+wekhi      — relational / network system
+ramani     — interaction / morphism system
+sibi       — state / transition system
+mali       — value / meaning system
+frami      — frame system (space of admissible frames)
+flytoni    — de-synchronization system
+flyntoni   — variance / drift system
+sytoni     — synchronization system
+syntoni    — coherence / resonance system
+dualoni    — pairing / complementarity system
+mononi     — stability / closure system
+triloni    — composite stability system
+clevi      — cleaving operator system (clevity)
+```
+
+Notes:
+
+* **frami** is now correctly the **meta-primitive**
+* **clevi** is the system governing clevons (clevity)
+* Stability is explicitly systematized (mononi, triloni)
+
+================================================================
+III. CANONICAL PAIRING TABLE (LOCKED)
+=====================================
+
+```
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+flyton    <-> flytoni
+flynton   <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+```
+
+* mali (value)
+* frami (context)
+* systemi → systemon internalization
+
+
+gramon - fundamental abstraction/generalization of a/any/all grammar/grammars
+grami - meta-primitive of gramon
+
+| Primitive | Role in Black Swan     |
+| --------- | ---------------------- |
+| mungon    | Existence threatened   |
+| mungoni   | Closure regime failure |
+| sibon     | Terminal state         |
+| sibi      | Undefined mapping      |
+| ramanon   | Over-width interaction |
+| malon     | Value collapse         |
+| indon     | Boundary rupture       |
+| framon    | Frame invalidation     |
+| closon    | Closure failure        |
+| dualon    | Dualonic collapse      |
+| aurilon   | Stability loss         |
+| flynton   | Variance explosion     |
+| syton     | Synchrony loss         |
+| synton    | Coherence collapse     |
+
+```
+mungon     — system core / existence carrier
+impon      — entity / instance
+tathron    — attribute / property
+indon      — boundary / distinction / type
+wekhon     — relation / linkage / network edge
+ramanon    — interaction / morphism
+sibon      — state / configuration
+malon      — value / qualisense
+framon     — frame / distinction enabler
+flyton     — de-synchronization event
+flynton    — drift / variance / stochastic deviation
+syton      — synchronization event
+synton     — coherence / resonance event
+dualon     — complementary pair
+monon      — stable whole (self-stable dualonic closure)
+trilon     — monon–dualon composite (viewable as monon)
+clevon     — cleave event (state-splitting occurrence)
+```
+
+Notes (canonical):
+
+* **framon** replaces *frami* as primitive
+* **clevon** names the ontic event corresponding to clevity
+* **dualon / monon / trilon** are *structural primitives*, not composites
+
+* mali (value)
+* frami (context)
+* systemi → systemon internalization
+
+=====================================
+
+```
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+flyton    <-> flytoni
+flynton   <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+```
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+tathri     — attribute system
+indi       — boundary / typing system
+wekhi      — relational / network system
+ramani     — interaction / morphism system
+sibi       — state / transition system
+mali       — value / meaning system
+frami      — frame system (space of admissible frames)
+flytoni    — de-synchronization system
+flyntoni   — variance / drift system
+sytoni     — synchronization system
+syntoni    — coherence / resonance system
+dualoni    — pairing / complementarity system
+mononi     — stability / closure system
+triloni    — composite stability system
+clevi      — cleaving operator system (clevity)
+```
+
+Notes:
+
+* **frami** is now correctly the **meta-primitive**
+* **clevi** is the system governing clevons (clevity)
+* Stability is explicitly systematized (mononi, triloni)
+
+================================================================
+III. CANONICAL PAIRING TABLE (LOCKED)
+=====================================
+
+```
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+flyton    <-> flytoni
+flynton   <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+```
+
+```
+mungon     — existence / system core
+impon      — entity
+indon      — distinction / boundary
+framon     — frame (enables distinction)
+patton     — pattern / invariant
+ramanon    — interaction / morphism
+sibon      — state
+clevon     — cleaving event
+dualon     — complementary pairing
+```
+
+Why irreducible:
+
+* remove any one → distinction, existence, or interaction collapses
+
+---
+
+## FUNDAMENTAL META-PRIMITIVES
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+indi       — distinction system
+frami      — frame system
+patti      — pattern system
+ramani     — interaction system
+sibi       — change system
+clevi      — cleaving system
+dualoni    — pairing system
+```
+
+
+```
+mungon      — existence / system core
+impon       — entity / instance
+tathron     — attribute / property
+indon       — boundary / distinction / type
+wekhon      — relation / linkage
+ramanon     — interaction / morphism
+sibon       — state / configuration
+malon       — value / qualisense
+framon      — frame / distinction enabler
+
+patton      — pattern / invariant
+completon   — completion event
+systemon    — stabilized system
+
+flyton      — de-synchronization event
+flynton     — drift / variance
+syton       — synchronization event
+synton      — coherence / resonance
+
+dualon      — complementary pair
+monon       — stabilized whole
+trilon      — composite monon-dualon
+clevon      — cleaving event
+```
+
+
 I.1 Primitive / Meta-Primitive
 We introduce no new root law. Black swans are derived phenomena from closure, width, and asymmetry.
 

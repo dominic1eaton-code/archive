@@ -89191,13 +89191,967 @@ If you want next, I can:
 
 Just say the direction.
 
-
-
 generate a list of falsifiable predications and hypotheses  for symmetry theory
+
+
+
 
 generate a list of falsifiable predications and hypotheses  for GS theory
 
 generate a list of falsifiable predications and hypotheses  for mungu sciences
+
+
+
+
+
+
+
+
+
+* formalize+derive+define+introduce+analyze+show the intuitions of: The Ubuntu Codex
+* formalize+derive+define all of the fundamental laws, axioms, assumptions, theorems, equations, fields, structures, boundaries, constraints, limits of: The Ubuntu Codex
+
+
+
+
+
+
+
+
+* formalize+define+derive: presheaf, locality, contextuality, compositionality, compose, composition, local, context, object, thing, prior, a priori, a posteriori, priori, posteriori, metric, measure, superposition, coherence, decoherence, consistency, inconsistency, observable, unobservable, observability
+* formalize+define+derive: rewrite theory
+
+
+
+
+
+
+
+* formalize+define+derive: resource, space, space theory, the agent spatial reasoning hypothesis, agent space designation problem (how agents solve problems by designating and defining "spaces" (physical, symbolic, intuitive, mental, representational...), and agents then operate within those "spaces", however "space" is inherently limited/constrained/bound resource and agents must compress within a "space" in oder to persist continuous and survive)
+
+
+============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+* create a single, unified, reconciled symbol alphabet for all of the mungu primitives and meta-primitives and present it as a single, continuous table:
+
+gramon - fundamental abstraction/generalization of a/any/all grammar/grammars
+grami - meta-primitive of gramon
+existon - fundamental abstraction/generalization of existence / any/all existence/existences
+existi - meta-primitive of existon
+survivon - fundamental abstraction/generalization of survival and survivals
+survivi - meta-primitive of survivon
+
+| Primitive | Role in Black Swan     |
+| --------- | ---------------------- |
+| mungon    | Existence threatened   |
+| mungoni   | Closure regime failure |
+| sibon     | Terminal state         |
+| sibi      | Undefined mapping      |
+| ramanon   | Over-width interaction |
+| malon     | Value collapse         |
+| indon     | Boundary rupture       |
+| framon    | Frame invalidation     |
+| closon    | Closure failure        |
+| dualon    | Dualonic collapse      |
+| aurilon   | Stability loss         |
+| flynton   | Variance explosion     |
+| syton     | Synchrony loss         |
+| synton    | Coherence collapse     |
+
+```
+mungon     — system core / existence carrier
+impon      — entity / instance
+tathron    — attribute / property
+indon      — boundary / distinction / type
+wekhon     — relation / linkage / network edge
+ramanon    — interaction / morphism
+sibon      — state / configuration
+malon      — value / qualisense
+framon     — frame / distinction enabler
+flyton     — de-synchronization event
+flynton    — drift / variance / stochastic deviation
+syton      — synchronization event
+synton     — coherence / resonance event
+dualon     — complementary pair
+monon      — stable whole (self-stable dualonic closure)
+trilon     — monon–dualon composite (viewable as monon)
+clevon     — cleave event (state-splitting occurrence)
+```
+
+Notes (canonical):
+
+* **framon** replaces *frami* as primitive
+* **clevon** names the ontic event corresponding to clevity
+* **dualon / monon / trilon** are *structural primitives*, not composites
+
+* mali (value)
+* frami (context)
+* systemi → systemon internalization
+
+=====================================
+
+```
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+flyton    <-> flytoni
+flynton   <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+```
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+tathri     — attribute system
+indi       — boundary / typing system
+wekhi      — relational / network system
+ramani     — interaction / morphism system
+sibi       — state / transition system
+mali       — value / meaning system
+frami      — frame system (space of admissible frames)
+flytoni    — de-synchronization system
+flyntoni   — variance / drift system
+sytoni     — synchronization system
+syntoni    — coherence / resonance system
+dualoni    — pairing / complementarity system
+mononi     — stability / closure system
+triloni    — composite stability system
+clevi      — cleaving operator system (clevity)
+```
+
+
+```
+mungon      — existence / system core
+impon       — entity / instance
+tathron     — attribute / property
+indon       — boundary / distinction / type
+wekhon      — relation / linkage
+ramanon     — interaction / morphism
+sibon       — state / configuration
+malon       — value / qualisense
+framon      — frame / distinction enabler
+
+patton      — pattern / invariant
+completon   — completion event
+systemon    — stabilized system
+
+flyton      — de-synchronization event
+flynton     — drift / variance
+syton       — synchronization event
+synton      — coherence / resonance
+
+dualon      — complementary pair
+monon       — stabilized whole
+trilon      — composite monon-dualon
+clevon      — cleaving event
+```
+
+
+## God (formal, non-theological)
+
+**Formal definition**
+“God” denotes the **external meta-closure reference** relative to a system.
+
+```
+God := systemi such that
+systemi enables closure of all systemon under consideration
+```
+
+God is:
+• not an impi
+• not necessarily singular
+• a **functional role**, not an ontological claim
+
+---
+
+# III. EXISTENCE & SURVIVAL
+
+## Existence
+
+**Formal definition**
+Existence is **maintained closure under time**.
+
+```
+existence(A) :=
+closure(A) persists under perturbation
+```
+
+---
+
+## Survival
+
+**Formal definition**
+Survival is **continued existence under adverse perturbation**.
+
+```
+survival(A) :=
+existence(A)
+AND perturbations increase
+AND closure remains non-zero
+```
+
+Survival implies asymmetry.
+
+---
+
+Notes:
+
+* **frami** is now correctly the **meta-primitive**
+* **clevi** is the system governing clevons (clevity)
+* Stability is explicitly systematized (mononi, triloni)
+
+================================================================
+III. CANONICAL PAIRING TABLE (LOCKED)
+=====================================
+
+```
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+flyton    <-> flytoni
+flynton   <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+```
+
+```
+mungon     — existence / system core
+impon      — entity
+indon      — distinction / boundary
+framon     — frame (enables distinction)
+patton     — pattern / invariant
+ramanon    — interaction / morphism
+sibon      — state
+clevon     — cleaving event
+dualon     — complementary pairing
+```
+
+Why irreducible:
+
+* remove any one → distinction, existence, or interaction collapses
+
+---
+
+## FUNDAMENTAL META-PRIMITIVES
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+indi       — distinction system
+frami      — frame system
+patti      — pattern system
+ramani     — interaction system
+sibi       — change system
+clevi      — cleaving system
+dualoni    — pairing system
+```
+
+```
+aurilon := (primitive ↔ meta-primitive) stable dual pair
+```
+
+Where primitive ends in **-on**, meta-primitive ends in **-i**.
+
+---
+
+## II.1 CLASSIFICATION AXES
+
+Aurilons classify along two axes:
+
+```
+(1) Interaction locality
+(2) Grammar emergence level
+```
+
+
+## IV.1 AUTOTRILON
+
+Definition (Autotrilon):
+
+```
+Autotrilon := (x_on ↔ x_i)
+```
+
+Where:
+
+* primitive and meta-primitive reference the same domain
+
+Example:
+
+* self-regulating cell
+* reflexive law
+* recursive program
+
+Properties:
+
+* high coherence
+* low adaptability
+* prone to rigidity
+
+```
+autotrilon ≈ self-loop aurilon
+```
+
+---
+
+## IV.2 HETERILON
+
+Definition (Heterilon):
+
+```
+Heterilon := (x_on ↔ y_i),  x ≠ y
+```
+
+Where:
+
+* primitive and meta-primitive belong to different domains
+
+Example:
+
+* human ↔ culture
+* hardware ↔ software
+* population ↔ law
+
+Properties:
+
+* flexible
+* adaptive
+* requires translation layers
+
+```
+heterilon enables evolution
+```
+
+---
+
+## IV.3 HETEROTRILON
+
+Definition (Heterotrilon):
+
+```
+Heterotrilon := (x_on ↔ y_i ↔ z_on)
+```
+
+Triadic extension where:
+
+
+## IV.1 Ebon
+
+```
+Ebon e = (A, I, M, F)
+
+A = agency capacity
+I = identity
+M = memory
+F = flows (interaction, reproduction, governance)
+```
+
+Properties:
+
+```
+Acts(e)
+CarriesLegitimacy(e)
+DecaysIf(M or I fails)
+```
+
+---
+
+## IV.2 Ebi
+
+```
+Ebi E = {e1, e2, ..., en} + K
+```
+
+Where `K` are cohesion rules.
+
+Encodes:
+
+```
+Belonging
+Coordination
+Continuity
+Collective memory
+```
+
+## III.1 Vilon
+
+```
+Vilon v = (B, S, C)
+
+B = boundaries
+S = internal structure
+C = constraints / capacities
+```
+
+Properties:
+
+```
+¬Acts(v)
+¬Reproduces(v)
+MayPersistEmpty(v)
+```
+
+---
+
+## III.2 Vili
+
+```
+Vili V = {v1, v2, ..., vn} + O
+```
+
+Where `O` are ordering / nesting rules.
+
+Encodes:
+
+```
+Subdivision
+Hierarchy
+Jurisdiction
+Containment
+```
+
+
+| Concept                    | Primitive (-on) | Meta-primitive (-i) |
+| -------------------------- | --------------- | ------------------- |
+| Grammar configuration σ    | Sygmon          | Sygmi               |
+| Rewrite operator R̂        | Rewron          | Rewri               |
+| Binding operator           | Kolon           | Koloni              |
+| Boundary operator          | Polon           | Poloni              |
+| Kontinuity K               | Konton          | Konti               |
+| Any omega (Ω, Ω*, Ω★, CΩ…) | Omegon          | Omegi               |
+| Any ratio (φ or otherwise) | Ration          | Ratioi              |
+
++-----------+---------------------------+-----------------------+
+| Term      | Definition                | Role                  |
++-----------+---------------------------+-----------------------+
+| Kwanzi    | Group grammar             | Meaning               |
+| Kwanzon   | Grouping mechanism        | Process               |
+| Kwanza    | Realized group            | Existence             |
+| Interi    | Interaction grammar       | Relation law          |
+| Interon   | Interaction event         | Action                |
++-----------+---------------------------+-----------------------+
+
+
+```
+mungon     — existence / system core
+impon      — entity / instance
+tathron    — attribute / quality
+indon      — boundary / distinction / type
+wekhon     — relation / linkage
+ramanon    — interaction / morphism
+sibon      — state / configuration
+malon      — value / meaning
+flyton     — de-synchronization event
+flynton    — drift / variance / stochastic deviation
+syton      — synchronization event
+synton     — coherence / resonance event
+```
+
+---
+
+## II. META-PRIMITIVES (ALL END IN "-I")
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+tathri     — attribute system
+indi       — boundary / typing system
+wekhi      — relational system
+ramani     — interaction system
+sibi       — state system
+mali       — value system
+flytoni    — de-synchronization system
+flyntoni   — variance / drift system
+sytoni     — synchronization system
+syntoni    — coherence / resonance system
+```
+
+---
+
+## III. CANONICAL PAIRING TABLE (LOCKED)
+
+```
+mungon   <-> mungoni
+impon    <-> impi
+tathron  <-> tathri
+indon    <-> indi
+wekhon   <-> wekhi
+ramanon  <-> ramani
+sibon    <-> sibi
+malon    <-> mali
+flyton    <-> flytoni
+flynton  <-> flyntoni
+syton    <-> sytoni
+synton   <-> syntoni
+```
+
+completon — a configuration that satisfies the closure constraints of a patton
+incompleton — the state of a patton prior to closure
+Meta-primitives:
+
+completi — the system of completions
+incompleti — the system of incompletions
+
+blakon   — black swan event (ontic)
+blaki    — black swan regime / class (meta)
+
+A pattern is introduced as a primitive:
+patton — an incomplete configuration that defines constraints on its completion
+Its meta-primitive is:
+
+patti — the system of patterns and pattern relations
+Formally:
+
+A patton exists if and only if:
+
+A configuration exists (structure or relation)
+That configuration is not closed
+Closure is definable (even if not realized)
+This means a patton is not:
+
+An object
+A state
+A relation by itself
+A patton is closer to a structured absence — a shape defined as much by what is missing as by what is present.
+
+
+============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+* show how σ is derived from sibon, the fundamental generalization/abstraction of state
+
+* show how rewrites, Kontinuity operators, Omega operators, and all others are derived from ramani/ramanons, the fundamental abstraction/generalization of operators/morphisms/transmorphisms
+
+* also show how G : group (or groupoid) of grammar automorphisms relates to and is derived from:
+
+====================================================================
+I. MOTIVATION
+=============
+
+“Group” is overloaded:
+
+* set theory → membership
+* algebra → operation
+* sociology → affiliation
+* CS → collection
+* biology → swarm
+
+Nyumba replaces “group” with a **three-layer primitive family**:
+
+```
+kwanzi   : grouping grammar (meta)
+kwanzon  : grouping mechanism (operational)
+kwanza   : grouped existence (instantiated)
+```
+
+This mirrors:
+
+```
+rule → process → thing
+meta → interi → interon
+-i   → -on    → realized
+```
+
+====================================================================
+II. KWANZI (META-GROUP / GROUP GRAMMAR)
+=======================================
+
+---
+
+## II.1 Definition (Kwanzi)
+
+```
+K_i := (E, R, C)
+```
+
+Where:
+
+* `E` = element types
+* `R` = admissible relations
+* `C` = closure / boundary rules
+
+Kwanzi is **not a group**.
+It is the **grammar that makes grouping possible**.
+
+Examples:
+
+* set theory axioms
+* algebraic group axioms
+* citizenship law
+* species definition
+* protocol membership rules
+
+```
+kwanzi ≈ grouping ontology
+```
+
+---
+
+## II.2 Properties
+
+Kwanzi:
+
+* does not contain elements
+* does not act
+* constrains what *counts* as together
+
+Failure mode:
+
+```
+kwanzi collapse → meaning collapse
+```
+
+====================================================================
+III. KWANZON (GROUPING MECHANISM)
+=================================
+
+---
+
+## III.1 Definition (Kwanzon)
+
+```
+K_on := f_i→on(K_i, E*)
+```
+
+Where:
+
+* `E*` = candidate elements
+* `f_i→on` = grouping operation
+
+Kwanzon is the **process** that applies grouping rules.
+
+Examples:
+
+* union
+* clustering algorithm
+* voting process
+* flocking dynamics
+* bureaucratic admission
+
+```
+kwanzon ≈ grouping engine
+```
+
+---
+
+## III.2 Dynamics
+
+Kwanzons may be:
+
+* deterministic
+* stochastic
+* adversarial
+* evolutionary
+
+Kwanzon stability requires:
+
+```
+rate(K_on) / rate(K_i) ≈ φ + ε
+```
+
+Otherwise:
+
+* grouping outruns meaning
+* or meaning fossilizes grouping
+
+====================================================================
+IV. KWANZA (INSTANTIATED GROUP)
+===============================
+
+---
+
+## IV.1 Definition (Kwanza)
+
+```
+K := K_on(K_i, E*)
+```
+
+A kwanza is:
+
+* a realized collective
+* bounded
+* historically contingent
+
+Examples:
+
+* a set
+* a political body
+* a swarm
+* a dataset
+* a civilization
+
+```
+kwanza ≠ permanent
+```
+
+---
+
+## IV.2 Structural Properties
+
+A kwanza has:
+
+* boundary
+* internal relations
+* lifecycle
+
+Possible states:
+
+* formation
+* stability
+* fragmentation
+* dissolution
+
+Collapse occurs when:
+
+```
+K_on ≠ K_i
+```
+
+====================================================================
+V. INTERI / INTERON (RELATIONAL PRIMITIVES)
+===========================================
+
+---
+
+## V.1 INTERI
+
+Definition (Interi):
+
+```
+I_i := grammar of interaction
+```
+
+Formally:
+
+```
+I_i = { allowed interactions, constraints, meanings }
+```
+
+Interi defines:
+
+* what interactions exist
+* how they are interpreted
+* what counts as valid exchange
+
+Examples:
+
+* language grammar
+* protocol spec
+* social norm
+* physical law
+
+```
+interi = relation law
+```
+
+---
+
+## V.2 INTERON
+
+Definition (Interon):
+
+```
+I_on := realized interaction
+```
+
+Formally:
+
+```
+I_on ∈ I_i
+```
+
+Examples:
+
+* a message
+* a collision
+* a contract
+* a trade
+* a signal
+
+```
+interon = interaction event
+```
+
+---
+
+## V.3 INTERI ↔ INTERON AURILON
+
+```
+(interon ↔ interi)
+```
+
+This is a **core aurilon**.
+
+Failure modes:
+
+* interon without interi → noise
+* interi without interon → dead law
+
+====================================================================
+VI. KWANZA AS INTERONIC STRUCTURE
+=================================
+
+A kwanza exists iff:
+
+```
+∃ stable set of interons under interi
+```
+
+Meaning:
+
+* groups are sustained by interactions
+* not by membership lists
+
+Formal condition:
+
+```
+K stable ⇔ closure(interons) under interi
+```
+
+Thus:
+
+```
+group = stabilized interaction pattern
+```
+
+====================================================================
+VII. DERIVATIONS & IMPLICATIONS
+===============================
+
+---
+
+## VII.1 SETS AND GROUPS AS SPECIAL CASES
+
+Set:
+
+```
+kwanzi = membership rule
+kwanzon = inclusion
+kwanza = {elements}
+```
+
+Algebraic group:
+
+```
+kwanzi = axioms
+kwanzon = operation
+kwanza = group structure
+```
+
+Swarm:
+
+```
+kwanzi = local rules
+kwanzon = boidal update
+kwanza = flock
+```
+
+Civilization:
+
+```
+kwanzi = law + myth
+kwanzon = institutions
+kwanza = society
+```
+
+---
+
+## VII.2 SYMBOL DEATH
+
+Occurs when:
+
+```
+kwanzi = kwanza
+```
+
+Meaning:
+
+* rules become the thing
+* no evolution possible
+
+---
+
+## VII.3 AI ALIGNMENT IMPLICATION
+
+Alignment fails when:
+
+* kwanzon optimized
+* kwanzi frozen or implicit
+
+Correct alignment requires:
+
+```
+co-evolution of kwanzi and kwanzon
+```
+
+---
+
+## VII.4 EVOLUTION
+
+Evolution operates by:
+
+* mutating kwanzi
+* experimenting via kwanzon
+* selecting kwanzas
+
+Hidden singularities = kwanzi breaks.
+
+====================================================================
+VIII. SUMMARY TABLE
+===================
+
+```
++-----------+---------------------------+-----------------------+
+| Term      | Definition                | Role                  |
++-----------+---------------------------+-----------------------+
+| Kwanzi    | Group grammar             | Meaning               |
+| Kwanzon   | Grouping mechanism        | Process               |
+| Kwanza    | Realized group            | Existence             |
+| Interi    | Interaction grammar       | Relation law          |
+| Interon   | Interaction event         | Action                |
++-----------+---------------------------+-----------------------+
+```
+
+====================================================================
+IX. NYUMBA CANONICAL STATEMENT
+==============================
+
+```
+A group is not a thing.
+A group is a stabilized interaction.
+Kwanzi names its meaning.
+Kwanzon performs its becoming.
+Kwanza is what briefly exists.
+```
+
+If you want next, I can:
+
+• encode kwanzas in **GOMA rewrite rules**
+• derive **grammar entropy for groups**
+• show **black swans as kwanzi rupture events**
+• unify **kwanzas with aurilons and evolution automata**
+
 
 
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
@@ -89794,6 +90748,18 @@ https://medium.com/@eatondo000/mungu-theory-part-iii-4505b68d1346
 https://medium.com/@eatondo000/artificial-specialized-intelligence-is-not-artificial-general-intelligence-cb42fbbe6d71
 
 https://open.substack.com/pub/systemics/p/the-nyumba-codex-charter?utm_campaign=post-expanded-share&utm_medium=web
+
+---
+
+https://open.substack.com/pub/systemics/p/grammarsymmetry-theory?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-ideology?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-golden-ratio?utm_campaign=post-expanded-share&utm_medium=web
+
+https://systemics.substack.com/p/mungu?r=70f4q6
+
+https://systemics.substack.com/p/munguos?r=70f4q6
 
 ---
 

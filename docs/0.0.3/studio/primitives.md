@@ -8023,3 +8023,6 @@ If you want next, I can:
 • or compress this into a single Jiwe axiom
 
 Name the next closure.
+
+
+

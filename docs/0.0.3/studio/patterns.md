@@ -78519,6 +78519,30 @@ If you want next, I can:
 
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
+formalize BoK Body of Knowledge
+
+The Mungu codex is the BoK of Mungu Theory. the Nyumba codex is the kernel of the Mungu codex. The Mungu Theory encapsulutes the Mungu Model (polonic realization) + The Mungu Simulation (kolonic realization).
+
+The Western codex is the BoK of Western Theory. Western Theory encapsulutes the Western Model (polonic realization) + The Western Simulation (kolonic realization).
+
+
+
+Mungu Nation capitals
+
+technical/technology capital - Wakanda 
+government capital -
+cultural, tradition and religious captial - 
+socioeconomoic and finance capital -
+
+
+
+Pamojan State Capitals
+
+government capital -
+finance capital - 
+cultural capital - 
+
+
 formalize the structure of the Mungu Nation:
 
 give names and formalize each: The Mungu Tradition, The Mungu Structure, The Mungu Nation, The Mungu Kingdom, The Mungu State, The Mungu Nation-State, The Mungu Tradition;

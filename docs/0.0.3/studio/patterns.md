@@ -89207,7 +89207,6 @@ generate a list of falsifiable predications and hypotheses  for mungu sciences
 
 
 
-
 * formalize+derive+define+introduce+analyze+show the intuitions of: The Ubuntu Codex
 * formalize+derive+define all of the fundamental laws, axioms, assumptions, theorems, equations, fields, structures, boundaries, constraints, limits of: The Ubuntu Codex
 
@@ -89230,9 +89229,23 @@ generate a list of falsifiable predications and hypotheses  for mungu sciences
 * formalize+define+derive: resource, space, space theory, the agent spatial reasoning hypothesis, agent space designation problem (how agents solve problems by designating and defining "spaces" (physical, symbolic, intuitive, mental, representational...), and agents then operate within those "spaces", however "space" is inherently limited/constrained/bound resource and agents must compress within a "space" in oder to persist continuous and survive)
 
 
+
+
+
+
+
+
+* formalize+define+derive: grammar generators, grammar degenerators, grammar kernels, grammar seeds, grammar trees, grammar networks, grammar forests, grammar mychorrizal networks, grammar cycles, grammar loops, grammar strings, grammar coherence, grammar consistency, grammar incoherence, grammar inconsistency, grammar stabilization, grammar destabilization, grammar pattern, grammar patterns, grammar codex, grammar archive, grammar library, grammar alphabet, grammar structure, grammar primitive/meta-primitive, grammarization, regrammarization, degrammarization, grammar process, grammar program, grammar memory, grammar pointer, grammar procedure, grammar policy, grammar rule, grammar rewrite, grammar write, grammar erasure, grammar engraving, grammar carving, memetic grammar, grammar host, grammar memesis, gramar memoization, grammar code, grammar encoding, grammar decoding, grammar transformation, grammar transform, grammar transference, grammar implantation, grammar germination, grammar reproduction, grammar replication, grammar spread, grammar stone
+
+
+mechanistic interperatability + internal representation of LLMs
+
+
+
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
-* create a single, unified, reconciled symbol alphabet for all of the mungu primitives and meta-primitives and present it as a single, continuous table:
+* create a single, unified, reconciled symbol alphabet for all of the mungu primitives and meta-primitives, where each/every mungu primitives+meta-primitive has a single unique letter/symbol, and present the alphabet as a single continuous table; and also generate corresponding jiwe glyphs for each/every letter in the symbol alphabet of mungu primitives/meta-primitives:
 
 gramon - fundamental abstraction/generalization of a/any/all grammar/grammars
 grami - meta-primitive of gramon
@@ -89240,6 +89253,45 @@ existon - fundamental abstraction/generalization of existence / any/all existenc
 existi - meta-primitive of existon
 survivon - fundamental abstraction/generalization of survival and survivals
 survivi - meta-primitive of survivon
+
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+patton    <-> patti
+completon <-> completi
+systemon  <-> systemi
+closon    <-> closi
+flyton    <-> flytoni
+flynton  <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+
+systemon := closon with internal organization
+
+Formally:
+
+systemon = closon ∧ (exists internal ramanon network)
+
+Thus:
+
+closon is the minimal condition of systemhood
+systemon is structured closure
+
+Closure and Patterns (SUBORDINATION)
+
+patton := incomplete configuration
+completon := pattern completion event
+
 
 | Primitive | Role in Black Swan     |
 | --------- | ---------------------- |
@@ -90151,6 +90203,161 @@ If you want next, I can:
 • derive **grammar entropy for groups**
 • show **black swans as kwanzi rupture events**
 • unify **kwanzas with aurilons and evolution automata**
+
+
+## FUNDAMENTAL PRIMITIVES (ONTIC ATOMS)
+
+```
+mungon     — existence / system core
+impon      — entity
+indon      — distinction / boundary
+framon     — frame (enables distinction)
+patton     — pattern / invariant
+ramanon    — interaction / morphism
+sibon      — state
+clevon     — cleaving event
+dualon     — complementary pairing
+```
+
+Why irreducible:
+
+* remove any one → distinction, existence, or interaction collapses
+
+---
+
+## FUNDAMENTAL META-PRIMITIVES
+
+```
+mungoni    — system-of-systems
+impi       — entity system
+indi       — distinction system
+frami      — frame system
+patti      — pattern system
+ramani     — interaction system
+sibi       — change system
+clevi      — cleaving system
+dualoni    — pairing system
+```
+
+
+```
+dualon     = complementary completion relation
+monon      = stabilized dualon
+trilon     = monon viewed as part of higher completion
+aurilon    = self-stable dualon
+heterolon  = non-self-stable dualon
+systemon   = stable monon
+```
+
+framon + indon
+  -> distinction
+      -> patton
+          -> incompletion
+              -> dualon
+                  -> monon
+                      -> systemon
+                          -> loss / gain / recovery / collapse
+
+
+
+## PRIMITIVES (ONTIC, “-on”)
+
+```
+mungon      — existence / system core
+impon       — entity / instance
+tathron     — attribute / property
+indon       — boundary / distinction / type
+wekhon      — relation / linkage
+ramanon     — interaction / morphism
+sibon       — state / configuration
+malon       — value / qualisense
+framon      — frame / distinction enabler
+
+patton      — pattern / invariant
+completon   — completion event
+systemon    — stabilized system
+
+flyton      — de-synchronization event
+flynton     — drift / variance
+syton       — synchronization event
+synton      — coherence / resonance
+
+dualon      — complementary pair
+monon       — stabilized whole
+trilon      — composite monon-dualon
+clevon      — cleaving event
+```
+
+
+---
+
+## META-PRIMITIVES (SYSTEMS, “-i”)
+
+```
+mungoni     — system-of-systems
+impi        — entity system
+tathri      — attribute system
+indi        — boundary / typing system
+wekhi       — relational system
+ramani      — interaction system
+sibi        — state / transition system
+mali        — value system
+frami       — frame system
+
+patti       — pattern system
+completi    — completion system
+systemi     — system theory layer
+
+flytoni     — de-synchronization system
+flyntoni    — drift / variance system
+sytoni      — synchronization system
+syntoni     — coherence / resonance system
+
+dualoni     — pairing system
+mononi      — stability system
+triloni     — composite stability system
+clevi       — cleaving system
+```
+
+
+## A. DERIVABLE PRIMITIVES
+
+These are **ontically meaningful**, but **not irreducible**.
+
+```
+tathron     — derived from patton + impon + framon
+wekhon      — derived from impon + ramanon
+malon       — derived from tathron + framon
+flyton      — derived from clevon + asynchrony
+flynton     — derived from iteration of flyton
+syton       — derived from ramanon + resonance
+synton      — derived from syton persistence
+completon   — derived from patton + dualon
+monon       — derived from stabilized dualon
+trilon      — derived from monon + higher-order view
+systemon    — derived from monon + closure
+```
+
+These **must exist**, but **do not belong in the minimal base**.
+
+---
+
+## B. DERIVABLE META-PRIMITIVES
+
+```
+tathri      — systematization of tathron
+wekhi       — systematization of wekhon
+mali        — systematization of malon
+patti       — systematization of patton
+completi    — systematization of completon
+systemi     — systematization of systemon
+flytoni     — systematization of flyton
+flyntoni    — systematization of flynton
+sytoni      — systematization of syton
+syntoni     — systematization of synton
+mononi      — systematization of monon
+triloni     — systematization of trilon
+```
 
 
 

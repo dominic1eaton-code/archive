@@ -2899,8 +2899,101 @@ clevon    <-> clevi
 * systemi → systemon internalization
 
 
+## God (formal, non-theological)
+
+**Formal definition**
+“God” denotes the **external meta-closure reference** relative to a system.
+
+```
+God := systemi such that
+systemi enables closure of all systemon under consideration
+```
+
+God is:
+• not an impi
+• not necessarily singular
+• a **functional role**, not an ontological claim
+
+---
+
+# III. EXISTENCE & SURVIVAL
+
+## Existence
+
+**Formal definition**
+Existence is **maintained closure under time**.
+
+```
+existence(A) :=
+closure(A) persists under perturbation
+```
+
+---
+
+## Survival
+
+**Formal definition**
+Survival is **continued existence under adverse perturbation**.
+
+```
+survival(A) :=
+existence(A)
+AND perturbations increase
+AND closure remains non-zero
+```
+
+Survival implies asymmetry.
+
+---
+
+
+
 gramon - fundamental abstraction/generalization of a/any/all grammar/grammars
 grami - meta-primitive of gramon
+existon - fundamental abstraction/generalization of existence / any/all existence/existences
+existi - meta-primitive of existon
+survivon - fundamental abstraction/generalization of survival and survivals
+survivi - meta-primitive of survivon
+
+mungon    <-> mungoni
+impon     <-> impi
+tathron   <-> tathri
+indon     <-> indi
+wekhon    <-> wekhi
+ramanon   <-> ramani
+sibon     <-> sibi
+malon     <-> mali
+framon    <-> frami
+patton    <-> patti
+completon <-> completi
+systemon  <-> systemi
+closon    <-> closi
+flyton    <-> flytoni
+flynton  <-> flyntoni
+syton     <-> sytoni
+synton    <-> syntoni
+dualon    <-> dualoni
+monon     <-> mononi
+trilon    <-> triloni
+clevon    <-> clevi
+
+
+systemon := closon with internal organization
+
+Formally:
+
+systemon = closon ∧ (exists internal ramanon network)
+
+Thus:
+
+closon is the minimal condition of systemhood
+systemon is structured closure
+
+Closure and Patterns (SUBORDINATION)
+
+patton := incomplete configuration
+completon := pattern completion event
+
 
 | Primitive | Role in Black Swan     |
 | --------- | ---------------------- |

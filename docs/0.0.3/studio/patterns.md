@@ -75547,6 +75547,13 @@ If you want next, I can:
 Say the next build target.
 
 
+
+formalize the fundamental golden ratio pminimax roblem
+
+
+formalize: evolution automata, evolutionary automata, theory evolution automata, automata, evolution, theory, singularity, trivial, non trivial, non-trivial basin, basins, hidden, hidden singularities
+
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 formalize the structure of the Mungu Nation:
@@ -75982,6 +75989,135 @@ https://github.com/dominic1eaton-code/archive
 
 
 
+
+
+
+
+
+
+
+assessment
+
+asses:
+
+---
+
+https://systemics.substack.com/p/the-k-survival-field-theory?r=70f4q6
+
+https://systemics.substack.com/p/the-golden-ratio?r=70f4q6
+
+https://systemics.substack.com/p/mungu-unified-mathematics?r=70f4q6
+
+https://systemics.substack.com/p/the-law-of-survivable-kontinuity?r=70f4q6
+
+https://systemics.substack.com/p/the-law-of-self-consistency?r=70f4q6
+
+https://systemics.substack.com/p/the-theoretical-foundations-of-complexity?r=70f4q6
+
+https://systemics.substack.com/p/polysystems-and-kolysystems?r=70f4q6
+
+https://systemics.substack.com/p/the-mungu-basis?r=70f4q6
+
+https://systemics.substack.com/p/surge-r1-survival-regime-guided-emergent?r=70f4q6
+
+---
+
+https://systemics.substack.com/p/compression-theory?r=70f4q6
+
+https://systemics.substack.com/p/theory?r=70f4q6
+
+https://systemics.substack.com/p/artificial-intelligence-engineering-ff1?r=70f4q6
+
+https://systemics.substack.com/p/systemic-physics-part-iii?r=70f4q6
+
+https://systemics.substack.com/p/mungu-evolution?r=70f4q6
+
+https://systemics.substack.com/p/autonomy?r=70f4q6
+
+https://systemics.substack.com/p/the-fundamental-laws-of-mungu-theory?r=70f4q6
+
+https://systemics.substack.com/p/the-fundamental-theorem-of-patterns?r=70f4q6
+
+https://systemics.substack.com/p/mungu-logic?r=70f4q6
+
+https://systemics.substack.com/p/systemic-physics-ii?r=70f4q6
+
+https://systemics.substack.com/p/systemic-physics?r=70f4q6
+
+https://systemics.substack.com/p/the-continuity-constraint?r=70f4q6
+
+---
+
+https://open.substack.com/pub/systemics/p/mum?utm_campaign=post-expanded-share&utm_medium=web
+
+https://medium.com/@eatondo000/artificial-intelligence-is-not-general-intelligence-part-ii-c684e5f43897
+
+https://medium.com/@dominic1.eaton/the-golden-ratio-and-the-mathematics-of-existence-a-journey-into-mungu-unified-theory-b68bad84ac12
+
+https://medium.com/@dominic1.eaton/the-fundamental-laws-of-mungu-theory-042ca82599bb
+
+https://medium.com/@dominic1.eaton/what-is-mungu-theory-eba2be72acca
+
+https://medium.com/@songhai.institute/cosmological-intelligence-theory-cit-db6658868b17
+
+https://medium.com/@songhai.institute/the-goma-system-21cfbfae0330
+
+https://medium.com/@songhai.institute/the-mungu-theory-of-evolution-4f1d7a86c9f3
+
+https://medium.com/@songhai.institute/civilization-operating-systems-78969618beb0
+
+---
+https://systemics.substack.com/p/the-lubiko-bible?r=70f4q6
+
+https://systemics.substack.com/p/the-book-of-destiny?r=70f4q6
+
+https://systemics.substack.com/p/distributions?r=70f4q6
+
+https://systemics.substack.com/p/patterns?r=70f4q6
+
+https://systemics.substack.com/p/the-mungu-cycle?r=70f4q6
+
+https://systemics.substack.com/p/the-social-economy?r=70f4q6
+
+https://medium.com/@eatondo000/the-one-equation-that-explains-why-you-exist-28ff23603188
+
+https://medium.com/@eatondo000/the-book-of-destiny-opening-c703aa2bd19d
+
+---
+
+https://systemics.substack.com/p/mungu-reference-sheet-ii?r=70f4q6
+
+https://systemics.substack.com/p/closed-loop-engineering?r=70f4q6
+
+https://systemics.substack.com/p/echuya-llm?r=70f4q6
+
+https://systemics.substack.com/p/llms?r=70f4q6
+
+https://systemics.substack.com/p/mungu-simulations?r=70f4q6
+
+https://systemics.substack.com/p/mungu-theoretical-formalizations?r=70f4q6
+
+https://systemics.substack.com/p/mungu-reference?r=70f4q6
+
+---
+
+https://systemics.substack.com/p/intelligence-and-cognitions-measuring-209?r=70f4q6
+
+https://systemics.substack.com/p/intelligence-and-cognitions-measuring-efe?r=70f4q6
+
+https://systemics.substack.com/p/intelligence-and-cognitions-measuring-aca?r=70f4q6
+
+https://systemics.substack.com/p/intelligence-and-cognitions-measuring?r=70f4q6
+
+https://medium.com/@eatondo000/the-problem-of-ai-f4a05f8683cf
+
+https://medium.com/@eatondo000/mungu-theory-part-iii-4505b68d1346
+
+https://medium.com/@eatondo000/artificial-specialized-intelligence-is-not-artificial-general-intelligence-cb42fbbe6d71
+
+https://open.substack.com/pub/systemics/p/the-nyumba-codex-charter?utm_campaign=post-expanded-share&utm_medium=web
+
+---
 
 
 pen name: E. Atondo

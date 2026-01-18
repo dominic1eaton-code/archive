@@ -2114,6 +2114,309 @@ ESE → OVCS Authority (governance)
 
 
 
+Below is a **clean, disciplined naming scheme** that respects your constraints:
+
+* **Primitive names end in `-on`**
+* **Meta-primitive names end in `-i`**
+* Names are **atomic, non-metaphorical**, and **role-aligned**
+* Meta-primitives denote **equivalence classes / abstractions / functorial lifts** of primitives
+
+I will give **name + formal role** for each item.
+
+====================================================================
+NAMING AXIOM
+============
+
+* **Primitive (-on)**
+  Irreducible operational entity inside σ (acts, evolves, rewrites)
+
+* **Meta-primitive (-i)**
+  Abstraction, closure, quotient, or invariant class over primitives
+
+====================================================================
+I. σ (GRAMMAR CONFIGURATION)
+============================
+
+### Primitive
+
+```
+σ  :=  Sygmon
+```
+
+**Sygmon**
+
+* from *syg-* (structure / syntax / binding)
+* meaning: a concrete grammatical configuration
+* lives in a category/topos
+* carries full internal structure
+
+```
+σ_t ≡ Sygmon_t
+```
+
+### Meta-primitive
+
+```
+Σσ := Sygmi
+```
+
+**Sygmi**
+
+* the space / class / logic of all Sygmons
+* σ modulo isomorphism
+* grammar as such
+
+```
+Sygmi = { Sygmon } / ≅
+```
+
+====================================================================
+II. R̂ (REWRITE OPERATOR)
+=========================
+
+### Primitive
+
+```
+R̂ := Rewron
+```
+
+**Rewron**
+
+* irreducible rewrite act
+* non-commutative
+* time-indexed
+
+```
+Rewron : Sygmon_t → Sygmon_{t+1}
+```
+
+### Meta-primitive
+
+```
+R̂* := Rewri
+```
+
+**Rewri**
+
+* rewrite algebra / rewrite dynamics
+* closure of all rewrites
+* generates flows, symmetries, dynamics
+
+```
+Rewri = ⟨ Rewron ⟩
+```
+
+====================================================================
+III. KOLONS and POLONS
+======================
+
+### Kolons (connective / binding operators)
+
+#### Primitive
+
+```
+Kolon := Kolon
+```
+
+**Kolon**
+
+* atomic binding / adjacency / relational glue
+* creates compositional structure
+* non-semantic, purely structural
+
+```
+a --Kolon--> b
+```
+
+#### Meta-primitive
+
+```
+Koloni
+```
+
+**Koloni**
+
+* algebra of all bindings
+* categorical composition laws
+* grammar topology
+
+====================================================================
+
+### Polons (separation / boundary operators)
+
+#### Primitive
+
+```
+Polon := Polon
+```
+
+**Polon**
+
+* atomic cut / boundary / distinction
+* generates discreteness
+* dual to Kolon
+
+```
+a |Polon| b
+```
+
+#### Meta-primitive
+
+```
+Poloni
+```
+
+**Poloni**
+
+* lattice of distinctions
+* subobject logic
+* boundary algebra
+
+====================================================================
+IV. KONTINUITY K
+================
+
+### Primitive
+
+```
+K := Konton
+```
+
+**Konton**
+
+* state persistence under rewrite
+* memory carried across Rewron
+* invariant carrier
+
+```
+Konton_t ⊆ Sygmon_t
+```
+
+### Meta-primitive
+
+```
+K* := Konti
+```
+
+**Konti**
+
+* continuity principle
+* invariant flow class
+* conservation-as-grammar
+
+```
+Konti = Invariants(Rewri)
+```
+
+====================================================================
+V. OMEGAS (Ω, Ω*, Ω★, CΩ, etc.)
+===============================
+
+### Primitive (any specific omega)
+
+```
+Ω := Omegon
+```
+
+**Omegon**
+
+* terminal / global constraint value
+* bound, limit, or closure condition
+* context-dependent (Ω, Ω*, Ω★…)
+
+```
+Ω ∈ Constraints(Sygmon)
+```
+
+### Meta-primitive (abstraction of all omegas)
+
+```
+Ω̄ := Omegi
+```
+
+**Omegi**
+
+* the class of all terminal constraints
+* ultimate boundary operator
+* governs existence / realizability
+
+```
+Omegi = ⋂ all Omegon
+```
+
+====================================================================
+VI. RATIOS (φ, and ALL ratios)
+==============================
+
+### Primitive (any concrete ratio)
+
+```
+r := Ration
+```
+
+**Ration**
+
+* numerical or structural proportion
+* relates quantities, scales, costs
+* includes φ, harmonic ratios, etc.
+
+```
+Ration = a / b
+```
+
+### Meta-primitive (abstraction of ALL ratios)
+
+```
+ℛ := Ratioi
+```
+
+**Ratioi**
+
+* space of proportional invariants
+* scale-structure principle
+* governs resonance, optimization, balance
+
+```
+Ratioi = { Ration } / scale
+```
+
+Golden ratio becomes:
+
+```
+φ ∈ Ratioi
+```
+
+not privileged, only **extremal under constraints**.
+
+====================================================================
+VII. CONSOLIDATED TABLE
+=======================
+
+| Concept                    | Primitive (-on) | Meta-primitive (-i) |
+| -------------------------- | --------------- | ------------------- |
+| Grammar configuration σ    | Sygmon          | Sygmi               |
+| Rewrite operator R̂        | Rewron          | Rewri               |
+| Binding operator           | Kolon           | Koloni              |
+| Boundary operator          | Polon           | Poloni              |
+| Kontinuity K               | Konton          | Konti               |
+| Any omega (Ω, Ω*, Ω★, CΩ…) | Omegon          | Omegi               |
+| Any ratio (φ or otherwise) | Ration          | Ratioi              |
+
+====================================================================
+VIII. ONE-LINE SYNTHESIS
+========================
+
+**Sygmon evolves by Rewron, structured by Kolon and Polon, preserving Konton, bounded by Omegon, scaled by Ration — while Sygmi, Rewri, Konti, Omegi, and Ratioi are the invariant abstractions that survive Π_G.**
+
+If you want next, I can:
+
+* formalize these as a **typed ontology**
+* show **duality pairs** (Kolon ↔ Polon, Konton ↔ Omegon)
+* encode them in **Lean/Coq**
+* derive the **Ω★ ≥ φ inequality** purely from Ratioi + Omegi
+
+Just say the direction.
+
 
 
 in a tabular form similar to this structure:

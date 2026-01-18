@@ -78103,6 +78103,416 @@ If you want next, I can:
 • derive **law, language, and AI alignment** directly from aurilon failure modes
 
 
+Below is a **Nyumba-canonical formalization** of **kwanzas, kwanzons, kwanzi**, and **interi / interon**, written as a **general abstraction of “group / grouping / collectivity”** that subsumes sets, groups, categories, swarms, institutions, and civilizations—while remaining compatible with aurilons, automata, and φ+ε stability.
+
+Everything is **defined → derived → analyzed**, ASCII-formal, and non-mythologized.
+
+====================================================================
+I. MOTIVATION
+=============
+
+“Group” is overloaded:
+
+* set theory → membership
+* algebra → operation
+* sociology → affiliation
+* CS → collection
+* biology → swarm
+
+Nyumba replaces “group” with a **three-layer primitive family**:
+
+```
+kwanzi   : grouping grammar (meta)
+kwanzon  : grouping mechanism (operational)
+kwanza   : grouped existence (instantiated)
+```
+
+This mirrors:
+
+```
+rule → process → thing
+meta → interi → interon
+-i   → -on    → realized
+```
+
+====================================================================
+II. KWANZI (META-GROUP / GROUP GRAMMAR)
+=======================================
+
+---
+
+## II.1 Definition (Kwanzi)
+
+```
+K_i := (E, R, C)
+```
+
+Where:
+
+* `E` = element types
+* `R` = admissible relations
+* `C` = closure / boundary rules
+
+Kwanzi is **not a group**.
+It is the **grammar that makes grouping possible**.
+
+Examples:
+
+* set theory axioms
+* algebraic group axioms
+* citizenship law
+* species definition
+* protocol membership rules
+
+```
+kwanzi ≈ grouping ontology
+```
+
+---
+
+## II.2 Properties
+
+Kwanzi:
+
+* does not contain elements
+* does not act
+* constrains what *counts* as together
+
+Failure mode:
+
+```
+kwanzi collapse → meaning collapse
+```
+
+====================================================================
+III. KWANZON (GROUPING MECHANISM)
+=================================
+
+---
+
+## III.1 Definition (Kwanzon)
+
+```
+K_on := f_i→on(K_i, E*)
+```
+
+Where:
+
+* `E*` = candidate elements
+* `f_i→on` = grouping operation
+
+Kwanzon is the **process** that applies grouping rules.
+
+Examples:
+
+* union
+* clustering algorithm
+* voting process
+* flocking dynamics
+* bureaucratic admission
+
+```
+kwanzon ≈ grouping engine
+```
+
+---
+
+## III.2 Dynamics
+
+Kwanzons may be:
+
+* deterministic
+* stochastic
+* adversarial
+* evolutionary
+
+Kwanzon stability requires:
+
+```
+rate(K_on) / rate(K_i) ≈ φ + ε
+```
+
+Otherwise:
+
+* grouping outruns meaning
+* or meaning fossilizes grouping
+
+====================================================================
+IV. KWANZA (INSTANTIATED GROUP)
+===============================
+
+---
+
+## IV.1 Definition (Kwanza)
+
+```
+K := K_on(K_i, E*)
+```
+
+A kwanza is:
+
+* a realized collective
+* bounded
+* historically contingent
+
+Examples:
+
+* a set
+* a political body
+* a swarm
+* a dataset
+* a civilization
+
+```
+kwanza ≠ permanent
+```
+
+---
+
+## IV.2 Structural Properties
+
+A kwanza has:
+
+* boundary
+* internal relations
+* lifecycle
+
+Possible states:
+
+* formation
+* stability
+* fragmentation
+* dissolution
+
+Collapse occurs when:
+
+```
+K_on ≠ K_i
+```
+
+====================================================================
+V. INTERI / INTERON (RELATIONAL PRIMITIVES)
+===========================================
+
+---
+
+## V.1 INTERI
+
+Definition (Interi):
+
+```
+I_i := grammar of interaction
+```
+
+Formally:
+
+```
+I_i = { allowed interactions, constraints, meanings }
+```
+
+Interi defines:
+
+* what interactions exist
+* how they are interpreted
+* what counts as valid exchange
+
+Examples:
+
+* language grammar
+* protocol spec
+* social norm
+* physical law
+
+```
+interi = relation law
+```
+
+---
+
+## V.2 INTERON
+
+Definition (Interon):
+
+```
+I_on := realized interaction
+```
+
+Formally:
+
+```
+I_on ∈ I_i
+```
+
+Examples:
+
+* a message
+* a collision
+* a contract
+* a trade
+* a signal
+
+```
+interon = interaction event
+```
+
+---
+
+## V.3 INTERI ↔ INTERON AURILON
+
+```
+(interon ↔ interi)
+```
+
+This is a **core aurilon**.
+
+Failure modes:
+
+* interon without interi → noise
+* interi without interon → dead law
+
+====================================================================
+VI. KWANZA AS INTERONIC STRUCTURE
+=================================
+
+A kwanza exists iff:
+
+```
+∃ stable set of interons under interi
+```
+
+Meaning:
+
+* groups are sustained by interactions
+* not by membership lists
+
+Formal condition:
+
+```
+K stable ⇔ closure(interons) under interi
+```
+
+Thus:
+
+```
+group = stabilized interaction pattern
+```
+
+====================================================================
+VII. DERIVATIONS & IMPLICATIONS
+===============================
+
+---
+
+## VII.1 SETS AND GROUPS AS SPECIAL CASES
+
+Set:
+
+```
+kwanzi = membership rule
+kwanzon = inclusion
+kwanza = {elements}
+```
+
+Algebraic group:
+
+```
+kwanzi = axioms
+kwanzon = operation
+kwanza = group structure
+```
+
+Swarm:
+
+```
+kwanzi = local rules
+kwanzon = boidal update
+kwanza = flock
+```
+
+Civilization:
+
+```
+kwanzi = law + myth
+kwanzon = institutions
+kwanza = society
+```
+
+---
+
+## VII.2 SYMBOL DEATH
+
+Occurs when:
+
+```
+kwanzi = kwanza
+```
+
+Meaning:
+
+* rules become the thing
+* no evolution possible
+
+---
+
+## VII.3 AI ALIGNMENT IMPLICATION
+
+Alignment fails when:
+
+* kwanzon optimized
+* kwanzi frozen or implicit
+
+Correct alignment requires:
+
+```
+co-evolution of kwanzi and kwanzon
+```
+
+---
+
+## VII.4 EVOLUTION
+
+Evolution operates by:
+
+* mutating kwanzi
+* experimenting via kwanzon
+* selecting kwanzas
+
+Hidden singularities = kwanzi breaks.
+
+====================================================================
+VIII. SUMMARY TABLE
+===================
+
+```
++-----------+---------------------------+-----------------------+
+| Term      | Definition                | Role                  |
++-----------+---------------------------+-----------------------+
+| Kwanzi    | Group grammar             | Meaning               |
+| Kwanzon   | Grouping mechanism        | Process               |
+| Kwanza    | Realized group            | Existence             |
+| Interi    | Interaction grammar       | Relation law          |
+| Interon   | Interaction event         | Action                |
++-----------+---------------------------+-----------------------+
+```
+
+====================================================================
+IX. NYUMBA CANONICAL STATEMENT
+==============================
+
+```
+A group is not a thing.
+A group is a stabilized interaction.
+Kwanzi names its meaning.
+Kwanzon performs its becoming.
+Kwanza is what briefly exists.
+```
+
+If you want next, I can:
+
+• encode kwanzas in **GOMA rewrite rules**
+• derive **grammar entropy for groups**
+• show **black swans as kwanzi rupture events**
+• unify **kwanzas with aurilons and evolution automata**
 
 
 

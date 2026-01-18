@@ -100589,6 +100589,8 @@ collapse and synthesize this entire chat down into: Mungu Unified Sciences. Form
 
 
 
+
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 * create a single, unified, reconciled symbol alphabet for all of the mungu primitives and meta-primitives, where each/every mungu primitives+meta-primitive has a single unique letter/symbol, and present the alphabet as a single continuous table; and also generate corresponding jiwe glyphs for each/every letter in the symbol alphabet of mungu primitives/meta-primitives:

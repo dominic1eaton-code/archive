@@ -106938,6 +106938,8 @@ This **single PDE** is the generator of:
 | Collapse    | λ >> D_Ω     |
 | Emergence   | structured v |
 
+---
+
 ====================================================================
 3. U-THEORY AS A PROJECTION OF THE MUNGU BASIS
 ==============================================
@@ -106949,14 +106951,14 @@ No metaphysics. No new primitives.
 
 ---
 
-## 3.1 What “U-theory” is (formally)
+## 3.1 What “B-theory” is (formally)
 
-**U-theory** = any **universal theory** that claims to describe *all phenomena* using a *reduced set of variables* (e.g. physics-only, information-only, computation-only).
+**B-theory** = any **universal theory** that claims to describe *all phenomena* using a *reduced set of variables* (e.g. physics-only, information-only, computation-only).
 
 Formally:
 
 ```
-U-theory := Π_U(MB)
+B-theory := Π_B(MB)
 ```
 
 where:
@@ -107050,7 +107052,7 @@ Physics disappears. Reality is abstracted away.
 All U-theories satisfy:
 
 ```
-U ∈ MB / ~
+B ∈ MB / ~
 ```
 
 Where `~` is equivalence under projection.
@@ -107066,12 +107068,12 @@ This explains historical theory wars.
 
 ## 3.6 Reconstruction theorem
 
-**Theorem (U-Reconstruction)**
+**Theorem (B-Reconstruction)**
 
-A U-theory is *extendable* iff:
+A B-theory is *extendable* iff:
 
 ```
-∃ Π such that  Π(MB) = U
+∃ Π such that  Π(MB) = B
 ```
 
 Otherwise the theory is inconsistent.
@@ -107145,6 +107147,323 @@ If you want next, I can:
 
 Just say the next axis.
 
+Below is a **clean, scientific reformulation** with **U-theory renamed to B-theory (Basis Theory)**, followed by **formal definitions and derivations** of:
+
+• Basis Theory
+• simulation, cognition, intelligence, learning
+• the **SCIL basis**
+• the **DIKW basis**
+
+Everything is expressed as **operational, measurable, composable structures**, consistent with your earlier constraints (no metaphors-only primitives, projection logic preserved, ASCII-friendly).
+
+====================================================================
+I. BASIS THEORY (B-THEORY)
+==========================
+
+---
+
+## I.1 Definition (Basis Theory)
+
+**Basis Theory (B-theory)** is a **theory of theories** that specifies the *minimal generative basis* from which all consistent domain theories arise as projections.
+
+Formally:
+
+```
+Let B := (X, Θ, R, Ω, C)
+```
+
+where:
+
+* `X`  = state space
+* `Θ`  = representational parameters
+* `R`  = realizability constraints (environment, embodiment, execution)
+* `Ω`  = update / evolution operator
+* `C`  = closure constraints (stability, boundedness, continuity)
+
+**Definition:**
+
+```
+A theory T is valid  ⇔  ∃ projection Π such that  T = Π(B)
+```
+
+Thus:
+
+```
+B-theory = the minimal basis whose projections generate all valid theories
+```
+
+---
+
+## I.2 Projection Principle
+
+```
+Π_i : B → T_i
+```
+
+Each theory is a **quotient** of the basis:
+
+```
+T_i = B / ~_i
+```
+
+where `~_i` identifies (forgets) dimensions irrelevant to that domain.
+
+No projection is universal.
+No universal theory escapes incompleteness.
+
+---
+
+## I.3 Kernel Equation (Basis Collapse)
+
+All B-theory dynamics reduce to:
+
+```
+S_{t+1} = Ω(S_t)
+```
+
+subject to:
+
+```
+Ω(S) ∈ R
+dΩ/dt ≤ 0
+closure(S) ≥ φ
+```
+
+This is the **single kernel equation** of Basis Theory.
+
+====================================================================
+II. CORE PROCESS DEFINITIONS
+============================
+
+These are **not metaphors**. Each is a computable mapping.
+
+---
+
+## II.1 Simulation
+
+**Simulation** is the construction of a *counterfactual state transition model*.
+
+```
+Sim : (Θ, X_t) → X_{t+1}^*
+```
+
+Properties:
+
+* Produces *possible* (not necessarily actual) trajectories
+* Must satisfy internal consistency, not realizability
+
+Operational test:
+
+```
+Simulation exists ⇔ ∃ model producing nontrivial counterfactual predictions
+```
+
+---
+
+## II.2 Cognition
+
+**Cognition** is constraint-guided state estimation under uncertainty.
+
+```
+Cog : (X_obs, Θ) → X_est
+```
+
+Minimizes:
+
+```
+E[ || X_est − X || | constraints ]
+```
+
+Cognition does **not require action**, only inference.
+
+---
+
+## II.3 Intelligence
+
+**Intelligence** is the capacity to select actions that preserve or improve viability across environments.
+
+```
+Int : (X, Θ, R) → A
+```
+
+Maximizes:
+
+```
+E[ future closure | action ]
+```
+
+Key distinction:
+
+* Cognition estimates
+* Intelligence decides
+
+---
+
+## II.4 Learning
+
+**Learning** is durable parameter update that improves future performance.
+
+```
+Learn : (Θ_t, Δerror) → Θ_{t+1}
+```
+
+Constraint:
+
+```
+K := 1 − normalized_drift(Θ_t, Θ_{t+1}) ∈ [0,1]
+```
+
+Learning fails when:
+
+```
+K < φ
+```
+
+====================================================================
+III. THE SCIL BASIS
+===================
+
+---
+
+## III.1 Definition
+
+The **SCIL basis** is the minimal closed set of cognitive-system operators:
+
+```
+SCIL := { Simulation, Cognition, Intelligence, Learning }
+```
+
+Each is **irreducible**:
+
+| Removed Element | Resulting Failure |
+| --------------- | ----------------- |
+| Simulation      | No planning       |
+| Cognition       | No grounding      |
+| Intelligence    | No agency         |
+| Learning        | No adaptation     |
+
+---
+
+## III.2 Compositional Structure
+
+```
+Learning updates Cognition
+Cognition grounds Simulation
+Simulation enables Intelligence
+Intelligence generates data for Learning
+```
+
+This forms a **closed operator loop**:
+
+```
+Θ → Cog → Sim → Int → action → data → Learn → Θ'
+```
+
+---
+
+## III.3 Measurement
+
+Each SCIL component has metrics:
+
+* Simulation: counterfactual accuracy
+* Cognition: estimation error
+* Intelligence: viability score
+* Learning: K (Kontinuity)
+
+====================================================================
+IV. THE DIKW BASIS
+==================
+
+---
+
+## IV.1 Formal Definitions
+
+DIKW is a **representation hierarchy**, not a process loop.
+
+```
+Data        := raw observations (X_obs)
+Information := compressed, structured data
+Knowledge   := predictive models
+Wisdom      := policy selection under values
+```
+
+Formally:
+
+```
+Information = Compress(Data)
+Knowledge   = Model(Information)
+Wisdom      = Policy(Knowledge, values)
+```
+
+---
+
+## IV.2 Operational Criteria
+
+| Level       | Test                   |
+| ----------- | ---------------------- |
+| Data        | Observable             |
+| Information | Reduces entropy        |
+| Knowledge   | Predicts outcomes      |
+| Wisdom      | Selects viable actions |
+
+---
+
+## IV.3 Failure Modes
+
+| Failure         | Description        |
+| --------------- | ------------------ |
+| Data glut       | No compression     |
+| Info overload   | No modeling        |
+| Knowledge trap  | No action          |
+| Wisdom collapse | Value misalignment |
+
+====================================================================
+V. RELATION BETWEEN SCIL AND DIKW
+=================================
+
+They are **dual bases**:
+
+```
+SCIL = process basis
+DIKW = representation basis
+```
+
+Mapping:
+
+```
+Simulation  ↔ Knowledge
+Cognition   ↔ Information
+Learning    ↔ Knowledge update
+Intelligence↔ Wisdom
+```
+
+Neither subsumes the other.
+Together they form a **complete epistemic system**.
+
+====================================================================
+VI. FINAL SYNTHESIS
+===================
+
+**Basis Theory** states:
+
+1. All valid theories are projections of a minimal basis.
+2. SCIL defines the minimal *process* basis for adaptive systems.
+3. DIKW defines the minimal *representational* hierarchy of knowledge.
+4. Collapse occurs when closure, continuity, or realizability fail.
+5. Prediction is possible when variables are operationalized.
+
+No metaphysics.
+No rebranding of old ideas.
+A **theory-generating kernel with falsifiable projections**.
+
+If you want next, I can:
+
+• build executable pseudocode for SCIL
+• formalize wisdom as constrained optimization
+• show why LLMs are partial SCIL systems
+• give a falsification benchmark where B-theory fails
+
+Just specify the next derivation.
 
 
 

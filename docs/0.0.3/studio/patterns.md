@@ -110571,13 +110571,34 @@ Just choose the next cut.
 
 
 
+Language was the most powerful compression tool that the Mungu possessed. Language allowed them recreate, rediscover and reinvent themselves through countless cycles. It was that which allowed them to continuously edit their reality and fully dictate its nature.
+
+the only mind that does not change is the mind is no longer alive. To exist, is to change, and to fully embrace change, is to live a life of completion
+
+- psalms from The Nyumba Codex
+
+
+
+
+grammar, symbols, language
+compression
+existence, symmetry, asymmetry
+
+
+grammar primacy under mungu theory
+self editing, self editing through language, memetic genes, grammar genes, grammar/memetic/language/agent gene editing and grammar/memetic/language/agent expression, grammar expression
+
+
+L-grammars, L-systems, evolutionary grammars, grammar evolution, grammar seeds, grammar kernels, grammar trees, grammar networks, grammar mychorizzal networks, grammar forests, grammar loops, grammar strings, grammar cycles
+
+grammar/language/memes/symbols are able to replicate/reproduce through the acts of transference/training/teaching/learning/cognition/simulation/intelligence/host-implantation, where these processes are "optimizied"/"maximal" when a grammar/language/meme/symbol has an optimilally/maximally compressed form+flux/structure+flow, as this is where/when it is "easiest" (minimally resistant / minimal intertia / minimal mass / maximal flux+form) for a grammar/language/meme/symbol to exist and be implanted in and move between "hosts" (entites/actors/agents)
 
 
 formalize+define+derive: Projection Theory
 
 everything vibrates, including existence, matter, atoms, strings, grammar, and so on...
 
-formalize+define+derive: vibrations, Vibration Theory, vibrons, stasisons, vibri, stasisi, RG flow
+formalize+define+derive: vibrations, Vibration Theory, vibrons, stasisons, vibri, stasisi,
 
 
 

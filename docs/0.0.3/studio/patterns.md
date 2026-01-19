@@ -104623,15 +104623,8 @@ asses:
 
 ---
 
-https://systemics.substack.com/p/the-k-survival-field-theory?r=70f4q6
 
 https://systemics.substack.com/p/the-golden-ratio?r=70f4q6
-
-https://systemics.substack.com/p/mungu-unified-mathematics?r=70f4q6
-
-https://systemics.substack.com/p/the-law-of-survivable-kontinuity?r=70f4q6
-
-https://systemics.substack.com/p/the-law-of-self-consistency?r=70f4q6
 
 https://systemics.substack.com/p/the-theoretical-foundations-of-complexity?r=70f4q6
 
@@ -104640,6 +104633,20 @@ https://systemics.substack.com/p/polysystems-and-kolysystems?r=70f4q6
 https://systemics.substack.com/p/the-mungu-basis?r=70f4q6
 
 https://systemics.substack.com/p/surge-r1-survival-regime-guided-emergent?r=70f4q6
+
+---
+
+https://systemics.substack.com/p/the-k-survival-field-theory?r=70f4q6
+
+https://systemics.substack.com/p/mungu-unified-mathematics?r=70f4q6
+
+https://systemics.substack.com/p/the-law-of-survivable-kontinuity?r=70f4q6
+
+https://systemics.substack.com/p/the-law-of-self-consistency?r=70f4q6
+
+https://medium.com/@songhai.institute/mungu-proof-system-b1ea1a143563
+
+https://medium.com/@songhai.institute/mungu-logic-81950a110853
 
 ---
 

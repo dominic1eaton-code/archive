@@ -109592,6 +109592,16 @@ https://open.substack.com/pub/systemics/p/mungu?utm_campaign=post-expanded-share
 
 ---
 
+https://open.substack.com/pub/systemics/p/the-theory-of-knowledge?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/mungu-unified-sciences?utm_campaign=post-expanded-share&utm_medium=web
+
+https://open.substack.com/pub/systemics/p/the-mungu-standard-model?utm_campaign=post-expanded-share&utm_medium=web
+
+---
+
+
+
 
 * give the purpose and physical+symbolic+mental intuitions for: Ω, Ω★, Ω*, K (kontinuity), φ, "closure", dΩ/dt ≤ 0, Ω★ ≥ φ - AND show how to and what would make these "measurable variables"
 

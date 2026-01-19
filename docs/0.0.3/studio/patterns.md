@@ -118208,7 +118208,7 @@ Just point.
 
 
 
-* formalize+define+derive+show the intuition of: markov, markov models, markov processes, markov decision processes, markov regimes, markov chains, Hidden Markov Models (HMMs), the markov property, markov dynamics+statics+mechaincs, markov systems
+* formalize+define+derive+show the intuition of: markov, generators, markov generators, markov models, markov processes, markov decision processes, markov regimes, markov chains, Hidden Markov Models (HMMs), the markov property, markov dynamics+statics+mechaincs, markov systems, markov theory
 
 
 

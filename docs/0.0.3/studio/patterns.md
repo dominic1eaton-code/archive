@@ -118199,16 +118199,16 @@ If you want next, I can:
 
 Just point.
 
-* show where markov models, markov regimes, Hidden Markov Models (HMMs), all relates to everything and fit in
+* show where markov models, markov regimes, Hidden Markov Models (HMMs), markov processes, markov chains,  all relates to everything and fit in
 * show how/why "Cramér–Rao       Information floor" and Golden ratio φ relate/interoperate
-* formalize+derive+define+introduce+explain: The Generator Evolution Principle (GEP), Ontogenetic Generator Dynamics+Statics+Mechanics
+* formalize+derive+define+introduce+explain: generators, The Generator Evolution Principle (GEP), Ontogenetic Generator Dynamics+Statics+Mechanics
 
 
 
 
 
 
-* formalize+define+derive+show the intuition of: markov, generators, markov generators, markov models, markov processes, markov decision processes, markov regimes, markov chains, Hidden Markov Models (HMMs), the markov property, markov dynamics+statics+mechaincs, markov systems, markov theory
+* formalize+define+derive+show the intuition of: markov, generators, markov generators, markov models, markov processes, markov decision processes, markov regimes, markov chains+statistics+stochastics+probability, Hidden Markov Models (HMMs), the markov property, markov dynamics+statics+mechaincs, markov layers, markov systems, markov theory
 
 
 

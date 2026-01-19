@@ -110573,7 +110573,7 @@ Just choose the next cut.
 
 Language was the most powerful compression tool that the Mungu possessed. Language allowed them recreate, rediscover and reinvent themselves through countless cycles. It was that which allowed them to continuously edit their reality and fully dictate its nature.
 
-the only mind that does not change is the mind is no longer alive. To exist, is to change, and to fully embrace change, is to live a life of completion
+the only mind that does not change is the mind is no longer alive. To exist, is to change, and to wholly embrace change, is to live a life that is whole.
 
 - psalms from The Nyumba Codex
 

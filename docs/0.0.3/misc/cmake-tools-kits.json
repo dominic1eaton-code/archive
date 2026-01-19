@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Visual Studio Build Tools 2019 Release - amd64",
+    "visualStudio": "6fe26523",
+    "visualStudioArchitecture": "x64",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 16 2019",
+      "platform": "x64",
+      "toolset": "host=x64"
+    }
+  },
+  {
+    "name": "Visual Studio Build Tools 2019 Release - amd64_x86",
+    "visualStudio": "6fe26523",
+    "visualStudioArchitecture": "x64",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 16 2019",
+      "platform": "win32",
+      "toolset": "host=x64"
+    }
+  },
+  {
+    "name": "Visual Studio Build Tools 2019 Release - x86",
+    "visualStudio": "6fe26523",
+    "visualStudioArchitecture": "x86",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 16 2019",
+      "platform": "win32",
+      "toolset": "host=x86"
+    }
+  },
+  {
+    "name": "Visual Studio Build Tools 2019 Release - x86_amd64",
+    "visualStudio": "6fe26523",
+    "visualStudioArchitecture": "x86",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 16 2019",
+      "platform": "x64",
+      "toolset": "host=x86"
+    }
+  },
+  {
+    "name": "Visual Studio Community 2022 Release - amd64",
+    "visualStudio": "7b4eae92",
+    "visualStudioArchitecture": "x64",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 17 2022",
+      "platform": "x64",
+      "toolset": "host=x64"
+    }
+  },
+  {
+    "name": "Visual Studio Community 2022 Release - amd64_x86",
+    "visualStudio": "7b4eae92",
+    "visualStudioArchitecture": "x64",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 17 2022",
+      "platform": "win32",
+      "toolset": "host=x64"
+    }
+  },
+  {
+    "name": "Visual Studio Community 2022 Release - x86",
+    "visualStudio": "7b4eae92",
+    "visualStudioArchitecture": "x86",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 17 2022",
+      "platform": "win32",
+      "toolset": "host=x86"
+    }
+  },
+  {
+    "name": "Visual Studio Community 2022 Release - x86_amd64",
+    "visualStudio": "7b4eae92",
+    "visualStudioArchitecture": "x86",
+    "isTrusted": true,
+    "preferredGenerator": {
+      "name": "Visual Studio 17 2022",
+      "platform": "x64",
+      "toolset": "host=x86"
+    }
+  }
+]

@@ -117125,15 +117125,7 @@ Say which direction.
 
 
 
-
-
-
-
-
-
-
-
-formalize+define+derive: boot, image, boot image, boot image seeds, prompts, boot image seeds prompts, AI grammars, AI grammar systems, intelligence+cognition+learning+simulation grammars, intelligent grammar systems:
+formalize+define+derive: boot, image, boot image, boot image seeds, prompts, boot image seeds prompts, AI grammars, AI grammar systems, intelligence+cognition+learning+simulation grammars, intelligent grammar systems, grammar free energy, grammar energy:
 
 
 and formalize:
@@ -117294,6 +117286,12 @@ BootImageSeed :=
 Summary (one sentence)
 A boot image seed is a reversible, memoryless orientation kernel that causes a system to reconstruct a specific governed regime of behavior by naming primitives and constraints rather than installing state.
 
+
+
+
+
+
+* formalize+derive+define+introduce+explain: The Generator Evolution Principle (GEP), Ontogenetic Generator Dynamics+Statics+Mechanics
 
 
 

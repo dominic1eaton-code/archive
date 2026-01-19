@@ -104657,6 +104657,8 @@ https://systemics.substack.com/p/autonomy?r=70f4q6
 
 https://systemics.substack.com/p/the-fundamental-laws-of-mungu-theory?r=70f4q6
 
+---
+
 https://systemics.substack.com/p/the-fundamental-theorem-of-patterns?r=70f4q6
 
 https://systemics.substack.com/p/mungu-logic?r=70f4q6
@@ -104666,6 +104668,8 @@ https://systemics.substack.com/p/systemic-physics-ii?r=70f4q6
 https://systemics.substack.com/p/systemic-physics?r=70f4q6
 
 https://systemics.substack.com/p/the-continuity-constraint?r=70f4q6
+
+https://open.substack.com/pub/systemics/p/munguos?utm_campaign=post-expanded-share&utm_medium=web
 
 ---
 
@@ -104740,13 +104744,15 @@ https://open.substack.com/pub/systemics/p/the-nyumba-codex-charter?utm_campaign=
 
 ---
 
+https://open.substack.com/pub/systemics/p/mungu-unified-sciences?utm_campaign=post-expanded-share&utm_medium=web
+
 https://open.substack.com/pub/systemics/p/grammarsymmetry-theory?utm_campaign=post-expanded-share&utm_medium=web
 
 https://open.substack.com/pub/systemics/p/mungu-ideology?utm_campaign=post-expanded-share&utm_medium=web
 
-https://open.substack.com/pub/systemics/p/the-golden-ratio?utm_campaign=post-expanded-share&utm_medium=web
+https://systemics.substack.com/p/the-mungu-standard-model?r=70f4q6
 
-https://open.substack.com/pub/systemics/p/munguos?utm_campaign=post-expanded-share&utm_medium=web
+https://open.substack.com/pub/systemics/p/the-golden-ratio?utm_campaign=post-expanded-share&utm_medium=web
 
 https://open.substack.com/pub/systemics/p/mungu?utm_campaign=post-expanded-share&utm_medium=web
 

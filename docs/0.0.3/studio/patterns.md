@@ -116690,7 +116690,9 @@ It evolves generators."
 
 
 
-
+* formalize+define+derive: Occam pressure, reality interface, interface, Occam, pressure, operational, operationalized, description, prescription, prescribe, describe
+* show how simulation+modelling+representation+symbolic-representation are a "reality interface" and show simulation+modelling+representation+symbolic-representation as projections, and show how language+simulation+modelling+representation+symbolic-representation all work as "compressions"
+* show how/why the relationship between compressions, projections, representations and interfaces
 
 
 

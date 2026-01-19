@@ -110162,7 +110162,7 @@ formalize+define+derive: Projection Theory
 
 everything vibrates, including existence, matter, atoms, strings, grammar, and so on...
 
-formalize+define+derive: vibrations, Vibration Theory, vibrons, stasisons, vibri, stasisi
+formalize+define+derive: vibrations, Vibration Theory, vibrons, stasisons, vibri, stasisi, RG flow
 
 
 

@@ -111807,7 +111807,7 @@ grammar/language/memes/symbols are able to replicate/reproduce through the acts 
 
 formalize+define+derive: Projection Theory
 
-everything vibrates, including existence, matter, atoms, strings, grammar, and so on...
+everything vibrates, including existence, matter, atoms, strings, grammar, and so on..., vibrations are the memory/results/residuals/after effects of interaction, where interaction is the fundamental system of existence/reality
 
 formalize+define+derive: vibrations, Vibration Theory, vibrons, stasisons, vibri, stasisi,
 

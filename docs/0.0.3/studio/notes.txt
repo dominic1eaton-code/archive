@@ -3174,6 +3174,132 @@ clevon      — cleaving event
 ```
 
 
+### IV.1 Primitive / Meta Structure Rule
+
+```
+-xon = atomic carrier
+-xi  = structured field of xons
+```
+
+---
+
+## IV.2 Definitions
+
+### houson / housi
+
+```
+houson := atomic survivable kernel unit
+housi  := field of housons (house)
+```
+
+---
+
+### theoron / theori
+
+```
+theoron := minimal explanatory invariant
+theori  := structured explanatory field
+```
+
+---
+
+### structon / structi
+
+```
+structon := atomic relational constraint
+structi  := structure field
+```
+
+---
+
+### flowon / flowi
+
+```
+flowon := atomic transport unit
+flowi  := flow field
+```
+
+---
+
+### fluxon / fluxi
+
+```
+fluxon := atomic change carrier
+fluxi  := flux field
+```
+
+---
+
+### formon / formi
+
+```
+formon := atomic shape invariant
+formi  := form field
+```
+
+---
+
+### Meta-Primitive Closure Law
+
+```
+∀ xi ∈ {housi, theori, structi, flowi, fluxi, formi} :
+∂xi/∂t = − Ω_shadow + regeneration
+```
+
+
+### V.1 Environs / Environi
+
+```
+environ := atomic environmental interaction
+environi := environment field
+```
+
+```
+environ ∈ Ω_env
+```
+
+---
+
+### V.2 Ecolons / Ecoloni
+
+```
+ecolon := atomic ecological interaction
+ecoloni := ecology field
+```
+
+Examples:
+
+```
+competition ecolon
+symbiosis ecolon
+```
+
+---
+
+### V.3 Mapons / Mapi
+
+```
+mapon := atomic compressed terrain feature
+mapi  := map field
+```
+
+```
+Σ mapons = map
+```
+
+---
+
+### V.4 Compassons / Compassi
+
+```
+compasson := atomic orientation impulse
+compassi  := orientation field
+```
+
+```
+compassi aligns action with survival gradient
+```
+
 
 ---
 

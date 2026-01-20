@@ -131546,6 +131546,9 @@ Just name the target.
 * formalize+define+derive+name: Ω_vis, Ω_shadow, Ker(Π), INT, Im(Π), INT_vis, INT_shadow  
 
 
+
+
+
 check+validate+organizeformalize the following passages:
 
 Grammars were the first systems, rewrites were the second. Grammars were the first asymmetric+distinct systems that provided the conditions that allowed for the emergence of incomplete+asymmetric+ patterns. These incomplete patterns where then pattern completed by symetric+distinguishable rewrite systems, and then so began the asymemtric+symmetric cycle of pattern complete<->incompletion, all which were an attempt to satisfy the universal existence condition of closure. Closure was the minimal condition+cost of peristent existence and distinguishable asymmetric invariance from pure symmetry, bounded by the solution of the fundamental minimax problem of maximizing asymmetric complexity while minimizing symmetric entropy. Closure allowed and drove the first systems to complete one another patterns, which then allowed them the capability to cleave+move between different states and progress their kontinuity k. This ultimately facilitated the process of compression<->decompression, which provided the first systems a mechanisms to grow, manage and optimize their complexity, as to overcome constant entropic decay, which invariably allowed the first systems to survive and persistently exist and preserve the kontinuities invariantly throughout time+space+complexity+entropy.
@@ -131558,6 +131561,9 @@ humans, and all things capable of model simulation and representation modelling,
 
 
 - passages from the Mungu Book of Grammar
+
+
+
 
 
 

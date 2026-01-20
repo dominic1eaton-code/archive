@@ -131543,7 +131543,15 @@ If you want next, I can:
 Just name the target.
 
 * formalize+define+derive+name: ∫ (C/S) |∇S| ds   +   ∫ Ker(Π)   >=   φ
-* formalize+define+derive+name: Ω_vis, Ω_shadow, Ker(Π), INT, Im(Π), INT_vis, INT_shadow  
+* formalize+define+derive+name: Ω_vis, Ω_shadow, Ker(Π), INT, Im(Π), INT_vis, INT_shadow
+
+
+
+
+
+
+* formalize+define+derive: reconstruction, reconstruction pressure, meme, memetic reconstruction, reconstruction grammars, grammatical reconstruction
+
 
 
 

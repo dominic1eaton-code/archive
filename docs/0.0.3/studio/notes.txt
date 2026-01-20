@@ -3174,6 +3174,57 @@ clevon      — cleaving event
 ```
 
 
+
+---
+
+## B.1 Atomic Primitives
+
+These are **irreducible carriers**.
+
+```
+zeton   := atomic inquiry impulse
+meton   := atomic meta-inquiry impulse
+memon   := atomic meme
+culton  := atomic cultural unit
+civon   := atomic civilization unit
+```
+
+---
+
+## B.2 Derived Meta-Primitives
+
+These are **structured collections**.
+
+```
+zeti   := structured set of zetons (inquiry system)
+meti   := structured set of metons (meta-grammar)
+culti  := structured set of cultons (culture)
+civi   := structured set of civons (civilization)
+```
+
+---
+
+## B.3 Formal Construction
+
+```
+zeti  = ⟨ zeton_i | rules of inquiry ⟩
+meti  = ⟨ zeti_j | grammar of grammars ⟩
+culti = ⟨ memon_k, zeti_l, G_C ⟩
+civi  = ⟨ culti_m, G_V, Π_V ⟩
+```
+
+---
+
+## B.4 Containment Hierarchy
+
+```
+zeton -> zeti -> meti
+memon -> culton -> culti
+culton -> civon -> civi
+```
+
+
+
 I.1 Primitive / Meta-Primitive
 We introduce no new root law. Black swans are derived phenomena from closure, width, and asymmetry.
 

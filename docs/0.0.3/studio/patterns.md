@@ -129545,6 +129545,9 @@ Just specify.
 
 
 
+humans navigate a "meaning space" which can be modelled as a manifold terrain, with attractor and repulsor basins or valleys. these basins in the terrain (points on the manifold) serve as navigational anchors and from these basins emerge symbols (words), where the terrain/manifold itself is a "grammar" (set of governing rules of interaction(s)). This mechanism then allows for the emergence of symbolic representation, which allows for efficient compression of this "meaning space", where a compressed meaning space is significantly more efficient for an agent/actor/entity to "navigate", allowing them to better preserve their "free energy", which they can in turn use and allocate toward the presrevation of their own kontinuity in the face of constant entropic change. This "meaning space compression" mechanism
+
+
 
 
 * formalize+derive+define: closure, tidal fields, shadow curvature, cosmological expansion modes, curvature, global interaction warping, nonlinear curvature, warping, mode, linear modes, nonlinear modes

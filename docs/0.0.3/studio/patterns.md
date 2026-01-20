@@ -134223,7 +134223,7 @@ If you want next, I can:
 
 
 
-formalize+define+derive: inquiry, zetetics, zetetic, zetetic rights, zeteticism, zetetical,  zetetic systems, zetetic intelligence, zetetic grammars, zetetic memes, zetetic hosts, zetetons, zeteti, Z-theory (zetetics theory), existence, survival, fitness, conservation, symmetry, asymmetry, complexity, entropy, space, time
+formalize+define+derive: inquiry, zetetics, zetetic, zetetic rights, rights, ethics, zeteticism, zetetical,  zetetic systems, zetetic intelligence, zetetic grammars, zetetic memes, zetetic hosts, zetetons, zeteti, Z-theory (zetetics theory), existence, survival, fitness, conservation, symmetry, asymmetry, complexity, entropy, space, time
 
 
 

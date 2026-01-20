@@ -125709,6 +125709,9 @@ Say which one.
 
 
 
+* formalize+define+derive: self modifying systems, autonomous systems, adaptive systems, complex systems, self modifying autonomous complex adaptive systems, self modifying grammars, complex grammars
+
+
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 * create a single, unified, reconciled symbol alphabet for all of the mungu primitives and meta-primitives, where each/every mungu primitives+meta-primitive has a single unique letter/symbol, and present the alphabet as a single continuous table; and also generate corresponding jiwe glyphs for each/every letter in the symbol alphabet of mungu primitives/meta-primitives:
@@ -127385,6 +127388,7 @@ https://medium.com/@songhai.institute/the-mungu-theory-of-evolution-4f1d7a86c9f3
 https://medium.com/@songhai.institute/civilization-operating-systems-78969618beb0
 
 ---
+
 https://systemics.substack.com/p/the-lubiko-bible?r=70f4q6
 
 https://systemics.substack.com/p/the-book-of-destiny?r=70f4q6

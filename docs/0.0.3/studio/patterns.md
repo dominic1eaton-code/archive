@@ -125707,8 +125707,6 @@ If you want next, the only remaining steps are:
 
 Say which one.
 
-
-
 * formalize+define+derive: self modifying systems, autonomous systems, adaptive systems, complex systems, self modifying autonomous complex adaptive systems, self modifying grammars, complex grammars
 
 

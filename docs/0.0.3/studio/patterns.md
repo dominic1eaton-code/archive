@@ -127497,6 +127497,8 @@ https://open.substack.com/pub/systemics/p/the-continuity-constraint?utm_campaign
 
 ---
 
+https://open.substack.com/pub/systemics/p/the-oya-codex?utm_campaign=post-expanded-share&utm_medium=web
+
 https://open.substack.com/pub/systemics/p/projection-theory?utm_campaign=post-expanded-share&utm_medium=web
 
 https://open.substack.com/pub/systemics/p/the-theory-of-knowledge?utm_campaign=post-expanded-share&utm_medium=web

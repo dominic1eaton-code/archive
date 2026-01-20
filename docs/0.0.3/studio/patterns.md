@@ -123005,9 +123005,19 @@ collapse and synthesize this entire chat and generate the complete structure of 
 
 
 
-formalize+derive+define: system, grammar-primacy, grammar automorphism, grammar heteromorphism, morphism, automorphism, heteromorphism, grammar projection, grammar systems, rewrite systems, The Oya System, the mungu system, the western system, the ubuntu system, the aiye system, the orun system, the egungun system, the kigeni system, theory system, codex system, kernel system, seed system, tree system, forest system, network system, mychorrizal network system, string system, loop system, cycle system, interaction system, particle system, structure system, form system, flux system, flow system, renormalization system, shadow system, occluder system,, entity+actor+agent system, compression systems, projection systems, invariant system, class system, operator system, primitive system, meta-primitive system, automorphic system, heteromorphic system, theory system, primacy systems
+formalize+derive+define: system, grammar-primacy, grammar automorphism, grammar heteromorphism, morphism, automorphism, heteromorphism, grammar projection, grammar systems, rewrite systems, non-comutative rewrites, comutative rewrites, The Oya System, the mungu system, the western system, the ubuntu system, the aiye system, the orun system, the egungun system, the kigeni system, theory system, codex system, kernel system, seed system, tree system, forest system, network system, mychorrizal network system, string system, loop system, cycle system, interaction system, particle system, structure system, form system, flux system, flow system, renormalization system, shadow system, occluder system,, entity+actor+agent system, compression systems, projection systems, invariant system, class system, operator system, primitive system, meta-primitive system, automorphic system, heteromorphic system, symbol system, language system, representation system, evolution system, theory system, reversible systems, irreversible systems, primacy systems
 
 
+
+Rewrites can both consequentally reduce or augemnt the possibility space of a system. Reduction of possibility decreases uncertainty, but also simultaneaouly decreases possibilities. Augemntation of possibility space increases uncertainty, but also makes more choices, options and system states possible.
+
+The more irreversible, non-commutative rewrites that happen, the lower uncertainty and greater definitiveness, boundary, constraint, and limitation there then exists for a system. Systems attempt to symmetrically balance and asymmetrically solve a minimax problem of being rigid enough to sustain continued persistent existence through non-commutative rewrites, yet not so or too rigid that they are no longer able to adapt to constant change due to systemic entropy.
+
+Rewrite becomes the fundamental mechanism of survival, and facilitates continued persistent existence of system. 
+
+Rewrite is the ability to adapt to change. It is then, the system that is most adaptable to change, while invariantly preserving its Kontinuity K, that is the system that optimally, and ultimately, survives.
+
+- passage from the Mungu Book of Life
 
 
 ============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

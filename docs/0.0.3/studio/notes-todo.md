@@ -15,3 +15,5 @@
 * relate the theory of systems, the golden ratio, grammars and the power law
 
 * define+formalize+derive: the power law
+
+* The Mungu Book of Systems: A taxonomy and classification guide of all known systems, theories and grammars

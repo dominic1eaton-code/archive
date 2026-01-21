@@ -45,12 +45,12 @@ Mungonic = Superset of the Realmonic + Realitonic + Domainonic
 formalize+define+derive: generative grammars, grammar generators, grammar generation, grammar structuralization, grammar formalization, grammar application, grammar formulation, grammar division, grammar navigation, grammar navicartogation
 
 
-* formalize+define+derive: kontinuity, continuity, pressure, stressed, shocks, stability, instability, coherence, institutional coherence, chaos, semantics, semantic invariants, meaning, definition, axiom, law, theorem, equation, inequality
+* formalize+define+derive: kontinuity, continuity, pressure, stressed, shocks, stability, instability, coherence, institutional coherence, chaos, semantics, semantic invariants, meaning, definition, axiom, law, theorem, equation, inequality, selection, mutation, drift, slop
 
 * give examples of how kontinuity+continuity+pressure+stress+shock+stability+instability+coherence+chaos are defined for real systems (physical, social, economic, autonomous, etc...)
 
 
-
+* formalize+define+derive: grammar drift, drift grammars, selection grammars, grammar mutation, grammar adaptation, adaptive grammars
 
 
 

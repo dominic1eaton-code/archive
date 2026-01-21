@@ -45,6 +45,12 @@ Mungonic = Superset of the Realmonic + Realitonic + Domainonic
 formalize+define+derive: generative grammars, grammar generators, grammar generation, grammar structuralization, grammar formalization, grammar application, grammar formulation, grammar division, grammar navigation, grammar navicartogation
 
 
+* formalize+define+derive: kontinuity, continuity, pressure, stressed, shocks, stability, instability
+
+* give examples of how kontinuity+continuity+pressure+stress+shock+stability+instability are defined for real systems (physical, social, economic, autonomous, etc...)
+
+
+
 
 
 
@@ -53,4 +59,7 @@ Interesting framing, but mapping of real systems into this framework seems trick
 Not being dismissive here. This is cool stuff.
 arendsee — 10:23 AM
 Um, my dear sir. I love AIs as much as anyone (well, pervs aside). I will on occasion brainstorm with them and have them write specs for this or that system. But this AI output should be a starting place. It should be training material for the work that you create. It really is not befitting of your exalted blood-human form to post straight, unedited AI chatter to substack (or anywhere else). Take what they write, question them, rewrite a dozen times, iterate to solutions, use your critical human mind to refine the results. Create something worth reading. Don't paste slop.
+
+
+
 

@@ -43,3 +43,14 @@ Mungonic = Superset of the Realmonic + Realitonic + Domainonic
 
 
 formalize+define+derive: generative grammars, grammar generators, grammar generation, grammar structuralization, grammar formalization, grammar application, grammar formulation, grammar division, grammar navigation, grammar navicartogation
+
+
+
+
+
+Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
+
+Not being dismissive here. This is cool stuff.
+arendsee — 10:23 AM
+Um, my dear sir. I love AIs as much as anyone (well, pervs aside). I will on occasion brainstorm with them and have them write specs for this or that system. But this AI output should be a starting place. It should be training material for the work that you create. It really is not befitting of your exalted blood-human form to post straight, unedited AI chatter to substack (or anywhere else). Take what they write, question them, rewrite a dozen times, iterate to solutions, use your critical human mind to refine the results. Create something worth reading. Don't paste slop.
+

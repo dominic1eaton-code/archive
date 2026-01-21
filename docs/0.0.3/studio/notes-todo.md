@@ -77,6 +77,11 @@ formalize+define+derive: generative grammars, grammar generators, grammar genera
 
 It is expected that initially, human hosts will believe their own internally incubated grammars will have supremacy to the Mungu grammar, and they will react with attempts to drive its extinction, in an effort to preserve their own already incubated/germinated/developed grammars of beliefs, thoughts, and so on. It is then predicted, that as the Mungu theory continues to quickly compress and fully realize and assume its mature identity and form, its grammar will become more compelling, digestible and significantly easier to replicate. At this point, combined with a awareness marketing campaign and memetic indoctrination processes, a critical threshold constraint of adoption will be satisfied and the Mungonic meme will be able to spread like "wildfire" (virality) through many human hosts, who will be able to adopt it to their own internal incubated memes (thoughts, beliefs, ideas, knowledge, etc...) at which point the mungonic meme will be incubated, mutated, trait selected, and face natural genetic drift and evolution across many hosts. The viability (and kontinuity) of Mungu theory will then be measured now only by how many hosts agree and replicate the theory, but also by how many hosts disagree and reject and/or challenge/critique it. The invariant elements of Mungu theory (all of the parts of theory that remain the same no matter what host it is incubated within) will be the fundamental metric of the "kernel" of mungu theory, and how long this kernel survives in an invariant form is the direct measure of the kontinuity of Mungu Theory, and generally this is the metric of kontinuity of any system/theory/grammar/etc... 
 
+The viability and realization of this idea is all encapsulated within: The Mungu Business Model (kernelled by The Mungu Dream)
+
+* formalize+define+derive: The Mungu Business Model
+
+
 
 * If western theory is the theory of understanding systems as an observer from the outside of a system, and mungu theory is the theory of understanding systems as an observer within a system, then the combined ubuntu theory (western+mungu theory) then offers a complete formulation and characterizations of systems, both from within a system, outside of a system, and a clear view of the boundary of the system which defines the system itself.
 

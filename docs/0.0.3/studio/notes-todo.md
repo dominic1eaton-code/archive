@@ -64,7 +64,7 @@ formalize+define+derive: generative grammars, grammar generators, grammar genera
 
 * formalize+define+derive: reaction, response, reaction theory, response theory
 * compare+contrast reaction theory vs response theory vs the theory of slop
-* intelligent/reasoning system "react" immediately when met with entropy pertubation events and "respond" when met with managed complexity pertubation events?
+* intelligent/reasoning system "react" immediately when met with entropy perturbation events and "respond" when met with managed complexity perturbation events?
 
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
 

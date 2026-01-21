@@ -87,6 +87,7 @@ The viability and realization of this idea is all encapsulated within: The Mungu
 
 * mungu theory posits system-primacy, and is an abstract meta-framework that generates concretes theories where systems come first, and interactions precede particles and individuals.
 
+* formalize+derive+define: system-primacy, interaction-primacy, grammar-primacy, particle-primacy, selection-primacy, neutral-primacy, primacy, primacy systems, primacy grammars, primacy interaction, primacy particles, primacy theory
 
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
 

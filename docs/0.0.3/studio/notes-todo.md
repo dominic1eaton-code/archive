@@ -50,8 +50,11 @@ formalize+define+derive: generative grammars, grammar generators, grammar genera
 * give examples of how kontinuity+continuity+pressure+stress+shock+stability+instability+coherence+chaos are defined for real systems (physical, social, economic, autonomous, etc...)
 
 
-* formalize+define+derive: grammar drift, drift grammars, selection grammars, grammar mutation, grammar adaptation, adaptive grammars
+* formalize+define+derive: grammar drift, drift grammars, selection grammars, grammar mutation, grammar adaptation, adaptive grammars, pseudo, quasi, pseudogrammars, qausigrammars, complete grammars, incomplete grammars, grammar closure
 
+
+
+* humans, and all living things, optimize for looking at and compressing toward the most salient parts of an object, as energy cost for looking at whole objects is too high cost, and invariably leads to rapid entropic decay within a system.
 
 
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.

@@ -2114,6 +2114,27 @@ ESE → OVCS Authority (governance)
 
 
 
+
+in a tabular form similar to this structure:
+W-0009: The Eaton Family Estate        : strategy, 2026-07-19, 1d
+P-0009: Family Estate                   : plan, 2026-07-19, 1d
+TH-0009: Family Estate & Boundary       : tactic, after 2026-07-19, 1d
+I-0009: Estate & Firewall               : milestone, after 2026-07-19, 1d
+E-0025: Estate Governance Setup         : milestone, after 2026-07-20, 1d
+S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
+
+
+
+==============================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
 Below is a **clean, disciplined naming scheme** that respects your constraints:
 
 * **Primitive names end in `-on`**
@@ -2416,20 +2437,6 @@ If you want next, I can:
 * derive the **Ω★ ≥ φ inequality** purely from Ratioi + Omegi
 
 Just say the direction.
-
-
-
-in a tabular form similar to this structure:
-W-0009: The Eaton Family Estate        : strategy, 2026-07-19, 1d
-P-0009: Family Estate                   : plan, 2026-07-19, 1d
-TH-0009: Family Estate & Boundary       : tactic, after 2026-07-19, 1d
-I-0009: Estate & Firewall               : milestone, after 2026-07-19, 1d
-E-0025: Estate Governance Setup         : milestone, after 2026-07-20, 1d
-S-1097 (req): Draft estate governance docs           : 2026-07-20, 7d
-
-
-
-==========================================================================================================================================
 
 
 Below is a **Nyumba-canonical formalization** of **kwanzas, kwanzons, kwanzi**, and **interi / interon**, written as a **general abstraction of “group / grouping / collectivity”** that subsumes sets, groups, categories, swarms, institutions, and civilizations—while remaining compatible with aurilons, automata, and φ+ε stability.

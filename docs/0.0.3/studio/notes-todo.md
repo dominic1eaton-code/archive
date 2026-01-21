@@ -8,7 +8,9 @@
 * Mungu Theory is the grammar meta-framework systems generator, that from which new, empirical+physical+mathematical+social+scientific+engineering+etc... systems and system models can be cleaved, assessed, tested, verifiied, validated, further cleaved into new/redistributed systems, and so on...
 
 
-* formalize+define+derive: agent+actor+entity recognition patterns, agent+actor+entity completion patterns, agent+actor+entity closure patterns, agent+actor+entity systems, agent+actor+entity grammars, agent+actor+entity patterns, agent+actor+entity structures+flows+forms+fluxes, agent+actor+entity systems, latent, hidden, shadow, patterns
+* formalize+define+derive: agent+actor+entity recognition patterns, agent+actor+entity completion patterns, agent+actor+entity closure patterns, agent+actor+entity systems, agent+actor+entity grammars, agent+actor+entity patterns, agent+actor+entity structures+flows+forms+fluxes, agent+actor+entity systems,
+
+* formalize+define+derive: latent, hidden, shadow, patterns, operating model, self modelling, isomorphism
 
 * relate the theory of systems, the golden ratio, grammars and the power law
 

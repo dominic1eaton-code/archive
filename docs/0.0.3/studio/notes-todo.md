@@ -74,5 +74,5 @@ Um, my dear sir. I love AIs as much as anyone (well, pervs aside). I will on occ
 - integrate molecular evolution theory into Mungu Theory
 - integrate Motoo Kimura's Neutral Theory into Mungu Theory
 - integrate Neutral theory of molecular evolution into Mungu Theory
-- integrate into Mungu Theory: Constructive neutral evolution, Coalescent theory, selectionist<->neutralist dualonic pair, Adaptationism, McDonald–Kreitman test, Infinite sites model, Unified neutral theory of biodiversity, Molecular evolution, Evolution of biological complexity
+- integrate into Mungu Theory: Constructive neutral evolution, Coalescent theory, selectionist<->neutralist dualonic pair, Adaptationism, McDonald–Kreitman test, Infinite sites model, Unified neutral theory of biodiversity, Molecular evolution, Evolution of biological complexity, → unify it all into “Mungu Biology” and The Biology of Grammars
 - formalize+define+derive: The survivor's advantage ~ things that survive have advantage over things that don't, they are able to continuous modify grammars left behind by things that no longer exist/live, they are best positioned to shape future grammars as well

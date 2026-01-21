@@ -25,3 +25,6 @@
 - The Theory of Autnomous Systems
 - The Theory of Complex Systems
 - The Theory of Complex Adaptive Systems
+- The Theory of Automata
+- The Theory of Terraformata
+

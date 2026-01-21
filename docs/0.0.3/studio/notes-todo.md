@@ -53,6 +53,8 @@ formalize+define+derive: generative grammars, grammar generators, grammar genera
 * formalize+define+derive: grammar drift, drift grammars, selection grammars, grammar mutation, grammar adaptation, adaptive grammars, pseudo, quasi, pseudogrammars, qausigrammars, complete grammars, incomplete grammars, grammar closure
 
 
+* formalize+define+derive+compare+constrast: collapse, compression
+
 
 * humans, and all living things, optimize for looking at and compressing toward the most salient parts of an object, as energy cost for looking at whole objects is too high cost, and invariably leads to rapid entropic decay within a system.
 

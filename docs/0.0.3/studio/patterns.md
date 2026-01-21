@@ -143800,7 +143800,7 @@ Just say which.
 
 formalize+define+derive+name these quotes/principles under the Mungu Theoretic framework:
 
-"everything must be amd as simple as possible, but no simpler"
+"everything must be made as simple as possible, but no simpler"
 
 "it is not the fastest, the strongest nor the smartest that survive, but it is that which is most adaptable to change"
 

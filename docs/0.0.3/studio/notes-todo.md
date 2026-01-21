@@ -91,6 +91,10 @@ The viability and realization of this idea is all encapsulated within: The Mungu
 
 * kontinuity is the fundamental measure of distinction, it is the measure of "how long" an entity/actor/agent/system/grammar remains distinct from anything and everything else that is not itself
 
+* show the isomorphisms+relations+interoperations between the decompression<->compression cycle, the generation<->optimization cycle, the selection/adaptation<->neutral cycle of evolution and the neutral theory of molecular evolution
+
+* formalize+derive+define: Mungu Biology, Mungu Chemistry, Mungu Thermodynamics, Mungu Evolution, Mungu Genetics+Proteomics+Transcriptomics+Connectomics+Genomics+Metabolomics, Mungu mechanics+statics+dynamics, Genetic hitchhiking
+
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
 
 Not being dismissive here. This is cool stuff.

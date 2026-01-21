@@ -79,9 +79,9 @@ It is expected that initially, human hosts will believe their own internally inc
 
 The viability and realization of this idea is all encapsulated within: The Mungu Business Model (kernelled by The Mungu Dream)
 
-* formalize+define+derive: The Mungu Business Model
+* formalize+define+derive: The Mungu Business Model, The Mungu Dream
 
-
+* The theory of Everything is the theory of that which came first. Everything is a system, because systems, the kernel of interactions, came first.
 
 * If western theory is the theory of understanding systems as an observer from the outside of a system, and mungu theory is the theory of understanding systems as an observer within a system, then the combined ubuntu theory (western+mungu theory) then offers a complete formulation and characterizations of systems, both from within a system, outside of a system, and a clear view of the boundary of the system which defines the system itself.
 

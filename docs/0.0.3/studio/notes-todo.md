@@ -40,3 +40,6 @@ Domainonic = Abstract structure
 Mungonic = Superset of the Realmonic + Realitonic + Domainonic
 
 
+
+
+formalize+define+derive: generative grammars, grammar generators, grammar generation, grammar structuralization, grammar formalization, grammar application, grammar formulation, grammar division, grammar navigation, grammar navicartogation

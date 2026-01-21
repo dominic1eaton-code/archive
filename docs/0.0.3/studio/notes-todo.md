@@ -57,6 +57,10 @@ formalize+define+derive: generative grammars, grammar generators, grammar genera
 * humans, and all living things, optimize for looking at and compressing toward the most salient parts of an object, as energy cost for looking at whole objects is too high cost, and invariably leads to rapid entropic decay within a system.
 
 
+* formalize+define+derive: The Theory of Slop ~ human compression optimization function leading to ignoring/rejection of non-salient/important/high social capital/proof / fringe ideas, all compressed down into an object known as “slop”, as a means to preserve human mental energy, maintain complexity fidelity, and better fight against natural entropic decay of human systems. The dual problem of “The theory of Slop” is when “slop” is reversed/flipped and becomes high fidelity, is infused with high social capital/value, becomes a highly compressed and comprehensible idea, and ultimately begins to spread through hosts, reaching acceptance among human hosts, instead of initial dismissal+rejection (applies to both human and AI “slop”, and generally any intelligence/reasoning system “slop”)
+
+
+
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations. And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
 
 Not being dismissive here. This is cool stuff.
@@ -70,4 +74,5 @@ Um, my dear sir. I love AIs as much as anyone (well, pervs aside). I will on occ
 - integrate molecular evolution theory into Mungu Theory
 - integrate Motoo Kimura's Neutral Theory into Mungu Theory
 - integrate Neutral theory of molecular evolution into Mungu Theory
+- integrate into Mungu Theory: Constructive neutral evolution, Coalescent theory, selectionist<->neutralist dualonic pair, Adaptationism, McDonald–Kreitman test, Infinite sites model, Unified neutral theory of biodiversity, Molecular evolution, Evolution of biological complexity
 - formalize+define+derive: The survivor's advantage ~ things that survive have advantage over things that don't, they are able to continuous modify grammars left behind by things that no longer exist/live, they are best positioned to shape future grammars as well

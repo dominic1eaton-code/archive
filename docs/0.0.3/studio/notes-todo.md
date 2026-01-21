@@ -28,3 +28,15 @@
 - The Theory of Automata
 - The Theory of Terraformata
 
+
+
+
+formalize+define+derive: Mungonic, Realitonic, Realmonic, Domainonic, Reality Layers, abstract, concrete
+
+RDR (Reality Layers):
+Realmonic = Instantiated dynamics
+Realitonic = State-space of realities
+Domainonic = Abstract structure
+Mungonic = Superset of the Realmonic + Realitonic + Domainonic
+
+

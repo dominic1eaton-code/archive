@@ -31,7 +31,7 @@
 
 
 
-formalize+define+derive: Mungonic, Realitonic, Realmonic, Domainonic, Reality Layers, abstract, concrete
+formalize+define+derive: Mungonic, Realitonic, Realmonic, Domainonic, Reality Layers, abstract, concrete, generator theory
 
 RDR (Reality Layers):
 Realmonic = Instantiated dynamics

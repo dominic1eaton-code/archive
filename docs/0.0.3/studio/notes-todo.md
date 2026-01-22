@@ -131,6 +131,11 @@ The viability and realization of this idea is all encapsulated within: The Mungu
 
 * Integrate into Mungu Theory: dilatons, radions, Higgs dilaton, cosmology grammars, cosmological systems
 
+* formalize+define+derive: bush theory, the bush, symbiosis theory, endosymbiosis theory, symbiosis, endosymbiosis, exosymbiosis, ectosymbiosis, symbiote, symbiotic+endosymbiotic+exosymbiotic+ectosymbiotic grammars+systems+structures+flows+memes, memetic symbiotes, symbiogenesis
+
+* On the first prokaryotic hosts. Under endosymbiosis theory, mitochondria and chloropasts were said to have been engulfed by host prokyarotic cells, with this ingestion process leading to a further process of integration and subsequent "complexation". The Complexation process is seen generally within/among memes and memetic hosts, where memes are transfered and "consummed/ingested" by hosts, which then incubate and grow these memes, allowing "prokayrotic" hosts (with prokayrotc grammars) to "complexify" into "eukaryotic hosts" (with composed eukaryotic grammars). The is "The Principle of Complexity Composition" that realizes the "Grammar (symbio)genesis program" the core mechanism that generates grammars+systems+structures+flows+etc…
+
+* DNA/gene size, the golden ratio, DNA data compression optimization, balancing between repetitive+"junk" DNA and "functional" DNA as a means to have enough entropy diversity to adapt, and enough complexity rigidity to maintain kontinuity+distinction preservation
 
 Interesting framing, but mapping of real systems into this framework seems tricky. How is continuity and pressure defined for a given system? The pressure on a society is listed as "resource pressure + institutional incoherence". But why? I think of other formulations (*what other formulations do you think of?). And how is resource pressure here measured and quantified? You might be interested in reading up on molecular evolution theory. That field deals with the preservation of information under constant loss (random mutations) countered by selection. You'll need to dive pretty deep to find the good stuff -- there's a lot of pop fluff floating about -- for the real theory you might start with Motoo Kimura and the related selectionist versus neutralist debates.
 

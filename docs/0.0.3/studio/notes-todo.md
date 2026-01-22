@@ -10,7 +10,7 @@
 
 * formalize+define+derive: agent+actor+entity recognition patterns, agent+actor+entity completion patterns, agent+actor+entity closure patterns, agent+actor+entity systems, agent+actor+entity grammars, agent+actor+entity patterns, agent+actor+entity structures+flows+forms+fluxes, agent+actor+entity systems,
 
-* formalize+define+derive: latent, hidden, shadow, patterns, operating model, self modelling, isomorphism, taxonomy, classification, guide, report
+* formalize+define+derive: latent, hidden, shadow, patterns, operating model, self modelling, isomorphism, taxonomy, classification, guide, report, self modification, self modifying grammars, self modelling grammars, self stable dualonic pair mononic aurilon grammars+systems+structures+flows
 
 * relate the theory of systems, the golden ratio, grammars and the power law
 

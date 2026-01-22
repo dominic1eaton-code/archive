@@ -82,7 +82,7 @@ Every domain that mungu theory encounters, offers both the opportunity for growt
 The viability and realization of this idea is all encapsulated within: The Mungu Business Model (kernelled by The Mungu Dream and seeded by Mungu Theory) ~ these are the primary products of the Mungu Corporation
 
 
-* On the use and utility of Mungu Theory:
+* On the use and utility of Mungu Theory: The Theory of Mungu is a meta framework, an abstraction that allows for and orients the generation of concrete models that can be empirically validated, tested, validated, and measured. Metaframework theory+grammar+system generators are themselves theories+grammars+systems, and they provide the "tools" and "language" for better describing more concrete, practical models. This is noted as it is not the intention of Mungu Theory to be directly applied to solve problmes. It is the aim+goal+purpose of Mungu Theory to better orient agents, shifting mindsets, which will invariably allow them to then create and develop better models, and maps, of themselves and their environments, which can then, in turn, be used for practical application and scientific evaluation. This is the boundary layer of Mungu theory, the boundary between what/why it is, and what/why it is not
 
 * Systems are processes, systems are programs, systems are routines, systems give things room and space to breath, think and live. Systems are measurable, systems are consistent. Everything is a system and systems are all things. Systems are that which allow for compression, systems are that which allow anything to persist.
 

@@ -3376,7 +3376,7 @@ Say the word.
 
 
 
-• formalize+derive+define: kernel holonomy, holonomy, gauge, gauge fields, torsion, charge, kernel curvature
+• formalize+derive+define: kernel holonomy, holonomy, gauge, gauge fields, torsion, charge, kernel curvature, efficiency
 • gauge fields as kernel holonomy
 • charge as torsion flux
 • gravity as kernel curvature

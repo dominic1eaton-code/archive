@@ -2319,3 +2319,10 @@ Mungu Theory survives due to the balancing of depth and breath ~ quality and qua
 
 * formalize+define+derive: The Primal Motivation, The Dual Motiviation
     - the desire/necessity to survive + the desire/necessity to find closure
+
+
+Navigator’s Note:
+
+“I want to feel worthy, and I want to feel free.“
+
+- Hazel-May McCall

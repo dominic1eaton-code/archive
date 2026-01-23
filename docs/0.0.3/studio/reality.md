@@ -2337,4 +2337,3 @@ Navigator’s Note:
   - firm (structure) + organization (flow)
 
 * The Mungu Book of Mind ~ The map of a human mind
-

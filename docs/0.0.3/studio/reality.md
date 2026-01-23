@@ -2329,4 +2329,5 @@ Navigator’s Note:
 
 
 * Operations Manual Book: The Business Vehicle - Methods for developing, optimizing, distributing, deploying and scaling any system
-
+- business model + value proposition (product|solution|service|application|platform)
+- firm (structure) + organization (flow)

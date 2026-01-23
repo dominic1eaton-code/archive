@@ -3391,3 +3391,9 @@ All of human knowledge is a map, projected into many local domains, created so t
 * merchant+interchange fees, merchant vs membership charging/pricing model
 
 formalize+define+derive: The Theory of Maps
+
+formalize+define+derive: domain, domain projection, domain metric, domainology, the domainonic (set of all domains), domain genesis, domain kernel, domain formation, domain generation+structuralization+formalization+application
+
+formalize+define+derive: reality, reality projection, reality metric, realitology, the realitonic (set of all realities),, reality genesis, reality kernel, reality formation, reality generation+structuralization+formalization+application
+
+formalize+define+derive: realm, realm projection, realm metric, realmology, the realmonic (set of all realms), realm genesis, realm kernel, realm formation, realm generation+structuralization+formalization+application

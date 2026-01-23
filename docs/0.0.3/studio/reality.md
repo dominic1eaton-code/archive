@@ -2263,6 +2263,8 @@ Measured differently, but structurally identical.
 fundamental := the minimal viable distinction ~ the boundary layer between "somethingness" and "nothingness"
 
 The Fundamental Laws of All Theories
+The Golden Cleave[s] (Of The Nyumba ~ The Theory of All Theories)
+The Pentateuch + Dilaton Laws/Books of the Lubiko Bible
 
 Cleave 1 - 1
 * The Fundamental Law of Survival: Every thing and All things are bounded by reality, and all things bounded by reality, survive ~ the primal motivation

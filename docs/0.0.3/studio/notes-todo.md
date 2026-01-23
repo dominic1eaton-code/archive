@@ -1840,7 +1840,7 @@ Interpretation:
 
 ---
 
-## Definition 2 — Netropy (N)
+## Definition 2 — Netropy (N) (Gibbs Free Energy? that maintains/realizes/defines the kontinuity of a system)
 
 Netropy is **usable structure**:
 
@@ -2120,7 +2120,7 @@ Everything that exists is a **section of K**.
 
 ---
 
-## Definition — Netropy (N)
+## Definition — Netropy (N) (Gibbs Free Energy? that maintains/realizes/defines the kontinuity of a system)
 
 ```
 N ≡ K
@@ -2435,7 +2435,7 @@ Entropy measures **exposure**, not disorder.
 
 ---
 
-## 3. Netropy (K)
+## 3. Netropy (K) (Gibbs Free Energy? that maintains/realizes/defines the kontinuity of a system)
 
 **Definition**
 

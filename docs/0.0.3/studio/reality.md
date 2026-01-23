@@ -2258,3 +2258,51 @@ obey the same fundamental constraint:
 
 Measured differently, but structurally identical.
 ```
+
+
+fundamental := the minimal viable distiction ~ the boundary layer between "somethingness" and "nothingness"
+
+The Fundamental Laws of All Theories
+
+Cleave 1 - 1
+* Every thing and All things are bounded by reality
+
+Cleave 2 - 2
+* Things Exist
+
+* All things that exist, exist in pairs
+
+Cleave 3 - 3
+* All Things are Systems
+
+* All Systems are relative
+* ALl Systems cycle
+
+Cleave 4 - 5
+* 
+* 
+
+* 
+* 
+* 
+
+Cleave 5 - 8
+* 
+* 
+
+* 
+* 
+* 
+* 
+* 
+
+* 
+
+Cleave 6 ~ The Dilaton Laws
+* The Fundamental Law of Entropy
+* The Fundamental Law of Complexity
+
+
+
+Mungu Theory survives due to the balancing of depth and breath ~ qaulity and qauntity ~ (high) complexity and (high) entropy
+

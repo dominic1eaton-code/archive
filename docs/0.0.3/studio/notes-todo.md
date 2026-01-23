@@ -3389,3 +3389,5 @@ All of human knowledge is a map, projected into many local domains, created so t
 
 
 * merchant+interchange fees, merchant vs membership charging/pricing model
+
+formalize+define+derive: The Theory of Maps

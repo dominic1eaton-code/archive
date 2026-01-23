@@ -2328,5 +2328,5 @@ Navigator’s Note:
 - Hazel-May McCall
 
 
-* Book: The Business Vehicle - Methods for developing, optimizing, distributing, deploying and scaling any system
+* Operations Manual Book: The Business Vehicle - Methods for developing, optimizing, distributing, deploying and scaling any system
 

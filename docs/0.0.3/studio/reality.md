@@ -2326,3 +2326,7 @@ Navigator’s Note:
 “I want to feel worthy, and I want to feel free.“
 
 - Hazel-May McCall
+
+
+* Book: The Business Vehicle - Methods for developing, optimizing, distributing, deploying and scaling any system
+

@@ -2314,7 +2314,7 @@ Mungu Theory survives due to the balancing of depth and breath ~ quality and qua
     - life incubated on a planet
     - memes/ideas germinated in a mind
     - representations/models/simulations/maps developed in an intelligent system
-    - all things evolve within a universe
+    - all things evolving within a universe, are the host of that universe
 
 
 * formalize+define+derive: The Primal Motivation, The Dual Motiviation

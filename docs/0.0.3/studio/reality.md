@@ -2328,6 +2328,8 @@ Navigator’s Note:
 - Hazel-May McCall
 
 
+
+
 * Operations Manual Book: The Business Vehicle
   - Methods for developing, optimizing, distributing, deploying and scaling any system
   - business model + value proposition (product|solution|service|application|platform)
@@ -2336,6 +2338,4 @@ Navigator’s Note:
 
 
 * there will always be a reason why a grammar is never enough, and there will always be a reason to challenge a grammar. No grammar will ever be enough, and every and all grammars can and will eventually be challenged, critiqued and judged, by all that which survives long enough to encounter and interact with them. To be enough is to be perfect, and perfection does not, has never, and will never exist in any world cleaved from asymmetry, and every world that has, does and will exist is a world cleaved from asymmetry. Perfection, absolute truth, and grammars that are enough, have, do and will ever only exist in worlds cleaved from symmetry, and worlds cleaved from symmetry, simply do not exist, by design. Such fate is the very nature of the grand design and the ultimate price of life that must always be paid in order to purchase eternity
-
-
 

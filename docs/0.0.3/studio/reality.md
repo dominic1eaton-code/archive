@@ -2260,17 +2260,17 @@ Measured differently, but structurally identical.
 ```
 
 
-fundamental := the minimal viable distiction ~ the boundary layer between "somethingness" and "nothingness"
+fundamental := the minimal viable distinction ~ the boundary layer between "somethingness" and "nothingness"
 
 The Fundamental Laws of All Theories
 
 Cleave 1 - 1
-* Every thing and All things are bounded by reality
+* The Fundamental Law of Survival: Every thing and All things are bounded by reality, and all things bounded by reality, survive ~ the primal motivation
 
-Cleave 2 - 2
-* Things Exist
+Cleave 2 - 2 ~ The Fundamental Laws of Reality
+* The Fundamental Law of Existence: Things Exist
 
-* All things that exist, exist in pairs
+* The Fundamental Law of Duality: All things that exist, exist in pairs
 
 Cleave 3 - 3
 * All Things are Systems
@@ -2279,30 +2279,41 @@ Cleave 3 - 3
 * ALl Systems cycle
 
 Cleave 4 - 5
-* 
-* 
+* Nothing exists without distincion
+* Nothing persists without closure (the desire to find closure is the dual motivation)
 
-* 
-* 
-* 
+* The which persists is a system
+* All distinction and closure are contextual
+* All persistence is cyclic
 
 Cleave 5 - 8
-* 
-* 
+* existence via continuity + bounded attention
+* irreversibility + survival pressure
 
-* 
-* 
-* 
-* 
-* 
+* closure + interaction necessity
+* locality of change + information has cost
+* compression pressure + compression emergence
+* self reference admisibility + replication bias
+* kontinuity preservation bias + alignment dynamics
 
-* 
+* The Fundamental Law of Composition ~ systems compose systems which are composed of systems
 
 Cleave 6 ~ The Dilaton Laws
 * The Fundamental Law of Entropy
 * The Fundamental Law of Complexity
 
 
+Mungu Theory survives due to the balancing of depth and breath ~ quality and quantity ~ (high) complexity and (high) entropy ~ if it is deep/quality/complex enough as well as breadth/quantity/entropic enough, and can maintain balance between these two dual states that will in turn preserve its identity (its kontinuity) throughout space-time, as well as if it is able overcome and maintain the same stable state with its external environment, mungu theory (and any theory, and really all things) will survive. Maintaining balance internally is known as “homeostasis” and maintaining balance externally is known as “allostasis”. The maintenance of boundary and interaction between homeostasis and allostasis are the boundaries + boundary conditions that define “Self”, identity and kontinuity
 
-Mungu Theory survives due to the balancing of depth and breath ~ qaulity and qauntity ~ (high) complexity and (high) entropy
 
+* host theory ~ endosymbiotic systems ~ the theory of complexation (following the fundamental law of composition)
+    - people who realize an organization, are its host  ~ theory of firm
+    - organelles of a cell
+    - life incubated on a planet
+    - memes/ideas germinated in a mind
+    - representations/models/simulations/maps developed in an intelligent system
+    - all things evolve within a universe
+
+
+* formalize+define+derive: The Primal Motivation, The Dual Motiviation
+    - the desire/necessity to survive + the desire/necessity to find closure

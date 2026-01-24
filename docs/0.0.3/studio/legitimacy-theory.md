@@ -3288,3 +3288,6 @@ formalize+define+derive: rights, capacity, enforce, admissible, inadmissible, re
 
 mathematically formalize, define, organize, derive: egitimate, legitimacy, illegitimate, legitimate grammars+systems+structures+flows+states+transitions+evolution, the legitimacy principle, the legitimacy←>illegitimacy self stable dualon pair, The Agent Intelligence Interaction Hypothesis, The Human LLM interaction hypothesis
 
+
+formalize+define+derive: norms, standards, homogenization, heterogenization, homo←>hetero geneity self stable dualonic pair (both need one another to self stabilize each other), tribal theory, clan theory, village theory, tribe, clan village, outsider theory, foreigner theory, outsider, foreigner, interloper+invadertheory, interloper+invader, evasion theory (“waiting until the last moment to perform a task as a way to optimally save+conserve energy until the moment right before dissolution, golden ratio compression optimization strategy entropy←>complexity balance maximization)
+

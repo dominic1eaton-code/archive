@@ -3245,3 +3245,41 @@ XIV.3 Acceptance/Rejection Operators
 ------------------------------------
 
 **Conditional Accept**:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@todo
+
+
+
+
+
+generalize legitimacy to all systems+grammars+structures+flows+evolutions+interactions+particles+agents/actors/entities that interact with one another / each other (and all agents/actors/entites/systems that exist, interact)
+
+
+
+formalize+define+derive: norms, standards, homogenization, heterogenization, homo←>hetero geneity self stable dualonic pair (both need one another to self stabilize each other)
+
+
+formalize+derive+define: legitimate, legitimacy, illegitimate, legitimate grammars+systems+structures+flows+states+transitions+evolution, the legitimacy principle, the legitimacy←>illegitimacy self stable dualon pair
+
+

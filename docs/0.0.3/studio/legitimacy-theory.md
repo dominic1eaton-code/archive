@@ -3283,3 +3283,8 @@ formalize+define+derive: norms, standards, homogenization, heterogenization, hom
 formalize+derive+define: legitimate, legitimacy, illegitimate, legitimate grammars+systems+structures+flows+states+transitions+evolution, the legitimacy principle, the legitimacy←>illegitimacy self stable dualon pair
 
 
+formalize+define+derive: rights, capacity, enforce, admissible, inadmissible, regime, hard, soft, safety, performance, realizability, ordering, stability, instability, kontinuity pressure, complexity pressure, entropy pressure, godel limitation, identity, acceptance, rejection, drift, risk, dismissal, ignore, purpose, vision, mission, goal, objective ,milestone, strategy, tactic, operation, plan
+
+
+mathematically formalize, define, organize, derive: egitimate, legitimacy, illegitimate, legitimate grammars+systems+structures+flows+states+transitions+evolution, the legitimacy principle, the legitimacy←>illegitimacy self stable dualon pair, The Agent Intelligence Interaction Hypothesis, The Human LLM interaction hypothesis
+

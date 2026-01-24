@@ -10556,7 +10556,7 @@ Meaning: memory collapse
 ──────────────────────────────────────────────────────────────────────────────
 
 Replay
-Jiwe: ⟳
+Jiwe: ⟳du
 Nyambic: reuse(past Ω)
 Meaning: stabilization
 

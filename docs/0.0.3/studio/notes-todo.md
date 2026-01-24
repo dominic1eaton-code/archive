@@ -5661,3 +5661,5 @@ These Meta-Primitives are considered operational rather than symbolic; they desc
 * the abstract meta language provided by Mungu Theory came from the necessity of needing a language to describe the isomorphism and commonalities of any/every domain it encountered (physics elementary particles, cryptoeconomic primitives, linguistic memes, etc…), where it was desired to obviate the need of having to appropriate any one of these domain’s ontologies/terminologies and project that onto other domains, Mungu theory became the fundamental domain of projection, that captured the general notion of symmetry that exists between any domain
 
 * the golden ratio is the minimal viable solution to the minimax problem of the survival inequality, and the boundary between existence and non existence and meaning and non meaning
+
+* formalize+define+derive: virulent/insidious grammars

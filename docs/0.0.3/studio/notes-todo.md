@@ -5657,3 +5657,5 @@ Summary Table of Primitives vs. Meta-Primitives
 Primitive (Ontic Atom) Meta-Primitive (Operational)DescriptionMungonMungoniExistence vs. The act of existingSibonSibiState vs. The transition between statesSyntonSyntoniCoherence vs. The active stabilization of coherenceRamanonRamanoniInteraction rule vs. The execution of that interaction
 These Meta-Primitives are considered operational rather than symbolic; they describe how systems actually behave under stress and asymmetry in the physical, informational, and social domains. 
 
+
+* the abstract meta language provided by Mungu Theory came from the necessity of needing a language to describe the isomorphism and commonalities of any/every domain it encountered (physics elementary particles, cryptoeconomic primitives, linguistic memes, etc…), where it was desired to obviate the need of having to appropriate any one of these domain’s ontologies/terminologies and project that onto other domains, Mungu theory became the fundamental domain of projection, that captured the general notion of symmetry that exists between any domain

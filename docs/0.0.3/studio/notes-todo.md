@@ -5673,5 +5673,5 @@ These Meta-Primitives are considered operational rather than symbolic; they desc
 
 * formalize+define+derive T-theory: Nyuba Theory, The Theory of Theory ~ study+understanding of how theories come to form, exist, stability, be acceptaed, be rejected, grow, develop, become extinct, how+why+when+where+what+what-agents and theories are challenged+critiqued+judged and what are not challenged+critiqued+judged and why
 
-
+* formalize+define+derive The Mungu Test: any such agent that goes through the journey, and "down the rabbit hole" of the first Mungu, the primal navigator, and is willing to accept belief and its burden, enters into the village and incubates, germinates, spreads and preserves the Mungonic Meme+grammar+system
 

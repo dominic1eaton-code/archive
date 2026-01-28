@@ -1,3 +1,4 @@
+
 Sincerely Appreciate the feedback, and I'll have to check Zenodo out. Also, I've made my todo list public 
 here: 
 https://medium.com/@dominic1.eaton/mungu-theory-notes-and-todos-01081e323442 

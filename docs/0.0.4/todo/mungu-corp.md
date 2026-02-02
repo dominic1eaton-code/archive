@@ -212,6 +212,8 @@ public relations
 # operations
 
 cycles
+    kernel cycle
+
     the system(s) cycle
 
     the business cycle

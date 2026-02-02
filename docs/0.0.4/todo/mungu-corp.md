@@ -246,9 +246,7 @@ cycles
 
     portfoluprogram|project cycle
 
-    legal cycle
-
-    firm (legal) cycle
+    firm|legal|entity cycle
 
     worker|team cycle
 

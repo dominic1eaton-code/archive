@@ -1,0 +1,270 @@
+# The Mungu Corporation
+
+## entities
+
+Mungu Inc.
+
+Pamoja Federation
+
+
+
+
+## infrasrtucture
+
+buildings
+
+
+technology, IT
+
+
+security
+
+
+
+
+## IP
+
+content
+
+rights
+
+copyrights
+
+trademakrs
+
+watermarks
+
+patents
+
+
+
+
+## legal
+
+charters
+
+
+constitutions
+
+
+memorandums
+
+
+
+
+## contracts, agreements, partnerships
+
+
+trusts
+
+
+funds
+
+
+
+## resources
+
+accounts
+
+
+finances
+
+
+digital assets
+
+
+assets
+
+
+capital
+
+
+liabilities
+
+
+debt
+
+
+credit
+
+
+liquidity
+
+
+equity
+
+
+resource units
+
+
+
+
+## spaces
+### physical spaces
+
+HQ
+
+offices
+
+factories
+
+facilities
+
+
+
+
+### digital spaces
+
+digital accounts
+
+
+## organiation
+
+SBUs
+
+divisions
+
+departments
+
+functions
+
+
+
+
+
+## team
+
+Worker Collective Classes
+
+
+
+C-Suite
+
+
+
+Directors
+
+
+
+Managers
+
+
+
+Employees
+
+
+
+
+
+
+## colutions
+
+products
+
+
+services
+
+
+platforms
+
+
+applications
+
+
+research
+
+
+systems
+
+
+
+
+## portfolio
+
+sub-portfolios
+
+
+programs
+
+
+projects
+
+
+
+
+## market
+marketing
+
+
+media
+
+
+communications
+
+
+branding
+
+    
+public relations
+
+
+
+# operations
+
+cycles
+    the system(s) cycle
+
+    the business cycle
+
+    strategy cycle
+
+    entity lifecycle
+
+    busines development cycle
+
+    financial cycle
+
+    accounting cycle
+
+    solution cycle
+
+    tactics cycle
+
+    operations cycle
+    
+    marketing cycle
+
+    sales cycle
+
+    software development cycle
+
+    product|service|platform|application lifecycle
+
+    research cycle
+
+    IT cycle
+
+    portfoluprogram|project cycle
+
+    legal cycle
+
+    firm (legal) cycle
+
+    worker|team cycle
+
+    resource cycle
+
+    space cycle
+
+    organization cycle
+
+
+
+strategies
+
+plans
+
+tactics
+
+operations
+

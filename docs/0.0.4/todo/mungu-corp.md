@@ -242,6 +242,8 @@ cycles
 
     product|service|platform|application lifecycle
 
+    value+value-chain cycle
+
     research cycle
 
     IT cycle
@@ -257,6 +259,12 @@ cycles
     space cycle
 
     organization cycle
+
+    supply chain|procurement|logistics cycle
+
+    quality cycle
+
+    HR cycle
 
 
 

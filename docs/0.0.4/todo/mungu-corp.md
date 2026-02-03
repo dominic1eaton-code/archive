@@ -230,8 +230,6 @@ cycles
 
     accounting cycle
 
-    solution cycle
-
     tactics cycle
 
     operations cycle
@@ -241,8 +239,10 @@ cycles
     sales cycle
 
     software development cycle
+    
+    solution cycle
 
-    product|service|platform|application lifecycle
+    product|service|platform|application|asset lifecycle
 
     value+value-chain cycle
 

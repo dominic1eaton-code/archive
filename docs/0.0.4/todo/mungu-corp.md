@@ -212,6 +212,7 @@ public relations
 # operations
 
 cycles
+
     kernel cycle ~ ideating-conceptualizing-"starting a business" cycle
 
     the system(s) cycle
@@ -229,6 +230,8 @@ cycles
     financial cycle
 
     accounting cycle
+
+    tax cycle
 
     tactics cycle
 

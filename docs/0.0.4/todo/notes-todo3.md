@@ -93,4 +93,4 @@ what is a dimension? what are dimensions?
 * value creation process|methodology|"manuevering"|adjustments, intrinsic+extrinsic value, receivership, strategic restructuring
 * financial picture of a business/organization: N (3) years of financials, tax returns, business owner personal finance statements
 * asset cycle|creation|dissolution|rebirth
-
+* debt service, debt service coverage ratio

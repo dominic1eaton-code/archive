@@ -89,4 +89,5 @@ what is a dimension? what are dimensions?
 
 * Real business-cycle theory
 * polarons, phonons, bosons, boson polaron, boson condensates, condensates
+* financial engineering, business engineering, enterprise engineering, firm engineering
 

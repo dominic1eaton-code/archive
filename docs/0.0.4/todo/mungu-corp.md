@@ -220,6 +220,8 @@ cycles
 
     strategy cycle
 
+    governance cycle
+
     entity lifecycle
 
     busines development cycle

@@ -213,7 +213,7 @@ public relations
 
 cycles
 
-    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle
+    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle
 
     the system(s) cycle
 

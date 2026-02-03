@@ -215,7 +215,7 @@ cycles
 
     kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle
 
-    the system(s) cycle
+    the system(s) cycle ~ tranformation cycles
 
     the business cycle
 

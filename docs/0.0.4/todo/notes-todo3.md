@@ -90,4 +90,7 @@ what is a dimension? what are dimensions?
 * Real business-cycle theory
 * polarons, phonons, bosons, boson polaron, boson condensates, condensates
 * financial engineering, business engineering, enterprise engineering, firm engineering
-* value creation process|methodology|"manuevering"|adjustments
+* value creation process|methodology|"manuevering"|adjustments, intrinsic+extrinsic value, receivership, strategic restructuring
+* financial picture of a business/organization: N (3) years of financials, tax returns, business owner personal finance statements
+
+

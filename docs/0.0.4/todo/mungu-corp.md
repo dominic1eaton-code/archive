@@ -212,7 +212,7 @@ public relations
 # operations
 
 cycles
-    kernel cycle
+    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle
 
     the system(s) cycle
 

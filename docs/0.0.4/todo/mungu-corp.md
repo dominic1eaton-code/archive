@@ -268,6 +268,8 @@ cycles
 
     HR cycle
 
+    bid|offer|deal cycle
+
 
 
 strategies

@@ -98,10 +98,12 @@ what is a dimension? what are dimensions?
 * theory of stable|unstable orbits+loops+cycles
 
 
+the initial conditions of a system are reflected in every evolved state of the system, self-similar/fractilic/recursive, and the rules that govern the evolution of the system is known as the system's "grammar"
+
+
 
 ---
 
 
-the initial conditions of a system are reflected in every evolved state of the system, self-similar/fractilic/recursive, and the rules that govern the evolution of the system is known as the system's "grammar"
 
 

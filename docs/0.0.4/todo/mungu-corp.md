@@ -217,19 +217,19 @@ cycles
 
         management cycle
 
-            marketing, communications, PR, media, sales, CRM
+            marketing, communications, PR, media, sales, CRM cycle
 
-            operations, suuplychain;logistics;procurement, portfolio;program;project management
+            operations, suuplychain;logistics;procurement, portfolio;program;project management cycle
 
-            finance, accounting, resources;capital;assets
+            finance, accounting, resources;capital;assets cycle
 
-            technology, data management, security
+            technology, data management, security cycle
 
-            entity (legal), governance, compliance
+            entity (legal), governance, compliance cycle
 
-            HR, organization, team, employee management
+            HR, organization, team, employee management cycle
 
-            R&D, business development|analysis|optimization|engineering|architecture|design
+            R&D, business development|analysis|optimization|engineering|architecture|design cycle
 
 
     the system(s) cycle ~ tranformation cycles

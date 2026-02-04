@@ -213,7 +213,22 @@ public relations
 
 cycles
 
-    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle -> tranform resources into value
+    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle -> tranform resources into 
+
+        marketing, communications, PR, media, sales, CRM
+
+        operations, suuplychain;logistics;procurement, portfolio;program;project management
+
+        finance, accounting, resources;capital;assets
+
+        technology, data management, security
+
+        entity (legal), governance, compliance
+
+        HR, organization, team, employee management
+
+        R&D, business development|analysis|optimization|engineering|architecture|design
+
 
     the system(s) cycle ~ tranformation cycles
 

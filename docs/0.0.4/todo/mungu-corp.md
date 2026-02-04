@@ -229,7 +229,7 @@ cycles
 
             HR, organization, team, employee management
 
-            R&D, business development|analysis|optimization|engineering|architecture|design, 
+            R&D, business development|analysis|optimization|engineering|architecture|design
 
 
     the system(s) cycle ~ tranformation cycles

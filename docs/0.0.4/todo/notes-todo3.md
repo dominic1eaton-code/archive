@@ -95,3 +95,4 @@ what is a dimension? what are dimensions?
 * asset cycle|creation|dissolution|rebirth
 * debt service, debt service coverage ratio
 * marketing-operations-financials-technology kernel cycle
+* theory of stable|unstable orbits+loops+cycles

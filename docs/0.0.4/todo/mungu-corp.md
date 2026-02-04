@@ -257,6 +257,8 @@ cycles
 
     firm|legal|entity cycle
 
+    contract cycle
+
     worker|team cycle
 
     resource cycle

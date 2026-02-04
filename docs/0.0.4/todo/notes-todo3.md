@@ -105,5 +105,3 @@ the initial conditions of a system are reflected in every evolved state of the s
 ---
 
 
-
-

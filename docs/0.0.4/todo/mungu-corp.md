@@ -215,19 +215,21 @@ cycles
 
     kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle -> tranform resources into 
 
-        marketing, communications, PR, media, sales, CRM
+        management cycle
 
-        operations, suuplychain;logistics;procurement, portfolio;program;project management
+            marketing, communications, PR, media, sales, CRM
 
-        finance, accounting, resources;capital;assets
+            operations, suuplychain;logistics;procurement, portfolio;program;project management
 
-        technology, data management, security
+            finance, accounting, resources;capital;assets
 
-        entity (legal), governance, compliance
+            technology, data management, security
 
-        HR, organization, team, employee management
+            entity (legal), governance, compliance
 
-        R&D, business development|analysis|optimization|engineering|architecture|design
+            HR, organization, team, employee management
+
+            R&D, business development|analysis|optimization|engineering|architecture|design, 
 
 
     the system(s) cycle ~ tranformation cycles

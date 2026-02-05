@@ -303,6 +303,8 @@ organization cycle
 
 fund|trust cycle
 
+strategy|tactics|operation|planning cycle
+
 ---
 
 strategies

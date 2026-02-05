@@ -151,6 +151,7 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 - stellar fusion, nucleosynthesis
 - quantum entanglement, tunelling
 - bells inequality, CHSH inequality
+- (EPR) paradox
 
 ---
 

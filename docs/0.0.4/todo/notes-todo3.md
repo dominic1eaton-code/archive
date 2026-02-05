@@ -152,6 +152,7 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 - quantum entanglement, tunelling
 - bells inequality, CHSH inequality
 - (EPR) paradox
+- the position-momentum <-> structure-flow <-> polon-kolon correlation paradigm
 
 ---
 

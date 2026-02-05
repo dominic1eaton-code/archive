@@ -305,6 +305,10 @@ fund|trust cycle
 
 strategy|tactics|operation|planning cycle
 
+factory cycle
+
+production|manufacturing|fabrication cycle
+
 ---
 
 strategies

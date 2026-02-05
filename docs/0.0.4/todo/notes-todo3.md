@@ -146,5 +146,5 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 
 * super compressions, hyper|hypo compressions
 * super decompressions,  hyper|hypo decompressions
-
+* compressitics ~ applied|engineering practice of compression-decompression control and system design
 

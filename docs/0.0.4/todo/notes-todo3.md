@@ -148,6 +148,10 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 * super decompressions,  hyper|hypo decompressions
 * compressitics ~ applied|engineering practice of compression-decompression control and system design
 
+- stellar fusion, nucleosynthesis
+- quantum entanglement, tunelling
+- bells inequality, CHSH inequality
+
 ---
 
 sovereignty as a service (autonomy+sovereignity+independence+freedom as a service|product)

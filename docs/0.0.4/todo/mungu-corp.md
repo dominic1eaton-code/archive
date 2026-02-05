@@ -311,7 +311,7 @@ cycles:
 
         production|manufacturing|fabrication cycle
 
-        sovereignity cycle
+        sovereignity cycle ~ right of autonomy and self governance
 
 ---
 

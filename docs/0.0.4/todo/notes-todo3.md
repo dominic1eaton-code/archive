@@ -153,6 +153,9 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 - bells inequality, CHSH inequality
 - (EPR) paradox
 - the position-momentum <-> structure-flow <-> polon-kolon correlation paradigm
+- interactions without particles
+- virtual particles
+- colloidal physics
 
 ---
 

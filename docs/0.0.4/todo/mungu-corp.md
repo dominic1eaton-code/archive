@@ -311,6 +311,8 @@ cycles:
 
         production|manufacturing|fabrication cycle
 
+        sovereignity cycle
+
 ---
 
 

@@ -102,6 +102,8 @@ the initial conditions of a system are reflected in every evolved state of the s
 
 * the production of space lefebvre
 
+---
+
 * fluid theory + decompression-compression cycles
 * force-fluid-field theory ~ kolonic fluid + polonic field + iolonic force ~ 
 

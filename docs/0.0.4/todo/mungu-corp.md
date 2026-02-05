@@ -211,103 +211,105 @@ public relations
 
 # operations
 
-cycles
+cycles:
 
-    kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle -> tranform resources into 
+    bootstrap cycle
 
-        management cycle
+        kernel cycle ~ ideating-conceptualizing-"starting a business" cycle ~ marketing-operations-financials-technology kernel cycle -> tranform resources into 
 
-            marketing, communications, PR, media, sales, CRM cycle
+            management cycle
 
-            operations, suuplychain;logistics;procurement, portfolio;program;project management cycle
+                marketing, communications, PR, media, sales, CRM cycle
 
-            finance, accounting, resources;capital;assets cycle
+                operations, suuplychain;logistics;procurement, portfolio;program;project management cycle
 
-            technology, data management, security cycle
+                finance, accounting, resources;capital;assets cycle
 
-            entity (legal), governance, compliance cycle
+                technology, data management, security cycle
 
-            HR, organization, team, employee management cycle
+                entity (legal), governance, compliance cycle
 
-            R&D, business development|analysis|optimization|engineering|architecture|design cycle
+                HR, organization, team, employee management cycle
+
+                R&D, business development|analysis|optimization|engineering|architecture|design cycle
 
 
     the system(s) cycle ~ tranformation cycles
 
-    the business cycle
+        the business cycle
 
-    strategy cycle
+        strategy cycle
 
-    governance cycle
+        governance cycle
 
-    entity lifecycle
+        entity lifecycle
 
-    busines development cycle
+        busines development cycle
 
-    financial cycle
+        financial cycle
 
-    accounting cycle
+        accounting cycle
 
-    tax cycle
+        tax cycle
 
-    tactics cycle
+        tactics cycle
 
-    operations cycle
-    
-    marketing cycle
+        operations cycle
+        
+        marketing cycle
 
-    sales cycle
+        sales cycle
 
-    software development cycle
-    
-    solution cycle
+        software development cycle
+        
+        solution cycle
 
-    product|service|platform|application|asset lifecycle
+        product|service|platform|application|asset lifecycle
 
-    value+value-chain cycle
+        value+value-chain cycle
 
-    research cycle
+        research cycle
 
-    IT cycle
+        IT cycle
 
-    portfoluprogram|project cycle
+        portfoluprogram|project cycle
 
-    firm|legal|entity cycle
+        firm|legal|entity cycle
 
-    contract cycle
+        contract cycle
 
-    worker|team cycle
+        worker|team cycle
 
-    resource cycle
+        resource cycle
 
-    space cycle
+        space cycle
 
-    organization cycle
+        organization cycle
 
-    supply chain|procurement|logistics cycle
+        supply chain|procurement|logistics cycle
 
-    quality cycle
+        quality cycle
 
-    HR cycle
+        HR cycle
 
-    bid|offer|deal cycle
+        bid|offer|deal cycle
 
 
 ---
 
-studio cycle
+        studio cycle
 
-enterprise cycle
+        enterprise cycle
 
-organization cycle
+        organization cycle
 
-fund|trust cycle
+        fund|trust cycle
 
-strategy|tactics|operation|planning cycle
+        strategy|tactics|operation|planning cycle
 
-factory cycle
+        factory cycle
 
-production|manufacturing|fabrication cycle
+        production|manufacturing|fabrication cycle
 
 ---
 

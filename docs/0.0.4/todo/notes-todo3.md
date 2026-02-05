@@ -115,7 +115,7 @@ Field is a spatial mapping of the potential for a force to exist (e.g., electric
 
 Fluid is a substance (liquid or gas) that flows, providing a medium through which forces (like pressure or drag) are transmitted. 
 
-Comparison Table Feature Force Field Fluid Definition Vector representing a push/pull (\(F=ma\)).Region where a force can act; describes magnitude/direction at every point. A substance that flows; continuum of matter. Nature Discrete action on a specific object.Potential or spread-out, continuous effect. Physical medium/substance (liquid/gas).Representation Vector (\(\vec{F}\)).Vector or Scalar Field (e.g., \(\vec{E}\), \(\Phi \)).Velocity Field (\(\vec{v}(x,y,z)\)).Examples Gravity, friction, normal force.Electromagnetic field, gravitational field. Water, air, plasma. Interaction Acts at a point or on a body. Surrounds a source; influences test particles. Exerts pressure/shear on submerged bodies.
+Comparison Table Feature Force Field Fluid Definition Vector representing a push/pull (\(F=ma\)).Region where a force can act; describes magnitude/direction at every point. A substance that flows; continuum of matter. Nature Discrete action on a specific object.Potential or spread-out, continuous effect. Physical medium/substance (liquid/gas).Representation Vector (\(\vec{F}\)).Vector or Scalar Field (e.g., \(\vec{E}\), \(\Phi \)).Velocity Field (\(\vec{v}(x,y,z)\)). Examples Gravity, friction, normal force.Electromagnetic field, gravitational field. Water, air, plasma. Interaction Acts at a point or on a body. Surrounds a source; influences test particles. Exerts pressure/shear on submerged bodies.
 
 Detailed Breakdown 
 1. Force Concept: A vector quantity that changes the momentum of an object.Characteristics: It is the "actualization" of a field's potential.
@@ -143,5 +143,8 @@ Electromagnetic Field & Fluid: A magnetic field can exert forces on a conductive
 Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a "force field" is a set of parameters used to calculate the forces acting on atoms
 
 ---
+
+* super compressions
+* super decompressions
 
 

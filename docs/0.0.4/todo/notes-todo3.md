@@ -100,7 +100,7 @@ what is a dimension? what are dimensions?
 
 the initial conditions of a system are reflected in every evolved state of the system, self-similar/fractilic/recursive, and the rules that govern the evolution of the system is known as the system's "grammar"
 
-
+* the production of space lefebvre
 
 ---
 

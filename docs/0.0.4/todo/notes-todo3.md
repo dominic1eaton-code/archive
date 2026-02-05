@@ -148,6 +148,9 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 * super decompressions,  hyper|hypo decompressions
 * compressitics ~ applied|engineering practice of compression-decompression control and system design
 
+
+---
+
 - stellar fusion, nucleosynthesis
 - quantum entanglement, tunelling
 - bells inequality, CHSH inequality
@@ -156,6 +159,28 @@ Force Field (Simulation): In computational physics (e.g., Molecular Dynamics), a
 - interactions without particles
 - virtual particles
 - colloidal physics
+- field mediated forces
+
+Fluid-mediated forces involve physical, contact-based interactions transferred through a liquid or gas (e.g., drag, buoyancy), while field-mediated forces act non-contact over distances via physical fields (e.g., gravity, electromagnetism). Fluids act on the boundary of an object, whereas fields permeate space to act directly on mass or charge. 
+
+Key Differences Between Fluid and Field-Mediated Forces:
+
+Medium of Interaction: Fluid-mediated forces require a physical, fluid medium (liquid or gas) to transfer momentum to an object, such as air resistance on a car. Field-mediated forces, such as gravity or electromagnetism, require no physical medium, often acting through a vacuum.
+
+Nature of Interaction: Fluid forces are generally contact forces resulting from pressure and shear stresses. Field forces are non-contact, acting through space by emitting and absorbing field particles (e.g., photons for electromagnetic force) or altering the properties of space.
+
+Range and Speed: Fluid-mediated interactions are often limited to the immediate vicinity of the fluid flow. Field-mediated forces can act over vast distances (gravitational) or be instantaneous for static fields.
+
+Examples:
+
+Fluid-mediated: Drag, lift, buoyancy, viscosity, fluid pressure.
+
+Field-mediated: Gravity, electric force, magnetic force, nuclear force. 
+
+Key Concepts:
+Fields: A field is a physical entity (vector or scalar) that exists at every point in space, representing the potential for a force to act on a particle.
+Fluid Dynamics: The study of how fluids flow and interact with solid structures, which directly governs fluid-mediated forces.
+Action at a Distance: Field theory was developed to replace "action at a distance" by proposing that fields or field particles (like photons or gravitons) act as intermediaries for forces. 
 
 ---
 

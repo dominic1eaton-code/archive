@@ -185,7 +185,6 @@ Action at a Distance: Field theory was developed to replace "action at a distanc
 
 - standard model lagrangian
 - wave function(s)
-- 
 
 
 ---

@@ -315,6 +315,18 @@ cycles:
 
 ---
 
+    board cycle
+
+    council cycle
+
+    assembly cycle
+
+    tribunal cycle
+
+    stewardship cycle
+
+---
+
 
 # centers
 

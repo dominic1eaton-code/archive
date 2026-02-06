@@ -331,7 +331,7 @@ cycles:
 
     cooperative cycle
     
-    hygiene cycle
+    hygiene cycle ~ business practice of internal organization cleansing, decluttering, reorganization
 
 ---
 

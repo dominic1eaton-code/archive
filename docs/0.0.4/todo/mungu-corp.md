@@ -325,6 +325,12 @@ cycles:
 
     stewardship cycle
 
+    worker cycle
+
+    member cycle
+
+    cooperative cycle
+    
 ---
 
 

@@ -182,6 +182,10 @@ Fields: A field is a physical entity (vector or scalar) that exists at every poi
 Fluid Dynamics: The study of how fluids flow and interact with solid structures, which directly governs fluid-mediated forces.
 Action at a Distance: Field theory was developed to replace "action at a distance" by proposing that fields or field particles (like photons or gravitons) act as intermediaries for forces.
 
+
+- standard model lagrangian
+- wave function(s)
+
 ---
 
 sovereignty as a service (autonomy+sovereignity+independence+freedom as a service|product)

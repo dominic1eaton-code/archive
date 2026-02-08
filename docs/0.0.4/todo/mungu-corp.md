@@ -351,7 +351,7 @@ operations
 
 # models
 
-single member business model
+single member - one person business model
 
 cooperative business model
 

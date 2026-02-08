@@ -351,7 +351,12 @@ operations
 
 # models
 
-single member - one person business model
+single member | one person business model
 
 cooperative business model
+
+# processes
+
+establishment process
+
 

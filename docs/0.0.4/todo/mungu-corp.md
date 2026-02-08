@@ -348,3 +348,10 @@ tactics
 
 operations
 
+
+# models
+
+single member business model
+
+cooperative business model
+

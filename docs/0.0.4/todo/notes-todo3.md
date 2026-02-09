@@ -322,7 +322,7 @@ Chemistry: Point group theory is used to determine molecular structure and spect
 
 * culture machines, memetic machines, grammar machines, L-machines|systems|grammars (generator machines), social machines, [non]computational machines,
 
-* types of L systems: L grammars, L machines, L automata, L structures+flows and entropy+complexity systems, L recursion, L growth, L decay, L units (units for measuring "fractility"/"level of fractalling"), L machines
+* Types of L systems: L grammars, L machines, L automata, L structures+flows and entropy+complexity systems, L recursion, L growth, L decay, L units (units for measuring "fractility"/"level of fractalling"), L machines
 
 
 L-systems (Lindenmayer systems) are parallel string-rewriting grammars used to model biological growth, branching, and fractals, where rules are applied simultaneously to all characters. "L-machines" are not a standard term, but rather refer to the computational interpretation or implementation of L-systems, often bridging them with cellular automata or procedural generation engines. 
@@ -425,9 +425,22 @@ The often-quoted idea, sometimes attributed to Albert Einstein, that "no amount 
 ~ Connect to and formalize the *Mathematical Truth problem*
 
 
+The opposite of L-systems (Lindenmayer systems) is inverse procedural modeling or inverse L-systems, which involves deriving grammar rules from a final 3D model, image, or structure, rather than generating the structure from rules. It is a form of inverse engineering used for reverse-engineering branching structures. 
+
+Key aspects of inverse L-systems include:
+Inferring Grammars: Instead of generating strings/shapes, the system analyzes a target shape to find the initial axiom and production rules that could create it.
+
+Structure Inference: Methods include analyzing 2D or 3D vector data to detect repeating patterns, symmetry, and tree-like hierarchies to construct a compact rule set.
+
+Optimization: Genetic algorithms or deep learning models are used to find the best-fit rules that match the input shape, often applied in botanical reconstruction.
+
+Inverse Instantiation: A process where geometric similarities are grouped to determine the rules and parameters needed for reconstruction. 
+
+
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon
 ~ Computational Cell Biology, Christopher Fall, Eric Marland, John Wagner, John Tyson
 ~ fundamentals of neuroscience
+
 
 ---
 

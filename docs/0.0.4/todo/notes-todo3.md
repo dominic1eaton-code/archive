@@ -195,7 +195,7 @@ sovereignty as a service (autonomy+sovereignity+independence+freedom as a servic
 
 ---
 
-Formalize all of the following under Machine Theory whose baseline|kernel system are Mungu Automata + Mungu Machines:
+Formalize all of the following under Machine Theory whose baseline|kernel system are Mungu Automata + Mungu Machines (automata instantiations) + Mungu Grammars (automata rulesets) + L machines (machines that generate machines):
 
 * mungu machines - abstraction of machines, turing machines, biological machines, probablistic (turing) machines, abstraction machines, grammar machines
 

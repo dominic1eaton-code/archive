@@ -473,7 +473,5 @@ Stoloniferous plants are often highly effective at occupying space, with some, s
 ~ fundamentals of neuroscience
 
 
-
-
 ---
 

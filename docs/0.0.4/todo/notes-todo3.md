@@ -442,6 +442,9 @@ N systems ~ degenerative systems, in comparison to generative L systems, and as 
 
 
 * hypercomputation
+* rhizome system
+* plant propogation systems
+* the babble effect|hypothesis
 
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon

@@ -191,3 +191,136 @@ Action at a Distance: Field theory was developed to replace "action at a distanc
 
 sovereignty as a service (autonomy+sovereignity+independence+freedom as a service|product)
 
+
+
+---
+
+Formalize all of the following:
+
+* mungu machines - abstraction of machines, turing machines, biological machines, probablistic (turing) machines, abstraction machines, grammar machines
+
+* Automata are abstract, mathematical models of computation used to describe how a system processes input through a finite set of states, whereas a machine is a broader term for a physical or conceptual mechanism designed to automate a task, such as a Turing machine. Automata emphasize the theoretical rules of processing (e.g., Finite Automata), while machines often refer to the practical, physical, or logical implementation.
+
+* stochastic|probablistic|statistical automata, terraformata, machine, agent, actor, entity, system, device
+
+A machine is a physical device with moving parts that uses power to perform specific tasks, whereas a system is a broader, interconnected network of components (which may include machines, software, or people) working together to achieve a common goal. A machine is a component of a system; a system is the overall framework.
+
+Key Differences:
+
+Definition: A machine is a tool or mechanism (e.g., a car, computer, or robot). A system is a collection of interacting parts (e.g., an IT network, a supply chain, or a human-machine assembly).
+
+Scope: Machines are usually tangible devices. Systems can be abstract, such as software, processes, or organizational frameworks.
+
+Focus: Machines focus on converting energy into work. Systems focus on organizing components for functionality, performance, and behavior.
+Interdependence: A machine can operate independently, but a system relies on its components working in unison.
+
+Examples:
+Machine: A single server, a conveyor belt, a robot arm.
+System: A data center network, a factory production line, a computer operating system. 
+In modern contexts, a machine is often considered a specialized type of technical system, where individual machines are integrated into a larger, automated, or human-machine system. 
+
+* polynomial time
+* langlands program, field extensions, galois theory, gauge theory|group, group theory, lie theory, symmetry, asymmetry, entropy, complexity, mathematics, physics, biology, science, chemistry, engineering, application, elementary, symmetry theory, poincare group
+
+1. Machine (Identity/Instance)
+A "machine" or "machine identity" refers to the physical or virtual server/component performing a task. 
+Nature: Usually a passive, functional unit (e.g., a database, an application server).
+Behavior: Reacts to direct inputs or scheduled commands.
+Context: In security, "machine identities" are used for service-to-service authentication, such as certificates or API keys. 
+
+2. Actor (Concurrency Model)
+The Actor Model is a mathematical model of concurrent computation, popularized by frameworks like Akka or Microsoft Orleans. 
+Nature: A unit of state and behavior, often described as an "object" that is active rather than passive.
+Communication: Communicates exclusively through asynchronous, non-blocking message passing.
+Characteristics: Each actor has a "mailbox," has a unique address, can create other actors, and handles messages one at a time to ensure safety.
+Purpose: To manage high-concurrency, distributed systems efficiently without shared state. 
+
+3. Agent (Autonomous Goal-Seeker)
+An agent is a system that can perceive its environment, make decisions, and act to achieve a specific goal. 
+Nature: A specialized, intelligent entity that often uses the actor model as its infrastructure.
+
+Capabilities: Capable of "practical reasoning" (logic-based reasoning).
+Components: Possesses memory (often implemented as actor state), goals, and tools (APIs, LLMs).
+
+Purpose: To operate autonomously in complex, non-deterministic, or unpredictable scenarios.
+
+
+* loops ~ polonic/structural, cycles ~ kolonic/flow-al
+* partial function, tuple, analytical engine, analytics, engine (vs system vs machine vs agent vs actor vs entity vs device vs automata)
+* 
+
+Loops and cycles both involve repeating sequences, but they differ in structure and context. A loop usually implies a closed, continuous, or repeated path/structure, often used in programming to repeat instructions until a condition is met. A cycle refers to a complete, recurring series of events, stages, or states. 
+
+Loop: Often refers to the structure or shape (e.g., "loop the rope"). In computing, it repeats instructions. In graph theory, a self-loop is an edge connecting a vertex to itself.
+
+Cycle: Often refers to the process or time-based repetition (e.g., life cycle, engine cycle). In graphs, it is a path that starts and ends at the same vertex. 
+
+
+A DNA Turing machine uses DNA strands as data tapes, with enzymes like polymerase acting as read/write heads to process information via molecular binding and editing. 
+
+By utilizing nucleotide sequences (\(A,T,C,G\)) to represent symbols and using biochemical reactions (hybridization, ligation) for state transitions, these systems can perform computations, mimicking a universal Turing machine at a molecular level. 
+
+Key Aspects of DNA Turing Machines: 
+
+Mechanism: DNA polymerase acts as a head, reading a template strand and "writing" (synthesizing) a new complementary strand by adding nucleotides, often based on Watson-Crick base pairing rules.
+
+Data Representation: Data is encoded in DNA strands, which act as the "tape." Molecular operations like cutting with restriction enzymes and splicing allow for editing and computation.
+
+Parallelism: Unlike traditional serial computers, DNA-based systems can process massive amounts of data in parallel, offering potential advantages in efficiency and speed.
+
+Applications: Experimental DNA computers have solved simple computational problems, such as the Hamiltonian Path Problem, and have been developed for use within cells to detect diseases or regulate genes.
+
+Limitations: DNA, while a powerful, compact storage medium, is hard to control and slow, making it difficult to achieve practical, complex computation outside of highly specialized, small-scale tasks.
+
+Research, such as work by Leonard Adleman, has demonstrated that DNA can perform calculations similar to a computer. Newer developments involve creating programmable DNA circuits in liquids, which can solve mathematical problems through chemical reactions, representing a significant step toward practical biological computing
+
+
+* DNA|genetic computing, transposons, "genes turning off|on (probablistic models)", probablistic|genetic|statistical|stochastic turing machines, finite vs infinite automata
+* epigenetics, computation, mutation, duplication, reproduction, replication, function
+
+
+Symmetry theory defines an object or physical system as symmetric if it remains invariant (unchanged) after a transformation, such as rotation, reflection, or translation. In physics, this "change without change" concept underpins conservation laws—whereby symmetry in nature corresponds to conserved quantities (Noether's theorem)—and classifies particle interactions. 
+
+Key Aspects of Symmetry Theory: 
+
+Definition & Invariance: Symmetry is present when a system’s, or object's, properties remain identical after a transformation, such as rotating a snowflake \(60^{\circ }\) or reversing spatial coordinates.
+
+Types of Symmetry:
+
+    Geometric: Reflective (mirror), rotational (shapes like a circle), or translational (patterns).
+
+    Physical (Space-Time): Invariance under translation in time (energy conservation), translation in space (momentum conservation), or rotation (angular momentum conservation).
+
+    Internal/Quantum: Invariance under changes to quantum numbers, such as charge (C-symmetry), parity (P-symmetry), and time-reversal (T-symmetry).
+
+Role in Physics: Symmetry helps determine which particle interactions are possible (allowed) or impossible (forbidden). It is fundamental to relativity and quantum mechanics, dictating that physical laws remain consistent regardless of place, time, or orientation.Mathematical Framework: Symmetry is described using group theory, where the set of all symmetry operations on an object forms a "group" under composition. 
+
+Symmetry Breaking:Small changes can break symmetry, leading to asymmetry (e.g., a, mole on a face). In physics, this is critical, as the breaking of symmetry can lead to the formation of new structures or states of matter.
+
+
+Symmetry theory examines the invariance of objects (geometric, physical, algebraic) under transformations like rotation or reflection. Group theory is the formal mathematical framework used to classify and analyze these symmetries, where transformations are represented as algebraic elements obeying group axioms. Essentially, symmetry is the concept, and group theory is the language. 
+
+Key Comparisons
+
+Definition: Symmetry describes an object that remains unchanged after a transformation (e.g., rotating a square 90°). Group theory is a branch of abstract algebra defining a set of elements with an operation satisfying closure, associativity, identity, and inverse.
+
+Focus: Symmetry studies what is invariant (shapes, patterns, physical laws). Group theory studies how those actions behave mathematically, including abstract groups that may not correspond to physical symmetry.
+
+Application: Symmetry theory identifies patterns (e.g., molecular symmetry). Group theory provides tools (matrices, irreducible representations) to calculate the consequences of those symmetries.
+
+Scope: Group theory is broader; not all groups are symmetries (e.g., number-theoretic structures). 
+
+Key Connections
+
+Symmetry Groups: The set of all symmetry operations for a specific object forms a group.
+
+Physics: Group theory is vital for understanding conservation laws (e.g., time translation equals conservation of energy).
+
+Chemistry: Point group theory is used to determine molecular structure and spectral properties.
+
+~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon
+~ Computational Cell Biology, Christopher Fall, Eric Marland, John Wagner, John Tyson
+~ fundamentals of neuroscience
+
+---
+

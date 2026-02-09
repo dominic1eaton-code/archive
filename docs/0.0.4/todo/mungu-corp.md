@@ -357,6 +357,8 @@ cooperative business model
 
 # processes
 
+system processes
+
 cycle processes
 
 kernel process

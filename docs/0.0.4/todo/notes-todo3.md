@@ -446,6 +446,27 @@ N systems ~ degenerative systems, in comparison to generative L systems, and as 
 * plant propogation systems
 * the babble effect|hypothesis, talking theory, listening theory, confidence-competency theory
 
+Stolons, commonly known as runners, are horizontal, above-ground plant stems that creep along the soil surface, rooting at nodes to produce new, clonal plantlets. They function as a primary method of asexual reproduction and rapid vegetative spread, allowing plants like strawberries, Bermuda grass, and spider plants to colonize new areas. 
+Key Aspects of Stolons
+
+Growth and Function: Stolons emerge from the base of a plant (or rosette), elongating horizontally and forming roots and new shoots (nodes) along their length. These stems transport resources to the developing clones, known as ramets.
+
+Purpose: They facilitate vegetative propagation, enabling the plant to spread rapidly, recover from damage, and create dense patches.
+
+Types and Examples:
+
+Creeping Stems/Runners: Typical in strawberries (Fragaria), spider plants, and Saxifraga.
+
+Stoloniferous Grasses: Includes Bermudagrass, St. Augustine grass, and Zoysia.
+
+Woody Stoloniferous: Red twig dogwood (Cornus stolonifera).
+
+Distinction from Rhizomes: Unlike stolons, which grow primarily on top of the soil, rhizomes are horizontal, underground stems.
+
+Etymology: The word "stolon" derives from the Latin stolo (or stolonem), meaning a twig, shoot, or sucker springing from the root. 
+
+Stoloniferous plants are often highly effective at occupying space, with some, such as certain grasses, behaving as aggressive spreaders.
+
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon
 ~ Computational Cell Biology, Christopher Fall, Eric Marland, John Wagner, John Tyson

@@ -322,7 +322,7 @@ Chemistry: Point group theory is used to determine molecular structure and spect
 
 * culture machines, memetic machines, grammar machines, L-machines|systems|grammars (generator machines), social machines, [non]computational machines,
 
-* L systems, L grammars, L machines, L automata, L structures+flows and entropy+complexity systems, L recursion, L growth, L decay, L units (units for measuring "fractility"/"level of fractalling")
+* types of L systems: L grammars, L machines, L automata, L structures+flows and entropy+complexity systems, L recursion, L growth, L decay, L units (units for measuring "fractility"/"level of fractalling"), L machines
 
 
 L-systems (Lindenmayer systems) are parallel string-rewriting grammars used to model biological growth, branching, and fractals, where rules are applied simultaneously to all characters. "L-machines" are not a standard term, but rather refer to the computational interpretation or implementation of L-systems, often bridging them with cellular automata or procedural generation engines. 

@@ -439,9 +439,16 @@ Inverse Instantiation: A process where geometric similarities are grouped to det
 N systems ~ degenerative systems, in comparison to generative L systems, and as opposed to inverted L systems which infer rules (grammars) from results|outcomes; inverted N systems (inverted degenerative|degeneration systems)
 
 
+
+
+* hypercomputation
+
+
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon
 ~ Computational Cell Biology, Christopher Fall, Eric Marland, John Wagner, John Tyson
 ~ fundamentals of neuroscience
+
+
 
 
 ---

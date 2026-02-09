@@ -475,4 +475,4 @@ Stoloniferous plants are often highly effective at occupying space, with some, s
 
 ---
 
-home theory, healing, repair, trauma theory, growth theory, spirituality, rejuvination, space for authenticity and connection
+home theory, healing, repair, trauma theory, growth theory, spirituality, rejuvination, space for authenticity and connection, protection+community as a service

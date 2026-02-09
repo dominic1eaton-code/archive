@@ -434,7 +434,9 @@ Structure Inference: Methods include analyzing 2D or 3D vector data to detect re
 
 Optimization: Genetic algorithms or deep learning models are used to find the best-fit rules that match the input shape, often applied in botanical reconstruction.
 
-Inverse Instantiation: A process where geometric similarities are grouped to determine the rules and parameters needed for reconstruction. 
+Inverse Instantiation: A process where geometric similarities are grouped to determine the rules and parameters needed for reconstruction.
+
+N systems ~ degenerative systems, in comparison to generative L systems
 
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon

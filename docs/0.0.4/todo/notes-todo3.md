@@ -444,7 +444,7 @@ N systems ~ degenerative systems, in comparison to generative L systems, and as 
 * hypercomputation
 * rhizome system
 * plant propogation systems
-* the babble effect|hypothesis, talking theory, listening theory, confidence-competency theory ~ linguistic theory of communication (volume, quantity, quality) and its association to social theory|proof and survival theory
+* the babble effect|hypothesis, talking theory, listening theory, confidence-competency theory ~ linguistic theory of communication (volume, quantity, quality) and its association to social theory|proof and survival theory and moviation|necessity theory ~ people who achieve great things travel great distances, the question is not where you start but how far you traveL 
 
 Stolons, commonly known as runners, are horizontal, above-ground plant stems that creep along the soil surface, rooting at nodes to produce new, clonal plantlets. They function as a primary method of asexual reproduction and rapid vegetative spread, allowing plants like strawberries, Bermuda grass, and spider plants to colonize new areas. 
 Key Aspects of Stolons

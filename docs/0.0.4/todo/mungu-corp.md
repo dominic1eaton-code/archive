@@ -357,6 +357,12 @@ cooperative business model
 
 # processes
 
+cycle processes
+
+kernel process
+
+management process
+
 establishment process
 
 

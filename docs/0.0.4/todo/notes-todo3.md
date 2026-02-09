@@ -436,7 +436,7 @@ Optimization: Genetic algorithms or deep learning models are used to find the be
 
 Inverse Instantiation: A process where geometric similarities are grouped to determine the rules and parameters needed for reconstruction.
 
-N systems ~ degenerative systems, in comparison to generative L systems
+N systems ~ degenerative systems, in comparison to generative L systems, and as opposed to inverted L systems which infer rules (grammars) from results|outcomes; inverted N systems (inverted degenerative|degeneration systems)
 
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon

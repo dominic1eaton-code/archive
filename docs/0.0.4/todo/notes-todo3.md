@@ -219,6 +219,7 @@ Machine: A single server, a conveyor belt, a robot arm.
 System: A data center network, a factory production line, a computer operating system. 
 In modern contexts, a machine is often considered a specialized type of technical system, where individual machines are integrated into a larger, automated, or human-machine system. 
 
+* enzymatic machines
 * polynomial time
 * langlands program, field extensions, galois theory, gauge theory|group, group theory, lie theory, symmetry, asymmetry, entropy, complexity, mathematics, physics, biology, science, chemistry, engineering, application, elementary, symmetry theory, poincare group
 
@@ -317,6 +318,112 @@ Symmetry Groups: The set of all symmetry operations for a specific object forms 
 Physics: Group theory is vital for understanding conservation laws (e.g., time translation equals conservation of energy).
 
 Chemistry: Point group theory is used to determine molecular structure and spectral properties.
+
+
+* culture machines, memetic machines, grammar machines, L-machines|systems|grammars (generator machines), social machines, [non]computational machines,
+
+* L systems, L grammars, L machines, L automata, L structures+flows and entropy+complexity systems, L recursion, L growth, L decay, L units (units for measuring "fractility"/"level of fractalling")
+
+
+L-systems (Lindenmayer systems) are parallel string-rewriting grammars used to model biological growth, branching, and fractals, where rules are applied simultaneously to all characters. "L-machines" are not a standard term, but rather refer to the computational interpretation or implementation of L-systems, often bridging them with cellular automata or procedural generation engines. 
+
+Key Differences and Relationship:
+
+Definition: L-systems are mathematical formalisms (grammars). An L-machine is the procedural mechanism or software interpreting these rules to create 3D models or simulations.
+
+Mechanism: L-systems apply all production rules simultaneously in parallel. L-machines facilitate this parallel generation, often visualized through turtle graphics, to render structures.
+
+Function: L-systems define how a structure (e.g., a plant) grows. L-machines are used to generate the final 3D geometry or fractal structure based on that definition.
+
+Context: L-systems were designed in 1968 to model plant development. Modern L-machines (such as those in Houdini) are used for procedural generation in visual effects, games, and to simulate complex, self-replicating, or fractal structures.
+
+Comparison to Other Models: While L-systems work through string rewriting, they are often compared to cellular automata, which operate on a grid; L-systems are more suited for branching growth. 
+
+In short, an L-system is the set of rules (the code), while an L-machine is the engine that runs those rules to create a 3D model
+
+
+A non-computational machine is a theoretical device or system capable of solving problems that cannot be solved by a standard Turing machine, which represents all modern computers. These hypothetical machines are generally referred to as hypercomputers or super-Turing computers. 
+
+Key Aspects of Non-computational Mathematics:
+
+    Uncomputable Functions: Functions where no program can output the correct answer for every input.
+
+    Non-computable Numbers: Real numbers that cannot be calculated to an arbitrary degree of precision. Almost all real numbers are technically non-computable.
+
+    The Halting Problem: A fundamental example showing that no algorithm can determine if any given program will eventually halt or run forever.
+
+    Undecidable Problems: Problems, such as specific cases in Post Correspondence, for which it is proven that no general algorithmic solution exists.
+
+    Theoretical Limits: These concepts define the boundary of what computers can do, rooted in Gödel's incompleteness theorems. 
+
+Non-computational processes are often contrasted with computable problems which have clear, finite, step-by-step procedures. 
+
+
+A non-computational machine is a theoretical device or system capable of solving problems that cannot be solved by a standard Turing machine, which represents all modern computers. These hypothetical machines are generally referred to as hypercomputers or super-Turing computers. 
+
+Key Concepts and Examples
+
+Definition: Non-computational means a process is not computable by a Turing machine, usually because it cannot be defined by a finite set of algorithms or completed in a finite number of steps.
+
+The Halting Problem: A primary example of a non-computable problem is the Halting Problem, which asks whether a program will stop or run forever for a given input. A non-computational machine (like a Turing oracle) could theoretically solve this.
+
+Turing Oracles: An oracle machine is a conceptual model that can solve specific, undecidable problems, such as the Halting Problem, by accessing an "oracle".
+
+Physical Non-Computable Processes: Some theorize that certain, yet-unknown, natural phenomena could provide a basis for non-computational machines, such as the ability to store and process infinite precision real numbers.
+
+Unconventional Computing: Fields like spintronics use quantum properties for data handling.
+
+Biological/Cognitive Systems: Some philosophical arguments suggest that human understanding and cognitive abilities may involve non-computational, non-algorithmic processes.
+
+
+Theoretical Status
+
+No Physical Build: While theoretically possible, no known, practical non-computational machine has been physically constructed.
+
+Hypercomputation: This field explores these theoretical models, which can compute functions beyond the Turing limit. 
+
+Non-computable problems are generally not just hard to solve, but impossible to solve using traditional algorithmic methods. 
+
+* undecidable vs decidable problems
+
+Non-computable (or undecidable) problems are challenges for which no algorithm or computer program can provide a correct, universal solution for all possible cases in finite time. While solutions might exist for specific, small instances, these problems are fundamentally impossible for Turing machines to solve generally. 
+
+Key examples of non-computable problems include:
+
+The Halting Problem: Determining whether a given arbitrary computer program will eventually stop or run forever.
+
+Rice’s Theorem: Proving that any non-trivial, semantic property of a program (e.g., "does this code print 'Hello World'?") is undecidable.
+
+Post Correspondence Problem: A puzzle involving tiles with strings that cannot be generally solved to match sequences.
+
+Busy Beaver Game: Determining the maximum number of steps a halting Turing machine with \(n\) states can run.Tiling Problems: Determining if a given set of tiles can tile an infinite plane.
+
+**Mathematical Truth: Determining if an arbitrary mathematical statement is true within a given formal system. ~ further explore and refine and connect to relativism vs absolutism and truth vs validity of Mungu Theory + Popperian Systems**
+
+Shortest Program Problem: Finding the smallest program that produces a specific output. 
+
+These problems demonstrate the fundamental limits of computation, proving that not all mathematically well-defined questions can be solved through algorithmic calculation. 
+
+
+
+Popperian Systems:
+
+The theory that a scientific claim can only be considered valid if it is testable and potentially disprovable—and that it is "proven" only by failing to be proven wrong—is called Falsifiability, or Falsificationism. Developed by philosopher Karl Popper in his 1934 book The Logic of Scientific Discovery, this principle argues that science progresses through "conjectures and refutations" rather than absolute proof. 
+
+Key Aspects of Falsifiability:
+
+Demarcation Criteria: Popper proposed this to distinguish science from pseudoscience. A theory that cannot be falsified (i.e., it cannot be proven wrong by any possible observation) is not scientific.
+
+Induction Problem: Popper believed that no amount of confirming evidence (e.g., seeing 1,000 white swans) can definitively prove a theory (e.g., "all swans are white"), but a single counterexample (one black swan) can falsify it.
+
+The Goal of Science: Instead of seeking to "prove" theories right, scientists should try to prove them wrong. A theory that withstands rigorous attempts to disprove it is considered strongly supported.
+
+"Proven" vs. Corroborated: In this context, a theory is never truly "proven" in a final, absolute sense; it is merely heavily tested and not yet disproven (corroborated). 
+
+The often-quoted idea, sometimes attributed to Albert Einstein, that "no amount of experimentation can ever prove me right; a single experiment can prove me wrong," aligns perfectly with this philosophy. 
+
+~ Connect to the *Mathematical Truth problem**
+
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon
 ~ Computational Cell Biology, Christopher Fall, Eric Marland, John Wagner, John Tyson

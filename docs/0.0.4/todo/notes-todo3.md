@@ -422,7 +422,7 @@ The Goal of Science: Instead of seeking to "prove" theories right, scientists sh
 
 The often-quoted idea, sometimes attributed to Albert Einstein, that "no amount of experimentation can ever prove me right; a single experiment can prove me wrong," aligns perfectly with this philosophy. 
 
-~ Connect to the *Mathematical Truth problem**
+~ Connect to and formalize the *Mathematical Truth problem*
 
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon

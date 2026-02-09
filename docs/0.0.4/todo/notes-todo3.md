@@ -398,7 +398,7 @@ Post Correspondence Problem: A puzzle involving tiles with strings that cannot b
 
 Busy Beaver Game: Determining the maximum number of steps a halting Turing machine with \(n\) states can run.Tiling Problems: Determining if a given set of tiles can tile an infinite plane.
 
-**Mathematical Truth: Determining if an arbitrary mathematical statement is true within a given formal system. ~ further explore and refine and connect to relativism vs absolutism and truth vs validity of Mungu Theory + Popperian Systems**
+**Mathematical Truth (problem): Determining if an arbitrary mathematical statement is true within a given formal system. ~ further explore and refine and connect to relativism vs absolutism and truth vs validity of Mungu Theory + Popperian Systems**
 
 Shortest Program Problem: Finding the smallest program that produces a specific output. 
 

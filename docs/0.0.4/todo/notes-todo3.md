@@ -444,7 +444,7 @@ N systems ~ degenerative systems, in comparison to generative L systems, and as 
 * hypercomputation
 * rhizome system
 * plant propogation systems
-* the babble effect|hypothesis, talking theory, listening theory
+* the babble effect|hypothesis, talking theory, listening theory, confidence-competency theory
 
 
 ~ An Introduction to Systems Biology: Design Principles of Biological Circuits, Uri Alon

@@ -479,4 +479,4 @@ home theory, healing, repair, trauma theory, growth theory, spirituality, rejuvi
 
 the privelage of a lifetime is being who you are 
 
-profile theory
+profile theory, theory of recursion, number theory + pattern theory + number pattern theory

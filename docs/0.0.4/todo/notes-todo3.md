@@ -480,3 +480,5 @@ home theory, healing, repair, trauma theory, growth theory, spirituality, rejuvi
 the privelage of a lifetime is being who you are 
 
 profile theory, theory of recursion, number theory + pattern theory + number pattern theory
+
+law systems, law theory, law grammars, law mechanics+dynamics+statics, law

@@ -482,3 +482,5 @@ the privelage of a lifetime is being who you are
 profile theory, theory of recursion, number theory + pattern theory + number pattern theory
 
 law systems, law theory, law grammars, law mechanics+dynamics+statics, law, enforcement, soveriegnity, enforcement theory, soveriegnity theory
+
+brand management and protection, brand theory, marketing theory, experience theory, sales theory, management theory, protection theory

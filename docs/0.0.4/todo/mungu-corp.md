@@ -374,3 +374,9 @@ establishment process
 # profiles
 
 financial profile
+
+# notes
+
+skip tracing
+
+branding

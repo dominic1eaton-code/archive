@@ -486,3 +486,14 @@ law systems, law theory, law grammars, law mechanics+dynamics+statics, law, enfo
 brand management and protection, brand theory, marketing theory, experience theory, sales theory, management theory, protection theory, page theory
 
 digital space theory ~ creation+mangaement of "digital real estate", digital pages, advertisement pages, data+information pages, "intelligence pages" ~ page theory (digital space theory)
+
+
+game theory, game systems, game grammars
+
+equity theory, equity systems, social contracts, contract systems, contract grammars, grammar contracts
+
+nation ~ people, language, heritage, land, culture, finance (accounting), contract, connection, rights+worthiness ~ the nation (state) game ~ the law of the land - rule of law - law grammar - law systems - constitution+stone+memory ~ openess clarity fairness
+
+bank, fund, monetary fund, investment bank, privatization, trade, taxes, tariffs, generatl agreemtn on tariffs and trades, monetary transfer, centralization+decentralization+distribution, pricing+finance+knowledge+manufacturing+resources+land ~ the global corporation - mega corporation+oragnization+enterprise+business ~ dialectic ~ munguiusm
+
+iconography

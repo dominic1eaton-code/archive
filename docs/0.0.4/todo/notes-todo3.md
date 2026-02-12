@@ -488,7 +488,7 @@ brand management and protection, brand theory, marketing theory, experience theo
 digital space theory ~ creation+mangaement of "digital real estate", digital pages, advertisement pages, data+information pages, "intelligence pages" ~ page theory (digital space theory)
 
 
-game theory, game systems, game grammars
+game theory, game systems, game grammars, security company/industry/system/grammars, security as a service, X/everything as a service/product (XAAS)
 
 equity theory, equity systems, social contracts, contract systems, contract grammars, grammar contracts
 

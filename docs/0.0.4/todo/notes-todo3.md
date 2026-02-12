@@ -498,4 +498,6 @@ bank, fund, monetary fund, investment bank, privatization, trade, taxes, tariffs
 
 iconography, the theory of externality and external (vs internal) validation, the theory of group economics, primary (resources, land, agriculture, equity, INPUT) + secondary (manufacturing, production, fabrication, resource conversion / products, TRANSFORM) + tertiary (goods, services, entertainment, OUTPUT) economy
 
+logistic regression theory
+
 

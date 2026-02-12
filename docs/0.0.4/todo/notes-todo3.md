@@ -496,4 +496,6 @@ nation ~ people, language, heritage, land, culture, finance (accounting), contra
 
 bank, fund, monetary fund, investment bank, privatization, trade, taxes, tariffs, generatl agreemtn on tariffs and trades, monetary transfer, centralization+decentralization+distribution, pricing+finance+knowledge+manufacturing+resources+land ~ the global corporation - mega corporation+oragnization+enterprise+business ~ dialectic ~ munguiusm
 
-iconography, the theory of externality and external (vs internal) validation, the theory of group economics
+iconography, the theory of externality and external (vs internal) validation, the theory of group economics, primary (resources, land, agriculture, equity, INPUT) + secondary (manufacturing, production, fabrication, resource conversion / products, TRANSFORM) + tertiary (goods, services, entertainment, OUTPUT) economy
+
+

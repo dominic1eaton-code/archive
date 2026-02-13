@@ -397,7 +397,7 @@ everything as a service XAAS
 
 protection+security+privacy as a service
 
-sovereignity as a service
+sovereignity+governance+power+control as a service
 
 manufacturing+production+fabrication as a service
 

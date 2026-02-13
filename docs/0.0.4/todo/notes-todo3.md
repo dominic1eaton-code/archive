@@ -563,6 +563,8 @@ the action principle, the theory of action, action systems/grammars/structures/f
 The Maono System produces the raw resources of ideas/concepts/visions/etc… which feeds into the Wazo system which converts these raw resources to “value”/solutions/products/platforms/outcomes/etc…. where these stable dualonic systems form a recursive sustainable maintainable renewable closed complete feedback loop
 
 
+tarakibu ~ The Kibu System ~ data collection + management system ~ collection of data (info, knowledge, wisdom) for consumption by intelligent systems, AI systems, human systems, hybrid systems, etc...
+
 
 The Black Panther Party (BPP) developed over 60 "Community Survival Programs" between 
 1967 and 1982 to provide essential services to marginalized Black communities, addressing 

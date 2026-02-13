@@ -168,7 +168,7 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
                             - the ogun OS
                             - the oshun OS
 
-                            * The Kernel
+                            * The Kernel OS
                                 - the obatala kernel
                                     - the civilization seed digital twin/mirror
                                     - the civilization seed

@@ -552,6 +552,8 @@ data+information+knowledge+wisdom as a service
 
 Explore other class of problems similar to the “5.11 − 5.9 = 0.21“ problem; find if there are other arithmetic operations that give similar results
 
+theory of scarcity+inclusion+exclusion+urgency+eclusiviness
 
+being "in the wilderness" as a mechanism of orientation+preperation+adaptation of the "intelligent mind" ~ wilderness theory
 
 

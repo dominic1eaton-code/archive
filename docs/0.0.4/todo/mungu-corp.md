@@ -542,3 +542,53 @@ Purpose: Villages exist for habitation; Communes are intentionally designed to s
 
 The Theory of Cooperatives+Communes+Communities+Village  ~ Theory of System + Games +  Evolution
 
+
+Black Panther Platform
+WHAT WE WANT
+
+1. We want freedom. We want power to determine the destiny of our black community.
+
+2. We Want Full Employment for Our People.
+
+3. We Want An End to the Robbery By the Capitalists of Our Black Community.
+
+4. We Want Decent Housing Fit For The Shelter of Human Beings.
+
+5. We Want Education for Our People That Exposes The True Nature Of This Decadent American Society. We Want Education That Teaches Us Our True History And Our Role in the Present-Day Society.
+
+6. We Want All Black Men To Be Exempt From Military Service.
+
+7. We Want An Immediate End to Police Brutality and the Murder of Black People.
+
+8. We Want Freedom For All Black Men Held in Federal, State, County and City Prisons and Jails.
+
+9. We Want All Black People When Brought to Trial To Be Tried In Court By A Jury Of Their Peer Group Or People From Their Black Communities, As Defined By the Constitution of the United States.
+
+10. We Want Land, Bread, Housing, Education, Clothing, Justice And Peace.
+
+
+WHAT WE BELIEVE
+
+1. We believe that Black people will not be free until we are able to determine our destiny.
+
+2. We believe that the federal government is responsible and obligated to give every man employment or a guaranteed income. We believe that if the White American businessmen will not give full employment, then the means of production should be taken from the businessmen and placed in the community so that the people of the community can organize and employ all of its people and give a high standard of living.
+
+3. We believe that this racist government has robbed us, and now we are demanding the overdue debt of forty acres and two mules. Forty acres and two mules were promised 100 years ago as restitution for slave labor and mass murder of Black people. We will accept the payment in currency which will be distributed to our many communities. The Germans are now aiding the Jews in Israel for the genocide of the Jewish people. The Germans murdered six million Jews. The American racist has taken part in the slaughter of over fifty million Black people; therefore, we feel that this is a modest demand that we make.
+
+4. We believe that if the White Landlords will not give decent housing to our Black community, then the housing and the land should be made into cooperatives so that our community, with government aid, can build and make decent housing for its people.
+
+5. We believe in an educational system that will give to our people a knowledge of self. If a man does not have knowledge of himself and his position in society and the world then he has little chance to relate to anything else.
+
+6. We believe that Black people should not be forced to fight in the military service to defend a racist government that does not protect us. We will not fight and kill other people of color in the world who, like Black people, are being victimized by the White racist government of America. We will protect ourselves from the force and violence of the racist police and the racist military by whatever means necessary.
+
+7. We believe we can end police brutality in our Black community by organizing Black self-defense groups that are dedicated to defending our Black community from racist police oppression and brutality. The Second Amendment to the Constitution of the United States gives a right to bear arms. We therefore believe that all Black people should arm themselves for self-defense.
+
+8. We believe that all Black People should be released from the many jails and prisons because they have not received a fair and impartial trial.
+
+9. We believe that the courts should follow the United States Constitution so that Black people will receive fair trials. The Fourteenth Amendment of the U.S. Constitution gives a man a right to be tried by his peer group. A peer is a person from a similar economic, social, religious, geographical, environmental, historical, and racial background. To do this the court will be forced to select a jury from the Black community from which the Black defendant came. We have been, and we are being, tried by all-White juries that have no understanding of the “average reasoning man” of the Black community.
+
+10. When, in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume, among the powers of the earth, the separate and equal station to which the laws of nature and nature’s God entitle them, a decent respect of the opinions of mankind requires that they should declare the causes which impel them to the separation.
+
+We hold these truths to be self-evident, that all men are created equal; that they are endowed by their Creator with certain inalienable rights; that among these are life, liberty, and the pursuit of happiness. That, to secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed; that, whenever any form of government becomes destructive of these ends, it is the right of the people to alter or abolish it, and to institute a new government, laying its foundation on such principles, and organizing its powers in such form, as to them shall seem most likely to effect their safety and happiness. Prudence, indeed, will dictate that governments long established should not be changed for light and transient causes; and, accordingly, all experience hath shown that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But, when a long train of abuses and usurpations, pursing invariably the same object, evinces a design to reduce them under absolute despotism, it is their right, it is their duty, to throw off such government, and to provide new guards for their future security.
+
+

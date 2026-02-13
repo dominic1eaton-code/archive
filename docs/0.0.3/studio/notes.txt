@@ -156,6 +156,7 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
                     - the ume-platform OS
                     - the oru-platform OS
                     - the qala-platform OS
+                    - the osyse-platform OS
 
                     * The Core OS
                         - the jiwe OS (distributed ledger)

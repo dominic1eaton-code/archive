@@ -558,4 +558,4 @@ being "in the wilderness" as a mechanism of orientation+preperation+adaptation o
 
 the action principle, the theory of action, action systems/grammars/structures/flows, the "action gradient", the theory of execution+computation+conceptualization+ideation+refinement+action, the action gradient between entropy and complexity, the fundamental action of "balance" + duality + consistency + repitition
 
-the idea generation+management+conversion+integration system  -  the conversion/transformation of the raw resource of “ideas” to realized systems through the action principle/gradient
+The Wazo / Mawazo System ~ the idea generation+management+conversion+integration system  -  the conversion/transformation of the raw resource of “ideas” to realized systems through the action principle/gradient

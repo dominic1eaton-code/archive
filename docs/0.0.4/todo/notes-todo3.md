@@ -561,3 +561,187 @@ the action principle, the theory of action, action systems/grammars/structures/f
  The Maono System + The Wazo / Mawazo System  ~  the visionary /idea/concept generation+management+conversion+integration system  -  the conversion/transformation of the raw resource of “ideas” to realized systems through the action principle/gradient + the integration/operations/actions/conversion/transformation system
 
 The Maono System produces the raw resources of ideas/concepts/visions/etc… which feeds into the Wazo system which converts these raw resources to “value”/solutions/products/platforms/outcomes/etc…. where these stable dualonic systems form a recursive sustainable maintainable renewable closed complete feedback loop
+
+
+
+The Black Panther Party (BPP) developed over 60 "Community Survival Programs" between 
+1967 and 1982 to provide essential services to marginalized Black communities, addressing 
+needs unmet by federal or local systems. These programs focused on food security, 
+education, health clinics (including sickle cell testing), legal aid, and free 
+transportation for families to visit incarcerated loved ones. 
+
+Key Black Panther Community Survival Programs:
+
+Free Breakfast for Children Program: The most famous program, feeding thousands of children before school.
+
+People’s Free Medical Research Health Clinics: Provided free health care, including screenings for hypertension and sickle cell anemia.
+
+Intercommunal Youth Institute/Oakland Community School: A model school providing free, high-quality education.
+
+Free Food Program/Food Cooperative Program: Distributed groceries to low-income families.
+
+Free Clothing and Shoe Programs: Provided clothing and shoes to community members.
+
+Free Busing to Prisons Program: Transported families to remote prisons to visit incarcerated loved ones.
+
+Seniors Against a Fearful Environment (SAFE): Focused on protecting and assisting elderly residents.
+
+Legal Aid and Education Workshops: Provided free legal advice and assistance.
+
+Free Ambulance Program: Provided emergency medical transport in underserved areas.
+
+Sickle Cell Anemia Research Foundation: Focused on testing and research for the disease.
+
+Free Pest Control and Plumbing Maintenance: Offered home repairs and maintenance.
+
+Free Shoe Program: Provided footwear to children.
+
+Liberation Schools: Summer and after-school programs focused on Black history and 
+political education.
+
+Child Development Center: Provided 24-hour childcare.
+
+Free Clothing Program: Distributed clothing to community members.
+
+Free Furniture Program: Provided furniture to families in need.
+
+Drug/Alcohol Abuse Awareness Program: Offered counseling and education.
+
+Employment Referral Service: Helped individuals find jobs.
+
+Community Patrols (Police Patrols): Monitored police to prevent brutality.
+
+The Black Panther Newspaper: Provided news and educational information. 
+
+These initiatives, often termed "Survival Programs Pending Revolution," were designed to empower communities and demonstrate the potential for communal self-reliance.
+
+Alameda County Volunteer
+
+Benefit Counseling
+
+Black Student Alliance
+
+Child Development Center
+
+Consumer Education Classes
+
+Community Facility Use
+
+Community Health Classes
+
+East Oakland CIL (Center for Independent Living) Branch
+
+Community Pantry (Free Food Program)
+
+Disabled Persons Services/Transportation and Attendant
+
+Drug/Alcohol Abuse Awareness Program
+
+Drama Classes
+
+Drill Team
+
+Employment Referral Service
+
+Free Ambulance Program
+
+Free Breakfast for Children Programs
+
+Free Bussing to Prisons Program
+
+Free Clothing Program
+
+Free Commissary for Prisoners Program
+
+Free Dental Program
+
+Free Employment Program
+
+Free Food Program
+
+Free Film Series
+
+Free Furniture Program
+
+Free Health Clinics
+
+Free Housing Cooperative Program
+
+Food Cooperative Program
+
+Free Optometry Program
+
+Community Forum
+
+Free Pest Control Program
+
+Free Plumbing and Maintenance Program
+
+Free Shoe Program
+
+GED Classes
+
+Geriatric Health Center
+
+GYN Clinic
+
+Home SAFE Visits
+
+Intercommunal Youth Institute (becomes OCS in 1975)
+
+Junior High and High School Tutorial Program
+
+Legal Aid and Education
+
+Legal Clinic/Workshops
+
+Laney Experimental College Extension Site
+
+Legal Referral Service(s)
+
+Liberation Schools
+
+Martial Arts Program
+
+Nutrition Classes
+
+Oakland Community Learning Center
+
+Outreach Preventative Care
+
+Program Development
+
+Pediatric Clinic
+
+Police Patrols
+
+Seniors Against a Fearful Environment
+
+SAFE Club
+
+Sickle Cell Anemia Research Foundation
+
+Son of Man Temple (becomes Community Forum in 1976)
+
+Sports Program
+
+Senior Switchboard
+
+The Black Panther Newspaper
+
+Teen Council
+
+Teen Program
+
+U.C. Berkeley Students Health Program
+
+STD Preventative Screening & Counseling
+
+Visiting Nurses Program
+
+WIC Program (Women’s, Infants & Children)
+
+Youth Diversion and Probation Site
+
+Youth Training and Development
+

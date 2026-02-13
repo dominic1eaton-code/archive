@@ -760,4 +760,4 @@ the theory of value + negotiation + experience ~ the negotiation of value throug
 
 tarakibu ~ The Kibu System ~ data collection + management system ~ collection of data (info, knowledge, wisdom) for consumption by intelligent systems, AI systems, human systems, hybrid systems, etc... ~ data/web/network crawler + collection + organization + filter + search system (Goma System)
 
-The Saa System ~ the Mungu time/temporal/calendar/clock/etc… system
+The Saa System ~ the Mungu time/temporal/calendar/clock/schedule/etc… system

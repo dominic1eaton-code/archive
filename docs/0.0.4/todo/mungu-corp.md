@@ -501,3 +501,4 @@ Games are the resulting experience created when these systems and grammars are p
 * Incentive Mechanism Design (system+grammar) ~ completion grammar of an initial "game" grammar
 
 The Theory of System (theory of programs, theory of processes) + The Theory of Games (theory of  grammars, theory of  rules) + The Theory of Evolution (theory of compression, theory of survival, theory of change/transformation)
+

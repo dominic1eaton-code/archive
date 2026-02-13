@@ -750,5 +750,7 @@ The Mungu Party ~ connection between a local governemnt and the Mungu Government
 
 the theory of Institution ~ theory of government, theory of politics / politcal party, theory of organizations/business/enterprise/corporation + the "global corporation" vs "the local corporation", the theory of culture/sociality/memes/connection/village/relationships/etc...
 
+The Unified Theory of Language, symbolic representation ~ if it can be said, it can be done
+
 ---
 

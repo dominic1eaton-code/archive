@@ -160,7 +160,7 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
 
                     * The Core OS
                         - the jiwe OS (distributed ledger)
-                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin, agreements)
                         - the zamani OS (DAO, estate OS)
 
                         * The Seed OS
@@ -170,8 +170,8 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
 
                             * The Kernel OS
                                 - the obatala kernel
-                                    - the civilization seed digital twin/mirror
-                                    - the civilization seed
+                                    - the civilization seed digital twin/mirror - controller
+                                    - the civilization seed - system
 
 
 the mungu project

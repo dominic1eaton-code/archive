@@ -116,8 +116,8 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
 
     * the meridian operating system
         - the mungu OS
-        - the ashe OS
-        - the msingi OS
+        - the ashe OS (kernel seed tree network forest)
+        - the msingi OS (luma kano ndebe zalendo kuzu zamba)
 
         * the pamoja operating system
             - the sankofa-council model OS
@@ -143,7 +143,7 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
                 - the massai-media model OS
                 - the lomwe-systems model OS
                 - the batwa-foundation model OS
-                - the san-group model OS
+                - the san-group model OS (land, agriculture, mining)
                 - the mande-investments model OS
                 - the wolof-io model OS
                 - the damara-enterprises OS
@@ -164,9 +164,9 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
                         - the zamani OS (DAO, estate OS)
 
                         * The Seed OS
-                            - the shango OS
-                            - the ogun OS
-                            - the oshun OS
+                            - the shango OS - transformation, process, program, procedure, policy
+                            - the ogun OS - structure, input, framework
+                            - the oshun OS - flow, output, outcome, result
 
                             * The Kernel OS
                                 - the obatala kernel

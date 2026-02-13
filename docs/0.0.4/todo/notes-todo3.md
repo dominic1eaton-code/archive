@@ -512,3 +512,41 @@ The "this not that hypothesis" ~ all human text (and language that produces text
 @todo give a name to this hypothesis/theory/grammar/system
 
 @todo give a formal name to the study + formalize the study  of data inputted into LLMs/AI systems, as well as the entire system of inputs+transforms+outputs of AI/intelligent/reasoning systems/grammars
+
+
+system processes
+
+cycle processes
+
+kernel process
+
+management process
+
+establishment process
+
+defragmentation+consolidation process
+
+
+everything as a service XAAS
+
+protection+security+privacy as a service
+
+sovereignity+governance+power+control as a service
+
+manufacturing+production+fabrication as a service
+
+business/organization/enterprise/cycles as a service
+
+portfolio+program+project+policy+procedure+process as a service
+
+finance+accounting+marketing+sales+operations+HR+IT+business-function+etc... as a service
+
+solution+software+platform+infrastructure+application+system+products as a service
+
+connection+relation+relationship+cooperative as a service
+
+data+information+knowledge+wisdom as a service
+
+
+
+

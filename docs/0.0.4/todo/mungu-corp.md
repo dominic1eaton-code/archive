@@ -369,6 +369,8 @@ management process
 
 establishment process
 
+defragmentation+consolidation process
+
 
 # portfolios
 
@@ -405,8 +407,11 @@ business/organization/enterprise/cycles as a service
 
 portfolio+program+project+policy+procedure+process as a service
 
-finance+accounting+marketing+sales+operations+HR+IT+business-function+etc... as a 
+finance+accounting+marketing+sales+operations+HR+IT+business-function+etc... as a service
 
 solution+software+platform+infrastructure+application+system+products as a service
 
 connection+relation+relationship+cooperative as a service
+
+data+information+knowledge+wisdom as a service
+

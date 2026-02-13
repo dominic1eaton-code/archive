@@ -548,5 +548,10 @@ connection+relation+relationship+cooperative as a service
 data+information+knowledge+wisdom as a service
 
 
+---
+
+Explore other class of problems similar to the “5.11 − 5.9 = 0.21“ problem; find if there are other arithmetic operations that give similar results
+
+
 
 

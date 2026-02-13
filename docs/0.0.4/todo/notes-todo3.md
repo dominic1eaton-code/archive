@@ -754,5 +754,5 @@ The Unified Theory of Language, symbolic representation ~ if it can be said, it 
 
 ---
 
-the theory of value + negotation ~ the negotiation of value
+the theory of value + negotiation + experience ~ the negotiation of value through experience
 

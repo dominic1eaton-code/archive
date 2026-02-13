@@ -415,3 +415,13 @@ connection+relation+relationship+cooperative as a service
 
 data+information+knowledge+wisdom as a service
 
+
+
+kogi platform - tertiary economy platform, portfolio+program+project+process+procedure+policy+work platform
+qala platform - XaaS everything as a service, solution+product+service+good+platform+system+software factory platform
+imewe platform - production+manufacturing+fabrication platform, secondary economy platform
+nandi platform - mobility+transport+distribution+supply-chain+motiltiy platform
+osyse platform - renewable environment management+resource mining+replenishmnet+balance, primary economy platform (raw resources, agriculture, environment, minerals/mining)
+ume platform - organization+business+enterprise+business platform
+sambara platform - data information knowledge wisdom DIKW platform/mirror/system
+oru platform - simulation platform

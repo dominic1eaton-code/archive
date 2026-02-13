@@ -401,10 +401,12 @@ sovereignity+governance+power+control as a service
 
 manufacturing+production+fabrication as a service
 
-products as a service
-
 business/organization/enterprise/cycles as a service
 
 portfolio+program+project+policy+procedure+process as a service
 
+finance+accounting+marketing+sales+operations+HR+IT+business-function+etc... as a 
 
+solution+software+platform+infrastructure+application+system+products as a service
+
+connection+relation+relationship+cooperative as a service

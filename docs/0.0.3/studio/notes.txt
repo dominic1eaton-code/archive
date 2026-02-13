@@ -115,7 +115,7 @@ fundamental project => fundamental program => fundamental cycle => {kernel cycle
 * The Obatala operating system
 
     * the meridian operating system
-        - the mungu OS
+        - the mungu OS - comrades + competition + customers
         - the ashe OS (kernel seed tree network forest)
         - the msingi OS (luma kano ndebe zalendo kuzu zamba)
 

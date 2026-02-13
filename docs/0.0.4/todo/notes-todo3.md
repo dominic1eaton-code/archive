@@ -558,4 +558,6 @@ being "in the wilderness" as a mechanism of orientation+preperation+adaptation o
 
 the action principle, the theory of action, action systems/grammars/structures/flows, the "action gradient", the theory of execution+computation+conceptualization+ideation+refinement+action, the action gradient between entropy and complexity, the fundamental action of "balance" + duality + consistency + repitition
 
-The Wazo / Mawazo System ~ the idea generation+management+conversion+integration system  -  the conversion/transformation of the raw resource of “ideas” to realized systems through the action principle/gradient
+ The Maono System + The Wazo / Mawazo System  ~  the visionary /idea/concept generation+management+conversion+integration system  -  the conversion/transformation of the raw resource of “ideas” to realized systems through the action principle/gradient + the integration/operations/actions/conversion/transformation system
+
+The Maono System produces the raw resources of ideas/concepts/visions/etc… which feeds into the Wazo system which converts these raw resources to “value”/solutions/products/platforms/outcomes/etc…. where these stable dualonic systems form a recursive sustainable maintainable renewable closed complete feedback loop

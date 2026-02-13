@@ -391,3 +391,20 @@ congo ~ central africa
 group economics
 
 
+# services
+
+everything as a service XAAS
+
+protection+security+privacy as a service
+
+sovereignity as a service
+
+manufacturing+production+fabrication as a service
+
+products as a service
+
+business/organization/enterprise/cycles as a service
+
+portfolio+program+project+policy+procedure+process as a service
+
+

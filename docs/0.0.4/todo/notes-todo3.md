@@ -816,8 +816,6 @@ Examples of foundational concepts often debated include Plato's Theory of Ideas,
 
 ~ 
 
-
-
 The Theory of Culture, The Theory of Institution, The Theory of Knowledge, The Theory of Philosophy
 
 The Theory of Organization+Enterprise+Business+Corporation

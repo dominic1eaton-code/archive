@@ -838,3 +838,6 @@ the theory of symmetry+invariance+persistence
 the theory of expression+action+propogation
 
 theory of vulnerability+exposure+transperancy
+
+
+the theory of scarcity+limitation+boundary+constraint+value+gradient of transform / entropic+complex-ic degrees of freedom 

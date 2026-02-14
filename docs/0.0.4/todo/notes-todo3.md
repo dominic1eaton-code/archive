@@ -763,3 +763,5 @@ tarakibu ~ The Kibu System ~ data collection + management system ~ collection of
 The Saa System ~ the Mungu time/temporal/calendar/clock/schedule/etc… system
 
 nogon + nogi ~ primitive/meta-primitive of (orientation/alignment) drift
+
+on the creation of a philosophy ~ the mungu philosophy ~ the theory of philosophy/ontology/epistomology/teleology

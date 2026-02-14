@@ -847,3 +847,6 @@ the theory of oration and oral tradition + theory of communication + theory of s
 the Mungu orientation program ~ orienting the community (Village) under one "banner of alignment" ~ the defragmentation+consolidatiion+compression program
 
 alignent as a service
+
+recycling processing centers - bins - drop locaations ~ san firm recycling network
+

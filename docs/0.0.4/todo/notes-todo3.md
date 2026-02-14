@@ -765,3 +765,23 @@ The Saa System ~ the Mungu time/temporal/calendar/clock/schedule/etc… system
 nogon + nogi ~ primitive/meta-primitive of (orientation/alignment) drift
 
 on the creation of a philosophy ~ the mungu philosophy ~ the theory of philosophy/ontology/epistomology/teleology
+
+Philosophy is the overarching, systematic study of fundamental principles, including reality (ontology), knowledge (epistemology), and purpose (teleology). Ontology focuses on "what is" (being and existence), epistemology focuses on "how we know" (knowledge and truth), and teleology focuses on "why" (purpose, goals, or final causes). 
+
+Philosophy: The broad study of existence, knowledge, values, and reason.
+
+Ontology: A branch of metaphysics concerned with the nature of being, reality, and what actually exists (e.g., materialism vs. idealism).
+
+Epistemology: The study of the scope, nature, and justification of knowledge—how we know what we know (e.g., rationalism, empiricism).
+
+Teleology: The study of final causes, focusing on the purpose, design, or intended goal of things. 
+
+Key Differences:
+
+Ontology is about Being (What is real?).
+
+Epistemology is about Knowing (How do we know it?).
+
+Teleology is about Purpose (Why is it here? What is its goal?). 
+
+While ontology examines the existence of objects, teleology seeks the purpose behind those objects. Epistemology serves as the foundation for validating knowledge in both

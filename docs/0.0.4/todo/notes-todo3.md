@@ -837,3 +837,4 @@ the theory of symmetry+invariance+persistence
 
 the theory of expression+action+propogation
 
+theory of vulnerability+exposure+transperancy

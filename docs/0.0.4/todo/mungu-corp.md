@@ -664,8 +664,8 @@ Note: It is important to comply with policies regarding AI-generated content in 
                     - the osyse-platform OS
 
                     * The Core OS
-                        - the jiwe OS (distributed ledger)
-                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin, agreements)
+                        - the jiwe+goma+saa OS (distributed ledger + distrbuted network + time system)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin, agreements, the money)
                         - the zamani OS (DAO, estate OS)
 
                         * The Seed OS

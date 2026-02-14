@@ -677,3 +677,6 @@ Note: It is important to comply with policies regarding AI-generated content in 
                                 - the obatala kernel
                                     - the civilization seed digital twin/mirror - controller
                                     - the civilization seed - system
+
+
+you don't get what you want you get what you believe, and really you get what you negotiate for

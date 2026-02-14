@@ -844,4 +844,4 @@ the theory of scarcity+limitation+boundary+constraint+value+gradient of transfor
 
 the theory of oration and oral tradition + theory of communication + theory of symbols+representation+language+symbolic representation
 
-the Mungu orientation program ~ orienting the community (Village) under one "banner of alignment"
+the Mungu orientation program ~ orienting the community (Village) under one "banner of alignment" ~ the defragmentation+consolidatiion+compression program

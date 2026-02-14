@@ -619,7 +619,7 @@ Note: It is important to comply with policies regarding AI-generated content in 
 
 * The Obatala operating system
 
-    * the meridian operating system
+    * the meridian operating system ~ similarity+orientation+alignment OS
         - the mungu OS - comrades + competition + customers ~ decentralized, independent, cell OSs
         - the ashe OS (kernel seed tree network forest)
         - the msingi OS (luma kano ndebe zalendo kuzu zamba)

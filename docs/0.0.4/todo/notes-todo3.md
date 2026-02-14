@@ -848,5 +848,5 @@ the Mungu orientation program ~ orienting the community (Village) under one "ban
 
 alignent as a service
 
-recycling processing centers - bins - drop locaations ~ san firm recycling network
+recycling processing centers - bins - drop locaations ~ san firm recycling network ~ recycled materials collection centers, processing centers, distribution systems, supply chain network, refurbishment facilities
 

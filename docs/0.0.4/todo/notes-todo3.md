@@ -839,7 +839,7 @@ the theory of expression+action+propogation
 
 theory of vulnerability+exposure+transperancy
 
-the theory of scarcity+limitation+boundary+constraint+value+gradient of transform / entropic+complex-ic degrees of freedom / secrecy+secret societies vs transparency ~ connection to the motivation/necessity for “complexity folding” / compression - entities compress their complexity in order to have more degrees of freedom to navigate an “entropy field” which allows them to better adapt/change/shift to their highly entropic environments, where scarcity+boundary+limitation+contstraint acts as the core driver/mechanism for this phenomena, creating the gradient necessary for entities to evolve over ~ the evolution gradient
+the theory of scarcity+limitation+boundary+constraint+value+gradient of transform / entropic+complex-ic degrees of freedom / secrecy+secret societies vs transparency ~ connection to the motivation/necessity for “complexity folding” / compression - entities compress their complexity in order to have more degrees of freedom to navigate an “entropy field” which allows them to better adapt/change/shift to their highly entropic environments, where scarcity+boundary+limitation+contstraint acts as the core driver/mechanism for this phenomena, creating the gradient necessary for entities to evolve over ~ the evolution gradient ~ the theory of influence+interaction
 
 
 the theory of oration and oral tradition + theory of communication + theory of symbols+representation+language+symbolic representation

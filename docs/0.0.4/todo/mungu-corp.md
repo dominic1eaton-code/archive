@@ -648,7 +648,7 @@ Note: It is important to comply with policies regarding AI-generated content in 
                 - the massai-media model OS
                 - the lomwe-systems model OS
                 - the batwa-foundation model OS
-                - the san-group model OS (land, agriculture, mining)
+                - the san-group model OS (land, agriculture, mining, recycling+renewability+sustainability)
                 - the mande-investments model OS
                 - the wolof-io model OS
                 - the damara-enterprises OS

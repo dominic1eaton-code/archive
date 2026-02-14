@@ -835,5 +835,5 @@ The theory of emotion+affect+sentiment
 
 the theory of symmetry+invariance+persistence
 
-the theory of expression+action
+the theory of expression+action+propogation
 

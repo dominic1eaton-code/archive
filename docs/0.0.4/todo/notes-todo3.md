@@ -851,3 +851,5 @@ alignent as a service
 recycling processing centers - bins - drop locaations ~ san firm recycling network ~ recycled materials collection centers, processing centers, distribution systems, supply chain network, refurbishment facilities
 
 theory of orientation+alignment+similarity vs theory of distinction+bias+difference
+
+order of precendence

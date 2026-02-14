@@ -616,3 +616,64 @@ Refine strategies based on feedback.
 Use AI to optimize websites and strategies for search engines. 
 Note: It is important to comply with policies regarding AI-generated content in politics, such as ensuring transparency and avoiding the spread of misinformation
 
+
+* The Obatala operating system
+
+    * the meridian operating system
+        - the mungu OS - comrades + competition + customers
+        - the ashe OS (kernel seed tree network forest)
+        - the msingi OS (luma kano ndebe zalendo kuzu zamba)
+
+        * the pamoja operating system
+            - the sankofa-council model OS
+            - the ubuntuwa-commons model OS
+            - the uhuru-creditunion model OS
+            - the zulamba-members model OS
+            - the zawadi-exchange model OS
+            - the maliya-treasury model OS
+            - the kaziwa-foundation model OS
+            - the bahari-network model OS
+            - the moyo-collective model OS
+            - the umoya-society model OS
+            - the kumba-factory model OS
+            - the ubunye-engineering model OS
+            - the obatala-ventures model OS
+
+            * The Tribes OS
+                - the nandi-mobility model OS
+                - the dogon-manufacturing model OS
+                - the azande-agency model OS
+                - the songhai-institute model OS
+                - the niguvu-corporation model OS
+                - the massai-media model OS
+                - the lomwe-systems model OS
+                - the batwa-foundation model OS
+                - the san-group model OS (land, agriculture, mining)
+                - the mande-investments model OS
+                - the wolof-io model OS
+                - the damara-enterprises OS
+
+                * The Platforms OS
+                    - the sambara-platform OS
+                    - the nandi-platform OS
+                    - the kogi-platform OS
+                    - the imewe-platform OS
+                    - the ume-platform OS
+                    - the oru-platform OS
+                    - the qala-platform OS
+                    - the osyse-platform OS
+
+                    * The Core OS
+                        - the jiwe OS (distributed ledger)
+                        - the zawadi OS (smart contracts, currency, tokens, NFTs, sundiata coin, agreements)
+                        - the zamani OS (DAO, estate OS)
+
+                        * The Seed OS
+                            - the shango OS - transformation, process, program, procedure, policy
+                            - the ogun OS - structure, input, framework
+                            - the oshun OS - flow, output, outcome, result
+
+                            * The Kernel OS
+                                - the obatala kernel
+                                    - the civilization seed digital twin/mirror - controller
+                                    - the civilization seed - system

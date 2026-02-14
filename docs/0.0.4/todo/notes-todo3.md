@@ -828,3 +828,12 @@ the theory of recycling, the Mungu recycling program
 
 Information Technology Asset Disposition
 
+
+---
+
+The theory of emotion+affect+sentiment
+
+the theory of symmetry+invariance+persistence
+
+the theory of expression+action
+

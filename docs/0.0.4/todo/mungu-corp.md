@@ -680,3 +680,5 @@ Note: It is important to comply with policies regarding AI-generated content in 
 
 
 you don't get what you want you get what you believe, and really you get what you negotiate for
+
+community survival programs => community thriving programs

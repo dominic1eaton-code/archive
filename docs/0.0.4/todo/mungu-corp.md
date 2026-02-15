@@ -423,7 +423,7 @@ imewe platform - production+manufacturing+fabrication platform, secondary econom
 nandi platform - mobility+transport+distribution+supply-chain+motiltiy platform
 osyse platform - renewable environment management+resource mining+replenishmnet+balance, primary economy platform (raw resources, agriculture, environment, minerals/mining)
 ume platform - organization+business+enterprise+business platform
-sambara platform - data information knowledge wisdom DIKW platform/mirror/system
+sambara platform - data information knowledge wisdom DIKW platform/mirror/system, AI OS
 oru platform - simulation platform
 
 

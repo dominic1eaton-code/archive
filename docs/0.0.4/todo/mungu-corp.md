@@ -417,14 +417,14 @@ data+information+knowledge+wisdom as a service
 
 
 
-kogi platform - tertiary economy platform, portfolio+program+project+process+procedure+policy+work platform
-qala platform - XaaS everything as a service, solution+product+service+good+platform+system+software factory platform
-imewe platform - production+manufacturing+fabrication platform, secondary economy platform
-nandi platform - mobility+transport+distribution+supply-chain+motiltiy platform
-osyse platform - renewable environment management+resource mining+replenishmnet+balance, primary economy platform (raw resources, agriculture, environment, minerals/mining)
-ume platform - organization+business+enterprise+business platform
+kogi platform - tertiary economy platform, portfolio+program+project+process+procedure+policy+work platform, portfolio OS
+qala platform - XaaS everything as a service, solution+product+service+good+platform+system+software factory platform, solution OS
+imewe platform - production+manufacturing+fabrication platform, secondary economy platform, production OS
+nandi platform - mobility+transport+distribution+supply-chain+motiltiy platform, mobility OS
+osyse platform - renewable environment management+resource mining+replenishmnet+balance, primary economy platform (raw resources, agriculture, environment, minerals/mining), resource OS
+ume platform - organization+business+enterprise+business platform, organization OS
 sambara platform - data information knowledge wisdom DIKW platform/mirror/system, AI OS
-oru platform - simulation platform
+oru platform - simulation platform, simulation OS
 
 
 The Mungu Game + the Unified theory of Games

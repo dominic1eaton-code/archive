@@ -1,4 +1,6 @@
 # kanye investments firm
+investment arm of the Mande Investments Firm
+
 * wealth management
 * investment management
 * portfolio management

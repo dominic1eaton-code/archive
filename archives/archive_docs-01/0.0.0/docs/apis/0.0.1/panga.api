@@ -1,5 +1,5 @@
 /**
- * @brief 
+ * @brief studio management system
  */
 
 new
@@ -30,6 +30,10 @@ create canvas portfolio
 
 create studio profile
 create studio brief
+
+create deck pitch
+create deck investor
+create deck general
 
 
 create firm brief
@@ -88,6 +92,8 @@ create studio factory
 create studio warehouse
 create studio office
 
+create studio permission[]
+
 
 update
 update studio
@@ -107,11 +113,15 @@ register studio
 
 
 add
+add venture
 add firm
 add communication
 add organization
 add contact
 add priority
+add entity
+add business
+add enterprise
 
 add tool
 add toolkit
@@ -124,6 +134,6 @@ connect tool VCS
 connect tool IDE
 connect tool SDE
 
-
-
+remove
+remove studio
 

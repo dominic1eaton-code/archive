@@ -140,3 +140,6 @@ freedman's savings and trust credit union build
 Maafa memorial program build
 - memorial, monument, museum greenspace program
 
+
+## community thriving programs
+=> community survival programs . next iteration (2.0)

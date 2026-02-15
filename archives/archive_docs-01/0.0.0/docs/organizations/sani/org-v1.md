@@ -1,4 +1,5 @@
-# the sani research institute; the sani institute of technology
+# the sani research center; the sani institute of technology
+research center of the Songhai Institute of Systemics and Systemology
 * the institute for systems science and engineering
     * the sani endowment fund
     * the center for autonomous systems

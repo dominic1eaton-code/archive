@@ -956,3 +956,24 @@ Arc V — Life & Intelligence (MP-13 to MP-15): Formally defines life as closure
 Arc VI — Civilization & Cosmology (MP-16 to MP-18): Covers governing systems, ethics as survival, and the shift to an interaction-first ontology.
 
 
+Key Components of the Theory
+
+Ω (Omega): The core scalar representing a system's capacity to maintain closure.
+
+Dualonic Stability: The principle that no system stabilizes alone, requiring paired opposition.
+
+Lubiko Bible: A set of 12 "books of necessity" that ground the formal papers in existential reality. 
+
+Mungu theory is designed to be a "minimal formal closure," aiming for internal consistency, testability, and applicability to any domain. 
+
+
+RPG4 language
+
+HBC hardware
+
+cloudfare, hexer
+
+ESO - enterprenueral S organizations
+T-rex, cortex commons ~ IGNITE, square 1, tech artists, foudners lounge ~ SPARK coworking space - every thursday, bourbon friday, tenacity.io/thisweek, pitchSTL, devlab
+
+EU export/import compliance and regulations

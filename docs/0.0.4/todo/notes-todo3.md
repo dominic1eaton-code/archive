@@ -974,6 +974,6 @@ HBC hardware
 cloudfare, hexer
 
 ESO - enterprenueral S organizations
-T-rex, cortex commons ~ IGNITE, square 1, tech artists, foudners lounge ~ SPARK coworking space - every thursday, bourbon friday, tenacity.io/thisweek, pitchSTL, devlab
+T-rex, cortex commons ~ IGNITE, square 1, tech artists, founders lounge ~ SPARK coworking space - every thursday, bourbon friday, tenacity.io/thisweek, pitchSTL, devlab
 
 EU export/import compliance and regulations

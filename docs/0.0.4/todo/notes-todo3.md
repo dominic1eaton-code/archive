@@ -899,3 +899,7 @@ Structural Levels: The framework links various realms—physics, cognition, cult
 
 Theoretical Structure: It is described as a closed, 18-paper system ("The Mungu Papers") comprising 6 arcs that analyze its own structure and behavior. 
 Mungu Theory aims to model how systems exist, survive, and collapse based on these foundational principles
+
+6 Major Arcs of the Mungu Papers + 2 Grand Dualonic Arcs
+
+ 

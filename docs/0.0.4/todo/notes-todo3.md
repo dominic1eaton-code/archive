@@ -902,4 +902,57 @@ Mungu Theory aims to model how systems exist, survive, and collapse based on the
 
 6 Major Arcs of the Mungu Papers + 2 Grand Dualonic Arcs
 
- 
+---
+
+Mungu Theory (often referred to as The Mungu Papers) is described as a comprehensive, closed-loop systems theory designed to explain existence, persistence, interaction, and collapse through a minimal, formal, and structural framework. 
+It is structured as a system of 18 papers organized into 6 main arcs. This system aims to derive physics, biology, cognition, ethics, and game theory from a unified root principle: survival through closure. 
+
+
+ Key Theoretical Structure
+
+
+The 6 Arcs: The 18 papers are divided into 6 conceptual segments (arcs) that build upon one another to form a "survival grammar for systems under asymmetry".
+
+Closed System: Mungu Theory is self-referential and claims that for a system (or theory) to persist, it must maintain closure through cycles of interaction.
+
+18 Papers (The Mungu Papers): This body of work replaces classical, truth-centric logic with a system-centric, "validity-based" framework.
+
+Kora Laws: The foundation rests on a few core, irreducible laws (the Kora Laws), including the Law of Distinction, Law of Closure, Law of System, Law of Relativity, and Law of Cycle. 
+
+Core Concepts & Principles
+
+
+Existence under Asymmetry: Mungu Theory posits that all things that persist do so by maintaining closure through cycles of interaction.
+
+Closure & Collapse: Systems (whether physical, biological, or social) survive by maintaining "closure," which allows them to recover from perturbations. Loss of closure results in collapse.
+
+Interaction Primacy: Interaction is treated as more fundamental than the objects themselves. Objects are considered "crystallized interaction".
+
+Relativity & Incompleteness: The theory explicitly accepts its own incompleteness and relativity, arguing that any theory that persists must be incomplete (referencing Gödelian limits).
+
+Primitives: It utilizes formal "ontic atoms" (primitives) ending in -on (e.g., mungon for existence, closon for closure, ramanon for interaction). 
+
+Mungu Theory, largely developed by Dominic Eaton 2 (Eatondo), is aimed at being a meta-framework that serves as a map for orienting, aligning, and producing models for systems that manage the complexity-entropy balance. 
+
+
+Yes, Mungu Theory is described as a closed, 18-paper system organized into 6 thematic arcs, forming a comprehensive framework for understanding system survival (survivability). Developed as an operational framework rather than mere philosophy, it outlines how systems—from physics to AI—maintain closure under perturbations. 
+
+The structure is defined by 18 individual papers (MP-01 to MP-18) where nothing can be removed without causing the system to collapse, notes Dominic Eaton 2. 
+
+The 18-Paper, 6-Arc Structure
+
+The Mungu Papers are organized as follows: 
+
+Arc I — Foundations (MP-01 to MP-03): Focuses on why truth fails and is replaced by validity, the axiom that systems exist, and Mungu logic.
+
+Arc II — Structure (MP-04 to MP-06): Covers the Law of Dualonicity (systems arising from mutual incompleteness), orientation, and structural causes of collapse.
+
+Arc III — Agency (MP-07 to MP-09): Defines agents as closure-maintaining entities, explains bidirectional choice, and describes evolution as filtering rather than optimization.
+
+Arc IV — Language & Memory (MP-10 to MP-12): Explores relational meaning, memory as a ledger (Jiwe), and language as the compression of paths.
+
+Arc V — Life & Intelligence (MP-13 to MP-15): Formally defines life as closure under energy flow, intelligence as optimization of that closure, and AI as a non-carbon life form.
+
+Arc VI — Civilization & Cosmology (MP-16 to MP-18): Covers governing systems, ethics as survival, and the shift to an interaction-first ontology.
+
+

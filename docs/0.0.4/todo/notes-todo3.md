@@ -879,3 +879,23 @@ IT Optimization: Outsourcing IT operations to firms that align technology infras
 Automotive Context (Wheel Alignment):
 
 Separately, wheel alignment is a service that adjusts a vehicle's suspension to ensure proper tire-road contact, improving handling and reducing tire wear. This service includes measuring caster, camber, and toe angles, as well as calibrating advanced driver assistance systems (ADAS).
+
+---
+
+Mungu Theory is a unified systems framework and paradigm developed to explain how intelligence, structure, and meaning emerge from interactions, treating relations as primary over individual objects. It posits that complex, self-stable systems emerge from asymmetric interactions (dualonic pairs), rather than separate entities, operating across physical, social, and informational domains. 
+
+Key Aspects of Mungu Theory:
+
+Core Premise: Relations, interactions, and processes are fundamental, while objects are temporary stabilizations within these interactions.
+
+Dualonicity: Rejects solitary, independent parts (monads); the basic unit is a "self-stable dualonic pair," where interaction generates, stabilizes, or destroys entities.
+
+Asymmetry & Evolution: Asymmetry creates distinction, which enables boundaries, interaction, and, ultimately, evolution.
+
+Structural Levels: The framework links various realms—physics, cognition, culture, and computation—as different, layered expressions of a single, continuous process: relation ->
+ interpretation ->
+ coherence ->
+ emergence
+
+Theoretical Structure: It is described as a closed, 18-paper system ("The Mungu Papers") comprising 6 arcs that analyze its own structure and behavior. 
+Mungu Theory aims to model how systems exist, survive, and collapse based on these foundational principles

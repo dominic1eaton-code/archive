@@ -967,6 +967,7 @@ Lubiko Bible: A set of 12 "books of necessity" that ground the formal papers in 
 Mungu theory is designed to be a "minimal formal closure," aiming for internal consistency, testability, and applicability to any domain. 
 
 ---
+
 Production, manufacturing, and fabrication describe different stages of creating goods: fabrication shapes raw materials into parts, manufacturing assembles these parts into finished, often mass-produced, goods, and production is the overall process, including, planning, and logistics. Fabrication is typically custom/specialized, while manufacturing focuses on scalability. 
 
 Here is a detailed breakdown of the differences:
@@ -997,6 +998,8 @@ Definition: The overall process of creating goods or services, covering everythi
 Focus: Efficiency, quality, and supply chain management.
 
 Scope: Includes manufacturing,, but also encompasses research, design, and distribution
+
+kernel theory ~ unified theory of kernels across all math, physics, science, DAOs, theory kernels, knowledge, etc…
 
 ---
 

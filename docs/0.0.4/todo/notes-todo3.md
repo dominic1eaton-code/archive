@@ -1003,7 +1003,7 @@ kernel theory ~ unified theory of kernels across all math, physics, science, DAO
 
 ---
 
-RPG4 language
+RPG-IV language
 
 HBC hardware
 

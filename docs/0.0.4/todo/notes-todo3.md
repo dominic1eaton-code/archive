@@ -1003,8 +1003,10 @@ kernel theory ~ unified theory of kernels across all math, physics, science, DAO
 
 ---
 
-Items, assets, and capital represent different levels of value and utility in finance. Items are general, often consumable, physical goods. Assets are owned items with monetary value expected to provide future benefits (e.g., cash, machinery). Capital refers to funds or major assets used to generate wealth, expand, or produce more goods. 
+Items, assets, and capital represent different levels of value and utility in finance. Items are general, often consumable, physical goods. Assets are owned items with monetary value expected to provide future benefits (e.g., cash, machinery). Capital refers to funds or major assets used to generate wealth, expand, or produce more goods.
+
 Here is a detailed breakdown of the differences:
+
 Item (Inventory/Expense): Generally refers to items used in day-to-day operations that might not be capitalized due to low cost or short lifespan (e.g., office supplies, stock-in-trade).
 
 Asset (Value): Any resource owned by an entity that has economic value, including cash, accounts receivable, and property. Assets are divided into current (short-term) and fixed (long-term).

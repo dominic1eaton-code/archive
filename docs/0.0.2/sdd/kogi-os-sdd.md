@@ -10339,18 +10339,18 @@ Perfect! Let’s create a **high-level ASCII system architecture diagram** for t
                                         |
                                         | REST / GraphQL / WebSockets
                                         v
-+-----------------------------------------------------------------------------------+
-|                                KOGI-OS (Platform Layer)                            |
-|-----------------------------------------------------------------------------------|
-| Manages all Platform Component Apps, Modular / Plug-and-Play Support, SDK / API    |
-|-----------------------------------------------------------------------------------|
++----------------------------------------------------------------------------------+
+|                                KOGI-OS (Platform Layer)                          |
+|----------------------------------------------------------------------------------|
+| Manages all Platform Component Apps, Modular / Plug-and-Play Support, SDK / API  |
+|----------------------------------------------------------------------------------|
 | +------------------+   +------------------+   +------------------+               |
 | | KOGI-PORTFOLIO   |   | KOGI-PROJECT     |   | KOGI-COMMUNITY   |               |
 | | ItemBooks,       |   | Tasks, Features, |   | Rooms, Events,   |               |
 | | Binders, Files,  |   | Sprints, Timeline|   | Teams, Activity  |               |
 | | Libraries,       |   | Kanban, Backlog  |   | Feeds, Chat      |               |
 | | Catalogues,      |   +------------------+   +------------------+               |
-| | Archives         |                                                       
+| | Archives         |                                                             |
 | +------------------+   +------------------+   +------------------+               |
 | | KOGI-GIG         |   | KOGI-MARKETPLACE |   | KOGI-PAY         |               |
 | | Contacts, Roles, |   | Funding, Bids,   |   | Transactions,    |               |
@@ -10361,7 +10361,7 @@ Perfect! Let’s create a **high-level ASCII system architecture diagram** for t
 | | Prototypes, Test |   | Deploy, Manage   |   | Apps, Plugins,   |               |
 | | Design Workflows |   | Modules          |   | Templates        |               |
 | +------------------+   +------------------+   +------------------+               |
-+-----------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------+
                      |                     |                      |
                      v                     v                      v
             +----------------+    +----------------+    +----------------+

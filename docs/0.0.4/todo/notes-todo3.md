@@ -1010,7 +1010,7 @@ Here is a detailed breakdown of the differences:
 Item (Inventory/Expense): Generally refers to items used in day-to-day operations that might not be capitalized due to low cost or short lifespan (e.g., office supplies, stock-in-trade).
 
 Asset (Value): Any resource owned by an entity that has economic value, including cash, accounts receivable, and property. Assets are divided into current (short-term) and fixed (long-term).
-Capital (Investment/Means): The resources (cash or assets) used to invest, purchase fixed assets, and generate wealth. Capital constitutes the owner's investment in the business. 
+Capital (Investment/Means): The resources (cash or assets) used to invest, purchase fixed assets, and generate wealth. Capital constitutes the owner's investment in the business.
 
 Key Distinctions:
 

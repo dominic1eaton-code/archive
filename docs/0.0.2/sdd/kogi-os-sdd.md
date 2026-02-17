@@ -10353,7 +10353,7 @@ Perfect! Let’s create a **high-level ASCII system architecture diagram** for t
 | | Archives         |                                                             |
 | +------------------+   +------------------+   +------------------+               |
 | | KOGI-GIG         |   | KOGI-MARKETPLACE |   | KOGI-PAY         |               |
-| | Contacts, Roles, |   | Funding, Bids,   |   | Transactions,    |               |
+| | Contacts, Roles, |   | Funding, Bids,   |   | Transactions,    |               |   
 | | Schedules,       |   | Deals, Offers    |   | Billing, Taxes   |               |
 | | Agreements       |   +------------------+   +------------------+               |
 | +------------------+   +------------------+   +------------------+               |

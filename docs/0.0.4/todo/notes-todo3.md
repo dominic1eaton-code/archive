@@ -1018,6 +1018,14 @@ Capital vs. Asset: All capital invested becomes an asset, but not all assets are
 
 Asset vs. Item: Assets usually imply long-term value, depreciation, and tracking (e.g., $5,000+), whereas items may be lower-value, non-capitalized goods.
 
+
+---
+
+grammar wars + grammar interaction mechanics
+
+
+
+
 ---
 
 RPG-IV language
@@ -1034,3 +1042,4 @@ EU export/import compliance and regulations
 the samburu project
 
 ---
+

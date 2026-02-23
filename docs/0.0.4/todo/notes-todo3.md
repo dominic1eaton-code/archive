@@ -905,7 +905,7 @@ Mungu Theory aims to model how systems exist, survive, and collapse based on the
 ---
 
 Mungu Theory (often referred to as The Mungu Papers) is described as a comprehensive, closed-loop systems theory designed to explain existence, persistence, interaction, and collapse through a minimal, formal, and structural framework. 
-It is structured as a system of 18 papers organized into 6 main arcs. This system aims to derive physics, biology, cognition, ethics, and game theory from a unified root principle: survival through closure. 
+It is structured as a system of 18 papers organized into 6 main arcs. This system aims to derive physics, biology, cognition, ethics, and game theory from a unified root principle: survival through closure. S
 
 
  Key Theoretical Structure
@@ -1042,4 +1042,14 @@ EU export/import compliance and regulations
 the samburu project
 
 ---
+
+## kogi notes
+
+independent worker idea+portfolio execution opereating system
+
+portfolio exeuction+management system
+
+worker exeuction+management system
+
+idea+concept factory -> convert ideas to concepts to action items to finished/operational solutions
 

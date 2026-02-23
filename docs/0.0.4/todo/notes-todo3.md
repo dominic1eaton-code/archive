@@ -1137,4 +1137,4 @@ Delivery to Customers: Market your final product to relevant consumers. Read mor
 
 ---
 
-from problem to solution, via ideas+concepts
+from problem to solution, via ideas + concepts

@@ -1133,4 +1133,3 @@ Production: Determine the methods and materials that will be used in production.
 Trials and Regulatory Approvals: Measure the product’s effectiveness and get it approved for consumer use. Read more
 
 Delivery to Customers: Market your final product to relevant consumers. Read more
-

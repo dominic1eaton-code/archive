@@ -1070,9 +1070,8 @@ Key Stages of the Idea Lifecycle
 4. Testing / Refinement (Iteration): Validating the prototype with users to get feedback, refining, and improving the design.
 
 5. Implementation / Commercialization (Launch): Executing the final plan, launching the product or process into the market or organization. 
-Ed Elias
-Ed Elias
- +4
+
+
 
 Key Principles
 
@@ -1082,9 +1081,7 @@ Prioritization: Utilizing frameworks like MoSCoW method (Must, Should, Could, Wo
 
 Nurturing: Ideas require active management and resources to grow from a thought into a reality. 
 
-www.willpatrick.co.uk
-www.willpatrick.co.uk
- +2
+
 
 Variations in Models
 

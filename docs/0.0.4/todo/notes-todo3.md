@@ -1142,3 +1142,4 @@ Delivery to Customers: Market your final product to relevant consumers. Read mor
 from problem to solution, via ideas + concepts
 
 portfolio - container to run programs, processes, orchestrations, workflows, tasks, subportfolios
+

@@ -1144,3 +1144,41 @@ from problem to solution, via ideas + concepts
 portfolio - container to run programs, processes, orchestrations, workflows, tasks, subportfolios
 
 track tasks, works, work, assets, artifacts, programs, processes, orchestrations, workflows, tasks, subportfolios, etc...
+
+
+
+account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts)
+
+    - work account
+
+    - personal account
+
+    - misc account
+
+    e.g. 
+
+    work account I
+        - work profile I
+        ~ google profile  work I
+        - google account  work I
+        - chatGPT account work I
+        - microsoft account work I
+        - canva account  work I
+        - etc....
+
+    work account II
+        - work profile II
+        ~ google profile  work II
+        - google account  work II
+        - yahoo account work II
+        - LTK account work II
+
+    personal account I
+        - personal profile I
+        - bumble account personal I
+        - google account personal I
+        - yahoo account personal I
+        - claude account personal I
+        - grok account personal I
+        - youtube account personal I
+

@@ -1150,6 +1150,9 @@ track tasks, works, work, assets, artifacts, programs, processes, orchestrations
 
 kogi systems
 
+    kogi kernel
+        independent worker executor|manager|scheduler
+
     account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 
         - work account
@@ -1187,13 +1190,11 @@ kogi systems
 
 
     tools|toolkit|toolset|toolbox|developer management system
-
-    - 3rd party tool manager
-    - internal SDK + API manager
+        - 3rd party tool manager
+        - internal SDK + API manager
 
 
     user management system
-
         user personas
             - contractor
             - freelancer
@@ -1214,11 +1215,19 @@ kogi systems
 
 
 
-
     network management system
+        social network management system
+            market management system
+            community management system
+            spaces management system
+            chat(room) management system
 
 
 
     AI management system
+        filter|index|search management system
+        metrics|performance|optimization management system
+        digital assistants system
+        digital agents system
 
 

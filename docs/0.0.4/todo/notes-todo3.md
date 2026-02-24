@@ -1183,10 +1183,29 @@ account|profiles manager + linktree/linkforest manager (linkforest = collection 
         - youtube account personal I
 
 
-
 tools|toolkit|toolset|toolbox|developer management system
 
 - 3rd party tool manager
 - internal SDK + API manager
 
+
+user management system
+
+    user personas
+        - contractor
+        - freelancer
+        - consultant
+        - gig worker
+        - entrepreneuer
+        - hobbyist, enthusiast
+
+    account types
+        - administrator
+        - reporter
+        - watcher
+        - developer
+        - user
+        - support
+
+portfolio community + marketplace + centers management system
 

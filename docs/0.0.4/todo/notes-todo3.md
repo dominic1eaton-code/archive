@@ -1153,6 +1153,7 @@ kogi systems
     kogi kernel
         digital independent worker executor|manager|scheduler
 
+
     account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 
         - work account

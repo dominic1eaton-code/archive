@@ -1146,6 +1146,8 @@ portfolio - container to run programs, processes, orchestrations, workflows, tas
 track tasks, works, work, assets, artifacts, programs, processes, orchestrations, workflows, tasks, subportfolios, etc...
 
 
+
+
 kogi systems
 
     account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system

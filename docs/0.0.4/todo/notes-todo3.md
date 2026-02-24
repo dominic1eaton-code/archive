@@ -1153,6 +1153,11 @@ kogi systems
     kogi kernel
         digital independent worker executor|manager|scheduler
 
+    portfolio management system
+        program management system
+        project management system
+        asset+artifact managemnet
+        content+library+collection+list management system
 
     account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 
@@ -1213,8 +1218,6 @@ kogi systems
             - support
 
     portfolio community + marketplace + centers management system
-
-
 
     network management system
         social network management system

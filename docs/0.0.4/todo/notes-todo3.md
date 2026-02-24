@@ -1151,7 +1151,7 @@ track tasks, works, work, assets, artifacts, programs, processes, orchestrations
 kogi systems
 
     kogi kernel
-        independent worker executor|manager|scheduler
+        digital independent worker executor|manager|scheduler
 
     account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 

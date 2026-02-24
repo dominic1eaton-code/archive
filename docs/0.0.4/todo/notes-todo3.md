@@ -1216,6 +1216,11 @@ kogi systems
             - support
 
     portfolio community + marketplace + centers management system
+        center management system
+        community management sytsem
+        chat management system
+        market management system
+        exchange management system
 
     network management system
         social network management system
@@ -1229,4 +1234,4 @@ kogi systems
         metrics|performance|optimization management system
         digital assistants system
         digital agents system
-
+        game management system

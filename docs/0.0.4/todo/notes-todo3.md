@@ -1146,66 +1146,77 @@ portfolio - container to run programs, processes, orchestrations, workflows, tas
 track tasks, works, work, assets, artifacts, programs, processes, orchestrations, workflows, tasks, subportfolios, etc...
 
 
+kogi systems
 
-account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts)
+    account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 
-    - work account
+        - work account
 
-    - personal account
+        - personal account
 
-    - misc account
+        - misc account
 
-    e.g. 
+        e.g. 
 
-    work account I
-        - work profile I
-        ~ google profile  work I
-        - google account  work I
-        - chatGPT account work I
-        - microsoft account work I
-        - canva account  work I
-        - etc....
+        work account I
+            - work profile I
+            ~ google profile  work I
+            - google account  work I
+            - chatGPT account work I
+            - microsoft account work I
+            - canva account  work I
+            - etc....
 
-    work account II
-        - work profile II
-        ~ google profile  work II
-        - google account  work II
-        - yahoo account work II
-        - LTK account work II
+        work account II
+            - work profile II
+            ~ google profile  work II
+            - google account  work II
+            - yahoo account work II
+            - LTK account work II
 
-    personal account I
-        - personal profile I
-        - bumble account personal I
-        - google account personal I
-        - yahoo account personal I
-        - claude account personal I
-        - grok account personal I
-        - youtube account personal I
-
-
-tools|toolkit|toolset|toolbox|developer management system
-
-- 3rd party tool manager
-- internal SDK + API manager
+        personal account I
+            - personal profile I
+            - bumble account personal I
+            - google account personal I
+            - yahoo account personal I
+            - claude account personal I
+            - grok account personal I
+            - youtube account personal I
 
 
-user management system
+    tools|toolkit|toolset|toolbox|developer management system
 
-    user personas
-        - contractor
-        - freelancer
-        - consultant
-        - gig worker
-        - entrepreneuer
-        - hobbyist, enthusiast
+    - 3rd party tool manager
+    - internal SDK + API manager
 
-    account types
-        - administrator
-        - reporter
-        - watcher
-        - developer
-        - user
-        - support
 
-portfolio community + marketplace + centers management system
+    user management system
+
+        user personas
+            - contractor
+            - freelancer
+            - consultant
+            - gig worker
+            - entrepreneuer
+            - hobbyist, enthusiast
+
+        account types
+            - administrator
+            - reporter
+            - watcher
+            - developer
+            - user
+            - support
+
+    portfolio community + marketplace + centers management system
+
+
+
+
+    network management system
+
+
+
+    AI management system
+
 

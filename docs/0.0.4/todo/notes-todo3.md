@@ -1250,3 +1250,5 @@ stable property rights
 equitable judicial system
 
 The House of Mungu
+
+the theory of governance and governance structures

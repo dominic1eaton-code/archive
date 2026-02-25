@@ -1241,6 +1241,8 @@ kogi systems
 
 labor, land, capital, entreprenuership, institution
 
+resources, assets, artifacts, value
+
 the formation, management and adminsitration OF intstitution
 
 stable property rights

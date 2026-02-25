@@ -1239,7 +1239,7 @@ kogi systems
 
 ---
 
-labor, land, capital, entreprenuership, institution
+labor, land, capital, entreprenuership, institution ~ model
 
 resources, assets, artifacts, value
 

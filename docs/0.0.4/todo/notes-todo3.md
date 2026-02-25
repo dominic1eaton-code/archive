@@ -1253,5 +1253,9 @@ The House of Mungu
 
 the theory of governance, governance structures, cooperative governance models
 
-evolutionary governance theory, decetnered theory, network governence, agency theory, kontiuinty+pontinuity+iontinuity+path dependence, policy theor
+evolutionary governance theory, decetnered theory, network governence, agency theory, kontiuinty+pontinuity+iontinuity+path dependence, policy theory, the theory of education+indoctrination+learning+assimilation+segregation+society
+
+the theory of formalization+compression+complexity
+
+the theory of entropy
 

@@ -1252,3 +1252,5 @@ equitable judicial system
 The House of Mungu
 
 the theory of governance, governance structures, cooperative governance models
+
+evolutionary governance theory, decetnered theory, network governence, agency theory, kontiuinty+pontinuity+iontinuity+path dependence

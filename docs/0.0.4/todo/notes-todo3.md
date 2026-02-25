@@ -1235,3 +1235,16 @@ kogi systems
         digital assistants system
         digital agents system
         game management system
+
+
+---
+
+labor, land, capital, entreprenuership, institution
+
+the formation, management and adminsitration OF intstitution
+
+stable property rights
+
+equitable judicial system
+
+The House of Mungu

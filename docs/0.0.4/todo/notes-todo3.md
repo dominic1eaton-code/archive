@@ -1152,6 +1152,7 @@ kogi systems
 
     kogi kernel
         digital independent worker executor|manager|scheduler
+        digital assistant system
 
     portfolio management system
         program management system

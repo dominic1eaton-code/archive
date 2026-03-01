@@ -1159,6 +1159,8 @@ the theory of formalization+compression+complexity
 
 the theory of entropy
 
+theory of clarity, definity, iterative refinement
+
 ---
 
 

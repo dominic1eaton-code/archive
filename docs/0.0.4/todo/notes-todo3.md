@@ -1165,7 +1165,7 @@ theory of clarity, definity, iterative refinement
 the theory of containment, boundary, space
 
 generative grammars, language, theory
-the theory of generativity
+the theory of generativity, relativity, interactivity
 
 ---
 

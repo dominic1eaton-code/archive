@@ -96,6 +96,7 @@ add outcome
 * independent worker community+marketplace+exchange management
 * independent worker notes+works+connections+ideas+concepts+prototypes+tests+benchmarks+evaluations+reports organizer
 * independent worker work breakdown structure mangaement system
+* state saving, tracking and control management system
 
 
 

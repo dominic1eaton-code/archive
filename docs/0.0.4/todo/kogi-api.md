@@ -94,5 +94,5 @@ add outcome
     * indexing ~ assigning connections between systems, rankings, value + value management systems, taxonomy + classification
 * system event management
 * independent worker community+marketplace+exchange management
-* independent worker notes+works+connections+ideas+concepts+prototypes+tests+benchmarks organizer
+* independent worker notes+works+connections+ideas+concepts+prototypes+tests+benchmarks+evaluations+reports organizer
 

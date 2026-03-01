@@ -49,6 +49,20 @@ create book memo
 create book xxx
 create memo
 
+
+create charter
+create mission
+create vision
+create objective
+create goal
+create objective
+create milestone
+
+add strategy
+add tactic
+add operation
+add outcome
+
 # 
 
 

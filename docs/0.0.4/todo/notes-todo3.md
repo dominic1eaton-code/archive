@@ -1161,40 +1161,50 @@ kogi systems
         asset+artifact managemnet
         content+library+collection+list management system
 
-    account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
+    account management system
+        
+        profile management system
+        
+        configuration management system
+        
+        settings+options management system
+        
+        link+connection+tree+network management system
 
-        - work account
+        account|profiles manager + linktree/linkforest manager (linkforest = collection of linktrees, where linktree = stack of internet/social-media accounts) management system
 
-        - personal account
+            - work account
 
-        - misc account
+            - personal account
 
-        e.g. 
+            - misc account
 
-        work account I
-            - work profile I
-            ~ google profile  work I
-            - google account  work I
-            - chatGPT account work I
-            - microsoft account work I
-            - canva account  work I
-            - etc....
+            e.g. accounts...
 
-        work account II
-            - work profile II
-            ~ google profile  work II
-            - google account  work II
-            - yahoo account work II
-            - LTK account work II
+            work account I
+                - work profile I
+                ~ google profile  work I
+                - google account  work I
+                - chatGPT account work I
+                - microsoft account work I
+                - canva account  work I
+                - etc....
 
-        personal account I
-            - personal profile I
-            - bumble account personal I
-            - google account personal I
-            - yahoo account personal I
-            - claude account personal I
-            - grok account personal I
-            - youtube account personal I
+            work account II
+                - work profile II
+                ~ google profile  work II
+                - google account  work II
+                - yahoo account work II
+                - LTK account work II
+
+            personal account I
+                - personal profile I
+                - bumble account personal I
+                - google account personal I
+                - yahoo account personal I
+                - claude account personal I
+                - grok account personal I
+                - youtube account personal I
 
     tools|toolkit|toolset|toolbox|developer management system
         - 3rd party tool manager

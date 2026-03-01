@@ -100,7 +100,9 @@ add outcome
 * capatbility+core competency management system
 * solution, product, service, platform, system, application management system
 * classes, categories, types management system
-
+* testing, quality control, prototyping management system
+* distribution, logistics, supply chain management system
+* value, value chain management system
 
 
 

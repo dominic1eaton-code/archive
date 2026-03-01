@@ -1135,6 +1135,9 @@ Trials and Regulatory Approvals: Measure the product’s effectiveness and get i
 Delivery to Customers: Market your final product to relevant consumers. Read more
 
 
+---
+
+memetic incubation
 
 ---
 

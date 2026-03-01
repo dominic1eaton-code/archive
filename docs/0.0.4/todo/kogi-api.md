@@ -87,8 +87,8 @@ add outcome
 * tag|filter|search|index  independent worker projects, portfolios, programs
 * manage independent worker accounts accross many digital platforms
 * manage independent worker connections, networks, systems
-* track  independent worker processes, tasks, workflows, orchestrations, automations
-* 
+* manage, administer independent worker work+job+gig+task+contract+consultation execution
+    * track  independent worker processes, tasks, workflows, orchestrations, automations
 
 
 

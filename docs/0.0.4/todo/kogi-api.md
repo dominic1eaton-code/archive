@@ -110,10 +110,9 @@ login
         create account
     existing user
 
+
 open|view|edit|remove|share|watch|follow|like|subscribe portfolio|program|project|user(worker)
 open|view|edit|remove asset|resource|artufact|item
-
-
 
 
 

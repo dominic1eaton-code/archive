@@ -85,6 +85,7 @@ add outcome
 
 # notes / features
 * system(s) manager, portfolio of systems - scaffolding manager
+* independent worker work+portfolio lifecycle management
 * tag|filter|search|index  independent worker projects, portfolios, programs, systems
 * manage independent worker accounts accross many digital platforms
 * manage independent worker connections, networks, systems
@@ -93,5 +94,4 @@ add outcome
     * indexing ~ assigning connections between systems, rankings, value + value management systems, taxonomy + classification
 * system event management
 * independent worker community+marketplace+exchange management
-* independent worker work lifecycle management
 

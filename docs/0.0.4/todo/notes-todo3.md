@@ -1161,6 +1161,9 @@ the theory of entropy
 
 theory of clarity, definity, iterative refinement
 
+
+the theory of containment, boundary
+
 ---
 
 

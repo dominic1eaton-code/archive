@@ -1151,6 +1151,7 @@ track tasks, works, work, assets, artifacts, programs, processes, orchestrations
 kogi systems
 
     kogi kernel
+        ~kogi execution model
         digital independent worker executor|manager|scheduler
         digital assistant system
         resource manager | resource management system

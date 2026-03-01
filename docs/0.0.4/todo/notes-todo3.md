@@ -1169,6 +1169,7 @@ the theory of generativity, relativity, interactivity ~ the theory of connectivi
 
 the theory of pattern matching+completion+recognition+identification
 
+syndrome
 
 ---
 

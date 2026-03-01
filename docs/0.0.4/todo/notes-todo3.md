@@ -1137,7 +1137,27 @@ Delivery to Customers: Market your final product to relevant consumers. Read mor
 
 ---
 
-memetic incubation
+memetic incubation, induction
+
+labor, land, capital, entreprenuership, institution ~ model
+
+resources, assets, artifacts, value
+
+the formation, management and adminsitration OF intstitution
+
+stable property rights
+
+equitable judicial system
+
+The House of Mungu
+
+the theory of governance, governance structures, cooperative governance models
+
+evolutionary governance theory, decetnered theory, network governence, agency theory, kontiuinty+pontinuity+iontinuity+path dependence, policy theory, the theory of education+indoctrination+learning+assimilation+segregation+society
+
+the theory of formalization+compression+complexity
+
+the theory of entropy
 
 ---
 
@@ -1253,24 +1273,3 @@ kogi systems
 
 
 ---
-
-labor, land, capital, entreprenuership, institution ~ model
-
-resources, assets, artifacts, value
-
-the formation, management and adminsitration OF intstitution
-
-stable property rights
-
-equitable judicial system
-
-The House of Mungu
-
-the theory of governance, governance structures, cooperative governance models
-
-evolutionary governance theory, decetnered theory, network governence, agency theory, kontiuinty+pontinuity+iontinuity+path dependence, policy theory, the theory of education+indoctrination+learning+assimilation+segregation+society
-
-the theory of formalization+compression+complexity
-
-the theory of entropy
-

@@ -84,7 +84,8 @@ add outcome
 
 
 # notes / features
-* tag|filter|search|index  independent worker projects, portfolios, programs
+* system(s) manager, portfolio of systems - manager
+* tag|filter|search|index  independent worker projects, portfolios, programs, systems
 * manage independent worker accounts accross many digital platforms
 * manage independent worker connections, networks, systems
 * manage, administer independent worker work+job+gig+task+contract+consultation execution

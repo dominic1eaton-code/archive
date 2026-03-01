@@ -14,6 +14,16 @@ run kernel
 stop kernel
 
 
+create account
 
+    create profile
+
+    create options
+
+    create settings
+
+    
+
+# 
 
 

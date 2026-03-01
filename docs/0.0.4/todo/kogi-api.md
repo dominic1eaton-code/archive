@@ -84,7 +84,7 @@ add outcome
 
 
 # notes / features
-* system(s) manager, portfolio of systems - manager
+* system(s) manager, portfolio of systems - scaffolding manager
 * tag|filter|search|index  independent worker projects, portfolios, programs, systems
 * manage independent worker accounts accross many digital platforms
 * manage independent worker connections, networks, systems

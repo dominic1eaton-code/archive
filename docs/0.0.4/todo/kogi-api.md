@@ -13,9 +13,27 @@ init kernel
 run kernel
 stop kernel
 
+create system
+    
+    create kernel
+
+
+
 create executor
 
     create worker
+
+        create thread
+
+        create process
+
+        create orchestration
+
+            create workflow
+
+                create task
+
+
 
 create account
 
@@ -58,11 +76,21 @@ create goal
 create objective
 create milestone
 
+
 add strategy
 add tactic
 add operation
 add outcome
 
-# 
+
+# notes / features
+* tag|filter|search|index  independent worker projects, portfolios, programs
+* manage independent worker accounts accross many digital platforms
+* manage independent worker connections, networks, systems
+* track  independent worker processes, tasks, workflows, orchestrations, automations
+* 
+
+
+
 
 

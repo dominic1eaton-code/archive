@@ -91,5 +91,7 @@ add outcome
 * manage, administer independent worker work+job+gig+task+contract+consultation execution
     * track+schedule+index independent worker processes, tasks, workflows, orchestrations, automations
     * indexing ~ assigning connections between systems, rankings, value + value management systems, taxonomy + classification
-
+* system event management
+* independent worker community+marketplace+exchange management
+* independent worker work lifecycle management
 

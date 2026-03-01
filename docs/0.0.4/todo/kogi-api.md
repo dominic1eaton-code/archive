@@ -89,9 +89,7 @@ add outcome
 * manage independent worker accounts accross many digital platforms
 * manage independent worker connections, networks, systems
 * manage, administer independent worker work+job+gig+task+contract+consultation execution
-    * track  independent worker processes, tasks, workflows, orchestrations, automations
-
-
-
+    * track+schedule+index independent worker processes, tasks, workflows, orchestrations, automations
+    * indexing ~ assigning connections between systems, rankings, value + value management systems, taxonomy + classification
 
 

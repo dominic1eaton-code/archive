@@ -97,7 +97,9 @@ add outcome
 * independent worker notes+works+connections+ideas+concepts+prototypes+tests+benchmarks+evaluations+reports organizer
 * independent worker work breakdown structure mangaement system
 * state saving, tracking and control management system
-* apatbility management system
+* capatbility+core competency management system
+* solution, product, service, platform, system, application management system
+* classes, categories, types management system
 
 
 

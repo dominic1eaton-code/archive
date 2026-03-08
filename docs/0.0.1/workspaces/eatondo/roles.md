@@ -121,3 +121,14 @@
 
 * the batwa foundation
 
+
+
+
+
+---
+
+
+create UIUX specification + UIUX design + user flow + wireframes flow document for qala
+
+
+generate a business plan for the qala platform

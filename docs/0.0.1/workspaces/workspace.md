@@ -18,7 +18,7 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
 - obatala-studios
 
     - niguvu-corporation
-        * parent company of all other organizations
+        * coordination arm of all other organizations
 
     - mande-investment-group
         * investment arm of all other organizations
@@ -28,6 +28,15 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
 
     - wolof.io
         * independent worker economy platform technology company
+        * solution platform divisions
+            - kogi division
+            - ume division
+            - qala division
+            - oru division
+            - sambara division
+            - imewe division
+            - nandi division
+            - osyse division
 
     - azande-agency
         * software agency
@@ -38,11 +47,16 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
         * damara-enterprise-engineering-contracting-firm
 
     - lomwe-systems-engineering-firm
+        * project management, systems solutions
+        * resources, mining, distribution, logistics, supply chain solutions
 
     - san-engineering-firm
         * environmental and civilization engineering firm
+        * construction, infrastructure company
 
     - massai-media-group
+        * massai-mraketing
+
         * massai-games
             + video games studio
             + board games studio

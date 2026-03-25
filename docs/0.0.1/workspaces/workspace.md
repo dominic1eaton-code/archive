@@ -17,7 +17,7 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
 # organizations
 - obatala-studios
 
-    - niguvu-corporation
+    - niguvu-corporation, herero-corporation
         * coordination arm of all other organizations
 
     - mande-investment-group
@@ -91,6 +91,10 @@ cartographer please describe/define/analyze/formalize/organize/categorize the fo
         * the freedmans credit union
 
         * the maafa reparations fund
+
+        * the herero fund
+
+        * the nama foudnation
         
         * the takiya fund
             - fund for the families/loved ones of victims of policing and violence

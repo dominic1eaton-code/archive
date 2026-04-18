@@ -1,0 +1,9 @@
+[package]
+name = "office"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"] # This tells Cargo to build a C-compatible dynamic library
+
+[dependencies]

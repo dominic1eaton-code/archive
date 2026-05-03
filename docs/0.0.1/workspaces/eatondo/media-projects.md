@@ -1,6 +1,6 @@
 # books
 * fiction works
-    - the X series
+    - the historia quidriginta series
         - keeper of stones
         - the old gods
         - they called themselves the first
@@ -8,7 +8,7 @@
         - sand
 
 * non fiction works
-    - the clotilda 
+    - the clotilda
 
 # plays
 * teleplays
@@ -27,7 +27,7 @@
         - the obsidian queen
             - queen shemekka
             -  story of intrigue and spies, political infiltration under dire circumstances
-            * our kingdom was strong... and theirs was not. The queen commanded legions, in a land where the people sang her praise. They drank clean waters and breathed fresh air. There was no mistaking the riches, in a kingdom imbued with the powers of the old gods, the queen held a swift hand of strength .
+            * our kingdom was strong... and theirs was not. The queen commanded legions, in a land where the people sang her praise. They drank clean waters and breathed fresh air. There was no mistaking the riches, in kingdom imbued with the powers of the old gods, the queen held a swift hand of strength .
             * female seductress and spy character
             * female mercenary gaurds characters
             * female grifter, con artist character
@@ -92,8 +92,6 @@
 
 # board games
 - the orishas deck builder strategy
-
-
 
 
 # films-series

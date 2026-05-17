@@ -1,0 +1,460 @@
+
+
+
+    <!-- Toolbar Edit — toggle panel -->
+    <div class="tb-edit-wrap" id="tb-edit-wrap"
+        onmouseenter="tbEditHover(true)"
+        onmouseleave="tbEditHover(false)">
+
+      <!-- Edit Button -->
+      <div class="tb-btn tb-edit-btn" title="edit toolbar" onclick="tbEditToggle(event)">
+        <svg width="6" height="12" viewBox="0 0 6 12" fill="currentColor">
+          <circle cx="3" cy="2" r="1.2"/>
+          <circle cx="3" cy="6" r="1.2"/>
+          <circle cx="3" cy="10" r="1.2"/>
+        </svg>
+      </div>
+
+      <!-- Edit Panel -->
+      <div class="tb-edit-panel" id="tb-edit-panel">
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="schedule"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>schedule</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="tasks"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>tasks</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="focus"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>focus</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="notes"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>notes</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="messages"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>messages</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="command"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>command</span>
+        </label>
+
+        <label class="tb-edit-item">
+          <input type="checkbox" data-label="assistant"
+                onchange="toggleToolbarItem(this.dataset.label)">
+          <span>assistant</span>
+        </label>
+      </div>
+    </div>
+
+    
+  <!-- Dock Edit — toggle panel -->
+  <div class="dock-edit-wrap" id="dock-edit-wrap"
+      onmouseenter="dockEditHover(true)"
+      onmouseleave="dockEditHover(false)">
+
+    <!-- Edit Button -->
+    <div class="dock-btn dock-edit-btn" title="edit dock" onclick="dockEditToggle(event)">
+      <svg width="6" height="12" viewBox="0 0 6 12" fill="currentColor">
+        <circle cx="3" cy="2" r="1.2"/>
+        <circle cx="3" cy="6" r="1.2"/>
+        <circle cx="3" cy="10" r="1.2"/>
+      </svg>
+    </div>
+
+    <!-- Edit Panel -->
+    <div class="dock-edit-panel" id="dock-edit-panel">
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="home"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>home</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="explorer"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>explorer</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="apps"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>apps</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="settings"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>settings</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="terminal"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>terminal</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="command"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>command</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="profile"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>profile</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="workspaces"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>workspaces</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="observatory"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>observatory</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="agents"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>agents</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="enterprises"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>enterprises</span>
+      </label>
+
+      <label class="dock-edit-item">
+        <input type="checkbox" data-label="security"
+              onchange="toggleDockItem(this.dataset.label)">
+        <span>security</span>
+      </label>
+
+    </div>
+  </div>
+
+const toolbarState = {
+  schedule: true,
+  tasks: true,
+  focus: true,
+  notes: true,
+  messages: true,
+  assistant: true
+};
+
+
+// ══════════════════════════════════════════════════════════════
+// DOCK EDIT SYSTEM (CHECKBOX-DRIVEN)
+// ══════════════════════════════════════════════════════════════
+let dockEditPinned = false;
+let dockEditCloseTimer;
+
+// Central dock state (source of truth)
+const dockState = {
+  home: true,
+  explorer: true,
+  apps: true,
+  settings: true,
+  terminal: true,
+  command: true,
+  profile: true,
+  workspaces: true,
+  observatory: true,
+  agents: true,
+  enterprises: true,
+  security: true
+};
+
+// ══════════════════════════════════════════════════════════════
+// OPEN / CLOSE CONTROL
+// ══════════════════════════════════════════════════════════════
+
+function setDockEditOpen(isOpen) {
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (wrap) wrap.classList.toggle('open', isOpen);
+}
+
+function closeDockEdit(force) {
+  clearTimeout(dockEditCloseTimer);
+  if (force) dockEditPinned = false;
+  if (!dockEditPinned || force) setDockEditOpen(false);
+}
+
+function dockEditHover(isHovering) {
+  clearTimeout(dockEditCloseTimer);
+  if (isHovering) {
+    setDockEditOpen(true);
+    return;
+  }
+  dockEditCloseTimer = setTimeout(() => {
+    if (!dockEditPinned) setDockEditOpen(false);
+  }, 120);
+}
+
+function dockEditToggle(event) {
+  if (event) event.stopPropagation();
+  clearTimeout(dockEditCloseTimer);
+
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (!wrap) return;
+
+  const isOpen = wrap.classList.contains('open');
+  dockEditPinned = !(isOpen && dockEditPinned);
+  setDockEditOpen(!isOpen || dockEditPinned);
+
+  // Sync UI whenever opened
+  if (!isOpen) syncDockEditUI();
+}
+
+// Close when clicking outside
+document.addEventListener('click', e => {
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (wrap && !wrap.contains(e.target)) closeDockEdit(true);
+});
+
+// ══════════════════════════════════════════════════════════════
+// CHECKBOX → STATE
+// ══════════════════════════════════════════════════════════════
+
+function toggleDockItem(label) {
+  if (!(label in dockState)) return;
+
+  dockState[label] = !dockState[label];
+
+  applyDockState();
+  persistDockState();
+}
+
+// ══════════════════════════════════════════════════════════════
+// STATE → UI
+// ══════════════════════════════════════════════════════════════
+
+function syncDockEditUI() {
+  document.querySelectorAll('.dock-edit-item input[type="checkbox"]').forEach(cb => {
+    const label = cb.getAttribute('onchange')?.match(/'(.+?)'/)?.[1];
+    if (!label) return;
+
+    cb.checked = !!dockState[label];
+
+    const item = cb.closest('.dock-edit-item');
+    if (item) item.classList.toggle('active', dockState[label]);
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// STATE → DOCK VISIBILITY
+// ══════════════════════════════════════════════════════════════
+
+function applyDockState() {
+  Object.keys(dockState).forEach(label => {
+    const el = document.querySelector(`.dock-item[data-label="${label}"]`);
+    if (!el) return;
+
+    el.style.display = dockState[label] ? '' : 'none';
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// PERSISTENCE
+// ══════════════════════════════════════════════════════════════
+
+function persistDockState() {
+  try {
+    localStorage.setItem('dockState', JSON.stringify(dockState));
+  } catch (e) {}
+}
+
+function loadDockState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('dockState'));
+    if (saved) {
+      Object.keys(dockState).forEach(k => {
+        if (k in saved) dockState[k] = saved[k];
+      });
+    }
+  } catch (e) {}
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+
+function initDockEdit() {
+  loadDockState();
+  applyDockState();
+  syncDockEditUI();
+}
+
+// Run on load
+document.addEventListener('DOMContentLoaded', initDockEdit);
+
+
+
+
+// ══════════════════════════════════════════════════════════════
+// DOCK EDIT SYSTEM (CHECKBOX-DRIVEN)
+// ══════════════════════════════════════════════════════════════
+let dockEditPinned = false;
+let dockEditCloseTimer;
+
+// Central dock state (source of truth)
+const dockState = {
+  home: true,
+  explorer: true,
+  apps: true,
+  settings: true,
+  terminal: true,
+  command: true,
+  profile: true,
+  workspaces: true,
+  observatory: true,
+  agents: true,
+  enterprises: true,
+  security: true
+};
+
+// ══════════════════════════════════════════════════════════════
+// OPEN / CLOSE CONTROL
+// ══════════════════════════════════════════════════════════════
+
+function setDockEditOpen(isOpen) {
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (wrap) wrap.classList.toggle('open', isOpen);
+}
+
+function closeDockEdit(force) {
+  clearTimeout(dockEditCloseTimer);
+  if (force) dockEditPinned = false;
+  if (!dockEditPinned || force) setDockEditOpen(false);
+}
+
+function dockEditHover(isHovering) {
+  clearTimeout(dockEditCloseTimer);
+  if (isHovering) {
+    setDockEditOpen(true);
+    return;
+  }
+  dockEditCloseTimer = setTimeout(() => {
+    if (!dockEditPinned) setDockEditOpen(false);
+  }, 120);
+}
+
+function dockEditToggle(event) {
+  if (event) event.stopPropagation();
+  clearTimeout(dockEditCloseTimer);
+
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (!wrap) return;
+
+  const isOpen = wrap.classList.contains('open');
+  dockEditPinned = !(isOpen && dockEditPinned);
+  setDockEditOpen(!isOpen || dockEditPinned);
+
+  // Sync UI whenever opened
+  if (!isOpen) syncDockEditUI();
+}
+
+// Close when clicking outside
+document.addEventListener('click', e => {
+  const wrap = document.getElementById('dock-edit-wrap');
+  if (wrap && !wrap.contains(e.target)) closeDockEdit(true);
+});
+
+// ══════════════════════════════════════════════════════════════
+// CHECKBOX → STATE
+// ══════════════════════════════════════════════════════════════
+
+function toggleDockItem(label) {
+  if (!(label in dockState)) return;
+
+  dockState[label] = !dockState[label];
+
+  applyDockState();
+  persistDockState();
+}
+
+// ══════════════════════════════════════════════════════════════
+// STATE → UI
+// ══════════════════════════════════════════════════════════════
+
+function syncDockEditUI() {
+  document.querySelectorAll('.dock-edit-item input[type="checkbox"]').forEach(cb => {
+    const label = cb.getAttribute('onchange')?.match(/'(.+?)'/)?.[1];
+    if (!label) return;
+
+    cb.checked = !!dockState[label];
+
+    const item = cb.closest('.dock-edit-item');
+    if (item) item.classList.toggle('active', dockState[label]);
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// STATE → DOCK VISIBILITY
+// ══════════════════════════════════════════════════════════════
+
+function applyDockState() {
+  Object.keys(dockState).forEach(label => {
+    const el = document.querySelector(`.dock-item[data-label="${label}"]`);
+    if (!el) return;
+
+    el.style.display = dockState[label] ? '' : 'none';
+  });
+}
+
+// ══════════════════════════════════════════════════════════════
+// PERSISTENCE
+// ══════════════════════════════════════════════════════════════
+
+function persistDockState() {
+  try {
+    localStorage.setItem('dockState', JSON.stringify(dockState));
+  } catch (e) {}
+}
+
+function loadDockState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('dockState'));
+    if (saved) {
+      Object.keys(dockState).forEach(k => {
+        if (k in saved) dockState[k] = saved[k];
+      });
+    }
+  } catch (e) {}
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+
+function initDockEdit() {
+  loadDockState();
+  applyDockState();
+  syncDockEditUI();
+}
+
+// Run on load
+document.addEventListener('DOMContentLoaded', initDockEdit);
+
